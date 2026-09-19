@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - import-fiction-archive
-    paths:
-      - incoming/fiction-github-export-20260919.zip
 
 permissions:
   contents: write
@@ -20,13 +18,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Validate and unpack archive
+      - name: Download, validate and unpack archive
         shell: bash
+        env:
+          ARCHIVE_URL: "https://sdmntprkoreacentral.oaiusercontent.com/files/00000000-b210-8206-a186-d88815ce300f/raw?se=2026-09-19T14%3A51%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=eb42a16c-0f19-5311-b3d4-2db77d5f43c6&skoid=6980ab1e-b994-4668-84de-ad0444c9d08b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-19T01%3A07%3A14Z&ske=2026-09-20T01%3A07%3A14Z&sks=b&skv=2026-02-06&sig=0YEwaT9kwyy5ty7qN6k%2BAZzF7i409cpcfD8ABHRNgZM%3D"
         run: |
           set -euo pipefail
-          ZIP="incoming/fiction-github-export-20260919.zip"
+          ZIP="$RUNNER_TEMP/fiction-github-export-20260919.zip"
           TARGET="imports/chinese-fiction-archive"
           TMP="$(mktemp -d)"
+
+          curl --fail --location --retry 3 --output "$ZIP" "$ARCHIVE_URL"
+          test "$(stat -c '%s' "$ZIP")" = "12345784"
 
           unzip -t "$ZIP" >/dev/null
           unzip -q "$ZIP" -d "$TMP"
@@ -52,7 +55,6 @@ jobs:
           test -d "$TARGET/shared"
 
           rm -rf "$TMP"
-          rm -f "$ZIP"
           rm -f ".github/workflows/import-fiction-archive.yml"
 
       - name: Commit imported archive
