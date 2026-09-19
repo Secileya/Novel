@@ -1,0 +1,67 @@
+name: Import fiction archive
+
+on:
+  push:
+    branches:
+      - import-fiction-archive
+    paths:
+      - incoming/fiction-github-export-20260919.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out staging branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate and unpack archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          ZIP="incoming/fiction-github-export-20260919.zip"
+          TARGET="imports/chinese-fiction-archive"
+          TMP="$(mktemp -d)"
+
+          unzip -t "$ZIP" >/dev/null
+          unzip -q "$ZIP" -d "$TMP"
+
+          test -d "$TMP/github_export"
+
+          total="$(find "$TMP/github_export" -type f | wc -l | tr -d ' ')"
+          md="$(find "$TMP/github_export" -type f -iname '*.md' | wc -l | tr -d ' ')"
+          png="$(find "$TMP/github_export" -type f -iname '*.png' | wc -l | tr -d ' ')"
+
+          test "$total" = "458"
+          test "$md" = "452"
+          test "$png" = "6"
+
+          rm -rf "$TARGET"
+          mkdir -p "$TARGET"
+          cp -a "$TMP/github_export/." "$TARGET/"
+
+          test -f "$TARGET/CATALOG.md"
+          test -f "$TARGET/GPT_HANDOFF.md"
+          test -f "$TARGET/MANIFEST.md"
+          test -d "$TARGET/projects"
+          test -d "$TARGET/shared"
+
+          rm -rf "$TMP"
+          rm -f "$ZIP"
+          rm -f ".github/workflows/import-fiction-archive.yml"
+
+      - name: Commit imported archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --stat
+          git commit -m "Import Chinese fiction archive from Drive"
+          git push origin HEAD:import-fiction-archive
