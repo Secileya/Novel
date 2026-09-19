@@ -21,7 +21,7 @@ jobs:
       - name: Download and extract with Python zipfile
         shell: bash
         env:
-          ARCHIVE_URL: "https://sdmntprindiasocentral.oaiusercontent.com/files/00000000-eca4-8211-8c20-2555f118e6be/raw?se=2026-09-19T14%3A52%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=6629ae58-a57b-5364-84d0-dc807c3c1a74&skoid=6980ab1e-b994-4668-84de-ad0444c9d08b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-19T00%3A35%3A26Z&ske=2026-09-20T00%3A35%3A26Z&sks=b&skv=2026-02-06&sig=XCzpCW1M41DH6GHegDK8vZC2bqaOX1yMv0NDV8gbXUo%3D"
+          ARCHIVE_URL: "https://sdmntprindiasocentral.oaiusercontent.com/files/00000000-d008-8211-b535-7d49ebe5623b/raw?se=2026-09-19T14%3A53%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=7eb3e3d6-a55f-5f28-97de-4fe27af7e6e6&skoid=6980ab1e-b994-4668-84de-ad0444c9d08b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-19T01%3A37%3A28Z&ske=2026-09-20T01%3A37%3A28Z&sks=b&skv=2026-02-06&sig=ANEaSY%2BM5FHOkszoJJlG0fS7Bm2hI01cIsd81k8XfKw%3D"
         run: |
           set -euo pipefail
           ZIP="$RUNNER_TEMP/fiction-github-export-20260919.zip"
@@ -52,7 +52,7 @@ jobs:
           test "$png" = "6"
 
           test -f "$TMP/github_export/projects/apocalypse-liyue/mainline/chapters/001_第1章_末世第一夜，莉月開門.md"
-          test -f "$TMP/github_export/projects/wujiezong-sect/chapters/001_第一章_無界宗開山，大帝來敲門.md"
+          test -f "$TMP/github_export/projects/wujiezong-sect/chapters/001_第一章_無界宗開山，大帝來守門.md"
 
           rm -rf "$TARGET"
           mkdir -p "$TARGET"
