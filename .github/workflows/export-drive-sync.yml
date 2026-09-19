@@ -1,0 +1,38 @@
+name: Export Novel Drive Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/export-drive-sync.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+
+      - name: Verify export sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -d "小說"
+          echo "README + 小說 are ready for Drive sync."
+
+      - name: Upload synchronized archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: novel-drive-sync
+          path: |
+            README.md
+            小說
+          include-hidden-files: true
+          if-no-files-found: error
+          compression-level: 6
+          retention-days: 1
