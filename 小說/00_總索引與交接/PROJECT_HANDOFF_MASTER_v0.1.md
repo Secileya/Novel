@@ -24,6 +24,19 @@ GitHub 是小說專案的長期權威記憶。聊天記憶、模型 Memory、摘
 
 使用者無須每次提醒這條流程；續寫要求本身即視為自動觸發。
 
+## 1.2 舊對話恢復／漏存稽核
+
+若使用者明確提到「之前討論過」「舊對話」「應該有存 GitHub」「GitHub／流程漏掉先前討論」，不得直接假設現有 GitHub 已完整。
+
+先依 `NOVEL_WORKFLOW_PROTOCOL.md` 執行 **CONVERSATION_RECOVERY_GATE**：
+- 恢復指定舊對話；
+- 讀到後續修正；
+- 對照 GitHub；
+- 補漏／標記失效版本；
+- 若與正式正文衝突，不得靜默改正文。
+
+只有恢復稽核完成後，才進 PREWRITE_GATE。
+
 ## 2. 接手前必讀
 
 1. `小說/00_總索引與交接/NOVEL_WORKFLOW_PROTOCOL.md`
