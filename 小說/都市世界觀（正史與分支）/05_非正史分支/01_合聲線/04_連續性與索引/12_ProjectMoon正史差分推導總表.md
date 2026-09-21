@@ -215,31 +215,32 @@
   - 告白發生在第一次約吃煎餅／蔥餅的約會中，安吉莉卡先直接說喜歡。
 - 合聲線兩人都活著，因此這些生活化 DNA 比原作「死後回憶」更應成為他們現在仍存在的日常基底。
 
-## 1.6 Charles' Office／查爾斯事務所完整網絡
+## 1.6 Charles' Office／查爾斯事務所：目前公開資料可核對網絡
 
 ### 原著明確：組織結構
 
-- Charles' Office 是北部都市的**一階事務所**，規模反而很小，核心只有十二名收尾人；其強項是十二人能力與性格差異極大，並以互補搭檔方式處理各種委託。
-- Charles 是事務所 Operator／經營者，但真正帶領十二名收尾人的「captain」是羅蘭。羅蘭不是色彩，仍靠實力與 Charles 的信任成為其他十一人的實際行動領隊。
-- 原始十二人中，羅蘭與 Olivier 是固定搭檔：羅蘭較衝、Olivier 謹慎，兩人互補。
-- Angelica 是之後為處理 Blood-red Night 事件才加入的額外成員，因此她不是原始十二人之一；按 Olivier 的敘述，她加入後可視為第十三名收尾人。
-- 羅蘭與 Angelica 在 Blood-red Night 事件後發展關係、結婚並離開 Charles' Office。原作後來其他成員也各自離開，事務所最終解散／被普遍認為已分道揚鑣。
+- **OFFICIAL_TEXT｜Olivier's Page**：Charles' Office 是一階事務所；Angelica 加入前共有十二名 Fixer，成員性格與專長各異，並以互補方式合作。
+- **OFFICIAL_META｜Art Book Vol. II**：Charles 是 Operator；羅蘭雖不是色彩，仍得到 Charles 信任並成為其他成員的 leader／captain。
+- **OFFICIAL_TEXT｜Olivier's Page**：羅蘭與 Olivier 是長年搭檔，羅蘭偏衝動、Olivier 偏謹慎，兩人互補。
+- **OFFICIAL_TEXT｜Olivier's Page**：Angelica 為 Blood-red Night 事件後加入；她不屬於原始十二人。
+- **OFFICIAL_TEXT／官方回憶**：羅蘭與 Angelica 後來結婚並離開 Charles' Office。
+- **OFFICIAL_TEXT｜Bayard／Olivier 相關文本**：在原作 LoR 現在時點，Charles' Office 成員已各自走上不同道路，Office 被視為已分散／解散。
 
 ### 已知成員
 
-原始十二人中目前正史明確具名者：
-- **Roland／羅蘭**：原始十二人之一；一階；十二人實際 captain／行動領隊。
-- **Olivier**：原始十二人之一；羅蘭長年搭檔、老朋友；後來進入 Hana Association。
-- **Astolfo**：原始十二人之一；明確關心羅蘭，原作中曾在其失控屠殺時勸阻；事務所解散後仍在都市北部活動。
-- **Ogier**：原始十二人之一；後續職涯未明，原作壞結局仍可見其與 Naimon、Renaud 談論羅蘭。
-- **Naimon**：原始十二人之一；後續職涯未明；原作壞結局中對羅蘭最為寬和，甚至有意再去見他。
-- **Renaud**：原始十二人之一；兼具力量與說服能力；曾受 Maugris 介紹去協助 Bayard，短期內就能整頓對方事務所的人。
-- **Maugris**：原始十二人之一；與 Bayard 是老朋友，能直接把 Renaud 介紹過去，顯示其具有自己的人際網絡。
-- **Bradamante**：原始十二人之一；正史資訊很少，Bayard's Office 至少曾見過其本人，並確認其衣著與武器風格和其他 Charles 成員同樣高度個人化。
-- **另有四名原始十二人仍未具名／未公開。**不得自行補名字、能力、性格或關係。
+目前公開資料可確認的**原始十二人具名者為八名**：
+- **Roland／羅蘭**：原始成員；一階；captain／leader。
+- **Olivier**：原始成員；羅蘭長年搭檔。**OFFICIAL_TEXT｜Hana Episode 1、Chesed Episode 5** 兩邊都直接把兩人稱為 old friend；後來 Olivier 進 Hana Association。
+- **Astolfo**：原始成員；原作有直接勸阻羅蘭屠殺的回憶，能證明至少有相當私人關心；但「本線現在是否仍是好友」屬 **INFERENCE／需按本線重算**。
+- **Ogier**：原始成員；原作壞結局與 Naimon、Renaud 談到羅蘭。除此之外私人關係資料有限。
+- **Naimon**：原始成員；原作壞結局對羅蘭態度較寬和，但這是經過原作 Library／屠殺後的未來情境，不能直接當成本線現在關係。
+- **Renaud**：原始成員；**OFFICIAL_TEXT｜Bayard's Page** 明確兼具力量與說服能力，曾由 Maugris 介紹去協助 Bayard。
+- **Maugris**：原始成員；**OFFICIAL_TEXT｜Bayard's Page** 明確是 Bayard 的 old friend，並把 Renaud 介紹給他。
+- **Bradamante**：原始成員；**OFFICIAL_TEXT｜Bayard's Office Fixer Page** 只能確認曾被 Bayard 一側見過，資料非常少。
+- **原始十二人另有四名未具名／未公開。**這是「十二名 − 八名已具名原始成員」的結果；不得自行補名、能力、性格或關係。
 
 後加入：
-- **Angelica／安吉莉卡**：為 Blood-red Night 事件加入；正式漆黑噤默；後來與羅蘭結婚並和他一同離開事務所。
+- **Angelica／安吉莉卡**：後加入成員，並非原始十二之一。公開資料常把她列入「已知 Charles' Office 成員」總表，因此容易造成「九名原始成員」的誤讀；本檔固定區分「八名具名原始成員＋Angelica 後加入」。
 
 管理者：
 - **Charles／查爾斯**：Operator／經營者。正史確認其高度信任羅蘭並把十二人的實際帶隊權交給他；更多個人資料仍不足。
@@ -250,9 +251,9 @@
 - **Olivier**：官方直接建立為羅蘭的長年搭檔與 old friend。後續若需要真正可信、能互相說重話又有歷史的人脈，Olivier 是最自然的第一順位。
 - **Angelica**：配偶，另列家庭關係，不只事務所同僚。
 
-**高度可信的舊同僚／私人關係較深，但正史未給出與 Olivier 同級「好友」定義：**
-- **Astolfo**：會直接介入羅蘭失控、勸他停下，顯示關係超過普通點頭同事；但正式文本目前不足以硬寫成「最親密好友」。
-- **Naimon**：原作後期仍對羅蘭保有理解與願意見面的態度，可視為較友善的舊隊友。
+**舊同僚中有較強私人關係證據，但不能直接升格成現在的好友：**
+- **Astolfo**：原作直接介入羅蘭失控並勸他停下，證明其關心程度高；本線因屠殺未發生，當前關係需重新推導。
+- **Naimon**：只可說原作某壞結局裡態度較寬和；這不是足夠證據去固定本線現在的親密度。
 
 **確定是熟識舊隊友，但友誼程度未定：**
 - **Ogier、Renaud、Maugris、Bradamante**。
@@ -267,7 +268,8 @@
   - 羅蘭維持一階；
   - 他沒有和 Astolfo／Renaud 等人因大屠殺產生原作那種決裂；
   - Charles' Office 舊人際網絡理論上保存得**比原作羅蘭後期更完整**。
-- 但這不等於 Charles' Office 在本線今天仍作為組織運作。羅蘭與安吉莉卡在分歧前就已結婚並離開；其他成員後來分道揚鑣這件事本身不依賴安吉莉卡死亡，因此目前優先仍把**Charles' Office 視為已解散／舊組織**，除非未來找到更直接資料證明本線差分會阻止解散。
+- 羅蘭與安吉莉卡**在原作就已於安吉莉卡死亡以前結婚並離開 Charles' Office**，所以「安吉莉卡存活」不會讓羅蘭自動恢復為現役 Charles 成員；本線目前仍應稱他為**前 Charles' Office captain／前成員**。
+- 但「Charles' Office 在本線目前是否也已正式解散」需要比先前更謹慎：原作 LoR 現在時點確實是分散／解散狀態，但本世界沒有完整 LoR 歷史，其他成員分道揚鑣的精確因果沒有完全公開。**因此本線組織現況改列「高可能已分散，但未完全鎖死」**，正式用到 Charles 本人／舊辦公室／檔案庫前必須再做專項核對。
 - 「組織已散」和「人脈消失」是兩件事。對後續調查而言，更重要的是**前 Charles 成員分散到不同體系後形成的舊人脈網**。
 
 ### 後續孩子真兇／跨世界調查可用的人脈功能
