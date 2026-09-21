@@ -62,7 +62,7 @@ GitHub 是小說專案的長期權威記憶。聊天記憶、模型 Memory、摘
 6. 再讀最近 2–5 章正文。
 7. 以本次任務建立 TOPIC_SWEEP；長檔必須定向抓取實際命中段落。
 8. 若使用者提到「以前談過／應該存過」，額外跑 CONVERSATION_RECOVERY_GATE。
-9. 若要正式續寫，再跑 PREWRITE_GATE；若使用 Project Moon 正史元素，再跑 CANON_DIVERGENCE_GATE。
+9. 若涉及 Project Moon／其他原作元素，先跑 CANON_EVIDENCE_AUDIT，再跑 CANON_DIVERGENCE_GATE；若要正式續寫，最後再跑 PREWRITE_GATE。
 10. 任務結束後按 SETTINGS_HANDOFF_SYNC／POSTWRITE 同步。
 
 ### 禁止的接手捷徑
@@ -121,7 +121,7 @@ GitHub 是小說專案的長期權威記憶。聊天記憶、模型 Memory、摘
 - `11_主題與別名索引.md`
 - `12_ProjectMoon正史差分推導總表.md`
 
-新對話不得只讀摘要；應依分支交接完成 ZERO_CONTEXT_BOOTSTRAP_GATE，再按任務進入 TOPIC_SWEEP／CANON_DIVERGENCE／PREWRITE 等 Gate。
+新對話不得只讀摘要；應依分支交接完成 ZERO_CONTEXT_BOOTSTRAP_GATE，再按任務進入 TOPIC_SWEEP／CANON_EVIDENCE_AUDIT／CANON_DIVERGENCE／PREWRITE 等 Gate。
 
 ### 末世開店玩家線
 
