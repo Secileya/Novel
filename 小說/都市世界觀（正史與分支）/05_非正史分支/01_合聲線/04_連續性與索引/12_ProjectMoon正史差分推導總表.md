@@ -198,7 +198,8 @@
 ## 1.3 里恩／跨世界模板因此要怎麼讀
 
 ### 證據層級先分開
-- **OFFICIAL_TEXT**：Canto IX 由 Callisto 直接稱里恩是受 Prescript 驅使、模仿「圖書館中某名收尾人命運」的仿製／simulacrum；Index 的 Prescript 紀錄亦對應「採取仿製身分並模仿圖書館某名收尾人的命運」。這一層官方沒有在該句直接說出 Roland。
+- **OFFICIAL_TEXT**：Canto IX 由 Callisto 直接稱里恩是受 Prescript 驅使、模仿「圖書館中某名收尾人命運」的仿製／simulacrum；Index 的 Prescript 紀錄亦對應「採取仿製身分並模仿圖書館某名收尾人的命運」。這裡的正史語境對應 Project Moon 原作世界的 Angela／LoR 圖書館，不等於本分支 Stiliya／Versiliya 異界圖書館；而且該句本身沒有直接說出 Roland。
+- **本線第一層矛盾**：本世界 Roland 沒有原作 LoR 入館／司書／圖書館人員歷史，因此 Prescript 的「圖書館中的收尾人」在本世界現有歷史中找不到直接對應。這個矛盾本身就是後續跨世界查詢的證據入口，不能略過。
 - **高可信對應判讀／INFERENCE**：里恩後續的人生遭遇、家庭結構、武器輪換、戰鬥與 LoR 的對照高度指向 Roland，且牽涉安吉莉卡的漆黑噤默武器庫。因此本專案可把 Roland／漆黑噤默作為作者層高可信參照，但角色層仍須經本世界自己的證據鏈得知。
 
 - 里恩若重演原作「羅蘭＋漆黑噤默武器輪換」模式，對本世界角色而言反而更異常：
