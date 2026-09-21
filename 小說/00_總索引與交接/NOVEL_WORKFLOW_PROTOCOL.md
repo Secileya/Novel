@@ -2,6 +2,61 @@
 
 > 用途：讓任何新對話／新模型在不依賴舊聊天上下文的情況下，從 GitHub 恢復小說工作狀態並正確續寫。
 
+## A0. 零知識啟動閘門（ZERO_CONTEXT_BOOTSTRAP_GATE）
+
+任何新對話／新模型／長時間未接手的工作階段，一律視為**沒有任何可靠先備知識**。本 Gate 的目的，是讓完全不知道 repo、檔名、世界線、正文進度與設定歷史的模型，也能靠文件恢復到可工作的完整狀態。
+
+### 觸發
+
+以下任一成立即觸發：
+- 新開普通對話；
+- 模型／模式切換；
+- 上下文被截斷或大量壓縮；
+- 使用者要求「接手」「沿用之前設定」「繼續之前小說」；
+- 模型無法從當前上下文明確證明自己已讀過本工作階段需要的來源。
+
+### 固定順序
+
+1. 讀 `PROJECT_HANDOFF_MASTER_v0.1.md`。
+2. 讀本 `NOVEL_WORKFLOW_PROTOCOL.md`。
+3. 確認使用者指定的作品／正史／分支／世界線；若使用者已明確指定，不再反問。
+4. 讀該線 `00_專案交接.md`。
+5. 按交接檔的精確路徑逐項讀必要來源文件。
+6. 讀最近 2–5 章正式正文。
+7. 建立本輪「狀態重建表」：
+   - 最新正文與停點
+   - 當前人物／地點／傷勢／物件
+   - 知識邊界
+   - 硬設定
+   - 候選／待決
+   - 最近後修／禁用
+   - 本輪任務涉及主題
+8. 再進 TOPIC_SWEEP_GATE。
+9. 涉及原作差分時再進 CANON_DIVERGENCE_GATE。
+10. 需要正式續寫時才進 PREWRITE_GATE。
+
+### 路徑未知時
+
+完全零知識模型如果不知道文件在哪裡：
+- 先靠 Master 中的入口；
+- 若入口檔提到的路徑失效，必須在 repo 搜檔名／關鍵詞；
+- 找到後回修交接路徑；
+- 不得因自己猜得到大概位置就略過。
+
+### 長檔與截斷
+
+- 一次 fetch 長檔被截斷，不算讀完。
+- 對本輪主題必須用關鍵詞／段落範圍重新抓取。
+- 「檔名已讀」不能作為 Gate PASS 證據。
+
+### PASS 條件
+
+只有當模型能**從當前工作階段已讀文件**重建世界線狀態，而不是靠舊記憶，才能判定：
+
+**ZERO_CONTEXT_BOOTSTRAP_GATE = PASS**
+
+此 Gate PASS 後，才允許重大設定判斷、規劃整合或正式續寫。
+
 ## A. 長期記憶原則
 
 GitHub 是 canonical memory。模型只需要記得「去哪裡讀」，不需要永久記住所有章節。
@@ -127,6 +182,16 @@ GitHub 是長期正典記憶，但**不能先驗假設 GitHub 已經完整保存
 **TOPIC_SWEEP_GATE = PASS**
 
 此閘門的目的，是避免「GitHub 明明早已保存，但模型因只讀摘要／長檔被截斷而表現得像第一次知道」。
+
+## Gate 總順序
+
+一般重大設定／規劃：
+`ZERO_CONTEXT_BOOTSTRAP_GATE → TOPIC_SWEEP_GATE →（必要時 CONVERSATION_RECOVERY_GATE）→（涉及原作時 CANON_DIVERGENCE_GATE）→ 設定判斷 → SETTINGS_HANDOFF_SYNC`
+
+正式續寫：
+`ZERO_CONTEXT_BOOTSTRAP_GATE →（必要時 CONVERSATION_RECOVERY_GATE）→ TOPIC_SWEEP_GATE → CANON_DIVERGENCE_GATE（若涉及原作）→ PREWRITE_GATE → 正文 → POSTWRITE_GATE → SETTINGS_HANDOFF_SYNC`
+
+任何 Gate 失敗都不得用模型熟悉度跳過。
 
 ## B0. 正式續寫硬閘門（PREWRITE_GATE）
 
