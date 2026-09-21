@@ -403,6 +403,7 @@
 5. 兩人加入同行後抵達升降區，LCB 才再次正面遇上手持金枝容器的小指父輩；其後 Sora 翻面並顯現自己的 **Effloresced E.G.O::Procuration**。
 6. Sora 在假扮 LCE 時曾穿戴／使用從死亡 LCE 員工取得的 **Dimension Shredder 提取型 E.G.O 裝備**；這和她自己的 Procuration 是兩件不同來源、不同身分的 E.G.O。
 7. Sora 後續仍因 LCB 救過自己而請 Rien 把龜螺旋解除碼資訊交給 LCB。
+8. **Rien 在 Canto IX 結尾沒有死亡。**事件善後時他失蹤、公司取消追捕；尾聲另有他遭食指代行者／Proxies 追殺並反殺其中一人的畫面，證明他當時仍在都市活動。
 
 ### 本線第十～十四章已成立差分
 
