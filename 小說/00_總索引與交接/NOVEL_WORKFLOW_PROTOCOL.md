@@ -224,10 +224,10 @@ GitHub 是長期正典記憶，但**不能先驗假設 GitHub 已經完整保存
 ## Gate 總順序
 
 一般重大設定／規劃：
-`ZERO_CONTEXT_BOOTSTRAP_GATE → TOPIC_SWEEP_GATE →（必要時 CONVERSATION_RECOVERY_GATE）→（涉及原作時 CANON_DIVERGENCE_GATE）→ 設定判斷 → SETTINGS_HANDOFF_SYNC`
+`ZERO_CONTEXT_BOOTSTRAP_GATE → TOPIC_SWEEP_GATE →（必要時 CONVERSATION_RECOVERY_GATE）→（涉及原作時 CANON_EVIDENCE_AUDIT → CANON_DIVERGENCE_GATE）→ 設定判斷 → SETTINGS_HANDOFF_SYNC`
 
 正式續寫：
-`ZERO_CONTEXT_BOOTSTRAP_GATE →（必要時 CONVERSATION_RECOVERY_GATE）→ TOPIC_SWEEP_GATE → CANON_DIVERGENCE_GATE（若涉及原作）→ PREWRITE_GATE → 正文 → POSTWRITE_GATE → SETTINGS_HANDOFF_SYNC`
+`ZERO_CONTEXT_BOOTSTRAP_GATE →（必要時 CONVERSATION_RECOVERY_GATE）→ TOPIC_SWEEP_GATE → CANON_EVIDENCE_AUDIT（若涉及原作）→ CANON_DIVERGENCE_GATE（若涉及原作）→ PREWRITE_GATE → 正文 → POSTWRITE_GATE → SETTINGS_HANDOFF_SYNC`
 
 任何 Gate 失敗都不得用模型熟悉度跳過。
 
@@ -358,6 +358,16 @@ GitHub 是長期正典記憶，但**不能先驗假設 GitHub 已經完整保存
 原作文本只作考據與改編依據，不應在輸出中大量逐字重製受版權保護的正文。
 
 
+### 舊流程缺陷修正：不能只核「有沒有查到」
+
+先前流程雖要求原作核對與差分推導，但缺少「**考據是否真的覆蓋足夠來源**」這一層，因此仍可能出現：
+- 查到一個總頁就停止；
+- 知道某角色的著名狀態，卻漏掉其所屬組織、人脈、原生身分與較早事件；
+- 把二手 wiki 彙整當成完整官方結論；
+- 做出正確方向的差分推導，但基線資料本身不完整。
+
+因此新增 CANON_EVIDENCE_AUDIT，並固定放在 CANON_DIVERGENCE_GATE **之前**。差分推導只能建立在已完成來源覆蓋檢查的基線上。
+
 ### 正史資料不得以「查到一頁」視為完整（CANON_EVIDENCE_AUDIT）
 
 只要使用者要求「完整查」「全部核對」「照原著判斷現在應該怎樣」，或某一正史元素會影響後續長線，就不能以一個 wiki 條目／單一摘要頁當作完整考據。
@@ -417,7 +427,7 @@ GitHub 是長期正典記憶，但**不能先驗假設 GitHub 已經完整保存
 對合聲線，分支專屬推導總表放在：
 `04_連續性與索引/12_ProjectMoon正史差分推導總表.md`
 
-只要本章會直接用到未完成差分推導的正史元素，**CANON_DIVERGENCE_GATE 不得 PASS，PREWRITE_GATE 也不得 PASS。**
+只要本章會直接用到未完成差分推導的正史元素，必須先有 **CANON_EVIDENCE_AUDIT = PASS**，之後 **CANON_DIVERGENCE_GATE** 才能 PASS；任一未 PASS，PREWRITE_GATE 都不得 PASS。
 
 ## J. 每章至少一個核心看點
 
