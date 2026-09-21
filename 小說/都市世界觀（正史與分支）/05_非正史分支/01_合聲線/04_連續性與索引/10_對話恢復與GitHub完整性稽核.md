@@ -105,3 +105,23 @@
 - 2026-09-21 Canto X 仍只公開 Part I；Part II／III 尚未出齊，因此仍維持「待正史更新」，不鎖完整改寫。
 
 本次恢復範圍包括：使用者實際提供的十五張截圖、當前可恢復聊天上下文與 GitHub 現行文件。**仍不宣稱已逐字取得整個歷史舊對話。**
+
+## 2026-09-21 最近多輪設定同步再稽核
+
+檢查範圍：本對話最近數輪關於《於枝前》、錯名遷移、七位碼、零知識交接、正史差分、Charles' Office、羅蘭／安吉莉卡、完整都市世界繼承與清道夫／Pierre／協會／都市危險層級等討論。
+
+本次實際發現並修正的漂移：
+
+1. Workflow 的 ZERO_CONTEXT_BOOTSTRAP 舊步驟曾直接進 CANON_DIVERGENCE，漏寫 CANON_EVIDENCE_AUDIT。
+2. 一般重大設定的 Gate 順序曾把 TOPIC_SWEEP 放在 CONVERSATION_RECOVERY 前；已恢復為「若觸發舊對話恢復，先 recovery，再 topic sweep」。
+3. Workflow 舊的「新對話固定讀取程序」仍保留簡化版，與新版零知識 Gate 不一致；已改成只服從 A0＋分支交接的唯一順序。
+4. 合聲線 `00_專案交接.md` 的固定閱讀順序仍曾把本檔放在 Master／Workflow 前；已改成 Master → Workflow → 分支交接。
+5. 合聲線固定閱讀順序曾只寫 CANON_DIVERGENCE；已補成 CANON_EVIDENCE_AUDIT → CANON_DIVERGENCE。
+6. `00_合聲線設定.md` 與 `11_主題與別名索引.md` 對 Charles' Office 仍殘留「已解散」過度定案；已改為「原作 LoR 時點分散／解散，本線正式現況未鎖死」。
+7. 都市總檔本身原先沒有把「所有都市分支繼承本總檔共同設定／任務／長期因果，除非分支明確覆蓋」寫成總則；現已補入 0.1。
+8. 續寫核定表新增「都市生態連續性」檢查，避免鏡頭長期集中 LCB／合聲後，把清道夫、協會、五指、事務所、工坊、翼、地方居民與其他都市事件寫到像不存在。
+9. 交接檔的「最新設定／規劃完整同步 commit」已重新對齊本輪實際修改。
+
+本輪未發現需要改動正式第十一～十三章正文的項目；目前修正均屬設定、流程、索引與未來規劃層。
+
+仍不宣稱整個 repo 已一次性逐字稽核完所有歷史舊說法。正式碰到某主題時仍需 TOPIC_SWEEP＋CANON_EVIDENCE_AUDIT／CANON_DIVERGENCE。
