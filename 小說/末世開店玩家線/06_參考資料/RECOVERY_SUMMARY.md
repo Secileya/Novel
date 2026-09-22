@@ -88,9 +88,13 @@ References:
 - 相關技能：`C:\Users\User\.codex\memories\skills\chinese-long-form-fiction-continuity\SKILL.md`。
 
 
-## 最新原作全文來源（2026-09-20）
+## 最新原作全文來源（2026-09-22 已正式入庫）
 
 使用者已直接提供完整原作 TXT：`末日求生：我有一家商店 - 山rain.txt`。
+
+- GitHub 正式全文路徑：`小說/末世開店玩家線/05_原著參考/末日求生：我有一家商店 - 山rain.txt`
+- Git blob SHA：`30c6ad48fb18aac99b8e8b7d920ffc1f9b4cdb90`
+- 後續續寫若涉及本線尚未發生的原作節點，以此 repo 內全文為第一來源，先讀對應章節＋前後數章，再做差分重算。
 
 文本頭部資訊：
 
