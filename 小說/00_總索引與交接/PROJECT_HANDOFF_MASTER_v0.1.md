@@ -242,6 +242,7 @@ GitHub 是小說專案的長期權威記憶。聊天記憶、模型 Memory、摘
 - 第一小篇章骨架
 - 第一至第八章正式正文與既有PREWRITE／POSTWRITE工作流；新插入第六章另有26號核定檔
 - 遊戲／現實雙時間軸對位、原著重要人物延後登場追蹤與重要人物／事件不得概要化規則
+- `27_原著第20至145章主角軌跡與章序重排總整_v1.0.md`：目前章序重排最高優先依據
 
 最新狀態：
 - Franiya：Lv9，人族游俠，自由模式。
@@ -257,10 +258,10 @@ GitHub 是小說專案的長期權威記憶。聊天記憶、模型 Memory、摘
 - 【極限速度流】首次具名出場已依2026-09-24回修前移至第三章Franiya Lv3；雙方只短暫接觸並互相知道ID，**尚未加好友**。第六、七章舊副本跟隨／出口等待／好友建立已撤回；第二次交叉需等待刺殺者公會／黑夜傳說／市場情報或共同事件等自然因果。
 - 公開只知道副本存在「下面」的路，實際地下入口搜索方式與隨機位置仍未公開。
 - Franiya已於第五章外出後自然遇見簡雨朧，並在正式第六章共同經歷R國襲擊；兩人已交換姓名與聯絡方式。
-- 原著1～152連續來源覆蓋已完成；原歷史第八章PREWRITE／差分仍只保留為FAIL歷史草案，不得因正式章號已到8而復用。下一個真正的新正文施工閘門為 **CHAPTER_009_PREWRITE**。
+- 原著1～152連續來源覆蓋已完成；原歷史第八章PREWRITE／差分仍只保留為FAIL歷史草案。2026-09-24進一步完成第20～145章主角軌跡統整後，現第7章後半與第8章正式位置改列待重排；**CHAPTER_009_PREWRITE目前禁止施工**。
 - 2026-09-23 已以repo原文Git blob完成連續正文級重讀：**16～27、28～54、55～84、85～100、101～123**；加上既有1～15，來源覆蓋已連續推進至123章。差分檔依序為18～22號。
 - 2026-09-24已完成124～144補讀並重新連續讀145～152；原著1～152在repo現有TXT範圍內已形成連續正文級覆蓋。另已完成正式1～7章回修稽核與原著事件延後／重排清單。
-- `SOURCE_COVERAGE_GATE = PASS`、`EVENT_RETIMING_LIST = PASS`、`EXTREME_SPEED_FLOW_RETIMING = PASS`。正式正文現為8章；`ORIGINAL_PROTAGONIST_TRAJECTORY_AUDIT = ACTIVE`，後續每段原著比對需同時追主角軌跡與世界自主軌跡。下一個新正文Gate為 `CHAPTER_009_PREWRITE`。
+- `SOURCE_COVERAGE_GATE = PASS`、`EVENT_RETIMING_LIST = PASS`、`EXTREME_SPEED_FLOW_RETIMING = PASS`；`ORIGINAL_PROTAGONIST_TRAJECTORY_AUDIT = ACTIVE`。正式正文現有8章，但第7章後半／第8章位置PENDING；`STRUCTURAL_RETIMING_GATE = FAIL`、`CHAPTER_009_PREWRITE = BLOCKED_BY_RESTRUCTURE`。
 - PREWRITE繼續固定核對遊戲／現實雙時間軸與延後原著重要人物的第一個合理登場窗口。
 - Repo原著TXT章標完整性未通過：外部資料標示1822章，但檔內最高章號1804且有缺號／重複；缺失範圍不得靠記憶補寫。
 
