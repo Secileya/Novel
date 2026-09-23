@@ -1,5 +1,7 @@
 # 第三章 PREWRITE 核定表 v1.0
 
+> **有效性：已完成章節的歷史施工紀錄。** 目前狀態以第三、四章正式正文及最新連續性文件為準。
+
 > 狀態：**CHAPTER_003_PREWRITE = PASS**
 >
 > 用途：第三章正式正文前置核定。
@@ -19,7 +21,7 @@
 - ZERO_CONTEXT_BOOTSTRAP_GATE：PASS
 - CONVERSATION_RECOVERY_GATE：**第三章範圍內可繼續**。舊對話完整逐訊息仍有上限造成的歷史缺口，但會直接影響第三章的有效決策（Franiya木然底色、完美時機、0痛、長章制、原文筆風、第二章停點）均已進現行GitHub正典；目前沒有發現只能存在舊對話、且會阻塞第三章的未同步決策。
 - TOPIC_SWEEP_GATE：PASS
-- CANON_EVIDENCE_AUDIT：PASS（第三章涉及的原著節點已直接回查完整TXT）
+- CANON_EVIDENCE_AUDIT：PASS（第三章涉及的原著節點已直接回查repo TXT中的相關連續段落；不代表整份TXT已收齊外部標示的1822章）
 - CANON_DIVERGENCE_GATE：PASS
 - 高影響設定衝突：無
 - **CHAPTER_003_PREWRITE：PASS**
