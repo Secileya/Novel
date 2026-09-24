@@ -140,12 +140,12 @@ Franiya不繼承沈雲的拒絕理由，但依自己的角色與遊戲路線重�
 - 因相關物品與月神阿爾忒彌斯的關係，沈雲被月神神殿列入必殺名單；
 - 十二主神神殿拒絕其進入。
 
-本線保留**制度性後果**，但不直接照搬原著「第33位」這個可能受世界狀態影響的名次。
+本線保留**制度性後果與第33位順位**。理由：本章時間點與原著高度接近，目前也沒有任何已建立的本線因果顯示月神神殿必殺名單在此時已發生足以改變順位的差異；原著又未描寫其他會改動這一順位的同期事件，因此最保守做法是直接保留原著第33位，而不是無證據重算。
 
-因此本章在Franiya拒絕、物品綁定後可建立：
+因此本章在Franiya拒絕、物品綁定後建立：
 - 月神神殿敵對／必殺名單狀態；
-- 十二主神神殿拒絕進入的系統後果；
-- 具體排名 = RECALCULATE／正文可不顯示。
+- **Franiya列入必殺名單第33位**；
+- 十二主神神殿拒絕進入的系統後果。
 
 Franiya對此的反應仍應低振幅：先確認規則，不因突然被神殿敵對就普通玩家式慌亂。
 
@@ -347,7 +347,7 @@ Franiya可正常查看【火狐炎刀】，但本章不需要立刻把後續所�
 - HERMES_ITEMS_BOUND_AFTER_DECLINE = YES
 - MOON_TEMPLE_HOSTILITY = ESTABLISHED
 - TWELVE_MAIN_TEMPLES_ACCESS = DENIED
-- MOON_TEMPLE_KILL_LIST_RANK = RECALCULATE
+- MOON_TEMPLE_KILL_LIST_RANK = 33
 - FRANIYA_LEVEL_END = Lv7
 - GATHERING_QUESTS_END = KEEP_28_37_22_UNLESS_NORMAL_GATHERING_RESUMES_LATE
 - WORLD_REACTION = MULTI_LAYERED
