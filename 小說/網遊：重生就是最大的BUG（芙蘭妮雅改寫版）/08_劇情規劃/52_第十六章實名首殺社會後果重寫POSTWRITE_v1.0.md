@@ -22,13 +22,14 @@
 - 工作室開始記錄她的路線與回村時間，將09:32進右岔＋09:41世界公告作為Boss可能位置的重要線索，但不能據此得到精確刷新點。
 - 赤紅成對短刃被玩家看到後，開始出現「疑似黃金掉落」的市場猜測，但【火狐炎刀】真名／屬性仍未知。
 - 五魚人多線攻擊場景正式展示「近身連斬＋投刀反彈／換手／再切入」；只在攻擊線增多時升高技巧密度，與「簡單敵人簡單解決」原則相容。
-- 該段被玩家錄到部分畫面，342區域論壇開始討論Franiya不是單純攻速快。
+- 該段被玩家錄到部分畫面，342區域論壇出現「不只是單純攻速」等猜測，但錄像太短、壓力太低、視角不完整，**目前沒有人真正摸清Franiya的技術結構**。
 - 她離開礦洞後，礦洞口／342市場已出現錄像、Boss坐標、疑似黃金裝情報收購與公會招募。
 - NPC交付段保留，但斯特拉／藥師可自然知道公開世界公告中的Franiya就是眼前本人；仍不知道私人系統內情。
 
 ## 判定
 - CHAPTER_016_PUBLIC_NAME_SOCIAL_REWRITE = PASS
 - RAPID_BLADE_NETWORK_COMBAT_FIRST_PUBLIC_CLIP = ESTABLISHED
+- PRE_BLOCKADE_TECHNIQUE_UNDERSTANDING = INSUFFICIENT
 - PUBLIC_KILLER_IDENTITY = KNOWN
 - BOSS_NAME_AND_EXACT_LOCATION = NOT_PUBLIC
 - CHAPTER_017_PREWRITE = NOT_ESTABLISHED
