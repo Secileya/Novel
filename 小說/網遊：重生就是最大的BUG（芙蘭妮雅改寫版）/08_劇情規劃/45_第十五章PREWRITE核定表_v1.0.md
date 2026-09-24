@@ -1,10 +1,12 @@
-> **正式落地更新（2026-09-24）：**第15章正文已完成於`01_章節/015_第十五章_公告裡沒有名字.md`；本PREWRITE已由`46_第十五章POSTWRITE差分_v1.0.md`逆向驗證PASS。
+> **正式落地更新（2026-09-24）：**第15章正文已完成於`01_章節/015_第十五章_名字已經傳開.md`；本PREWRITE已由`46_第十五章POSTWRITE差分_v1.0.md`逆向驗證PASS。
+
+> **2026-09-25後修：PUBLIC_NAME_RETCON。**第14章黃金Boss首殺時，Franiya對「是否公開玩家名」本身沒有偏好，因此不特地隱藏，世界／華夏公告直接公開【Franiya】；Boss名稱仍隱藏。以下凡以「匿名首殺／玩家名隱藏／候選身份」為前提的段落，均屬本PREWRITE當時的歷史施工設計，已由後修正式正文取代，不得作現行正典。
 
 # 第十五章PREWRITE核定表 v1.0
 
 > 日期：2026-09-24
 >
-> 章名候選：**第十五章｜公告裡沒有名字**
+> 章名候選：**第十五章｜名字已經傳開**
 >
 > 直接承接：第十四章〈它總得靠近〉章末。
 >
@@ -19,7 +21,7 @@
 - GOLD_BOSS_EVENT_TRIGGERED_IN_FORMAL_TEXT = YES
 - FIRST_GOLD_BOSS_KILLER = FRANIYA
 - CURRENT_LEVEL = Lv7
-- HIDE_PLAYER_NAME = YES
+- HIDE_PLAYER_NAME = NO／RETCON_PUBLIC
 - HIDE_BOSS_NAME = YES
 - CHAPTER_015_PREWRITE = BUILDING
 
