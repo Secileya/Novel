@@ -93,22 +93,6 @@
 所以第16章**不搬**原著29～31章「極限速度流警告 → 黑夜傳說直播 → 魔蟻陷阱」。
 如果刺殺者公會需要出現，只能作為既有情報線的遠景更新，不能為了對章號硬造追殺。
 
-### 2.4 「魔鐵鼠」校正
-
-上一輪串流中斷截圖中的暫記曾出現「魔鐵鼠」。
-
-本輪對：
-- 使用者上傳原著TXT；
-- 本專案GitHub有效文件；
-進行精準搜尋後，**均無「魔鐵鼠／魔铁鼠」有效來源命中**。
-
-相鄰原著真正存在的是**魔蟻**事件。
-
-因此：
-- MAGIC_IRON_RAT = NOT_SOURCE_BACKED
-- 不進第16章；
-- 不升格為世界設定、怪物或等級節奏依據。
-
 ### 2.5 第32章：交任務的直接結果
 
 原著第32章：
@@ -386,7 +370,6 @@ Franiya仍Lv7。
 - 不讓任務交付憑空給未證實經驗獎勵。
 - 不搬原著【極限速度流警告→黑夜傳說→魔蟻直播陷阱】。
 - 不在白天硬塞魔蟻潮。
-- 不使用無來源「魔鐵鼠」。
 - 不把【火狐炎刀】重構成雙刃等同複製兩套完整面板。
 - 不複製兩個【火焰刀】技能／冷卻。
 - 不讓三個黑鐵寶箱在本章為了刺激全部抽出高價裝備。
@@ -425,7 +408,6 @@ Franiya仍Lv7。
 - EXTREME_SPEED_FLOW_DIRECT_SCENE = NO
 - BLACK_NIGHT_LEGEND_ATTACK = NO
 - MAGIC_ANT_TRAP = NO
-- MAGIC_IRON_RAT = NOT_SOURCE_BACKED
 - DARK_GOLD_QUEST_CLUE_CONTENT = STILL_NOT_OBTAINED
 - FISHMAN_TREASURY_ROUTE = STILL_UNKNOWN
 - CHAPTER_016_START_LEVEL = Lv7
