@@ -33,7 +33,7 @@
 - Boss本體掉落尚未逐件撿取。
 - 黃金首殺寶箱尚未開啟。
 - 【怪物獵人（黃金）】已取得，但正文尚未細讀屬性。
-- 暗金級任務線索已獲得獎勵資格，但原著第29章證明其**不會立即發放具體線索內容**。
+- 暗金級任務線索已列入首殺獎勵，但原著第29章證明其**不會立即取得具體線索內容**；原著第36章進一步說明，該線索不是單純系統延遲郵件，而涉及陣營／神殿提供渠道：神殿拒絕沈雲後，地獄一方接納並於約1小時後由地獄使者提供線索。
 - Franiya本人尚不知道黃金寶箱與赫爾墨斯的關聯。
 
 ---
@@ -340,7 +340,8 @@ Franiya可正常查看【火狐炎刀】，但本章不需要立刻把後續所�
 - MID_HEALING_POTIONS = 2
 - BROKEN_ENHANCED_EYE_COPY = NO
 - MONSTER_HUNTER_GOLD_INFO = REVEAL
-- DARK_GOLD_QUEST_CLUE_CONTENT = NOT_YET_DELIVERED
+- DARK_GOLD_QUEST_CLUE_CONTENT = NOT_YET_OBTAINED
+- DARK_GOLD_QUEST_CLUE_CHANNEL = FACTION_SOURCE_PENDING
 - HERMES_CHEST = OPEN
 - FIRE_FOX_FLAME_BLADE = OBTAINED
 - MESSENGER_BADGE = OBTAINED
