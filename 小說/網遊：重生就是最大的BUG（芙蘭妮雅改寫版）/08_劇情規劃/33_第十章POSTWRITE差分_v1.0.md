@@ -27,7 +27,7 @@
 - 玩家介面出現昨日沒有的【個人資訊可見性／稱號顯示】選項。
 - 普通玩家只當成開服小修正。
 - 技術側確認沒有正常版本提交記錄；屬智腦接管後自行修正的一個低強度可見痕跡。
-- Franiya只知道「系統有變」，不知道全球主機襲擊或智腦全權接管內幕。
+- Franiya順著介面變化直接辨認出**修改者是智腦，且其控制權比昨日更深**；她沒有特意追查昨夜全球主機襲擊的完整經過或攻擊者身份。
 
 ### 章末
 - Franiya主動不刷經驗，改走342周邊另一條路線。
@@ -47,7 +47,7 @@
 - Lv8：未到。
 - 哥布林秘境：未進。
 - AI_FULL_CONTROL = ACTIVE
-- FRANIYA_KNOWS_AI_TAKEOVER = NO
+- FRANIYA_KNOWS_AI_TAKEOVER = YES
 - ZHENGTIAN_ENTRY = PUBLIC
 - CHAMPAGNE_PHANTOM_LOADED = YES
 - CHAPTER_010_POSTWRITE = PASS
