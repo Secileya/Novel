@@ -131,3 +131,8 @@
 - 未知：三隱藏任務精確條件、膽囊用途、黃金Boss位置。
 - 下一自然入口：回342向三間店詢問材料用途，或繼續觀察礦洞資源分布；依正文節奏決定。
 - CHAPTER_011_POSTWRITE = PENDING
+
+
+## 七、完成狀態
+- CHAPTER_011_POSTWRITE = PASS
+- CANON_CURRENTNESS_AUDIT = PASS
