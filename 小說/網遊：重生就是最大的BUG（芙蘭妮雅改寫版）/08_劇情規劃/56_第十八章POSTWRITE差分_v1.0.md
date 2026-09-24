@@ -103,7 +103,7 @@
 - 【絕世懶貓】【一拳打死兩頭牛】【李偉】【蔡一彤】已正式載入。
 - 暗金級任務線索已交付但未查看。
 - 千人PvP**尚未正式開打**。
-- 最終擊殺數、是否使用【神隱】、是否全滅、紅名後果均未核定。
+- 最終精確擊殺數仍未核定；但**擊殺政策已核定**：所有明確對Franiya進行嘲諷／挑釁、實際阻擋離村、或嘗試攻擊者都屬她會處理到底的參戰者。少數尚未做出任何敵對行動、在真正動手前就怯戰撤離者可以不殺；已經嘗試攻擊／阻擋後才逃跑，不因逃跑自動獲得放過。【神隱】若在當時是更有效率／更乾淨的解法，可以使用，不因『正面碾壓』而自我禁用。
 
 ## 十、下一章Gate
 
@@ -111,12 +111,12 @@
 1. Franiya到場時具體封鎖隊形與主要職業密度。
 2. 她是否先談／確認合同條件。
 3. 安全區PvP、紅名、死亡掉落、復活與回村規則。
-4. 【神隱】是否使用、何時使用、是否值得支付三日冷卻。
+4. 【神隱】使用條件：若能顯著縮短清場時間、降低不必要消耗、繞過封鎖密度或提高多線處理效率即可使用；不得因『她不用也能贏』就禁止使用。
 5. 【火狐炎刀】成對雙短刃在群戰中的合法面板／技能承載方式。
 6. 投刀／反彈／換手／多線並行在玩家群戰中的表現。
 7. 絕世懶貓、一拳打死兩頭牛的專業表現與被拆解方式。
 8. 華夏觀察者直播視角與第一輪慢放分析。
-9. 最終擊殺數重新決定；142不是上限，1000/1000也不是預先鎖死答案。
+9. 最終擊殺數由實際參戰者決定：所有已嘲諷／阻擋／攻擊者原則上都會被擊殺；只有在動手前就怯戰撤離、未形成任何敵對行動者可成為少數生還者。因此142不是上限，接近全滅很可能成立，但仍不先鎖死精確數字。
 10. 戰後紅名、藥品、補給、回村限制與世界反應。
 
 ## 十一、核定
@@ -135,5 +135,9 @@
 - `HELL_MESSENGER_CONTACT = COMPLETED`
 - `DARK_GOLD_CLUE_DELIVERED_UNREAD = ESTABLISHED`
 - `THOUSAND_PVP = NOT_STARTED`
-- `THOUSAND_KILL_COUNT = NOT_ESTABLISHED`
+- `THOUSAND_ENGAGEMENT_KILL_POLICY = ESTABLISHED`
+- `THOUSAND_KILL_COUNT_EXACT = NOT_ESTABLISHED`
+- `PRE_ACTION_COWARD_RETREAT_MAY_SURVIVE = YES`
+- `POST_ATTACK_RETREAT_DOES_NOT_GRANT_SPARING = ESTABLISHED`
+- `SHENYIN_IF_TACTICALLY_USEFUL = APPROVED`
 - `CHAPTER_019_PREWRITE = REQUIRED_SPECIAL_BLOCKADE_PREWRITE`
