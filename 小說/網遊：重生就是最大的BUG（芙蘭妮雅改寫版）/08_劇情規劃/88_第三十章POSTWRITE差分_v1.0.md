@@ -13,12 +13,12 @@
 - 第30章〈到門口，不進去〉正式完成。
 - 世界時間由第四日上午約11:40後連續推進至第四日下午約14:30前後。
 - Franiya於13:07左右以正常牛頭人戰鬥經驗正式升至Lv8；沒有提前碰硬錨，也沒有使用任務／作者補償強行升級。
-- Lv8自由屬性延續既有分配：力量3／敏捷2。
+- Lv8自由屬性延續既有分配：力量3／敏捷2；只計已確認自由分配累積更新為**力量23／敏捷17**（不含裝備加成與紅名-10%後實效值）。
 - 已正式裝備：
   - 【靈動之靴】（黃金）：敏捷+16；【疾馳】、【踢擊】正式進入可用狀態。
   - 【白骨戒指】（黃金）：精神+7、感知+10；【黑暗凝視】正式進入可用狀態。
 - Franiya沒有為了展示技能而浪費【疾馳】冷卻；【踢擊】只讀取系統能量／動作教學，尚未正式實戰使用。
-- 罪惡值／深紅近黑紅名與第20章「無法正常進入新手村補給」規則沒有被回修或繞過。
+- 第20章明示的罪惡值979不是永久鎖值；第21～30章持續打怪／練級依原著規則會自然洗紅。第30章沒有重新打開面板，因此章末精確罪惡值不硬填；深紅近黑紅名、全屬性-10%與第20章「無法正常進入新手村補給」規則仍沒有被回修或繞過。
 
 ## 二、紅名×切爾文衝突正式解法
 
@@ -120,7 +120,7 @@ Franiya現在正式知道並接受：
 - CURRENT_LEVEL = Lv8
 - CURRENT_TIME = DAY4_AFTERNOON_AROUND_1430
 - CURRENT_LOCATION = EDGE_OF_GALE_WOLF_PLAIN
-- GUILT_VALUE = 979（正文未建立新的數值變動）
+- GUILT_VALUE = BELOW_979_EXACT_UNCONFIRMED（第20章979為舊明示值；後續刷怪會自然降低，正文未重查面板）
 - RED_NAME_VILLAGE_RESTRICTION = ACTIVE
 - SPIRITUAL_BOOTS = EQUIPPED
 - WHITE_BONE_RING = EQUIPPED
@@ -134,7 +134,7 @@ Franiya現在正式知道並接受：
 - RESCUER_GUILD_GOBLIN_INTEL = ACTIVE_WORLD_OFFSCREEN
 - BLACK_IRON_RANDOM_CHESTS_X3 = UNOPENED
 - MUSTA_ARC = FROZEN_NO_NEW_PATH
-- CHAPTER_031_PREWRITE = REQUIRED
+- CHAPTER_031_PREWRITE = PASS_IN_FILE_89（後續已完成；本POSTWRITE建立當時為REQUIRED）
 
 ## 九、核定
 
