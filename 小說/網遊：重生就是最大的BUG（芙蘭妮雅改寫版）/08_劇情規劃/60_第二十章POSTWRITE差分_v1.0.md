@@ -108,3 +108,15 @@
 - `SECOND_BLOCKADE_IMMEDIATE_REDEPLOY = NO`
 - `BLUE_SILVER_DAGGER_PAYMENT = PENDING`
 - `CHAPTER_021_PREWRITE = NOT_ESTABLISHED`
+
+## 十二、2026-09-25 普通玩家決策品質後修
+- 使用者明確修正：**高手的判斷可以普遍更正確，但普通玩家不能因此被一起寫成理性最優決策者。**
+- 第20章已直接重寫普通玩家／論壇／佣兵反應：
+  - 路遇Franiya的普通玩家會出現急停互撞、下意識摸武器、差點因恐慌製造敵對、退路失誤等正常人類反應；
+  - 論壇中加入把猜測當規則、先相信最壞版本、因恐慌選擇下線／遠離等錯誤或過度反應；
+  - 佣兵圈加入沉沒成本、自尊、延遲歸因、無證據要求「再加一千人」等非最優判斷，同時保留真正做統計／復盤者。
+- 高手／專業分析者仍維持專業性：資訊足夠時判斷普遍更高品質、修正更快；但這不是「永遠正確」或全知。
+- 情緒不再只作台詞裝飾；恐懼、憤怒、羞恥、貪心、從眾與沉沒成本可以直接改變角色行動。
+- `ORDINARY_PLAYER_DECISION_VARIANCE = ESTABLISHED`
+- `EXPERT_DECISION_QUALITY = HIGH_NOT_INFALLIBLE`
+- `EMOTION_AFFECTS_ACTION = REQUIRED`
