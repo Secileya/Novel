@@ -144,3 +144,8 @@
 - `HUAXIA_OBSERVER_SYSTEMATIC_ANALYSIS = STARTED`
 - `DARK_GOLD_CLUE = DELIVERED_UNREAD`
 - `CHAPTER_020_PREWRITE = NOT_ESTABLISHED`
+
+### 2026-09-25 五日封鎖語義修正
+- 正文原句「Franiya從剛才封了她五天的地方」語義錯誤：當時只是**原定五日封鎖方案**，並非她已被封鎖五天。
+- 已改為「Franiya直接穿過了那條原本打算把她堵在342五天的封鎖線。」
+- 戰鬥總時長「不到十一分鐘」及第19章所有事件結果不變。
