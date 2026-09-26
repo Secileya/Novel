@@ -172,7 +172,15 @@ NPC也有情緒。能理解一部分，不代表不會被打亂節奏、警惕�
 - 禁止因Franiya遠超現實頂尖選手，就把本世界所有職業高手寫成笑話；真正高手仍應展現自己的專業與重量，只是Franiya所在尺度更高。
 - 禁止在Franiya尚未累積足夠公開證據時，提前寫成全世界人人識別、人人敬畏的成熟傳奇。
 
-## 十一、固定標記
+## 十一、反應深度不等於同章鏡頭配額
+
+- 「重大事件要留後效」不等於每章必須把每個已建立角色切出來打卡。
+- 當章優先選一至三個最有衝突、利益或人際價值的節點，寫成完整場景；其他後效可記入狀態檔，之後用行動、市場、再遇或下一章呈現。
+- 禁止連續複製「打開影片／資料→沉默／簡短問答→更新標籤／檔案／模型」結構。
+- 命名人物的語氣、欲望、缺點與關係節奏必須同時符合`05_原著人物DNA與立體反應基準.md`。
+- 反應場景必須回答「此人原本正在做什麼」與「這條資訊實際讓他改了什麼」，不只宣告他對Franiya的新評價。
+
+## 十二、固定標記
 
 - `FRANIYA_OBSERVER_REACTIONS = INDIVIDUALIZED`
 - `ORDINARY_PLAYERS_ARE_NOT_A_HIVE_MIND = TRUE`
@@ -183,3 +191,6 @@ NPC也有情緒。能理解一部分，不代表不會被打亂節奏、警惕�
 - `ELITE_PLAYER_SOCIAL_GRAVITY_MODEL = REFERENCE_ONLY`
 - `FRANIYA_TECHNIQUE_SCALE_EXCEEDS_REAL_WORLD_ESPORTS_ELITE_BY_LARGE_MARGIN = TRUE`
 - `FRANIYA_RENOWN_MUST_ACCUMULATE_CAUSALLY = TRUE`
+- `REACTION_QUOTA = FORBIDDEN`
+- `REACTION_CHECKLIST_MONTAGE = FORBIDDEN`
+- `ORIGINAL_CHARACTER_DNA_REQUIRED = TRUE`
