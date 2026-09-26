@@ -1,8 +1,9 @@
 # 第四十一章 POSTWRITE 差分 v1.0
 
 > 正文：`01_章節/041_第四十一章_紅名先進了皇宮.md`
-> 狀態：PASS
+> 狀態：**EVENT／CONTINUITY PASS；STYLE／CHAPTER CAPACITY PARTIAL，列入回修**
 > 核對基準：115號PREWRITE v1.1＋第40章正式停點＋原著第70～72章直接核讀＋正文筆風／人物反應基準。
+> 2026-09-27反向稽核：原版曾誤稱「沒有回到一句一段」，與正文統計不符，已在原處撤回。
 
 ## 一、硬狀態
 
@@ -58,7 +59,9 @@
 
 ## 六、人物與筆風
 
-- 正文持續使用較完整段落，沒有回到一句一段的碎片化排版。
+- 事件與資訊邊界通過，但表面筆風未通過新標準：正文約3,268個中文字、211個非空段落，平均每個非空段約19.5字，仍有大量一句一段與過早斷章。
+- 本章只完成「皇宮接見→官職→星辰深淵任務」一條場景鏈；作為既成事件正典保留，但不是後續章容量或段落節奏範本。
+- 原POSTWRITE的「沒有回到一句一段」判定作廢；後續需在不改既成官職、任務與知識邊界的前提下做風格／容量回修。
 - Franiya外觀觀感在NPC視角形成差異：有人先看紅名，有人先看嬌小／狼耳／繃帶；不統一成同一份角色設定表。
 - Franiya低振幅反應主要透過狼耳、視線、停頓與實際選擇呈現。
 - 章末用「剛拿到官職與未知任務，第一件事卻是去監獄洗紅」形成具體鉤子。
@@ -74,7 +77,8 @@
 ## 八、結論
 
 - `CHAPTER_041_FORMAL = ESTABLISHED`
-- `CHAPTER_041_POSTWRITE = PASS`
+- `CHAPTER_041_EVENT_CONTINUITY = PASS`
+- `CHAPTER_041_STYLE_CAPACITY = PARTIAL_REPAIR_BACKLOG`
 - `MAIN_CITY_NEWCOMER_PROTECTION = ESTABLISHED`
 - `NINTH_RANK_OFFICER = ACQUIRED`
 - `STAR_ABYSS_QUEST = ACCEPTED_NOT_EXECUTED`
