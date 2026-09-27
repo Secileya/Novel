@@ -1,0 +1,79 @@
+name: one-shot-fix-family-height
+
+on:
+  push:
+    branches:
+      - fix/family-height-master-20260927
+
+permissions:
+  contents: write
+
+jobs:
+  patch-master:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/family-height-master-20260927
+      - name: Patch height section only
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('小說/家庭總檔/01_家庭完整角色設定總檔.md')
+          text = path.read_text(encoding='utf-8')
+
+          old = '''<a name="doc-nav-047"></a>
+          ### 4.5 家庭成員相對身高
+
+          **【固定相對關係；精確公分數仍未固定】**
+
+          - 絲蒂莉雅與薇絲莉雅身高**差不多**，視覺上屬於同一身高帶；不需要刻意畫出明顯高低差。
+          - 絲蒂莉雅與薇絲莉雅都**比小曦高**。
+          - 芙蘭妮雅**比絲蒂莉雅與薇絲莉雅矮一點點**；差距應讀作很小、但站在一起仍可辨認。芙蘭妮雅與小曦之間的相對高低目前尚未固定。
+          - 塞希莉雅**高於絲蒂莉雅與薇絲莉雅**，因此四人並排時會有清楚但不誇張的身高差。
+          - 法月懷**些微高於塞希莉雅**；差距應讀作細微，而不是明顯高一截。
+          - 璃安**高於絲蒂莉雅與薇絲莉雅**，但又**些微低於塞希莉雅**。
+          - 目前已固定的相對關係為：**法月懷 ＞ 塞希莉雅 ＞ 璃安 ＞ 絲蒂莉雅 ≈ 薇絲莉雅**；芙蘭妮雅位於絲蒂莉雅／薇絲莉雅之下、只矮一點點；小曦也位於絲蒂莉雅／薇絲莉雅之下，但**芙蘭妮雅與小曦之間誰更高尚未固定**，因此目前不建立包含七人的完整單鏈排序。
+          - 以上只固定彼此已確認的相對高度，不自行填入任何人的確切身高、公分數、體重或三圍；未來若補具體數值，必須保持「些微／差不多／矮一點點」的差距語感。'''
+
+          new = '''<a name="doc-nav-047"></a>
+          ### 4.5 家庭成員相對身高
+
+          **【固定相對關係；精確公分數仍未固定】**
+
+          - 法月懷**些微高於塞希莉雅**；差距應讀作細微，而不是明顯高一截。
+          - 塞希莉雅**高於璃安**。
+          - 璃安**高於絲蒂莉雅與薇絲莉雅**，但又**些微低於塞希莉雅**。
+          - 絲蒂莉雅與薇絲莉雅身高**差不多**，視覺上屬於同一身高帶；不需要刻意畫出明顯高低差。
+          - 芙蘭妮雅**比絲蒂莉雅與薇絲莉雅矮一點點**；差距應讀作很小、但站在一起仍可辨認。
+          - **芙蘭妮雅明確高於小曦。**
+          - 目前完整固定排序為：**法月懷 ＞ 塞希莉雅 ＞ 璃安 ＞ 絲蒂莉雅 ≈ 薇絲莉雅 ＞ 芙蘭妮雅 ＞ 小曦**。
+          - 以上只固定彼此已確認的相對高度，不自行填入任何人的確切身高、公分數、體重或三圍；未來若補具體數值，必須保持「些微／差不多／矮一點點」的差距語感。'''
+
+          # The workflow block is indented in YAML; remove that indentation from literals.
+          import textwrap
+          old = textwrap.dedent(old)
+          new = textwrap.dedent(new)
+
+          if text.count(old) != 1:
+              raise SystemExit(f'Expected exactly one old height block, found {text.count(old)}')
+
+          updated = text.replace(old, new, 1)
+          if '芙蘭妮雅與小曦之間的相對高低目前尚未固定' in updated:
+              raise SystemExit('Old undecided sentence still present')
+          if '芙蘭妮雅與小曦之間誰更高尚未固定' in updated:
+              raise SystemExit('Old undecided summary still present')
+
+          path.write_text(updated, encoding='utf-8')
+          PY
+      - name: Commit master-file correction
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add '小說/家庭總檔/01_家庭完整角色設定總檔.md'
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix(family): sync complete height order in master file'
+          git push origin HEAD:fix/family-height-master-20260927
