@@ -71,3 +71,17 @@
 - `INDEX_OVERLAY_043_048 = ACTIVE`
 - `QUEUE_OVERLAY_043_PLUS = ACTIVE`
 - `CHAPTER_TRANSACTION = COMPLETE_FOR_CH48`
+
+## 七、FINAL_COMMIT_VERIFICATION
+
+GitHub寫入不能以單次`update_file`／`create_file`成功作為流程收尾。每輪涉及正式正文、POSTWRITE、同步檔、交接、Canon或流程修正時，最後必須：
+
+1. 記錄本輪最後一個相關commit SHA與commit message。
+2. 重新讀取`main` HEAD。
+3. 若`main`已被其他並行工作推進，必須確認本輪最後相關commit仍位於目前`main`祖先鏈上；不得只比較HEAD字串不同就誤判提交遺失。
+4. 若本輪commit不在目前`main`祖先鏈上，立即視為並行寫入衝突，重新套用或合併後再驗證。
+5. 最終回覆使用者時明列：`FINAL_RELEVANT_COMMIT`、`CURRENT_MAIN_HEAD`、`COMMIT_REACHABILITY = PASS/FAIL`。
+
+本次第48章同步補正已驗證：先前最後相關commit `a5cf2ab62f1224f5f8b1a2eea7f8407730705069` 位於其後`main`祖先鏈上，修改未遺失。
+
+- `FINAL_COMMIT_VERIFICATION = REQUIRED`
