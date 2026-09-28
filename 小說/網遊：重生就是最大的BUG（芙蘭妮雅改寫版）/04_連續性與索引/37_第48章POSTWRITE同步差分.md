@@ -45,8 +45,11 @@
 
 本同步同時修正先前「第48章正文已完成，但當前狀態／有效性稽核仍停在第47章」的落後狀態。
 
+- `00_專案交接.md` 已同步至第48章。
 - `01_當前狀態快照.md` 已同步至第48章。
 - `07_有效性與同步稽核.md` 已同步至第48章。
+- 原`06_章節索引.md`詳細內容停在第42章，已新增 `06A_章節索引_043-048增量.md` 作正式CURRENT_INDEX_OVERLAY；讀取時兩檔合併。
+- 原`08_原著事件待處理佇列.md`基底表頭停在第42章，已新增 `08A_原著事件待處理佇列_第43章後增量.md` 作正式CURRENT_QUEUE_OVERLAY；其中已把【萬鬼血盒·殘破】列為每章PREWRITE都要重檢的HIGH PRIORITY缺口。
 - 工作流程已新增 `AUTO_FIX_ON_DISCOVERY` 與 `CHAPTER_TRANSACTION_INTEGRITY`，防止再次只發現問題、不在同輪修正。
 
 ## 六、同步標記
@@ -65,3 +68,6 @@
 - `EVENT_HORIZON_CH48 = OFF`
 - `TRIPLE_REWARD_CURRENTLY_GRANTED = NO`
 - `WAN_GUI_BLOOD_BOX = PENDING_HIGH_PRIORITY_ACQUISITION`
+- `INDEX_OVERLAY_043_048 = ACTIVE`
+- `QUEUE_OVERLAY_043_PLUS = ACTIVE`
+- `CHAPTER_TRANSACTION = COMPLETE_FOR_CH48`
