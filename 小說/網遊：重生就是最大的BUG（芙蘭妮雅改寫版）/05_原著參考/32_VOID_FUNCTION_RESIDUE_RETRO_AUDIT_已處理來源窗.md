@@ -3,7 +3,7 @@
 > 日期：2026-09-30  
 > 狀態：`CURRENT_CONSUMPTION_THROUGH_CH106_AUDITED`  
 > 上位流程：`07_工作流程/09_VOID_WITH_CAUSE功能殘留與角色推理硬門檻.md`、`07_工作流程/10_VOID_WITH_CAUSE使用者公開回報硬門檻.md`  
-> 用途：將既有正式改寫中曾出現的VOID重新拆成功能層，確認沒有把人物、資產、制度、經濟、關係或下游功能一起誤刪。
+> 用途：將既有正式改寫中曾出現的VOID重新拆成功能層，確認沒有把人物、資產、制度、經濟、關係、已成立身份或下游功能一起誤刪。
 
 ---
 
@@ -52,6 +52,16 @@
 - 現行：`INTEGRATED_READER_SIDE_CH56_RETRO`
 - Franiya知情：`NO / AUTHOR_READER_ONLY`
 - 限制：聖安東尼奧不得替Franiya選物、不得直接贈與、不得繞過條件；所有收益仍須由Franiya在合法規則內自己取得。
+
+### D. 「不需要問簡雨朧」→第二身份／法師線被整串吃掉
+
+- 舊錯誤：流程曾先判定「不需要再問簡雨朧」，刪除該提問／互動節點，之後把原本位於其下游的第二身份／法師線一起當成可刪內容。
+- 錯誤本質：把「一個互動節點不採用」錯當成「節點之後所有功能都不存在」，沒有做下游依賴證明，也沒有檢查第二身份是否已由正式正文合法成立。
+- 現行：`VOID_ERROR_REVOKED / PERMANENT_WRONG_VOID_TEMPLATE`
+- 已成立Canon：【折光】＝精靈／法師第二身份，共享Lv10、獨立50精神；法師理解、低階元素構型、法師裝備／技能接口均保留。
+- 固定式：`SKIPPED_QUESTION_OR_INTERACTION_NODE != DOWNSTREAM_IDENTITY_VOID`。
+- 固定式：`ORIGINAL_ACQUISITION_PATH_VOID != ESTABLISHED_IDENTITY_VOID`。
+- 下游：後續只能依世界規則限制技能、MP、冷卻、裝備資格與輸出，不能再把【折光】或法師理解倒推刪除。
 
 ---
 
@@ -166,6 +176,10 @@
 
 `WHOLE_EVENT_VOID_WITHOUT_FUNCTION_DECOMPOSITION = 0`
 
+`SKIPPED_INTERACTION_NODE_CAUSING_DOWNSTREAM_IDENTITY_VOID = PROHIBITED`
+
+`ESTABLISHED_IDENTITY_CAPABILITY_PRESERVATION_CHECK = PASS`
+
 `ECONOMIC_CHAIN_CONTINUITY_CHECK = PASS`
 
 `CHARACTER_RELATION_FUNCTION_CHECK = PASS`
@@ -176,4 +190,4 @@
 
 `VOID_USER_DISCLOSURE_REQUIRED_FOR_ALL_FUTURE_VOID = TRUE`
 
-下一正式章第57章在處理107～117來源窗時，任何新VOID都必須逐功能拆解，並在該輪最終回報對使用者逐項公開理由。
+下一正式章第57章在處理107～117來源窗時，任何新VOID都必須逐功能拆解，並在該輪最終回報對使用者逐項公開理由；任何擬刪提問／互動節點也必須先做下游依賴檢查。
