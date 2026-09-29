@@ -73,7 +73,7 @@
 
 任何涉及收入、服務、資本、產業與市場的事件，必須建立完整經濟鏈：
 
-`REVENUE_SOURCE → CASHFLOW → AVAILABLE_CAPITAL → INVESTMENT_DECISION → ASSET_CUSTODY → OPERATING_STRUCTURE → TAX / MARKET CONSEQUENCE → DOWNSTREAM_REUSE`
+`REVENUE_SOURCE → CASHFLOW → AVAILABLE_CAPITAL → INVESTMENT_DECISION → ASSET_CUSTODY → OPERATING_STRUCTURE → TAX / MARKET_CONSEQUENCE → DOWNSTREAM_REUSE`
 
 ### 禁止斷鏈
 
@@ -196,6 +196,24 @@ PREWRITE必須問：
 
 若需要限制輸出，應按世界規則限制「可輸出的效果」，而不是把角色已經懂、已經會、已經建立的身份吃掉。
 
+### 提問／互動節點刪除不得向下游擴散VOID
+
+本專案曾出現更精確的錯誤鏈：
+
+`判定「不需要再問簡雨朧」 → 刪除該提問／互動節點 → 錯誤把後續第二身份／法師線一起刪除`
+
+這是錯誤VOID範本。刪除一個提問、對話、會面或取得方式，只能影響**能證明完全依賴該節點且沒有替代路徑**的局部因果，不能把節點後方所有已成立成果視為一起失效。
+
+固定式：
+
+`SKIPPED_QUESTION_OR_INTERACTION_NODE != DOWNSTREAM_IDENTITY_VOID`
+
+`INTERACTION_NODE_REMOVAL_REQUIRES_DEPENDENCY_PROOF = TRUE`
+
+`ESTABLISHED_IDENTITY_SURVIVAL_CHECK = REQUIRED`
+
+PREWRITE若擬刪除「詢問某人／與某人交談／拜訪某人／經某人取得」等節點，必須先檢查其下游是否承載：身份、職業、能力、裝備接口、任務、資產、關係、情報、世界事件或遠期功能。只要仍有合法替代因果，應重建連接邊，不得把下游功能一起VOID。
+
 ---
 
 ## 九、既有VOID回溯稽核
@@ -213,7 +231,8 @@ PREWRITE必須問：
 - 是否錯刪世界背景；
 - 是否忽略Franiya自身能力提供的替代因果；
 - 是否使後續事件失去來源；
-- 是否把已合法建立的身份／能力／裝備接口當成原取得路徑的一部分一起刪除。
+- 是否把已合法建立的身份／能力／裝備接口當成原取得路徑的一部分一起刪除；
+- 是否因刪除一個提問／互動節點，就未經依賴證明地把後續身份、任務或功能整串刪掉。
 
 發現一項即建立 `RETRO_REPAIR_REQUIRED`，先修再放行新章。
 
@@ -238,12 +257,14 @@ PREWRITE必須問：
 - 已達高可信度者升為 `INFERRED_HIGH_CONFIDENCE`，但不自動獲得其完整家庭、組織、裝備與私人任務情報。
 
 ### 第二身份【折光】／法師身份曾被錯誤吃掉
-- 舊錯誤類型：因後續重新檢查跨身份裝備／技能／原著身份路徑時，把「原路徑或部分規則不適用」誤擴張成「Franiya的第二身份／法師能力不存在或不能正常理解法師裝備」。
+- 精確舊錯誤：流程曾判定「不需要再問簡雨朧」，於是刪除那個提問／互動節點，之後又錯誤把原本位於其下游的第二身份／法師線一併當成可刪內容。
+- 泛化舊錯誤：後續重新檢查跨身份裝備／技能／原著身份路徑時，又容易把「原路徑或部分規則不適用」誤擴張成「Franiya的第二身份／法師能力不存在或不能正常理解法師裝備」。
 - 正確處理：第49章後【折光】已是正式成立的精靈／法師第二身份，擁有獨立50點精神配置、合法法師接口與已實測低階元素構型理解。
+- 刪除「問簡雨朧」最多只能刪除該互動本身及可證明只依賴該互動、且沒有替代因果的局部邊；不得刪除【折光】、50精神、法師理解、法師裝備／技能接口與後續職業功能。
 - 世界規則只限制她當前能輸出的技能、MP、冷卻、職階、裝備與身份資格，不抹除理解與身份本身。
 - 固定原則：`GAME_SHELL_LIMITS_OUTPUT, NOT_UNDERSTANDING`。
 - 法杖、水晶球、魔法書等法師載體若符合當前身份與裝備條件，她不應被寫成「因為不是沈雲所以不知道怎麼用」；需要逐項檢查的是裝備資格與技能啟動條件。
-- 此案列為永久錯誤VOID範本：**取得路徑失效不等於已成立身份失效。**
+- 此案列為永久錯誤VOID範本：**跳過提問／互動節點不等於下游身份失效；取得路徑失效也不等於已成立身份失效。**
 
 ---
 
@@ -255,6 +276,7 @@ PREWRITE必須問：
 - `FRANIYA_SUBSTITUTE_CAUSE_CHECK = PASS/FAIL`
 - `CHARACTER_INFERENCE_CHECK = PASS/FAIL`
 - `ESTABLISHED_IDENTITY_CAPABILITY_PRESERVATION_CHECK = PASS/FAIL`
+- `INTERACTION_NODE_DOWNSTREAM_DEPENDENCY_CHECK = PASS/FAIL`（擬刪任何提問／互動／取得節點時）
 - `ECONOMIC_CHAIN_CONTINUITY_CHECK = PASS/FAIL`（涉及經濟事件時）
 - `RELATIONSHIP_FUNCTION_CONTINUITY_CHECK = PASS/FAIL`（涉及人物關係時）
 
