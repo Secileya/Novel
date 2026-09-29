@@ -7,14 +7,20 @@
 ## 一、必須區分兩個蒂姬戰力狀態
 
 ### 1. `TIJI_EQUALIZED_TEST`
-蒂姬為測試真我流資格／公平交手，主動把自身可用力量／屬性壓低到與挑戰者接近的層級。
+蒂姬為測試真我流資格／公平交手，主動把自身可用力量／屬性**壓低到與挑戰者同等的公平測試標準**。這是她自己設置的限幅狀態，不代表其本體面板只有這個水準。
 
 這個狀態的目的不是呈現蒂姬完整戰力，而是：
-- 把純數值差壓低；
-- 觀察挑戰者的技術、反應、戰鬥理解與資格；
-- 讓真我流考驗具有「技術測試」性質。
+- 把原本巨大的純數值差主動消除；
+- 讓雙方在同等屬性基準下比較技術、反應、戰鬥理解與資格；
+- 讓真我流考驗具有真正的「技術測試」性質。
 
 原著第120章她之後為掙脫裸絞而違反壓制力量的公平承諾，本身就證明此前存在主動壓制。
+
+固定理解：
+
+`EQUALIZED_ATTRIBUTE_STANDARD = CHALLENGER_LEVEL`
+
+`EQUALIZED_TEST_STATS != TIJI_NATIVE_STATS`
 
 ### 2. `TIJI_FULL_POWER`
 蒂姬真正完整屬性／原始力量遠高於被壓制測試狀態。
@@ -116,6 +122,7 @@ Franiya真正可能承擔的功能包括：
 蒂姬正式登場／交手前必核：
 - `TIJI_STATE = EQUALIZED_TEST / FULL_POWER / OTHER`
 - `ATTRIBUTE_SUPPRESSION_STATUS`
+- `EQUALIZED_ATTRIBUTE_STANDARD`
 - `FRANIYA_GAME_SHELL_LIMIT`
 - `ORIGINAL_HARD_FIGHT_NOT_COPIED`
 - `QUEST_OBJECTIVE`
