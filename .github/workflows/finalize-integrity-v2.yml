@@ -1,0 +1,42 @@
+name: Finalize Integrity V2
+
+on:
+  push:
+    paths:
+      - '.github/workflows/finalize-integrity-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          root=Path('小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）')
+          p=root/'07_工作流程/05_正文事件佇列自動讀取與章節交易.md'
+          s=p.read_text(encoding='utf-8').replace('> 最後強化：2026-09-29','> 最後強化：2026-09-30',1)
+          p.write_text(s.rstrip()+'\n',encoding='utf-8')
+
+          p=root/'04_連續性與索引/07_有效性與同步稽核.md'
+          s=p.read_text(encoding='utf-8')
+          marker='## 十三、2026-09-30全專案一致性／流程自舉稽核'
+          if marker not in s:
+              s += '''\n\n## 十三、2026-09-30全專案一致性／流程自舉稽核\n\n- 已新增`04_連續性與索引/09_裝備與資產權威總表.md`，修正裝備資訊散落、無獨立Current Ledger的缺口。\n- 已新增`07_工作流程/15_新對話完整啟動與章節交易總Gate.md`，作為零上下文新對話／模型切換／中斷恢復的完整收口。\n- `07/00`已強制讀15號、04能力Gate、07事件密度、10 VOID公開、14全變更公開與09資產Ledger。\n- `07/01`、`07/04`、`07/05`已在檔頭指向15號總Gate；04／05明示09號資產Ledger。\n- 05章節交易的最後強化日期已從2026-09-29改為2026-09-30。\n- Franiya痛覺形成史已由bootstrap強制接到`小說/家庭總檔/10_芙蘭妮雅痛覺形成史補充.md`。\n- 舊折光外觀、【海潮】未取得、8000～12000等只允許留在明確歷史／RETRO／SUPERSEDED紀錄，不得回流Current Authority。\n\n`BOOTSTRAP_GATE = REQUIRED`\n`ASSET_LEDGER_PREWRITE_GATE = REQUIRED`\n`ASSET_LEDGER_POSTWRITE_SYNC = REQUIRED`\n`CURRENT_AUTHORITY_STALE_VALUE_COUNT = 0`\n`ALL_CHANGE_DISCLOSURE_GATE = REQUIRED`\n'''
+              p.write_text(s.rstrip()+'\n',encoding='utf-8')
+          PY
+          rm -f .github/workflows/finalize-integrity-v2.yml
+          git diff --check
+          git config user.name Secileya
+          git config user.email xw4761645@gmail.com
+          git add -A
+          git commit -m "audit: 同步流程過時欄位與全專案一致性稽核"
+          git pull --rebase origin main
+          git push origin main
