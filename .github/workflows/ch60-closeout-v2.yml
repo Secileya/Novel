@@ -1,0 +1,24 @@
+name: ch60-closeout-v2
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  closeout:
+    if: github.event.head_commit.message == 'ops: run ch60 closeout v2'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply fixes
+        run: python .github/ch60_closeout_fix.py
+      - name: Commit and push
+        run: |
+          git config user.name "Secileya"
+          git config user.email "xw4761645@gmail.com"
+          git add "小說/家庭總檔/09_芙蘭妮雅施法載體與魔法造詣補充.md" "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）"
+          git rm .github/ch60_closeout_fix.py .github/workflows/ch60-closeout-v2.yml
+          git commit -m "closeout(ch60): 修正神咒分類並完成第60章封帳"
+          git push origin main
