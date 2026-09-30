@@ -3,7 +3,8 @@
 > 狀態：**ACTIVE / REQUIRED / PERMANENT**  
 > 建立：2026-09-30  
 > 適用：本專案全部SOURCE捕捉、acceptance matrix、SOURCE_NODE、PREWRITE、POSTWRITE、歷史回修、章節交易與最終交付回報，直到原著終章。  
-> 上位依據：`09_VOID_WITH_CAUSE功能殘留與角色推理硬門檻.md`。
+> 上位依據：`09_VOID_WITH_CAUSE功能殘留與角色推理硬門檻.md`。  
+> 全變更回報上位補充：`14_使用者最終回報全變更公開硬門檻.md`。
 
 ---
 
@@ -128,3 +129,21 @@
 `VOID_USER_DISCLOSURE_GATE = PASS`
 
 四者缺一，VOID不得完成正式封帳。
+
+---
+
+## 八、VOID回報不是整輪回報的全部
+
+本檔只處理VOID公開義務。
+
+從2026-09-30起，最終回報還必須遵守：
+
+`07_工作流程/14_使用者最終回報全變更公開硬門檻.md`
+
+固定：
+
+`VOID_USER_DISCLOSURE_GATE = PASS` **不等於** `ALL_CHANGE_DISCLOSURE_GATE = PASS`。
+
+即使VOID已全部說明，只要同輪還修改了技能、資產、知識邊界、能力Gate、事件分類、Current State、Queue、索引、流程規則或下一章入口，就必須一併向使用者公開。
+
+禁止只因使用者最初問的是VOID，就只回報VOID而省略同輪其他正式修正。
