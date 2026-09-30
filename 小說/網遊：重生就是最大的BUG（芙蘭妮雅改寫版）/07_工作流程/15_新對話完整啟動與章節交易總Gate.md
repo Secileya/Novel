@@ -43,6 +43,29 @@
 - 不得為湊數壓縮重要人物、資產、關係、世界反應或後果。
 - 最終回報必須逐章說明原著事件本體與本線處理，不能只報章號。
 
+### 3.1 原著保留／差異分類硬Gate
+
+每一個本輪宣告「已完整消耗」的來源章，最終使用者回報至少要列出：
+
+1. `SOURCE_CHAPTER`
+2. `ORIGINAL_EVENT`
+3. `PRESERVATION_DELTA`
+4. `REWRITE_DISPOSITION`
+5. `REWRITE_RESULT`
+6. `RESIDUAL_STATUS`
+
+固定：
+- `REWRITE_RESULT != DIVERGENCE_BY_DEFAULT`
+- `PRESERVED_OBJECTIVE_OUTCOME_CAN_COEXIST_WITH_RECALCULATED_CAUSAL_IMPLEMENTATION`
+- 原著客觀結果若保留，`PRESERVATION_DELTA` 必須明寫 `PRESERVED`，不能只因主角、技能、因果鏈不同就把整個結果標成 `REBUILD` 或 `DIFFERENT_RESULT`。
+- 若原著結果相同、但具體達成方法依法重算，應拆開寫「結果保留」與「方法／因果重算」。
+- `SOURCE_METHOD_NOT_LOCKED -> DO_NOT_INFER_SAME_OR_DIFFERENT_METHOD`
+- `METHOD_UNRESOLVED != RESULT_UNRESOLVED`
+- SOURCE只鎖住結果、沒有鎖住精確手段時，只能陳述已知結果，不得自行補判本線手段與原著相同或不同。
+- 同一來源章內可同時存在多種分類，例如某角色「死亡／回城」結果 `PRESERVED`，但「死亡後知道誰的ID」可能是 `RECALCULATED_DIFFERENT_RESULT`；不得把兄弟事件壓成單一總標籤。
+
+`SOURCE_PRESERVATION_DELTA_GATE = REQUIRED`
+
 ## 四、Franiya能力與裝備Gate
 
 每章完整掃 `02/11` 全能力組與 `09_裝備與資產權威總表.md`。
@@ -105,6 +128,6 @@
 
 舊PREWRITE／POSTWRITE／RETRO可以保留歷史舊值，但必須明確標示為歷史／已覆蓋。現行權威檔、Current State、Queue、工作流程入口不得留未標示的過時值。
 
-每次重大修正至少掃：舊外觀、技能取得、裝備狀態、章容量、VOID數、痛覺因果、魔法並行上限、元素公式誤綁、神咒分類、章號與SOURCE游標。
+每次重大修正至少掃：舊外觀、技能取得、裝備狀態、章容量、VOID數、痛覺因果、魔法並行上限、元素公式誤綁、神咒分類、SOURCE保留／差異分類、章號與SOURCE游標。
 
 `CURRENT_AUTHORITY_STALE_VALUE_COUNT = 0` 才可關閉大修交易。
