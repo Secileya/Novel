@@ -1,7 +1,7 @@
 # 折光外觀與家庭白髮巧思 RETRO 修復 v1.0
 
 > 日期：2026-09-30
-> 狀態：`RETRO_APPLIED / PENDING_FINAL_GIT_VERIFY`
+> 狀態：`RETRO_APPLIED / CLOSED`
 
 ## 本輪修正
 - 折光：淺栗長髮 → 白色長髮。
@@ -25,3 +25,12 @@ SOURCE 24、Current State、知識矩陣04L、索引06H、有效性稽核、Acti
 
 ## VOID
 本輪未使用VOID_WITH_CAUSE。
+
+## Git驗證
+- RETRO正文／同步 commit：`b68f3f42cced0197376364e9fde7befa5a59d745`
+- 臨時workflow均已刪除；cleanup鏈截至`b5e5cff4939d5ca38b8edf135a4daf9cf6de0b5c`。
+- `f17d5e8... -> b68f3f4...`：ahead 1，RETRO一次性commit包含12個專案檔變更。
+- `b68f3f4... -> b5e5cff...`：ahead 2／behind 0，兩筆僅為臨時workflow刪除。
+
+`ZHEGUANG_APPEARANCE_RETRO = PASS`
+`TEMP_WORKFLOW_CLEANUP = PASS`
