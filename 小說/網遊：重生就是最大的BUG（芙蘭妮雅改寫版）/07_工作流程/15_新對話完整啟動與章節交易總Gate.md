@@ -45,7 +45,8 @@
 22. `02_角色設定/11_Franiya能力技巧與使用區段施工總表.md`
 23. 涉及法術前兆／威力效果判斷時讀`02_角色設定/12_Franiya施法前兆威力與效果解析補充.md`
 24. 涉及【折光】時讀`02_角色設定/13_折光外觀與白髮選擇補充.md`
-25. 本章會實際用到的家庭總檔能力補充檔
+25. **涉及自由模式魔法、元素排列、多重施法、自創術式、術式升階、跨元素高階術式時，必讀 `02_角色設定/14_Franiya自由構築_多線施法與術式升階補充.md`。**
+26. 本章會實際用到的家庭總檔能力補充檔；涉及魔法時並讀 `小說/家庭總檔/09_芙蘭妮雅施法載體與魔法造詣補充.md`。
 
 若任何必要檔缺失：
 
@@ -101,6 +102,22 @@
 - `LOWEST_SUFFICIENT_TIER_SELECTED = PASS`
 
 現況主觀痛覺0是**經歷逐步鈍化的結果**，不是先天無痛、主動開關或屏蔽。涉及受傷時必讀家庭總檔10號補充。
+
+### 5.1 魔法專項Gate
+
+涉及【折光】魔法線時，除了02/11，還必須完成：
+
+- `FRANIYA_MAGIC_OPTIMIZATION_GATE = PASS`
+- `FRANIYA_PARALLEL_CAST_GATE = PASS`
+- `FRANIYA_FREE_CONSTRUCTION_TIER_GATE = PASS`
+- `FRANIYA_PERMISSION_VS_TECHNIQUE_GATE = PASS`
+
+固定認知：
+- `UNKNOWN_ORIGINAL_FORMULA != CANNOT_OPTIMIZE_ELEMENT_ARRAY`
+- `DUAL_CASTING != PARALLEL_CAST_CAP`
+- 已合法可用8階【海潮】／【火雨降臨】代表角色殼在對應資源與接口成立時可承載8階量級；不得單靠「Lv10」否定同量級自由構築。
+- 具名系統技能權限與自由構築等效術式必須分流。
+- 真正有效限制優先檢查MP、精神、瞬時吞吐、環境、職業／世界硬規則、神格／血脈／神權／唯一權限，而不是把術式複雜度本身誤寫成Franiya的學習瓶頸。
 
 ## 六、正式章施工
 
@@ -199,6 +216,7 @@
 - 舊章容量；
 - 舊VOID數；
 - 舊痛覺因果；
+- 舊魔法並行上限／精靈語公式誤綁；
 - 舊章號／事件游標。
 
 `CURRENT_AUTHORITY_STALE_VALUE_COUNT = 0`才可關閉大修交易。
