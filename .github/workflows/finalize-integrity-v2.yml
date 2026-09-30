@@ -22,7 +22,7 @@ jobs:
           from pathlib import Path
           root=Path('小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）')
           p=root/'07_工作流程/05_正文事件佇列自動讀取與章節交易.md'
-          s=p.read_text(encoding='utf-8').replace('> 最後強化：2026-09-29','> 最後強化：2026-09-30',1)
+          s=p.read_text(encoding='utf-8').replace('> 最後強化：2026-09-29  ','> 最後強化：2026-09-30',1)
           p.write_text(s.rstrip()+'\n',encoding='utf-8')
 
           p=root/'04_連續性與索引/07_有效性與同步稽核.md'
