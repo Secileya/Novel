@@ -8,7 +8,8 @@
 - 折光：灰綠瞳 → 璀璨金瞳。
 - 五官：系統另行調整 → 與Franiya主身份相同。
 - 精靈耳：保留。
-- 新增白髮選擇動機：家人中不少白髮，Franiya覺得好看，所以想試試看；非模仿特定家人。
+- 白髮選擇動機精修：家人中不少白髮，Franiya覺得好看，也會因熟悉的家人聯想而感到安心，所以想試試看；非模仿特定家人。
+- 精靈長耳選擇動機補入：薇薇姐姐與希雅姐都有類似精靈的細長耳型，Franiya因此對這種耳型熟悉、親近且安心。
 - 「近乎神性」只為外觀／氣質描述，不是神性身份或生命層級。
 
 ## 正文回改
@@ -20,8 +21,10 @@
 SOURCE 24、Current State、知識矩陣04L、索引06H、有效性稽核、Active Queue、專案交接、角色設定13均同步。
 
 ## 下游影響
-`VISUAL_RESEMBLANCE_CLUE = LEGAL`：同五官可讓觀察者合理注意兩身份長得很像。
-`VISUAL_RESEMBLANCE != IDENTITY_PROOF`：外貌相似不等於身份實錘。113～115等價的觀察／媒體分析必須納入這條新線索。
+`SAME_FACIAL_FEATURES_ONLY = TRUE`：兩身份相同的只是五官底子。
+`OVERALL_PRESENTATION_DIFFERENT = TRUE`：對外帳號／角色ID、種族、職業、髮色、瞳色、耳型、氣質與氣息均不同。
+`FACIAL_SIMILARITY = WEAK_LOCAL_CLUE_ONLY`：只有刻意並排高品質正臉時才可能注意到局部相似。
+`FACIAL_SIMILARITY_ALONE != IDENTITY_LINK`：113～115等價觀察／媒體線不再被要求必須以外貌相似作主線索。
 
 ## VOID
 本輪未使用VOID_WITH_CAUSE。
