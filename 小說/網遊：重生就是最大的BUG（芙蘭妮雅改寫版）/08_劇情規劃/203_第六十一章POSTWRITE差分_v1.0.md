@@ -2,7 +2,7 @@
 
 > 日期：2026-10-01  
 > 正式章：`061_第六十一章_第一百隻之後.md`  
-> 狀態：`POSTWRITE_PASS / PENDING_TRANSACTION_SYNC`
+> 狀態：`POSTWRITE_PASS / SYNCED / TRANSACTION_CLOSED`
 
 ## 一、正文結果
 
@@ -136,3 +136,4 @@ Franiya／折光新增合法知道：
 - 下一正式章：62；SOURCE從119起。
 
 `CH61_POSTWRITE = PASS`
+`CH61_TRANSACTION_CLOSED = TRUE`
