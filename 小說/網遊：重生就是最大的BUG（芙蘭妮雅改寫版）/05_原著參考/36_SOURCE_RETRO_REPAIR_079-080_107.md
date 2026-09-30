@@ -49,13 +49,17 @@ SOURCE已知條件：
 
 正式第44章已回修：
 1. 白天先合法取得雷鳥最低情報並實測高警戒。
-2. Franiya已在同章正式展示【火狐炎刀】瞬時重構成弓，且有普通箭束可用。
-3. 夜間利用雷鳥警戒衰弱窗口，自身作用感知、弓術、時機、預判、軌跡控制與瞬時重構完成狩獵。
+2. Franiya已在同章正式展示**以自身瞬時重構能力作用於【火狐炎刀】**，將其重構成弓形；且有普通箭束可用。
+3. 夜間利用雷鳥警戒衰弱窗口，以自身作用感知、弓術、時機、預判、軌跡控制與瞬時重構完成狩獵。
 4. 不使用【牛戰士面具】。
 5. 不使用【事件視界】。
 6. 不使用【速度限制解除】。
 7. 低等級特殊採集條件合法成立，取得【驚雷骨架】。
 8. 以足量雷鳥羽毛完成白銀【驚雷羽翼】裝配。
+
+固定能力歸屬：
+`INSTANT_RECONSTRUCTION_SOURCE = FRANIYA_SELF`
+`FIREFOX_BLADE = RECONSTRUCTION_TARGET / EQUIPMENT`
 
 `CH44_THUNDERBIRD_HUNT = INTEGRATED_AFTER_RETRO_REPAIR`
 `THUNDER_FRAME = ACQUIRED`
@@ -109,23 +113,29 @@ SOURCE已知條件：
 
 ---
 
-## 五、Franiya高階能力Gate
+## 五、Franiya完整能力／技巧Gate
 
 本次回修再次固定：
 - 【瞬時重構】是Franiya正式跨世界能力，可於普通戰鬥中作用於她正常可使用的武器；不是火狐炎刀專屬技能。
 - 【事件視界】是因果邊界能力，不是偵查眼／真視／攻略資料庫；能用技術、角色殼能力或較低層作用調整解決時，不機械開啟。
 - 【速度限制解除】是既有高階底牌，施工時需獨立判斷；普通可解戰鬥不因存在此能力就自動使用。
+- 但能力Gate**不得只檢查這三項**；正式施工必須掃描`02_角色設定/11_Franiya能力技巧與使用區段施工總表.md`中的常態感知、遮蔽免疫、內部前兆、完美時機、最少樣本、0痛傷勢感知、全武器、零轉換、遠程、軌跡／偽追蹤、四層格擋等已建立能力／技巧。
+- `ABILITY_NOT_USED = ALLOWED`，但`ABILITY_NOT_EVALUATED = FORBIDDEN`。
 
 第44章雷鳥狩獵Gate：
-`WEAPON_RECONSTRUCTION = LEGAL / USED`
-`EVENT_HORIZON = OFF`
-`SPEED_LIMIT_RELEASE = OFF`
+`EFFECT_RELATION_PERCEPTION = USED`
+`RANGED_COMBAT = USED`
+`INSTANT_RECONSTRUCTION = USED`
+`TRAJECTORY_CONTROL = USED`
+`EVENT_HORIZON = OFF_AFTER_EVALUATION`
+`SPEED_LIMIT_RELEASE = OFF_AFTER_EVALUATION`
 
 第57章12人辨識Gate：
 `INTRINSIC_EFFECT_RELATION_PERCEPTION = USED`
+`OCCLUSION_IMMUNITY = USED`
 `THUNDER_FIELD = AVAILABLE_BUT_NOT_USED`
-`EVENT_HORIZON = OFF`
-`SPEED_LIMIT_RELEASE = OFF`
+`EVENT_HORIZON = OFF_AFTER_EVALUATION`
+`SPEED_LIMIT_RELEASE = OFF_AFTER_EVALUATION`
 
 ---
 
@@ -135,3 +145,5 @@ SOURCE已知條件：
 `SOURCE_SIBLING_COMPLETENESS_107 = PASS_AFTER_RETRO_BODY_REPAIR`
 `NO_GHOST_SKILL_ACQUISITION = PASS`
 `NO_UNNECESSARY_HIGH_LEVEL_ABILITY_USE = PASS`
+`ABILITY_SOURCE_ATTRIBUTION = PASS`
+`ABILITY_NOT_EVALUATED = 0`
