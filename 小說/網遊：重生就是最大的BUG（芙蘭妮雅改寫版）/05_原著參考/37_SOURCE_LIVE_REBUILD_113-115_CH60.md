@@ -19,6 +19,12 @@
 
 `VOID_METHOD != VOID_OBJECTIVE_EVENT`
 
+`REWRITE_RESULT != DIVERGENCE_BY_DEFAULT`
+
+`PRESERVED_OBJECTIVE_OUTCOME_CAN_COEXIST_WITH_RECALCULATED_CAUSAL_IMPLEMENTATION`
+
+`SOURCE_METHOD_NOT_LOCKED -> DO_NOT_INFER_SAME_OR_DIFFERENT_METHOD`
+
 ---
 
 ## 二、第113章｜老熟人
@@ -40,6 +46,18 @@
 - 其ID在解除潛行後可見；本人對折光自述師父為「影子」、自己為華夏觀察者二十位希望之星之一、榴蓮台第71屆選秀第一。
 - 「影子的接班候選」若未由本人或其他合法來源明說，Franiya不得自動知道完整內部定位。
 
+### 113-C-OUTCOME｜雨天決行死亡結果
+- **原著第113章本身已存在雨天決行死亡／回城結果。** 此結果不是芙蘭妮雅改寫版新造出的結局。
+- 現行正式分類：`RAINY_DAY_DEATH_OUTCOME = PRESERVED`。
+- 第60章具體實作為：雨天決行先手成立紅名敵對後，被折光以8階【海潮】擊殺回城。
+- 目前現行SOURCE捕捉只足以鎖定「雨天決行在113章死亡／回城」這個客觀結果，**未鎖死原著精確死亡手段、每一步攻防與最後一擊來源**；因此不得擅自宣稱第60章死亡手段與原著「完全相同」或「不同」。
+- 正確拆分：
+  - `OBJECTIVE_DEATH_RESULT = PRESERVED`
+  - `LIVE_BRANCH_CAUSAL_IMPLEMENTATION = LEGALLY_RECALCULATED`
+  - `ORIGINAL_EXACT_DEATH_METHOD = SOURCE_DETAIL_NOT_LOCKED`
+  - `METHOD_SAME_OR_DIFFERENT = NOT_ASSERTABLE_WITH_CURRENT_SOURCE_EVIDENCE`
+- 這項補正覆蓋早期把「雨天決行被折光擊殺」整體寫成 `REBUILD` 的過度寬泛語感；真正需要重算的是Franiya分支的因果實作，不是原著已存在的死亡結果本身。
+
 ### 113-D｜冰霜舞步
 - 現行：`INTEGRATED_AS_CHARACTER_SPECULATION / NOT_AUTHOR_TRUTH`
 - 雨天決行因施法風格短暫猜測折光可能是冰霜舞步，並向折光提供「華夏過往頂尖法師之一、每款遊戲常換ID與外貌」的基本資訊。
@@ -50,6 +68,7 @@
 - 雨天決行死亡提示仍可顯示「玩家（姓名隱藏）」；但第59章旁觀者已公開喊出「折光」，第60章雨天決行也已直接確認其ID。
 - 匿名提示只隱藏提示欄姓名，不是記憶刪除。
 - 原著「只能記臉、不知道ID」精確結果：`RECALCULATED_DIFFERENT_RESULT`。
+- 因此113的結果分類必須拆開：**死亡／回城＝PRESERVED；死亡後對第二身份ID的知情結果＝RECALCULATED_DIFFERENT_RESULT。** 兩者不可混成「整個113結果都不同」。
 
 ### 113-F｜第二身份再次改臉
 - 沈雲為錦繡選秀隱匿而改臉的私人計畫不移植。
@@ -134,6 +153,8 @@
 `NEW_CH60_VOID_WITH_CAUSE_COUNT = 0`
 
 原因：113～115中可保留的客觀功能均已由合法新因果重建；沈雲私人記憶、私人外號、私人挑釁、私人滲透／人格品牌策略本來就不是Franiya可繼承內容，現行採 `RECALCULATED_DIFFERENT_DECISION / NONTRANSFERABLE_PRIVATE_CAUSALITY`，不另外新增本章VOID項。
+
+雨天決行死亡結果的本次補正也**不是新增VOID**：原著已有死亡／回城，現行正式標記為 `PRESERVED`；只有分支內具體因果依法重算。
 
 ---
 
