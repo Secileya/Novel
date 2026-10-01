@@ -2,45 +2,39 @@
 
 > 更新日期：2026-10-01  
 > 性質：`SOURCE_HANDOFF / READING_ROUTER / NEW_CHAT_BOOTSTRAP / MANDATORY`  
-> 適用專案：`網遊：重生就是最大的BUG（芙蘭妮雅改寫版）`  
-> 目的：讓完全沒有前文的新對話，也能知道原著SOURCE應先讀哪裡、各類研究檔用途、Canon Master如何更新，以及哪些區間仍未完成完整反向閉環。
+> 適用專案：`網遊：重生就是最大的BUG（芙蘭妮雅改寫版）`
 
 ---
 
 # 一、新對話固定啟動順序
 
-如果任務是「接手芙蘭原文事件／查某章原著／建立或更新Canon Master／做PREWRITE前SOURCE核對」，固定：
+如果任務是「接手芙蘭原文事件／查原著章節／更新 Canon Master／PREWRITE前SOURCE核對」，固定：
 
 1. 讀 `00A_原著事件捕捉與反向歸屬流程.md`。
 2. 讀本 `00C_原著SOURCE閱讀路由與新對話執行交接.md`。
-3. 依章號讀對應 `SOURCE_CANON_MASTER`。
-4. 只有遇到爭議、SOURCE_UNSTATED、高風險物權／知情鏈、RETRO或歷史誤判，才下鑽 SOURCE_NODE／RETRO／母抓取／反掃／舊Acceptance／舊LIVE／舊Master Set。
-5. 若要新增、否定、改變SOURCE結論，最終必須回第一手原著TXT。
+3. 依章號讀唯一對應的 `SOURCE_CANON_MASTER`。
+4. 正常情況到此即可工作；只有遇到爭議、SOURCE_UNSTATED、高風險物權／知情鏈、RETRO或歷史誤判，才下鑽 SOURCE_NODE／RETRO／母抓取／反掃／舊Acceptance／舊LIVE／舊Master。
+5. 若要新增、否定或改變SOURCE結論，必須回第一手原著TXT與必要後文窗口核對，然後**回寫既有 Canon Master EVENT_ID**。
 
 正常路由：
 
 `第一手原著TXT（最高證據） → 對應Canon Master（日常唯一現行入口） → 特殊爭議才下鑽歷史／專題檔`
 
-不要把日常工作變成：
+禁止回到：
 
-`母抓取 → 反掃 → Acceptance → LIVE → RETRO → SOURCE_NODE → 舊45/46/47 → 自己猜哪份最新`
+`母抓取 → 反掃 → Acceptance → LIVE → RETRO → SOURCE_NODE → 自己猜哪份最新`
 
 ---
 
-# 二、目前唯一現行 Canon Master 路由
-
-現行：
-
-- `48_SOURCE_CANON_MASTER_100-150.md`
-- `49_SOURCE_CANON_MASTER_151-200.md`
-- `50_SOURCE_CANON_MASTER_201-250.md`
+# 二、唯一現行 Canon Master 路由
 
 | 原著章號 | 唯一現行入口 |
 |---|---|
-| CH100～150 | SOURCE48 |
-| CH151～200 | SOURCE49 |
-| CH201～250 | SOURCE50 |
-| CH251以後 | 尚無Canon Master時，依00A回TXT＋既有研究；完成後建立下一份Master，從CH251起不得複製CH250現行真值 |
+| CH100～150 | `48_SOURCE_CANON_MASTER_100-150.md` |
+| CH151～200 | `49_SOURCE_CANON_MASTER_151-200.md` |
+| CH201～250 | `50_SOURCE_CANON_MASTER_201-250.md` |
+| CH251～300 | `51_SOURCE_CANON_MASTER_251-300.md` |
+| CH301以後 | 尚無Canon Master時，依00A回第一手TXT＋必要歷史研究，完成後從CH301建立下一份，不複製CH300現行真值 |
 
 固定：
 
@@ -48,311 +42,205 @@
 
 `BOUNDARY_OVERLAP_AS_CURRENT_TRUTH = FORBIDDEN`
 
-`HISTORICAL_MASTER_SET_MAY_OVERRIDE_CANON_MASTER = FALSE`
+`HISTORICAL_MASTER_MAY_OVERRIDE_CANON = FALSE`
 
-### 舊45／46／47的定位已正式降級
-
-以下檔案保留，但全部只屬歷史／證據層：
-
-- `45_SOURCE_CHAPTER_EVENT_MASTER_SET_100-150.md`
-- `46_SOURCE_CHAPTER_EVENT_MASTER_SET_150-200.md`
-- `47_SOURCE_CHAPTER_EVENT_MASTER_SET_200-250.md`
-
-它們檔內若仍殘留 `CURRENT_SOURCE_TRUTH_ENTRY`、`ACTIVE_CURRENT_SOURCE_ENTRY`、邊界重疊等舊自我描述，**一律由本00C與48／49／50的新路由覆蓋**，不得再被新對話解讀為現行權威。
-
-舊重疊章只保留作歷史證據：
-
-- CH150過去同時出現在45／46，現在只屬48；49以指標承接151開始。
-- CH200過去同時出現在46／47，現在只屬49；50以指標承接201開始。
+舊 `45／46／47_SOURCE_CHAPTER_EVENT_MASTER_SET` 已全部降為歷史／證據層；檔頭若殘留 `CURRENT`、`ACTIVE`、重疊邊界等舊自我描述，均由本路由覆蓋。
 
 ---
 
-# 三、目前各區間研究成熟度
+# 三、Canon Master 的真正定義
 
-## SOURCE48｜CH100～150
+Canon Master **不是摘要、索引或多檔案拼接結果**，而是該章段目前唯一完整SOURCE事件帳本。
 
-- 已有母抓取、多輪反掃／交叉稽核、時間序、Acceptance、LIVE、RETRO、SOURCE_NODE收斂。
-- 已升格為 `CURRENT_SOURCE_CANON_MASTER / SINGLE_AUTHORITY / COMPLETE_EVENT_LEDGER`。
-- CH150神恩守護項鏈只記當章取得；真正「交還→暫借」在SOURCE49的CH151繼續。
+新對話正常只讀對應 Master，就應能知道：
 
-## SOURCE49｜CH151～200
-
-- 由舊SOURCE46、151～180／181～210母抓取、121～210反向稽核、時間序第三輪與相關修正重新收斂。
-- CH180→181跨章結算、CH191～200平行剪輯已鎖定。
-- CH200「今天遊戲時間最後5分鐘會來」只建立到期責任；真正抵達／決戰由SOURCE50的CH201～204承接。
-
-## SOURCE50｜CH201～250
-
-- CH201～240：已有母抓取／第三輪交叉稽核／時間序第三輪，多層收斂。
-- CH241～250：2026-10-01直接回第一手TXT新抓，原證據檔 `47A_SOURCE_FIRST_HAND_CAPTURE_241-250.md` 已降為歷史證據層，現行結論已收斂進SOURCE50。
-- CH240→241跨窗已解決：真正破局是莎莉補1000魔力→薩拉達14000→【毀滅法則－崩壞】。
-- CH250→251必須跨窗：18:00港口會面、記憶讀取與治療結果不可提前標完成。
-- **241～270完整30章反向歸屬閉環仍未完成。** 下一批延伸CH251～270時需補完整forward reuse／reverse attribution，再回寫SOURCE50／下一Master相關EVENT_ID。
+- 原著全部會影響後續的事件；
+- 世界內真實時間位置；
+- 前因 → 動作 → 客觀結果；
+- 任務／技能／裝備／物品／貨幣／權限的來源與持有人；
+- 誰知道、誰不知道、是否公開；
+- 後文第一次回證／再利用；
+- SOURCE_EXPLICIT／DERIVED／UNSTATED等證據層級；
+- Shen Yun私人因果與可保留世界因果的分離；
+- Franiya映射與最終 disposition。
 
 固定：
 
-`CH241_250_FIRST_HAND_CAPTURE = PASS`
+`MASTER_IS_SUMMARY = FALSE`
 
-`CH241_250_CANON_MASTER_INTEGRATION = PASS`
+`MASTER_IS_COMPLETE_EVENT_LEDGER = TRUE`
 
-`CH241_270_FULL_REVERSE_ATTRIBUTION_CLOSURE = PENDING`
+`PRIVATE_CAUSE_VOID != OBJECTIVE_EVENT_VOID`
 
----
-
-# 四、第一手權威與三種問題必須分開
-
-第一手最高權威：
-
-`05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt`
-
-所有母抓取、反掃、Acceptance、LIVE、RETRO、SOURCE_NODE、舊Master Set、Canon Master都是研究／收斂層，不能取代TXT。
-
-但日常查詢不要求每次從TXT從零研究，否則Canon Master失去意義。
-
-固定分三層：
-
-`SOURCE真相` ≠ `研究歷史` ≠ `Franiya改寫線現況`
-
-- **SOURCE真相**：原著客觀發生了什麼。
-- **研究歷史**：以前漏了什麼、哪份檔判錯、怎麼被修正。
-- **Franiya改寫線現況**：原著事件在本線目前是整合、延後、重建、作廢或等待觸發。
-
-Canon Master要把三者分開，不把「原著結果」與「Franiya映射」混成一句。
+例如「沈雲因私人關係去翡翠湖」可作廢，不代表「魚人守護者死亡 → 本人採集屍體 → 魚人寶庫圖紙 → 與早期鑰匙閉環」也一起消失。
 
 ---
 
-# 五、各類檔案定位
+# 四、各類舊檔的用途
 
-## 5.1 母抓取 `SOURCE_CAPTURE`
+## 母抓取 SOURCE_CAPTURE
+按章保留原著流程、人物、規則、數值、資訊與鉤子。是基礎研究層，不是現行第一入口。
 
-用途：按章保存原著流程、人物、任務、技能、裝備、數值、規則、知情狀態、公開情報、長線鉤子。
+## 反向掃描／交叉稽核／時間序稽核
+補來源、持有人、後文用途、量化數值、時間錯位、平行剪輯、原著矛盾。反掃抓到的事實不能因Acceptance漏收就消失。
 
-定位：**基礎研究層，不是現行第一入口。**
-
-## 5.2 反向掃描／交叉稽核／時間序稽核
-
-用途：補來源、持有人、後文首次使用、量化數值、跨章反推、角色推測／客觀事實區分、原著矛盾與時間序。
-
-反掃抓到的事實不能因Acceptance沒收就消失；有效結果最終回寫Canon Master。
-
-## 5.3 Acceptance
-
-只回答「哪些SOURCE事件已被列入正式驗收／disposition？」
+## Acceptance
+只回答「哪些SOURCE事件被列入某次驗收」。
 
 `ACCEPTANCE != SOURCE_EVENT_MASTER`
 
 `ACCEPTANCE_MISSING_EVENT != SOURCE_EVENT_NONEXISTENT`
 
-## 5.4 SOURCE_NODE
+## SOURCE_NODE
+只處理高風險局部因果：物權、保管、交易、知情鏈、跨多章資產、SOURCE_UNSTATED等。結論最後仍必須回寫 Canon Master。
 
-只處理高風險局部因果，例如高價值物權／保管鏈、跨多章技能／裝備來源、知情邊界、SOURCE_UNSTATED中間邊、正文可能衝突。
+## LIVE／LIVE REBUILD
+表示某正式施工分支在當時採用的SOURCE狀態，不是永恆真值，可被RETRO修正。
 
-SOURCE_NODE做完，最終結論仍要回寫Canon Master。
-
-## 5.5 LIVE / LIVE REBUILD
-
-表示某個正式施工分支在那個時間點採用的SOURCE狀態。
-
-`LIVE = CURRENT_BRANCH_STATE_AT_THAT_TIME`
-
-不是：
-
-`LIVE = ETERNAL_SOURCE_TRUTH`
-
-## 5.6 RETRO
-
-用途：「以前漏／判錯，現在回頭修」。
+## RETRO
+保存「以前漏／判錯 → 現在修」的歷史。修完後：
 
 `RETRO_RESULT → UPDATE_CANON_MASTER`
 
-未來正常查事件不應每次先讀RETRO。
+---
 
-## 5.7 舊 Master Set 45／46／47
+# 五、EVENT_ID與SOURCE分類
 
-定位：`HISTORICAL_SOURCE_LEDGER / PROVENANCE`。
+事件ID固定：
 
-它們保留遷移前事件集合、舊邊界重疊與研究狀態，只有追查「以前為何這樣判」時下鑽。
+`CH<章號>-E<序號>`
 
-## 5.8 Canon Master 48／49／50
+同一事件後來找到新證據：
 
-這是日常唯一現行入口。
+`新證據 → 更新既有EVENT_ID → 補CHAIN／CUSTODY／KNOWLEDGE／DOWNSTREAM／DISPOSITION`
 
-概念公式：
+不要為同一事件長出第四輪、第五輪、平行LIVE真值。
 
-`CANON_MASTER`
-`= FIRST_HAND_TXT`
-`∪ SOURCE_CAPTURE`
-`∪ REVERSE_SCAN`
-`∪ CROSS_AUDIT`
-`∪ TIMELINE_AUDIT`
-`∪ FIRST_HAND_PATCHES`
-`∪ LATEST_VALID_RETRO`
+證據層：
 
-它不是「多一份摘要」，而是研究結果收斂後的**現行事件帳本**。
+- `SOURCE_EXPLICIT`：原文直接明示。
+- `SOURCE_DERIVED`：多個明示事實可邏輯證明／縮成必然集合。
+- `REASONABLE_INFERENCE`：高度支持但不能證明為唯一答案。
+- `SOURCE_UNSTATED`：只有完成當章、相鄰章、全文關鍵詞、跨章來源／數量／持有／後用反查仍不能再縮小才可使用。
+- `CHARACTER_STATEMENT_KNOWN_FALSE`：角色明說但作者已明示是假話，例如CH249沈雲把Zero說成關山瑞資料來源。
+- `ADAPTATION_OPTIONAL_BRIDGE`：改寫線自己建立的橋，永遠不能反標成原著事實。
 
 ---
 
-# 六、EVENT_ID規則
+# 六、物權與因果硬規則
 
-固定格式：
+以下動作不能混成「取得」：
 
-`CH<原著章號>-E<序號>`
+`掉落 / 屍體採集 / 拾取 / NPC交付 / 系統獎勵 / 任務獎勵 / 買入 / 拍賣成交 / 暫借 / 返還 / 消耗 / 轉讓 / 許願生成`
 
-例如：
+持有不等於知情；作者知道不等於角色知道；公開結果不等於真實動機也公開。
 
-- `CH116-E03｜【踢擊】92%量化回證`
-- `CH241-E01｜【毀滅法則－崩壞】完整數值`
-- `CH249-E01｜Zero情報來源是已知假話`
+原著客觀結果已確認時：
 
-新證據出現時：
+`OBJECTIVE_RESULT_DEFAULT = PRESERVE`
 
-`新證據 → 更新既有EVENT_ID → 更新後文回證／source class／disposition`
-
-不要為同一事件永久生出「第四輪版、第五輪版、新LIVE版」多個現行真值。
+若Franiya線要改：必須有明確衝突證據、因果理由與下游影響，不能只因「主角換人」就把 ACQUIRED 寫成 OFFERED、COMPLETED 寫成 ACTIVE、DEAD 寫回 ALIVE。
 
 ---
 
-# 七、SOURCE分類
+# 七、時間序硬規則
 
-### `SOURCE_EXPLICIT`
-原文直接明示。
+章號不是世界時間。
 
-### `SOURCE_DERIVED`
-沒有單句點名，但多個原文明示事實可邏輯證明或縮到必然集合。
+Master 必須保留需要的：
 
-### `SOURCE_UNSTATED`
-只有完成：當章完整回讀、前後章、全文搜尋、跨章數量／職業／掉落／交易／後續持有反推，仍不能再縮小時才可標。
+`SOURCE_IN_WORLD_ORDER`
 
-可另保留：
+`NARRATIVE_MODE = PRESENT / FLASHBACK / PARALLEL / MEMORY_EXPOSITION / LATE_DISCOVERED_HISTORY`
 
-- `REASONABLE_INFERENCE`
-- `ADAPTATION_OPTIONAL_BRIDGE`
-- `CHARACTER_STATEMENT_KNOWN_FALSE`
+既有典型：
 
-不要拿角色猜測冒充SOURCE_EXPLICIT。
-
----
-
-# 八、原著矛盾怎麼處理
-
-原著自己矛盾時，**雙版本保留**，直到後文真的修正。
-
-現有典型：
-
-- CH170原初之地「1級開始／0級開始」。
-- CH189【鮮血之翼】面板31級、旁白又說30級能飛。
-- CH219納塔麗數到110股／種異能，CH220旁白又寫108種異能齊聚。
-
-`ORIGINAL_INTERNAL_CONTRADICTION != LICENSE_TO_SILENTLY_FIX_AUTHOR`
-
----
-
-# 九、時間序硬規則
-
-章號不是世界內時間。
-
-Canon Master必須保留需要的：
-
-- `SOURCE_IN_WORLD_ORDER`
-- `NARRATIVE_MODE = PRESENT / FLASHBACK / PARALLEL / MEMORY_EXPOSITION / LATE_DISCOVERED_HISTORY`
-
-尤其：
-
-- CH154／157有前世回憶，不是現在事件。
-- CH170～181是一場原初之地對局。
-- CH191～200有競技場／矮人城平行剪輯。
-- CH207～222是同一現實日下午→深夜郵輪線，大量Zero前世背景不是當晚新事實。
-- CH223明示第二天一早。
-- CH224～241是同一水晶通道／伏擊遊戲日。
-- CH240必須跨CH241才完成戰鬥解法。
-- CH250必須跨CH251才能知道羅成女兒的治療／記憶讀取實際結果。
+- CH154／157：前世回憶，不是現在新事件。
+- CH170～181：同一場原初之地，CH180不能單章結算。
+- CH191～200：競技場／矮人城同日平行剪輯。
+- CH207～222：同一現實日下午→深夜郵輪線；Zero前世史不是當晚新發生。
+- CH223：明示第二天。
+- CH224～241：同一水晶通道／伏擊遊戲日；CH240必須跨CH241。
+- CH250：只建立18:00港口約定；真正治療在CH259，記憶讀取結果在CH283。
+- CH260～280：貨幣更新後首拍／排行榜大鏈。
+- CH285～300：同一次第73屆選秀大會；CH300只到前往中心，CH301才親眼確認巨蛋神咒級結界。
 
 `RESEARCH_DISCOVERY_TIME != SOURCE_EVENT_TIME != ADAPTATION_EVENT_TIME`
 
 ---
 
-# 十、Disposition常用值
+# 八、目前研究成熟度與跨區間閉環
 
-- `PRESERVE_BY_DEFAULT`
-- `WORLD_BACKGROUND_LOCKED`
-- `DEFERRED_WITH_TRIGGER`
-- `DEFERRED_WITH_CAUSE`
-- `REBUILD_REQUIRED`
-- `VOID_WITH_CAUSE`
-- `OPEN_SOURCE_UNSTATED`
+## SOURCE48｜CH100～150
+多輪研究收斂，唯一現行權威。
 
-任何重要事件沒有合法disposition，不得只因「章節看過」就宣告 `FULLY_CONSUMED`。
+## SOURCE49｜CH151～200
+母抓取＋反掃＋時間序收斂；CH180→181、CH191～200已鎖。
 
----
+## SOURCE50｜CH201～250
+CH201～240為多輪收斂；CH241～250由第一手TXT新抓後升格。重要跨窗：CH240→241已解決；CH250治療／記憶讀取需由SOURCE51後文回證。
 
-# 十一、正常查某一章
+## SOURCE51｜CH251～300
+2026-10-01直接對第一手TXT連續回讀CH251→CH301邊界建立。
 
-## Step 1｜先看對應Canon Master
+本輪已確認的高風險後文回證：
 
-先取得EVENT_ID、SOURCE_CLASS、客觀事件／結果、數值、世界內時間、後文回證、disposition、trigger／deadline、conflict note。
+- CH243【變身藥丸】→ CH281第49顆成功改變聲帶。
+- CH250羅紫玲→ CH259聖焰約5分鐘完全治癒器官傷勢；CH283 E級記憶讀取僅得表層、未解沈雲缺失記憶，讀到內容被消除，翌早送回羅成。
+- CH206幸運+1鑰匙→ CH270明確提高星辰能量掉率；鑰匙「真正能開什麼」仍未知。
+- CH249「Zero是情報來源」仍是假話；CH257～259的郵輪通行反而使張文君／張天權／卡里姆更深地誤信這條假說。
 
-## Step 2｜有爭議才下鑽
+`CH241_270_HIGH_RISK_FORWARD_REUSE_CHECK = PASS`
 
-例如：
-
-- 為什麼CH116踢擊以前漏？→讀RETRO＋反掃＋舊Acceptance／LIVE。
-- CH241～250第一次怎麼抓？→讀 `47A_SOURCE_FIRST_HAND_CAPTURE_241-250.md`。
-- 某高價值物品保管鏈不清？→讀對應SOURCE_NODE。
-- 為什麼舊45／46／47跟現在章號邊界不同？→讀舊Master Set作遷移歷史，不可拿來覆蓋48／49／50。
-
-## Step 3｜若要改SOURCE，回TXT
-
-至少讀當章連續上下文、相鄰章、必要全文關鍵詞、後文第一次再利用、邊界章真正停止點，然後才改Canon Master。
+`CH241_270_REVERSE_ATTRIBUTION_CLOSURE = PASS_WITH_OPEN_KEY_PURPOSE`
 
 ---
 
-# 十二、Canon Master更新規則
+# 九、原著自身矛盾
 
-新證據出現：
+作者自己矛盾時雙版本保留，直到後文明確修正：
 
-1. 回第一手TXT核對；
-2. 判斷是新事件還是既有EVENT_ID補證；
-3. 必要時建RETRO／SOURCE_NODE保留錯誤歷史；
-4. 更新對應Canon Master；
-5. 更新 source class／後文回證／disposition／trigger／deadline；
-6. 若影響正式改寫，再同步Active Queue／Current State／正文修復責任；
-7. commit後，以Canon Master新狀態作唯一日常入口。
+- CH170原初之地「1級開始／0級開始」。
+- CH189鮮血之翼面板31級，但旁白又說30級能飛。
+- CH219納塔麗數到110，CH220旁白又寫108種異能。
+
+`ORIGINAL_INTERNAL_CONTRADICTION != LICENSE_TO_SILENTLY_FIX_AUTHOR`
 
 ---
 
-# 十三、給新對話的最小Checklist
+# 十、正常查某章
 
-- [ ] 已讀00A
-- [ ] 已讀00C
-- [ ] 已定位章號對應48／49／50 Canon Master
-- [ ] 已確認EVENT_ID／source class
-- [ ] 已確認真實時間位置
-- [ ] 已確認客觀結果與數值
-- [ ] 已確認disposition／trigger／deadline
-- [ ] 已確認是否有原著自相矛盾
-- [ ] 若修改SOURCE，已回TXT
-- [ ] 若是高風險因果，已確認是否需SOURCE_NODE／RETRO
-- [ ] 新證據最終已回寫Canon Master
-- [ ] 若工作區含CH241～250，知道CH241～270完整30章閉環仍待下一批
-
-只有要寫正式正文時，才再進PREWRITE／能力Gate／Active Queue／Current State等正式施工流程。
+1. 先看唯一對應 Canon Master。
+2. 取得 EVENT_ID、SOURCE_CLASS、CHAIN、RESULT、CUSTODY、KNOWLEDGE、DOWNSTREAM、MAP、DISPOSITION、trigger/deadline。
+3. 有爭議才下鑽歷史檔／SOURCE_NODE／RETRO。
+4. 若要改 SOURCE，回第一手TXT當章連續上下文＋相鄰章＋必要全文搜尋＋第一次後用。
+5. 驗證完直接更新既有 Master EVENT_ID。
 
 ---
 
-# 十四、一句話交接
+# 十一、新對話最小 Checklist
 
-**原著TXT是最高證據；48／49／50 Canon Master是日常唯一現行入口；SOURCE_NODE／RETRO處理特殊爭議；45／46／47與母抓取、反掃、Acceptance、LIVE保留為證據與歷史；所有新證據最後必須回到既有EVENT_ID與Canon Master。**
+- [ ] 已讀00A。
+- [ ] 已讀00C。
+- [ ] 已定位唯一 Canon Master。
+- [ ] 沒有把舊45／46／47當現行真值。
+- [ ] 已確認完整因果鏈，不只看結果。
+- [ ] 已確認世界時間／回憶／平行剪輯。
+- [ ] 已確認物權與知情邊界。
+- [ ] 已區分沈雲私人因果與客觀世界事件。
+- [ ] 若修改SOURCE，已回第一手TXT與必要後文。
+- [ ] 新證據最後已回寫 Canon Master，而不是只多生一份研究檔。
 
-`FIRST_READ_ENTRY = SOURCE_CANON_MASTER`
+---
 
-`FIRST_HAND_TXT = HIGHEST_SOURCE_AUTHORITY`
+# 十二、一句話交接
 
-`CURRENT_CANON_MASTERS = SOURCE48 + SOURCE49 + SOURCE50`
+**第一手TXT是最高證據；48／49／50／51是目前各章段唯一現行SOURCE權威；其他SOURCE研究檔只保留證據／歷史功能；任何新證據最後必須收斂回唯一Master的既有EVENT_ID。**
 
-`HISTORICAL_MASTER_SETS = SOURCE45 + SOURCE46 + SOURCE47`
+`FIRST_HAND_TXT = HIGHEST_EVIDENCE`
+
+`CANON_MASTER = SINGLE_CURRENT_SOURCE_AUTHORITY`
 
 `HISTORICAL_FILES = PROVENANCE_NOT_PRIMARY_ENTRY`
 
-`NEW_EVIDENCE_MUST_CONVERGE_BACK_TO_CANON_MASTER = TRUE`
-
-`ACCEPTANCE_OR_LIVE_ALONE_CANNOT_PROVE_FULL_SOURCE_CLOSURE = TRUE`
+`NEW_EVIDENCE_MUST_CONVERGE_BACK_TO_MASTER = TRUE`
