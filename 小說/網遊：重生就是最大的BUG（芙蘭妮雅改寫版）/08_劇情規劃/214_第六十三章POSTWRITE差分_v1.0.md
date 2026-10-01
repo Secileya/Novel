@@ -1,7 +1,9 @@
 # 第六十三章 POSTWRITE 差分 v1.0
 
+> ⚠️ 歷史施工檔。第63章游俠技能／金幣相關欄位已由 `217_第六十三章游俠技能客觀結果RETRO修正_v1.0.md`、`218_第六十三章游俠技能RETRO最終交易關閉_v1.0.md` 與 `06M_章節索引_第63章RETRO增量.md` 覆蓋。本文不得作現行 Current Authority；其中「技能只開放未取得」為已撤銷歷史值。
+>
 > 日期：2026-10-01  
-> 狀態：`POSTWRITE = PASS / READY_FOR_TRANSACTION_SYNC`
+> 狀態：`HISTORICAL_SUPERSEDED / ORIGINAL_POSTWRITE_RECORD`
 > 正文：`01_章節/063_第六十三章_同一扇門，兩個答案.md`
 > 最終正文QA commit：`98581f94f24103893f29fa1bd5294cdf0b35f615`
 > PREWRITE：`213_第六十三章PREWRITE核定表_v1.0.md`
@@ -160,5 +162,5 @@
 `ASSET_LEDGER_GATE = PASS`
 `KNOWLEDGE_BOUNDARY_QA = PASS`
 `SOURCE_CONSUMPTION_GATE = PASS`
-`CH63_POSTWRITE = PASS`
+`CH63_POSTWRITE = HISTORICAL_SUPERSEDED`
 `CH64_BODY_GATE = BLOCKED_UNTIL_NEW_PREWRITE`
