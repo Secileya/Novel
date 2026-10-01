@@ -1,7 +1,9 @@
 # 第六十三章 PREWRITE 核定表 v1.0
 
+> ⚠️ 歷史施工檔。第63章游俠技能／金幣相關欄位已由 `217_第六十三章游俠技能客觀結果RETRO修正_v1.0.md`、`218_第六十三章游俠技能RETRO最終交易關閉_v1.0.md` 與 `06M_章節索引_第63章RETRO增量.md` 覆蓋。本文不得作現行 Current Authority；其中「精確金幣餘額未鎖→不購買技能」已判定為錯誤歷史值。
+>
 > 日期：2026-10-01
-> 狀態：`PREWRITE_GATE = PASS / BODY_AUTHORIZED`
+> 狀態：`HISTORICAL_SUPERSEDED / ORIGINAL_PREWRITE_RECORD`
 > SOURCE：`42_SOURCE_LIVE_REBUILD_122-124_CH63.md`
 > 前置母表：`41_SOURCE_CAPTURE_ACCEPTANCE_121-150.md`
 
