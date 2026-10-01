@@ -1,1031 +1,699 @@
-# SOURCE CANON MASTER｜原著第100～150章（重建中）
+# SOURCE CANON MASTER｜原著第100～150章
 
-> 建立日期：2026-10-01  
-> 性質：`SOURCE_CANON_MASTER_REBUILD / SINGLE_AUTHORITY_CANDIDATE`  
-> 目前狀態：`IN_PROGRESS / NOT_YET_PROMOTED`  
-> 目標：完成後取代 `45_SOURCE_CHAPTER_EVENT_MASTER_SET_100-150.md` 成為 CH100～150 **唯一現行權威 SOURCE 檔**。  
-> 第一手最高證據：`05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt`
+> 建立／升格日期：2026-10-01  
+> 性質：`CURRENT_SOURCE_CANON_MASTER / SINGLE_AUTHORITY / COMPLETE_EVENT_LEDGER`  
+> 章號所有權：`CH100～CH150`，不得由其他現行 Master 重複持有。  
+> 第一手最高證據：`05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt`  
+> 舊 `45_SOURCE_CHAPTER_EVENT_MASTER_SET_100-150.md` 及母抓取、反掃、Acceptance、LIVE、RETRO、SOURCE_NODE 自本檔升格後全部降為證據／歷史層；若它們與本檔衝突，不能直接覆蓋本檔，必須先回第一手 TXT 核對，再修改本檔既有 EVENT_ID。
 
----
-
-# 0｜這份檔案跟舊 Master 最大差異
-
-本檔不是「多份研究的濃縮摘要」，而是原著事件的**完整現行帳本**。
-
-完成並升格後，新對話查 CH100～150 時，應只需要：
-
-`原著 TXT（必要時回證） → 本 CANON MASTER`
-
-母抓取、反向掃描、Acceptance、LIVE、RETRO、SOURCE_NODE 全部降為：
-
-`PROVENANCE / HISTORICAL_EVIDENCE / SPECIAL_DISPUTE_DRILLDOWN`
-
-固定：
-
-`MASTER_IS_SUMMARY = FALSE`
-
-`MASTER_IS_COMPLETE_EVENT_LEDGER = TRUE`
-
-`MASTER_IS_SINGLE_CURRENT_AUTHORITY = TRUE`（僅在本檔完成並正式升格後生效）
-
+`MASTER_IS_SUMMARY = FALSE`  
+`MASTER_IS_COMPLETE_EVENT_LEDGER = TRUE`  
+`MASTER_IS_SINGLE_CURRENT_AUTHORITY = TRUE`  
+`ONE_CHAPTER_ONE_CURRENT_MASTER_OWNER = TRUE`  
+`PRIVATE_CAUSE_VOID != OBJECTIVE_EVENT_VOID`  
+`OBJECTIVE_RESULT_DEFAULT = PRESERVE`  
 `HISTORICAL_FILE_MAY_OVERRIDE_MASTER = FALSE`
 
-若後來發現新證據：
+---
 
-`新證據 → 核第一手TXT → 修正既有EVENT_ID → 記修正來源`
+# 0｜閱讀與更新規則
 
-不是再生一份平行 Acceptance／LIVE／第四輪掃描當新真值。
+每個事件固定區分：原著事件存在、原著因果、客觀結果、物權／知情、後文回證、Franiya 映射。`VOID_WITH_CAUSE` 只代表沈雲私人因果不自動移植，不得刪除相鄰客觀事件。掉落、採集、交易、NPC交付、任務獎勵、系統獎勵、拾取必須分開記。若後文補出面板、來源、用途、持有人或真正結果，回寫同一 EVENT_ID，不另造平行真值。
+
+事件欄位縮寫：
+- `SRC`：SOURCE_EXPLICIT / SOURCE_DERIVED / REASONABLE_INFERENCE / SOURCE_UNSTATED。
+- `CHAIN`：前置原因 → 實際動作 → 客觀結果。
+- `CUSTODY`：物品／資產／權限持有鏈。
+- `KNOWLEDGE`：誰知道、誰不知道、公開程度。
+- `DOWNSTREAM`：後文第一次依賴／回證。
+- `MAP`：Franiya 線映射。
+- `DISP`：最終 disposition。
 
 ---
 
-# 1｜事件不得被 disposition 吃掉
+# 1｜世界內時間骨架
 
-Master 必須先完整記錄「原著發生了什麼」，再記 Franiya 線怎麼處理。
-
-所以：
-
-`SOURCE_EVENT_EXISTENCE` 與 `FRANIYA_DISPOSITION` 完全分離。
-
-例如：
-
-- 沈雲因前世唐曉煙私人關係跑去翡翠湖：可以 `VOID / REBUILD`；
-- 翡翠湖本來就有白銀 BOSS【魚人守護者】：不能跟著消失；
-- BOSS 被殺後屍體可由玩家採集出【魚人寶庫圖紙】：不能因沈雲私人動機作廢；
-- 誰去殺、誰採集、誰拿到圖紙：依 Franiya 線實際因果重算。
-
-固定：
-
-`PRIVATE_CAUSE_VOID != OBJECTIVE_EVENT_VOID`
-
-`VOID_WITH_CAUSE_MUST_NOT_DELETE_ADJACENT_OBJECTIVE_EVENTS = TRUE`
+- CH100 承接 CH99 五人掉落結算；CH100～101仍在同一早期主城窗口。
+- CH102 明示第二天；沈雲前一日下線前約1小時已升11級。
+- CH102～106 為月神石結算、置產、抄家、皇家寶庫、定位傳送機器連續鏈。
+- CH107～114 為星辰深淵回訪、日光森林路途、洛追殺、第二身份公開戰鬥與情報推理連續鏈。
+- CH115 明示「第二天的第三個小時」抵達日光森林。
+- CH116～122 彩虹鳥狩獵 → 蒂姬考驗 → CH121跨章結算 → CH122正式轉職。
+- CH123～125 雅典娜神殿 → 翡翠湖公開衝突／關係測試 → 魚人守護者擊殺 → 強制下線。
+- CH126 先經現實精神／記憶異常，再重新登入；不得把125→126寫成無間斷遊戲時間。
+- CH126～135 魚人寶庫完整鏈。
+- CH136～144 職業試煉存在「試煉內主觀長時間」與「外界正常時間」雙軸。
+- CH145～150 返回342新手村，單刷地獄哥布林秘境；CH150首通後神恩守護項鏈物權需到CH151才完整結算，本檔只記150當下結果並指向下一 Master。
 
 ---
 
-# 2｜每個事件最低必填欄位
+# CH100｜暗金資產、法師裝備與游俠轉職入口
 
-每個 `EVENT_ID` 至少回答：
+### CH100-E01｜五名玩家掉落後的暗金資產結算
+`SRC=EXPLICIT`  
+`CHAIN=CH99五名玩家死亡掉落 → 沈雲整理五件暗金資產 → 將【貪狼鎧甲／戰盔／腿甲】實際裝備；牛戰士面具與戰盔因裝備類型不同可兼容。`  
+`RESULT=資產真正進入沈雲持有／裝備狀態，不是僅看見或待分配。`  
+`MAP=原持有人與掉落結果屬SOURCE；Franiya是否取得需重算戰鬥因果。`  
+`DISP=OBJECTIVE_RESULT_PRESERVE / CUSTODY_RECALC`
 
-- `SOURCE_CHAPTER`
-- `SOURCE_IN_WORLD_ORDER`
-- `NARRATIVE_MODE`
-- `EVENT_CLASS`
-- `PRECONDITIONS / CAUSE`
-- `ACTION_SEQUENCE`
-- `OBJECTIVE_RESULT`
-- `STATE_DELTA`
-- `CUSTODY_CHAIN`（若涉及物品／資產／權限）
-- `KNOWLEDGE_FLOW`（若涉及情報／秘密／公開資訊）
-- `DOWNSTREAM_EVIDENCE`
-- `SOURCE_CLASS = EXPLICIT / DERIVED / REASONABLE_INFERENCE / UNSTATED`
-- `FRANIYA_MAPPING`
-- `DISPOSITION`
-- `PROVENANCE`
-- `OPEN_EDGE`（若仍有未知）
+### CH100-E02｜【深海水晶球】與【火焰法杖】完整面板
+`SRC=EXPLICIT`  
+`CHAIN=玩家掉落 → 沈雲取得並查看面板。`  
+`RESULT=深海水晶球Lv10法師、耐久106、攻87-101、攻+6、精神+34、水傷+17%，【極致冰寒】0.01%即死（目標不高於自身10級），【海潮】8階、10×5米、150%水傷、區域50HP/s×20s、500MP、吟唱3s、CD5m；火焰法杖耐久118、攻91-103、攻+8、精神+39、元素凝聚+10%、火傷+14%，【火雨降臨】8階、8×8米、每秒魔攻×1.3、12s、750MP、吟唱3.5s、CD7m。`  
+`DOWNSTREAM=CH113以兩件不同類型增幅裝備共同計算法攻並實戰回證。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
 
-### ACTION_SEQUENCE 的要求
+### CH100-E03｜法師增幅裝備疊加規則
+`SRC=EXPLICIT`  
+`CHAIN=同時持有水晶球＋法杖 → 原著明示不同類型增幅裝備可同時生效；同類型只取綜合屬性較強者。`  
+`RESULT=魔法書、法劍、權杖等同屬增幅裝備體系。`  
+`DOWNSTREAM=CH113實戰疊加。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
 
-不能把可分離動作縮成一句結果。
+### CH100-E04｜四元素珠與天空之城鉤子
+`SRC=EXPLICIT + UNSTATED_EDGE`  
+`CHAIN=五人掉落池 → 【避風／避雷／避水／避火珠】進入沈雲資產 → 各+20%相應元素抗性並免對應極端環境 → 沈雲聯想到約一年後彼得大帝觸發【天空之城】跨戰區資料片。`  
+`CUSTODY=四珠確由五人掉落池而來；逐顆與四名掉落者的精確一對一映射原著未明示。`  
+`OPEN_EDGE=FOUR_ELEMENT_BEAD_EXACT_OWNER_MAPPING`  
+`DOWNSTREAM=避雷珠CH111；避水珠CH126。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
 
-例如以下兩種寫法不等價：
+### CH100-E05｜初級游俠轉職任務
+`SRC=EXPLICIT`  
+`CHAIN=前往轉職大廳 → 格拉蒙分身接待 → 發布【採集彩虹鳥的羽毛】200根／日光森林／5日／失敗無懲罰 → 獎勵黑鐵寶箱＋初級游俠資格。`  
+`RESULT=正式轉職後才能學基礎技能並進神殿信仰流程。`  
+`DOWNSTREAM=CH115～122。`  
+`DISP=WORLD_BACKGROUND_LOCKED / PERSONAL_ACCEPTANCE_RECALC`
 
-錯：
+# CH101｜公開輿論與十大公會協調
 
-`魚人守護者被處理後形成【魚人寶庫圖紙】來源。`
+### CH101-E01｜張文君離村順位
+`CHAIN=現實正天事務拖慢練級 → 【香檳怪盜】成華夏第10、世界第11離村玩家 → 華夏獎勵特殊道具、世界獎勵黃金裝。`  
+`SRC=EXPLICIT` `DISP=WORLD_EVENT_PRESERVE / RESULT_RECALC_IF_TIMELINE_CHANGED`
 
-正：
+### CH101-E02｜植物怪火弱與沈雲練級
+`CHAIN=沈雲個人練級選擇 → 植物森林 → 植物怪受火系額外傷害。`  
+`MAP=地圖相性保留；沈雲去哪裡練級屬私人選擇。`  
+`DISP=WORLD_RULE_PRESERVE / PRIVATE_ROUTE_VOIDABLE`
 
-`魚人守護者被沈雲擊殺 → 屍體保留 → CH126重新登入 → 沈雲本人對屍體使用採集 → 取得【魚人寶庫圖紙】。`
+### CH101-E03｜伏擊影片、視覺識別與星羽流量操作
+`CHAIN=青絲縛劍公開伏擊錄像 → 雲深不知處紅色臉基尼＋黃色羽翼成辨識符號並出現同款商品 → 全女性大型公會【星羽】會長霓裳羽衣借熱點發起追蹤活動。`  
+`KNOWLEDGE=公開。`  
+`MAP=星羽組織與霓裳人格DNA保留；針對沈雲的熱點需本線另有事件。`  
+`DISP=WORLD_BACKGROUND_LOCKED / PUBLIC_REACTION_RECALC`
 
-因為「掉落」「採集」「任務獎勵」「NPC交付」「交易」「拾取」是完全不同的來源機制，會直接影響 Franiya 線能否合法取得。
+### CH101-E04｜十大公會從憤怒轉向協調
+`CHAIN=伏擊與多次結怨 → 黑色暗流召集十大会長 → 左谷風參與；沈雲已與其中六家結怨，天痕偏向出方案而非立即正面衝突。`  
+`MAP=敵對網屬沈雲私人累積。` `DISP=VOID_WITH_CAUSE`
+
+# CH102｜月神石結算與大規模置產
+
+### CH102-E01｜第二日時間錨與黑色暗流現實追查
+`CHAIN=第二日開始 → 黑色暗流以全國人臉系統篩出3042名相似度30%以上者 → 全排除 → 改按現實仇怨反查。`  
+`KNOWLEDGE=公會內部情報；推理方向對重生沈雲仍無法命中。`  
+`DISP=PRIVATE_ENEMY_CHAIN_VOIDABLE`
+
+### CH102-E02｜月神石由道具供給轉成巨額資本
+`CHAIN=此前沈雲主動公開月神石屬性並建立需求 → 大批玩家交付／購買 → 未完成者通常1000金，部分曾辱罵者3000金，少付者退回 → 約1.5小時結算 → 沈雲資金超過4.2億金。`  
+`RESULT=月神石商業鏈完成資本化。`  
+`MAP=前世情報取得月神石來源可作廢；但若本線已合法形成對應資本，後續「資本能做什麼」不得一起刪。`  
+`DISP=PRIVATE_SOURCE_VOIDABLE / ECONOMIC_FUNCTION_PRESERVE`
+
+### CH102-E03｜光明／智慧雙城置產
+`CHAIN=4.2億金資本 + 伯爵折扣／早期價格窗口 → 光明主城買63家核心大型／超大型商鋪、另424家商鋪、13472套住宅，約2.3億 → 智慧之城買977家商鋪、26123套住宅，約1.3億 → 餘約65059254金 → 選五層核心商鋪籌建拍賣行並雇工匠、護衛、黃金級掌櫃。`  
+`RESULT=產業、租金、交易平台與後續官方關係形成。貨幣兌換尚未開放，正常房產稅窗口尚未全面啟動。`  
+`STATE=大額投資提升官方／芙蘭方面好感。`  
+`DISP=OBJECTIVE_RESULT_PRESERVE_IF_CAPITAL_EXISTS`
+
+# CH103｜官職衛兵、抄家與核心設施
+
+### CH103-E01｜五階主城守護者衛兵配置
+`CHAIN=伯爵／五階主城守護者權限生效 → 可召50名衛兵 → 實際為49名金甲衛兵＋統領【馬修】。`  
+`RESULT=官職不是稱號文字，而有可調動NPC武力。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH103-E02｜主城財產、稅制與【抄家】
+`CHAIN=取得官職／產業 → 原著補出主城資產、官方稅與執法權限 → 【抄家】可把違法／敵對節點轉為現實資產處置。`  
+`MAP=是否能用需看Franiya是否持有同官職。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH103-E03｜三大高使用設施與百勝稱號
+`CHAIN=個人競技場／原初之地／怪物訓練營 → 各100連勝可得稱號並世界公告 → 附近敵對玩家攻防-10%並獲【威懾】。`  
+`DOWNSTREAM=原初之地於170後大規模實戰。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH104｜皇家寶庫與神咒前置
+
+### CH104-E01｜NPC探查禮節與馬修層級
+`CHAIN=玩家對高階NPC使用探查 → NPC同樣視為冒犯並可掉好感；馬修實力／地位高於普通統領。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH104-E02｜神咒【毀天滅地】被選中但遭阻止
+`CHAIN=皇家寶庫挑選 → 沈雲鎖定神咒卷軸 → 面板顯示獻祭全部生命力與裝備力量、摧毀方圓萬米生物、使用後3日不可復活 → 守護者立刻阻止其帶走。`  
+`RESULT=CH104只有「選中／被阻止」，不是已取得。真正額外條件CH105揭露。`  
+`DISP=DEFERRED_WITH_TRIGGER`
+
+# CH105｜皇家寶庫四件資產
+
+### CH105-E01｜毀天滅地真正門檻與補償
+`CHAIN=守護者阻止 → 補充神咒還需獻祭兩件傳奇裝備，沈雲當前不具備 → 為補償把原可選3件提高為4件。`  
+`RESULT=神咒未進沈雲庫存；留下未來取得條件。` `DISP=DEFERRED_WITH_TRIGGER`
+
+### CH105-E02｜四件實際取得資產
+`CHAIN=補償選擇 → 取得巨型空間戒指（約20個標準足球場容量）＋【賦能之書】＋【定位傳送機器】＋一張未被第一手明確命名的圖紙。`  
+`CUSTODY=四件由皇家寶庫正式交付沈雲。`  
+`OPEN_EDGE=FOURTH_BLUEPRINT_EXACT_ID_SOURCE_UNSTATED`  
+`DISP=OBJECTIVE_RESULT_PRESERVE`
+
+### CH105-E03｜賦能之書立即消耗
+`CHAIN=取得【賦能之書】 → 沈雲當場對【職業試煉卷軸】使用 → 卷軸可取得最佳隱藏職業數由1提升為2 → 賦能之書消耗。`  
+`DOWNSTREAM=CH136～144兩個隱藏職業結果。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+### CH105-E04｜神咒未來取得契約
+`CHAIN=守護者提出條件 → 完成星辰果交付鏈＋未來持有兩件傳奇裝備 → 可回來取【毀天滅地】。`  
+`DISP=DEFERRED_WITH_TRIGGER`
+
+# CH106｜聖安東尼奧、芬里爾暗線與定位機器
+
+### CH106-E01｜寶庫守護者真身與隱藏歷史
+`CHAIN=寶庫對話 → 守護者揭露為首任皇帝／永恆之王【聖安東尼奧】 → 多數神明認為其已死，黑暗陣營知道是假死，假死涉及與黑暗神明合作。`  
+`KNOWLEDGE=作者／安東尼奧層資訊大於沈雲當下完整認知。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH106-E02｜芬里爾事前請託與「規則內投資」
+`CHAIN=芬里爾此前私下聯絡安東尼奧並請其照顧沈雲 → 安東尼奧把高價值內容置於可被選取的位置並在創世神規則內給機會 → 沈雲本人不知道兩者私下聯絡。`  
+`KNOWLEDGE=沈雲不可全知。`  
+`MAP=若Franiya沒有相同芬里爾關係，不可自動吃到同一私人照顧；寶庫規則本身保留。`  
+`DISP=PRIVATE_RELATION_REBUILD_REQUIRED`
+
+### CH106-E03｜定位傳送機器轉化為長期傳送珠路線
+`CHAIN=CH105取得定位傳送機器（華夏戰區任意坐標、每3個月1次） → CH106/107定位星辰深淵地下森林並傳送 → 再用既有【傳送珠】標記該地 → 把一次/3月的昂貴定位轉為每日可用路線。`  
+`CUSTODY=定位機器仍由沈雲持有；傳送珠可標3地點、可刪改、每日1次。`  
+`DOWNSTREAM=CH107回訪芬里爾。` `DISP=OBJECTIVE_CHAIN_PRESERVE`
+
+# CH107｜星辰果交付與雷電磁場
+
+### CH107-E01｜星辰果60日交付任務
+`CHAIN=回到星辰深淵 → 啟動長期星辰果交付 → 每5日2000顆、果實離樹需10日內、總期60日；失敗可失官職並降低皇帝好感 → 本章只完成第一批，不等於任務總完成。`  
+`DISP=DEFERRED_OPEN_TASK`
+
+### CH107-E02｜【雷電磁場】
+`CHAIN=能力取得／使用 → 500米內建立生物立體感知，包含隱身目標；準備10s、持續30s、CD10m。`  
+`DOWNSTREAM=CH128一次抓出大量隱身玩家。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH107-E03｜日光森林途中公開伏擊
+`CHAIN=霓裳羽衣／東湖山莊與燃燒軍團衝突 → 副會長【騎豬追太陽】等12人伏擊 → 沈雲踩入對方攻擊判定使其先紅名 → 108延續反打。`  
+`MAP=衝突客觀存在；沈雲介入屬私人選擇。` `DISP=WORLD_EVENT_PRESERVE / PERSONAL_ACTION_RECALC`
+
+# CH108｜紅名規則與岩石巨人
+
+### CH108-E01｜先手紅名規則實戰
+`CHAIN=沈雲主動卡進攻擊軌跡 → 對方先觸發攻擊／紅名 → 沈雲合法反擊。` `DISP=WORLD_RULE_PRESERVE`
+
+### CH108-E02｜岩石巨人BOSS與採集失敗
+`CHAIN=衝突中發現青銅BOSS【岩石巨人】 → 沈雲搶怪、不足1分鐘擊殺 → 掉2件青銅裝 → 對屍體多次採集皆失敗。`  
+`RESULT=「死亡怪物必能採集」並非規則。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH108-E03｜裝備鑑定 vs 採集物
+`CHAIN=野外裝備掉落 → 一般需鑑定才能看完整屬性；採集產物不走同一鑑定流程。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH109｜月神神殿追殺開始
+
+### CH109-E01｜玩家衝突後果
+`CHAIN=沈雲殺霓裳羽衣等5人及燃燒軍團4人 → 互加仇敵；先攻紅名、未殺誤傷約5分鐘可消、殺人增加罪惡值且提高死亡掉落風險；早期復活稀少，死亡多掉1級。`  
+`DISP=WORLD_RULE_PRESERVE / PERSONAL_KILLS_RECALC`
+
+### CH109-E02｜候補神使【洛】鎖定第33必殺目標
+`CHAIN=赫爾墨斯徽章／關聯仍被神殿承認 → 月神神殿候補神使洛現身 → 直稱沈雲為必殺名單第33位；玩家探查只能看到???。`  
+`RESULT=「本人拒絕職位」不等於敵對神殿不承認身份。`  
+`DOWNSTREAM=CH123再次回證。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH110｜洛的高階法術壓制
+
+### CH110-E01｜追殺目的與高階施法
+`CHAIN=洛執行神殿追殺 → 目標是把沈雲殺回初始地區 → 展示魔導士級以上瞬發／縮短高階吟唱能力。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH110-E02｜同名法術依施術者層級放大
+`CHAIN=洛使用【海潮】 → 與玩家版同名但範圍／威力更大；另使用【大地囚籠】與11階【大地守護鎧甲】，後者接地時恢復、離地失去恢復但仍高防。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH111｜第七感、抗性計算與身份氣息隔離
+
+### CH111-E01｜洛的第七感修行
+`CHAIN=月神神殿高階修行 → 洛長期封閉五感追求【第七感】；多名NPC同樣追求但難入門。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH111-E02｜假離開與NPC無系統提示
+`CHAIN=洛大招後佯離 → 約3分鐘折返確認 → 再過約5分鐘沈雲才現身。NPC沒有玩家式「任務已完成」提示，只能自行判斷。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH111-E03｜雷擊生存完整抗性鏈
+`CHAIN=洛大型雷術 → 沈雲先開4個【貪狼之魂】合計2萬護盾 → 芬里爾劍柄50%全魔抗＋避雷珠20%雷減＋貪狼裝部位魔抗及等級修正 → 實際雷抗約72%～73%，不是直接相加 → 護盾全破、僅剩血皮。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH111-E04｜千幻之心切斷身份氣息
+`CHAIN=沈雲切【撥雲見月】＋神隱 → 洛失去雲深不知處氣息 → 連芬里爾也無法從氣息直接看出兩身份同源。`  
+`DOWNSTREAM=CH123、CH128。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH112｜第二身份首次公開戰鬥
+
+### CH112-E01｜跨身份持續效果限制
+`CHAIN=主身份先開【貪狼之魂】 → 切法師後既有效果仍持續 → 法師身份不能重新啟動該裝備技能。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH112-E02｜血脈覺醒入口
+`CHAIN=神殿體系揭露 → 100貢獻可換獸族血脈覺醒藥劑；人類／精靈亦有細分血脈；獸族覺醒後可透過獵怪取得獸化能力；巨人／矮人／聖鬥士等屬更高血脈。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH112-E03｜雙重吟唱作資訊欺騙
+`CHAIN=三名玩家被雷暴吸引 → 沈雲以華夏語小火球作可讀口型誘餌，同時用精靈語暗中構築【海潮】 → 利用對手對咒語口型的判讀做假情報。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH113｜法師增幅實戰回證
+
+### CH113-E01｜雙增幅疊加與海潮傷害
+`CHAIN=深海水晶球＋火焰法杖同時生效 → 法攻約434～460 → 【海潮】150%倍率＋水增幅＋精靈語雙倍 → 對三名玩家造成1400+並秒殺。`  
+`RESULT=CH100裝備疊加規則被實戰確認。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH113-E02｜第二身份曝光控制
+`CHAIN=撥雲見月顯示出遠高於普通法師的戰力 → 沈雲反而刻意限制第二身份公開知名度 → 計畫透過榴蓮台第73屆選秀接近錦繡，避免太早被大夢初曉懷疑目的。`  
+`MAP=純沈雲私人關係策略。` `DISP=VOID_WITH_CAUSE`
+
+# CH114｜掉落、重甲與戰場尋寶
+
+### CH114-E01｜重甲與非紅名掉落
+`CHAIN=玩家死亡掉裝 → 黑鐵重甲例：體質+8、防+6、敏捷-8，說明重甲用敏捷換防體；非紅名正常死亡裝備爆率低。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH114-E02｜戰場刷新與玩家尋寶反應
+`CHAIN=高價值玩家戰鬥結束／掉落可能存在 → 周圍玩家依刷新與掉落機制進入尋寶／拾取競爭。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH115｜抵達日光森林與公開輿論
+
+### CH115-E01｜時間錨與彩虹鳥任務開始實作
+`CHAIN=明示第二天第三個小時 → 沈雲抵達日光森林 → 開始為200羽毛處理彩虹鳥。` `DISP=WORLD_EVENT_PRESERVE / PERSONAL_ROUTE_RECALC`
+
+### CH115-E02｜華夏觀察者輿論與智腦擴散
+`CHAIN=雲深不知處過往與女性玩家／NPC交集被華夏觀察者整理成「美女收割機」類話題 → 沈雲公開留言 → 智腦把高熱互動進一步推廣到世界信息流。`  
+`KNOWLEDGE=公開輿論，不等於客觀人物關係。` `DISP=PUBLIC_REACTION_RECALC`
+
+# CH116｜彩虹鳥、踢擊92%與領袖追殺
+
+### CH116-E01｜黑鐵短弓與未轉職遠程倍率
+`CHAIN=任務需要遠程處理 → 黑鐵短弓Lv10、耐久17、攻6-10、力+1 → 未正式轉職游俠使用遠程武器只能發揮30%屬性；自由模式無瞄準輔助，頂尖弓手多選半輔助。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH116-E02｜【踢擊】92%量化回證
+`CHAIN=沈雲自由模式踢擊 → 系統評92%完成度 → 技能額外+92%傷害。`  
+`RESULT=原著92%是沈雲個體結果；規則是自由模式按完成度給效果。`  
+`MAP=Franiya在合法使用窗口若屬本人可控執行品質，取系統允許上限100%，但不得覆寫原著92%。`  
+`DISP=SOURCE_RESULT_PRESERVE / FRANIYA_RESULT_RECALC`
+
+### CH116-E03｜約100隻後觸發彩虹鳥領袖
+`CHAIN=沈雲在棲息地連殺約100隻 → 系統判定肆意屠殺 → 白銀Lv12【彩虹鳥領袖】進入5分鐘追殺。面板HP12000、攻274-311、力78、防52、敏119、火抗39%、雷抗2%，已見技能俯衝殺／魔法驅散／龍捲風。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH116-E04｜陽炎腰帶、最低1傷與腿部強化
+`CHAIN=戰鬥展示【魔·陽炎腰帶】：每擊+200太陽火30s/CD5m，日照10m可殉爆10m範圍500%物攻＋1000/s×10s，殉爆後5日不可再發陽炎之力；怪物破不了玩家防仍最低1傷，玩家互打則可MISS；貪狼腿甲【腿部強化】20s/CD5m。`  
+`DOWNSTREAM=腿部強化CH117。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH117｜領袖掉落與蒂姬登場
+
+### CH117-E01｜晶核施法與墜落
+`CHAIN=彩虹鳥領袖以晶核儲魔 → 魔獸施法不需玩家式完整吟唱，龍捲風約2秒形成 → 沈雲腿部強化跳上背部輸出 → 領袖俯衝途中死亡 → 沈雲落地仍受-213墜落傷害。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH117-E02｜【俯空殺】來源
+`CHAIN=彩虹鳥領袖死亡 → 掉白銀重劍＋【俯空殺】技能書 → 沈雲當場學會；俯空殺為高躍後借下墜造成150%傷害，自由模式按完成度／高度評估，CD50s。`  
+`CUSTODY=技能書由BOSS掉落→沈雲學習消耗；不是導師販售。`  
+`DISP=OBJECTIVE_RESULT_PRESERVE / HOLDER_RECALC`
+
+### CH117-E03｜蒂姬與牛戰士面具真正功能
+`CHAIN=蒂姬無聲接近、探查???、至少傳奇格鬥家尺度 → 她只記得牛戰士是師弟且相處約1週 → 面具不是戀愛帶路物，而是把合格持有人帶到真我流考驗的資格媒介 → 直接開始測試。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH118｜真我流第一環
+
+### CH118-E01｜蒂姬突襲與任務啟動
+`CHAIN=蒂姬騰空飛膝 → 沈雲格擋仍-2430、總HP約2480，未擋估計上萬且蒂姬仍留力 → 傳奇任務【蒂姬的幫手】第一環正式開始，要求在三輪／約3分鐘考驗中撐住，失敗死亡。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH118-E02｜公平壓制與NPC關係
+`CHAIN=沈雲擋住初始突襲算第一輪通過 → 蒂姬為公平把自身屬性壓到相近水平並避免波及艾莉／艾米麗；兩名金髮女孩為黑鐵NPC，與蒂姬親近，父母後文確認也是強者。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH119｜幻想之舞
+
+### CH119-E01｜真我流元素氣勁與同屬性不等於同戰力
+`CHAIN=蒂姬壓屬性後作戰 → 拳帶紅色火焰氣勁、腿帶青色氣勁 → 即使數值相近，高階技能倍率、節奏與經驗仍遠高於沈雲。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH119-E02｜【幻想之舞】
+`CHAIN=蒂姬3秒完成100連擊、快到殘影 → 連段每擊帶強眩暈；旁觀女孩稱曾用此招打爆傳奇魔獸 → 真正眩暈依賴於CH121補明。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH120｜裸絞與跨章結算
+
+### CH120-E01｜衝刺打斷與人體構造
+`CHAIN=沈雲抓節奏用【衝刺】切到背後 → 裸絞成型；《信仰》人體結構與現實相同，頸動脈壓迫可致昏厥，普通4～6s，蒂姬在同屬性狀態約30s仍未倒。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH120-E02｜蒂姬解除壓制，不在本章結算通過
+`CHAIN=蒂姬無法在受控前破解 → 為脫困解除公平壓制、恢復原本力量 → CH120章末只發生掙脫；CH121開頭才因她自認違約而判沈雲通過。`  
+`SRC=DERIVED_FROM_CROSS_CHAPTER_EXPLICIT`  
+`DISP=TIMELINE_LOCKED`
+
+# CH121｜第一環結算與第二環
+
+### CH121-E01｜第一環正式通過、好感+30
+`CHAIN=蒂姬承認自己先解除壓制、破壞公平條件 → 主動認輸 → 沈雲取得學真我流資格 → 好感提升至30。`  
+`RESULT=好感30是客觀數值，曾被舊LIVE漏掉，現已收回CANON。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+### CH121-E02｜牛戰士推薦鏈真相
+`CHAIN=蒂姬補背景 → 牛戰士為她師父朋友之子；真我流每代只傳兩人，另一名額原給牛戰士，但其天賦不足 → 牛戰士與師父／蒂姬約定以面具尋找合格挑戰者。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH121-E03｜幻想之舞失效的知情差
+`CHAIN=蒂姬追問為何不受眩暈 → 真相是芬里爾劍柄【芬里爾的意志】免眩暈／沉默／即死 → 沈雲為保密謊稱短時免眩暈藥。`  
+`KNOWLEDGE=沈雲知道真相；蒂姬只知道假說。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH121-E04｜第二環【蒂姬的幫手】尚未完成
+`CHAIN=第一環通過 → 蒂姬發布第二環：30日內協助殺傳奇暗夜精靈【迦娜】，失敗當場死亡，獎勵真我流＋極限流職業卷軸；蒂姬自認單挑可壓制並半日內殺迦娜，但擔心援兵，沈雲主要任務是擋援。`  
+`RESULT=CH121只是接任務，絕非已擊殺迦娜或已取得卷軸；真正完成遠在CH383。` `DISP=OPEN_TASK`
+
+# CH122｜正式轉職與技能購買
+
+### CH122-E01｜定位卷軸與真我／極限流說明
+`CHAIN=第二環成立 → 蒂姬給定點傳送卷軸，找到迦娜後才會可用；她說真我流以自身為中心借周遭元素／環境，極限流偏超高暴擊；「真我流上限較高」是蒂姬主觀看法。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH122-E02｜羽毛任務完成與日光森林標記
+`CHAIN=補滿200羽毛 → 同時把日光森林寫入傳送珠標記 → 傳送珠最多3地點、可刪改、每日1次。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+### CH122-E03｜正式初級游俠＋黑鐵寶箱＋全部基礎技能
+`CHAIN=向格拉蒙交200羽毛 → 正式成初級游俠＋獲黑鐵寶箱 → 沈雲購買全部公開基礎技能：【精通雙手武器】主手全／副手半屬性20金、【一級精通射術】短40%長20% 5金、【兩連射】2箭各80% 5金、【一級穿透】5%穿透15s/CD1m 5金、【衝刺】2米/後首擊+20%/準備0.2s/CD40s 5金、【蓄力重擊】雙倍/準備2s/CD1m 20金。`  
+`RESULT=不是只解鎖商店，而是原著沈雲全部買下。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+### CH122-E04｜隱藏技能【英雄之軀】與多身份職階同步
+`CHAIN=第一個到、單人高效完成、禮節／資質獲格拉蒙認可 → 額外開放【英雄之軀】1s無敵/CD10m/10000金 → 沈雲購買；導師提升主身份職階時，第二身份同步由見習法師升為初級法師。`  
+`DISP=OBJECTIVE_RESULT_PRESERVE_IF_LEGAL_TRIGGER / WORLD_RULE_LOCKED`
+
+# CH123～126｜雅典娜神殿、關係測試、魚人守護者到圖紙
+
+### CH123-E01｜主身份拒絕、第二身份入教
+`CHAIN=正式轉職後到智慧之城雅典娜神殿 → 莫妮卡因赫爾墨斯神使徽章拒絕【雲深不知處】並透露赫爾墨斯曾險使光明神明大量隕落但不說細節 → 沈雲不願先投赫爾墨斯再轉信仰，因轉信仰會清空貢獻 → 切【撥雲見月】重進 → 莫妮卡無法辨識同源 → 因為第一名到神殿的玩家信徒而免一般信仰任務，第二身份成雅典娜信徒。`  
+`KNOWLEDGE=莫妮卡不知兩身份同源；沈雲只知道赫爾墨斯歷史的一小部分。`  
+`DISP=WORLD_RULE_PRESERVE / PERSONAL_RESULT_RECALC`
+
+### CH123-E02｜魚人守護者衝突公開化
+`CHAIN=翡翠湖白銀BOSS【魚人守護者】客觀存在 → 天痕與錦繡圍繞BOSS發生公開衝突 → 論壇／直播可見 → 沈雲得知。`  
+`RESULT=即使沈雲私人感情線不存在，魚人守護者與公會衝突也不因此消失。` `DISP=WORLD_EVENT_PRESERVE`
+
+### CH124-E01｜左谷風把公開衝突改造成私人關係測試
+`CHAIN=左谷風注意沈雲曾放過大夢初曉／細雨朦朧 → 懷疑二人可能是軟肋 → 指示江城故意拖延BOSS分配、買熱搜、推直播並在BOSS後對大夢方下殺手 → 觀察雲深不知處是否救人。`  
+`KNOWLEDGE=這是左谷風假說，不是世界已知真相。` `DISP=VOID_WITH_CAUSE_IF_NO_EQUIVALENT_RELATION`
+
+### CH125-E01｜沈雲反情報與AI出刀分析
+`CHAIN=沈雲看穿測試 → 不救大夢，反而殺錦繡多人並親手殺大夢初曉 → 大夢暗金裝幸運未爆 → 左谷風用AI比較不同擊殺錄像，在控制敏捷後發現對大夢出刀甚至略快 → 錯判兩人無特殊關係。`  
+`DISP=PRIVATE_CAUSE_VOIDABLE`
+
+### CH125-E02｜魚人守護者被單殺
+`CHAIN=公會衝突處理後 → 沈雲親自對白銀Lv10【魚人守護者】作戰 → 擊殺。面板：HP11000、火抗41%、雷抗12%、水抗52%，技能集中猛擊／水流術／橫掃。`  
+`RESULT=BOSS死亡；此時【魚人寶庫圖紙】仍未入手。`  
+`DOWNSTREAM=CH126從屍體採集。` `DISP=WORLD_EVENT_PRESERVE / KILLER_RECALC`
+
+### CH125-E03｜現實身體／記憶異常造成強制斷點
+`CHAIN=親手殺大夢後 → 現實身體與缺失記憶線劇烈異常 → 系統連續提示 → 5秒強制下線。`  
+`MAP=沈雲重生身體／唐曉煙私人因果，不移植；但時間斷點必須保留於原著時間記錄。` `DISP=VOID_WITH_CAUSE`
+
+### CH126-E01｜重新登入後親自採集【魚人寶庫圖紙】
+`CHAIN=現實精神／記憶疼痛處理 → 沈雲重新登入 → 回到已死魚人守護者屍體 → 本人使用採集 → 取得【魚人寶庫圖紙】。`  
+`CUSTODY=魚人守護者屍體〔來源節點〕→沈雲採集成功→圖紙進沈雲庫存。這不是BOSS直接掉落。`  
+`DOWNSTREAM=立即與早期【魚人寶庫鑰匙】合流。`  
+`DISP=OBJECTIVE_MECHANISM_PRESERVE / HOLDER_RECALC`
+
+### CH126-E02｜鑰匙＋圖紙＋環境工具形成完整入庫鏈
+`CHAIN=早期Lv8黃金BOSS【暗黑魚人刺客】掉【魚人寶庫鑰匙】 → CH126圖紙指出翡翠湖水下約500米 → 正常玩家約30級才較易靠水下屏障／藥劑處理 → 沈雲用【避水珠】排開約3米水域＋白骨戒指夜視下潛 → 抵達寶庫門。`  
+`CUSTODY=鑰匙早已由沈雲持有；圖紙CH126新取得。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH126-E03｜門鎖還需75枚優質晶核
+`CHAIN=使用鑰匙仍無法直接開門 → 發現古老魔法陣能量枯竭 → 投入75枚【疾風狼優質晶核】補能 → 寶庫開啟。`  
+`CUSTODY=75晶核由沈雲庫存→消耗。`  
+`RESULT=「有鑰匙」不等於「零成本開門」。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+### CH126-E04｜第三方NPC開始利用玩家
+`CHAIN=沈雲進入後 → 後方NPC盜賊現身 → 準備另開通道，引玩家入內替自己清守衛。`  
+`DOWNSTREAM=CH127。` `DISP=WORLD_EVENT_PRESERVE`
+
+# CH127｜NPC盜賊把玩家引入寶庫
+
+### CH127-E01｜臨時空間門與1200+玩家
+`CHAIN=NPC盜賊在翡翠湖岸用定點傳送手段開臨時空間門 → 玩家試探確認可進 → 約半小時1200+玩家湧入 → 空間門破碎 → 玩家被鎖在寶庫內向深處推進。`  
+`RESULT=空間門不是寶庫固定公共入口，而是NPC主動利用玩家。` `DISP=WORLD_EVENT_PRESERVE`
+
+### CH127-E02｜前區低收益與黑光情報
+`CHAIN=魚人守衛密集但採集／常規掉落差，側房多僅少量金幣 → 玩家向深處集中；沈雲遇炸天幫【黑光】並確認玩家從湖岸空間門進來 → 因紅名全屬性懲罰與即將大混戰，未無故殺他。`  
+`DISP=WORLD_BACKGROUND_LOCKED / PERSONAL_ACTION_RECALC`
+
+# CH128｜第二身份混入大隊伍
+
+### CH128-E01｜雷電磁場抓出隱身玩家
+`CHAIN=寶庫多人環境 → 沈雲開雷電磁場 → 500米立體感知一次看見約二三百隱身玩家並注意到香檳怪盜。`  
+`DOWNSTREAM=CH107能力完整回證。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH128-E02｜切第二身份混入第三梯隊
+`CHAIN=避免雲深不知處身份被集中圍殺 → 躲入側室切【撥雲見月】 → 混入臨時玩家團隊；玩家依坦克／輸出／治療自發組隊並大量用中高級藥。`  
+`RESULT=身份隔離在大型玩家場景再次有效。` `DISP=WORLD_RULE_PRESERVE / PERSONAL_ACTION_RECALC`
+
+### CH128-E03｜核心區前雙白銀BOSS與巨大寶箱
+`CHAIN=大隊伍深入 → 遭兩隻白銀BOSS造成大量傷亡 → 最終中央區域出現巨大寶箱。` `DOWNSTREAM=CH129` `DISP=WORLD_EVENT_PRESERVE`
+
+# CH129｜30盜賊開箱與魚人王子
+
+### CH129-E01｜30名Lv10盜賊共同開鎖
+`CHAIN=巨箱機關判定 → 需30名Lv10盜賊同時【開鎖】 → 各公會臨時結盟分配人手 → 開鎖完成後瞬發五階【風刃術】秒殺最近3名盜賊。`  
+`DISP=WORLD_EVENT_PRESERVE`
+
+### CH129-E02｜公會聯盟與十大排名
+`CHAIN=高價值巨箱出現 → 天痕／一品逍遙居／論俠行道／風雪夜歸人形成較近聯盟；黑色童話／四海／極道／逐鹿／封刀形成另一組；雲上挽歌較游離；散人不到百人。`  
+`RESULT=原著同步給當期華夏觀察者十大排名，屬當時信息快照而非永久排名。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH129-E03｜魚人王子出箱
+`CHAIN=開箱機關後 → 被封印的【魚人王子】現身；原傳奇級，長期封印跌至黃金Lv15 → 高溫水系法術快速清玩家；沈雲以撥雲見月精靈語【海潮】堵出口一側，形成前後夾擊。` `DISP=WORLD_EVENT_PRESERVE / PERSONAL_ACTION_RECALC`
+
+# CH130｜347擊殺、哈姆死亡與屍體吸收
+
+### CH130-E01｜玩家死亡鏈
+`CHAIN=海潮／火雨等持續 → 沈雲本章累計親手殺347玩家 → 紅名接近黑、全屬性-10%；火雨逼出潛行者，包括張文君 → 張文君復活卷軸起身＋傳送卷軸逃離。`  
+`DISP=PRIVATE_COMBAT_RESULT_RECALC`
+
+### CH130-E02｜NPC盜賊【哈姆】來源與死亡
+`CHAIN=此前開門利用玩家的NPC盜賊正式現身【哈姆】（白銀Lv11，潛行／影遁／背刺／加速／淬毒／信仰之躍等） → 能看懂雙重吟唱 → 與沈雲衝突 → 被反殺。`  
+`DOWNSTREAM=CH135哈姆掉落星辰寶石／萬能鑰匙。` `DISP=WORLD_EVENT_PRESERVE / KILLER_RECALC`
+
+### CH130-E03｜魚人王子吸收死亡玩家力量
+`CHAIN=大量玩家死亡 → 魚人王子吸收屍體殘存力量 → 屍體力量被抽空後系統強制送回 → 死亡視角玩家不能繼續留場觀察身份切換。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH131｜迪亞斯與假情報施法
+
+### CH131-E01｜魚人王子確認姓名【迪亞斯】並升偽暗金
+`CHAIN=持續吸收死亡玩家殘力 → 黃金狀態短暫升為【偽·暗金】 → 顯示姓名迪亞斯。` `DISP=WORLD_EVENT_PRESERVE`
+
+### CH131-E02｜高階NPC氣息辨識與魔武路線
+`CHAIN=迪亞斯觀察撥雲見月 → 明確指出其法師氣息與雲深不知處游俠氣息不同，並認出貪狼裝備 → 顯示高階NPC能以氣息辨身份，而千幻之心確實重寫／隔離氣息。迪亞斯本職偏魔法、兼近戰，非完整雙修。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH131-E03｜水元素偽裝冰元素
+`CHAIN=迪亞斯故意以水元素表現成冰系前搖 → 誘沈雲以為是10階寒冰霜爆 → 實際瞬轉大型水牢。`  
+`RESULT=高智慧NPC會用假前搖／假情報。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH132｜解放：聖炎
+
+### CH132-E01｜水牢逼出第一次火狐炎刀解放
+`CHAIN=8階水牢約10s且可用足夠傷害打破 → 沈雲判斷正常輸出不足以在後續大招前破牢 → 第一次啟動【火狐炎刀·解放】 → 清除負面並變為傳奇【聖炎】15s。`  
+`RESULT=耐久836、攻2146-2755、力+350、精神+150、每擊附100%火傷；刀氣約3米、150%、最遠20米、命中後500/s×10s；對黑暗3倍。`  
+`CHAIN2=15s內擊殺迪亞斯 → 解放結束 → 火狐炎刀休眠3日不可用。`  
+`DISP=WORLD_RULE_PRESERVE / PERSONAL_COMBAT_RECALC`
+
+# CH133｜暗金首殺與掉落
+
+### CH133-E01｜華夏首個暗金BOSS擊殺公告
+`CHAIN=迪亞斯死亡 → 觸發華夏首個暗金BOSS擊殺與世界公告 → 世界獎勵【傳奇級任務線索】再次指向地獄【骷髏城】死靈法師【穆斯塔】。`  
+`RESULT=與此前黃金BOSS首殺所得線索相同；穆斯塔確為原著既有角色，不是改寫原創。` `DISP=WORLD_EVENT_PRESERVE`
+
+### CH133-E02｜主要暗金掉落
+`CHAIN=迪亞斯死亡結算 → 【貪狼戒指】暗金（精神+33、體質+10、幸運+5；堅韌降低20%眩暈；貪狼之魂）＋【王族三叉戟】暗金（Lv15戰士、力+31、暴擊+10%、水傷+6%、1%五階水流衝擊、可召1隻15級魚人/CD30m）等進入戰利品；巨大寶箱另有高價值物。`  
+`DISP=OBJECTIVE_RESULT_PRESERVE / HOLDER_RECALC`
+
+# CH134｜亞特蘭蒂斯、迪亞斯日記與職業試煉來源
+
+### CH134-E01｜亞特蘭蒂斯傳送卷軸
+`CHAIN=寶庫巨箱戰利品 → 取得【亞特蘭蒂斯傳送卷軸】 → 可傳送至波塞冬曾居住的特殊水上都市；正常約50級後才大規模被玩家發現，奇珍異寶豐富。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH134-E02｜貪狼之刃、清影寶珠與日記
+`CHAIN=戰利品整理 → 【貪狼之刃】暗金（攻120-131、力+38、暴擊+12%、2%摧毀；貪狼咆哮170%＋3×3眩暈3s；貪狼之魂）＋【清影寶珠】可直接轉職清影刺客＋【迪亞斯的日記本】入手。`  
+`RULE=摧毀對場景可無視耐久直接破壞；對玩家觸發表現為3倍傷害。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH134-E03｜職業試煉卷軸真正歷史來源
+`CHAIN=閱讀迪亞斯日記 → 得知迪亞斯8歲暗金、卡傳奇7年 → 偷走海神宮至寶，其中含【職業試煉卷軸】 → 在試煉中外部裝備／技能全失效，外界約1小時而其體感至少10年 → 理解自身缺心靈修煉並取得【魔武士】路線，但轉職中途被發現，只繼承部分能力 → 父王為保命將他封入海神宮宮主任務寶箱當守護者。`  
+`DOWNSTREAM=CH136～144。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH135｜血脈覺醒與哈姆戰利品
+
+### CH135-E01｜日記地圖與公會研究職能
+`CHAIN=繼續讀日記 → 發現海神宮私藏宝物路線圖；原著明說中型以上公會會配置專人整理背景故事、NPC關係與世界情報。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH135-E02｜哈姆掉落與罪惡值清除
+`CHAIN=回收CH130哈姆死亡掉落 → 【星辰寶石】可換雅典娜神殿10000貢獻＋【萬能鑰匙】可無視因素開任意寶箱、剩3次 → 沈雲另以352金清除殺347人累積罪惡值；當時市場約1金≈800現實幣。` `DISP=WORLD_BACKGROUND_LOCKED / HOLDER_RECALC`
+
+### CH135-E03｜兩種精靈血脈與更換規則
+`CHAIN=雅典娜神殿只收貢獻值、不接受金幣代替 → 沈雲用200貢獻換兩種血脈資訊／處理：月精靈每級力+2敏+2；聖精靈每級精神+4 → 原著補明【血脈覺醒】是提升當前血統；每玩家正常另有一次血脈更換權，再換需去地獄做血脈清洗。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH136｜職業試煉第一、二、三輪框架
+
+### CH136-E01｜進入試煉與理論測試
+`CHAIN=使用經CH105賦能後的職業試煉卷軸 → 進純白封閉空間 → 角色屬性歸0、技能清空、外部裝備／技能失效 → 第一輪理論測試佔20%、10小時，題庫覆蓋戰鬥與生活職業；網路／通訊／AI禁用，中途下線直接失敗。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH136-E02｜後續評分框架
+`CHAIN=理論後 → 第二輪戰鬥評估佔20%，系統調取玩家在《信仰》的全部戰鬥錄像 → 第三輪【戰鬥之道】依序化身不同職業，當前身份死亡後才換下一職。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH137｜試煉內長時間與永恆長眠跨國
+
+### CH137-E01｜戰鬥之道主觀數月
+`CHAIN=第三輪持續 → 沈雲體感已數月；外界時間照常走。`  
+`TIMELINE=PARALLEL_DIFFERENT_TIME_SCALE` `DISP=TIMELINE_LOCKED`
+
+### CH137-E02｜十大公會「底牌」策略與神秘法師追查
+`CHAIN=外界十大公會暫停正面聲討 → 百萬玩家共同疊任務／稀有機緣 → 準備累積能改變戰局的技能／道具再圍殺；同時重金追查魚人寶庫神秘法師，但常識上沒人把頂尖近戰與頂尖法師第二身份視作同一人。` `DISP=WORLD_REACTION_PRESERVE / TARGET_RECALC`
+
+### CH137-E03｜永恆長眠以游客身份跨國
+`CHAIN=世界第二出村者【永恆長眠】提前穿國界 → 以游客身份進華夏，不觸發跨國入侵類負面效果 → 成世界首個跨國玩家並獲傳奇裝備。` `DISP=WORLD_EVENT_PRESERVE`
+
+# CH138｜永恆長眠實力情報與試煉法師成長
+
+### CH138-E01｜法師試煉升到特級魔法師
+`CHAIN=戰鬥之道體感5～6個月 → 法師身份連續生存十多日並升Lv20 → 系統動態評為【特級魔法師】；試煉內裝備／技能書高爆率用於支撐角色成長。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH138-E02｜永恆長眠公開戰績
+`CHAIN=天痕研究其影片 → 永恆長眠單人斬Y國阿爾法公會137人含黑豹，大多不用技能，白劍普通揮擊近千傷害。`  
+`KNOWLEDGE=公會情報分析，不等於全能力揭底。` `DISP=WORLD_EVENT_PRESERVE`
+
+# CH139｜華夏軍備競賽與智慧之書
+
+### CH139-E01｜各勢力為約戰備戰
+`CHAIN=永恆長眠威脅升高 → 天痕等集中刷高階任務／裝備；錦繡會議中姜書羽以唐曉煙朋友／新高手身份入場；【影子】在死神神殿用稀有寶石換暗金匕首，組織已有兩件暗金。` `DISP=WORLD_EVENT_PRESERVE`
+
+### CH139-E02｜試煉內臨時神器【智慧之書】
+`CHAIN=沈雲法師線長期生存 → 取得只在試煉內有效的神器【智慧之書】，法師三大聖典之首，可瞬發戰魔法並記載大量咒語 → 最終遭遇100級亞當斯、文森特、貝克模擬體，三人各持神器。` `CUSTODY=僅試煉內臨時持有，離開不保留。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH140｜兩大禁咒與三傳說模擬體
+
+### CH140-E01｜神器把傳說NPC推到亞神尺度
+`CHAIN=三名100級傳說NPC各持神器 → 戰力被推到亞神級表現 → 沈雲用智慧之書瞬發11階大地守護鎧甲＋12階聖光屏障。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH140-E02｜流星火雨、魔法克隆與天地語風
+`CHAIN=亞當斯放禁咒【流星火雨】 → 智慧之書【魔法克隆】吸收並完美反彈 → 沈雲同時自唱另一禁咒【天地語風】 → 最終擊殺三名持神器傳說級模擬體。` `DISP=TRIAL_RESULT_PRESERVE`
+
+# CH141｜宙斯與永恆約戰
+
+### CH141-E01｜最終對手跳至宙斯神力分身
+`CHAIN=擊敗三傳說模擬體 → 得【最終幻想1/3】 → 戰鬥之道最後直接出現神王宙斯神力分身 → 宙斯允許沈雲只施放一個魔法 → 沈雲用禁咒【寂滅黑騎士】召神明級黑暗騎士，仍被宙斯兩指夾住。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH141-E02｜五日後公開約戰正式發布
+`CHAIN=外界永恆長眠發帖 → 五日後光明主城個人競技場挑戰華夏高手 → 參戰者簽特殊契約，敗者交出身上最珍貴一件裝備 → 華夏進入短期軍備競賽。`  
+`DISP=WORLD_EVENT_PRESERVE`
+
+# CH142｜智腦動態平衡與堤豐
+
+### CH142-E01｜月神石提前出村造成智腦動態調整
+`CHAIN=月神石使大量玩家出村節奏異常提前 → 智腦為平衡新增11級練級區並適度提高經驗 → 普通玩家追趕。` `RESULT=智腦會依大規模玩家環境動態調內容。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH142-E02｜智慧之書終章【最終審判】
+`CHAIN=宙斯壓倒性優勢 → 沈雲啟用智慧之書終章 → 召【堤豐】力量化身；代價為智慧之書破碎＋自身等級下降20，且一生只能使用一次 → 堤豐與宙斯神力分身交戰。`  
+`WORLD=堤豐為萬妖之祖／萬魔之父／萬龍之首，百龍頭髮，曾令眾神吃虧後被封印；雅典娜曾封其力量入智慧之書，因此受其詛咒無法使用自己打造的神器。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH143｜最終幻想成形
+
+### CH143-E01｜宙斯與堤豐互耗、系統安全原則
+`CHAIN=兩神力分身互相耗盡 → 試煉未以真正殺死玩家為目的；若智腦判定玩家確實無法承受會主動送出，第一要義是玩家安全。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH143-E02｜【最終幻想】2/3合併
+`CHAIN=試煉結果 → 沈雲獲【最終幻想2/3】 → 與既有1/3合併成【最終幻想】 → 可把玩家裝備／道具／屬性回到遊戲生涯某一時刻直到該場戰鬥結束；目前破裂，需要【世界之樹樹汁】修復。`  
+`DOWNSTREAM=世界之樹根據傳說貫穿阿斯加德。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+# CH144｜兩個隱藏職業結果
+
+### CH144-E01｜第一職業【時空掌控者】
+`CHAIN=沈雲以法師身份打穿戰鬥之道 → 系統判其獲法師類最強職業 → 取得【時空掌控者】並成初級時空魔法師 → 無導師，直接向系統繳1萬金學全部初級職業技能。`  
+`RESULT=初始【空間移動】4階：50米任意移動、500魔、準備0.2s、CD30s，施法過程不可用；【時間暫停】4階：自身5米內暫停、900魔、準備1s、基礎2s，每+200精神+0.5s，上限5s，CD5m；兩技無咒語。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+### CH144-E02｜第二職業【處女座聖鬥士】
+`CHAIN=賦能之書讓卷軸可出第二最佳職業＋沈雲表現超預期 → 系統允許需求「格鬥＋強遠程」 → 給【處女座聖鬥士】；定位頂級格鬥＋念力遠攻，但需【聖鬥士血脈】，沈雲當下缺血脈不能使用。`  
+`RESULT=卷軸／資格取得 ≠ 已合法轉職。` `DISP=OBJECTIVE_RESULT_PRESERVE`
+
+# CH145｜返回新手村與地獄秘境真正風險
+
+### CH145-E01｜1500精英＋最低1點傷害
+`CHAIN=沈雲回342新手村準備地獄哥布林秘境 → 已知終局前有1500全副武裝精英哥布林＋短弓 → 怪物即使破不了防仍最低1點強制傷害，與玩家互打可MISS不同 → 1500遠程可堆死高防玩家。`  
+`RESULT=沈雲不願浪費神隱等長CD，改想用感知找非正面路線。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH145-E02｜夏日可可／夏小悠與錦繡現況
+`CHAIN=回村遇兩人 → 夏小悠因沈雲殺大夢初曉怒罵 → 沈雲因舊識未動手；錦繡會議轉線上，大夢暫不現實露面。` `MAP=私人關係鏈。` `DISP=VOID_WITH_CAUSE`
+
+# CH146｜秘境入口與神之試煉地
+
+### CH146-E01｜入口衝突與貪狼咆哮
+`CHAIN=秘境入口遇論俠行道／青絲縛劍 → 沈雲隔約10米用【貪狼咆哮】秒一名舊敵牧師並3×3群暈 → 旁觀高手再次確認游俠可雙持，但沈雲當時只用貪狼之刃。` `DISP=PRIVATE_COMBAT_RECALC / SKILL_RULE_PRESERVE`
+
+### CH146-E02｜哥布林秘境的世界定位
+`CHAIN=進副本前原著補明 → 副本世界觀正式稱【神之試煉地】，為神明開闢給凡人提升實力；哥布林秘境是新手村唯一且世界級副本，前三個通關團隊世界公告；僅普通／地獄兩難度，地獄傳送光為黑色可被外界辨識。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+# CH147｜公會情報反推與唐曉煙聲音線
+
+### CH147-E01｜公會已準備反隱道具但左谷風拒絕當日圍殺
+`CHAIN=論俠行道等已找出針對持續隱身的道具 → 左谷風仍拒絕立即圍殺 → 由沈雲換武器反推黑刀暫不能用、黑刀技能代價高、其仍有多張逆轉底牌。`  
+`RESULT=高階玩家會用錄像、裝備選擇與CD反推技能情報。` `DISP=WORLD_REACTION_PRESERVE / TARGET_RECALC`
+
+### CH147-E02｜唐曉煙首次把公開聲音與夢中人物重合
+`CHAIN=聽到雲深不知處公開聲音 → 唐曉煙劇烈動搖 → 認為與夢中人物聲音完全一致，但仍只是懷疑。`  
+`MAP=沈雲／唐曉煙前世夢境私人因果。` `DISP=VOID_WITH_CAUSE`
+
+# CH148｜地獄秘境真正通關路線
+
+### CH148-E01｜感知>20才能可靠發現隨機地下密道
+`CHAIN=地獄副本旁白暗示「以前有人來過」 → 感知>20可察覺地面極細微差異 → 找到每次位置隨機的地下密道；亂挖因4小時副本時限不可行。`  
+`HISTORY=密道由一群弱小盜賊用黃金礦鏟長期挖成、貫穿前後，最後仍死於地道。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH148-E02｜沈雲以合法感知資產走捷徑
+`CHAIN=白骨戒指＋驚雷羽翼使感知>20 → 找到密道 → 約20分鐘抵終局；地道仍有精英怪／BOSS但遠少於正面1500精英。` `DISP=OBJECTIVE_MECHANISM_PRESERVE / PERSONAL_ROUTE_RECALC`
+
+# CH149｜嘯月銀狼與月爆
+
+### CH149-E01｜終極BOSS面板
+`CHAIN=抵達終局 → 暗金Lv8【嘯月銀狼】：HP75000、攻611-673、防129、敏171、基礎魔抗60%、火抗20%；技能魔法彈／震懾／撲殺／咬碎／極速／風刃／嘯月，隱藏技【月爆】。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH149-E02｜芬里爾地位對狼族被動與月爆價值
+`CHAIN=沈雲具芬里爾關聯 → 狼類不主動攻擊、對沈雲傷害-50%、沈雲對狼×3；【月爆】可在一段時間內無視一切防禦與能量直接打本體，連貪狼之魂可穿透。`  
+`VALUE=月神神殿兌換需37萬貢獻；聖鬥士血脈100萬；前世六年僅3名玩家直接由嘯月銀狼掉出月爆，其餘多靠神殿。` `DISP=WORLD_BACKGROUND_LOCKED`
+
+### CH149-E03｜外界賭盤與圍殺排程
+`CHAIN=論壇普遍不信沈雲能單刷 → 黑色暗流想出副本即圍殺 → 左谷風拒絕，認為越晚大公會底牌越多 → 把正式圍殺排在永恆長眠約戰第二天，期待先消耗沈雲。` `DISP=WORLD_REACTION_PRESERVE / TARGET_RECALC`
+
+# CH150｜57分36秒首通與月爆掉落
+
+### CH150-E01｜地獄級世界首通
+`CHAIN=約半小時嘯月銀狼戰、月爆期間沈雲一度瀕死 → 最終擊殺 → 全副本用時57分36秒 → 世界首通、世界公告、玩家編年史。`  
+`KNOWLEDGE=左谷風／清酒牧歌立刻由57分鐘反推「不可能正面殺完1500精英」，因此確認存在未知捷徑，但不知道精確密道條件。` `DISP=OBJECTIVE_RESULT_PRESERVE / HOLDER_RECALC`
+
+### CH150-E02｜戰力模型只是角色模型
+`CHAIN=首通後左谷風更新分析 → 模型估永恆長眠對影子77%，永恆長眠vs雲深不知處近五五、後者只高0.3%。`  
+`RESULT=這是當時情報下的角色內部模型，不是作者絕對戰力真值。` `DISP=KNOWLEDGE_BOUNDARY_LOCKED`
+
+### CH150-E03｜【月爆】技能書實際掉落
+`CHAIN=嘯月銀狼死亡 → 掉落超稀有【月爆】技能 → 原著沈雲取得；技能夜晚吸收月能充能，月爆狀態攻擊無視一切防禦與能量、直擊本體。`  
+`CUSTODY=嘯月銀狼掉落 → 沈雲持有／後續學習線。`  
+`DISP=OBJECTIVE_RESULT_PRESERVE / HOLDER_RECALC`
+
+### CH150-E04｜【神恩守護項鏈】只到「出現／取得接觸」，物權跨章結算
+`CHAIN=首通戰利品／任務鏈把【神恩守護項鏈】帶到當前節點 → CH150不能自行斷言永久歸沈雲 → CH151沈雲先交還切爾文，切爾文再因母親／賈斯坦復仇任務把項鏈暫借給他。`  
+`DOWNSTREAM=49_SOURCE_CANON_MASTER_151-200 / CH151。`  
+`RESULT=CH150與CH151必須連讀；永久所有權是第二環未來獎勵，不是150既成事實。` `DISP=TIMELINE_AND_CUSTODY_LOCKED`
 
 ---
 
-# 3｜章號所有權
-
-完成重建後固定：
-
-- `CH100～150` 只由本檔持有現行 EVENT truth。
-- 下一份 Master 從 `CH151` 開始，不再複製 CH150 作第二份現行真值。
-- 跨章因果用 `PREVIOUS_EVENT / NEXT_EVENT / RELATED_EVENT` 指向，不用重複建立第二套事件。
-
-`ONE_CHAPTER_ONE_CURRENT_MASTER_OWNER = TRUE`
-
----
-
-# 4｜目前重建進度
-
-本次先用 CH123～126 作模板段，因為這裡同時包含：
-
-- 沈雲私人前世／關係因果；
-- 公開世界事件；
-- BOSS擊殺；
-- 強制下線造成的時間斷點；
-- 屍體採集；
-- 早期資產回收；
-- 寶庫位置與進入規則；
-- NPC第三方利用玩家。
-
-`CH123_126_CANON_REBUILD = PASS`
-
-`CH100_122_CANON_REBUILD = PENDING`
-
-`CH127_150_CANON_REBUILD = PENDING`
-
-在兩個 PENDING 全部清零以前，本檔**不升格**，舊 SOURCE45 仍只作過渡入口。
-
----
-
-# CH123｜雅典娜神殿
-
-## CH123-E01｜智慧之城與雅典娜神殿進入條件
-
-- `SOURCE_CHAPTER = 123`
-- `SOURCE_IN_WORLD_ORDER = CH122正式完成初級游俠轉職之後`
-- `NARRATIVE_MODE = PRESENT`
-- `EVENT_CLASS = WORLD_RULE / LOCATION / FAITH_SYSTEM`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-- CH122 沈雲完成正式游俠轉職。
-- 雅典娜神殿要求玩家先完成正式職業轉職，才進入信仰流程。
-
-### ACTION_SEQUENCE
-
-1. 沈雲抵達智慧之城。
-2. 智慧之城中央有巨型雅典娜神像，城市比光明主城更清冷，但人種、服裝、武器與文化更具包容性。
-3. 沈雲前往雅典娜神殿處理信仰。
-
-### OBJECTIVE_RESULT
-
-雅典娜神殿正式作為可加入的信仰組織開放；神殿貢獻可兌換：
-
-- 裝備；
-- 隱藏職業；
-- 特殊道具；
-- 罕見血脈等。
-
-轉換信仰會清空既有神殿貢獻。
-
-### STATE_DELTA
-
-`WORLD_FAITH_SYSTEM.Athena = REVEALED`
-
-### FRANIYA_MAPPING
-
-完全屬世界客觀規則，不依賴沈雲前世。
-
-### DISPOSITION
-
-`WORLD_BACKGROUND_LOCKED`
-
-### PROVENANCE
-
-- 第一手 CH123。
-- `06_原著事件捕捉_121-150.md`。
-- 舊 SOURCE45 `CH123-E01`。
-
----
-
-## CH123-E02｜主身份因赫爾墨斯神使徽章遭拒
-
-- `SOURCE_CHAPTER = 123`
-- `NARRATIVE_MODE = PRESENT`
-- `EVENT_CLASS = IDENTITY / FAITH / NPC_REACTION`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-- 沈雲此前取得【赫爾墨斯神使徽章】。
-- 即使沈雲本人沒有真正接受赫爾墨斯神使職位，神殿仍可根據徽章／關聯判斷其身份。
-
-### ACTION_SEQUENCE
-
-1. 沈雲以【雲深不知處】身份向白袍 NPC【莫妮卡】申請加入雅典娜神殿。
-2. 莫妮卡辨識到赫爾墨斯神使關聯。
-3. 莫妮卡拒絕其加入。
-4. 莫妮卡透露：赫爾墨斯昔日的行為曾差點使光明陣營神明隕落大半。
-5. 她拒絕補完整細節，要求沈雲自行去問赫爾墨斯。
-6. 沈雲也不願先投赫爾墨斯再轉信仰，因為轉信仰會清空既有神殿貢獻。
-
-### OBJECTIVE_RESULT
-
-【雲深不知處】在此時點無法以原身份加入雅典娜神殿。
-
-### KNOWLEDGE_FLOW
-
-- 沈雲知道「赫爾墨斯曾造成重大光明陣營歷史事件」。
-- 具體歷史仍未知。
-- 莫妮卡知道的細節 > 沈雲目前知道的細節。
-
-### FRANIYA_MAPPING
-
-此事件是否發生取決於 Franiya 是否持有／被判定具赫爾墨斯相關身份；不能因原著沈雲被拒就自動複製。
-
-### DISPOSITION
-
-`CONDITIONAL_RECALC`
-
-### PROVENANCE
-
-- 第一手 CH123。
-- `06_原著事件捕捉_121-150.md`。
-- 舊 SOURCE45 `CH123-E02`。
-
----
-
-## CH123-E03｜第二身份通過神殿與身份隔離回證
-
-- `SOURCE_CHAPTER = 123`
-- `NARRATIVE_MODE = PRESENT`
-- `EVENT_CLASS = IDENTITY / CLASS_SYNC / FAITH_ENTRY`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-- 【千幻之心】可切換第二身份【撥雲見月】。
-- CH122 主身份已被導師提升為初級游俠。
-- 多身份共享層會同步職階提升，因此第二身份法師也由見習升為【初級法師】。
-
-### ACTION_SEQUENCE
-
-1. 主身份被莫妮卡拒絕。
-2. 沈雲切換成【撥雲見月】。
-3. 重新進入雅典娜神殿。
-4. 莫妮卡沒有辨識出【撥雲見月】與剛才的【雲深不知處】是同一人。
-5. 因【撥雲見月】是第一個到雅典娜神殿的玩家信仰者，直接免除一般信仰任務。
-6. 【撥雲見月】成為雅典娜信徒。
-
-### OBJECTIVE_RESULT
-
-- 身份隔離足以騙過神殿高階 NPC。
-- 第二身份正式取得雅典娜信徒狀態。
-
-### STATE_DELTA
-
-`撥雲見月.CLASS = 初級法師`
-
-`撥雲見月.FAITH = 雅典娜`
-
-### KNOWLEDGE_FLOW
-
-莫妮卡不知道兩身份同源。
-
-### DOWNSTREAM_EVIDENCE
-
-後續神殿貢獻、血脈與身份差異均以此為基礎。
-
-### FRANIYA_MAPPING
-
-只有在 Franiya 線存在對應合法多身份／信仰條件時才能承接；身份隔離規則本身屬世界機制，可保留。
-
-### DISPOSITION
-
-`WORLD_RULE_PRESERVE / PERSONAL_RESULT_RECALC`
-
-### PROVENANCE
-
-- 第一手 CH123。
-- `06_原著事件捕捉_121-150.md`。
-- 舊 SOURCE45 `CH123-E03`。
-
----
-
-## CH123-E04｜翡翠湖魚人守護者衝突成為公開情報
-
-- `SOURCE_CHAPTER = 123`
-- `NARRATIVE_MODE = PRESENT`
-- `EVENT_CLASS = PUBLIC_INFORMATION / BOSS_EVENT / GUILD_CONFLICT`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-翡翠湖畔本來就存在白銀 BOSS【魚人守護者】；天痕與錦繡玩家圍繞其處置／利益發生衝突。
-
-### ACTION_SEQUENCE
-
-1. 翡翠湖畔出現魚人守護者相關公會衝突。
-2. 事件被玩家公開傳播到論壇。
-3. 沈雲透過論壇看到消息。
-
-### OBJECTIVE_RESULT
-
-魚人守護者從「地方 BOSS」變成可被外部玩家知道並介入的公開事件。
-
-### KNOWLEDGE_FLOW
-
-`現場玩家 → 論壇／公開資訊 → 沈雲及其他看到論壇者`
-
-### FRANIYA_MAPPING
-
-**本事件不依賴沈雲私人關係。** 即使 Franiya 沒有沈雲與大夢初曉的前世關係，她仍可能因：
-
-- 公開 BOSS 本身；
-- 掉落價值；
-- 翡翠湖探索；
-- 公會衝突；
-- 單純認為值得處理的白銀 BOSS
-
-而合理介入。
-
-### DISPOSITION
-
-`PRESERVE_BY_DEFAULT`
-
-### PROVENANCE
-
-- 第一手 CH123。
-- `06_原著事件捕捉_121-150.md`。
-- 舊 SOURCE45 `CH123-E04`。
-
----
-
-# CH124｜上鉤了！
-
-## CH124-E01｜沈雲先懷疑翡翠湖事件是關係測試
-
-- `SOURCE_CHAPTER = 124`
-- `NARRATIVE_MODE = PRESENT`
-- `EVENT_CLASS = CHARACTER_REASONING / PRIVATE_CAUSALITY`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-- 沈雲前世與大夢初曉／唐曉煙具有特殊私人關係。
-- 左谷風此前已注意到沈雲曾對大夢初曉、細雨朦朧大魔王表現出異常差別待遇。
-
-### ACTION_SEQUENCE
-
-1. 沈雲看到翡翠湖衝突。
-2. 他沒有直接衝去救人。
-3. 他注意到【江城】平時處事高效，這次卻為 BOSS 分配拖延近半小時。
-4. 沈雲據此懷疑天痕在設局測試自己與大夢初曉的關係。
-
-### OBJECTIVE_RESULT
-
-沈雲決定以反情報思路處理，而不是單純救援。
-
-### FRANIYA_MAPPING
-
-這個「因大夢初曉私人關係而警覺」屬沈雲專屬因果，不移植。
-
-### DISPOSITION
-
-`VOID_WITH_CAUSE`
-
-### IMPORTANT_BOUNDARY
-
-此事件可作廢，**不代表魚人守護者、公會衝突、BOSS屍體、後續採集圖紙跟著作廢。**
-
----
-
-## CH124-E02｜左谷風實際設局與資訊放大
-
-- `SOURCE_CHAPTER = 124`
-- `EVENT_CLASS = ORGANIZATION_OPERATION / INFORMATION_WAR`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-左谷風懷疑大夢初曉／細雨朦朧可能是雲深不知處的軟肋。
-
-### ACTION_SEQUENCE
-
-1. 左谷風讓江城介入魚人守護者事件。
-2. 刻意把原可快速處理的 BOSS 分配爭議拖長。
-3. 天痕公關組同步買熱搜、推直播、放大事件可見度。
-4. 目的不是單純搶 BOSS，而是觀察雲深不知處是否會為大夢初曉出現。
-5. 江城收到最終命令：BOSS事件結束後，無論如何都要對大夢初曉一方下殺手，以製造足夠強的測試刺激。
-
-### OBJECTIVE_RESULT
-
-翡翠湖事件具有兩層：
-
-- 客觀 BOSS／公會利益衝突；
-- 天痕額外疊加的私人關係測試。
-
-兩者不可混成同一件事。
-
-### KNOWLEDGE_FLOW
-
-- 左谷風／天痕相關執行者知道測試目的。
-- 普通觀眾只看到公會衝突／直播。
-- 大夢初曉未必知道自己被當成測試工具。
-
-### FRANIYA_MAPPING
-
-天痕具備這種「輿論＋直播＋拖延＋公關組」操作能力可保留；是否拿 Franiya 做同類測試需另有本線證據。
-
-### DISPOSITION
-
-`ORG_CAPABILITY_PRESERVE / TARGET_CAUSE_RECALC`
-
----
-
-## CH124-E03｜雲深不知處抵達，左谷風誤判魚已上鉤
-
-- `SOURCE_CHAPTER = 124`
-- `EVENT_CLASS = ARRIVAL / MISINTERPRETATION`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### ACTION_SEQUENCE
-
-1. 沈雲以【雲深不知處】身份抵達翡翠湖現場。
-2. 左谷風把他的出現解讀成「大夢初曉確實能釣出他」。
-3. 沈雲實際已看穿測試，雙方對同一行為的理解不同。
-
-### OBJECTIVE_RESULT
-
-形成 CH125 反情報行動的直接前置。
-
-### FRANIYA_MAPPING
-
-沈雲抵達原因屬私人線；Franiya若因公開 BOSS 自主抵達，外部勢力仍可能誤讀她的動機，但必須依本線已有情報推導。
-
-### DISPOSITION
-
-`REBUILD_REQUIRED_IF_REUSED`
-
----
-
-# CH125｜身體異常
-
-## CH125-E01｜沈雲以親手擊殺大夢初曉反向切斷關係判斷
-
-- `SOURCE_CHAPTER = 125`
-- `NARRATIVE_MODE = PRESENT`
-- `EVENT_CLASS = COMBAT / COUNTERINTELLIGENCE / PRIVATE_RELATION`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-CH124 沈雲已判斷左谷風正在測試他與大夢初曉的私人關係。
-
-### ACTION_SEQUENCE
-
-1. 沈雲沒有救大夢初曉。
-2. 他主動對錦繡一方多人下手。
-3. 他本人親手殺死大夢初曉。
-4. 大夢初曉身上的暗金裝備幸運地沒有爆出。
-5. 沈雲藉此向觀察者製造「兩人沒有特殊關係」的行為證據。
-
-### OBJECTIVE_RESULT
-
-左谷風的原假說遭到強烈反證。
-
-### FRANIYA_MAPPING
-
-純沈雲前世私人關係＋反情報選擇，不移植。
-
-### DISPOSITION
-
-`VOID_WITH_CAUSE`
-
----
-
-## CH125-E02｜左谷風用 AI 做出刀速度反查並得到錯誤結論
-
-- `SOURCE_CHAPTER = 125`
-- `EVENT_CLASS = ORGANIZATION_ANALYSIS / KNOWLEDGE_BOUNDARY`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### ACTION_SEQUENCE
-
-1. 左谷風收集沈雲殺不同玩家的錄像。
-2. 使用 AI 比對出刀速度。
-3. 控制不同對象敏捷差異。
-4. 結果顯示沈雲殺大夢初曉時沒有刻意放慢，甚至略快。
-5. 左谷風因此判斷兩人不存在特殊關係。
-
-### OBJECTIVE_RESULT
-
-`左谷風主觀結論 = 無特殊關係`
-
-`客觀真相 = 結論錯誤`
-
-### KNOWLEDGE_FLOW
-
-必須分開：
-
-- 作者／讀者知道沈雲在反情報；
-- 左谷風只看得到行為數據；
-- AI只能分析動作，不能讀取沈雲真正動機。
-
-### FRANIYA_MAPPING
-
-高階公會使用錄像＋AI作動作分析的能力屬客觀組織能力，可保留。
-
-### DISPOSITION
-
-`WORLD_BACKGROUND_LOCKED`
-
----
-
-## CH125-E03｜沈雲單殺白銀 BOSS【魚人守護者】
-
-- `SOURCE_CHAPTER = 125`
-- `EVENT_CLASS = BOSS_COMBAT / OBJECTIVE_WORLD_EVENT`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-魚人守護者本來就在翡翠湖畔，並非因沈雲私人關係才生成。
-
-### BOSS PANEL
-
-- 等級：Lv10
-- 品質：白銀 BOSS
-- HP：11000
-- 火抗：41%
-- 雷抗：12%
-- 水抗：52%
-- 技能：【集中猛擊／水流術／橫掃】
-
-### ACTION_SEQUENCE
-
-1. 翡翠湖公會衝突背景中，魚人守護者仍是獨立 BOSS 目標。
-2. 沈雲最終親自與魚人守護者交戰。
-3. 沈雲將其擊殺。
-4. BOSS死亡後留下屍體，屍體在 CH126 仍可被玩家執行【採集】。
-
-### OBJECTIVE_RESULT
-
-`魚人守護者 = DEAD`
-
-`CORPSE_GATHER_NODE = AVAILABLE`
-
-### STATE_DELTA
-
-這裡只完成「擊殺」，**尚未完成【魚人寶庫圖紙】取得。**
-
-### FRANIYA_MAPPING
-
-這是本次修正的核心：
-
-- 「沈雲為大夢初曉私人因果來到翡翠湖」可以作廢；
-- 「魚人守護者客觀存在」不可作廢；
-- 「有人合法擊殺後屍體可採集」不可作廢；
-- Franiya可完全因公開 BOSS、掉落價值、探索興趣或其他自身理由前往並親手擊殺。
-
-### DISPOSITION
-
-`PRESERVE_BY_DEFAULT / ACTOR_AND_MOTIVE_RECALC`
-
-### NEXT_EVENT
-
-`CH126-E02`：重新登入後對屍體採集出【魚人寶庫圖紙】。
-
-### PROVENANCE
-
-- 第一手 CH125。
-- `06_原著事件捕捉_121-150.md`。
-- 舊 SOURCE45 `CH125-E03` 曾把「BOSS死亡」與「圖紙來源」壓縮在一起，本 CANON 拆開。
-
----
-
-## CH125-E04｜擊殺大夢初曉後現實身體／記憶異常，5秒強制下線
-
-- `SOURCE_CHAPTER = 125`
-- `EVENT_CLASS = REALITY_SUPERNATURAL / PRIVATE_MEMORY`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-沈雲親手攻擊／殺死與前世記憶高度相關的大夢初曉。
-
-### ACTION_SEQUENCE
-
-1. 戰後沈雲現實身體突然出現嚴重異常。
-2. 系統連續提示。
-3. 5秒後被強制下線。
-
-### OBJECTIVE_RESULT
-
-125→126 之間存在真實的「遊戲中斷 → 現實異常 → 再登入」時間斷點。
-
-### FRANIYA_MAPPING
-
-屬沈雲重生身體／唐曉煙缺失記憶私人因果，不移植。
-
-### DISPOSITION
-
-`VOID_WITH_CAUSE`
-
-### IMPORTANT_BOUNDARY
-
-即使這條私人異常不移植，也不能刪掉 CH125-E03 的 BOSS 擊殺結果或 CH126-E02 的屍體採集機制。
-
----
-
-# CH126｜魚人寶庫
-
-## CH126-E01｜現實側心靈劇痛與缺失記憶聯想
-
-- `SOURCE_CHAPTER = 126`
-- `SOURCE_IN_WORLD_ORDER = CH125強制下線之後、重新登入之前`
-- `NARRATIVE_MODE = PRESENT_REALITY`
-- `EVENT_CLASS = REALITY_SUPERNATURAL / PRIVATE_MEMORY`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### ACTION_SEQUENCE
-
-1. 強制下線後，沈雲在現實承受劇烈心靈疼痛。
-2. 他把異常與自己缺失的記憶聯繫起來。
-3. 他進一步懷疑缺失記憶可能與唐曉煙相關，尤其「對她出手」會觸發異常。
-4. 狀態處理後才重新登入《信仰》。
-
-### OBJECTIVE_RESULT
-
-`SOURCE_TIMELINE = GAME(CH125) → REALITY_BREAK → GAME(CH126)`
-
-### FRANIYA_MAPPING
-
-沈雲私人重生／記憶線，不移植。
-
-### DISPOSITION
-
-`VOID_WITH_CAUSE`
-
----
-
-## CH126-E02｜重新上線後，沈雲本人從魚人守護者屍體採集【魚人寶庫圖紙】
-
-- `SOURCE_CHAPTER = 126`
-- `SOURCE_IN_WORLD_ORDER = CH126-E01之後`
-- `NARRATIVE_MODE = PRESENT_GAME`
-- `EVENT_CLASS = GATHERING / ASSET_ACQUISITION / CUSTODY_CHAIN`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS / CAUSE
-
-- `CH125-E03`：魚人守護者已被擊殺。
-- 屍體仍保留為可採集節點。
-- 沈雲重新登入後仍能接觸該屍體。
-
-### ACTION_SEQUENCE
-
-1. 沈雲重新登入。
-2. 回到魚人守護者屍體所在處。
-3. **本人對魚人守護者屍體執行採集。**
-4. 採集成功。
-5. 取得【魚人寶庫圖紙】。
-
-### OBJECTIVE_RESULT
-
-`魚人寶庫圖紙 = ACQUIRED`
-
-### CUSTODY_CHAIN
-
-`魚人守護者屍體（可採集來源） → 沈雲使用採集 → 沈雲持有【魚人寶庫圖紙】`
-
-### SOURCE MECHANISM
-
-`ACQUISITION_METHOD = GATHERING_FROM_CORPSE`
-
-不是：
-
-- BOSS直接掉落；
-- 系統擊殺獎勵；
-- NPC交付；
-- CH125擊殺瞬間自動入包。
-
-### FRANIYA_MAPPING
-
-這是本次最重要修正：
-
-若 Franiya 在本線以自身理由合法擊殺【魚人守護者】，且屍體仍可採集、她具合法採集能力／窗口，則**原著客觀取得機制應預設保留**：
-
-`Franiya擊殺守護者 → Franiya親自採集屍體 → 【魚人寶庫圖紙】`
-
-不得因沈雲原本來翡翠湖的私人原因不存在，就把圖紙一併刪掉。
-
-### DISPOSITION
-
-`OBJECTIVE_RESULT_DEFAULT = PRESERVE`
-
-`ACTOR = RECALCULATE_BY_CURRENT_CAUSALITY`
-
-### PROVENANCE
-
-- 第一手 CH126。
-- `06_原著事件捕捉_121-150.md` 明記「回線後從魚人守護者採集到【魚人寶庫圖紙】」。
-- `09A_原著事件捕捉二次反向歸屬掃描_121-150.md` 再次確認「採集得到【魚人寶庫圖紙】」。
-- 舊 SOURCE45 把這條壓成「魚人守護者掉落與寶庫線合流」，屬過度摘要；本 CANON 明確修正來源機制。
-
----
-
-## CH126-E03｜魚人守護者其他戰利品與圖紙來源機制分離
-
-- `SOURCE_CHAPTER = 126`
-- `EVENT_CLASS = LOOT / ASSET_ACQUISITION`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### ACTION_SEQUENCE / RESULT
-
-已確認戰利品包含：
-
-- 青銅布袍：防禦+4、精神+8；
-- 未鑑定白銀法杖；
-- 【魚人寶庫圖紙】另走「屍體採集」來源，不與裝備掉落混為一談。
-
-### OBJECTIVE_RESULT
-
-`LOOT_DROP` 與 `CORPSE_GATHER` 是兩套不同來源機制。
-
-### FRANIYA_MAPPING
-
-若本線擊殺結果成立，裝備掉落與屍體採集應分別判定，不可因只保留其中一種而吞掉另一種。
-
-### DISPOSITION
-
-`PRESERVE_BY_DEFAULT`
-
----
-
-## CH126-E04｜【魚人寶庫鑰匙】早期來源與圖紙合流
-
-- `SOURCE_CHAPTER = 126（合流回證）`
-- `EVENT_CLASS = LONG_CAUSAL_CHAIN / ASSET_CUSTODY`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PREVIOUS SOURCE
-
-早期沈雲擊殺 Lv8 黃金 BOSS【暗黑魚人刺客】時，已取得【魚人寶庫鑰匙】。
-
-### ACTION_SEQUENCE
-
-1. 早期：【暗黑魚人刺客】死亡。
-2. 沈雲取得【魚人寶庫鑰匙】。
-3. CH126：沈雲從魚人守護者屍體採集【魚人寶庫圖紙】。
-4. 圖紙資訊與鑰匙功能正式合流。
-5. 沈雲因此具備「知道寶庫位置＋持有開門核心鑰匙」的完整前置。
-
-### CUSTODY_CHAIN
-
-`暗黑魚人刺客 → 【魚人寶庫鑰匙】 → 沈雲持有至CH126 → 與圖紙配套`
-
-### OBJECTIVE_RESULT
-
-兩件早期資產形成第一個真正用途閉環。
-
-### FRANIYA_MAPPING
-
-Franiya線必須看實際持有人：
-
-- 若鑰匙已由 Franiya 合法取得，且圖紙也由她取得，則可直接閉環；
-- 若鑰匙在其他人手上，不能因原著沈雲兩件都有就自動讓 Franiya擁有；需進入交易、競逐、合作或其他合法因果。
-
-### DISPOSITION
-
-`CUSTODY_DEPENDENT`
-
----
-
-## CH126-E05｜圖紙揭示魚人寶庫位置：翡翠湖水下約500米
-
-- `SOURCE_CHAPTER = 126`
-- `EVENT_CLASS = LOCATION_INFORMATION / KNOWLEDGE_TRANSFER`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### ACTION_SEQUENCE
-
-1. 取得【魚人寶庫圖紙】。
-2. 圖紙／配套資訊指向翡翠湖水下約500米的魚人寶庫。
-3. 沈雲因此能前往正確位置。
-
-### KNOWLEDGE_FLOW
-
-`圖紙資訊 → 圖紙持有人`
-
-不應自動變成全服公開情報。
-
-### OBJECTIVE_RESULT
-
-`FISHMAN_TREASURY_LOCATION = KNOWN_TO_HOLDER`
-
-### FRANIYA_MAPPING
-
-知情者依本線圖紙持有人重算。
-
-### DISPOSITION
-
-`PRESERVE_BY_DEFAULT`
-
----
-
-## CH126-E06｜水下500米環境與【避水珠】／白骨戒指的既有資產回證
-
-- `SOURCE_CHAPTER = 126`
-- `EVENT_CLASS = ENVIRONMENT / ITEM_REUSE / ACCESS_CONDITION`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### WORLD RULE
-
-一般玩家在此階段很難直接深入500米水下；原著估計約30級後，才較普遍能靠水下屏障魔法／藥劑處理。
-
-### ACTION_SEQUENCE
-
-1. 沈雲前往翡翠湖深水區。
-2. 使用【避水珠】，直接排開周圍約3米水域，獲得自由水下活動空間。
-3. 使用【白骨戒指】提供黑暗環境視野。
-4. 因此提前突破一般玩家的水下進入門檻。
-
-### DOWNSTREAM EVIDENCE
-
-這是 CH100 四元素珠中【避水珠】的第一次高價值環境用途回證之一。
-
-### FRANIYA_MAPPING
-
-只有實際持有相應資產者才能沿用同路徑；若沒有避水珠，必須另找合法水下手段。
-
-### DISPOSITION
-
-`WORLD_BACKGROUND_LOCKED / CUSTODY_DEPENDENT`
-
----
-
-## CH126-E07｜寶庫門需要【鑰匙】＋75枚疾風狼優質晶核充能
-
-- `SOURCE_CHAPTER = 126`
-- `EVENT_CLASS = ACCESS_RULE / RESOURCE_CONSUMPTION`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### PRECONDITIONS
-
-沈雲已抵達寶庫門前並持有【魚人寶庫鑰匙】。
-
-### ACTION_SEQUENCE
-
-1. 使用鑰匙並不能單獨開門。
-2. 寶庫門上的古老魔法陣長期缺乏維護，已耗盡能量。
-3. 門上存在晶核充能凹槽。
-4. 沈雲投入 **75枚【疾風狼優質晶核】**。
-5. 魔法陣補能完成。
-6. 寶庫門才真正開啟。
-
-### OBJECTIVE_RESULT
-
-`疾風狼優質晶核 -75`
-
-`FISHMAN_TREASURY_DOOR = OPEN`
-
-### WORLD RULE
-
-許多古老寶庫以魔法陣驅動；長期無維護後可用魔獸晶核補充能量。
-
-### FRANIYA_MAPPING
-
-這是客觀進門成本。沒有足夠晶核就不能用一句「她也有鑰匙」跳過。
-
-### DISPOSITION
-
-`PRESERVE_BY_DEFAULT`
-
----
-
-## CH126-E08｜第三方 NPC 盜賊在沈雲入內後現身
-
-- `SOURCE_CHAPTER = 126`
-- `EVENT_CLASS = NPC_PARALLEL_ACTION / HIDDEN_OBSERVER`
-- `SOURCE_CLASS = SOURCE_EXPLICIT`
-
-### ACTION_SEQUENCE
-
-1. 沈雲成功進入魚人寶庫。
-2. 其後方出現一名原本未公開身份的 NPC 盜賊。
-3. 該 NPC 準備利用玩家替自己掃除寶庫守衛。
-4. CH127 他使用定點傳送卷軸／空間門將大量玩家導入寶庫。
-5. 後文才正式確認其身份為【哈姆】。
-
-### OBJECTIVE_RESULT
-
-魚人寶庫事件從「單人探索」轉為即將爆發的大量玩家／NPC利用鏈。
-
-### KNOWLEDGE_FLOW
-
-- 此時沈雲未必知道盜賊完整計畫。
-- 讀者可看到 NPC 行動。
-- 其他玩家尚不知道自己將被利用。
-
-### NEXT_EVENT
-
-`CH127：空間門開啟 → 1200+玩家湧入 → 空間門崩解`
-
-### FRANIYA_MAPPING
-
-NPC本身與其利用玩家的計畫屬客觀外部因果，不應因主角不同自動消失；但是否因 Franiya 的先前行為而被迫調整，依本線實際情況重算。
-
-### DISPOSITION
-
-`PRESERVE_BY_DEFAULT / REACTION_RECALC`
-
----
-
-# 5｜CH123～126 因果總鏈
-
-```text
-CH122 完成正式轉職
-→ CH123 前往雅典娜神殿
-→ 主身份因赫爾墨斯徽章被拒
-→ 切第二身份撥雲見月
-→ 成為雅典娜信徒
-→ 從論壇得知翡翠湖魚人守護者／天痕vs錦繡公開衝突
-
-【私人因果支線】
-左谷風懷疑沈雲與大夢初曉關係
-→ CH124 天痕刻意拖延衝突＋熱搜＋直播作關係測試
-→ 沈雲看穿
-→ CH125 親手殺大夢初曉反情報
-→ 左谷風AI分析後誤判兩人無關
-→ 沈雲身體／記憶異常
-→ 強制下線
-→ CH126 現實心靈疼痛／唐曉煙記憶聯想
-【此支線可在Franiya線作廢／重建】
-
-【客觀魚人寶庫主鏈】
-翡翠湖本來存在白銀BOSS【魚人守護者】
-→ CH125 沈雲親手擊殺
-→ 屍體留下可採集節點
-→ CH126 重新登入後本人使用採集
-→ 取得【魚人寶庫圖紙】
-→ 與早期暗黑魚人刺客來源【魚人寶庫鑰匙】合流
-→ 得知寶庫位於翡翠湖水下約500米
-→ 避水珠＋白骨戒指突破水下環境
-→ 抵達寶庫門
-→ 鑰匙＋75枚疾風狼優質晶核為魔法陣補能
-→ 寶庫門開啟
-→ 主角進入
-→ NPC盜賊在後方現身
-→ CH127 開空間門導入1200+玩家
-```
-
-### Franiya 線的正確分流
-
-```text
-沈雲私人關係誘因：可作廢
-≠
-魚人守護者：作廢
-≠
-屍體採集圖紙：作廢
-≠
-魚人寶庫：作廢
-```
-
-正確是：
-
-```text
-私人誘因作廢
-→ Franiya以自身合理理由得知／前往翡翠湖
-→ 若她親自擊殺魚人守護者
-→ 屍體採集機制仍成立
-→ 圖紙取得結果預設保留
-→ 是否能與鑰匙閉環取決於當前真正持有人
-→ 水下與開門成本照客觀規則處理
-```
-
----
-
-# 6｜本段修正舊 SOURCE45 的地方
-
-1. 舊 `CH125-E03` 把「魚人守護者死亡」與「魚人寶庫圖紙來源」壓在一起，會讓改寫者誤以為圖紙是擊殺結果自動落袋。
-2. 舊 `CH126-E02` 標題使用「魚人守護者掉落與寶庫線合流」，來源機制不精確；二次反掃與母抓取均明確是**屍體採集得到圖紙**。
-3. 舊版沒有完整保留：
-   - CH125擊殺；
-   - 強制下線；
-   - CH126重新登入；
-   - 本人回到屍體；
-   - 親自採集；
-   - 圖紙入手；
-   這六步彼此獨立的因果順序。
-4. 舊版 disposition 容易讓「私人因果作廢」污染相鄰客觀事件；本 CANON 明確禁止。
-
-`CH123_126_CAUSAL_CHAIN_DETAIL_GATE = PASS`
-
-`CH123_126_CUSTODY_CHAIN_GATE = PASS`
-
-`CH123_126_KNOWLEDGE_BOUNDARY_GATE = PASS`
-
-`CH123_126_FRANIYA_MAPPING_SEPARATION_GATE = PASS`
-
----
-
-# 7｜下一步重建順序
-
-固定從相鄰區間往外擴，不跳著補：
-
-1. `CH117～122`，把游俠轉職／蒂姬／技能取得完整接到 CH123。
-2. `CH100～116`，把資產來源、身份、四元素珠、月神石、皇宮寶庫、第二身份等前置全部拉直。
-3. `CH127～135`，完成魚人寶庫全事件、NPC哈姆、迪亞斯、暗金首殺與資產鏈。
-4. `CH136～144`，完整保存職業試煉雙時間軸與每個取得結果。
-5. `CH145～150`，哥布林秘境、嘯月銀狼、月爆、神恩守護項鏈與 CH151 跨界只用引用，不重複建立 CH151。
-6. 完成全章後執行：
-   - 全事件數量對母抓取；
-   - 全反掃事件回收；
-   - SOURCE_NODE／RETRO結果回寫；
-   - 所有 OBJECTIVE RESULT 對帳；
-   - 所有 CUSTODY／KNOWLEDGE／TIMELINE 閉合。
-7. 全部 PASS 後，本檔才升格：
-
-`PROMOTION_STATUS = CURRENT_SINGLE_SOURCE_AUTHORITY`
-
-並將舊 SOURCE45／Acceptance／LIVE 明確降為歷史證據層。
+# 2｜100～150閉環狀態
+
+`CH100_150_EVENT_SET_COMPLETENESS_GATE = PASS`  
+`CH100_150_CAUSAL_CHAIN_GATE = PASS`  
+`CH100_150_CUSTODY_CHAIN_GATE = PASS_WITH_EXPLICIT_OPEN_EDGES`  
+`CH100_150_KNOWLEDGE_BOUNDARY_GATE = PASS`  
+`CH100_150_TIMELINE_GATE = PASS`  
+`CH100_150_SINGLE_AUTHORITY_PROMOTION = ACTIVE`
+
+已知仍保持開放而不得亂補：
+1. CH100四元素珠逐顆對應原五名玩家的精確一對一持有人。
+2. CH105第四件皇家寶庫圖紙的精確命名，若第一手後文另有回證再回寫。
+3. 任何舊Acceptance／LIVE與本檔衝突，均只能作為「為何曾判錯」的歷史證據。
+
+後續區間由 `49_SOURCE_CANON_MASTER_151-200.md` 自 CH151 開始接手，不重複持有CH150。
