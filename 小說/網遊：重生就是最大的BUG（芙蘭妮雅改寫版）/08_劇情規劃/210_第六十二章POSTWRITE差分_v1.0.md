@@ -1,6 +1,6 @@
 # 第六十二章 POSTWRITE 差分 v1.0
 
-狀態：POSTWRITE_PASS / PENDING_FINAL_SYNC
+狀態：POSTWRITE_PASS / SYNCED / TRANSACTION_CLOSED_PENDING_FINAL_CLOSE_FILE
 
 ## 正式章節
 - CHAPTER = 062
@@ -24,7 +24,7 @@
 ## 知識邊界
 - Franiya第47章已親自見過迦娜，本章不得重新不知道她。
 - 折光沒有向蒂姬公開Franiya曾與迦娜交手；`ZHEGUANG_EQUALS_FRANIYA_PUBLIC_LINK = FALSE`。
-- 【幻想之舞】名稱由在場女孩先說出後合法取得；此前只可讀作用，不能免費知道技能名。
+- 【幻想之舞】名稱由在場女孩先說出後合法取得。
 - 蒂姬提供的新情報：三年追蹤、近期轉入光明陣營、半日擊殺判斷、援兵問題與第二環任務立場。
 
 ## 裝備與資產
@@ -34,11 +34,11 @@
 - 【海潮】= READY / NOT_USED_CH62。
 - 【火雨降臨】= READY / NOT_USED_CH62。
 - 【俯空殺技能書】= HELD / NOT_USED / SKILL_NOT_LEARNED。
-- 白銀重劍 = HELD_NOT_EQUIPPED；正式名稱／面板仍未取得合法SOURCE。
+- 白銀重劍 = HELD_NOT_EQUIPPED。
 - 兩張真我流相關職業卷軸 = REWARD_ONLY / NOT_ACQUIRED。
 
 ## Ability Gate
-- EFFECT_RELATION_PERCEPTION = EVALUATED / USED
+- EFFECT_RELATION_PERCEPTION = USED
 - OCCLUSION_IMMUNITY / REAL_BODY_VS_AFTERIMAGE = PREEXISTING_BASELINE / USED
 - INTERNAL_PRECURSOR_READING = USED
 - PERFECT_TIMING_WINDOW = USED
@@ -50,10 +50,8 @@
 - THUNDER_FIELD = NOT_RELEVANT_AFTER_EVALUATION
 - GENERAL_EFFECT_WEIGHT_ADJUSTMENT = NOT_REQUIRED_AFTER_EVALUATION
 - SPEED_LIMIT_RELEASE = NOT_REQUIRED_AFTER_EVALUATION
-- EVENT_HORIZON_LOCAL = NOT_REQUIRED_AFTER_EVALUATION
-- EVENT_HORIZON_RANGE_COMPOSITE = NOT_REQUIRED_AFTER_EVALUATION
-- FULL_BLACK_HOLE_CELESTIAL = NOT_REQUIRED_AFTER_EVALUATION
-- OTHER_HIGH_LEVEL_BODY_ABILITY = NOT_REQUIRED_AFTER_EVALUATION
+- EVENT_HORIZON_LOCAL / RANGE_COMPOSITE = NOT_REQUIRED_AFTER_EVALUATION
+- FULL_BLACK_HOLE_CELESTIAL / OTHER_HIGH_LEVEL_BODY_ABILITY = NOT_REQUIRED_AFTER_EVALUATION
 - KNOWLEDGE_GAIN = PASS
 - ABILITY_SOURCE_ATTRIBUTION = PASS
 - LOWEST_SUFFICIENT_TIER_SELECTED = PASS
@@ -62,21 +60,30 @@
 
 ## VOID_WITH_CAUSE
 ### VOID-119-PRIVATE-REALITY-COMBAT-HISTORY
-- 只移除沈雲的私人現實異能者身分、正規格鬥訓練史與其個人頂級格鬥履歷因果。
+- 只移除沈雲私人現實異能者身分、正規格鬥訓練史與個人頂級格鬥履歷因果。
 - 不移除蒂姬、【幻想之舞】、同區間技巧測試、人體控制或其他客觀事件。
 - Franiya由自身既有漫長戰鬥經驗與能力承接，SUBSTITUTE_CAUSE = PASS。
 
 `CH62_NEW_VOID_WITH_CAUSE_COUNT = 1`
 
 ## QA同輪修正
-1. 使用者指出Franiya此前已能辨識真身／分身／殘像／幻象：PREWRITE與正文改為既有基線，不再演成新突破。
-2. 雙法器持握連續性：補明深海水晶球在近戰測試時暫存物品欄，結束後重新裝回，避免左手同時握球又控腕。
-3. 【幻想之舞】語義邊界：改由在場女孩先說出名稱。
-4. 第47章迦娜知識：刪除「迦娜是誰」式錯誤，保留Franiya已認識迦娜但折光不洩露跨身份經歷。
-5. 第二環失敗條件恢復SOURCE：當場死亡。
-6. 補回121的三年追蹤、近期進入光明陣營、蒂姬半日擊殺判斷與需要阻擋援兵。
+1. 真身／分身／殘像／幻象辨識改回Franiya既有基線。
+2. 水晶球近戰期間暫存物品欄，測試後重新裝回，修正左手持握連續性。
+3. 【幻想之舞】名稱由在場女孩先說出。
+4. 恢復第47章迦娜既有知識，折光只隱藏跨身份相遇。
+5. 第二環失敗條件恢復為當場死亡。
+6. 補回121的三年追蹤、近期進入光明陣營、半日擊殺判斷與阻擋援兵。
 
-## 下一步
-- 同步 Current State / 未完成因果 / Queue / Asset Ledger / Audit / 交接 / 知識矩陣 / 章節索引。
-- 完成後將本檔狀態更新為 `POSTWRITE_PASS / SYNCED / TRANSACTION_CLOSED`。
-- `CH63_BODY_GATE = BLOCKED_UNTIL_NEW_PREWRITE`。
+## 已同步
+- `40_SOURCE_LIVE_REBUILD_119-121_CH62.md`
+- Current State
+- 未完成因果
+- Active Queue
+- Asset Ledger
+- 有效性／同步稽核
+- 專案交接
+- 04O知識矩陣
+- 06K章節索引
+- 211章節交易同步
+
+`CH63_BODY_GATE = BLOCKED_UNTIL_NEW_PREWRITE`
