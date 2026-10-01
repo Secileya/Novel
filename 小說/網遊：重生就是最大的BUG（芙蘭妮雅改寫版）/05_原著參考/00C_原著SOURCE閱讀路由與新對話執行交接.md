@@ -3,148 +3,145 @@
 > 更新日期：2026-10-01  
 > 性質：`SOURCE_HANDOFF / READING_ROUTER / NEW_CHAT_BOOTSTRAP / MANDATORY`  
 > 適用專案：`網遊：重生就是最大的BUG（芙蘭妮雅改寫版）`  
-> 目的：讓完全沒有前文的新對話，也能正確理解 `05_原著參考` 的檔案分工、權威層級、閱讀順序與 Master Set 更新方式，不再靠舊對話記憶猜哪份檔才是現行真值。
+> 目的：讓完全沒有前文的新對話，也能知道原著SOURCE應先讀哪裡、各類研究檔用途、Master Set如何更新，以及哪些區間仍未完成完整反向閉環。
 
 ---
 
 # 一、新對話固定啟動順序
 
-如果任務是「接手芙蘭原文事件／原著事件捕捉／Master Set／查某章原著事件」，**不要先逐個翻整個資料夾。**
+如果任務是「接手芙蘭原文事件／查某章原著／建立或更新Master Set／做PREWRITE前SOURCE核對」，固定：
 
-固定順序：
-
-1. 讀 `00A_原著事件捕捉與反向歸屬流程.md`
-   - 了解五 Pass、反向歸屬、證據層級與30章閉環。
-2. 讀本檔 `00C_原著SOURCE閱讀路由與新對話執行交接.md`
-   - 了解檔案角色與現行入口。
-3. 依章號讀對應 **SOURCE_CHAPTER_EVENT_MASTER_SET**。
-4. 只有 Master Set 顯示爭議、SOURCE_UNSTATED、高風險因果、RETRO或需要追歷史判定時，才往下鑽 SOURCE_NODE／RETRO／舊研究檔。
-5. 若要新增、否定或修正原著事實，最終仍必須回第一手原著 TXT。
+1. 讀 `00A_原著事件捕捉與反向歸屬流程.md`。
+2. 讀本 `00C_原著SOURCE閱讀路由與新對話執行交接.md`。
+3. 依章號讀對應 `SOURCE_CHAPTER_EVENT_MASTER_SET`。
+4. 只有遇到爭議、SOURCE_UNSTATED、高風險物權／知情鏈、RETRO或歷史誤判，才下鑽 SOURCE_NODE／RETRO／母抓取／反掃／舊Acceptance／舊LIVE。
+5. 若要新增、否定、改變SOURCE結論，最終必須回第一手原著TXT。
 
 正常路由：
 
-`第一手原著TXT → 對應Master Set → 有爭議才下鑽SOURCE_NODE／RETRO／歷史檔`
+`第一手原著TXT（最高證據） → 對應Master Set（日常第一入口） → 特殊爭議才下鑽歷史／專題檔`
 
-不是：
+不要把日常工作變成：
 
-`母抓取 → 反掃 → Acceptance → LIVE → RETRO → SOURCE_NODE → 自己猜誰最新`
+`母抓取 → 反掃 → Acceptance → LIVE → RETRO → SOURCE_NODE → 自己猜哪份最新`
 
 ---
 
-# 二、目前 Master Set 路由
+# 二、目前Master Set路由
 
-現行已建立：
+現行：
 
 - `45_SOURCE_CHAPTER_EVENT_MASTER_SET_100-150.md`
 - `46_SOURCE_CHAPTER_EVENT_MASTER_SET_150-200.md`
-
-查詢規則：
+- `47_SOURCE_CHAPTER_EVENT_MASTER_SET_200-250.md`
 
 | 原著章號 | 日常第一入口 |
 |---|---|
 | CH100～149 | SOURCE45 |
-| CH150 | SOURCE45／SOURCE46 的重疊邊界章；往前追100～150脈絡看45，往後追150→151與後續保管鏈看46 |
-| CH151～200 | SOURCE46 |
-| CH201以後 | 尚無對應Master Set時，依00A回第一手TXT＋既有母抓取／反掃／時間序研究，完成後再建立下一Master Set |
+| CH150 | SOURCE45／SOURCE46重疊邊界 |
+| CH151～199 | SOURCE46 |
+| CH200 | SOURCE46／SOURCE47重疊邊界 |
+| CH201～250 | SOURCE47 |
+| CH251以後 | 尚無Master Set時，依00A回TXT＋既有研究；完成後建立下一份Master Set |
 
-### CH150重疊邊界原則
+### 重疊邊界不是錯誤
 
-CH150刻意存在於兩份 Master Set，不是重複錯誤。
-
-原因：
-
-- SOURCE45需要把100～150閉合；
-- SOURCE46需要讀150→151，才能正確判定【神恩守護項鏈】不是150章永久入手，而是151章交還切爾文後再以第二環任務暫借。
+- CH150重疊，是為了讓SOURCE45閉合100～150，同時讓SOURCE46讀150→151，正確處理【神恩守護項鏈】「取得→交還→暫借」。
+- CH200重疊，是為了讓SOURCE46閉合150～200，同時讓SOURCE47讀200→202，正確處理「今天最後5分鐘會來」的赴約與後續決戰。
 
 固定：
 
 `BOUNDARY_OVERLAP_IS_INTENTIONAL = TRUE`
 
-若未來重疊章兩份 Master Set 出現真正SOURCE矛盾：
+若重疊章兩份Master Set未來出現互斥真值：
 
-1. 回第一手TXT；
+1. 回TXT；
 2. 讀跨章連續窗口；
-3. 修正兩份Master Set對應EVENT；
-4. 不允許讓兩份現行入口長期保存互斥真值。
+3. 同步修兩份Master Set的同一SOURCE事實；
+4. 不允許平行保留互斥現行版本。
 
 ---
 
-# 三、第一手權威與三種不同問題
+# 三、目前各區間研究成熟度
 
-第一手最高權威固定為：
+## SOURCE45｜100～150
+
+- 已有母抓取、多輪反掃／交叉稽核、時間序與RETRO收斂。
+- 第116章【踢擊】92%案例證明：反掃抓到 ≠ Acceptance一定有收。
+
+## SOURCE46｜150～200
+
+- 150～200已由母抓取、121～210反向稽核、121～180／181～240時間序第三輪等收斂。
+- 180→181跨章結算、191～200平行剪輯等已寫入時間骨架。
+
+## SOURCE47｜200～250
+
+- CH200～240：已有母抓取／第三輪交叉稽核／時間序第三輪，多層收斂。
+- CH241～250：原本沒有母抓取；2026-10-01已直接回第一手TXT新抓，證據檔為：
+  - `47A_SOURCE_FIRST_HAND_CAPTURE_241-250.md`
+- 241～250已完成逐章第一手捕捉、240→241／250→251跨窗及部分後文回證，並已收斂進SOURCE47。
+- **但241～270完整30章反向歸屬閉環尚未完成。** 下一批延伸251～270時仍需補完整 forward reuse／reverse attribution。
+
+固定：
+
+`CH241_250_FIRST_HAND_CAPTURE = PASS`
+
+`CH241_250_MASTER_INTEGRATION = PASS`
+
+`CH241_270_FULL_REVERSE_ATTRIBUTION_CLOSURE = PENDING`
+
+---
+
+# 四、第一手權威與三種問題必須分開
+
+第一手最高權威：
 
 `05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt`
 
-母抓取、反掃、Acceptance、LIVE、RETRO、SOURCE_NODE、Master Set 都是研究／收斂層，**不能取代第一手原文。**
+所有母抓取、反掃、Acceptance、LIVE、RETRO、SOURCE_NODE、Master Set都是研究／收斂層，不能取代TXT。
 
-但日常查詢不要求每次從TXT重新研究。Master Set的目的，就是把已完成的第一手核對、反掃、回證與修正收斂成現行入口。
+但日常查詢不要求每次從TXT從零研究，否則Master Set失去意義。
 
-固定區分：
+固定分三層：
 
 `SOURCE真相` ≠ `研究歷史` ≠ `Franiya改寫線現況`
 
-- **SOURCE真相**：原著客觀發生什麼。
-- **研究歷史**：以前哪份檔漏了、判錯了、後來怎麼修。
-- **Franiya改寫線現況**：該原著事件目前在本線是整合、延後、重建、作廢或等待觸發。
+- **SOURCE真相**：原著客觀發生了什麼。
+- **研究歷史**：以前漏了什麼、哪份檔判錯、怎麼被修正。
+- **Franiya改寫線現況**：原著事件在本線目前是整合、延後、重建、作廢或等待觸發。
 
-Master Set負責把三者分開，不得混成一句模糊摘要。
-
----
-
-# 四、05_原著參考裡各類檔案用途
-
-## A｜母抓取檔 `SOURCE_CAPTURE`
-
-例：
-
-- `04_原著事件捕捉_061-090.md`
-- `05_原著事件捕捉_091-120.md`
-- `06_原著事件捕捉_121-150.md`
-- `07_原著事件捕捉_151-180.md`
-- `08_原著事件捕捉_181-210.md`
-
-用途：按章保存流程、人物、任務、技能、裝備、數值、世界規則、知情狀態、公開情報與長線鉤子。
-
-定位：**基礎資料層，不是現行最終真值入口。**
+Master Set要把三者分開，不把「原著結果」與「Franiya映射」混成一句。
 
 ---
 
-## B｜反向掃描／交叉稽核／時間序稽核
+# 五、各類檔案到底是什麼
 
-例：
+## 5.1 母抓取 `SOURCE_CAPTURE`
 
-- `09_原著事件捕捉反向稽核_121-210.md`
-- `10A_原著事件捕捉二次反向歸屬掃描_091-120.md`
-- `21_原著事件時間序第三輪稽核_121-180.md`
-- `22_原著事件時間序第三輪稽核_181-240.md`
+例：`07_原著事件捕捉_151-180.md`、`08_...181-210.md`、`19_...211-240.md`。
+
+用途：按章保存原著流程、人物、任務、技能、裝備、數值、規則、知情狀態、公開情報、長線鉤子。
+
+定位：**基礎研究層，不是現行第一入口。**
+
+## 5.2 反向掃描／交叉稽核／時間序稽核
 
 用途：
 
-- 回抓母抓取漏掉的來源與數值；
-- 追物品／技能／任務的第一次後續使用；
-- 補持有人、掉落池、資產鏈；
+- 補來源、持有人、後文首次使用；
+- 抓量化數值；
+- 由跨章事實縮小未知；
 - 區分角色推測與客觀事實；
-- 抓原著自身矛盾；
-- 修正世界內時間、回憶、平行剪輯與跨章結算。
+- 保留原著自身矛盾；
+- 修正回憶、平行剪輯、跨章結算。
 
-典型：第116章【踢擊】92%／+92%就是反掃已抓到、舊Acceptance卻漏接的案例。
+反掃抓到的事實不能因Acceptance沒收就消失。
 
-定位：**補強證據層。**
-
----
-
-## C｜Acceptance
-
-例：
-
-- `28_SOURCE_CAPTURE_ACCEPTANCE_091-120.md`
-- `41_SOURCE_CAPTURE_ACCEPTANCE_121-150.md`
+## 5.3 Acceptance
 
 只回答：
 
-> 「哪些SOURCE事件被列進正式驗收／disposition？」
-
-它不是原著正文摘要，也不是完整SOURCE全集。
+> 「哪些SOURCE事件已被列入正式驗收／disposition？」
 
 固定：
 
@@ -152,32 +149,21 @@ Master Set負責把三者分開，不得混成一句模糊摘要。
 
 `ACCEPTANCE_MISSING_EVENT != SOURCE_EVENT_NONEXISTENT`
 
----
+## 5.4 SOURCE_NODE
 
-## D｜SOURCE_NODE
-
-只處理一條高風險局部因果，例如：
+只處理高風險局部因果，例如：
 
 - 高價值物權／保管鏈；
-- 技能／裝備來源跨多章；
+- 跨多章技能／裝備來源；
 - 知情邊界；
-- 同章多事件只搬了一部分；
-- 正式正文可能已與SOURCE衝突；
-- SOURCE_UNSTATED中間邊會影響正式敘事。
+- SOURCE_UNSTATED中間邊；
+- 正式正文已可能與SOURCE衝突。
 
-SOURCE_NODE不是整章摘要，也不是Master Set替代品。
+SOURCE_NODE做完，最終結論仍要回寫Master Set。
 
-完成SOURCE_NODE後，**最終結論仍要回寫Master Set。**
-
----
-
-## E｜SOURCE LIVE / LIVE REBUILD
+## 5.5 LIVE / LIVE REBUILD
 
 表示某個正式施工分支在**那個時間點**採用的SOURCE狀態。
-
-LIVE可覆蓋更早Acceptance，但LIVE也可能被後來RETRO修正。
-
-固定：
 
 `LIVE = CURRENT_BRANCH_STATE_AT_THAT_TIME`
 
@@ -185,430 +171,225 @@ LIVE可覆蓋更早Acceptance，但LIVE也可能被後來RETRO修正。
 
 `LIVE = ETERNAL_SOURCE_TRUTH`
 
----
+LIVE可被後來RETRO修正。
 
-## F｜RETRO
+## 5.6 RETRO
 
-用途：
+用途：「以前漏／判錯，現在回頭修」。
 
-> 「以前漏了／判錯了，現在回頭修。」
-
-典型：
-
-`44_SOURCE_RETRO_116_踢擊完成度與反向掃描完整性.md`
-
-RETRO保留錯誤如何產生、怎麼被發現、修正責任與下游影響。
-
-修完後：
+RETRO保留錯誤歷史與修正責任；修完後：
 
 `RETRO_RESULT → UPDATE_MASTER_SET`
 
-未來正常查事件，不應每次先讀RETRO。
+未來正常查事件不應每次先讀RETRO。
 
----
+## 5.7 Master Set
 
-## G｜SOURCE_CHAPTER_EVENT_MASTER_SET
+這是日常現行第一入口。
 
-這是**日常現行第一閱讀入口**。
-
-現行：
-
-- SOURCE45：100～150
-- SOURCE46：150～200
-
-建立公式概念：
+概念公式：
 
 `MASTER_SET`
 `= FIRST_HAND_TXT`
 `∪ SOURCE_CAPTURE`
 `∪ REVERSE_SCAN`
-`∪ SECOND_PASS`
-`∪ THIRD_CROSS_AUDIT`
+`∪ CROSS_AUDIT`
 `∪ TIMELINE_AUDIT`
 `∪ FIRST_HAND_PATCHES`
-`∪ LATEST_SOURCE_RETRO`
+`∪ LATEST_VALID_RETRO`
 
-Master Set不是「再多一份摘要」，而是把前面研究結果**收斂成現行事件帳本**。
-
----
-
-# 五、權威與覆蓋關係
-
-## 5.1 問原著事實時
-
-優先邏輯：
-
-1. 第一手TXT直接證據；
-2. 經反掃／交叉稽核／RETRO驗證的結論；
-3. Master Set現行收斂；
-4. 舊母抓取、舊Acceptance、舊LIVE等歷史層。
-
-Master Set是**第一閱讀入口**，不是高於TXT的證據來源。
-
-若Master Set與重新核對的TXT衝突，修Master Set。
-
-## 5.2 問Franiya改寫線現況時
-
-需綜合：
-
-- 最新正式正文；
-- Active Queue；
-- Current State；
-- 有效LIVE；
-- 最新RETRO；
-- Master Set disposition。
-
-舊Acceptance／舊LIVE可留歷史，但不能只按檔號大小決定誰贏。
+它不是「多一份摘要」，而是把研究結果重新收斂成**事件帳本**。
 
 ---
 
-# 六、正常查某一章怎麼做
+# 六、EVENT_ID規則
 
-## Step 1｜先定位Master Set
-
-例：
-
-- 查CH116 → SOURCE45
-- 查CH176 → SOURCE46
-- 查CH189 → SOURCE46
-
-先讀該章EVENT_ID，確認：
-
-- 完整事件集合；
-- SOURCE_CLASS；
-- 客觀結果；
-- 數值；
-- 時間位置；
-- disposition；
-- trigger／deadline；
-- 是否有矛盾或特殊回證。
-
-## Step 2｜只有有爭議才下鑽
-
-例如問「CH116踢擊為什麼以前漏掉」，才讀：
-
-- `44_SOURCE_RETRO_116_...`
-- 舊Acceptance；
-- 舊LIVE；
-- `10A_...二次反向歸屬掃描...`
-
-若只是問「CH116現在正確SOURCE是什麼」，SOURCE45已是第一入口。
-
-## Step 3｜若要修改SOURCE結論，回第一手TXT
-
-至少：
-
-- 當章完整上下文；
-- 前後相鄰章；
-- 必要全文關鍵詞回查；
-- 後文第一次再利用；
-- 若是區間邊界，讀到真正事件停止點。
-
-然後才更新Master Set。
-
----
-
-# 七、EVENT_ID規則
-
-穩定格式：
+固定格式：
 
 `CH<原著章號>-E<序號>`
 
 例如：
 
-`CH116-E03｜【踢擊】92%量化回證`
+- `CH116-E03｜【踢擊】92%量化回證`
+- `CH241-E01｜【毀滅法則－崩壞】完整數值`
+- `CH249-E01｜Zero情報來源是已知假話`
 
-`CH189-E01｜【鮮血之翼】31級／30級矛盾`
+新證據出現時：
 
-找到新證據時：
+`新證據 → 更新既有EVENT_ID → 更新後文回證／source class／disposition`
 
-`新證據 → 更新既有EVENT_ID`
-
-不要：
-
-`第四輪事件 → 第五輪事件 → RETRO事件 → 新LIVE事件`
-
-研究檔可以新增，但**事件本體只有一個現行帳本ID。**
+不要為同一事件永久生出「第四輪版、第五輪版、新LIVE版」多個現行真值。
 
 ---
 
-# 八、Master Set事件應保存什麼
-
-建議欄位／問題集：
-
-`EVENT_ID`
-`SOURCE_CHAPTER`
-`SOURCE_IN_WORLD_ORDER`
-`NARRATIVE_MODE`
-`ORIGINAL_EVENT`
-`OBJECTIVE_RESULT`
-`NUMERIC_FACTS`
-`ASSET_CUSTODY`
-`KNOWLEDGE_FLOW`
-`DOWNSTREAM_EVIDENCE`
-`SOURCE_CLASS`
-`ACCEPTANCE_STATUS`
-`LIVE_STATUS`
-`LATEST_RETRO`
-`FRANIYA_MAPPING`
-`DISPOSITION`
-`TRIGGER`
-`LATEST_DEADLINE`
-`CONFLICT_NOTE`
-`LAST_UPDATED_FROM`
-
-不必每條機械用表格，但以上問題不能遺失。
-
-SOURCE45／46目前採可讀性較高的Markdown事件塊；未來發現新證據直接更新既有EVENT。
-
----
-
-# 九、SOURCE分類
+# 七、SOURCE分類
 
 ### `SOURCE_EXPLICIT`
 原文直接明示。
 
 ### `SOURCE_DERIVED`
-沒有單句直接點名，但多項原文明示事實可邏輯證明／縮到必然集合。
+沒有單句點名，但多個原文明示事實可邏輯證明或縮到必然集合。
 
 ### `SOURCE_UNSTATED`
-必須完成：
+只有完成：
 
 1. 當章完整回讀；
 2. 前後章；
 3. 全文搜尋；
-4. 跨章數量／職業／掉落／交易／後續清點反推；
+4. 跨章數量／職業／掉落／交易／後續持有反推；
 
-仍不能縮小，才可標。
+仍不能再縮小時才可標。
 
-必要時另保留：
+可另保留：
 
 - `REASONABLE_INFERENCE`
 - `ADAPTATION_OPTIONAL_BRIDGE`
+- `CHARACTER_STATEMENT_KNOWN_FALSE`，例如CH249沈雲把Zero說成關山瑞資料來源，作者已明說這是假遮罩。
 
-禁止把合理推論冒充EXPLICIT／DERIVED。
-
----
-
-# 十、Disposition
-
-### `INTEGRATED`
-本線已合法承接該客觀結果。
-
-### `PRESERVE_BY_DEFAULT`
-原著客觀結果已明確，沒有衝突證據時預設保留。
-
-### `WORLD_BACKGROUND_LOCKED`
-世界規則、角色背景、制度、NPC／組織等不因主角換人自行消失。
-
-### `DEFERRED_WITH_TRIGGER`
-目前尚未落地，但已有未來觸發窗口。
-
-### `DEFERRED_WITH_CAUSE`
-客觀功能需保留，但本線有合法原因不能在原節點落地。
-
-### `REBUILD_REQUIRED`
-功能重要，但依賴沈雲私人前世／關係／選擇，需重建Franiya線因果。
-
-### `VOID_WITH_CAUSE`
-純沈雲私人因果可以合法作廢；若仍有客觀世界功能，必須另列，不可一起蒸發。
-
-### `OPEN_SOURCE_UNSTATED`
-SOURCE本身尚無足夠證據完成命名／逐件配對。
-
-任何事件沒有合法disposition，不得用`FULLY_CONSUMED`掩蓋。
+不要拿角色猜測冒充SOURCE_EXPLICIT。
 
 ---
 
-# 十一、原著數值與Franiya映射分開
+# 八、原著矛盾怎麼處理
 
-禁止用Franiya更高結果覆寫原著事實。
+原著自己矛盾時，**雙版本保留**，直到後文真的修正。
 
-固定案例CH116：
+現有典型：
 
-原著：
+- CH170原初之地「1級開始／0級開始」。
+- CH189【鮮血之翼】面板31級、旁白又說30級能飛。
+- CH219納塔麗數到110股／種異能，CH220旁白又寫108種異能齊聚。
 
-- 沈雲自由模式【踢擊】92%完成度；
-- 額外+92%傷害。
+固定：
 
-Franiya：
-
-- 本人可控執行品質＋系統有明確上限時，合法執行取系統允許上限；
-- 因此預期100%／+100%；
-- 但仍需合法身份、裝備、技能與觸發窗口。
-
-所以：
-
-`ORIGINAL_RESULT = 92% / +92%`
-
-`FRANIYA_MAPPING = SYSTEM_ALLOWED_MAXIMUM`
-
-兩者並存。
+`ORIGINAL_INTERNAL_CONTRADICTION != LICENSE_TO_SILENTLY_FIX_AUTHOR`
 
 ---
 
-# 十二、時間序與跨章規則
+# 九、時間序硬規則
 
-原著章號不等於世界時間。
+章號不是世界內時間。
 
-Master Set必須保留：
+Master Set必須保留需要的：
 
 - `SOURCE_IN_WORLD_ORDER`
-- `NARRATIVE_MODE`
-- PRESENT
-- FLASHBACK
-- PARALLEL
-- MEMORY_EXPOSITION
-- LATE_DISCOVERED_HISTORY
+- `NARRATIVE_MODE = PRESENT / FLASHBACK / PARALLEL / MEMORY_EXPOSITION / LATE_DISCOVERED_HISTORY`
+
+尤其：
+
+- 154／157有前世回憶，不是現在事件。
+- 170～181是一場原初之地對局。
+- 191～200有競技場／矮人城平行剪輯。
+- 207～222是同一現實日下午→深夜郵輪線，大量Zero前世背景不是當晚新事實。
+- 223明示第二天一早。
+- 224～241是同一水晶通道／伏擊遊戲日。
+- 240必須跨241才完成戰鬥解法。
+- 250必須跨251才能知道羅成女兒的治療／記憶讀取實際結果。
 
 固定：
 
 `RESEARCH_DISCOVERY_TIME != SOURCE_EVENT_TIME != ADAPTATION_EVENT_TIME`
 
-### SOURCE46必讀時間案例
+---
 
-- CH150→151：項鏈所有權必須跨讀。
-- CH154：前世戰爭記憶，不是當前新事件。
-- CH157：前世源義清關係記憶。
-- CH169→170：約15分鐘，不是隔日。
-- CH170～181：同一場原初之地。
-- CH180→181：180不是結算點。
-- CH182：明示兩天後。
-- CH191～200：競技場與矮人城是同日平行剪輯。
+# 十、Disposition常用值
+
+- `PRESERVE_BY_DEFAULT`：原著客觀結果明確，本線無明確衝突時保留。
+- `WORLD_BACKGROUND_LOCKED`：客觀世界規則／制度／角色背景不能因換主角自行消失。
+- `DEFERRED_WITH_TRIGGER`：已有未來觸發點。
+- `DEFERRED_WITH_CAUSE`：客觀功能保留，但原節點因本線合法原因不能落地。
+- `REBUILD_REQUIRED`：功能重要，但依賴沈雲私人前世／關係／選擇，需重建。
+- `VOID_WITH_CAUSE`：純沈雲私人因果，可合法不移植。
+- `OPEN_SOURCE_UNSTATED`：SOURCE仍不足以完成命名／精確配對。
+
+任何重要事件沒有合法disposition，不得只因「章節看過」就宣告 `FULLY_CONSUMED`。
 
 ---
 
-# 十三、原著自身矛盾怎麼處理
+# 十一、正常查某一章
 
-原著若自相矛盾：
+## Step 1｜先看對應Master Set
 
-**保留兩版，不替作者偷偷修。**
+先取得：
 
-SOURCE46例：
-
-`CH189-E01`
-
-- 【鮮血之翼】正式面板要求31級；
-- 同章旁白又寫30級即可自主飛行。
-
-所以：
-
-`SOURCE_CONTRADICTION = PRESERVE_BOTH`
-
-除非後文有明確修正證據，不自行挑一個變成唯一真值。
-
-同理，名詞浮動如【火炎血雨／火焰血雨】若上下文明確是同一能力，就記名詞浮動，不擅自創造成兩個魔法。
-
----
-
-# 十四、Master Set怎麼更新
-
-未來發現漏項：
-
-1. 回TXT核對；
-2. 判斷是新EVENT還是既有EVENT的新證據；
-3. 必要時建／更新RETRO或SOURCE_NODE保存錯誤歷史；
-4. 更新對應Master Set；
-5. 更新SOURCE_CLASS、後文回證、disposition、trigger、deadline；
-6. 若影響正式改寫，再同步Active Queue／Current State／正文修復責任；
-7. commit後，以更新後Master Set為日常第一入口。
-
-不要把「第四輪、第五輪、第六輪掃描」永久堆成新的真值森林。
-
-研究工作檔可存在，但驗證完成後必須：
-
-`NEW_EVIDENCE → CONVERGE_TO_MASTER_SET`
-
----
-
-# 十五、何時另建SOURCE_NODE／RETRO
-
-只更新Master Set：
-
-- 新找到普通數值；
-- 同事件後文回證；
-- 母抓取漏一個明確小事件；
-- disposition普通更新；
-- 無複雜保管／知情／正式衝突。
-
-另建SOURCE_NODE／RETRO：
-
-- 物權／保管鏈不清；
-- 重要技能／裝備跨很多章；
-- 正式正文可能已寫錯；
-- Acceptance／LIVE曾錯誤宣告完整；
-- 高價值世界線事件漏失；
-- SOURCE_UNSTATED中間邊會影響正式正文；
-- 需要雙向稽核才能閉環。
-
-完成後仍回寫Master Set。
-
----
-
-# 十六、SOURCE45與SOURCE46目前代表什麼
-
-## SOURCE45｜100～150
-
-第一個正式Master Set實作，建立了：
-
-- 世界內時間骨架；
-- 章級EVENT_ID；
-- SOURCE分類；
-- 客觀事件與數值；
+- EVENT_ID；
+- SOURCE_CLASS；
+- 客觀事件／結果；
+- 數值；
+- 世界內時間；
+- 後文回證；
 - disposition；
-- RETRO收斂；
-- 舊Acceptance／LIVE降為歷史證據。
+- trigger／deadline；
+- conflict note。
 
-## SOURCE46｜150～200
+## Step 2｜有爭議才下鑽
 
-沿用SOURCE45架構，並進一步強化：
+例如：
 
-- CH150重疊邊界；
-- CH150→151物權回證；
-- 154／157前世記憶標記；
-- CH170～181同一場原初之地；
-- CH180→181跨章真正結算；
-- CH182「兩天後」硬時間錨；
-- 血夜之王開荒版與後世攻略差異；
-- CH189原著31級／30級矛盾雙保留；
-- CH191～200雙線平行剪輯；
-- CH200最後5分鐘作201～204後續觸發。
+- 為什麼116踢擊以前漏？→讀RETRO＋反掃＋舊Acceptance／LIVE。
+- 241～250第一次怎麼抓？→讀 `47A_SOURCE_FIRST_HAND_CAPTURE_241-250.md`。
+- 某高價值物品保管鏈不清？→讀對應SOURCE_NODE。
 
-因此新對話查150～200，不應再自己從07、08、09、21、22拼答案，先讀SOURCE46。
+## Step 3｜若要改SOURCE，回TXT
 
----
+至少讀：
 
-# 十七、給新對話的最小執行清單
+- 當章連續上下文；
+- 相鄰章；
+- 必要全文關鍵詞；
+- 後文第一次再利用；
+- 邊界章讀到真正停止點。
 
-- [ ] 已讀 `00A_原著事件捕捉與反向歸屬流程.md`
-- [ ] 已讀本 `00C`
-- [ ] 已依章號定位 SOURCE45／SOURCE46
-- [ ] 已確認EVENT_ID與SOURCE_CLASS
-- [ ] 已確認disposition
-- [ ] 已確認時間位置／是否回憶／平行／跨章
-- [ ] 已確認是否有SOURCE矛盾、RETRO或SOURCE_NODE
-- [ ] 若修改SOURCE，已回第一手TXT
-- [ ] 新證據已更新既有EVENT_ID或合法新增EVENT_ID
-- [ ] 歷史判錯有保留provenance，不是偷偷抹除
-- [ ] 最終現行結果已收斂回Master Set
-
-只有要寫正式正文時，才再進PREWRITE／能力Gate／Active Queue／Current State等施工流程。
+然後才改Master Set。
 
 ---
 
-# 十八、一句話交接
+# 十二、Master Set更新規則
 
-**原著TXT是最高證據；Master Set是日常現行入口；SOURCE_NODE／RETRO負責特殊爭議；母抓取、反掃、Acceptance、LIVE保留作證據與歷史，不再要求新對話靠多檔考古拼出現在真相。**
+新證據出現：
 
-固定：
+1. 回第一手TXT核對；
+2. 判斷是新事件還是既有EVENT_ID補證；
+3. 必要時建RETRO／SOURCE_NODE保留錯誤歷史；
+4. 更新對應Master Set；
+5. 更新 source class／後文回證／disposition／trigger／deadline；
+6. 若影響正式改寫，再同步Active Queue／Current State／正文修復責任；
+7. commit後，以Master Set新狀態作日常第一入口。
+
+不要把永久流程重新長回：
+
+`第四輪完整掃描 → 第五輪完整掃描 → 第六輪完整掃描 → 新對話自己考古`
+
+研究檔可以存在，但驗證結果必須收斂回Master Set。
+
+---
+
+# 十三、給新對話的最小Checklist
+
+- [ ] 已讀00A
+- [ ] 已讀00C
+- [ ] 已定位章號對應Master Set
+- [ ] 已確認EVENT_ID／source class
+- [ ] 已確認真實時間位置
+- [ ] 已確認客觀結果與數值
+- [ ] 已確認disposition／trigger／deadline
+- [ ] 已確認是否有原著自相矛盾
+- [ ] 若修改SOURCE，已回TXT
+- [ ] 若是高風險因果，已確認是否需SOURCE_NODE／RETRO
+- [ ] 新證據最終已回寫Master Set
+- [ ] 若工作區含241～250，知道241～270完整30章閉環仍待下一批
+
+只有要寫正式正文時，才再進PREWRITE／能力Gate／Active Queue／Current State等正式施工流程。
+
+---
+
+# 十四、一句話交接
+
+**原著TXT是最高證據；Master Set是日常第一入口；SOURCE_NODE／RETRO處理特殊爭議；母抓取、反掃、Acceptance、LIVE保留為證據與歷史；所有新證據最後必須回到既有EVENT_ID與Master Set。**
 
 `FIRST_READ_ENTRY = MASTER_SET`
 
 `FIRST_HAND_TXT = HIGHEST_SOURCE_AUTHORITY`
-
-`CURRENT_MASTER_SETS = SOURCE45_100_150 + SOURCE46_150_200`
-
-`BOUNDARY_OVERLAP_CH150 = INTENTIONAL`
 
 `HISTORICAL_FILES = PROVENANCE_NOT_PRIMARY_ENTRY`
 
