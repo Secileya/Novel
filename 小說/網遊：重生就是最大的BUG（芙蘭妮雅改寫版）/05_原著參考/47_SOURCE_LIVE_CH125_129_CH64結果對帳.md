@@ -1,7 +1,7 @@
 # SOURCE LIVE｜CH125～129 → 正文第64章結果對帳
 
 > 日期：2026-10-01  
-> 狀態：`CURRENT_SOURCE_OVERLAY / CH125_129_FULLY_CONSUMED`  
+> 狀態：`CURRENT_SOURCE_OVERLAY / CH125_129_FULLY_CONSUMED / RETRO_CORRECTED`  
 > 上位事件全集：`45_SOURCE_CHAPTER_EVENT_MASTER_SET_100-150.md`  
 > 正文：`01_章節/064_第六十四章_水下五百米，門開了.md`
 
@@ -15,23 +15,26 @@
 `FULLY_CONSUMED = CH125,CH126,CH127,CH128,CH129`
 `NEXT_SOURCE_WINDOW = CH130_FORWARD`
 
+> 2026-10-01 RETRO：撤回舊版「玩家群體擊殺魚人守護者→圖紙公開交易→折光匿名購得」的不必要重建。沈雲私人誘餌／大夢初曉反情報因果仍作廢，但【魚人守護者】本體、主角親自擊殺與後續採集【魚人寶庫圖紙】並不依賴該私人因果，因此恢復低偏移客觀鏈。
+
 ## 二、CH125
 
 ### CH125-E01｜沈雲以殺大夢初曉反情報
 - 原著：沈雲因私人／前世關係與左谷風測試，反向殺大夢初曉切斷外界判斷。
 - 本線：`VOID_WITH_CAUSE`。
 - 理由：Franiya不存在沈雲的前世戀愛／記憶關係，也沒有當前證據使左谷風以相同私人鏈精確設局。
-- 正文結果：Franiya未去湖畔救人或殺大夢初曉；公開衝突由世界自行收束。
+- 正文結果：Franiya沒有為救大夢初曉或反制私人關係測試而前往，也沒有殺大夢初曉；她前往翡翠湖的理由改為自己持有【魚人寶庫鑰匙】且公開場景出現【魚人守護者】這一獨立魚人線索。
 
 ### CH125-E02｜天痕AI錄像分析能力
 - disposition：`WORLD_BACKGROUND_LOCKED / FUNCTION_PRESERVED`。
-- 本線仍保留大型公會可用直播、錄像、動作資料做情報分析；本章沒有對應的「沈雲殺大夢」樣本，因此不製造同一結論。
+- 本線仍保留大型公會可用直播、錄像、動作資料做情報分析；本章沒有對應的「沈雲殺大夢」樣本，因此不製造同一私人關係結論。
+- 折光公開擊殺魚人守護者的戰鬥影像可成為其自身公開戰鬥情報，但不會因此連結折光＝Franiya。
 
-### CH125-E03｜魚人守護者死亡→魚人寶庫圖紙
-- disposition：`REBUILD_REQUIRED -> INTEGRATED`。
-- 原著：沈雲親自處理魚人守護者，後續取得圖紙。
-- 本線：公開玩家群體在Franiya缺席下擊殺守護者；圖紙進入合法公開交易流；折光因早已持有【魚人寶庫鑰匙】而匿名購得【魚人寶庫圖紙×1】。
-- 客觀功能「圖紙與鑰匙在主角手中合流」保留。
+### CH125-E03｜魚人守護者死亡
+- disposition：`PRESERVED_AND_LANDED / LOW_DEVIATION_RESTORED`。
+- 原著：沈雲單殺白銀BOSS【魚人守護者】。
+- 本線：Franiya以第二身份【折光】因自身魚人線索前往翡翠湖，親自接手並完成魚人守護者的單人擊殺；不需要沈雲的私人誘餌因果才能成立。
+- 已保留其確認面板：Lv10、生命值上限11000、火抗41%、雷抗12%、水抗52%；技能【集中猛擊／水流術／橫掃】。
 
 ### CH125-E04｜沈雲身體／記憶異常與強制下線
 - disposition：`VOID_WITH_CAUSE`。
@@ -42,11 +45,17 @@
 ### CH126-E01｜強制下線後再登入
 - disposition：`VOID_WITH_CAUSE`。
 - 原私人身體線作廢；本線Day10同一登入時段連續進行。
+- 只刪除私人身體異常造成的強制中斷，不因此刪除魚人守護者屍體的正常採集結果。
 
-### CH126-E02｜圖紙＋鑰匙合流
-- disposition：`PRESERVED_AND_LANDED`。
-- 【魚人寶庫圖紙×1】：CH64匿名購得。
-- 【魚人寶庫鑰匙】：既有資產，CH64正式與圖紙閉環並用於開門。
+### CH126-E02｜魚人守護者掉落／採集＋圖紙與鑰匙合流
+- disposition：`PRESERVED_AND_LANDED / SIBLING_RESULTS_RESTORED`。
+- 魚人守護者死亡後，折光正式取得已被SOURCE明確確認的兄弟掉落：
+  - 【青銅布袍×1】：防禦+4、精神+8；`HELD_NOT_EQUIPPED`。
+  - 【未鑑定白銀法杖×1】：`HELD_UNIDENTIFIED / NOT_EQUIPPED`。
+- SOURCE只寫「等」，未列名的其他掉落不自行補造。
+- Franiya接著對魚人守護者屍體執行採集，正式取得【魚人寶庫圖紙×1】。
+- 【魚人寶庫圖紙×1】與早期黃金BOSS暗黑魚人刺客留下的【魚人寶庫鑰匙】在同一持有人手中閉環。
+- 舊版「公開交易匿名購得圖紙」作廢，不再是現行正典。
 
 ### CH126-E03｜避水珠水下行動
 - disposition：`PRESERVED_AND_USED`。
@@ -55,7 +64,7 @@
 
 ### CH126-E04｜500米湖底／75優質晶核供能
 - disposition：`PRESERVED_AND_LANDED`。
-- CH64先由公開材料市場合法補足【疾風狼優質晶核×75】。
+- 折光從圖紙確認【疾風狼優質晶核×75】供能需求後，正常返回智慧之城公開材料市場補足75顆，再返回翡翠湖。
 - 開門時75顆全部被法陣抽空並明確`CONSUMED_CH64`。
 
 ### CH126-E05｜未知觀察者
@@ -126,7 +135,9 @@
 
 ## 七、資產／終態
 
-- 【魚人寶庫圖紙×1】：`ACQUIRED_CH64 / HELD_AFTER_USE_OBSERVED / REUSABILITY_UNKNOWN`。
+- 【青銅布袍×1】：`ACQUIRED_CH64 / HELD_NOT_EQUIPPED`；面板防禦+4、精神+8。
+- 【未鑑定白銀法杖×1】：`ACQUIRED_CH64 / HELD_UNIDENTIFIED / NOT_EQUIPPED`。
+- 【魚人寶庫圖紙×1】：`ACQUIRED_BY_GATHERING_CH64 / HELD_AFTER_USE_OBSERVED / REUSABILITY_UNKNOWN`。
 - 【魚人寶庫鑰匙】：`USED_CH64 / HELD_AFTER_USE_OBSERVED / REUSABILITY_UNKNOWN`。
 - 【疾風狼優質晶核×75】：`PURCHASED_CH64 -> CONSUMED_CH64 / 0_FROM_THIS_BATCH`。
 - 【避水珠】：`USED_CH64 / NOT_CONSUMED`。
