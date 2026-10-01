@@ -1,6 +1,7 @@
 # SOURCE CANON MASTER｜原著第151～200章
 
 > 建立／升格日期：2026-10-01  
+> 語義過推稽核：2026-10-02  
 > 性質：`CURRENT_SOURCE_CANON_MASTER / SINGLE_AUTHORITY / COMPLETE_EVENT_LEDGER`  
 > 章號所有權：`CH151～CH200`，不得由其他現行 Master 重複持有。  
 > 第一手最高證據：`05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt`  
@@ -12,7 +13,8 @@
 `ONE_CHAPTER_ONE_CURRENT_MASTER_OWNER = TRUE`  
 `PRIVATE_CAUSE_VOID != OBJECTIVE_EVENT_VOID`  
 `OBJECTIVE_RESULT_DEFAULT = PRESERVE`  
-`HISTORICAL_FILE_MAY_OVERRIDE_MASTER = FALSE`
+`HISTORICAL_FILE_MAY_OVERRIDE_MASTER = FALSE`  
+`SEMANTIC_OVERREACH_GATE = PASS_2026_10_02`
 
 ---
 
@@ -23,6 +25,7 @@
 - 每個事件先記原著發生了什麼，再記Franiya映射；`VOID_WITH_CAUSE`只處理沈雲私人因果，不得抹去相鄰客觀世界事件。
 - 掉落、採集、交易、NPC交付、任務獎勵、系統獎勵、拾取分開理解；後文補出的真正物權／面板／用途回寫同一EVENT_ID。
 - `SOURCE_UNSTATED`只有第一手正文＋前後章＋全文反查仍不能縮小時才可使用。
+- 單一角色的觀察、推測、個案技巧與一次成功結果，不得自行升格成同類角色通則、世界硬規則或能力上限；角色推論需保留其知識邊界。
 
 ---
 
@@ -293,7 +296,7 @@
 ### CH165-E02｜星光連接實際傳送
 - source：`SOURCE_EXPLICIT`
 - disposition：`PRESERVE_BY_DEFAULT`
-- 事件：簡雨朧到日光森林後用星光手鐲把沈雲直接召來，證明功能可正常跨區運作。
+- 事件：簡雨朧到日光森林後使用星光手鐲，把沈雲直接召到自己所在位置；本次只確認該次傳送成功，功能上限仍以CH163面板「每日1次、特殊區域無效」為準，不外推未明示距離規則。
 
 ### CH165-E03｜多職業組隊與日光森林設計目的
 - source：`SOURCE_EXPLICIT`
@@ -331,15 +334,15 @@
 
 # CH168｜法術精細控制
 
-### CH168-E01｜霜凍新星可精確避友軍
+### CH168-E01｜沈雲本次霜凍新星精細避友軍
 - source：`SOURCE_EXPLICIT`
 - disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：沈雲使3×3霜凍新星避開周圍5名玩家只凍螳螂大師，證明高階控制能改AOE元素作用分布。
+- 事件：沈雲實際把3×3霜凍新星控制到避開周圍5名玩家、只凍住螳螂大師；這是沈雲本次魔法精細控制表現，不自行升格成所有高階控制者都能做到的通則。
 
 ### CH168-E02｜雙重吟唱＋預判回推BOSS
 - source：`SOURCE_EXPLICIT`
 - disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：同時運用火雨降臨＋小火球，預判BOSS逃出AOE位置後把其打回範圍；屬魔法控制上限案例。
+- 事件：沈雲同時運用火雨降臨＋小火球，預判BOSS逃出AOE位置後把其打回範圍；只記錄沈雲本次操作，不把此案例標成整個職業或玩家群體的能力上限。
 
 ### CH168-E03｜天邊的眷戀借BOSS仇恨害人
 - source：`SOURCE_EXPLICIT`
@@ -421,10 +424,10 @@
 
 # CH173｜心理與經濟
 
-### CH173-E01｜心理狀態直接影響頂尖玩家輸出
+### CH173-E01｜七星緊張狀態影響本場表現
 - source：`SOURCE_EXPLICIT`
 - disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：沈雲指出七星太緊張；七星調整後恢復正常水平，證明心理狀態是競技表現變量。
+- 事件：沈雲指出七星當時太緊張；七星調整後恢復原本水準。此處只確認七星本場心理狀態影響了其競技表現，不外推成所有頂尖玩家的普遍定律。
 
 ### CH173-E02｜局內滾雪球經濟
 - source：`SOURCE_EXPLICIT`
@@ -458,7 +461,7 @@
 ### CH175-E03｜七星事前研究職業技能表
 - source：`SOURCE_EXPLICIT`
 - disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：七星預判沈雲4級會用瞬步，展示頂級玩家賽前情報準備。
+- 事件：七星預判沈雲4級會用瞬步，記錄七星此次賽前情報準備；不升格為所有頂級玩家都必然採用同一準備方式。
 
 # CH176｜七星第二次死亡
 
@@ -482,12 +485,12 @@
 ### CH177-E02｜北落師門下路收割鏈
 - source：`SOURCE_EXPLICIT`
 - disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：示弱誘敵、手動多箭、爆裂箭、貫穿之箭一箭雙殺、追蹤箭收尾；證明頂尖弓手不只是瞄準能力。
+- 事件：北落師門本場先示弱誘敵，再以手動多箭、爆裂箭、貫穿之箭一箭雙殺、追蹤箭收尾；只記錄她本人此次展示出的戰術與操作，不據此泛化所有頂尖弓手。
 
 ### CH177-E03｜沈雲繞路預判刺客埋伏
 - source：`SOURCE_EXPLICIT`
 - disposition：`VOID_WITH_CAUSE`
-- 事件：個人戰術結果，不移植；可作頂尖玩家戰術判斷基準。
+- 事件：沈雲本場依局勢繞路並預判刺客埋伏；屬其個人戰術結果，不移植，也不升格成「頂尖玩家戰術判斷基準」。
 
 # CH178｜五人合圍
 
@@ -654,10 +657,10 @@
 - disposition：`WORLD_BACKGROUND_LOCKED`
 - 事件：黑色力量污染火狐炎刀，使其自動回空間戒指並封印5分鐘；沈雲前世記憶沒有此招。
 
-### CH187-E02｜高階BOSS首殺後可能降階
-- source：`SOURCE_EXPLICIT`
-- disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：沈雲據此推測高階BOSS被首殺後大概率降階。重要邊界：後世攻略≠開荒版全部真相。
+### CH187-E02｜沈雲推測高階BOSS首殺後可能降階
+- source：`SOURCE_EXPLICIT / CHARACTER_INFERENCE`
+- disposition：`KNOWLEDGE_BOUNDARY_LOCKED`
+- 事件：沈雲因開荒版出現後世記憶外技能，據此推測高階BOSS被首殺後大概率降階；這是沈雲本人的推測，不是本章已確認的世界硬機制。重要邊界：後世攻略≠開荒版全部真相。
 
 ### CH187-E03｜【摧毀】觸發斷肢約17000傷害
 - source：`SOURCE_EXPLICIT`
@@ -717,7 +720,7 @@
 ### CH189-E04｜【火炎血雨卷軸】與名詞浮動
 - source：`SOURCE_EXPLICIT`
 - disposition：`PRESERVE_BY_DEFAULT`
-- 事件：一次性，100×100米、2000混合魔傷/秒、25秒；正式標題多用【火炎血雨】，說明正文亦出現「火焰血雨」，視為同一能力名詞浮動，不拆成兩招。
+- 事件：一次性，100×100米、2000混合魔傷/秒、25秒；正式標題多用【火炎血雨】，正文亦出現「火焰血雨」，此處只記原文名詞浮動，視為同一能力而不自行拆成兩招。
 
 ### CH189-E05｜雙系晶核＋10瓶血液
 - source：`SOURCE_EXPLICIT`
@@ -799,7 +802,7 @@
 ### CH192-E04｜【靈魂傷害鎖鏈】與蝴蝶效應
 - source：`SOURCE_EXPLICIT`
 - disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：召喚師可讓契約召喚獸共同分攤自身傷害；沈雲前世六年後都不記得寒風雪有此技，原著直接視為重生造成他人機緣改變的證據。
+- 事件：召喚師可讓契約召喚獸共同分攤自身傷害；沈雲前世六年後都不記得寒風雪有此技，原著旁白將這項差異與重生後他人機緣改變／蝴蝶效應連結。此處保留的是原著的因果敘述，不擴張成可自行預測所有角色機緣變化的通則。
 
 ### CH192-E05｜寒風雪敗給永恆長眠
 - source：`SOURCE_EXPLICIT`
@@ -816,7 +819,7 @@
 ### CH193-E02｜影子捲入傳奇任務準備底牌
 - source：`SOURCE_EXPLICIT`
 - disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：影子前一天為永恆長眠約戰冒險捲入傳奇級任務，試圖取得抗衡裝備；顯示高端玩家會為公開約戰臨時改變機緣路線。
+- 事件：影子前一天為永恆長眠約戰冒險捲入傳奇級任務，試圖取得抗衡裝備；只記錄影子本人此次為公開約戰臨時改變機緣路線，不外推所有高端玩家都會如此。
 
 ### CH193-E03｜永恆長眠連敗六高手
 - source：`SOURCE_EXPLICIT`
@@ -859,10 +862,10 @@
 - disposition：`WORLD_BACKGROUND_LOCKED`
 - 事件：弱於門檻者甚至逼不出技能；天痕江城7階連環風刃卷軸、炸天幫孫悟空等仍敗，後續含冰霜舞步／北落師門等13位高手全敗。
 
-### CH195-E02｜斷層來自技術＋屬性＋兩件傳奇裝
-- source：`SOURCE_EXPLICIT`
-- disposition：`WORLD_BACKGROUND_LOCKED`
-- 事件：左谷風判斷永恆長眠不是只有技術優勢，屬性與兩件傳奇裝造成現階段巨大差距。
+### CH195-E02｜左谷風對斷層來源的判斷
+- source：`SOURCE_EXPLICIT / CHARACTER_ANALYSIS`
+- disposition：`KNOWLEDGE_BOUNDARY_LOCKED`
+- 事件：左谷風判斷永恆長眠的優勢不只來自技術，還包含屬性與兩件傳奇裝造成的現階段差距；這是左谷風依當時情報作出的分析，不標成全知旁白鎖死的唯一公式。
 
 # CH196｜鋼鐵飛龍／聖堂之槍
 
@@ -1024,4 +1027,5 @@
 `CH180_181_CROSS_WINDOW = PASS`  
 `CH191_200_PARALLEL_CROSSCUT = PASS`  
 `ORIGINAL_CONTRADICTIONS_PRESERVED = PASS`  
+`SEMANTIC_OVERREACH_GATE = PASS_2026_10_02`  
 `NEXT_MASTER_START = CH201`
