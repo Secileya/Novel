@@ -173,3 +173,61 @@
    - 第63章首次合法切回主身份即到期，必須完成。
 
 `WORKFLOW16_REGRESSION_SET = PASS_ONLY_AFTER_RETRO_REPAIR`
+
+---
+
+## 八、Franiya可控執行品質上限Gate
+
+若原著客觀結果屬「角色本人可控執行品質」的系統評分，例如技能完成度、動作完成率、可觀測精度、依完成度給出的倍率，施工時不得機械照抄原主角較低數值。
+
+必讀：
+
+`02_角色設定/15_Franiya系統完成度與上限型評分補充.md`
+
+固定：
+
+`FRANIYA_CONTROLLABLE_EXECUTION_SCORE = SYSTEM_ALLOWED_MAXIMUM`
+
+也就是：系統允許上限多少，Franiya在合法執行時就取多少。
+
+適用前必須確認：
+
+1. 評分確實主要由Franiya本人可控的角度、時機、節奏、動作、發力、武器／能量控制等決定；
+2. 系統上限可合法確定；
+3. 不存在資格、資源、身份、裝備、抗性等其他硬限制。
+
+不得把此規則套到掉寶率、暴擊暗骰、不可觀測RNG或其他非本人可控結果。
+
+若原著角色數值低於上限，而Franiya依本規則取上限，必須列為：
+
+`DIVERGENCE_TYPE = RECALCULATED_CHARACTER_PERFORMANCE_TO_SYSTEM_CAP`
+
+並在PREWRITE與章後最終報告公開原著數值、系統上限與Franiya結果。
+
+第116章【踢擊】為回歸案例：
+
+- 原著沈雲：92%完成度／+92%傷害；
+- Franiya：合法執行時100%完成度／+100%完成度傷害；
+- 第61章因ACTIVE身份為折光法師且主身份靴技接口不可用，不能同節點硬演；責任依SOURCE44延後至第一個自然合法主身份【踢擊】窗口。
+
+`FRANIYA_EXECUTION_CAP_GATE = REQUIRED_WHEN_RELEVANT`
+
+---
+
+## 九、反向掃描事件集合完整性Gate
+
+每個準備宣告`FULLY_CONSUMED`的SOURCE章，不能只拿Acceptance與LIVE SOURCE互相對帳。必須先建立：
+
+`SOURCE_CHAPTER_EVENT_MASTER_SET = CAPTURE ∪ REVERSE_SCAN ∪ SECOND_PASS ∪ CROSS_AUDIT ∪ FIRST_HAND_PATCHES`
+
+然後逐項確認Master Set中的每一事件都有合法disposition與正文／延後／VOID去向。
+
+如果高權威反向掃描存在事件，但Acceptance層沒有條目：
+
+`SOURCE_EVENT_SET_COMPLETENESS_GATE = FAIL`
+
+該章禁止宣告`FULLY_CONSUMED`，直到補齊。
+
+第116章【踢擊】92%漏項為本Gate回歸案例：10A與第三輪交叉稽核有明確結果，但28 Acceptance漏列，38 LIVE又錯誤宣告CH116完全消耗。
+
+`FULLY_CONSUMED_REQUIRES_MASTER_SET_CLOSURE = TRUE`
