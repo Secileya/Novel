@@ -1,6 +1,7 @@
 # SOURCE CANON MASTER｜原著第201～250章
 
 > 更新日期：2026-10-01  
+> 語義過推稽核：2026-10-02  
 > 性質：`CURRENT_SOURCE_CANON_MASTER / SINGLE_AUTHORITY / COMPLETE_EVENT_LEDGER`  
 > 章號所有權：`CH201～CH250`，不得由其他現行 Master 重複持有。  
 > 第一手最高證據：`05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt`  
@@ -11,7 +12,8 @@
 `MASTER_IS_SINGLE_CURRENT_AUTHORITY = TRUE`  
 `ONE_CHAPTER_ONE_CURRENT_MASTER_OWNER = TRUE`  
 `PRIVATE_CAUSE_VOID != OBJECTIVE_EVENT_VOID`  
-`OBJECTIVE_RESULT_DEFAULT = PRESERVE`
+`OBJECTIVE_RESULT_DEFAULT = PRESERVE`  
+`SEMANTIC_OVERREACH_GATE = PASS_2026_10_02`
 
 ---
 
@@ -21,6 +23,7 @@
 - CH201～240：母抓取＋反向／交叉稽核＋時間序第三輪收斂。
 - CH241～250：已回第一手TXT逐章抓取，並讀240→241、250→251邊界。
 - SOURCE51建立後已再向後讀至CH300，完成CH241～270高風險反向歸屬／forward reuse閉環；仍存在的開放邊只保留真正未揭示者。
+- 角色自己的推測、風險百分比、情報分析與個案辨識結果只記在角色知識層，不得自動升格為已確認世界機制。
 
 `SOURCE_201_240_RESEARCH_STATE = MULTI_PASS_CONVERGED`  
 `SOURCE_241_250_RESEARCH_STATE = FIRST_HAND_CAPTURED_AND_FORWARD_CHECKED`  
@@ -76,7 +79,7 @@
 
 ### CH203-E02｜【銀龍震魂】
 `SRC=SOURCE_EXPLICIT` `DISP=WORLD_BACKGROUND_LOCKED`  
-`RESULT=靈魂攻擊＋強制眩暈10秒；一般縮短眩暈難抵；對刺客信條約1300+、對沈雲約357，顯示靈魂抗性差異。`
+`RESULT=靈魂攻擊＋強制眩暈10秒；一般縮短眩暈難抵；對刺客信條約1300+、對沈雲約357。原文另直接描述沈雲具「很強的靈魂系魔法抗性」，所以此處的抗性差異不是只靠兩個傷害數字自行推論。`
 
 # CH204｜我看見了未來
 
@@ -146,9 +149,9 @@
 `SRC=SOURCE_EXPLICIT` `DISP=WORLD_BACKGROUND_LOCKED`  
 `RESULT=周圍約千米產生恐怖壓力，普通人胸悶，異能者反應更強；真能力仍未知。`
 
-### CH208-E02｜紅也不敢全面探測
-`SRC=SOURCE_EXPLICIT` `DISP=VOID_WITH_CAUSE`  
-`RESULT=紅判斷船上高階力量可能發現納米監視，因此收斂滲透；同時回證船上確有強反偵測層。`
+### CH208-E02｜紅不敢全面探測：73.3%風險評估
+`SRC=SOURCE_EXPLICIT / CHARACTER_RISK_ASSESSMENT` `DISP=VOID_WITH_CAUSE / KNOWLEDGE_BOUNDARY_LOCKED`  
+`RESULT=紅感知到內部有一股非常強的力量，判斷其可能感知納米機器人的概率為73.3%，因此不敢深入以免打草驚蛇。這是紅的風險評估，不等於當下已客觀確認一套「強反偵測層」或其完整機制。`
 
 # CH209｜借刀殺人
 
@@ -386,7 +389,7 @@
 
 ### CH228-E01｜左谷風以身高／斗篷／警戒習慣鎖沈雲
 `SRC=SOURCE_EXPLICIT` `DISP=WORLD_BACKGROUND_LOCKED`  
-`RESULT=身份識別可從工藝／外觀／行為／參照身高交叉分析，不只ID。`
+`RESULT=左谷風本次把工藝、外觀、行為與參照身高等線索交叉分析後鎖定沈雲；只記錄這次具名分析成功，不升格成「任何人都可用這套方法辨識身份」的通則。`
 
 ### CH228-E02｜伏擊方等沈雲帶莎莉出來才動手
 `SRC=SOURCE_EXPLICIT` `DISP=WORLD_BACKGROUND_LOCKED`
@@ -473,7 +476,7 @@
 
 ### CH236-E02｜關山瑞對黑色暗流極恭敬
 `SRC=SOURCE_EXPLICIT` `DISP=WORLD_BACKGROUND_LOCKED`  
-`RESULT=媒體高層社會地位並不等於頂級公會／財團核心。`
+`RESULT=本事件只確認關山瑞雖是華夏觀察者高層，面對黑色暗流核心人物時仍採極恭敬的下位姿態；不據此泛化所有媒體高層與所有財團／公會核心的固定社會位階。`
 
 # CH237｜背後的手
 
@@ -734,7 +737,7 @@
 3. CH217～218「味道／神秘能量／夢境」仍未解。
 4. CH204永恆長眠只說「我看見了未來」，機制未知。
 5. CH226九大公會知道伏擊；普通玩家只知道被傳播的傳奇裝備消息。
-6. CH235伏擊方一度誤認薩拉為普通NPC；CH237才由事件證明分類不同。
+6. CH235伏擊方一度誤認薩拉為普通NPC；CH237以薩拉實際能主動殺玩家的規則表現確認她不受普通NPC被動限制。這是該事件分類回證，不外推其他未觀測NPC。
 7. CH249張文君只聽到Zero假說且只信六七成；CH257～259的後續現象使她更信，但仍不是客觀來源真相。
 8. CH250羅紫玲異能／病況屬極私密資訊。
 
@@ -760,5 +763,6 @@
 `CH241_270_HIGH_RISK_FORWARD_REUSE_CHECK = PASS`  
 `CH241_270_REVERSE_ATTRIBUTION_CLOSURE = PASS_WITH_OPEN_KEY_PURPOSE`  
 `ORIGINAL_INTERNAL_CONTRADICTIONS_MUST_REMAIN_VISIBLE = TRUE`  
+`SEMANTIC_OVERREACH_GATE = PASS_2026_10_02`  
 `NEW_EVIDENCE_MUST_UPDATE_EXISTING_EVENT_ID = TRUE`  
 `NEXT_MASTER_START = CH251`
