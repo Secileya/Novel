@@ -11,7 +11,7 @@
 必讀：
 1. `00_專案交接.md`
 2. 本檔
-3. `07_工作流程/00、01、04、05、06、07、08、10、14`
+3. `07_工作流程/00、01、04、05、06、07、08、10、14、16`
 4. `04_連續性與索引/01_當前狀態快照.md`
 5. `04_連續性與索引/02_未完成因果與待定事項.md`
 6. `04_連續性與索引/07_有效性與同步稽核.md`
@@ -125,6 +125,61 @@
 `SOURCE_PRESERVATION_DELTA_GATE = FAIL`
 `CHAPTER_TRANSACTION_CLOSE = FORBIDDEN`
 
+### 3.3 客觀結果延後、終態與兄弟獎勵硬Gate
+
+工作流程16為本節細則。原著結果**不要求機械鎖死在原著同章同秒落實**；若Franiya線存在真實身份、職業、地點、CD、資格、任務順序或其他規則障礙，可以延後，但延後不是刪除，也不是無期限懸空。
+
+任何`DEFERRED_OBJECTIVE_RESULT`必須在PREWRITE／SOURCE責任卡同時寫齊：
+
+1. `ORIGINAL_OBJECTIVE_RESULT`
+2. `DEFER_REASON`
+3. `FIRST_LEGAL_TRIGGER`
+4. `LATEST_SAFE_DEADLINE`
+5. `EXPECTED_RESULT`
+6. `MISSED_DEADLINE_ACTION`
+7. `OWNER`
+8. `DOWNSTREAM_DEPENDENCIES`
+
+缺一：`DEFERRED_OBJECTIVE_RESULT_CARD_COMPLETENESS = FAIL`。
+
+固定：
+- `DEFER_WITHOUT_DEADLINE = FORBIDDEN`
+- `DEFER_WITHOUT_EXPECTED_RESULT = FORBIDDEN`
+- 原著若已有「取得物 → 使用／學習／結算 → 終態」，本線因合法條件只能做到前半段時，只能標`TEMPORARY_INTERMEDIATE_STATE`，並追蹤到第一合法終態窗口。
+- 任務完成必須逐項掃兄弟結果：寶箱、金錢、職階、技能、稱號、好感／敵意、物品、權限、貢獻、公告、冷卻、任務階段等，不得只看到主獎勵就宣告全部落地。
+- 若結果其實已生效但正文漏呈現，必須分開記`EFFECTIVE_AT`與`SURFACED_IN_BODY_AT`；RETRO不得把真實生效時間挪到修復章。
+
+正文完成後、同步State以前，必須建立`OBJECTIVE_RESULT_RECONCILIATION_TABLE`，每一項只能歸類為：
+- `PRESERVED_AND_LANDED`
+- `PRESERVED_BUT_DEFERRED_WITH_FULL_CARD`
+- `RECALCULATED_WITH_REPORTED_DIVERGENCE`
+- `VOID_WITH_CAUSE_AND_REPORTED`
+- `NOT_YET_TRIGGERED`
+
+若本線結果與原著客觀結果不同，章後最終回報**必須**逐項公開：
+- `SOURCE_CHAPTER`
+- `ORIGINAL_OBJECTIVE_RESULT`
+- `FRANIYA_LINE_RESULT`
+- `DIVERGENCE_TYPE`
+- `CONFLICT_EVIDENCE`
+- `WHY_PRESERVATION_WAS_IMPOSSIBLE_OR_WRONG`
+- `DOWNSTREAM_IMPACT`
+- `RESIDUAL_STATUS`
+
+沒有在最終使用者回報中公開的結果差異，視為交易未完成，不得因POSTWRITE內部已有紀錄就略過。
+
+固定關閉條件：
+
+`OBJECTIVE_RESULT_RECONCILIATION_GATE = PASS`
+`DEFERRED_OBJECTIVE_RESULT_CARD_COMPLETENESS = PASS`
+`MISSED_OBJECTIVE_RESULT_DEADLINE_COUNT = 0`
+`UNREPORTED_OBJECTIVE_RESULT_DIVERGENCE_COUNT = 0`
+`SOURCE_TO_BODY_RESULT_DRIFT_COUNT = 0`
+
+任一不成立：
+
+`CHAPTER_TRANSACTION_CLOSE = FORBIDDEN`
+
 ## 四、Franiya能力與裝備Gate
 
 每章完整掃 `02/11` 全能力組與 `09_裝備與資產權威總表.md`。
@@ -171,7 +226,9 @@
 
 沒有新PREWRITE不得沿用上一章PREWRITE直接寫下一章。
 
-正文後同輪必做：正文QA、POSTWRITE、知識矩陣、章節索引、Current State、未完成因果、Active Queue、裝備資產Ledger、有效性稽核、專案交接、SOURCE游標、交易同步／關閉。
+正文後同輪必做：正文QA、`OBJECTIVE_RESULT_RECONCILIATION_TABLE`、POSTWRITE、知識矩陣、章節索引、Current State、未完成因果、Active Queue、裝備資產Ledger、有效性稽核、專案交接、SOURCE游標、交易同步／關閉。
+
+若任何來源客觀結果與正文結果不同，最終使用者回報必須逐項報告差異與理由；不得只說「已依法重算」。
 
 `NOT_CHANGED_AFTER_EVALUATION = ALLOWED`，但 `NOT_EVALUATED = FORBIDDEN`。
 
@@ -189,12 +246,13 @@
 3. transaction close commit；
 4. 重新讀 `main` HEAD；
 5. 驗證本體commit在最新HEAD祖先鏈，`behind_by = 0`；
-6. 完成使用者最終回報後才宣告交易完整。
+6. 驗證`OBJECTIVE_RESULT_RECONCILIATION_GATE`與工作流程16全部關閉條件；
+7. 完成使用者最終回報，且逐項公開所有原著結果分歧後，才宣告交易完整。
 
 ## 九、歷史資料與過時值
 
 舊PREWRITE／POSTWRITE／RETRO可以保留歷史舊值，但必須明確標示為歷史／已覆蓋。現行權威檔、Current State、Queue、工作流程入口不得留未標示的過時值。
 
-每次重大修正至少掃：舊外觀、技能取得、裝備狀態、章容量、VOID數、痛覺因果、魔法並行上限、元素公式誤綁、神咒分類、SOURCE保留／差異分類、章號與SOURCE游標，以及**反向掃描已確認但被正文降級的客觀結果**。
+每次重大修正至少掃：舊外觀、技能取得、裝備狀態、章容量、VOID數、痛覺因果、魔法並行上限、元素公式誤綁、神咒分類、SOURCE保留／差異分類、章號與SOURCE游標，以及**反向掃描已確認但被正文降級的客觀結果、任務兄弟獎勵、原著終態被卡在中間態、未報告的結果差異**。
 
 `CURRENT_AUTHORITY_STALE_VALUE_COUNT = 0` 才可關閉大修交易。
