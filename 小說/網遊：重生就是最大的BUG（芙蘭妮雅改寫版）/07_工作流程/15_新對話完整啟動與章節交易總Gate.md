@@ -1,7 +1,7 @@
 # 新對話完整啟動與章節交易總Gate
 
 > 狀態：`ACTIVE / REQUIRED / BOOTSTRAP_ROOT`  
-> 日期：2026-09-30  
+> 日期：2026-10-01  
 > 原則：GitHub `main` 是唯一專案真值；聊天記憶只能當提示。
 
 ## 一、零上下文啟動
@@ -36,8 +36,8 @@
 - `KNOWLEDGE_IDENTITY_SPLIT_FORBIDDEN = TRUE`
 - 折光是Franiya的第二身份／角色殼，不是獨立記憶主體；任何一個身份親自合法取得的知識，都必須同步存在於Franiya的內在知識中，切換身份不得造成失憶、重複詢問或重新得知。
 - 身份隔離只作用於`PUBLIC_DISCLOSURE`、`PUBLIC_IDENTITY_LINK`與其他角色可合理推知的資訊，不得反向切割Franiya自己的記憶與認知。
-- 為保護折光身份，Franiya可以故意裝作不知道、否認、模糊、省略或提出掩飾性問題；但必須視為`DELIBERATE_CONCEALMENT`，內心、POV、旁白與決策仍須使用她實際已知資訊。
-- 特例鎖定：第47章Franiya已親自遭遇【迦娜】。因此第62章起，折光內在必須認得迦娜；若對外出現「迦娜是誰？」之類說法，只能是身份掩飾話術，不得寫成真實未知。
+- 為保護折光身份，Franiya可以故意裝作不知道、否認、模糊、省略或提出掩飾性問題；但必須視為`DELIBERATE_CONCEALMENT`。
+- 特例鎖定：第47章Franiya已親自遭遇【迦娜】。第62章起折光內在必須認得迦娜。
 
 固定：
 - `STATE_RESTORATION_GATE = PASS`
@@ -49,7 +49,7 @@
 
 - 正常長章：`9000_TO_14000`中文字。
 - 原則上每章至少完整消耗原著3章事件責任，因果自然可更多。
-- `TOUCHED_NOT_CONSUMED / READY / DEFERRED` 不得灌入最低數。
+- `TOUCHED_NOT_CONSUMED / READY / DEFERRED`不得灌入最低數。
 - 每個來源章的兄弟事件都要正式分類。
 - 不得為湊數壓縮重要人物、資產、關係、世界反應或後果。
 - 最終回報必須逐章說明原著事件本體與本線處理，不能只報章號。
@@ -68,14 +68,62 @@
 固定：
 - `REWRITE_RESULT != DIVERGENCE_BY_DEFAULT`
 - `PRESERVED_OBJECTIVE_OUTCOME_CAN_COEXIST_WITH_RECALCULATED_CAUSAL_IMPLEMENTATION`
-- 原著客觀結果若保留，`PRESERVATION_DELTA` 必須明寫 `PRESERVED`，不能只因主角、技能、因果鏈不同就把整個結果標成 `REBUILD` 或 `DIFFERENT_RESULT`。
-- 若原著結果相同、但具體達成方法依法重算，應拆開寫「結果保留」與「方法／因果重算」。
+- 原著客觀結果若保留，`PRESERVATION_DELTA`必須明寫`PRESERVED`。
+- 若原著結果相同、但具體達成方法依法重算，拆開寫「結果保留」與「方法／因果重算」。
 - `SOURCE_METHOD_NOT_LOCKED -> DO_NOT_INFER_SAME_OR_DIFFERENT_METHOD`
 - `METHOD_UNRESOLVED != RESULT_UNRESOLVED`
-- SOURCE只鎖住結果、沒有鎖住精確手段時，只能陳述已知結果，不得自行補判本線手段與原著相同或不同。
-- 同一來源章內可同時存在多種分類，例如某角色「死亡／回城」結果 `PRESERVED`，但「死亡後知道誰的ID」可能是 `RECALCULATED_DIFFERENT_RESULT`；不得把兄弟事件壓成單一總標籤。
+- 同一來源章內可同時存在多種分類，不得把兄弟事件壓成單一總標籤。
 
 `SOURCE_PRESERVATION_DELTA_GATE = REQUIRED`
+
+### 3.2 反向掃描／高權威SOURCE客觀結果保留硬Gate
+
+若SOURCE_CANON母表、二次反向歸屬掃描、SOURCE_NODE雙向稽核、逐事件acceptance或更高權威SOURCE已明確確認客觀結果，例如：
+
+- 已購買／已學會／已取得；
+- 已死亡／已回城；
+- 任務已完成／未完成；
+- 已加入／已拒絕；
+- 已掉落／已交付；
+- 已支付／已消耗；
+
+則正文施工固定：
+
+`REVERSE_AUDIT_CONFIRMED_OBJECTIVE_RESULT = PRESERVE_BY_DEFAULT`
+
+不得只因以下理由降級或改寫客觀結果：
+
+- 主角由沈雲改成Franiya；
+- Franiya本人已會相似技巧；
+- 覺得某技能「她可能不需要」；
+- 精確金幣餘額沒有鎖死，但既有資金尺度已明確足夠；
+- 具體達成方法需要重算；
+- 作者偏好延後取得。
+
+若確實需要分歧，PREWRITE必須先列：
+
+1. `ORIGINAL_CONFIRMED_RESULT`
+2. `PROPOSED_REWRITE_RESULT`
+3. `EXPLICIT_CONFLICT_EVIDENCE`
+4. `FRANIYA_SPECIFIC_CAUSAL_CONFLICT`
+5. `WHY_PRESERVATION_IS_IMPOSSIBLE_OR_ILLOGICAL`
+6. `DOWNSTREAM_EFFECT`
+7. `USER_OVERRIDE`（若有）
+
+只有存在使用者明確覆蓋、已成立的直接因果衝突、世界規則不相容、實際資源／資格不可能，或更高權威SOURCE修正時，才可合法改變客觀結果。
+
+最終報告必須再次公開相同分歧與理由；不得只在內部PREWRITE出現。
+
+固定：
+
+`SOURCE_AUTHORITY_DOWNGRADE_WITHOUT_CAUSE = FORBIDDEN`
+`EXPLICIT_CONFLICT_EVIDENCE_REQUIRED_FOR_OBJECTIVE_DIVERGENCE = TRUE`
+`UNREPORTED_OBJECTIVE_RESULT_DIVERGENCE_COUNT = 0`
+
+任一違反：
+
+`SOURCE_PRESERVATION_DELTA_GATE = FAIL`
+`CHAPTER_TRANSACTION_CLOSE = FORBIDDEN`
 
 ## 四、Franiya能力與裝備Gate
 
@@ -90,7 +138,17 @@
 - `HELD != EQUIPPED`
 - `NOT_USED != NOT_ACQUIRED`
 
+人物本人已有類似技巧不等於系統技能無取得價值；須分清「人物技術／理解」與「角色殼系統權限／倍率／屬性結算」。
+
 主觀痛覺0是漫長經歷逐步鈍化的結果，不是先天無痛、主動關閉或屏蔽。
+
+### 4.1 金幣／資源可負擔性Gate
+
+- `EXACT_BALANCE_UNLOCKED`可以成立，但不等於`INSUFFICIENT_FUNDS`。
+- 若既有正式資產／經濟鏈已證明某筆支出遠低於可用流動性尺度，不能只因「精確餘額未鎖」阻斷正常購買。
+- 只有真正存在大額消耗、資產凍結、規則限制、資格限制或已知現金不足時，才可建立資金衝突。
+
+`UNKNOWN_EXACT_BALANCE != INSUFFICIENT_FUNDS`
 
 ## 五、魔法專項Gate
 
@@ -101,13 +159,11 @@
 - `FRANIYA_PERMISSION_VS_TECHNIQUE_GATE = PASS`
 
 固定認知：
-- 不知道別人的私人公式，不代表不能自行觀察元素、MP、穩定性、凝聚速度與輸出後推導最優或更佳排列。
+- 不知道別人的私人公式，不代表不能自行觀察元素、MP、穩定性、凝聚速度與輸出後推導更佳排列。
 - 第50章兩條構型只是當次使用量；雙線不是並行上限。
-- 8階【海潮】與8階【火雨降臨】能合法啟動，已證明角色殼在對應資源與接口成立時能承載8階量級。
+- 8階【海潮】與【火雨降臨】能合法啟動，已證明角色殼在對應資源與接口成立時能承載8階量級。
 - 具名系統技能與自由構築等價術式必須分流。
-- 神咒表示威力、效果或術式層級已達神級。它不等於神殿專屬，也不預設固定的神格、神權、血脈或唯一職業門檻。
-- 每一道神咒的特殊前置逐咒判定。有些只需要足夠資源與術式控制；有些才另需神格、神權、特定血脈、唯一職業、神器、神殿許可等條件。
-- 對Franiya而言，純技術／純能量型神咒的神級複雜度不是學習牆；實際能否施放先看MP、精神、角色殼吞吐與世界規則。
+- 神咒表示威力、效果或術式層級已達神級，不等於神殿專屬。
 
 ## 六、正式章施工與POSTWRITE
 
@@ -123,7 +179,7 @@
 
 若使用 `VOID_WITH_CAUSE`，逐項公開原事件、VOID範圍、原因、Franiya替代因果、保留功能、為何不重建、下游狀態。
 
-無論是否有VOID，只要本輪正式改了內容，都必須公開所有變更；不得只報VOID。
+無論是否有VOID，只要本輪正式改了內容，都必須公開所有變更。
 
 ## 八、Git交易關閉
 
@@ -139,6 +195,6 @@
 
 舊PREWRITE／POSTWRITE／RETRO可以保留歷史舊值，但必須明確標示為歷史／已覆蓋。現行權威檔、Current State、Queue、工作流程入口不得留未標示的過時值。
 
-每次重大修正至少掃：舊外觀、技能取得、裝備狀態、章容量、VOID數、痛覺因果、魔法並行上限、元素公式誤綁、神咒分類、SOURCE保留／差異分類、章號與SOURCE游標。
+每次重大修正至少掃：舊外觀、技能取得、裝備狀態、章容量、VOID數、痛覺因果、魔法並行上限、元素公式誤綁、神咒分類、SOURCE保留／差異分類、章號與SOURCE游標，以及**反向掃描已確認但被正文降級的客觀結果**。
 
 `CURRENT_AUTHORITY_STALE_VALUE_COUNT = 0` 才可關閉大修交易。
