@@ -1,7 +1,7 @@
 # SOURCE_NODE雙向稽核與證據邊界
 
 > 狀態：ACTIVE / REQUIRED  
-> 建立：2026-09-28  
+> 更新：2026-10-01  
 > 適用：原著事件審計、SOURCE_CANON捕捉、差分研究、正式事件佇列，以及任何會被正文端使用的原文事實。  
 > 核心目的：禁止「只抓事件結果」；重要事件必須追蹤局部序列、保管鏈、資訊流與後續再利用，並把原著沒寫出的邊明確留白。
 
@@ -59,7 +59,7 @@
 - 知道的是名稱、位置、機制、完整方法，還是只知道結果；
 - 哪些已公開；
 - 哪些只在小圈子／單一人物間；
-- 出售的是**資訊、物品、服務**中的哪一種；不得合併寫成「賣月神石線」之類模糊摘要；
+- 出售的是資訊、物品、服務中的哪一種；
 - 哪些資訊仍然保密；
 - 哪些只是人物推測／作者旁白推測，而非系統或客觀事實。
 
@@ -73,29 +73,25 @@
 原著明示。可直接作母本事實。
 
 ### `SOURCE_UNSTATED`
-原著沒有寫出該中間步驟／說明／交付／對話／操作。  
-固定附加：
+原著沒有寫出該中間步驟／說明／交付／對話／操作。
 
 `DO_NOT_NARRATIVIZE_OR_FILL = TRUE`
 
-禁止把空白改寫成「原著其實就是這樣」。
-
 ### `REASONABLE_INFERENCE`
-由前後明示證據高度支持，但原著未直接說出。必須保留「推論」身份，不能升格成 SOURCE_EXPLICIT。
+由前後明示證據高度支持，但原著未直接說出。必須保留「推論」身份。
 
 ### `ADAPTATION_OPTIONAL_BRIDGE`
 Franiya線為使因果連續可以自行新增的橋接。它屬改寫選擇，不屬原著事實。
 
-若正文需要跨過 `SOURCE_UNSTATED`，只能在 PREWRITE 另選**最小相容橋接**：只補足使已知前後狀態能連起來所需的最少行為，不替角色追加完整自述、額外情報、額外交易內容或未證實操作。
+若正文需要跨過 `SOURCE_UNSTATED`，只能在 PREWRITE 另選最小相容橋接。
 
 ---
 
 ## 四、強制同輪雙向稽核
 
-### Pass A｜LOCAL CONTEXT / 局部連續序列
+### Pass A｜LOCAL CONTEXT
 
 必須連續閱讀事件當地上下文，直到可回答：
-
 1. 事件怎麼開始；
 2. 每一步實際動作順序；
 3. 當下誰持有什麼；
@@ -104,24 +100,20 @@ Franiya線為使因果連續可以自行新增的橋接。它屬改寫選擇，�
 
 只用搜尋摘要、舊事件捕捉或單一命中句，不算 Pass A。
 
-### Pass B｜DOWNSTREAM REUSE / 向後再利用
+### Pass B｜DOWNSTREAM REUSE
 
 針對該物／技能／權限／收入／關係／資訊向後搜尋：
-
 1. 第一次再使用在哪；
 2. 第一個真正下游依賴是什麼；
 3. 後面有哪些重要重複用途／升級／交易／經濟／權限／關係／情報回收；
-4. 再反向檢查：這些後續是否需要原始事件中某個「取得／交付／知情」邊，而原始事件其實沒寫；
+4. 再反向檢查：這些後續是否需要原始事件中某個「取得／交付／知情」邊；
 5. 找出最晚處理窗口。
 
 ### 雙 Pass 未完成
 
-只要已開啟一個 SOURCE_NODE，本輪沒有完成 Pass A + Pass B，就必須標：
-
 `SOURCE_NODE_AUDIT = INCOMPLETE`
 
-並留下精確 `RESUME_CURSOR`。  
-禁止用「已仔細檢查」「已完整抓取」「已閉環」描述它，也不得把節點送入 `READY_NOW`。
+並留下精確 `RESUME_CURSOR`。禁止用「已完整抓取／已閉環」描述，也不得送入 `READY_NOW`。
 
 ---
 
@@ -136,43 +128,24 @@ Franiya線為使因果連續可以自行新增的橋接。它屬改寫選擇，�
 - `UNSTATED_EDGE_MARKED`
 - `FORMAL_CONFLICT_CHECK_PASS`
 
-六項全部 `PASS` 才可：
-
-- 宣稱雙向稽核完成；
-- 將其衍生問題提升為正式佇列 `READY_NOW`；
-- 宣稱該 SOURCE_NODE 已閉環。
+六項全部 PASS 才可宣稱閉環或送入READY_NOW。
 
 任一缺失：
 
 `SOURCE_NODE_BIDIRECTIONAL_CLOSURE_GATE = FAIL`
 
-### 硬門檻名稱
-
-- `SOURCE_NODE_LOCAL_SEQUENCE_GATE`
-- `SOURCE_NODE_CUSTODY_CHAIN_GATE`
-- `SOURCE_NODE_KNOWLEDGE_BOUNDARY_GATE`
-- `SOURCE_NODE_DOWNSTREAM_REUSE_GATE`
-- `SOURCE_NODE_UNSTATED_EDGE_GATE`
-- `SOURCE_NODE_FORMAL_CONFLICT_GATE`
-- 總門檻：`SOURCE_NODE_BIDIRECTIONAL_CLOSURE_GATE`
-
 ---
 
 ## 六、研究進度三級制
 
-只能用以下三級：
-
 ### `SOURCE_PROGRESS = KEYWORD_LOCATED`
-只找到關鍵詞／搜尋片段／舊摘要。  
-**不得寫成完整核對。**
+只找到關鍵詞／搜尋片段／舊摘要，不得寫成完整核對。
 
 ### `SOURCE_PROGRESS = LOCAL_CONTEXT_READ`
-已完成 Pass A 的連續局部閱讀，但尚未完成向後再利用稽核。
+已完成 Pass A，尚未完成向後再利用稽核。
 
 ### `SOURCE_PROGRESS = BIDIRECTIONAL_AUDIT_COMPLETE`
 Pass A + Pass B 完成，六項驗收全部 PASS。
-
-研究進度檔、SOURCE_CANON、事件佇列與聊天回報的措辭都必須遵守此三級制。
 
 ---
 
@@ -186,14 +159,63 @@ Pass A + Pass B 完成，六項驗收全部 PASS。
 - 正式事件佇列；
 - 仍有效的POSTWRITE／同步差分／索引。
 
-若正式正文把 `SOURCE_UNSTATED` 或 `REASONABLE_INFERENCE` 寫成「原著明示」或因此造成長線因果錯誤：
+若正式正文把 `SOURCE_UNSTATED` 或 `REASONABLE_INFERENCE` 寫成原著明示，或與已確認SOURCE結果衝突，必須建立正式修復責任，不得由研究端默默改寫證據。
 
-- 原文審計端**不得自行改正式章**；
-- 六項驗收全部 PASS 後，在正式佇列建立／更新 `READY_NOW`；
-- 精確寫：正文章節、原文證據、衝突邊界、最小可接受修復範圍、禁止補寫內容；
-- owner=`芙蘭 信仰正文`。
+### 7.1 客觀結果降級檢查｜2026-10-01新增
 
-若只是 Franiya 線主動增加內容，而且已明確標成 `ADAPTATION_OPTIONAL_BRIDGE`、不冒充原著事實，也不破壞長線，則不必判正文錯誤。
+Pass B／反向掃描常會把母表未寫清楚的「最終到手結果」補死，例如「全部買下」「真正交付」「任務直到某章才完成」。一旦較高證據層已明確確認，這些結果成為SOURCE客觀結果，不得在改寫端被當成普通可選橋接。
+
+固定：
+
+`REVERSE_AUDIT_CONFIRMED_OBJECTIVE_RESULT = PRESERVE_BY_DEFAULT`
+
+在FORMAL CONFLICT CHECK中新增逐項比對：
+
+`SOURCE_CONFIRMED_RESULT -> PREWRITE_RESULT -> BODY_RESULT -> POSTWRITE_RESULT -> CURRENT_STATE`
+
+如果任一層把：
+
+- `ACQUIRED / LEARNED`降為`OFFERED / NOT_ACQUIRED`；
+- `COMPLETED`降為`ACTIVE / DEFERRED`；
+- `DELIVERED`降為`PROMISED`；
+- `DEAD`改成`ALIVE`；
+- 或其他客觀結果改變；
+
+必須存在明確、可引用的合法衝突證據。
+
+可接受理由只包括：
+- 使用者最新明確覆蓋；
+- Franiya線已正式成立且直接衝突的因果；
+- 世界規則／資格／資源使原結果客觀不可能；
+- 更高權威SOURCE修正舊結論。
+
+以下**不構成**充分理由：
+- 主角不同；
+- Franiya本人已會相似技巧；
+- 作者覺得目前不需要；
+- 精確金幣餘額未鎖，但既有資產尺度已證明可負擔；
+- 具體方法需要重算。
+
+若要分歧，SOURCE_NODE與PREWRITE都必填：
+
+- `ORIGINAL_CONFIRMED_RESULT`
+- `PROPOSED_REWRITE_RESULT`
+- `EXPLICIT_CONFLICT_EVIDENCE`
+- `CAUSAL_REASON`
+- `DOWNSTREAM_EFFECT`
+
+最終使用者報告再次公開。
+
+固定門禁：
+
+`SOURCE_AUTHORITY_DOWNGRADE_WITHOUT_CAUSE = FORBIDDEN`
+`OBJECTIVE_RESULT_DIVERGENCE_MUST_BE_REPORTED = TRUE`
+`UNREPORTED_OBJECTIVE_RESULT_DIVERGENCE_COUNT = 0`
+
+任一不滿足：
+
+`FORMAL_CONFLICT_CHECK_PASS = FAIL`
+`SOURCE_NODE_BIDIRECTIONAL_CLOSURE_GATE = FAIL`
 
 ---
 
@@ -224,17 +246,18 @@ Pass A + Pass B 完成，六項驗收全部 PASS。
 - First downstream dependency: ...
 - Later reuse: ...
 
-#### Over-inference risks
-- ...
+#### Objective Result Preservation
+- ORIGINAL_CONFIRMED_RESULT: ...
+- PROPOSED_REWRITE_RESULT: ...
+- EXPLICIT_CONFLICT_EVIDENCE: ... / NONE
+- CAUSAL_REASON: ...
+- DOWNSTREAM_EFFECT: ...
 
 #### Formal conflict check
 - ...
 
 #### Trigger / deadline / owner / state
-- 觸發點: ...
-- 最晚處理窗口: ...
-- owner: ...
-- status: ...
+- ...
 
 #### Acceptance
 - LOCAL_SEQUENCE_PASS: PASS/FAIL
@@ -254,12 +277,14 @@ Pass A + Pass B 完成，六項驗收全部 PASS。
 - 禁止把物品取得和第一次使用混成同一事件。
 - 禁止把持有與知道機制混成一回事。
 - 禁止把出售資訊、出售物品、代辦服務寫成同一種交易。
-- 禁止看到最終持有人後自行補「某人把東西遞給他並完整解釋來源」。
-- 禁止只做 Pass A 就宣稱長線完整；也禁止只搜尋後文用途、不讀原事件上下文。
+- 禁止看到最終持有人後自行補未明交接。
+- 禁止只做 Pass A 就宣稱長線完整。
 - 禁止為了讓正文順而抹掉 `SOURCE_UNSTATED`。
+- **禁止擅自修改反向掃描已確認的客觀結果；若有合法分歧，必須先留證據、後改寫、再公開報告。**
 
 固定標記：
 
 `SOURCE_UNSTATED_DO_NOT_NARRATIVIZE = TRUE`
 `SOURCE_NODE_DOUBLE_PASS_REQUIRED = TRUE`
 `READY_NOW_REQUIRES_SIX_SOURCE_GATES = TRUE`
+`SOURCE_AUTHORITY_DOWNGRADE_WITHOUT_CAUSE = FORBIDDEN`
