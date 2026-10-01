@@ -57,6 +57,7 @@
 
 ### ORIGINAL_EVENT
 - 蒂姬因自己必須打破原先公平壓制條件，判定第一環通過。
+- 第120→121跨章結算明確包含：沈雲取得真我流學習資格，**蒂姬好感度升至30**。
 - 真我流每代正式只傳兩人；牛戰士天賦不足，但可尋找更合適候選者。
 - 通過測試者取得「真我流學習資格」，資格不等於已學會。
 - 第二環：30日內協助蒂姬擊殺潛伏於光明帝國的傳奇級暗夜精靈【迦娜】；失敗為當場死亡；獎勵為【真我流格鬥家職業卷軸】×1、【極限流格鬥家職業卷軸】×1。
@@ -64,7 +65,7 @@
 - 原著另有芬里爾／眩暈相關處理。
 
 ### PRESERVATION_DELTA
-- 第一環通過邏輯、兩名傳人、牛戰士推薦功能、學習資格與已學技能分離、第二環目標／30日／死亡條件／兩張卷軸、三年追蹤、陣營轉移、蒂姬半日擊殺能力、需要擋援兵：`PRESERVED`。
+- 第一環通過邏輯、**蒂姬好感度30**、兩名傳人、牛戰士推薦功能、學習資格與已學技能分離、第二環目標／30日／死亡條件／兩張卷軸、三年追蹤、陣營轉移、蒂姬半日擊殺能力、需要擋援兵：`PRESERVED`。
 - Franiya在第47章已親自見過迦娜，因此本章不能重新把「迦娜是誰」當未知。
 - 芬里爾免控等原著解法不強塞；本線沒有有效命中成立，相關免控條件無須觸發。
 
@@ -72,16 +73,18 @@
 - 迦娜既有知識沿第47章連續性保留，但折光不向蒂姬洩露「Franiya曾與迦娜交手」的跨身份資訊。
 - 蒂姬提供的新知識只包括任務立場、三年追蹤、近期進入光明陣營、她的一對一判斷與援兵問題。
 - `FENRIR_STUN_SOLUTION = CONDITION_NOT_TRIGGERED / RECALCULATED_OMISSION`，不是VOID。
+- 好感度30沒有本線衝突，不得以「互動方式不同」為由無報告刪除或改成未知。
 
 ### REWRITE_RESULT
 - 第一環完成。
+- `TIJI_FAVORABILITY = 30`。
 - `TRUE_SELF_STYLE_LEARNING_QUALIFICATION = ACQUIRED`。
 - `TRUE_SELF_STYLE = NOT_LEARNED`。
 - 第二環已接受並ACTIVE，期限30日；失敗＝當場死亡；兩張職業卷軸仍只是未取得獎勵。
 - Franiya合法知道迦娜是任務目標，但蒂姬仍不知道折光＝Franiya。
 
 ### RESIDUAL_STATUS
-`FULLY_CONSUMED_FOR_CURRENT_LIVE_BRANCH`
+`FULLY_CONSUMED_FOR_CURRENT_LIVE_BRANCH / NO_FAVORABILITY_RESIDUAL`
 
 ## VOID_WITH_CAUSE
 
