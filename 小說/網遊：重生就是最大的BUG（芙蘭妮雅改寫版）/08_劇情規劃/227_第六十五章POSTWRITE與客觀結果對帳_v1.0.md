@@ -1,15 +1,16 @@
 # 第六十五章 POSTWRITE 與客觀結果對帳 v1.0
 
-> 日期：2026-10-01  
-> 狀態：`POSTWRITE_PASS / FINAL_QA`  
+> 日期：2026-10-02  
+> 狀態：`POSTWRITE_PASS / FINAL_QA / IDENTITY_AURA_RETRO_CORRECTED`  
 > 正文：`01_章節/065_第六十五章_十五秒，聖炎.md`  
 > PREWRITE：`226_第六十五章PREWRITE執行確認_v1.0.md`  
-> SOURCE：`48_SOURCE_CANON_MASTER_100-150.md`
+> SOURCE：`48_SOURCE_CANON_MASTER_100-150.md`  
+> 身份氣息／目擊鏈RETRO：`229_第六十五章身份氣息與目擊鏈RETRO覆蓋_v1.0.md`
 
 ## 一、正文容量／SOURCE消耗
 
 - 第65章完整承接魚人寶庫收束鏈，正文補足暗金首殺後的玩家社會／論壇／公會情報反應，不提前消耗CH135。
-- 最終正文UTF-8檔案大小：46179 bytes；已由原不足Gate17施工帶的版本擴寫至正常長章施工帶。
+- 正文已進入Gate17正常長章施工帶。
 - 完整消耗原著：CH130、CH131、CH132、CH133、CH134，共5章。
 - CH135未消耗；哈姆後續掉落與日記私藏路線仍保留給下一章。
 
@@ -28,8 +29,8 @@
 3. 魚人王子吸收死亡玩家殘留力量；被抽空的死亡玩家遭系統強制回城，死亡視角逐步清空。
 4. NPC盜賊【哈姆】正式以Lv11白銀狀態襲擊折光，折光反殺哈姆；CH135後續掉落本章未提前取得。
 5. 魚人王子因吸收殘力短暫升為【偽·暗金】，正式姓名【迪亞斯】。
-6. 公開旁觀窗口清空後，折光在斷裂石柱遮蔽處合法切回主身份Franiya；新1H身份切換限制開始。
-7. 迪亞斯能直接辨識切換前後氣息／職業殼不同，但此知識只存在於迪亞斯個體；他本章死亡，未形成公開證據。
+6. 公開旁觀窗口清空後，折光再利用巨大寶箱、斷裂石柱與殘留水霧形成的遮蔽死角，在迪亞斯也沒有直接視線的情況下切回主身份Franiya；新1H身份切換限制開始。
+7. 迪亞斯沒有目擊身份切換。Franiya重新出現後，迪亞斯只能辨識她與先前法師折光的氣息／職業／種族表現完全不同，因此沒有確認兩者是同一人。
 8. CH116【踢擊】殘留在第一個合法主身份戰鬥窗口到期並結算：100%完成度／+100%完成度傷害。
 9. 迪亞斯以水元素做冰系假前搖後形成八階【水牢】；Franiya看穿前搖，但仍依法受到已完成術式控制。
 10. Franiya第一次解放【火狐炎刀】，15秒臨時轉為傳奇【聖炎】，破除水牢並擊殺迪亞斯；解放後【火狐炎刀】休眠3日。
@@ -49,7 +50,7 @@
 | CH130 | 哈姆正式戰鬥並死亡 | 哈姆襲擊折光後被反殺 | `PRESERVED_AND_LANDED / KILLER_RECALC` | CLOSED |
 | CH130 | 死亡玩家屍體殘力被魚人王子吸收並強制回城 | 完整落地 | `PRESERVED_AND_LANDED` | CLOSED |
 | CH131 | 魚人王子姓名迪亞斯＋短暫偽暗金 | 完整落地 | `PRESERVED_AND_LANDED` | CLOSED |
-| CH131 | 高階NPC辨識不同身份氣息 | 迪亞斯直接察覺折光與Franiya氣息／職業殼不同 | `PRESERVED_AND_LANDED` | CLOSED |
+| CH131 | 高階NPC辨識不同身份氣息 | 迪亞斯先後感知折光與Franiya氣息／職業／種族表現完全不同；沒有目擊切換，也沒有因此連結為同一人 | `PRESERVED_AND_LANDED` | CLOSED |
 | CH131 | 冰系假前搖→八階水牢 | 完整落地；Franiya能看穿但不能取消已成術式 | `PRESERVED_AND_LANDED` | CLOSED |
 | CH132 | 火狐炎刀第一次解放聖炎15秒、擊殺迪亞斯、休眠3日 | 完整落地 | `PRESERVED_AND_LANDED` | CLOSED |
 | CH133 | 暗金首殺公告＋暗金寶箱＋怪物獵人（暗金）＋傳奇線索 | 完整落地 | `PRESERVED_AND_LANDED` | CLOSED |
@@ -93,11 +94,14 @@
 - 新身份切換鎖：ACTIVE／1H；精確剩餘時間未鎖。
 - `INTERNAL_KNOWLEDGE_SYNC = Franiya <-> 折光`維持。
 - 哈姆只知道折光能雙線施法、能抓隱身並擊敗自己；他死於身份切換前，因此不知道折光＝Franiya。
-- 迪亞斯唯一親眼確認切換前後同一操作者與不同氣息，但其死亡後知識未傳播。
+- 迪亞斯沒有目擊身份切換；只先後見過折光與Franiya，並感知兩者氣息／職業／種族表現完全不同。
+- 迪亞斯沒有確認兩者同一人；「氣息不同」在此是千幻之心隔離身份氣息有效的證據，而不是身份連結證據。
 - 現場玩家／論壇知道折光曾在寶庫、火雨是真實八階效果、迪亞斯吸收殘力與偽暗金片段、之後Franiya取得世界首殺；不知道兩身份切換過程。
 - 公開「折光＝Franiya」僅為未證實推測；大型公會可建立關聯欄位，但只能標記`關係未知`。
 - 雅典娜神殿NPC／莫妮卡未獲得跨身份證據。
 
+`DIAS_SEES_SWITCH_PROCESS = FALSE`
+`DIAS_CONFIRMS_ZHEGUANG_EQUALS_FRANIYA = FALSE`
 `ZHEGUANG_EQUALS_FRANIYA_PUBLIC_LINK = FALSE`
 `KNOWLEDGE_BOUNDARY_QA = PASS`
 `INTERNAL_KNOWLEDGE_SYNC_GATE = PASS`
@@ -119,6 +123,7 @@
 
 - 暗金BOSS戰維持高密度完整場景，未壓成SOURCE流水帳。
 - 補寫世界公告後反應用於承載首殺社會重量與身份情報邊界，沒有提前吃CH135客觀事件。
+- 身份切換現在同時避開玩家與迪亞斯直接視線，沒有額外賦予迪亞斯原著功能之外的「同一人確證」。
 - 未把公眾猜測寫成事實。
 - 未讓Franiya因日記得知CH135尚未閱讀／探索的私藏路線或哈姆掉落。
 - 無工作流術語、SOURCE編號或Gate語句外洩正文。
@@ -142,6 +147,8 @@
 - `ORIGINAL_OBJECTIVE_RESULT = 張文君在沈雲群殺鏈中死亡後用復活卷軸＋傳送卷軸逃離`
 - `FRANIYA_LINE_RESULT = 張文君被迪亞斯水系攻擊擊殺，仍完整使用復活＋傳送兩件保命資產逃離`
 - `DIVERGENCE_TYPE = KILLER_RECALC / FUNCTION_PRESERVED`
+- `CONFLICT_EVIDENCE = 原著由沈雲成為殺手，是347人私人群殺鏈中的子結果；Franiya線沒有該群殺前因。`
+- `WHY_PRESERVATION_WAS_IMPOSSIBLE_OR_WRONG = 若沒有新的獨立因果仍硬指定Franiya作為張文君殺手，只會保留一個失去原本前因支撐的子結果；這不等於殺張文君一次就會把347人群殺全部恢復。`
 - `DOWNSTREAM_IMPACT = 保命資產消耗與離場終態不變。`
 - `RESIDUAL_STATUS = CLOSED`
 
@@ -163,4 +170,4 @@
 `EVENT_CONSUMPTION_CURSOR = THROUGH_CH134`
 `NEXT_SOURCE_WINDOW = CH135_FORWARD`
 
-第66章必須新PREWRITE；不得把本章PREWRITE沿用到CH135 forward。
+第66章必須新PREWRITE；不得把本章PREWRITE沿用到CH135 forward。身份氣息／目擊鏈以正文065最新修正版＋RETRO229為準。
