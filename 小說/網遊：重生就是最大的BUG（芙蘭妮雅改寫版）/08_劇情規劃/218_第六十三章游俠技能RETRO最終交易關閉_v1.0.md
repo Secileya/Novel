@@ -7,7 +7,7 @@
 
 第63章原交易錯誤將原著第122章經二次反向掃描明確確認的「沈雲把游俠技能全部買下」客觀結果，無合法理由降級為Franiya僅開放技能窗口、未購買；同時以「精確金幣餘額未鎖」作為錯誤阻斷前提，且沒有在最終報告公開此客觀結果分歧與理由。
 
-本RETRO已完整修正正文、SOURCE、Current State、未完成因果、Active Queue、Ledger、Audit、Handoff、章節索引、知識矩陣與流程Gate。
+本RETRO已完整修正正文、SOURCE、Current State、未完成因果、Active Queue、Ledger、Audit、Handoff、章節索引、知識矩陣與流程Gate；原施工檔本身亦已補上 `HISTORICAL_SUPERSEDED` 警告，避免舊值再次被誤讀為 Current Authority。
 
 ## 二、正文RETRO
 
@@ -75,10 +75,15 @@ Franiya支付10060金並學會七項技能；人物自身技術與遊戲角色�
 - 04Q RETRO知識矩陣：`09ef21f7e4627524fb9b201da33f246c79466678`
 - 未完成因果02清除假待辦：`ac23a5a828e95724adbb0edd158cdcbf70cff9be`
 - Audit最終stale-value關閉：`f57e2ca13a46fd89224c497ea356bcf4458b1176`
+- 215舊交易同步檔補 `HISTORICAL_SUPERSEDED`：`0b419a71b1117d5e007ee3a49bafa7bf3cca8c9b`
+- 216舊最終關閉檔補 `HISTORICAL_SUPERSEDED`：`b24e76028a6d9eb9f658211345abbbdc4930b368`
+- 06L舊第63章索引補歷史覆蓋警告：`a88bbafa3d4ff78d973e35b42734a74046709868`
+- 213舊PREWRITE補歷史覆蓋警告：`8c5dad2b89093c74535eb45fa2c2aee7bc129260`
+- 214舊POSTWRITE補歷史覆蓋警告：`93cc3829d51e79e81dfc9059663474d072048b91`
 
 ## 六、歷史舊值
 
-以下舊檔保留原施工歷史，但其中「七技能OFFERED_NOT_ACQUIRED／未知精確金幣餘額故不買」欄位全部被217與06M明確覆蓋，不再具Current Authority：
+以下舊檔保留原施工歷史，但已在檔案自身明確標記 `HISTORICAL_SUPERSEDED`；其中「七技能OFFERED_NOT_ACQUIRED／未知精確金幣餘額故不買」欄位不再具 Current Authority：
 
 - `213_第六十三章PREWRITE核定表_v1.0.md`
 - `214_第六十三章POSTWRITE差分_v1.0.md`
@@ -86,7 +91,9 @@ Franiya支付10060金並學會七項技能；人物自身技術與遊戲角色�
 - `216_第六十三章最終交易關閉_v1.0.md`
 - `04_連續性與索引/06L_章節索引_第63章增量.md`
 
-`HISTORICAL_STALE_VALUES = EXPLICITLY_SUPERSEDED`
+現行章節結果由正文RETRO＋217＋218＋06M及Current State／Ledger／Queue等權威檔共同鎖定。
+
+`HISTORICAL_STALE_VALUES = EXPLICITLY_SUPERSEDED_IN_SOURCE_FILES`
 `CURRENT_AUTHORITY_STALE_VALUE_COUNT = 0`
 
 ## 七、流程改善
@@ -114,4 +121,5 @@ Franiya支付10060金並學會七項技能；人物自身技術與遊戲角色�
 - 第64章仍必須先做CH125_FORWARD SOURCE REVIEW與新PREWRITE。
 
 `CH63_RETRO_TRANSACTION = CLOSED`
+`CURRENT_AUTHORITY_STALE_VALUE_COUNT = 0`
 `CH64_BODY_GATE = BLOCKED_UNTIL_NEW_PREWRITE`
