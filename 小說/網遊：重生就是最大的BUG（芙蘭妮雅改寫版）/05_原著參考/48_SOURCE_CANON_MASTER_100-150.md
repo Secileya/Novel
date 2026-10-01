@@ -1,6 +1,7 @@
 # SOURCE CANON MASTER｜原著第100～150章
 
 > 建立／升格日期：2026-10-01  
+> 語義過推稽核：2026-10-02  
 > 性質：`CURRENT_SOURCE_CANON_MASTER / SINGLE_AUTHORITY / COMPLETE_EVENT_LEDGER`  
 > 章號所有權：`CH100～CH150`，不得由其他現行 Master 重複持有。  
 > 第一手最高證據：`05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt`  
@@ -12,7 +13,8 @@
 `ONE_CHAPTER_ONE_CURRENT_MASTER_OWNER = TRUE`  
 `PRIVATE_CAUSE_VOID != OBJECTIVE_EVENT_VOID`  
 `OBJECTIVE_RESULT_DEFAULT = PRESERVE`  
-`HISTORICAL_FILE_MAY_OVERRIDE_MASTER = FALSE`
+`HISTORICAL_FILE_MAY_OVERRIDE_MASTER = FALSE`  
+`SEMANTIC_OVERREACH_GATE = PASS_2026_10_02`
 
 ---
 
@@ -247,7 +249,7 @@
 
 ### CH111-E04｜千幻之心切斷身份氣息
 `CHAIN=沈雲切【撥雲見月】＋神隱 → 洛失去雲深不知處氣息 → 連芬里爾也無法從氣息直接看出兩身份同源。`  
-`DOWNSTREAM=CH123、CH128。` `DISP=WORLD_BACKGROUND_LOCKED`
+`DOWNSTREAM=CH123、CH128、CH131。` `DISP=WORLD_BACKGROUND_LOCKED`
 
 # CH112｜第二身份首次公開戰鬥
 
@@ -273,7 +275,7 @@
 # CH114｜掉落、重甲與戰場尋寶
 
 ### CH114-E01｜重甲與非紅名掉落
-`CHAIN=玩家死亡掉裝 → 黑鐵重甲例：體質+8、防+6、敏捷-8，說明重甲用敏捷換防體；非紅名正常死亡裝備爆率低。` `DISP=WORLD_BACKGROUND_LOCKED`
+`CHAIN=玩家死亡掉裝 → 原著直接概述重甲通常以降低敏捷換取較高防禦／體質；王之左道黑鐵重甲為具體例：體質+8、防+6、敏捷-8 → 同章另明示非紅名正常死亡裝備爆率較低。` `DISP=WORLD_BACKGROUND_LOCKED`
 
 ### CH114-E02｜戰場刷新與玩家尋寶反應
 `CHAIN=高價值玩家戰鬥結束／掉落可能存在 → 周圍玩家依刷新與掉落機制進入尋寶／拾取競爭。` `DISP=WORLD_BACKGROUND_LOCKED`
@@ -308,7 +310,7 @@
 # CH117｜領袖掉落與蒂姬登場
 
 ### CH117-E01｜晶核施法與墜落
-`CHAIN=彩虹鳥領袖以晶核儲魔 → 魔獸施法不需玩家式完整吟唱，龍捲風約2秒形成 → 沈雲腿部強化跳上背部輸出 → 領袖俯衝途中死亡 → 沈雲落地仍受-213墜落傷害。` `DISP=WORLD_BACKGROUND_LOCKED`
+`CHAIN=彩虹鳥領袖以晶核儲魔 → 原著在本段明示魔獸施法與玩家完整吟唱流程不同，龍捲風約2秒形成 → 沈雲腿部強化跳上背部輸出 → 領袖俯衝途中死亡 → 沈雲落地仍受-213墜落傷害。` `DISP=WORLD_BACKGROUND_LOCKED`
 
 ### CH117-E02｜【俯空殺】來源
 `CHAIN=彩虹鳥領袖死亡 → 掉白銀重劍＋【俯空殺】技能書 → 沈雲當場學會；俯空殺為高躍後借下墜造成150%傷害，自由模式按完成度／高度評估，CD50s。`  
@@ -443,7 +445,7 @@
 
 ### CH128-E02｜切第二身份混入第三梯隊
 `CHAIN=避免雲深不知處身份被集中圍殺 → 躲入側室切【撥雲見月】 → 混入臨時玩家團隊；玩家依坦克／輸出／治療自發組隊並大量用中高級藥。`  
-`RESULT=身份隔離在大型玩家場景再次有效。` `DISP=WORLD_RULE_PRESERVE / PERSONAL_ACTION_RECALC`
+`RESULT=本次大型玩家場景中，第二身份未被現場玩家由外觀／職業表象直接連回雲深不知處。` `DISP=WORLD_RULE_PRESERVE / PERSONAL_ACTION_RECALC`
 
 ### CH128-E03｜核心區前雙白銀BOSS與巨大寶箱
 `CHAIN=大隊伍深入 → 遭兩隻白銀BOSS造成大量傷亡 → 最終中央區域出現巨大寶箱。` `DOWNSTREAM=CH129` `DISP=WORLD_EVENT_PRESERVE`
@@ -478,14 +480,21 @@
 # CH131｜迪亞斯與假情報施法
 
 ### CH131-E01｜魚人王子確認姓名【迪亞斯】並升偽暗金
-`CHAIN=持續吸收死亡玩家殘力 → 黃金狀態短暫升為【偽·暗金】 → 顯示姓名迪亞斯。` `DISP=WORLD_EVENT_PRESERVE`
+`CHAIN=持續吸收死亡玩家殘力 → 黃金狀態短暫升為【偽·暗金】 → 探查結果顯示姓名迪亞斯與偽暗金狀態。` `DISP=WORLD_EVENT_PRESERVE`
 
-### CH131-E02｜高階NPC氣息辨識與魔武路線
-`CHAIN=迪亞斯觀察撥雲見月 → 明確指出其法師氣息與雲深不知處游俠氣息不同，並認出貪狼裝備 → 顯示高階NPC能以氣息辨身份，而千幻之心確實重寫／隔離氣息。迪亞斯本職偏魔法、兼近戰，非完整雙修。` `DISP=WORLD_BACKGROUND_LOCKED`
+### CH131-E02｜迪亞斯感知氣息差異／千幻之心隔離回證
+`SRC=SOURCE_EXPLICIT + SOURCE_DERIVED_BOUNDARY`  
+`CHAIN=同一場連續戰鬥中，迪亞斯親眼看著眼前精靈由法師狀態切成游俠 → 他明說「剛才還沒有游俠的氣息，明明就是一個法師，我的感知不可能會出錯」 → 迪亞斯確實能感知這次職業／身份氣息差異。`  
+`KNOWLEDGE=迪亞斯之所以知道眼前仍是同一個精靈，來自戰鬥現場的連續觀察，不是因氣息把兩身份反向連成同源。單看氣息，他取得的反而是「法師氣息與游俠氣息不同」這個結果。`  
+`DOWNSTREAM=與CH111「洛失去雲深不知處氣息，連芬里爾也看不出兩身份同源」共同回證【千幻之心】會重寫／隔離身份氣息。`  
+`BOUNDARY=本章不能寫成「高階NPC都能靠氣息辨識真實身份」，更不能寫成迪亞斯靠氣息穿透第二身份。`  
+`RESULT=迪亞斯本人具氣息感知能力；千幻之心的身份隔離至少涵蓋可被此類感知讀到的氣息層。迪亞斯本職偏魔法、兼近戰，非完整雙修。`  
+`DISP=WORLD_BACKGROUND_LOCKED`
 
-### CH131-E03｜水元素偽裝冰元素
+### CH131-E03｜迪亞斯本人使用元素假前搖
+`SRC=SOURCE_EXPLICIT`  
 `CHAIN=迪亞斯故意以水元素表現成冰系前搖 → 誘沈雲以為是10階寒冰霜爆 → 實際瞬轉大型水牢。`  
-`RESULT=高智慧NPC會用假前搖／假情報。` `DISP=WORLD_BACKGROUND_LOCKED`
+`RESULT=本章只證明迪亞斯本人會利用元素前兆製造假情報／誘導錯判；不能由單一個案泛化成「所有高智慧NPC都會用假前搖」。` `DISP=WORLD_BACKGROUND_LOCKED`
 
 # CH132｜解放：聖炎
 
@@ -587,7 +596,7 @@
 # CH142｜智腦動態平衡與堤豐
 
 ### CH142-E01｜月神石提前出村造成智腦動態調整
-`CHAIN=月神石使大量玩家出村節奏異常提前 → 智腦為平衡新增11級練級區並適度提高經驗 → 普通玩家追趕。` `RESULT=智腦會依大規模玩家環境動態調內容。` `DISP=WORLD_BACKGROUND_LOCKED`
+`CHAIN=月神石使大量玩家出村節奏異常提前 → 智腦為平衡新增11級練級區並適度提高經驗 → 普通玩家追趕。` `RESULT=本次事件明確顯示智腦會針對大規模玩家環境失衡做內容調整；不自行擴寫其所有未明示調整權限。` `DISP=WORLD_BACKGROUND_LOCKED`
 
 ### CH142-E02｜智慧之書終章【最終審判】
 `CHAIN=宙斯壓倒性優勢 → 沈雲啟用智慧之書終章 → 召【堤豐】力量化身；代價為智慧之書破碎＋自身等級下降20，且一生只能使用一次 → 堤豐與宙斯神力分身交戰。`  
@@ -631,9 +640,10 @@
 
 # CH147｜公會情報反推與唐曉煙聲音線
 
-### CH147-E01｜公會已準備反隱道具但左谷風拒絕當日圍殺
-`CHAIN=論俠行道等已找出針對持續隱身的道具 → 左谷風仍拒絕立即圍殺 → 由沈雲換武器反推黑刀暫不能用、黑刀技能代價高、其仍有多張逆轉底牌。`  
-`RESULT=高階玩家會用錄像、裝備選擇與CD反推技能情報。` `DISP=WORLD_REACTION_PRESERVE / TARGET_RECALC`
+### CH147-E01｜左谷風／公會研究團隊以錄像反推技能情報
+`SRC=SOURCE_EXPLICIT`  
+`CHAIN=論俠行道等已找出針對持續隱身的道具 → 左谷風仍拒絕立即圍殺 → 他依沈雲換武器、既有戰鬥錄像與已知CD／代價，反推黑刀暫不能用、黑刀技能代價高、沈雲仍可能保有多張逆轉底牌。`  
+`RESULT=本章證明的是左谷風／相關公會研究者會用錄像、裝備選擇與技能冷卻做情報推演；不能由此單一案例寫成「高階玩家普遍都具備同等情報反推能力」。` `DISP=WORLD_REACTION_PRESERVE / TARGET_RECALC`
 
 ### CH147-E02｜唐曉煙首次把公開聲音與夢中人物重合
 `CHAIN=聽到雲深不知處公開聲音 → 唐曉煙劇烈動搖 → 認為與夢中人物聲音完全一致，但仍只是懷疑。`  
@@ -689,6 +699,7 @@
 `CH100_150_CUSTODY_CHAIN_GATE = PASS_WITH_EXPLICIT_OPEN_EDGES`  
 `CH100_150_KNOWLEDGE_BOUNDARY_GATE = PASS`  
 `CH100_150_TIMELINE_GATE = PASS`  
+`CH100_150_SEMANTIC_OVERREACH_GATE = PASS_2026_10_02`  
 `CH100_150_SINGLE_AUTHORITY_PROMOTION = ACTIVE`
 
 已知仍保持開放而不得亂補：
