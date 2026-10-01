@@ -29,10 +29,21 @@
 
 必須恢復：HEAD、最高章與下一章、精確停點、時間地點POV、active身份與切換鎖、技能／物品CD、任務與deadline、裝備／持有資產、人物知情邊界、未完成因果、SOURCE游標與下一個硬錨。
 
+### 2.1 Franiya／折光單一內在知識主體Gate
+
+- `INTERNAL_KNOWLEDGE_OWNER = Franiya`
+- `INTERNAL_KNOWLEDGE_SYNC = Franiya <-> 折光`
+- `KNOWLEDGE_IDENTITY_SPLIT_FORBIDDEN = TRUE`
+- 折光是Franiya的第二身份／角色殼，不是獨立記憶主體；任何一個身份親自合法取得的知識，都必須同步存在於Franiya的內在知識中，切換身份不得造成失憶、重複詢問或重新得知。
+- 身份隔離只作用於`PUBLIC_DISCLOSURE`、`PUBLIC_IDENTITY_LINK`與其他角色可合理推知的資訊，不得反向切割Franiya自己的記憶與認知。
+- 為保護折光身份，Franiya可以故意裝作不知道、否認、模糊、省略或提出掩飾性問題；但必須視為`DELIBERATE_CONCEALMENT`，內心、POV、旁白與決策仍須使用她實際已知資訊。
+- 特例鎖定：第47章Franiya已親自遭遇【迦娜】。因此第62章起，折光內在必須認得迦娜；若對外出現「迦娜是誰？」之類說法，只能是身份掩飾話術，不得寫成真實未知。
+
 固定：
 - `STATE_RESTORATION_GATE = PASS`
 - `ASSET_LEDGER_PREWRITE_GATE = PASS`
 - `KNOWLEDGE_BOUNDARY_GATE = PASS`
+- `INTERNAL_KNOWLEDGE_SYNC_GATE = PASS`
 
 ## 三、原著事件Gate
 
