@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.4.1｜2026-10-09
+
+- 新增 `SRC-SL-YOO-VOICE-01~03`：以動畫官方角色頁／故事頁、Piccoma 官方回顧及 Crunchyroll 官方片段，分別錨定雙重地下城後查訪、姜泰植事件後警告與重新測定制度階段。
+- 明確記錄來源邊界：三個事件功能窗口已通過，但三段完整逐字聲線仍為 `PARTIAL`；沒有用摘要反推原作台詞。
+- 建立禹鎮哲 `CLOSE_THIRD_CONSTRAINED` 第一章施工規格，只開放當下觀察、程序判斷、風險比較、下令及分層報告措辭。
+- `YOO_JINCHUL_VOICE_GATE` 更新為 `PASS_FOR_CHAPTER_001_CONSTRAINED`；第一章章前包由 `SOURCE_GATE_REQUIRED` 更新為 `PREWRITE_READY`。
+- 正文游標更新為 `DRAFT_FULL_CHAPTER_001_FROM_EVT-ENTRY-FRANIYA-001`；正式章節仍為空，未把章前規劃誤標成已發生。
+
 ## v0.4.0｜2026-10-09
 
 - 新增 `14_寫作流程與劇情引擎/`，把既有世界觀、事件卡與正文規則落成可重複執行的長篇章節交易流程。
