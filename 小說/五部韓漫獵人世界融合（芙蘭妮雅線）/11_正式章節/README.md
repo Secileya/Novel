@@ -1,6 +1,6 @@
 # 正式章節
 
-> v0.4.3：`CHAPTER_001_OUTLINE = LOCKED_FOR_DRAFT`，`CHAPTER_001_PREWRITE = READY`。下一事件為 `EVT-ENTRY-FRANIYA-001`；全書採「Franiya 主軸式多視角群像」。第一章採禹鎮哲受限近距離視角，但主弧持有者仍為 Franiya；目前仍未建立正式章節檔。
+> v0.5.0：`CHAPTER_001_OUTLINE = LOCKED_FOR_DRAFT`，`CHAPTER_001_PREWRITE = READY`。下一事件為 `EVT-ENTRY-FRANIYA-001`；全書採「Franiya 主軸式多視角群像」。第一章採禹鎮哲受限近距離視角，但主弧持有者仍為 Franiya；目前仍未建立正式章節檔。後段資產／卷末定案不改變本章游標。
 
 目前沒有正式章節。
 
