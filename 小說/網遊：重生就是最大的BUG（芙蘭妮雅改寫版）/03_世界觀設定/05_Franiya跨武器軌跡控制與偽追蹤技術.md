@@ -19,6 +19,26 @@ Franiya在《信仰》中可以透過自身技術形成：
 
 這些都是 Franiya 本人的技術，不是系統偷偷替她加入追蹤修正。
 
+**但這一整套首先是「不用自身高階能力也做得到」的技術層。**以下若寫「普通箭不能無條件九十度急轉」「普通子彈不會憑空大角度轉彎」「離手後不能只靠意念遠端轉向」，預設前提都是：Franiya正在自願遵守《信仰》與當地物理／系統框架，沒有主動動用她本人的作用／權重能力。這些句子不是她真正能力的上限。
+
+## 一之一、能力介入後不是偽追蹤
+
+如果Franiya主動使用自己的作用／權重能力，邏輯就不再是「找一條物理合法彈道」，而是直接介入投射物正在承受與施加的作用：
+
+- 可直接改變箭矢、子彈、飛刀、投槍、石塊、碎片、技能載體等實際存在投射物的作用力、方向、慣性、動量、質量／重量相關作用、速度、加速度、旋轉、碰撞效果與作用權重；
+- 已離弦／已出膛／已離手後仍可持續修正，因此可以突然急轉、折返、停住、反向、繞行、再次加速或跟著目標持續改線；
+- 此時若表現出「追蹤」，那是Franiya持續控制，而不是普通箭／普通子彈自己取得系統追蹤技能；
+- 箭矢與子彈沒有被排除。純技巧層的「普通子彈不會自己轉彎」不能拿來否定能力介入層；
+- 如果她仍想保留《信仰》的遊戲體驗，可以只做極小幅度修正，甚至完全不用能力，讓傷害、射程、箭速、彈藥與裝備面板照常決定結果；
+- 如果她**不再自願遵守本地遊戲輸出框架**，普通武器／箭矢／子彈的面板與材料強度不再是她本人的上限。她可以直接提高命中、碰撞、穿透、破壞等作用的權重，使一支最普通的箭矢具有**宇宙級乃至更高層級**的破壞結果。
+
+所以本線必須始終區分：
+
+> **技術模式：在遊戲規則內做到極致。**  
+> **能力模式：她本人直接改變作用與權重；正常物理彈道與普通武器上限可以被她越過。**
+
+目前正式前期正文預設仍是前者，除非正文明确寫出她主動提高能力介入層級；不得因能力客觀存在，就把之前所有普通弓術／投刀場面倒灌成超規格能力使用。
+
 ## 二、與自由模式弓術百發百中的關係
 
 `04_Franıya自由模式弓術與百發百中.md` 固定：只要存在合法可執行命中解，Franiya不會因人類瞄準誤差、手抖、準心漂移、提前量錯誤等射失。
@@ -123,5 +143,9 @@ Franiya會即時重算、換武器、換線或乾脆不用複雜軌跡，不會�
 - `FRANIYA_MULTI_PROJECTILE_CONVERGENCE = ALLOWED`
 - `FRANIYA_MELEE_CONTACT_TRACKING = ALLOWED`
 - `FRANIYA_CROSS_WEAPON_TRAJECTORY_LOGIC = ACTIVE`
-- `NORMAL_PROJECTILE_AUTO_HOMING_WITHOUT_MECHANISM = FALSE`
-- `REMOTE_POST_RELEASE_RESHAPE_WITHOUT_MECHANISM = FALSE`
+- `NORMAL_PROJECTILE_AUTO_HOMING_WITHOUT_MECHANISM = FALSE_IN_TECHNIQUE_LAYER`
+- `REMOTE_POST_RELEASE_RESHAPE_WITHOUT_MECHANISM = FALSE_IN_TECHNIQUE_LAYER`
+- `FRANIYA_PROJECTILE_ABILITY_CONTROL = ALLOWED`
+- `FRANIYA_PROJECTILE_ABILITY_CAN_OVERRIDE_NORMAL_BALLISTICS = TRUE`
+- `FRANIYA_PROJECTILE_ABILITY_CAN_SCALE_DAMAGE_TO_UNIVERSE_OR_HIGHER = TRUE`
+- `PROJECTILE_SELF_RESTRAINT_IS_CHOICE_NOT_CAPABILITY_LIMIT = TRUE`
