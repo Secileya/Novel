@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.4.2｜2026-10-09
+
+- 新增 `SRC-ORV-FIRST-SCENARIO-001` 與 `SRC-TLN-CLASS-SELECTION-001`，分開記錄正式小說／WEBTOON 可證明的原作核心和影像頁仍未逐步閉環的部分。
+- ORV 第一輪固定為 `PRESERVED_WITH_CONTEXT`：列車內限時殺戮、金獨子獨有文本知識與場內選擇保留；成熟獵人制度只改變圈外封鎖、誤判和事後救援。
+- 死靈線選職固定為 `PRESERVED_WITH_CONTEXT`：柳成宇仍在課堂親自選死靈法師；`C+3` 水原錨與首爾三日外溢只改變社會背景及後續制度進場。
+- 兩場均明確拒絕 Franiya 無接觸邊瞬移介入，也拒絕讓金獨子因讀過《滅活法》知道另外四作。
+- 兩事件更新為 `SOURCE_READY_FOR_OUTLINE / PROSE_GATE_PARTIAL`；正式進入車廂或課堂正文前，仍須閉環人物、物件、獎勵與逐步行動。
+
 ## v0.4.1｜2026-10-09
 
 - 新增 `SRC-SL-YOO-VOICE-01~03`：以動畫官方角色頁／故事頁、Piccoma 官方回顧及 Crunchyroll 官方片段，分別錨定雙重地下城後查訪、姜泰植事件後警告與重新測定制度階段。
