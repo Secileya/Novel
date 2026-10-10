@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.6.35｜2026-10-10｜TLN ch17授權全文突破、41～62官方Part One及召喚亞空間、地方公會／ORV正版英書書誌
+
+- 新增[12_/43 v0.6.35原著來源與難點](../12_原作證據與譯名/43_v0.6.35_TLN正版小說17章全文解封與41至62章公開片段_空置聖域與倖存者公會_ORV正式英文小說版次.md)。由 [WebNovel官方ch17](https://www.webnovel.com/book/only-i-am-a-necromancer_17120104606669305/orc-unit-hunting-the-survivors-(6)_46688111110973634)目錄直開**完整正式英文小說正文**；更正v0.6.34以非授權重刊P3候選的抽獎持有紀錄為**官方完整版P0**：一次不限級獎券抽金輪→Sea Spirit Tears（Mana+300/+200%回魔）、另付1000 Gold抽銀輪→Vanguard Shield防禦+20%開戰10分鐘、聖佑抽前1552Gold、韓浩C級回血2/回魔2/解毒2藥包、智秀Punitive Expedition Longsword。360與584對應哪位隊友依段落無法絕對確定；ch11 Ignition Stone與ch17 Whetstone同起源、高度可能同物但未見相同官方物品ID，不登記兩件。
+- WebNovel官方[章目](https://www.webnovel.com/book/17120104606669305/catalog)另首次逐一驗收**ch41～50十章可見的Part One**（章頁顯示需APP續讀、**非整章**）：ch42真正消耗羊皮紙得`Vacant Sanctuary`可將**未損部下**收亞空間、無Mana耗、保管數量質量無上限但**一般可召槽與外物不能由此免費跨系**；大量同步召部下`Fellblade`附區域死亡詛咒1h冷卻，ch44真用。ch43 Kyongsu校車遭人口販運、ch45高階吸血鬼暴走、ch46救人與利用亡者命運二選專屬任務、ch47 Taesung從吸血鬼奴役轉入聖佑控制、ch48永登浦Guidebook論壇`Liberation`公會發起、ch49地方教程並非每處同樣啟動、ch50Kobold怪群不退。
+- 額外查WebNovel合法**ch51/53/55/56/58/60/62 Part One**：51 Body Explosion已使用但Kobold法師護盾抵擋（取得章尚未直接見）、53新劍佩戴肌力+6/未孵卵、55三狼骨與`Hell's Watchman Cerberus`、56藉安全區吸引弱者的危險組織、58 Right最後Slime酸液瓶耗完、60軍方徵兵與國家權威/Gold辯論、62 Kyongsu受託建立地方Gold/守備隊（僅決議未證建成）。此新增對融合C+11現場資產與區域自治具有**條件性**相關，不等於AU已發生。
+- 查官方[Ize Press英小說v1書誌](https://yenpress.com/titles/9798400903526-omniscient-reader-s-viewpoint-novel-vol-1)及[Google Books官方預覽目錄](https://books.google.com/books/about/Omniscient_Reader_s_Viewpoint_novel_Vol.html?id=ywwrEQAAQBAJ)可見英譯章節篇名和ISBN而不能讀取所有正規正文；[Naver官漫章目](https://m.comic.naver.com/webtoon/list?titleId=747269)在2026-10-10顯示含後記313項、季一311話完結，非實際逐格核畢。SSS ch47／PWCLU ch22/23/26正版正文直接開啟均報不可存取，仍保留 `OFFICIAL_CATALOG_ONLY`。
+- 回寫來源索引、歷史v0.6.34錯級註記、五線採用時點、05_物件持有鏈、02_原著日期、03_普通人物、12_/24 Gate、38 QA、10_矛盾、00_交接；**不修改11_正式章、既有已發生事件、Franiya家庭真源、14_寫作章綱與游標**。此為現有可見合法來源的顯著突破，不宣告網路上不存在其他可合法取得資料。
+
 ## v0.6.34｜2026-10-10｜SSS第44～50章官方公開段與TLN第17章抽獎物權取得來源互證
 
 - 新建[12_/42｜SSS官方Teaser44～50與TLN ch17 E級商店輪盤／Sea Spirit Tears跨章證據](../12_原作證據與譯名/42_v0.6.34_SSS小說44至50章官方分段情境_TLN第17章商店抽獎_海精靈淚來源交叉證據.md)，直接開啟Wuxiaworld官方ch44/45/46/48/49/50 P1短節錄及WebNovel正式TLN ch21、ch63，另外從**非授權英譯重刊**只將第17章抽獎精確資訊標P3。
