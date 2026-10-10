@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v0.6.37｜2026-10-10｜從Wuxiaworld Lite官方目錄破解「直連讀不到」誤判：SSS47與PWCLU22/23/26正版公開Teaser
+
+- 新建[12_/45 Wuxiaworld Lite逐章正式來源與時間/人物/技能驗收](../12_原作證據與譯名/45_v0.6.37_Wuxiaworld_Lite官方逐章反查_SSS47與PWCLU22_23_26解封_塔祝福_職業偵測與日程.md)。**用官方目錄逐章點擊**取代直接open失敗頁：從 [SSS官方Lite目錄](https://lite.wuxiaworld.com/novel/sss-class-revival-hunter)成功讀到[SSS47官方開段](https://lite.wuxiaworld.com/novel/sss-class-revival-hunter/sss-chapter-47)，以及[PWCLU官方Lite目錄](https://lite.wuxiaworld.com/novel/player-who-cant-level-up)的[22](https://lite.wuxiaworld.com/novel/player-who-cant-level-up/pwclu-chapter-22)/[23](https://lite.wuxiaworld.com/novel/player-who-cant-level-up/pwclu-chapter-23)/[26](https://lite.wuxiaworld.com/novel/player-who-cant-level-up/pwclu-chapter-26)節錄。**將四章由`OFFICIAL_CATALOG_ONLY`糾正成`P1_OFFICIAL_TEASER_VISIBLE`**，中途省略號截斷所以仍非全章P0。
+- SSS47：劍帝守護者指出**金孔子殺、以自己的技能復活魔王並名Preta**，而**主僕關係仍被劍帝質問**，未見後半條款。SSS23：兩種真祝福**11–20F怪人地圖**及**11–20F NPC名字/能力/位置**，第三交易神僅公告出現、效果未見，絕非全塔/跨作全知。ch22舊獵人退休開店與廣場重聚；ch26 E級金孔子與五會平等條約已成立、劍星刺客猜測只是其推理；ch29五會猜忌、ch33劍星轉援助及獨臂審問官帶千兵（時間回歸分支不能混）。
+- PWCLU22：醫生病重預測被**基圭對妹妹/母親隱瞞**，妹妹有貞畢業後想賺錢/開小咖啡店；23：支援系偵測雖見Lv1、獨特能力存在卻**不能辨出內容**；26：Ironshield重壓致主角內傷、英韓語障導致誤認、**一瓶內傷藥劑當場消耗**；27 Artemis/Athena干涉Iron Guild；28 Soo-Jung即Lucifer黑炎推理；30刺穿Rogers頸是基圭的證詞、真死亡待查；31是基圭本人飲下elixir；32工坊預付金、33協會員工轉個人秘書、34第4樓守護者增強推論、36外觀改變的遮掩說法、40新車後來才歸主角。PWCLU **ch20官方Lite整段**明言醫師病危後主角在19F**連續狩獵兩週**；ch25迷宮已有**三週**，不能讓融合AU14天自動跑完。
+- 過去v0.6.32～35中的四章「只有官目錄」是**當時讀取失敗歷史**；更新來源檔39、40、41、42、43並行優先註解、現行總索引/人物/裝備/原著時序/Gate/QA/矛盾/交接。仍不能宣稱SSS47或PWCLU22/23/26全部付費全文或其他四作每幅漫畫已查，七項AU決策屬主小說。正式章/卷綱/Franiya家庭真源及寫作游標未動。
+
 ## v0.6.36｜2026-10-10｜TLN 第52／54／57／59／61章正式Part One補讀：真Boss／狼人錯報／複合亡靈／軍職真身
 
 - 建立 [12_/44：官網第52、54、57、59、61章實際新片段](../12_原作證據與譯名/44_v0.6.36_TLN正版小說52至61章續核_樹精真首領_吸血鬼情報誤差_複合亡靈與朴中校.md)，全部來自WebNovel**明確Part One截斷**，不冒稱整章已讀：ch52商場`Depraved Tree Spirit`自Kobold巫師口中長樹根成真正Boss；ch54 Master-grade吸血鬼Chief Choi依`Representative`「五狼人」敵情報帶7人入場；ch57實際戰場**狼人骨兵以外還有後方吸血鬼骷髏和10殭屍**，不可把五狼猜測當主角永久召骨欄或忘記不同軍種。
