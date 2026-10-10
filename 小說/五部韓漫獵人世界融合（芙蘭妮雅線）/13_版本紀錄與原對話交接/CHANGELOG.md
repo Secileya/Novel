@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.6.39｜2026-10-10｜TLN韓英文正式版次、退伍特種部隊與韓浩前兆、오른跨語佐證、SSS/ORV官漫編碼
+
+- 新增[12_/47 v0.6.39 正式源對位研究](../12_原作證據與譯名/47_v0.6.39_韓英正版出版對位_TLN軍歷前兆與오른_Lefty方向_三作官漫章號.md)：重讀WebNovel正式英小說ch1/3/19，官方ch1證聖佑**特種部隊小隊長退伍返校**、韓浩當年喝酒認識/尚未入伍/前女友Miyoung、單獨稱校園圖書館上方出現`monster downloading 99%→100%`（聖佑未見），其公開官網頁於戰士同學劍掉落後**中途截斷不能稱已讀全章**；ch3右肘毀只有左手戰鬥 vs ch19命名Right只右臂依然矛盾，不能擅造中章換側事件。
+- [Naver Series正版韓小說](https://series.naver.com/novel/detail.series?productNo=4632388)官方**244話含外傳**、[WebNovel英小說](https://www.webnovel.com/book/only-i-am-a-necromancer_17120104606669305)**519章**、[Naver韓漫畫](https://m.comic.naver.com/webtoon/list?titleId=780170)在2026-10-10**225話完結**；韓漫21–22漏卡、23–25販運、26–29第一主流與英小說37～50對照**僅官方章題材相近**，不說每個畫格/台詞精準一章一話。帶舊week=thu的快取曾顯示224話，本輪直接無參數新頁明示225，屬目錄快取差非另一版本。
+- [官方英文WEBTOON《The Lone Necromancer》](https://www.webtoons.com/en/fantasy/the-lone-necromancer/list?title_no=3690)也證聖佑曾為特種部隊退役；韓文百科P3稱獨臂骨兵`오른`/缺左臂，另[韓文商業改編遊戲官方Google Play介紹](https://play.google.com/store/apps/details?hl=ko&id=com.lunosoft.nhn)與App Store均直接把`오른`列為原作人物（P2衍生媒介名稱），與英小說Right方向相同，但Reddit`Lefty`僅P3詞彙且英小說ch3/ch19左右矛盾仍待韓正式原文/英WEBTOON畫格核。
+- [Tapas SSS正式漫畫目錄](https://tapas.io/series/sss-class-revival-hunter/info)以Prologue為Ep1/故事第1節為平台Ep2、前期Ep19標題為18.Poker；[ORV WEBTOON官目錄](https://m.webtoons.com/en/action/omniscient-reader/list?title_no=2154&webtoon-platform-redirect=true)以Prologue為Episode0，**不同作品、不同平台/內部標題不能同號對應**。同步原作來源索引、第一卷人物/道具/時序、SOURCE Gate、疑點及QA。
+- 本輪不修改小說正式章、七階段卷綱、七項AU未決問題、Franiya家庭真源和寫作游標；韓文小說第3及19節原文、官漫Lefty/Right畫格、ORV eBook修訂具體例子仍OPEN。
+
 ## v0.6.38｜2026-10-10｜五作讀者討論來源核查
 
 新增[12_/46 原始論壇討論來源與P3界線](../12_原作證據與譯名/46_v0.6.38_五作Reddit原始討論交叉研究_讀者爭點_原著媒介差與第一卷寫作防線.md)。查閱五作 Reddit 討論串，釐清小說／漫畫／動畫版本及不同讀者觀點；這些留言不代替正式原著。TLN論壇Lefty與官英小說Right有未決差異。同步研究索引、人物與交接；正文、設定與寫作游標不變。
