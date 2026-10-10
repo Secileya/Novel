@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.6.29-r2｜2026-10-10｜第一卷七階段來源 Gate 與證據層級交叉稽核
+
+- 依上一個研究對話的 v0.6.29 五作第一卷成果，重查 `12_/24` 過時的七階段 `BLOCKED` 敘述，追加按 `12_/33`、`12_/34`、`12_/35` 最新研究判定的現行 Gate：ORV 可用社群章級故事圖、TLN 可用23篇分散正式小說原文、SSS 可用官方短段局部事實，但未讀的完整版/漫畫仍保持未核。
+- 重新讀取 Wuxiaworld 正式小說 [SSS ch45](https://www.wuxiaworld.com/novel/sss-class-revival-hunter/sss-chapter-45)、[ch46](https://www.wuxiaworld.com/novel/sss-class-revival-hunter/sss-chapter-46)、[ch50](https://www.wuxiaworld.com/novel/sss-class-revival-hunter/sss-chapter-50)，頁面標示 `(Teaser)`；修正 `P0_TEASER`、`P0_OFFICIAL_TEASER_ONLY` → `P1_DIRECT_EXCERPT`。授權未知的全文鏡像舊稱 `P1_UNVERIFIED_FULL_MIRROR` 統一映射 `P3_SECONDARY_CANDIDATE`。官方預覽所見事實保留，未見內容不升格。
+- 受影響現行檔已同步：`12_/09`、`12_/27`、`12_/35`、`12_/24`、`12_/00`、`00_` 和本 CHANGELOG。**沒有宣稱讀完 SSS ch21～43、ORV漫畫第2話、TLN官漫1～20，也沒有代主小說決定 AU-V1-ISSUE-01..07**；正式章、AU 已發生、角色家庭真源及寫作游標不變。
 ## v0.6.29-r1｜2026-10-10｜PWCLU ch13 正式來源回查與護身符持有鏈勘誤
 
 - 復查 **Wuxiaworld 正式授權小說** [《The Player Who Can't Level Up》ch13](https://www.wuxiaworld.com/novel/player-who-cant-level-up/pwclu-chapter-13)，確實讀到獎勵室取得 `Protection Talisman` 與回家後金基圭將護符**掛在母親頸上**、妹妹 Yoo-Jung 在旁見證；不是擺在床頭、不是交還主角的 C0 戰鬥護具。效用是非玩家可用的疾病防護及生命力益處，**不能治癒癱瘓**。ch13 最後確認佩戴者是母親；ch19 是否仍佩戴仍 `OPEN_UNSTATED`。
