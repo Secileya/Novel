@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v0.6.39-r2｜2026-10-10｜《獨行死靈法師》韓文原著完整第一卷合法免費來源擴充，未讀正文仍OPEN
+
+- 新建 [12_/49 韓原小說合法連載／單行本來源可見範圍](../12_原作證據與譯名/49_v0.6.39-r2_TLN韓原小說免費首卷與多正版平台章目_Right左右臂待原句.md)：MrBlue正式[連載版](https://www.mrblue.com/novel/munpia1110)**244話、1～21話免費**且目錄列章約字數（1話約580字、2話約6100字）；[單行本版](https://www.mrblue.com/novel/munpia1365)**15卷、首卷免費、約10.5萬韓字**；Naver Series同樣有[韓原連載244話/21免費](https://m.series.naver.com/novel/detail.series?productNo=4632388)與[單行本15卷/第一卷免費](https://series.naver.com/novel/detail.series?productNo=5343489)。YES24和Kyobo第一卷正式電子書**0韓元、ISBN 9791101779827**，官方目錄連續覆蓋校園、人文館、獸人部隊、體育館、出校、盜匪、水原華城(1)。
+- [Munpia作品頁](https://www.munpia.com/novel/detail/165922)顯示**245筆連載貼文**，不能把它誤算成與他站244話不同的「額外一章」，未核公告/序章/編排原因。韓文連載每話、單行本卷內篇章與英WebNovel519章**不得同號即等事件**。
+- 真正存取測試：Naver行動頁免費首話點擊仍回書目；MrBlue官網提示獨立小說閱讀器；YES24/教保0元正版電子書尚未在適用閱讀器合法取得。**本次只有授權平台出版metadata，不是韓文原文P0讀取**；英文ch3右肘損/左手有效與ch19只右臂Right的矛盾照舊OPEN，畫格未讀。增量同步 `00_專案交接`、`12_/00`、`10_`、`12_/38`、歷史交接 `13_/15`，回註前次 `12_/48`。
+- 沒有改動：Franiya家庭真源、正式小說正文、第一卷骨架、七項AU待決、`14_寫作流程與劇情引擎/00_索引與現行寫作游標`；PWCLU既有匕首已售/Brunheart債務/護符在母親/手環未買不變。
+
 ## v0.6.39-r1｜2026-10-10｜研究庫接續回讀、TLN跨章獨臂骨兵原文與HiBook韓原小說新入口、末次Tapas同步
 
 - GitHub main 本輪起始 HEAD：[25f6c5e](https://github.com/Secileya/Novel/commit/25f6c5ea4ddf14a2c5cd275a391fee8525908fc7)。該提交只修改 `12_/47`，新增 Tapas 官方漫畫[《20. The 11th Floor》](https://tapas.io/episode/2105454)及[《33. The Demon King Manifests》](https://tapas.io/episode/2178286)篇名／定位；此前 `00_`、`12_/00` 和 CHANGELOG 未記最後增量。本輪補登 **P2_COMIC_TITLE_METADATA**，保留畫格與小說同號對照 **OPEN**。
