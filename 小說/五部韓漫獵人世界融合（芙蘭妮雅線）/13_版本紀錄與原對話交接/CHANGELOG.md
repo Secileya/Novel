@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.27｜2026-10-10｜第1話checkpoint後續讀ORV第2話，精確PARTIAL_PANEL_SEEN
+
+- 新增 `12_原作證據與譯名/30_v0.6.27_ORV官方漫畫第2話開頭連續實讀_PARTIAL_PANEL_SEEN.md`；第1話checkpoint `6eb9e008721a937c88bf38b315f3f249e3f99679` 已經由連結GitHub帳號非強制更新main，fetch核實，檔案樹與本機一致（一般git push缺憑證，未冒稱成功）。
+- 真正在Work官方讀者連續核讀第2話y0～20830：前22圖段完整＋第23段438px；鬼怪全貌／獨子辨識／尚雅只聽稱呼與手機文字分開。明標 `PARTIAL_PANEL_SEEN`，手機描寫不擅自確立TXT身分／取得／首次開啟，後續OPEN。
+- 同步來源索引與研究交接；本批仍只研究文件，不改AU、骨架、正式章、事件佇列或寫作游標。最新研究續點 `READ_ORV_EN_EPISODE_2_VIEWER_NO_3_SEGMENT_23_FROM_OFFSET_438_WITH_OVERLAP_AT_DOCUMENT_Y_19894`。
+
 ## v0.6.26｜2026-10-10｜ORV官方英文第1話完整PANEL_SEEN、嗨皮首頁502實測、正式小說分層
 
 - 新研究 `12_原作證據與譯名/29_v0.6.26_ORV官方漫畫第1話逐格實讀_嗨皮502與小說媒介分層.md`：Work雲端第一個操作實開嗨皮首頁並重載一次，分記首頁不可用、可見502／Connection refused、未見真人驗證／地區限制文案及其他障礙不可評估。
