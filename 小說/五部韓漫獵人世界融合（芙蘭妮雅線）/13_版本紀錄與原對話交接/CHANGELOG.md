@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.6.38｜2026-10-10｜五作讀者討論來源核查
+
+新增[12_/46 原始論壇討論來源與P3界線](../12_原作證據與譯名/46_v0.6.38_五作Reddit原始討論交叉研究_讀者爭點_原著媒介差與第一卷寫作防線.md)。查閱五作 Reddit 討論串，釐清小說／漫畫／動畫版本及不同讀者觀點；這些留言不代替正式原著。TLN論壇Lefty與官英小說Right有未決差異。同步研究索引、人物與交接；正文、設定與寫作游標不變。
+
 ## v0.6.37｜2026-10-10｜從Wuxiaworld Lite官方目錄破解「直連讀不到」誤判：SSS47與PWCLU22/23/26正版公開Teaser
 
 - 新建[12_/45 Wuxiaworld Lite逐章正式來源與時間/人物/技能驗收](../12_原作證據與譯名/45_v0.6.37_Wuxiaworld_Lite官方逐章反查_SSS47與PWCLU22_23_26解封_塔祝福_職業偵測與日程.md)。**用官方目錄逐章點擊**取代直接open失敗頁：從 [SSS官方Lite目錄](https://lite.wuxiaworld.com/novel/sss-class-revival-hunter)成功讀到[SSS47官方開段](https://lite.wuxiaworld.com/novel/sss-class-revival-hunter/sss-chapter-47)，以及[PWCLU官方Lite目錄](https://lite.wuxiaworld.com/novel/player-who-cant-level-up)的[22](https://lite.wuxiaworld.com/novel/player-who-cant-level-up/pwclu-chapter-22)/[23](https://lite.wuxiaworld.com/novel/player-who-cant-level-up/pwclu-chapter-23)/[26](https://lite.wuxiaworld.com/novel/player-who-cant-level-up/pwclu-chapter-26)節錄。**將四章由`OFFICIAL_CATALOG_ONLY`糾正成`P1_OFFICIAL_TEASER_VISIBLE`**，中途省略號截斷所以仍非全章P0。
