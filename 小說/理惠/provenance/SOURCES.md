@@ -1,0 +1,38 @@
+# 來源與證據邊界
+
+## S1｜Lunar Talk
+
+- URL：`https://lunatalk.ai/pages/chat/chat?roleId=8e162208-2295-4e4b-962c-f8a4651e1267`
+- 擷取結果：437 則，AI 221、使用者 215、系統 1。
+- 來源檔：`raw/lunartalk/messages.json`、`raw/lunartalk/transcript.md`。
+- 限制：網站沒有在此次擷取中暴露每則牆鐘時間；擷取時將訊息內換行壓成空格。
+
+## S2｜Codex 本串
+
+- 本機 thread／rollout：`01a1019a-a4db-7733-bcb8-7cf2f63996da`。
+- 來源檔：`raw/codex/messages.json`、`raw/codex/transcript.md`。
+- 範圍：開串到 2026-10-11 本次建檔要求；只列使用者與助理訊息，工具輸出不當成人物對話。
+- `origin` 會區分使用者原文、附件、環境資料、外部應用事件與引用對話預覽，避免把自動附加內容誤當成使用者指令。
+
+## S3｜ChatGPT「理惠」
+
+- URL：`https://chatgpt.com/g/g-p-6aaf4192d97c819189eb7041c0a89a8f-da-shuo/c/6ac0fddd-1714-83ee-abe3-4b0de66aadd8`
+- 對話 ID：`6ac0fddd-1714-83ee-abe3-4b0de66aadd8`。
+- 本次取得：最新頁面批次 56 個節點；`has_previous_page: true`。
+- 來源檔：`raw/chatgpt/latest-visible-batch.json`、`raw/chatgpt/transcript-latest-visible.md`。
+- 限制：最初擷取曾卡在載入較早訊息；後續瀏覽讀取尚未完整落檔及後修稽核。此處56節點為已保存快照，不代表目前瀏覽畫面或整段歷史。
+
+## S4｜本機完整圖庫
+
+- 來源：使用者本機 197 張 WebP，原編號 001–197。
+- 來源 ID：`IMG-LOCAL-197`，詳細紀錄見 [IMAGE_SOURCES.md](IMAGE_SOURCES.md)。
+- 原檔：`assets/images/original/`，全部與來源雜湊一致。
+- 解讀：`assets/images/annotations.tsv`、`assets/images/catalog.json` 與 `assets/images/analysis/001.md`–`197.md`。
+- 隔離：其他角色範例未收錄；圖像素材不自動成為故事事件。
+
+## 證據使用原則
+
+- raw 是來源證據，不等於每一句都有效正典。
+- `dialogue/` 是依後修規則篩選後的有效人物對話。
+- `canon/` 是由有效對話推導的狀態、規則與索引。
+- 使用者當前明確補充可建立待回收項，但原句缺失時必須標示 `source_gap`。
