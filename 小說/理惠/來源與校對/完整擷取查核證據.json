@@ -1,0 +1,264 @@
+{
+  "capture_marker": "RIE_FINAL_CAPTURE_PROOF_20261012",
+  "source_url": "https://chatgpt.com/g/g-p-6aaf4192d97c819189eb7041c0a89a8f-da-shuo/c/6ac0fddd-1714-83ee-abe3-4b0de66aadd8",
+  "unique_ids": 1000,
+  "first_user_id": "c7e645b1-ae9f-40a6-a80c-f6b8e6e0e78c",
+  "last_user_id": "63cc0bb1-5f38-4f35-b021-f1847387a650",
+  "last_assistant_id": "a6c96d51-f06e-4456-88a2-e931f58722af",
+  "last_turn_index": 506,
+  "endpoint_scroll_top": 0.800000011920929,
+  "missing_assistant_checks": [
+    {
+      "turn": 481,
+      "observed_keys": [
+        "fallback-turn-480:0:user",
+        "fallback-turn-481:0:user",
+        "fallback-turn-482:0:user",
+        "fallback-turn-482:2:assistant",
+        "fallback-turn-483:0:user",
+        "fallback-turn-483:2:assistant",
+        "fallback-turn-484:0:user",
+        "fallback-turn-484:2:assistant",
+        "fallback-turn-485:0:user",
+        "fallback-turn-485:2:assistant",
+        "fallback-turn-486:0:user",
+        "fallback-turn-486:2:assistant",
+        "fallback-turn-487:0:user",
+        "fallback-turn-487:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:21:33.558Z"
+    },
+    {
+      "turn": 480,
+      "observed_keys": [
+        "fallback-turn-478:0:user",
+        "fallback-turn-478:2:assistant",
+        "fallback-turn-479:0:user",
+        "fallback-turn-479:2:assistant",
+        "fallback-turn-480:0:user",
+        "fallback-turn-481:0:user",
+        "fallback-turn-482:0:user",
+        "fallback-turn-482:2:assistant",
+        "fallback-turn-483:0:user",
+        "fallback-turn-483:2:assistant",
+        "fallback-turn-484:0:user",
+        "fallback-turn-484:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:21:34.560Z"
+    },
+    {
+      "turn": 462,
+      "observed_keys": [
+        "fallback-turn-461:0:user",
+        "fallback-turn-461:2:assistant",
+        "fallback-turn-462:0:user",
+        "fallback-turn-463:0:user",
+        "fallback-turn-463:2:assistant",
+        "fallback-turn-464:0:user",
+        "fallback-turn-464:2:assistant",
+        "fallback-turn-465:0:user",
+        "fallback-turn-465:2:assistant",
+        "fallback-turn-466:0:user",
+        "fallback-turn-466:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:21:38.888Z"
+    },
+    {
+      "turn": 453,
+      "observed_keys": [
+        "fallback-turn-452:0:user",
+        "fallback-turn-452:3:assistant",
+        "fallback-turn-453:0:user",
+        "fallback-turn-454:0:user",
+        "fallback-turn-454:2:assistant",
+        "fallback-turn-455:0:user",
+        "fallback-turn-455:3:assistant",
+        "fallback-turn-456:0:user",
+        "fallback-turn-456:2:assistant",
+        "fallback-turn-457:0:user",
+        "fallback-turn-457:4:assistant"
+      ],
+      "observed_at": "2026-10-11T22:21:42.845Z"
+    },
+    {
+      "turn": 429,
+      "observed_keys": [
+        "fallback-turn-428:0:user",
+        "fallback-turn-428:3:assistant",
+        "fallback-turn-429:0:user",
+        "fallback-turn-430:0:user",
+        "fallback-turn-430:3:assistant",
+        "fallback-turn-431:0:user",
+        "fallback-turn-431:3:assistant",
+        "fallback-turn-432:0:user",
+        "fallback-turn-432:3:assistant",
+        "fallback-turn-433:0:user",
+        "fallback-turn-433:2:assistant",
+        "fallback-turn-434:0:user",
+        "fallback-turn-434:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:21:51.552Z"
+    },
+    {
+      "turn": 369,
+      "observed_keys": [
+        "fallback-turn-368:0:user",
+        "fallback-turn-368:2:assistant",
+        "fallback-turn-369:0:user",
+        "fallback-turn-370:0:user",
+        "fallback-turn-370:2:assistant",
+        "fallback-turn-371:0:user",
+        "fallback-turn-371:2:assistant",
+        "fallback-turn-372:0:user",
+        "fallback-turn-372:2:assistant",
+        "fallback-turn-373:0:user",
+        "fallback-turn-373:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:26:00.779Z"
+    },
+    {
+      "turn": 328,
+      "observed_keys": [
+        "fallback-turn-327:0:user",
+        "fallback-turn-327:2:assistant",
+        "fallback-turn-328:0:user",
+        "fallback-turn-329:0:user",
+        "fallback-turn-329:2:assistant",
+        "fallback-turn-330:0:user",
+        "fallback-turn-330:2:assistant",
+        "fallback-turn-331:0:user",
+        "fallback-turn-331:2:assistant",
+        "fallback-turn-332:0:user",
+        "fallback-turn-332:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:26:19.750Z"
+    },
+    {
+      "turn": 294,
+      "observed_keys": [
+        "fallback-turn-293:0:user",
+        "fallback-turn-293:2:assistant",
+        "fallback-turn-294:0:user",
+        "fallback-turn-295:0:user",
+        "fallback-turn-295:2:assistant",
+        "fallback-turn-296:0:user",
+        "fallback-turn-296:2:assistant",
+        "fallback-turn-297:0:user",
+        "fallback-turn-297:2:assistant",
+        "fallback-turn-298:0:user",
+        "fallback-turn-298:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:26:46.651Z"
+    },
+    {
+      "turn": 195,
+      "observed_keys": [
+        "fallback-turn-194:0:user",
+        "fallback-turn-194:2:assistant",
+        "fallback-turn-195:0:user",
+        "fallback-turn-196:0:user",
+        "fallback-turn-196:2:assistant",
+        "fallback-turn-197:0:user",
+        "fallback-turn-197:2:assistant",
+        "fallback-turn-198:0:user",
+        "fallback-turn-198:2:assistant",
+        "fallback-turn-199:0:user",
+        "fallback-turn-199:3:assistant"
+      ],
+      "observed_at": "2026-10-11T22:27:21.041Z"
+    },
+    {
+      "turn": 171,
+      "observed_keys": [
+        "fallback-turn-170:0:user",
+        "fallback-turn-170:2:assistant",
+        "fallback-turn-171:0:user",
+        "fallback-turn-172:0:user",
+        "fallback-turn-172:2:assistant",
+        "fallback-turn-173:0:user",
+        "fallback-turn-173:2:assistant",
+        "fallback-turn-174:0:user",
+        "fallback-turn-174:2:assistant",
+        "fallback-turn-175:0:user",
+        "fallback-turn-175:3:assistant"
+      ],
+      "observed_at": "2026-10-11T22:27:47.965Z"
+    },
+    {
+      "turn": 122,
+      "observed_keys": [
+        "fallback-turn-121:0:user",
+        "fallback-turn-121:2:assistant",
+        "fallback-turn-122:0:user",
+        "fallback-turn-123:0:user",
+        "fallback-turn-123:2:assistant",
+        "fallback-turn-124:0:user",
+        "fallback-turn-124:2:assistant",
+        "fallback-turn-125:0:user",
+        "fallback-turn-125:2:assistant",
+        "fallback-turn-126:0:user",
+        "fallback-turn-126:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:28:03.413Z"
+    },
+    {
+      "turn": 101,
+      "observed_keys": [
+        "fallback-turn-100:0:user",
+        "fallback-turn-100:2:assistant",
+        "fallback-turn-101:0:user",
+        "fallback-turn-102:0:user",
+        "fallback-turn-102:2:assistant",
+        "fallback-turn-103:0:user",
+        "fallback-turn-103:2:assistant",
+        "fallback-turn-104:0:user",
+        "fallback-turn-104:2:assistant",
+        "fallback-turn-105:0:user",
+        "fallback-turn-105:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:28:08.265Z"
+    },
+    {
+      "turn": 84,
+      "observed_keys": [
+        "fallback-turn-83:0:user",
+        "fallback-turn-83:2:assistant",
+        "fallback-turn-84:0:user",
+        "fallback-turn-85:0:user",
+        "fallback-turn-85:2:assistant",
+        "fallback-turn-86:0:user",
+        "fallback-turn-86:2:assistant",
+        "fallback-turn-87:0:user",
+        "fallback-turn-87:2:assistant",
+        "fallback-turn-88:0:user",
+        "fallback-turn-88:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:28:12.703Z"
+    },
+    {
+      "turn": 1,
+      "observed_keys": [
+        "fallback-turn-0:0:user",
+        "fallback-turn-0:2:assistant",
+        "fallback-turn-1:0:user",
+        "fallback-turn-2:0:user",
+        "fallback-turn-2:2:assistant",
+        "fallback-turn-3:0:user",
+        "fallback-turn-3:2:assistant",
+        "fallback-turn-4:0:user",
+        "fallback-turn-4:2:assistant",
+        "fallback-turn-5:0:user",
+        "fallback-turn-5:2:assistant",
+        "fallback-turn-6:0:user",
+        "fallback-turn-6:2:assistant"
+      ],
+      "observed_at": "2026-10-11T22:28:56.763Z"
+    }
+  ],
+  "revisit_folded_turns": [
+    124,
+    434
+  ],
+  "note": "回查時重折疊，不覆蓋先前已展開觀察；合併優先選擇完整展開版。附件內文與未選分支不在DOM全文範圍。",
+  "observed_at": "2026-10-11T22:29:37.392Z"
+}

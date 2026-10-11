@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-10-11T14:59:03.5640010+08:00",
+  "generated_at": "2026-10-11T22:53:07.281Z",
   "source_rollout": "C:\\Users\\User\\.codex\\sessions\\2026\\10\\03\\rollout-2026-10-03T19-51-14-01a1019a-a4db-7733-bcb8-7cf2f63996da.jsonl",
   "source_sha256": "71a6105932f3e31cd53281720e674d2fbb6f6e8d4bee5c089122d036b5731bdb",
+  "source_sha256_scope": "歷史擷取時的Codex紀錄校驗碼；最新完整ChatGPT逐則檔校驗碼見chatgpt_complete，不冒稱此歷史值仍代表目前整個工作紀錄。",
   "lunatalk_messages": 437,
   "codex_messages": 77,
-  "chatgpt_batch_nodes": 56
+  "chatgpt_batch_nodes": 56,
+  "historical_snapshot": {
+    "generated_at": "2026-10-11T14:59:03.5640010+08:00",
+    "source_sha256": "71a6105932f3e31cd53281720e674d2fbb6f6e8d4bee5c089122d036b5731bdb",
+    "chatgpt_batch_nodes": 56
+  },
+  "chatgpt_complete": {
+    "status": "COMPLETE_VISIBLE_SELECTED_BRANCH_TEXT",
+    "batches": 46,
+    "messages": 1000,
+    "user_messages": 507,
+    "assistant_messages": 493,
+    "text_characters": 539333,
+    "source": "原始對話/ChatGPT對話/逐則原始訊息.json",
+    "source_sha256": "97208a0b4107f142d78716bce61f659a6dbde72d95b5cde49e32b86ff86f5ee4",
+    "proof": "來源與校對/完整擷取查核證據.json",
+    "limits": [
+      "附件內文／像素未自動取得",
+      "未選分支／已刪訊息未取得"
+    ]
+  },
+  "canonical_events": 38,
+  "old_entry_redirects": 2
 }

@@ -26,7 +26,7 @@ def main():
             assert target == (root / entry["relative_path"]).resolve(), f"Wrong embed target: {entry['asset_id']}"
             assert target.is_file()
     actual_embeds = 0
-    files = list((root / "正文").glob("*.md")) + list((root / "圖庫").rglob("*.md"))
+    files = list((root / "正文").rglob("*.md")) + list((root / "圖庫").rglob("*.md")) + list((root / "分日對話").rglob("*.md"))
     for path in files:
         text = path.read_text(encoding="utf-8-sig")
         text = re.sub(r"```[^\n]*\n.*?```", "", text, flags=re.S)
@@ -40,9 +40,10 @@ def main():
     for item in usage:
         entry = lookup[item["asset_id"]]
         text = (root / item["document"]).read_text(encoding="utf-8-sig")
-        assert entry["markdown_embed_from_prose"] in text
+        targets = re.findall(r"!\[[^\]]*\]\(([^)]+)\)", text)
+        assert any((root / item["document"]).parent.joinpath(unquote(target)).resolve() == (root / entry["relative_path"]).resolve() for target in targets)
         assert item["canon_effect"] == "NONE"
-    assert actual_embeds == 395, f"Expected 197 gallery + 197 analysis + 1 prose embed, got {actual_embeds}"
+    assert actual_embeds == 399, f"Expected 197 gallery + 197 analysis + 1 demo + 4 new prose/dialogue embeds, got {actual_embeds}"
     print(f"OK: 197 snippet targets verified; {actual_embeds} actual Markdown image links exist; prose usage IDs match.")
 
 

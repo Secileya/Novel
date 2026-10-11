@@ -1,0 +1,33 @@
+{
+  "status": "COMPLETE_VISIBLE_SELECTED_BRANCH_TEXT",
+  "batches": 46,
+  "unique_messages": 1000,
+  "user_messages": 507,
+  "assistant_messages": 493,
+  "first_turn": 0,
+  "last_turn": 506,
+  "total_text_characters": 539333,
+  "folded_messages": 0,
+  "source_url": "https://chatgpt.com/g/g-p-6aaf4192d97c819189eb7041c0a89a8f-da-shuo/c/6ac0fddd-1714-83ee-abe3-4b0de66aadd8",
+  "missing_assistant_turns": [
+    1,
+    84,
+    101,
+    122,
+    171,
+    195,
+    294,
+    328,
+    369,
+    429,
+    453,
+    462,
+    480,
+    481
+  ],
+  "limitations": [
+    "開頭702行附件內文未由DOM取得",
+    "空白訊息保留附件標籤，未宣稱下載原附件",
+    "未選分支／已刪除訊息不在本次可見範圍"
+  ]
+}

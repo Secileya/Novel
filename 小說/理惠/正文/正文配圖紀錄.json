@@ -3,9 +3,30 @@
     "document": "正文/00_嵌圖示範.md",
     "asset_id": "SR-IMG-034",
     "event_id": "SR-D03-E01",
-    "source_ids": ["LT-0391", "LT-0392"],
+    "source_ids": [
+      "LT-0391",
+      "LT-0392"
+    ],
     "use": "POSE_REFERENCE_ONLY",
     "canon_effect": "NONE",
     "note": "摸頭／抬眼姿態示範；不改動衣物、被子或原始對話。"
+  },
+  {
+    "document": "正文/第五天/13_實驗獎勵與明天繼續習慣.md",
+    "event": "第五天/13_實驗獎勵與明天繼續習慣.md",
+    "source_turn": 435,
+    "asset_id": "SR-IMG-011",
+    "anchor": "掌心僵在那裡。",
+    "usage": "表情／姿態參考，非事件證據",
+    "canon_effect": "NONE"
+  },
+  {
+    "document": "正文/第五天/13_實驗獎勵與明天繼續習慣.md",
+    "event": "第五天/13_實驗獎勵與明天繼續習慣.md",
+    "source_turn": 435,
+    "asset_id": "SR-IMG-031",
+    "anchor": "第二下甚至比第一下多停了一會兒。",
+    "usage": "表情／姿態參考，非事件證據",
+    "canon_effect": "NONE"
   }
 ]
