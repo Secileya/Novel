@@ -37,13 +37,24 @@ def main():
             assert (path.parent / unquote(target)).resolve().is_file(), f"Broken inline image: {path} {target}"
             actual_embeds += 1
     usage = json.loads((root / "正文/正文配圖紀錄.json").read_text(encoding="utf-8-sig"))
+    expected_prose_embeds = 0
     for item in usage:
         entry = lookup[item["asset_id"]]
-        text = (root / item["document"]).read_text(encoding="utf-8-sig")
-        targets = re.findall(r"!\[[^\]]*\]\(([^)]+)\)", text)
-        assert any((root / item["document"]).parent.joinpath(unquote(target)).resolve() == (root / entry["relative_path"]).resolve() for target in targets)
+        for document in [item["document"], *item.get("mirror_documents", [])]:
+            text = (root / document).read_text(encoding="utf-8-sig")
+            targets = re.findall(r"!\[[^\]]*\]\(([^)]+)\)", text)
+            matches = [target for target in targets if (root / document).parent.joinpath(unquote(target)).resolve() == (root / entry["relative_path"]).resolve()]
+            assert len(matches) == 1, f"Missing or duplicate logged image: {document} {item['asset_id']}"
+            expected_prose_embeds += 1
         assert item["canon_effect"] == "NONE"
-    assert actual_embeds == 399, f"Expected 197 gallery + 197 analysis + 1 demo + 4 new prose/dialogue embeds, got {actual_embeds}"
+    latest_path = "第五天/13_實驗獎勵與明天繼續習慣.md"
+    for section in ("正文", "分日對話"):
+        text = (root / section / latest_path).read_text(encoding="utf-8-sig")
+        ids = re.findall(r"!\[理惠｜(SR-IMG-\d{3})[^\]]*\]", text)
+        assert ids == ["SR-IMG-011", "SR-IMG-031", "SR-IMG-030"], f"Latest source-image sequence lost: {section} {ids}"
+        assert re.search(r"只是緊緊貼著。\s+!\[理惠｜SR-IMG-030", text), "030 placement differs from source screenshot"
+    expected_total = 197 * 2 + expected_prose_embeds
+    assert actual_embeds == expected_total, f"Expected {expected_total} catalog and logged prose images, got {actual_embeds}"
     print(f"OK: 197 snippet targets verified; {actual_embeds} actual Markdown image links exist; prose usage IDs match.")
 
 

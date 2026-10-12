@@ -48,7 +48,7 @@ foreach ($number in 109..197) {
     $entry = $catalog | Where-Object number -eq $number
     if ($entry.review_method -ne 'DIRECT_LOCAL_IMAGE_REVIEW') { throw "Missing direct review at $number" }
 }
-foreach ($number in @(29,34,42,45)) {
+foreach ($number in @(29,30,34,42,45)) {
     $entry = $catalog | Where-Object number -eq $number
     if ($entry.review_method -ne 'DIRECT_LOCAL_IMAGE_REVIEW') { throw "Supplemental direct review lost at $number" }
 }

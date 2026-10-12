@@ -128,7 +128,7 @@ foreach ($file in $files) {
         $rating = 'ADULT_SEXUAL'; $ratingLabel = '成人性接觸'
     }
     $category = if ($number -le 20) { '表情' } elseif ($number -le 50) { '居家互動' } elseif ($number -le 74) { '戶外／修復' } elseif ($number -le 78) { '未來情境參考' } elseif ($number -le 108) { '約會場所' } elseif ($number -le 126) { '身體接觸' } elseif ($number -le 163) { '成人親密動作' } elseif ($number -le 187) { '性交姿勢' } elseif ($number -le 191) { '浴室' } else { '休息／事後參考' }
-    $directReview = $number -ge 109 -or $number -in @(29,34,42,45)
+    $directReview = $number -ge 109 -or $number -in @(29,30,34,42,45)
     $reviewMethod = if ($directReview) { 'DIRECT_LOCAL_IMAGE_REVIEW' } else { 'INHERITED_REVIEW_WITH_NUMBER_CHECK' }
     $reviewLabel = if ($directReview) { '本次直接開啟本機原圖核對。' } else { '沿用前次已讀圖像解讀與編號核對；不是本批逐張重新開圖。' }
     $hash = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
