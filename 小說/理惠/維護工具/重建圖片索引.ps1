@@ -12,6 +12,15 @@ $utf8 = [System.Text.UTF8Encoding]::new($false)
 $storedNameMap = @{ '047_Gyaru_Peace.webp' = '047_雙手比耶.webp'; '086_KTV約會.webp' = '086_唱歌約會.webp' }
 $sourceNameMap = @{ '047_雙手比耶.webp' = '047_Gyaru_Peace.webp'; '086_唱歌約會.webp' = '086_KTV約會.webp' }
 
+# 本工具會讀圖片二進位與重算雜湊；一般配圖／純文字維護不得執行。
+# 已授權並另行保存的細節必須保留。文字更新用「同步成人圖像細節.mjs」。
+$detailReviewMap = @{}
+$detailReviewPath = Join-Path $root '來源與校對/成人圖像細節複核.json'
+if (Test-Path -LiteralPath $detailReviewPath) {
+    $detailJournal = Get-Content -Raw -Encoding utf8 -LiteralPath $detailReviewPath | ConvertFrom-Json
+    foreach ($review in $detailJournal.reviews) { $detailReviewMap[[int]$review.number] = $review }
+}
+
 function Write-GeneratedText([string]$Path, [string]$Content) {
     [System.IO.File]::WriteAllText($Path, $Content.Replace("`r`n", "`n") + "`n", $utf8)
 }
@@ -100,6 +109,7 @@ $index.Add('')
 $index.Add('197 張原檔按原編號排列。這是素材庫，不是已發生的故事清單。成人項目有清楚標示；點「解讀」查看畫面記錄、推論、限制與原圖。')
 $index.Add('')
 $index.Add('[使用規則](閱讀指南.md) · [全部圖片預覽](全部圖片預覽.md) · [選圖參考](寫作選圖參考.md) · [結構化索引](圖片資料索引.json)')
+if ($detailReviewMap.Count -gt 0) { $index.Add('[成人反應與姿態細節](成人圖像反應與姿態索引.md)') }
 $index.Add('')
 $index.Add('| 編號 | 原檔名／原圖 | 內容分類 | 畫面記錄 | 檔名檢核 | 解讀 |')
 $index.Add('|---|---|---|---|---|---|')
@@ -108,6 +118,7 @@ $gallery.Add('')
 $gallery.Add('共 197 張，保留原始檔案，沒有調色、裁切、重畫或另加遮罩。成人項目及其他圖片均以可展開區塊排列。原圖可能本來就含遮罩。')
 $gallery.Add('')
 $gallery.Add('[索引](圖片索引.md) · [使用規則](閱讀指南.md)')
+if ($detailReviewMap.Count -gt 0) { $gallery.Add('[成人反應與姿態細節](成人圖像反應與姿態索引.md)') }
 $gallery.Add('')
 
 foreach ($file in $files) {
@@ -172,6 +183,12 @@ foreach ($file in $files) {
         review_method = $reviewMethod
         provenance_id = 'IMG-LOCAL-197'
     }
+    if ($detailReviewMap.ContainsKey($number)) {
+        $detail = [ordered]@{}
+        foreach ($property in $detailReviewMap[$number].PSObject.Properties) { $detail[$property.Name] = $property.Value }
+        $detail['provenance_id'] = 'IMG-DETAIL-20261012'
+        $entry['detailed_review'] = $detail
+    }
     $catalog.Add($entry)
     $index.Add("| $padded | [$($file.Name)]($imageLink) | $ratingLabel | $($row.visible) | $($row.filename_assessment) | [解讀]($analysisLink) |")
     $gallery.Add('<details>')
@@ -216,6 +233,19 @@ foreach ($file in $files) {
         "圖像索引：[$id]($githubAnalysisUrl)", '```', '',
         '[回到圖像索引](../圖片索引.md)'
     ) -join "`n"
+    if ($detailReviewMap.ContainsKey($number)) {
+        $review = $detailReviewMap[$number]
+        $detailSection = @(
+            '## 可見反應與姿態細節（2026-10-12複核）', '',
+            "- 可見反應：$($review.visible_reaction)",
+            "- 姿態與物件：$($review.pose_and_object_detail)",
+            "- 條件式解讀：$($review.contextual_reading)",
+            "- 補充限制：$($review.additional_limits)",
+            '- 來源：本輪依使用者另行授權直接查看此編號本機圖像；不驗證歷史尺寸、大小或雜湊。',
+            '- [本輪複核記錄](../../來源與校對/成人圖像細節複核.json) · [反應與姿態索引](../成人圖像反應與姿態索引.md)', '', ''
+        ) -join "`n"
+        $analysis = $analysis.Replace('## 可用解讀／選圖用途', $detailSection + '## 可用解讀／選圖用途')
+    }
     Write-GeneratedText (Join-Path $analysisDirectory $analysisFilename) $analysis
 }
 
