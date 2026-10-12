@@ -44,7 +44,11 @@ for (const entry of catalog) {
   assert.equal(review.asset_id, entry.asset_id);
   assert.equal(entry.detailed_review.provenance_id, 'IMG-DETAIL-20261012');
   for (const [key, value] of Object.entries(review)) {
-    assert.equal(entry.detailed_review[key], value, `${entry.asset_id} ${key}`);
+    assert.deepEqual(entry.detailed_review[key], value, `${entry.asset_id} ${key}`);
+  }
+  if (review.interpretation_revision) {
+    assert.equal(review.interpretation_revision.method, 'USER_EXPRESSION_REFINEMENT_NOT_NEW_VISUAL_REVIEW');
+    assert.ok(analysis.includes(review.interpretation_revision.source), `表情補訂來源未同步：${entry.asset_id}`);
   }
   for (const key of ['visible_reaction', 'pose_and_object_detail', 'contextual_reading', 'additional_limits']) {
     assert.ok(review[key].length > 0);
