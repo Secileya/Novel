@@ -1,0 +1,24 @@
+name: 理惠正式篇章防重複
+on:
+  push:
+    paths:
+      - '小說/理惠/**'
+      - '.github/workflows/理惠正式篇章防重複.yml'
+  pull_request:
+    paths:
+      - '小說/理惠/**'
+      - '.github/workflows/理惠正式篇章防重複.yml'
+permissions:
+  contents: read
+jobs:
+  unique-canon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Test duplicate chapter guard
+        run: node 小說/理惠/維護工具/測試正式篇章唯一性.mjs
+      - name: Check canonical chapter uniqueness
+        run: node 小說/理惠/維護工具/檢查正式篇章唯一性.mjs

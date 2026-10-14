@@ -1,0 +1,30 @@
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+const checker=path.join(path.dirname(fileURLToPath(import.meta.url)),'檢查正式篇章唯一性.mjs');
+const root=fs.mkdtempSync(path.join(os.tmpdir(),'rihui-guard-'));
+const write=(p,s)=>{const f=path.join(root,p);fs.mkdirSync(path.dirname(f),{recursive:true});fs.writeFileSync(f,s)};
+const story=s=>'# '+s+'\n\n【日期時間】\n第三天・夜晚\n'+s+'\n';
+const entries=[{day:'第五天',path:'第五天/21_前篇.md'},{day:'第五天',path:'第五天/22_正式.md'}];
+const run=()=>spawnSync(process.execPath,[checker,'--root',root],{encoding:'utf8'});
+const good=label=>{const r=run();assert.equal(r.status,0,label+': '+r.stderr)};
+const bad=(label,msg)=>{const r=run();assert.notEqual(r.status,0,label);assert(r.stderr.includes(msg),r.stderr)};
+try {
+ write('正文/事件閱讀順序.json',JSON.stringify(entries));
+ write('正文/第五天/21_前篇.md',story('前篇'));
+ write('正文/第五天/22_正式.md',story('正式'));
+ write('分日對話/第五天/22_正式.md',story('正式'));
+ write('人物設定/目前人物狀態.md','現行 22_正式.md');
+ good('有效事件');
+ write('正文/第五天/22_另一篇.md',story('另一篇'));bad('重複篇號','未列入索引');fs.rmSync(path.join(root,'正文/第五天/22_另一篇.md'));
+ write('正文/第五天/23_未登錄.md',story('23'));bad('未登錄','未列入索引');fs.rmSync(path.join(root,'正文/第五天/23_未登錄.md'));
+ write('分日對話/第五天/22_重複鏡像.md',story('重複'));bad('分日重複','分日鏡像重複');fs.rmSync(path.join(root,'分日對話/第五天/22_重複鏡像.md'));
+ write('正文/事件閱讀順序.json',JSON.stringify([...entries,{day:'第五天',path:'第五天/22_另一篇.md'}]));bad('索引重複','同日同號索引衝突');
+ write('正文/事件閱讀順序.json',JSON.stringify(entries));
+ write('分日對話/第五天/22_正式.md',story('不同內容'));bad('鏡像不一致','鏡像內容不一致');
+ write('分日對話/第五天/22_正式.md',story('正式'));good('恢復');
+ console.log('OK：正常、重複篇號、未登錄、分日重複、索引重複與鏡像不一致測試通過');
+} finally {fs.rmSync(root,{recursive:true,force:true})}
