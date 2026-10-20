@@ -1,0 +1,121 @@
+{
+  "schema": "reconstructed_chat_V0.2",
+  "date": "2026-10-21",
+  "authority": "AUTHOR_CANDIDATE_NONCANON",
+  "provenance": "根據本對話已展示的V0.2候選示意做文字／相對輪廓重建，並非原圖逐像素拷貝",
+  "world": "W01",
+  "worldName": "肋海廣域",
+  "regions": [
+    {
+      "id": "R01",
+      "name": "高肋外緣",
+      "description": "主肋、高廊、大空域",
+      "centroid_diagram_only": [
+        374,
+        126
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R02",
+      "name": "巨拱陸灣",
+      "description": "拱壁、坡地、居民",
+      "centroid_diagram_only": [
+        153,
+        240
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R03",
+      "name": "斜脊城山",
+      "description": "多代城市、斜梁",
+      "centroid_diagram_only": [
+        392,
+        279
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R04",
+      "name": "高懸械林",
+      "description": "吊柱、機關、鋼骨",
+      "centroid_diagram_only": [
+        645,
+        246
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R05",
+      "name": "海盆濱岸",
+      "description": "港岸、河口、生活",
+      "centroid_diagram_only": [
+        165,
+        424
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R06",
+      "name": "內海汐域",
+      "description": "海域、島嶼、航線",
+      "centroid_diagram_only": [
+        191,
+        583
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R07",
+      "name": "複生曲殼",
+      "description": "生態、副殼、聚居",
+      "centroid_diagram_only": [
+        418,
+        479
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R08",
+      "name": "沉積低谷",
+      "description": "殘構、沉積、深路",
+      "centroid_diagram_only": [
+        646,
+        522
+      ],
+      "authority": "CANDIDATE"
+    },
+    {
+      "id": "R09",
+      "name": "未測外緣",
+      "description": "未知大域",
+      "centroid_diagram_only": [
+        669,
+        91
+      ],
+      "authority": "CANDIDATE"
+    }
+  ],
+  "zoom": {
+    "region": "R04",
+    "name": "高懸械林",
+    "local_facility": "E01",
+    "facility_type": "候選局部升降井",
+    "levels": [
+      "上部檢修架",
+      "工務橋廊",
+      "居民／維修插層",
+      "下部沉積設備",
+      "舊維修腹腔"
+    ],
+    "transport_working": null,
+    "connected_world_boundary": null
+  },
+  "positions": {
+    "novel_current_world": null,
+    "starting_location": null,
+    "b_opening_same_as_W01": null
+  },
+  "links_warning": "可見位置與區域相近不能當成已核定道路或跨界"
+}
