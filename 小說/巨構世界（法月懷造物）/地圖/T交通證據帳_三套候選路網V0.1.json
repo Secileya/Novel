@@ -1,0 +1,391 @@
+{
+  "schema": "megascale-T-evidence-v0.1",
+  "revision": "2026-10-21",
+  "scope": "AUTHOR_WORKING_HYPOTHESES_NOT_WORLD_CANON",
+  "formal_chapters": 0,
+  "gate": "HOLD",
+  "disclaimer": "本文件不是可操作導航圖；三組路線未互相接線、候選線未經世界內證實",
+  "separates_from": [
+    "巨構導航資料_宏觀V0.3.json",
+    "W01大區R01至R09與R04局部_重建資料V0.2.json"
+  ],
+  "rules_confirmed": [
+    "世界層是宏觀完整分域；層間隔界具有巨大真地理厚度",
+    "S結構連續／目視鄰近／T可達／J接合各自獨立",
+    "去返、運具、法權與角色知情須分別確認",
+    "荒野不必然無人"
+  ],
+  "verification_statuses": [
+    "PROPOSED",
+    "UNSURVEYED",
+    "OBSERVED_LOCAL",
+    "DOCUMENTED_OPS",
+    "CANON_VERIFIED"
+  ],
+  "completed_evidence_levels": [],
+  "local_groups": [
+    {
+      "id": "K01",
+      "source_docs": [
+        123,
+        124
+      ],
+      "world_ids": [
+        "W01",
+        "W02"
+      ],
+      "world_assignment_status": "AUTHOR_CANDIDATE",
+      "route_ids": [
+        "K01-T-A",
+        "K01-T-B",
+        "K01-T-C"
+      ],
+      "connected_to_other_groups": false
+    },
+    {
+      "id": "B_LOCAL",
+      "source_docs": [
+        110,
+        113
+      ],
+      "world_ids": null,
+      "one_world_layer_same_assumption": true,
+      "route_ids": [
+        "B-E01",
+        "B-E02",
+        "B-E03",
+        "B-E04",
+        "B-RETURN"
+      ],
+      "connected_to_other_groups": false
+    },
+    {
+      "id": "ARCH_SEA",
+      "source_docs": [
+        26,
+        34,
+        39,
+        62
+      ],
+      "world_ids": null,
+      "route_ids": [
+        "A-MARKET-PORT",
+        "A-PORT-SUN",
+        "A-MARKET-MOSS",
+        "A-MOSS-SUN"
+      ],
+      "connected_to_other_groups": false
+    },
+    {
+      "id": "W01_R04",
+      "source_docs": [
+        126,
+        127
+      ],
+      "world_ids": [
+        "W01"
+      ],
+      "route_ids": [],
+      "facility_id": "E01",
+      "facility_operational": null,
+      "connected_to_other_groups": false
+    }
+  ],
+  "routes": [
+    {
+      "id": "K01-T-A",
+      "group": "K01",
+      "name": "側肋檢修／商運幹線",
+      "from": "K01_W01_NEARSIDE",
+      "to": "K01_W02_FARSIDE",
+      "through": [
+        "K01_FOLDED_INTERIOR"
+      ],
+      "status": "PROPOSED",
+      "direction_outbound": null,
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第123／124作者假說；雙向只是條件示例"
+    },
+    {
+      "id": "K01-T-B",
+      "group": "K01",
+      "name": "外殼長距繞行",
+      "from": "K01_W01_NEARSIDE",
+      "to": "K01_W02_FARSIDE",
+      "through": [
+        "K01_OUTER_SHELL"
+      ],
+      "status": "PROPOSED",
+      "direction_outbound": null,
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第123／124候選，氣候與補給未知"
+    },
+    {
+      "id": "K01-T-C",
+      "group": "K01",
+      "name": "失修舊殼裂道",
+      "from": "K01_W01_NEARSIDE",
+      "to": "K01_W02_FARSIDE",
+      "through": [
+        "K01_OLD_CRACK"
+      ],
+      "status": "UNSURVEYED",
+      "direction_outbound": null,
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第123／124，連是否連續都未知"
+    },
+    {
+      "id": "B-E01",
+      "group": "B_LOCAL",
+      "name": "L0至E3",
+      "from": "B_L0",
+      "to": "B_E3",
+      "status": "PROPOSED",
+      "estimated_duration": "30–60分鐘（第113作者估計）",
+      "transport": "公共升降／接駁廊假設",
+      "direction_outbound": "L0→E3候選",
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第113 P1非正史"
+    },
+    {
+      "id": "B-E02",
+      "group": "B_LOCAL",
+      "name": "E3至E5",
+      "from": "B_E3",
+      "to": "B_E5",
+      "status": "PROPOSED",
+      "estimated_duration": "2–4小時（第113作者估計）",
+      "transport": "轉接廊／步行或搬運車假設",
+      "direction_outbound": "E3→E5候選",
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第113 P1；古今改接待核"
+    },
+    {
+      "id": "B-E03",
+      "group": "B_LOCAL",
+      "name": "E5至北斜承脊",
+      "from": "B_E5",
+      "to": "B_NORTH_RIDGE",
+      "status": "PROPOSED",
+      "estimated_duration": "約半日（第113作者估計）",
+      "transport": "商運／工務混用假設",
+      "direction_outbound": "E5→北斜候選",
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第113 P1非正史"
+    },
+    {
+      "id": "B-E04",
+      "group": "B_LOCAL",
+      "name": "北斜承脊至L2雨檐埠",
+      "from": "B_NORTH_RIDGE",
+      "to": "B_L2",
+      "status": "PROPOSED",
+      "estimated_duration": "1–3日（第113作者估計）",
+      "transport": "商隊／補給夜宿假設",
+      "direction_outbound": "北斜→L2候選",
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第113 P1非正史"
+    },
+    {
+      "id": "B-RETURN",
+      "group": "B_LOCAL",
+      "name": "現今繞行備用返程",
+      "from": "B_L2",
+      "to": "B_L0",
+      "status": "PROPOSED",
+      "estimated_duration": "2–4日（第113作者估計）",
+      "transport": "另一路商運／站點轉乘假設",
+      "direction_outbound": "L2→L0候選",
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第113 P1；非唐榆歷史S回線"
+    },
+    {
+      "id": "A-MARKET-PORT",
+      "group": "ARCH_SEA",
+      "name": "折索集市至懸潮港",
+      "from": "A_MARKET",
+      "to": "A_PORT",
+      "status": "PROPOSED",
+      "estimated_duration": "6–12日（第062作者估計）",
+      "transport": "貨索／鐵路轉商船假設",
+      "direction_outbound": null,
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第062候選"
+    },
+    {
+      "id": "A-PORT-SUN",
+      "group": "ARCH_SEA",
+      "name": "懸潮港至晴紋城",
+      "from": "A_PORT",
+      "to": "A_SUN_CITY",
+      "status": "PROPOSED",
+      "estimated_duration": "20–40日（第062作者估計）",
+      "transport": "遠洋商路轉軌道假設",
+      "direction_outbound": null,
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第062候選"
+    },
+    {
+      "id": "A-MARKET-MOSS",
+      "group": "ARCH_SEA",
+      "name": "折索集市至苔脊外緣",
+      "from": "A_MARKET",
+      "to": "A_MOSS_EDGE",
+      "status": "PROPOSED",
+      "estimated_duration": "3–6日（第062作者估計）",
+      "transport": "勘路貨車至最後站假設",
+      "direction_outbound": null,
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第062候選"
+    },
+    {
+      "id": "A-MOSS-SUN",
+      "group": "ARCH_SEA",
+      "name": "苔脊深處至晴紋方向舊線",
+      "from": "A_MOSS_DEPTH",
+      "to": "A_SUN_CITY",
+      "status": "UNSURVEYED",
+      "estimated_duration": null,
+      "transport": null,
+      "direction_outbound": null,
+      "direction_return": null,
+      "physical_continuity": null,
+      "passenger_continuity": null,
+      "freight_continuity": null,
+      "service_operating": null,
+      "permit": null,
+      "fare": null,
+      "survey_date": null,
+      "world_crossing_verified": false,
+      "source": "第062舊測線暗示；不是可靠旅客線"
+    }
+  ],
+  "additional_observations": [
+    {
+      "id": "B_HISTORICAL",
+      "label": "唐榆舊E去、舊S回",
+      "status": "PROPOSED",
+      "verified_by_novel": false,
+      "not_same_as": "B-RETURN",
+      "source": "第113歷史作者方案"
+    },
+    {
+      "id": "R04_E01",
+      "label": "W01 R04的E01局部升降構造",
+      "status": "UNSURVEYED",
+      "transport_working": null,
+      "route_to_K01": null,
+      "route_to_B_E3": null,
+      "source": "第127 V0.2圖重建"
+    },
+    {
+      "id": "SPECIAL_TERMINAL",
+      "label": "終焉迴廊",
+      "status": "USER_RULE_CONFIRMED_UNLOCATED",
+      "back_via_original_mechanism_for_ordinary_travelers": false,
+      "location": null,
+      "source": "第049／050與第003，不連普通K路網"
+    }
+  ],
+  "qa": {
+    "total_t_routes": 12,
+    "verified_t_routes": 0,
+    "candidate_route_groups": 3,
+    "confirmed_main_character_location": null,
+    "approved_first_chapter": false
+  }
+}
