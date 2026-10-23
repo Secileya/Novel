@@ -1,0 +1,78 @@
+# 《晨曦》｜原著逐章詳卡／VOID_WITH_CAUSE／事件消耗 Gate v1.0
+
+> 2026-10-23｜**MANDATORY / LATEST_USER_CORRECTION / APPLIES_TO_A_AND_B**  
+> 參照《網遊：重生就是最大的BUG（芙蘭妮雅改寫版）》真正已使用的：`05_原著參考/45_SOURCE_CHAPTER_EVENT_MASTER_SET_100-150.md`、`07_工作流程/07_原著事件消耗與章節內容密度規則.md`、`08_原著事件捕捉母表逐事件驗收硬流程.md`、`09_VOID_WITH_CAUSE功能殘留與角色推理硬門檻.md`、`16_原著客觀結果延後落實與差異公開硬Gate.md`。  
+> 採用**工作方法**，不以跨作品專屬的13,000～18,000中文字或最低消耗5原著章硬數字作為《晨曦》自動新門檻。此線若要額外數值目標由使用者另行確定。
+
+## 1｜「每一張」的最小可驗收單位
+
+每個涉及原著的正式新來源窗口，**逐章、逐場、逐獨立事件**建立卡，而不是一篇「第262～286章提到方城研究基地」。原著同章即使穿插不相關事件也不能略過；不能只因下一正式章尚未需要某人物就刪掉其功能。
+
+SOURCE母表最低欄位：
+
+- `SOURCE_CHAPTER / CHAPTER_TITLE / FULL_TEXT_RANGE`：原著的準確章號與其連續上下文，不可憑小說「第116章」推成原著「第116章」。
+- `EVENT_ID / SCENE_ORDER / TIME_AND_PLACE`：同章每場景／E節點及其前後銜接。
+- `ORIGINAL_ACTION / ORIGINAL_CAUSE / WHO_DECIDED / WHO_INTERVENED`：具體行動、私人動機、參與者、決定與阻止。
+- `OBJECTIVE_OUTCOME / FIRST_LAYER_REACTION`：現場成果、失敗、損失、旁人及制度如何反應。
+- `ASSET_CUSTODY / ECONOMY / RULE_MECHANISM`：所有權來源、時間、價金、交付、實際消耗、技能與適格條件；未發生實際交易不能寫已到手。
+- `KNOWLEDGE_FLOW / INFERRED_NOT_EXPLICIT`：角色的親歷、情報渠道、主觀推測、專業判斷和作者知道的不同。
+- `DOWNSTREAM_FIRST_REUSE / LONG_TERM_DEPENDENCY`：未來首次依賴與跨章後效。
+- `PASS_A_LOCAL_CONTIGUOUS_READ / PASS_B_DOWNSTREAM_READ / REVERSE_PROVENANCE_CHECK`：連讀本事件、後文查用途、前文追實體起點。
+- `SOURCE_EXPLICIT / SOURCE_UNSTATED / SOURCE_INFERENCE / ADAPTATION_OPTIONAL`：原著未寫就永遠不能作原著明示。
+- `REWRITE_CANON_MATCH / SECILEYA_CAUSAL_DELTA`：只以塞希莉雅確實作過的行為和人物第一層反應作合法差分。
+- `FUNCTION_DISPOSITION / CAUSE_PROOF / RESIDUAL_CHILD_EVENTS`：分場景、資產、人物、關係、情報、社會、規則、經濟、長線處理。
+- `RECHECK_TRIGGER / FIRST_REQUIRED_USE / LATEST_SAFE_DEADLINE / RESUME_CURSOR`：無法立即落地須有真正可執行的重檢時機。
+- `A_STATUS / B_ACK / POSTWRITE_PROOF / GIT_COMMIT`：研究完成≠正在施工≠已正式消耗。
+
+**章內一個節點未獲處置，整章不得宣稱已完整消耗。**
+
+## 2｜局部 VOID_WITH_CAUSE 的完整檢查
+
+作廢前逐項寫：
+1. 原著人物原本**為何**作此事？
+2. 《晨曦》是否確實有不同事件**客觀取消了**那個原始前提？具體哪一章、誰出手、何時？
+3. 沒有原著楚河本人，是否仍由塞希莉雅的自身商業性格、已有物資或獨立的晨曦／方城／雙星動機產生等價行動？
+4. 作廢的是：`SCENE / ASSET_ECONOMY / CHARACTER_RELATION / INFORMATION / WORLD_RULE / LONG_TERM`哪個功能？
+5. 其餘功能是否仍可世界背景延續、晚點發生、合法重建、由其他角色接手？
+6. 如果作廢原始事件，最先在後文需要使用那份情報／設備／關係的是誰、何時？如何接上？
+7. 雖然人物不在鏡頭，原住民組織、研究與普通生活是否仍照常運轉？
+8. 若世界中原著動機本就獨立於主角（方城想取得自己的軍備技術），則**主角替換不是充分的VOID理由**。
+
+`VOID_REASON=`必須填本線已發生具體因果，不能填「主角換了」「這段很無聊」「原著沒有鋪」「要給角色更多戲份」。  
+`VOID_SCENE != VOID_WORLD_ASSET_RELATION`；未處理的殘留應各自回到active queue。
+
+## 3｜原著「沒寫」的場景：來源不可偷渡
+
+**`SOURCE_UNSTATED`與新創冒險是兩件不同的事。**
+
+原著CH276：找到大門，無卡未能開；CH278：交付位置；CH280：方城買卡並簡述開門研究；CH294～295：遠端感知外骨骼和青年。沒有SOURCE能構成「必須有地下21m升降台＋第二門＋低溫／生物材料設施」。因此：
+- 禁止從「還沒寫基地裡面」推成可任意補多層地城；
+- 不為湊章字數、拉長懸念或「研究基地聽起來精彩」而憑空擴充；
+- 已有超出原著場景要先交**塞希莉雅因果證明單**；證不成就列RETRO重寫；
+- 本線已成立的其他人際、商業、通信、真正劇情後果只局部修復，不因一條基地線失當整包刪除。
+
+## 4｜事件消耗：計算「真正關閉多少原著責任」
+
+分離四種：
+- `SOURCE_READ_CURSOR`：實際讀到哪。
+- `SOURCE_CAPTURE_CURSOR`：逐章已拆卡到哪。
+- `SOURCE_EVENT_DISPOSITION_CURSOR`：每張卡的功能被分配到哪。
+- `SOURCE_EVENT_CONSUMPTION_CURSOR`：**在本線已正式正文／合法世界後效處理，POSTWRITE與台帳完成對帳**到哪。
+
+每正式章 PREWRITE：
+`PLANNED_SOURCE_CHAPTERS`、`CHAPTER_EVENT_IDS`、`PLANNED_FULLY_CONSUMED`、`TOUCHED_NOT_CONSUMED`、`DEFERRED_OR_REBUILD`、`PARTIAL_CONSUMPTION`與`DIVERGENCE_PROOF`必填。
+
+每正式章 POSTWRITE：
+`ACTUAL_EVENT_IDS_HANDLED`、`FIRST_LAYER_RESULTS`、`CUSTODY_AND_KNOWLEDGE_CHANGED`、`FULLY_CONSUMED_CHAPTER_IDS`、`PARTIALLY_CONSUMED`、`RESIDUAL_OPEN`、`ACTUAL_CONSUMPTION_COUNT`、`NEXT_CURSOR`、`GIT_COMMIT`必填。
+
+合法`VOID_WITH_CAUSE`可算**被作廢功能**完成處置，但只有同章所有非VOID兄弟功能都正式處理後，那一原著章才算完全消耗。  
+引用後文CH507結算結果不等於已把CH262～507全部消耗。  
+目前A輪已對CH262～286建細卡，但**没有任何一章在本輪獲得「B端正式後果＋POSTWRITE」完整結帳，因此本輪消耗確認數=0**。已有正文是否消耗早期原著章，需專項回溯稽核，不准反向稱0代表過去正文毫無採用。
+
+## 5｜B端 Gate 與使用者可見回報
+
+- 有`RETRO_REWRITE_REQUIRED`未解，B端先修RETRO，不得寫新章。
+- 每張SOURCE卡可有多功能狀態，不能以一個`INTEGRATED`吞掉全章。
+- 任何要保留原著未明示的大型新線，必須標為**候選本線原創**而不是SOURCE結果，需有明確使用者意圖和合理因果；不得自行生成研究基地多層探索。
+- 提交後公開：原著每章／每張事件真正發生了什麼；本線採用、局部VOID、延後、重建理由；資產與情報是誰取得；真正消耗數；未修正／未研究的責任；GitHub SHA。
+- 凡SOURCE未核完、原著對照衝突、RETRO未落實、台帳未同步，標`BLOCKED`，不宣稱已完成。
