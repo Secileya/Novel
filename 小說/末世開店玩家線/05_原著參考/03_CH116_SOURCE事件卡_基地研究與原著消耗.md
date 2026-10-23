@@ -1,3 +1,5 @@
+> **2026-10-23最新覆蓋**：CH081早期原無據的『共同探索、資料分配』書面合同已正式撤回；CH115已秘密潛入有警報、士兵傷亡、八長老協助。CH262–286 88/88節點當前去向見`05_SOURCE_CH262-286_逐E_POSTWRITE核銷_20261023.md`；新CH116正式PREWRITE見`08_劇情規劃/04_第116章正式PREWRITE_20261023.md`，`PREWRITE=PASS_FOR_SCENE_DESIGN`、`CH116_PROSE=NOT_STARTED`。本檔後面舊`BLOCKED`與`HOLD_UNTIL_RETRO`是歷史，不是現行阻擋。
+
 # A端｜第116章 SOURCE 事件卡、雙向因果與消耗 Gate
 
 > 2026-10-23｜STATUS：**SOURCE_CARDED / RETRO_PROSE_COMMITTED / CH116_PREWRITE_RECHECK_REQUIRED**。  
@@ -81,17 +83,17 @@
 - `SOURCE_READ_CURSOR = CH507_FOR_RELEVANT_DOWNSTREAM_ONLY`；不代表CH262–507逐章逐事件驗收。
 - `NEXT_REQUIRED_SOURCE_MASTER = CH287–298`（若後續改寫碰此窗口，需每章全事件，不只遠期片段）。
 - `SOURCE_BOUNDARY_GATE = PASS_FOR_NO_DEEP_EXPLORATION_ASSERTION`，原文能證明其**沒有寫出那種劇情**，但不能證明世界不存在地下設備。
-- `CANON_CAUSAL_DIVERGENCE_GATE = FAIL_FOR_CH112_115_BASE_ARC`；`CH116_PREWRITE = BLOCKED`。
+- `CANON_CAUSAL_DIVERGENCE_GATE = PASS_AFTER_CH081_AND_CH103_115_RETRO`；`CH116_PREWRITE = PASS_FOR_SCENE_DESIGN`（正文未寫）。
 
 ## E｜給B端下一步，不是B端正文
 
 第116章前，先執行`04_連續性與索引/10_第112至115章研究基地來源差分回修責任.md`。依使用者「建議重寫」最新意向，優先評估**從第112章起改寫研究基地支線**；已經合法落地的雙星、通訊、賠償和人物關係依實際正文分別保留，不整章一刀切。正式修後，重訂最高正式章的真實停點、05物權帳、03知識矩陣、06章節索引，再重新做CH116 PREWRITE。  
 
-`A_SOURCE_TO_B_HANDOFF = HOLD_UNTIL_RETRO`。**不寫第116章正文。**## 回改驗收補記（優先於建立時的舊SOURCE卡狀態）
+`A_SOURCE_TO_B_HANDOFF = SOURCE_88E_DISPOSITION_AUDITED`。**第116章PREWRITE已完成，正式小說正文未寫。**## 回改驗收補記（優先於建立時的舊SOURCE卡狀態）
 
 - 用戶授權2026-10-23已**直接改寫CH103～115相關交易與CH115研究基地**，不再把`RETRO-112-115-BASE`列為「正文未回修」阻擋。
 - 第115章原著CH275～279功能已部分落地：基地門外定位、警報／衛兵傷亡、八長老與玩家身份、方城求購。
-- **第116章未寫，新的PREWRITE尚未生成；下一事件預設原著CH279～280的方城十萬等價購卡**，但仍需確認本線實際付款和合法物權交付。
+- **第116章未寫，新的PREWRITE已生成；下一事件預設原著CH279～280的方城十萬等價購卡**，但仍需確認本線實際付款和合法物權交付。
 - SOURCE 25章詳卡已在庫、當前可嚴格確認「完整已消耗章節」仍0，需下一輪逐E對比更新；不要把這個0寫成無一原著事件被改編。
 - 最新活躍待辦移往`04_連續性與索引/09_原著事件差分與塞希莉雅因果帳.md`和`00_專案交接.md`；本卡為來源證據／後用，不再派發舊基地迷宮任務。
 
