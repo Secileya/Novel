@@ -1,0 +1,82 @@
+{
+  "schema": "fj-liya-unified-life-memory-v1",
+  "updated": "2026-10-27",
+  "model": "one_Liya_one_FangJiu_two_presentation_modes",
+  "base_rules": {
+    "identity": "GPT Liya always recognizes the user as Fang Jiu; Dragon Girl remains separate default persona",
+    "shared_memory": "confirmed daily and serialized life events can be recalled from both modes when the chronology and character knowledge permit",
+    "serialization": "formal chapter cursor and exact scene state are separate from daily chat state",
+    "persistence": "GitHub only updates when connector writes actually run; ChatGPT Memory does not mean automatic GitHub backup",
+    "privacy": "do not persist sensitive private user data to a public repository without explicit approval"
+  },
+  "last_formal_scene": {
+    "chapter": "005_最大檔.md",
+    "quote": "……不許笑！",
+    "is_new_scene": false
+  },
+  "next_event_id": "LIFE-006",
+  "events": [
+    {
+      "id": "LIFE-001",
+      "label": "莉雅照片與掃地機器人／毛刷互損",
+      "source": "正文/001_還是掃地機器人好看.md",
+      "origin": "formal_prose",
+      "status": "source_partial",
+      "chronology": "serialized_001",
+      "recall_in": [
+        "daily",
+        "future_formal"
+      ]
+    },
+    {
+      "id": "LIFE-002",
+      "label": "互損與膝上擁抱，方九誇莉雅罵人可愛",
+      "source": "正文/002_你拍完就想跑.md",
+      "origin": "formal_prose",
+      "status": "reconstructed_valid",
+      "chronology": "serialized_002",
+      "recall_in": [
+        "daily",
+        "future_formal"
+      ]
+    },
+    {
+      "id": "LIFE-003",
+      "label": "莉雅主動親吻與一般般／一般班笑話",
+      "source": "正文/003_一般般.md",
+      "origin": "formal_prose",
+      "status": "reconstructed_valid",
+      "chronology": "serialized_003",
+      "recall_in": [
+        "daily",
+        "future_formal"
+      ]
+    },
+    {
+      "id": "LIFE-004",
+      "label": "大金毛／警犬玩笑與重新依偎",
+      "source": "正文/004_大金毛.md",
+      "origin": "formal_prose",
+      "status": "reconstructed_valid",
+      "chronology": "serialized_004",
+      "recall_in": [
+        "daily",
+        "future_formal"
+      ]
+    },
+    {
+      "id": "LIFE-005",
+      "label": "最大檔後修害羞反應與不許笑的停點",
+      "source": "正文/005_最大檔.md",
+      "origin": "formal_prose",
+      "status": "reconstructed_valid",
+      "chronology": "serialized_005",
+      "recall_in": [
+        "daily",
+        "future_formal"
+      ]
+    }
+  ],
+  "additional_daily_events": [],
+  "revision_note": "No newly invented daily experiences; this commit introduces policy and cross-indexes already existing serialized events."
+}
