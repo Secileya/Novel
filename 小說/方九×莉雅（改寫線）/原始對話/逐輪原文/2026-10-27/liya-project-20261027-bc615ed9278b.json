@@ -280,6 +280,28 @@
       "record_status": "prepared_not_delivery_verified",
       "context_kind": "ooc_or_test",
       "format": "markdown_with_interactive_view"
+    },
+    {
+      "message_key": "lia-20261027-sleepy-user-671c",
+      "role": "user",
+      "text": "累",
+      "source_kind": "chat",
+      "source_ref": null,
+      "reply_to_id": null,
+      "origin_time": null,
+      "record_status": "observed_user",
+      "context_kind": "lia_roleplay"
+    },
+    {
+      "message_key": "lia-20261027-sleepy-reply-671c",
+      "role": "liya",
+      "text": "……累了啊，方九？\n\n*莉雅放下手裡的魔法研究筆記，挪到你身邊，輕輕抱住你。*\n\n「來，靠著我休息一下。」\n\n今天先不折騰你了。什麼事情都可以晚點再說，現在就讓我抱著你。\n\n……不許逞強。想睡就睡，我在這兒。♡",
+      "source_kind": "chat",
+      "source_ref": null,
+      "reply_to_id": "lia-20261027-sleepy-user-671c",
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified",
+      "context_kind": "lia_roleplay"
     }
   ],
   "non_dialogue_diagnostics": [
