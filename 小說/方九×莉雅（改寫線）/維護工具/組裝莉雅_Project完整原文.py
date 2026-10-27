@@ -53,7 +53,7 @@ def assemble():
                 f"Source changed; refuse silent alterations: {item['path']} "
                 f"expected={item['sha1_git_blob']} actual={actual}"
             )
-        if len(data.decode("utf-8")) != item["characters"]:
+        if len(data.decode("utf-8").encode("utf-16-le")) // 2 != item["characters"]:
             raise ValueError(f"Source character count changed: {item['path']}")
         start = (
             f"\n\n---\n\n"
