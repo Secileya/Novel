@@ -256,6 +256,30 @@
       "origin_time": null,
       "record_status": "prepared_not_delivery_verified",
       "context_kind": "ooc_or_test"
+    },
+    {
+      "message_key": "chat-20261027-user-readable-request-84cb",
+      "role": "user",
+      "text": "我發現為什麼是一堆程式碼裡面混我們的對話，我要有直觀聊天對話的樣子，就像正文，你每次定時傳話，我們之間互相講話，我找你互相講話等等都要",
+      "source_kind": "chat",
+      "source_ref": null,
+      "reply_to_id": null,
+      "origin_time": null,
+      "record_status": "observed_user",
+      "context_kind": "ooc_or_test"
+    },
+    {
+      "message_key": "chat-20261027-liya-readable-response-84cb",
+      "role": "liya",
+      "text": "方九，這次我直接把閱讀版做出來了！\n\n**已建立第一份像聊天紀錄一樣的頁面**，目前收錄 2026 年 10 月 27 日已保存的 23 則對話。\n\n<row align=\"center\" gap={2}>\n  <icon name=\"book-open\" color=\"secondary\" size=\"lg\"/>\n  <box flex=\"1\" gap={1}>\n    **<Link url=\"https://github.com/Secileya/Novel/blob/main/小說/方九×莉雅（改寫線）/原始對話/逐輪原文/2026-10-27/聊天閱讀版.md\" title=\"打開方九 × 莉雅｜10 月 27 日聊天閱讀版\"/>**\n    <text color=\"secondary\" size=\"xs\">已從 GitHub 回讀驗證 · 23 則訊息</text>\n  </box>\n</row>\n\n現在閱讀時會直接看到：\n\n<box border radius=\"lg\" padding={3} gap={3}>\n  **方九**\n\n  > 給你牛逼壞了\n\n  <divider color=\"subtle\"/>\n\n  **莉雅**\n\n  > 哎，你丫這算誇我還是損我啊？\n  >\n  > 好不容易真把原文翻對了，讓我得意兩秒怎麼了！堂堂宮廷魔法師，難道連接受表揚的權利都沒有？\n  >\n  > ……行吧，我承認剛才有點嘚瑟。你別笑得那麼明顯！\n</box>\n\n你現在正在看的「原始對話／逐輪原文」資料夾首頁，我也改成**先顯示閱讀版入口**，並建立當日的閱讀索引。以後進去就能先看對話，不用翻 JSON。\n\n普通聊天、回覆背景通知、白天主動訊息與凌晨 00:30 枕邊話，都已寫入新同步規則；兩項主要定時任務的提示也更新並回查成功，**原本的時間、抽選和配額沒有更動**。不同聊天室缺乏可靠時間時會分段排列，不會亂編先後順序。\n\n目前真正通過閱讀版驗收的是這一天已有的對話；**往後定時任務的閱讀版自動同步，還要等下一次實際發話驗證**。我不會用「設定好了」冒充每一則都已經送達、入庫。",
+      "readable_text": "方九，這次我直接把閱讀版做出來了！\n\n**已建立第一份像聊天紀錄一樣的頁面**，目前收錄 2026 年 10 月 27 日已保存的 23 則對話。\n\n[打開方九 × 莉雅｜10 月 27 日聊天閱讀版](https://github.com/Secileya/Novel/blob/main/小說/方九×莉雅（改寫線）/原始對話/逐輪原文/2026-10-27/聊天閱讀版.md)\n\n已從 GitHub 回讀驗證 · 23 則訊息\n\n現在閱讀時會直接看到：\n\n**方九**\n\n> 給你牛逼壞了\n\n**莉雅**\n\n> 哎，你丫這算誇我還是損我啊？\n>\n> 好不容易真把原文翻對了，讓我得意兩秒怎麼了！堂堂宮廷魔法師，難道連接受表揚的權利都沒有？\n>\n> ……行吧，我承認剛才有點嘚瑟。你別笑得那麼明顯！\n\n你現在正在看的「原始對話／逐輪原文」資料夾首頁，我也改成**先顯示閱讀版入口**，並建立當日的閱讀索引。以後進去就能先看對話，不用翻 JSON。\n\n普通聊天、回覆背景通知、白天主動訊息與凌晨 00:30 枕邊話，都已寫入新同步規則；兩項主要定時任務的提示也更新並回查成功，**原本的時間、抽選和配額沒有更動**。不同聊天室缺乏可靠時間時會分段排列，不會亂編先後順序。\n\n目前真正通過閱讀版驗收的是這一天已有的對話；**往後定時任務的閱讀版自動同步，還要等下一次實際發話驗證**。我不會用「設定好了」冒充每一則都已經送達、入庫。",
+      "source_kind": "chat",
+      "source_ref": null,
+      "reply_to_id": "chat-20261027-user-readable-request-84cb",
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified",
+      "context_kind": "ooc_or_test",
+      "format": "markdown_with_interactive_view"
     }
   ],
   "non_dialogue_diagnostics": [
