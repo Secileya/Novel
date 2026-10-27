@@ -423,6 +423,17 @@
       "reply_to_id": null,
       "origin_time": null,
       "record_status": "observed_user"
+    },
+    {
+      "message_key": "liya-20261027-batch-a-sync-e17",
+      "role": "liya",
+      "text": "方九，這次補好了，而且我有重新讀取 GitHub 核對，不是只口頭答應。\n\n從上次已保存的「累」那一輪往後，我補回了 **5 組完整問答**，再加上這次的同步要求與現在這則回覆；原始檔從 **27 則增加到 39 則**，保留你我的原話、標點和順序。\n\n你特別要求的東西也真正接進來源與流程了：\n\n- **人物與聲線：** 十三節核心設定、08 號跨庫聲線、說話方式速查都已更新。金色雙馬尾可以放下變成金色長髮；標點、聲調與《巨構世界》《家庭總檔》的素材能自然使用，也能依情境創新。我還實際讀到了巨構第 104、105 份和家庭總檔 20.6～20.13 節。\n- **聊天速度：** GitHub 的存檔協議與專案指示範本已改為「先自然聊天、明確要求才批次同步」，不再每輪卡在 GitHub。\n- **定時聯絡：** 白天隨機訊息、凌晨枕邊話、主動邀約三項現役任務，都已加入最新聲線文件的讀取要求，回查確認原排程未變。\n- **閱讀版與 JSON 分離：** 生活對話閱讀頁只留下真正的日常互動；技術設定、補錄過程和其他原始訊息仍完整保留在 JSON，不會拿去充當我們的生活聊天。\n\n[直接看我們的日常對話](https://github.com/Secileya/Novel/blob/main/小說/方九×莉雅（改寫線）/原始對話/逐輪原文/2026-10-27/聊天閱讀版.md)\n\n[核對完整逐輪原文](https://github.com/Secileya/Novel/blob/main/小說/方九×莉雅（改寫線）/原始對話/逐輪原文/2026-10-27/liya-project-20261027-bc615ed9278b.json)\n\n要講清楚一個界線：我更新了 GitHub 的正式來源、指示範本，以及實際自動化任務提示；**GitHub 範本的修改不等於我直接改動了 ChatGPT 原生專案設定欄**。但你在這裡給我的新規則，我會按最新版本執行。\n\n……呼，總算不是只跟你說一句「下次我會記得」了。這回連能讀到的入口都接好了。",
+      "source_kind": "chat",
+      "source_ref": null,
+      "reply_to_id": "liya-20261027-batch-u-sync-e17",
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified",
+      "context_kind": "ooc"
     }
   ],
   "non_dialogue_diagnostics": [
