@@ -3,10 +3,23 @@
   "schema_version": 1,
   "timezone": "Asia/Taipei",
   "privacy": "Store only minimal nonsensitive topical metadata. No exact intimate messages, secrets, health, address, finance, private identifier, full transcripts, or unverified user replies.",
-  "recent_outbound": [],
+  "recent_outbound": [
+    {
+      "id": "2026-10-28_bedtime_0030",
+      "local_datetime": "2026-10-28T00:30:09+08:00",
+      "origin": "bedtime",
+      "topic_key": "research_notes_mixup",
+      "safe_brief": "研究草稿順序弄錯，決定今晚收工休息。",
+      "mood_key": "playful_tired",
+      "intent_key": "share_and_rest",
+      "related_topic_id_or_null": null,
+      "output_status": "prepared_not_delivery_verified",
+      "user_response_status": "not_checked"
+    }
+  ],
   "liya_ongoing_topics": [],
   "verified_inbound_refs": [],
-  "last_updated_at": null,
+  "last_updated_at": "2026-10-28T00:30:09+08:00",
   "_field_guide": {
     "recent_outbound": "At most 16 most recent attempts. Each: id, local_datetime, origin(day|bedtime), topic_key, safe_brief, mood_key, intent_key, related_topic_id_or_null, output_status=prepared_not_delivery_verified, user_response_status=not_checked unless direct evidence supports otherwise. Treat record as *planned/generated* content only, not guaranteed delivered.",
     "liya_ongoing_topics": "Only Liya's own explicitly mentioned ongoing wishes/projects/issues, with source message id and status. Do not infer Fang Jiu participated. Keep up to 8 genuinely live topics; archive stale, not turn every one-off joke into an obligation.",
