@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/莉雅_Project完整原文16份合輯.yml'
+      - '小說/方九×莉雅（改寫線）/維護工具/莉雅_Project指示_16份原文來源清單_20261027.json'
   workflow_dispatch:
 permissions:
   contents: write
