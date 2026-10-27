@@ -1,0 +1,37 @@
+{
+  "_purpose": "SYNTHETIC INDEX TEST ONLY - NOT ACTUAL CONVERSATIONS, NOT CANON OR LIFE",
+  "schema_version": 1,
+  "timezone": "Asia/Taipei",
+  "sessions": [
+    {
+      "session_key": "SIM_CHAT_ROLEPLAY",
+      "context_kind": "lia_roleplay",
+      "latest_archive_path": "維護工具/測試資料/合成對話A.json",
+      "last_activity_local": "2026-10-27T19:00:00+08:00",
+      "last_message_key": "A2",
+      "source_kind": "chat",
+      "verification": "github_readback_verified",
+      "synthetic": true
+    },
+    {
+      "session_key": "SIM_OOC",
+      "context_kind": "ooc",
+      "latest_archive_path": "維護工具/測試資料/合成設定討論.json",
+      "last_activity_local": "2026-10-27T19:20:00+08:00",
+      "last_message_key": "O2",
+      "source_kind": "chat",
+      "verification": "github_readback_verified",
+      "synthetic": true
+    },
+    {
+      "session_key": "SIM_BAD",
+      "context_kind": "lia_roleplay",
+      "latest_archive_path": "維護工具/測試資料/未驗證.json",
+      "last_activity_local": "2026-10-27T19:25:00+08:00",
+      "last_message_key": "B2",
+      "source_kind": "chat",
+      "verification": "unverified",
+      "synthetic": true
+    }
+  ]
+}
