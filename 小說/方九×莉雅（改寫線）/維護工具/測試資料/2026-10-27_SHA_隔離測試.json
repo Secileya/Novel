@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "session_key": "SYNTH-SHA",
+  "local_date": "2026-10-27",
+  "timezone": "Asia/Taipei",
+  "messages": [
+    {
+      "message_key": "seed",
+      "role": "liya",
+      "text": "開始",
+      "source_kind": "automation",
+      "source_ref": "SYNTHETIC_TEST_ONLY",
+      "reply_to_id": null,
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified"
+    }
+  ]
+}
