@@ -23,6 +23,26 @@
       "reply_to_id": "S1_L",
       "origin_time": null,
       "record_status": "observed_user"
+    },
+    {
+      "message_key": "S2_L",
+      "role": "liya",
+      "text": "我靠？……你先別急著下結論，我再查一次！",
+      "source_kind": "automation",
+      "source_ref": "SYNTHETIC_TEST_NOT_LIFE",
+      "reply_to_id": "S1_U",
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified"
+    },
+    {
+      "message_key": "S2_U",
+      "role": "user",
+      "text": "那我等你的結果。",
+      "source_kind": "chat",
+      "source_ref": "SYNTHETIC_TEST_NOT_LIFE",
+      "reply_to_id": "S2_L",
+      "origin_time": null,
+      "record_status": "observed_user"
     }
   ]
 }
