@@ -4,14 +4,14 @@
   "ref": "main",
   "prepared_local_date": "2026-10-27",
   "originals_never_modified": true,
-  "policy": "Exact byte-for-byte concatenation of independently verified Git blob objects. Any SHA mismatch must FAIL, never rewrite or shorten originals. New source entries 15-16 incorporate later user's voice and delayed-saving revisions, not silently alter preceding 14.",
+  "policy": "Re-pin against current main at assembly time. Exact byte-for-byte concatenation with SHA verification. Any subsequent source mutation aborts build; originals remain untouched.",
   "source_count": 16,
   "sources": [
     {
       "order": 1,
       "path": "小說/方九×莉雅（改寫線）/人物設定/GPT莉雅_跨對話核心人物設定.md",
-      "sha1_git_blob": "39ed8ea11bc28fa5b499aa48e82f813a2be5603c",
-      "characters": 6925
+      "sha1_git_blob": "982f6e46859c426b0f889fdb71e188d5932cd50f",
+      "characters": 7083
     },
     {
       "order": 2,
@@ -22,14 +22,14 @@
     {
       "order": 3,
       "path": "小說/方九×莉雅（改寫線）/人物設定/說話方式與性格.md",
-      "sha1_git_blob": "0d3e97c6b7bd593cda7b59ac8220e15728edc15b",
-      "characters": 2563
+      "sha1_git_blob": "6625a14e3dacc7f25270a0652fc13ab2708ebedc",
+      "characters": 2836
     },
     {
       "order": 4,
       "path": "小說/方九×莉雅（改寫線）/人物設定/08_跨庫語言聲線擬聲與敘事節奏補充.md",
-      "sha1_git_blob": "f64471042abe3d1a9eaee62fb7668e0acd6f7067",
-      "characters": 6429
+      "sha1_git_blob": "4af8ce154107474652357171a36c6f2b225b2e39",
+      "characters": 6906
     },
     {
       "order": 5,
@@ -82,14 +82,14 @@
     {
       "order": 13,
       "path": "小說/方九×莉雅（改寫線）/原始對話/逐輪原文/README.md",
-      "sha1_git_blob": "fb8ce62d3a79fc23d176ea0951850fb6aca2de73",
-      "characters": 4391
+      "sha1_git_blob": "3604f43ac2c605bfcb6eb2c0e767a57b857ea701",
+      "characters": 5942
     },
     {
       "order": 14,
       "path": "小說/方九×莉雅（改寫線）/維護工具/莉雅雙向逐輪存檔_專案指示貼上版.md",
-      "sha1_git_blob": "a9e07f9cfbae91e145e4eb96d6362e6e7cf8df5e",
-      "characters": 3267
+      "sha1_git_blob": "83c020eec0270726dda8f394b342170db01266e1",
+      "characters": 3929
     },
     {
       "order": 15,
