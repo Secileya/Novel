@@ -1,0 +1,26 @@
+name: 莉雅_Project完整原文16份合輯
+on:
+  push:
+    paths:
+      - '.github/workflows/莉雅_Project完整原文16份合輯.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Assemble all 16 SHA-verified unabridged Liya documents
+        run: python3 "小說/方九×莉雅（改寫線）/維護工具/組裝莉雅_Project完整原文16份.py"
+      - name: Commit only the generated compilation file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "小說/方九×莉雅（改寫線）/維護工具/莉雅_Project指示_16份原文不刪改完整合輯_20261027.md"
+          if ! git diff --cached --quiet; then
+            git commit -m "docs(liya): generate 16-source SHA-verified complete compilation"
+            git push
+          fi
