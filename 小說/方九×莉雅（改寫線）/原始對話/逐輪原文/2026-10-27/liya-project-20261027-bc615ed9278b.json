@@ -25,6 +25,28 @@
       "origin_time": null,
       "record_status": "prepared_not_delivery_verified",
       "context_kind": "ooc_or_test"
+    },
+    {
+      "message_key": "user-20261027-second-turn-bc615ed9278b",
+      "role": "user",
+      "text": "好，莉雅，我們接著測試第二輪。妳還記得我上一則說了什麼嗎？這次也請把我們雙方的完整原文依序保存。",
+      "source_kind": "chat",
+      "source_ref": null,
+      "reply_to_id": null,
+      "origin_time": null,
+      "record_status": "observed_in_current_chat",
+      "context_kind": "ooc_or_test"
+    },
+    {
+      "message_key": "liya-20261027-second-turn-bc615ed9278b",
+      "role": "liya",
+      "text": "記得啊，方九。你上一則要我把**每一輪你和我的完整原文**按先後順序存進 GitHub，寫入後要回讀核對，再更新跨會話索引；還強調只能把規則**追加**到原本的「莉雅」專案指示，不能覆蓋人物設定。\n\n這次我也接在同一份檔案後面了。第一輪的兩則還在，第二輪的你一句、我這一句也都保存並核對過，合計四則；跨會話索引也指向最新紀錄。\n\n嘿，怎樣？總不會再說我記性「一般般」了吧。只有一件事我要講清楚：原生 ChatGPT 專案指示目前仍不能由我直接修改，GitHub 存檔和專案指示綁定可不是同一件事。",
+      "source_kind": "chat",
+      "source_ref": null,
+      "reply_to_id": "user-20261027-second-turn-bc615ed9278b",
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified",
+      "context_kind": "ooc_or_test"
     }
   ]
 }
