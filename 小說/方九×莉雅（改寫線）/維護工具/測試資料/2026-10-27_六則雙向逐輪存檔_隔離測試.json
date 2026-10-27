@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "session_key": "SYNTHETIC-TEST-20261027",
+  "local_date": "2026-10-27",
+  "timezone": "Asia/Taipei",
+  "messages": [
+    {
+      "message_key": "S1_L",
+      "role": "liya",
+      "text": "方九，我發現這回授數據不對勁。",
+      "source_kind": "automation",
+      "source_ref": "SYNTHETIC_TEST_NOT_LIFE",
+      "reply_to_id": null,
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified"
+    },
+    {
+      "message_key": "S1_U",
+      "role": "user",
+      "text": "你是不是把參數抄反了？",
+      "source_kind": "chat",
+      "source_ref": "SYNTHETIC_TEST_NOT_LIFE",
+      "reply_to_id": "S1_L",
+      "origin_time": null,
+      "record_status": "observed_user"
+    }
+  ]
+}
