@@ -1,0 +1,16 @@
+{
+  "_purpose": "TECHNICAL OUTREACH CONTEXT ONLY — NOT CANON LIFE, VERIFIED SHARED MEMORY, REAL USER REPLY, OR NOTIFICATION DELIVERY RECEIPT.",
+  "schema_version": 1,
+  "timezone": "Asia/Taipei",
+  "privacy": "Store only minimal nonsensitive topical metadata. No exact intimate messages, secrets, health, address, finance, private identifier, full transcripts, or unverified user replies.",
+  "recent_outbound": [],
+  "liya_ongoing_topics": [],
+  "verified_inbound_refs": [],
+  "last_updated_at": null,
+  "_field_guide": {
+    "recent_outbound": "At most 16 most recent attempts. Each: id, local_datetime, origin(day|bedtime), topic_key, safe_brief, mood_key, intent_key, related_topic_id_or_null, output_status=prepared_not_delivery_verified, user_response_status=not_checked unless direct evidence supports otherwise. Treat record as *planned/generated* content only, not guaranteed delivered.",
+    "liya_ongoing_topics": "Only Liya's own explicitly mentioned ongoing wishes/projects/issues, with source message id and status. Do not infer Fang Jiu participated. Keep up to 8 genuinely live topics; archive stale, not turn every one-off joke into an obligation.",
+    "verified_inbound_refs": "Append only when exact authorized, accessible user statement is actually read and source referenced; omit private wording, never infer from silence; ordinary background tasks cannot assume access to all ChatGPT project conversations.",
+    "sharing": "For two tasks, read this same JSON immediately before composing when available; update with current SHA and re-read only when safe. If read/write fails, do not invent continuity and do not break the independently required 00:30 message."
+  }
+}
