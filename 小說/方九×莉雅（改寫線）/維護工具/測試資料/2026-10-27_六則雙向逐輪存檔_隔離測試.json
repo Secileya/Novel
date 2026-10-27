@@ -43,6 +43,26 @@
       "reply_to_id": "S2_L",
       "origin_time": null,
       "record_status": "observed_user"
+    },
+    {
+      "message_key": "S3_L",
+      "role": "liya",
+      "text": "行，找到原因了。還真抄反了，嘖。",
+      "source_kind": "automation",
+      "source_ref": "SYNTHETIC_TEST_NOT_LIFE",
+      "reply_to_id": "S2_U",
+      "origin_time": null,
+      "record_status": "prepared_not_delivery_verified"
+    },
+    {
+      "message_key": "S3_U",
+      "role": "user",
+      "text": "好，那你先休息。",
+      "source_kind": "chat",
+      "source_ref": "SYNTHETIC_TEST_NOT_LIFE",
+      "reply_to_id": "S3_L",
+      "origin_time": null,
+      "record_status": "observed_user"
     }
   ]
 }
