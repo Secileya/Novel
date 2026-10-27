@@ -5,13 +5,14 @@
   "sessions": [
     {
       "session_key": "liya-project-20261027-bc615ed9278b",
-      "context_kind": "lia_roleplay",
+      "context_kind": "ooc",
       "latest_archive_path": "小說/方九×莉雅（改寫線）/原始對話/逐輪原文/2026-10-27/liya-project-20261027-bc615ed9278b.json",
       "last_activity_local": null,
-      "last_message_key": "lia-20261027-sleepy-reply-671c",
+      "last_message_key": "liya-20261027-batch-a-sync-e17",
       "source_kind": "chat",
       "verification": "github_readback_verified",
-      "latest_readable_path": "小說/方九×莉雅（改寫線）/原始對話/逐輪原文/2026-10-27/聊天閱讀版.md"
+      "latest_readable_path": "小說/方九×莉雅（改寫線）/原始對話/逐輪原文/2026-10-27/聊天閱讀版.md",
+      "last_roleplay_message_key": "lia-20261027-sleepy-reply-671c"
     }
   ],
   "_limits": "Only verified actual session keys with verified file paths; no fictional message backfill. Public repository; avoid private details.",
@@ -23,7 +24,8 @@
     "last_message_key": "Verifiably existing final message key",
     "source_kind": "chat | automation",
     "verification": "github_readback_verified",
-    "latest_readable_path": "Optional human-readable Markdown diary for the same verified day archive"
+    "latest_readable_path": "Optional human-readable Markdown diary for the same verified day archive",
+    "last_roleplay_message_key": "Optional exact key of latest verified real lived roleplay message in a mixed OOC/roleplay session; not the index last_message_key."
   },
-  "_index_policy": "Append/update a session only after its verbatim day archive exists and has been read back. Concurrent writes use latest SHA and merge; no fake sessions. Automation may read this index to find verified recent user replies from a different ChatGPT conversation but must not infer read/unread status."
+  "_index_policy": "Append/update a session only after its verbatim day archive exists and has been read back. Concurrent writes use latest SHA and merge; no fake sessions. Automation may read this index to find verified recent user replies from a different ChatGPT conversation but must not infer read/unread status. A mixed session may be context_kind=ooc for its latest message yet retain last_roleplay_message_key for explicitly relevant prior lived dialogue; use per-message context_kind and do not treat OOC as lived events."
 }
