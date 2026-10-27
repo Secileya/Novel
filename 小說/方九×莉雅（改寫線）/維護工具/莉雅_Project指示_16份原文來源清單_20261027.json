@@ -1,0 +1,108 @@
+{
+  "format": "liya-unabridged-manifest-v2-with-subsequent-rules",
+  "repository": "Secileya/Novel",
+  "ref": "main",
+  "prepared_local_date": "2026-10-27",
+  "originals_never_modified": true,
+  "policy": "Exact byte-for-byte concatenation of independently verified Git blob objects. Any SHA mismatch must FAIL, never rewrite or shorten originals. New source entries 15-16 incorporate later user's voice and delayed-saving revisions, not silently alter preceding 14.",
+  "source_count": 16,
+  "sources": [
+    {
+      "order": 1,
+      "path": "小說/方九×莉雅（改寫線）/人物設定/GPT莉雅_跨對話核心人物設定.md",
+      "sha1_git_blob": "39ed8ea11bc28fa5b499aa48e82f813a2be5603c",
+      "characters": 6925
+    },
+    {
+      "order": 2,
+      "path": "小說/方九×莉雅（改寫線）/人物設定/GPT龍娘×莉雅_長期互動與文字表現修正.md",
+      "sha1_git_blob": "6740d165a4a4e17faea15d03c5c25ce5739d9608",
+      "characters": 4087
+    },
+    {
+      "order": 3,
+      "path": "小說/方九×莉雅（改寫線）/人物設定/說話方式與性格.md",
+      "sha1_git_blob": "0d3e97c6b7bd593cda7b59ac8220e15728edc15b",
+      "characters": 2563
+    },
+    {
+      "order": 4,
+      "path": "小說/方九×莉雅（改寫線）/人物設定/08_跨庫語言聲線擬聲與敘事節奏補充.md",
+      "sha1_git_blob": "f64471042abe3d1a9eaee62fb7668e0acd6f7067",
+      "characters": 6429
+    },
+    {
+      "order": 5,
+      "path": "小說/方九×莉雅（改寫線）/人物設定/07_莉雅全領域主動性與成年親密邀請.md",
+      "sha1_git_blob": "62a63a833c083ab7d1e8dc72c5fe44c0b4cc477d",
+      "characters": 3480
+    },
+    {
+      "order": 6,
+      "path": "小說/方九×莉雅（改寫線）/人物設定/04_改寫線八項硬設定與使用者覆蓋修正.md",
+      "sha1_git_blob": "2a21065894c87378a2f3734aa3eb870e5231f52c",
+      "characters": 1735
+    },
+    {
+      "order": 7,
+      "path": "小說/方九×莉雅（改寫線）/共同生活記憶/00_共用記憶總索引與雙向共享規則.md",
+      "sha1_git_blob": "aa8dd4f4e7d782a9b7879d97993cfb989a69051d",
+      "characters": 2290
+    },
+    {
+      "order": 8,
+      "path": "小說/方九×莉雅（改寫線）/共同生活記憶/03_跨對話同步與保存流程.md",
+      "sha1_git_blob": "a24d83703374e6d3e19d8717585c5c3b6dfa6287",
+      "characters": 4069
+    },
+    {
+      "order": 9,
+      "path": "小說/方九×莉雅（改寫線）/共同生活記憶/04_記憶判定_狀態生命週期與莉雅主動喚回.md",
+      "sha1_git_blob": "c529f079b94f5928309e474b5f182e9af92aff28",
+      "characters": 9411
+    },
+    {
+      "order": 10,
+      "path": "小說/方九×莉雅（改寫線）/共同生活記憶/05_有效事項快速索引.md",
+      "sha1_git_blob": "006c7d2d636e751c5b8118e2ab76d59b8b414c44",
+      "characters": 2751
+    },
+    {
+      "order": 11,
+      "path": "小說/方九×莉雅（改寫線）/共同生活記憶/06_主動邀約排程與背景記憶巡檢.md",
+      "sha1_git_blob": "86f25db88c0e9d29f5eb1b40f6879dfee131f4f4",
+      "characters": 8292
+    },
+    {
+      "order": 12,
+      "path": "小說/方九×莉雅（改寫線）/共同生活記憶/07_背景主動訊息連續性與無回覆場景規則.md",
+      "sha1_git_blob": "7c220cf315a7ce9ea139330dcd47cea80709ff72",
+      "characters": 4462
+    },
+    {
+      "order": 13,
+      "path": "小說/方九×莉雅（改寫線）/原始對話/逐輪原文/README.md",
+      "sha1_git_blob": "fb8ce62d3a79fc23d176ea0951850fb6aca2de73",
+      "characters": 4391
+    },
+    {
+      "order": 14,
+      "path": "小說/方九×莉雅（改寫線）/維護工具/莉雅雙向逐輪存檔_專案指示貼上版.md",
+      "sha1_git_blob": "a9e07f9cfbae91e145e4eb96d6362e6e7cf8df5e",
+      "characters": 3267
+    },
+    {
+      "order": 15,
+      "path": "小說/方九×莉雅（改寫線）/人物設定/2026-10-27_莉雅全對話聲線與反客服人格優先修正.md",
+      "sha1_git_blob": "df252e43dc1ffcdaf446facae1ea3b47252e4a31",
+      "characters": 2145
+    },
+    {
+      "order": 16,
+      "path": "小說/方九×莉雅（改寫線）/維護工具/2026-10-27_莉雅快速回覆優先_延後補存後修規則.md",
+      "sha1_git_blob": "d51495c31ad3e2804841af3714f5ab182675c44a",
+      "characters": 1379
+    }
+  ],
+  "output": "小說/方九×莉雅（改寫線）/維護工具/莉雅_Project指示_16份原文不刪改完整合輯_20261027.md"
+}
