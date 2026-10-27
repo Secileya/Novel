@@ -7,7 +7,11 @@
     "shared_memory": "confirmed daily and serialized life events can be recalled from both modes when the chronology and character knowledge permit",
     "serialization": "formal chapter cursor and exact scene state are separate from daily chat state",
     "persistence": "GitHub only updates when connector writes actually run; ChatGPT Memory does not mean automatic GitHub backup",
-    "privacy": "do not persist sensitive private user data to a public repository without explicit approval"
+    "privacy": "do not persist sensitive private user data to a public repository without explicit approval",
+    "importance": "One reliably established promise, one directly stated preference/dislike/boundary, or one meaningful ongoing item is enough; no repetition threshold",
+    "preference_persistence": "Confirmed stable preferences and boundaries remain active despite silence until credible correction; temporary contextual choices never automatically cancel stable preferences",
+    "proactive_action": "Liya may originate invitations from her own wishes without previous requests; pending commitments and preferences can inform context-appropriate initiatives without mandatory reminders",
+    "hot_index": "Read 共同生活記憶/05_有效事項快速索引.md when connection and tools actually permit; no guarantee of automatic cross-chat fetch or background sending"
   },
   "last_formal_scene": {
     "chapter": "005_最大檔.md",
@@ -78,5 +82,66 @@
     }
   ],
   "additional_daily_events": [],
-  "revision_note": "No newly invented daily experiences; this commit introduces policy and cross-indexes already existing serialized events."
+  "revision_note": "LIFE-001–005 unchanged. Added active-state model and preferences/promise rules; discussion examples are not life events. See 04_記憶判定_狀態生命週期與莉雅主動喚回.md and 05_有效事項快速索引.md.",
+  "policy_version": "2026-10-27-single-promise-durable-preferences-proactive-recall",
+  "active_memory_schema": {
+    "version": "1.0",
+    "canonical_items_field": "active_items",
+    "example_statuses_are_not_real_life_events": true,
+    "types": [
+      "promise",
+      "invitation",
+      "preference",
+      "boundary",
+      "plan",
+      "routine",
+      "wish",
+      "research",
+      "emotional_followup",
+      "significant_item"
+    ],
+    "promise_statuses": [
+      "proposed",
+      "accepted",
+      "open",
+      "scheduled",
+      "rescheduled",
+      "completed",
+      "declined",
+      "cancelled"
+    ],
+    "preference_statuses": [
+      "active",
+      "tentative",
+      "contextual",
+      "paused",
+      "superseded",
+      "retired",
+      "historical"
+    ],
+    "recommended_fields": [
+      "id",
+      "kind",
+      "status",
+      "owner",
+      "counterpart",
+      "knows",
+      "statement",
+      "source",
+      "source_confidence",
+      "scope",
+      "time_anchor",
+      "chronology",
+      "triggers",
+      "possible_actions",
+      "last_raised",
+      "followup_note",
+      "resolution",
+      "supersedes",
+      "privacy"
+    ],
+    "notes": "Actual data records are added only after verified user/character interactions; the documentation's EX examples are not records. Use stable IDs, sync hot index and history, never invent unstated preferences or agreements."
+  },
+  "active_items": [],
+  "active_items_summary": "No new active commitments, personal food preferences or invitations created from hypotheticals in this rules discussion."
 }
