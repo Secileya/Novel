@@ -3,5 +3,15 @@
   "schema_version": 1,
   "timezone": "Asia/Taipei",
   "sessions": [],
-  "_limits": "Only verified actual session keys with verified file paths; no fictional message backfill. Public repository; avoid private details."
+  "_limits": "Only verified actual session keys with verified file paths; no fictional message backfill. Public repository; avoid private details.",
+  "_session_fields": {
+    "session_key": "Permanent key per actual conversation, not invented ChatGPT ID",
+    "context_kind": "lia_roleplay | ooc | test",
+    "latest_archive_path": "Verified actual day archive file path",
+    "last_activity_local": "Timestamp observed from reliable source or null",
+    "last_message_key": "Verifiably existing final message key",
+    "source_kind": "chat | automation",
+    "verification": "github_readback_verified"
+  },
+  "_index_policy": "Append/update a session only after its verbatim day archive exists and has been read back. Concurrent writes use latest SHA and merge; no fake sessions. Automation may read this index to find verified recent user replies from a different ChatGPT conversation but must not infer read/unread status."
 }
