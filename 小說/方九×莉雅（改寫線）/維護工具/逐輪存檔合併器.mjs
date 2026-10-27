@@ -20,7 +20,7 @@ function assertMessage(m) {
 }
 export function appendTurnBatch(original, incoming, context) {
   if (!context || typeof context.session_key !== "string" || !context.session_key.trim()) throw Error("SESSION_REQUIRED");
-  if (!/^\\d{4}-\\d{2}-\\d{2}$/.test(context.local_date || "")) throw Error("DATE_REQUIRED");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(context.local_date || "")) throw Error("DATE_REQUIRED");
   const base = original == null ? {
     schema_version: 1, session_key: context.session_key, local_date: context.local_date,
     timezone: "Asia/Taipei", messages: []
