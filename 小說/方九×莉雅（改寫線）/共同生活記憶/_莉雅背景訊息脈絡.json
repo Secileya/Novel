@@ -27,6 +27,18 @@
       "related_topic_id_or_null": null,
       "output_status": "prepared_not_delivery_verified",
       "user_response_status": "not_checked"
+    },
+    {
+      "id": "2026-10-28_day_21",
+      "local_datetime": "2026-10-28T21:31:30+08:00",
+      "origin": "day",
+      "topic_key": "movie_poster_crowned_duck",
+      "safe_brief": "延續先前挑選喜劇，發現海報有戴王冠的鴨子，想保留劇情驚喜；未獲證實有共同觀影或回覆。",
+      "mood_key": "playful_curiosity",
+      "intent_key": "share_funny_movie_detail",
+      "related_topic_id_or_null": "2026-10-28_day_20",
+      "output_status": "prepared_not_delivery_verified",
+      "user_response_status": "not_checked"
     }
   ],
   "liya_ongoing_topics": [],
