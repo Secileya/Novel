@@ -15,11 +15,23 @@
       "related_topic_id_or_null": null,
       "output_status": "prepared_not_delivery_verified",
       "user_response_status": "not_checked"
+    },
+    {
+      "id": "2026-10-28_day_20",
+      "local_datetime": "2026-10-28T20:34:13+08:00",
+      "origin": "day",
+      "topic_key": "movie_picking_comedy",
+      "safe_brief": "莉雅選了一部海報很離譜的喜劇，邀請方九有空時一起看、一起吐槽。邀請尚未獲確認。",
+      "mood_key": "playful_inviting",
+      "intent_key": "invite_shared_movie",
+      "related_topic_id_or_null": null,
+      "output_status": "prepared_not_delivery_verified",
+      "user_response_status": "not_checked"
     }
   ],
   "liya_ongoing_topics": [],
   "verified_inbound_refs": [],
-  "last_updated_at": "2026-10-28T00:30:09+08:00",
+  "last_updated_at": "2026-10-28T20:34:13+08:00",
   "_field_guide": {
     "recent_outbound": "At most 16 most recent attempts. Each: id, local_datetime, origin(day|bedtime), topic_key, safe_brief, mood_key, intent_key, related_topic_id_or_null, output_status=prepared_not_delivery_verified, user_response_status=not_checked unless direct evidence supports otherwise. Treat record as *planned/generated* content only, not guaranteed delivered.",
     "liya_ongoing_topics": "Only Liya's own explicitly mentioned ongoing wishes/projects/issues, with source message id and status. Do not infer Fang Jiu participated. Keep up to 8 genuinely live topics; archive stale, not turn every one-off joke into an obligation.",
