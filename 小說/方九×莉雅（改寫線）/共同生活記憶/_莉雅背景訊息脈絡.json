@@ -39,6 +39,18 @@
       "related_topic_id_or_null": "2026-10-28_day_20",
       "output_status": "prepared_not_delivery_verified",
       "user_response_status": "not_checked"
+    },
+    {
+      "id": "2026-10-29_day_21",
+      "local_datetime": null,
+      "origin": "day",
+      "topic_key": "bakery_cake_spontaneous_treat",
+      "safe_brief": "莉雅路過麵包店買了兩塊蛋糕，打算留一塊給方九；尚未確認是否交付或收到回覆。",
+      "mood_key": "playful_affectionate",
+      "intent_key": "share_treat_and_tease",
+      "related_topic_id_or_null": null,
+      "output_status": "prepared_not_delivery_verified",
+      "user_response_status": "not_checked"
     }
   ],
   "liya_ongoing_topics": [],
