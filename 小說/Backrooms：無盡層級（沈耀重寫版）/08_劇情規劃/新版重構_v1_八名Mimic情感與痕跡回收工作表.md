@@ -8,6 +8,8 @@
 >
 > 相關：[新版路線藍圖](新版重構_v1_全域探索路網與故事篇章藍圖.md)、[Momo與全Mimic核心資料](../02_角色設定/Momo與全體Mimic_Stiliya_Versiliya核心情感設定.md)、[Halliel/Phoebe/Harper檔](../02_角色設定/Halliel_Phoebe_Harper與Stiliya_Versiliya交集設定.md)、[Hotaru/Neeko/Opheila檔](../02_角色設定/Hotaru_Neeko_Opheila與Stiliya_Versiliya交集設定.md)、[Towa檔](../02_角色設定/Towa與Stiliya_Versiliya交集設定.md)。
 
+> **2026-10-30 人物語言自由補充**：八名Mimic與雙翼的舊交、深重情感是已定真實；**她們個別的說話方式可以有粗話、直率、挖苦、吐槽、胡鬧、甚至真正傷人的失言**，也可以溫柔、文雅、沉默和直接表達想念，不因此同質化或失去核心。此處不是重新分派八種口癖，更不是要求所有人突然爆粗；按其真實人物DNA與現場因果自然表現。Harper等不以人類語言為主的存在，不為了豐富台詞突然開口。Momo換形態可扮演不同說話語域，但她**已確信Stiliya／Versiliya認得一切形態的自己**，不能把語言新風格寫成重考身份。詳[本作正式補充](../05_寫作規則/人物語言與衝突_粗話直率非人交流正式補充.md)。
+
 ## 一、八個各自獨立的情感核心
 
 | Mimic | [既定]她與兩名旅人共同做過的事 | [既定]沉在生活中的感情 | 故事主場與可用敘事重心 |
