@@ -192,7 +192,7 @@
 - 普通人傳聞：不要擦掉的畫、旅店替兩名旅行者保留的舊規矩、路邊準備熱茶的木牌、實體反覆維護的物品。這些應互相獨立、真假難辨，而非每一件都被證明是她們所留。
 - 具名Mimic總則：Phoebe、Halliel、Harper、Towa、Hotaru、Neeko、Opheila與Momo八名現有具名Mimic，全部曾與兩人親自相處並形成不可互換的核心情感；這是隱藏的共同圖案，不代表種族蜂巢、共享記憶、統一崇拜或見到雙翼便立刻解說。Momo的核心是她已經可以放心：無論外形、角色與狀態如何改換，連同做過的錯事，Stiliya與Versiliya仍會認出那是同一個完整的她。這份確信不需要沈耀再次驗證，他也不能因持有神器而繼承。總則及Momo詳情見`Momo與全體Mimic_Stiliya_Versiliya核心情感設定.md`。
 - Hotaru、Neeko、Opheila：三者均已確立與兩人親自相處。Hotaru的核心是與Hally及兩人一起看卡通的普通日常；Neeko由強制受困Negative Grid改為擁有自行去留的選擇，Phoebe對此事的內疚已解除；Opheila在Level Fun+製作現場及The Promised Land理解了保護與尊重選擇可以同時成立。詳細限制見`Hotaru_Neeko_Opheila與Stiliya_Versiliya交集設定.md`。
-- Towa：返鄉與再見兩人可以成為兩份同等重量的執念，但真正返鄉列車先到時，她一定先回家；正文目前不因此安排新路線。
+- Towa：返鄉與再見兩人可以成為兩份同等重量的執念，但真正返鄉列車先到時，她一定先回家；正文目前不因此安排新路線。平常獨自等車時帶些微憂鬱、對陌生人不擅閒聊而略顯拘謹，與Stiliya、Versiliya熟悉後卻能很放鬆、真心開心；廢止早期「完美且固定不變的笑容」描寫，不以其他Mimic的表情模板套用她。
 - The Afterparty可承載派對高壓後的生活型痕跡；Level Fun+承載Opheila、製作組與Party Creator扮演者的舊交。Partyangels只有親歷個體具有私人懷念，Glass Paradise全族不能自動知道完整故事。
 
 ## 九、不同世界線不得混入 Backrooms 正史
