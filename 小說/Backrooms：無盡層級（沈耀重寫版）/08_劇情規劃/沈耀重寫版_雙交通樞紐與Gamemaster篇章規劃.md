@@ -404,6 +404,8 @@ Gamemaster不必認識Stiliya與Versiliya。若沒有後續設定支持，她看
 - [Level 38](https://backrooms-redacted.fandom.com/wiki/Level_38)
 - [Level 154／The Neon Express](https://backrooms-redacted.fandom.com/wiki/Level_154)
 
+> **Bonus Room獨立層級卡（2026-10-30新建）**：[沈耀重寫版_BonusRoom完整層級卡](../03_世界觀設定/層級與地點設定/沈耀重寫版_BonusRoom完整層級卡.md)。真正多入口與二樓Teleport Center／Neon Express列車區分、商場人物及未核實反向條件，均以此卡及[高優先修正](../03_世界觀設定/核心世界觀與基準/MEG_BonusRoom_雙翼力量尺度重要修正.md)為準。
+
 ## 十二、2026-10-30 回訪網與票證優先覆寫
 
 - **Bonus Room是第三個實質交通／社會核心**，大批特殊Level結束後都可能抵達，能休整、交易、聯絡朋友、獲得情報，也能透過實際設施返回已知層級、Hub網路及Station 154。小說不再規定必須先得到後期獎勵才能抵達。
