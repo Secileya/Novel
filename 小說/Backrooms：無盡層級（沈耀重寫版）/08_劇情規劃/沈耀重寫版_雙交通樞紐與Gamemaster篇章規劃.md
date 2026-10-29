@@ -1,18 +1,19 @@
 # 沈耀重寫版：The Hub、Neon Express與Gamemaster篇章規劃
 
-> 本檔確立重寫版的雙交通樞紐結構。  
+> **2026-10-30 優先修正：原本的「雙交通樞紐」僅是早期草案。Bonus Room正式作為可多次抵達、轉乘與生活的第三座重要交通／社會節點，並非後期單次獎勵室；Gamepass移除不代表必須以Gamemaster勝利車票封鎖Bonus→Neon Express。見[專項修正](../03_世界觀設定/核心世界觀與基準/MEG_BonusRoom_雙翼力量尺度重要修正.md)。舊版路線劇情與隊伍人數均可重設，以下未改段落僅作歷史方案。**  
 > 基礎入口出口沿用《THE BACKROOMS [REDACTED]》現行資料；遊戲通行證、徽章與主選單等純遊戲機制，不直接搬入小說。
 
 ---
 
 ## 一、總體結論
 
-The Hub與Neon Express都保留，但功能不同：
+**The Hub、Bonus Room、Neon Express**都保留，各有不同功能。前兩者可較早自然接觸，Neon Express是實際可搭乘的列車網；抵達時間不由舊40章強制鎖定：
 
 | 樞紐 | 故事定位 | 取得時間 | 主要範圍 | 代價 |
 |---|---|---|---|---|
 | The Hub | 早期固定門網與安全整備點 | Level 1後即可發現 | Level 2至20、Level Fun、Level 94、Level Δ | 找到正確門序；門後仍可能極危險 |
-| Neon Express／Station 154 | 中期贏得的遠程鐵路網 | 通過Gamemaster遊戲後 | Level 0、4、11、30、37、513、699、Level ! | 必須取得車票並親自到Level 38乘車 |
+| Bonus Room | 多入口安全社會／補給與實體轉乘中心 | 任何有效原版入口成立時即可抵達，不獨占於Gamemaster篇 | Level 0、The Hub、Negative Hub、Sub-Hub、Station 154等已記錄通路，逐一核對實體條件 | 玩家Gamepass刪除；不另設無因獎勵門檻 |
+| Neon Express／Station 154 | 有實際列車班次的遠程路網 | 可經Level 38／符合條件的Bonus等通路接觸 | Level 0、4、11、30、37、513、699、Level ! | 原版Level38的有效車票可以有物理意義；**不等於從Bonus進入必須先贏Gamemaster** |
 
 The Hub讓沈耀第一次知道：「後室不是一條依照數字前進的直線。」
 
@@ -146,7 +147,7 @@ Neon Express提供另一種旅行質感：
 4. 以車票通過閘機。
 5. 進入Station 154。
 
-The Main Menu與Gamepass入口不列入小說世界。The Bonus Room若保留快速旅行站，也只能作為後期異常設施，不能用付費機制解鎖。
+The Main Menu與付費Gamepass不列入小說世界。**Bonus Room自帶的實體轉乘功能保留**，可在合乎原路網的其他特殊層級出入口抵達並再度回訪。它可成為中前期乃至後期多次出現的安全聚集區，不必等到Gamemaster勝利才首次開放；不能只因擔心主角走得太方便，便創造不合理的封鎖。
 
 ### 列車出口
 
@@ -205,7 +206,7 @@ Gamemaster不是「血量歸零便死亡」的敵人，而是**掌握場地、�
 
 **The Bonus Room → 由正當車票啟動的實體閘口 → Station 154**
 
-Level 154頁面把Bonus Room入口列為需Gamepass，Level 389／Backrooms Defenders頁面則寫明勝利車票可由Bonus Room前往Station 154。小說移除付費解鎖機制後，以「必須持有Gamemaster正式授予的車票」統一兩者：沒有票時，Bonus Room的相關門只是一面無作用的發光牆；勝利者持票靠近後，它才成為一次可實際通行的閘口。Level 38仍保留為任何持票者都能尋找的常規物理入口，並非被取消。
+**2026-10-30 撤回舊「勝利車票才能從Bonus去154」方案。** 來源應分清：Level 154資料頁把Bonus直接快速旅行標為**玩家Gamepass**，將Level 38的閘機進站列為需要正當車票；兩者不是同一種機制。小說保留Bonus可通往Neon Express的實體轉乘路線，並刪除玩家付費購買；若要使用乘車票、普通交通管理或其他具體設施，須以世界內可理解、可反覆執行的規則設計，**不默認Gamemaster勝利是所有訪客的通行必要條件**。Gamemaster正式獎勵的票仍可對Level 38閘機、特殊行程或私人承諾有價值，具體作用待正式Gamemaster篇決定。Bonus的「地鐵站外觀傳送中心」與Station 154「真正的列車停靠系統」分開。雙向返回與各站停靠逐條核對，不偷換所有通道皆無條件雙向。
 
 其中：
 
@@ -402,3 +403,12 @@ Gamemaster不必認識Stiliya與Versiliya。若沒有後續設定支持，她看
 - [The Backrooms Defenders](https://backrooms-redacted.fandom.com/wiki/The_Backrooms_Defenders)
 - [Level 38](https://backrooms-redacted.fandom.com/wiki/Level_38)
 - [Level 154／The Neon Express](https://backrooms-redacted.fandom.com/wiki/Level_154)
+
+## 十二、2026-10-30 回訪網與票證優先覆寫
+
+- **Bonus Room是第三個實質交通／社會核心**，大批特殊Level結束後都可能抵達，能休整、交易、聯絡朋友、獲得情報，也能透過實際設施返回已知層級、Hub網路及Station 154。小說不再規定必須先得到後期獎勵才能抵達。
+- **Bonus傳送中心不等於Neon Express列車本體**。Bonus像metro station的場景是傳送／轉乘區；Station 154的Neon／Orange／Green／Red線才是列車。
+- **遊戲Gamepass／Menu／badge不直接照搬**。正常物理路線可由已有原作出口、世界內交通管理／可能存在的票證運作；不把「某角色贏過Gamemaster」轉化為所有人唯一能使用的資格。
+- **Gamemaster車票仍有可用的故事意義**，但不是Bonus一切交通的壟斷權。先前固定五人和二十一、二十二章的獎勵安排均只是舊稿候選。
+- **真正能回訪就讓人回訪**。不為拖延劇情重新封掉已建立的路網；回去後面臨的舊關係、新事件與地方後果才是故事。
+- 詳見[正式世界基準修正](../03_世界觀設定/核心世界觀與基準/MEG_BonusRoom_雙翼力量尺度重要修正.md)。
