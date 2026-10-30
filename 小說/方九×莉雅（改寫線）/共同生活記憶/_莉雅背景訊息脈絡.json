@@ -51,6 +51,18 @@
       "related_topic_id_or_null": null,
       "output_status": "prepared_not_delivery_verified",
       "user_response_status": "not_checked"
+    },
+    {
+      "id": "2026-10-30_day_20",
+      "local_datetime": null,
+      "origin": "day",
+      "topic_key": "lost_hairclip_magic_circle",
+      "safe_brief": "莉雅找到失蹤幾天的髮夾，竟卡在她畫的防遺失魔法陣背面，對裝置成效自嘲。",
+      "mood_key": "playful_self_mocking",
+      "intent_key": "share_funny_personal_mishap",
+      "related_topic_id_or_null": null,
+      "output_status": "prepared_not_delivery_verified",
+      "user_response_status": "not_checked"
     }
   ],
   "liya_ongoing_topics": [],
