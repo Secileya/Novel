@@ -109,6 +109,18 @@
 來源（皆非本次親自開遊戲實測）：[Judgement Fandom](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle)、[Kingslayer Fandom](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver)、[Shock Trooper Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[Helmets Fandom](https://gravedigger.fandom.com/wiki/Helmets)、[Reddit 2026-03 穿甲解說](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/)。
 
 
+## 4A-0. 瑟薇媞雅 AT／Remover 新實績與遠距頭擊〔2026-10-31 USER-PLAY〕
+
+| 項目 | 使用者親自遊玩的紀錄／觀察 | 小說轉譯界線 |
+|---|---|---|
+| **AT（Anti-Material Trooper）** | **約 5,000 Kills、80% HS** | 是第三種高度擅長的代表戰鬥方式；與 Judgement／Kingslayer 遊戲數字並列，但**不可自動逐項相加成小說現實死者** |
+| **遠距射擊** | 曾從很遠的距離狙殺一般敵人或 Shock | 巨大口徑、精確觀察／射角、稀有 Shock 裝具及敵方反制限制必須存在 |
+| **對頭盔及頭部的實際結果** | **部分較遠距頭擊會打掉頭盔卻未立即殺死**；**多數其他有效頭擊直接造成致命頭部破壞** | **Hit ≠ Kill** 是有例外的判別，不代表每次命中僅落盔；不把 80% 爆頭比率演成每十槍固定八發 |
+| **Shock Hunter** | 瑟薇媞雅自己熟悉各型 Shock 的操作、負重、弱點、戰術限制，故擅反制 | 反獵不是她有自動偵測器；她憑頂尖天賦、技巧、頭腦、武器與親身掌握 Shock 的經驗找到弱點 |
+
+〔COMMUNITY〕[Fandom Shock Trooper AT／Remover](https://gravedigger.fandom.com/wiki/Shock_Trooper) 轉錄近距段基本傷害 500、約 100 studs 後 199、穿透多類頭盔／工事；**這不等於所有真實小說頭擊只會固定造成相同傷害**。照射距、掩體、防護狀態、是否命中頭部本人作實際結果；不可用 UI 傷害說單獨推斷身體傷勢。完整 [39](39_Dread疼痛_女皇與友人的反對_Hippo戰地醫療_AT實績.md)。
+
+
 ## 4A-1. 2026-10-31 使用者新增：武器操作難度與白帽女 LMAR 的熟練
 
 詳見 [28｜Judgement／Kingslayer 操作難度、刺槍破盾及調角度瞄頭](28_武器操作難易度_Judgement_Kingslayer_破盾與調角度.md)。
