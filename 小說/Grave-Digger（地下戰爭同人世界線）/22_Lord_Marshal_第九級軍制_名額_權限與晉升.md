@@ -2,6 +2,11 @@
 
 > 2026-10-31｜本同人世界線的〔ADOPTED-WORKING〕軍制，不是《Grave/Digger》官方第九級。官方遊戲玩家階級最高：Golden Empire **High Lord（LORD）**、Royal Nation **Brigadier（BRIG）**（使用者已提供含 Medals 的四陣營階級截圖，詳 [01](01_世界與軍銜指揮權.md)）。本線已有第九級名稱：帝國 **Lord Marshal（LMAR，領主元帥）**、聯邦 **General（GEN，上將）**。本篇把以前「尚未決定名額／職權」補為可直接寫小說的工作版，仍保留將來因戰爭政制而修訂的可能。
 
+## 2026-10-31 最新正式簡稱（使用者明確糾正）
+
+**〔USER-FIXED〕使用者口語的 `Lord`／`LORD` 一律指 `High Lord`（遊戲第八級）；`Marshal` 才是 `Lord Marshal`（小說第九級、五席之一）。** 文件內 `LMAR` 仍可作第九級內部標記，但不因名稱含 Lord 就把「三個 Lord」讀成「三名元帥」。例：玩家說旁邊有三位 Lord 喝 Dan-Janiel，指三位 High Lord，而非三席 Lord Marshal；這不影響她本人小說身分是 Marshal。詳 [43｜Lord／Marshal 簡稱、Flick 與寫作對照](43_Lord與Marshal簡稱_SevithiaFlick追擊_文風對照與修正.md)。
+
+
 ## 一、核心決策：帝國現役 Lord Marshal **五席**
 
 **目前同人故事時間點**：帝國戰時軍令體系設 **五個現役 Lord Marshal 名額（五席）**；是**正式有職、有印、有實際責任的最高常設軍事階級**，不是向玩家按 2500 小時自動發放的第九階成就。這五席在主角線中包括：
