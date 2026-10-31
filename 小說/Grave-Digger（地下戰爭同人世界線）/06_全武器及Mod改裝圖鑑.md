@@ -94,6 +94,21 @@
 
 > 特殊 Ocelot Trooper 以及尚無固定全名的工具，資料不夠時保持候選／待查；不要為追求數量而捏造「每把都有 Mod」。
 
+## 4A. Judgement、Kingslayer、AT 的近距穿盔與傷害衰減〔COMMUNITY，2026-10-31 補證〕
+
+此處是**遊戲數值／社群轉錄的版本基準**，不是武器「無論戰場條件固定幾槍死」的小說法則。完整穿盔、200／300 HP、射擊部位、戰場擊殺記錄與小說化方式請讀 [04｜擊殺數、HP、爆頭與穿盔](04_挖掘_頭盔_戰爭規模.md)。
+
+| 武器 | 近距頭部／頭盔機制 | 可查軀幹傷害衰減（studs，非公尺） | 戰術與同人限制 |
+|---|---|---|---|
+| **Judgement 原版** | 第一傷害段 **<60 studs** 可直接穿一般頭盔爆頭即死；**Lancer／Trench 強頭盔例外**。距離拉遠不再維持無條件穿盔即死 | <60：199；約 60–99：180；≥100：120 | 近距穿盔一發與**近距軀幹一發 199，滿血 200 HP 尚餘 1**是兩回事；單發後膛裝填且後座／操槍慢 |
+| **Kingslayer 原版** | 第一傷害段 **<40 studs** 可直接穿一般頭盔爆頭即死；Lancer 類例外 | <40：180；約 40–89：170；≥90：99 | 六發重左輪，但須手動裝藥、壓彈及底火；不可以穿盔能力替代射程和裝填限制 |
+| **AT／Anti-Material Shock 的 Remover** | 資料記載**任何距離可打穿頭盔，包括 Lancer**；真正命中頭部可爆頭致命（未自行現行伺服器逐距離測試） | <100：500；≥100：199 | **遠距穿盔不等於遠距軀幹永遠一槍死**；強噪音、震盪、重量與低射速仍限制使用 |
+
+**不要混淆**：無頭盔的暴露頭部本來通常就會在任何距離被普通非霰彈槍彈一發擊殺；此表討論的是**已有有效頭盔時能否直接穿盔即死**。Lancer 的強頭盔、Vanguard 降一級穿透與霰彈／特殊衝鋒的例外機制各有判定。Judgement **Incendiary 改裝**失去原版高穿甲，不可因保留 Judgement 名字就照搬原版穿盔能力。
+
+來源（皆非本次親自開遊戲實測）：[Judgement Fandom](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle)、[Kingslayer Fandom](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver)、[Shock Trooper Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[Helmets Fandom](https://gravedigger.fandom.com/wiki/Helmets)、[Reddit 2026-03 穿甲解說](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/)。
+
+
 ## 5. 作家使用方式：武器是產業／歷史／職責，不是純傷害榜
 ### 軍需檔案為每件武器記錄以下欄位
 型號與通稱｜設計來源與現有製造者｜政府採購者與流通路線｜使用者與兵種｜彈藥規格｜攜彈、重量、射距特性｜Q／替代動作｜Mod 變體｜優缺點｜保養／故障｜貴重／管制程度｜戰場逸事與真偽程度。  
