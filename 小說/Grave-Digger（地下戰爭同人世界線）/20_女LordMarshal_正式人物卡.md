@@ -1,5 +1,12 @@
 # 20｜瑟薇媞雅（Sevithia）｜Golden Empire 女性 Lord Marshal 正式人物卡 v2.4
 
+## 2026-11-01 Talon 實際習慣與雙槍水準〔USER-FIXED〕
+
+**單 Talon 常作補刀**：使用者多數時候打身體、求迅速確認命中，**不刻意為了爆頭拖慢處理**；對敵方 **Officer**（通常無防護頭盔）則常主動瞄頭。這是戰術選擇，**不是 Talon 爆頭能力差**。
+
+**雙 Talon 的使用者實戰爆頭率可以到約 80%**。瑟薇媞雅在小說中可以真實具有同級的雙槍射頭技術；不要拿她單 Talon 補刀多打身體，反推雙槍只能亂射。她也能像頂級牛仔一樣雙槍迅捷拔出、精準命中目標中心或頭部，動作可以漂亮、狂氣、俏皮或凜冽。**遊戲中的單 Talon Q 快拔首發高精度、雙 Talon Ambidextrous 獨立射擊／旋槍，與小說中的雙手皆可展現頂級快拔技術要分開**；不是聲稱官方遊戲同時提供兩發 Q 必中。詳細見 [48 專項](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)。
+
+
 ## 2026-11-01 最新優先｜自由攜槍與雙 Kingslayer〔USER-FIXED〕
 
 **[48｜瑟薇媞雅自由攜槍、雙 Kingslayer、Officer 標記、Q 花式射擊、模式小說化](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)**。瑟薇媞雅能按她自己的戰術、心情與喜好攜槍，**小說中不受 Roblox Loadout／Perk 格數硬性限制**；她可以同帶 Judgement、Kingslayer、Talon，也可 Whisper＋Knell、雙 Honour、雙 Grace、Grace＋Hope、雙 Talon 等。
