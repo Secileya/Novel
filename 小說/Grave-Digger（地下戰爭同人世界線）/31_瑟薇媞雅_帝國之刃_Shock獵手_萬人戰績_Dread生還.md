@@ -1,5 +1,18 @@
 # 31｜瑟薇媞雅 Sevithia：帝國最鋒利的刀、Shock Hunter、萬人戰績與 Dread 生還
 
+## 2026-11-01 USER-PLAY｜單人獵殺多數／全數 Shock；常態 Judgement 一局四 Shock
+
+**使用者最新直接報告的個人遊戲戰績**：曾有**數次由自己一人擊殺敵方多數 Shock Trooper，甚至單人殺光敵方全部 Shock** 的對局。這是確有使用者經驗的高端反精銳能力，不是「她只能靠自己拿 Shock 才能對抗多名 Shock」的假設。
+
+**特別具體的一場〔USER-PLAY〕**：在**非 Elite Reinforcements 的常態模式**，使用 **Judgement**，**同一局擊殺四名 Shock**；使用者列出的四套裝備來源為 **5m kit ×1、10m kit ×1、base kit ×2**。依當時提問可解讀為普通 Skirmish／Control 兩套定時 Kit ＋劣勢方基地兩套 Kit，但沒有指定四位敵人的 Shock 種類、每次狙擊距離或完整擊殺順序，**不得補造**。這一場的基礎功績是原版重型單發 Judgement 對四名精銳，不是雙 KS、Dread 或自己穿 Shock 時才成立。
+
+**與小說世界線對應〔ADOPTED-WORKING〕**：瑟薇媞雅即使**只帶普通 Judgement、沒有動用 Shock 套裝**，也具備在合理高強度交戰中**單人連續擊敗多名敵方 Shock，甚至清空一小批敵國精銳**的真實能力和歷史案例尺度；不是「謠言可能誇大」或僅是敘事給予的幸運。若正式指定某場故事戰役的具體四人或四套裝備，仍應由該戰役時點、敵方裝備配發及路線因果決定，不能把**遊戲第五／第十分鐘的 spawn 計時**直接帶入小說的軍械制度。
+
+**正確分類**：「幾次單人殺光敵方多數／全數 Shock」是**多場戰績**；「Judgement 一局四 Shock」是其中一項**獨立有明確武器與 Kit 來源的實績**，不能擅自斷言所有單人清隊戰例都使用 Judgement。Shock Hunter 的恐怖價值尤其是**在對方也屬精銳、甚至握有稀有戰略裝備時，仍能在個體戰術上直接擊敗**，不只殲滅普通新兵。
+
+核對：<https://gravedigger.fandom.com/wiki/Shock_Trooper>；<https://gravedigger.fandom.com/wiki/Strategies>；<https://gravedigger.fandom.com/wiki/Skirmish>。社群版本資料對基地 Kit 觸發條件有差異；細節不在本次擅自鎖定。
+
+
 > 2026-10-31 使用者直接補充之**核心戰力設定（USER-FIXED）**；優先於過去 [20 人物卡](20_女LordMarshal_正式人物卡.md)、[30 人格道德](30_瑟薇媞雅_人格道德_戰時指揮與敵軍傷員.md) 中「親手至少數千敵軍」舊下限及對 Dread「常規必死」的不加區分描述。遊戲公認機制以官方／社群可核查資料為準；**Sevithia 可以活著離開 Dread 並休養復原，明確是這個同人世界的**非常罕見**個體例外，不是開發者官方改版**。
 >
 > 本文不是全面重新設計人物；她依然是**年輕成年、外貌漂亮、可脫帽、自然俏皮與溫柔、能凜冽而不靠吼叫下令**的少女，並非「戰績增加就變成冷酷殺戮機器」。武器也不只 Judgement、Kingslayer、Prince，完整參 [06](06_全武器及Mod改裝圖鑑.md)、[28](28_武器操作難易度_Judgement_Kingslayer_破盾與調角度.md)。
