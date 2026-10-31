@@ -109,6 +109,13 @@
 來源（皆非本次親自開遊戲實測）：[Judgement Fandom](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle)、[Kingslayer Fandom](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver)、[Shock Trooper Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[Helmets Fandom](https://gravedigger.fandom.com/wiki/Helmets)、[Reddit 2026-03 穿甲解說](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/)。
 
 
+## 4A-00. 使用者糾正頭擊主詞：Judgement／Kingslayer 優先，AT 為延伸〔USER-FIXED〕
+
+**先前將「極遠距離射中頭盔可能只是打飛盔、但多數有效頭擊直接致命」只放在 AT 專欄並不完整；使用者本次明確指出最初主要在說 Judgement、Kingslayer。** 這兩把是她極高難度招牌槍，小說在有效射距／可穿透盔具下可多次正面展現穿盔致命；少數極遠距有盔頭擊未直接穿入頭部時，也應有**明顯的頭部鈍擊後果**，包括暈眩、失去平衡、耳鳴、跌倒與短時失能等，但**不必所有人都頸椎折斷或永久癱瘓**。AT 也可以在特殊防具、遮蔽或其他小說情況發生類似非貫穿重擊，**不能因此把社群記載的 AT 遠距頭盔穿透能力反過來改成通常只能擊落盔**。
+
+遊戲原版 [Judgement](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle)、[Kingslayer](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver) 近距有不同普通盔穿透段；[Helmets](https://gravedigger.fandom.com/wiki/Helmets) 列 Vanguard、Lancer 強盔例外。現實頭盔未穿仍可能造成鈍傷，見[醫學研究](https://pubmed.ncbi.nlm.nih.gov/25039407/)。小說不把 UI 段落寫成以公尺計的固定人命公式。詳 [42｜Sevithia 隨身佩槍／實彈／震動射擊／頭盔重擊](42_Sevithia_隨身佩槍_極限實彈操槍_震動射擊_頭盔重擊_校準.md)。
+
+
 ## 4A-0. 瑟薇媞雅 AT／Remover 新實績與遠距頭擊〔2026-10-31 USER-PLAY〕
 
 | 項目 | 使用者親自遊玩的紀錄／觀察 | 小說轉譯界線 |
