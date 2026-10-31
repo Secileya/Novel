@@ -1,5 +1,12 @@
 # 20｜瑟薇媞雅（Sevithia）｜Golden Empire 女性 Lord Marshal 正式人物卡 v2.4
 
+## 2026-11-01 最新 USER-PLAY｜單人多次獵殺 Shock；常態 Judgement 擊殺四套 Kit
+
+**使用者親述**：曾多次**單人擊殺敵方多數甚至全部 Shock Trooper**；其中一場尤其明確：**常態模式使用 Judgement，單局擊殺 4 名 Shock，對應 5 分鐘 Kit、10 分鐘 Kit 與兩套基地 Base Kit**。前者是跨多場經驗，後者是特定可記錄的單場戰績；使用者未指明該四名 Shock 的子類別，不擅自填入。遊戲定時 Kit 與劣勢方基地 Kit 的機制見 <https://gravedigger.fandom.com/wiki/Shock_Trooper>，其細節有版本變動。
+
+**人物技藝〔USER-DIRECTION〕**：瑟薇媞雅平時不必裝備 Shock；即使拿普通 Judgement，也能在對抗多名精銳的真實交戰中創造這一等級的勝利，不因她不是 Shock 單位便突然失去頂尖反精銳能力。故事允許她真實做到，保留覺察、Flick、單發再裝、地形判斷、頭盔及敵軍反制的表演空間。這與雙 Kingslayer／雙 Talon 高精準能力並存，並非同一件戰績。
+
+
 ## 2026-11-01 Talon 實際習慣與雙槍水準〔USER-FIXED〕
 
 **單 Talon 常作補刀**：使用者多數時候打身體、求迅速確認命中，**不刻意為了爆頭拖慢處理**；對敵方 **Officer**（通常無防護頭盔）則常主動瞄頭。這是戰術選擇，**不是 Talon 爆頭能力差**。
