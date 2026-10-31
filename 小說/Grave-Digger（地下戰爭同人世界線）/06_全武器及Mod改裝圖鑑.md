@@ -1,5 +1,10 @@
 # 06｜全武器、Mod 改裝與軍械後勤圖鑑
 
+## 2026-11-01 Talon 補刀／無盔 Officer／雙 Talon 80% HS／牛仔 Quickdraw
+
+新增使用者實戰修正，詳 [48 專項](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)：平時 Talon 常用來**射身體補刀**，無意每次精準描頭；但面對**不戴正常頭盔的敵方 Officer** 會主動瞄頭；**雙 Talon 操作的爆頭率可到約 80%（使用者經驗）**，這是頂尖雙槍技藝，不是每場固定命中率或單槍平均值。單 Talon 的 Q Quickdraw 準備後首發高度精準，普通 Fan Fire 不承接首發精度；遊戲 Ambidextrous 雙槍會失去一些單槍 Q 功能，長按 Q 旋雙 Talon 主要是表演。**小說瑟薇媞雅可超越遊戲按鍵欄位，真正同時或交替雙手快拔、射中各自鎖定的中心或頭部**，像極高技巧牛仔；保留遊戲事實而不錯當小說禁令。
+
+
 ## 2026-11-01 最新更正｜「Kingslayer 遊戲兩格」不等於「瑟薇媞雅小說不能雙持」〔USER-FIXED〕
 
 **[48｜瑟薇媞雅自由攜槍、雙 Kingslayer、Officer 標記、Q 花式射擊、模式小說化](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)**。本檔下方對遊戲 **Kingslayer 2 格主武器、Ambidextrous 常規雙持限制**之記載繼續保留為遊戲機制，但**已不構成 Sevithia 小說武器配置上限**。她可同帶 Judgement＋KS＋Talon；可用 Whisper＋Knell、雙 Honour／雙 Grace／雙 Talon／Grace＋Hope；尤其**雙 Kingslayer 係使用者特別為她安排的高精準、極高難度代表技藝**，雙槍共十二發、能在有限掩護的曠洞真正清空十幾人的包圍。她本人依情境決定配置，不必每回合都帶相同槍；手部協調、再裝填、備彈與攜行可實際演出，勿用遊戲格數直接否定。Q 類花式射擊因槍而異，詳 48。
