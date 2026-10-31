@@ -232,6 +232,15 @@
 - **Elite Reinforcements 是 Campaign modifier**，不是 Dread。社群[Round Modifiers](https://gravedigger.fandom.com/wiki/Round_Modifiers) 記錄雙方首次部署**各約六名 Shock Trooper**，小說轉換成雙方事前已完成的精銳動員與配發，不是中途憑空出箱。見 [03](03_Shock_Dread_稀有武裝與授權.md)、[12](12_遊戲全面小說化_戰役系統與轉換規則.md)、[35](35_軍營戲劇引擎_軍階衝突_EliteReinforcements_女皇私交_停戰志向.md)。
 
 
+## 十三-D｜2026-10-31 Dread 疼痛、Hippo 與 AT 新人物設定
+
+**必讀 [39｜Dread 疼痛、女皇與友人反對、Hippo、AT 玩家實績](39_Dread疼痛_女皇與友人的反對_Hippo戰地醫療_AT實績.md)**。這份不是舊 A/B/C 及 32–38 Gemini 原稿的一部分，屬使用者最新直接決策加資料查證。
+
+- **USER-FIXED Dread**：瑟薇媞雅雖能特殊生還，**仍會承受實際痛楚與戰後長期恢復**。女皇和朋友不希望她去用，她原話**「我用不就少死一個人嗎？」**，願讓自己承痛以免另一名接近有去無回的 Dread 乘員死亡。其他人也能使用 Dread，單次瀕敗戰局 Dread 有真實顯著翻盤價值，**尤其她操作**。不能把「長期讓她常態作戰更划算」誤解成 Dread 本身不強或只有她能用，也不能把女皇反對寫成不了解軍事。
+- **COMMUNITY Hippo**：Hippo 是 Hippocratic Perk 玩家，尤指 Hippo Mort，不是 Shock；加快治療、Morale、放棄槍械與有限自衛。社群有選擇放過 Hippo 的文化，也有不放過者，並無一律無敵。小說應有真正醫療站、押送、傷者分流、陣營與倫理衝突，亦可在 Dread 康復時發揮獨立人格與專業作用。
+- **USER-PLAY AT**：瑟薇媞雅 **AT 5,000 Kills／80% HS**，能極遠距爆頭狙擊一般敵軍與 Shock；部分遠距頭擊先打掉頭盔卻非立即擊殺，**多數其他有效頭擊確實致命**；絕不能誤寫成爆頭一律秒殺，或大部分只掉盔。她能作 Shock Hunter，**正因自身深懂 Shock 類型、機制和弱點**。這些是玩家數據，不等於再給小說戰史加 5,000 獨立死亡。
+
+
 ## 十四、優先原始檔索引
 
 - [00 專案總索引](00_專案交接與索引.md)
