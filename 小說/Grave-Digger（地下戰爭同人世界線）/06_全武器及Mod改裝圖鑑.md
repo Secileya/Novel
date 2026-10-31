@@ -109,6 +109,16 @@
 來源（皆非本次親自開遊戲實測）：[Judgement Fandom](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle)、[Kingslayer Fandom](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver)、[Shock Trooper Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[Helmets Fandom](https://gravedigger.fandom.com/wiki/Helmets)、[Reddit 2026-03 穿甲解說](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/)。
 
 
+## 4A-1. 2026-10-31 使用者新增：武器操作難度與白帽女 LMAR 的熟練
+
+詳見 [28｜Judgement／Kingslayer 操作難度、刺槍破盾及調角度瞄頭](28_武器操作難易度_Judgement_Kingslayer_破盾與調角度.md)。
+
+- **〔USER-FIXED〕**：兩把均是極難精通的主武器，**Kingslayer 尤其比 Judgement 更難**；白帽女 LMAR 經大量練習，能熟練使 Judgement 的刺槍造成 Vanguard 失衡，並用兩把槍調整射角爭取頭部命中。她做過無數次，**不代表一般人能簡單仿效**。
+- **〔COMMUNITY〕**：原版 Judgement 附刺刀、單發後膛（基本裝填約 2 秒）；Kingslayer 是火帽左輪、2 格重量、6 發、無一般 Steady Aim，社群完整補彈常見約 30–40 秒。Gemini 試寫「十幾秒裝滿」未經現行遊戲證實，應保留為傳聞、無精確秒數描述或尚待後續角色化決定。
+- **〔COMMUNITY＋USER EXPERIENCE 未細分條件〕**：Vanguard 正面盾牌可以擋住 Judgement 的刺刀衝鋒，並可能反制衝鋒者；使用者觀察到刺槍能使 Vanguard 失衡，敘事需區分盾位、刺擊／衝鋒、是否失衡與施力時機；**不把不同動作寫成萬能的單次正面破盾**。
+- **〔小說創作〕**：調角度取得可射頭部不等於無視遮蔽，更不代表子彈能穿過盾心；**60／40 studs 不直接翻成六十／四十步**。避免遊戲 58k Kills 直接轉化成故事中確認殺死 58k 人。
+
+
 ## 4B. 近戰擊殺解鎖與部位減傷的跨檔索引
 
 **前一版圖鑑只列基本 Combat Knife、Trench Mace，遺漏兩件重要擊殺解鎖物件。** 已另建 [16｜Army Machete／Dan-Janiel Bottle](16_近戰擊殺解鎖_砍刀與Dan-Janiel.md)：
