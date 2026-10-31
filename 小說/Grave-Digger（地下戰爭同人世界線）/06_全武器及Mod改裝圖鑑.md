@@ -1,5 +1,10 @@
 # 06｜全武器、Mod 改裝與軍械後勤圖鑑
 
+## 2026-11-01 Talon Q Quickdraw 精準度說明：Accuracy ≠ Aim
+
+**使用者糾正：Talon Quickdraw 在遊戲中有 100% Accuracy，命中頭部仍看玩家自己的 Aim。**[Talon Fandom](https://gravedigger.fandom.com/wiki/%27Talon%27_Army_Revolver) 與 [Weapons Fandom](https://gravedigger.fandom.com/wiki/Weapons) 記載 Q 預備後**首發完美槍械精度、沒有一般腰射隨機散布**；其後接續 Fan Fire 不保有同一精度，需重新進入 Quickdraw 狀態。**100% Accuracy 不是 100% 自動追蹤命中／爆頭／擊殺**。對 Sevithia 而言可以靠自身卓越 Aim、極短反應與雙手武器操控，真正演出幾乎不可思議的瞬發精準射擊。單 Talon 打身體補刀、對無盔 Officer 主動瞄頭、雙 Talon 約 80% HS 的玩家實績，均與 Q 槍械 100% Accuracy 並存；不可互相替代。小說雙槍高精準操作不等同遊戲官方允許兩發 Q 自動鎖頭。詳 [48](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)。
+
+
 ## 2026-11-01 Talon 補刀／無盔 Officer／雙 Talon 80% HS／牛仔 Quickdraw
 
 新增使用者實戰修正，詳 [48 專項](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)：平時 Talon 常用來**射身體補刀**，無意每次精準描頭；但面對**不戴正常頭盔的敵方 Officer** 會主動瞄頭；**雙 Talon 操作的爆頭率可到約 80%（使用者經驗）**，這是頂尖雙槍技藝，不是每場固定命中率或單槍平均值。單 Talon 的 Q Quickdraw 準備後首發高度精準，普通 Fan Fire 不承接首發精度；遊戲 Ambidextrous 雙槍會失去一些單槍 Q 功能，長按 Q 旋雙 Talon 主要是表演。**小說瑟薇媞雅可超越遊戲按鍵欄位，真正同時或交替雙手快拔、射中各自鎖定的中心或頭部**，像極高技巧牛仔；保留遊戲事實而不錯當小說禁令。
