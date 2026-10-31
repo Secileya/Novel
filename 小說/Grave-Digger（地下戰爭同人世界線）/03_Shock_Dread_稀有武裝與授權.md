@@ -84,6 +84,13 @@
 **最重要的決策**：即使 Dread 的單次重火力、突圍能力極高，**讓這位帝國之刃進去通常仍是戰略虧損**。常態瑟薇媞雅靠 Judgement／Kingslayer／Talon／其他武器、對 Shock 的精準狩獵與軍團指揮的持續價值，多數時候比一具必須犧牲她後續一至數月戰力的鐵棺更高；只有面臨真正敗局且其他解法行不通，才值得承受這場賭注。**Dread 不是她的普通「第二階段變身」**。
 
 
+## 五-B｜Elite Reinforcements 不等於後期 Shock 開箱／Dread 翻盤
+
+**〔COMMUNITY〕**：[Round Modifiers](https://gravedigger.fandom.com/wiki/Round_Modifiers) 清楚把 **Elite Reinforcement** 列為 Campaign 的回合修正條件：**雙方在開局首次部署時，各有約六名 Shock Trooper**。這不是一般模式中途才開啟的箱、不是落後方的 Dread，也不是只給一方的突發援軍。**約六人為社群記錄，非永遠固定的官方一手常數**。另見 [Basic Guide](https://gravedigger.fandom.com/wiki/Basic_Guide) 的玩家 Shock 練習建議。
+
+**〔小說轉換〕**：某個高價值戰區前夕，兩國各自提前動員、運輸和配發一批 Shock Kit，由合格操作人員在戰役初期同時投入；可以形成兩軍首波 Shock 集群、偵察反制、裝備領用矛盾、補員與大規模戰損。**普通步兵、工兵、醫護和軍官仍是戰役關鍵，不會因 Elite 修正就全變背景板**。不能假設為正好十二套機器從岩壁裡憑空出現。詳細取材、時間軸與對應戰役方法見 [35](35_軍營戲劇引擎_軍階衝突_EliteReinforcements_女皇私交_停戰志向.md)。
+
+
 ## 六、Dreadnought（鐵棺）與 Shock 明確不同
 〔COMMUNITY，可能轉錄開發者描述〕Dreadnought／The Iron Coffin 是極端重甲、強火力、緩慢行動、被藥物與高熱不斷損害的**人員駕駛**戰爭兵器，並非機器人。遊戲模式存在高 HP 但逐漸耗損、不能普通治療／加藥、局勢落後時獲暫時補員支援等機制。Fandom 某段轉述稱極度不人道、使用頻率很低，具體「一年一次」未直接從原卡核實，不作全球固定上限。
 〔ADOPTED-WORKING〕
