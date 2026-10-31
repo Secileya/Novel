@@ -85,7 +85,12 @@
 - 部署須經更高層授權，對工廠產量、醫療／軍法和軍人心理有深遠影響；它極少出場，但未必每次必勝。
 - **Dread 與 Shock 都不是軍階**；PVT 穿 Dread 仍是 PVT，職務命令與戰區部署授權另論。高階親自上裝須有特殊理由。
 
-## 七、資料與限制
+## 七、稀有武裝與最高軍階的『疊加存在感』〔USER-FIXED／ADOPTED-WORKING〕
+- 友軍聽到 **「LORD Shock／BRIG Shock」**，可能更相信稀有武裝會被妥善使用；敵軍同時對裝備性能及操作者經驗警戒。但高階不因此永遠最會使用每一型 Shock，仍可主動把套件交給實際更適任的低階。
+- **「Dread，裡面竟然是 LORD」** 對在場人物可意味高階戰力、極少見的個人犧牲、戰略危急或職務交接風險，而不只是血量更多。**遊戲 Dread 可能是落後一方的逆轉手段**，不能把「敵方出現 Dread」直接解讀為對方必然優勢局；小說應問何以使用鐵棺、誰接班指揮及身分消息如何傳播。
+- 多位 BRIG／LORD 同場的情緒衝擊與司令部／戰區人口不均勻分配相容；下級可以「我們來了一名 BRIG！」地歡呼，對方則可能喊「他們怎麼有三位 BRIG？」；但不需讓所有基層都機械崇拜。見 [07](07_軍階社會重量_敬畏信任與士氣.md)。
+
+## 八、資料與限制
 - Fandom Shock Trooper（含套裝與 Synergy、不同模式取得）：https://gravedigger.fandom.com/wiki/Shock_Trooper
 - Fandom Dreadnought：https://gravedigger.fandom.com/wiki/Dreadnought
 - Fandom Game Culture（高低階套裝與例外）：https://gravedigger.fandom.com/wiki/Game_Culture
