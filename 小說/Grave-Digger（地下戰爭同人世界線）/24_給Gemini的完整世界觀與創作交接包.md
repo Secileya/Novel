@@ -104,7 +104,7 @@
 地圖包括 Assembly、Barracks、Basin、Bastion、Church、Cobble、Columbarium、Communications、Depot、Estate、Greenhouse、Hideout、Manor、Manufacturing、Medical、Mortuary、Office、Outpost、Processing、Renewal、Sabbath、Shanty、Stockpile、Transmission、Warehouse。
 
 - **Barracks** 兵營／休息／運輸；**Office** 軍令與家書；**Greenhouse** 食物；**Manufacturing／Assembly** 生產；**Basin** 水／污水；**Medical** 醫療；**Mortuary／Columbarium** 遺體及火化；**Renewal** 軍服清洗修復；**Outpost／Depot** 守衛及後勤。
-- 地下有明亮人工燈光、時鐘和固定居住區；通風、岩層支護、電力、濕氣、濾芯、交通及鐵道能左右整場戰役。新挖坑道暗於生活區，但不等於ทุก名士兵時刻摸黑。
+- 地下有明亮人工燈光、時鐘和固定居住區；通風、岩層支護、電力、濕氣、濾芯、交通及鐵道能左右整場戰役。新挖坑道暗於生活區，但不等於所有士兵時刻摸黑。
 - 社群食物名稱如 Protein Jelly／Amber Rations 是資料有歧異的候選，不可直接宣稱每地每天只吃這個。
 
 詳 [09 地下生活](09_地下生活_飲食_平民_經濟與醫療.md)、[13 地圖](13_官方Trello地圖卡_附圖與版本稽核.md)、[14 交通](14_地下據點_交通網_生活與戰役設計.md)、[15 官方歷史](15_官方Trello核心歷史與四陣營原文核對.md)。
