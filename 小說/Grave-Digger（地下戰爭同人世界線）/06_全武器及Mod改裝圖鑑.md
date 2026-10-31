@@ -113,7 +113,7 @@
 
 **前一版圖鑑只列基本 Combat Knife、Trench Mace，遺漏兩件重要擊殺解鎖物件。** 已另建 [16｜Army Machete／Dan-Janiel Bottle](16_近戰擊殺解鎖_砍刀與Dan-Janiel.md)：
 - **Army Machete**＝Combat Knife **1,000** 遊戲擊殺解鎖，功能上是特殊 Combat Knife 造型／獨立 Melee Sheath 物件；Q 擦拭刀身，沒有單純額外傷害 buff。
-- **'Dan-Janiel' Bottle**＝Trench Mace **1,000** 遊戲擊殺解鎖，功能上是特殊 Trench Mace 造型／獨立 Melee Sheath 物件；Q 可喝酒，Eth anol／Sickness 有負面作用，處決後酒瓶可能碎裂；**沒有止痛加成**。
+- **'Dan-Janiel' Bottle**＝Trench Mace **1,000** 遊戲擊殺解鎖，功能上是特殊 Trench Mace 造型／獨立 Melee Sheath 物件；Q 可喝酒，Ethanol／Sickness 有負面作用，處決後酒瓶可能碎裂；**沒有止痛加成**。
 - **命中不同部位不應用純軀幹傷害一概換算**：玩家 [系統資料](https://www.namu.moe/w/Grave/Digger/%EC%8B%9C%EC%8A%A4%ED%85%9C) 記錄**腿部槍傷 -20%（×0.8）**；頭部另有爆頭／頭盔判定，霰彈另論。**手臂等其他部位的精確倍率未知**，見 [04](04_挖掘_頭盔_戰爭規模.md)。
 - 這些資訊是遊戲數據／社群機制來源，小說應轉成受傷、失能、醫療、服役與後勤因果，不要讓一個 1000 Kills 外觀自動證明某人親手殺過一千人。
 
