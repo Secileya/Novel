@@ -1,5 +1,12 @@
 # 20｜瑟薇媞雅（Sevithia）｜Golden Empire 女性 Lord Marshal 正式人物卡 v2.4
 
+## 2026-11-01 Talon Quickdraw 100% Accuracy：武器無散布，不是系統自動瞄頭
+
+**〔USER-PLAY＋COMMUNITY〕**Talon 的 Q Quickdraw 第一發具有遊戲所稱的 **100% Accuracy／perfect accuracy**；具體指那發子彈沿著玩家實際選擇的瞄準射線精準飛出，**不是 100% 自動命中、100% 爆頭或 100% 擊殺**。真正能不能擊中頭部仍取決於使用者的 **Aim、時機、目標動態與掩蔽**。因此瑟薇媞雅的頂級牛仔式快拔之所以驚人，不是 Q 自動給她勝利，而是她本身有極強的瞬間辨識、舉槍校準與射擊能力；槍械精度才將這份能力完整傳達到彈道上。
+
+**User feedback**：此前雙 Talon 情境的快速拔槍、雙槍連發命中與俏皮互動，使用者明確說**「有感覺了」**；之後創作繼續保留「真準、真帥、角色鮮活」而不固定重複該段句子。她單 Talon 主要打身體補刀、雙 Talon 可達約 80% 爆頭率、雙 Kingslayer 特別的高水準均保留為不同技術情況。原文及查證見 [48](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md) 與 [Talon Wiki](https://gravedigger.fandom.com/wiki/%27Talon%27_Army_Revolver)。
+
+
 ## 2026-11-01 最新 USER-PLAY｜單人多次獵殺 Shock；常態 Judgement 擊殺四套 Kit
 
 **使用者親述**：曾多次**單人擊殺敵方多數甚至全部 Shock Trooper**；其中一場尤其明確：**常態模式使用 Judgement，單局擊殺 4 名 Shock，對應 5 分鐘 Kit、10 分鐘 Kit 與兩套基地 Base Kit**。前者是跨多場經驗，後者是特定可記錄的單場戰績；使用者未指明該四名 Shock 的子類別，不擅自填入。遊戲定時 Kit 與劣勢方基地 Kit 的機制見 <https://gravedigger.fandom.com/wiki/Shock_Trooper>，其細節有版本變動。
