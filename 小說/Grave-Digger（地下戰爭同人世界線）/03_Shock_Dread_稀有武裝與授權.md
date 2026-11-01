@@ -1,5 +1,10 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
 
+## 2026-11-01｜Dread 與徒手：引擎「近戰免疫」不等於小說無物理互動
+
+[原版 Dread Wiki](https://gravedigger.fandom.com/wiki/Dreadnought) 說完全免疫 melee／backstab／charge；Reddit 玩家對實際是否有微量傷害有互相衝突留言，需保留版本待核。〔USER-FIXED〕本小說 Dread 可用厚重雙臂、拳頭、衝撞或鉗制對敵方造成極高動能傷害，但笨重、轉身與精細反應受限；**不是已核對的原版 Dread 近戰按鍵動作**。Sevithia 可憑超出常人的肌力、速度及瞄準接合部技術，以空手／腳踢使 Dread 機構出現**有限的真實受損或姿態變化**，但整體裝甲非常厚，遠不如通常使用高穿甲武器／地形戰術安全有效，**她不會因為「能」就每次去打拳**。完整 [69](69_Sevithia徒手格鬥_拳腳破盾_Dread限制與原版差異.md)；TDM 與 [68](68_Deathmatch雙零Tickets_防守反耗數百_Sevithia逆轉實績.md) 另論。
+
+
 ## 2026-11-01｜66｜Shock 跨兵種使用與七種「同職 Synergy」完整分級
 
 **〔USER-FIXED＋COMMUNITY〕** 原兵種**不必**與選用 Shock 一樣才「有資格使用」；普通 Shock Kit 在條件允許時可跨職選擇。**對應的原職→同職 Shock** 才額外有 **Synergy Exclusive**，並非不對應就失去該 Shock 基本武器／配備。專屬效果：[Soldat→Storm] 30% 裝填、加速／操槍；[Rook→AT] 20% 裝填、7.5% 射速、抗擊退／倒地；[Mortician→Flame] 20% 裝填、Syrette 200 HP；[Officer→Radio] 20% 裝填、Recon Kit Radio-mark、移動；[Jaeger→Geist] 15% 裝填、毒彈／陷阱優勢；[Lancer→Trench] 20% 裝填、刺刀 199→450、多人衝鋒、較長持續與短冷卻；[Vanguard→Bulwark] 20% 裝填、Bulwark's Hope、頭盔強化。**Ocelot 無同職 Synergy**。每型還有各自彈數顯示與裝備保留差異，細節、社群來源及跨職例子見 [66](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md)。原舊表「Anti-Material Trooper／Rook」只是對應職別，**不可解讀成其他 class 禁用 AT**。小說化為裝備配合與專業經驗，而非系統禁止或魔法 buff。

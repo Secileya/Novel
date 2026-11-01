@@ -1,5 +1,10 @@
 # 67｜Tickets 耗盡的 FOB Holdout／Evacuation、後門 NPC、Campaign Final Stand 五分鐘列車及動畫內容取得方式
 
+## 2026-11-01｜補全普通 FOB 轉 Deathmatch：兩軍都是 0 仍有真正勝負
+
+原 [67](67_Tickets耗盡FOB撤離四分鐘門後友軍_戰役FinalStand五分鐘列車_動畫內容導入流程.md) 記**一方 Tickets 0** 後基地撤離與四勝後 Final Stand；但還應明確加上**兩方 Tickets 都歸零的 TDM／Deathmatch，最後留下的士兵決定勝負**。進攻方即使原有幾百 Tickets，也可能因多次攻擊防守基地而反被耗盡；守方可選擇安全撤離或有風險地堅守至敵方 0，社群對哪種更好有真正爭論。〔USER-FIXED〕Sevithia 某次在友軍敗退趕來幫守，成功反耗敵方仍剩數百 Tickets 後逆轉，詳 [68](68_Deathmatch雙零Tickets_防守反耗數百_Sevithia逆轉實績.md)。不要把此 TDM 視為 Campaign Final Stand 的五分鐘裝甲列車流程。
+
+
 > 2026-11-01 使用者問：「還有 ticket 耗光的 last stand 呢，五分鐘開門呢，門後的士兵呢，具體怎麼運作的，然後我想讓你知道動畫內容怎麼處理」。**最重要的研究結果：一般對局 Tickets 歸零後的 FOB Base Defense／Evacuation，與 Campaign 四勝後進入的 Final Stand／FOB Siege 不同**。社群俗語會都說「Last Stand」，資料頁也常混寫，但**門後 NPC、開門計時、撤離途徑、敗北效果與獎勵都是不同的**。本文按公開資料截至 2026-11-01 整理，**無登入當日伺服器實測**；以下以〔GAME-COMMUNITY〕／〔NOVEL-ADAPTATION〕／〔OPEN〕／〔VIDEO-METADATA〕區分。
 
 ## 一、常態對局：Tickets 耗盡後的 FOB Base Holdout／Evacuation
