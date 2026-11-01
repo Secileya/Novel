@@ -1,5 +1,14 @@
 # 28｜武器操作難易度：Judgement／Kingslayer、刺槍破盾與調角度命中
 
+## 2026-11-01｜KS 的困難是多重缺點相乘：Shift Focus Aim 不能替它兜底
+
+**〔USER-FIXED〕** Kingslayer 不只是「全軍公認最難操作」和「裝填慢」：射速／連續交戰節奏不及許多常用步槍或手槍、難對高速敵人保持準頭、子彈散布和強後座／槍身重量限制高命中、KS 最可靠的單發確殺價值多來自**有效頭擊**，而它**無法用一般 Shift Focus Aim（Steady Aim）獲得額外精準**。並非打身體無效；社群近距軀幹 180、第二段 170，對普通滿血 200 HP 通常不足以直接一槍擊殺；頭擊還須區分頭盔和射距。Fandom [Kingslayer](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver) 的精度為 Medium、Inaccuracy Low、Control Low，不能抹成所有子彈必亂飛；難在散布、控槍、時間與頭部目標共同存在。
+
+**普通操作區分**：RMB 是一般舉槍瞄準；已瞄準且站穩後 Shift 是普通槍的 **Focus／Steady Aim**，需穩定時間且移動、受擊會打斷；**Kingslayer 仍能 RMB 瞄準，但不能利用普通 Steady Aim 加成**。Officer 的 **Focus** 是 Trench Whistle 團隊號令，與 Shift 完全不同。不能把 90% KS 爆頭歸功於 Shift、遊戲自動鎖頭或完美無散射，也不能說「完全不能瞄準」。
+
+**〔角色〕** 瑟薇媞雅在 [62A](62A_Gemini第二章_修訂候選正文.md) 已**13 秒無目視完成真正六發**，常見約 40 秒（約 **3.1 倍速度**）、Veteran 約 30 秒（約 **2.3 倍速度**），是多倍而非稍快；再乘上她 KS 長期約 90% 玩家頭擊紀錄、強臂力、軀幹／手腕後座控制、Flick 甩槍及戰場判斷，才讓 KS 從普通人的低容錯槍變成她的頂級殺傷武器。**雙 KS** 是她已固定的極難個體技術：兩支重量、各六發與左右兩條射線都仍真實；不可把每一個高手都寫成可複製。**兩把十二發全部補滿不等於她固定只要 13 秒**。全部解釋與社群來源見 [65](65_Kingslayer多重弱點_瑟薇媞雅三倍裝填與雙槍_瞄準Shift例外.md)。
+
+
 ## 2026-11-01｜AT Remover 對 Vanguard：遠距破防與短距穿盾的不同判定
 
 **〔COMMUNITY〕** [Vanguard](https://gravedigger.fandom.com/wiki/Vanguard) 指 AT 反物資槍命中普通 Vanguard 手持重盾可**立即 Guard Break**；[Bulwark's shield 專題](https://gravedigger.fandom.com/wiki/Bulwark%27s_shield) 精確描述**命中 centre plate 時一發倒地**、幾乎任何射距可觸發。**這不等於中間主板一定有穿透孔**：Vanguard 主頁明示中央板對槍械無法直接穿透；[Shock Trooper／Remover](https://gravedigger.fandom.com/wiki/Shock_Trooper) 又稱近 **100 studs** 可穿 Vanguard 盾牌，具體提到上方折板穿透並可能擊中頭盔或盾後人員。**相互衝突資料分層處理為「主板破防但未必穿；可被打穿的較薄板件與近距人體殺傷須另判定」**，不宣稱已完成當版遊戲實測或官方判定。

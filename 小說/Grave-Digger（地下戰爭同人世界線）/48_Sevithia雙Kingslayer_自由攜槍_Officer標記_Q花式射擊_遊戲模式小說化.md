@@ -1,5 +1,10 @@
 # 48｜瑟薇媞雅自由攜槍與雙 Kingslayer、Officer 標記、Q 花式射擊、戰役模式小說化
 
+## 2026-11-01｜雙 Kingslayer 的「為何只有她做得到」必須完整演出
+
+**〔USER-FIXED〕** 她不是單靠「雙持兩把六發高傷槍」取勝。KS 原本相較普通手槍／不少步槍射速較慢、完整手動補裝費時、沒有 Shift Steady Aim 額外加成，伴隨彈丸散布、控制低、強後座與高頭擊需求；在一般士兵手裡可能並不划算。瑟薇媞雅將六發真實裝填從普通約 40 秒縮至正文 **13 秒**、在艱難條件下保持約 90% 的 KS 使用者遊戲歷史爆頭紀錄，**力量、腕部控制、核心穩定、左右手獨立回正、雙射線判斷、頭部預測與操作經驗**同時具備才足以雙 KS 實戰並保持高命中。**本世界線目前只有她被固定具有這種程度的雙 KS 戰力**；普通 Roblox 規則仍不支援 Ambidextrous 雙持 KS，小說能力是她個體例外。不能因此偷掉後座、黑火藥程序或兩把槍共十二發上限。**單把六發 13 秒不等於雙把十二發同時 13 秒**。參 [65｜KS 多重缺點與人物技術落差](65_Kingslayer多重弱點_瑟薇媞雅三倍裝填與雙槍_瞄準Shift例外.md)。
+
+
 ## 2026-11-01｜Officer E 特殊戰術指令、哨音、偵察及人物指揮要分層
 
 **〔COMMUNITY〕** [2026-09 玩家 Officer 指南](https://www.reddit.com/r/GraveDiggerRoblox/comments/1w893bn/gravedigger_guidebook_officer_usage_check_desc/) 記述 Officer E 特殊呼叫有 **Follow Me、Compound Order、Defend Sector**；這是目前可直接核對的實際玩家操作敘述，**非官方全版本完整選單清單**。它們與 Trench Whistle **Advance／Defend／Focus**（分別改善移動、抵抗／醫護、武器操控）不同，也與普通 E 五項快捷求助不同。〔USER-FIXED〕小說將所有這些視作資訊傳達與部隊協作的功能入口，**不只限六種、更不固定台詞**；真實下令仍取決於指揮鏈與戰區責任。瑟薇媞雅指揮不必親自拿 Officer 的哨子或對話 UI 才成立；低軍階 Officer 也不因使用選單就自動取得高階權限。詳 [64 專項](64_Officer專屬E戰術呼叫_哨音三號令_自由戰場指揮.md)。

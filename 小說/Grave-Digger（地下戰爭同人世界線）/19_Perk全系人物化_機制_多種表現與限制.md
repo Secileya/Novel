@@ -1,5 +1,10 @@
 # 19｜Perk 全系人物化：遊戲效果、形成方式、個體差異與敘事約束
 
+## 2026-11-01｜射擊 Perk、Shift Steady Aim 與 Kingslayer 例外
+
+**一般 Aim 是 RMB 舉槍瞄準，Focus／Steady Aim 是站穩並瞄準時再按住 Shift 的穩定瞄準機制；不是 Officer 的 Focus 哨聲。** [Basic Guide](https://gravedigger.fandom.com/wiki/Basic_Guide) 與 [2026-09 Controls](https://gravedigger.wiki/guides/controls/) 確認 Shift；[Kingslayer](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver) 明說**該槍不能藉普通 Steady Aim 提高 Accuracy**，但不是不能 RMB 瞄準。Marksman Perk 可改善一般散布與後座；**不能無來源就斷定它能移除 KS 的 Shift 限制**。瑟薇媞雅 KS 精準靠自身反應、視線、臂力、後座控制、實戰與技巧，不靠虛構通用 Shift 開關。完整見 [65](65_Kingslayer多重弱點_瑟薇媞雅三倍裝填與雙槍_瞄準Shift例外.md)。
+
+
 > 2026-10-31 新建｜專案《Grave/Digger》同人世界線之「可持續使用的 Perk 設計規範」。**先完成本章，才進行 Lord Marshal 人物卡、軍制及第一章開場。**
 >
 > 來源分類：〔COMMUNITY／遊戲〕[Grave/Digger Fandom Perks](https://gravedigger.fandom.com/wiki/Perks)、[2026-09 非官方 Perks 指南](https://gravedigger.wiki/loadouts/perks/)；兩者不是遊戲現行實測證據。與官方 Trello 相衝突時優先可核第一手遊戲／開發者資料。下文小說設計均〔ADOPTED-WORKING〕；人物名〔OC-CANDIDATE〕。不將社群文章作者的具名角色直接接管成官方正史。
