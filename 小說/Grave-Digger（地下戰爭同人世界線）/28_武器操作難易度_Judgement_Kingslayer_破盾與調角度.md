@@ -1,5 +1,14 @@
 # 28｜武器操作難易度：Judgement／Kingslayer、刺槍破盾與調角度命中
 
+## 2026-11-01｜Judgement 的 Charge 與一般刺刀 Guard Break 必須分開
+
+**〔GAME-COMMUNITY〕** 原版 Judgement 可在**全速奔跑時按 Q** 發動 **Bayonet Charge（刺刀衝鋒）**，不需要把「Charge」誤翻成蓄力射擊。普通 M1 刺刀近戰與 Charge 的起手條件、速度、轉向、擊中結果及失手風險均不同。成功衝鋒可觸發近戰處決；同類 Lancer Charge 撞牆、撞盾、失敗後有僵直／倒地風險，**但不可把 Lancer 的具體持續秒數／連續擊殺上限直接鎖為 Judgement 數字**。資料：[Judgement](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle)、[Heavy Lance](https://gravedigger.fandom.com/wiki/Heavy_Lance)。
+
+**〔攻防雙向，兩者不矛盾〕** [Vanguard](https://gravedigger.fandom.com/wiki/Vanguard) 遊戲資料指出：完整或部分舉盾姿態可正面截停 Lancer／Judgement 的刺刀 Charge，使衝鋒者承受失衡、被反擊風險；本小說既有〔USER-FIXED〕**普通 Judgement 刺刀、劍與 Rook Heavy Pickaxe 可以在適當角度／條件下破 Vanguard 盾防**，屬不同動作與碰撞條件，不能以其中一項取消另一項。瑟薇媞雅極強力氣、重心控制和預判可提高她施展突擊、轉向尋角、及時放棄危險正面路線的能力，**不是自動無視整面盾的無敵 Charge**。
+
+**〔MOD〕** Judgement Incendiary 改裝拆除刺刀，不能使用原版的 Bayonet Charge。**〔原稿〕** 第 62A、62B 章尚無真正的 Charge 描寫；繼續保存原文，不為展示機制硬塞近戰衝鋒。更多見 [06 武器圖鑑](06_全武器及Mod改裝圖鑑.md)。
+
+
 ## 2026-11-01｜瑟薇媞雅的破盾威力：力量與技巧疊加；其他人也能做到 Guard Break
 
 **〔USER-FIXED〕** 其他士兵的劍、Heavy Pickaxe 和原版 Judgement Bayonet 也能破 Vanguard 盾防；**瑟薇媞雅之所以能用 Judgement 做出特別強悍的刺槍攻防，不僅是精準技術，還因為她本人力氣極大、爆發力與重心控制極強**。刺刀撞盾時的力量、步伐與角度都能使成功破防和失衡效果更具威脅，但不能把盾牌寫成她碰一下就必然裂開的必殺公式；Vanguard 仍可盾撞、以雙手盾擊取得較大力量、刀槍反擊或貼身射擊。

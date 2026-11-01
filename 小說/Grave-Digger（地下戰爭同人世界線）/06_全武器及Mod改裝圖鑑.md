@@ -1,5 +1,22 @@
 # 06｜全武器、Mod 改裝與軍械後勤圖鑑
 
+## 2026-11-01｜Judgement Charge：原版刺刀衝鋒，不是蓄力射擊
+
+**〔社群遊戲資料已核〕** [Fandom「'Judgement' Breech Rifle」](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle) 記載：**原版 Judgement** 附有 Bayonet；**角色達到全速衝刺時按 Q（或自訂的替代動作鍵）**，即可發動 **Bayonet Charge／刺刀衝鋒**，與 Lancer 的 Heavy Lance Charge 類似。它是**持槍衝刺用刺刀命中對手的近戰動作**，不是開槍前蓄力，也**不需要把槍彈威力或射擊倍率另增一層**。一般刺刀 M1 近戰、全速衝鋒 Charge、後膛單發射擊是不同操作，能在不同戰鬥節奏中組合，但每個動作要有時間與站位代價。
+
+| 動作／情況 | 原遊戲機制或可靠社群描述 | 同人小說對應原則 |
+|---|---|---|
+| **普通 Bayonet 刺擊** | 不必先衝刺；能近距攻擊／跟進射擊；對部分持盾動作有 Guard Break 或牽制價值，實際條件取決於距離、姿勢和盾防 | 步法、刺擊、架槍回收、槍托和對手盾位須連續描寫，不能每次刺中盾面都必殺 |
+| **Bayonet Charge（全速＋Q）** | 原版 Judgement 可主動突進，近似 Lancer 衝鋒；成功衝中可觸發特殊刺刀處決／近距高致命效果 | 槍身和刺刀在奔跑中形成具威脅的突擊，起步空間、對敵人的路線、掩體與衝入後有沒有援護都重要；不把 UI 處決動畫一比一搬入世界物理 |
+| **撞牆、撞盾、突進失敗** | [Heavy Lance](https://gravedigger.fandom.com/wiki/Heavy_Lance) 的同類 Charge 對撞牆、撞盾、超時有僵直代價；[Vanguard](https://gravedigger.fandom.com/wiki/Vanguard) 特別確認，**局部或完整正面防護皆可攔截 Lancer／Bayonet Charge，並使衝鋒者倒地／僵直** | 對手可預判、用重盾迎擊、以槍射擊或側移，衝鋒不可自動穿過任何盾；不得把使用者指定的「普通刺刀／重鎬／劍能破盾」誤認為所有衝鋒都必穿盾 |
+| **Perk 差異** | [Perks](https://gravedigger.fandom.com/wiki/Perks) 記載 Greyhound 便於快速達到衝刺門檻，適用於 Judgement；Veteran／Butcher 對衝鋒的相應加成需核對武器、版本、Perk | 敏捷體能、精神判斷、反應與練習可讓特定人物擅長 Charge；**不把 Lancer 專頁的精確衝鋒秒數或最多三連殺不經驗證套給 Judgement** |
+| **Judgement Incendiary Mod** | [改裝武器資料](https://gravedigger.fandom.com/wiki/Modifications) 明確**拆掉刺刀** | 燃燒型不能使用原版 Judgement 的刺刀衝鋒；不能保留名稱就保留全部特性 |
+
+**〔角色與故事〕** 瑟薇媞雅可以真正熟練 Judgement 的 Charge，不只會開槍與一般刺刀破防；她的高體能、起步與制動、刺刀路線選擇、臨場反應以及強大握持力，使她能在適合的狹道、壓制後追擊、側翼突破或掩護突入時展現驚人效果。但**「能用 Charge」不是她獨有的權限**；其他合格兵員也能以原版 Judgement Charge。她不能無條件無視對方盾牌正面攔截、地形與射擊火線。**是否曾在某次戰役以 Charge 創下具體戰績，目前不預先捏造。**
+
+**〔候選正文校對〕** [62A 第二章](62A_Gemini第二章_修訂候選正文.md) 寫的是靶場射擊與裝填；[62B 第三章](62B_Gemini第三章_修訂候選正文.md) 寫的是一般刺刀破盾演練，**均尚未描寫 Judgement Charge 本身**。此補充不擅自改寫這兩章，也不要求硬插一次 Charge 當新功能展示；未來在有充分起跑距離、對手防備與後果的戰鬥自然使用。
+
+
 ## 2026-11-01｜Vanguard 盾牌可盾擊，雙手持盾更容易造成傷害
 
 **〔USER-FIXED〕** Vanguard 的盾可以主動撞擊敵人；以**雙手持盾**進行盾擊，通常較能造成有效傷害。單手持盾不代表完全不能推撞，但其效果可能偏向推開、干擾、爭取空間；雙手施力須付出暫時無法同時自由操作另一把刀／槍的動作代價。這與 Vanguard 仍可刺刀／刀具反擊及近身射擊的設定不衝突，重點是**切換與連續動作寫清楚**。盾擊不是每次都直接破壞對方裝甲或保證擊殺。
