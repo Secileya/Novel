@@ -1,5 +1,10 @@
 # 06｜全武器、Mod 改裝與軍械後勤圖鑑
 
+## 2026-11-01｜Trench Hades 霰彈槍刺刀完整機制：199 橫掃、Lancer Synergy 450
+
+[Shock Trooper Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper) 的 **Trench／Hades**：幫浦式霰彈槍配長刺刀，**一般近戰就是 199 傷害的大範圍 AOE 揮擊**，前搖約 0.2 秒、揮擊間隔約 0.9 秒；**全速＋Q 可 Bayonet Charge**，第一人可觸發處決，撞盾／障礙倒地、未命中會硬直。只有 **原 Lancer→Trench 同職 Synergy** 才額外獲得 **450 傷害 AOE 刺刀**、能串刺多敵、衝鋒更長／冷卻更短，以及裝填約 +20%。**非 Lancer 仍能選 Trench、射 Hades、普通橫掃與單人 Charge**；不得把特別加成寫成任何 Trench 使用者天生有。再補充：Trench 取得 10 次擊殺可解鎖 [Cavalry Sword 的 Trench skin](https://gravedigger.fandom.com/wiki/Cavalry_Sword)，形狀就是拆下的 Hades 刺刀。故事表現保留武器近戰範圍、起手重心、盾牌和衝鋒失敗風險；**199／450 是當版社群遊戲值，不寫成小說固定血量扣除法則**。完整見 [66 專項](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md)。
+
+
 ## 2026-11-01｜Kingslayer 為何難：射速、頭擊、散射與 Shift 例外（使用者補充）
 
 **〔USER-FIXED〕KS 真正高難不是只因火帽與火藥裝填費事**。其笨重、較慢射擊節奏、對頭部命中的極高依賴、有限精度／散布、低後座控制與無法用一般 **Focus Aim／Steady Aim（瞄準時 Shift）** 取得加成，在普通人手裡會疊成巨大風險；**高傷不是保證好用**。常規 Wiki 有 **Precision Medium／Inaccuracy Low／Control Low**，不能誇寫它是全遊戲最誇張的亂飛槍，但頭擊仍難。單發近距軀幹約 180，滿血約 200 的普通兵**可能不被單發擊殺**；有效頭擊才常能立即終結敵人。瑟薇媞雅是真正 **13 秒全六發無目視裝填**（常規參考約 40 秒，約 **3.08 倍速度**；Veteran 約 30 秒，約 **2.31 倍**）、約 90% KS 歷史玩家頭擊紀錄、強臂力與控槍／預判共同使 KS 異常強；雙 KS 只有她在本線被確認能持續高效實戰雙持，**普通遊戲仍不允許 Ambidextrous 雙 KS**。詳細來源、機制與小說規則：[65｜Kingslayer 多重弱點、Shift、雙槍](65_Kingslayer多重弱點_瑟薇媞雅三倍裝填與雙槍_瞄準Shift例外.md)。

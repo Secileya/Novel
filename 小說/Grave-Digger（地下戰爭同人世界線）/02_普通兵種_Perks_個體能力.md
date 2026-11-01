@@ -1,5 +1,10 @@
 # 02｜七大普通兵種、個體 Perk 與戰鬥能力轉化
 
+## 2026-11-01｜Lancer→Trench 是 Synergy，不是外職無法拿 Hades
+
+**〔SOURCE-CHECKED〕** 遊戲 Trench Trooper Hades 霰彈槍刺刀的**基本近戰是 199 傷害的 AOE 橫掃**，可全速 Q 發動單人刺刀 Charge；撞障礙／重盾有倒地風險。**Lancer 原職的對應 Shock Synergy** 才額外帶來 **450 傷害 AOE**、連續刺穿多名敵人、更長衝鋒／更短冷卻、裝填約 +20%。**其他兵種仍可選 Trench Kit**，不是「非 Lancer 不能用刺刀或霰彈」。同理跨職選 AT／Radio／Geist 等也能使用其基本裝備，專屬強化另計。可拆卸 Hades 刺刀另是 Cavalry Sword 「Trench」造型來源（遊戲擊殺解鎖 ≠ 本線神奇生成）。詳 [66](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md)。
+
+
 ## 2026-11-01｜Officer 指揮需要同時處理特殊 E、哨音與真實權限
 
 **〔COMMUNITY〕** 除原有 Trench Whistle **Advance／Defend／Focus** 三號令外，玩家 [Officer Guidebook](https://www.reddit.com/r/GraveDiggerRoblox/comments/1w893bn/gravedigger_guidebook_officer_usage_check_desc/) 提及 **Follow Me、Compound Order、Defend Sector** 三項 Officer 專屬 E 快捷戰術呼叫；目前不能把這三種認定為官方唯一完整全集。**一般 E 五種求助／感謝**另是一套。〔USER-FIXED〕小說軍官可按職務與實際權限下更多命令，不套固定幾句話。哨音增益的速度、抗性、瞄準分工不等於喊話立即改變人體物理，需以訓練、隊形與通信體系轉譯；Officer class 與軍階 rank、命令職權分開。詳 [64](64_Officer專屬E戰術呼叫_哨音三號令_自由戰場指揮.md) 及 [63](63_E鍵五種快捷呼叫_不限五種不固定台詞_軍營對話與戰場傳令.md)。

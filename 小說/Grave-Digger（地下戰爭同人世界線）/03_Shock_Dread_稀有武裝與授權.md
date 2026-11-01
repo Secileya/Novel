@@ -1,5 +1,10 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
 
+## 2026-11-01｜66｜Shock 跨兵種使用與七種「同職 Synergy」完整分級
+
+**〔USER-FIXED＋COMMUNITY〕** 原兵種**不必**與選用 Shock 一樣才「有資格使用」；普通 Shock Kit 在條件允許時可跨職選擇。**對應的原職→同職 Shock** 才額外有 **Synergy Exclusive**，並非不對應就失去該 Shock 基本武器／配備。專屬效果：[Soldat→Storm] 30% 裝填、加速／操槍；[Rook→AT] 20% 裝填、7.5% 射速、抗擊退／倒地；[Mortician→Flame] 20% 裝填、Syrette 200 HP；[Officer→Radio] 20% 裝填、Recon Kit Radio-mark、移動；[Jaeger→Geist] 15% 裝填、毒彈／陷阱優勢；[Lancer→Trench] 20% 裝填、刺刀 199→450、多人衝鋒、較長持續與短冷卻；[Vanguard→Bulwark] 20% 裝填、Bulwark's Hope、頭盔強化。**Ocelot 無同職 Synergy**。每型還有各自彈數顯示與裝備保留差異，細節、社群來源及跨職例子見 [66](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md)。原舊表「Anti-Material Trooper／Rook」只是對應職別，**不可解讀成其他 class 禁用 AT**。小說化為裝備配合與專業經驗，而非系統禁止或魔法 buff。
+
+
 ## 2026-11-01｜Remover（Anti-Material）命中盾牌：Vanguard 即時 Guard Break、板塊穿透與 Bulwark Shock 不同
 
 **〔COMMUNITY，非本輪實際進伺服器測試〕** [Vanguard Fandom](https://gravedigger.fandom.com/wiki/Vanguard) 與 [Bulwark's shield 專題](https://gravedigger.fandom.com/wiki/Bulwark%27s_shield) 都支持：**Anti-Material Trooper／AT 的 Remover 射中普通 Vanguard 制式持盾，可一次造成 Guard Break（破防倒地／短暫失衡）**。盾牌專題更明記**擊中中央板塊（centre plate）才有一發倒地的精確條件**，且「幾乎任何射距」都能使持盾者硬直。這是**破防／姿態失衡**，並不等於中央金屬板同時被一槍洞穿或盾兵當場死亡。
