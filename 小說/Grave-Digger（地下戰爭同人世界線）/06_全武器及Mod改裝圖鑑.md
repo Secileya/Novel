@@ -1,5 +1,14 @@
 # 06｜全武器、Mod 改裝與軍械後勤圖鑑
 
+## 2026-11-01 50 號新使用者校訂｜跨裝備欄自由≠無限槍械，重視實際攜行
+
+**晚於本檔前述「自由攜槍」設定的最新作者方向**，請讀 [50 Gemini 新對話全文](50_Gemini對話原文_最後一批_完整封存.txt)、[51 文風與校訂](51_Gemini長篇文筆_第一章精讀_聲線節拍_模仿方法與校讀回覆.md)、[48 更新後專題](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)。
+
+**人物不受原 Roblox 同一 Loadout 的僵硬格子禁止，但也不可無限背槍。** 使用者現時傾向瑟薇媞雅行動時最多約 **4～5 格**、一般軍人按職務和 Survivalist 約 2～3 格（Soldat 等仍可能有較高特例）；兩把 Kingslayer 各 2 格共 4，配一把 1 格副槍可約 5；Judgement(2)+Kingslayer(2)+Talon(1) 約 5。此為**同人世界可用的負重尺度**，實際需要符合攜具、彈藥、工具、手部操作與機動性；不要在正文直接說「我的背包有五格」。
+
+**Talon**：單槍常打身體補刀，但作者新指定它也能由瑟薇媞雅瞄頭達到很高、甚至百發百中級的個人槍技；快速兩發 hip fire 可以先打落護盔再打頭，不能強迫每次都如此。**Quickdraw 100% Accuracy 不等於自動命中、也不是按鍵在小說中存在**；Grace 旋槍原遊戲 Morale 是施於使用者自己，不能變成全軍光環。若新 Mod／換槍搭配來自 Gemini 提議，仍須逐一核對本武器表，不能由好聽的描述反推原作已確證。
+
+
 ## 2026-11-01 Talon Q Quickdraw 精準度說明：Accuracy ≠ Aim
 
 **使用者糾正：Talon Quickdraw 在遊戲中有 100% Accuracy，命中頭部仍看玩家自己的 Aim。**[Talon Fandom](https://gravedigger.fandom.com/wiki/%27Talon%27_Army_Revolver) 與 [Weapons Fandom](https://gravedigger.fandom.com/wiki/Weapons) 記載 Q 預備後**首發完美槍械精度、沒有一般腰射隨機散布**；其後接續 Fan Fire 不保有同一精度，需重新進入 Quickdraw 狀態。**100% Accuracy 不是 100% 自動追蹤命中／爆頭／擊殺**。對 Sevithia 而言可以靠自身卓越 Aim、極短反應與雙手武器操控，真正演出幾乎不可思議的瞬發精準射擊。單 Talon 打身體補刀、對無盔 Officer 主動瞄頭、雙 Talon 約 80% HS 的玩家實績，均與 Q 槍械 100% Accuracy 並存；不可互相替代。小說雙槍高精準操作不等同遊戲官方允許兩發 Q 自動鎖頭。詳 [48](48_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md)。
