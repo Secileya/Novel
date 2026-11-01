@@ -1,5 +1,11 @@
 # 31｜瑟薇媞雅 Sevithia：帝國最鋒利的刀、Shock Hunter、萬人戰績與 Dread 生還
 
+## 2026-11-02｜75 USER-FIXED：獵殺 Trench／Lancer 時不要把 KS、Judgement 打中重盔寫成直接秒殺
+
+使用者最新糾正：**「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」**。**普通 Lancer 及 Trench Shock 的 Lancer 級特殊重盔**可抵擋一般 **Judgement、Kingslayer** 的穿盔頭部即死；它們仍可頭部中彈、短暫昏厥或擊倒、減血，並非全無傷害。**AT Remover** 則能射穿其完整重型頭盔、實現致命頭擊。這一條是 **Shock Hunter／多次高價值目標爆頭戰績的重要適用條件**：瑟薇媞雅能以 KS／Judgement 爆頭擊殺可被相應槍械穿盔的其他 Shock，也能持 Remover 遠距狙殺 Trench／Lancer；**不因她控槍極強而讓 KS／Judgement 無視特殊重盔**。如果只有其他槍，可先擊倒、改打軀幹、換槍或協同補擊，保留武器與目標之間的連續性。Gemini 最新未採用第十三章提案的「Trench 剛領 Kit 就被 Judgement 一槍隔盔爆頭」因此錯誤，不能原樣入正文。完整勘誤見 [75｜Lancer／Trench 重盔、Judgement／KS 非即殺、AT Remover 例外](75_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md)。
+
+
+
 ## 2026-11-01｜72C：Sevithia 戰績庫補入高階 TDM、Ocelot 與剛領 Shock 斬首
 
 〔USER-PLAY／USER-FIXED〕她多次在雙方 Tickets 歸零／僵持時，先獵殺敵方守住最後洞口的一至兩名 Shock，讓友軍從「不敢進」變成能真正推進；有時友軍未到她已處理多數敵人。另有**Ocelot 在敵方 Ticket 跑完後立即突進，清掉最後守軍，友軍趕來時戰局早結束**之 user-clip；敵方剛領到 Shock／準備拿地圖上 Kit 時也曾遭她以 **AT Remover、Judgement、KS** 直接打頭，甚至 AT 遠距斬首、士氣在歡呼剛起時瓦解。其高命中／Shock Hunter 生存技巧與**Greyhound 極高速機動、躍障礙、避開多人集火同時反殺**疊加，不能因其他兵也會走位便否認她異常的差距，也不能把她寫成全世界唯一懂得閃避者。

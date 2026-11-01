@@ -1,5 +1,13 @@
 # 65｜Kingslayer 多重弱點與瑟薇媞雅的實際強度來源：13 秒全裝填、極高頭擊、雙 KS、Shift 例外
 
+## 2026-11-02｜75 USER-FIXED：Lancer／Trench 特殊重盔不能靠 Judgement／KS 直接爆頭致死，AT Remover 例外
+
+**使用者直接糾正：「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」。** 遊戲資料符合：[Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper｜Trench／AT](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[2026-03 玩家穿甲討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/what_does_armor_penetration_4_do/)。**Lancer 及 Trench 都有 Lancer 級特殊重型頭盔；只要確實戴著完整重盔，普通槍、Judgement、Kingslayer 就算瞄得再準打中頭部，也不能直接依一般穿盔爆頭即死規則殺死。Judgement、KS 等高威力命中仍可擊倒／震暈、降低生命，不等於零效；AT Trooper 的 Remover 具足以穿破頭盔的反物資穿透，可對頭部造成致命一擊。** 若頭盔實際已脫下、頭部暴露則另判；武器射距、擊中部位與特殊裝甲要另行評估。
+
+**這與 Shock 領裝瞬間斬首的既有戰績並不衝突**：瑟薇媞雅能用 Judgement／KS 精準爆頭其他能被其彈藥穿盔的 Shock，或用 **AT Remover** 狙殺戴重盔的 Lancer／Trench；遇到完整特殊重盔而手持 Judgement／KS，則需改用身體射擊、擊倒後續擊、換槍、角度與戰術。**不能因她極強就讓普通 KS／Judgement 獲得 Remover 專有的穿甲能力。** Gemini 新上傳的第十三章**候選章綱**有「Trench 穿著完整頭盔，卻被 Judgement 一槍轟穿頭盔秒殺」的錯誤，此場景不能照原文使用；該提案尚非正式章節，保留原件不改寫。完整細節：[75｜Lancer／Trench 頭盔與 AT 例外](75_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md)。
+
+
+
 > 2026-11-01 使用者直接補充〔USER-FIXED〕：**Kingslayer 不只公認最難操作；完整重裝填費時，射速／實際出手速度相對普通步槍與手槍慢，命中困難，散射／瞄準控制和後座力同時阻礙發揮；最具決定性的一槍擊殺回報依賴頭部命中。它在瑟薇媞雅（Sevithia）手裡異常強，是因為她將真正的六發裝填縮短到遠超普通人一、兩倍的速度，並長期維持極高頭擊率。雙 Kingslayer 更是她異乎尋常的臂力、握持、控槍、視線分配、瞄準修正、槍械知識、反應與實戰經驗疊加才成立的高難技藝**。不可把這種差距簡化成「高傷左輪誰拿都很強」「只是別人不會按鍵」「有兩把左輪就自然雙持」。
 
 ## 一、遊戲原版：弱點是相乘，不是只有 Reload 麻煩

@@ -1,5 +1,13 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
 
+## 2026-11-02｜75 USER-FIXED：Lancer／Trench 特殊重盔不能靠 Judgement／KS 直接爆頭致死，AT Remover 例外
+
+**使用者直接糾正：「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」。** 遊戲資料符合：[Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper｜Trench／AT](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[2026-03 玩家穿甲討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/what_does_armor_penetration_4_do/)。**Lancer 及 Trench 都有 Lancer 級特殊重型頭盔；只要確實戴著完整重盔，普通槍、Judgement、Kingslayer 就算瞄得再準打中頭部，也不能直接依一般穿盔爆頭即死規則殺死。Judgement、KS 等高威力命中仍可擊倒／震暈、降低生命，不等於零效；AT Trooper 的 Remover 具足以穿破頭盔的反物資穿透，可對頭部造成致命一擊。** 若頭盔實際已脫下、頭部暴露則另判；武器射距、擊中部位與特殊裝甲要另行評估。
+
+**這與 Shock 領裝瞬間斬首的既有戰績並不衝突**：瑟薇媞雅能用 Judgement／KS 精準爆頭其他能被其彈藥穿盔的 Shock，或用 **AT Remover** 狙殺戴重盔的 Lancer／Trench；遇到完整特殊重盔而手持 Judgement／KS，則需改用身體射擊、擊倒後續擊、換槍、角度與戰術。**不能因她極強就讓普通 KS／Judgement 獲得 Remover 專有的穿甲能力。** Gemini 新上傳的第十三章**候選章綱**有「Trench 穿著完整頭盔，卻被 Judgement 一槍轟穿頭盔秒殺」的錯誤，此場景不能照原文使用；該提案尚非正式章節，保留原件不改寫。完整細節：[75｜Lancer／Trench 頭盔與 AT 例外](75_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md)。
+
+
+
 ## 2026-11-01｜Dread 與徒手：引擎「近戰免疫」不等於小說無物理互動
 
 [原版 Dread Wiki](https://gravedigger.fandom.com/wiki/Dreadnought) 說完全免疫 melee／backstab／charge；Reddit 玩家對實際是否有微量傷害有互相衝突留言，需保留版本待核。〔USER-FIXED〕本小說 Dread 可用厚重雙臂、拳頭、衝撞或鉗制對敵方造成極高動能傷害，但笨重、轉身與精細反應受限；**不是已核對的原版 Dread 近戰按鍵動作**。Sevithia 可憑超出常人的肌力、速度及瞄準接合部技術，以空手／腳踢使 Dread 機構出現**有限的真實受損或姿態變化**，但整體裝甲非常厚，遠不如通常使用高穿甲武器／地形戰術安全有效，**她不會因為「能」就每次去打拳**。完整 [69](69_Sevithia徒手格鬥_拳腳破盾_Dread限制與原版差異.md)；TDM 與 [68](68_Deathmatch雙零Tickets_防守反耗數百_Sevithia逆轉實績.md) 另論。

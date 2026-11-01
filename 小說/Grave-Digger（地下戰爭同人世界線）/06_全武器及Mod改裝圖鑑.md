@@ -1,5 +1,13 @@
 # 06｜全武器、Mod 改裝與軍械後勤圖鑑
 
+## 2026-11-02｜75 USER-FIXED：Lancer／Trench 特殊重盔不能靠 Judgement／KS 直接爆頭致死，AT Remover 例外
+
+**使用者直接糾正：「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」。** 遊戲資料符合：[Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper｜Trench／AT](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[2026-03 玩家穿甲討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/what_does_armor_penetration_4_do/)。**Lancer 及 Trench 都有 Lancer 級特殊重型頭盔；只要確實戴著完整重盔，普通槍、Judgement、Kingslayer 就算瞄得再準打中頭部，也不能直接依一般穿盔爆頭即死規則殺死。Judgement、KS 等高威力命中仍可擊倒／震暈、降低生命，不等於零效；AT Trooper 的 Remover 具足以穿破頭盔的反物資穿透，可對頭部造成致命一擊。** 若頭盔實際已脫下、頭部暴露則另判；武器射距、擊中部位與特殊裝甲要另行評估。
+
+**這與 Shock 領裝瞬間斬首的既有戰績並不衝突**：瑟薇媞雅能用 Judgement／KS 精準爆頭其他能被其彈藥穿盔的 Shock，或用 **AT Remover** 狙殺戴重盔的 Lancer／Trench；遇到完整特殊重盔而手持 Judgement／KS，則需改用身體射擊、擊倒後續擊、換槍、角度與戰術。**不能因她極強就讓普通 KS／Judgement 獲得 Remover 專有的穿甲能力。** Gemini 新上傳的第十三章**候選章綱**有「Trench 穿著完整頭盔，卻被 Judgement 一槍轟穿頭盔秒殺」的錯誤，此場景不能照原文使用；該提案尚非正式章節，保留原件不改寫。完整細節：[75｜Lancer／Trench 頭盔與 AT 例外](75_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md)。
+
+
+
 ## 2026-11-01｜Trench Hades 霰彈槍刺刀完整機制：199 橫掃、Lancer Synergy 450
 
 [Shock Trooper Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper) 的 **Trench／Hades**：幫浦式霰彈槍配長刺刀，**一般近戰就是 199 傷害的大範圍 AOE 揮擊**，前搖約 0.2 秒、揮擊間隔約 0.9 秒；**全速＋Q 可 Bayonet Charge**，第一人可觸發處決，撞盾／障礙倒地、未命中會硬直。只有 **原 Lancer→Trench 同職 Synergy** 才額外獲得 **450 傷害 AOE 刺刀**、能串刺多敵、衝鋒更長／冷卻更短，以及裝填約 +20%。**非 Lancer 仍能選 Trench、射 Hades、普通橫掃與單人 Charge**；不得把特別加成寫成任何 Trench 使用者天生有。再補充：Trench 取得 10 次擊殺可解鎖 [Cavalry Sword 的 Trench skin](https://gravedigger.fandom.com/wiki/Cavalry_Sword)，形狀就是拆下的 Hades 刺刀。故事表現保留武器近戰範圍、起手重心、盾牌和衝鋒失敗風險；**199／450 是當版社群遊戲值，不寫成小說固定血量扣除法則**。完整見 [66 專項](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md)。

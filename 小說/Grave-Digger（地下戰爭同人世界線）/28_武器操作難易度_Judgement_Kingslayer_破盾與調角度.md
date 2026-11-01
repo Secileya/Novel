@@ -1,5 +1,13 @@
 # 28｜武器操作難易度：Judgement／Kingslayer、刺槍破盾與調角度命中
 
+## 2026-11-02｜75 USER-FIXED：Lancer／Trench 特殊重盔不能靠 Judgement／KS 直接爆頭致死，AT Remover 例外
+
+**使用者直接糾正：「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」。** 遊戲資料符合：[Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper｜Trench／AT](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[2026-03 玩家穿甲討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/what_does_armor_penetration_4_do/)。**Lancer 及 Trench 都有 Lancer 級特殊重型頭盔；只要確實戴著完整重盔，普通槍、Judgement、Kingslayer 就算瞄得再準打中頭部，也不能直接依一般穿盔爆頭即死規則殺死。Judgement、KS 等高威力命中仍可擊倒／震暈、降低生命，不等於零效；AT Trooper 的 Remover 具足以穿破頭盔的反物資穿透，可對頭部造成致命一擊。** 若頭盔實際已脫下、頭部暴露則另判；武器射距、擊中部位與特殊裝甲要另行評估。
+
+**這與 Shock 領裝瞬間斬首的既有戰績並不衝突**：瑟薇媞雅能用 Judgement／KS 精準爆頭其他能被其彈藥穿盔的 Shock，或用 **AT Remover** 狙殺戴重盔的 Lancer／Trench；遇到完整特殊重盔而手持 Judgement／KS，則需改用身體射擊、擊倒後續擊、換槍、角度與戰術。**不能因她極強就讓普通 KS／Judgement 獲得 Remover 專有的穿甲能力。** Gemini 新上傳的第十三章**候選章綱**有「Trench 穿著完整頭盔，卻被 Judgement 一槍轟穿頭盔秒殺」的錯誤，此場景不能照原文使用；該提案尚非正式章節，保留原件不改寫。完整細節：[75｜Lancer／Trench 頭盔與 AT 例外](75_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md)。
+
+
+
 ## 2026-11-01｜72C：Judgement 刺刀借地翻越＋空中 KS 精準射擊為新招式候選
 
 〔USER-IDEA／CANDIDATE〕瑟薇媞雅有極高臂力、核心穩定、反應及 KS 單手精度；可考慮讓她在 **Judgement Bayonet Charge** 中，把刺刀插入合適地面短暫借力，從高速衝刺翻越障礙，**頭向下、空中掏 KS 命中頭部**。可以在平地快速變招或越過**Vanguard 持盾線／Shock Bulwark 部署盾位**，依其背後目標角度決定效果。必須交代刺刀插地的材質與受力、長槍彎矩與折斷風險、空中射界／後座、落地與敵方槍口。**這不是遊戲內建 Q 花式動作，不自動等於能任意越盾，也不是已發生於正式故事的固定必殺**。普通兵亦可擅長槍刺／障礙利用，只是她能做到極端高難。完整見 [72C](72C_交給Gemini_62後五冊3_Sevithia戰績徒手身法及最新招式.md)。

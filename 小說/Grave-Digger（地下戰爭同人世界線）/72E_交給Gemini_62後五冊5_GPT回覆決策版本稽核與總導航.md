@@ -1,5 +1,11 @@
 # 72E｜最新 Gemini 貼文後完整增量（5／5）｜對話 GPT 回覆決策、五冊來源與版本稽核
 
+## 2026-11-02｜75 是 72 五冊完成後的新直接規則，不回填原本 62～71 的快照原件
+
+〔USER-FIXED〕**Lancer 和 Trench 佩戴特殊重型頭盔時，Judgement、Kingslayer 雖能打中頭部、擊倒／打亂，但不能隔完整頭盔觸發通常的致命爆頭；只有 AT Trooper 的 Remover 屬可穿盔致死的主要槍械例外**。已研究 [Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper) 和 2026 社群經驗，並整理於 [75｜Lancer／Trench 重盔、Judgement／KS 非即殺、AT Remover 例外](75_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md)。這條不推翻「其他 Shock 剛拿 Kit 就可能被瑟薇媞雅爆頭斬首」，只是要依 **護具／武器／距離／射角**決定：Trench／Lancer 由她持 **Remover** 頭擊穿盔，或用 Judgement／KS 擊倒再採其他合理手段；別寫 KS／Judgement 一槍穿 Lancer 重盔。Gemini 2026-11 新上傳第 13 章藍圖此處不符，仍是候選，不改原文。72A～72D 既有 62～71 原件 SHA 全部不動；此新增修正隨 73／74 後續增量另記。
+
+
+
 ## 2026-11-02｜74 新增於五冊及 73 後；原五冊來源快照不回填
 
 **使用者提供更完整的 GPT 角色文稿**《Sevithia——以自身為薪的火》，已完整保存在 [74｜GPT 新版〈以自身為薪的火〉原文與新的人格語義](74_GPT完整新版_Sevithia以自身為薪的火_能承受亦值得被愛.md)，與 [73｜使用者自己的完整角色修正](73_高階人物完整人格_Sevithia真實喜怒_戰爭責任_不必燃燒也能取暖.md) **並存，不覆寫**。關鍵新增精準語義：「**她不是不知道自己值得被照顧；而是有人願意照顧，也不能隨意卸除真正的指揮與軍國責任**」「**她真的承受得住，但那些重量並未消失**」，沒有要求她在戰後先經歷精神崩潰才能幸福。文章的「一場軍事會議決定犧牲一支部隊」是文學敘事**假設場景**，不是本線已正式發生的軍事行動。五冊 72A～72D 及 73 本次不覆寫；72E 只增加 74 導覽，建議新接手一併讀 73＋74。
