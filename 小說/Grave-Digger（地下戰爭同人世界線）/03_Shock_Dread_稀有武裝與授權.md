@@ -1,4 +1,19 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
+
+## 2026-11-01 Radio Trooper 標記細化、Officer 協同與 Geist 保留 Hunter Kit
+
+先前把 Radio 只寫成「無線電、敵情標記、團隊增益」，確實會讓它與普通 Officer 混淆。**已完整研究並核對 [61｜Radio 與 Hunter Kit](61_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md)**。
+
+**Radio Trooper 精銳**：Portable Radio 周圍約 **75 studs** 內**被動 Radio-mark 附近敵人**，將位置提供給本人及附近隊友，**可以穿透 Apparition／Geist 的部分隱匿效果**；射擊命中可令目標 Radio-mark 約 **10 秒**。此外有同半徑 **Advance／Defend／Focus 三種命令增益＋額外 25% 射速**；**不戴頭盔（需耳機）、電台持續發聲可能暴露位置**。其 Glory Sporting Carbine 是武器，不能與標記裝備混為一物。
+
+**Officer 原兵種→Radio 同職 Shock 協同**：Recon Kit（雙筒鏡、觀測鏡、照明彈）的標記可以升級成 **Radio-mark**，並有約 **20% 換彈速度加成**、更完整彈藥資訊及移動改善；不能把此專屬協同推廣到每個換裝 Radio 的兵種。普通 Officer 的命中／雙筒鏡、固定鏡、照明彈與 Radio 被動自動標記各自不同。
+
+**Jaeger 原兵種→Geist 同職協同**：據 Fandom Shock Trooper，Hunter Kit 和煙霧裝備可以在升級 Geist 後保留；原 Jaeger Hunter Kit 確實含**六種**捕獸夾、鐵罐炸彈、毒氣彈、炸藥堆、霰彈陷阱、光誘餌，另有絆線；各式觸發方式見 61。**Geist 的單目標 Hunt 和 Radio 的範圍多人共享標記是兩種不同情報機制**。
+
+**小說定位暫保留遊戲特色**：不要把 Radio 退化成誰都可用的喊話無線電，也不要不交代特殊探測源便宣稱普通電波可精確看穿岩層。建議按 Shock 稀有設備構建特種偵察、戰術共享網；特別技術的具體原理／敵方反制待本線單獨核定。
+
+
+
 > 2026-10-31｜不能以遊戲生命值／稀有箱直接取代小說現實。各名稱來源參考 [Shock Trooper 社群索引](https://gravedigger.fandom.com/wiki/Shock_Trooper)；數值以檢索日版本為準。
 
 ## 一、地位總則〔USER-FIXED〕
