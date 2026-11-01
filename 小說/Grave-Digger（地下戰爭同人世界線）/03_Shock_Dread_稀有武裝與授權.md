@@ -1,5 +1,16 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
 
+## 2026-11-01｜Remover（Anti-Material）命中盾牌：Vanguard 即時 Guard Break、板塊穿透與 Bulwark Shock 不同
+
+**〔COMMUNITY，非本輪實際進伺服器測試〕** [Vanguard Fandom](https://gravedigger.fandom.com/wiki/Vanguard) 與 [Bulwark's shield 專題](https://gravedigger.fandom.com/wiki/Bulwark%27s_shield) 都支持：**Anti-Material Trooper／AT 的 Remover 射中普通 Vanguard 制式持盾，可一次造成 Guard Break（破防倒地／短暫失衡）**。盾牌專題更明記**擊中中央板塊（centre plate）才有一發倒地的精確條件**，且「幾乎任何射距」都能使持盾者硬直。這是**破防／姿態失衡**，並不等於中央金屬板同時被一槍洞穿或盾兵當場死亡。
+
+- **中央主板與上／側板要分開**：[Vanguard Fandom](https://gravedigger.fandom.com/wiki/Vanguard) 認為**中央主盾板不能被任何槍械直接射穿**，外圍三片折疊板有耐久；[Shock Trooper／Remover Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper) 卻說 Remover 可在**100 studs 內**穿透 Vanguard 盾牌，另具體提到**上方板塊可貫穿，進一步威脅頭盔和後方的人**。較合理的讀法是中央主板**破防但不必穿透**，而上方／側方部件在適當射距與角度下有**穿透或損毀**可能；不把這個解讀假冒為已做伺服器逐板測試。2026-10 非官方 [AT 指南](https://grave-digger.wiki/classes/roblox-anti-material-trooper/) 也稱短距 Remover 能貫穿 Vanguard 防護。
+- **射距效果兩條線**：**100 studs** 是社群資料對「近距穿盾／穿甲、500→199 遠距人體傷害」的關鍵分段，**不是 Guard Break 一定在 100 以外失效**。哪怕中央主板沒洞，也可能挨一槍便持盾失穩，失去保護同伴的角度。
+- **不同盾型不得混淆**：普通兵種 Vanguard 手持的 **Bulwark's Shield** 有中央板、折板、Guard Break 等機制；**Bulwark Trooper（Shock）的可部署重盾**屬另一件裝備。據 [Shock Trooper Fandom](https://gravedigger.fandom.com/wiki/Shock_Trooper) 記載，後者固定架設後本體不能直接被子彈射穿／射毀（可挖掉所依附地形），**不能說 Remover 能以相同一槍破防把 Shock 可部署盾打倒**。
+- **小說轉譯〔ADOPTED-WORKING〕**：Remover 命中盾心可迫使一般 Vanguard 猛烈失衡、跌倒、露出盾後夥伴，卻不一定穿孔；命中較薄上／側板時可能洞穿造成傷亡。是否真穿盾、擊傷人取決於距離、厚度、射角、板塊狀況和後方站位；子彈／反作用力、機構變形需具體描述，**不用遊戲「中主板必觸發固定動畫」當自然物理定律**。持盾者可以躲角、轉盾、依靠隊友反擊，AT 也需重新裝填、承受反物資槍後座與曝露風險。此效果**不只瑟薇媞雅可以做**，是 Remover 的裝備機制；她的真正特別之處仍是準度、判斷、力氣與操槍水準。
+- **待驗證〔OPEN〕**：現在伺服器「100 studs」穿透閾值、中央主板能否在特定命中下穿透、上／側板射擊交互是否因後續版本變化，仍需當版測試；社群頁面間有表述衝突。官方 Trello 若有後續資料應優先於舊社群頁。
+
+
 ## 2026-11-01｜Sevithia AT 精通的力量底子：和 Rook 元帥比力氣也未必輸
 
 **〔USER-FIXED〕** 瑟薇媞雅精通 AT／Anti-Material Shock，**有一部分原因是她本人力量非常大**：穩定重型 Remover／其他反物資裝備、承受強後座、控制槍口與操作時身體平衡，不完全依靠純技術。另有瞄準、反應、預判、熟練度及極高戰鬥經驗等同樣關鍵，**不可反向把 AT 表現簡化成只有蠻力**。她的純力量已強到**以 Rook 專業、重鎬為戰鬥長處的另一位領主元帥，也不保證能靠力氣壓過她**；不意味瑟薇媞雅在所有重型工程工作上取代 Rook 專家，也不預先宣布兩人比力氣的既定輸贏。

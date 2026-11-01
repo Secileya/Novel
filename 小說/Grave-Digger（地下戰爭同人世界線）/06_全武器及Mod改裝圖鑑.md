@@ -1,5 +1,17 @@
 # 06｜全武器、Mod 改裝與軍械後勤圖鑑
 
+## 2026-11-01｜Remover 打 Vanguard 盾：一槍 Guard Break 與穿透是兩回事
+
+| 盾牌／命中位置 | 目前社群證據支持的效果 | 不可誤寫 |
+|---|---|---|
+| **普通 Vanguard 手持盾中央主板** | AT Remover 命中可**一槍 Guard Break**，使持盾者倒地／失衡，盾防短暫空出；[盾牌專題](https://gravedigger.fandom.com/wiki/Bulwark%27s_shield) 記 **centre plate** 才觸發即時破防，且幾乎不限制射距 | **Guard Break≠板材一定洞穿≠一槍必殺**。主 [Vanguard](https://gravedigger.fandom.com/wiki/Vanguard) 頁稱中心主板不可被槍直接射穿 |
+| **普通 Vanguard 上方／側折板** | 折板有耐久。[Shock Trooper Remover](https://gravedigger.fandom.com/wiki/Shock_Trooper) 頁稱可在 **100 studs 內**擊穿盾牌，並具體提到**穿透上方板塊**、威脅頭部及盾後目標；實際角度與部位需區別 | 不把全盾當成一片均質可穿透鋼板；不將 100 studs 說成所有情況的硬上限 |
+| **Shock Bulwark Trooper 可部署盾** | [Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper) 記其部署盾的盾身不直接受槍擊穿透／破壞，但支撐地形可被挖除 | **不是普通 Vanguard 的手持 Bulwark's Shield**；不能照搬一槍倒地機制 |
+| **≥100 studs 的 Remover 命中** | 社群 Remover 人體傷害由近距 500 降為較遠 199，未致死的直接人體命中仍可造成跌倒；**盾心 Guard Break 另有「幾乎任何射距」記載** | 不把 199 人體傷害當盾板扣血，也不把射距衰減與破防距離混成一個數字 |
+
+**資料分層**：上列取自 Fandom 與非官方指南，並非本輪直接遊戲實測或官方 Trello 最新判定。核心交互可依「中心板受巨響震盪而持盾者失衡；上／側板可能貫穿、盾後受威脅」小說化，但要保留板塊、角度、補槍時間與隊友掩護的因果。重型 Remover 並非不可對抗；瑟薇媞雅的 AT 專精與常規 AT 裝備性能應分開，不把她寫成唯一能讓 Vanguard 破防的人。小說原稿 62A、62B 保留不動。
+
+
 ## 2026-11-01｜Judgement Charge：原版刺刀衝鋒，不是蓄力射擊
 
 **〔社群遊戲資料已核〕** [Fandom「'Judgement' Breech Rifle」](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle) 記載：**原版 Judgement** 附有 Bayonet；**角色達到全速衝刺時按 Q（或自訂的替代動作鍵）**，即可發動 **Bayonet Charge／刺刀衝鋒**，與 Lancer 的 Heavy Lance Charge 類似。它是**持槍衝刺用刺刀命中對手的近戰動作**，不是開槍前蓄力，也**不需要把槍彈威力或射擊倍率另增一層**。一般刺刀 M1 近戰、全速衝鋒 Charge、後膛單發射擊是不同操作，能在不同戰鬥節奏中組合，但每個動作要有時間與站位代價。

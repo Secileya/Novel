@@ -1,5 +1,12 @@
 # 28｜武器操作難易度：Judgement／Kingslayer、刺槍破盾與調角度命中
 
+## 2026-11-01｜AT Remover 對 Vanguard：遠距破防與短距穿盾的不同判定
+
+**〔COMMUNITY〕** [Vanguard](https://gravedigger.fandom.com/wiki/Vanguard) 指 AT 反物資槍命中普通 Vanguard 手持重盾可**立即 Guard Break**；[Bulwark's shield 專題](https://gravedigger.fandom.com/wiki/Bulwark%27s_shield) 精確描述**命中 centre plate 時一發倒地**、幾乎任何射距可觸發。**這不等於中間主板一定有穿透孔**：Vanguard 主頁明示中央板對槍械無法直接穿透；[Shock Trooper／Remover](https://gravedigger.fandom.com/wiki/Shock_Trooper) 又稱近 **100 studs** 可穿 Vanguard 盾牌，具體提到上方折板穿透並可能擊中頭盔或盾後人員。**相互衝突資料分層處理為「主板破防但未必穿；可被打穿的較薄板件與近距人體殺傷須另判定」**，不宣稱已完成當版遊戲實測或官方判定。
+
+**〔故事〕** 原先小說既定的 Judgement 普通刺刀／Charge、Heavy Pickaxe、持劍 Guard Break 與 **AT 遠距一發打失盾位**可同時成立，機制並非一樣；Vanguard 同樣能轉盾、回擊、求援。**普通 Vanguard 手持盾不是 Shock Bulwark Trooper 的可部署盾**；後者另有盾身難穿及可挖地基的社群機制，不能互相偷換。完整判定參 [06 武器圖鑑](06_全武器及Mod改裝圖鑑.md)、[03 Shock](03_Shock_Dread_稀有武裝與授權.md)。
+
+
 ## 2026-11-01｜Judgement 的 Charge 與一般刺刀 Guard Break 必須分開
 
 **〔GAME-COMMUNITY〕** 原版 Judgement 可在**全速奔跑時按 Q** 發動 **Bayonet Charge（刺刀衝鋒）**，不需要把「Charge」誤翻成蓄力射擊。普通 M1 刺刀近戰與 Charge 的起手條件、速度、轉向、擊中結果及失手風險均不同。成功衝鋒可觸發近戰處決；同類 Lancer Charge 撞牆、撞盾、失敗後有僵直／倒地風險，**但不可把 Lancer 的具體持續秒數／連續擊殺上限直接鎖為 Judgement 數字**。資料：[Judgement](https://gravedigger.fandom.com/wiki/%27Judgement%27_Breech_Rifle)、[Heavy Lance](https://gravedigger.fandom.com/wiki/Heavy_Lance)。
