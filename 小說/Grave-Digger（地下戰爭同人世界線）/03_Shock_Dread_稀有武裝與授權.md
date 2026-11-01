@@ -1,5 +1,11 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
 
+
+## 2026-11-01｜持盾者與破盾者的雙向近距交鋒
+
+**〔USER-FIXED〕** 劍、Rook 的 Heavy Pickaxe、原版 Judgement 的 Bayonet 都能在合適的近戰攻防中造成 Vanguard 盾防破綻；**Vanguard 可持刀／刺刀反擊，亦可在貼身距離開槍**。Shock Bulwark 與普通 Vanguard 不應因名稱相近而被完全混為一類；兩者的護盾、裝備與火力不同，但都不得被寫成「只能舉盾挨打」。破防＝可能打亂防禦、露出射線，而非無條件削掉盾牌物質；對方也可能成功招架或反擊。跨武器／Shock 條件詳 [28｜Guard Break](28_武器操作難易度_Judgement_Kingslayer_破盾與調角度.md)、[02｜Vanguard](02_普通兵種_Perks_個體能力.md)。
+
+
 ## 2026-11-01 Radio Trooper 標記細化、Officer 協同與 Geist 保留 Hunter Kit
 
 先前把 Radio 只寫成「無線電、敵情標記、團隊增益」，確實會讓它與普通 Officer 混淆。**已完整研究並核對 [61｜Radio 與 Hunter Kit](61_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md)**。
