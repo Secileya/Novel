@@ -1,5 +1,12 @@
 # 48｜瑟薇媞雅自由攜槍與雙 Kingslayer、Officer 標記、Q 花式射擊、戰役模式小說化
 
+## 2026-11-01｜Radio Trooper 特種標記不等於一般 Officer 標記
+
+此前本檔第四節主要核對一般 **Officer Recon Kit** 標記，缺少相應的 **Shock Radio Trooper** 強化標記。新增 [61｜Hunter Kit 六裝置與 Radio Trooper 的特殊 Radio-mark](61_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md)：Radio 便攜電台 **75 studs** 半徑內被動標記附近敵人、共享給附近友軍，**穿透 Apparition／Geist 反偵測**；命中敵人後有 **10 秒 Radio-mark**。它同時給周圍三種 Officer Orders 和 **+25% 射速**；無頭盔、通訊噪音造成危險。**Officer→Radio** 同職加成還可把其原有 Recon Kit 的標記升級為 Radio-mark，不能說普通 Officer Telescope 或 Flare 具有等同能力。這種強度應是小說裡高價、稀有的 Shock 偵察能力，不能被縮成一般人拿話筒報點；若要自然穿岩／反制 Geist，感測技術待作者決定，**不因她能用 Radio 就讓瑟薇媞雅永遠隨身自帶 75 studs 特殊雷達**。
+
+
+
+
 ## 2026-11-01｜50 最新作者校訂：自由搭配≠無限負重；Talon 上限與真正快拔
 
 此段是**比本檔此前「取消 Loadout 硬限」更晚的使用者原話**，出處 [50 最新 Gemini 對話原文](50_Gemini對話原文_最後一批_完整封存.txt)，詳 [51 Gemini 風格筆法深度研究](51_Gemini長篇文筆_第一章精讀_聲線節拍_模仿方法與校讀回覆.md)。須同時保存兩個方向：**(1) 取消把 Roblox 同一 Perk／格數機制當成她必然不能雙持 KS 的禁止令；(2) 她的武器和身體仍有不可無限增長的實際重量。**
