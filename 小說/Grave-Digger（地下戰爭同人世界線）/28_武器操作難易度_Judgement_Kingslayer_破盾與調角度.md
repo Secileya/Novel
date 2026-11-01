@@ -1,5 +1,11 @@
 # 28｜武器操作難易度：Judgement／Kingslayer、刺槍破盾與調角度命中
 
+## 2026-11-01｜72C：Judgement 刺刀借地翻越＋空中 KS 精準射擊為新招式候選
+
+〔USER-IDEA／CANDIDATE〕瑟薇媞雅有極高臂力、核心穩定、反應及 KS 單手精度；可考慮讓她在 **Judgement Bayonet Charge** 中，把刺刀插入合適地面短暫借力，從高速衝刺翻越障礙，**頭向下、空中掏 KS 命中頭部**。可以在平地快速變招或越過**Vanguard 持盾線／Shock Bulwark 部署盾位**，依其背後目標角度決定效果。必須交代刺刀插地的材質與受力、長槍彎矩與折斷風險、空中射界／後座、落地與敵方槍口。**這不是遊戲內建 Q 花式動作，不自動等於能任意越盾，也不是已發生於正式故事的固定必殺**。普通兵亦可擅長槍刺／障礙利用，只是她能做到極端高難。完整見 [72C](72C_交給Gemini_62後五冊3_Sevithia戰績徒手身法及最新招式.md)。
+
+
+
 ## 2026-11-01｜KS 的困難是多重缺點相乘：Shift Focus Aim 不能替它兜底
 
 **〔USER-FIXED〕** Kingslayer 不只是「全軍公認最難操作」和「裝填慢」：射速／連續交戰節奏不及許多常用步槍或手槍、難對高速敵人保持準頭、子彈散布和強後座／槍身重量限制高命中、KS 最可靠的單發確殺價值多來自**有效頭擊**，而它**無法用一般 Shift Focus Aim（Steady Aim）獲得額外精準**。並非打身體無效；社群近距軀幹 180、第二段 170，對普通滿血 200 HP 通常不足以直接一槍擊殺；頭擊還須區分頭盔和射距。Fandom [Kingslayer](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver) 的精度為 Medium、Inaccuracy Low、Control Low，不能抹成所有子彈必亂飛；難在散布、控槍、時間與頭部目標共同存在。
