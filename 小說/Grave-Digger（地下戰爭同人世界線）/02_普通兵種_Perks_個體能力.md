@@ -14,7 +14,7 @@
 | **5 Shotshell Trap 霰彈陷阱** | **衝突：1 或 2** | 絆線觸發 | **只往槍管指向方向開火**，近距單目標高殺傷，並非全方位爆炸 |
 | **6 Light Lure 光誘餌** | 1（**僅 Classes 頁明列**） | 放著時模擬燈光；互動切換敵我燈色；遭攻擊或地面毀損後燃燒 | **欺騙敵我辨識與路線選擇**，也可近距燒傷；**不靠絆線** |
 
-**重要補全：** Jaeger 無 Survivalist 時通常有 **15 supplies**、補給箱可恢復、**各種裝置一般各可同時放 2 個**；同類超額新設會使舊件及相連絆線失效。**Pox 彈、Smoke Bomb 是另有功能，不屬六陷阱。** 以 **Jaeger 原兵種**換裝 **Geist Shock**，社群記載可保留原 Hunter Kit 及 Smoke Bomb，享有同職協同；不能把所有 Geist 都說成自帶獵兵整套陷阱。更細的控制操作、傷害限制與衝突數字見 61。
+**重要補全：** **Jaeger Hunter Kit 基礎 15 supplies；選 Survivalist 則為 20 supplies（額外 5）**，補給箱可恢復、**各種裝置一般各可同時放 2 個**；同類超額新設會使舊件及相連絆線失效。**Pox 彈、Smoke Bomb 是另有功能，不屬六陷阱。** 以 **Jaeger 原兵種**換裝 **Geist Shock**，社群記載可保留原 Hunter Kit 及 Smoke Bomb，享有同職協同；不能把所有 Geist 都說成自帶獵兵整套陷阱。更細的控制操作、傷害限制與衝突數字見 61。
 
 ### Radio 標記與普通 Officer 標記的真正區別
 
