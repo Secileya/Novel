@@ -1,5 +1,10 @@
 # 48｜瑟薇媞雅自由攜槍與雙 Kingslayer、Officer 標記、Q 花式射擊、戰役模式小說化
 
+## 2026-11-01｜E Voice Wheel 五項表達、Officer 三種哨音、軍官真實命令權分離
+
+普通 E 鍵有 **Thank You／Need Ammo／Need Medic／Danger／Need Backup** 五種玩家快捷呼叫功能（〔COMMUNITY〕）。**這不是** Officer 的 Trench Whistle **Advance／Defend／Focus** 三種增益，也不等於所有軍官在小說只能發五類命令；Officer 其他偵察指示、一般軍令與兵員間求助都另行處理。〔USER-FIXED〕小說人物不說 UI 固定台詞，真正台詞與行動依當下身分、任務、噪音、軍紀、人際、資訊、裝備及限制決定。瑟薇媞雅雖是 Lord Marshal 仍可以自然求援、下令、道謝、開玩笑，不因高軍階只剩宣示性套話。完整設定：[63｜五項快捷表達小說化](63_E鍵五種快捷呼叫_不限五種不固定台詞_軍營對話與戰場傳令.md)。
+
+
 ## 2026-11-01｜Radio Trooper 特種標記不等於一般 Officer 標記
 
 此前本檔第四節主要核對一般 **Officer Recon Kit** 標記，缺少相應的 **Shock Radio Trooper** 強化標記。新增 [61｜Hunter Kit 六裝置與 Radio Trooper 的特殊 Radio-mark](61_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md)：Radio 便攜電台 **75 studs** 半徑內被動標記附近敵人、共享給附近友軍，**穿透 Apparition／Geist 反偵測**；命中敵人後有 **10 秒 Radio-mark**。它同時給周圍三種 Officer Orders 和 **+25% 射速**；無頭盔、通訊噪音造成危險。**Officer→Radio** 同職加成還可把其原有 Recon Kit 的標記升級為 Radio-mark，不能說普通 Officer Telescope 或 Flare 具有等同能力。這種強度應是小說裡高價、稀有的 Shock 偵察能力，不能被縮成一般人拿話筒報點；若要自然穿岩／反制 Geist，感測技術待作者決定，**不因她能用 Radio 就讓瑟薇媞雅永遠隨身自帶 75 studs 特殊雷達**。

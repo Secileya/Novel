@@ -1,5 +1,10 @@
 # 02｜七大普通兵種、個體 Perk 與戰鬥能力轉化
 
+## 2026-11-01｜E 鍵五項通用 Callout 不是 Officer 三種 Whistle，也不是小說語言上限
+
+**〔USER-FIXED〕** 遊戲一般 E 鍵快捷表達的五類為 **Thank You／Need Ammo／Need Medic／Danger／Need Backup**，根據 [韓文社群《Grave/Digger／系統》4.5](https://namu.moe/w/Grave/Digger/%EC%8B%9C%EC%8A%A4%ED%85%9C) 及 [獨立操作指南 E Voice Wheel](https://gravedigger.wiki/guides/controls/) 整理；這是非官方資料，**與 Officer 取出 Trench Whistle 的 Advance／Defend／Focus 三種增益完全不同**。小說不把 E 五項寫成所有人一生只能說五句固定台詞，也不限制正式軍令、同袍求助、醫護、工程、偵察與日常溝通只剩五類；不同人物會按職務與性格說不同話，受援後的 Morale 由真正的信任與救援轉譯，不憑空憑一句謝謝超速裝彈。完整用法、示意與證據界線見 [63｜遊戲五項 E Callout 的小說化](63_E鍵五種快捷呼叫_不限五種不固定台詞_軍營對話與戰場傳令.md)。
+
+
 ## 2026-11-01｜First Aid Pouch：常規軍人每人應急急救包（基礎裝備，非醫護兵專屬）
 
 **〔社群遊戲資料＋本線採用的常規軍需原則〕** 《Grave/Digger》社群 [First Aid Pouch](https://gravedigger.fandom.com/wiki/First_Aid_Pouch) 將其稱為 **standard issue**；[Basic Guide](https://gravedigger.fandom.com/wiki/Basic_Guide) 描述一般玩家可使用 First Aid Pouch 替**自己與其他同袍**急救，不限 Mortician class。**小說採用：金色帝國與王國聯邦的常規作戰官兵，無論 Soldat、Rook、Mortician、Officer、Jaeger、Lancer、Vanguard 兵種或普通軍銜，出勤原則上每人配有一個 First Aid Pouch（個人應急急救袋）**；即使不是軍醫，也要接受基本自救、互救訓練。各軍種與戰區可有不同材料配發、品質和收納方式；正常攜行不等於每次受傷仍能摸到或使用，破損、遺失、耗盡、被收繳及嚴重負重均有後果。**不是宣稱所有平民、所有匪徒、所有特殊形態絕對都有相同軍需。**
