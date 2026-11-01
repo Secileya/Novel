@@ -1,5 +1,10 @@
 # 02｜七大普通兵種、個體 Perk 與戰鬥能力轉化
 
+## 2026-11-01｜Officer 指揮需要同時處理特殊 E、哨音與真實權限
+
+**〔COMMUNITY〕** 除原有 Trench Whistle **Advance／Defend／Focus** 三號令外，玩家 [Officer Guidebook](https://www.reddit.com/r/GraveDiggerRoblox/comments/1w893bn/gravedigger_guidebook_officer_usage_check_desc/) 提及 **Follow Me、Compound Order、Defend Sector** 三項 Officer 專屬 E 快捷戰術呼叫；目前不能把這三種認定為官方唯一完整全集。**一般 E 五種求助／感謝**另是一套。〔USER-FIXED〕小說軍官可按職務與實際權限下更多命令，不套固定幾句話。哨音增益的速度、抗性、瞄準分工不等於喊話立即改變人體物理，需以訓練、隊形與通信體系轉譯；Officer class 與軍階 rank、命令職權分開。詳 [64](64_Officer專屬E戰術呼叫_哨音三號令_自由戰場指揮.md) 及 [63](63_E鍵五種快捷呼叫_不限五種不固定台詞_軍營對話與戰場傳令.md)。
+
+
 ## 2026-11-01｜E 鍵五項通用 Callout 不是 Officer 三種 Whistle，也不是小說語言上限
 
 **〔USER-FIXED〕** 遊戲一般 E 鍵快捷表達的五類為 **Thank You／Need Ammo／Need Medic／Danger／Need Backup**，根據 [韓文社群《Grave/Digger／系統》4.5](https://namu.moe/w/Grave/Digger/%EC%8B%9C%EC%8A%A4%ED%85%9C) 及 [獨立操作指南 E Voice Wheel](https://gravedigger.wiki/guides/controls/) 整理；這是非官方資料，**與 Officer 取出 Trench Whistle 的 Advance／Defend／Focus 三種增益完全不同**。小說不把 E 五項寫成所有人一生只能說五句固定台詞，也不限制正式軍令、同袍求助、醫護、工程、偵察與日常溝通只剩五類；不同人物會按職務與性格說不同話，受援後的 Morale 由真正的信任與救援轉譯，不憑空憑一句謝謝超速裝彈。完整用法、示意與證據界線見 [63｜遊戲五項 E Callout 的小說化](63_E鍵五種快捷呼叫_不限五種不固定台詞_軍營對話與戰場傳令.md)。

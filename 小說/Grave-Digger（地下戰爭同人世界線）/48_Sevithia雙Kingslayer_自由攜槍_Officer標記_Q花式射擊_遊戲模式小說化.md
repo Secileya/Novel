@@ -1,5 +1,10 @@
 # 48｜瑟薇媞雅自由攜槍與雙 Kingslayer、Officer 標記、Q 花式射擊、戰役模式小說化
 
+## 2026-11-01｜Officer E 特殊戰術指令、哨音、偵察及人物指揮要分層
+
+**〔COMMUNITY〕** [2026-09 玩家 Officer 指南](https://www.reddit.com/r/GraveDiggerRoblox/comments/1w893bn/gravedigger_guidebook_officer_usage_check_desc/) 記述 Officer E 特殊呼叫有 **Follow Me、Compound Order、Defend Sector**；這是目前可直接核對的實際玩家操作敘述，**非官方全版本完整選單清單**。它們與 Trench Whistle **Advance／Defend／Focus**（分別改善移動、抵抗／醫護、武器操控）不同，也與普通 E 五項快捷求助不同。〔USER-FIXED〕小說將所有這些視作資訊傳達與部隊協作的功能入口，**不只限六種、更不固定台詞**；真實下令仍取決於指揮鏈與戰區責任。瑟薇媞雅指揮不必親自拿 Officer 的哨子或對話 UI 才成立；低軍階 Officer 也不因使用選單就自動取得高階權限。詳 [64 專項](64_Officer專屬E戰術呼叫_哨音三號令_自由戰場指揮.md)。
+
+
 ## 2026-11-01｜E Voice Wheel 五項表達、Officer 三種哨音、軍官真實命令權分離
 
 普通 E 鍵有 **Thank You／Need Ammo／Need Medic／Danger／Need Backup** 五種玩家快捷呼叫功能（〔COMMUNITY〕）。**這不是** Officer 的 Trench Whistle **Advance／Defend／Focus** 三種增益，也不等於所有軍官在小說只能發五類命令；Officer 其他偵察指示、一般軍令與兵員間求助都另行處理。〔USER-FIXED〕小說人物不說 UI 固定台詞，真正台詞與行動依當下身分、任務、噪音、軍紀、人際、資訊、裝備及限制決定。瑟薇媞雅雖是 Lord Marshal 仍可以自然求援、下令、道謝、開玩笑，不因高軍階只剩宣示性套話。完整設定：[63｜五項快捷表達小說化](63_E鍵五種快捷呼叫_不限五種不固定台詞_軍營對話與戰場傳令.md)。
