@@ -1,4 +1,10 @@
 # 13｜官方 Trello 地圖卡、封面圖片、版本與社群地圖稽核
+
+## 2026-11-02｜76 追加取材規則：Large 的巨大建築規模有用，Fun 按圖判斷而非一律刪除
+
+〔USER-DIRECTION〕**Large Map／Community Map 已展示大型設施，應真正成為《Grave/Digger》帝國城市與基地設計的參考來源。** 既有本檔已核 25 主要 Compound＋8 Collapsed＋135 張各類 Community Trello 卡片，**不應因大型圖在私人伺服器或非普通輪換便完全排除其空間規模**；不等於全部成為官方正史。社群 [Community maps](https://gravedigger.fandom.com/wiki/Community_maps) 清單及 [韓文系統頁](https://namu.moe/w/Grave/Digger/%EC%8B%9C%EC%8A%A4%ED%85%9C) 將其分 **Regular、Fun、Special、Large**；[2025-12-22 Cr8zNinja 地圖介紹影片](https://www.youtube.com/watch?v=sHiThQNd1RI) 的作者說明列 Large 27:37 起、Regular 31:51 起（本輪只核說明與索引，未逐格驗證各張畫面）。[2025-12-26 Reddit 巨型地圖](https://www.reddit.com/r/GraveDiggerRoblox/comments/1pw8hbm/huge_map_i_found/) 發文者回覆該圖叫 **District**，玩家目測類大教堂、聯想到女皇首都，**那仍只是玩家想像**。Fun 的 `gilded`／`trenches`／`prison` 等僅列為**值得檢視名稱**，需看實際圖才決定可用建築元素；`2fort`／`freddyfazbears`／`wafflehouse`／`spleef` 類跨作品或玩法梗不原封當帝國地理。`spacestation` 不等於官方帝國已登太空。完整分級、帝國設施與多元故事候選見 [76｜Large／Community／Fun 地圖、帝國大型城市設施與軍隊人口模型補充](76_LargeCommunityFun地圖_帝國大型城市與設施_軍隊人口反推_給Gemini補充.md)。**本次未逐張看過全部 107 地圖影片或圖片，不能自稱完成視覺驗收**。
+
+
 > 日期：2026-10-31｜來源：**開發者管理的公開 Trello 實際 JSON 卡片資料**，不是猜測或單靠社群 Wiki 轉述。  
 > 官方面板：[Grave/Digger Official Trello](https://trello.com/b/PtRtvsCj/grave-digger-official-trello)｜[Map - Compounds 原始列表](https://api.trello.com/1/lists/6851c90e8c1f1754c4a92028/cards?fields=name,shortUrl,desc)｜[Map - Objectives](https://api.trello.com/1/lists/67b0e919f71fad1806ff429d/cards?fields=name,shortUrl,desc)｜[Map - Community Compounds](https://api.trello.com/1/lists/68a0d183e7ebaac7a8c2063e/cards?fields=name,shortUrl,desc)。
 > **實際查證方式**：Trello 前端因 JavaScript／CDN 不易讀取，這次用公開 `trello.com/c/...json`、`api.trello.com/1/lists/.../cards` 和附件資料端點直接讀卡。**部分圖片由瀏覽器成功開啟並檢視，部分只能讀到圖片附件元資料**，見第五節。卡片封面可能是舊版本截圖，不能當 2026 現行遊戲地形的唯一依據。
