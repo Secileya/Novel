@@ -1,5 +1,14 @@
 # 84｜Jaeger 埋伏、斷後、戰友情、殘酷與玩鬧：研究摘錄
 
+## 2026-11-02 更正｜Jaeger Missile 首要分類是 **EXPLOIT／外掛腳本**，不是一般戰技
+
+**使用者指出前版把「Jaeger Missile」與正常 Jaeger 自爆戰法混為一談；再查證後確認更正。** 在公用伺服器上，Jaeger Missile 最具辨識性的**飛行、旋轉、高速逼近**由腳本／作弊利用引發。它不等於 Hunter Kit 正常埋伏、正常行走接近敵方、設置者遭自己爆炸波及，亦不是正式 Jaeger 戰鬥招式。不可由「影片中 Jaeger 死了並造成爆炸」倒推其是符合遊戲規則的英雄犧牲，更不可把 exploit 行為搬為本世界「標準獵兵能力」。
+
+**主要證據**：[2025-05-09 玩家明說 scripts／hacks](https://www.reddit.com/r/GraveDiggerRoblox/comments/1kicwdk)、[2025-12-23 公共伺服器影片評論稱是 flying-spin script](https://www.reddit.com/r/GraveDiggerRoblox/comments/1pts0c2/jaeger_missile_in_a_public_lobby/)、[2026-01-19 玩家區分私服趣味 mode 與公服 exploit](https://www.reddit.com/r/GraveDiggerRoblox/comments/1qh8nn0/how_to_jaeger_missle/)、[2026-06-23 直接將 Jaeger Missile 定義為飛行腳本](https://www.reddit.com/r/GraveDiggerRoblox/comments/1uddvn0/jaeger_missile_in_the_big_26/)、[2026-06-23 exploiters 再現討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1udelzi/are_jaeger_missile_exploiters_returning/)。[Roblox 官方 Cheating and Exploiting](https://en.help.roblox.com/hc/en-us/articles/203312450-Cheating-and-Exploiting) 明定此類行為違反平台規定。
+
+**保留舊材料的正確方式**：本篇下方早先把 Jaeger Missile 放入「高危自爆戰術」的文句，**已遭本節否定，僅作誤判來源與歷史玩家迷因記錄**。可正常操作的「獵兵有意斷後、近距利用自己的爆炸風險」是另一個、須獨立核對的分類，**不能靠 Jaeger Missile 的外掛影片證明合法可行性**。私服特設趣味模式有玩家回報，但非公服常規機制。
+
+
 > 2026-11-02；性質〔EXTERNAL-RESEARCH／CREATIVE-CANDIDATE〕，不自動成為正式故事，不代表實測 Roblox v1.38。沿用 [61 Hunter Kit](61_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md)、[71 社群文化](71_社群戰術爭論_版本歷史梗_來源與小說採納邊界.md)、[73 角色生活](73_高階人物完整人格_Sevithia真實喜怒_戰爭責任_不必燃燒也能取暖.md)。
 
 ## 已查到的 Jaeger 機制
@@ -12,7 +21,7 @@
 - [獨立職業指南 2026-09-01](https://gravedigger.wiki/classes/jaeger/)
 - [官方 Roblox 遊戲首頁](https://www.roblox.com/games/18259975825/Grave-Digger)
 
-## 玩家真有「以自己性命換取敵方損失」的玩法文化，但不能混成固定軍事準則
+## 舊研究記錄：曾錯把 Jaeger Missile 與正常玩法的高危爆炸合併（以上更正優先）
 
 - [2026-03-03 Jäger’s sacrifice](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rjg038/j%C3%A4gers_sacrifice/)：玩家留言稱 Jaegerkazes，並諷刺同一行為的評價會隨犧牲者擊敗的敵方兵種而改變。
 - [2026-02-01 Jaeger Missile](https://www.reddit.com/r/GraveDiggerRoblox/comments/1qt5vxf/jaeger_missile/)：有人形容一名獵兵死亡換取多名敵人損失，含高價值 Shock，屬玩家評論，非官方故事。
@@ -21,7 +30,7 @@
 - [2026-08-05 Geist 反制討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1vfuoph/so_how_do_you_kill_a_geist_trooper/)：獵兵埋伏與群體協作並存。
 - [2026-05-17 巧妙陷阱故事](https://www.reddit.com/r/GraveDiggerRoblox/comments/1tfd87q/whats_the_most_diabolical_or_clever_jaeger_trap/)：玩家描述複雜地下埋伏，各自聲稱戰績，不能視作已查證的小說人物戰史。
 
-**最重要的認識邊界**：這次找到的是 Jaeger 可以利用陷阱斷後、存在近距高危險打法、玩家也會把死亡形容成犧牲；**未找到可信原始影片及上下文能證明某一具體片段的獵兵就是為了救某位友軍而主動犧牲**。這種情節可以寫成小說候選，但不能標「已由官方描述的戰史」。Reddit 2026 年的 [Sacrifice Perk 創意](https://www.reddit.com/r/GraveDiggerRoblox/comments/1vamcsz/perk_concept_sacrifice/) 是玩家提案，不是實裝機制；Fandom 同名 Sacrifice 條目涉及另一個彩蛋，不是這種能力。
+**更正後的認識邊界**：Jaeger Missile 影片主要證明 exploit 迷因，而非正常遊戲戰術；正常的 Hunter Kit 可以埋伏，另可研究非外掛的高危險攻擊與斷後，但不能直接援引飛行腳本當作證據。部分玩家也會把死亡形容成犧牲；**未找到可信原始影片及上下文能證明某一具體片段的獵兵就是為了救某位友軍而主動犧牲**。這種情節可以寫成小說候選，但不能標「已由官方描述的戰史」。Reddit 2026 年的 [Sacrifice Perk 創意](https://www.reddit.com/r/GraveDiggerRoblox/comments/1vamcsz/perk_concept_sacrifice/) 是玩家提案，不是實裝機制；Fandom 同名 Sacrifice 條目涉及另一個彩蛋，不是這種能力。
 
 ## 社群生活、戰友情、殘酷的直接材料
 
