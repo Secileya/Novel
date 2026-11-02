@@ -1,5 +1,10 @@
 # 88｜槍枝鄙視鏈、Slopgun／Crutch、冷門槍、Perk 怪配裝與玩家文化
 
+## 2026-11-02｜89 補充：不只有鄙視，還有敬佩、HOW?!、愛槍與跨派系玩家
+
+使用者提醒 **Apparition＋Equine 存在**，且 Kingslayer／Judgement 的高手也經常被玩家敬佩、難以理解其技巧。已以 [89｜Appa Equine 與 KS／Judge 敬佩文化實例](89_Appa_Equine_雙管驚嚇_KS_Judgement高手敬佩_榮譽與文化_續查.md) 整理不同來源，包含 2026-10-09 Appa Shotgun「比單獨 Equine 更討人厭」的討論、2026-04 玩家 2,000 KS 爆頭情書、2026-05 對熟練 KS 爆頭者敬佩、2026-10 對 Judge 刺刀衝鋒更有敬意、Gilded 祝賀等。**88 下文的嫌惡排行榜只是某些玩家的嫌惡傾向，不是普遍唯一文化，更不是技術強弱的單一階級**。即使討厭被 KS 射中，也可能佩服對方裝填／頭部瞄準的本領。雙管霰彈槍粉絲、難槍鐵粉、兩者都玩的同一個玩家，均有實例。
+
+
 > 2026-11-02 研究；分類〔COMMUNITY-SOURCED／PLAYER-OPINION／CREATIVE-CANDIDATE〕。使用者特別要求「槍枝優越、下賤槍、Perk 搭配或稀奇，以及其他文化」。**本檔收的是玩家社群中實際出現的稱呼、抱怨、個人實戰評價與幽默；不是遊戲官方平衡榜，不自動成為《Grave/Digger》小說軍事史實或正式角色對話。** 對照 [06 武器圖鑑](06_全武器及Mod改裝圖鑑.md)、[19 Perk](19_Perk全系人物化_機制_多種表現與限制.md)、[28 Judgement／KS 難度](28_武器操作難易度_Judgement_Kingslayer_破盾與調角度.md)、[85 既有玩家文化](85_GraveDigger玩家文化擴展_外掛迷因_停火醫護_職業階級_藝術角色扮演.md)。
 >
 > 核實方法：優先引用 [Game Culture](https://gravedigger.fandom.com/wiki/Game_Culture) 的**社群語彙表**、2025–2026 Reddit 有日期的具體帖子與留言。**沒有進入現行伺服器測試所有負重格、Mod／Perk 效果**。同樣配裝不同版本或陣營可能有變動；一篇主帖的多人留言不等於多份獨立實測。
