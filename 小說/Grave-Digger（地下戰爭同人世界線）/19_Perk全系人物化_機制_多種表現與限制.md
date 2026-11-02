@@ -1,5 +1,10 @@
 # 19｜Perk 全系人物化：遊戲效果、形成方式、個體差異與敘事約束
 
+## 2026-11-02｜Shock 內建複合能力和原職 Synergy
+
+Shock 特殊套裝可帶有多種類似普通 Perk 的效果，不代表玩家同時選了數個普通 Perk。尤其 Geist 本身具有 Apparition、Tunnel-rat、Greyhound 類效果，而 Jaeger 同職 Synergy 另有 Butcher（來源對實際版本仍有爭議）。逐項證據見 [92](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)，玩家文化延伸見 [93](93_社群亂逛_鋼琴口琴_兵種主題曲_擬人Perk_異裝Shock_自製測驗與非官方點子.md)。
+
+
 ## 2026-11-02｜Shock 的「多個 Perk-like Buff」不是普通 Perk 選格累加
 
 使用者提醒 Jaeger→Geist 含 Butcher、Tunnel-rat、Greyhound 等效果；核對 [Fandom Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper) 及 [92｜七 Shock 的 A／B／C 分層](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)：**Geist 本體**整合 Apparition-like、Tunnel-rat-like、Greyhound-like，**Jaeger 同職 Synergy**再追加 Butcher（Wiki「All Effects」；社群仍有版本衝突）、毒彈、細絆線、15% 裝填與 Hunter Kit／煙幕。其他 Shock 亦有 Greyhound-like、Black Hand-like、Leatherneck-like、Veteran-like 等特定部分效果，但**普通 Perk 在轉 Shock 通常停用，不能拿 RPG 疊五格來理解**。在小說中若角色能結合多種技巧，仍需履歷、裝備、訓練與身體代價，並非遊戲 UI Perk 效果立刻授予。
