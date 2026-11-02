@@ -1,5 +1,10 @@
 # 19｜Perk 全系人物化：遊戲效果、形成方式、個體差異與敘事約束
 
+## 2026-11-02｜玩家 Perk 流派與武器社交討論（僅外部社群）
+
+補充見 [88｜槍枝鄙視鏈、Veteran 爭論、Perk 怪配裝](88_槍枝鄙視鏈_Slopgun_Crutch_武器與Perk奇葩配裝_玩家文化研究.md)。2026-08 Reddit 因 Veteran 對 Prince／Union／Grace／Adjudicator 等不同槍效益不一而爭論其優劣；另有玩家自述 Officer＋Kingslayer＋Black Hand、Lancer＋Survivalist＋Cavalry Sword、Soldat＋Survivalist＋雙重霰彈槍等配置。**此為玩家自述／版本敏感資料，不是同人角色已具備、每種配裝都最新實測。** 2025-11 的「假如可同時兩 Perk」是玩家想像，不增加遊戲可選 Perk 數量。小說中高階人物可以透過多年訓練融合多種技術，但不把每項網路組合視作超常 Perk 同時生效。
+
+
 ## 2026-11-01｜射擊 Perk、Shift Steady Aim 與 Kingslayer 例外
 
 **一般 Aim 是 RMB 舉槍瞄準，Focus／Steady Aim 是站穩並瞄準時再按住 Shift 的穩定瞄準機制；不是 Officer 的 Focus 哨聲。** [Basic Guide](https://gravedigger.fandom.com/wiki/Basic_Guide) 與 [2026-09 Controls](https://gravedigger.wiki/guides/controls/) 確認 Shift；[Kingslayer](https://gravedigger.fandom.com/wiki/%27Kingslayer%27_Percussion_Revolver) 明說**該槍不能藉普通 Steady Aim 提高 Accuracy**，但不是不能 RMB 瞄準。Marksman Perk 可改善一般散布與後座；**不能無來源就斷定它能移除 KS 的 Shift 限制**。瑟薇媞雅 KS 精準靠自身反應、視線、臂力、後座控制、實戰與技巧，不靠虛構通用 Shift 開關。完整見 [65](65_Kingslayer多重弱點_瑟薇媞雅三倍裝填與雙槍_瞄準Shift例外.md)。
