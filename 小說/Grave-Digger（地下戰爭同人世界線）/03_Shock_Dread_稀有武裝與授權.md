@@ -1,5 +1,10 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
 
+## 2026-11-02｜90：現實玩家 Shock 使用時機及 Base Kit Geist 社群衝突
+
+新增 [90｜Shock Kit 時機、社群看法、Base Kit Geist 爭論](90_Shock社群態度_出動時機_BaseKitGeist爭議_高低階與自信文化.md)。來源對照：Skirmish 中立箱 5／10 分鐘、Last Stand 失利隊基地兩份 Shock Kit、Elite Reinforcements 雙方初始約六名 Shock 是**社群特定版本的玩法描述**，不可套作同一批箱子或直接變成本線正式兵員配發法。2025-11／2026-09 有低階連續拿基地 Kit 選 Geist 迅速陣亡遭怨；2026-02／05 也有低階自稱很擅 Geist，或主張多點地形防守 Geist 能伏擊高價值敵方 Shock 的玩家。兩派意見都有情境支持，不可寫「最後防守選 Geist 一律送頭」或「選 Geist 永遠聰明」。**Base Kit 不等於 Jaeger Hunter Kit，Geist 選裝也不保證保留 Jaeger 原套，須看是否原 Jaeger Synergy**；普通 Perk 與 Shock 加成另分。原有作者〔USER-FIXED〕軍階與授權觀點不變。
+
+
 ## 2026-11-02｜75 USER-FIXED：Lancer／Trench 特殊重盔不能靠 Judgement／KS 直接爆頭致死，AT Remover 例外
 
 **使用者直接糾正：「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」。** 遊戲資料符合：[Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper｜Trench／AT](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[2026-03 玩家穿甲討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/what_does_armor_penetration_4_do/)。**Lancer 及 Trench 都有 Lancer 級特殊重型頭盔；只要確實戴著完整重盔，普通槍、Judgement、Kingslayer 就算瞄得再準打中頭部，也不能直接依一般穿盔爆頭即死規則殺死。Judgement、KS 等高威力命中仍可擊倒／震暈、降低生命，不等於零效；AT Trooper 的 Remover 具足以穿破頭盔的反物資穿透，可對頭部造成致命一擊。** 若頭盔實際已脫下、頭部暴露則另判；武器射距、擊中部位與特殊裝甲要另行評估。
