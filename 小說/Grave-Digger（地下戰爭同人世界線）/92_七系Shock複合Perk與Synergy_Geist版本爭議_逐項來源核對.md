@@ -18,7 +18,7 @@
 | **非 Jaeger→Geist** | 仍可得到 Ghost、Hunt 和 Stalker 基礎效果；**未必**得到 Butcher 專屬、獵兵整套 Hunter Kit／Smokescreen。Fandom 舉 Lancer→Geist 保留投斧／部分藥物的例子 | 同上；細部裝備佔格需依版本檢核 |
 
 **直接關鍵字來源：**
-- [2026-07 朋友製的 G/D 問答遊戲](https://jeopardylabs.com/print/gravedigger-bonanza-for-friends) 甚至有題目「What perks does a synergized Geist benefit from?」答案 **Apparition、Tunnel Rat、Greyhound、Butcher**。它支持這是一套社群流傳的**四組複合效果模型**；仍是粉絲題庫，不是官方機制證明。
+- [玩家製作、日期未核的 G/D 問答遊戲](https://jeopardylabs.com/print/gravedigger-bonanza-for-friends) 甚至有題目「What perks does a synergized Geist benefit from?」答案 **Apparition、Tunnel Rat、Greyhound、Butcher**。它支持這是一套社群流傳的**四組複合效果模型**；仍是粉絲題庫，不是官方機制證明。
 - [2026-10-13 Jaeger／Geist 教學貼](https://www.reddit.com/r/GraveDiggerRoblox/comments/1x4ndkh/do_you_guys_have_some_tips_for_jaegergeist/) 有人同時列 Apparition、Greyhound、Tunnel Rat、**Marksman、Butcher**，並在留言提到狩獵與近戰回復。**Marksman 的說法不見於目前 Fandom 這段正式 Geist Perk 繼承清單，不能升格為已確認原生能力**。
 - [2025-09-02／03 Geist 需不需要 Snake Eyes](https://www.reddit.com/r/GraveDiggerRoblox/comments/1n6zsi3) 有人稱 Geist 3、5、6 種免費被動，彼此直接衝突；回覆說 **Butcher 曾只有處決動畫、未有回血或補彈，或被移除**，另有人稱 Marksman 也沒有。這些是當時的玩家聲稱，不能用它直接否定 2026-10 的版本或 Fandom 當前編輯，**也不能反過來宣稱已完成實測並全部修復**。
 - [2026-04-30 「讓 Geist 更難對付」概念](https://www.reddit.com/r/GraveDiggerRoblox/comments/1t046k5/making_the_geist_trooper_even_more_cancerous_to/) **作者把 Marksman、Devil Dog、Snake Eyes 當成想額外加入的強化**；證明玩家對既有能力範圍並非一致，不可把概念稿當實裝。
