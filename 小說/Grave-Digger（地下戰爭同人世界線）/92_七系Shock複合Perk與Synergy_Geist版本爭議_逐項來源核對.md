@@ -1,5 +1,10 @@
 # 92｜七種 Shock 的複合 Perk／Synergy：Geist 原生、Jaeger 專屬與版本矛盾逐項核對
 
+## 2026-11-02｜94 延伸：Hunt 被追蹤者台詞／玩家感受與動畫
+
+本檔已確認 **Jaeger→Geist Synergy** 的絆線比一般 Jaeger 更細、遠處難察覺；新增 [94｜Geist 被狩獵台詞、玩家最怕與最愛、近距布雷音效和動畫](94_Geist狩獵台詞_玩家恐懼_陷阱聲響_動畫文化與Sevithia反伏擊.md)。[Fandom Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper) 指 Hunt 約 75 studs 單一目標、Geist 看牆後輪廓、目標得到**視野暗化、低語、依 Perk 而異的兩段提示**。新增核對的 [韓文社群兵種資料](https://www.namu.moe/w/Grave/Digger/%EB%B3%91%EA%B3%BC) 有一般／Veteran／Apparition／Tunnel Rat／Jaeger／Cursed／Geist 被獵起始、轉移、解除及反殺文字；尚未逐一與最新版本影片比對。[Reddit 2026-06 自創新台詞](https://www.reddit.com/r/GraveDiggerRoblox/comments/1u3jf8i/geist_dialogue/) 是作者與留言者的**fan-suggested**，不可誤當遊戲已實裝。原有 Synergy／Butcher 版本爭議維持不變。
+
+
 > 研究日期：2026-11-02。**來自使用者直接糾正**：「Shocks synergy 有多種 perk buff，像 Jaeger Geist 就是 Butcher、Tunnel Rat、Greyhound。」之前 [66](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md)、[03](03_Shock_Dread_稀有武裝與授權.md) 著重加速／裝填及戰法，**未充分呈現 Geist 自帶多種 Perk 類能力＋原職特殊 Butcher，以及其他套裝亦有借用 Perk 效果**，需要補正。
 >
 > 證據：主資料 [Fandom Shock Trooper／Synergy Exclusive](https://gravedigger.fandom.com/wiki/Shock_Trooper)（社群編輯、宣稱部分描述基於官方 Trello；本輪未實際登入伺服器核版本），[Fandom Perks](https://gravedigger.fandom.com/wiki/Perks)、[2026-09-01 整理：轉 Shock 普通 Perk 停用](https://gravedigger.wiki/loadouts/perks/)、[2026-10-04 Geist 二次專題](https://grave-digger.wiki/classes/geist/)、[2025-12 Shock proficiency 玩家答疑](https://www.reddit.com/r/GraveDiggerRoblox/comments/1pm8sre/shock_troopers_proficiency/)。**GAME-MECHANICS-COMMUNITY／版本敏感**；不得被「類似某 Perk」自動換算為「該 Perk 官方全部效果」。
