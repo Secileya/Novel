@@ -1,5 +1,10 @@
 # 03｜Shock Trooper 與 Dreadnought：稀有武裝、類型優劣、指揮授權與戰爭重量
 
+## 2026-11-02｜92：Shock Synergy 複合 Perk 補正，尤其 Jaeger→Geist
+
+**重要更正：** 過去本檔把 [Jaeger→Geist] 多寫成「15% 裝填＋毒彈／陷阱優勢」，**漏掉 Geist 本體的多種 Perk 類 Stalker 效果，及原 Jaeger 特有 Butcher**。據 [Fandom Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper)：**Geist 本身**具 Apparition 類（永久 Dim 燈）、Tunnel-rat 類（靜音快速挖掘）、Greyhound 類（加速起步／移動瞄準），**Jaeger 原職→Geist Synergy**另有 Butcher「All Effects」、15% 裝填、毒彈、較細絆線、彈數資訊與 Hunter Kit／Smokescreen 繼承。**Butcher 是否在 2026-11 真正具全部補血補彈有 2025–26 年玩家版本爭論；不能在未實測時直接當定論。**同樣 Storm 的 Greyhound-like＋Black Hand-like、Rook 的 Leatherneck-like＋Grace Veteran、Mortician Flame 的 Grace Veteran、Trench 的 Veteran-like Charge 均要分清來自 Shock 本體還是 Synergy 專屬。**普通 Perk 轉 Shock 時通常停用，類似效果並非在介面多裝幾個 Perk。**修訂後詳細七型表見 [66](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md) 與 [92](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)，多元玩家文化見 [93](93_社群亂逛_鋼琴口琴_兵種主題曲_擬人Perk_異裝Shock_自製測驗與非官方點子.md)。原文仍保留來源時點，不抹掉歷史異議。
+
+
 ## 2026-11-02｜90：現實玩家 Shock 使用時機及 Base Kit Geist 社群衝突
 
 新增 [90｜Shock Kit 時機、社群看法、Base Kit Geist 爭論](90_Shock社群態度_出動時機_BaseKitGeist爭議_高低階與自信文化.md)。來源對照：Skirmish 中立箱 5／10 分鐘、Last Stand 失利隊基地兩份 Shock Kit、Elite Reinforcements 雙方初始約六名 Shock 是**社群特定版本的玩法描述**，不可套作同一批箱子或直接變成本線正式兵員配發法。2025-11／2026-09 有低階連續拿基地 Kit 選 Geist 迅速陣亡遭怨；2026-02／05 也有低階自稱很擅 Geist，或主張多點地形防守 Geist 能伏擊高價值敵方 Shock 的玩家。兩派意見都有情境支持，不可寫「最後防守選 Geist 一律送頭」或「選 Geist 永遠聰明」。**Base Kit 不等於 Jaeger Hunter Kit，Geist 選裝也不保證保留 Jaeger 原套，須看是否原 Jaeger Synergy**；普通 Perk 與 Shock 加成另分。原有作者〔USER-FIXED〕軍階與授權觀點不變。
