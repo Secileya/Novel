@@ -1,5 +1,10 @@
 # 66｜Trench 的 Hades 刺刀、Shock 跨兵種 Synergy、Officer 刀戰文化、瑟薇媞雅刀術與兩部動畫來源
 
+## 2026-11-02｜92 勘誤：Shock 有「原生複合 Perk 類效果」＋「配對專屬 Synergy」，不是只有裝填速度
+
+使用者提醒 **Jaeger→Geist 能整合 Butcher、Tunnel-rat、Greyhound 等多個效果**。已核對 [Fandom Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper)：**Geist 原生** Stalker 就有 **Apparition／Tunnel-rat／Greyhound** 各自列明的**類似部分效果**；**Jaeger→Geist 專屬**才列 Butcher「All Effects」、+15% 裝填、毒彈、細絆線、彈數情報與 Hunter Kit／煙幕繼承。另一份 [2026-10 玩家教學](https://www.reddit.com/r/GraveDiggerRoblox/comments/1x4ndkh/do_you_guys_have_some_tips_for_jaegergeist/) 提了 **Marksman**，但目前上述 Wiki 沒將 Marksman 列在 Geist 的標準 Stalker 清單；[2025-09 玩家矛盾討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1n6zsi3) 還有人認為 Butcher 曾僅有處決動畫、沒有全部回血／補彈，故**不假裝已驗證 2026-11 伺服器完整效果**。其他 Storm→Greyhound-like＋Black Hand-like、Rook→Leatherneck-like＋Grace/Veteran、Flame→Grace/Veteran、Trench→Veteran-like Charge 也已於下表補明。**類似某 Perk 的特定效果 ≠ 遊戲選單上多裝幾個完整普通 Perk**。詳 [92｜逐型三層對照](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)。
+
+
 ## 2026-11-02｜75 USER-FIXED：Lancer／Trench 特殊重盔不能靠 Judgement／KS 直接爆頭致死，AT Remover 例外
 
 **使用者直接糾正：「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」。** 遊戲資料符合：[Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper｜Trench／AT](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[2026-03 玩家穿甲討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/what_does_armor_penetration_4_do/)。**Lancer 及 Trench 都有 Lancer 級特殊重型頭盔；只要確實戴著完整重盔，普通槍、Judgement、Kingslayer 就算瞄得再準打中頭部，也不能直接依一般穿盔爆頭即死規則殺死。Judgement、KS 等高威力命中仍可擊倒／震暈、降低生命，不等於零效；AT Trooper 的 Remover 具足以穿破頭盔的反物資穿透，可對頭部造成致命一擊。** 若頭盔實際已脫下、頭部暴露則另判；武器射距、擊中部位與特殊裝甲要另行評估。
@@ -31,12 +36,12 @@
 
 | 原兵種 → Shock | 同兵種專屬 Synergy（社群記載，版本敏感） | 跨兵種時仍要保留的重點 |
 |---|---|---|
-| **Soldat → Storm** | 裝填約 **+30%**、可看精確彈數、加速衝刺、操槍與移動射擊更穩；原 Soldat 操槍約 +20% 可並存 | Rook／Officer 也可拿 Storm 基本強槍，但不自動取得 Soldat 專屬附加加成 |
-| **Rook → Anti-Material** | **+20% 裝填、約 +7.5% 射速**、抗震／抗倒地，彈數資訊；Grace 支援的部分 Veteran 效果 | 其他職業可用 Remover 的基本高穿透，**但不自動有 Rook 的抗震裝填優勢** |
+| **Soldat → Storm** | 裝填約 **+30%**、精確彈數、**Greyhound-like** 衝刺起步、**Black Hand-like** 操槍／移動射擊減罰；原 Soldat 操槍約 +20% 可並存，**但不等於兩個完整普通 Perk 全效果** | Rook／Officer 也可拿 Storm 基本強槍，但不自動取得 Soldat 專屬附加加成 |
+| **Rook → Anti-Material** | **+20% 裝填、約 +7.5% 射速**、**Leatherneck-like** 抗震／抗倒地、精確彈數；**Grace 手槍上 Veteran 類效果**（非所有武器） | 其他職業可用 Remover 的基本高穿透，**但不自動有 Rook 的抗震裝填優勢** |
 | **Mortician → Flame** | **+20% 裝填**、Medical Syrette 對友軍恢復至約 **200 HP**；Grace 有部分 Veteran 效果 | 非醫護也可用火焰噴射器，但**不憑空學會專業針劑醫療與 Mortician 加成** |
 | **Officer → Radio** | **+20% 裝填**、Recon Kit 標記轉為 **Radio marks**、移動速度和彈數資訊改善 | 其他職業的 Radio 仍有基本電台、Glory 和團隊範圍增益；只是不自動獲得 Officer Recon 套件的專屬整合 |
-| **Jaeger → Geist** | 保留／結合 Hunter Kit、煙霧工具；額外 **+15% 裝填**、毒性彈、陷阱絆線更不易察覺，彈數資訊 | 非 Jaeger 也能選 Geist 並有 Ghost、Hunt 等基本能力；其**原兵種裝備可能有個別保留**，不可無證據說所有非 Jaeger 都一樣有 Hunter Kit |
-| **Lancer → Trench** | **+20% 裝填**、刺刀 **199→450**、可串穿複數目標、Charge 延長／更快再次發動、彈數資訊 | 別的職業也能用 Hades 基本霰彈／刺刀／單人衝鋒；沒有此專屬威力疊加 |
+| **Jaeger → Geist** | **Geist 本體已帶 Apparition-like 永久暗燈、Tunnel-rat-like 安靜快速挖掘與 Greyhound-like 起步／操槍（皆依 Stalker Wiki 記載）**；**只有同職 Synergy** 再增 **Butcher（Wiki 寫 All Effects；2025–26 玩家對實際回血／補彈有衝突）、+15% 裝填、毒性彈、細絆線、精確彈數，並保留 Hunter Kit＋煙幕** | 非 Jaeger 也能選 Geist 並有 Ghost、Hunt 等基本能力；其**原兵種裝備可能有個別保留**，不可無證據說所有非 Jaeger 都一樣有 Hunter Kit |
+| **Lancer → Trench** | **+20% 裝填**、刺刀 **199→450**、可串穿複數目標、Charge 延長／更快再次發動（Wiki 比作 **Veteran-like Charge**，非完整 Veteran 套餐）、彈數資訊 | 別的職業也能用 Hades 基本霰彈／刺刀／單人衝鋒；沒有此專屬威力疊加 |
 | **Vanguard → Bulwark** | **+20% 裝填**、Bulwark's Hope 可使用、頭盔強度提升 **1 級**（Powerful／Devastating 等例外）、在特定彈數下顯示精確彈量 | 非 Vanguard 也可用 Guardian 機槍和部署盾基本功能，但不會自動得到 Vanguard 專屬護盾鼓舞 |
 | **Ocelot** | **沒有 class Synergy**，隱藏特殊解鎖流程 | 原職基礎與遊戲彩蛋機制另論，不製造不存在的專屬同步加成 |
 
