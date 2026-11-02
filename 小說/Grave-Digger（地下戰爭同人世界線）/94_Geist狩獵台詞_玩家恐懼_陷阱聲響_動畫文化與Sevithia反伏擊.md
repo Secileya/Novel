@@ -66,6 +66,19 @@
 3. **陷阱被觸發**：只有此階段才承接實際的槍擊、爆裂、火焰、毒氣或塌石結果。聽見已是引爆開端不一定趕得及完整逃離，須依人距、角度、遮蔽物及能力決定，不能寫成「所有炸彈最後零點一秒必閃」。
 4. **合理反制**：停步、提醒後方、分散、改用旁路／遠距處理；但別每次都讓高階角色瞬間讀出完整地下爆破網或保證救下所有人。
 
+### 四-A｜Rook 主動轟開 Jaeger／Geist 埋雷區，反而炸死設置者〔USER-PLAY＋COMMUNITY〕
+
+**作者本輪新補充的實戰現象〔USER-PLAY／USER-OBSERVATION〕：** Rook 會用掘進炸彈轟擊 Geist、Jaeger 在洞道、據點、岩壁等位置埋設炸藥的區域；有時炸藥被提前引爆，**反而把設置者／躲在附近的獵兵炸死**。這和「獵兵埋好炸彈等進攻方踩中」是**攻守逆轉**，也不能只寫成 Rook 誤拆友軍掩體。作者沒有指定該局地圖、精確武器命中面、敵方站距或統計次數，不得補造戰績。
+
+**來源分級與反制鏈：**
+1. [Fandom Rook](https://gravedigger.fandom.com/wiki/Rook)／[Mining Launcher](https://gravedigger.fandom.com/wiki/Mining_Launcher)：Rook 的 Mining Bomb Launcher 可以隔距離炸開可挖地形、敵方掩體並震盪附近玩家；Rook 對部分爆炸有抗性，另可在安全情況下嘗試直接拆除 Jaeger Dynamite Stack。不同 Wiki 頁面對發射物自身傷害／彈藥數量有版本不一致，不鎖單一數值。
+2. [Fandom Hunter Kit](https://gravedigger.fandom.com/wiki/Hunter_Kit)／[Jaeger](https://gravedigger.fandom.com/wiki/Jaeger)：**Dynamite Stack 是受到攻擊、物件損壞或附著地形被挖毀而爆炸**；爆炸能傷到設置者本人，其他 Mantrap、Tin Bomb、Gas Shell、Shotshell、Light Lure 的觸發規則各自不同，**不是每一種陷阱被 Rook 轟一下都會以同樣方式爆炸**。
+3. **玩家直接例子**：[2025-06 在 Shock Kit 旁挖掉 Jaeger Dynamite](https://www.reddit.com/r/GraveDiggerRoblox/comments/1ln1mlv/)：回覆者自述自己無傷、炸死埋雷的 Jaeger，然後拿到 Kit；這是單一玩家回憶，未附本輪可核對完整對局紀錄。[2026-04「Can we please hate on jaegers more」](https://www.reddit.com/r/GraveDiggerRoblox/comments/1sjsnrt/can_we_please_hate_on_jaegers_more/) 有玩家提議**集中 Rook 掘進炸彈轟炸，迫使封路獵兵離開藏身區**。[2026-08 多 Jaeger 場](https://www.reddit.com/r/GraveDiggerRoblox/comments/1veo4uy/average_gd_campaign_when_theres_5_jaegers_on_both/) 有玩家建議 Survivalist Rook 轟開陷阱密布的岩壁。[2026-03 Rook vs Jaeger](https://www.reddit.com/r/GraveDiggerRoblox/comments/1s2xbov/my_opinion_with_jaeger_vs_rook/) 亦有不同看法：Rook 並非無條件克制聰明的獵兵。
+4. **可能的不同結局**：Rook 先轟開／引爆危險區而救下友軍；設置者來不及撤出遭自己炸藥波及；Geist／Jaeger 提前轉移或另設副陷阱反制；Rook 猜錯位置、白白破壞友軍掩體，甚至自己被連環裝置傷及。爆炸抗性不是無敵，**不能宣稱 Rook 每一發都能遠程找出所有絆線**。
+5. **小說轉譯〔CREATIVE-CANDIDATE〕**：有人聽見對面裝藥、發現敵方刻意避開某段岩壁，Rook 便把掘進彈落在那片地形而非朝敵人胸口直射。岩壁被炸鬆後，原已安放的 Dynamite 因支撐面損壞提前引爆；躲在後方準備伏擊的獵兵可能被爆風／碎石波及。因果重點是**洞網位置、陷阱依附面、Rook 的射角、炸藥與設置者距離、撤退時間**，不是所有爆炸物魔法連鎖。不把這一示例直接指定為 Sevithia 某場既定戰史。
+
+**文化意義：** 反獵兵玩法有「轟開危險區、拆掉已布陷阱、或直接繞路」等多條路線。普通 Rook 不只是拿鎬挖牆，能成為保護隊伍的破局者；Geist／Jaeger 也必須精心設陷阱與撤路。強者互有對抗，而不是單方面把對手當無法還手的獵物。
+
 ## 五、瑟薇媞雅 Sevithia｜本輪新增作者已定〔USER-FIXED〕
 
 作者直接補充：**Sevithia 很擅長發現陷阱，與 Geist 交手過非常多次**。此項是在 [31](31_瑟薇媞雅_帝國之刃_Shock獵手_萬人戰績_Dread生還.md) 現有「帝國最強單兵、Shock Hunter、精密槍法、體能、速度、兵種綜合運用」以外，更明確的**長期反伏擊、地形判讀、陷阱發現與危險預兆識別**。不能只把她寫成最後槍法快過對手：
