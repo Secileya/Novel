@@ -1,5 +1,19 @@
 # 94｜Geist Hunt 台詞、玩家恐懼與喜好、地底陷阱音訊、動畫文化、Sevithia 反伏擊
 
+## 2026-11-02｜追加核對：Geist 只看一個輪廓，誤闖多人埋伏
+
+> 補查來源：作者提問「本小說如何解釋 Geist 隔岩層看到輪廓？是否有 Geist 只見單一輪廓、跳下追殺卻發現下面聚集多人之真實玩家經歷？」此處只記錄**可證明機制與相似社群案例**，不要誤寫成已核實相同影片或本線正式故事。〔GAME-WIKI／COMMUNITY／RESEARCH-CANDIDATE〕
+
+1. **遊戲資料的已知邊界**：[Grave Digger Geist Guide](https://grave-digger.wiki/classes/geist/) 及 [Fandom Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper) 將 Hunt 描述為約 **75 studs 內鎖定一名目標、顯示其穿牆白色輪廓**，並偏向優先獵取敵方 Shock；**單一輪廓不是房間全敵軍顯影、更不是目標獨處的保證**。這是標記信息的天然盲點，與 Radio Trooper 全隊共享／範圍多人標記嚴格區分。
+2. **小說原理現狀：尚未正式定案。** [03](03_Shock_Dread_稀有武裝與授權.md) 原提出聲紋、觀測、路徑圖、誘餌或專用感知的多種轉譯；[61](61_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md) 強調不能將遊戲 HUD 無說明視為所有小說人物肉眼透視。**建議候選**：Geist 的精銳專屬追獵感知／儀器只在有效距離內向使用者指示**一個獵印／相應人形位置**，而非整區生命掃描；具體物理來源、感知形式（視覺輪廓、觀測器投影、主觀感知）及反制方法仍須作者核定。不得藉此擅自刪除遊戲側的真正穿牆追蹤力，或把全體 Geist 偷定為超自然法師。
+3. **最接近的具體戰史自述，不是同一事件**：[2026-08-28～29「Write down your most cinematic moment」](https://www.reddit.com/r/GraveDiggerRoblox/comments/1w13e5u/write_down_your_most_cinematic_moment_youve_ever/) 有一則留言自述**我方四名 Geist 集中行動，發現兩名敵方 Geist；對方不知道我方有四名而貿然衝近，兩人被集火擊殺**。留言**沒有說看著 Hunt 的單一輪廓、也未明言跳下來**，所以不能援引作使用者指定事件的直接證明。
+4. **直接討論的反制戰術**：[2026-03-27「What do I do against The Giest?」](https://www.reddit.com/r/GraveDiggerRoblox/comments/1s4mzdx/what_do_i_do_against_the_giest/) 有玩家建議將追獵者引至 **Flame／Trench** 附近，利用 Geist 只注意目標而意外遇上其他 Shock；這是**玩家建議**，不是已發生的戰鬥錄影。[2026-09-20 遭 Geist 追獵的 Shock 求助](https://www.reddit.com/r/GraveDiggerRoblox/comments/1wlarc1/what_do_i_do_as_a_shock_when_a_geist_hunts_me/) 有 Geist 玩家解釋通常會迴避躲在兩名以上隊友後的目標，因可能遭旁人反擊。[2026-10-13 Geist 教學討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1x4ndkh/do_you_guys_have_some_tips_for_jaegergeist/) 亦提醒多人包圍時撤退，貪圖近戰擊殺很容易送命。
+5. **可用小說場景，但尚非既定戰史**：獵印在下層岩室移動；Geist 以為是落單高價值目標，從上層切入，才在落地時看到被岩壁遮住的多名持槍者。視情境可為敵方有意設計的誘獵，也可只是獵手情報不足而撞上集結隊伍；**不得單憑一個輪廓就宣稱對方確實單獨行動，不必固定獵手一定愚蠢或必死**。地圖、高低差、上下出口、火線、煙霧與洞壁聲音決定可否撤離。
+6. **待查項**：尋找確切「Geist 只看到一人輪廓，跳下後遭一群敵軍反殺」的原始貼文／剪輯及連續時間戳；目前未找到可直接核實相同敘述的第一手紀錄。作者提問不是「作者本人已經證實此段發生」；勿改標為 USER-PLAY。
+
+---
+
+
 > 2026-11-02 新研究。地位：〔GAME-MECHANICS-COMMUNITY／版本敏感〕〔REDDIT-PLAYER-REPORT／小樣本〕〔ANIMATION-FANON／同人動畫〕〔USER-PLAY／使用者實際遊玩觀察〕〔USER-FIXED／本小說角色〕及〔CREATIVE-CANDIDATE／寫作示範〕嚴格分離。不是全服恐懼排名，不代表已進遊戲直接實測，不改 50A／62A／62B 候選章。
 >
 > 優先回看 [31｜Sevithia](31_瑟薇媞雅_帝國之刃_Shock獵手_萬人戰績_Dread生還.md)、[61｜六陷阱](61_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md)、[92｜Geist Synergy](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)、[90｜Kit 爭議](90_Shock社群態度_出動時機_BaseKitGeist爭議_高低階與自信文化.md)、兩份完整檔名不同的 [91 兵種行為](91_玩家最喜歡與最討厭的兵種_性格_行為_社群印象研究.md)／[91 人格偏好](91_玩家最喜歡與最討厭的隊友_兵種人格印象_自我認識與改觀文化.md)、[70｜八支 MP4 取樣核對](70_首批八支MP4實際影格與時間軸_SouljaBoy社群梗.md)、[11｜動畫資料庫](11_同人動畫_影片_小說與可吸收構想索引.md)。
