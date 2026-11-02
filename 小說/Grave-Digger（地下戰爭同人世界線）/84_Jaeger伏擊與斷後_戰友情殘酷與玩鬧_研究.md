@@ -24,8 +24,8 @@
 ## 舊研究記錄：曾錯把 Jaeger Missile 與正常玩法的高危爆炸合併（以上更正優先）
 
 - [2026-03-03 Jäger’s sacrifice](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rjg038/j%C3%A4gers_sacrifice/)：玩家留言稱 Jaegerkazes，並諷刺同一行為的評價會隨犧牲者擊敗的敵方兵種而改變。
-- [2026-02-01 Jaeger Missile](https://www.reddit.com/r/GraveDiggerRoblox/comments/1qt5vxf/jaeger_missile/)：有人形容一名獵兵死亡換取多名敵人損失，含高價值 Shock，屬玩家評論，非官方故事。
-- [2025-07-12 Jeager Missile 變遷](https://www.reddit.com/r/GraveDiggerRoblox/comments/1lxussh)：回覆提到某些舊技術曾被修改、延遲，可能牽涉故障技巧；不能據舊片保證現版仍可使用。
+- [2026-02-01 Jaeger Missile](https://www.reddit.com/r/GraveDiggerRoblox/comments/1qt5vxf/jaeger_missile/)：玩家形容該幕造成多名敵人損失；**此為 Jaeger Missile 外掛迷因的一段玩家評論，不能當正常 Jaeger 自爆戰術的成功案例或已演出的官方故事**。
+- [2025-07-12 Jeager Missile 變遷](https://www.reddit.com/r/GraveDiggerRoblox/comments/1lxussh)：記錄早期 **Jaeger Missile exploit** 與後續延遲修正的玩家討論；**它原本就不是一般合法職業技能**，也不能據舊片推定現版仍可複現。
 - [2026-05-21 面對 Geist 的選擇](https://www.reddit.com/r/GraveDiggerRoblox/comments/1tjk3cg/first_thing_youd_do_to_save_yourself_if_you_were/)：部分人強調警告隊友、退到友軍之間，部分人則偏好冒險迎擊；沒有統一人格。
 - [2026-08-05 Geist 反制討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1vfuoph/so_how_do_you_kill_a_geist_trooper/)：獵兵埋伏與群體協作並存。
 - [2026-05-17 巧妙陷阱故事](https://www.reddit.com/r/GraveDiggerRoblox/comments/1tfd87q/whats_the_most_diabolical_or_clever_jaeger_trap/)：玩家描述複雜地下埋伏，各自聲稱戰績，不能視作已查證的小說人物戰史。
