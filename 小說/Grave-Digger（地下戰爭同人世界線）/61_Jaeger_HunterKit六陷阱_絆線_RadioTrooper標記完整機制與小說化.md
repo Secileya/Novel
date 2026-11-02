@@ -1,5 +1,9 @@
 # 61｜Jaeger Hunter Kit 全六裝置、絆線與 Radio Trooper 標記：遊戲／小說雙軌補全
 
+## 2026-11-02｜Rook 轟擊 Jaeger／Geist 佈雷區：引爆設置者自己的炸藥〔USER-PLAY〕
+
+作者補充：**Rook 以 Mining Bomb Launcher 轟擊 Geist／Jaeger 預設炸藥的岩壁、通道或據點，有時會讓炸藥提前爆炸，甚至將附近設置者本人炸死。** 不是只有獵兵會藉炸彈反殺工兵，工兵也能主動反制埋伏。遊戲文件對 Dynamite Stack 記載：遭破壞／所附地形被破壞便會爆炸，設置者也可能受害；對 Rook 炸藥抗性和拆除 Dynamite 的條目見 [Rook Wiki](https://gravedigger.fandom.com/wiki/Rook)；直接玩家故事見 [2025-06](https://www.reddit.com/r/GraveDiggerRoblox/comments/1ln1mlv/)，戰術爭論見 [2026-04](https://www.reddit.com/r/GraveDiggerRoblox/comments/1sjsnrt/can_we_please_hate_on_jaegers_more/)。此處是作者遊戲現象＋社群機制／案例，**不等於每件陷阱必連爆、每名 Geist 都站在炸藥旁，或 Rook 自身完全免疫爆炸**。完整反制鏈、小說場面與來源限度記於 [94｜四-A](94_Geist狩獵台詞_玩家恐懼_陷阱聲響_動畫文化與Sevithia反伏擊.md)。
+
 ## 2026-11-02｜94：近距布置炸藥的聲音、已設陷阱與臨場引爆必須分層
 
 作者直接補充〔USER-PLAY〕：交錯礦洞裡敵方擅長用陷阱、據點預置炸藥，也有**靠得夠近能聽到對方安放炸藥，立即躲開**的遊戲經驗。外部 [2025-12 Jaeger 玩家教學](https://www.reddit.com/r/GraveDiggerRoblox/comments/1php43r/new_to_gravedigger_any_tips_i_should_know_so_i/) 說 Dynamite 有微弱 **hissing noise**，多數人未必聽到，而其他 Jaeger 可能更容易察覺。**本輪沒有拿音訊驗明這是放置、待發或某種激活聲；勿合成固定讀秒音效。**
