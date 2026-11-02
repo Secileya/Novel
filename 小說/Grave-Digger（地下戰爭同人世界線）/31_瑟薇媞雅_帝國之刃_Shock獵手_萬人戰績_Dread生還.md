@@ -1,5 +1,16 @@
 # 31｜瑟薇媞雅 Sevithia：帝國最鋒利的刀、Shock Hunter、萬人戰績與 Dread 生還
 
+## 2026-11-02｜USER-FIXED：Sevithia 的長期反 Geist 經驗、反陷阱與地下伏擊判讀
+
+**作者本輪直接確立：瑟薇媞雅很擅長發現陷阱，且跟 Geist 打過很多交道。** 此為她既有帝國最強單兵、Shock Hunter、多次反精銳交戰、準確槍術、體能與高速身法之外，新增的明確專業面向：**地下坑道聽覺警戒、危險路線判讀、絆線與裝藥察覺、敵方伏擊習慣辨識，以及發現後立即保護同袍／調整步位的臨場能力**。
+
+**〔USER-PLAY〕** 《Grave/Digger》礦洞網狹窄交錯、可於岔路／據點藏陷阱，也可先在點位放炸藥待攻方抵達再以相應方式引爆；玩家近距可聽見布放炸藥的聲響而快速躲開。另有社群紀錄 Dynamite 具有微弱嘶聲，但現行版本「安放瞬間／待發時／引爆前」各自具何音色，**尚未經本輪錄影分辨**，不把聲響定成每種爆炸的無條件預警。
+
+**小說呈現**：她的強項是洞察戰場因果、抓住可能被普通人忽略的細小提示、理解 Geist 常用地形與躲避路線，不是眼睛自帶透視外掛，亦非每次都能聽見。既已預先設好的無聲陷阱、過近瞬時引爆、連續炮聲干擾或真正高明的對手仍可威脅她與同伴；在危險裡出色地避險／反殺，不代表零成本、永不負傷或自動保證全隊平安。
+
+**區分陷阱種類**：Dynamite Stack 通常被射擊、擊破或附著岩壁破壞時爆炸，不應寫成「僅踩線便自動炸」；Tin Bomb、Gas Shell、Shotshell Trap 主要可接 Tripwire；Mantrap 是踩踏、Light Lure 常用於欺敵。**Jaeger 原職→Geist 協同下的絆線更細、遠看更難辨識**，已見 [92](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)。完整音效、玩家文化、Hunt 台詞與示例見 [94](94_Geist狩獵台詞_玩家恐懼_陷阱聲響_動畫文化與Sevithia反伏擊.md)。不因此杜撰新戰役的時間／被她擊殺的 Geist 精確人數。
+
+
 ## 2026-11-02｜75 USER-FIXED：獵殺 Trench／Lancer 時不要把 KS、Judgement 打中重盔寫成直接秒殺
 
 使用者最新糾正：**「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」**。**普通 Lancer 及 Trench Shock 的 Lancer 級特殊重盔**可抵擋一般 **Judgement、Kingslayer** 的穿盔頭部即死；它們仍可頭部中彈、短暫昏厥或擊倒、減血，並非全無傷害。**AT Remover** 則能射穿其完整重型頭盔、實現致命頭擊。這一條是 **Shock Hunter／多次高價值目標爆頭戰績的重要適用條件**：瑟薇媞雅能以 KS／Judgement 爆頭擊殺可被相應槍械穿盔的其他 Shock，也能持 Remover 遠距狙殺 Trench／Lancer；**不因她控槍極強而讓 KS／Judgement 無視特殊重盔**。如果只有其他槍，可先擊倒、改打軀幹、換槍或協同補擊，保留武器與目標之間的連續性。Gemini 最新未採用第十三章提案的「Trench 剛領 Kit 就被 Judgement 一槍隔盔爆頭」因此錯誤，不能原樣入正文。完整勘誤見 [75｜Lancer／Trench 重盔、Judgement／KS 非即殺、AT Remover 例外](75_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md)。
