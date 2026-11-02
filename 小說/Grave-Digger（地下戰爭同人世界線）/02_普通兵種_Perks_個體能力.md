@@ -1,5 +1,10 @@
 # 02｜七大普通兵種、個體 Perk 與戰鬥能力轉化
 
+## 2026-11-02｜Shock 複合 Perk 的「原生／Synergy／原職裝備」三層
+
+延伸 [92](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md) 與 [66](66_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md)：**Geist 的本體 Stalker** 有 Apparition 類永久暗燈、Tunnel-rat 類靜音快速挖掘、Greyhound 類加速／操槍；**Jaeger→Geist 原職配對**再有 Butcher「Wiki 列 All Effects」（最新全效待實測）、+15% 裝填、細絆線、毒彈、Hunter Kit／Smokescreen 繼承。也有 Storm Greyhound-like／Black Hand-like、Rook Leatherneck-like、Rook／Flame Grace Veteran 類、Trench Veteran-like Charge。**不是普通兵進 Shock 後照樣繼承原選 Perk 再任加數個完整 Perk**；遊戲類似效果需依當版逐項判定，小說多年學到的技術仍是人物能力，不由 UI 神奇刪除。
+
+
 ## 2026-11-02｜75 USER-FIXED：Lancer／Trench 特殊重盔不能靠 Judgement／KS 直接爆頭致死，AT Remover 例外
 
 **使用者直接糾正：「trench頭盔跟lancer頭盔沒辦法隔著頭盔暴頭，除了at remover」。** 遊戲資料符合：[Fandom Helmets](https://gravedigger.fandom.com/wiki/Helmets)、[Lancer](https://gravedigger.fandom.com/wiki/Lancer)、[Shock Trooper｜Trench／AT](https://gravedigger.fandom.com/wiki/Shock_Trooper)、[2026-03 玩家穿甲討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1rv4vto/what_does_armor_penetration_4_do/)。**Lancer 及 Trench 都有 Lancer 級特殊重型頭盔；只要確實戴著完整重盔，普通槍、Judgement、Kingslayer 就算瞄得再準打中頭部，也不能直接依一般穿盔爆頭即死規則殺死。Judgement、KS 等高威力命中仍可擊倒／震暈、降低生命，不等於零效；AT Trooper 的 Remover 具足以穿破頭盔的反物資穿透，可對頭部造成致命一擊。** 若頭盔實際已脫下、頭部暴露則另判；武器射距、擊中部位與特殊裝甲要另行評估。
