@@ -1,5 +1,10 @@
 # 90｜Shock Trooper 社群態度、Kit 使用時機、Base Kit Geist 爭議、自信與壓力文化
 
+## 2026-11-02｜Geist 複合 Synergy 補註
+
+基地防守 Geist 的爭論，必須考慮其原生 Apparition、Tunnel-rat、Greyhound 類效果，以及 Jaeger 同職配對的 Butcher 等額外加成，而非僅視為一把靜音步槍。詳細版本與能力邊界見 [92](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)，社群新文化見 [93](93_社群亂逛_鋼琴口琴_兵種主題曲_擬人Perk_異裝Shock_自製測驗與非官方點子.md)。
+
+
 > 2026-11-02；素材狀態〔WEB／COMMUNITY-RESEARCH〕＋〔CREATIVE-CANDIDATE〕。不變更小說正式正典。使用者特別回憶：**「有人對 Base Kit Geist 不滿，也有人很有自信」**。本輪找到 2025-11、2026-02、2026-05、2026-09 多個相符的**不同**討論，不把它們冒稱為唯一同一位玩家或唯一事件。參考 [03｜Shock 主設定](03_Shock_Dread_稀有武裝與授權.md)、[02｜普通兵種](02_普通兵種_Perks_個體能力.md)、[10｜戰友與軍階](10_軍團氛圍_上下級_戰友情誼與停火文化.md)、[35｜Elite Reinforcements](35_軍營戲劇引擎_軍階衝突_EliteReinforcements_女皇私交_停戰志向.md)、[82｜來源追溯](82_原創台詞_人物來源與接手防錯核對簿.md)。
 >
 > **來源級別**：Fandom Shock Trooper／Basic Guide／Strategies／Round Modifiers 為有版本風險的**社群遊戲資料**；Grave-digger.wiki 是 2026-09-01 核對時點的非官方二次整理；Reddit 是具名時間的具體玩家意見與自述。**不是官方最新程式碼／遊戲操作實測／全體玩家投票結果。** 本輪閱讀部分 Reddit 文字及部分搜尋摘要；沒有逐格觀看貼文影片、也未驗證貼文聲稱的 77 Kills 等個人數字。
