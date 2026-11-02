@@ -1,5 +1,10 @@
 # 19｜Perk 全系人物化：遊戲效果、形成方式、個體差異與敘事約束
 
+## 2026-11-02｜Shock 的「多個 Perk-like Buff」不是普通 Perk 選格累加
+
+使用者提醒 Jaeger→Geist 含 Butcher、Tunnel-rat、Greyhound 等效果；核對 [Fandom Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper) 及 [92｜七 Shock 的 A／B／C 分層](92_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)：**Geist 本體**整合 Apparition-like、Tunnel-rat-like、Greyhound-like，**Jaeger 同職 Synergy**再追加 Butcher（Wiki「All Effects」；社群仍有版本衝突）、毒彈、細絆線、15% 裝填與 Hunter Kit／煙幕。其他 Shock 亦有 Greyhound-like、Black Hand-like、Leatherneck-like、Veteran-like 等特定部分效果，但**普通 Perk 在轉 Shock 通常停用，不能拿 RPG 疊五格來理解**。在小說中若角色能結合多種技巧，仍需履歷、裝備、訓練與身體代價，並非遊戲 UI Perk 效果立刻授予。
+
+
 ## 2026-11-02｜玩家 Perk 流派與武器社交討論（僅外部社群）
 
 補充見 [88｜槍枝鄙視鏈、Veteran 爭論、Perk 怪配裝](88_槍枝鄙視鏈_Slopgun_Crutch_武器與Perk奇葩配裝_玩家文化研究.md)。2026-08 Reddit 因 Veteran 對 Prince／Union／Grace／Adjudicator 等不同槍效益不一而爭論其優劣；另有玩家自述 Officer＋Kingslayer＋Black Hand、Lancer＋Survivalist＋Cavalry Sword、Soldat＋Survivalist＋雙重霰彈槍等配置。**此為玩家自述／版本敏感資料，不是同人角色已具備、每種配裝都最新實測。** 2025-11 的「假如可同時兩 Perk」是玩家想像，不增加遊戲可選 Perk 數量。小說中高階人物可以透過多年訓練融合多種技術，但不把每項網路組合視作超常 Perk 同時生效。
