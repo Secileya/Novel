@@ -1,5 +1,11 @@
 # 066｜Trench 的 Hades 刺刀、Shock 跨兵種 Synergy、Officer 刀戰文化、瑟薇媞雅刀術與兩部動畫來源
 
+## 2026-11-03｜單手持刀搭配Kingslayer的個人特色〔USER-FIXED〕
+
+作者補充：一般軍官／刀戰者可以「單手持刀＋普通手槍」，但**瑟薇媞雅具有辨識度的持刀配槍畫面是單手持刀，另一手使用 Kingslayer（KS）**。Kingslayer不是一般輕便手槍，而是操作困難、後座大、裝填繁複的高難度重型左輪；她能靠本已確認的極高握力、雙手獨立控制、近戰距離判斷、對槍身與刀刃的操作熟練度，真正把這種「刀＋KS」用於實戰。**她也完全可以換用 Talon、Grace 或其他合適槍械，不是被鎖定成只有KS能配刀；其雙Kingslayer與其他自由攜槍設定繼續有效。**
+
+此補充只確定「單刀配槍的標誌性組合」，**沒有回答她私下最喜歡單長刀、雙長刀、一長一短或雙短刀四選一**。不因使用刀＋KS就斷定單長刀一定是她最愛；刀刃長短及具體隨身佩刀仍按場景判斷。非《Grave/Digger》官方統一軍官裝備規則，而是**本小說的瑟薇媞雅個人特色**。
+
 ## 2026-11-02｜92 勘誤：Shock 有「原生複合 Perk 類效果」＋「配對專屬 Synergy」，不是只有裝填速度
 
 使用者提醒 **Jaeger→Geist 能整合 Butcher、Tunnel-rat、Greyhound 等多個效果**。已核對 [Fandom Shock Trooper](https://gravedigger.fandom.com/wiki/Shock_Trooper)：**Geist 原生** Stalker 就有 **Apparition／Tunnel-rat／Greyhound** 各自列明的**類似部分效果**；**Jaeger→Geist 專屬**才列 Butcher「All Effects」、+15% 裝填、毒彈、細絆線、彈數情報與 Hunter Kit／煙幕繼承。另一份 [2026-10 玩家教學](https://www.reddit.com/r/GraveDiggerRoblox/comments/1x4ndkh/do_you_guys_have_some_tips_for_jaegergeist/) 提了 **Marksman**，但目前上述 Wiki 沒將 Marksman 列在 Geist 的標準 Stalker 清單；[2025-09 玩家矛盾討論](https://www.reddit.com/r/GraveDiggerRoblox/comments/1n6zsi3) 還有人認為 Butcher 曾僅有處決動畫、沒有全部回血／補彈，故**不假裝已驗證 2026-11 伺服器完整效果**。其他 Storm→Greyhound-like＋Black Hand-like、Rook→Leatherneck-like＋Grace/Veteran、Flame→Grace/Veteran、Trench→Veteran-like Charge 也已於下表補明。**類似某 Perk 的特定效果 ≠ 遊戲選單上多裝幾個完整普通 Perk**。詳 [92｜逐型三層對照](092_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md)。
