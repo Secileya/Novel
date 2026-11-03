@@ -2840,3 +2840,280 @@ Git Blob SHA：2dbdc2048133de95046604d7199f73ae50d3b668
 - Secret Level 5的資料帶有玩家技術用語（畫面更新、客戶端腳本、重生），在本小說做成空間結構前必須區分原作遊戲功能與真實世界作用。
 - Secret Level 6部分牆中面孔是否是生命尚未證實，不能把每張臉都列成已知有姓名NPC。
 
+
+
+============【2026-11-03 逐條出入口條件新增全文：070_跨層有向出口路線_可機讀逐條表_2026-11-03.tsv】============
+來源：小說/Backrooms：無盡層級（沈耀重寫版）/11_層級百科_客觀資料庫_2026-11-03/070_跨層有向出口路線_可機讀逐條表_2026-11-03.tsv
+Git Blob：8906e2750003c26dcc48d253ed85e33e8b50f8f1
+
+ID	起點	目的地	層內位置	觸發動作	必要條件／限制	反向可通證據	風險	證據等級	來源
+0001	Level 0	Level 0.1	Redrooms 通風口	進入可疑通風口	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0002	Level 0	Level 0.2	紅色地毯獨立木門	開門進入	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0003	Level 0	Level 0.8	Pool Room 水下隧道	下潛並游過水道	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0004	Level 0	Level 1	Slide Room 藍色滑道	滑下藍色滑道	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0005	Level 0	Level 1	工業消防門	開門穿越	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0006	Level 0	Level 1	Pitfalls 對側木門	穿過遠側木門	須抵達對側	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0007	Level 0	Level -0	Redrooms 深處故障長廊	觸碰 Glitch Cube	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0008	Level 0	The Basement	Slide Room 黃色滑道	滑下標示???的黃滑道	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0009	Level 0	Level Fun	Slide Room 綠色滑道	滑下綠滑道	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0010	Level 0	Level 🗿	Redrooms 小木門	開啟刻有 Moai 圖像的門	未列物品前提	未確認同路反向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0011	Level 0	The Pitfalls	A-Sync 區附近無護欄深坑	墜入地板大洞	落下具有風險	未確認同路反向	高風險墜落	W	https://backrooms-redacted.fandom.com/wiki/Level_0
+0012	Level 1	Level 0	一對 B 標記門	依序穿越 B、B	須認對門序	未確認雙向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_1
+0013	Level 1	The Hub	A、B 門組	依序走 B、A	須認對門序	未確認雙向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_1
+0014	Level 1	Level 2	管線走廊／遠側推門	穿門進管線走廊	推門後不可原路返回	未確認雙向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_1
+0015	Level 1	Level 1.5	左側故障窗戶	跳入閃爍窗	未列額外	未確認雙向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_1
+0016	Level 1	Level Fun	上方梯子及活板門／派對窗	爬梯穿過天窗	未列額外	未確認雙向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_1
+0017	Level 1	The Trader's Vault	起點附近已解鎖回程門	進入回程門	曾經由 Trader's Vault 抵達過本層	未確認雙向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_1
+0018	Level 1	The M.E.G. Base	二樓大門	穿過大門	遊戲需曾造訪過基地	未確認雙向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_1
+0019	Level 4	Level 4.3	A-Sync／會議室緊急門	進入門	未列額外	未確認逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_4
+0020	Level 4	Level 5	主出口門	穿越出口	未列額外	未確認逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_4
+0021	Level 4	Level 71	A-Sync 房鄰近鎖住的地下樓梯	用 Black Key 開鎖後下樓	需先在 A-Sync 房取得 Black Key	未確認逆向	高危目的地	W	https://backrooms-redacted.fandom.com/wiki/Level_4
+0022	Level 4	Level 244	左側長走廊盡頭藍光門	進入發藍光門	未列額外	未確認逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_4
+0023	Level 4	Level 332	Brown Office 標6木門	使用 Golden Key 解鎖門	需先於 Black Office 的 Tycoon 系統取得 Golden Key；先前舊資料作 Uncharted Key（未核）	未確認逆向	高危目的地	W	https://backrooms-redacted.fandom.com/wiki/Level_4
+0024	Level 4	Level 974	Black Office 的 Kuromi 背包	觸碰背包	未列額外	未確認逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_4
+0025	Level 6.1	Level 11	入口附近背後的門	從背後門離開	若從 Level 42 進入，**禁止使用本出口**	未核往返	安全場所	W	https://backrooms-redacted.fandom.com/wiki/Level_6.1
+0026	Level 6.1	Level 20	酒吧二樓出口門	上樓開門	從 Level 42 進來時此為唯一可用出口	未核往返	安全場所	W	https://backrooms-redacted.fandom.com/wiki/Level_6.1
+0027	Level 10	Level 11	HIGHWAY 看板附近隧道	穿越隧道	無另外物品條件	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_10
+0028	Level 10	The Safe Place	外緣 SAFE PLACE 路燈	觸碰燈柱	無另外物品條件	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_10
+0029	Level 10	Secret Level 2	外緣黑色稻草人	觸碰稻草人	無另外物品條件	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_10
+0030	Level 10	Level 178	外緣日式宅院／城堡	進入日式建築	無另外物品條件	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_10
+0031	Level 11	Level 6.1	Snackrooms 店舖	走進店門	未列額外	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_11
+0032	Level 11	Level 12	Mundus Corp 靜電電視	接觸發出雜訊的電視	未列額外	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_11
+0033	Level 11	Level 24	Mundus Corp 頂樓	抵達最高層光源	未列額外	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_11
+0034	Level 11	Level 119	Alom Wotor／舊頁作 Alam Wotor 店後門	輸入 0002 後進入店內並通過後門	店門原先關閉；此前到 Level ! 的 Phoebe 可給密碼，但事先知道密碼亦可進	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_11
+0035	Level 11	Secret Level 1	某公寓高層鎖門	用特定鑰匙開門	Tranquil Key／玻璃雲鑰匙；需反查物品名稱版本	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_11
+0036	Level 119	Level 0	Slide Room 黃色滑道	滑下黃色滑道	須先從入口經觀察室右邊樓梯到真正九滑道房	單向	安全	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0037	Level 119	Level 2.2	Slide Room 橘色滑道	滑下橘色滑道	同上	單向	目的地有Smiler	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0038	Level 119	The Blue Channel	Slide Room 藍色滑道	滑下藍色滑道	同上；Wiki稱唯一已知入口	單向	未知	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0039	Level 119	The End	Slide Room 米色滑道	滑下米色滑道	同上	單向	精神／資訊風險	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0040	Level 119	Level Fun	Slide Room 紅色滑道	滑下紅色滑道	同上	單向	敵對Partygoers	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0041	Level 119	Level Fun	Slide Room 粉紅滑道	滑下粉紅色滑道	同上	單向	敵對Partygoers	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0042	Level 119	封閉滑道（非通路）	Slide Room 灰色滑道	被水泥樣物封死	不可通行	不適用	封閉	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0043	Level 119	致命滑道（非通路）	Slide Room 黑色／深灰滑道	墜入可能立即死亡	不可當有效出口	不適用	致命	W	https://backrooms-redacted.fandom.com/wiki/Level_119
+0044	Level Fun	Level 0	通過主迷宮後出口廊的彩虹窗	觸碰彩虹窗口	需先摧毀四個蛋糕／Party Hosts 才能進出口廊；原遊戲機關	未核逆向	高危Partygoers	W	https://backrooms-redacted.fandom.com/wiki/Level_Fun
+0045	Level Fun	The Afterparty	Do Not Enter 禁入區後廊	從限制區進入	需先通過Level !；另需打破四蛋糕（遊戲前置）	未核逆向	高危Partygoers	W	https://backrooms-redacted.fandom.com/wiki/Level_Fun
+0046	Level Fun	Level Fun+	出口區桌面的藍色派對帽	觸碰藍色派對帽	遊戲要求曾造訪Level6.1、The Promised Land與Level !，以及先通過四蛋糕門	未核逆向	高危Partygoers	W	https://backrooms-redacted.fandom.com/wiki/Level_Fun
+0047	Level -5	Level -6	Burning Forest 深處 Glitch Cube	觸碰 Glitch Cube	由 Rotten Caverns 進 Burning Forest	未核逆向	環境風險因區段不同	W	https://backrooms-redacted.fandom.com/wiki/Level_-5
+0048	Level -5	Level -6	Petrified Forest 深處 Glitch Cube	觸碰 Glitch Cube	由 Wooden Caverns 進 Petrified Forest	未核逆向	環境風險因區段不同	W	https://backrooms-redacted.fandom.com/wiki/Level_-5
+0049	Level -5	The Negative Hub	Petrified Forest 地表洞穴內的門	跳入地洞、穿過門	須恰遇石化森林支路；遊戲版本 V1.6 的交替機制	未核逆向	環境風險因區段不同	W	https://backrooms-redacted.fandom.com/wiki/Level_-5
+0050	Level 37	Level 37.835	紅色門	進入紅門	未列額外	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_37
+0051	Level 37	Level 188	有許多窗戶的區域	穿越窗戶區	未列額外	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_37
+0052	Level 37	Level 38	標示出口走廊	沿通道離開	未列額外	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_37
+0053	Level 37	Level 37.1	往Fishing Hole的樓梯下暗路	進入黑暗岔路	未列額外	未核逆向	未註明	W	https://backrooms-redacted.fandom.com/wiki/Level_37
+0054	Level 37	Level 989	特殊紫色深水池	下潛並進入通道	本次網站頁頭列出口，但實際入口位置依原專案卡，待再核	未核逆向	深水潛行	P	專案既有 040–045/060–062 卡；本輪未逐條查最新 Wiki
+0055	Level 25	Level 0	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0056	Level 25	Level 1	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0057	Level 25	Level 3	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0058	Level 25	Level 4	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0059	Level 25	Level 11	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0060	Level 25	Level 17	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0061	Level 25	Level 21	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0062	Level 25	Level 23	明亮區有編號的街機	接觸螢幕	無額外要求；以畫面標示目的地為準	未核逆向	無敵對實體	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0063	Level 25	Level 26	暗區唯一仍通電的26號街機	接觸螢幕	須穿過黑暗區至唯一啟動街機；不是所有熄滅街機都能用	未核逆向	黑暗區	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0064	Level 25	Level 3999	暗區痛覺屏障後的隱藏街機	穿越屏障後接觸街機	遊戲需要 Endurance／Survival／Remembrance 三徽章（小說不可直接照搬）	未核逆向	未達條件越界會受極端痛覺生理攻擊	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0065	Level 154	Level 513	Neon Line 第一站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0066	Level 154	Level 699	Neon Line 第二站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0067	Level 154	Level 0	Orange Line 第一站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0068	Level 154	Level 4	Orange Line 第二站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0069	Level 154	Level 11	Orange Line 第三站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0070	Level 154	Level 37	Green Line 第一站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0071	Level 154	Level 30	Green Line 第二站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0072	Level 154	Level !	Red Line 終站	登車、等列車停靠、於目標站下車	須已抵 Station 154 且搭上正確路線	未確認反向回車站	搭錯車可去高風險層	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0073	Level 38	Level 154	取得合格車票的閘機與白色通道	完成遊戲取得票後過閘	遊戲取得專屬車票才能進站	未核反向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_154
+0074	Level 42	Level 6.1	庭院的 Snackrooms 店舖	進入店面	本入口進入後6.1不能直接回11	單向限制	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_42
+0075	Level 42	Level 43	庭院藍色發光門	穿過藍光門	未列額外	未核反向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_42
+0076	Level 24	Level 25	朝向太陽的月面方位	持續前進	未列額外	未核反向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0077	Level 521	Level 25	標25桌面	身體接觸數字25桌	未列額外	未核反向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_25
+0078	Level 521	Level 36	標36桌面	身體接觸數字36桌	未列額外	未核反向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_36
+0079	Level 35	Level 36	停車樓二樓出口	穿過出口門	未列額外	未核反向	安全機場	W	https://backrooms-redacted.fandom.com/wiki/Level_36
+0080	Level 36	Level 37	Gate B 待機飛機內	登機並坐下	須在機艙坐下才能觸發跨層	未核反向	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_36
+0081	Level 10	Secret Level 2	黑色稻草人	觸碰稻草人	未列額外	有非同路返回方式	敵人追逐	W	https://backrooms-redacted.fandom.com/wiki/Secret_Level_2
+0082	Secret Level 2	Level 10	迷宮起點附近深坑／斷橋	找齊四塊木板返回起點搭橋	四塊木板分散並可能藏草下；逃避Jack-o-Smiler	非原途反向	高風險追逐	W	https://backrooms-redacted.fandom.com/wiki/Secret_Level_2
+0083	Level -4	Level -5	末端 Glitch Cube	觸碰故障立方體	到達-5後場景隨時間輪替	未核逆向	環境分歧	W	https://backrooms-redacted.fandom.com/wiki/Level_-5
+0084	The Negative Hub	Level -5	標 -5 的門	穿過門	有機率進-5（專頁寫 chance）；門可能受版次／變體影響	未核逆向	分歧	W	https://backrooms-redacted.fandom.com/wiki/Level_-5
+0085	Level -9	Level -10	漂白區橋末端 Glitch Cube	觸碰立方體	未列額外	未核逆向	環境	W	https://backrooms-redacted.fandom.com/wiki/Level_-10
+0086	Level -10	Level -11	街燈道路後兩指示牌：The Truth	觸碰真相標牌指向的Glitch Cube	須選『The Truth』而非『The Comfort』	未核逆向	環境	W	https://backrooms-redacted.fandom.com/wiki/Level_-10
+0087	Level -10	Level 231	街燈道路後木牌：The Comfort	進入牌指向的漆黑洞穴	須選『The Comfort』分支	未核逆向	環境	W	https://backrooms-redacted.fandom.com/wiki/Level_-10
+0088	Level 244	Level 371	書架寫Level 371的書	閱讀指定書冊	單人遊戲限制為玩法規則（小說不預設孤立）	未核逆向	抽獎陷阱	W	https://backrooms-redacted.fandom.com/wiki/Level_371
+0089	Level 371	Level 521	木製螺旋階梯最頂端門	開門穿過	須抵達最頂層	未核逆向	開箱陷阱可致命	W	https://backrooms-redacted.fandom.com/wiki/Level_371
+0090	Level 371	Level Fun	白框箱	開箱抽中彩紙	有機率抽中，非必定；其它可能含TNT	非固定可逆	高風險	W	https://backrooms-redacted.fandom.com/wiki/Level_371
+0091	Level 371	Level 0（遊戲爆炸重返）	白框箱	開箱抽中炸藥並爆炸	遊戲採死亡回Level0；**小說禁止把死亡重生當有效交通**	不適用	致命／不採為小說有效通路	W	https://backrooms-redacted.fandom.com/wiki/Level_371
+0092	Level 42	Level 6.1	庭院Snackrooms	進店	從42進入者僅能從6.1去20，不通11	不明	普通	W	https://backrooms-redacted.fandom.com/wiki/Level_6.1
+0093	Level 5.555	The End	左上可破壞牆體之後的出口	破拆牆後穿門	需尋得可破牆	未核逆向	資訊異常	W	https://backrooms-redacted.fandom.com/wiki/The_End
+0094	The End	Level 9223372036854775807	起點附近桌下密碼盤	輸入拼好的密碼後穿開啟房門	需蒐集真實密碼線索	未核逆向	認知異常	W	https://backrooms-redacted.fandom.com/wiki/The_End
+0095	The End	The Computer	海灘幻覺室椅上 VHS	取得 VHS 帶回起點電腦	部分隱藏路線另需通關徽章（遊戲前置）	未核逆向	認知異常	W	https://backrooms-redacted.fandom.com/wiki/The_End
+0096	The Hub	Level 2	標示 Level 2 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0097	The Hub	Level 3	標示 Level 3 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0098	The Hub	Level 4	標示 Level 4 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0099	The Hub	Level 5	標示 Level 5 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0100	The Hub	Level 6	標示 Level 6 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0101	The Hub	Level 7	標示 Level 7 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0102	The Hub	Level 8	標示 Level 8 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0103	The Hub	Level 9	標示 Level 9 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0104	The Hub	Level 10	標示 Level 10 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0105	The Hub	Level 11	標示 Level 11 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0106	The Hub	Level 12	標示 Level 12 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0107	The Hub	Level 13	標示 Level 13 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0108	The Hub	Level 14	標示 Level 14 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0109	The Hub	Level 15	標示 Level 15 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0110	The Hub	Level 16	標示 Level 16 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0111	The Hub	Level 17	標示 Level 17 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0112	The Hub	Level 18	標示 Level 18 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0113	The Hub	Level 19	標示 Level 19 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0114	The Hub	Level 20	標示 Level 20 的門	穿過該編號門	需實際抵達 The Hub；號碼2–20（0與1不在此門網）	不能由目的地存在推定反向	看目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0115	The Hub	Level Fun	深處灑紙屑的窗戶	跨入窗戶	需找到隱藏窗口	未知	危險Partygoers	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0116	The Hub	Level 94	牆面圖案	觸碰圖畫	遊戲需 Good Ending 徽章；小說須另設等價條件	未知	BOSS	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0117	The Hub	Level Δ	岩石傳送門	穿越傳送門	遊戲要求曾造訪Level Δ	未核逆向	特殊	W	https://backrooms-redacted.fandom.com/wiki/The_Hub
+0118	The Negative Hub	Level -0	標示 Level -0 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0119	The Negative Hub	Level -1	標示 Level -1 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0120	The Negative Hub	Level -2	標示 Level -2 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0121	The Negative Hub	Level -3	標示 Level -3 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0122	The Negative Hub	Level -4	標示 Level -4 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0123	The Negative Hub	Level -5	標示 Level -5 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0124	The Negative Hub	Level -6	標示 Level -6 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0125	The Negative Hub	Level -7	標示 Level -7 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0126	The Negative Hub	Level -8	標示 Level -8 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0127	The Negative Hub	Level -9	標示 Level -9 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0128	The Negative Hub	Level -10	標示 Level -10 的門	穿越對應門	需抵達 Negative Hub；部分條目存在隨機觸發／版次差	不能直接假設反向	按目的地	W	https://backrooms-redacted.fandom.com/wiki/The_Negative_Hub
+0129	The Safe Place	Level 10	隨機轉移出口	按當次可見選擇／觸發	存在機率，並非保證能選中	不明	一般	P	專案既有 040–045/060–062 卡；本輪未逐條查最新 Wiki
+0130	The Safe Place	Level 37	隨機轉移出口	觸發離開	有機率落入37	不明	一般	W	https://backrooms-redacted.fandom.com/wiki/Level_37
+0131	Level 0.1	Level 0.7	狹窄危險廊道	走到底穿過變窄走廊	細節待查	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0132	Level 0.1	Level 3	較寬通道後發光門	進入光門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0133	Level 0.11	Level 7.5	長綠色水蝕廊的藍光端	接觸藍光	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0134	Level 0.2	Level 0	木門	開木門返回	是否原路可逆待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0135	Level 0.2	Level 0.3	冰房末路	穿過冰房通路	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0136	Level 0.3	Level 4	深坑旁電梯	搭電梯	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0137	Level 0.8	Level 0.11	淹水區藍門	進入藍色門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0138	Level 1.5	Level 3	房間中的 Mother 旁門	拿鑰匙開門再靠近Mother	要求取得房間鑰匙	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0139	Level 2	Level 2.2	清潔間	穿過特殊門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0140	Level 2	Level 3	右上方隱藏門後生鏽格柵電梯	搭電梯	需找到隱藏入口	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0141	Level 2.2	Level 8	暗箱迷宮盡頭門	找到出口門	有Smiler	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0142	Level 3	Level 4	白色區按鈕與入口升降機	先按按鈕後返電梯搭乘	需先啟動電梯	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0143	Level 3	Level 69	車庫	取白鑰匙開車庫並進車	需白鑰匙	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0144	Level 4.3	Level 7	洗手槽旁後門	進入門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0145	Level 5	Level 6	酒店下層深處鍋爐房	通過末端門	高熱與Deathmoth	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0146	Level 5	Level 5.555	上層酒店眼睛塗鴉門	進入門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0147	Level 6	Level 7	LIDAR掃描找到的長廊紅點端	沿長廊至終端	普通光源失效；需導引	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0148	Level 7	Level 8	The Depths水下洞	深潛穿過岩洞	水生高危	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0149	Level 7	Level 37	深層水下紅滑道	滑下滑道	須深潛找到	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0150	Level 7.5	Level 7	木棧道外的深水	跳入海水	水域危險	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0151	Level 7.5	Level 30	淡藍滑道	滑下滑道	需找到滑道	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0152	Level 8	Level 9	岩洞掛燈區附近門	開啟門	需穿越洞穴	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0153	Level 9	Level 9.1	東北遊樂場紅燈柱	接觸燈柱	現行版本入口	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0154	Level 9	Level 10	住宅邊緣東側麥田	步入麥田	現行版本入口	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0155	Level 9	Level 11	南方混凝土黃箭頭隧道	穿越隧道	現行版本入口	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0156	Level 9.1	The Crimson Forest	紅草地盡頭木屋	進入小屋	精神迷失危險	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0157	Level 12	Level 13	小方室木門	等待短時異常後開門	需要等候	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0158	Level 13	Level 14	密窗廊道盡頭門	避開Windows後穿門	窗戶為敵對	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0159	Level 13	The Void	公寓室內家具與牆	以家具卡牆穿越	原遊戲故障／不採為可靠世界路線	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0160	Level 14	Level 15	紫霧紅草間白光枯樹	觸碰枯樹	精神誘留風險	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0161	Level 15	Level 16	科技走廊末端門	穿越	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0162	Level 15	Secret Level 6	出生區後方故障地區	配Memory Water進入	前提細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0163	Level 16	Level 17	療養院末端	穿過出口門	Wretch追逐	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0164	Level 17	Level 18	積水裂縫上方金屬梯與綠機房	攀梯後穿引擎區出口	需穿水區	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0165	Level 18	Level 19	童年記憶最後區	完成通路並離開	Mike遊戲回憶不直接移植沈耀	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0166	Level 19	Level 20	爬行空間盡端出口	爬過木樑與坑後找出口	Deathmoth	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0167	Level 20	Level 21	倉庫火警門	穿過Fire Exit	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0168	Level 21	Level 22	標22棕門	穿過標號門	門號辨識	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0169	Level 21	Level -2	標-2棕門	穿過標號門	門號辨識	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0170	Level 21	Level 18	標18棕門	穿過標號門	門號辨識	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0171	Level 21	Level Fun	笑臉標記門	進入門	敵對Partygoers	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0172	Level 22	Level 23	最高樓層發光電梯	搭電梯	需到最高層	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0173	Level 23	Level 24	上層樹形構造 Heart of Water	攀爬並觸碰	需穿過下層Hound區	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0174	Level 24	Level 11	朝地球方向的月面	持續向地球走	天體位置異常	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0175	Level 24	The Safe Place	朝太陽方向特定燈柱	觸碰燈柱	需找到特殊燈	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0176	Level 26	Level 27	Justin紫屋牆上洞	鑽入牆洞	需抵達紫屋	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0177	Level 27	Level 28	木板迷宮牆上線索與門	依線索穿出口	門後可能有實體	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0178	Level 28	Level 29	破塔中的霓虹門	進入霓虹門	需找到塔樓	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0179	Level 29	Level 30	入口右側第三屋二樓紅滑道	上樓滑下	需從相應入口辨認第三屋	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0180	Level 30	Level 31	Terminus 最終房	經末端門離開	前段Totum須取得銀鑰匙	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0181	Level 31	Level 32	中央餐廳後門	穿越	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0182	Level 32	Level 33	黑白森林邊界鎖門	拿銀鑰匙解鎖	需度過入夜後Skeleton Queen危機	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0183	Level 33	Level 34	積水區紅色下水門	入門	Smiler追逐	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0184	Level 34	Level 35	下水道終段爬梯與井蓋	爬出井蓋	需走正確岔路	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0185	Level 38	Level 39	通廊末端門	穿越	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0186	Level 39	Level 40	林地土路末端通道	沿道路離開	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0187	Level 40	Level 41	Polybius街機	操作遊戲機	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0188	Level 40	Level 389	Gamemaster海報	接觸Want to play海報	需參與遊戲	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0189	Level 41	Level 42	第四島木屋	踏橋抵屋後穿門	黑湖觸水危險	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0190	Level 41	Level 7	黑色湖水	接觸湖水	高危非建議入口	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0191	Level 43	Level 44	設施末端電梯	搭乘	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0192	Level 43	The Trader's Vault	特殊相連區	通行方式未核	不可靠	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0193	Level 44	Level 45	腐敗商店特殊門	開門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0194	Level 45	Level 46	無重力黑暗浮建築路徑	沿光導引步入最遠出口	需小心跌落	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0195	Level 46	Level 47	沙漠極遠處	前進直到異常失去意識	高溫	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0196	Level 47	Level 48	樓梯下橘光路徑	接觸橘光	語義異常	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0197	Level 48	Level 49	海岸棧橋／沙灘椅旁門	進入門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0198	Level 49	Level 50	戰壕夜間白標牆端	在夜間找到出口	需度過轟炸與時變	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0199	Level 50	The Bonus Room	高速公路極遠處末端	沿路抵達	極遠距離；Level51預告未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0200	Level 69	Level 10	公路駕車 Zone2	保住車輛並完成危機	需通過Skin Stealer威脅	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0201	Level 94	The Bonus Room	王戰結束的出口	完成特殊戰鬥	遊戲限定條件／需小說化	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0202	Level 178	Level 23	日式宅院五物品關卡盡端	蒐集五物後進發光通道	需武士刀、娃娃、玩具貓、鈴鐺、旗幟	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0203	Level -0	Level -1	變材質走廊末端Glitch Cube	接觸立方體	不保證原路回0	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0204	Level -1	Level 2	標示Level2的門	進門	單向資料未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0205	Level -1	Level 4	標示Level4的門	進門	單向資料未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0206	Level -1	Level 9	標示Level9的門	進門	單向資料未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0207	Level -1	The Whiteout	專用標示門	進門	單向資料未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0208	Level -1	Level -2	走廊最底Glitch Cube	接觸立方體	高危負層	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0209	Level -2	Level -3	尾端淡紫迷宮Glitch Cube	接觸立方體	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0210	Level -3	Level -4	鏡像錯接廊道	穿過異常通路	具體媒介待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0211	Level -6	Level -7	污染林地末路	觸發跨層	具體媒介待查	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0212	Level -7	Level -8	負層晚宴末端	穿越主鏈	需反查當前專頁	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0213	Level -8	Level -9	旅館電梯	取得Simon許可後搭乘或Glitch Cube	需Simon許可	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0214	Level -8	Level 998	旅館電梯特殊按鈕	按特殊按鈕	機率版本矛盾（未核）	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0215	Level -11	Level -12	熟悉感空間後路	通行方法待查	未確認實際媒介	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0216	Level -12	Level -13	石造水道終端石門及Glitch Cube	送回兩朵玫瑰開門並觸碰	需兩朵玫瑰	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0217	Level -13	Level -14	River Queen河段終端	通過船段危機	可能需要擊敗或避開河后	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0218	Level -14	Level -15	雪林邊界特殊燈柱與Glitch Cube	接觸立方體	需辨認七雪雕區域	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0219	Level -15	Level 404	雪域巨建築深處Glitch Cube	接觸立方體	紫氣危險	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0220	The Pitfalls	Level 9	紅暗天空下亮窗屋內CRT	訊號校準／電腦解碼後開門	舊Bacteria和通3/Fun線已刪	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0221	The Sub-Hub	Level 0.1	0.1標示門	進門	其它子層門尚未全部逐筆核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0222	Level Fun+	The Bonus Room	舞台終段出口	完成表演考驗	具體通關條件與遊戲重生未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0223	Level !	Level 0	醫院紅色追逐廊道最末端	跑抵終點出口	需存活十公里追逐	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0224	Level !	Level !-!	中後段紅色玻璃側門	穿入側門	需抵達中後段	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0225	Level !-!	The Bonus Room	旅館追逐終端	通行方式待查	來源只有目的地	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0226	The Bonus Room	Level 0	商場傳送中心	接觸指定傳送門	若是Gamepass／玩家選單需另外小說化	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0227	The Bonus Room	The Hub	商場二樓傳送中心	接觸指定傳送機構	遊戲Gamepass限制；小說化待定	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0228	The Bonus Room	The Negative Hub	商場二樓傳送中心	接觸指定傳送機構	遊戲Gamepass限制；小說化待定	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0229	The Bonus Room	The Sub-Hub	商場二樓傳送中心	接觸指定傳送機構	遊戲Gamepass限制；小說化待定	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0230	The Bonus Room	Level 154	商場二樓站務轉移點	接觸傳送機構	遊戲Neon Express Gamepass限制；小說化待定	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0231	The Bonus Room	Secret Level 2.32	商場活動室四座電梯	乘活動電梯	遊戲萬聖活動／版本要核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0232	Level 188	Level 35	飯店末房深淵	向下踏入或墜入	窗戶危險	未確認反向	有風險／待查	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0233	Level 195	The Computer	數位迷宮	接觸White Face或藍屏	純數位遊戲機制待小說化	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0234	Level 231	The Backroom	住宅起點旁左側門	按上樓按鈕後返原點開門	按鈕先決	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0235	Level 231	Secret Level 3	廚房冰箱後暗道	穿過暗道觸碰天空紋	需啟動上樓事件	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0236	Level 332	Level 666	走廊盡端6號門	穿過門	需從Level4取得Golden Key進入此層	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0237	Level 389	The Bonus Room	遊戲終端	完成Backrooms Defenders	生死與系統界面不可照搬	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0238	Level 404	Level Δ	心理碎片末端	按特定選擇	原遊戲Mike任務專屬；條件未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0239	Level 404	The Bonus Room	心理碎片末端	完成任務或回歸	條件未核與其它出口有衝突	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0240	Level 513	Level 514	霓虹水族館末端Pepsi販賣機	接觸販賣機	品牌物件需小說化	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0241	Level 514	The Bonus Room	霓虹花園拱門	穿過裝飾門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0242	Level 666	The Bonus Room	最後Mountain King儀式區	完成儀式	Rework Incoming	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0243	Level 699	The Bonus Room	末端室內出口	穿過門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0244	Level 791	Level 37.835	Zone2紫晶洞Fire Exit	穿過出口門	需進水下洞	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0245	Level 974	Level 11	Kitty的粉色房屋	給玩具／接近Kitty	舊版本條件互相矛盾	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0246	Level 989	Level 791	塔下村南棧道水池	下潛	需先到村落	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0247	Level 989	The Blue Horizon	塔頂紅門	穿越	可能需特別Fishdex條件	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0248	Level 998	Level 999	大面積雲紋平台外緣	持續遠行	來源承認尚無可靠地理證據	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0249	Level 999	Level 1000	孤島深淵路徑	走到盡頭躍下	原遊戲結局過場	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0250	Level 1000	The Bonus Room	日照海面過場	播放結束回到系統	純過場非物理路線	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0251	Level 1225	Level 6.1	2025舊聖誕列車	在該站下車	已刪活動	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0252	Level 1225	Level 10	2025舊聖誕列車	在該站下車	已刪活動	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0253	Level 1225	Level 26	2025舊聖誕列車	在該站下車	已刪活動	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0254	Level 1225	Level 28	2025舊聖誕列車	在該站下車	已刪活動	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0255	Level 1225	Level 38	2025舊聖誕列車	在該站下車	已刪活動	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0256	Level 1225	Level 48	2025舊聖誕列車	在該站下車	已刪活動	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0257	Level 3999	Level 0	遊戲廳地下Fire Exit	穿門	細節待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0258	Level 3999	True Ending	玻璃大門	完成跨層任務並進門	原遊戲結局非普通物理Level	歷史／玩法，不可直接採為小說通路	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0259	Level 9223372036854775807	Good Ending	巨大樓梯頂端	持續上升並抵達條件	結局機制不當普通物理層	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0260	Level 9223372036854775807	Make Believe	特殊紙條與岔路	按紙條指示進入	結局機制未核	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0261	Secret Level 1	Level 39	玻璃高層露台	穿出口後墜下	需要先入本祕密層	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0262	Secret Level 2.32	The Bonus Room	Door100後場景	完成Boss／發電機事件	萬聖活動與結局不同版	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0263	Secret Level 3	The Backroom	住宅上層出口	按眼形裝置再往樓上	需找到眼形按鈕	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0264	Secret Level 4	The Bonus Room	電影院放映室	按綠色按鈕後走入投影	遊戲前置True End徽章	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0265	Secret Level 6	The Bonus Room	牆中異常宅院入口附近鎖門	取牆手金鑰匙開門	須找到握鑰匙的手	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0266	The Backroom	The Bonus Room	小型安全房出口	進入傳送出口	具體位置待查	未確認反向	待核	P	專案既有 040–045、060–062 卡；非本輪逐頁獨立驗證
+0267	Level 37.835	Level 21	The Sublimity Cave側路	穿過連至Level21的門／路段	舊卡只寫可進Level21；物理位置與是否雙向未核	未確認逆向	未知	P	專案既有041卡；條件未核
+0268	The Crimson Forest	Secret Level 5	守望塔附近山洞	取得爆炸物後炸開阻礙物進洞	原遊戲另綁定獎章解鎖；小說化待定	未確認逆向	未知	P	專案既有045卡；遊戲前置未核
+
+============【新增原文結束】============
