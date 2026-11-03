@@ -1,3 +1,9 @@
+【2026-11-03 統合版百科新增原文｜第1冊／5冊】
+本冊保留舊設定分冊原始完整文字，並在後面追加本輪11層級百科全文。既有來源與原圖保留GitHub路徑及Blob SHA；此檔不是正文章節或作者已核准的層級探索劇情。
+**非常重要**：本冊舊段落的歷史時間和舊下載說明須以此最新封面及專案README為準；原資料的舊章節安排不會因此成為新版小說Canon。
+
+=====================【舊設定分冊全部文字開始】=====================
+
 《Backrooms：無盡層級（沈耀重寫版）》完整文字下載｜第1冊／共5冊
 【整合主檔全集】共8份主檔全文，包含五冊直接下載的新說明；不收正文章節／逐章規劃。其他23份去章節規劃的原典在第2～5冊。
 
@@ -647,3 +653,319 @@ Stiliya與Versiliya在後室留下的東西，首先是**兩名旅人真實生�
 ## 五、排除檢查
 
 本包**不納入**`01_章節/`、`07_草稿/`、`08_劇情規劃/`、`09_新版正文試寫/`、章節索引或前五章逐章路線；層級的可達性及既有人物能活動的地點僅作世界地理參考，絕非未來正文強制清單。若某份原典仍提及舊章規劃的片語，應依本README改判為舊稿資訊，不得恢復為必經情節。
+
+
+=====================【舊設定分冊全部文字結束】=====================
+
+
+
+=====================【新增百科全文：000_README_建置範圍_完整度與來源.md】=====================
+來源：小說/Backrooms：無盡層級（沈耀重寫版）/11_層級百科_客觀資料庫_2026-11-03/000_README_建置範圍_完整度與來源.md
+Git Blob：ea80f9647cdca788286b031d15bfed10695c5975
+
+# 《Backrooms：無盡層級》｜層級世界百科（客觀資料庫）總索引
+
+> **建立日**：2026-11-03；**來源基準**：Roblox《THE BACKROOMS [REDACTED]》的[專屬Wiki](https://backrooms-redacted.fandom.com/wiki/Level_List)、[地圖圖庫](https://backrooms-redacted.fandom.com/wiki/Level_Maps)、[全域層級連線圖](https://backrooms-redacted.fandom.com/wiki/Category:Levels)及本專案原有地理／人物世界觀資料。
+>
+> **使用者要求的根本區分**：**「完整世界設定」不是「完整故事規劃」**。Level客觀上有什麼、居民如何生活、真正出口在哪裡，不必由主角一次走完、也不必全部在正文解說。**即使某Level只路過一次或一章帶過，仍值得有自己的資料卡。** 不因篇幅長短決定它是否存在。
+
+## 舊層級再核對（同標準，不因有舊卡就跳過）
+
+使用者明確要求：**本次任務之前已做過的層級也要再核一次**，不能用「有完整卡」等同「已通過本次驗證」。新建立以下三份**合計25個舊層級／地點的重新查證記錄**（可能與前述131筆既有卡重複，不另當25個全新層級）：
+
+- [060｜15個原有重要層級再核](060_既有層級重新核對_地貌地圖出入口NPC_2026-11-03.md)：0、9、10、11、!、Bonus、Fun、Pitfalls、1、6.1、21、37、119、Station154、-0。
+- [061｜5個早期層級再核](061_既有早期層級2到6_標準化再核驗_2026-11-03.md)：2、3、4、5、6。
+- [062｜5個既有層級再核](062_既有層級7_8_12_13_20_同標準再核_2026-11-03.md)：7、8、12、13、20。
+
+標準為「本層相對地圖／地貌、實際出入口與觸發、NPC外貌及分布、版本衝突、遊戲與小說的區別、來源及未核事項」。已從Wiki可得文字核實上述項目；**沒有宣稱25層每一張地圖圖片與NPC 3D模型都已目視核對**，剩餘層級仍需按同標準逐項補齊。**世界百科和章節規劃繼續分離**。
+
+## 本輪實際建立什麼？
+
+| 編號 | 內容 | 本次完成範圍 |
+|---|---|---|
+| [010 正數／子層名錄](010_正數層級與子層_全域目錄.md) | 98個名稱索引與源連結、地圖目錄／研究階段 | 廣度索引（包括刪除／歷史項目） |
+| [020 負層／特殊／祕密分類](020_負層_特殊層_祕密層_全域目錄.md) | 16負層、43特殊或跨分類名字、7祕密層 | 廣度索引（跨表存在重複） |
+| [030 地圖與跨層路網文字化](030_地圖文字結構_分區骨架與跨層網路.md) | 75項文字空間結構（部分為同層不同分區）、跨層節點網、版本衝突 | 依**地圖頁文字／圖說和舊原典**，不是逐張圖像重畫 |
+| [040 正數0～25詳細摘要](040_已核正數層級_0到25_分區出入口NPC資料卡.md) | 38張層級／子層資料卡 | 地貌、區域、入口、出口、NPC外貌、缺漏 |
+| [041 正數26～高位詳細摘要](041_已核正數層級_26到高位_分區出入口NPC資料卡.md) | 36張層級／站點資料卡 | 同上，含Level 119九滑道、Level 154列車網 |
+| [042 負層與特殊場所摘要](042_已核負層與特殊交通_分區出入口NPC資料卡.md) | 29張負層／特殊地點資料卡 | 其中部分來源只有名稱與有限通路，**不是29張都完全查完** |
+| [043 NPC與實體外貌](043_NPC與實體外觀_在地角色索引.md) | 47個人物、種族或實體索引 | 外貌、社會行為、小說版與遊戲版差異 |
+| [044 高位數字／終端層](044_高位層級與特殊終端_地貌出入口實體資料卡.md) | 19張高位／終端／舊活動資料卡 | 包含 Level 1000 的過場性質、1225 已刪活動、各高位層出入口 |
+| [045 祕密層與特殊終端](045_祕密層與TheEnd_地貌出口NPC資料卡.md) | 9張資料卡（含7個祕密層相關條目） | 保留遊戲重生／獎勵機制與小說死亡規則的區別 |
+| [060–062 舊層級再核](060_既有層級重新核對_地貌地圖出入口NPC_2026-11-03.md) | 25個先前查過的層級／地點重新核對 | 三份查證稿，完整原文可隨五冊新版下載 |
+| [050 世界與故事分離規則](050_世界百科與正文分離_資料卡完整度_使用規範.md) | 三層研究深度、九種欄位、七種證據標籤 | **優先使用**，防止誤拿地理當章綱 |
+
+**數字的正確理解**：這是**164筆分類索引記錄（98+16+43+7）**，內含跨分類重複、舊版與一些其實不是完整遊戲Level的條目；並非164張不同的現行可玩層級。本輪新增040／041／042／044／045合計**131筆詳細度不一的資料卡**，也有不同索引間重疊的Level，不等於131個完全獨立的現行Level。另有75項地圖文字結構及47項NPC／實體索引。所有這些都不能冒稱「網站238個分類頁已逐一深讀」。
+
+**中斷後續接／品質修正（2026-11-03）**：已回讀 GitHub `main` 的全部研究檔；發現 042 特殊層 13 張卡出現欄位錯位與 `undefined`，已逐筆調正「地貌、入口、出口、實體、版本」並驗證無殘留。另核實 044、045 已提交但未列入原總索引；本版補列。新增加的數字都是**資料卡／索引筆數而非現行可玩獨立層級數**。
+
+## 目前研究來源的限制（不要對後來接手者隱瞞）
+
+- 專屬Wiki的Category:Levels自述遊戲約有**90個層級**；分類頁卻有**238個條目**，包含使用者頁、舊版、特殊分類等，不應把238當238個現行遊戲Level。
+- 專屬Wiki的普通頁面對自動抓取有防機器存取限制，搜尋引擎仍提供不少頁面內容；**本批能直接核實的是可取得的搜尋索引／文字段落，加上原專案已存的Level0／9／10／11等原典**。不能聲稱2026-11-03已逐行直接讀完網站每個頁面。
+- Level Maps是圖庫**目錄和圖像連結**，本站沒有順利逐張下載或人眼讀取所有原圖；因此030的「地圖描述」是**來源明確文字＋圖說＋已保存的舊地圖閱讀結果**的結構化摘要，不是對影像內容的精確轉寫。這正符合使用者本次先要「看看結構，不求精確」的需求，但資料真實性仍需明說。
+- 網站自稱有M.E.G. cartography，可理解成遊戲Wiki的世界內文體；**不自動表示小說世界裡每一張圖真的由M.E.G.向所有流浪者公布**。
+- Wiki有版本衝突：Level 22的Power所在樓層一處文字說第5層、圖說第4層；Level !仍標示Rework Incoming；Level119入口5條裝飾滑道與樓上的9條真正出口滑道不能混淆。所有衝突保留等待核查，不靠想像補平。
+
+## 讀取方式
+
+- 想知道**有哪些**：讀010、020。
+- 想知道**這個地方看起來如何／圖的大致結構**：讀030，接著查040／041／042／044／045對應卡。
+- 想知道**當地NPC的長相、性格與生活**：讀043，必要時再查原有`03_世界觀設定/層級與地點設定/`詳細卡與`02_角色設定/`。
+- 準備寫小說：先讀050；百科只能提供「世界存在什麼」，事件順序／角色知情／章節時間／真正Canon另由**正文及最新專案規則**決定。
+
+## 先前仍是權威的完整原典（本輪不覆寫）
+
+- [Level 0 原始完整卡](../03_世界觀設定/層級與地點設定/沈耀重寫版_Level0完整層級卡.md)
+- [Level 9 原始完整卡](../03_世界觀設定/層級與地點設定/沈耀重寫版_Level9完整層級卡.md)
+- [Level 10 原始完整卡](../03_世界觀設定/層級與地點設定/沈耀重寫版_Level10完整層級卡.md)
+- [Level 11 城市NPC原檔](../03_世界觀設定/層級與地點設定/沈耀重寫版_Level11無盡城市與NPC規劃.md)
+- [Level ! 原始卡](../03_世界觀設定/層級與地點設定/沈耀重寫版_Level驚嘆號完整層級卡.md)
+- [Bonus Room 原始卡](../03_世界觀設定/層級與地點設定/沈耀重寫版_BonusRoom完整層級卡.md)
+- [Level Fun／雙翼與派對既定歷史](../10_獨立設定總包_2026-11-03/040_LevelFun與派對體系設定.md)
+
+**效力優先**：作者後來明確定案／撤回 > 最新具體修正 > 較完整的相容原典 > 本百科可驗證新資料 > 未採納候選／舊40章。網站新版本不直接抹除本小說已寫出的世界事實；若要改Canon先明確核定。
+
+## 未來擴充的真正缺口（不是小說待辦）
+
+1. 010／020中仍只具名字的Level與Secret，缺乏可驗證完整單頁、具體入口與NPC。
+2. 030的地圖目前只有文字骨架，**尚未逐張視覺核實原圖**，應優先補某個Level內的房間拓撲與分叉關係，而非抄精確座標。
+3. Partygoers、Phoebe各形態、特殊NPC等需要逐版本圖像核對，不能靠文字名稱與跨作品記憶編造視覺資料。
+4. 許多Wiki的Exit列表只記目的地不記**真正實體入口在哪裡、怎麼觸發、能否原路回來**，要以反向頁交叉查證。
+5. 開放世界型的Level 11、Bonus與Hub需建立生活／站務與人流資訊，但**不因此指定必須出現多少章或由沈耀帶誰去**。
+
+## 來源與使用授權提醒
+
+Wiki內容、頁面與地圖均屬其原作者和相應條款（站點註明CC-BY-SA，實際個別圖片可能另有權利）。本庫只做**帶有來源網址的事實性摘要與空間理解**；不把圖片轉存成自製圖，也不將網頁文字大段複製來假裝小說原創。資料更新時保留來源和版本，便於查證。
+
+=====================【000_README_建置範圍_完整度與來源.md完】=====================
+
+
+=====================【新增百科全文：010_正數層級與子層_全域目錄.md】=====================
+來源：小說/Backrooms：無盡層級（沈耀重寫版）/11_層級百科_客觀資料庫_2026-11-03/010_正數層級與子層_全域目錄.md
+Git Blob：cf7ed11e5359d697fc69f3b9ffb30ec9da804e88
+
+# 010｜正數層級＋子層：專屬Wiki目錄與查證狀態
+
+> 核對日：2026-11-03。依[THE BACKROOMS REDACTED專屬Level List](https://backrooms-redacted.fandom.com/wiki/Level_List)，不同於其他Backrooms宇宙的全層清單。名稱與存在性為索引查證；**不是全部單頁已完整讀取**。
+> 「已列地圖」＝[Level Maps圖庫](https://backrooms-redacted.fandom.com/wiki/Level_Maps)有列出該標題，不代表我已實際檢視圖檔、知道準確走法。其他類型的地圖圖檔另見030。**名稱並不足以推論入口、出口、實體或NPC**。
+> URL按Wiki Level_名稱規律建立，非逐筆HTTP驗證。個別頁面若更名／刪除須回Level List反查；同一行有版本差異以單頁最新內容為準。
+
+| 層級 | 頁面標題（依專屬Wiki） | 頁面 | 本輪資料深度 | 地圖線索 |
+|---|---|---|---|---|
+| 0 | The Lobby | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0) | 既有完整層級卡＋本輪參照 | 圖庫列有地圖 |
+| 0.1 | Danger Zone | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.1) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.11 | Water Damage | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.11) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.2 | A Remodeled Mess | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.2) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.3 | Icy Rooms | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.3) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.5 | Chaotic Structure | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.5) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.7 | Claustrophobia | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.7) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.8 | Inundation | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.8) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.! | Where the Yellow Meets the Red | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.!) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 0.null | ERROR 0（亦見0.005） | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_0.null) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 1 | Habitable Zone | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_1) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 1.5 | Inverted | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_1.5) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 2 | Pipe Dreams | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_2) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 2.2 | Constant Buzz | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_2.2) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 3 | Electrical Station | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_3) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 4 | Abandoned Office | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_4) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 4.3 | Decayed | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_4.3) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 4.4 | The Crazed State（清單標DELETED） | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_4.4) | **清單標DELETED，歷史版不得直接用作現行** | 本輪未確認 |
+| 5 | Terror Hotel | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_5) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 5.555 | Can't Stop Watching | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_5.555) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 6 | Lights Out | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_6) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 6.1 | The Snackrooms | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_6.1) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 7 | Thalassophobia | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_7) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 7.5 | The Docks | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_7.5) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 8 | Cave System | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_8) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 9 | The Suburbs | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_9) | 既有完整層級卡＋本輪參照 | 圖庫列有地圖 |
+| 9.1 | The Crimson Field | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_9.1) | 名錄確認，個別細節尚未核對 | 本輪未確認 |
+| 10 | Field of Wheat | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_10) | 既有完整層級卡＋本輪參照 | 圖庫列有地圖 |
+| 11 | Endless City | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_11) | 既有完整層級卡＋本輪參照 | 圖庫列有地圖 |
+| 12 | Matrix | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_12) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 13 | The Infinite Apartments | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_13) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 14 | Paradise | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_14) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 15 | Futuristic Halls | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_15) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 16 | The Mental Asylum | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_16) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 17 | Abandoned Carrier | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_17) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 18 | Childhood Memories | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_18) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 19 | The Crawlspace | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_19) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 20 | Warehouse | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_20) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 21 | Numbered Doors | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_21) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 22 | Abandoned Parking Lot | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_22) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 23 | Petrified Garden | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_23) | 名錄確認，個別細節尚未核對 | 圖庫列有地圖 |
+| 24 | The Moon | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_24) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 25 | Arcade! | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_25) | 搜到單頁，可形成摘要 | 圖庫列有地圖 |
+| 26 | Forest of Psychosis | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_26) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 27 | The Woodrooms | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_27) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 28 | Stormstone Keep | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_28) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 29 | Sun Rise and Set | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_29) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 30 | Aquatic Cycle | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_30) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 31 | Roller Rink | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_31) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 32 | Forest of the Skeleton Queen | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_32) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 33 | The Infinite Mall | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_33) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 34 | Sewer Systems | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_34) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 35 | An Empty Car Park | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_35) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 36 | Airport | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_36) | 已有041摘要卡（專頁重點已核） | 圖庫列有地圖 |
+| 37 | Sublimity | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_37) | 已有041摘要卡（專頁重點已核） | 圖庫列有地圖 |
+| 37.1 | The Deep End | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_37.1) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 本輪未確認 |
+| 37.835 | The Sublimity Cave | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_37.835) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 本輪未確認 |
+| 38 | The Never-Ending Rooms | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_38) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 39 | The Enchanted Forest | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_39) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 40 | Roller Rockin' Pizza! | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_40) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 41 | The Black Lake | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_41) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 42 | Surreal Continuum | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_42) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 43 | Water World | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_43) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 44 | Corroding Retail Outlet | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_44) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 45 | Abyss Inc. | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_45) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 46 | Arabian Desert | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_46) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 47 | Interrogative Infohazard | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_47) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 48 | Sunset Beach | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_48) | 已有041摘要卡（專頁重點已核） | 圖庫列有地圖 |
+| 49 | Trenches of Grime | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_49) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 50 | The Moribund Highway | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_50) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 69 | The Voyage of Affliction | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_69) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 本輪未確認 |
+| 71 | The Void Basement | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_71) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 94 | Motion | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_94) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 本輪未確認 |
+| 119 | Abandoned Waterpark | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_119) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 154 | The Neon Express（站體） | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_154) | 已有041摘要卡（專頁重點已核） | 本輪未確認 |
+| 178 | Kyoto Dreams | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_178) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 188 | Courtyard of Windows | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_188) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 195 | Hall of Tortured Souls | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_195) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 231 | Where I Call Home | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_231) | 已新增044高位／特殊摘要卡 | 圖庫列有地圖 |
+| 244 | The Bluerooms | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_244) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 332 | A Brass Number 6 | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_332) | 已新增044高位／特殊摘要卡 | 圖庫列有地圖 |
+| 371 | Spiraling Staircase | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_371) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 389 | The Gaming Hall | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_389) | 已新增044高位／特殊摘要卡 | 圖庫列有地圖 |
+| 404 | My Dearly Fragmented | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_404) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 513 | Synthwave Aquascape | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_513) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 514 | Vaporwave Mansion | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_514) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 521 | Duality | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_521) | 已有041摘要卡（部分文字來自索引，完整專頁待核） | 圖庫列有地圖 |
+| 666 | Welcome to Hell | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_666) | 已新增044高位／特殊摘要卡 | 圖庫列有地圖 |
+| 699 | Velvet Blue | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_699) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 791 | Sea Platforms | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_791) | 已新增044高位／特殊摘要卡 | 圖庫列有地圖 |
+| 974 | Kitty's House | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_974) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 989 | Dissolution | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_989) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 998 | Zenith | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_998) | 已新增044高位／特殊摘要卡 | 圖庫列有地圖 |
+| 999 | Island of the Void | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_999) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 1000 | The Colossal Ocean | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_1000) | 主要屬原遊戲過場；參考044 | 本輪未確認 |
+| 1225 | The Polar Express | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_1225) | **2025聖誕活動已刪**；歷史卡044 | 本輪未確認 |
+| 3999 | The True Ending | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_3999) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+| 9223372036854775807 | The True End | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_9223372036854775807) | 已新增044高位／特殊摘要卡 | 本輪未確認 |
+
+## 解讀
+
+- 本表有**98**列，包含子層、Level 4.4舊版、Station 154及高位數字頁。它們不是98個已驗證現行可玩的獨立地圖。
+- **專案已有最豐富的四張層級卡**：0、9、10、11，另有!及Bonus、Level Fun主題、The Pitfalls路網。
+- 本輪已整理為040早期38筆＋041中後期36筆＋044高位19筆地理與NPC摘要卡，依搜尋結果和原專案舊卡不同程度詳錄；**不是每一筆都能逐段取得最新專頁全文**，請從卡片的「待查」讀取真實證據界限。
+- **資料範圍**：本檔只做地理世界資料索引，**不**排定「某章去某Level」、誰同行、誰受傷、誰死亡，也不保證主角必走列表全部層級。
+
+=====================【010_正數層級與子層_全域目錄.md完】=====================
+
+
+=====================【新增百科全文：020_負層_特殊層_祕密層_全域目錄.md】=====================
+來源：小說/Backrooms：無盡層級（沈耀重寫版）/11_層級百科_客觀資料庫_2026-11-03/020_負層_特殊層_祕密層_全域目錄.md
+Git Blob：4826fdee3f75e188369a4f8b9a7d7c513240f22d
+
+# 020｜負層、特殊／祕密層、Joke及歷史分類名錄
+
+> 核對日：2026-11-03。來源：[Negative Level List](https://backrooms-redacted.fandom.com/wiki/Negative_Level_List)、[Enigmatic Level List](https://backrooms-redacted.fandom.com/wiki/Enigmatic_Level_List)、[Secret Level List](https://backrooms-redacted.fandom.com/wiki/Secret_Level_List)、[Level List](https://backrooms-redacted.fandom.com/wiki/Level_List)。
+> 特殊層分類與其他頁面互有重疊；此表為全量可追溯名稱索引，不宣稱全部現行可玩，也不把未讀專頁的NPC、進出條件猜成真。玩家重生／穩定度HUD／選單與Gamepass均須小說化另審。
+
+## A｜負層（共16項）
+
+| 名稱 | 專屬Wiki名稱 | 頁面 | 本輪資料狀態 |
+|---|---|---|---|
+| Level -0 | Untextured | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-0) | 取得部分單頁環境／連線資訊 |
+| Level -1 | Glitched Halls | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-1) | 取得部分單頁環境／連線資訊 |
+| Level -2 | Overflow | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-2) | 取得部分單頁環境／連線資訊 |
+| Level -3 | Reflections | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-3) | 取得部分單頁環境／連線資訊 |
+| Level -4 | Carbon Tunnels | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-4) | 取得部分單頁環境／連線資訊 |
+| Level -5 | Deleterious Deterioration | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-5) | 取得部分單頁環境／連線資訊 |
+| Level -6 | Polluted Nature | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-6) | 取得部分單頁環境／連線資訊 |
+| Level -7 | Dinner Party? | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-7) | 名錄確認，細節待核 |
+| Level -8 | Limbus Hotel | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-8) | 取得部分單頁環境／連線資訊 |
+| Level -9 | Mystifying Aura | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-9) | 名錄確認，細節待核 |
+| Level -10 | Darkwoods Playground | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-10) | 名錄確認，細節待核 |
+| Level -11 | Familiar Place | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-11) | 名錄確認，細節待核 |
+| Level -12 | Waterway | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-12) | 取得部分單頁環境／連線資訊 |
+| Level -13 | The Never-Ending River | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-13) | 取得部分單頁環境／連線資訊 |
+| Level -14 | Waiting For You | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-14) | 名錄確認，細節待核 |
+| Level -15 | Bezdna | [Wiki](https://backrooms-redacted.fandom.com/wiki/Level_-15) | 名錄確認，細節待核 |
+
+**版本風險**：Negative Update（V1.6）重製了多條負層路線；Level -5由單一森林擴為腐爛洞穴、燃燒森林、木質洞穴、石化森林四種可能變化區域。-8為有Facelings的旅館，-12為石造水道，-13為河岸與River Queen。詳040來源摘錄，不可沿用舊地圖作新地圖。
+
+## B｜特殊／謎樣層、樞紐及跨表提及名稱
+
+| 名稱 | 可辨認主題／地點類型 | 資料狀態 |
+|---|---|---|
+| Level Fun | 派對危險層 | 舊專案已有部分資料；本輪待逐頁核對 |
+| The Afterparty | Level Fun關聯區 | 舊專案已有部分資料；本輪待逐頁核對 |
+| Level Fun+ | 派對舞台與製作場 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The M.E.G. Base | 組織基地 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Hub | 正數層門網 | 舊專案已有部分資料；本輪待逐頁核對 |
+| The Sub-Hub | 子層門網 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Negative Hub | 負層門網 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The End | 特殊終端 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Computer | 電腦系統地點 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Level 195 | Wiki特殊表重複收錄 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Code Friday | 程式碼特殊空間 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Code Emulator | 程式碼特殊空間 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Code Betula | 程式碼特殊空間 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Code Speed | 程式碼特殊空間 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Code Diamonds | 程式碼特殊空間 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Level ! | 十公里追逐 | 舊專案已有部分資料；本輪待逐頁核對 |
+| Level !-! | Hotel Chase | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Promised Land | 特殊地點 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Ending 3 / You Cheated | 遊戲結局須實體化審查 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Level 🗿 | 特殊玩笑地點 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Pitfalls | 深坑與破碎建築 | 舊專案已有部分資料；本輪待逐頁核對 |
+| The Basement | 地下層 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Attic | 閣樓 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Trader's Vault | 交易者倉庫 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| TH3 SH4DY GR3Y | 破碎異常區 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Crimson Forest | 猩紅森林 | 舊專案已有部分資料；本輪待逐頁核對 |
+| The Void | 虛空 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Blue Horizon | 藍色地平線 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Safe Place | 隨機選路中轉 | 舊專案已有部分資料；本輪待逐頁核對 |
+| The Whiteout | 白色異常 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Blackout | 黑暗異常 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Blue Channel | 藍色通道 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Backroom | 特殊原初空間 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Broken | 破碎地點 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Level Δ | Keeper's Domain | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Make Believe | 特殊場域 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Bonus Room | 霓虹商場與傳送中心 | 舊專案已有部分資料；本輪待逐頁核對 |
+| Joke Hub | 特殊玩笑樞紐 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Basic School | Joke系列 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Exploration Club | Joke系列 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| Wonderland | Joke系列 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Save Point | 遊戲存檔點需防UI | Wiki名錄／其他頁提及，詳細頁尚待核 |
+| The Showdown | Joke系列 | Wiki名錄／其他頁提及，詳細頁尚待核 |
+
+以上共43個名稱，包含從Joke、程式碼及其它清單交叉找出的地點；不是43個已確認全部獨立的現行關卡。Level 195亦出現在正數表，不能雙計。
+
+## C｜Secret Levels（共7筆）
+
+| 名稱 | Wiki名稱 | 單頁入口 | 資料狀態 |
+|---|---|---|---|
+| Secret Level 1 | Glass Paradise | [Wiki](https://backrooms-redacted.fandom.com/wiki/Secret_Level_1) | 已有045祕密層完整摘要卡＋舊迷你卡 |
+| Secret Level 2 | Jack's Maze | [Wiki](https://backrooms-redacted.fandom.com/wiki/Secret_Level_2) | 已有045祕密層完整摘要卡＋舊迷你卡 |
+| Secret Level 2.32 | Jack's Endless Reality | [Wiki](https://backrooms-redacted.fandom.com/wiki/Secret_Level_2.32) | 已建立045祕密層地貌／進出口摘要卡，細節依每頁 |
+| Secret Level 3 | Home Sweet Home | [Wiki](https://backrooms-redacted.fandom.com/wiki/Secret_Level_3) | 已建立045祕密層地貌／進出口摘要卡，細節依每頁 |
+| Secret Level 4 | The End Is Not Here | [Wiki](https://backrooms-redacted.fandom.com/wiki/Secret_Level_4) | 已建立045祕密層地貌／進出口摘要卡，細節依每頁 |
+| Secret Level 5 | No Place Left | [Wiki](https://backrooms-redacted.fandom.com/wiki/Secret_Level_5) | 已建立045祕密層地貌／進出口摘要卡，細節依每頁 |
+| Secret Level 6 | There's Something In The Walls | [Wiki](https://backrooms-redacted.fandom.com/wiki/Secret_Level_6) | 已建立045祕密層地貌／進出口摘要卡，細節依每頁 |
+
+## D｜歷史／刪除／非Canon：另存而非混進主地理
+
+- Level 0（Old）、Level 0.11（Old）、37（Old）、94（Old）、3999（Old）、699（Old）、Bonus（Old）、The Pitfalls（Old）、負層歷史圖在Wiki有舊檔。這些可作版本比較，但不覆蓋目前世界線採用路網。
+- Level 4.4 The Crazed State於Level List明示DELETED，不當現行通路。
+- User頁、Non-Canon Level List與非專屬遊戲的Backrooms Wiki不等於REDACTED的現行遊戲事實。
+- 臨時活動、獎章、Gamepass、重生、存檔點與結局畫面須判定真有地理對應，才考慮小說化；不可僅因遊戲UI列名就當成永續層級。
+
+## 2026-11-03 增補來源頁
+
+- 已新增[045｜七個Secret Level及The End、The Backroom](045_祕密層與TheEnd_地貌出口NPC資料卡.md)，包括原版真正地貌、入口／出口和NPC，仍須遵守小說死亡真實性。
+- 高位特殊層如195數位模擬、1225刪除活動、1000電影過場，另見[044高位研究](044_高位層級與特殊終端_地貌出入口實體資料卡.md)，不因分類跨表就重複算作現行可玩地圖。
+
+=====================【020_負層_特殊層_祕密層_全域目錄.md完】=====================
