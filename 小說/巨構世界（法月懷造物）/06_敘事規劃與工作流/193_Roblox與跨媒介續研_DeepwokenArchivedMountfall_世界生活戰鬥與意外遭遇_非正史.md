@@ -1,6 +1,6 @@
 # 第193份｜Roblox 與跨媒介續研：Deepwoken、Archived、Mountfall，及生活、戰鬥、偶遇、怪異的互相滲透
 
-> **2026-11-05｜來源核對＋敘事原理分析＋原創微型實驗；全篇 NON-CANON／非正史**。這是第190份（NPC自然談話／多入口情報）與第191份（建造、經濟、文化、社群、戰鬥、日常等八個研究方向）的增量；與第192份（BLAME!、奇諾、魔女之旅及異質情緒矩陣）並列互參，**第192份目前在 Draft PR #18，尚未合併 main**。不改任何主角設定、已寫候選章、具體地方或正式Canon。
+> **2026-11-05｜來源核對＋敘事原理分析＋原創微型實驗；全篇 NON-CANON／非正史**。這是第190份（NPC自然談話／多入口情報）與第191份（建造、經濟、文化、社群、戰鬥、日常等八個研究方向）的增量；與第192份（BLAME!、奇諾、魔女之旅及異質情緒矩陣）並列互參，**第192份原先在 Draft PR #18，現已合併 main**。不改任何主角設定、已寫候選章、具體地方或正式Canon。
 >
 > **證據分級**：A=遊戲開發者／Roblox官方作品頁的直接自述；B=非官方Wiki／攻略記錄的遊戲現象，可能有版本差；C=根據玩法作的文學分析；D=本文件新增的小說技術或示範候選。來源對應逐節列明。**沒有聲稱本次親自遊玩全部作品、逐一通關或看到每個隱藏NPC的完整台詞**。調查「可借敘事方法」不等於抄遊戲事件、語句、屬性系統和現成IP角色。
 >
@@ -108,6 +108,6 @@
 - 官方：[Deepwoken](https://www.roblox.com/games/4111023553/Deepwoken)、[Archived](https://www.roblox.com/games/14038329225/Archived)、[Mountfall原版](https://www.roblox.com/games/13257444838/Mountfall)、[Mountfall: Descent](https://www.roblox.com/games/16004121360/Mountfall-Descent)、[Regretevator](https://www.roblox.com/games/4972273297/Regretevator)、[Block Tales](https://www.roblox.com/games/16483433878/Block-Tales)、[Sonar Studios](https://sonar.games/)。
 - 社群來源：[Deepwoken聲望](https://deepwoken.fandom.com/wiki/Reputation)、[Deepwoken對話](https://deepwoken.fandom.com/wiki/Dialogue)、[Archived協會／辛迪加](https://bloxinformer.com/wikis/archived/associations-syndicates/)、[Archived入門](https://progameguides.com/roblox/archived-roblox-beginners-guide/)、[Mountfall: Descent社群玩法](https://mountfall-descent.fandom.com/wiki/Information)。
 - 本輪核對時間 **2026-11-05**；羅布樂思列表有「目前沒有運行體驗」的網站動態提示，該提示不能直接當停服公告。
-- **對照來源**：[第190份原有NPC研究](190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md)、[第191份跨遊戲研究](191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md)、[第192份跨媒介作品研究（暫在PR #18）](https://github.com/Secileya/Novel/pull/18)。
+- **對照來源**：[第190份原有NPC研究](190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md)、[第191份跨遊戲研究](191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md)、[第192份跨媒介作品研究（已由PR #18合併）](https://github.com/Secileya/Novel/pull/18)。
 
 **核心成果**：把「旅行小說的文化與人物」＋「BLAME式非人尺度」＋「Roblox的探索、組織、行動和生活玩法」轉化為多種可供《巨構世界》借鑑的敘事操作，但不把其實際遊戲規則寫成《巨構世界》的新設定。
