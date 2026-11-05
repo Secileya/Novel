@@ -1,5 +1,12 @@
 # 巨構世界｜按主題分類後的正式導航
 
+## 2026-11-05｜第193–194份：Roblox作品續研與第三至第六章實際候選正文 QA（非正史）
+
+[第193份：Deepwoken／Archived／Mountfall原版與Descent、Regretevator、Creatures of Sonaria、Block Tales 跨媒介敘事研究](06_敘事規劃與工作流/193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md)｜[第194份：G5R第三章→G6第四章→G7R第五章→G8D第六章逐章有據對讀、跨章因果與可修之處](08_交接勘誤與決議/194_第三至第六章正文逐章對照_Roblox旅行巨構研究QA與第七章保全_非正史.md)。
+
+已實際核對各款官方／社群資料，**原版Mountfall≠Descent**；額外遊戲不是作者已指定的新名單。第194份基於四章現有全文對照風鐘生活、赫連與巨蟬、留燈手搖車、塞拉盤查、靜風沉降槽、380m搖臂橋與錫匠修鏡；**不是改寫正文**。第七章〈底錨塔裡的無聲客〉**作者已提供過完整候選，但GitHub尚無可回收的逐字原文**；[第七章缺檔登記Draft PR #19](https://github.com/Secileya/Novel/pull/19)尚未合併，研究與作者層QA不能代替候選原文保存。第192份《BLAME!》／《奇諾》／《魔女》多風格研究仍在[Draft PR #18](https://github.com/Secileya/Novel/pull/18)。全部研究**NON-CANON，正式正文0章／PREWRITE HOLD，不改G2–G8D**。
+
+
 ## 2026-11-05｜第191份：跨遊戲世界生命力八領域研究（非Canon）
 
 [第191份｜建造／經濟／文明日常／宗教學術／戰鬥／喜劇／環境敘事／旅途偶遇深度研究](06_敘事規劃與工作流/191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md)：已參照《Workers & Resources》《Frostpunk 2》《EVE Online》《Roadwarden》《Caves of Qud》《Pentiment》《BOOK OF HOURS》《Sekiro》《Monster Hunter Wilds》《Kingdom Come II》《Like a Dragon》《West of Loathing》《Hollow Knight》《Return of the Obra Dinn》《A Short Hike》等官方資料／開發者訪談，逐一拆解「遊戲有什麼→為何有效→小說怎麼轉譯→不能怎麼照抄」，附四個非正史微事件、風險與優先研究順序。本檔與[第190份NPC／RPG資料](06_敘事規劃與工作流/190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md)相互補充；**不新增任何正式城鎮、人物秘密、事件或能力設定，不將近期研究硬塞G8D／第七章。** 既有第031份作者章前伏筆告知及第189份防無限套娃規則持續生效。
