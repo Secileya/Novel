@@ -5,7 +5,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import {fileURLToPath} from "node:url";
 const HERE=path.dirname(fileURLToPath(import.meta.url)),ROOT=path.resolve(HERE,"../..");
-const BACKLOG=path.join(HERE,"全庫待原子化缺口清冊.json");
+const BACKLOG=path.join(HERE,"213份回收來源基線.json");
 const OUT=path.join(HERE,"213份歷史來源逐檔證據索引.json");
 const TERMS=["W01","W02","W03","W04","W05","W06","W07","W_TOP","K01","K02","K03","K04","K05","K06","K07","K08","K09","K10","Celeste","瑟莉思媞","諾亞","艾莉維亞","法月懷","Gemini","前文明","帝國","公會","商隊","醫療","宗教","農田","生態","工坊","遺跡","野生","跨層","交接","候選","非正史","復歸","世界層","靜謐迴廊","終焉迴廊","第三個座位","主角","航道","列車","城市","人口","物權"];
 const topics=s=>TERMS.filter(t=>s.includes(t));

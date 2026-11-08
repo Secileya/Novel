@@ -9,8 +9,8 @@
   "causal_candidate_edge_count": 18,
   "version_decision_count": 10,
   "registered_container_count": 6,
-  "distinct_original_source_paths_with_some_structured_reference": 122,
-  "warning": "機械切段不等於已完全語義審核；引用至少1個原子不等於全檔無漏。95條仍需依作者/候選權威使用，任何從圖譜關聯到真人情節均需獨立核證。",
+  "distinct_original_source_paths_with_some_structured_reference": 153,
+  "warning": "全部335份全文可搜尋；此前未直接引用的213份已逐檔SHA校驗與1597段原文定位，不能當作全部語義定案。已完成針對性原文段落審查而加入原子引用之來源共153份，182份仍無直接語義命題。小說正式0章。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -24,22 +24,22 @@
     },
     "01_世界本體與文明": {
       "physical": 25,
-      "referenced": 21,
+      "referenced": 24,
       "bytes": 409797
     },
     "02_地圖拓撲與交通": {
       "physical": 24,
-      "referenced": 20,
+      "referenced": 23,
       "bytes": 305265
     },
     "03_人物關係與語感": {
       "physical": 32,
-      "referenced": 21,
+      "referenced": 31,
       "bytes": 514199
     },
     "04_能力武器與試煉": {
       "physical": 26,
-      "referenced": 18,
+      "referenced": 25,
       "bytes": 390462
     },
     "05_場景視覺與參考": {
@@ -49,7 +49,7 @@
     },
     "06_敘事規劃與工作流": {
       "physical": 34,
-      "referenced": 6,
+      "referenced": 10,
       "bytes": 707170
     },
     "07_候選故事與場景": {
@@ -59,7 +59,7 @@
     },
     "08_交接勘誤與決議": {
       "physical": 28,
-      "referenced": 3,
+      "referenced": 7,
       "bytes": 309697
     },
     "09_跨AI原始來源": {
@@ -96,11 +96,16 @@
   "people_and_institution_nodes": 26,
   "people_and_institution_relationships": 24,
   "cross_world_dependency_edges": 22,
-  "notice_2026_11_09": "335/335 accessible for machine passage search, 122 original files directly referenced by at least one structured entry, 95 historical atoms in two batches, and 23 retrieval-only cross-domain links; 213 files remain unreferenced. Semantic full review NOT measured.",
-  "historical_source_recovery_atoms": 95,
+  "notice_2026_11_09": "213 source dossiers verified with 1597 excerpts; 61 curated claims on 31 additional previously unreferenced originals; 156 history claims total, 41 retrieval links total, 153/335 original paths direct claim references, 182 left without structured claim reference.",
+  "historical_source_recovery_atoms": 156,
   "candidate_chapter_event_recovery_records": 12,
-  "original_paths_without_structured_reference": 213,
+  "original_paths_without_structured_reference": 182,
   "all_original_files_text_passage_extraction": "IMPLEMENTED_AND_CI_TESTED_NOT_SEMANTICALLY_REVIEWED",
-  "historical_recovery_links": 23,
-  "second_recovery_source_count": 38
+  "historical_recovery_links": 41,
+  "second_recovery_source_count": 38,
+  "historical_source_first_pass_dossier_files": 213,
+  "historical_source_first_pass_excerpt_sections": 1597,
+  "third_curated_records": 61,
+  "third_curated_source_paths": 31,
+  "full_file_semantic_complete_by_manual_review": "NOT_MEASURED"
 }
