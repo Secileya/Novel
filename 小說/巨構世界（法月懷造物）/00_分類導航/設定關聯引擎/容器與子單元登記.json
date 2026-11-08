@@ -87,6 +87,61 @@
         "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
       ],
       "policy": "二者為競爭或可共存候選；不可把並列子項理解成已存在兩座正式城市"
+    },
+    {
+      "id": "CON-MACRO-W-CANDIDATES",
+      "name": "巨構目前已具名宏觀世界層候選",
+      "aliases": [
+        "世界層全覽",
+        "宏觀世界層",
+        "世界層總圖",
+        "W02以上",
+        "W02～W07"
+      ],
+      "expected_children": 9,
+      "children_from": "macroMap.worlds",
+      "authority": "CANDIDATE_REGISTRY_NOT_TOTAL_UNIVERSE",
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "地圖/巨構導航資料_宏觀V0.3.json"
+      ],
+      "policy": "展開九條記錄只是目前七個具名候選世界層 + W_TOP目標 + W_DEEP未明候選，不是宣告宇宙只有九層"
+    },
+    {
+      "id": "CON-LEGACY-K",
+      "name": "舊版K01至K10厚界候選全集",
+      "aliases": [
+        "舊K厚界",
+        "LEGACY-K",
+        "舊K01",
+        "舊K04",
+        "第123版厚界"
+      ],
+      "expected_children": 10,
+      "children_from": "macroMap.barriers.LEGACY",
+      "authority": "HISTORICAL_CANDIDATE_GEOGRAPHY",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "地圖/巨構導航資料_宏觀V0.3.json"
+      ],
+      "policy": "即使新版G-K同號，也不能把舊K端點覆寫；未核現役路網"
+    },
+    {
+      "id": "CON-GEMINI-K",
+      "name": "Gemini新版G-K01至G-K09厚界候選全集",
+      "aliases": [
+        "新版K厚界",
+        "G-K",
+        "G-K04",
+        "Gemini K編號"
+      ],
+      "expected_children": 9,
+      "children_from": "macroMap.barriers.GEMINI",
+      "authority": "PARALLEL_NEWER_CANDIDATE_GEOGRAPHY",
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "policy": "K04、K07、K08、K09與舊版有不同端點；K10不自動改稱G-K09"
     }
   ]
 }

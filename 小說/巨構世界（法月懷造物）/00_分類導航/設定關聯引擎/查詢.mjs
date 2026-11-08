@@ -16,6 +16,10 @@ const temporal = JSON.parse(fs.readFileSync(path.join(HOME, "人物時期與知�
 const ecoLinks = JSON.parse(fs.readFileSync(path.join(HOME, "生態產業與制度因果網.json"), "utf8"));
 const versionLedger = JSON.parse(fs.readFileSync(path.join(HOME, "版本取代與相容決策鏈.json"), "utf8"));
 const containerRegistry = JSON.parse(fs.readFileSync(path.join(HOME, "容器與子單元登記.json"), "utf8"));
+const macroMap = JSON.parse(fs.readFileSync(path.join(HOME, "跨世界層與厚界多版本拓撲.json"), "utf8"));
+const travelEvidence = JSON.parse(fs.readFileSync(path.join(HOME, "跨區交通去返與法權證據帳.json"), "utf8"));
+const peopleNetwork = JSON.parse(fs.readFileSync(path.join(HOME, "人物組織與社會關係圖.json"), "utf8"));
+const crossWorldLinks = JSON.parse(fs.readFileSync(path.join(HOME, "跨層文明生態依賴網.json"), "utf8"));
 const args = process.argv.slice(2);
 
 function option(flag) {
@@ -122,6 +126,9 @@ function expandChildren(container) { return Array.isArray(container.children) ? 
 function resolveChildren(c) {
   if(c.children_from==="creativity.map_versions.primary.children")return expandChildren(creativity.map_versions.primary);
   if(c.children_from==="creativity.map_versions.legacy.children")return expandChildren(creativity.map_versions.legacy);
+  if(c.children_from==="macroMap.worlds")return macroMap.worlds;
+  if(c.children_from==="macroMap.barriers.LEGACY")return macroMap.barriers.filter(x=>x.version==="V03_LEGACY_K");
+  if(c.children_from==="macroMap.barriers.GEMINI")return macroMap.barriers.filter(x=>x.version==="GEMINI_G_K_LATER_CANDIDATE");
   return Array.isArray(c.children) ? c.children : [];
 }
 function matchContainers(q, registered=containerRegistry.containers) {
@@ -129,7 +136,9 @@ function matchContainers(q, registered=containerRegistry.containers) {
     const all=resolveChildren(c);
     const parentAliases=[c.name,...(c.aliases||[])];
     return hasTextSignal(q,parentAliases) || all.some(child=>
-      hasTextSignal(q,[child.name,...(child.aliases||[])]) || contains(q,child.id)
+      hasTextSignal(q,[child.name,...(child.aliases||[])]) || contains(q,child.id) ||
+      (/(?:^|-)K(?:0[1-9]|10)$/.test(child.id||"") &&
+       (q.match(/K(?:0[1-9]|10)/gi)||[]).some(k=>(child.id||"").endsWith(k.toUpperCase())))
     );
   });
   // A legacy W01 area should also retrieve the current primary container.
@@ -213,6 +222,62 @@ function findVersionDecisions(q) {
   );
 }
 
+
+function findMacro(q) {
+  const explicitW=macroMap.worlds.filter(w=>contains(q,w.id)||contains(q,w.name));
+  const kMatches=q.match(/K(?:0[1-9]|10)/gi)||[];
+  const byNumber=new Set(kMatches.map(x=>x.toUpperCase()));
+  const specialHits=macroMap.unplaced_specials.filter(s=>contains(q,s.name)||contains(q,s.id));
+  const broad=/世界層總|世界層地圖|宏觀全圖|宏觀地圖|所有世界層|所有厚界|所有K|全部K|層間隔界總覽/.test(q);
+  const barriers=macroMap.barriers.filter(b=>broad||byNumber.has(b.id.slice(-3))||
+     explicitW.some(w=>(b.endpoints||[]).includes(w.id)) || contains(q,b.name));
+  const involved=new Set([...explicitW.map(w=>w.id),...barriers.flatMap(x=>x.endpoints)]);
+  const worlds=macroMap.worlds.filter(w=>broad||involved.has(w.id));
+  const collisions=unique(barriers.map(x=>x.legacy_number))
+    .filter(k=>macroMap.barriers.filter(b=>b.legacy_number===k).length>=2)
+    .map(k=>({k_number:k,versions:macroMap.barriers.filter(b=>b.legacy_number===k)
+      .map(b=>({id:b.id,version:b.version,endpoints:b.endpoints,name:b.name})),
+      note:"同一 K 編號跨版本可能不是同一實際隔界；尤其 K04、K07、K08、K09"}));
+  return {macro_worlds:worlds,versioned_barriers:barriers,
+    same_number_version_collisions:collisions,specials:specialHits,
+    warning:"宏觀接鄰圖與營運交通證據分離；W01~W07是局部候選全集，不是整個世界已核定只有7個世界層"};
+}
+function findTravel(q, macro) {
+  const kIds=new Set(macro.versioned_barriers.map(b=>b.legacy_number));
+  const groups=travelEvidence.groups.filter(g=>contains(q,g.id)||
+     (g.id==="K01" && kIds.has("K01")) ||
+     (g.id==="B_LOCAL" && /方井|雨檐|唐榆|游洵|E3|E5|B案/.test(q))||
+     (g.id==="ARCH_SEA" && /拱海|懸潮|折索|晴紋|海盆/.test(q)));
+  const groupIds=new Set(groups.map(g=>g.id));
+  const all=/全部(?:交通|路線)|所有(?:交通|路線)|T交通總覽|路網全貌/.test(q);
+  const routes=travelEvidence.routes.filter(r=>all||groupIds.has(r.route_group)||
+    contains(q,r.route_id)||contains(q,r.name));
+  return {route_groups:all?travelEvidence.groups:groups,route_candidates:routes,
+    verified_cross_layer_routes:routes.filter(r=>r.world_crossing_verified),
+    warning:"PROPOSED與UNSURVEYED皆非現役證據；去、返、路權、客貨運、營運各欄null不可擅自填值。三組路網不得補成已相通。"};
+}
+function findPeople(q) {
+  const direct=peopleNetwork.entities.filter(e=>contains(q,e.name)||hasTextSignal(q,e.aliases));
+  const ids=new Set(direct.map(x=>x.id));
+  const exactEdges=peopleNetwork.edges.filter(e=>ids.has(e.from)||ids.has(e.to)||
+     hasTextSignal(q,e.triggers)||contains(q,e.id));
+  const connected=new Set([...ids,...exactEdges.flatMap(e=>[e.from,e.to])]);
+  const members=peopleNetwork.entities.filter(e=>connected.has(e.id));
+  return {direct_ids:[...ids],entities:members,relationships:exactEdges,
+    caveat:"關聯包含作者確認、未發生未來節點、Gemini候選與編輯假設；不得把同一街區當成確定僱傭或把同名組織合併"};
+}
+function findCrossLinks(q,macro,people,travel) {
+  const directWorlds=new Set(macro.macro_worlds.map(x=>x.id));
+  const peopleIDs=new Set(people.entities.map(x=>x.id));
+  const selected=crossWorldLinks.edges.filter(e=>contains(q,e.id)||
+    hasTextSignal(q,e.triggers)||
+    directWorlds.has(e.from)||directWorlds.has(e.to)||
+    [...peopleIDs].some(id=>contains(e.from,id)||contains(e.to,id)) ||
+    (travel.route_candidates.length>0 && /交通|跨層|路網|客貨/.test(q) && /transport|trade|logistics|access/.test(e.kind)));
+  return {edges:selected,
+    caveat:"每條具有 SOURCE_CANDIDATE 或 EDITORIAL_INTEGRATION_HYPOTHESIS 等證據狀態；引用已確認世界方向不代表具體生物遷徙、帝國疆界、公共路線已正式成立"};
+}
+
 function collectTerms(q, ids, claims, ideas, zones) {
   const t = [];
   for (const e of graph.entities) {
@@ -275,6 +340,10 @@ function query(q, corpus) {
   const phaseMatches = findTemporal(q,ids);
   const causal = findCausal(q,zones);
   const versions = findVersionDecisions(q);
+  const macro = findMacro(q);
+  const travel = findTravel(q,macro);
+  const people = findPeople(q);
+  const cross = findCrossLinks(q,macro,people,travel);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -284,7 +353,11 @@ function query(q, corpus) {
     ...collectTerms(q,ids,claims,ideas,zones),
     ...phaseMatches.flatMap(p=>p.matching_terms||[]),
     ...causal.direct_edges.flatMap(e=>e.keywords||[]).filter(t=>contains(q,t)),
-    ...versions.flatMap(v=>v.query_terms||[]).filter(t=>contains(q,t))
+    ...versions.flatMap(v=>v.query_terms||[]).filter(t=>contains(q,t)),
+    ...people.entities.flatMap(e=>e.aliases||[]).filter(t=>contains(q,t)),
+    ...macro.macro_worlds.map(w=>w.id),
+    ...macro.versioned_barriers.map(b=>b.name).filter(x=>contains(q,x)),
+    ...cross.edges.flatMap(e=>e.triggers||[]).filter(t=>contains(q,t))
   ]).slice(0,90);
   const ranked = corpus.read.map(d=>scoreDocument(d,terms)).filter(d=>d.score>0).sort((a,b)=>b.score-a.score);
   const byPath = new Map(corpus.read.map(d=>[d.path,d]));
@@ -296,6 +369,13 @@ function query(q, corpus) {
     ...causal.second_order_candidates.flatMap(e=>e.source_paths||[]),
     ...versions.flatMap(v=>v.source_paths||[]),
     ...containers.flatMap(c=>c.source_paths||[]),
+    ...macro.macro_worlds.flatMap(w=>w.source_paths||[]),
+    ...macro.versioned_barriers.flatMap(b=>b.source_paths||[]),
+    ...travel.route_candidates.flatMap(r=>r.source_paths||[]),
+    ...travel.route_groups.flatMap(g=>g.source_paths||[]),
+    ...people.entities.flatMap(e=>e.source_paths||[]),
+    ...people.relationships.flatMap(e=>e.source_paths||[]),
+    ...cross.edges.flatMap(e=>e.source_paths||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
     ...(zones.count?creativity.compatibility_decisions.filter(x=>x.id.startsWith("MAP-"))
@@ -324,6 +404,8 @@ function query(q, corpus) {
     entities:ids, container_expansion:zones, registered_container_expansion:containers,
     relevant_claims:claims, creative_candidate_ideas:ideas,
     character_timeline:phaseMatches, ecology_industry_network:causal, version_compatibility_ledger:versions,
+    macro_world_layer_graph:macro, travel_direction_and_rights:travel,
+    character_and_organization_graph:people, cross_world_ecology_civilization_links:cross,
     version_decisions:versionFindings,
     searched_terms:terms, selected_sources:opened,
     missing_rule_sources:missingMustRead, source_selection_truncated, source_index_drift:drift,
@@ -341,7 +423,15 @@ function integrity(corpus) {
     ...temporal.phases.flatMap(x=>x.source_paths||[]),
     ...ecoLinks.edges.flatMap(x=>x.source_paths||[]),
     ...versionLedger.records.flatMap(x=>x.source_paths||[]),
-    ...containerRegistry.containers.flatMap(x=>x.source_paths||[])
+    ...containerRegistry.containers.flatMap(x=>x.source_paths||[]),
+    ...macroMap.worlds.flatMap(x=>x.source_paths||[]),
+    ...macroMap.barriers.flatMap(x=>x.source_paths||[]),
+    ...macroMap.source_paths,
+    ...travelEvidence.source_paths,
+    ...travelEvidence.routes.flatMap(x=>x.source_paths||[]),
+    ...peopleNetwork.entities.flatMap(x=>x.source_paths||[]),
+    ...peopleNetwork.edges.flatMap(x=>x.source_paths||[]),
+    ...crossWorldLinks.edges.flatMap(x=>x.source_paths||[])
   ]);
   const known=new Set(corpus.read.map(x=>x.path));
   const missing=sources.filter(p=>!known.has(p));
@@ -353,19 +443,33 @@ function integrity(corpus) {
   const drift=sourceDrift();
   const zonesKnown=new Set(children.map(z=>z.id));
   const danglingEco=ecoLinks.edges.filter(e=>!zonesKnown.has(e.from)||!zonesKnown.has(e.to)).map(e=>e.id);
+  const personIDs=new Set(peopleNetwork.entities.map(x=>x.id));
+  const missingRelationEndpoints=peopleNetwork.edges.filter(x=>!personIDs.has(x.from)||!personIDs.has(x.to)).map(x=>x.id);
+  const legacyK=macroMap.barriers.filter(x=>x.version==="V03_LEGACY_K");
+  const newK=macroMap.barriers.filter(x=>x.version==="GEMINI_G_K_LATER_CANDIDATE");
+  const noCrossingClaim=travelEvidence.routes.every(r=>r.world_crossing_verified===false);
   const allIds=[
     ...graph.claims.map(x=>x.id),...temporal.phases.map(x=>x.id),
-    ...ecoLinks.edges.map(x=>x.id),...versionLedger.records.map(x=>x.id)
+    ...ecoLinks.edges.map(x=>x.id),...versionLedger.records.map(x=>x.id),
+    ...macroMap.barriers.map(x=>x.id),...macroMap.worlds.map(x=>x.id),
+    ...travelEvidence.routes.map(x=>x.route_id),...peopleNetwork.entities.map(x=>x.id),
+    ...peopleNetwork.edges.map(x=>x.id),...crossWorldLinks.edges.map(x=>x.id)
   ];
   const duplicateGraphIDs=allIds.filter((x,i)=>allIds.indexOf(x)!==i);
   return {files_in_inventory:inventory.files_count,read:corpus.read.length,
     missing_original_files:corpus.missing,unindexed_new_source_files:corpus.extras,
     missing_reference_paths:missing,duplicated_claim_ids:collisions,
+    dangling_people_relation_endpoints:missingRelationEndpoints,
+    world_layer_candidates:macroMap.worlds.length,old_K_version_count:legacyK.length,
+    newer_K_version_count:newK.length,transport_routes:travelEvidence.routes.length,
+    world_crossings_correctly_not_yet_verified:noCrossingClaim,
+    relationship_nodes:peopleNetwork.entities.length,relationship_edges:peopleNetwork.edges.length,
+    extra_crossworld_dependency_edges:crossWorldLinks.edges.length,
     dangling_ecology_edges:danglingEco,duplicated_extended_ids:duplicateGraphIDs,source_index_drift:drift,
     active_w01_children:children.length,old_w01_children:legacy.length,
     temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
     registered_containers:containers,incomplete_registered_containers:incompleteContainers,
-    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&danglingEco.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&!drift.stale};
+    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -387,6 +491,21 @@ function selfTest(corpus) {
   assert(alivia.character_timeline.some(x=>x.id==="P-ALIVIA-03"));
   const city=query("W04新版萬噸配重是否取代萬律專利城邦",corpus);
   assert(city.version_compatibility_ledger.some(x=>x.id==="VER-009"));
+  const k04=query("新的G-K04與舊K04到底相同嗎？",corpus);
+  assert(k04.macro_world_layer_graph.versioned_barriers.some(x=>x.id==="LEGACY-K04"));
+  assert(k04.macro_world_layer_graph.versioned_barriers.some(x=>x.id==="G-K04"));
+  assert(k04.macro_world_layer_graph.same_number_version_collisions.some(x=>x.k_number==="K04"));
+  const w02=query("W02折殼曲原與倒懸麥田會如何影響跨層交通和生態",corpus);
+  assert(w02.macro_world_layer_graph.macro_worlds.some(x=>x.id==="W02"));
+  assert(w02.cross_world_ecology_civilization_links.edges.some(x=>x.id==="XDEP-001"));
+  const returnTrip=query("K01-T-A去程和返程是否已通行",corpus);
+  assert(returnTrip.travel_direction_and_rights.route_candidates.some(x=>x.route_id==="K01-T-A" && x.direction_return===null));
+  const characters=query("多恩和塞拉曾經認識嗎",corpus);
+  assert(characters.character_and_organization_graph.relationships.some(x=>x.id==="REL-007"));
+  const rename=query("承光贖罪庭和承光帝統是一個組織嗎",corpus);
+  assert(rename.character_and_organization_graph.relationships.some(x=>x.id==="REL-015"));
+  const turtle=query("跨層巨龜龜背聚落的小寄生生物和帝國檢疫",corpus);
+  assert(turtle.cross_world_ecology_civilization_links.edges.some(x=>x.id==="XDEP-013"));
   const fixture=JSON.parse(fs.readFileSync(path.join(HOME,"合成檢索測例.json"),"utf8"));
   const roomCase=fixture.cases.find(x=>x.name.includes("十個"));
   const fakeContainer={id:"TEST-TEN-ROOM-HOUSE",name:"測試房屋",aliases:["測試房屋"],expected_children:10,
@@ -407,7 +526,10 @@ function selfTest(corpus) {
     "06 district fisheries linked to 11 district wastewater candidate",
     "Noah pre-death knowledge limit", "Alivia white-hair personality continuity",
     "W04 older and newer competing candidates retained",
-    "generic parent-to-all-10-room synthetic recall", "registered W01 and W04 container expansion"]};
+    "generic parent-to-all-10-room synthetic recall", "registered W01 and W04 container expansion",
+    "K04 old/new endpoint collision", "W02 candidate eco-transport retrieval",
+    "K01-T-A return direction unknown", "Dorne-Sera candidate character edge",
+    "atonement vs empire name nonidentity", "turtle inter-layer biosecurity link"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
