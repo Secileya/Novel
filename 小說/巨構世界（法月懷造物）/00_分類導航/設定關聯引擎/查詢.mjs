@@ -50,7 +50,7 @@ function readAll() {
   const known = new Set(inventory.files.map(f => f.path));
   function walk(dir, relative) {
     for (const e of fs.readdirSync(dir, { withFileTypes:true })) {
-      if (e.name === ".git" || e.name === "node_modules" || e.name === "設定關聯引擎" || (relative === "" && e.name === "AGENTS.md")) continue;
+      if (e.name === ".git" || e.name === "node_modules" || e.name === "設定關聯引擎" || (relative === "" && (e.name === "AGENTS.md" || e.name === "GEMINI.md"))) continue;
       const rel = relative ? relative + "/" + e.name : e.name;
       if (e.isDirectory()) walk(path.join(dir, e.name), rel);
       else if (e.isFile() && validTextPath(rel) && !known.has(rel)) {
@@ -84,7 +84,7 @@ function sourceDrift() {
       const full = item.slice(tab+1);
       if(!full.startsWith(prefix+"/"))continue;
       const p=full.slice(prefix.length+1);
-      if(p==="AGENTS.md" || p.startsWith("00_分類導航/設定關聯引擎/"))continue;
+      if(p==="AGENTS.md" || p==="GEMINI.md" || p.startsWith("00_分類導航/設定關聯引擎/"))continue;
       current.set(p,data[2]);
     }
     const prior=new Map(inventory.files.map(f=>[f.path,f.git_blob_sha]));
