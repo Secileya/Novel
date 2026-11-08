@@ -87,6 +87,18 @@ function main(){
   console.log(JSON.stringify({ok:true,files:213,sections:result.source_sections_indexed}));return;
  }
  fs.writeFileSync(OUT,JSON.stringify(result,null,2)+"\n");
- console.log(JSON.stringify({file:OUT,files:213,sections:result.source_sections_indexed}));
+ const batchSize=16;
+ const manifest={schema:"mega-213-batch-manifest-v1",files:213,sections:result.source_sections_indexed,batches:[]};
+ for(let from=0;from<result.dossiers.length;from+=batchSize){
+  const part=result.dossiers.slice(from,from+batchSize),to=from+part.length;
+  const fmt=n=>String(n).padStart(3,"0");
+  const file="213證據索引_"+fmt(from+1)+"-"+fmt(to)+".json";
+  const payload={schema:"mega-213-evidence-chunk-v1",range:[from+1,to],files:part.length,dossiers:part,
+   warning:"源文摘錄與關鍵字未做人物、版本和權威的完整語義審核，不可視為Canon。"};
+  fs.writeFileSync(path.join(HERE,file),JSON.stringify(payload,null,2)+"\n");
+  manifest.batches.push({file,range:[from+1,to],sources:part.length,sections:part.reduce((n,d)=>n+d.source_outline.length,0)});
+ }
+ fs.writeFileSync(path.join(HERE,"213份來源索引分卷清單.json"),JSON.stringify(manifest,null,2)+"\n");
+ console.log(JSON.stringify({file:OUT,files:213,sections:result.source_sections_indexed,batches:manifest.batches.length}));
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))main();

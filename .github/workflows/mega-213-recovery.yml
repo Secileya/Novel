@@ -32,6 +32,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份歷史來源逐檔證據索引.json'
+          git add '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/'213證據索引_*.json '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份來源索引分卷清單.json'
           if git diff --cached --quiet; then
             echo 'Generated index unchanged.'
           else
