@@ -6,6 +6,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import assert from "node:assert/strict";
+import {buildPassageInventory,searchPassages} from "./全庫段落回收.mjs";
 
 const HOME = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT = path.resolve(HOME, "..", "..");
@@ -20,6 +21,9 @@ const macroMap = JSON.parse(fs.readFileSync(path.join(HOME, "跨世界層與厚�
 const travelEvidence = JSON.parse(fs.readFileSync(path.join(HOME, "跨區交通去返與法權證據帳.json"), "utf8"));
 const peopleNetwork = JSON.parse(fs.readFileSync(path.join(HOME, "人物組織與社會關係圖.json"), "utf8"));
 const crossWorldLinks = JSON.parse(fs.readFileSync(path.join(HOME, "跨層文明生態依賴網.json"), "utf8"));
+const recoveredHistory = JSON.parse(fs.readFileSync(path.join(HOME, "歷史素材原子化回收_首批.json"), "utf8"));
+const passageCache = new WeakMap();
+function getPassages(corpus){if(!passageCache.has(corpus))passageCache.set(corpus,buildPassageInventory(corpus.read));return passageCache.get(corpus);}
 const args = process.argv.slice(2);
 
 function option(flag) {
@@ -279,6 +283,15 @@ function findCrossLinks(q,macro,people,travel) {
 }
 
 
+function findRecoveredHistory(q) {
+  const broad=/全部(?:舊設定|歷史素材|回收紀錄)|舊素材總覽|歷史原子化總覽/.test(q);
+  const matches=recoveredHistory.records.filter(r=>broad||
+    hasTextSignal(q,r.related_keys)||contains(q,r.id)||
+    (contains(q,r.theme) && norm(r.theme).length>=3));
+  return {records:matches.slice(0,45),records_total:recoveredHistory.records.length,
+    reminder:"此為歷史已討論素材，不是新設定或Canon。AUTHOR_DIRECTION_AS_RECORDED與AI候選有不同權威，必須依來源與後修逐條核對。"};
+}
+
 function findImpactChains(q, zones, macro) {
   const seeds=unique([
     ...zoneIDsFromQuery(q,zones),
@@ -393,6 +406,7 @@ function query(q, corpus) {
   const people = findPeople(q);
   const cross = findCrossLinks(q,macro,people,travel);
   const impact = findImpactChains(q,zones,macro);
+  const recovered = findRecoveredHistory(q);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -406,8 +420,11 @@ function query(q, corpus) {
     ...people.entities.flatMap(e=>e.aliases||[]).filter(t=>contains(q,t)),
     ...macro.macro_worlds.map(w=>w.id),
     ...macro.versioned_barriers.map(b=>b.name).filter(x=>contains(q,x)),
-    ...cross.edges.flatMap(e=>e.triggers||[]).filter(t=>contains(q,t))
+    ...cross.edges.flatMap(e=>e.triggers||[]).filter(t=>contains(q,t)),
+    ...recovered.records.flatMap(r=>r.related_keys||[]).filter(t=>contains(q,t))
   ]).slice(0,90);
+  const passageInventory = getPassages(corpus);
+  const passageMatches = searchPassages(passageInventory.passages,terms,{limit:24,perFile:3});
   const ranked = corpus.read.map(d=>scoreDocument(d,terms)).filter(d=>d.score>0).sort((a,b)=>b.score-a.score);
   const byPath = new Map(corpus.read.map(d=>[d.path,d]));
   const needed = unique([
@@ -425,13 +442,14 @@ function query(q, corpus) {
     ...people.entities.flatMap(e=>e.source_paths||[]),
     ...people.relationships.flatMap(e=>e.source_paths||[]),
     ...cross.edges.flatMap(e=>e.source_paths||[]),
+    ...recovered.records.flatMap(r=>(r.source_anchors||[]).map(a=>a.path)),
     ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
     ...(zones.count?creativity.compatibility_decisions.filter(x=>x.id.startsWith("MAP-"))
                       .flatMap(c=>c.sources||[]):[])
   ]);
-  const fullSelected = unique([...needed,...ranked.slice(0,16).map(r=>r.path)]);
+  const fullSelected = unique([...needed,...passageMatches.matched_passages.slice(0,8).map(p=>p.source_path),...ranked.slice(0,16).map(r=>r.path)]);
   const selected = fullSelected.slice(0,120);
   const source_selection_truncated = Math.max(0,fullSelected.length - selected.length);
   const scoreByPath = new Map(ranked.map(r=>[r.path,r]));
@@ -459,6 +477,8 @@ function query(q, corpus) {
     candidate_two_hop_impact_paths:impact,
     version_decisions:versionFindings,
     searched_terms:terms, selected_sources:opened,
+    historical_ideas_recovered:recovered,
+    full_corpus_passage_recovery:{files_with_passages:passageInventory.files_with_passages,files_without_passages:passageInventory.files_without_passages,total_passages:passageInventory.total_passages,by_category:passageInventory.by_category,...passageMatches},
     missing_rule_sources:missingMustRead, source_selection_truncated, source_index_drift:drift,
     confidence_note:"此工具可驗證有掃描哪些本機檔案、命中哪些文字與子節點；不是語義全知或新對話自動執行證明。作者/AI仍需讀足來源全段，判定衝突、知情界線、候選生效範圍，並附回執。",
     status:corpus.missing.length===0&&missingMustRead.length===0&&source_selection_truncated===0&&!drift.stale?"SOURCE_FILES_READ__SEMANTIC_QA_PENDING":"INDEX_STALE_OR_INCOMPLETE__RECHECK_SOURCES"
@@ -482,7 +502,8 @@ function integrity(corpus) {
     ...travelEvidence.routes.flatMap(x=>x.source_paths||[]),
     ...peopleNetwork.entities.flatMap(x=>x.source_paths||[]),
     ...peopleNetwork.edges.flatMap(x=>x.source_paths||[]),
-    ...crossWorldLinks.edges.flatMap(x=>x.source_paths||[])
+    ...crossWorldLinks.edges.flatMap(x=>x.source_paths||[]),
+    ...recoveredHistory.records.flatMap(x=>(x.source_anchors||[]).map(a=>a.path))
   ]);
   const known=new Set(corpus.read.map(x=>x.path));
   const missing=sources.filter(p=>!known.has(p));
@@ -492,6 +513,11 @@ function integrity(corpus) {
   const children=expandChildren(creativity.map_versions.primary);
   const legacy=expandChildren(creativity.map_versions.legacy);
   const drift=sourceDrift();
+  const passageInventory=getPassages(corpus);
+  const byPath=new Map(corpus.read.map(d=>[d.path,d.body]));
+  const badRecoveryAnchors=recoveredHistory.records.flatMap(r=>(r.source_anchors||[])
+    .filter(a=>!byPath.has(a.path)||!byPath.get(a.path).includes(a.anchor)).map(a=>r.id+":"+a.path));
+  const duplicateRecoveryIDs=recoveredHistory.records.map(r=>r.id).filter((x,i,a)=>a.indexOf(x)!==i);
   const zonesKnown=new Set(children.map(z=>z.id));
   const danglingEco=ecoLinks.edges.filter(e=>!zonesKnown.has(e.from)||!zonesKnown.has(e.to)).map(e=>e.id);
   const personIDs=new Set(peopleNetwork.entities.map(x=>x.id));
@@ -516,11 +542,17 @@ function integrity(corpus) {
     world_crossings_correctly_not_yet_verified:noCrossingClaim,
     relationship_nodes:peopleNetwork.entities.length,relationship_edges:peopleNetwork.edges.length,
     extra_crossworld_dependency_edges:crossWorldLinks.edges.length,
+    historical_recovery_records:recoveredHistory.records.length,
+    recovery_anchor_failures:badRecoveryAnchors,
+    duplicate_historical_recovery_ids:duplicateRecoveryIDs,
+    full_corpus_passage_files:passageInventory.files_with_passages,
+    full_corpus_passage_total:passageInventory.total_passages,
+    full_corpus_unsegmentable_files:passageInventory.files_without_passages,
     dangling_ecology_edges:danglingEco,duplicated_extended_ids:duplicateGraphIDs,source_index_drift:drift,
     active_w01_children:children.length,old_w01_children:legacy.length,
     temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
     registered_containers:containers,incomplete_registered_containers:incompleteContainers,
-    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
+    ok:missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -559,6 +591,13 @@ function selfTest(corpus) {
   assert(rename.character_and_organization_graph.relationships.some(x=>x.id==="REL-015"));
   const turtle=query("跨層巨龜龜背聚落的小寄生生物和帝國檢疫",corpus);
   assert(turtle.cross_world_ecology_civilization_links.edges.some(x=>x.id==="XDEP-013"));
+  const recoveredW02=query("W02倒懸麥田風帆列車與導光軌農業城",corpus);
+  assert(recoveredW02.historical_ideas_recovered.records.some(x=>x.id==="REC-002"));
+  assert(recoveredW02.historical_ideas_recovered.records.some(x=>x.id==="REC-003"));
+  const recoveredRoot=query("阿博與央璃的古根商旅和巨龜",corpus);
+  assert(recoveredRoot.historical_ideas_recovered.records.some(x=>x.id==="REC-013"));
+  assert(recoveredRoot.full_corpus_passage_recovery.files_with_passages>=335);
+  assert(recoveredRoot.full_corpus_passage_recovery.matched_passages.length>0);
   const fixture=JSON.parse(fs.readFileSync(path.join(HOME,"合成檢索測例.json"),"utf8"));
   const roomCase=fixture.cases.find(x=>x.name.includes("十個"));
   const fakeContainer={id:"TEST-TEN-ROOM-HOUSE",name:"測試房屋",aliases:["測試房屋"],expected_children:10,
@@ -583,7 +622,10 @@ function selfTest(corpus) {
     "K04 old/new endpoint collision", "W02 candidate eco-transport retrieval",
     "K01-T-A return direction unknown", "Dorne-Sera candidate character edge",
     "atonement vs empire name nonidentity", "turtle inter-layer biosecurity link",
-    "2-hop W01 wastewater/fisheries/biomedical dependency discovery"]};
+    "2-hop W01 wastewater/fisheries/biomedical dependency discovery",
+    "legacy atomic W02 original content reused",
+    "root-caravan candidate people source traced",
+    "all source files paragraph-segmented with line anchors"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
