@@ -1,0 +1,759 @@
+{
+  "schema": "mega-related-canon-v1",
+  "captured_from_commit": "30ba68924d4d39c36fbff5faf93448f94e001bba",
+  "notice": "本庫只收錄已定點核對的部分高優先規則；不是全世界觀 Canon 的完全集合。每條 source 必須回讀原文及後出修正。",
+  "authority_levels": [
+    "AUTHOR_CONFIRMED",
+    "AUTHOR_SELECTED",
+    "DOCUMENTED_CANDIDATE_ONLY",
+    "UNKNOWN"
+  ],
+  "dimensions": [
+    "authority",
+    "strength",
+    "story_progress"
+  ],
+  "entities": [
+    {
+      "id": "celeste",
+      "kind": "character",
+      "name": "Celeste／瑟莉思媞",
+      "aliases": [
+        "Celeste",
+        "瑟莉思媞",
+        "管理者少女"
+      ]
+    },
+    {
+      "id": "noah",
+      "kind": "character",
+      "name": "諾亞",
+      "aliases": [
+        "諾亞",
+        "Noah"
+      ]
+    },
+    {
+      "id": "alivia",
+      "kind": "character",
+      "name": "艾莉維亞",
+      "aliases": [
+        "艾莉維亞"
+      ]
+    },
+    {
+      "id": "original_gun",
+      "kind": "item",
+      "name": "諾亞原槍",
+      "aliases": [
+        "原槍",
+        "諾亞的槍",
+        "核心原槍",
+        "下掛黑銷",
+        "暗銀高壓導流管"
+      ]
+    },
+    {
+      "id": "quiet_corridor",
+      "kind": "location",
+      "name": "靜謐迴廊",
+      "aliases": [
+        "靜謐迴廊",
+        "隱藏苦痛之路",
+        "Path of Pain",
+        "真正苦痛之路"
+      ]
+    },
+    {
+      "id": "final_corridor",
+      "kind": "location",
+      "name": "終焉迴廊",
+      "aliases": [
+        "終焉迴廊",
+        "絕界行"
+      ]
+    },
+    {
+      "id": "wonder_corridor",
+      "kind": "location",
+      "name": "不思議迴廊",
+      "aliases": [
+        "不思議迴廊"
+      ]
+    },
+    {
+      "id": "world_layers",
+      "kind": "world_structure",
+      "name": "世界層與層間隔界",
+      "aliases": [
+        "世界層",
+        "層間隔界",
+        "厚重隔界",
+        "K01",
+        "K02",
+        "跨層"
+      ]
+    },
+    {
+      "id": "w01",
+      "kind": "world_layer",
+      "name": "W01",
+      "aliases": [
+        "W01",
+        "第一世界層",
+        "肋海"
+      ]
+    },
+    {
+      "id": "w04",
+      "kind": "candidate_region",
+      "name": "W04候選都市",
+      "aliases": [
+        "W04",
+        "萬律專利城邦",
+        "萬噸配重裁定國",
+        "四柱衡城",
+        "二十四工坊冠域"
+      ]
+    },
+    {
+      "id": "civilization",
+      "kind": "history",
+      "name": "前文明",
+      "aliases": [
+        "前文明",
+        "升維前夕",
+        "超十級"
+      ]
+    },
+    {
+      "id": "narrative",
+      "kind": "work_state",
+      "name": "小說正式進度與候選章",
+      "aliases": [
+        "正式正文",
+        "第一章",
+        "第十二章",
+        "PREWRITE",
+        "候選正文",
+        "第01至12章"
+      ]
+    },
+    {
+      "id": "society",
+      "kind": "world_culture",
+      "name": "社會與生活生態",
+      "aliases": [
+        "社會",
+        "血腥",
+        "群落",
+        "人口",
+        "商旅",
+        "地區",
+        "生態",
+        "巨龜",
+        "根橋"
+      ]
+    },
+    {
+      "id": "author_process",
+      "kind": "workflow",
+      "name": "作者權限與伏筆規範",
+      "aliases": [
+        "作者",
+        "伏筆",
+        "黑幕",
+        "設定",
+        "修改",
+        "審核"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "MG-C001",
+      "subjects": [
+        "celeste"
+      ],
+      "statement": "Celeste 在本世界內不可能被任何本世界手段（包含巔峰前文明科技）真正傷害。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD",
+      "story_progress": "NOT_OCCURRED",
+      "triggers": [
+        "戰鬥",
+        "攻擊",
+        "傷口",
+        "血",
+        "受傷",
+        "破防",
+        "對決"
+      ],
+      "risk_terms": [
+        "被打傷",
+        "受傷",
+        "流血",
+        "骨折",
+        "破防",
+        "留下傷口",
+        "真正傷害",
+        "刺傷"
+      ],
+      "sources": [
+        "000_現行決策與主題索引.md",
+        "03_人物關係與語感/006_絕對管理者少女.md"
+      ]
+    },
+    {
+      "id": "MG-C002",
+      "subjects": [
+        "celeste"
+      ],
+      "statement": "Celeste 的清冷、平靜、不笑同樣是有效神態；真心讚許、笑出聲及多義笑容可以成立，但不是每次必笑的固定模式。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "CHARACTER_DNA",
+      "triggers": [
+        "表情",
+        "微笑",
+        "冷淡",
+        "溫柔",
+        "讚許",
+        "神情",
+        "嘴角"
+      ],
+      "sources": [
+        "000_現行決策與主題索引.md",
+        "03_人物關係與語感/006_絕對管理者少女.md",
+        "08_交接勘誤與決議/187_Gemini瑟莉思媞三重氣質_二次相遇展力與身份猜測_權威QA.md"
+      ]
+    },
+    {
+      "id": "MG-C003",
+      "subjects": [
+        "celeste",
+        "wonder_corridor"
+      ],
+      "statement": "《不思議迴廊》由 Celeste 親自創造；其具體新候選內容不得因這一點自動升格。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD",
+      "triggers": [
+        "創造者",
+        "不思議",
+        "迴廊",
+        "管理者"
+      ],
+      "sources": [
+        "000_現行決策與主題索引.md",
+        "01_世界本體與文明/20261108_不思議迴廊由Celeste親自創造_作者明確確認.md"
+      ]
+    },
+    {
+      "id": "MG-C004",
+      "subjects": [
+        "quiet_corridor",
+        "final_corridor"
+      ],
+      "statement": "靜謐迴廊是隱藏 Path of Pain；終焉迴廊是不同地點，不能合併。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD",
+      "triggers": [
+        "迴廊",
+        "Path of Pain",
+        "苦痛之路",
+        "終焉",
+        "靜謐",
+        "絕界行"
+      ],
+      "risk_terms": [
+        "同一個迴廊",
+        "兩個其實同一處"
+      ],
+      "sources": [
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "舊資料_勘誤/01_後出取代與明確錯誤.md"
+      ]
+    },
+    {
+      "id": "MG-C005",
+      "subjects": [
+        "quiet_corridor",
+        "noah"
+      ],
+      "statement": "靜謐迴廊末段白橋下的黑霧由 Celeste 創造；墜入黑霧的諾亞不能再復歸。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD",
+      "triggers": [
+        "黑霧",
+        "白橋",
+        "墜落",
+        "復歸",
+        "死亡",
+        "靜謐"
+      ],
+      "risk_terms": [
+        "墜入黑霧後復歸",
+        "黑霧裡重生"
+      ],
+      "sources": [
+        "舊資料_勘誤/02_候選與未決隔離.md",
+        "000_現行決策與主題索引.md"
+      ]
+    },
+    {
+      "id": "MG-C006",
+      "subjects": [
+        "final_corridor",
+        "celeste"
+      ],
+      "statement": "終焉迴廊普通通行者無法沿原機關返程；Celeste 本人能自由往返，彼端及例外機制仍有未決項。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD_WITH_OPEN_BOUNDARY",
+      "triggers": [
+        "通行",
+        "回頭",
+        "返程",
+        "終焉迴廊",
+        "絕界行"
+      ],
+      "sources": [
+        "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "舊資料_勘誤/01_後出取代與明確錯誤.md"
+      ]
+    },
+    {
+      "id": "MG-C007",
+      "subjects": [
+        "noah",
+        "original_gun"
+      ],
+      "statement": "原槍復歸採作者最新選定的深層同化 B：與槍身深層同化的部件可跟回；僅卡扣掛接、未同化的黑銷不自動跟回。此條覆蓋較早的『曾安裝就跟回』傾向。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD",
+      "triggers": [
+        "死亡",
+        "復歸",
+        "原槍",
+        "槍身",
+        "模組",
+        "黑銷",
+        "同化",
+        "部件"
+      ],
+      "risk_terms": [
+        "未同化也跟回",
+        "未同化也復歸",
+        "只要裝過就跟回"
+      ],
+      "supersedes": [
+        "2026-11-08較早『曾完成安裝即可能跟回』未決傾向"
+      ],
+      "sources": [
+        "000_現行決策與主題索引.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md"
+      ]
+    },
+    {
+      "id": "MG-C008",
+      "subjects": [
+        "noah"
+      ],
+      "statement": "諾亞第一次真正死亡前不知道自己可以復歸；死亡復歸不倒帶世界時間。第一次死亡的具體原因、時點和部分機制仍未正式定案。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD_WITH_OPEN_BOUNDARY",
+      "triggers": [
+        "第一次死亡",
+        "首次死亡",
+        "復歸",
+        "時間倒帶",
+        "死後"
+      ],
+      "sources": [
+        "舊資料_勘誤/01_後出取代與明確錯誤.md",
+        "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md"
+      ]
+    },
+    {
+      "id": "MG-C009",
+      "subjects": [
+        "alivia",
+        "noah"
+      ],
+      "statement": "艾莉維亞沒有諾亞同型的死亡復歸；不能因雙主角關係直接讓她共享不死。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD",
+      "triggers": [
+        "艾莉維亞",
+        "死亡",
+        "復活",
+        "復歸",
+        "不死"
+      ],
+      "sources": [
+        "舊資料_勘誤/02_候選與未決隔離.md",
+        "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md"
+      ]
+    },
+    {
+      "id": "MG-C010",
+      "subjects": [
+        "noah",
+        "alivia",
+        "quiet_corridor"
+      ],
+      "statement": "靜謐迴廊深處應有諾亞原槍原裝模組造成的巨大實質提升，以及艾莉維亞自身能力的巨大實質質變；額外收穫具體清單仍未全部確定。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD_DIRECTION_OPEN_MECHANISM",
+      "triggers": [
+        "獎勵",
+        "模組",
+        "升級",
+        "通關",
+        "質變",
+        "靜謐"
+      ],
+      "sources": [
+        "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "舊資料_勘誤/02_候選與未決隔離.md"
+      ]
+    },
+    {
+      "id": "MG-C011",
+      "subjects": [
+        "world_layers"
+      ],
+      "statement": "世界層、厚重層間隔界與大尺度交通具有真實空間／危險意義，不得簡化成可隨意搭普通電梯的樓層。具體每條道路的存在與通返證據另行核定。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD_WITH_OPEN_MAP",
+      "triggers": [
+        "地圖",
+        "層間",
+        "越界",
+        "交通",
+        "跨層",
+        "電梯",
+        "通道",
+        "出口"
+      ],
+      "sources": [
+        "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ]
+    },
+    {
+      "id": "MG-C012",
+      "subjects": [
+        "civilization"
+      ],
+      "statement": "前文明於升維前夕稱霸宇宙，與其他文明的整體能力有斷層級差距；當時尚未成功升維。舊固定科技分級可重設。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "HARD",
+      "triggers": [
+        "前文明",
+        "超十級",
+        "升維",
+        "古科技",
+        "文明分級",
+        "科技戰力"
+      ],
+      "sources": [
+        "000_現行決策與主題索引.md",
+        "01_世界本體與文明/055_討論續錄_前文明超十級尺度校正_禁止強敵濫用前文明.md"
+      ]
+    },
+    {
+      "id": "MG-C013",
+      "subjects": [
+        "w04",
+        "society"
+      ],
+      "statement": "作者允許《Project Moon》都市式架構參考；W04 萬律專利城邦與萬噸配重裁定國兩版並列候選，相似性本身不構成設定錯誤。",
+      "authority": "AUTHOR_CONFIRMED_EVALUATION_RULE",
+      "strength": "WORKING_PRINCIPLE",
+      "triggers": [
+        "Project Moon",
+        "都市",
+        "W04",
+        "工坊",
+        "專利",
+        "配重",
+        "階級",
+        "相似",
+        "換皮"
+      ],
+      "sources": [
+        "000_現行決策與主題索引.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "caution": "兩個W04方案均仍是CANDIDATE；本規則確認的是作者的評價標準。"
+    },
+    {
+      "id": "MG-C014",
+      "subjects": [
+        "narrative"
+      ],
+      "statement": "正式正文仍0章，PREWRITE HOLD 有效；第01–12章最新順讀稿是完整候選，不因檔案存在就變成已發生的 Canon。",
+      "authority": "AUTHOR_CONFIRMED_PROJECT_STATUS",
+      "strength": "HARD",
+      "triggers": [
+        "第十三章",
+        "續寫",
+        "正文",
+        "第十二章",
+        "正式章",
+        "已發生",
+        "PREWRITE"
+      ],
+      "sources": [
+        "README.md",
+        "待定正文/順讀_最新補丁候選/README.md"
+      ]
+    },
+    {
+      "id": "MG-C015",
+      "subjects": [
+        "narrative",
+        "noah",
+        "alivia"
+      ],
+      "statement": "第1–12章候選停點在W01第08區，下一站第09區仍為候選旅行方向；候選1–12章未發生諾亞首次死亡與復歸。",
+      "authority": "DOCUMENTED_CANDIDATE_ONLY",
+      "strength": "CANDIDATE_CONTINUITY",
+      "triggers": [
+        "第十二章",
+        "第十三章",
+        "九區",
+        "萬鈞鐘心",
+        "霜脈散熱嶺",
+        "第一次死亡"
+      ],
+      "sources": [
+        "06_敘事規劃與工作流/20261108_前十二章後旅行路線_W01至跨層_首次死亡復歸_世界地圖完整度盤點_非正史.md"
+      ]
+    },
+    {
+      "id": "MG-C016",
+      "subjects": [
+        "society",
+        "noah",
+        "alivia"
+      ],
+      "statement": "世界有血腥、暴力與溫柔明亮的混合；雙主角並非義務型救世主，可按人格與情境主動搶奪甚至殺人，不必用正派理由洗白。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "CHARACTER_AND_WORLD_DIRECTION",
+      "triggers": [
+        "道德",
+        "殺人",
+        "搶奪",
+        "居民",
+        "血腥",
+        "善惡",
+        "殘酷"
+      ],
+      "sources": [
+        "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "03_人物關係與語感/045_討論續錄_雙主角可搶奪他人裝備與自主殺人奪物.md"
+      ]
+    },
+    {
+      "id": "MG-C017",
+      "subjects": [
+        "author_process"
+      ],
+      "statement": "重要人物秘密／可回收伏筆在相關章節寫前應向作者交代最低限度真相、動機、情報差、伏筆與回收路線；不為每件事強造黑幕，也不禁止有規劃的跨區陰謀。",
+      "authority": "AUTHOR_CONFIRMED_WORKFLOW",
+      "strength": "HARD",
+      "triggers": [
+        "秘密",
+        "陰謀",
+        "伏筆",
+        "黑幕",
+        "白瓷面具",
+        "反轉",
+        "幕後"
+      ],
+      "sources": [
+        "06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md",
+        "06_敘事規劃與工作流/189_白瓷面具人作者層因果骨架與防白鳥式無限延伸_續寫門檻.md",
+        "000_現行決策與主題索引.md"
+      ]
+    },
+    {
+      "id": "MG-C018",
+      "subjects": [
+        "society",
+        "world_layers"
+      ],
+      "statement": "居民、群落、生物與地理需保有獨立生活與多元遷移因果；沒有寫到不代表不存在，也不能強制所有危機都由同一高位人物操控。",
+      "authority": "AUTHOR_CONFIRMED_DIRECTION",
+      "strength": "WORLD_DIRECTION",
+      "triggers": [
+        "人口",
+        "生態",
+        "遷徙",
+        "旅途",
+        "群落",
+        "城市",
+        "日常",
+        "異族",
+        "商旅"
+      ],
+      "sources": [
+        "01_世界本體與文明/094_後出補充_跨群落居民成因_遷居生存救援追查旅遊遠征與混居社會.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "000_舊設定寶庫_接手必讀_20261108.md"
+      ],
+      "caution": "地點、物種名及個體生平可能是研究候選，不能概括全部已定。"
+    },
+    {
+      "id": "MG-C019",
+      "subjects": [
+        "author_process"
+      ],
+      "statement": "設定權威、機制成熟度、正文發生進度是三條不同軸；不能用『近期討論最多／GitHub main已存』代替作者選定。",
+      "authority": "AUTHOR_CONFIRMED_PROJECT_WORKFLOW",
+      "strength": "HARD",
+      "triggers": [
+        "採用",
+        "定案",
+        "候選",
+        "權威",
+        "版本",
+        "正史",
+        "作者",
+        "確認"
+      ],
+      "sources": [
+        "000_現行決策與主題索引.md",
+        "舊資料_勘誤/03_增量維護與不刪改程序.md"
+      ]
+    },
+    {
+      "id": "MG-C020",
+      "subjects": [
+        "noah",
+        "alivia",
+        "narrative"
+      ],
+      "statement": "瑟莉思媞《第三個座位》首次相遇場景已獲作者選擇，但沒有因此成為已正式發生的小說章節。",
+      "authority": "AUTHOR_SELECTED",
+      "strength": "SELECTED_NOT_OCCURRED",
+      "triggers": [
+        "第三個座位",
+        "第一次相遇",
+        "下次見呀",
+        "Celeste初遇"
+      ],
+      "sources": [
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+        "舊資料_勘誤/02_候選與未決隔離.md"
+      ]
+    },
+    {
+      "id": "MG-C021",
+      "subjects": [
+        "society"
+      ],
+      "statement": "普通血腥可普遍、重度血腥可以較普遍，極端殘酷集中於少數；旁人的反應取決於人格與地方經驗，不機械全員麻木或全員尖叫。",
+      "authority": "AUTHOR_CONFIRMED",
+      "strength": "WORLD_DIRECTION",
+      "triggers": [
+        "血腥",
+        "殘酷",
+        "虐殺",
+        "旁觀者",
+        "恐懼",
+        "流血"
+      ],
+      "sources": [
+        "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "000_舊設定寶庫_接手必讀_20261108.md"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "celeste",
+      "to": "wonder_corridor",
+      "relation": "created",
+      "expand": true
+    },
+    {
+      "from": "celeste",
+      "to": "quiet_corridor",
+      "relation": "mechanism_author",
+      "expand": true
+    },
+    {
+      "from": "celeste",
+      "to": "final_corridor",
+      "relation": "special_exception",
+      "expand": true
+    },
+    {
+      "from": "noah",
+      "to": "original_gun",
+      "relation": "bound_equipment",
+      "expand": true
+    },
+    {
+      "from": "noah",
+      "to": "alivia",
+      "relation": "co_protagonist",
+      "expand": true
+    },
+    {
+      "from": "noah",
+      "to": "quiet_corridor",
+      "relation": "reward_and_risk",
+      "expand": true
+    },
+    {
+      "from": "alivia",
+      "to": "quiet_corridor",
+      "relation": "reward_and_risk",
+      "expand": true
+    },
+    {
+      "from": "quiet_corridor",
+      "to": "final_corridor",
+      "relation": "distinct_from",
+      "expand": true
+    },
+    {
+      "from": "quiet_corridor",
+      "to": "wonder_corridor",
+      "relation": "distinct_from",
+      "expand": true
+    },
+    {
+      "from": "final_corridor",
+      "to": "wonder_corridor",
+      "relation": "distinct_from",
+      "expand": true
+    },
+    {
+      "from": "world_layers",
+      "to": "w01",
+      "relation": "structure_scope",
+      "expand": true
+    },
+    {
+      "from": "w04",
+      "to": "society",
+      "relation": "city_civilization_candidate",
+      "expand": true
+    },
+    {
+      "from": "narrative",
+      "to": "noah",
+      "relation": "continuity_subject",
+      "expand": false
+    },
+    {
+      "from": "narrative",
+      "to": "alivia",
+      "relation": "continuity_subject",
+      "expand": false
+    }
+  ]
+}

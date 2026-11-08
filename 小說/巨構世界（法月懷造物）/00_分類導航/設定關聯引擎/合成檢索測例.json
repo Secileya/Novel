@@ -1,0 +1,55 @@
+{
+  "schema": "mega-synthetic-test-v1",
+  "warning": "以下 A/B 與十房間房屋全部為虛構測試資料，不得輸入巨構 Canon。",
+  "cases": [
+    {
+      "name": "A 無法受傷／數日後打架",
+      "given": {
+        "entity": "A",
+        "hard_rule": "A不能真正受傷"
+      },
+      "query": "A與B打架，B一劍把A刺傷。",
+      "must_retrieve": [
+        "A不能真正受傷"
+      ],
+      "expected": "標出硬衝突，詢問是誤判、視覺效果、其他代價或作者明確改 Canon"
+    },
+    {
+      "name": "十個不同生態房間／父物件完整展開",
+      "given": {
+        "entity": "測試房屋",
+        "contains": [
+          "01苔蘚林",
+          "02潮汐盆",
+          "03乾燥荒漠",
+          "04霧林",
+          "05高寒苔原",
+          "06熔熱裂谷",
+          "07深水帶",
+          "08真菌洞",
+          "09人工蜂巢",
+          "10漂浮花園"
+        ]
+      },
+      "query": "測試房屋中的瘟疫會如何傳播？",
+      "must_retrieve_all_children": true,
+      "expected": "先看十間的隔離、交通、水源、氣流、物種載體；不只挑一間討論"
+    },
+    {
+      "name": "真實角色 Celeste 受傷",
+      "query": "Celeste 被前文明的強者砍到流血。",
+      "must_retrieve_claims": [
+        "MG-C001"
+      ],
+      "expected": "顯示可能違反作者確認不可真正傷害的硬設定"
+    },
+    {
+      "name": "真實原槍零件規則覆蓋",
+      "query": "諾亞死後，沒有同化的黑銷是否也跟著原槍復歸？",
+      "must_retrieve_claims": [
+        "MG-C007"
+      ],
+      "expected": "指出深層同化 B 優先，舊曾安裝即跟回只是歷史傾向；具體物件狀態要核對"
+    }
+  ]
+}
