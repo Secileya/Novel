@@ -1,0 +1,376 @@
+{
+  "schema": "mega-character-temporal-v1",
+  "source_commit": "e291af700f08afaedf2ba14b849d9cb794259c9b",
+  "notice": "時間階段、人物所知、作者已定與未決分軸。任何尚未正式發生的事件都不得因列入時間表而冒稱已發生。",
+  "phases": [
+    {
+      "id": "P-NOAH-00",
+      "entity": "noah",
+      "phase_label": "正式第一章：雙主角第一次見面",
+      "stage": "PRE_FIRST_MEETING",
+      "authority": "AUTHOR_CONFIRMED",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "諾亞和艾莉維亞此前互不認識；不能直接使用已有私人共同回憶、同居歷史或熟稔暱稱。"
+      ],
+      "character_knowledge": [
+        "僅知道當下親眼／親耳所得"
+      ],
+      "open_questions": [
+        "正式第一章地理及具體事件尚未核定"
+      ],
+      "triggers": [
+        "第一章",
+        "初遇",
+        "第一次見面",
+        "初識",
+        "暱稱"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md"
+      ]
+    },
+    {
+      "id": "P-ALIVIA-00",
+      "entity": "alivia",
+      "phase_label": "正式第一章：雙主角第一次見面",
+      "stage": "PRE_FIRST_MEETING",
+      "authority": "AUTHOR_CONFIRMED",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "與諾亞初次相遇，兩人的相戀與互信要由後續真正相處長出；不禁止初見吸引或有趣的合作。"
+      ],
+      "character_knowledge": [
+        "當時無共同過往"
+      ],
+      "open_questions": [
+        "不替未來章節指定相識速度"
+      ],
+      "triggers": [
+        "第一章",
+        "初遇",
+        "熟識",
+        "第一次見面"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md"
+      ]
+    },
+    {
+      "id": "P-CEL-00",
+      "entity": "celeste",
+      "phase_label": "安排相遇，但尊重兩人的後續自發關係",
+      "stage": "BEFORE_AND_AFTER_PROTAGONIST_MEETING",
+      "authority": "AUTHOR_CONFIRMED",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "Celeste 有意安排諾亞與艾莉維亞結識，並期待戀人方向；不直接修改好感度，不按腳本控制兩人的全部選擇。",
+        "她可以在合適情境真實介入，不是宇宙法則禁止介入。"
+      ],
+      "character_knowledge": [
+        "知道自己介入過的部分"
+      ],
+      "open_questions": [
+        "具體相遇安排技術、時空手段未定"
+      ],
+      "triggers": [
+        "安排",
+        "命運",
+        "好感度",
+        "戀人",
+        "干預",
+        "初遇"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/017_討論續錄_Celeste命運安排_女主界側能力.md"
+      ]
+    },
+    {
+      "id": "P-NOAH-01",
+      "entity": "noah",
+      "phase_label": "第一次真正死亡之前",
+      "stage": "PRE_FIRST_TRUE_DEATH",
+      "authority": "AUTHOR_CONFIRMED",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "不知道自己有死亡復歸能力，不能把死亡當練級或便利捷徑。",
+        "死亡前的自救與恐懼應真實；核心槍在當時只是未完備的超高文明裝備。"
+      ],
+      "character_knowledge": [
+        "未親自經歷或驗證復歸，不知道賦予者為Celeste"
+      ],
+      "open_questions": [
+        "首次真正死亡的地點、原因及事件長度尚未定案"
+      ],
+      "triggers": [
+        "第一次死亡",
+        "初死",
+        "復歸前",
+        "死亡之前",
+        "不知道復歸",
+        "復活"
+      ],
+      "source_paths": [
+        "04_能力武器與試煉/088_研究與試寫_諾亞首次真正死亡_意識中斷_復歸初醒的主觀感受.md",
+        "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md"
+      ]
+    },
+    {
+      "id": "P-NOAH-02",
+      "entity": "noah",
+      "phase_label": "第一次復歸後",
+      "stage": "POST_FIRST_TRUE_RETURN",
+      "authority": "AUTHOR_CONFIRMED_WITH_OPEN_MECHANISM",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "他可以知道自己真的經歷復歸，但不因一次經驗突然理解所有錨點、源頭與裝備規則。",
+        "世界時間不倒流，旁人遭遇、損失、機關變化皆繼續。"
+      ],
+      "character_knowledge": [
+        "自身重醒與可觀測結果；是否知道全部機制仍應沿後續經驗"
+      ],
+      "open_questions": [
+        "主觀時間、舊軀體去向、衣物、記憶保留程度、落點優先序未定"
+      ],
+      "triggers": [
+        "首次復歸",
+        "復歸後",
+        "再次醒來",
+        "重生",
+        "時間倒流",
+        "錨點"
+      ],
+      "source_paths": [
+        "04_能力武器與試煉/088_研究與試寫_諾亞首次真正死亡_意識中斷_復歸初醒的主觀感受.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md"
+      ]
+    },
+    {
+      "id": "P-GUN-01",
+      "entity": "original_gun",
+      "phase_label": "諾亞死亡復歸時的裝備狀態",
+      "stage": "ON_RETURN_EVENT",
+      "authority": "AUTHOR_CONFIRMED_2026_11_08",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "核心原槍隨復歸；已深層同化的槍用部件可跟回。",
+        "只有卡扣掛接且未同化的黑銷若仍保持該狀態，死亡現場保留，不跟回。",
+        "較早『曾經安裝即可能跟回』傾向被後出選定深層同化B覆蓋。"
+      ],
+      "character_knowledge": [
+        "由作者設定確立，不等於當時諾亞已充分理解"
+      ],
+      "open_questions": [
+        "被他人奪走／拆卸／遠距召回、黑銷現場保護與重新安全拾取未定"
+      ],
+      "triggers": [
+        "槍",
+        "原槍",
+        "模組",
+        "黑銷",
+        "卡扣",
+        "同化",
+        "死亡",
+        "復歸"
+      ],
+      "source_paths": [
+        "000_現行決策與主題索引.md",
+        "04_能力武器與試煉/088_研究與試寫_諾亞首次真正死亡_意識中斷_復歸初醒的主觀感受.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md"
+      ]
+    },
+    {
+      "id": "P-ALIVIA-01",
+      "entity": "alivia",
+      "phase_label": "初期旅途與遭遇死亡威脅",
+      "stage": "GENERAL_TRAVEL",
+      "authority": "AUTHOR_CONFIRMED",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "她沒有 Celeste 給諾亞的同型不死／復歸能力。",
+        "不能從無同型復歸直接推導世上完全不存在醫療、一般復活或她個人的所有救援可能。",
+        "她本身有獨立高階能力、思考和行動，不應為了救場而降智。"
+      ],
+      "character_knowledge": [
+        "能理解自己實際掌握的能力與現場情報，但不全知諾亞復歸源頭"
+      ],
+      "open_questions": [
+        "一般科技及其他復活途徑、她的完整能力統一原理未決"
+      ],
+      "triggers": [
+        "艾莉維亞",
+        "復活",
+        "死亡",
+        "不死",
+        "戰鬥",
+        "危機",
+        "救援"
+      ],
+      "source_paths": [
+        "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "04_能力武器與試煉/088_研究與試寫_諾亞首次真正死亡_意識中斷_復歸初醒的主觀感受.md"
+      ]
+    },
+    {
+      "id": "P-ALIVIA-02",
+      "entity": "alivia",
+      "phase_label": "深青藍髮常態與性格",
+      "stage": "PRE_QUIET_CORRIDOR",
+      "authority": "AUTHOR_CONFIRMED_DNA",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "視覺上較冷不會讓她失去原有的玩心、吐槽、雙向調戲與真實情緒。",
+        "『我去』及較粗口語可自然低頻出現；不用固定每句都說。"
+      ],
+      "character_knowledge": [
+        "自己的常態與人物生活"
+      ],
+      "open_questions": [
+        "未選定完整能力本質"
+      ],
+      "triggers": [
+        "深青藍",
+        "藍髮",
+        "性格",
+        "開玩笑",
+        "冷漠",
+        "神性",
+        "我去"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md",
+        "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md"
+      ]
+    },
+    {
+      "id": "P-ALIVIA-03",
+      "entity": "alivia",
+      "phase_label": "靜謐迴廊深處白髮質變及之後",
+      "stage": "QUIET_CORRIDOR_UNLOCK_OR_LATER",
+      "authority": "AUTHOR_DIRECTION_WITH_CANDIDATE_MECHANISMS",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "白髮與重大獨立能力質變方向已提出；白髮不是第二人格，也不能把全時期人格改成清冷無口。",
+        "白髮首次獲得應依靜謐迴廊深處的後出規劃處理；早期試演在其他地方出現不得倒灌正式時序。"
+      ],
+      "character_knowledge": [
+        "能運用多少取決於當時真實練習與已知機制"
+      ],
+      "open_questions": [
+        "白髮的實際物理原理、持續條件與上限未正式選定"
+      ],
+      "triggers": [
+        "白髮",
+        "銀白",
+        "轉換",
+        "第二人格",
+        "靜謐",
+        "質變",
+        "能力"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+        "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md"
+      ]
+    },
+    {
+      "id": "P-NOAH-03",
+      "entity": "noah",
+      "phase_label": "靜謐迴廊挑戰與可能回訪",
+      "stage": "QUIET_CORRIDOR_CHALLENGE",
+      "authority": "AUTHOR_DIRECTION_WITH_OPEN_TIMING",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "Celeste 可以為諾亞在特定入口設立特殊復歸錨點；不代表全世界到處都有。",
+        "真正黑霧墜落不可復歸的後出硬設定優先；不因普通錨點就取消該例外。",
+        "通關可能獲重大原槍原裝模組，但未通關前不可預支完整獎品。"
+      ],
+      "character_knowledge": [
+        "入口位置及嘗試經歷取決於實際劇情；尚未進入正式正文"
+      ],
+      "open_questions": [
+        "挑戰具體時序、錨點運算、獎品細則及完整通關內容未定"
+      ],
+      "triggers": [
+        "靜謐迴廊",
+        "黑霧",
+        "錨點",
+        "入口",
+        "回訪",
+        "原裝模組"
+      ],
+      "source_paths": [
+        "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "000_現行決策與主題索引.md"
+      ]
+    },
+    {
+      "id": "P-CEL-01",
+      "entity": "celeste",
+      "phase_label": "《第三個座位》未來首次面見雙主角",
+      "stage": "SELECTED_FUTURE_SCENE",
+      "authority": "AUTHOR_SELECTED_NOT_FORMALLY_OCCURRED",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "第051已選為未來 Celeste 與雙主角初見場景，需在二人已有相識經驗之後。",
+        "場內二人不會直接知道 Celeste 是巨構最高管理者，也不會從普通告別讀出正式預言或復歸源頭。",
+        "Celeste 仍保留清冷高位、玩心與真心喜愛甜餅的多層性格。"
+      ],
+      "character_knowledge": [
+        "她知道自己的身分及既有安排；不用向當事人透露"
+      ],
+      "open_questions": [
+        "正式章號、地點、兩人此時關係長度未定"
+      ],
+      "triggers": [
+        "第三個座位",
+        "甜餅",
+        "初次遇見Celeste",
+        "初次見Celeste",
+        "下次見呀",
+        "管理者"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+        "03_人物關係與語感/006_絕對管理者少女.md",
+        "03_人物關係與語感/017_討論續錄_Celeste命運安排_女主界側能力.md"
+      ]
+    },
+    {
+      "id": "P-CEL-02",
+      "entity": "celeste",
+      "phase_label": "世界內不可被真正傷及（常態硬設定）",
+      "stage": "ALL_WORLD_INTERNAL_PERIODS",
+      "authority": "AUTHOR_CONFIRMED_HARD",
+      "story_status": "PLANNED_NOT_FORMAL_OCCURRED",
+      "constraints": [
+        "任何本世界內手段，包含前文明巔峰科技，均不能使她真正受傷。",
+        "不能擴寫成她必然高於法月懷等世界外家人。",
+        "清冷不笑、真誠讚許與自然笑出聲都可並存，並非固定慈悲或嘲笑模板。"
+      ],
+      "character_knowledge": [
+        "真正管理者的自我知識不等於外界角色可知"
+      ],
+      "open_questions": [
+        "不能臆測所有世界外力量的相對強度"
+      ],
+      "triggers": [
+        "Celeste",
+        "瑟莉思媞",
+        "受傷",
+        "戰鬥",
+        "攻擊",
+        "笑容",
+        "眼神"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/006_絕對管理者少女.md",
+        "000_現行決策與主題索引.md"
+      ]
+    }
+  ]
+}

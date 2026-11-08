@@ -1,0 +1,391 @@
+{
+  "schema": "mega-eco-socio-economic-links-v1",
+  "source_commit": "e291af700f08afaedf2ba14b849d9cb794259c9b",
+  "notice": "所有區際因果是候選連結。EXPLICIT_SOURCE_CANDIDATE 表示來源曾明示候選，EDITORIAL_INTEGRATION_HYPOTHESIS 表示編輯提出待驗證的跨區可能，二者都不是正式已發生社會史。",
+  "edge_count": 18,
+  "edges": [
+    {
+      "id": "ECO-001",
+      "from": "W01-Z11",
+      "to": "W01-Z06",
+      "kind": "downstream_pollution",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EXPLICIT_SOURCE_CANDIDATE",
+      "cause": "第11區濾渠或上游排放物進入第06區濕地",
+      "consequence": "白蝦、泥鰻及漁業可能受損；可延伸船幫、檢疫、賠償",
+      "requires_verification": "流域地形、排放濃度、排水時間與責任人",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "keywords": [
+        "排污",
+        "下游",
+        "河道",
+        "污染",
+        "蝦",
+        "漁業"
+      ]
+    },
+    {
+      "id": "ECO-002",
+      "from": "W01-Z08",
+      "to": "W01-Z10",
+      "kind": "infrastructure_supply",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EXPLICIT_SOURCE_CANDIDATE",
+      "cause": "第08區工業機樞向第10區提供環境控制／基建",
+      "consequence": "第10區光照與環境配額可能受基建停機影響",
+      "requires_verification": "機樞實際供能權、備援系統與政治責任",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "萬鈞鐘心",
+        "冠冕白庭",
+        "配額",
+        "基建",
+        "供能"
+      ]
+    },
+    {
+      "id": "ECO-003",
+      "from": "W01-Z08",
+      "to": "W01-Z11",
+      "kind": "industrial_waste",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EXPLICIT_SOURCE_CANDIDATE",
+      "cause": "第08區工業可向第11區排放污水",
+      "consequence": "第11區製藥、菌林、黑市與污染管制受壓",
+      "requires_verification": "水流方向、污染組成、管理組織",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "工業",
+        "廢水",
+        "污水",
+        "腐殖濾渠"
+      ]
+    },
+    {
+      "id": "ECO-004",
+      "from": "W01-Z04",
+      "to": "W01-Z05",
+      "kind": "timber_supply",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EXPLICIT_SOURCE_CANDIDATE",
+      "cause": "第04區矽鐵殼木芯材供給第05區吊塢升降籠",
+      "consequence": "工匠罷工、生長季或砍伐限額會影響吊運與區際貨流",
+      "requires_verification": "材料規格、訂單與替代材料能力",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "keywords": [
+        "殼木",
+        "吊籠",
+        "木芯",
+        "升降",
+        "工會"
+      ]
+    },
+    {
+      "id": "ECO-005",
+      "from": "W01-Z05",
+      "to": "W01-Z01",
+      "kind": "goods_recycling",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "吊塢重軌與落物回收區存在互利物流可能",
+      "consequence": "貨物、危險品與物權可能在兩區交會",
+      "requires_verification": "是否真有直接現役航線及交易制度",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "重軌",
+        "回收",
+        "物流",
+        "物權"
+      ]
+    },
+    {
+      "id": "ECO-006",
+      "from": "W01-Z09",
+      "to": "W01-Z08",
+      "kind": "cooling_materials",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EXPLICIT_SOURCE_CANDIDATE",
+      "cause": "第09區散熱冰淵與第08區機樞存在第12章候選銘文線索",
+      "consequence": "冷卻材料與主鐘機械形成打撈／供應／研究的可能連接",
+      "requires_verification": "候選章並非正式事件，不能據此宣布現役供應線已建",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "README.md"
+      ],
+      "keywords": [
+        "散熱嶺",
+        "三號排熱冰淵",
+        "諧振母核",
+        "冷卻"
+      ]
+    },
+    {
+      "id": "ECO-007",
+      "from": "W01-Z09",
+      "to": "W01-Z11",
+      "kind": "biomedical_overlap",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "冰脈線蟲義體接口修復與第11區抗排斥血清具跨領域合作可能",
+      "consequence": "可形成醫療合作、競爭、價格與跨域病患流",
+      "requires_verification": "兩種療法並未證明相互依賴或可相互替代",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "冰脈線蟲",
+        "義體",
+        "血清",
+        "醫療",
+        "製藥"
+      ]
+    },
+    {
+      "id": "ECO-008",
+      "from": "W01-Z10",
+      "to": "W01-Z11",
+      "kind": "upstream_downstream",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EXPLICIT_SOURCE_CANDIDATE",
+      "cause": "第10區都市排放或製程可能進入第11區處理系統",
+      "consequence": "環境配額、治理差異與污染成本沿地理下移",
+      "requires_verification": "實際排水路線與法規尚未定",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "配額",
+        "排污",
+        "高科技",
+        "白庭"
+      ]
+    },
+    {
+      "id": "ECO-009",
+      "from": "W01-Z12",
+      "to": "W01-Z01",
+      "kind": "salvage_flow",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "第12區墜落殘骸打撈與第01區落物回收業可能交易",
+      "consequence": "回收材料安全、危物檢驗、失物權與技術黑市",
+      "requires_verification": "是否真有連通的物流與合法交易關係",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "打撈",
+        "落物",
+        "殘骸",
+        "回收"
+      ]
+    },
+    {
+      "id": "ECO-010",
+      "from": "W01-Z06",
+      "to": "W01-Z12",
+      "kind": "mobile_ecology",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EXPLICIT_SOURCE_CANDIDATE",
+      "cause": "巡迴爐心龜可遷移、下潛及承載龜背聚落",
+      "consequence": "沿途帶入生物、寄生、貨物與居民，影響第06與第12區",
+      "requires_verification": "固定遷移路線、龜類生態、居民與龜的同意及利益",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "keywords": [
+        "巨龜",
+        "爐心龜",
+        "龜背",
+        "遷徙",
+        "下潛"
+      ]
+    },
+    {
+      "id": "ECO-011",
+      "from": "W01-Z03",
+      "to": "W01-Z04",
+      "kind": "living_root_network",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "兩區皆有活根橋與巨木系生態候選",
+      "consequence": "可形成持續生長的道路、採材與捕食者遷徙",
+      "requires_verification": "是否同一巨木或同一根系尚未選定，不能因詞相近合併",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "keywords": [
+        "根橋",
+        "巨木",
+        "捕食",
+        "林海"
+      ]
+    },
+    {
+      "id": "ECO-012",
+      "from": "W01-Z03",
+      "to": "W01-Z05",
+      "kind": "hunting_supply",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "根橋獵物產出的藥材、潤滑物與防割布可能經交通樞紐流通",
+      "consequence": "狩獵保育、黑市轉運、工坊需求形成利益衝突",
+      "requires_verification": "活體材料貨運許可與實際供應商未確定",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "keywords": [
+        "狩獵",
+        "潤滑",
+        "貨運",
+        "藥材",
+        "根橋"
+      ]
+    },
+    {
+      "id": "ECO-013",
+      "from": "W01-Z02",
+      "to": "W01-Z05",
+      "kind": "multispecies_labor",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "紡鋼族微型工坊與吊塢運輸業存在貿易或跨區就業可能",
+      "consequence": "多族群運輸、語言及工安標準可影響鐵索工聯",
+      "requires_verification": "不能推定所有紡鋼族職業或單一族群契約",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "紡鋼族",
+        "工聯",
+        "勞動",
+        "公民權",
+        "微型工坊"
+      ]
+    },
+    {
+      "id": "ECO-014",
+      "from": "W01-Z07",
+      "to": "W01-Z05",
+      "kind": "transport_weather_risk",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "第07區蝕鐵狂風可能影響經過風廊的運輸路線",
+      "consequence": "臨時封橋、貨運保險、通訊誤譯與營運成本",
+      "requires_verification": "尚無核定兩區的現役直達道路或風季時間表",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md"
+      ],
+      "keywords": [
+        "狂風",
+        "運輸",
+        "索車",
+        "風廊"
+      ]
+    },
+    {
+      "id": "ECO-015",
+      "from": "W01-Z04",
+      "to": "W01-Z06",
+      "kind": "biotic_material_cycles",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "活體巨木的腐質、寄生或成長可能經水流／商貨進入濕地",
+      "consequence": "龜背寄生、分解者、菌林與當地生活有交叉可能",
+      "requires_verification": "實際植物物種相容性與水文需先核定",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "腐殖",
+        "根群",
+        "生物",
+        "濕地",
+        "水流"
+      ]
+    },
+    {
+      "id": "ECO-016",
+      "from": "W01-Z11",
+      "to": "W01-Z09",
+      "kind": "medical_supply_chain",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "第11區血清業與第09區義體生物醫療可能互購材料、服務",
+      "consequence": "造成跨區病患、醫療價格、技術保密與走私",
+      "requires_verification": "醫療效果可相容性未經定案；不得借現實醫學推斷",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "醫療",
+        "血清",
+        "醫藥",
+        "義體",
+        "跨區"
+      ]
+    },
+    {
+      "id": "ECO-017",
+      "from": "W01-Z03",
+      "to": "W01-Z06",
+      "kind": "invasive_species_trade",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "跨域商路與巨獸／小寄生生物若共享運輸載體",
+      "consequence": "能將外來種導入濕地、促使獵團、檢疫及保育摩擦",
+      "requires_verification": "實際跨區道路和宿主相容性不明",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "寄生",
+        "外來種",
+        "檢疫",
+        "獵團"
+      ]
+    },
+    {
+      "id": "ECO-018",
+      "from": "W01-Z10",
+      "to": "W01-Z08",
+      "kind": "maintenance_dependency",
+      "authority": "CANDIDATE_LINK_NOT_FORMAL_CANON",
+      "evidence_status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "cause": "高科技城若依賴第08區機樞供能",
+      "consequence": "維修責任、價格管制與階層差異成為政治因素",
+      "requires_verification": "與ECO-002為同一方向的治理推論，不能冒稱獨立新證據",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "keywords": [
+        "維修",
+        "電力",
+        "承包",
+        "行政",
+        "工務"
+      ]
+    }
+  ]
+}

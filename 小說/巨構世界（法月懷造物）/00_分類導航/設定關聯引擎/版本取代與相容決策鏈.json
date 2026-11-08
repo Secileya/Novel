@@ -1,0 +1,236 @@
+{
+  "schema": "mega-version-decision-v1",
+  "source_commit": "e291af700f08afaedf2ba14b849d9cb794259c9b",
+  "note": "最新版不等於全數覆蓋舊版；此表記錄『替換範圍』、『可回收舊素材』與『未經作者批准的誤推』。",
+  "records": [
+    {
+      "id": "VER-001",
+      "subject": "W01主體地圖",
+      "older": "W01 R01–R09 九大區候選結構",
+      "newer": "W01 十二大區設計方向",
+      "decision_type": "STRUCTURE_SUPERSEDED__IDEAS_REUSABLE",
+      "authoritative_scope": "以十二區作 W01 主體方向；舊九區不再是並列正式分區表",
+      "preserved": "高懸械林、巨拱陸灣、舊深水、E01井與其他地貌生態可另址或併入，須重新論證",
+      "premature_inferences_to_avoid": "直接把九區和十二區相加成21個正式區；靠同號認定舊R04=新Z04",
+      "still_open": "十二區具體地名、舊地貌的實際位置尚待選定",
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "query_terms": [
+        "W01",
+        "十二區",
+        "九區",
+        "高懸械林",
+        "地圖",
+        "巨構"
+      ]
+    },
+    {
+      "id": "VER-002",
+      "subject": "諾亞原槍復歸模組",
+      "older": "曾安裝模組可跟回的較早傾向",
+      "newer": "作者選擇深層同化B",
+      "decision_type": "AUTHOR_OVERRIDE",
+      "authoritative_scope": "已深層同化部件跟回；尚未同化、只掛接的黑銷不跟回",
+      "preserved": "舊候選關於非原廠模組、奪槍與物件唯一性仍有問題可研究",
+      "premature_inferences_to_avoid": "把舊『裝過就回』直接當最新硬規則；把黑銷留地等於安全無害",
+      "still_open": "拆卸、被搶、遠距召回等未解",
+      "source_paths": [
+        "000_現行決策與主題索引.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "04_能力武器與試煉/088_研究與試寫_諾亞首次真正死亡_意識中斷_復歸初醒的主觀感受.md"
+      ],
+      "query_terms": [
+        "原槍",
+        "黑銷",
+        "模組",
+        "同化",
+        "復歸",
+        "卡扣"
+      ]
+    },
+    {
+      "id": "VER-003",
+      "subject": "第一章雙主角關係",
+      "older": "已熟識、已有暱稱與牽手默契的舊首章試寫",
+      "newer": "作者明確選擇第一章為兩人第一次見面",
+      "decision_type": "TIMELINE_SUPERSEDED__SCENE_MOTIFS_REUSABLE",
+      "authoritative_scope": "正式第一章不得預設共同生活及既有親暱稱呼",
+      "preserved": "熟稔買票、互鬧、橋上互助等舊片段可移作後期、改寫或作畫面素材",
+      "premature_inferences_to_avoid": "以第66份舊候選作正式初遇並讓角色互知多年私事",
+      "still_open": "初見正式地理、如何同行與後續關係速度未選",
+      "source_paths": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md"
+      ],
+      "query_terms": [
+        "第一章",
+        "第一次見面",
+        "初遇",
+        "暱稱",
+        "買票"
+      ]
+    },
+    {
+      "id": "VER-004",
+      "subject": "瑟莉思媞第一次見雙主角",
+      "older": "第051〈第三個座位〉原為未選純候選",
+      "newer": "作者選定作未來正文場景",
+      "decision_type": "AUTHOR_SELECTED_NOT_OCCURRED",
+      "authoritative_scope": "第051人物生活感、甜餅、普通告別及初見核心已選；尚未寫入正式章節",
+      "preserved": "場景可為路線與小幅技術調整，不應洗掉人物情緒",
+      "premature_inferences_to_avoid": "把已選場景降回普通棄稿，或宣稱已在正式第X章發生",
+      "still_open": "未定章號、街區、兩人相處天數",
+      "source_paths": [
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+        "03_人物關係與語感/006_絕對管理者少女.md"
+      ],
+      "query_terms": [
+        "第三個座位",
+        "Celeste初遇",
+        "甜餅",
+        "未來正文"
+      ]
+    },
+    {
+      "id": "VER-005",
+      "subject": "瑟莉思媞形象",
+      "older": "早期金髮紅瞳與始終親切微笑類型錯讀",
+      "newer": "霜青冰藍髮與亮紫眼；清冷常態及真誠笑容可共存",
+      "decision_type": "APPEARANCE_OVERRIDE__EMOTION_COMPLEMENT",
+      "authoritative_scope": "正式外觀與神態遵第006後出確認",
+      "preserved": "早年非衝突的可愛、溫柔、玩心依然可用；服飾候選可共存",
+      "premature_inferences_to_avoid": "把舊金髮紅瞳復原，或把近期可愛演出當作她永遠笑",
+      "still_open": "服裝細節和當下感受依場景、非固定表情",
+      "source_paths": [
+        "03_人物關係與語感/006_絕對管理者少女.md"
+      ],
+      "query_terms": [
+        "Celeste",
+        "瑟莉思媞",
+        "髮色",
+        "紅瞳",
+        "紫眼",
+        "清冷",
+        "溫柔"
+      ]
+    },
+    {
+      "id": "VER-006",
+      "subject": "艾莉維亞外貌與人格",
+      "older": "從白髮／冷色外觀推成永遠寡言、冷淡的新性格",
+      "newer": "作者否定外貌更改人格；白髮可伴獨立能力質變但原理未決",
+      "decision_type": "INTERPRETATION_REVOKED__CHARACTER_DNA_PRESERVED",
+      "authoritative_scope": "不因髮色變化重置既定雙向吐槽、玩笑與完整人格",
+      "preserved": "白髮危險、愉悅或極冷神態都可依事件適用",
+      "premature_inferences_to_avoid": "白髮=第二人格、白髮必殺人、深藍永遠理性不笑",
+      "still_open": "白髮真能力、觸發與完整維持條件",
+      "source_paths": [
+        "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md",
+        "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md"
+      ],
+      "query_terms": [
+        "艾莉維亞",
+        "白髮",
+        "深青藍",
+        "第二人格",
+        "語氣",
+        "能力"
+      ]
+    },
+    {
+      "id": "VER-007",
+      "subject": "艾莉維亞復活規則",
+      "older": "模糊的女主會不會也有相同復活",
+      "newer": "作者確認她沒有 Celeste 給諾亞的同型復歸",
+      "decision_type": "SPECIFIC_EXCLUSION_NOT_UNIVERSAL_NEGATION",
+      "authoritative_scope": "不能共享諾亞同型復歸",
+      "preserved": "其他治療、醫療及可能的非同型復活途徑仍可研究",
+      "premature_inferences_to_avoid": "把『沒有同型復歸』擴寫成『全宇宙不可能復活』",
+      "still_open": "其他技術是否存在及具體適用條件",
+      "source_paths": [
+        "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "04_能力武器與試煉/088_研究與試寫_諾亞首次真正死亡_意識中斷_復歸初醒的主觀感受.md"
+      ],
+      "query_terms": [
+        "艾莉維亞",
+        "復活",
+        "不死",
+        "復歸",
+        "死亡"
+      ]
+    },
+    {
+      "id": "VER-008",
+      "subject": "靜謐／終焉／不思議迴廊",
+      "older": "Path of Pain 舊稱及公開挑戰式遊戲場讀法",
+      "newer": "靜謐為獨立隱藏高難地；終焉為不同單向越界；不思議亦不同",
+      "decision_type": "LOCATION_DISTINCTION__OLD_CONCEPT_REUSED",
+      "authoritative_scope": "舊 Path of Pain 指靜謐；普通公開高危地域可有真實地理與危險，不等於售票關卡",
+      "preserved": "舊版高危氣候、生態與匿名挑戰動作可保留作真實危區候選",
+      "premature_inferences_to_avoid": "三迴廊混合、所有公開地域自帶模組獎勵",
+      "still_open": "各自入口、彼端、具體裝置仍有未決",
+      "source_paths": [
+        "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "000_現行決策與主題索引.md",
+        "舊資料_勘誤/02_候選與未決隔離.md"
+      ],
+      "query_terms": [
+        "靜謐",
+        "終焉",
+        "不思議",
+        "Path of Pain",
+        "公開版",
+        "遊戲關卡"
+      ]
+    },
+    {
+      "id": "VER-009",
+      "subject": "W04都市制度",
+      "older": "萬律專利城邦／二十四工坊冠域初版",
+      "newer": "後出萬噸配重裁定國／四柱衡城版本",
+      "decision_type": "PARALLEL_CANDIDATES__NO_AUTHOR_OVERRIDE",
+      "authoritative_scope": "兩版仍候選；新名字不是作者批准必然取代",
+      "preserved": "技術壟斷、專利經濟、配重與工業政治可合城、同世界層不同城或競爭",
+      "premature_inferences_to_avoid": "只因《Project Moon》風格相似就刪初版",
+      "still_open": "法域、經濟、政治與 W04 地理落點",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "000_現行決策與主題索引.md"
+      ],
+      "query_terms": [
+        "W04",
+        "萬律",
+        "萬噸",
+        "工坊",
+        "都市",
+        "配重"
+      ]
+    },
+    {
+      "id": "VER-010",
+      "subject": "正式故事狀態",
+      "older": "部分候選檔標『正式』或『第X章』",
+      "newer": "專案現行明確仍為0章／PREWRITE HOLD",
+      "decision_type": "AUTHORITY_STATUS_NO_AUTO_UPGRADE",
+      "authoritative_scope": "第1–12章完整候選有可讀連續稿，但不構成已發生 Canon",
+      "preserved": "候選篇章中有效的人物演出、工程草圖與生活素材可回收",
+      "premature_inferences_to_avoid": "把已入main或候選稿裡發生的事件當正式已發生故事史",
+      "still_open": "正式章節採納日程及真正進度",
+      "source_paths": [
+        "README.md",
+        "000_現行決策與主題索引.md"
+      ],
+      "query_terms": [
+        "第十二章",
+        "第十三章",
+        "PREWRITE",
+        "正式正文",
+        "候選章"
+      ]
+    }
+  ]
+}
