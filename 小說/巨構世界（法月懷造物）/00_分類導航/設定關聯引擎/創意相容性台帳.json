@@ -1,6 +1,6 @@
 {
   "schema": "mega-creative-compatibility-v1",
-  "source_snapshot": "97d9c580a2eadee72ed185e78b0de49f07388db9",
+  "source_snapshot": "fd887e1d81c6250c36ab6583bb4acf331acdee30",
   "warning": "分類與素材來自對應 GitHub 原始資料；zone名稱、地貌與技術機制多為候選。作者採納的是某些方向，不代表列表全成正史。",
   "default_review": "PRESERVE_OLDER_IDEA_UNTIL_PROVEN_INCOMPATIBLE",
   "map_versions": {
@@ -749,6 +749,533 @@
         "原版本並非錯誤或強制排除",
         "前文明懸星與工程艦來源尚未定"
       ]
+    },
+    {
+      "id": "IDEA-GEO-011",
+      "label": "遷巒帶：會緩慢位移的承載座",
+      "tags": [
+        "地貌",
+        "遷巒",
+        "工程",
+        "旅途"
+      ],
+      "summary": "遷巒帶：會緩慢位移的承載座；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_W01_OR_OTHER"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "運動週期",
+        "橋樑与居民路網",
+        "地震與承載因果"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-GEO-012",
+      "label": "雙晝穹原：能看見另一片土地的人工／自然天幕",
+      "tags": [
+        "地貌",
+        "雙晝",
+        "天空",
+        "世界層"
+      ],
+      "summary": "雙晝穹原：能看見另一片土地的人工／自然天幕；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_W01_OR_OTHER"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "光照來源",
+        "視線可及與交通可及不可混淆"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-GEO-013",
+      "label": "雨根林海：支架上成長的濕潤植物世界",
+      "tags": [
+        "地貌",
+        "雨根",
+        "生態",
+        "巨樹"
+      ],
+      "summary": "雨根林海：支架上成長的濕潤植物世界；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md"
+      ],
+      "possible_placement": [
+        "W01-Z03",
+        "W01-Z04",
+        "OTHER_UNLOCATED"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "空氣濕度與生產者",
+        "根系負重與交通",
+        "不是新十二區必採既有地名"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-GEO-014",
+      "label": "垂潮裂灣：縱向層疊的潮灣與水域",
+      "tags": [
+        "地貌",
+        "垂潮",
+        "海盆",
+        "潮汐",
+        "生態"
+      ],
+      "summary": "垂潮裂灣：縱向層疊的潮灣與水域；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md"
+      ],
+      "possible_placement": [
+        "W01-Z06",
+        "OTHER_UNLOCATED"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "潮汐能源與地形",
+        "水路、社會防災",
+        "與舊海盆不能直接認同址"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-GEO-015",
+      "label": "白脈寂原：白色散熱荒地",
+      "tags": [
+        "地貌",
+        "白脈",
+        "散熱",
+        "極寒"
+      ],
+      "summary": "白脈寂原：白色散熱荒地；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md"
+      ],
+      "possible_placement": [
+        "W01-Z09",
+        "OTHER_UNLOCATED"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "熱交換與危險尺度",
+        "不因同樣極寒就自動等於霜脈散熱嶺"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-GEO-016",
+      "label": "錯岸天峽：目視近、實際路程遙遠的異尺度對岸",
+      "tags": [
+        "地貌",
+        "錯岸",
+        "峽谷",
+        "交通"
+      ],
+      "summary": "錯岸天峽：目視近、實際路程遙遠的異尺度對岸；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_W01_OR_OTHER"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "路網是否存在",
+        "貨運與居民資訊邊界"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-ECO-017",
+      "label": "深淵岩壁階梯、墜落者與下方飲食文化",
+      "tags": [
+        "深淵",
+        "墜落",
+        "屍體",
+        "食物",
+        "文化",
+        "地理"
+      ],
+      "summary": "深淵岩壁階梯、墜落者與下方飲食文化；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/044_討論續錄_豎向深淵階梯_墜落者_下方食物與地方習俗.md"
+      ],
+      "possible_placement": [
+        "W01-Z12",
+        "OTHER_ABYSS_UNLOCATED"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "下方聚落飲食來源與倫理差異",
+        "自殺、喪葬、謀殺與意外各自因果",
+        "不把所有下方居民寫成吃人"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-GEO-018",
+      "label": "嵌入完整局部深淵與不同的回升風險",
+      "tags": [
+        "深淵",
+        "詛咒",
+        "世界層",
+        "生態"
+      ],
+      "summary": "嵌入完整局部深淵與不同的回升風險；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md"
+      ],
+      "possible_placement": [
+        "OTHER_ABYSS_UNLOCATED"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "全巨構絕界行與局部深淵不可混稱",
+        "局部生態、詛咒機理與生物適性須獨立核定"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-SOC-019",
+      "label": "跨群落搬家、救援養育、追查、逃亡與遠征暫居",
+      "tags": [
+        "人口",
+        "混居",
+        "遷徙",
+        "難民",
+        "救援",
+        "社會"
+      ],
+      "summary": "跨群落搬家、救援養育、追查、逃亡與遠征暫居；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/094_後出補充_跨群落居民成因_遷居生存救援追查旅遊遠征與混居社會.md"
+      ],
+      "possible_placement": [
+        "W01-Z02",
+        "W01-Z05",
+        "MANY_REGIONS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "各族群真實個人史",
+        "居留法規與社會網",
+        "個人動機不由族群外觀自動決定"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-SOC-020",
+      "label": "跨群落遠征者認證／通緝與真正職業生計",
+      "tags": [
+        "遠征",
+        "證照",
+        "委託",
+        "通緝",
+        "跨層",
+        "公會"
+      ],
+      "summary": "跨群落遠征者認證／通緝與真正職業生計；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/098_完整研究候選_冒險者遠征者等級_跨群落認證委託通緝.md"
+      ],
+      "possible_placement": [
+        "W01-Z05",
+        "MANY_REGIONS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "職級不是戰力公式",
+        "跨法域承認與保險",
+        "具體五級名稱仍候選"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-SOC-021",
+      "label": "跨層帝國、城市聯盟、商路協約與移動領土",
+      "tags": [
+        "帝國",
+        "城市",
+        "政治",
+        "龜背",
+        "社會",
+        "法域"
+      ],
+      "summary": "跨層帝國、城市聯盟、商路協約與移動領土；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "possible_placement": [
+        "W01-Z06",
+        "W04-CANDIDATE",
+        "MANY_WORLD_LAYERS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "名義/物流/行政/文化四種控制軸",
+        "國家不是壟斷每一個小洞",
+        "名字與國界未核定"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-SOC-022",
+      "label": "族群與高危生態的保護、採集與工業制度",
+      "tags": [
+        "生態",
+        "保育",
+        "工坊",
+        "採集",
+        "狩獵",
+        "環境"
+      ],
+      "summary": "族群與高危生態的保護、採集與工業制度；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "possible_placement": [
+        "W01-Z03",
+        "W01-Z04",
+        "W01-Z11"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "地方狩獵與保育制度的實權",
+        "採集供應鏈",
+        "居民不能只當危險背景"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-HIS-023",
+      "label": "Celeste 願望祭壇有真靈驗、失效、他文明技術、民俗詐術多種",
+      "tags": [
+        "Celeste",
+        "祭壇",
+        "願望",
+        "信仰",
+        "技術",
+        "歷史"
+      ],
+      "summary": "Celeste 願望祭壇有真靈驗、失效、他文明技術、民俗詐術多種；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_MULTIPLE_WORLD_LAYERS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "每一座具體祭壇的客觀真相要分開",
+        "真能實現大願望不等於必然惡意曲解",
+        "不把同名傳說混成同一座"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-HIS-024",
+      "label": "前文明神學與超技術解釋的歷代資料衝突",
+      "tags": [
+        "Celeste",
+        "前文明",
+        "歷史",
+        "科學",
+        "宗教"
+      ],
+      "summary": "前文明神學與超技術解釋的歷代資料衝突；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_MULTIPLE_WORLD_LAYERS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "研究者證據與知識邊界",
+        "失傳檔案的誤讀與政治使用",
+        "不讓每份古書成為全知指南"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-HIS-025",
+      "label": "商旅、郵務、宗教與學術各自因傳說變化",
+      "tags": [
+        "商旅",
+        "旅行",
+        "郵務",
+        "Celeste",
+        "傳說"
+      ],
+      "summary": "商旅、郵務、宗教與學術各自因傳說變化；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "possible_placement": [
+        "MANY_REGIONS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "故事聚焦小人物的自主抉擇",
+        "不必讓每位旅人都見到Celeste本人"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-CEL-026",
+      "label": "春日未至之壇：冰雪古門與世代聚落",
+      "tags": [
+        "祭壇",
+        "冰雪",
+        "願望",
+        "Celeste",
+        "地貌"
+      ],
+      "summary": "春日未至之壇：冰雪古門與世代聚落；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/20261108_Celeste跨世界痕跡_暗影祭壇傳說_啟發文明與長線回聲_創意候選.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_ICE_REGION"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "C02具名場地仍非正史",
+        "既有作者指定視覺配對",
+        "地理、真願望結果及年代仍待定"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-CEL-027",
+      "label": "未寄出的風景庭：綠色環孔建築與私人景觀",
+      "tags": [
+        "風景庭",
+        "景觀",
+        "植物",
+        "Celeste",
+        "旅行"
+      ],
+      "summary": "未寄出的風景庭：綠色環孔建築與私人景觀；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/20261108_Celeste跨世界痕跡_暗影祭壇傳說_啟發文明與長線回聲_創意候選.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_GREEN_REGION"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "C03仍是候選",
+        "視覺參考與正式世界地點不可混淆"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-CEL-028",
+      "label": "遷徙獸群的空白走廊：地理改造後的自主生態",
+      "tags": [
+        "遷徙",
+        "巨獸",
+        "寄生",
+        "商路",
+        "Celeste",
+        "生態"
+      ],
+      "summary": "遷徙獸群的空白走廊：地理改造後的自主生態；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/20261108_Celeste跨世界痕跡_暗影祭壇傳說_啟發文明與長線回聲_創意候選.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_MULTIPLE_WORLD_LAYERS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "Celeste可能只在上古設置環境",
+        "後續生態和政治發展自走",
+        "不把每次獸群襲擊寫成她操控"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-HIS-029",
+      "label": "消失第七城及不同歷代行政記錄",
+      "tags": [
+        "第七城",
+        "戶籍",
+        "歷史",
+        "前文明",
+        "城市"
+      ],
+      "summary": "消失第七城及不同歷代行政記錄；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "01_世界本體與文明/20261108_Celeste跨世界痕跡_暗影祭壇傳說_啟發文明與長線回聲_創意候選.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_HISTORICAL"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "C05故事真相仍非正史",
+        "不自動推導Celeste改寫所有城市歷史"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "IDEA-SOC-030",
+      "label": "文明工程老化變成後世自然地理",
+      "tags": [
+        "巨構",
+        "文明",
+        "演替",
+        "工程",
+        "生態",
+        "地貌"
+      ],
+      "summary": "文明工程老化變成後世自然地理；保留來源的完整候選內容與人物／社會後果，本文僅作觸發式導覽。",
+      "source_paths": [
+        "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md"
+      ],
+      "possible_placement": [
+        "MANY_WORLD_LAYERS"
+      ],
+      "compatibility": "PRESERVE_AS_REUSABLE_ASSET__EXACT_LOCATION_NOT_SELECTED",
+      "checks": [
+        "先有巨構環境、後來文明在其中建造",
+        "三代工程與自然侵蝕可交錯",
+        "原型αβγ不是正式三世界層"
+      ],
+      "authority": "CANDIDATE_OR_AUTHOR_DIRECTION_WITH_CANDIDATE_DETAILS",
+      "canon_appearance": "NOT_ESTABLISHED"
     }
   ],
   "compatibility_decisions": [

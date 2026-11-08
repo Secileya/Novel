@@ -50,7 +50,7 @@ function readAll() {
   const known = new Set(inventory.files.map(f => f.path));
   function walk(dir, relative) {
     for (const e of fs.readdirSync(dir, { withFileTypes:true })) {
-      if (e.name === ".git" || e.name === "node_modules" || e.name === "設定關聯引擎") continue;
+      if (e.name === ".git" || e.name === "node_modules" || e.name === "設定關聯引擎" || (relative === "" && e.name === "AGENTS.md")) continue;
       const rel = relative ? relative + "/" + e.name : e.name;
       if (e.isDirectory()) walk(path.join(dir, e.name), rel);
       else if (e.isFile() && validTextPath(rel) && !known.has(rel)) {
@@ -68,6 +68,37 @@ function getHead() {
   try { return execFileSync("git", ["rev-parse", "HEAD"], {cwd:PROJECT,encoding:"utf8",stdio:["ignore","pipe","ignore"]}).trim(); }
   catch (_) { return "UNKNOWN_NOT_A_LOCAL_GIT_CHECKOUT"; }
 }
+function sourceDrift() {
+  // Compare latest committed Git source blobs, not working-copy CRLF bytes on Windows.
+  try {
+    const top = execFileSync("git",["rev-parse","--show-toplevel"],{
+      cwd:PROJECT,encoding:"utf8",stdio:["ignore","pipe","ignore"]}).trim();
+    const prefix = path.relative(top,PROJECT).split(path.sep).join("/");
+    const tree = execFileSync("git",["ls-tree","-r","-z","HEAD","--",prefix],{
+      cwd:top,encoding:"buffer",maxBuffer:20*1024*1024});
+    const current = new Map();
+    for (const item of tree.toString("utf8").split("\0")) {
+      const tab = item.indexOf("\t");
+      if(tab < 0) continue;
+      const data = item.slice(0,tab).split(" ");
+      const full = item.slice(tab+1);
+      if(!full.startsWith(prefix+"/"))continue;
+      const p=full.slice(prefix.length+1);
+      if(p==="AGENTS.md" || p.startsWith("00_分類導航/設定關聯引擎/"))continue;
+      current.set(p,data[2]);
+    }
+    const prior=new Map(inventory.files.map(f=>[f.path,f.git_blob_sha]));
+    const changed=[], added=[], removed=[];
+    for(const [p,sha] of current) {
+      if(!prior.has(p))added.push(p);
+      else if(prior.get(p)!==sha)changed.push(p);
+    }
+    for(const p of prior.keys())if(!current.has(p))removed.push(p);
+    return {available:true,changed,added,removed,
+      stale:changed.length>0||added.length>0||removed.length>0};
+  }catch(e) {return {available:false,stale:true,reason:String(e.message).slice(0,220)};}
+}
+
 function ruleTriggers(rule, q) {
   return (rule.triggers || []).filter(t => contains(q,t));
 }
@@ -82,14 +113,15 @@ function identify(q) {
   }
   return {direct:unique(names), expanded:unique(cur)};
 }
+function expandChildren(container) { return Array.isArray(container.children) ? container.children : []; }
 function getZones(q, ids) {
-  const w = creativity.map_versions.primary.children;
-  const old = creativity.map_versions.legacy.children;
+  const w = expandChildren(creativity.map_versions.primary);
+  const old = expandChildren(creativity.map_versions.legacy);
   const zoneNamed = w.some(z => (z.aliases || []).some(a => a.length > 2 && contains(q,a)));
   const legacyNamed = old.some(z => contains(q,z.name));
   const w01 = /w[\s-]?0?1\b/i.test(q) || /十二[大個]?區|12[大個]?區|九[大個]?區|9[大個]?區/.test(q);
   // A parent or any known child triggers full expansion, never just most-similar children.
-  const expand = w01 || zoneNamed || legacyNamed || ids.expanded.includes("w01");
+  const expand = w01 || zoneNamed || legacyNamed || ids.direct.includes("w01");
   return expand ? {mode:"W01_FULL_CONTAINER_EXPANSION",count:w.length,active_design_children:w,
      legacy_status:creativity.map_versions.legacy.status,legacy_count:old.length,legacy_candidates:old,
      caveat:"12分區為作者方向，個別名稱／技術／社會細節仍有候選層；舊9區不自動刪生態或自動同址"} :
@@ -190,6 +222,7 @@ function query(q, corpus) {
       excerpts:d?excerpts(d.body,terms):[]};
   });
   const missingMustRead=opened.filter(x=>!x.available && x.required_by_rule).map(x=>x.path);
+  const drift = sourceDrift();
   const versionFindings = zones.count ? creativity.compatibility_decisions.filter(x=>x.id.startsWith("MAP-")) : [];
   if (/w04|萬律|萬噸|配重裁定|專利城/i.test(q)) versionFindings.push(...creativity.compatibility_decisions.filter(x=>x.id==="SOCIETY-PAIR-01"));
   return {
@@ -202,9 +235,9 @@ function query(q, corpus) {
     relevant_claims:claims, creative_candidate_ideas:ideas,
     version_decisions:versionFindings,
     searched_terms:terms, selected_sources:opened,
-    missing_rule_sources:missingMustRead,
+    missing_rule_sources:missingMustRead, source_index_drift:drift,
     confidence_note:"此工具可驗證有掃描哪些本機檔案、命中哪些文字與子節點；不是語義全知或新對話自動執行證明。作者/AI仍需讀足來源全段，判定衝突、知情界線、候選生效範圍，並附回執。",
-    status:corpus.missing.length===0&&missingMustRead.length===0?"SOURCE_FILES_READ__SEMANTIC_QA_PENDING":"INCOMPLETE_SOURCE_RETRIEVAL"
+    status:corpus.missing.length===0&&missingMustRead.length===0&&!drift.stale?"SOURCE_FILES_READ__SEMANTIC_QA_PENDING":"INDEX_STALE_OR_INCOMPLETE__RECHECK_SOURCES"
   };
 }
 function integrity(corpus) {
@@ -218,13 +251,14 @@ function integrity(corpus) {
   const known=new Set(corpus.read.map(x=>x.path));
   const missing=sources.filter(p=>!known.has(p));
   const collisions=graph.claims.map(x=>x.id).filter((x,i,a)=>a.indexOf(x)!==i);
-  const children=creativity.map_versions.primary.children;
-  const legacy=creativity.map_versions.legacy.children;
+  const children=expandChildren(creativity.map_versions.primary);
+  const legacy=expandChildren(creativity.map_versions.legacy);
+  const drift=sourceDrift();
   return {files_in_inventory:inventory.files_count,read:corpus.read.length,
     missing_original_files:corpus.missing,unindexed_new_source_files:corpus.extras,
-    missing_reference_paths:missing,duplicated_claim_ids:collisions,
+    missing_reference_paths:missing,duplicated_claim_ids:collisions,source_index_drift:drift,
     active_w01_children:children.length,old_w01_children:legacy.length,
-    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&children.length===12&&legacy.length===9};
+    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&children.length===12&&legacy.length===9&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -237,7 +271,7 @@ function selfTest(corpus) {
   assert(three.creative_candidate_ideas.some(x=>x.id==="IDEA-ECO-008"));
   const fixture=JSON.parse(fs.readFileSync(path.join(HOME,"合成檢索測例.json"),"utf8"));
   const roomCase=fixture.cases.find(x=>x.name.includes("十個"));
-  assert.equal(roomCase.given.contains.length,10);
+  assert.equal(expandChildren({children:roomCase.given.contains}).length,10);
   // The fixture is deliberately isolated from the giant-world Canon JSON.
   assert(!graph.entities.some(x=>x.id==="A"));
   return {ok:true,checks:["Celeste injury hard rule", "gun assimilation override",
@@ -262,5 +296,5 @@ if(args.includes("--check")) {
     fs.writeFileSync(path.resolve(writeTo),output,"utf8");
   }
   process.stdout.write(output);
-  if(result.status==="INCOMPLETE_SOURCE_RETRIEVAL")process.exitCode=2;
+  if(result.status!=="SOURCE_FILES_READ__SEMANTIC_QA_PENDING")process.exitCode=2;
 }
