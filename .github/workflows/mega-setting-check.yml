@@ -1,0 +1,28 @@
+name: 巨構設定索引查詢器驗證
+on:
+  push:
+    paths:
+      - '小說/巨構世界（法月懷造物）/**'
+      - '.github/workflows/mega-setting-check.yml'
+  pull_request:
+    paths:
+      - '小說/巨構世界（法月懷造物）/**'
+      - '.github/workflows/mega-setting-check.yml'
+jobs:
+  settings-query-test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Script syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs'
+      - name: Source path integrity
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs' --check
+      - name: Synthetic and real regression checks
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs' --self-test
+      - name: Example retrieval receipt
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs' --query 'W01 十二區與舊九區的生態相容性' --receipt "$RUNNER_TEMP/giant-setting-receipt.json" > "$RUNNER_TEMP/giant-setting-stdout.json"

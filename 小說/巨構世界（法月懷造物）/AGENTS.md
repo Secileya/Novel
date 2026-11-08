@@ -11,3 +11,5 @@
 8. 不寫正文（本次維護任務）；`PREWRITE HOLD` 有效，正式正文 0 章。
 
 **注意能力邊界：** `AGENTS.md` 只能約束實際載入它的 AI 代理。沒有檔案讀取／GitHub 工具時，普通聊天模型不會神奇自動執行上述檢索；應明確回報此限制。
+## 每次討論必查（本機檢索入口）
+有完整本機 Git checkout 的 AI：使用 Node.js 20+ 執行 `node "00_分類導航/設定關聯引擎/查詢.mjs" --query "本輪問題" --receipt "本輪查詢回執.json"`（工作目錄為本巨構專案）。對照回執中的 `selected_sources` 完整閱讀必要來源、`container_expansion` 的所有子節點、`version_decisions` 與候選素材，才能回答。離線工具不是新聊天自動記憶；無法實際執行則如實說明已讀範圍，不得造假檢索回執。
