@@ -1,0 +1,91 @@
+{
+  "schema": "mega-semantic-coverage-v1",
+  "inventory_source_commit": "a7c85cf56e25640c70b9172b43ec66b4c11c2a4d",
+  "physical_files": 335,
+  "semantic_full_file_review_count": "NOT_MEASURED__DO_NOT_CLAIM",
+  "structured_rule_count": 21,
+  "creative_asset_count": 30,
+  "temporal_constraint_count": 12,
+  "causal_candidate_edge_count": 18,
+  "version_decision_count": 10,
+  "registered_container_count": 3,
+  "distinct_original_source_paths_with_some_structured_reference": 49,
+  "warning": "File references are not complete semantic verification. Unreferenced files may contain important Canon and reusable creative ideas.",
+  "source_categories": {
+    "00_分類導航": {
+      "physical": 8,
+      "referenced": 0,
+      "bytes": 101628
+    },
+    "01_世界本體與文明": {
+      "physical": 25,
+      "referenced": 13,
+      "bytes": 409797
+    },
+    "02_地圖拓撲與交通": {
+      "physical": 24,
+      "referenced": 8,
+      "bytes": 305265
+    },
+    "03_人物關係與語感": {
+      "physical": 32,
+      "referenced": 9,
+      "bytes": 514199
+    },
+    "04_能力武器與試煉": {
+      "physical": 26,
+      "referenced": 7,
+      "bytes": 390462
+    },
+    "05_場景視覺與參考": {
+      "physical": 14,
+      "referenced": 0,
+      "bytes": 228805
+    },
+    "06_敘事規劃與工作流": {
+      "physical": 34,
+      "referenced": 4,
+      "bytes": 707170
+    },
+    "07_候選故事與場景": {
+      "physical": 24,
+      "referenced": 0,
+      "bytes": 443501
+    },
+    "08_交接勘誤與決議": {
+      "physical": 28,
+      "referenced": 1,
+      "bytes": 309697
+    },
+    "09_跨AI原始來源": {
+      "physical": 6,
+      "referenced": 0,
+      "bytes": 1025465
+    },
+    "交接稽核": {
+      "physical": 1,
+      "referenced": 0,
+      "bytes": 11525
+    },
+    "地圖": {
+      "physical": 13,
+      "referenced": 0,
+      "bytes": 217320
+    },
+    "待定正文": {
+      "physical": 90,
+      "referenced": 1,
+      "bytes": 2393394
+    },
+    "專案根目錄": {
+      "physical": 6,
+      "referenced": 3,
+      "bytes": 395783
+    },
+    "舊資料_勘誤": {
+      "physical": 4,
+      "referenced": 3,
+      "bytes": 135135
+    }
+  }
+}
