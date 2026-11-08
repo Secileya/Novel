@@ -1,0 +1,457 @@
+{
+  "schema": "mega-crosslayer-civilization-ecosystem-v1",
+  "notice": "每條跨層/社會/生態邊的來源權威分開。確認『可有跨層帝國／微小生物／巨大隔界』不代表某一具名帝國已統治一層或某條物種走廊已實際成立。",
+  "edge_count": 22,
+  "edges": [
+    {
+      "id": "XDEP-001",
+      "from": "K01_LEGACY",
+      "to": "W02",
+      "mechanism": "折返厚殼帶重力與視覺錯位，可能影響斜壁人與風帆車隊",
+      "kind": "geology_to_labor",
+      "status": "SOURCE_CANDIDATE",
+      "impact": "工程通道選址、人員裝備和車隊返程需依實際重力場分層",
+      "uncertainty": "G-K01同端點不代表完整同地；未證任何安全通路",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "triggers": [
+        "W02",
+        "折殼",
+        "倒懸",
+        "斜壁人",
+        "K01"
+      ]
+    },
+    {
+      "id": "XDEP-002",
+      "from": "W02",
+      "to": "W04",
+      "mechanism": "斷折主脊或G版斜向爬升結構限制交通",
+      "kind": "geology_to_trade",
+      "status": "SOURCE_CANDIDATE",
+      "impact": "橋工、保險、維修與政治稅關成本可能相連",
+      "uncertainty": "K03端點只為候選，沒有真現役運輸",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "triggers": [
+        "W02",
+        "W04",
+        "K03",
+        "主脊"
+      ]
+    },
+    {
+      "id": "XDEP-003",
+      "from": "W03",
+      "to": "W04",
+      "mechanism": "舊K04高熱壓差與散熱工程",
+      "kind": "environment_to_transport",
+      "status": "SOURCE_CANDIDATE",
+      "impact": "保溫設備、通風作業、耐熱物種、低壓安全與供應鏈",
+      "uncertainty": "G-K04端點為W02/W03，兩個K04不可默合",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md"
+      ],
+      "triggers": [
+        "W03",
+        "W04",
+        "熱交換",
+        "K04"
+      ]
+    },
+    {
+      "id": "XDEP-004",
+      "from": "W03",
+      "to": "W05",
+      "mechanism": "舊K10水熱氣流與候選G-K09接近",
+      "kind": "climate_to_ecology",
+      "status": "SOURCE_CANDIDATE_WITH_VERSION_COLLISION",
+      "impact": "冷凝水、植物繁殖、農田、醫療微生物與調節管道可能互相影響",
+      "uncertainty": "同端點並不足以證實G-K09是舊K10改名",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "triggers": [
+        "K10",
+        "G-K09",
+        "水熱",
+        "環境"
+      ]
+    },
+    {
+      "id": "XDEP-005",
+      "from": "W04",
+      "to": "W05",
+      "mechanism": "巨大根座與曲殼生態承重",
+      "kind": "living_infrastructure",
+      "status": "SOURCE_CANDIDATE",
+      "impact": "根橋農業、工匠維修、保護地與跨法域貨運可交會",
+      "uncertainty": "K05不一定全境危險或具有安全公共線",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "triggers": [
+        "W04",
+        "W05",
+        "K05",
+        "根系"
+      ]
+    },
+    {
+      "id": "XDEP-006",
+      "from": "W04",
+      "to": "W06",
+      "mechanism": "高位懸斷梁與真空隙",
+      "kind": "broken_infrastructure_to_access",
+      "status": "SOURCE_CANDIDATE",
+      "impact": "客貨替代線、專業飛航與隔離工務站供應成本",
+      "uncertainty": "視線可見不證明可飛或安全跨界",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "triggers": [
+        "W04",
+        "W06",
+        "K06",
+        "懸斷"
+      ]
+    },
+    {
+      "id": "XDEP-007",
+      "from": "W05",
+      "to": "W06",
+      "mechanism": "舊K07殼裙風隙與候選G-K07異端點",
+      "kind": "wind_ecology_to_transport",
+      "status": "SOURCE_CANDIDATE_WITH_VERSION_COLLISION",
+      "impact": "季候遷徙路、起降與風隙居民生活可互相影響",
+      "uncertainty": "不可把兩版K07的W06/W07端點互換",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md"
+      ],
+      "triggers": [
+        "K07",
+        "風隙",
+        "飛航"
+      ]
+    },
+    {
+      "id": "XDEP-008",
+      "from": "W02",
+      "to": "W07",
+      "mechanism": "舊K08柱壁縱深運輸與生活聚落",
+      "kind": "industrial_pillar_to_polity",
+      "status": "SOURCE_CANDIDATE_WITH_VERSION_COLLISION",
+      "impact": "如果電梯運作，需供電、維修、工會與路權；斷電會影響世代居民",
+      "uncertainty": "G-K08另為W06/W07，且舊K08電梯沒有營運證據",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "triggers": [
+        "K08",
+        "柱芯",
+        "電梯",
+        "W07"
+      ]
+    },
+    {
+      "id": "XDEP-009",
+      "from": "W07",
+      "to": "W06",
+      "mechanism": "舊K09極長距離側脊",
+      "kind": "distance_to_economy",
+      "status": "SOURCE_CANDIDATE_WITH_VERSION_COLLISION",
+      "impact": "長途補給、交通稅費、驛站和家族商網可比戰鬥威脅更重要",
+      "uncertainty": "G-K09改指W03/W05，不得在宏觀圖直接接錯",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "triggers": [
+        "K09",
+        "W07",
+        "W06",
+        "驛站"
+      ]
+    },
+    {
+      "id": "XDEP-010",
+      "from": "W01",
+      "to": "W03",
+      "mechanism": "舊K02沉積裂海的漁民與水運",
+      "kind": "waterway_to_trade",
+      "status": "SOURCE_CANDIDATE",
+      "impact": "漁產、浮棲生物、船隻、潮汐航道與雙向物流成本",
+      "uncertainty": "不能推導第06區濕地直接與K02同一水系",
+      "source_paths": [
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "triggers": [
+        "K02",
+        "W01",
+        "W03",
+        "漁業",
+        "水運"
+      ]
+    },
+    {
+      "id": "XDEP-011",
+      "from": "cross_layer_empire",
+      "to": "transport_rights",
+      "mechanism": "跨世界層帝國真統治需要道路、軍事與補給",
+      "kind": "polity_to_transport",
+      "status": "AUTHOR_ALLOWED_DIRECTION__IMPLEMENTATION_CANDIDATE",
+      "impact": "若宣稱有三層行省則需貨運、供能、法律、通信、地方行政鏈",
+      "uncertainty": "承光帝統只是候選名且沒有正式佔有W02等任何世界層",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md",
+        "01_世界本體與文明/098_完整研究候選_冒險者遠征者等級_跨群落認證委託通緝.md",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "triggers": [
+        "帝國",
+        "跨層",
+        "軍列",
+        "行省"
+      ]
+    },
+    {
+      "id": "XDEP-012",
+      "from": "portable_credential",
+      "to": "foreign_polity",
+      "mechanism": "共同遠征證照的承認依賴法域與貿易網",
+      "kind": "credential_to_politics",
+      "status": "AUTHOR_ALLOWED_DIRECTION__SYSTEM_CANDIDATE",
+      "impact": "相鄰政府承認資格不代表允許跨境攜武器或採集",
+      "uncertainty": "群路遠征協約與星渡商路協約不同候選制度",
+      "source_paths": [
+        "01_世界本體與文明/098_完整研究候選_冒險者遠征者等級_跨群落認證委託通緝.md",
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "證照",
+        "遠征",
+        "通緝",
+        "法域"
+      ]
+    },
+    {
+      "id": "XDEP-013",
+      "from": "migrating_turtle_habitat",
+      "to": "cross_layer_border",
+      "mechanism": "龜背聚落穿越可能攜帶微型共生群與牲畜",
+      "kind": "moving_biome_to_quarantine",
+      "status": "AUTHOR_ALLOWED_DIRECTION__EXAMPLE_CANDIDATE",
+      "impact": "檢疫、邊防、港口、水源與移動主權可能同時作用",
+      "uncertainty": "遷徙動線和具體寄生生物未核定",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "龜背",
+        "跨層",
+        "寄生",
+        "檢疫"
+      ]
+    },
+    {
+      "id": "XDEP-014",
+      "from": "giant_root_trade",
+      "to": "small_invertebrate_population",
+      "mechanism": "根橋改變引水方向可牽動小蟲和更大掠食者",
+      "kind": "food_chain_cascade",
+      "status": "SOURCE_CANDIDATE_EXAMPLE",
+      "impact": "路網、農業、幼獸捕食、保育法與遠征者保險聯動",
+      "uncertainty": "尚未指派到特定W03或W05地區，不可自動畫到那裡",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "triggers": [
+        "根橋",
+        "引水",
+        "小蟲",
+        "食物鏈"
+      ]
+    },
+    {
+      "id": "XDEP-015",
+      "from": "industrial_heat_waste",
+      "to": "microbial_ecosystem",
+      "mechanism": "殘熱可支撐耐熱微生物並影響機械壽命",
+      "kind": "heat_to_microbe_ecology",
+      "status": "SOURCE_CANDIDATE",
+      "impact": "工廠清潔、醫療隔離、通風維修與城市日常可形成非戰鬥事件",
+      "uncertainty": "未證實微生物可存活於任何極限熱場",
+      "source_paths": [
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md"
+      ],
+      "triggers": [
+        "殘熱",
+        "微生物",
+        "工業",
+        "散熱"
+      ]
+    },
+    {
+      "id": "XDEP-016",
+      "from": "cold_hot_exchange",
+      "to": "spore_wake",
+      "mechanism": "跨層暖濕風可能活化休眠孢子",
+      "kind": "climate_to_biosecurity",
+      "status": "SOURCE_CANDIDATE_EXAMPLE",
+      "impact": "商路封窗、病原辨識、濾芯運輸、遠征延期與檢疫成本",
+      "uncertainty": "是可能連鎖，不是所有孢子必對人類致命",
+      "source_paths": [
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md"
+      ],
+      "triggers": [
+        "暖濕風",
+        "孢子",
+        "跨層",
+        "風場"
+      ]
+    },
+    {
+      "id": "XDEP-017",
+      "from": "root_council",
+      "to": "bridge_maintenance",
+      "mechanism": "古老根內政體與帝國對根橋通行協商",
+      "kind": "local_sovereignty_to_logistics",
+      "status": "SOURCE_CANDIDATE_EXAMPLE",
+      "impact": "大國貨車載重及噪聲可能對古樹造成生態負荷；談判與替代線可有真代價",
+      "uncertainty": "沒有確認實際條約、道路或兩者在同一W",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "triggers": [
+        "根內長議庭",
+        "帝國",
+        "根橋",
+        "商路"
+      ]
+    },
+    {
+      "id": "XDEP-018",
+      "from": "W04_urban_models",
+      "to": "technology_monopoly",
+      "mechanism": "都市式最高法權與工坊技術壟斷可影響不同社會階層",
+      "kind": "institutions_to_economy",
+      "status": "AUTHOR_PREFERENCE__DETAILS_PARALLEL_CANDIDATES",
+      "impact": "專利、承重配額、商會、黑市、附屬組織與外郊可建完整制度因果",
+      "uncertainty": "不能從作者喜歡都市架構推導整個W04實際政權或把非人族群全驅逐",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "W04",
+        "萬律",
+        "萬噸",
+        "工坊",
+        "都市"
+      ]
+    },
+    {
+      "id": "XDEP-019",
+      "from": "W_TOP",
+      "to": "ordinary_K_transport",
+      "mechanism": "最高世界層是長期目標，實際進路未知",
+      "kind": "goal_not_route",
+      "status": "AUTHOR_CONFIRMED_GOAL__ACCESS_UNKNOWN",
+      "impact": "不會因普通視覺高處道路或終焉特殊性就自動形成W_TOP直達線",
+      "uncertainty": "終焉彼端地點未知且並非唯一已確認入口",
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "地圖/巨構主升程骨架修正版V0.5.1_候選規格.json"
+      ],
+      "triggers": [
+        "W_TOP",
+        "最高處",
+        "終焉",
+        "普通路"
+      ]
+    },
+    {
+      "id": "XDEP-020",
+      "from": "W01-Z09",
+      "to": "W01-Z11",
+      "mechanism": "冰脈線蟲義體生物醫療與腐殖血清技術的交叉可能",
+      "kind": "regional_medical_exchange",
+      "status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "impact": "療法可能互補或競爭，病人轉診、醫療物流、權利和價格受影響",
+      "uncertainty": "不得把線蟲當人類已核實的20年續命醫療或普適寄生體",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "triggers": [
+        "冰脈線蟲",
+        "血清",
+        "義體",
+        "霜脈"
+      ]
+    },
+    {
+      "id": "XDEP-021",
+      "from": "W01-Z06",
+      "to": "W01-Z11",
+      "mechanism": "第11區廢水擴散到第06區漁產的原候選",
+      "kind": "regional_wastewater_to_fishing",
+      "status": "GEMINI_SOURCE_CANDIDATE",
+      "impact": "污染治理、魚蝦養殖、沿線船幫、索賠與微生物淨化可互相影響",
+      "uncertainty": "兩地水道尚非正式核實，微生物治理方案非現有已採技術",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "triggers": [
+        "11區",
+        "06區",
+        "污染",
+        "濾渠",
+        "漁業"
+      ]
+    },
+    {
+      "id": "XDEP-022",
+      "from": "W02",
+      "to": "root_biome_candidates",
+      "mechanism": "W02倒懸麥田只是第一景候選，不自動引入根橋全族生態",
+      "kind": "world_variant_ecology",
+      "status": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "impact": "麥田可用特殊重力、支撐工藝、授粉小生物與工務經濟建立生態",
+      "uncertainty": "未知穀種、經濟規模和是否同其它舊版巨根世界",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ],
+      "triggers": [
+        "W02",
+        "倒懸麥田",
+        "根橋",
+        "農業"
+      ]
+    }
+  ]
+}

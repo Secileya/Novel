@@ -1,0 +1,791 @@
+{
+  "schema": "mega-character-social-relations-v1",
+  "notice": "人、組織與智慧生命關係的『確認狀態』『角色知情』『候選稿是否發生』獨立；關係表不是已發生劇情表。SIMILAR_NAME_DISTINCT意在禁止合併，不是戰鬥敵對關係。",
+  "entities": [
+    {
+      "id": "person:celeste",
+      "name": "瑟莉思媞／Celeste",
+      "kind": "person",
+      "authority": "AUTHOR_CONFIRMED",
+      "aliases": [
+        "瑟莉思媞",
+        "Celeste",
+        "管理者少女"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/006_絕對管理者少女.md"
+      ],
+      "note": "法月懷所造，世界內不可受傷，普通居民多不知真正身份"
+    },
+    {
+      "id": "person:huai",
+      "name": "法月懷",
+      "kind": "person",
+      "authority": "AUTHOR_CONFIRMED",
+      "aliases": [
+        "法月懷",
+        "Hozuki Huai"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/006_絕對管理者少女.md"
+      ],
+      "note": "Celeste創造者及母親；跨世界根源不等於本地帝國權力"
+    },
+    {
+      "id": "person:noah",
+      "name": "諾亞",
+      "kind": "person",
+      "authority": "AUTHOR_CONFIRMED",
+      "aliases": [
+        "諾亞",
+        "Noah"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md"
+      ],
+      "note": "正式初見艾莉維亞前互不認識；深層同化與復歸另查"
+    },
+    {
+      "id": "person:alivia",
+      "name": "艾莉維亞",
+      "kind": "person",
+      "authority": "AUTHOR_CONFIRMED",
+      "aliases": [
+        "艾莉維亞"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md"
+      ],
+      "note": "獨立高階能力及登頂願望；無諾亞式復歸"
+    },
+    {
+      "id": "person:dorne",
+      "name": "多恩・斐斯",
+      "kind": "person",
+      "authority": "CANDIDATE_STORY_ONLY",
+      "aliases": [
+        "多恩",
+        "多恩・斐斯"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md"
+      ],
+      "note": "第7-8章候選的前工坊校準人員，未正式發生"
+    },
+    {
+      "id": "person:sera",
+      "name": "塞拉",
+      "kind": "person",
+      "authority": "CANDIDATE_STORY_ONLY",
+      "aliases": [
+        "塞拉"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "底錨塔審判官／承光贖罪庭線，具體故事候選"
+    },
+    {
+      "id": "person:tangyu",
+      "name": "唐榆",
+      "kind": "person",
+      "authority": "CANDIDATE_B_ROUTE_ONLY",
+      "aliases": [
+        "唐榆"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "note": "B案舊圖與E去S回的知情者候選"
+    },
+    {
+      "id": "person:youxun",
+      "name": "游洵",
+      "kind": "person",
+      "authority": "CANDIDATE_B_ROUTE_ONLY",
+      "aliases": [
+        "游洵"
+      ],
+      "source_paths": [
+        "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "note": "B案定期遠征網中較特殊的一隊領隊候選"
+    },
+    {
+      "id": "person:laobaer",
+      "name": "老巴爾",
+      "kind": "person",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "老巴爾"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "W01 05鐵索吊塢生活人物候選"
+    },
+    {
+      "id": "person:susanna",
+      "name": "蘇珊娜／金算盤",
+      "kind": "person",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "蘇珊娜",
+        "金算盤"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "保險、典當、危險估值候選"
+    },
+    {
+      "id": "person:hohn",
+      "name": "霍恩",
+      "kind": "person",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "霍恩"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "重軌404車長候選"
+    },
+    {
+      "id": "person:gusta",
+      "name": "古斯塔",
+      "kind": "person",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "古斯塔"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "灰顎掠奪團相關人物候選，非紅顎會"
+    },
+    {
+      "id": "person:oldslow",
+      "name": "老慢／巡迴爐心龜",
+      "kind": "intelligent_or_mobile_biological_entity_candidate",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "老慢",
+        "巡迴爐心龜"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "note": "其智慧、與居民契約和遷徙等均待作者核定"
+    },
+    {
+      "id": "org:atonement",
+      "name": "承光贖罪庭",
+      "kind": "organization",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "承光贖罪庭",
+        "贖罪庭"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "第08區候選宗教工程機構，不自動等於承光帝統"
+    },
+    {
+      "id": "org:empire",
+      "name": "承光帝統",
+      "kind": "organization",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "aliases": [
+        "承光帝統"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "跨世界層帝國模板非正式國家"
+    },
+    {
+      "id": "org:redjaw",
+      "name": "紅顎會",
+      "kind": "organization",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "紅顎會"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "根橋獵業與保育階級候選，不等於灰顎"
+    },
+    {
+      "id": "org:grayjaw",
+      "name": "灰顎掠奪團",
+      "kind": "organization",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "灰顎掠奪團",
+        "灰顎殘部"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "掠奪團候選，不等於紅顎會"
+    },
+    {
+      "id": "org:railunion",
+      "name": "鐵索工聯",
+      "kind": "organization",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "鐵索工聯"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "W01 05索聯工業勞動與運輸候選"
+    },
+    {
+      "id": "org:pathguild",
+      "name": "群路遠征協約",
+      "kind": "organization",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "aliases": [
+        "群路遠征協約"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/098_完整研究候選_冒險者遠征者等級_跨群落認證委託通緝.md"
+      ],
+      "note": "共享職業認證與跨法域資格提議，不是全世界唯一公會"
+    },
+    {
+      "id": "org:startrade",
+      "name": "星渡商路協約",
+      "kind": "organization",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "aliases": [
+        "星渡商路協約"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "note": "大型跨層貿易協約模板，與群路遠征協約不自動相同"
+    },
+    {
+      "id": "org:ringcities",
+      "name": "環脊諸城同盟",
+      "kind": "organization",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "aliases": [
+        "環脊諸城同盟"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "note": "世界層霸權模板，未指定在哪一世界層"
+    },
+    {
+      "id": "org:rootcouncil",
+      "name": "根內長議庭",
+      "kind": "organization",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "aliases": [
+        "根內長議庭"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "note": "智慧根內種族的政體模板，未指定W編號"
+    },
+    {
+      "id": "org:w04patent",
+      "name": "萬律專利城邦／二十四工坊冠域",
+      "kind": "institutional_city_candidate",
+      "authority": "PARALLEL_CANDIDATE",
+      "aliases": [
+        "萬律",
+        "萬律專利城邦",
+        "二十四工坊冠域"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "與四柱衡城候選並存或競爭"
+    },
+    {
+      "id": "org:w04balance",
+      "name": "萬噸配重裁定國／四柱衡城",
+      "kind": "institutional_city_candidate",
+      "authority": "PARALLEL_CANDIDATE",
+      "aliases": [
+        "萬噸",
+        "萬噸配重裁定國",
+        "四柱衡城"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "不能因較晚就蓋掉萬律"
+    },
+    {
+      "id": "group:spinners",
+      "name": "紡鋼族",
+      "kind": "species_and_social_population",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "aliases": [
+        "紡鋼族"
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "不得概括全族單一職業或個人飲食習慣"
+    },
+    {
+      "id": "place:turtlecity",
+      "name": "龜背自治聚落",
+      "kind": "mobile_polity_candidate",
+      "authority": "AUTHOR_DIRECTION_WITH_DETAILS_CANDIDATE",
+      "aliases": [
+        "龜背集",
+        "龜背城",
+        "龜背聚落"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "note": "居民政府與智慧龜宿主本人可能為兩個不同主權／自主性主體"
+    }
+  ],
+  "edges": [
+    {
+      "id": "REL-001",
+      "from": "person:huai",
+      "to": "person:celeste",
+      "type": "CREATED_AND_MOTHER",
+      "authority": "AUTHOR_CONFIRMED",
+      "detail": "法月懷創造Celeste，Celeste視其為母親，雙方真感情",
+      "source_paths": [
+        "03_人物關係與語感/006_絕對管理者少女.md"
+      ],
+      "triggers": [
+        "母親",
+        "創造",
+        "法月懷",
+        "Celeste"
+      ],
+      "story_status": "WORLD_HISTORY_CONFIRMED"
+    },
+    {
+      "id": "REL-002",
+      "from": "person:celeste",
+      "to": "person:noah",
+      "type": "ARRANGED_MEETING_CIRCUMSTANCES",
+      "authority": "AUTHOR_CONFIRMED",
+      "detail": "Celeste有意安排雙主角有機會相遇，不直接修改個體好感度",
+      "source_paths": [
+        "03_人物關係與語感/017_討論續錄_Celeste命運安排_女主界側能力.md"
+      ],
+      "triggers": [
+        "安排相遇",
+        "命運",
+        "初遇"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-003",
+      "from": "person:celeste",
+      "to": "person:alivia",
+      "type": "ARRANGED_MEETING_CIRCUMSTANCES",
+      "authority": "AUTHOR_CONFIRMED",
+      "detail": "安排相遇不代表操控她的意志或後續感情",
+      "source_paths": [
+        "03_人物關係與語感/017_討論續錄_Celeste命運安排_女主界側能力.md"
+      ],
+      "triggers": [
+        "命運",
+        "操控",
+        "相遇"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-004",
+      "from": "person:noah",
+      "to": "person:alivia",
+      "type": "FUTURE_FIRST_MEETING",
+      "authority": "AUTHOR_SELECTED_FOR_CHAPTER_ONE",
+      "detail": "正式第一章兩人初見；後期建立親密關係，但目前0章未發生",
+      "source_paths": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md"
+      ],
+      "triggers": [
+        "第一章",
+        "初遇",
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-005",
+      "from": "person:celeste",
+      "to": "person:noah",
+      "type": "SELECTED_FUTURE_FACE_TO_FACE",
+      "authority": "AUTHOR_SELECTED_NOT_OCCURRED",
+      "detail": "第051第三個座位選為未來與已結伴雙主角的初見，兩人不知Celeste真身",
+      "source_paths": [
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md"
+      ],
+      "triggers": [
+        "第三個座位",
+        "甜餅",
+        "管理者"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-006",
+      "from": "person:celeste",
+      "to": "person:alivia",
+      "type": "SELECTED_FUTURE_FACE_TO_FACE",
+      "authority": "AUTHOR_SELECTED_NOT_OCCURRED",
+      "detail": "同場初見與親近聊天，對Celeste管理者身份仍未知",
+      "source_paths": [
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md"
+      ],
+      "triggers": [
+        "第三個座位",
+        "Celeste"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-007",
+      "from": "person:dorne",
+      "to": "person:sera",
+      "type": "KNOWS_IN_CANDIDATE_STORY",
+      "authority": "CANDIDATE_STORY_ONLY",
+      "detail": "塞拉認得多恩，背後涉及工務責任及修繕，未升Canon",
+      "source_paths": [
+        "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md"
+      ],
+      "triggers": [
+        "多恩",
+        "塞拉",
+        "審判官",
+        "工務"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-008",
+      "from": "person:youxun",
+      "to": "person:tangyu",
+      "type": "TEAM_ROUTE_HISTORY",
+      "authority": "CANDIDATE_B_ROUTE_ONLY",
+      "detail": "B案游洵遠征與唐榆舊測線誤註，兩者的協作和既往歷史不得當作正式已發生",
+      "source_paths": [
+        "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "triggers": [
+        "游洵",
+        "唐榆",
+        "遠征",
+        "舊圖"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-009",
+      "from": "person:sera",
+      "to": "org:atonement",
+      "type": "INVOLVED_IN_CANDIDATE",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "detail": "第08區贖罪庭和塞拉角色的工作與權限線，具體職位依候選稿核對",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md"
+      ],
+      "triggers": [
+        "塞拉",
+        "贖罪庭"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-010",
+      "from": "person:laobaer",
+      "to": "org:railunion",
+      "type": "SAME_TRANSPORT_LOCALITY_NOT_EMPLOYMENT_PROOF",
+      "authority": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "detail": "老巴爾和鐵索工聯被並列在05交通區，不證明他是工聯正式會員",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "triggers": [
+        "老巴爾",
+        "鐵索",
+        "吊塢"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-011",
+      "from": "person:susanna",
+      "to": "org:railunion",
+      "type": "MARKET_TOUCHPOINT_NOT_MEMBERSHIP",
+      "authority": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "detail": "保險／典當與工會可能共同服務05交通網，非已核僱傭",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "triggers": [
+        "蘇珊娜",
+        "保險",
+        "鐵索"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-012",
+      "from": "person:hohn",
+      "to": "org:railunion",
+      "type": "TRANSPORT_ECOSYSTEM_NOT_MEMBERSHIP",
+      "authority": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "detail": "404列車與工聯位於同候選運輸社會，沒有證明霍恩屬工會",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "triggers": [
+        "霍恩",
+        "404",
+        "列車"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-013",
+      "from": "person:gusta",
+      "to": "org:grayjaw",
+      "type": "RELATED_TO_RAIDERS",
+      "authority": "GEMINI_SOURCE_CANDIDATE",
+      "detail": "古斯塔與灰顎掠奪團關聯，是反派線候選；不與紅顎會合併",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "triggers": [
+        "古斯塔",
+        "灰顎"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-014",
+      "from": "org:redjaw",
+      "to": "org:grayjaw",
+      "type": "SIMILAR_NAME_DISTINCT_ORGANIZATIONS",
+      "authority": "SOURCE_VERIFIED_NONIDENTITY",
+      "detail": "紅顎會獵業規範與灰顎掠奪團為兩個不同候選組織",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "triggers": [
+        "紅顎",
+        "灰顎"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-015",
+      "from": "org:atonement",
+      "to": "org:empire",
+      "type": "SIMILAR_NAME_DISTINCT_CANDIDATES",
+      "authority": "SOURCE_VERIFIED_NONIDENTITY",
+      "detail": "承光贖罪庭不因含承光二字便等於承光帝統，也沒有證明隸屬",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "承光",
+        "贖罪庭",
+        "帝統"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-016",
+      "from": "org:pathguild",
+      "to": "org:startrade",
+      "type": "DIFFERENT_CANDIDATE_AGREEMENTS",
+      "authority": "SOURCE_VERIFIED_NONIDENTITY",
+      "detail": "遠征資格與貿易協約兩種獨立候選，不能以協約二字默認同一行政部門",
+      "source_paths": [
+        "01_世界本體與文明/098_完整研究候選_冒險者遠征者等級_跨群落認證委託通緝.md",
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "遠征協約",
+        "商路協約"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-017",
+      "from": "org:ringcities",
+      "to": "org:empire",
+      "type": "POTENTIAL_POLITICAL_TRADE_CONFLICT",
+      "authority": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "detail": "單層同盟與跨層帝國可交好、競爭或互不涉入，未定具體外交",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "同盟",
+        "帝國"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-018",
+      "from": "org:rootcouncil",
+      "to": "org:empire",
+      "type": "POTENTIAL_ROOT_BRIDGE_TREATY",
+      "authority": "SOURCE_CANDIDATE_EXAMPLE",
+      "detail": "第99份有帝國通行與根內勢力條約示例，非已簽署史",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md",
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "triggers": [
+        "根內",
+        "帝國",
+        "條約"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-019",
+      "from": "person:oldslow",
+      "to": "place:turtlecity",
+      "type": "MOBILE_HABITAT_WITH_DISTINCT_AUTONOMY",
+      "authority": "AUTHOR_DIRECTION_DETAILS_CANDIDATE",
+      "detail": "巨龜甲上可有聚落；若宿主有智慧，宿主與居民的政治同意需分開",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "triggers": [
+        "龜背",
+        "巨龜",
+        "老慢"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-020",
+      "from": "org:empire",
+      "to": "place:turtlecity",
+      "type": "POTENTIAL_TERRITORIAL_DISPUTE",
+      "authority": "SOURCE_CANDIDATE_EXAMPLE",
+      "detail": "追捕智慧巨龜的帝國與龜背居民庇護衝突是第99份示例，不是發生史",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "通緝",
+        "龜背",
+        "帝國"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-021",
+      "from": "org:w04patent",
+      "to": "org:w04balance",
+      "type": "PARALLEL_CITY_PROPOSALS",
+      "authority": "SOURCE_VERIFIED_STATUS",
+      "detail": "兩版城域可競爭、合城或分城；後者沒有取得作者排他正式採用",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "triggers": [
+        "萬律",
+        "萬噸",
+        "W04"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-022",
+      "from": "group:spinners",
+      "to": "org:railunion",
+      "type": "CROSS_SPECIES_WORK_OPPORTUNITY",
+      "authority": "EDITORIAL_INTEGRATION_HYPOTHESIS",
+      "detail": "立體絲道工藝族群與索聯運輸職業可能協商合作，不是全族固定僱用",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/094_後出補充_跨群落居民成因_遷居生存救援追查旅遊遠征與混居社會.md"
+      ],
+      "triggers": [
+        "紡鋼",
+        "工聯",
+        "多族群"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-023",
+      "from": "org:startrade",
+      "to": "org:empire",
+      "type": "POTENTIAL_INFORMATION_AND_TARIFF_EXCHANGE",
+      "authority": "SOURCE_CANDIDATE_EXAMPLE",
+      "detail": "帝國可在商路協約購情報，並對其武裝護運存疑；並非已締約事件",
+      "source_paths": [
+        "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+      ],
+      "triggers": [
+        "商路",
+        "帝國",
+        "關稅"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    },
+    {
+      "id": "REL-024",
+      "from": "person:noah",
+      "to": "person:celeste",
+      "type": "UNKNOWN_ABILITY_ORIGIN_TO_CHARACTER",
+      "authority": "AUTHOR_CONFIRMED_KNOWLEDGE_BOUNDARY",
+      "detail": "諾亞最初不知道Celeste是復歸能力來源，初次相遇亦不應獲管理者攻略",
+      "source_paths": [
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+        "03_人物關係與語感/006_絕對管理者少女.md"
+      ],
+      "triggers": [
+        "復歸",
+        "誰賜予",
+        "能力來源"
+      ],
+      "story_status": "NOT_FORMALLY_OCCURRED"
+    }
+  ],
+  "unverified_for_formal_story": [
+    "多恩與塞拉候選事件",
+    "游洵及唐榆B路線",
+    "鐵索工聯與各人物是否正式隸屬",
+    "龜背聚落是否正式與老慢共生",
+    "W04兩方案是否真正兩座城市"
+  ]
+}

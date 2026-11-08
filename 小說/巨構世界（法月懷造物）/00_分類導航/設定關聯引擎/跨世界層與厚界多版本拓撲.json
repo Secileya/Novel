@@ -1,0 +1,563 @@
+{
+  "schema": "mega-macro-worlds-and-barrier-versions-v1",
+  "notice": "W01~W07是已具名候選宏觀層，不是全部巨構實際層數。W_TOP是已定真正最高世界層目標但未核具體位置與名字。LEGACY-K與G-K是互不覆寫的候選版本，即使同號也不能自動視為同地。",
+  "definitions": {
+    "world_layer": "完整巨大空間體系的宏觀分域；不是單個空腔、城市、科技級別或單次升降",
+    "barrier": "分域間具有真正宏觀地理厚度的隔絕地域，可含生態、居民、工業",
+    "special_join": "局部J特殊接合可能同層，也可能跨層；不能只看異常相接便認定跨W",
+    "transport": "接鄰非通路；出入、去返、法權、載具、連通性、證據獨立"
+  },
+  "worlds": [
+    {
+      "id": "W01",
+      "name": "肋海廣域",
+      "kind": "CANDIDATE_MACRO_WORLD_LAYER",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "desc": "厚肋與海盆共存的廣域；城、荒野、海盆、工務與多種文明可並存",
+      "layout_projection": "下部候選",
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "formal_location_verified": false,
+      "features": [],
+      "notes": "W編號和具體地貌為工作地圖；不是全集也非已核定地理"
+    },
+    {
+      "id": "W02",
+      "name": "折殼曲原",
+      "kind": "CANDIDATE_MACRO_WORLD_LAYER",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "desc": "曲殼與折返接合的宏觀分域；視覺上接近的地貌未必可快速通行",
+      "layout_projection": "中段側枝候選",
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "formal_location_verified": false,
+      "features": [
+        {
+          "name": "倒懸麥田、風帆列車、傾角游牧文化",
+          "status": "GEMINI_SOURCE_CANDIDATE",
+          "source_paths": [
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ]
+        }
+      ],
+      "notes": "W編號和具體地貌為工作地圖；不是全集也非已核定地理"
+    },
+    {
+      "id": "W03",
+      "name": "靜熱盲域",
+      "kind": "CANDIDATE_MACRO_WORLD_LAYER",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "desc": "大型熱交換與差異氣候構造；並非全境高溫無人",
+      "layout_projection": "下部側枝候選",
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "formal_location_verified": false,
+      "features": [],
+      "notes": "W編號和具體地貌為工作地圖；不是全集也非已核定地理"
+    },
+    {
+      "id": "W04",
+      "name": "貫脊交域",
+      "kind": "CANDIDATE_MACRO_WORLD_LAYER",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "desc": "多條主承力脊與厚殼大型接合的廣域；不等於任誰都能方便換車",
+      "layout_projection": "中段候選",
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "formal_location_verified": false,
+      "features": [],
+      "notes": "W編號和具體地貌為工作地圖；不是全集也非已核定地理"
+    },
+    {
+      "id": "W05",
+      "name": "白穹庭域",
+      "kind": "CANDIDATE_MACRO_WORLD_LAYER",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "desc": "多座曲殼巨環境共存的分域，含繁華與荒置、自然與工程",
+      "layout_projection": "中上段側枝候選",
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "formal_location_verified": false,
+      "features": [],
+      "notes": "W編號和具體地貌為工作地圖；不是全集也非已核定地理"
+    },
+    {
+      "id": "W06",
+      "name": "懸冠斷域",
+      "kind": "CANDIDATE_MACRO_WORLD_LAYER",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "desc": "環構和斷接殼群的宏觀分域，某些局部非普通拓撲需後續研究",
+      "layout_projection": "上部候選",
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "formal_location_verified": false,
+      "features": [],
+      "notes": "W編號和具體地貌為工作地圖；不是全集也非已核定地理"
+    },
+    {
+      "id": "W07",
+      "name": "深柱複域",
+      "kind": "CANDIDATE_MACRO_WORLD_LAYER",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "desc": "超大支承柱、複層內腔與深部工程可並存",
+      "layout_projection": "上部側枝候選",
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ],
+      "formal_location_verified": false,
+      "features": [],
+      "notes": "W編號和具體地貌為工作地圖；不是全集也非已核定地理"
+    },
+    {
+      "id": "W_TOP",
+      "name": "真正最高世界層／候選冠頂天穹",
+      "kind": "UNMAPPED_TRUE_HIGHEST_GOAL",
+      "authority": "GOAL_AUTHOR_CONFIRMED__NAME_AND_POSITION_CANDIDATE",
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "地圖/巨構主升程骨架修正版V0.5.1_候選規格.json"
+      ],
+      "formal_location_verified": false,
+      "world_identity_known": false,
+      "notes": "真正最高宏觀層是已確認長期目標；具體名字、所在地與進路未選；不等於W01第10區白庭、W07或Celeste住處"
+    },
+    {
+      "id": "W_DEEP",
+      "name": "起點以下更深巨構候選",
+      "kind": "UNMAPPED_DEEP_BRANCH",
+      "authority": "CANDIDATE_ONLY",
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "地圖/巨構主升程骨架修正版V0.5.1_候選規格.json"
+      ],
+      "formal_location_verified": false,
+      "world_identity_known": false,
+      "notes": "允許探索朝下的空間；未證明存在一個正式W_DEEP世界層或固定入口"
+    }
+  ],
+  "barrier_version_groups": [
+    {
+      "id": "V03_LEGACY_K",
+      "status": "HISTORICAL_AUTHOR_CANDIDATE",
+      "count": 10
+    },
+    {
+      "id": "GEMINI_G_K_LATER_CANDIDATE",
+      "status": "PARALLEL_NEWER_CANDIDATE_NOT_AUTO_REPLACEMENT",
+      "count": 9
+    }
+  ],
+  "barriers": [
+    {
+      "id": "LEGACY-K01",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K01",
+      "endpoints": [
+        "W01",
+        "W02"
+      ],
+      "name": "折返厚殼帶",
+      "morph": "多重折殼、斜肋、堆積空域",
+      "environment_civilization_note": "工務小站、原地居民、季節性行商皆為候選，不排除完全無人帶",
+      "transport_proposal": "可維護側肋幹線／長距外緣繞道／未核舊殼裂道",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K02",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K02",
+      "endpoints": [
+        "W01",
+        "W03"
+      ],
+      "name": "沉積裂海",
+      "morph": "裂盆、巨肋底架、寬廣水／沉積系統",
+      "environment_civilization_note": "水上居地、漁業或浮棲生物可形成自己的生活網",
+      "transport_proposal": "潮期水運／上方承力貨脊／不可確證的深水舊洞",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K03",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K03",
+      "endpoints": [
+        "W02",
+        "W04"
+      ],
+      "name": "斷折主脊",
+      "morph": "斜跨主梁、錯位殼架、橋塔群",
+      "environment_civilization_note": "橋匠、承包維護組織、世居崖壁社會皆可能存在",
+      "transport_proposal": "新式公共幹路（若已存在）／工務懸橋／遠行側脊",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K04",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K04",
+      "endpoints": [
+        "W03",
+        "W04"
+      ],
+      "name": "熱交換巨塹",
+      "morph": "熱壓深塹、換氣壁、長距管網",
+      "environment_civilization_note": "專業工程社群、生態適應種、居地與無人危帶可共存",
+      "transport_proposal": "隔熱高路／限時管廊／外圈緩坡繞行",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K05",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K05",
+      "endpoints": [
+        "W04",
+        "W05"
+      ],
+      "name": "曲殼根系",
+      "morph": "承重根座、曲殼疊層、大型沉降谷",
+      "environment_civilization_note": "可有人口稠密的市鎮、農耕與長年修殼社會",
+      "transport_proposal": "既有商運穿根大道／後世開鑿支道／外緣生態繞行",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K06",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K06",
+      "endpoints": [
+        "W04",
+        "W06"
+      ],
+      "name": "高位懸斷脊",
+      "morph": "巨型不連續梁、斷環與高空空域",
+      "environment_civilization_note": "專業工作站可存活，不代表所有空隙都有人",
+      "transport_proposal": "現役承力外繞／飛行或特殊技術／斷舊索橋",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K07",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K07",
+      "endpoints": [
+        "W05",
+        "W06"
+      ],
+      "name": "懸殼風隙",
+      "morph": "多層殼裙、風隙與大環構",
+      "environment_civilization_note": "風隙職業、長期居住點和生物遷徙可與險段共存",
+      "transport_proposal": "環殼檢修幹路／風隙飛航／未知外殼繞線",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K08",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K08",
+      "endpoints": [
+        "W02",
+        "W07"
+      ],
+      "name": "斜柱厚隔",
+      "morph": "成組巨型柱體、多層夾壁與實體厚殼",
+      "environment_civilization_note": "柱內可能有數代居民、電梯工會、遺跡與無人深井",
+      "transport_proposal": "柱芯公用貨井（若有）／側向舊升降／非常長的外繞路",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K09",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K09",
+      "endpoints": [
+        "W07",
+        "W06"
+      ],
+      "name": "上段側脊",
+      "morph": "多股遠距承力脊、巨大橋間平台",
+      "environment_civilization_note": "長途驛站／旅店／商業貿易可能比怪物更重要",
+      "transport_proposal": "長途客貨線（若存在）／高位沿脊步行／支骨架調頭",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "LEGACY-K10",
+      "version": "V03_LEGACY_K",
+      "legacy_number": "K10",
+      "endpoints": [
+        "W03",
+        "W05"
+      ],
+      "name": "複合環境隔帶",
+      "morph": "水熱交換環、沉積曲殼、上下氣流",
+      "environment_civilization_note": "在地生態社會、當代設施、長途運輸並存；不是一片純機關房",
+      "transport_proposal": "複層生態長路／壓力管廊／偏遠殼面線",
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
+    },
+    {
+      "id": "G-K01",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K01",
+      "endpoints": [
+        "W01",
+        "W02"
+      ],
+      "name": "折返厚殼／折返厚殼帶",
+      "version_collision_note": "端點同舊K01，內部地貌細節未必一致",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K02",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K02",
+      "endpoints": [
+        "W01",
+        "W03"
+      ],
+      "name": "沉積裂海",
+      "version_collision_note": "端點同舊K02",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K03",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K03",
+      "endpoints": [
+        "W02",
+        "W04"
+      ],
+      "name": "斜向爬升主脊",
+      "version_collision_note": "端點同舊K03，800公里為未核候選量尺",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K04",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K04",
+      "endpoints": [
+        "W02",
+        "W03"
+      ],
+      "name": "視線可見的K04巨塹",
+      "version_collision_note": "**與舊K04不同端點**；能否真正通行未證",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K05",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K05",
+      "endpoints": [
+        "W04",
+        "W05"
+      ],
+      "name": "曲殼根系",
+      "version_collision_note": "接近舊K05",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K06",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K06",
+      "endpoints": [
+        "W04",
+        "W06"
+      ],
+      "name": "高位懸斷脊",
+      "version_collision_note": "接近舊K06",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K07",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K07",
+      "endpoints": [
+        "W05",
+        "W07"
+      ],
+      "name": "斜向風隙",
+      "version_collision_note": "**與舊K07不同端點**；3000公里未核",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K08",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K08",
+      "endpoints": [
+        "W06",
+        "W07"
+      ],
+      "name": "橫跨萬里",
+      "version_collision_note": "**與舊K08不同端點**",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    },
+    {
+      "id": "G-K09",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "legacy_number": "K09",
+      "endpoints": [
+        "W03",
+        "W05"
+      ],
+      "name": "水熱垂直環帶",
+      "version_collision_note": "**與舊K09不同端點**；不得自動等同舊K10",
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "physical_adjacency_verified": false,
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
+    }
+  ],
+  "unplaced_specials": [
+    {
+      "id": "QUIET",
+      "name": "靜謐迴廊",
+      "kind": "SPECIAL_SITE_NOT_ORDINARY_BARRIER",
+      "location": null
+    },
+    {
+      "id": "FINAL",
+      "name": "終焉迴廊",
+      "kind": "SPECIAL_SITE_NOT_ORDINARY_BARRIER",
+      "location": null,
+      "known_one_way_for_ordinary_participant": true,
+      "exit_location": null
+    },
+    {
+      "id": "PUBLIC_DANGER",
+      "name": "Celeste公開高危地域",
+      "kind": "UNPLACED_REGION_CANDIDATE",
+      "location": null
+    }
+  ],
+  "source_paths": [
+    "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+    "地圖/巨構導航資料_宏觀V0.3.json",
+    "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+    "地圖/巨構主升程骨架修正版V0.5.1_候選規格.json"
+  ]
+}
