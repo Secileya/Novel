@@ -1,0 +1,1968 @@
+{
+  "schema": "mega-213-evidence-chunk-v1",
+  "range": [
+    65,
+    80
+  ],
+  "files": 16,
+  "dossiers": [
+    {
+      "doc_id": "R213-065",
+      "source_path": "06_敘事規劃與工作流/159_Gemini下一階段八十題與創作優先級_研究任務清單.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 9555,
+      "git_blob_sha_verified": "49f86420ef581388fa9c5128e00a5ccd5089404f",
+      "source_lines": 126,
+      "type": ".md",
+      "headings_found": 11,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "# 第159份｜Gemini 下一階段 80 題設計任務庫（全題名與來源目的）",
+          "excerpt_line": 5,
+          "excerpt": "> **2026-10-31；身分：AUTHOR_PREFERENCE／RESEARCH_TASK，非 Canon。**原稿由 GPT 在本輪跨 AI 對談中提出 80 題並請 Gemini 批次深化；本文件按題號逐項保留題名及核心要求，**非字句逐字複製原來每一題長段敘述**。最初的完整版保留在本聊天交談；不得假稱這 80 題都已得到完整答案。",
+          "terms": [
+            "Gemini"
+          ]
+        },
+        {
+          "heading_line": 9,
+          "heading": "## A 宏觀世界與巨大尺度",
+          "excerpt_line": 11,
+          "excerpt": "- 01｜W01十二大區在真實三維中的宏觀形貌：母骨架、空域、天幕、承載面",
+          "terms": [
+            "W01"
+          ]
+        },
+        {
+          "heading_line": 22,
+          "heading": "## B W01十二大區的地方生命",
+          "excerpt_line": 27,
+          "excerpt": "- 14｜04殼木巨林中巨樹與鋼骨相侵的聚落、交通與文明",
+          "terms": [
+            "W01"
+          ]
+        },
+        {
+          "heading_line": 37,
+          "heading": "## C 文明制度與日常",
+          "excerpt_line": 48,
+          "excerpt": "- 32｜不同文明對生死、家庭、法律、暴力、自由、知識的價值差",
+          "terms": []
+        },
+        {
+          "heading_line": 50,
+          "heading": "## D 科技、特殊力量、戰鬥",
+          "excerpt_line": 52,
+          "excerpt": "- 33｜前文明科技如何非武器化地融入當代普通人的生活與依賴",
+          "terms": [
+            "前文明"
+          ]
+        },
+        {
+          "heading_line": 63,
+          "heading": "## E 巨型生命與生態",
+          "excerpt_line": 68,
+          "excerpt": "- 46｜具有智慧的大型生命作為文明夥伴：溝通、價值與感情",
+          "terms": [
+            "生態"
+          ]
+        },
+        {
+          "heading_line": 74,
+          "heading": "## F 雙主角的真實人生與關係",
+          "excerpt_line": 83,
+          "excerpt": "- 58｜諾亞首次死亡／復歸對兩人與其他社會人物的長期影響",
+          "terms": [
+            "諾亞",
+            "復歸",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 87,
+          "heading": "## G 組織、配角與對手",
+          "excerpt_line": 93,
+          "excerpt": "- 65｜老巴爾與其家人、工務職責、年輕犯錯與未來人物線",
+          "terms": []
+        },
+        {
+          "heading_line": 100,
+          "heading": "## H 長篇事件、伏筆、兩迴廊、登頂",
+          "excerpt_line": 103,
+          "excerpt": "- 72｜當篇有結局而後果跨篇留存的事件完整因果結構",
+          "terms": []
+        },
+        {
+          "heading_line": 113,
+          "heading": "## 研究工作輸出契約",
+          "excerpt_line": 115,
+          "excerpt": "1. 先在既有第156–158與前期第035、057、063、114、122–131、135、138、149之間找到來源；不得因某地或人物被長篇研究就直接視為已採案。",
+          "terms": []
+        },
+        {
+          "heading_line": 122,
+          "heading": "## 最推薦 Gemini 先選的十題（不是新設定）",
+          "excerpt_line": 126,
+          "excerpt": "理由：它們可以直接改善雙主角第一次相遇與後續人物回訪，讓故事不是只靠地圖和能力數值。與之緊密相關的36、41、43、61、62可以隨情境插入，而不必先做一整份研究百科。",
+          "terms": [
+            "Gemini",
+            "主角"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "W01",
+        "W02",
+        "W07",
+        "K01",
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "醫療",
+        "宗教",
+        "生態",
+        "工坊",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "first_text_excerpt": "> **後出補註（2026-10-31）**：第159份是80題的精簡檢索版。原本逐題較完整的提問、說明與回覆規則，現已保存於 [第166份](../09_跨AI原始來源/166_可見對話轉錄_原八十題深度設計任務與Gemini回覆規範.md)；166為聊天可見文字的人工轉錄，並非平台原生位元匯出。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-066",
+      "source_path": "06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 12765,
+      "git_blob_sha_verified": "44c5305bc8f7e64e46053a55f03f7277eb818656",
+      "source_lines": 74,
+      "type": ".md",
+      "headings_found": 11,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第169份｜Gemini 首批十題重製：獨立創意評審、敘事價值、硬因果與下一輪測試",
+          "excerpt_line": 3,
+          "excerpt": "> 日期：2026-10-31。**編輯評審／CANDIDATE REVIEW，不是 Canon 提升、不是新正文、不是作者最終確認。**",
+          "terms": [
+            "Gemini"
+          ]
+        },
+        {
+          "heading_line": 7,
+          "heading": "## 總體判斷",
+          "excerpt_line": 9,
+          "excerpt": "本版**明顯高於**前一輪幾百字扁平提案，尤其擅長用可記住的道具、日常語氣、人物職業與地方後果將龐大設定寫出生活氣味。暫時最具小說價值的是：",
+          "terms": []
+        },
+        {
+          "heading_line": 20,
+          "heading": "## 十題逐項評審與更佳做法",
+          "excerpt_line": 26,
+          "excerpt": "| **56／60 小物與曖昧** | 極高 | 主動調慢三分鐘的光學錶與相互看愣，都是不靠命運的私人關係 | **「每天慢三分鐘」有二義性**：若是每天走慢3分鐘，偏差會日積月累；若一直固定慢3分鐘，需定期校正。可採「老機械錶每日走慢約3分鐘／兩人分開前習慣對時」，不要自稱永久同一3分鐘偏差。重要物件保留成候選，不強迫必有首次死亡染血懷錶 |",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 35,
+          "heading": "## 三、必須從這輪剔除的「敘事標準誤會」",
+          "excerpt_line": 35,
+          "excerpt": "## 三、必須從這輪剔除的「敘事標準誤會」",
+          "terms": []
+        },
+        {
+          "heading_line": 37,
+          "heading": "### 1. 非聖母 ≠ 禁止善意",
+          "excerpt_line": 39,
+          "excerpt": "既定主角**不負有救普通陌生人的義務**，可以合理不救，也可以因自己願意、利益、感情、對方幫過自己、合作收益或即興判斷而救。即使沒有報酬、單純突然想幫一次，**也不自動違背灰度**；真正違規的是敘事把「必須先救人」變成唯一好選擇，或為了強迫表現「不聖母」而要求兩人看到所有苦難必冷笑。人物不是被道德評分表控制。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 43,
+          "heading": "### 2. 強大 ≠ 永遠不會錯；哭泣 ≠ 弱化",
+          "excerpt_line": 45,
+          "excerpt": "相互尊重的雙強，可以極專業地判斷，依然因情報差與敵人預判付出代價。艾莉維亞既可以冷靜處理諾亞死後的實務，也可哭、憤怒、幾天睡不好；其人格不會被單一的「冷酷女強人」模板限制。諾亞也不必永遠以一句玩笑遮掩失去感。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞"
+          ]
+        },
+        {
+          "heading_line": 47,
+          "heading": "### 3. 過去內容不是因後來新設計而被判錯",
+          "excerpt_line": 49,
+          "excerpt": "Gemini 自己首段點出前版67題女主為救人放棄樣本、75題 Celeste 留熱茶字條、76題偷偷加〈第三個座位〉借錢，這段**先前快餐版的內容未在本輪得到完整原稿附件**。因此可以記錄「Gemini 如此自評前稿」，**不能**假裝已拿到第67/75/76當時逐字前文。後來的十題實質改善，但仍有新問題，應只指向本檔被核實的句子。",
+          "terms": [
+            "Celeste",
+            "Gemini",
+            "第三個座位"
+          ]
+        },
+        {
+          "heading_line": 51,
+          "heading": "### 4. 設定好看，不等於小說事件真的已成立",
+          "excerpt_line": 53,
+          "excerpt": "本輪的修女塞拉、養女小鏽、老慢、阿徹、拾光婆、霍恩、十年天光、懷錶等，都是有價值的候選。**不論寫得多動人，都還沒成為正式劇情**。不要把 Gemini 第168內「第二章古斯塔已死」當作時間線結束；它只是對 Gemini 候選第二章所做的連鎖推演。第155仍是原候選第二章，尚未依第160 G01/G03/G09修完。",
+          "terms": [
+            "Gemini",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 55,
+          "heading": "## 四、這一批最值得做的四種真實敘事測試（而非再擴張百科）",
+          "excerpt_line": 57,
+          "excerpt": "**測試A｜不含超凡的1200～2200字同居日常**：旅館工具桌與湯麵，兩人也許因一顆螺絲、收拾房間、洗劑揮發或用電問題互虧，最後有一個微小生活變化。不得把所有句子改成粗口或人物必然大聲臉紅。測試關係自然感。",
+          "terms": []
+        },
+        {
+          "heading_line": 65,
+          "heading": "## 五、可以直接給 Gemini 的改稿指令（建議而非授權正文升格）",
+          "excerpt_line": 67,
+          "excerpt": "> 這十題中，請保留你最有價值的四項：工具桌吃麵、懷錶與對時、老慢爐心龜的自由意志、404夜車獨立群像。但請重新檢查：第一，**不當聖母不是禁止救人**，兩主角可以按個人理由救或不救，不能由作者替他們規定；第二，不能把候選第二章當成已發生；第三，艾莉維亞的悲傷並不必須只能用壓抑和復仇來證明強大；第四，老慢下潛居民的生存與撤離機制、夜車急煞的車規因果，以及導光軌「三秒誤差卻十年永夜」的物理鏈需要補齊；第五，請修正條目聲稱「四種幽默／三個物件／五位群像／三種高潮」但實際未列足的數量不符。別用一份更大的設定百科回答我，而是先選一個強故事構想，建立完全可追溯的因果骨架，再寫完整、有獨立結局的實際場景。",
+          "terms": [
+            "艾莉維亞",
+            "Gemini",
+            "候選",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 69,
+          "heading": "## 六、待辦狀態",
+          "excerpt_line": 72,
+          "excerpt": "- 未完成：第155候選第二章故事所有權／32t受力修訂；第168新候選的實地社會／力學測試；Gemini 原生聊天原檔位元校驗；是否由作者採用任何新增設定。",
+          "terms": [
+            "Gemini",
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "醫療",
+        "宗教",
+        "交接",
+        "候選",
+        "復歸",
+        "第三個座位",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "first_text_excerpt": "# 第169份｜Gemini 首批十題重製：獨立創意評審、敘事價值、硬因果與下一輪測試",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-067",
+      "source_path": "06_敘事規劃與工作流/182_作者決策前工作底圖_萬公里宏觀與雙主角升級_非線性道具鎖.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 12665,
+      "git_blob_sha_verified": "82cdd97f91474e271ea09e50f516e9c6be02875f",
+      "source_lines": 100,
+      "type": ".md",
+      "headings_found": 9,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第182份｜作者決策前可直接使用的工作底圖：萬公里巨構、非線性旅行、文明斷層、兩人升級與復歸（競爭方案）",
+          "excerpt_line": 3,
+          "excerpt": "> 2026-11-04，**編輯提出的可執行候選**，不是作者新Canon，也不是Gemini原文。實務目的：讓第177／178的靈感真正能進入長篇，且不重犯第160／176／181的硬矛盾。正式正文0章、PREWRITE HOLD。",
+          "terms": [
+            "Gemini",
+            "候選",
+            "復歸"
+          ]
+        },
+        {
+          "heading_line": 5,
+          "heading": "## 1｜不是把每個數字乘一百，而是把尺度分為四個同時成立的層",
+          "excerpt_line": 11,
+          "excerpt": "| **一片區域與區間路網** | 有多座聚落／文明、無人緩衝帶、往返有不同方式、封路後引發數日或數月經濟連鎖 | 數百–數千km，可有多套隔絕 | 回程不是「走三頁」，能真正有縱深、成本和歷史 |",
+          "terms": []
+        },
+        {
+          "heading_line": 16,
+          "heading": "### 宏大感的實際鏡頭比例",
+          "excerpt_line": 22,
+          "excerpt": "5. 離這座空腔之外還有千km級活根海與數個真正有人社會，**高空螢點與少人口並不證明整個W01無人**；",
+          "terms": [
+            "W01",
+            "人口"
+          ]
+        },
+        {
+          "heading_line": 27,
+          "heading": "## 2｜雙強不應被武器「一公里射程」反而削弱原本特殊性",
+          "excerpt_line": 29,
+          "excerpt": "為諾亞與艾莉維亞分六個彼此獨立參數：**投射／接觸距離、可識別結構的精度、施行效果可達深度、同時操作數、可靠能量負荷、行動與回收風險**。真正高階強者可以某項極強，另幾項隨經驗與模組逐步改善；**不以戰鬥壓力強行封印她原有的規則能力**。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞"
+          ]
+        },
+        {
+          "heading_line": 46,
+          "heading": "## 3｜用三個「非戰鬥」的文明指紋讓一至十級真正有區別",
+          "excerpt_line": 51,
+          "excerpt": "- **這套技術怎樣離開原廠仍可運作？** 供能、維護、稅制、路權、代際傳授、跨地相容，比「能造恆星兵器」更具文明真重量。",
+          "terms": []
+        },
+        {
+          "heading_line": 61,
+          "heading": "## 4｜非線性探索必須同時有看得見的地圖、人物代價與真正可回去的交通",
+          "excerpt_line": 67,
+          "excerpt": "| 靜風沉降槽巨拱側孔 | 新第六章候選 | 孔很窄、黑暗、環境未測 | 類小型機械伸縮鉤／特殊攀行、生物密道 | 可能有維修者或小型智慧群體 |",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 75,
+          "heading": "## 5｜死亡復歸「場景模板」：足夠能寫、不偷鎖外部絕對真相",
+          "excerpt_line": 78,
+          "excerpt": "2. 諾亞**第一次死**：他當下是真以為會死，不提前搞自殺捷徑；主觀死亡後緊貼極短轉場便在別處醒來，沒有固定三天昏迷。**不要藉鏡頭透露Celeste必然在旁邊按鈕操作。**",
+          "terms": [
+            "Celeste",
+            "諾亞",
+            "復歸"
+          ]
+        },
+        {
+          "heading_line": 84,
+          "heading": "## 6｜Celeste出場要有不同「質地」，不是固定路邊路人或固定救世",
+          "excerpt_line": 88,
+          "excerpt": "- **直接出手一次**：若真遇到觸碰她所珍惜之物或她自主選擇處理的問題，她可以以完全高階卻日常的方式解決一件連高級文明都辦不到的事。**其行動是她自己的選擇，不是替主角發攻略和打BOSS的常態模板。**",
+          "terms": [
+            "Celeste",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 91,
+          "heading": "## 7｜採案前最低限度的版本工程",
+          "excerpt_line": 93,
+          "excerpt": "- 第177第一大批提案、第178後出復歸／地圖偏好、第179白橋完整場景、第180六章完整候選分別存檔；",
+          "terms": [
+            "候選",
+            "復歸"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "W01",
+        "K01",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "醫療",
+        "生態",
+        "工坊",
+        "候選",
+        "復歸",
+        "世界層",
+        "第三個座位",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "first_text_excerpt": "# 第182份｜作者決策前可直接使用的工作底圖：萬公里巨構、非線性旅行、文明斷層、兩人升級與復歸（競爭方案）",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-068",
+      "source_path": "06_敘事規劃與工作流/183_人物誤判有限理性與前六章修稿規則_作者後出確認.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 7740,
+      "git_blob_sha_verified": "ffa23f7ec2c22fbf829c6ab74ed0f6b9515272fd",
+      "source_lines": 59,
+      "type": ".md",
+      "headings_found": 7,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第183份｜作者後出確認：人物可以誤判、有限理性與正文角色認知邊界；前六章修稿規則",
+          "excerpt_line": 3,
+          "excerpt": "> 2026-11-05。**人物原則＝作者已明確提出，納入後出寫作／QA規則**；本文件所列具體修法＝**編輯候選**，不是提前宣布已成正史。正式正文章數仍0、PREWRITE HOLD。原始 Gemini 文字與舊候選版本保留，修訂版另立檔案，不覆蓋來源封存。",
+          "terms": [
+            "Gemini",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 5,
+          "heading": "## 一｜人物不是同一套精密決策程式（作者已確認）",
+          "excerpt_line": 7,
+          "excerpt": "**人物的判斷不完美，不等於作者的邏輯不嚴謹。** 角色可因資訊缺口、能力限制、懶惰、慣性、疲勞、恐懼、憤怒、偏見、自尊、貪婪、憐憫、親疏、幸運或單純不夠聰明而誤判；經驗豐富或本領高強者也不保證每次決策理性。也容許有人長期不長進、犯錯後僥倖無事，或因此付出巨大代價；**錯誤不需要每次得到制裁或成長回報**。",
+          "terms": []
+        },
+        {
+          "heading_line": 19,
+          "heading": "## 二｜塞拉修女的例子：可受騙，也可自知風險而決定放行",
+          "excerpt_line": 23,
+          "excerpt": "另需把**看出柱內空洞**與**知道三十年前完整封站決策／設計權限**分開：結構感知可提供當下病徵，主角可據現場跡象作推理；沒有取得檔案就不能知道完整歷史。塞拉可以因主角說得部分正確而過度信任，這本身就是可信的人性；不必補成她十秒內看到百分百可驗證技術審計。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 25,
+          "heading": "## 三｜角色已知內容與作者設定名詞分層",
+          "excerpt_line": 27,
+          "excerpt": "**作者／工作台可用術語**：「原槍」「外圍模組」「原裝部件」「核心大模組」「行構」「構識」「原生主執行樞核」等用於規劃，不表示諾亞已知完整分類。第一至五章可確定他見過黑銃與暗銀零件互相共鳴、碎片自行融合、能力有實際變化；他**沒有可靠證據可判定某物必為『核心原裝大模組』、也不知道完整裝備清單**。人物視角中宜用「黑銃」「會回應的碎件」「不尋常的震動」「那個似乎與槍有關的東西」。他可以推測、說錯、改口，不可被旁白偷偷賦予作者手冊的知識。",
+          "terms": [
+            "諾亞"
+          ]
+        },
+        {
+          "heading_line": 33,
+          "heading": "## 四｜近期六章候選的具體修訂方向（候選，不自動成正史）",
+          "excerpt_line": 37,
+          "excerpt": "| G3 第二章 | 工聯850損害與32t搶險交換成立；三枚供能匣實物保留，末尾台詞不能又說已交出去；三商行保證金等後續保留社會因果 | 老巴爾罵人、搶險救城、諾亞和艾莉維亞初步結盟 |",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 44,
+          "heading": "## 五｜正式寫作與 QA 必檢",
+          "excerpt_line": 46,
+          "excerpt": "- 是否有「上一章／第三章／作者／讀者」等幕後詞進入本文旁白？",
+          "terms": []
+        },
+        {
+          "heading_line": 53,
+          "heading": "## 六｜來源追溯",
+          "excerpt_line": 56,
+          "excerpt": "- [第177份五章修補與大尺度候選](../09_跨AI原始來源/177_聊天可見整理_Gemini五章補丁_巨型尺度_白髮前文明與復歸初遇_候選.md)",
+          "terms": [
+            "Gemini",
+            "前文明",
+            "候選",
+            "復歸"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "交接",
+        "候選",
+        "復歸",
+        "第三個座位",
+        "主角"
+      ],
+      "first_text_excerpt": "# 第183份｜作者後出確認：人物可以誤判、有限理性與正文角色認知邊界；前六章修稿規則",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-069",
+      "source_path": "06_敘事規劃與工作流/190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 13414,
+      "git_blob_sha_verified": "53a162bd2c4753f8d66956e3d73732769f1761ea",
+      "source_lines": 80,
+      "type": ".md",
+      "headings_found": 8,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第190份｜跨遊戲研究：NPC自然對話契機、多入口情報網、社會系統與活著的巨構世界",
+          "excerpt_line": 3,
+          "excerpt": "> 2026-11-05｜**研究與創作素材候選，不是新 Canon。** 使用者以Roblox《Deepwoken》《Archived》《Mountfall》等為例，指出「NPC沒開口說出資訊」很多時候不是刻意隱瞞，只是尚未具備談起它的情境；別的人、線索、物品也可能把主角帶向這位人物。本研究不只研究NPC對話，還探討可移植的社會、路網、環境、角色差異、戰鬥代價、知識探索和世界自主性。讀此文不表示遊戲的設定、數值或劇情被搬入《巨構世界》。",
+          "terms": [
+            "候選",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 7,
+          "heading": "## 一｜真正要借鑑的不是「觸發對話UI」，而是「此人為何此時自然開口」",
+          "excerpt_line": 9,
+          "excerpt": "角色知道某件事不代表他有義務在初次見面的買賣中主動交代。可能是沒人問、彼此不熟、對方無從理解、他自己沒把兩件事連在一起、正在忙別的工作、事情還沒發生、談了也無益，甚至只是上次忘記提。反過來，真的有隱瞞、故意說謊、受契約限制的角色也可存在，但須有個別理由。",
+          "terms": []
+        },
+        {
+          "heading_line": 15,
+          "heading": "## 二｜逐款核對：遊戲可查事實 vs. 借用原理",
+          "excerpt_line": 17,
+          "excerpt": "| 遊戲／已核對來源 | 查證可支援的遊戲機制 | 借鑑到《巨構世界》的**研究候選** | 不應照抄／已知邊界 |",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 27,
+          "heading": "### 已核對的主要外部來源（用來查玩法，不代表採納劇情）",
+          "excerpt_line": 28,
+          "excerpt": "- Deepwoken官方Roblox頁：https://www.roblox.com/games/4111023553/Deepwoken",
+          "terms": []
+        },
+        {
+          "heading_line": 37,
+          "heading": "## 三｜不只NPC對話：可長期擴充的八個研究方向",
+          "excerpt_line": 41,
+          "excerpt": "**2. 由人物與實物共同構成的情報網。** 人物可傳遞片段、物證可反駁記憶、帳目可引出別的貨站；至少有一些替代調查路徑，允許錯判、遺漏、暫時不知道；**不是所有路徑都必須成功，也不是每位NPC都知道最終答案**。",
+          "terms": []
+        },
+        {
+          "heading_line": 55,
+          "heading": "## 四｜可檢驗示例：同一個普通人、三條可能的接觸路徑（非正文Canon）",
+          "excerpt_line": 65,
+          "excerpt": "若作者將此人的往事視為可回收伏筆，仍要在撰寫首次埋線索的那章**先向使用者交代：她真知道什麼、以前發生什麼、為何尚未提及、可從哪些來源指向她、何處收束。** 不需要把未來三條路線都寫成固定章數，也不需要為路人建立數十頁傳記。",
+          "terms": []
+        },
+        {
+          "heading_line": 67,
+          "heading": "## 五｜讀者體驗的非機械轉譯",
+          "excerpt_line": 69,
+          "excerpt": "**可用**：人物先有生活，資訊因相遇與選擇才有意義；同一線索可先誤解、幾章後改觀；某個地區的習俗、經濟、危險和角色關係會自然決定談話；主角錯過什麼，也不代表世界停擺。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 75,
+          "heading": "## 六｜下一批可研究的不同方向（純候選）",
+          "excerpt_line": 77,
+          "excerpt": "不只追逐與上列作品相同的題材；可延伸研究《空洞騎士》的地圖與支線人物節奏、《來自深淵》的垂直環境與探險代價、《BLAME!》的巨大尺度／文明斷層、《Outer Wilds》在先知道答案之後改變探索方式、《Rain World》的獨立生態、《Disco Elysium》的認知與對話差異，也可研究貿易、建造、政治、職業、家庭日常、生活美學、幽默和互相競爭的社群。**這些只是後續研究題目，尚未在此文件聲稱逐一完整核對。**",
+          "terms": [
+            "生態",
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "商隊",
+        "生態",
+        "工坊",
+        "候選",
+        "主角",
+        "城市",
+        "物權"
+      ],
+      "first_text_excerpt": "# 第190份｜跨遊戲研究：NPC自然對話契機、多入口情報網、社會系統與活著的巨構世界",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-070",
+      "source_path": "06_敘事規劃與工作流/191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 22484,
+      "git_blob_sha_verified": "1fdfb9af521cbf70f70d94910b239c7014190924",
+      "source_lines": 223,
+      "type": ".md",
+      "headings_found": 34,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第191份｜跨遊戲世界生命力深度研究：建造、經濟、文明日常、信仰學術、戰鬥、喜劇、環境敘事與旅途偶遇",
+          "excerpt_line": 3,
+          "excerpt": "> 研究日期：2026-11-05。**外部作品研究／創作素材庫，全部為候選，不是《巨構世界》Canon。** 回應使用者「這些遊戲不必是固定名單，繼續主動研究地區建造、物品經濟、文明日常、宗教學術、戰鬥、喜劇、環境敘事、純粹有趣的偶遇」的指令。本次研究涵蓋十餘款不同類型作品，不以Roblox RPG為上限；重點是理解運作原理、移植方法和不宜模仿的錯誤。外部遊戲內容依官方遊戲頁、開發者文章／訪談、官方支援或開發商Wiki核對；**沒有宣稱逐一通關或完整觀看每場遊戲劇情**。",
+          "terms": [
+            "宗教",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 7,
+          "heading": "## 核心研究結果：讓世界的各部分「有自己的理由」",
+          "excerpt_line": 11,
+          "excerpt": "研究採四層：**（A）查證作品實際有什麼→（B）為何產生效果→（C）如何轉為文學演出→（D）過度照抄會造成什麼缺點。** 下面的小說示例均為新的非正史概念，不是宣布該地已有該組織或該角色。局部現實技術與虛構機制可共存，作者不能由遊戲的架構數字硬推巨構世界的科技／經濟公式。",
+          "terms": [
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 13,
+          "heading": "## 一｜建造與基礎設施：一座城有施工、維修與交通史",
+          "excerpt_line": 13,
+          "excerpt": "## 一｜建造與基礎設施：一座城有施工、維修與交通史",
+          "terms": []
+        },
+        {
+          "heading_line": 15,
+          "heading": "### 查證A｜《Workers & Resources: Soviet Republic》",
+          "excerpt_line": 16,
+          "excerpt": "- 開發商官方站把從礦山到工廠的加工鏈、道路／鐵路／傳送帶／管路、水電設施、住宅和居民服務視為連動系統。",
+          "terms": []
+        },
+        {
+          "heading_line": 35,
+          "heading": "### 查證A｜《EVE Online》",
+          "excerpt_line": 36,
+          "excerpt": "- 官方製造頁列明藍圖、材料、製造設施、距離與成本的依賴。公開經濟研究論述玩家主導採礦、加工、運輸、交易與分工，形成由玩家互動產生的社會經濟網絡。",
+          "terms": []
+        },
+        {
+          "heading_line": 55,
+          "heading": "### 查證｜《Caves of Qud》",
+          "excerpt_line": 56,
+          "excerpt": "- 官網以物理、社會、歷史模擬編織手寫劇情，官方早期路線圖列生成村莊的地方資源、專屬料理、諺語、講故事傳統、建築、人物、歷史和派系。",
+          "terms": []
+        },
+        {
+          "heading_line": 72,
+          "heading": "### 查證｜《Pentiment》與《BOOK OF HOURS》",
+          "excerpt_line": 82,
+          "excerpt": "- **重要區別**：外界觀測者如何稱呼現象，不等於他已知道前文明的真實歷史；宗教不被作者全知旁白簡化成純無知或終極真理。",
+          "terms": [
+            "前文明",
+            "宗教"
+          ]
+        },
+        {
+          "heading_line": 92,
+          "heading": "### 查證B｜《Monster Hunter Wilds》",
+          "excerpt_line": 93,
+          "excerpt": "- Capcom透過PlayStation Blog介紹怪物會隨氣候、地形及族群動態行動，群居、領地與掠食習性影響遭遇，而非一律靜止等待狩獵。",
+          "terms": []
+        },
+        {
+          "heading_line": 112,
+          "heading": "### 查證A｜《Like a Dragon》系列",
+          "excerpt_line": 113,
+          "excerpt": "- RGG Studio在2025年PlayStation周年訪談說：故事的戲劇核心先決定，次要內容依題材及舞台設計；其獨特幽默可包含把道歉做成股東會的攻擊技等荒謬表現。",
+          "terms": []
+        },
+        {
+          "heading_line": 131,
+          "heading": "### 查證A｜《Hollow Knight》",
+          "excerpt_line": 132,
+          "excerpt": "- Team Cherry官方介紹強調差異化、彼此相通的環境與特異居民；開發者早期公開文提到遺跡中的角色仍有自己的日常工作，某些生物遭異常影響。",
+          "terms": [
+            "遺跡"
+          ]
+        },
+        {
+          "heading_line": 150,
+          "heading": "### 查證A｜《A Short Hike》",
+          "excerpt_line": 151,
+          "excerpt": "- 原創作者Adam Robinson-Yu強調登山休憩、自由走路、認識旅人、小型探索和單純欣賞風景的喜悅；可以釣魚、游泳、走不同小路。",
+          "terms": []
+        },
+        {
+          "heading_line": 171,
+          "heading": "### A. 收工後的車站餐館｜經濟＋生活＋幽默",
+          "excerpt_line": 172,
+          "excerpt": "同一座車站有早班、中班、晚班工人。餐館老闆根據吊籠到站時間備餐。一個普通維修員因被改班，錯過自己預訂的熱湯，和老闆認真爭執要不要退錢。兩位旅人進門，先被問「你們是等車還是等吃？」雙主角可能因一個小笑話認識這個地方，不必得到任何核心伏筆。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 184,
+          "heading": "### D. 風道休息平台｜環境敘事＋生態＋小型人物記憶",
+          "excerpt_line": 185,
+          "excerpt": "兩人原本只是想避開鐘擺風。休息台前曾有人釘過不同年代的扶手，台邊長著偏愛溫暖蒸汽的矮小植物。兩人坐著等風變小，艾莉維亞吃最後一塊點心，諾亞看遠處空腔的光。可以只有安靜、好笑或略微心動，沒有隱藏墓穴；若該平台未來真的成為兩人回望的感情地點，也不需要當下透過神祕預言宣告。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "生態"
+          ]
+        },
+        {
+          "heading_line": 187,
+          "heading": "## 十｜優先推薦順序（為了實際改善長篇，不是作品排名）",
+          "excerpt_line": 193,
+          "excerpt": "| **第二輪** | 《Caves of Qud》＋《BOOK OF HOURS》 | 不同文明的食衣住行、研究與信仰機構的日常；知識分類由誰使用 |",
+          "terms": []
+        },
+        {
+          "heading_line": 200,
+          "heading": "## 十一｜寫作前六條檢驗與明確不能做的事",
+          "excerpt_line": 202,
+          "excerpt": "1. **地方的生活功能**：拿掉主角，這個地方是否仍有居民的真實理由存在？答案可以是「沒有，這是荒廢古代設施」，但要有因果。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 211,
+          "heading": "## 十二｜公開來源與查證邊界",
+          "excerpt_line": 217,
+          "excerpt": "| 開發者直接受訪／署名文章 | Like a Dragon製作人訪談、A Short Hike作者自述、Frostpunk 2製作團隊文章 | 支持對設計動機和效果的歸納 |",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "商隊",
+        "宗教",
+        "生態",
+        "工坊",
+        "遺跡",
+        "交接",
+        "候選",
+        "非正史",
+        "世界層",
+        "主角",
+        "城市",
+        "人口",
+        "物權"
+      ],
+      "first_text_excerpt": "# 第191份｜跨遊戲世界生命力深度研究：建造、經濟、文明日常、信仰學術、戰鬥、喜劇、環境敘事與旅途偶遇",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-071",
+      "source_path": "06_敘事規劃與工作流/192_跨媒介敘事研究_BLAME奇諾魔女之旅_巨構異質風格情緒交疊_非正史.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 48086,
+      "git_blob_sha_verified": "8ab1b789463bd08c242605123845d17d97d110ca",
+      "source_lines": 413,
+      "type": ".md",
+      "headings_found": 57,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第192份｜跨媒介作品研究：BLAME! 深拆、奇諾之旅、魔女之旅，以及巨構世界的異質風格與情緒交疊",
+          "excerpt_line": 5,
+          "excerpt": "> 這份研究回應作者希望參考《奇諾之旅》《魔女之旅》，把《BLAME!》研究得更完整，同時探索新奇、怪異、刺激、殘酷、血腥、溫暖、空曠、漂亮、壓抑等可重疊風格的要求。**這不是新增正式世界規則、地理、文明、人物、血腥尺度、劇情事件或固定配額，也不要求下一章必須使用下列元素**。",
+          "terms": []
+        },
+        {
+          "heading_line": 11,
+          "heading": "## 0｜真正的研究目標：不是把《巨構世界》塗成單一美術風格",
+          "excerpt_line": 13,
+          "excerpt": "《BLAME!》代表「人行走於失去可理解比例的建築」；《奇諾之旅》代表「每一站可形成自我封閉但可持續反思的文明鏡子」；《魔女之旅》代表「旅行者本身有鮮明人格，每一次遭遇可以換故事種類」。這三者構成**空間—社會—人物**三條不同研究軸，不應互相替代。",
+          "terms": []
+        },
+        {
+          "heading_line": 21,
+          "heading": "# 第一部｜三個核心主軸",
+          "excerpt_line": 21,
+          "excerpt": "# 第一部｜三個核心主軸",
+          "terms": []
+        },
+        {
+          "heading_line": 34,
+          "heading": "### 1.2 巨構感不是「在旁白寫很大」：十個互相支撐的機制",
+          "excerpt_line": 39,
+          "excerpt": "4. **重複中出現可感異差**。重複的管線、柱網、扶手具有系統性；損壞、腐蝕、錯位、材質與年代不一致又暗示此地不是全新一體建造。小說應有能記住的差異，不能十頁只重複「巨大且冰冷」。",
+          "terms": []
+        },
+        {
+          "heading_line": 71,
+          "heading": "### 1.7 哪些是《巨構世界》最值得學的，哪些不應照抄",
+          "excerpt_line": 73,
+          "excerpt": "| 可吸收的方法（研究方向） | 不能直接照抄的外表 |",
+          "terms": []
+        },
+        {
+          "heading_line": 110,
+          "heading": "## 3｜《魔女之旅》：旅行不只觀察世界，也是在表演旅行者本人的性格",
+          "excerpt_line": 110,
+          "excerpt": "## 3｜《魔女之旅》：旅行不只觀察世界，也是在表演旅行者本人的性格",
+          "terms": []
+        },
+        {
+          "heading_line": 141,
+          "heading": "# 第二部｜擴展作品群：不只巨構，也不只「好看的世界觀」",
+          "excerpt_line": 141,
+          "excerpt": "# 第二部｜擴展作品群：不只巨構，也不只「好看的世界觀」",
+          "terms": []
+        },
+        {
+          "heading_line": 167,
+          "heading": "## 8｜《大黑暗》（Dai Dark）——令人毛骨悚然的世界也可以很好笑",
+          "excerpt_line": 171,
+          "excerpt": "**方法**：把可怖設定當日常生存條件使用，與角色的普通願望產生反差；把「怪」從怪物造型擴展到食物、修理方式、生活習俗、職業與社交。**複合：宇宙陰冷 × 血肉怪奇 × 少年式胡鬧**。不能直接移入其骨頭願望機制。",
+          "terms": []
+        },
+        {
+          "heading_line": 197,
+          "heading": "## 13｜《Scavengers Reign》——美到不像威脅的生態，可能極度不近人情",
+          "excerpt_line": 201,
+          "excerpt": "**方法**：異常植物、寄生、共生、傳粉、捕食、變態與物質交換各有功能，不必設成每只怪物都想殺主角。角色可能靠觀察和小心試驗活過一晚，也可能因過度自信被吞沒。**複合：絢麗 × 令人不舒服 × 生命驚奇 × 殘忍**。不能把一切生物連成終極控制者或一看就有科技原理。",
+          "terms": [
+            "生態",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 227,
+          "heading": "## 18｜《Tower Dungeon》（塔之迷宮）——同一位作者的另一種「巨大」",
+          "excerpt_line": 231,
+          "excerpt": "**方法**：高危探索有**小隊內差、受傷、角色分工、補給、樓層限制與互信**，不只是單人孤旅；同樣巨大的建築，奇幻冒險與科幻孤獨可以用完全不同的情感節奏。**複合：迷宮 × 古怪怪物 × 組織責任 × 短兵相接**。不要把塔樓等同於《巨構世界》的所有「世界層」。",
+          "terms": [
+            "世界層"
+          ]
+        },
+        {
+          "heading_line": 255,
+          "heading": "## 22｜《ECHO》：建築不只是場景，而是記錄使用者行為的對手",
+          "excerpt_line": 259,
+          "excerpt": "**轉譯**：危險系統可因人物自己的習慣而改變選擇，迫使其不只比火力、而是換處理方式。**複合：華麗 × 壓迫 × 反身性 × 智力壓力**。不應照抄逐行「敵人AI學會衝刺／射擊」UI，或把所有古代設施擬人化成同類機關。",
+          "terms": []
+        },
+        {
+          "heading_line": 311,
+          "heading": "# 第五部｜從畫面／遊戲／小說「真正轉譯」成長篇文字",
+          "excerpt_line": 311,
+          "excerpt": "# 第五部｜從畫面／遊戲／小說「真正轉譯」成長篇文字",
+          "terms": []
+        },
+        {
+          "heading_line": 333,
+          "heading": "## 29｜「漂亮、空曠、壓抑」也不是同一維度",
+          "excerpt_line": 336,
+          "excerpt": "- **空曠**：可感空間大／人稀少／回聲遠／可接觸物少。不自動等於不存在文明。",
+          "terms": []
+        },
+        {
+          "heading_line": 361,
+          "heading": "## 32｜下一輪若要做更精準的「完整」研究，應如何取得證據",
+          "excerpt_line": 363,
+          "excerpt": "1. **BLAME! 完整精讀（下一個高優先材料任務）**：依漫畫實際大本1–6卷逐卷建立「環境頁／人類共同體／異質勢力／交戰／日常／沉默／轉場／資訊新知」索引；標明出現在哪一卷、原來是否有對白、空間切換是否解釋、前後人物關係變化及反例。不因只看過動畫電影或分鏡精選而冒充六卷逐頁驗收。再讀《NOiSE》，另與2017電影做**改編差異**表。",
+          "terms": []
+        },
+        {
+          "heading_line": 369,
+          "heading": "## 33｜明確禁止的偷懶綜合",
+          "excerpt_line": 380,
+          "excerpt": "- **不把素材候選當 Canon，不把 Gemini 或任何 AI 已寫章自評直接視為作者選案，不擅解除 PREWRITE HOLD。**",
+          "terms": [
+            "Gemini",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 384,
+          "heading": "# 第七部｜本輪主要公開來源與版本界線（優先官方）",
+          "excerpt_line": 392,
+          "excerpt": "| 魔女之旅 | [Yen Press](https://yenpress.com/series/wandering-witch-the-journey-of-elaina)；[Square Enix漫畫](https://squareenixmangaandbooks.square-enix-games.com/en-us/series/wandering-witch) | 原作者與代表旅途內容；輕小說／漫畫分開 |",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "宗教",
+        "生態",
+        "遺跡",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "first_text_excerpt": "# 第192份｜跨媒介作品研究：BLAME! 深拆、奇諾之旅、魔女之旅，以及巨構世界的異質風格與情緒交疊",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-072",
+      "source_path": "06_敘事規劃與工作流/193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 17401,
+      "git_blob_sha_verified": "4b4cfc5fa1345015ea2f24d371011018db352647",
+      "source_lines": 113,
+      "type": ".md",
+      "headings_found": 13,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第193份｜Roblox 與跨媒介續研：Deepwoken、Archived、Mountfall，及生活、戰鬥、偶遇、怪異的互相滲透",
+          "excerpt_line": 3,
+          "excerpt": "> **2026-11-05｜來源核對＋敘事原理分析＋原創微型實驗；全篇 NON-CANON／非正史**。這是第190份（NPC自然談話／多入口情報）與第191份（建造、經濟、文化、社群、戰鬥、日常等八個研究方向）的增量；與第192份（BLAME!、奇諾、魔女之旅及異質情緒矩陣）並列互參，**第192份原先在 Draft PR #18，現已合併 main**。不改任何主角設定、已寫候選章、具體地方或正式Canon。",
+          "terms": [
+            "候選",
+            "非正史",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 9,
+          "heading": "## 一｜每部作品究竟能讓讀者學到什麼",
+          "excerpt_line": 13,
+          "excerpt": "| [Roblox Deepwoken](https://www.roblox.com/games/4111023553/Deepwoken) | **A** 官方明示永久失去角色、複雜武器和裝備構築、不同出身／屬性／升級、多座繁忙城鎮、敵對海域、荒廢聖所和非自然幾何、幾百人物與逐步擴充的世界詞典。**B** [社群聲望表](https://deepwoken.fandom.com/wiki/Reputation)記載陣營敵意影響衛兵、商人、賞金與部分對話；[對話頁](https://deepwoken.fandom.com/wiki/Dialogue)記載部分前置條件。 | 探索時不知道下一",
+          "terms": [
+            "諾亞",
+            "復歸"
+          ]
+        },
+        {
+          "heading_line": 21,
+          "heading": "## 二｜關於 Deepwoken：從遊戲難度轉譯成「旅途不斷受人與地方改寫」",
+          "excerpt_line": 27,
+          "excerpt": "2. 嚴苛風險讓**準備、情報與撤退**成為有重量的選擇；主角可以遭到突襲、丟掉貨物、因一次看似很小的衝突損失兩日行程，也可能在沒有戰鬥的地方得到珍貴幫助。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 34,
+          "heading": "## 三｜關於 Archived：組織是社會，不是換皮技能菜單",
+          "excerpt_line": 38,
+          "excerpt": "- **裝備不是「角色拾到＝所有權自動成立」**：物資可能來自交易、雇主借用、救災分配、代工、行會共有、私人物品或從屬於特別技術契約。獲得、使用、帶走和出售是**不同權利**。",
+          "terms": []
+        },
+        {
+          "heading_line": 43,
+          "heading": "## 四｜關於 Mountfall：戰鬥不是必須永遠升到巨獸級別",
+          "excerpt_line": 52,
+          "excerpt": "對第5章鏡殼擬態蟬戰尤其有用：兩位主角與赫連的定位已不同，巨蟬殘影可以使**看、鎖、判斷、攻擊的次序**成為驚險來源；不能只把各人招式堆成漂亮特效。而第6章的水母戰要重視環境誘敵與路線，不必再添加一位更強的敵人維持刺激。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 54,
+          "heading": "## 五｜新補 Roblox 研究：在意想不到的地方找情緒與世界生命力",
+          "excerpt_line": 54,
+          "excerpt": "## 五｜新補 Roblox 研究：在意想不到的地方找情緒與世界生命力",
+          "terms": []
+        },
+        {
+          "heading_line": 56,
+          "heading": "### Regretevator：不要每件怪事都升成陰謀",
+          "excerpt_line": 58,
+          "excerpt": "**證據**：官方說明它是隨機電梯、謎題、休閒和秘密；對玩家而言，一次能遇上安靜社交房間，一次是混亂的特殊遭遇。借其**不同情緒快速換色**，小說則保留客觀可理解的地理與交通：一個地方可好玩，不必留下未解重大伏筆。",
+          "terms": []
+        },
+        {
+          "heading_line": 62,
+          "heading": "### Creatures of Sonaria：非人生命的自主生態",
+          "excerpt_line": 65,
+          "excerpt": "- 同一片空域，飛行小型生物、大型捕食者、可捕食其他物種的智慧生命、定居村落、遷移商隊可以在不同時間使用。",
+          "terms": [
+            "商隊",
+            "生態"
+          ]
+        },
+        {
+          "heading_line": 71,
+          "heading": "### Block Tales：童話外觀可以承受真正故事重量",
+          "excerpt_line": 73,
+          "excerpt": "它的章節式遊戲定位可供比較：可笑的角色聲線、明亮的簡化畫面與真正的危機能在同一段敘事裡成立。但不能把「章節更新」誤推成作者只能每章一個Boss；真正的小說篇幅應服從人物、關係、資訊密度與事件容量。",
+          "terms": []
+        },
+        {
+          "heading_line": 75,
+          "heading": "## 六｜與《BLAME!》《奇諾之旅》《魔女之旅》如何互相補足？",
+          "excerpt_line": 80,
+          "excerpt": "| 不同文明 | 《奇諾之旅》讓每個國家有自己的正常與怪異 | Archived／Deepwoken有陣營、加入條件、居住和職業身份 | 這座城的人當主角不在時也在過什麼日子？ |",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 86,
+          "heading": "## 七｜六種可重疊但不必同時具備的閱讀回報",
+          "excerpt_line": 93,
+          "excerpt": "6. **「我想知道後來怎樣」**：人物關係的進展、事件後果、有限伏筆回收或一個未完成的生活願望，來源不限解謎。",
+          "terms": []
+        },
+        {
+          "heading_line": 97,
+          "heading": "## 八｜後續可實證的精讀樣本與風險",
+          "excerpt_line": 101,
+          "excerpt": "- **Mountfall 原版／Descent**：分開找原版戰鬥片段與重製版區域危險例子；不能把重製版「地圖九層」當成原版通用結構，操作招式以各版實際影片為準。",
+          "terms": []
+        },
+        {
+          "heading_line": 106,
+          "heading": "## 九｜本輪最新公開資料及權威邊界",
+          "excerpt_line": 110,
+          "excerpt": "- 本輪核對時間 **2026-11-05**；羅布樂思列表有「目前沒有運行體驗」的網站動態提示，該提示不能直接當停服公告。",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "商隊",
+        "宗教",
+        "生態",
+        "工坊",
+        "野生",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "主角",
+        "列車",
+        "物權"
+      ],
+      "first_text_excerpt": "# 第193份｜Roblox 與跨媒介續研：Deepwoken、Archived、Mountfall，及生活、戰鬥、偶遇、怪異的互相滲透",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-073",
+      "source_path": "06_敘事規劃與工作流/20261108_Gemini八十題_逐題來源覆蓋與原文保存等級核對.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 21772,
+      "git_blob_sha_verified": "aa17f765c570db2d098611bc0429508430270b9e",
+      "source_lines": 123,
+      "type": ".md",
+      "headings_found": 5,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# Gemini 80 題｜第159題庫 × 第168／171／173回覆 × 第176覆蓋稽核",
+          "excerpt_line": 3,
+          "excerpt": "> **2026-11-08 重新核對、修正「只找到首批十題」錯誤**。此為**來源及保存狀態索引，不是新回答，也不是劇情 Canon**。當前第1–12章 CANDIDATE / NON-CANON；正式正文0章／PREWRITE HOLD。",
+          "terms": [
+            "Gemini"
+          ]
+        },
+        {
+          "heading_line": 5,
+          "heading": "## 核對後的結論",
+          "excerpt_line": 7,
+          "excerpt": "1. [第159份精簡80題題庫](159_Gemini下一階段八十題與創作優先級_研究任務清單.md)：**80個題目全部有保存**。原始長題與使用者交代的回覆規範，被合冊於[195_B 中第166份](../09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md)。",
+          "terms": [
+            "Gemini"
+          ]
+        },
+        {
+          "heading_line": 15,
+          "heading": "## 80題逐格定位（標題有提及 ≠ 完整深度回答）",
+          "excerpt_line": 19,
+          "excerpt": "| 01 | W01十二大區在真實三維中的宏觀形貌：母骨架、空域、天幕、承載面 | 173 A–H 整理 | [195_C 中第173](../09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md) |",
+          "terms": [
+            "W01"
+          ]
+        },
+        {
+          "heading_line": 100,
+          "heading": "## 九題尚無獨立完整深答的創作價值",
+          "excerpt_line": 111,
+          "excerpt": "**不要立即把這九題機械重問 Gemini 以補數量**。真正有劇情需要時，重新利用既有素材生成場景、人物選擇與獨立結果；若收到新的完整 Gemini 原稿，應先原文封存再作評審，保留舊摘要和後出決議。",
+          "terms": [
+            "Gemini"
+          ]
+        },
+        {
+          "heading_line": 113,
+          "heading": "## 文件入口與可靠性",
+          "excerpt_line": 117,
+          "excerpt": "- 第168 首批十題：195_B 中 `SOURCE_ARCHIVE_BEGIN filename=168_`；另有 `待定正文/Gemini原稿/G4_第168_十題人物日常復歸群像_短篇試寫與提案.md`",
+          "terms": [
+            "Gemini",
+            "復歸"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 4,
+      "embedded_archive_file_examples": [
+        "166_`",
+        "168_`；另有",
+        "171_`",
+        "173_`"
+      ],
+      "version_labels": [
+        "20261108"
+      ],
+      "detected_topics": [
+        "W01",
+        "W02",
+        "K01",
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "醫療",
+        "宗教",
+        "生態",
+        "工坊",
+        "交接",
+        "候選",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "城市",
+        "人口",
+        "物權"
+      ],
+      "first_text_excerpt": "# Gemini 80 題｜第159題庫 × 第168／171／173回覆 × 第176覆蓋稽核",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-074",
+      "source_path": "06_敘事規劃與工作流/README.md",
+      "source_category": "06_敘事規劃與工作流",
+      "source_bytes": 15206,
+      "git_blob_sha_verified": "31763eb144527e0c66a1c762b6b17679cf363717",
+      "source_lines": 85,
+      "type": ".md",
+      "headings_found": 13,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "## 2026-11-08｜Gemini 80 題三批回覆已找回（糾正只存十題的誤判）",
+          "excerpt_line": 4,
+          "excerpt": "- **血腥場景觀察者的反應有個體與地方差異**：熟悉血腥的人可以邊吃飯邊聊天，卻不表示贊同暴力；外地人可以不適、保持沉默、適應或反對，不能硬套全員尖叫／全員麻木。2026-11-08 作者補充已套第022、023份，不等於指定哪座城必有公開殘酷制度。",
+          "terms": [
+            "Gemini"
+          ]
+        },
+        {
+          "heading_line": 8,
+          "heading": "## 2026-11-08｜舊設定寶庫回收（重要：避免跨AI接手時遺忘）",
+          "excerpt_line": 10,
+          "excerpt": "- **[一頁接手導航](../000_舊設定寶庫_接手必讀_20261108.md)**：清點既有血腥尺度、灰度倫理、根橋巨樹／蜘蛛／巨龜、跨層遷徙、微小生物、不同地貌，以及 Gemini 80題研究的真實存放位置，標注作者確立方向與可推翻原創候選。",
+          "terms": [
+            "Gemini",
+            "跨層",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 14,
+          "heading": "# 06_敘事規劃與工作流｜檔案索引",
+          "excerpt_line": 14,
+          "excerpt": "# 06_敘事規劃與工作流｜檔案索引",
+          "terms": []
+        },
+        {
+          "heading_line": 16,
+          "heading": "## 2026-11-05｜第193–194份：Roblox作品續研與第三至第六章實際候選正文 QA（非正史）",
+          "excerpt_line": 18,
+          "excerpt": "[第193份：Deepwoken／Archived／Mountfall原版與Descent、Regretevator、Creatures of Sonaria、Block Tales 跨媒介敘事研究](193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md)｜[第194份：G5R第三章→G6第四章→G7R第五章→G8D第六章逐章有據對讀、跨章因果與可修之處](../08_交接勘誤與決議/194_第三至第六章正文逐章對照_Roblox旅行巨構研究QA與第七章保全_非正史.md)。",
+          "terms": [
+            "交接",
+            "候選",
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 25,
+          "heading": "## 2026-11-05｜第192份：BLAME!／奇諾之旅／魔女之旅與多重情緒交疊研究（非Canon）",
+          "excerpt_line": 27,
+          "excerpt": "[第192份跨媒介作品研究](192_跨媒介敘事研究_BLAME奇諾魔女之旅_巨構異質風格情緒交疊_非正史.md) 已實際保存：以《BLAME!》為核心拆解巨構尺度、沉默、制度失控、旅途與暴力，與《奇諾之旅》《魔女之旅》比較地方文明和旅行者性格，再擴及《少女終末旅行》《蟲師》《異獸魔都》《來自深淵》《Piranesi》《Rain World》《Lorn's Lure》等24組作品／媒介案例；含16組可互相重疊的情緒機制、4個非正史微片段、跨媒介寫法轉譯及失敗風險。**只基於可查官方資料與研究分析，尚未逐頁讀完全部原著／通關全部遊戲**；本份不取代第190、191份，也**不增加Canon、不改",
+          "terms": [
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 30,
+          "heading": "## 2026-11-05｜第191份：跨遊戲世界生命力八領域研究（非Canon）",
+          "excerpt_line": 32,
+          "excerpt": "[第191份｜建造／經濟／文明日常／宗教學術／戰鬥／喜劇／環境敘事／旅途偶遇深度研究](191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md)：已參照《Workers & Resources》《Frostpunk 2》《EVE Online》《Roadwarden》《Caves of Qud》《Pentiment》《BOOK OF HOURS》《Sekiro》《Monster Hunter Wilds》《Kingdom Come II》《Like a Dragon》《West of Loathing》《Hollow Knight》《Return of the Ob",
+          "terms": [
+            "宗教",
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 34,
+          "heading": "## 2026-11-05｜第190份：跨遊戲NPC自然對話契機／多入口情報與活世界設計研究",
+          "excerpt_line": 36,
+          "excerpt": "新增[第190份｜Deepwoken、Archived、Mountfall及其他遊戲的情報網、地區社會、生態、戰鬥與探索研究](190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md)。**角色沒有提某件事，不等於他在隱瞞**：可能尚無自然談話契機、沒意識到線索價值、沒被問到，其他人物、物證、帳簿、事件與地形也能指向他；可有多條信息路徑、失敗、錯過或由別人先行動。研究範圍不限NPC，還包括聲望／組織、工坊經濟、地形風險、動作對抗、知識型探索、自主生態與世界缺席時的變化。**本第190份全為非Canon借鑑研究**；第031份「任何被賦予可回收伏筆的普通人，寫章前須先向使用",
+          "terms": [
+            "生態",
+            "工坊",
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 38,
+          "heading": "## 2026-11-05｜信息尚未揭露，不等於角色刻意隱瞞：多入口線索與自然對話契機",
+          "excerpt_line": 40,
+          "excerpt": "**後出作者補充**：一位普通人可能知道某事，卻只是還沒遇到自然談起的場合（類似 NPC 尚未滿足對話條件），**不代表他蓄意保密或帶著陰謀**。主角可從其他人物、物證、帳簿、傳聞或事件先取得指向他的線索，也可能透過別的途徑發現答案；NPC 本人可以只是知情一部分、還沒聯想到關係，甚至不知道這是伏筆。**不得機械寫成任務選單或唯一線索守門人。** 只要作者設定這是日後可回收伏筆，即使人物無意隱瞞，也須**在該章開始前先向使用者交代作者層真相、未談及原因、可能觸發契機及回收方向**，而不提前讓讀者／角色知道。已補入[第031份事件與伏筆規則](031_討論續錄_事件骨架_長期伏筆與作者層收束規劃",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 42,
+          "heading": "## 2026-11-05｜所有角色秘密伏筆都要在章節前向使用者交代（第031、189份補強）",
+          "excerpt_line": 44,
+          "excerpt": "**作者新確認高優先原則**：只要人物承載身分秘密、隱瞞關係、物件、反轉或可回收伏筆，**即使是普通居民、店員、守衛、路人、只有一句話的配角，寫該章前也必須主動向使用者提供「作者專用／含劇透」真相、動機、當下情報差、伏筆線索與回收方向**。只讓助手自己知道或寫完才報告都不符合；寫作中臨時冒出秘密，提交章節前先補告知。**對讀者與人物保密，不對使用者保密**；無秘密的日常人物仍不需全員長篇履歷。詳見[第031份統一執行規則](031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md)及[第189份防無限套娃](189_白瓷面具人作者層因果骨架與防白鳥式無限延伸_續寫門檻.md)。",
+          "terms": []
+        },
+        {
+          "heading_line": 46,
+          "heading": "## 2026-11-05｜白瓷面具人作者答案缺口／禁止白鳥式套娃（第189份）",
+          "excerpt_line": 48,
+          "excerpt": "**新增作者層續寫門檻**：[第189份：白衣人作者層因果骨架與防白鳥式無限延伸](../06_敘事規劃與工作流/189_白瓷面具人作者層因果骨架與防白鳥式無限延伸_續寫門檻.md)。已核對第031份及G8D，使用者貼入的第七章候選雖有白瓷面具人、三日前黑銷事故、鉛盒等懸念，**目前未查到他已確定的真實姓名／履歷、鉛盒內容、事故因果與本事件結局**。遵照作者已確認禁則：**沒有最低限度真相、轉折、高潮、結案規劃，就不能靠追加新勢力與古代秘密接力續寫第八章**。第189份提供**單一可閉合「白庭外聘校準技師／地方工程事故」候選A**，人物名字與具體真相**未經作者採用，絕非新正史**。本輪不改已",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 50,
+          "heading": "## 2026-11-05｜第183份：作者確認角色可誤判＋新版正文QA",
+          "excerpt_line": 52,
+          "excerpt": "- [183｜人物有限理性、可誤判、塞拉的選擇及角色已知／作者術語邊界](183_人物誤判有限理性與前六章修稿規則_作者後出確認.md)：**人物可以不精明、不理性、犯錯而未受罰**；QA不應強迫所有NPC精密風險控制。並列G3R／G5R／G7R／G8C的修正範圍，狀態仍非正史。",
+          "terms": [
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 78,
+          "heading": "## 新增跨AI候選研究入口",
+          "excerpt_line": 80,
+          "excerpt": "- [171｜第二批十題](../09_跨AI原始來源/171_聊天可見轉錄_Gemini第二批十題深度世界建構_候選全文.md)・[173｜其餘A–H題組](../09_跨AI原始來源/173_Gemini剩餘八十題A至H世界設計_逐項候選整理.md)・[176｜完整跨章稽核與未回答題號](../08_交接勘誤與決議/176_Gemini第三至五章與八十題增量稽核_時序能力物權來源未決.md)。均屬研究候選，不覆蓋159／166原始80題。",
+          "terms": [
+            "Gemini",
+            "交接",
+            "候選",
+            "物權"
+          ]
+        },
+        {
+          "heading_line": 82,
+          "heading": "## 2026-11-04｜第177–182份可執行創作底圖",
+          "excerpt_line": 84,
+          "excerpt": "- [182｜萬公里世界層與局部大空腔比例、雙主角六參數、白髮能力類型、文明／器具指紋與道具鎖地圖卡](182_作者決策前工作底圖_萬公里宏觀與雙主角升級_非線性道具鎖.md)是**新候選工作底圖**，並以[181獨立稽核](../08_交接勘誤與決議/181_Gemini萬公里尺度復歸黑霧第六章_來源優先與工程獨立稽核.md)為採案前檢查。原第114瑟莉思媞首遇內核已選未發生；第180第六章須修第五章B分線才可接，不覆蓋第175原候選。",
+          "terms": [
+            "瑟莉思媞",
+            "Gemini",
+            "交接",
+            "候選",
+            "復歸",
+            "世界層",
+            "主角"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "宗教",
+        "生態",
+        "工坊",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "主角",
+        "物權"
+      ],
+      "first_text_excerpt": "## 2026-11-08｜Gemini 80 題三批回覆已找回（糾正只存十題的誤判）",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-075",
+      "source_path": "07_候選故事與場景/019_討論候選_女主兩場完整場景測試_前文明交鋒與海盆救援.md",
+      "source_category": "07_候選故事與場景",
+      "source_bytes": 18725,
+      "git_blob_sha_verified": "ef8f83365319f7a1793f2e711619f49585e31d7f",
+      "source_lines": 591,
+      "type": ".md",
+      "headings_found": 6,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 討論候選 19｜女主獨立能力的兩場場景實測",
+          "excerpt_line": 3,
+          "excerpt": "> 2026-10-18。使用者回覆「好」，同意先前提案：**寫出一場女主獨自對抗真正高階敵人的戰鬥，以及一場不用男主那把槍的重大事件，測試女主能力、角色表演與獨立性**。",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 11,
+          "heading": "## 場景測試一｜沒有破損的前文明兵器",
+          "excerpt_line": 13,
+          "excerpt": "**測試目標**：女主獨自與仍正常運作、可反制她能力的前文明高階守衛交手，不依賴男主、不靠敵人突然故障或被超低科技「改進」打敗；動作、垃圾話、決策與原理性限制共存。結局是她逼對方從強制隔離改為允許醫療與身份複核，不是殺死守衛。這是**此輪故事測試的局部結局**，不是她已確定只能打成平局的戰力設定。",
+          "terms": [
+            "前文明",
+            "醫療"
+          ]
+        },
+        {
+          "heading_line": 251,
+          "heading": "### 測試讀法",
+          "excerpt_line": 255,
+          "excerpt": "- 女主主動交涉、打趣、受威脅後認真，不是全程冷面強者。她的戰鬥目標是放人，不是每遇到高階武裝就比誰炸得更大。",
+          "terms": []
+        },
+        {
+          "heading_line": 258,
+          "heading": "## 場景測試二｜讓一座城市繼續存在",
+          "excerpt_line": 260,
+          "excerpt": "**測試目標**：女主不用男主頂尖槍、沒有男主在場，獨立解決大型水利危機；高階規則不是替代所有其他人的知識、工作、經濟與制度。受損的是**殞落後當地居民興建／改裝的普通水利工程**，不要錯寫成原初前文明核心因自然老化損毀。",
+          "terms": [
+            "前文明",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 578,
+          "heading": "## 測試後的嚴格檢討：不要因寫得漂亮就定案",
+          "excerpt_line": 580,
+          "excerpt": "**場景一展現：**她能用自己的能力與真正前文明高階武裝進行有來有往的交鋒；對方有完整科技、反制與持續演算，女主不能無條件「我的規則較特殊所以一招定勝負」。事件目的為放出隔離旅人，她只先取得醫療與身份複核。亦不意味前文明頂尖武器和一般高階守衛是同級；本輪未測試與男主完整槍的直接對撞。",
+          "terms": [
+            "前文明",
+            "醫療"
+          ]
+        },
+        {
+          "heading_line": 588,
+          "heading": "## 後續可用的第三個測試",
+          "excerpt_line": 590,
+          "excerpt": "若使用者同意，可以再創作一次她與男主真正同場的高階危機，觀察兩人是否真的**各自有主導權而不是固定男攻女輔**；或先抽出她的規則能力原理，測試「何者算有效接觸」在戰鬥、交通、生存三種領域是否一致。只有使用者明確決定後，才修改正式人物設定。",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "前文明",
+        "醫療",
+        "候選",
+        "城市"
+      ],
+      "first_text_excerpt": "# 討論候選 19｜女主獨立能力的兩場場景實測",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-076",
+      "source_path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+      "source_category": "07_候選故事與場景",
+      "source_bytes": 20593,
+      "git_blob_sha_verified": "6788b82b73707b17140a1ea014fea7215dd0c465",
+      "source_lines": 148,
+      "type": ".md",
+      "headings_found": 20,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 候選大綱 34｜第一篇《倒行潮》：懸潮港、多出口巨構、諾亞初死、艾莉維亞登場與完整收束",
+          "excerpt_line": 3,
+          "excerpt": "> **【2026-10-19 更新：開場聚落與世界層定位】** 以本檔的折索集市多出口地圖及最初巨閘外巨拱／大水域／上方架體為基礎，另擴充每個出口通向的**真實社會和遠方網絡**，詳見 [039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md](../02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md)。此前「公開高難挑戰」不能理解為售票競賽，而是一片原本就可能令人死亡的巨構地域／世界層；真正 Path of Pain 深處額外隱秘，普通訪客沒有諾亞專屬復歸。折索集市、懸潮港、附加地方名均仍只是地理候選。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "候選",
+            "復歸",
+            "世界層"
+          ]
+        },
+        {
+          "heading_line": 9,
+          "heading": "## 一、為什麼這次不用「神祕貨車忽然出現」開場",
+          "excerpt_line": 11,
+          "excerpt": "早期助手多次提議「折索集市有失蹤路線貨車，武器感應到零件」。那是可用候選但可能太習慣靠「主角對神秘物件產生反應」推劇情，且容易令每件事都通往同一個伏筆。本次改用**一個本來就在運作的城市機關、真實利益衝突、人物主動做選擇**作骨架，提升生活、物理、文化和可視化動作。不是否定之前的候選，而是拿不同方案比較。",
+          "terms": [
+            "候選",
+            "主角",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 13,
+          "heading": "### 暫定篇名：《倒行潮》",
+          "excerpt_line": 18,
+          "excerpt": "- 本篇結案條件：確認並改變一次特定人為潮汐導流與地方保護權限的利益安排，讓某條原本停用的實際上行路線變得可使用（無須全世界地圖完全解鎖）；此地居民／商會因事件承受真實持續後果。**不能後面再多出三層幕後而拒絕結案。**",
+          "terms": []
+        },
+        {
+          "heading_line": 20,
+          "heading": "## 二、首篇畫面與物理空間：不是地下井，也不是荒廢金屬房",
+          "excerpt_line": 22,
+          "excerpt": "懸潮港座落於**一個巨大世界層內部的人工潮盆側壁**。上方有極遠處的平整技術天幕，遠方海水平面與直立巨構金屬牆相遇；同一時刻，一面倒置的彎曲運輸水道讓部分水流**沿龐大結構表面向高處被抬升**，這是有設備、能源、常態管理與操作員的已知工程，**不是故事首次才出現的異常奇蹟**。",
+          "terms": [
+            "世界層"
+          ]
+        },
+        {
+          "heading_line": 39,
+          "heading": "## 三、角色開局狀態與可見動機",
+          "excerpt_line": 39,
+          "excerpt": "## 三、角色開局狀態與可見動機",
+          "terms": []
+        },
+        {
+          "heading_line": 41,
+          "heading": "### 諾亞（已有姓名及動機／其他是候選）",
+          "excerpt_line": 43,
+          "excerpt": "- 身上有源於超十級升維前夕前文明、**原文明內亦極端罕見**的特殊槍／可變形系統本體，**他已察覺存在未填滿的接口與配置**，但目前不知完整工作原理和所有模組。**本篇不規定原槍正式名稱，不給完整性能表**。",
+          "terms": [
+            "諾亞",
+            "前文明",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 54,
+          "heading": "### 獨立配角及真實局勢（職位是候選，姓名未定）",
+          "excerpt_line": 57,
+          "excerpt": "- **合法導流承包方的負責人**：這次事故的直接決策者。他是主動增加高處營運效率、爭取可觀利益的商業人，且有合法協議與靠此生活的工人；**不是沒有理由的陰謀虐待狂**。知道導流計畫可能使下弦街危險，並選擇低估、隱瞞或接受風險。與前文明最高反派**無必然關聯**。",
+          "terms": [
+            "前文明",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 75,
+          "heading": "## 五、8–12 章以上的可調節事件節奏（不是硬性章數配額）",
+          "excerpt_line": 75,
+          "excerpt": "## 五、8–12 章以上的可調節事件節奏（不是硬性章數配額）",
+          "terms": []
+        },
+        {
+          "heading_line": 83,
+          "heading": "### 第二段｜確認問題：第 3–4 章候選",
+          "excerpt_line": 85,
+          "excerpt": "- 艾莉維亞可真正施展規則／科技完成**本來不可能的局部觀測與防護**，而不是被劇情限制能力；諾亞原槍也有實際可用的強力功能，但不直接用高等火力炸整座港口。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 88,
+          "heading": "### 第三段｜第一件真正重大代價：第 5–7 章候選",
+          "excerpt_line": 92,
+          "excerpt": "- 如果艾莉維亞在另一端，她可以真的救助／重定向一些結構以達成自己目的，但無法因沒有情報就事前預知諾亞事故；不能為了讓他死，硬將她成熟高階能力設定為莫名全程故障。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 101,
+          "heading": "### 第五段｜高潮與真正結局：第 9–12 章或更長",
+          "excerpt_line": 103,
+          "excerpt": "- 兩人可能控制某個精密現場技術節點，本地居民／工會／商會各自選擇協助、旁觀、阻撓；有交換、威脅、談判或致命衝突，結果都屬本地因果。",
+          "terms": []
+        },
+        {
+          "heading_line": 122,
+          "heading": "## 七、場面和情感的自然表演（不把候選當已發生）",
+          "excerpt_line": 125,
+          "excerpt": "- 艾莉維亞踏上通往下弦街的懸空步道，抬眼看着綿延到不見邊緣的人工平頂；在她頭頂幾乎看不出的高處，巨大的抬升海潮無聲向上流動。",
+          "terms": [
+            "艾莉維亞",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 131,
+          "heading": "## 八、首篇與當前未決設定的接口：不偷填死",
+          "excerpt_line": 134,
+          "excerpt": "1. **男主的初期具體槍功能／外形**與有無初期鉤鎖，是已有配置還是以後第一批模組取得；不能說完整槍只會穿甲能量彈。",
+          "terms": []
+        },
+        {
+          "heading_line": 141,
+          "heading": "### 評估本候選是否真的合使用者胃口",
+          "excerpt_line": 144,
+          "excerpt": "- **可推翻**：用「承包方調流」開局可能太偏工程／地方政治，若使用者更喜歡高密度角色瞬間或怪奇探險作第一章，也可把本事件移至後面，另建真正更吸引人的開篇。**不因已存檔就要求使用者照單全收**。",
+          "terms": [
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "生態",
+        "工坊",
+        "交接",
+        "候選",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "first_text_excerpt": "# 候選大綱 34｜第一篇《倒行潮》：懸潮港、多出口巨構、諾亞初死、艾莉維亞登場與完整收束",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-077",
+      "source_path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+      "source_category": "07_候選故事與場景",
+      "source_bytes": 12644,
+      "git_blob_sha_verified": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+      "source_lines": 273,
+      "type": ".md",
+      "headings_found": 5,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "# 候選場景 51｜諾亞、艾莉維亞第一次遇見 Celeste：第三個座位",
+          "excerpt_line": 5,
+          "excerpt": "> 2026-10-19。使用者要求「把一般通行者寫的可能刪掉，甚至我都想刪掉高階能力的可能，但可以先留懸念，然後模擬一下主角們第一次遇到Celeste」。",
+          "terms": [
+            "Celeste",
+            "諾亞",
+            "艾莉維亞",
+            "候選",
+            "第三個座位",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 15,
+          "heading": "## 初次相遇：第三個座位（情緒與對話示範）",
+          "excerpt_line": 17,
+          "excerpt": "午後的人工日光穿過數十道高懸金屬梁架，落在轉運市集的街道上。巨型貨櫃沿懸軌滑過，機械聲、商販叫賣聲與遠方的交通鐘聲混在一起。欄杆之外，是深得看不見底部的空間。",
+          "terms": [
+            "第三個座位"
+          ]
+        },
+        {
+          "heading_line": 255,
+          "heading": "## 作者層核對",
+          "excerpt_line": 259,
+          "excerpt": "**全段未定 Canon**：相遇是否真的在市場、是否吃甜餅、兩人是否已經買過雙人車票、彼時戀情階段、此後 Celeste 是否同行／再次出現，全未定。終焉迴廊的出發位置、啟動實際條件、白光出口也未定。",
+          "terms": [
+            "Celeste",
+            "終焉迴廊"
+          ]
+        },
+        {
+          "heading_line": 261,
+          "heading": "## 2026-10-20｜後出讀法修正（不改原候選對話與結尾）",
+          "excerpt_line": 263,
+          "excerpt": "**使用者原意優先**：「其實下次見呀本身應該是常說的話，但結合人物，和一種意境導致可能有更多意思，而且不是很明顯但又感覺有。」第51篇原有收尾**保持原字、原停頓與普通道別口吻**。瑟莉思媞在攤位上獨自吃掉最後一小塊甜餅、想起母親、望向上行列車，然後輕笑「下次見呀。」這場戲已完成她單純來看看並聊天的私人目的。",
+          "terms": [
+            "瑟莉思媞",
+            "候選",
+            "列車"
+          ]
+        },
+        {
+          "heading_line": 270,
+          "heading": "## 2026-10-20｜更新：正式採用為未來正文相遇場景",
+          "excerpt_line": 272,
+          "excerpt": "使用者已明確採用本版瑟莉思媞，及其在甜餅攤與諾亞／艾莉維亞自然初見、互相聊天、最後想到母親並說「下次見呀。」的場面核心。**之前「全段未定Canon」的選案結論現在失效**，但具體章號、地理、票價等尚待行程接軌；原文不刪。保留第087對「下次見呀」是普通道別而非預言的修正。詳第114份。",
+          "terms": [
+            "瑟莉思媞",
+            "諾亞",
+            "艾莉維亞"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "列車"
+      ],
+      "first_text_excerpt": "> **【2026-10-20 使用者後出正式採用｜本文歷史「候選」標記已過時】** 使用者已同意讓**這一版瑟莉思媞及〈第三個座位〉相遇戲**成為**未來正式正文要採用的版本**。見[第114份正式採用與時序界線](../03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md)。**完整原文及最新「那咋啦？」／「下",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-078",
+      "source_path": "07_候選故事與場景/064_候選實作_地方事件兩案_開篇旅行與完整人物場景.md",
+      "source_category": "07_候選故事與場景",
+      "source_bytes": 21926,
+      "git_blob_sha_verified": "8d1d9b3d4b548f2c974c44282d914c417ceaaf10",
+      "source_lines": 233,
+      "type": ".md",
+      "headings_found": 17,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 候選實作 64｜第三階段：兩件有始有終的地方事件，與一段可以真正開篇的旅程",
+          "excerpt_line": 3,
+          "excerpt": "> 建立：2026-10-19。承接 [62 四地／交通](../02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md) 與 [63 初期能力／人物](../04_能力武器與試煉/063_候選實作_雙主角初期能力_成長追尋_活人物群像與互動.md)，具體交付 **5 地方事件與長期人物線＋1 主角開篇與首段旅程**。同時遵守 [31 事件因果骨架](../06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md)、[34《倒行潮》舊候選](034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md)、[53《將被拆走的上行路》舊候選](../",
+          "terms": [
+            "Celeste",
+            "諾亞",
+            "艾莉維亞",
+            "候選",
+            "復歸",
+            "靜謐迴廊",
+            "第三個座位",
+            "主角",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 7,
+          "heading": "## 一｜事件 A：《舊索最後一班》——不是打倒壞人，而是那條路真的老了",
+          "excerpt_line": 9,
+          "excerpt": "> **地域**：舊 [62 折索集市](../02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md) 與外緣藥品中繼聚落之間的貨索。可能是開篇第一件事件，也可能是故事之後回來遇見的人生插曲。可全部推翻。",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 13,
+          "heading": "### 核心人物各自想要的結果（不只寫「利益衝突」四個字）",
+          "excerpt_line": 15,
+          "excerpt": "- **葛桑**：想讓這條舊線合法多跑一趟，爭取延長拆除公告；她有充分理由但也隱藏了過去一次不太符合規定的局部換件，若曝光得承擔商業及法律責任。她可以說謊、付錢、威脅證人，但不是突然要殺光技師。",
+          "terms": []
+        },
+        {
+          "heading_line": 37,
+          "heading": "### 若主角決定不插手？",
+          "excerpt_line": 39,
+          "excerpt": "葛桑仍須面對退役令，邱賀不會因沒英雄就願意簽字；貨物轉路、延誤、賠償與員工失業仍可能發生。**這是先確立的地方社會因果，不是被主角決定才存在的任務。**",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 43,
+          "heading": "## 二｜事件 B：《沒趕上的潮》——海港的人也有自己的一天",
+          "excerpt_line": 45,
+          "excerpt": "> **地域**：既有 [52／62 懸潮港](../05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md)。和事件 A 可以相隔至少一段真實長途，亦可置於主角另一時期；**不是事件 A 真兇追到港口的續集**。",
+          "terms": [
+            "生態",
+            "候選",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 56,
+          "heading": "### 完整因果推進",
+          "excerpt_line": 60,
+          "excerpt": "**承**：芙纓提供副航道的實測負荷資料。維亞若有真實技術可重配有限幾何航路，可以做合理測試；不能因劇情需要就宣稱「所有空間能力在海上無效」，也不能不經地理資訊自動操縱整片未知水域。",
+          "terms": [
+            "航道"
+          ]
+        },
+        {
+          "heading_line": 72,
+          "heading": "### 無主角版",
+          "excerpt_line": 74,
+          "excerpt": "岑早可能仍選擇扣住船，芙纓報出安全時窗，牧冬仍須填寫真實或假造貨單。沒有主角，高速跨運無法完成，延誤損失可能更大；事件仍會結案，而不是無限等待能解任務的旅人。",
+          "terms": [
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 84,
+          "heading": "## 四｜候選開篇《還有兩張票》：不是必須選折索作第一章",
+          "excerpt_line": 86,
+          "excerpt": "> **這條開篇是第 29 份「諾亞買兩張票、嘴硬被艾莉維亞看穿」的擴充可能性，且與第 34《倒行潮》、第 53《將被拆走的上行路》為三套**可並存研究但不能同時強制採用的正式第一篇候選。**本案以兩人已互相認識一段時間、尚未必然成為正式戀人為示例前提，不是人物唯一初遇方式。**第一次死亡前諾亞不知道復歸，所以本篇沒有死歸笑話。也不自動安排與 Celeste 首次碰面，第 51 已有完整獨立候選鏡頭。",
+          "terms": [
+            "Celeste",
+            "諾亞",
+            "艾莉維亞",
+            "候選",
+            "復歸"
+          ]
+        },
+        {
+          "heading_line": 88,
+          "heading": "### 一開場三件真事：不是先講世界史",
+          "excerpt_line": 90,
+          "excerpt": "- **諾亞當天要幹嘛**：在折索集市買通往較高貨索站的票，查看舊上行路線與下一個真實可到的地方；他對某段巨大倒懸結構有興趣，**不是由槍自動感應隱藏模組而領命**。",
+          "terms": [
+            "諾亞"
+          ]
+        },
+        {
+          "heading_line": 105,
+          "heading": "### 完整可讀的「開場試寫」（尚非正式小說正文／章節）",
+          "excerpt_line": 109,
+          "excerpt": "油鍋裡有一種金黃色的麵糰，放下去時會鼓成小球。老闆用長網勺將它們撈到篩盤上，表面還在一個勁地冒泡。上方的貨運吊籠緩緩滑過，陰影從一張又一張餐桌上掠過。",
+          "terms": []
+        },
+        {
+          "heading_line": 213,
+          "heading": "## 五｜如果不採這個開篇，另外兩條仍可用（保留差異）",
+          "excerpt_line": 215,
+          "excerpt": "1. **以 [34《倒行潮》](034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md) 開篇**：港城水道政治與潮汐工程可承擔更大、更動態的事件，甚至把「第一次死亡／復歸」作為整篇重大角色事件，但首次死亡時絕不能預知不死、死亡不回溯、維亞也不會復歸。地方工程起因／結案完整按舊版自身骨架走，不因新增第 64 就被任意替換。",
+          "terms": [
+            "候選",
+            "復歸"
+          ]
+        },
+        {
+          "heading_line": 220,
+          "heading": "## 六｜幾個已經真有「後續」的角色，不需要立刻加入隊伍",
+          "excerpt_line": 225,
+          "excerpt": "- 留燈可隨自己郵路在不同站再次出現，一封多年遲到的普通信可能比一次特效對撞更令人難忘；**但不保證此人知道女聲、Celeste 或前文明任何重大秘密**。",
+          "terms": [
+            "Celeste",
+            "前文明"
+          ]
+        },
+        {
+          "heading_line": 228,
+          "heading": "## 七｜第二＋第三階段是否完成？",
+          "excerpt_line": 230,
+          "excerpt": "**已產出的實際成果**：第 63 份初期能力操作版本＋六人群像／長期目標＋三段互動；本第 64 份**兩個有起因、人物選擇、轉折、高潮、結局的事件**＋第三條輕支線＋**一條有角色目標、地景、路網、八場面推進與可讀開頭的完整初期旅程候選**。",
+          "terms": [
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "醫療",
+        "生態",
+        "候選",
+        "復歸",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "航道",
+        "城市"
+      ],
+      "first_text_excerpt": "# 候選實作 64｜第三階段：兩件有始有終的地方事件，與一段可以真正開篇的旅程",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-079",
+      "source_path": "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
+      "source_category": "07_候選故事與場景",
+      "source_bytes": 16740,
+      "git_blob_sha_verified": "2247dd76e7b562f23934b38f3089efaea6a80ab9",
+      "source_lines": 526,
+      "type": ".md",
+      "headings_found": 3,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 候選長篇試寫 66｜第1章〈尚未拆下的那一段〉",
+          "excerpt_line": 3,
+          "excerpt": "> **【2026-10-19 使用者後出確定：正式第一章諾亞與艾莉維亞第一次相遇】**** 本檔原先採「已熟識、自然叫維亞、短暫牽手」的**助手假設**，已不符合使用者最新指定的正式第一章關係時序。**保留原試寫全文，不抹掉本稿場景價值；只能當兩人認識後的場景素材，或作正式初遇版重寫時參考的環境／其他人物描寫，不能直接當正式第1章。**詳 [67 後出初遇時間線](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md)。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 10,
+          "heading": "## 候選第1章｜尚未拆下的那一段",
+          "excerpt_line": 14,
+          "excerpt": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 516,
+          "heading": "## 作者層場景連續性與後續約束（非小說正文）",
+          "excerpt_line": 519,
+          "excerpt": "- **女主能力有正面結果**：最後標記片確實在她操作下轉移下落的作用路徑；她不是臨危突然失效，也不是只能驚嘆。**這只是初期演出候選，不鎖死其正式規則名稱／範圍／是否需動手**。",
+          "terms": [
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [
+        "第一章"
+      ],
+      "detected_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "候選",
+        "復歸",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "first_text_excerpt": "# 候選長篇試寫 66｜第1章〈尚未拆下的那一段〉",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-080",
+      "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+      "source_category": "07_候選故事與場景",
+      "source_bytes": 9056,
+      "git_blob_sha_verified": "5b6744367ff564ae5623e2c4295fca6532658769",
+      "source_lines": 62,
+      "type": ".md",
+      "headings_found": 9,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第78份｜劇情實驗：《從上面下來的人》、九問因果、讀者當下期待與未完成情感",
+          "excerpt_line": 3,
+          "excerpt": "> 來源：2026-10-19，第73份後「回到故事／劇情魅力、節奏」討論。此檔保存助手先提出的《從上面下來的人》，使用者提供的另一個對話針對此案的回評及建議，以及助手後續提出的「九個問題」實測版本。",
+          "terms": []
+        },
+        {
+          "heading_line": 7,
+          "heading": "## 一、最初人物鉤子：不是地圖 NPC",
+          "excerpt_line": 12,
+          "excerpt": "- 她可以是著名人物，真相在於她的性格、選擇；也可以起初不知名。**不能每個強者都靠身份反轉出場**。",
+          "terms": []
+        },
+        {
+          "heading_line": 14,
+          "heading": "## 二、外部評議最重要的批評：美麗鉤子不足以生成下一件事",
+          "excerpt_line": 16,
+          "excerpt": "- **今天就要做什麼**：明天要走、今晚要見誰、地方正在拆遷、某路線短暫可測等。不能每件都倒數計時，卻要有活生生的當下動機。",
+          "terms": []
+        },
+        {
+          "heading_line": 23,
+          "heading": "## 三、九個問題的第一版「助手答題實驗」（均未定）",
+          "excerpt_line": 28,
+          "excerpt": "| 3. 誰／何物構成阻力 | 領隊可能是她的昔日同伴，數人已準備多年、有自己的自主判斷，不能因她反對便停。 |",
+          "terms": []
+        },
+        {
+          "heading_line": 38,
+          "heading": "## 四、兩段更接近正文表演的候選節點（非正式正文）",
+          "excerpt_line": 39,
+          "excerpt": "**出場轉折**：剛降下方井的女人還很高興地和主角討論食物與路，直到諾亞提及明早想隨某支隊伍上去，她突然停止進食，追問「哪一支？」「帶隊的叫什麼？」；諾亞答出名字，她低聲說「……那個笨蛋」，站起來決定去找對方。這個瞬間從日常轉為明確行動，不用同時揭露全部歷史。",
+          "terms": [
+            "諾亞",
+            "候選",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 43,
+          "heading": "## 五、諾亞與艾莉維亞的主體性",
+          "excerpt_line": 46,
+          "excerpt": "- 二人首章真正第一次見面，這一故事未必就是首章；如是首章，不能當場喊累積多日的「維亞／小諾」、預設已形成買兩張票慣例、牽手或成熟戀人默契。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞"
+          ]
+        },
+        {
+          "heading_line": 49,
+          "heading": "## 六、原有篇章與本案的關係",
+          "excerpt_line": 50,
+          "excerpt": "- 第34《倒行潮》、第53《將被拆走的上行路》、第64《還有兩張票》、第65–66「尚未拆下」、第69「遷巒遠征」、本篇《從上面下來的人》**全部是互不淘汰的不同開篇／事件候選**。不因第78較新就自動取代其它案，不固定第一個大型高潮必然是《遷巒帶》。",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 54,
+          "heading": "## 七、未定清單",
+          "excerpt_line": 55,
+          "excerpt": "此女遠征者姓名、人生歷史、實力、是否回鄉、井道與城市、她是否真的想阻止隊伍、昔日同伴是否存在、是否放棄隊友、是否公開紀錄、雙主角是否在場及誰決定出發、事件規模、戰鬥及死亡、過程篇幅、後續再次相遇，**全部未經使用者選定**。",
+          "terms": [
+            "主角",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 60,
+          "heading": "## 補錄鏈接（2026-10-20）",
+          "excerpt_line": 61,
+          "excerpt": "此檔第78只是九問候選及可測試場面，不是本助手回評長文全文。完整回覆在 [82](../06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md)；更早對故事魅力的完整七節回覆在 [81](../06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md)。另有 [83](../05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md) 外部能力互識研究，供研究人物如何透過共同使用而不是角色卡建立關係；未經使用者指定為本篇正式開場。",
+          "terms": [
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "主角",
+        "城市"
+      ],
+      "first_text_excerpt": "# 第78份｜劇情實驗：《從上面下來的人》、九問因果、讀者當下期待與未完成情感",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    }
+  ],
+  "warning": "源文摘錄與關鍵字未做人物、版本和權威的完整語義審核，不可視為Canon。"
+}

@@ -1,0 +1,950 @@
+{
+  "schema": "mega-213-evidence-chunk-v1",
+  "range": [
+    145,
+    160
+  ],
+  "files": 16,
+  "dossiers": [
+    {
+      "doc_id": "R213-145",
+      "source_path": "待定正文/其他場景/ChatGPT_第117_五組巨構荒野場景樣稿.md",
+      "source_category": "待定正文",
+      "source_bytes": 21844,
+      "git_blob_sha_verified": "7b0d82bb0cc2fb1034f32faaf25f11070c3601c0",
+      "source_lines": 310,
+      "type": ".md",
+      "headings_found": 13,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第117份｜巨構荒野的實際小說寫法：完整場景、人口差異、機關後果與B案敘事節點QA",
+          "excerpt_line": 3,
+          "excerpt": "> 日期：2026-10-21。承接[115新世界層語義](../../02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md)、[116本批巨構荒野圖片與有人社會](../../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md)。**使用者要的不是更多群落名字和荒野分類名，而是正文中真正看得到、聽得到、能走過、有機關與有完整社會的巨構荒野。**",
+          "terms": [
+            "世界層",
+            "人口"
+          ]
+        },
+        {
+          "heading_line": 9,
+          "heading": "## 一｜先明確「荒野」在小說裡不是固定空無人煙",
+          "excerpt_line": 11,
+          "excerpt": "使用者先說「缺少荒野的描寫，鋼鐵森林，混泥土構成的，或其他種類的」，並特別指出**機關、電梯、荒涼密布叢生、灰矇矇、暗、不明覺厲的遺跡**。助手一度誤把「荒涼」強化成「沒有正常生活聲音、幾乎無人」，使用者立刻修正：「**不一定沒有人**」。",
+          "terms": [
+            "遺跡"
+          ]
+        },
+        {
+          "heading_line": 22,
+          "heading": "## 二｜非正史短場景A：灰色鋼鐵森林裡的一班早車——有人，卻依然像荒野",
+          "excerpt_line": 24,
+          "excerpt": "> **功能**：讀者感到空間遠大於小城、鋼構有多代年代、仍有生活交通。這版可以換成任何人物，不預設諾亞／艾莉維亞正式在場。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 64,
+          "heading": "## 三｜非正史短場景B：泵站不是寶箱——一次普通人的手動機關與真實下游",
+          "excerpt_line": 66,
+          "excerpt": "> **功能**：在有效的工程系統上建立人際與後果；可被改寫成高階主角插手或不插手的劇情，不暗定任何地名。",
+          "terms": [
+            "非正史",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 110,
+          "heading": "## 四｜非正史短場景C：明亮白灰幾何遺構、綠色橋與另一種生活",
+          "excerpt_line": 112,
+          "excerpt": "> **功能**：使荒野與文明、陽光、植物、生態融在同一景；不讓「巨構荒野」固定等於黑色工廠。",
+          "terms": [
+            "生態",
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 140,
+          "heading": "## 五｜非正史短場景D：少人來的深部空域，仍不強迫整個世界無人",
+          "excerpt_line": 142,
+          "excerpt": "> **功能**：使用者也確實喜歡「荒涼灰霧陰暗未知」，不能因後修「不一定沒人」便把完全無人的荒廢空域取消。",
+          "terms": [
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 168,
+          "heading": "## 六｜非正史短場景E：將B首篇後續的男女主各自行動與巨構荒野接起來",
+          "excerpt_line": 170,
+          "excerpt": "> **極重要：這只是一條「如果第110／113 B候選最後採案」的試寫**；不能把第113方井城、E3／E5、雨檐埠當已核定Canon。兩位主角在第110才第一次互報姓名，不可突然用「小諾／維亞」等後期暱稱，也不可忘掉艾莉維亞有自身高階能力，並非只能陪諾亞上公共貨車。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "候選",
+            "非正史",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 218,
+          "heading": "## 七｜B原有近程路線L0→L1→L2需要增加的「荒野可體驗欄位」，但不增加正式地理權威",
+          "excerpt_line": 222,
+          "excerpt": "- **L1候選轉接帶／承脊**：目前常被簡化成「通行幾小時／一天」的交通成本；這裡正是應補巨構荒野的地方。",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 239,
+          "heading": "## 八｜場景描寫的兩種失敗：無限列名詞 vs 無限講設定",
+          "excerpt_line": 246,
+          "excerpt": "**更適合的做法**：讓人物走到看似普通的欄杆，抬頭才發現欄杆的固定座是某座巨型門的底部一顆螺栓；遠端升降籠在框架旁慢慢爬，像一片會動的灰塵。某名當地人嫌他擋路，提醒他先上車。**尺度、生活與未知一起被演出**。",
+          "terms": []
+        },
+        {
+          "heading_line": 257,
+          "heading": "## 九｜正式長篇 QA：每次要寫過境、荒野或巨構遺跡都要過的檢查",
+          "excerpt_line": 264,
+          "excerpt": "| **地貌結構** | 原巨構與後代修補何處交界？鋼、混凝土、岩、植物如何互相作用？ | 讓一道接縫、材質更換或受力真影響人物路線 |",
+          "terms": [
+            "遺跡"
+          ]
+        },
+        {
+          "heading_line": 275,
+          "heading": "### 章節寫後的更新步驟（承接第112）",
+          "excerpt_line": 278,
+          "excerpt": "- 該段巨構荒野實際走過哪些**物理路段**、看到什麼；哪些只在遠處，不能下章直接抵達。",
+          "terms": []
+        },
+        {
+          "heading_line": 287,
+          "heading": "## 十｜本輪何者已確認、何者仍候選／未採案",
+          "excerpt_line": 292,
+          "excerpt": "- **荒野不一定沒有人**。可以有居民、工作者、真正社會、科技、物流與非人生命；也可以局部確實無人。",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 305,
+          "heading": "## 十一｜2026-10-21 歷次圖片可直接成景，非正史樣稿不再要求「改到認不出來源」",
+          "excerpt_line": 307,
+          "excerpt": "[第119｜視覺直接入世權威](../../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[第120｜九圖逐張全量分析](../../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[第121｜組合擴張與試演](../../05_場景視覺與參考/121_九圖直接入世組合提案_宏觀骨架交通居民與敘事樣稿.md)。使用者授權**本次與此前圖片的構圖、景物與空間形體可直接入世，並自行擴張、拼接**。因此此前第117五段樣稿所用的鋼林早班車、巨型泵站、白灰明亮遺構、少人深部以及B候選人物在",
+          "terms": [
+            "候選",
+            "非正史",
+            "城市"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "W01",
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "商隊",
+        "生態",
+        "遺跡",
+        "野生",
+        "跨層",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "第三個座位",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "first_text_excerpt": "# 第117份｜巨構荒野的實際小說寫法：完整場景、人口差異、機關後果與B案敘事節點QA",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-146",
+      "source_path": "待定正文/其他場景/ChatGPT_第121_三段景觀與人物短場景.md",
+      "source_category": "待定正文",
+      "source_bytes": 20601,
+      "git_blob_sha_verified": "26db3f9680f22a4a45794f6245bcedaad2ef1d6d",
+      "source_lines": 231,
+      "type": ".md",
+      "headings_found": 24,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第121份｜九圖直接入世：擴張、拼接與既有原創同存的空間方案＋非正史敘事演練",
+          "excerpt_line": 3,
+          "excerpt": "> 2026-10-21。承接[119｜使用者直接准用景觀](../../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜本輪九圖逐張完整觀察](../../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[116｜較早一批巨構荒野影像](../../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md)。**使用者允許直接搬入照片畫面的建築、場景與關係，不須每次只吸收抽象風格；也准許自行擴張、拼接，既有原創仍存在，過",
+          "terms": [
+            "非正史",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 9,
+          "heading": "## 一｜作者層新增一道「視覺景觀准用」欄，放在正式地理和純研究之間",
+          "excerpt_line": 11,
+          "excerpt": "以往常將有價值的畫面拒絕成「不能照搬」，長期造成**看過很多漂亮圖，小說實際卻只有群落名稱／路線數據**的落差。第119更新：對於使用者交來的風景，**可以明確說採其空間形態**；正式小說實際寫進哪一處和誰居住仍依正文因果決定。",
+          "terms": []
+        },
+        {
+          "heading_line": 23,
+          "heading": "## 二｜組合方案A（助手候選）：「夕照斷環—潮岸遠景」：F01＋F02＋原第001的大空域水域",
+          "excerpt_line": 23,
+          "excerpt": "## 二｜組合方案A（助手候選）：「夕照斷環—潮岸遠景」：F01＋F02＋原第001的大空域水域",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 31,
+          "heading": "### A2. 一版可行S/V/J/T/H（不是唯一答案）",
+          "excerpt_line": 33,
+          "excerpt": "- **S／支承**：大空域周圍有厚重承力壁、環帶支座與斷裂的後代工程；空中殘構可能由仍完整的若干隱蔽主承力件支住。若必須真浮空，則另外設定局部高階重力／空間技術，**不把所有空中碎物一律歸為C，也不把Celeste當萬能解釋器**。",
+          "terms": [
+            "Celeste"
+          ]
+        },
+        {
+          "heading_line": 43,
+          "heading": "### A4. 適合但不是必需的劇情節點",
+          "excerpt_line": 45,
+          "excerpt": "可以作日常旅途回報、一次誤用舊橋的責任事件、海上交通交易、某個具長期因果的旅伴故鄉。它不必每次都與Celeste真相、原槍、第一次死亡或世界層隔界相連。**海岸既可很安全，也可按地區真情況有風浪、戰爭或物種風險**。",
+          "terms": [
+            "Celeste",
+            "世界層"
+          ]
+        },
+        {
+          "heading_line": 51,
+          "heading": "### B1. 這一組能直接建出「城市明明有人，周圍仍是荒野」",
+          "excerpt_line": 53,
+          "excerpt": "先從F03視角出發：許多居民日常在**橘銅燈環繞的巨大多層圓臺**之間通勤，周圍橋廊交錯如街道。再向某個有權限的工務通道上行，離開維護完善的生活圓環，就走進F06的高空柱狀設備與懸橋；沿細橋的下一個觀察口向下望，是F04那種**幾乎無法一次看全的吊柱、管架與天上機械設備群**。F07可提供近距離的細橋行人畫面，讓讀者理解巨構尺度根本不是用「很高」「很大」兩個詞便能傳達。",
+          "terms": [
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 65,
+          "heading": "### B3. 人口可以同時呈三種完全不同型態",
+          "excerpt_line": 67,
+          "excerpt": "近環城可以**非常繁忙**；上行工務帶有人但屬工作地，不是到處是商鋪；吊柱深部某段可能多年無人也沒有公用照明。這三種狀態在**同一片大空域**甚至同一張鏡頭中並存，不需藉「世界層已換三次」解釋。另一些擅長高處生活的非人生命也可在橋梁腹面築巢或建社會，但**此為可用分支，尚未核定物種**。",
+          "terms": [
+            "世界層",
+            "人口"
+          ]
+        },
+        {
+          "heading_line": 81,
+          "heading": "## 四｜組合方案C（助手候選）：「白穹綠地—青棚現代交通—灰色厚城」：F08＋F05＋F09",
+          "excerpt_line": 81,
+          "excerpt": "## 四｜組合方案C（助手候選）：「白穹綠地—青棚現代交通—灰色厚城」：F08＋F05＋F09",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 89,
+          "heading": "### C2. 不要把F08自動設定成「安全天堂、神的家」，也不要把F09自動判成「死城」",
+          "excerpt_line": 91,
+          "excerpt": "白穹高等居地可以有真政治、教育、醫療、犯罪、研究、交通費、非人居民和悠閒日常；光明不代表善良，也不等於原文明頂層。F05公共平台可以是普通交通與工業設備共存。F09灰色建築之下可以有**人口極高的完整都市，也可以只有局部住區和大荒置帶**。畫面的灰霧只是能見度與氣氛，並不提供人口資料。",
+          "terms": [
+            "醫療",
+            "人口"
+          ]
+        },
+        {
+          "heading_line": 100,
+          "heading": "### C4. 適合故事，不等於故事非發生不可",
+          "excerpt_line": 102,
+          "excerpt": "諾亞與艾莉維亞日後可能從F08的綠谷結識普通家庭、從F05在交通站短暫別離或重逢、從F09經過真正巨大城市的地下民生線；但**他們必須各自有動機和時間，不是因為圖片排版好看便每章一個景點**。其他群像也完全有能力單獨承擔這些大地貌的篇章。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 123,
+          "heading": "## 六｜三段非正史短場面：直接保留幾何與人物視角，不把原圖抄成百科",
+          "excerpt_line": 123,
+          "excerpt": "## 六｜三段非正史短場面：直接保留幾何與人物視角，不把原圖抄成百科",
+          "terms": [
+            "非正史"
+          ]
+        },
+        {
+          "heading_line": 153,
+          "heading": "### 場面乙：環臺工班與上方的吊柱群（F03+F04+F07可拼版；非正式正文）",
+          "excerpt_line": 157,
+          "excerpt": "送餐的小車在兩段環廊間堵住了路，身後有人把手推車的輪子卡上臺階。靠欄杆的客人探頭望下去，正好看見底下的市場把新的遮雨布拉起來。",
+          "terms": []
+        },
+        {
+          "heading_line": 179,
+          "heading": "### 場面丙：白穹綠谷與灰城（F08+F09可遠域拼版；非正式正文）",
+          "excerpt_line": 197,
+          "excerpt": "**場面用途**：自然綠地和恢宏人工骨架同在、人口與生活不消失。若要把F08與F09真的定為相連廣域，需另做S/V/J/T/H，不能因一段演示就稱其已確定是下一個世界層。",
+          "terms": [
+            "世界層",
+            "人口"
+          ]
+        },
+        {
+          "heading_line": 201,
+          "heading": "## 七｜B候選（第110、第113）如果要使用這批圖，須先做哪些不破壞原作的事",
+          "excerpt_line": 203,
+          "excerpt": "**B〈從上面下來的人〉仍不是正式第一章。**使用者當時稱其比另一版好看，但讀者只會知道大城、上行隊伍等有限資料，**不想一章塞百科**，更要求有穩定遠期節點。新圖不應成為一次性把九幅景物堆進第一章的藉口。",
+          "terms": [
+            "候選"
+          ]
+        },
+        {
+          "heading_line": 217,
+          "heading": "## 八｜候選地理採用與使用者授權之間的最後界線",
+          "excerpt_line": 221,
+          "excerpt": "| 能不能讓F01空中斷環、F03環城、F08綠穹這樣的**完整景**出現在新世界？ | **能，使用者已准直接搬、描寫、擴張、拼接** | 不能自動帶入來源IP人名、商標或原作劇情 |",
+          "terms": [
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "醫療",
+        "生態",
+        "跨層",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "first_text_excerpt": "# 第121份｜九圖直接入世：擴張、拼接與既有原創同存的空間方案＋非正史敘事演練",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-147",
+      "source_path": "待定正文/其他場景/ChatGPT_第139_無名母女記憶_整合試寫.md",
+      "source_category": "待定正文",
+      "source_bytes": 19104,
+      "git_blob_sha_verified": "bf6748046787b1278fc6fdfdd1a92a6162c9e9c7",
+      "source_lines": 637,
+      "type": ".md",
+      "headings_found": 6,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第139份｜未署名記憶：還沒有建成的路（完整非正史整合試寫）",
+          "excerpt_line": 3,
+          "excerpt": "> **2026-10-22。本份是第138修訂決定所要求的完整版場景試寫，尚未作正式章節Canon。** **正式正文0章，PREWRITE HOLD；此場景只供使用者檢視情感與世界細節，未經採案不得視為正式已發生歷史。** 原有母女記憶試寫分為：**A最初的匿名版**（設計上行道路→居民城市與麵包店→有危險卻被藏起來的秘密道路原型→想給抵達者禮物），和**B後出溫暖版**（母親真心誇獎孩子、有摸頭和擁抱、與她共同修改、母親「現在就已經很喜歡了」而非連續挑錯）。使用者最新要求**兩版優點均保留**，並明確指出正式給讀者看的記憶**不能在敘事裡寫出法月懷／瑟莉思媞真名**，應像最初A版，只讓人",
+          "terms": [
+            "瑟莉思媞",
+            "法月懷",
+            "非正史",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 11,
+          "heading": "## 一｜整合版匿名記憶完整試寫",
+          "excerpt_line": 11,
+          "excerpt": "## 一｜整合版匿名記憶完整試寫",
+          "terms": []
+        },
+        {
+          "heading_line": 13,
+          "heading": "### 《還沒有建成的路》",
+          "excerpt_line": 57,
+          "excerpt": "「上面的人總不能都只往上跑吧？他們也會有想回去的地方呀。」",
+          "terms": []
+        },
+        {
+          "heading_line": 615,
+          "heading": "## 二｜這個記憶不是「媽媽說好」就結束：當下就成立的四層故事價值",
+          "excerpt_line": 617,
+          "excerpt": "1. **地理與交通資訊不是抽象設定**：模型裡有往上、往下、側向道路，還有看似近卻實際隔很遠的地方；諾亞與艾莉維亞會聯想到真正走過的路，也可能注意到某個後來的城市布局與當時模型相似。",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "城市"
+          ]
+        },
+        {
+          "heading_line": 622,
+          "heading": "## 三｜讀者與雙主角在不同時間點可能如何理解這份記憶",
+          "excerpt_line": 624,
+          "excerpt": "**首次觀看，尚不知真身**：可合理理解為某種古老建構模型留下的兩人互動。記憶沒有姓名、完整面孔、可比對音色，也沒有讓「母親」以世界管理者的全知視角講技術科普。兩人可能對模型與自己眼前靜謐終段的相似感興趣，也可能談那家小小麵包店、那位非常疼愛孩子的母親，乃至到底多少現存地域來自這套設計。**不能憑一份這樣的殘影精確指名瑟莉思媞／法月懷**。",
+          "terms": [
+            "瑟莉思媞",
+            "法月懷",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 630,
+          "heading": "## 四｜原始試寫優點與最新版正式約束，不可互相誤刪",
+          "excerpt_line": 632,
+          "excerpt": "- **A最早的匿名版保存優點**：桌面模型、道路接法、居民生活與交通、危險但自願挑戰、藏起來的路、白色孤橋原型、到盡頭要給旅行者某個真心的小回報，鏡頭沒報名字。",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "候選",
+        "非正史",
+        "復歸",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "first_text_excerpt": "# 第139份｜未署名記憶：還沒有建成的路（完整非正史整合試寫）",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-148",
+      "source_path": "待定正文/其他場景/ChatGPT_第150_走到這裡的人_靜謐迴廊.md",
+      "source_category": "待定正文",
+      "source_bytes": 38232,
+      "git_blob_sha_verified": "68a6947c7790799baf74fcf199f84156c18e346d",
+      "source_lines": 1619,
+      "type": ".md",
+      "headings_found": 3,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第150份｜非正史長篇試寫：《走到這裡的人》",
+          "excerpt_line": 3,
+          "excerpt": "> **2026-10-22｜完整長篇候選場景，非正式正文，PREWRITE HOLD／全書正式正文仍0章。** 承接第037、040–041靜謐終橋，第059／060雙主角巨大獎勵，第136／149視覺，第137–138／140–143能力試案，第139匿名母女記憶，第144–145神情／轉換修正。**本稿刻意試用**：諾亞「主執行樞核／局部系統持續施行」；艾莉維亞「自身原界→有限作用新述」的A1示例，**不是用戶已核定的原理**。A2影子倒影的反向攻擊未在此當成自動解鎖的完整常規招式。路線圖、歸點圖譜、成就紀念的具體器物與寫法都是場景所需的助手候選。此處的共同生活／熟悉程度假設二人已有很長",
+          "terms": [
+            "諾亞",
+            "艾莉維亞",
+            "候選",
+            "非正史",
+            "復歸",
+            "主角"
+          ]
+        },
+        {
+          "heading_line": 7,
+          "heading": "## 《走到這裡的人》",
+          "excerpt_line": 19,
+          "excerpt": "她見到他的第一句話是：「你就不能先跟我說一聲再死嗎？」",
+          "terms": []
+        },
+        {
+          "heading_line": 1611,
+          "heading": "## 本候選的未定點與嚴格回收",
+          "excerpt_line": 1612,
+          "excerpt": "- 第139匿名記憶有既定完整試寫，本篇回顧中保留主要內容與「又轉向下一片尚未完成的地方」原停點；**本篇重述不是宣布第139原文被取代**，若後來逐字採案應以實際選版為準。",
+          "terms": [
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "工坊",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "主角",
+        "城市"
+      ],
+      "first_text_excerpt": "# 第150份｜非正史長篇試寫：《走到這裡的人》",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-149",
+      "source_path": "待定正文/其他場景/Gemini_墜落深坑的剪刀石頭布_熟稔後獨立試寫.md",
+      "source_category": "待定正文",
+      "source_bytes": 6664,
+      "git_blob_sha_verified": "7ea52b7a47d62da94ecfbb02c116c8e470d1a394",
+      "source_lines": 100,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 獨立場景｜墜落深坑的剪刀石頭布",
+          "excerpt_line": 3,
+          "excerpt": "> **純正文閱讀擷取／CANDIDATE**，來自 [第174份](../../09_跨AI原始來源/174_聊天可見轉錄_墜落深坑的剪刀石頭布_獨立候選場景.md) 的聊天可見人工轉錄；不另改寫正文。G5/G6/G7只是本庫歸檔代號，非Gemini官方版號。正式正文0章、PREWRITE HOLD。",
+          "terms": [
+            "Gemini",
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "候選"
+      ],
+      "first_text_excerpt": "> **純正文閱讀擷取／CANDIDATE**，來自 [第174份](../../09_跨AI原始來源/174_聊天可見轉錄_墜落深坑的剪刀石頭布_獨立候選場景.md) 的聊天可見人工轉錄；不另改寫正文。G5/G6/G7只是本庫歸檔代號，非Gemini官方版號。正式正文0章、PREWRITE HOLD。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-150",
+      "source_path": "待定正文/其他場景/Gemini_靜謐迴廊白橋黑霧真死感_候選潤稿.md",
+      "source_category": "待定正文",
+      "source_bytes": 5406,
+      "git_blob_sha_verified": "131f488b42f386d88e6dc680b974b4e9027a05b6",
+      "source_lines": 76,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 靜謐迴廊白橋（獨立候選）",
+          "excerpt_line": 3,
+          "excerpt": "> **純正文閱讀擷取／非正史 CANDIDATE**。從[來源第179份](../../09_跨AI原始來源/179_聊天可見轉錄_靜謐迴廊白橋黑霧真正死感_完整候選場景.md)忠實抽取正文內容。此白橋潤稿是非正史候選，不覆蓋第041舊對話；但黑霧由瑟莉思媞創造、墜入便確實無法再次復歸，已由作者另外確認。正式正文0章、PREWRITE HOLD。",
+          "terms": [
+            "瑟莉思媞",
+            "候選",
+            "非正史",
+            "復歸",
+            "靜謐迴廊"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "復歸",
+        "靜謐迴廊"
+      ],
+      "first_text_excerpt": "> **純正文閱讀擷取／非正史 CANDIDATE**。從[來源第179份](../../09_跨AI原始來源/179_聊天可見轉錄_靜謐迴廊白橋黑霧真正死感_完整候選場景.md)忠實抽取正文內容。此白橋潤稿是非正史候選，不覆蓋第041舊對話；但黑霧由瑟莉思媞創造、墜入便確實無法再次復歸，已由作者另外確認。正式正文0章、PREWRITE HOLD。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-151",
+      "source_path": "待定正文/純正文_ChatGPT/早期熟人版_尚未拆下的那一段.md",
+      "source_category": "待定正文",
+      "source_bytes": 13316,
+      "git_blob_sha_verified": "826193863a404e314947af2f9355857244df39e4",
+      "source_lines": 508,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "## 候選第1章｜尚未拆下的那一段",
+          "excerpt_line": 7,
+          "excerpt": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。",
+          "terms": [
+            "候選"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "主角"
+      ],
+      "first_text_excerpt": "> **非正史／待定**。此檔僅抽出第066份中已寫出的小說場景，未更動正文。完整來源請見 [第066份原文](../../07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md)。**注意：本版兩主角原已認識，不符合正式第一章真初見條件，僅供熟識後參考。**",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-152",
+      "source_path": "待定正文/純正文_ChatGPT/拆路P0_第一章_那條路正在被拆走.md",
+      "source_category": "待定正文",
+      "source_bytes": 12646,
+      "git_blob_sha_verified": "f7b4a62c69eceb050de2fbf68fa570cd1196049d",
+      "source_lines": 522,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "# 第一章｜那條路正在被拆走",
+          "excerpt_line": 9,
+          "excerpt": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。",
+          "terms": [
+            "諾亞"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [
+        "第一章"
+      ],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "城市"
+      ],
+      "first_text_excerpt": "> **非正史／待定**。此檔僅抽出第091份中已寫出的小說場景，未更動正文。完整來源請見 [第091份原文](../../07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md)。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-153",
+      "source_path": "待定正文/純正文_ChatGPT/拆路P0_第二章_舊站仍有人來過.md",
+      "source_category": "待定正文",
+      "source_bytes": 10853,
+      "git_blob_sha_verified": "db1c2b23d42b01a16081b64ee52c8b8f7a62d011",
+      "source_lines": 514,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "# 第二章｜舊站仍有人來過",
+          "excerpt_line": 57,
+          "excerpt": "「你們兩個，能不能等到了上面再討論這地方長得合不合理？」",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [
+        "第二章"
+      ],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "城市"
+      ],
+      "first_text_excerpt": "> **非正史／待定**。此檔僅抽出第092份中已寫出的小說場景，未更動正文。完整來源請見 [第092份原文](../../07_候選故事與場景/092_非正史連續試寫_第二章_舊站仍有人來過.md)。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-154",
+      "source_path": "待定正文/純正文_ChatGPT/A_拆路之後仍有人走.md",
+      "source_category": "待定正文",
+      "source_bytes": 12673,
+      "git_blob_sha_verified": "b59598c4b08bfb75a87041b88e75e6f1358f61bb",
+      "source_lines": 460,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "# 拆路之後仍有人走",
+          "excerpt_line": 9,
+          "excerpt": "它斜斜穿過幾層懸空街市，底下掛著比房屋還高的支撐架。六條吊索從更上方一處看不見的工作平臺垂下，拉得筆直；橋身緩慢向左偏轉，連帶把一大片陰影從市場的布棚上挪開。",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "列車",
+        "城市"
+      ],
+      "first_text_excerpt": "> **非正史／待定**。此檔僅抽出第109份中已寫出的小說場景，未更動正文。完整來源請見 [第109份原文](../../07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md)。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-155",
+      "source_path": "待定正文/純正文_ChatGPT/B_從上面下來的人.md",
+      "source_category": "待定正文",
+      "source_bytes": 16033,
+      "git_blob_sha_verified": "bff50ea18dd8f398d1a3bece5f61d2d3935b94e3",
+      "source_lines": 626,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "# 從上面下來的人",
+          "excerpt_line": 9,
+          "excerpt": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "城市"
+      ],
+      "first_text_excerpt": "> **非正史／待定**。此檔僅抽出第110份中已寫出的小說場景，未更動正文。完整來源請見 [第110份原文](../../07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md)。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-156",
+      "source_path": "待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md",
+      "source_category": "待定正文",
+      "source_bytes": 56861,
+      "git_blob_sha_verified": "8065a7c973db240c3527632c2b0948774c5074f1",
+      "source_lines": 3008,
+      "type": ".md",
+      "headings_found": 6,
+      "source_outline": [
+        {
+          "heading_line": 3,
+          "heading": "## 第一章｜從上面下來的人",
+          "excerpt_line": 57,
+          "excerpt": "大片不像天然山脈的灰色承力結構從空腔邊緣斜斜探出，支撐著沿途生長的商街、工坊、溫室與住宅。早班列車在其中一條銀色軌道上行駛，遠得像是一條慢慢移動的黑線。",
+          "terms": [
+            "工坊",
+            "列車"
+          ]
+        },
+        {
+          "heading_line": 457,
+          "heading": "## 第二章｜兩個箭頭",
+          "excerpt_line": 523,
+          "excerpt": "紙張邊緣已經磨損，幾處原本貼著的測量標籤也有些褪色。",
+          "terms": []
+        },
+        {
+          "heading_line": 919,
+          "heading": "## 第三章｜貨架旁邊的窗",
+          "excerpt_line": 945,
+          "excerpt": "遠征隊的補給車沿著導軌前進，游洵站在最前方，向隊員再次確認各自選定的返程安排。",
+          "terms": []
+        },
+        {
+          "heading_line": 1527,
+          "heading": "## 第四章｜雨檐埠",
+          "excerpt_line": 1547,
+          "excerpt": "木製的晾衣臺架在寬大鋼梁上，蔬菜與水生植物沿著住宅外側成排栽種。遠處一片寬闊的溫室平臺上，成千上萬塊半透明面板正隨著日照角度緩慢調整。",
+          "terms": []
+        },
+        {
+          "heading_line": 1955,
+          "heading": "## 第五章｜回來不是同一條路",
+          "excerpt_line": 1963,
+          "excerpt": "而是沿著預先建好的導流區域分向不同的承接水庭，形成一片又一片懸掛在空中的瀑布。",
+          "terms": []
+        },
+        {
+          "heading_line": 2575,
+          "heading": "## 第六章｜有人回家",
+          "excerpt_line": 2647,
+          "excerpt": "*已抵達下一個中繼。隊員分路安排完成。返程班次有調整，但都已確認。*",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "工坊",
+        "候選",
+        "非正史",
+        "列車",
+        "城市"
+      ],
+      "first_text_excerpt": "> **B2｜完整六章正文／非正史待定**。從第152份抽出六章正文，未改原文。[查看完整來源](../../07_候選故事與場景/152_B2完整非正史小說試寫_從上面下來的人_六章.md)。",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-157",
+      "source_path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+      "source_category": "待定正文",
+      "source_bytes": 1115,
+      "git_blob_sha_verified": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+      "source_lines": 14,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 最新完整補丁候選請從這裡閱讀",
+          "excerpt_line": 3,
+          "excerpt": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gemini` 為歷史底稿。**",
+          "terms": [
+            "Gemini",
+            "交接",
+            "候選",
+            "物權"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [],
+      "detected_topics": [
+        "Gemini",
+        "交接",
+        "候選",
+        "物權"
+      ],
+      "first_text_excerpt": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gemini` 為歷史底稿",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-158",
+      "source_path": "待定正文/純正文_Gemini/第一章_G0_懸艙開箱日_初稿短片段_非全章.md",
+      "source_category": "待定正文",
+      "source_bytes": 4897,
+      "git_blob_sha_verified": "b2f189c1198114cf4dde0bf29720acb4aaa40079",
+      "source_lines": 48,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# G0｜《懸艙開箱日》最初開場短試寫（**不是完整第一章**）",
+          "excerpt_line": 15,
+          "excerpt": "這東西是三天前從更上方的「雲隙荒野」掉進回收網裡的。吊塢裡一半的人在賭裡面有沒有高價的古代密封零件，另一半的人則等著看鐵索工會今天能不能活著把這玩意兒撬開。",
+          "terms": []
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [
+        "第一章",
+        "G0"
+      ],
+      "detected_topics": [
+        "諾亞",
+        "Gemini",
+        "工坊"
+      ],
+      "first_text_excerpt": "# G0｜《懸艙開箱日》最初開場短試寫（**不是完整第一章**）",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-159",
+      "source_path": "待定正文/純正文_Gemini/第一章_G1_懸艙開箱日_完整初版.md",
+      "source_category": "待定正文",
+      "source_bytes": 23607,
+      "git_blob_sha_verified": "92846b0873352b6299c0f1c3a2c4551a206bf4fc",
+      "source_lines": 220,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第一章｜懸艙開箱日（Gemini G1 完整初版）",
+          "excerpt_line": 97,
+          "excerpt": "攤主一屁股坐在地上，驚魂未定地看著自己剛才站立的地方被鋼索抽出一道半米深的豁口，嘴唇哆嗦著還沒來得及說聲謝謝，就看見救了他的黑風衣青年順手彎下腰，從翻倒在地的鐵篩裡，夾走了唯一一塊沒沾到灰的脆肉餅。",
+          "terms": [
+            "Gemini"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [
+        "第一章",
+        "G1"
+      ],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "商隊",
+        "工坊"
+      ],
+      "first_text_excerpt": "# 第一章｜懸艙開箱日（Gemini G1 完整初版）",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    },
+    {
+      "doc_id": "R213-160",
+      "source_path": "待定正文/純正文_Gemini/第一章_G2_懸艙開箱日_距離與章節分拆精修版.md",
+      "source_category": "待定正文",
+      "source_bytes": 18757,
+      "git_blob_sha_verified": "8c6d98d72d8c7ae69c39707679fd9bf32ead0e77",
+      "source_lines": 170,
+      "type": ".md",
+      "headings_found": 1,
+      "source_outline": [
+        {
+          "heading_line": 1,
+          "heading": "# 第一章｜懸艙開箱日（Gemini G2 精修版）",
+          "excerpt_line": 5,
+          "excerpt": "> 完整原始文字與當時討論請見 [第154份](../../09_跨AI原始來源/154_Gemini原始對話封存_第一章距離因果修訂與試寫_完整貼文.txt)；原樣複本亦保存於 `待定正文/Gemini原稿/`。若需要核對逐字原始輸入，以 TXT 為準。",
+          "terms": [
+            "Gemini"
+          ]
+        }
+      ],
+      "embedded_archive_file_count": 0,
+      "embedded_archive_file_examples": [],
+      "version_labels": [
+        "第一章",
+        "G2"
+      ],
+      "detected_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "商隊",
+        "工坊"
+      ],
+      "first_text_excerpt": "# 第一章｜懸艙開箱日（Gemini G2 精修版）",
+      "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
+      "semantic_claims_reviewed": 0
+    }
+  ],
+  "warning": "源文摘錄與關鍵字未做人物、版本和權威的完整語義審核，不可視為Canon。"
+}
