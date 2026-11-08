@@ -9,8 +9,8 @@
   "causal_candidate_edge_count": 18,
   "version_decision_count": 10,
   "registered_container_count": 6,
-  "distinct_original_source_paths_with_some_structured_reference": 84,
-  "warning": "335 original sources are mechanically passage-searchable with Node.js+checkout. Original sources without direct structured reference remain, and full semantic review is NOT measured.",
+  "distinct_original_source_paths_with_some_structured_reference": 122,
+  "warning": "機械切段不等於已完全語義審核；引用至少1個原子不等於全檔無漏。95條仍需依作者/候選權威使用，任何從圖譜關聯到真人情節均需獨立核證。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -24,22 +24,22 @@
     },
     "01_世界本體與文明": {
       "physical": 25,
-      "referenced": 13,
+      "referenced": 21,
       "bytes": 409797
     },
     "02_地圖拓撲與交通": {
       "physical": 24,
-      "referenced": 11,
+      "referenced": 20,
       "bytes": 305265
     },
     "03_人物關係與語感": {
       "physical": 32,
-      "referenced": 11,
+      "referenced": 21,
       "bytes": 514199
     },
     "04_能力武器與試煉": {
       "physical": 26,
-      "referenced": 7,
+      "referenced": 18,
       "bytes": 390462
     },
     "05_場景視覺與參考": {
@@ -96,9 +96,11 @@
   "people_and_institution_nodes": 26,
   "people_and_institution_relationships": 24,
   "cross_world_dependency_edges": 22,
-  "notice_2026_11_09": "New W/K, T, people, civilization/ecology edges are indexed. Reference count never implies full content review; candidate sources are not Canon.",
-  "historical_source_recovery_atoms": 42,
+  "notice_2026_11_09": "335/335 accessible for machine passage search, 122 original files directly referenced by at least one structured entry, 95 historical atoms in two batches, and 23 retrieval-only cross-domain links; 213 files remain unreferenced. Semantic full review NOT measured.",
+  "historical_source_recovery_atoms": 95,
   "candidate_chapter_event_recovery_records": 12,
-  "original_paths_without_structured_reference": 251,
-  "all_original_files_text_passage_extraction": "IMPLEMENTED_AND_CI_TESTED_NOT_SEMANTICALLY_REVIEWED"
+  "original_paths_without_structured_reference": 213,
+  "all_original_files_text_passage_extraction": "IMPLEMENTED_AND_CI_TESTED_NOT_SEMANTICALLY_REVIEWED",
+  "historical_recovery_links": 23,
+  "second_recovery_source_count": 38
 }

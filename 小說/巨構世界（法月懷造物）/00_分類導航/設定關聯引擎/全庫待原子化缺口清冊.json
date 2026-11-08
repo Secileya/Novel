@@ -1,9 +1,9 @@
 {
   "schema": "mega-source-atomization-gap-v1",
-  "snapshot_label": "2026-11-09",
+  "snapshot_label": "2026-11-09_second_semantic_batch",
   "original_files": 335,
-  "referenced": 84,
-  "without_direct_structured_reference": 251,
+  "referenced": 122,
+  "without_direct_structured_reference": 213,
   "warning": "Unreferenced does NOT mean unread or unusable. All source text files are searchable by passages, but not all claims are independently verified or canon.",
   "sources": [
     {
@@ -87,26 +87,10 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "01_世界本體與文明/001_世界尺度與空間.md",
-      "category": "01_世界本體與文明",
-      "bytes": 18265,
-      "git_blob_sha": "da344b49160da888f7d450f0282cdb03dc145139",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "01_世界本體與文明/002_視覺美學與龐克.md",
       "category": "01_世界本體與文明",
       "bytes": 13704,
       "git_blob_sha": "243217241657fc76e510677ad1aa52085aba7c71",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "01_世界本體與文明/004_群落社會與知識.md",
-      "category": "01_世界本體與文明",
-      "bytes": 14888,
-      "git_blob_sha": "84be06a0cce8eb13325a25eae64697e530b9787b",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
@@ -119,58 +103,10 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
-      "category": "01_世界本體與文明",
-      "bytes": 12028,
-      "git_blob_sha": "ec00a7bcc26dd1cf3b9bdd80622d789cd4c4c4a1",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "01_世界本體與文明/012_討論續錄_科技能源_異質社會_光照地景.md",
-      "category": "01_世界本體與文明",
-      "bytes": 20373,
-      "git_blob_sha": "ff92e9611b5f542ed002d99004a4b8c17be394df",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "01_世界本體與文明/043_候選框架_戰力帶_肉身技藝_武器裝備_遺物科技尺度.md",
-      "category": "01_世界本體與文明",
-      "bytes": 19597,
-      "git_blob_sha": "eb08dbdb6a279fd8dd19c04ea7d2551b1c1e2c0f",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "01_世界本體與文明/046_討論續錄_特殊技藝傳承_政府政治_黑市盜團與跨群落勢力.md",
-      "category": "01_世界本體與文明",
-      "bytes": 17555,
-      "git_blob_sha": "35ee767d181745de524b65332d87bcaaefd4d4d0",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md",
       "category": "01_世界本體與文明",
       "bytes": 15364,
       "git_blob_sha": "f8ee32dd78f0bf858c8723a20ab4afe35e2fb446",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "01_世界本體與文明/073_研究候選_身分權力背書_地方承認_勢力反應與跨篇後果.md",
-      "category": "01_世界本體與文明",
-      "bytes": 14440,
-      "git_blob_sha": "f4f77ef96d19991e8675faa71101fbb4166851ef",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "01_世界本體與文明/076_研究續錄_世界層尺寸彈性_Celeste偉力_真實與科技星象_S01.md",
-      "category": "01_世界本體與文明",
-      "bytes": 8722,
-      "git_blob_sha": "b802abc4974da1a54db03bad87e5f69715da464c",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
@@ -199,82 +135,10 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 14993,
-      "git_blob_sha": "016da0bf2d6768e55ec027f49e9d5212c0e861da",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 14680,
-      "git_blob_sha": "72bc21fa7414f2eaf137d9363714c4ef86e0c774",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 23898,
-      "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 7977,
-      "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 20829,
-      "git_blob_sha": "2f62fa570e36e4585b8bf0e4d00eb8690987fc30",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 9755,
-      "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/124_K01折返厚殼帶_地理厚度內部構造三條候選通行鏈與QA.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 9162,
-      "git_blob_sha": "414a9d13d5afeab6e4069e2c7e3bf433adf1b6dc",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/129_宏觀立體剖視V04_地貌美術與未決界線.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 4259,
-      "git_blob_sha": "648e7d900e0e75c93be51260634c31dff3d59667",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "02_地圖拓撲與交通/130_V05主升程功能分層_真正最高層目標與起點以下深構.md",
       "category": "02_地圖拓撲與交通",
       "bytes": 8865,
       "git_blob_sha": "777e57a62de1d71b89da5a958e6047606ee1707e",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "02_地圖拓撲與交通/131_V051主升程骨架改良_總覽圖不是最外殼_跨域與多代用途核對.md",
-      "category": "02_地圖拓撲與交通",
-      "bytes": 5387,
-      "git_blob_sha": "c57661cc8795791778be5e8db436290b86bc91c2",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
@@ -291,46 +155,6 @@
       "category": "03_人物關係與語感",
       "bytes": 28127,
       "git_blob_sha": "5d30e8d7fd4e6a2a61b8aac3c39a80afa02833f5",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "03_人物關係與語感/016_逐輪補查_莉可到男女主及Celeste嗑CP.md",
-      "category": "03_人物關係與語感",
-      "bytes": 19209,
-      "git_blob_sha": "d642b47f546756ca7ed983387551325097525e9e",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "03_人物關係與語感/020_討論續錄_女主低配Franiya與故事優先.md",
-      "category": "03_人物關係與語感",
-      "bytes": 11139,
-      "git_blob_sha": "417b16a732a1c1963d8e260561d3c99b6593694a",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
-      "category": "03_人物關係與語感",
-      "bytes": 13160,
-      "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "03_人物關係與語感/027_討論續錄_早中期Celeste不揭露_主線路網_作品事件_戀愛發展.md",
-      "category": "03_人物關係與語感",
-      "bytes": 22779,
-      "git_blob_sha": "b6153633f90a053abda61f2a73ca8534aab520b1",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
-      "category": "03_人物關係與語感",
-      "bytes": 6802,
-      "git_blob_sha": "6f799686b2e1bf0add37b2a26d7a9cfe8301fffc",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
@@ -367,22 +191,6 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "03_人物關係與語感/087_後出修正_第三個座位_下次見呀的普通語氣與複層意境.md",
-      "category": "03_人物關係與語感",
-      "bytes": 4369,
-      "git_blob_sha": "80010123b95b9fff2b64280545ec56d0eb17f25a",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "03_人物關係與語感/103_後出視覺補充_艾莉維亞呆毛彎弧與神態表演_圖片待進一步核定.md",
-      "category": "03_人物關係與語感",
-      "bytes": 12325,
-      "git_blob_sha": "f5df3959867c4c44225d9ee4b43d6d1eb66d873a",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
       "category": "03_人物關係與語感",
       "bytes": 18596,
@@ -407,22 +215,6 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
-      "category": "03_人物關係與語感",
-      "bytes": 27110,
-      "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
-      "category": "03_人物關係與語感",
-      "bytes": 22996,
-      "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "03_人物關係與語感/145_白髮轉換與神情演出_危險愉悅冰冷殺意癲狂.md",
       "category": "03_人物關係與語感",
       "bytes": 8579,
@@ -439,14 +231,6 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "03_人物關係與語感/149_艾莉維亞髮型正式補充_上揚呆毛_額前碎髮_雙側外飄長髮_用詞.md",
-      "category": "03_人物關係與語感",
-      "bytes": 11390,
-      "git_blob_sha": "37e62dec9d5e5330821b87fcee288c09d2917bb9",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "03_人物關係與語感/README.md",
       "category": "03_人物關係與語感",
       "bytes": 4741,
@@ -455,82 +239,10 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "04_能力武器與試煉/013_討論續錄_主角_復歸_頂尖武器_上行動機.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 18049,
-      "git_blob_sha": "d6aadc0d91a7b9b1796f5195b8a39929c6b29869",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/015_討論續錄_女主特殊性_空間高階科技_雙主角默契.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 17793,
-      "git_blob_sha": "29ccf8a79d3dbf55cb14aa13120b2e484b14d4a7",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/018_討論續錄_女主前文明頂端規則戰力與成長.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 11206,
-      "git_blob_sha": "a86405a7a4382a76658022b5a1c282f5f56fc518",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 18342,
-      "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 24691,
-      "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 9316,
-      "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 8978,
-      "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/054_討論續錄_終焉迴廊全生命感受_諾亞武器來歷與BLAME借鑑.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 10175,
-      "git_blob_sha": "a3dc725b22046420ad1a83977e5586f0af745742",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "04_能力武器與試煉/056_討論續錄_Celeste靜謐迴廊結尾_艾莉維亞實質升級與名稱待核.md",
       "category": "04_能力武器與試煉",
       "bytes": 8191,
       "git_blob_sha": "910819b16909a9db316f5466499d911165d70cfe",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 28504,
-      "git_blob_sha": "0ab221117f86cdacce73cae094bc8c120b3e84c2",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
@@ -547,22 +259,6 @@
       "category": "04_能力武器與試煉",
       "bytes": 20475,
       "git_blob_sha": "bdcfbf26ef660a595ca583e1d4b9eda11f131091",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 27638,
-      "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
-      "category": "04_能力武器與試煉",
-      "bytes": 4573,
-      "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
