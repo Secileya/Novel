@@ -23,7 +23,11 @@ const peopleNetwork = JSON.parse(fs.readFileSync(path.join(HOME, "人物組織�
 const crossWorldLinks = JSON.parse(fs.readFileSync(path.join(HOME, "跨層文明生態依賴網.json"), "utf8"));
 const recoveredHistory = JSON.parse(fs.readFileSync(path.join(HOME, "歷史素材原子化回收_首批.json"), "utf8"));
 const recoveredBatch2 = JSON.parse(fs.readFileSync(path.join(HOME, "歷史素材原子化回收_第二批.json"), "utf8"));
-const allRecoveredRecords = [...recoveredHistory.records,...recoveredBatch2.records];
+const thirdRecovered = JSON.parse(fs.readFileSync(path.join(HOME,"歷史素材原子化回收_第三批_精讀.json"),"utf8"));
+const allRecoveredRecords = [...recoveredHistory.records,...recoveredBatch2.records,...thirdRecovered.records];
+const allRecoveryLinks = [...(recoveredBatch2.links||[]),...(thirdRecovered.links||[])];
+function recordEvidencePaths(r){return r.evidence?[r.evidence.path]:(r.source_anchors||[]).map(a=>a.path);}
+function recordEvidenceAnchors(r){return r.evidence?[{path:r.evidence.path,anchor:r.evidence.exact_anchor}]:(r.source_anchors||[]);}
 const sourceScreenManifest = JSON.parse(fs.readFileSync(path.join(HOME,"213份來源索引分卷清單.json"),"utf8"));
 const sourceDossiers = sourceScreenManifest.batches.flatMap(b=>JSON.parse(
   fs.readFileSync(path.join(HOME,b.file),"utf8")).dossiers);
@@ -322,9 +326,9 @@ function findRecoveredHistory(q) {
   const broad=/全部(?:舊設定|歷史素材|回收紀錄)|舊素材總覽|歷史原子化總覽/.test(q);
   const direct=allRecoveredRecords.filter(r=>broad||
     hasTextSignal(q,r.related_keys)||contains(q,r.id)||
-    (contains(q,r.theme) && norm(r.theme).length>=3));
+    (contains(q,r.theme||r.claim) && norm(r.theme||r.claim).length>=3));
   const ids=new Set(direct.map(r=>r.id));
-  const links=(recoveredBatch2.links||[]).filter(l=>ids.has(l.from)||ids.has(l.to));
+  const links=allRecoveryLinks.filter(l=>ids.has(l.from)||ids.has(l.to));
   const attached=new Set(links.flatMap(l=>[l.from,l.to]));
   const neighbors=allRecoveredRecords.filter(r=>attached.has(r.id)&&!ids.has(r.id));
   return {records:direct.slice(0,90),matched_count:direct.length,
@@ -484,7 +488,7 @@ function query(q, corpus) {
     ...people.entities.flatMap(e=>e.source_paths||[]),
     ...people.relationships.flatMap(e=>e.source_paths||[]),
     ...cross.edges.flatMap(e=>e.source_paths||[]),
-    ...[...recovered.records,...recovered.linked_records].flatMap(r=>(r.source_anchors||[]).map(a=>a.path)),
+    ...[...recovered.records,...recovered.linked_records].flatMap(recordEvidencePaths),
     ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
@@ -549,7 +553,7 @@ function integrity(corpus) {
     ...peopleNetwork.entities.flatMap(x=>x.source_paths||[]),
     ...peopleNetwork.edges.flatMap(x=>x.source_paths||[]),
     ...crossWorldLinks.edges.flatMap(x=>x.source_paths||[]),
-    ...allRecoveredRecords.flatMap(x=>(x.source_anchors||[]).map(a=>a.path))
+    ...allRecoveredRecords.flatMap(recordEvidencePaths)
   ]);
   const missingDossiers=JSON.parse(fs.readFileSync(path.join(HOME,"全庫待原子化缺口清冊.json"),"utf8")).sources
     .filter(row=>!sourceDossierByPath.has(row.path)||sourceDossierByPath.get(row.path).git_blob_sha_verified!==row.git_blob_sha)
@@ -570,12 +574,12 @@ function integrity(corpus) {
   const drift=sourceDrift();
   const passageInventory=getPassages(corpus);
   const byPath=new Map(corpus.read.map(d=>[d.path,d.body]));
-  const badRecoveryAnchors=allRecoveredRecords.flatMap(r=>(r.source_anchors||[])
+  const badRecoveryAnchors=allRecoveredRecords.flatMap(r=>recordEvidenceAnchors(r)
     .filter(a=>!byPath.has(a.path)||!byPath.get(a.path).includes(a.anchor)).map(a=>r.id+":"+a.path));
   const duplicateRecoveryIDs=allRecoveredRecords.map(r=>r.id).filter((x,i,a)=>a.indexOf(x)!==i);
   const knownRecoveryIDs=new Set(allRecoveredRecords.map(r=>r.id));
-  const brokenRecoveryLinks=(recoveredBatch2.links||[]).filter(e=>!knownRecoveryIDs.has(e.from)||!knownRecoveryIDs.has(e.to)).map(e=>e.id);
-  const duplicateRecoveryLinks=(recoveredBatch2.links||[]).map(e=>e.id).filter((x,i,a)=>a.indexOf(x)!==i);
+  const brokenRecoveryLinks=allRecoveryLinks.filter(e=>!knownRecoveryIDs.has(e.from)||!knownRecoveryIDs.has(e.to)).map(e=>e.id);
+  const duplicateRecoveryLinks=allRecoveryLinks.map(e=>e.id).filter((x,i,a)=>a.indexOf(x)!==i);
   const zonesKnown=new Set(children.map(z=>z.id));
   const danglingEco=ecoLinks.edges.filter(e=>!zonesKnown.has(e.from)||!zonesKnown.has(e.to)).map(e=>e.id);
   const personIDs=new Set(peopleNetwork.entities.map(x=>x.id));
@@ -605,7 +609,9 @@ function integrity(corpus) {
     original_213_section_excerpts:sourceScreenManifest.sections,
     missing_213_source_dossiers:missingDossiers,
     mismatched_213_excerpt_anchors:dossierAnchorFailures,
-    historical_recovery_links:(recoveredBatch2.links||[]).length,
+    historical_recovery_links:allRecoveryLinks.length,
+    third_curated_claims:thirdRecovered.records.length,
+    third_curated_source_paths:new Set(thirdRecovered.records.flatMap(recordEvidencePaths)).size,
     broken_recovery_link_endpoints:brokenRecoveryLinks,
     duplicate_recovery_link_ids:duplicateRecoveryLinks,
     recovery_anchor_failures:badRecoveryAnchors,
@@ -660,6 +666,8 @@ function selfTest(corpus) {
   assert.equal(scraped.remaining_source_evidence_dossiers.all_originals_screened,213);
   assert.equal(scraped.remaining_source_evidence_dossiers.source_sections_indexed,1597);
   assert(scraped.remaining_source_evidence_dossiers.matching_source_count>0);
+  const thirdQuery=query("REC3-053 人物的判斷不完美",corpus);
+  assert(thirdQuery.historical_ideas_recovered.records.some(x=>x.id==="REC3-053"));
   const recoveredW02=query("W02倒懸麥田風帆列車與導光軌農業城",corpus);
   assert(recoveredW02.historical_ideas_recovered.records.some(x=>x.id==="REC-002"));
   assert(recoveredW02.historical_ideas_recovered.records.some(x=>x.id==="REC-003"));
@@ -705,7 +713,8 @@ function selfTest(corpus) {
     "K01 geology-to-route link",
     "Celeste third-seat ordinary goodbye preserved",
     "213 SHA-validated original-source dossiers and 1597 excerpts loaded",
-    "query returns source dossier links and original line evidence"]};
+    "query returns source dossier links and original line evidence",
+    "third batch 61 curated original claims with 18 cross-links and exact anchor integrity"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
