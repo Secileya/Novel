@@ -15,6 +15,7 @@ const creativity = JSON.parse(fs.readFileSync(path.join(HOME, "創意相容性�
 const temporal = JSON.parse(fs.readFileSync(path.join(HOME, "人物時期與知情矩陣.json"), "utf8"));
 const ecoLinks = JSON.parse(fs.readFileSync(path.join(HOME, "生態產業與制度因果網.json"), "utf8"));
 const versionLedger = JSON.parse(fs.readFileSync(path.join(HOME, "版本取代與相容決策鏈.json"), "utf8"));
+const containerRegistry = JSON.parse(fs.readFileSync(path.join(HOME, "容器與子單元登記.json"), "utf8"));
 const args = process.argv.slice(2);
 
 function option(flag) {
@@ -117,6 +118,34 @@ function identify(q) {
   return {direct:unique(names), expanded:unique(cur)};
 }
 function expandChildren(container) { return Array.isArray(container.children) ? container.children : []; }
+
+function resolveChildren(c) {
+  if(c.children_from==="creativity.map_versions.primary.children")return expandChildren(creativity.map_versions.primary);
+  if(c.children_from==="creativity.map_versions.legacy.children")return expandChildren(creativity.map_versions.legacy);
+  return Array.isArray(c.children) ? c.children : [];
+}
+function matchContainers(q, registered=containerRegistry.containers) {
+  const matching=registered.filter(c=>{
+    const all=resolveChildren(c);
+    const parentAliases=[c.name,...(c.aliases||[])];
+    return hasTextSignal(q,parentAliases) || all.some(child=>
+      hasTextSignal(q,[child.name,...(child.aliases||[])]) || contains(q,child.id)
+    );
+  });
+  // A legacy W01 area should also retrieve the current primary container.
+  if(matching.some(x=>x.id==="CON-W01-OLD") && !matching.some(x=>x.id==="CON-W01")) {
+    const primary=registered.find(x=>x.id==="CON-W01");
+    if(primary)matching.unshift(primary);
+  }
+  return matching.map(c=>{
+    const children=resolveChildren(c);
+    return {id:c.id,name:c.name,authority:c.authority,expected_children:c.expected_children,
+      actual_children:children.length,children,source_paths:c.source_paths||[],policy:c.policy,
+      complete_count:children.length===c.expected_children,
+      warning:children.length!==c.expected_children?"CHILD_LIST_INCOMPLETE__DO_NOT_CLAIM_FULL_COVERAGE":null};
+  });
+}
+
 function getZones(q, ids) {
   const w = expandChildren(creativity.map_versions.primary);
   const old = expandChildren(creativity.map_versions.legacy);
@@ -241,6 +270,7 @@ function query(q, corpus) {
   if (!q || !q.trim()) throw Error("Need --query or positional query text");
   const ids = identify(q);
   const zones = getZones(q,ids);
+  const containers = matchContainers(q);
   const ideas = findIdeas(q,zones);
   const phaseMatches = findTemporal(q,ids);
   const causal = findCausal(q,zones);
@@ -265,6 +295,7 @@ function query(q, corpus) {
     ...causal.direct_edges.flatMap(e=>e.source_paths||[]),
     ...causal.second_order_candidates.flatMap(e=>e.source_paths||[]),
     ...versions.flatMap(v=>v.source_paths||[]),
+    ...containers.flatMap(c=>c.source_paths||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
     ...(zones.count?creativity.compatibility_decisions.filter(x=>x.id.startsWith("MAP-"))
@@ -290,7 +321,7 @@ function query(q, corpus) {
     git_head:getHead(), source_inventory_commit:inventory.baseline_commit,
     files_in_inventory:inventory.files_count, files_actually_read:corpus.read.length,
     files_missing:corpus.missing, newly_added_unindexed_source_files:corpus.extras,
-    entities:ids, container_expansion:zones,
+    entities:ids, container_expansion:zones, registered_container_expansion:containers,
     relevant_claims:claims, creative_candidate_ideas:ideas,
     character_timeline:phaseMatches, ecology_industry_network:causal, version_compatibility_ledger:versions,
     version_decisions:versionFindings,
@@ -309,11 +340,14 @@ function integrity(corpus) {
     ...creativity.compatibility_decisions.flatMap(x=>x.sources||[]),
     ...temporal.phases.flatMap(x=>x.source_paths||[]),
     ...ecoLinks.edges.flatMap(x=>x.source_paths||[]),
-    ...versionLedger.records.flatMap(x=>x.source_paths||[])
+    ...versionLedger.records.flatMap(x=>x.source_paths||[]),
+    ...containerRegistry.containers.flatMap(x=>x.source_paths||[])
   ]);
   const known=new Set(corpus.read.map(x=>x.path));
   const missing=sources.filter(p=>!known.has(p));
   const collisions=graph.claims.map(x=>x.id).filter((x,i,a)=>a.indexOf(x)!==i);
+  const containers=containerRegistry.containers.map(c=>({id:c.id,expected:c.expected_children,actual:resolveChildren(c).length}));
+  const incompleteContainers=containers.filter(x=>x.actual!==x.expected).map(x=>x.id);
   const children=expandChildren(creativity.map_versions.primary);
   const legacy=expandChildren(creativity.map_versions.legacy);
   const drift=sourceDrift();
@@ -330,7 +364,8 @@ function integrity(corpus) {
     dangling_ecology_edges:danglingEco,duplicated_extended_ids:duplicateGraphIDs,source_index_drift:drift,
     active_w01_children:children.length,old_w01_children:legacy.length,
     temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
-    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&danglingEco.length===0&&duplicateGraphIDs.length===0&&children.length===12&&legacy.length===9&&!drift.stale};
+    registered_containers:containers,incomplete_registered_containers:incompleteContainers,
+    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&danglingEco.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -354,7 +389,16 @@ function selfTest(corpus) {
   assert(city.version_compatibility_ledger.some(x=>x.id==="VER-009"));
   const fixture=JSON.parse(fs.readFileSync(path.join(HOME,"合成檢索測例.json"),"utf8"));
   const roomCase=fixture.cases.find(x=>x.name.includes("十個"));
-  assert.equal(expandChildren({children:roomCase.given.contains}).length,10);
+  const fakeContainer={id:"TEST-TEN-ROOM-HOUSE",name:"測試房屋",aliases:["測試房屋"],expected_children:10,
+    children:roomCase.given.contains.map((v,i)=>({id:"SYNTHETIC-"+String(i+1),name:v,aliases:[v],ecology:[v]}))};
+  const ten=matchContainers("測試房屋有哪些生態", [fakeContainer]);
+  assert.equal(ten.length,1);
+  assert.equal(ten[0].actual_children,10);
+  assert.deepEqual(ten[0].children.map(x=>x.name),roomCase.given.contains);
+  const primary=matchContainers("W01 十二區的地圖");
+  assert(primary.some(x=>x.id==="CON-W01" && x.complete_count));
+  const w04=matchContainers("W04 萬律與萬噸");
+  assert(w04.some(x=>x.id==="CON-W04-CANDIDATES" && x.actual_children===2));
   // The fixture is deliberately isolated from the giant-world Canon JSON.
   assert(!graph.entities.some(x=>x.id==="A"));
   return {ok:true,checks:["Celeste injury hard rule", "gun assimilation override",
@@ -362,7 +406,8 @@ function selfTest(corpus) {
     "older mechanical-forest idea recoverable", "10-room synthetic fixture isolated",
     "06 district fisheries linked to 11 district wastewater candidate",
     "Noah pre-death knowledge limit", "Alivia white-hair personality continuity",
-    "W04 older and newer competing candidates retained"]};
+    "W04 older and newer competing candidates retained",
+    "generic parent-to-all-10-room synthetic recall", "registered W01 and W04 container expansion"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
