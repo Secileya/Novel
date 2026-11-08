@@ -12,6 +12,9 @@ const PROJECT = path.resolve(HOME, "..", "..");
 const inventory = JSON.parse(fs.readFileSync(path.join(HOME, "全庫物理清冊.json"), "utf8"));
 const graph = JSON.parse(fs.readFileSync(path.join(HOME, "高優先規則與關聯.json"), "utf8"));
 const creativity = JSON.parse(fs.readFileSync(path.join(HOME, "創意相容性台帳.json"), "utf8"));
+const temporal = JSON.parse(fs.readFileSync(path.join(HOME, "人物時期與知情矩陣.json"), "utf8"));
+const ecoLinks = JSON.parse(fs.readFileSync(path.join(HOME, "生態產業與制度因果網.json"), "utf8"));
+const versionLedger = JSON.parse(fs.readFileSync(path.join(HOME, "版本取代與相容決策鏈.json"), "utf8"));
 const args = process.argv.slice(2);
 
 function option(flag) {
@@ -139,6 +142,48 @@ function findIdeas(q, zones) {
       matching_terms:direct} : null;
   }).filter(Boolean);
 }
+
+function hasTextSignal(q, signals) {
+  return (signals || []).some(t=>norm(t).length>=2 && contains(q,t));
+}
+function findTemporal(q, ids) {
+  return temporal.phases.filter(p=>
+    ids.direct.includes(p.entity) || hasTextSignal(q,p.triggers) ||
+    (ids.expanded.includes(p.entity) && hasTextSignal(q,[p.phase_label]))
+  ).map(p=>({...p,matching_terms:(p.triggers||[]).filter(t=>contains(q,t))}));
+}
+function zoneIDsFromQuery(q, zones) {
+  const hits=[];
+  for(const z of zones.active_design_children) {
+    const n=String(Number(z.number));
+    const numPattern=new RegExp("(?:第)?0?"+n+"(?:區|區域)");
+    const strongNames=(z.aliases||[]).filter(x=>String(x).length>=3);
+    if(strongNames.some(x=>contains(q,x)) || numPattern.test(q) || contains(q,z.id)) hits.push(z.id);
+  }
+  return unique(hits);
+}
+function findCausal(q, zones) {
+  const selectedIDs=zoneIDsFromQuery(q,zones);
+  const broad=(zones.count===12)&&/生態|制度|產業|經濟|全貌|總覽|關聯|供應鏈|十二區|九區|跨區|w01/i.test(q);
+  const direct=ecoLinks.edges.filter(e=>
+    selectedIDs.includes(e.from)||selectedIDs.includes(e.to) ||
+    hasTextSignal(q,e.keywords)|| (broad && selectedIDs.length===0)
+  );
+  const directIds=new Set(direct.map(e=>e.id));
+  const touched=unique([...selectedIDs,...direct.flatMap(e=>[e.from,e.to])]);
+  const second=ecoLinks.edges.filter(e=>!directIds.has(e.id) &&
+    touched.some(z=>z===e.from||z===e.to)).slice(0,12);
+  return {matched_zone_ids:selectedIDs,
+    direct_edges:direct,
+    second_order_candidates:second,
+    warning:"候選邊不代表已核定路網／供應鏈；EXPLICIT_SOURCE_CANDIDATE 為來源明示候選；EDITORIAL_INTEGRATION_HYPOTHESIS 為需檢驗的編輯提案。"};
+}
+function findVersionDecisions(q) {
+  return versionLedger.records.filter(x=>
+    hasTextSignal(q,x.query_terms) || contains(q,x.subject)
+  );
+}
+
 function collectTerms(q, ids, claims, ideas, zones) {
   const t = [];
   for (const e of graph.entities) {
@@ -197,23 +242,37 @@ function query(q, corpus) {
   const ids = identify(q);
   const zones = getZones(q,ids);
   const ideas = findIdeas(q,zones);
+  const phaseMatches = findTemporal(q,ids);
+  const causal = findCausal(q,zones);
+  const versions = findVersionDecisions(q);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
     return entityMatch || hits.some(t => norm(t).length >= 3);
   }).map(r => ({...r,review_signal:ruleTriggers(r,q).length>0?"TRIGGERED__CONTEXT_REVIEW_NOT_VERDICT":"GRAPH_ADJACENCY__VERIFY_APPLICABILITY"}));
-  const terms = collectTerms(q,ids,claims,ideas,zones);
+  const terms = unique([
+    ...collectTerms(q,ids,claims,ideas,zones),
+    ...phaseMatches.flatMap(p=>p.matching_terms||[]),
+    ...causal.direct_edges.flatMap(e=>e.keywords||[]).filter(t=>contains(q,t)),
+    ...versions.flatMap(v=>v.query_terms||[]).filter(t=>contains(q,t))
+  ]).slice(0,90);
   const ranked = corpus.read.map(d=>scoreDocument(d,terms)).filter(d=>d.score>0).sort((a,b)=>b.score-a.score);
   const byPath = new Map(corpus.read.map(d=>[d.path,d]));
   const needed = unique([
     ...claims.flatMap(r=>r.sources||[]),
     ...ideas.flatMap(i=>i.source_paths||[]),
+    ...phaseMatches.flatMap(p=>p.source_paths||[]),
+    ...causal.direct_edges.flatMap(e=>e.source_paths||[]),
+    ...causal.second_order_candidates.flatMap(e=>e.source_paths||[]),
+    ...versions.flatMap(v=>v.source_paths||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
     ...(zones.count?creativity.compatibility_decisions.filter(x=>x.id.startsWith("MAP-"))
                       .flatMap(c=>c.sources||[]):[])
   ]);
-  const selected = unique([...needed,...ranked.slice(0,16).map(r=>r.path)]).slice(0,60);
+  const fullSelected = unique([...needed,...ranked.slice(0,16).map(r=>r.path)]);
+  const selected = fullSelected.slice(0,120);
+  const source_selection_truncated = Math.max(0,fullSelected.length - selected.length);
   const scoreByPath = new Map(ranked.map(r=>[r.path,r]));
   const opened = selected.map(p=>{
     const d=byPath.get(p),r=scoreByPath.get(p);
@@ -233,11 +292,12 @@ function query(q, corpus) {
     files_missing:corpus.missing, newly_added_unindexed_source_files:corpus.extras,
     entities:ids, container_expansion:zones,
     relevant_claims:claims, creative_candidate_ideas:ideas,
+    character_timeline:phaseMatches, ecology_industry_network:causal, version_compatibility_ledger:versions,
     version_decisions:versionFindings,
     searched_terms:terms, selected_sources:opened,
-    missing_rule_sources:missingMustRead, source_index_drift:drift,
+    missing_rule_sources:missingMustRead, source_selection_truncated, source_index_drift:drift,
     confidence_note:"此工具可驗證有掃描哪些本機檔案、命中哪些文字與子節點；不是語義全知或新對話自動執行證明。作者/AI仍需讀足來源全段，判定衝突、知情界線、候選生效範圍，並附回執。",
-    status:corpus.missing.length===0&&missingMustRead.length===0&&!drift.stale?"SOURCE_FILES_READ__SEMANTIC_QA_PENDING":"INDEX_STALE_OR_INCOMPLETE__RECHECK_SOURCES"
+    status:corpus.missing.length===0&&missingMustRead.length===0&&source_selection_truncated===0&&!drift.stale?"SOURCE_FILES_READ__SEMANTIC_QA_PENDING":"INDEX_STALE_OR_INCOMPLETE__RECHECK_SOURCES"
   };
 }
 function integrity(corpus) {
@@ -246,7 +306,10 @@ function integrity(corpus) {
     ...creativity.idea_pool.flatMap(x=>x.source_paths||[]),
     ...creativity.map_versions.primary.source_paths,
     ...creativity.map_versions.legacy.source_paths,
-    ...creativity.compatibility_decisions.flatMap(x=>x.sources||[])
+    ...creativity.compatibility_decisions.flatMap(x=>x.sources||[]),
+    ...temporal.phases.flatMap(x=>x.source_paths||[]),
+    ...ecoLinks.edges.flatMap(x=>x.source_paths||[]),
+    ...versionLedger.records.flatMap(x=>x.source_paths||[])
   ]);
   const known=new Set(corpus.read.map(x=>x.path));
   const missing=sources.filter(p=>!known.has(p));
@@ -254,21 +317,41 @@ function integrity(corpus) {
   const children=expandChildren(creativity.map_versions.primary);
   const legacy=expandChildren(creativity.map_versions.legacy);
   const drift=sourceDrift();
+  const zonesKnown=new Set(children.map(z=>z.id));
+  const danglingEco=ecoLinks.edges.filter(e=>!zonesKnown.has(e.from)||!zonesKnown.has(e.to)).map(e=>e.id);
+  const allIds=[
+    ...graph.claims.map(x=>x.id),...temporal.phases.map(x=>x.id),
+    ...ecoLinks.edges.map(x=>x.id),...versionLedger.records.map(x=>x.id)
+  ];
+  const duplicateGraphIDs=allIds.filter((x,i)=>allIds.indexOf(x)!==i);
   return {files_in_inventory:inventory.files_count,read:corpus.read.length,
     missing_original_files:corpus.missing,unindexed_new_source_files:corpus.extras,
-    missing_reference_paths:missing,duplicated_claim_ids:collisions,source_index_drift:drift,
+    missing_reference_paths:missing,duplicated_claim_ids:collisions,
+    dangling_ecology_edges:danglingEco,duplicated_extended_ids:duplicateGraphIDs,source_index_drift:drift,
     active_w01_children:children.length,old_w01_children:legacy.length,
-    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&children.length===12&&legacy.length===9&&!drift.stale};
+    temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
+    ok:missing.length===0&&corpus.missing.length===0&&collisions.length===0&&danglingEco.length===0&&duplicateGraphIDs.length===0&&children.length===12&&legacy.length===9&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
   assert(one.relevant_claims.some(x=>x.id==="MG-C001"));
+  assert(one.character_timeline.some(x=>x.id==="P-CEL-02"));
   const two=query("諾亞的原槍沒有同化的黑銷死亡復歸也會跟回嗎",corpus);
   assert(two.relevant_claims.some(x=>x.id==="MG-C007"));
   const three=query("討論 W01 九區與十二區的新版生態",corpus);
   assert.equal(three.container_expansion.active_design_children.length,12);
   assert.equal(three.container_expansion.legacy_candidates.length,9);
   assert(three.creative_candidate_ideas.some(x=>x.id==="IDEA-ECO-008"));
+  assert(three.version_compatibility_ledger.some(x=>x.id==="VER-001"));
+  const fish=query("W01第06區漁業受到第11區污染有什麼後果",corpus);
+  assert(fish.ecology_industry_network.direct_edges.some(x=>x.id==="ECO-001"));
+  assert(fish.ecology_industry_network.matched_zone_ids.includes("W01-Z06"));
+  const temporalCheck=query("諾亞第一次死亡之前知道自己能復歸嗎",corpus);
+  assert(temporalCheck.character_timeline.some(x=>x.id==="P-NOAH-01"));
+  const alivia=query("艾莉維亞白髮是否變成第二人格",corpus);
+  assert(alivia.character_timeline.some(x=>x.id==="P-ALIVIA-03"));
+  const city=query("W04新版萬噸配重是否取代萬律專利城邦",corpus);
+  assert(city.version_compatibility_ledger.some(x=>x.id==="VER-009"));
   const fixture=JSON.parse(fs.readFileSync(path.join(HOME,"合成檢索測例.json"),"utf8"));
   const roomCase=fixture.cases.find(x=>x.name.includes("十個"));
   assert.equal(expandChildren({children:roomCase.given.contains}).length,10);
@@ -276,7 +359,10 @@ function selfTest(corpus) {
   assert(!graph.entities.some(x=>x.id==="A"));
   return {ok:true,checks:["Celeste injury hard rule", "gun assimilation override",
     "W01 12 active design districts + 9 historical candidates",
-    "older mechanical-forest idea recoverable", "10-room synthetic fixture isolated"]};
+    "older mechanical-forest idea recoverable", "10-room synthetic fixture isolated",
+    "06 district fisheries linked to 11 district wastewater candidate",
+    "Noah pre-death knowledge limit", "Alivia white-hair personality continuity",
+    "W04 older and newer competing candidates retained"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
