@@ -18,7 +18,7 @@
 4. 日本 BLACKSOULS II FAQ：https://w.atwiki.jp/iniminimanimo/pages/34.html
 5. 日本 DLC2 混沌迷宮攻略：https://w.atwiki.jp/iniminimanimo/pages/48.html
 6. 巴哈姆特 BLACK SOULS II DLC 中文攻略：https://forum.gamer.com.tw/C.php?bsn=60599&snA=52271
-7. 繁中非官方整理（注意社群詮釋）：https://newkomica-kari.fandom.com/zh-tw/wiki/BLACKSOULS%E2%85%A1-%E6%84%9B%E3%81%97%E3%81%8D%E8%B2%B4%E6%96%9D%E8%AD%B0%E3%81%AE%E5%9B%BD-
+7. 繁中非官方整理（注意社群詮釋）：https://newkomica-kari.fandom.com/zh-tw/wiki/BLACKSOULS%E2%85%A1-%E6%84%9B%E3%81%97%E3%81%8D%E8%B2%B4%E6%80%9D%E8%AD%B0%E3%81%AE%E5%9B%BD-
 
 ## 二、必須分清的三個比較對象
 
