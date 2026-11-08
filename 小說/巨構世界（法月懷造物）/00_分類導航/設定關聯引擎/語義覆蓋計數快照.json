@@ -8,8 +8,8 @@
   "temporal_constraint_count": 12,
   "causal_candidate_edge_count": 18,
   "version_decision_count": 10,
-  "registered_container_count": 3,
-  "distinct_original_source_paths_with_some_structured_reference": 49,
+  "registered_container_count": 6,
+  "distinct_original_source_paths_with_some_structured_reference": 57,
   "warning": "File references are not complete semantic verification. Unreferenced files may contain important Canon and reusable creative ideas.",
   "source_categories": {
     "00_分類導航": {
@@ -24,12 +24,12 @@
     },
     "02_地圖拓撲與交通": {
       "physical": 24,
-      "referenced": 8,
+      "referenced": 11,
       "bytes": 305265
     },
     "03_人物關係與語感": {
       "physical": 32,
-      "referenced": 9,
+      "referenced": 11,
       "bytes": 514199
     },
     "04_能力武器與試煉": {
@@ -69,7 +69,7 @@
     },
     "地圖": {
       "physical": 13,
-      "referenced": 0,
+      "referenced": 3,
       "bytes": 217320
     },
     "待定正文": {
@@ -87,5 +87,14 @@
       "referenced": 3,
       "bytes": 135135
     }
-  }
+  },
+  "world_layer_records": 9,
+  "barrier_records_versioned": 19,
+  "legacy_barrier_records": 10,
+  "gemini_barrier_records": 9,
+  "transport_evidence_route_count": 12,
+  "people_and_institution_nodes": 26,
+  "people_and_institution_relationships": 24,
+  "cross_world_dependency_edges": 22,
+  "notice_2026_11_09": "New W/K, T, people, civilization/ecology edges are indexed. Reference count never implies full content review; candidate sources are not Canon."
 }
