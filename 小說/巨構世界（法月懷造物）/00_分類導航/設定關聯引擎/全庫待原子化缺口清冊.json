@@ -1,0 +1,2018 @@
+{
+  "schema": "mega-source-atomization-gap-v1",
+  "snapshot_label": "2026-11-09",
+  "original_files": 335,
+  "referenced": 84,
+  "without_direct_structured_reference": 251,
+  "warning": "Unreferenced does NOT mean unread or unusable. All source text files are searchable by passages, but not all claims are independently verified or canon.",
+  "sources": [
+    {
+      "path": "00_分類導航/2026-11-05_巨構GitHub完整接手_最新狀態稽核_非正史.md",
+      "category": "00_分類導航",
+      "bytes": 16225,
+      "git_blob_sha": "885f55fd6acc9a34fc1aad4f993fed39a52b66db",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "00_分類導航/2026-11-05_晚間接手增量_3b8fe7_非正史.md",
+      "category": "00_分類導航",
+      "bytes": 10255,
+      "git_blob_sha": "c29f1e8a6e48bc987a3206fb82ee32ce49fb0ab9",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "00_分類導航/2026-11-08_GitHub即時接手核對_8005072_非正史.md",
+      "category": "00_分類導航",
+      "bytes": 8025,
+      "git_blob_sha": "54cdd52898ccf988a8f0473c26e0d44205cf11fa",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+      "category": "00_分類導航",
+      "bytes": 4496,
+      "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "00_分類導航/原路徑對照表.json",
+      "category": "00_分類導航",
+      "bytes": 46321,
+      "git_blob_sha": "8fc0b3e18a9b9bdb292df481575dc0258be0943b",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+      "category": "00_分類導航",
+      "bytes": 10101,
+      "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "00_分類導航/GitHub提交與PR合併_作者指定工作規則_2026-11-05.md",
+      "category": "00_分類導航",
+      "bytes": 4656,
+      "git_blob_sha": "3456690c82fe6a6ca5661580d5d90324ccb237e4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "00_分類導航/README.md",
+      "category": "00_分類導航",
+      "bytes": 1549,
+      "git_blob_sha": "4cf87b2c5fa841e3b65fcf4829befa476bd73535",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "000_專案交接.md",
+      "category": "(專案根目錄)",
+      "bytes": 54662,
+      "git_blob_sha": "b00c68a730c01a02d174af13ca31640d76a88c74",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "000_導覽與狀態.md",
+      "category": "(專案根目錄)",
+      "bytes": 133361,
+      "git_blob_sha": "8e7262b3b35e1724bb0de007cc089691de93196c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/001_世界尺度與空間.md",
+      "category": "01_世界本體與文明",
+      "bytes": 18265,
+      "git_blob_sha": "da344b49160da888f7d450f0282cdb03dc145139",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/002_視覺美學與龐克.md",
+      "category": "01_世界本體與文明",
+      "bytes": 13704,
+      "git_blob_sha": "243217241657fc76e510677ad1aa52085aba7c71",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/004_群落社會與知識.md",
+      "category": "01_世界本體與文明",
+      "bytes": 14888,
+      "git_blob_sha": "84be06a0cce8eb13325a25eae64697e530b9787b",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/005_生存敵人與裝備.md",
+      "category": "01_世界本體與文明",
+      "bytes": 11788,
+      "git_blob_sha": "e630ac8c18bbf758e364810e1915f4600c197c88",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
+      "category": "01_世界本體與文明",
+      "bytes": 12028,
+      "git_blob_sha": "ec00a7bcc26dd1cf3b9bdd80622d789cd4c4c4a1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/012_討論續錄_科技能源_異質社會_光照地景.md",
+      "category": "01_世界本體與文明",
+      "bytes": 20373,
+      "git_blob_sha": "ff92e9611b5f542ed002d99004a4b8c17be394df",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/043_候選框架_戰力帶_肉身技藝_武器裝備_遺物科技尺度.md",
+      "category": "01_世界本體與文明",
+      "bytes": 19597,
+      "git_blob_sha": "eb08dbdb6a279fd8dd19c04ea7d2551b1c1e2c0f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/046_討論續錄_特殊技藝傳承_政府政治_黑市盜團與跨群落勢力.md",
+      "category": "01_世界本體與文明",
+      "bytes": 17555,
+      "git_blob_sha": "35ee767d181745de524b65332d87bcaaefd4d4d0",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md",
+      "category": "01_世界本體與文明",
+      "bytes": 15364,
+      "git_blob_sha": "f8ee32dd78f0bf858c8723a20ab4afe35e2fb446",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/073_研究候選_身分權力背書_地方承認_勢力反應與跨篇後果.md",
+      "category": "01_世界本體與文明",
+      "bytes": 14440,
+      "git_blob_sha": "f4f77ef96d19991e8675faa71101fbb4166851ef",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/076_研究續錄_世界層尺寸彈性_Celeste偉力_真實與科技星象_S01.md",
+      "category": "01_世界本體與文明",
+      "bytes": 8722,
+      "git_blob_sha": "b802abc4974da1a54db03bad87e5f69715da464c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "01_世界本體與文明/README.md",
+      "category": "01_世界本體與文明",
+      "bytes": 4975,
+      "git_blob_sha": "1977a9d41babdf7c71515c90e070088afc3f5ef7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 19232,
+      "git_blob_sha": "2f7e69a18d969c2b2ddb92b3f1dd16be3e214aa8",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/026_討論續錄_BC巨構_開篇雙主角_模組貨幣_空洞騎士路網與痛苦之路.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 29567,
+      "git_blob_sha": "b4b08f5859507129ced83673c67876b8ef89b385",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 14993,
+      "git_blob_sha": "016da0bf2d6768e55ec027f49e9d5212c0e861da",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 14680,
+      "git_blob_sha": "72bc21fa7414f2eaf137d9363714c4ef86e0c774",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 23898,
+      "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 7977,
+      "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 20829,
+      "git_blob_sha": "2f62fa570e36e4585b8bf0e4d00eb8690987fc30",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 9755,
+      "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/124_K01折返厚殼帶_地理厚度內部構造三條候選通行鏈與QA.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 9162,
+      "git_blob_sha": "414a9d13d5afeab6e4069e2c7e3bf433adf1b6dc",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/129_宏觀立體剖視V04_地貌美術與未決界線.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 4259,
+      "git_blob_sha": "648e7d900e0e75c93be51260634c31dff3d59667",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/130_V05主升程功能分層_真正最高層目標與起點以下深構.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 8865,
+      "git_blob_sha": "777e57a62de1d71b89da5a958e6047606ee1707e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/131_V051主升程骨架改良_總覽圖不是最外殼_跨域與多代用途核對.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 5387,
+      "git_blob_sha": "c57661cc8795791778be5e8db436290b86bc91c2",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "02_地圖拓撲與交通/README.md",
+      "category": "02_地圖拓撲與交通",
+      "bytes": 3783,
+      "git_blob_sha": "700da348b1e8f644da0ce6d7f7cb48a2bc3e1e17",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/014_逐輪稽查_戰力科技至莉可式探索.md",
+      "category": "03_人物關係與語感",
+      "bytes": 28127,
+      "git_blob_sha": "5d30e8d7fd4e6a2a61b8aac3c39a80afa02833f5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/016_逐輪補查_莉可到男女主及Celeste嗑CP.md",
+      "category": "03_人物關係與語感",
+      "bytes": 19209,
+      "git_blob_sha": "d642b47f546756ca7ed983387551325097525e9e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/020_討論續錄_女主低配Franiya與故事優先.md",
+      "category": "03_人物關係與語感",
+      "bytes": 11139,
+      "git_blob_sha": "417b16a732a1c1963d8e260561d3c99b6593694a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+      "category": "03_人物關係與語感",
+      "bytes": 13160,
+      "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/027_討論續錄_早中期Celeste不揭露_主線路網_作品事件_戀愛發展.md",
+      "category": "03_人物關係與語感",
+      "bytes": 22779,
+      "git_blob_sha": "b6153633f90a053abda61f2a73ca8534aab520b1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
+      "category": "03_人物關係與語感",
+      "bytes": 6802,
+      "git_blob_sha": "6f799686b2e1bf0add37b2a26d7a9cfe8301fffc",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/030_討論續錄_諾亞艾莉維亞雙向臉紅與暱稱.md",
+      "category": "03_人物關係與語感",
+      "bytes": 21322,
+      "git_blob_sha": "e900018bdc0b0a0e0903bb3ba03561a9d30abf72",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/041_討論續錄_終橋本能恐懼_諾亞懷疑自己無法復歸_完整對話保留.md",
+      "category": "03_人物關係與語感",
+      "bytes": 11344,
+      "git_blob_sha": "291df9233453d3b870cd9e9db5ba4bf9b82bc214",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
+      "category": "03_人物關係與語感",
+      "bytes": 3199,
+      "git_blob_sha": "d1359190da901efdc7dde58dfef9fde0b2998c6f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
+      "category": "03_人物關係與語感",
+      "bytes": 16246,
+      "git_blob_sha": "0ad4152b3287ffbf0fefb0cc4c1eebe1ca77b2c8",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/087_後出修正_第三個座位_下次見呀的普通語氣與複層意境.md",
+      "category": "03_人物關係與語感",
+      "bytes": 4369,
+      "git_blob_sha": "80010123b95b9fff2b64280545ec56d0eb17f25a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/103_後出視覺補充_艾莉維亞呆毛彎弧與神態表演_圖片待進一步核定.md",
+      "category": "03_人物關係與語感",
+      "bytes": 12325,
+      "git_blob_sha": "f5df3959867c4c44225d9ee4b43d6d1eb66d873a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
+      "category": "03_人物關係與語感",
+      "bytes": 18596,
+      "git_blob_sha": "0684791518dead99de1b27a48a6f82af91dfbccc",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+      "category": "03_人物關係與語感",
+      "bytes": 22197,
+      "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+      "category": "03_人物關係與語感",
+      "bytes": 44822,
+      "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+      "category": "03_人物關係與語感",
+      "bytes": 27110,
+      "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+      "category": "03_人物關係與語感",
+      "bytes": 22996,
+      "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/145_白髮轉換與神情演出_危險愉悅冰冷殺意癲狂.md",
+      "category": "03_人物關係與語感",
+      "bytes": 8579,
+      "git_blob_sha": "d98e237f80dee98c36940ae3a0b23880e3a664f1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+      "category": "03_人物關係與語感",
+      "bytes": 8396,
+      "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/149_艾莉維亞髮型正式補充_上揚呆毛_額前碎髮_雙側外飄長髮_用詞.md",
+      "category": "03_人物關係與語感",
+      "bytes": 11390,
+      "git_blob_sha": "37e62dec9d5e5330821b87fcee288c09d2917bb9",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "03_人物關係與語感/README.md",
+      "category": "03_人物關係與語感",
+      "bytes": 4741,
+      "git_blob_sha": "a03efc5ddb92f5d5dd7f1d37ff79b439454d2ce7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/013_討論續錄_主角_復歸_頂尖武器_上行動機.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 18049,
+      "git_blob_sha": "d6aadc0d91a7b9b1796f5195b8a39929c6b29869",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/015_討論續錄_女主特殊性_空間高階科技_雙主角默契.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 17793,
+      "git_blob_sha": "29ccf8a79d3dbf55cb14aa13120b2e484b14d4a7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/018_討論續錄_女主前文明頂端規則戰力與成長.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 11206,
+      "git_blob_sha": "a86405a7a4382a76658022b5a1c282f5f56fc518",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 18342,
+      "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 24691,
+      "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 9316,
+      "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 8978,
+      "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/054_討論續錄_終焉迴廊全生命感受_諾亞武器來歷與BLAME借鑑.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 10175,
+      "git_blob_sha": "a3dc725b22046420ad1a83977e5586f0af745742",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/056_討論續錄_Celeste靜謐迴廊結尾_艾莉維亞實質升級與名稱待核.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 8191,
+      "git_blob_sha": "910819b16909a9db316f5466499d911165d70cfe",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 28504,
+      "git_blob_sha": "0ab221117f86cdacce73cae094bc8c120b3e84c2",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/060_候選設計_靜謐迴廊終點_諾亞巨大模組_艾莉維亞巨大升級與其他收穫.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 25366,
+      "git_blob_sha": "a99966f5b8cc8e4ad8701ba4bb0fa9e78c4f1a82",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/063_候選實作_雙主角初期能力_成長追尋_活人物群像與互動.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 20475,
+      "git_blob_sha": "bdcfbf26ef660a595ca583e1d4b9eda11f131091",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 27638,
+      "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 4573,
+      "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 10103,
+      "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 8585,
+      "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 4591,
+      "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/146_A2影像反向作用研究_真實對應與反例.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 7544,
+      "git_blob_sha": "7a110e5e386362c5e7bd73fb4856376e023d24b5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "04_能力武器與試煉/README.md",
+      "category": "04_能力武器與試煉",
+      "bytes": 4027,
+      "git_blob_sha": "030e053ef0eb3ea4da8f2901a1508de970c45224",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 10919,
+      "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 6976,
+      "git_blob_sha": "34519957135498742dd8fad840c253ea8d29975a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 16405,
+      "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 19246,
+      "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 14127,
+      "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 11013,
+      "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 25793,
+      "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 26049,
+      "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "05_場景視覺與參考/README.md",
+      "category": "05_場景視覺與參考",
+      "bytes": 2253,
+      "git_blob_sha": "fcc5ad48e97661de316a8685ea9d1737d6d2f8c9",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 14139,
+      "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 10247,
+      "git_blob_sha": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/069_長篇主幹候選_遷巒遠征_人物競逐_第一大高潮到登頂.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 21824,
+      "git_blob_sha": "d3b56b2e001ede09900ab9b4823a0e5b2f424a15",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 13316,
+      "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 13375,
+      "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 14288,
+      "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 24757,
+      "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 24595,
+      "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/086_完整回應存證_異常大舞台第一二章_諾亞艾莉維亞開篇節奏研究.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 15694,
+      "git_blob_sha": "5c4a141c986df63a1373308ebefd90312cde5533",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 13057,
+      "git_blob_sha": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/090_開篇候選P0工作卡_被拆走的上行路_真初遇與第二章因果.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 9708,
+      "git_blob_sha": "c6cf85d13a0566dc31c359dc8419333e22c4d77b",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 64076,
+      "git_blob_sha": "8e9bd4e341947111f1894d7124efcb844c644cb3",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 12507,
+      "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 36670,
+      "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 43207,
+      "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 28341,
+      "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 39417,
+      "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 16495,
+      "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/159_Gemini下一階段八十題與創作優先級_研究任務清單.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 9555,
+      "git_blob_sha": "49f86420ef581388fa9c5128e00a5ccd5089404f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 12765,
+      "git_blob_sha": "44c5305bc8f7e64e46053a55f03f7277eb818656",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/182_作者決策前工作底圖_萬公里宏觀與雙主角升級_非線性道具鎖.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 12665,
+      "git_blob_sha": "82cdd97f91474e271ea09e50f516e9c6be02875f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/183_人物誤判有限理性與前六章修稿規則_作者後出確認.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 7740,
+      "git_blob_sha": "ffa23f7ec2c22fbf829c6ab74ed0f6b9515272fd",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 13414,
+      "git_blob_sha": "53a162bd2c4753f8d66956e3d73732769f1761ea",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 22484,
+      "git_blob_sha": "1fdfb9af521cbf70f70d94910b239c7014190924",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/192_跨媒介敘事研究_BLAME奇諾魔女之旅_巨構異質風格情緒交疊_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 48086,
+      "git_blob_sha": "8ab1b789463bd08c242605123845d17d97d110ca",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 17401,
+      "git_blob_sha": "4b4cfc5fa1345015ea2f24d371011018db352647",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/20261108_Gemini八十題_逐題來源覆蓋與原文保存等級核對.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 21772,
+      "git_blob_sha": "aa17f765c570db2d098611bc0429508430270b9e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "06_敘事規劃與工作流/README.md",
+      "category": "06_敘事規劃與工作流",
+      "bytes": 15206,
+      "git_blob_sha": "31763eb144527e0c66a1c762b6b17679cf363717",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/019_討論候選_女主兩場完整場景測試_前文明交鋒與海盆救援.md",
+      "category": "07_候選故事與場景",
+      "bytes": 18725,
+      "git_blob_sha": "ef8f83365319f7a1793f2e711619f49585e31d7f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+      "category": "07_候選故事與場景",
+      "bytes": 20593,
+      "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+      "category": "07_候選故事與場景",
+      "bytes": 12644,
+      "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/064_候選實作_地方事件兩案_開篇旅行與完整人物場景.md",
+      "category": "07_候選故事與場景",
+      "bytes": 21926,
+      "git_blob_sha": "8d1d9b3d4b548f2c974c44282d914c417ceaaf10",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
+      "category": "07_候選故事與場景",
+      "bytes": 16740,
+      "git_blob_sha": "2247dd76e7b562f23934b38f3089efaea6a80ab9",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+      "category": "07_候選故事與場景",
+      "bytes": 9056,
+      "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md",
+      "category": "07_候選故事與場景",
+      "bytes": 14349,
+      "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/092_非正史連續試寫_第二章_舊站仍有人來過.md",
+      "category": "07_候選故事與場景",
+      "bytes": 12474,
+      "git_blob_sha": "bb315e3583dc975be098bd8bf50ea05440bbefc0",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+      "category": "07_候選故事與場景",
+      "bytes": 15043,
+      "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+      "category": "07_候選故事與場景",
+      "bytes": 18576,
+      "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+      "category": "07_候選故事與場景",
+      "bytes": 19101,
+      "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+      "category": "07_候選故事與場景",
+      "bytes": 6336,
+      "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/150_非正史長篇試寫_靜謐迴廊終點_第一次白髮與雙巨大收穫.md",
+      "category": "07_候選故事與場景",
+      "bytes": 38232,
+      "git_blob_sha": "68a6947c7790799baf74fcf199f84156c18e346d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/152_B2完整非正史小說試寫_從上面下來的人_六章.md",
+      "category": "07_候選故事與場景",
+      "bytes": 57239,
+      "git_blob_sha": "a8f63bcb080f82ffec84da428b622b6dfc97f78c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/196_白鳥禁則澄清_萬鈞鐘心跨區黑幕作者真相與正文示範_非正史.md",
+      "category": "07_候選故事與場景",
+      "bytes": 16495,
+      "git_blob_sha": "de2fc7572c0aa2e0990d1ebdd740733fec87d5b1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/20261108_不思議迴廊_BLACK_SOULS參考與Celeste奈亞對照_研究候選.md",
+      "category": "07_候選故事與場景",
+      "bytes": 6130,
+      "git_blob_sha": "d17f081635a93d0ffe18f5d0c1df84623a2ce99a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/20261108_不思議迴廊_DLC3三姊妹人偶_格林關係_管理者少女舊核復檢.md",
+      "category": "07_候選故事與場景",
+      "bytes": 11831,
+      "git_blob_sha": "82d8af431f802bfb9afad37da735b9406389c8e7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/首篇A_B2_C_最新原文閱讀包_2026-10-23.md",
+      "category": "07_候選故事與場景",
+      "bytes": 40175,
+      "git_blob_sha": "b75ad69af4d84df88787a7dbdcebc0e0ba7d41ac",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/首篇B2_出城連續場景試寫_非正史增量_2026-10-23.md",
+      "category": "07_候選故事與場景",
+      "bytes": 11854,
+      "git_blob_sha": "74109577f7680717d17a8cf7c3530ec605d84899",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "07_候選故事與場景/README.md",
+      "category": "07_候選故事與場景",
+      "bytes": 5278,
+      "git_blob_sha": "edf0ad06eb4c74c1d4b79b2a22ffb9a7b8d10079",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/008_候選示例與未決台帳.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 7630,
+      "git_blob_sha": "65d7e6192790adb6ebd6c6324094f28c2ded72bc",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/010_全對話逐次設定核對與尺度補遺.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 20252,
+      "git_blob_sha": "33b7f62ffcf9ba5582fa0bb65578bb1fc09f6638",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/033_正式寫作準備_現行設定全檔稽核_版本與未決清單.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 15155,
+      "git_blob_sha": "b46864f7929828bc1fd7bdcd7d9d30b5e512ccd7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/118_近期未同步對話逐項回補稽核_世界層術語荒野圖片有人修正_原檔相容與未決.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 11191,
+      "git_blob_sha": "03080ea54c49b2626947ee2e4e19752f91a82e71",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 15823,
+      "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/176_Gemini第三至五章與八十題增量稽核_時序能力物權來源未決.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 19832,
+      "git_blob_sha": "af9e7ec8e581c016bcd98c1ea501690f16a2e2dd",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/181_Gemini萬公里尺度復歸黑霧第六章_來源優先與工程獨立稽核.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 17046,
+      "git_blob_sha": "a5a65a282c6e719832dfc70b02414f4eca976a9e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/186_Gemini新版第六章最終QA_280米誤引_橋跨角色認知與G8D修訂.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 8056,
+      "git_blob_sha": "d2e509c9bbde9ac03cb45aad9e71f37142ac66a6",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/194_第三至第六章正文逐章對照_Roblox旅行巨構研究QA與第七章保全_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 17691,
+      "git_blob_sha": "23e570835387b906af2342a96a56111c4749e30e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/197_Gemini真貨誤導_殞落殘篇_抽薪B案及G9B三補丁QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 7849,
+      "git_blob_sha": "6efb1ceb9385bbe0ea463367ffb9ef26593904ac",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/198_階段同行_終焉雙人候選_巧合無固定比例_鐘擺工程QA.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 8911,
+      "git_blob_sha": "aa0696bd1cdbc5dfc42f657f79d46656123abc4c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 10646,
+      "git_blob_sha": "b3a90641ccebb07186a46c242f387df20bbb75cd",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/200_G9B對G10第八章候選_直接續接_連續性工程時間與證據QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 15385,
+      "git_blob_sha": "3c8067fdb6e7da3c7ec4fe64c86767169166eb0d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 10648,
+      "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 7677,
+      "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/202_Gemini新版第七八章全章對讀_仍存第五章臨時銷與制動聯鎖QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 9059,
+      "git_blob_sha": "ee4bf250f58c9c7d00f090c1fa90fcf9b3247110",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/20261108_不思議迴廊繪本翻頁與破頁者_Celeste管理者倫理_深度QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 9577,
+      "git_blob_sha": "85f13397887596e6d6329d4059604f406be21928",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 5831,
+      "git_blob_sha": "6cd239f1275b7fcbb6ce5430b7d47e60f14f54dc",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/20261108_Gemini第二輪四線盤點_權威完成度與正文時序_核對QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 8119,
+      "git_blob_sha": "ccc57117dc4bbc9f89e31979868ccc2329421027",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/204_Gemini再修第七八章_五項QA修復實證與尚存細節_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 8551,
+      "git_blob_sha": "ddec1d916416b98181108ad5172321a613203eef",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/205_第五六章定位銷微修與第七八章雙輪補丁實際整合QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 6833,
+      "git_blob_sha": "f7da47f9327177fdd32c50147fdc2b57e4d5b7a5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/205_Gemini第五六章已套用微補丁_第八章精確替換包與風險QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 13489,
+      "git_blob_sha": "8fd3f33a36290925ef5c9647fcdd3a12f2efa0a3",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 6485,
+      "git_blob_sha": "25de6936a6637a1fa45e1bb5457b9df5c2510bbd",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 10662,
+      "git_blob_sha": "4a886ab4910e47eb1f485b88ec246b945965e0db",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "08_交接勘誤與決議/README.md",
+      "category": "08_交接勘誤與決議",
+      "bytes": 5792,
+      "git_blob_sha": "6eeef15bbd5c85c00e9e6e1154322303bda7f0e5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "09_跨AI原始來源/195_A_對話與核心決議_含031與189全文_2026-11-05.md",
+      "category": "09_跨AI原始來源",
+      "bytes": 245051,
+      "git_blob_sha": "60a3d6461f7f90ea09262711142565ac101f2884",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "09_跨AI原始來源/195_D_第三至六章QA_第七章保全與PR核驗_2026-11-05.md",
+      "category": "09_跨AI原始來源",
+      "bytes": 382054,
+      "git_blob_sha": "854c6bd0d8f4e4fb8659b57afd7183420eac7473",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "category": "09_跨AI原始來源",
+      "bytes": 28948,
+      "git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "09_跨AI原始來源/README.md",
+      "category": "09_跨AI原始來源",
+      "bytes": 21002,
+      "git_blob_sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "交接稽核/2026-11-04_巨構GitHub接手稽核_非正史.md",
+      "category": "交接稽核",
+      "bytes": 11525,
+      "git_blob_sha": "03c3c8a480013d67085e3bd4bd26dc3e51fe0749",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/巨構世界層與厚重隔界_總圖V0.3.svg",
+      "category": "地圖",
+      "bytes": 13783,
+      "git_blob_sha": "23e51bfb4c26d3a2b76e9635de003acd65a43e46",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/巨構主升程功能分層V0.5_非正史.json",
+      "category": "地圖",
+      "bytes": 4592,
+      "git_blob_sha": "f8ddbfdad4db2cf639dd8530f517dd10ad052611",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/巨構主升程地圖V0.5_頂端目標與下方深構_非正史.svg",
+      "category": "地圖",
+      "bytes": 50229,
+      "git_blob_sha": "0b5a8eb9c1675923f3428cdfe025eb4566f40ddf",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/巨構主升程骨架修正版V0.5.1_非對稱多代交錯_非正史.svg",
+      "category": "地圖",
+      "bytes": 57459,
+      "git_blob_sha": "62a133a3d22d5b72a6a9093a4008cd1f062f0fa2",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/巨構宏觀立體空域剖視V0.4_候選.svg",
+      "category": "地圖",
+      "bytes": 35723,
+      "git_blob_sha": "6d33f7c720b8f4e7a9e14b0a9ad046ce1eafcc02",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/K01折返厚殼帶_局部放大剖面V0.3.svg",
+      "category": "地圖",
+      "bytes": 4137,
+      "git_blob_sha": "887ce134cecd93bebb114405d9597375487c628f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/R04高懸械林_內部構造圖V0.2重建.svg",
+      "category": "地圖",
+      "bytes": 2554,
+      "git_blob_sha": "9723ae83606a4c5cb85257db6920c55cd0c460e6",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/T交通可達證據分層_三套候選路線V0.1.svg",
+      "category": "地圖",
+      "bytes": 6293,
+      "git_blob_sha": "c11c635c319a046f289e98653d547e35c5cf64c7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/W01大區R01至R09與R04局部_重建資料V0.2.json",
+      "category": "地圖",
+      "bytes": 2737,
+      "git_blob_sha": "a62deb17c784a5d8eda79703d6a7b8ca01200f23",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "地圖/W01肋海廣域_R01至R09大區圖V0.2重建.svg",
+      "category": "地圖",
+      "bytes": 5660,
+      "git_blob_sha": "c462c2335408b64659d7dec61d56ac9b11eecf95",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文_總入口.md",
+      "category": "(專案根目錄)",
+      "bytes": 13193,
+      "git_blob_sha": "cf8ac3a49dc81bfc46ad8db13bf28f9e5003879c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+      "category": "待定正文",
+      "bytes": 287710,
+      "git_blob_sha": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/01_版本差異_ChatGPT與Gemini開篇逐項比較.md",
+      "category": "待定正文",
+      "bytes": 15842,
+      "git_blob_sha": "5de2f53cb105d8bddaecee61c9aa4c17c84de5d4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/02_Gemini排版整理與原文完整性核對.md",
+      "category": "待定正文",
+      "bytes": 4422,
+      "git_blob_sha": "c1ffab7d4222be0e73af0a3d6981b0bb8f83cd56",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/已選未發生/ChatGPT_第051_第三個座位_已選未正式發生.md",
+      "category": "待定正文",
+      "bytes": 12671,
+      "git_blob_sha": "587b09553badce0e283d7fd2dcbf9e9d18ec2ed4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第019_女主兩場獨立能力場景.md",
+      "category": "待定正文",
+      "bytes": 18725,
+      "git_blob_sha": "ef8f83365319f7a1793f2e711619f49585e31d7f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第064_還有兩張票_開場片段及地方事件.md",
+      "category": "待定正文",
+      "bytes": 22052,
+      "git_blob_sha": "221b1ee5057ad6af0bec958274824b97fc1643a4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第088_首次死亡與復歸短篇.md",
+      "category": "待定正文",
+      "bytes": 12746,
+      "git_blob_sha": "07ce9451f87c6b0c5b63307ad6edd6002089eda1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第096_空心古根商旅與紫瞳少女.md",
+      "category": "待定正文",
+      "bytes": 24874,
+      "git_blob_sha": "2116d4805bd0b59233aeb0a5a42ee9d532923e88",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第100_根橋與捕食者_巨龜城.md",
+      "category": "待定正文",
+      "bytes": 18628,
+      "git_blob_sha": "7b06dd8975603d767788f684fcaaa355e0339f47",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第117_五組巨構荒野場景樣稿.md",
+      "category": "待定正文",
+      "bytes": 21844,
+      "git_blob_sha": "7b0d82bb0cc2fb1034f32faaf25f11070c3601c0",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第121_三段景觀與人物短場景.md",
+      "category": "待定正文",
+      "bytes": 20601,
+      "git_blob_sha": "26db3f9680f22a4a45794f6245bcedaad2ef1d6d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第139_無名母女記憶_整合試寫.md",
+      "category": "待定正文",
+      "bytes": 19104,
+      "git_blob_sha": "bf6748046787b1278fc6fdfdd1a92a6162c9e9c7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/ChatGPT_第150_走到這裡的人_靜謐迴廊.md",
+      "category": "待定正文",
+      "bytes": 38232,
+      "git_blob_sha": "68a6947c7790799baf74fcf199f84156c18e346d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/Gemini_墜落深坑的剪刀石頭布_熟稔後獨立試寫.md",
+      "category": "待定正文",
+      "bytes": 6664,
+      "git_blob_sha": "7ea52b7a47d62da94ecfbb02c116c8e470d1a394",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/其他場景/Gemini_靜謐迴廊白橋黑霧真死感_候選潤稿.md",
+      "category": "待定正文",
+      "bytes": 5406,
+      "git_blob_sha": "131f488b42f386d88e6dc680b974b4e9027a05b6",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_ChatGPT/早期熟人版_尚未拆下的那一段.md",
+      "category": "待定正文",
+      "bytes": 13316,
+      "git_blob_sha": "826193863a404e314947af2f9355857244df39e4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_ChatGPT/拆路P0_第一章_那條路正在被拆走.md",
+      "category": "待定正文",
+      "bytes": 12646,
+      "git_blob_sha": "f7b4a62c69eceb050de2fbf68fa570cd1196049d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_ChatGPT/拆路P0_第二章_舊站仍有人來過.md",
+      "category": "待定正文",
+      "bytes": 10853,
+      "git_blob_sha": "db1c2b23d42b01a16081b64ee52c8b8f7a62d011",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_ChatGPT/A_拆路之後仍有人走.md",
+      "category": "待定正文",
+      "bytes": 12673,
+      "git_blob_sha": "b59598c4b08bfb75a87041b88e75e6f1358f61bb",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_ChatGPT/B_從上面下來的人.md",
+      "category": "待定正文",
+      "bytes": 16033,
+      "git_blob_sha": "bff50ea18dd8f398d1a3bece5f61d2d3935b94e3",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md",
+      "category": "待定正文",
+      "bytes": 56861,
+      "git_blob_sha": "8065a7c973db240c3527632c2b0948774c5074f1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+      "category": "待定正文",
+      "bytes": 1115,
+      "git_blob_sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第一章_G0_懸艙開箱日_初稿短片段_非全章.md",
+      "category": "待定正文",
+      "bytes": 4897,
+      "git_blob_sha": "b2f189c1198114cf4dde0bf29720acb4aaa40079",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第一章_G1_懸艙開箱日_完整初版.md",
+      "category": "待定正文",
+      "bytes": 23607,
+      "git_blob_sha": "92846b0873352b6299c0f1c3a2c4551a206bf4fc",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第一章_G2_懸艙開箱日_距離與章節分拆精修版.md",
+      "category": "待定正文",
+      "bytes": 18757,
+      "git_blob_sha": "8c6d98d72d8c7ae69c39707679fd9bf32ead0e77",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第七八章_G9E_G10R4_ABC加極簡D_完整候選_20261108.md",
+      "category": "待定正文",
+      "bytes": 49347,
+      "git_blob_sha": "25a6a5ba2fdaa273e5bc7affdeb1c3946f782205",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md",
+      "category": "待定正文",
+      "bytes": 53940,
+      "git_blob_sha": "d6ced146a777cb82d9f1acb1f648c027e7814a07",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第七章_G9_底錨塔裡的無聲客_第一版原稿_使用者回貼候選.md",
+      "category": "待定正文",
+      "bytes": 20910,
+      "git_blob_sha": "6e652144680ac7917c25ecd75227e8646930bdf7",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第七章_G9A_底錨塔裡的無聲客_精修版_使用者回貼候選.md",
+      "category": "待定正文",
+      "bytes": 21147,
+      "git_blob_sha": "686660c8c83105ffaf986c10938f8bd9f12ef778",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+      "category": "待定正文",
+      "bytes": 21405,
+      "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第七章_G9C_底錨塔裡的無聲客_銜接動作與阻尼楔修訂候選.md",
+      "category": "待定正文",
+      "bytes": 20570,
+      "git_blob_sha": "82e229d0684a6c6f7da70a84a475c3e813d0ae51",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第九章_Gemini_兩千公尺的卸載燈與蜂窩襯套_結案收束合併全文_候選_20261108.md",
+      "category": "待定正文",
+      "bytes": 34087,
+      "git_blob_sha": "79740ef7b0c93007a16b416cb9b892db86c937ab",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第二章_G3_十噸重的帳單_目前唯一完整稿.md",
+      "category": "待定正文",
+      "bytes": 23438,
+      "git_blob_sha": "825f34766bb44784bb1ecb21f1d52155c1508ce5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第二章_G3R_十噸重的帳單_物權與台詞修訂候選.md",
+      "category": "待定正文",
+      "bytes": 23690,
+      "git_blob_sha": "98c1a545723cb7c39b23a1c5e6ffabbc835f38b5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+      "category": "待定正文",
+      "bytes": 20544,
+      "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第十一章_Gemini_撈風底的人_使用者貼入完整候選_20261108.md",
+      "category": "待定正文",
+      "bytes": 20624,
+      "git_blob_sha": "4bf658c1dea599a336b7370a852314605dac7fa6",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第十二章_Gemini_齒背後的二十二年盲盒_使用者貼入完整候選_20261108.md",
+      "category": "待定正文",
+      "bytes": 31290,
+      "git_blob_sha": "1dc72acd727bd6bdadef053cbe7c06c2493a34fe",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第十章_風停以後_使用者貼入完整候選_20261108.md",
+      "category": "待定正文",
+      "bytes": 19930,
+      "git_blob_sha": "da41b4c7df3d8c3f48b8906208ef04bac0619e68",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第十章_Gemini_風停以後_使用者貼入完整候選_20261108.md",
+      "category": "待定正文",
+      "bytes": 20311,
+      "git_blob_sha": "1856f150ec2d759f1d113495f175b9a374225d79",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第三章_G5_過風鐘與多餘的凹槽_候選.md",
+      "category": "待定正文",
+      "bytes": 25868,
+      "git_blob_sha": "713e3c6a76f9448c907a1726529b845602c7da8f",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第三章_G5R_過風鐘與多餘的凹槽_300銀券修訂候選.md",
+      "category": "待定正文",
+      "bytes": 25875,
+      "git_blob_sha": "c90533e556b15e84915aa2985bf83eae6b7a9f31",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第五章_G7_剖蟬放血與逃票的手搖車_候選.md",
+      "category": "待定正文",
+      "bytes": 22706,
+      "git_blob_sha": "d39a1ac805eccbc7c8c28fa27acecec26b6c4d54",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第五章_G7R_剖蟬放血與逃票的手搖車_認知與射程修訂候選.md",
+      "category": "待定正文",
+      "bytes": 22872,
+      "git_blob_sha": "bc02ddf8b04d5a95d412b975a285d71d32841aeb",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第五章_G7R1_定位銷主觀誤判旁白微補丁_候選.md",
+      "category": "待定正文",
+      "bytes": 23223,
+      "git_blob_sha": "8f58fb731d1e66b103cbac5ea32f675b475eafd4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第五章_G7R1_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+      "category": "待定正文",
+      "bytes": 23435,
+      "git_blob_sha": "632e3ccc579875c32a35778d3078d3e95390f9d8",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第六章_G8B_無聲巨腔實體按鈕與向下的深淵鎖_改線候選.md",
+      "category": "待定正文",
+      "bytes": 15620,
+      "git_blob_sha": "9bca11875f2e60cd082bc857cf240c914642577c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第六章_G8C_假專家與無聲巨腔_接續及探索修訂候選.md",
+      "category": "待定正文",
+      "bytes": 22986,
+      "git_blob_sha": "94e99351fce90323c2f1adba0ab6b2cbe1efb703",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第六章_G8D_無聲巨腔與沉水搖臂_最終QA續修候選.md",
+      "category": "待定正文",
+      "bytes": 24662,
+      "git_blob_sha": "16c7c473218ce52f62ca111e278a9215eb959c61",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第六章_G8E_定位件認知旁白微補丁_候選.md",
+      "category": "待定正文",
+      "bytes": 24868,
+      "git_blob_sha": "779c56b3936b80825796d7c74efafab51c27aa66",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第六章_G8E_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+      "category": "待定正文",
+      "bytes": 25283,
+      "git_blob_sha": "b2c44099fbd3174225103010684314bbeeb39f70",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第四章_G6_舊軌上的買路錢_候選.md",
+      "category": "待定正文",
+      "bytes": 18396,
+      "git_blob_sha": "16119e7f5a1e4dc858234698e7ef400d9946a81d",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/第七八章_G9D_G10R1_合併完整修訂候選_含作者層劇透與錯誤修正.md",
+      "category": "待定正文",
+      "bytes": 44017,
+      "git_blob_sha": "9e79f126a6d7851f187b6219d2f0b2d7d3a9349b",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/第七八章_G9E_G10R3_Gemini跨輪精確補丁整合_衍生完整候選_20261106.md",
+      "category": "待定正文",
+      "bytes": 54669,
+      "git_blob_sha": "18aac1b659144a8d44e4d33ee2ce00c9b8d017b4",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/第七八章_G9E_G10R4_已套A_B_C_應急D待核_衍生完整候選_20261106.md",
+      "category": "待定正文",
+      "bytes": 55896,
+      "git_blob_sha": "0874d8f4b4fb8f16e80c3f9bd454908816ebfb2e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/第七八章_G9E_G10R4_Gemini四處工程因果微補丁_完整衍生候選_20261106.md",
+      "category": "待定正文",
+      "bytes": 58088,
+      "git_blob_sha": "e67c4afff89bad1869d430f8835bdcf53ba6b6f0",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/第七章_底錨塔裡的無聲客_原文待回收登記_非小說正文.md",
+      "category": "待定正文",
+      "bytes": 4976,
+      "git_blob_sha": "793c38f6ee0e618cfff0a8900ccc15bb6358e81b",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md",
+      "category": "待定正文",
+      "bytes": 34052,
+      "git_blob_sha": "752134bdc374b330df4f10add5253186dec1d85e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/提綱非正文/ChatGPT_第034_倒行潮_舊首篇大綱非完整正文.md",
+      "category": "待定正文",
+      "bytes": 20599,
+      "git_blob_sha": "cc238f2fbfe267beaf3ed104fae465f4d0fe2782",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/提綱非正文/ChatGPT_第078_從上面下來的人_早期因果實驗.md",
+      "category": "待定正文",
+      "bytes": 9065,
+      "git_blob_sha": "4832fe6660384bc38eaf8378091fde368a7fb3d3",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/提綱非正文/ChatGPT_第148_白髮與雙向危機_五版摘要非完整原文.md",
+      "category": "待定正文",
+      "bytes": 6345,
+      "git_blob_sha": "5f05f87cd14c1812af2c683f9c0d4eb1b1a4c3da",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/提綱非正文/ChatGPT_C_B2_第134_完整篇章設計_非小說正文.md",
+      "category": "待定正文",
+      "bytes": 39420,
+      "git_blob_sha": "791ce1c2e5f6decbc53728dca0bb96e418c88f92",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+      "category": "待定正文",
+      "bytes": 16749,
+      "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+      "category": "待定正文",
+      "bytes": 14349,
+      "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+      "category": "待定正文",
+      "bytes": 12505,
+      "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+      "category": "待定正文",
+      "bytes": 15043,
+      "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+      "category": "待定正文",
+      "bytes": 18576,
+      "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/B2_出城增量_2026-10-23_非第152六章.md",
+      "category": "待定正文",
+      "bytes": 11854,
+      "git_blob_sha": "74109577f7680717d17a8cf7c3530ec605d84899",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/B2_第152_從上面下來的人_六章完整正文.md",
+      "category": "待定正文",
+      "bytes": 57239,
+      "git_blob_sha": "a8f63bcb080f82ffec84da428b622b6dfc97f78c",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini原稿/G0_第162_懸艙開箱日_首輪提綱與短試寫_聊天轉錄.md",
+      "category": "待定正文",
+      "bytes": 18133,
+      "git_blob_sha": "b498e79a77226d4dae14e2fa5210d9afb09f9689",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini原稿/G1_第153_懸艙開箱日_完整初版_全文含設計.txt",
+      "category": "待定正文",
+      "bytes": 29583,
+      "git_blob_sha": "410d2523495c857a76d53fd1a9bd6a70030c427e",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini原稿/G2_第154_懸艙開箱日_精修版_全文含地圖.txt",
+      "category": "待定正文",
+      "bytes": 30739,
+      "git_blob_sha": "fa5a20eec7fd06e7caf3cc161c84971b36bfa2dc",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini原稿/G3_第155_十噸重的帳單_第二章初版_全文含地圖.txt",
+      "category": "待定正文",
+      "bytes": 31942,
+      "git_blob_sha": "c341cfe25bab32e833654546ab4e883e0ca2f000",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini原稿/G4_第168_十題人物日常復歸群像_短篇試寫與提案.md",
+      "category": "待定正文",
+      "bytes": 28796,
+      "git_blob_sha": "50ca7a0649af86322adc110a4edbab24c834b4fd",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini排版全文/153_G1_懸艙開箱日_設定與第一章_完整排版.md",
+      "category": "待定正文",
+      "bytes": 30157,
+      "git_blob_sha": "0edebc567df4413b4c179edea7f68fd2dadc41b1",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini排版全文/154_G2_懸艙開箱日_世界層地圖與第一章_完整排版.md",
+      "category": "待定正文",
+      "bytes": 31367,
+      "git_blob_sha": "e842d3894440aba806742d0cb339aad025045f52",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/Gemini排版全文/155_G3_十噸重的帳單_地圖與第二章_完整排版.md",
+      "category": "待定正文",
+      "bytes": 32847,
+      "git_blob_sha": "c52e5e9f959b1bad83fc9ac6462a4675eb0f9f7a",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "待定正文/README.md",
+      "category": "待定正文",
+      "bytes": 31116,
+      "git_blob_sha": "c9119de8ec29a318d0e23f2fe4b9b9949b2d8294",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    },
+    {
+      "path": "舊資料_勘誤/00_全檔清冊與版本狀態.md",
+      "category": "舊資料_勘誤",
+      "bytes": 44640,
+      "git_blob_sha": "4260100c77bc0e43a375e4611b6a19fa670fc8d5",
+      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
+      "full_semantic_review": "NOT_MEASURED"
+    }
+  ]
+}

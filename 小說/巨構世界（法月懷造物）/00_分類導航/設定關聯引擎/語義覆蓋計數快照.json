@@ -9,13 +9,18 @@
   "causal_candidate_edge_count": 18,
   "version_decision_count": 10,
   "registered_container_count": 6,
-  "distinct_original_source_paths_with_some_structured_reference": 57,
-  "warning": "File references are not complete semantic verification. Unreferenced files may contain important Canon and reusable creative ideas.",
+  "distinct_original_source_paths_with_some_structured_reference": 84,
+  "warning": "335 original sources are mechanically passage-searchable with Node.js+checkout. Original sources without direct structured reference remain, and full semantic review is NOT measured.",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
       "referenced": 0,
       "bytes": 101628
+    },
+    "專案根目錄": {
+      "physical": 6,
+      "referenced": 3,
+      "bytes": 395783
     },
     "01_世界本體與文明": {
       "physical": 25,
@@ -39,27 +44,27 @@
     },
     "05_場景視覺與參考": {
       "physical": 14,
-      "referenced": 0,
+      "referenced": 5,
       "bytes": 228805
     },
     "06_敘事規劃與工作流": {
       "physical": 34,
-      "referenced": 4,
+      "referenced": 6,
       "bytes": 707170
     },
     "07_候選故事與場景": {
       "physical": 24,
-      "referenced": 0,
+      "referenced": 4,
       "bytes": 443501
     },
     "08_交接勘誤與決議": {
       "physical": 28,
-      "referenced": 1,
+      "referenced": 3,
       "bytes": 309697
     },
     "09_跨AI原始來源": {
       "physical": 6,
-      "referenced": 0,
+      "referenced": 2,
       "bytes": 1025465
     },
     "交接稽核": {
@@ -74,13 +79,8 @@
     },
     "待定正文": {
       "physical": 90,
-      "referenced": 1,
+      "referenced": 13,
       "bytes": 2393394
-    },
-    "專案根目錄": {
-      "physical": 6,
-      "referenced": 3,
-      "bytes": 395783
     },
     "舊資料_勘誤": {
       "physical": 4,
@@ -96,5 +96,9 @@
   "people_and_institution_nodes": 26,
   "people_and_institution_relationships": 24,
   "cross_world_dependency_edges": 22,
-  "notice_2026_11_09": "New W/K, T, people, civilization/ecology edges are indexed. Reference count never implies full content review; candidate sources are not Canon."
+  "notice_2026_11_09": "New W/K, T, people, civilization/ecology edges are indexed. Reference count never implies full content review; candidate sources are not Canon.",
+  "historical_source_recovery_atoms": 42,
+  "candidate_chapter_event_recovery_records": 12,
+  "original_paths_without_structured_reference": 251,
+  "all_original_files_text_passage_extraction": "IMPLEMENTED_AND_CI_TESTED_NOT_SEMANTICALLY_REVIEWED"
 }
