@@ -1,0 +1,1206 @@
+{
+  "schema": "mega-history-atomic-batch-v2",
+  "batch": "2026-11-09-second",
+  "records_count": 53,
+  "source_count": 38,
+  "links_count": 23,
+  "authority_note": "原文來源錨點驗證將於CI查詢器完整性測試中核對。全部是既有談論的回收，不新增Canon。",
+  "records": [
+    {
+      "id": "REC-043",
+      "theme": "世界尺度與局部社會可並存",
+      "summary": "世界尺度與局部社會可並存",
+      "authority": "AUTHOR_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/001_世界尺度與空間.md",
+          "anchor": "整個世界極其巨大"
+        }
+      ],
+      "related_keys": [
+        "世界層",
+        "巨構",
+        "人口",
+        "城市"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-044",
+      "theme": "示範井段不等於W層數",
+      "summary": "示範井段不等於W層數",
+      "authority": "AUTHOR_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/001_世界尺度與空間.md",
+          "anchor": "第十七轉運井的上段／中段／下段"
+        }
+      ],
+      "related_keys": [
+        "世界層",
+        "轉運井",
+        "局部"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-045",
+      "theme": "群落具有成熟世代生活",
+      "summary": "群落具有成熟世代生活",
+      "authority": "AUTHOR_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/004_群落社會與知識.md",
+          "anchor": "真實的人口與完整社會"
+        }
+      ],
+      "related_keys": [
+        "群落",
+        "居民",
+        "教育",
+        "生產"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-046",
+      "theme": "各群落掌握不同知識",
+      "summary": "各群落掌握不同知識",
+      "authority": "AUTHOR_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/004_群落社會與知識.md",
+          "anchor": "不同人懂的不一樣"
+        }
+      ],
+      "related_keys": [
+        "情報",
+        "知情",
+        "探險者"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-047",
+      "theme": "前文明曾稱霸宇宙而未升維",
+      "summary": "前文明曾稱霸宇宙而未升維",
+      "authority": "AUTHOR_LATER_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
+          "anchor": "前文明在升維前夕，曾稱霸宇宙"
+        }
+      ],
+      "related_keys": [
+        "前文明",
+        "升維",
+        "文明科技"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-048",
+      "theme": "Celeste主動創造多樣世界",
+      "summary": "Celeste主動創造多樣世界",
+      "authority": "AUTHOR_LATER_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
+          "anchor": "Celeste 本人"
+        }
+      ],
+      "related_keys": [
+        "Celeste",
+        "法月懷",
+        "創造"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-049",
+      "theme": "前文明能源不能全部按低技設備套算",
+      "summary": "前文明能源不能全部按低技設備套算",
+      "authority": "AUTHOR_CONSTRAINT",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/012_討論續錄_科技能源_異質社會_光照地景.md",
+          "anchor": "備用能源"
+        }
+      ],
+      "related_keys": [
+        "前文明",
+        "能源",
+        "設備維護"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-050",
+      "theme": "異質居民與明亮世界需並存",
+      "summary": "異質居民與明亮世界需並存",
+      "authority": "AUTHOR_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/012_討論續錄_科技能源_異質社會_光照地景.md",
+          "anchor": "世界並非永遠陰暗壓抑"
+        }
+      ],
+      "related_keys": [
+        "異種",
+        "天幕",
+        "文明"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-051",
+      "theme": "七戰力帶是作者分析候選非全球文明級表",
+      "summary": "七戰力帶是作者分析候選非全球文明級表",
+      "authority": "SUPERSEDED_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/043_候選框架_戰力帶_肉身技藝_武器裝備_遺物科技尺度.md",
+          "anchor": "七戰力帶"
+        }
+      ],
+      "related_keys": [
+        "文明科技",
+        "戰力",
+        "武器"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-052",
+      "theme": "稀少技藝與產能及名聲分離",
+      "summary": "稀少技藝與產能及名聲分離",
+      "authority": "AUTHOR_REQUEST_EDITORIAL_MODEL",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/046_討論續錄_特殊技藝傳承_政府政治_黑市盜團與跨群落勢力.md",
+          "anchor": "技能水平／珍貴度／名氣／生產規模要分開"
+        }
+      ],
+      "related_keys": [
+        "工匠",
+        "商人",
+        "技藝"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-053",
+      "theme": "政權法律執法居民承認分開",
+      "summary": "政權法律執法居民承認分開",
+      "authority": "AUTHOR_REQUEST_EDITORIAL_MODEL",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/046_討論續錄_特殊技藝傳承_政府政治_黑市盜團與跨群落勢力.md",
+          "anchor": "實際有誰能制裁"
+        }
+      ],
+      "related_keys": [
+        "法律",
+        "政府",
+        "黑市",
+        "跨層"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-054",
+      "theme": "勢力歸屬不等於私事授權",
+      "summary": "勢力歸屬不等於私事授權",
+      "authority": "EDITORIAL_CAUSAL_MODEL",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/073_研究候選_身分權力背書_地方承認_勢力反應與跨篇後果.md",
+          "anchor": "正式歸屬 vs 私人支援 vs 擔保 vs 授權"
+        }
+      ],
+      "related_keys": [
+        "組織",
+        "身分",
+        "授權"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-055",
+      "theme": "情報決策與跨域派員三種時間",
+      "summary": "情報決策與跨域派員三種時間",
+      "authority": "EDITORIAL_CAUSAL_MODEL",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/073_研究候選_身分權力背書_地方承認_勢力反應與跨篇後果.md",
+          "anchor": "資訊速度、組織決策速度、武力到達速度分別記錄"
+        }
+      ],
+      "related_keys": [
+        "交通",
+        "知情",
+        "時間"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-056",
+      "theme": "各世界層尺寸未有固定值",
+      "summary": "各世界層尺寸未有固定值",
+      "authority": "AUTHOR_CONFIRMED",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/076_研究續錄_世界層尺寸彈性_Celeste偉力_真實與科技星象_S01.md",
+          "anchor": "有些不必那麼大，有些也不一定那麼小"
+        }
+      ],
+      "related_keys": [
+        "世界層",
+        "W02",
+        "尺度"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-057",
+      "theme": "人工及真實星象皆可",
+      "summary": "人工及真實星象皆可",
+      "authority": "AUTHOR_CONFIRMED",
+      "source_anchors": [
+        {
+          "path": "01_世界本體與文明/076_研究續錄_世界層尺寸彈性_Celeste偉力_真實與科技星象_S01.md",
+          "anchor": "星星，陽光等星象可以是科技假象，可以是真的"
+        }
+      ],
+      "related_keys": [
+        "天象",
+        "環境",
+        "Celeste"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-058",
+      "theme": "公開高危區非遊樂副本",
+      "summary": "公開高危區非遊樂副本",
+      "authority": "AUTHOR_LATER_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+          "anchor": "不是有人經營的公開挑戰"
+        }
+      ],
+      "related_keys": [
+        "危險地域",
+        "靜謐迴廊",
+        "通路"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-059",
+      "theme": "折索與懸潮候選兩城分離",
+      "summary": "折索與懸潮候選兩城分離",
+      "authority": "EDITORIAL_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+          "anchor": "折索集市"
+        }
+      ],
+      "related_keys": [
+        "折索集市",
+        "懸潮港",
+        "商路"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-060",
+      "theme": "人口巨大與無人遺跡同時存在",
+      "summary": "人口巨大與無人遺跡同時存在",
+      "authority": "AUTHOR_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md",
+          "anchor": "七十億人在地球多"
+        }
+      ],
+      "related_keys": [
+        "人口",
+        "廢墟",
+        "遺跡"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-061",
+      "theme": "靜謐終橋黑霧確實致命",
+      "summary": "靜謐終橋黑霧確實致命",
+      "authority": "AUTHOR_CONFIRMED",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md",
+          "anchor": "黑霧由瑟莉思媞創造"
+        }
+      ],
+      "related_keys": [
+        "靜謐迴廊",
+        "黑霧",
+        "諾亞",
+        "復歸"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-062",
+      "theme": "拱海四地只是一個局部旅行走廊",
+      "summary": "拱海四地只是一個局部旅行走廊",
+      "authority": "EDITORIAL_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "anchor": "「拱海側域」只是本次繪圖工作名"
+        }
+      ],
+      "related_keys": [
+        "拱海側域",
+        "地貌",
+        "商路"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-063",
+      "theme": "普通客梯遠途商路遠征各有成本",
+      "summary": "普通客梯遠途商路遠征各有成本",
+      "authority": "EDITORIAL_TRANSPORT_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "anchor": "短程客梯＝一般居民付得起的日常交通"
+        }
+      ],
+      "related_keys": [
+        "客運",
+        "商路",
+        "票價"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-064",
+      "theme": "文明建巨構亦被後世當地貌",
+      "summary": "文明建巨構亦被後世當地貌",
+      "authority": "AUTHOR_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "anchor": "文明也可以長出屬於自己的巨構"
+        }
+      ],
+      "related_keys": [
+        "文明",
+        "地貌",
+        "工程"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-065",
+      "theme": "天穹農田與人工採光研究候選",
+      "summary": "天穹農田與人工採光研究候選",
+      "authority": "EDITORIAL_ECO_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "anchor": "天穹農田"
+        }
+      ],
+      "related_keys": [
+        "農田",
+        "人工光",
+        "沿壁列車"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-066",
+      "theme": "S實體V環境J拓撲T交通H工程史分圖",
+      "summary": "S實體V環境J拓撲T交通H工程史分圖",
+      "authority": "EDITORIAL_MAP_MODEL",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+          "anchor": "S：實體物質骨架"
+        }
+      ],
+      "related_keys": [
+        "地圖",
+        "世界層",
+        "交通"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-067",
+      "theme": "大空腔不等於新世界層",
+      "summary": "大空腔不等於新世界層",
+      "authority": "AUTHOR_CONSTRAINT",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+          "anchor": "可見巨大空腔 ≠ 新世界層"
+        }
+      ],
+      "related_keys": [
+        "世界層",
+        "厚界",
+        "W02"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-068",
+      "theme": "城市普通交通與多路攀行並存",
+      "summary": "城市普通交通與多路攀行並存",
+      "authority": "AUTHOR_TRANSPORT_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "anchor": "居民確實應有交通"
+        }
+      ],
+      "related_keys": [
+        "客運",
+        "貨運",
+        "道路"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-069",
+      "theme": "K01近側腹地遠側有厚度與居民可能",
+      "summary": "K01近側腹地遠側有厚度與居民可能",
+      "authority": "EDITORIAL_GEO_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/124_K01折返厚殼帶_地理厚度內部構造三條候選通行鏈與QA.md",
+          "anchor": "折殼堆疊腹地"
+        }
+      ],
+      "related_keys": [
+        "K01",
+        "W02",
+        "居民"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-070",
+      "theme": "K01三路T-A/B/C皆未完成核驗",
+      "summary": "K01三路T-A/B/C皆未完成核驗",
+      "authority": "EDITORIAL_TRANSPORT_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/124_K01折返厚殼帶_地理厚度內部構造三條候選通行鏈與QA.md",
+          "anchor": "T-A 側肋檢修／商運幹線"
+        }
+      ],
+      "related_keys": [
+        "K01",
+        "T-A",
+        "T-B",
+        "T-C"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-071",
+      "theme": "立體SVG不是正式世界實測地圖",
+      "summary": "立體SVG不是正式世界實測地圖",
+      "authority": "VISUAL_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/129_宏觀立體剖視V04_地貌美術與未決界線.md",
+          "anchor": "新增的可編輯SVG作者視覺候選"
+        }
+      ],
+      "related_keys": [
+        "地圖",
+        "W02",
+        "世界層"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-072",
+      "theme": "主升程總覽不代表巨構最外殼",
+      "summary": "主升程總覽不代表巨構最外殼",
+      "authority": "AUTHOR_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/131_V051主升程骨架改良_總覽圖不是最外殼_跨域與多代用途核對.md",
+          "anchor": "沒有資格自稱整座巨構的實際最外殼測繪圖"
+        }
+      ],
+      "related_keys": [
+        "巨構外殼",
+        "W_TOP",
+        "地圖"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-073",
+      "theme": "Celeste完全不知道戀人關係舊說已更正",
+      "summary": "Celeste完全不知道戀人關係舊說已更正",
+      "authority": "SUPERSEDED_HISTORY",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/016_逐輪補查_莉可到男女主及Celeste嗑CP.md",
+          "anchor": "完全偶然、Celeste 原本不知道兩人會走到一起"
+        }
+      ],
+      "related_keys": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-074",
+      "theme": "低配Franiya可接受但劇情必須精彩",
+      "summary": "低配Franiya可接受但劇情必須精彩",
+      "authority": "AUTHOR_CREATIVE_PRIORITY",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/020_討論續錄_女主低配Franiya與故事優先.md",
+          "anchor": "低配franiya沒有問題，但要能寫出故事"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "Franiya",
+        "角色"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-075",
+      "theme": "主角不必看見有人受傷就自動救人",
+      "summary": "主角不必看見有人受傷就自動救人",
+      "authority": "AUTHOR_LATER_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "anchor": "道德不要太高"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "道德"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-076",
+      "theme": "主角也可能主動殺人奪物",
+      "summary": "主角也可能主動殺人奪物",
+      "authority": "AUTHOR_LATER_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "anchor": "搶別人裝備"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "裝備"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-077",
+      "theme": "Celeste早中期不揭露管理者身分",
+      "summary": "Celeste早中期不揭露管理者身分",
+      "authority": "AUTHOR_KNOWLEDGE_RULE",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/027_討論續錄_早中期Celeste不揭露_主線路網_作品事件_戀愛發展.md",
+          "anchor": "早中期不要讓Celeste報身分"
+        }
+      ],
+      "related_keys": [
+        "Celeste",
+        "諾亞",
+        "知情"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-078",
+      "theme": "兩主角名字正式選定",
+      "summary": "兩主角名字正式選定",
+      "authority": "AUTHOR_SELECTED_NAMES",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
+          "anchor": "名子我選諾亞x艾莉維亞"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "名字"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-079",
+      "theme": "第三個座位下次見呀屬自然道別",
+      "summary": "第三個座位下次見呀屬自然道別",
+      "authority": "AUTHOR_LATER_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/087_後出修正_第三個座位_下次見呀的普通語氣與複層意境.md",
+          "anchor": "其實下次見呀本身應該是常說的話"
+        }
+      ],
+      "related_keys": [
+        "Celeste",
+        "第三個座位",
+        "對話"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-080",
+      "theme": "呆毛容許適量情緒表演",
+      "summary": "呆毛容許適量情緒表演",
+      "authority": "AUTHOR_VISUAL_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/103_後出視覺補充_艾莉維亞呆毛彎弧與神態表演_圖片待進一步核定.md",
+          "anchor": "我希望可以有一點"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "呆毛"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-081",
+      "theme": "兩主角可以彼此外貌欣賞",
+      "summary": "兩主角可以彼此外貌欣賞",
+      "authority": "AUTHOR_CREATIVE_DIRECTION",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "anchor": "我倒是希望艾莉維亞也能跟諾亞一樣"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "諾亞",
+        "戀愛"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-082",
+      "theme": "十四原圖有一畫面重複且原PNG未入GitHub",
+      "summary": "十四原圖有一畫面重複且原PNG未入GitHub",
+      "authority": "VISUAL_SOURCE_AUDIT",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "anchor": "14份附件，13個不同畫面"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "原始圖片"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-083",
+      "theme": "艾莉維亞呆毛及側髮規格已補入",
+      "summary": "艾莉維亞呆毛及側髮規格已補入",
+      "authority": "AUTHOR_ADOPTED_VISUAL",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/149_艾莉維亞髮型正式補充_上揚呆毛_額前碎髮_雙側外飄長髮_用詞.md",
+          "anchor": "4點都做，補入"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "呆毛",
+        "白髮"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-084",
+      "theme": "深青白髮有共同髮型DNA",
+      "summary": "深青白髮有共同髮型DNA",
+      "authority": "AUTHOR_ADOPTED_VISUAL",
+      "source_anchors": [
+        {
+          "path": "03_人物關係與語感/149_艾莉維亞髮型正式補充_上揚呆毛_額前碎髮_雙側外飄長髮_用詞.md",
+          "anchor": "**共同**"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "側髮",
+        "長髮"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-085",
+      "theme": "第一次死亡前諾亞不知復歸",
+      "summary": "第一次死亡前諾亞不知復歸",
+      "authority": "AUTHOR_TEMPORAL_RULE",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/013_討論續錄_主角_復歸_頂尖武器_上行動機.md",
+          "anchor": "第一次真正死亡前不知道自己可以復活"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "首次死亡",
+        "復歸"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-086",
+      "theme": "Celeste給艾莉維亞額外能力是未定選項",
+      "summary": "Celeste給艾莉維亞額外能力是未定選項",
+      "authority": "AUTHOR_OPEN_OPTION",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/015_討論續錄_女主特殊性_空間高階科技_雙主角默契.md",
+          "anchor": "女主也可能由 Celeste 額外賦予特殊能力"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "Celeste",
+        "能力來源"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-087",
+      "theme": "艾莉維亞初始高規則或後期成長皆可",
+      "summary": "艾莉維亞初始高規則或後期成長皆可",
+      "authority": "AUTHOR_OPEN_ALTERNATIVES",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/018_討論續錄_女主前文明頂端規則戰力與成長.md",
+          "anchor": "也可以開場就非常強"
+        }
+      ],
+      "related_keys": [
+        "艾莉維亞",
+        "戰力",
+        "成長"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-088",
+      "theme": "男主頂級原槍可受能源和原裝模組限制",
+      "summary": "男主頂級原槍可受能源和原裝模組限制",
+      "authority": "AUTHOR_WEAPON_CORE",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "anchor": "男主持有的特殊槍"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "模組"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-089",
+      "theme": "原槍跟隨復歸普通背包不自動返還",
+      "summary": "原槍跟隨復歸普通背包不自動返還",
+      "authority": "AUTHOR_SELECTED_B",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "anchor": "已選 B"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "復歸"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-090",
+      "theme": "高危地域與靜謐及終焉規則分離",
+      "summary": "高危地域與靜謐及終焉規則分離",
+      "authority": "LATER_NAME_CORRECTION",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "anchor": "已由使用者正式定名"
+        }
+      ],
+      "related_keys": [
+        "靜謐迴廊",
+        "終焉迴廊"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-091",
+      "theme": "終焉是單向原機關但Celeste可往返",
+      "summary": "終焉是單向原機關但Celeste可往返",
+      "authority": "AUTHOR_CONFIRMED_RULE",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "anchor": "無法經由原單向機關回返"
+        }
+      ],
+      "related_keys": [
+        "終焉迴廊",
+        "W_TOP",
+        "Celeste"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-092",
+      "theme": "終焉的感受可作用無普通感官生命",
+      "summary": "終焉的感受可作用無普通感官生命",
+      "authority": "AUTHOR_CONFIRMED_RULE",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/054_討論續錄_終焉迴廊全生命感受_諾亞武器來歷與BLAME借鑑.md",
+          "anchor": "就算沒有感知器官也一樣"
+        }
+      ],
+      "related_keys": [
+        "終焉迴廊",
+        "機器人",
+        "感受"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-093",
+      "theme": "續斷連續性執行器僅是武器候選",
+      "summary": "續斷連續性執行器僅是武器候選",
+      "authority": "EDITORIAL_WEAPON_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md",
+          "anchor": "連續性執行核心"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "續斷"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-094",
+      "theme": "靜謐白髮和男主巨大原裝模組獎勵方向",
+      "summary": "靜謐白髮和男主巨大原裝模組獎勵方向",
+      "authority": "AUTHOR_DIRECTION_UNHAPPENED",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "anchor": "白髮形態在靜謐迴廊"
+        }
+      ],
+      "related_keys": [
+        "靜謐迴廊",
+        "艾莉維亞",
+        "白髮",
+        "諾亞"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    },
+    {
+      "id": "REC-095",
+      "theme": "S0-S4雙主角分期是研究候選",
+      "summary": "S0-S4雙主角分期是研究候選",
+      "authority": "EDITORIAL_STAGES_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+          "anchor": "S0 初遇前"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "成長"
+      ],
+      "do_not_assume": "保留作者明確、後出修正及AI候選的不同權威；不可把歷史草案當成正式已發生事件或核實交通。",
+      "followup_evidence_needed": "回讀完整原段及後出版本，按時間、地理、制度查證真正適用範圍"
+    }
+  ],
+  "links": [
+    {
+      "id": "RECL-001",
+      "from": "REC-043",
+      "to": "REC-044",
+      "kind": "SCALE_PART_WHOLE",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-002",
+      "from": "REC-045",
+      "to": "REC-053",
+      "kind": "SOCIAL_INSTITUTION",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-003",
+      "from": "REC-047",
+      "to": "REC-049",
+      "kind": "POWER_ENERGY",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-004",
+      "from": "REC-052",
+      "to": "REC-054",
+      "kind": "CRAFT_AND_SOCIAL_POWER",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-005",
+      "from": "REC-055",
+      "to": "REC-070",
+      "kind": "TIME_AND_TRANSPORT",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-006",
+      "from": "REC-056",
+      "to": "REC-066",
+      "kind": "WORLD_AND_MAP",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-007",
+      "from": "REC-058",
+      "to": "REC-090",
+      "kind": "HAZARD_VS_SILENT",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-008",
+      "from": "REC-059",
+      "to": "REC-062",
+      "kind": "PLACE_CANDIDATES",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-009",
+      "from": "REC-061",
+      "to": "REC-085",
+      "kind": "DEATH_AND_UNKNOWING",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-010",
+      "from": "REC-064",
+      "to": "REC-065",
+      "kind": "BUILT_ECOLOGY",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-011",
+      "from": "REC-066",
+      "to": "REC-068",
+      "kind": "REAL_ROUTE_NEEDED",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-012",
+      "from": "REC-069",
+      "to": "REC-070",
+      "kind": "K01_TO_ROUTE",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-013",
+      "from": "REC-071",
+      "to": "REC-072",
+      "kind": "MAP_NOT_BOUNDARY",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-014",
+      "from": "REC-073",
+      "to": "REC-077",
+      "kind": "CELESTE_INFORMATION",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-015",
+      "from": "REC-077",
+      "to": "REC-079",
+      "kind": "THIRD_SEAT_SCENE",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-016",
+      "from": "REC-080",
+      "to": "REC-083",
+      "kind": "HAIR_PRESENTATION",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-017",
+      "from": "REC-083",
+      "to": "REC-084",
+      "kind": "HAIR_STYLE",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-018",
+      "from": "REC-085",
+      "to": "REC-089",
+      "kind": "RETURN_AND_EQUIPMENT",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-019",
+      "from": "REC-086",
+      "to": "REC-087",
+      "kind": "ORIGIN_AND_GROWTH",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-020",
+      "from": "REC-088",
+      "to": "REC-093",
+      "kind": "WEAPON_CANON_VS_CANDIDATE",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-021",
+      "from": "REC-090",
+      "to": "REC-094",
+      "kind": "SILENT_REWARDS",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-022",
+      "from": "REC-091",
+      "to": "REC-092",
+      "kind": "END_EXPERIENCE",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    },
+    {
+      "id": "RECL-023",
+      "from": "REC-094",
+      "to": "REC-095",
+      "kind": "FUTURE_GROWTH",
+      "evidence_status": "RETRIEVAL_LINK_NOT_CANON_EVENT",
+      "note": "此為來源語義的相容/因果/版本交叉檢索，需回讀兩端原文確認具體應用。"
+    }
+  ]
+}
