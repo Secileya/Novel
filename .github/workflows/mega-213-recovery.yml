@@ -1,0 +1,40 @@
+name: 巨構213份舊來源逐檔回收（一次性資料生成）
+on:
+  push:
+    branches:
+      - 'work/mega-213-source-recovery-20261109'
+    paths:
+      - '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份來源自動提綱回收.mjs'
+      - '.github/workflows/mega-213-recovery.yml'
+  workflow_dispatch:
+jobs:
+  materialize-213-source-evidence:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify script syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份來源自動提綱回收.mjs'
+      - name: Materialize and validate exactly 213 original source dossiers
+        run: |
+          node '00_分類導航/設定關聯引擎/213份來源自動提綱回收.mjs'
+          node '00_分類導航/設定關聯引擎/213份來源自動提綱回收.mjs' --check
+        working-directory: '小說/巨構世界（法月懷造物）'
+      - name: Commit recovered evidence index to staging branch
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份歷史來源逐檔證據索引.json'
+          if git diff --cached --quiet; then
+            echo 'Generated index unchanged.'
+          else
+            git commit -m 'data(mega): materialize SHA-validated index of 213 historical originals'
+            git push origin HEAD:work/mega-213-source-recovery-20261109
+          fi
