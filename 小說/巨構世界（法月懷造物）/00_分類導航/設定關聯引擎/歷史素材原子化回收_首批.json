@@ -1,0 +1,610 @@
+{
+  "schema": "mega-source-atomic-recovery-v1",
+  "generated_label": "2026-11-09_first_semantic_recovery_batch",
+  "notice": "此30項為依可核對原文回收的歷史已討論素材，不是新增Canon；來源錨點必須能在對應原文定位。另有全335檔自動段落回收，不代表全部語義審讀。",
+  "records_count": 30,
+  "records": [
+    {
+      "id": "REC-001",
+      "theme": "W02_K01_居民",
+      "summary": "第173 Gemini候選有K01斜壁人／傾角游牧民，使用磁吸鉤靴於傾斜裝甲接縫生活、採水和回收舊纜，並涉及W01/W02的稅制和貿易權。",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "斜壁人／傾角游牧民"
+        }
+      ],
+      "related_keys": [
+        "W02",
+        "LEGACY-K01",
+        "G-K01",
+        "K01",
+        "人口",
+        "稅權"
+      ],
+      "do_not_assume": "角度、族群能力、居留地、法律尚未正式核定",
+      "followup_evidence_needed": "兩界土地／稅權、物流量與居住安全"
+    },
+    {
+      "id": "REC-002",
+      "theme": "W02_生態交通",
+      "summary": "第173 Gemini候選設計W02凹曲殼的倒懸大陸、河流、麥田；大跨度移動靠風帆列車或飛艇。",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "跨大陸靠重型風帆列車"
+        }
+      ],
+      "related_keys": [
+        "W02",
+        "倒懸麥田",
+        "風帆列車",
+        "飛艇"
+      ],
+      "do_not_assume": "3000km數值與跨層入口不算定案",
+      "followup_evidence_needed": "載具能源、航線實測及返程"
+    },
+    {
+      "id": "REC-003",
+      "theme": "W02_工程城鎮事件",
+      "summary": "Gemini早期提出W02三座農業城鎮依靠人工導光軌；導光偏折危機可由雙主角合作工程處理，不是正式已發生故事。",
+      "authority": "GEMINI_STORY_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md",
+          "anchor": "《雙晝曲殼的日蝕校準》"
+        }
+      ],
+      "related_keys": [
+        "W02",
+        "農業城",
+        "導光軌",
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "do_not_assume": "三座城市、軌道長度、十年永夜與解法均未核",
+      "followup_evidence_needed": "城市行政、氣象可行性、實際技術相性"
+    },
+    {
+      "id": "REC-004",
+      "theme": "W03_居民生存",
+      "summary": "第71份γ原型以熱/冷交換口、遠距水源與少數聚落、精密科研站構成低人口社會，不是整個W03的已採用人口分布。",
+      "authority": "RESEARCH_WORLD_PROTOTYPE",
+      "source_anchors": [
+        {
+          "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "anchor": "少量聚落發展耐熱／耐寒生活技術"
+        }
+      ],
+      "related_keys": [
+        "W03",
+        "靜熱盲域",
+        "科研站",
+        "生態"
+      ],
+      "do_not_assume": "原型γ未正式等同W03全部地理",
+      "followup_evidence_needed": "能源輸入、生活圈、農水與自治關係"
+    },
+    {
+      "id": "REC-005",
+      "theme": "跨層人物",
+      "summary": "第173 Gemini候選「灰燼獵犬」伊戈爾是跨層帝國特務追捕者，具有勤務、預算等世俗制度約束。",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "「灰燼獵犬」伊戈爾"
+        }
+      ],
+      "related_keys": [
+        "伊戈爾",
+        "跨層帝國",
+        "承光帝統",
+        "人事"
+      ],
+      "do_not_assume": "帝國姓名及伊戈爾歸屬不作Canon；不能默接任何主角追殺",
+      "followup_evidence_needed": "職位機構、活動W與實際相遇時間"
+    },
+    {
+      "id": "REC-006",
+      "theme": "W01_局部限時路",
+      "summary": "第173候選在W01第05→07方向設定三號排氣風洞限時風向反轉，為同W交通奇想而非經K實證道路。",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "三號排氣風洞"
+        }
+      ],
+      "related_keys": [
+        "W01-Z05",
+        "W01-Z07",
+        "風洞",
+        "候選捷徑"
+      ],
+      "do_not_assume": "40m/s及週三十分鐘不是測得真值",
+      "followup_evidence_needed": "安全規律、運營、風力、出入口"
+    },
+    {
+      "id": "REC-007",
+      "theme": "物流社會因果",
+      "summary": "第173假設南線貨軌停擺，連鎖影響濾水炭、水價與樹脂保鮮護送工作。",
+      "authority": "GEMINI_CONDITIONAL_SCENARIO",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "濾水炭不足"
+        }
+      ],
+      "related_keys": [
+        "W01-Z01",
+        "W01-Z05",
+        "水價",
+        "貨軌"
+      ],
+      "do_not_assume": "假設G2/G3候選劇情成立才可能有效，不是正式事故",
+      "followup_evidence_needed": "物流供需基準與對應版本"
+    },
+    {
+      "id": "REC-008",
+      "theme": "歷史地貌",
+      "summary": "第173提供第七次自動校準日錯位，造成地形及地方祖產爭議的歷史候選。",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "第七次自動校準日"
+        }
+      ],
+      "related_keys": [
+        "W01-Z06",
+        "W01-Z11",
+        "歷史",
+        "水系"
+      ],
+      "do_not_assume": "80年前、500m等數值未核定",
+      "followup_evidence_needed": "年代表、工程載荷、水文路徑"
+    },
+    {
+      "id": "REC-009",
+      "theme": "異族社會",
+      "summary": "第173 W01第02區紡鋼族／人類混居，交通分層並有郵差、學徒、店舖及協防機制。",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "紡鋼族與人類混居"
+        }
+      ],
+      "related_keys": [
+        "W01-Z02",
+        "紡鋼族",
+        "人口",
+        "社區"
+      ],
+      "do_not_assume": "單例社區模型不代表所有紡鋼族同一文化",
+      "followup_evidence_needed": "社區人口、自治、法律"
+    },
+    {
+      "id": "REC-010",
+      "theme": "經濟人物",
+      "summary": "第173候選金融人「金算盤」蘇珊娜經營典當與探險保險，可為非戰鬥權力代表。",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "anchor": "「金算盤」蘇珊娜"
+        }
+      ],
+      "related_keys": [
+        "蘇珊娜",
+        "W01-Z05",
+        "保險",
+        "商業"
+      ],
+      "do_not_assume": "她的交易條件及跨區壟斷未定",
+      "followup_evidence_needed": "保險契約、責任邊界與第一次登場"
+    },
+    {
+      "id": "REC-011",
+      "theme": "交通人物",
+      "summary": "Gemini早期創作索聯404號重軌車長「鐵皮」霍恩及車規，提供無主角的制度人物。",
+      "authority": "GEMINI_STORY_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md",
+          "anchor": "「鐵皮」霍恩"
+        }
+      ],
+      "related_keys": [
+        "霍恩",
+        "索聯",
+        "404號夜車",
+        "交通",
+        "配角"
+      ],
+      "do_not_assume": "404號線並非已知跨K常態線",
+      "followup_evidence_needed": "真路線、班次、權限和乘客責任"
+    },
+    {
+      "id": "REC-012",
+      "theme": "多核心群像",
+      "summary": "Gemini示範《404號夜車第三節車廂》：異族母親、獵人、郵差與車長因車規衝突，無主角同樣成立。",
+      "authority": "GEMINI_STORY_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md",
+          "anchor": "《404 號夜車的第三節車廂》"
+        }
+      ],
+      "related_keys": [
+        "霍恩",
+        "郵差留燈",
+        "異族居民",
+        "群像"
+      ],
+      "do_not_assume": "不可將事件視為正式已發生歷史",
+      "followup_evidence_needed": "角色身份、地理和事件時序"
+    },
+    {
+      "id": "REC-013",
+      "theme": "根內商旅人物",
+      "summary": "第96份非正史有阿博、央璃與商旅行動；後續新增薛羅等同行者，展示離開主角仍活動的商旅。",
+      "authority": "NONCANON_SCENE_ASSET",
+      "source_anchors": [
+        {
+          "path": "07_候選故事與場景/096_候選場景_空心古根商旅_紫瞳少女_殘碑與重逢.md",
+          "anchor": "央璃第一次帶人走遠路"
+        }
+      ],
+      "related_keys": [
+        "央璃",
+        "阿博",
+        "薛羅",
+        "商旅"
+      ],
+      "do_not_assume": "姓名、關係及旅行路線均未採為Canon",
+      "followup_evidence_needed": "角色是否回訪、車票與實際貨路"
+    },
+    {
+      "id": "REC-014",
+      "theme": "巨根路網",
+      "summary": "第96份古根路含粗纖維內壁、鋼網補路、斜穿支架、休息臺和維修屋，是可回收的具體路面設計。",
+      "authority": "NONCANON_SCENE_ASSET",
+      "source_anchors": [
+        {
+          "path": "07_候選故事與場景/096_候選場景_空心古根商旅_紫瞳少女_殘碑與重逢.md",
+          "anchor": "鋼網補路"
+        }
+      ],
+      "related_keys": [
+        "根橋",
+        "活體建築",
+        "商旅",
+        "道路"
+      ],
+      "do_not_assume": "巨根位於哪一W未知，不得自動接W02",
+      "followup_evidence_needed": "交通權與持續維護"
+    },
+    {
+      "id": "REC-015",
+      "theme": "生態危機",
+      "summary": "第100份非正史具體演示生長中的根橋與大型捕食者，危險不必全部由主角解決。",
+      "authority": "NONCANON_SCENE_ASSET",
+      "source_anchors": [
+        {
+          "path": "07_候選故事與場景/100_非正史場景實驗_根橋上的二十公尺捕食者_商旅龜背城與跨群落制度.md",
+          "anchor": "橋在生長，路還要走"
+        }
+      ],
+      "related_keys": [
+        "根橋",
+        "捕食者",
+        "生態",
+        "普通旅團"
+      ],
+      "do_not_assume": "二十公尺與遭遇情節非正式歷史",
+      "followup_evidence_needed": "棲地、食物鏈、巨根承載能力"
+    },
+    {
+      "id": "REC-016",
+      "theme": "移動城鎮",
+      "summary": "第100份非正史試演巨龜背殼聚落與會移動的貨站城市，城的交通、商業、移民需要獨立社會成本。",
+      "authority": "NONCANON_SCENE_ASSET",
+      "source_anchors": [
+        {
+          "path": "07_候選故事與場景/100_非正史場景實驗_根橋上的二十公尺捕食者_商旅龜背城與跨群落制度.md",
+          "anchor": "活樹裡的貨站，和會移動的城市"
+        }
+      ],
+      "related_keys": [
+        "龜背城",
+        "巨龜",
+        "跨群落",
+        "商運"
+      ],
+      "do_not_assume": "聚落坐標、法律與巨龜遷徙路線未定",
+      "followup_evidence_needed": "轉乘點、巨龜生態檢疫與群落協約"
+    },
+    {
+      "id": "REC-017",
+      "theme": "荒野與居民",
+      "summary": "第116份記錄使用者糾正巨構荒野「不一定沒有人」：密集工業構架與日常有人工作可並存。",
+      "authority": "AUTHOR_DIRECTION_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md",
+          "anchor": "不一定沒有人"
+        }
+      ],
+      "related_keys": [
+        "荒野",
+        "聚落",
+        "交通",
+        "工業"
+      ],
+      "do_not_assume": "不能把個別圖自動標成W02或遺棄城市",
+      "followup_evidence_needed": "選景後再核地理與運行結構"
+    },
+    {
+      "id": "REC-018",
+      "theme": "機關交通視覺",
+      "summary": "第116份鋼鐵森林可有仍在運行的升降籠、居民接木板與照明的橋，廢軌和新修路線並置。",
+      "authority": "VISUAL_OBSERVATION_AND_REUSE",
+      "source_anchors": [
+        {
+          "path": "05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md",
+          "anchor": "仍能工作的升降籠"
+        }
+      ],
+      "related_keys": [
+        "荒野",
+        "升降籠",
+        "補板",
+        "路網"
+      ],
+      "do_not_assume": "畫面描述不證明某已命名線通車",
+      "followup_evidence_needed": "運轉能源、運維、承載與收費"
+    },
+    {
+      "id": "REC-019",
+      "theme": "普通工程故事",
+      "summary": "第117份泵站非寶箱：人員維修與下游受水流機關影響的獨立短場景。",
+      "authority": "NONCANON_SCENE_ASSET",
+      "source_anchors": [
+        {
+          "path": "07_候選故事與場景/117_巨構荒野長篇敘事實作_多人口版本場景樣稿_旅程節點B候選修補與QA.md",
+          "anchor": "泵站不是寶箱"
+        }
+      ],
+      "related_keys": [
+        "泵站",
+        "水系",
+        "普通人",
+        "生態"
+      ],
+      "do_not_assume": "場景非正式已發生，無固定W歸屬",
+      "followup_evidence_needed": "上游／下游實際管線"
+    },
+    {
+      "id": "REC-020",
+      "theme": "參考圖權限",
+      "summary": "第119份記錄作者允許實際採用參考圖的空間形態、擴張拼接並保留原創，但不是自動採用角色、地名與遊戲設定。",
+      "authority": "AUTHOR_DIRECTION_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "anchor": "可直接採景觀組合"
+        }
+      ],
+      "related_keys": [
+        "視覺",
+        "城市",
+        "巨構",
+        "拼接"
+      ],
+      "do_not_assume": "准用意向不等於已有世界座標或素材公開授權",
+      "followup_evidence_needed": "正式地理、來源授權及圖實體化"
+    },
+    {
+      "id": "REC-021",
+      "theme": "圖片檔案保存限制",
+      "summary": "第120份逐張記錄九張附圖的尺寸、指紋與視覺內容，但承認原始PNG位元未在GitHub。",
+      "authority": "SOURCE_PRESERVATION_FACT_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md",
+          "anchor": "九份原圖位元資料尚未上傳"
+        }
+      ],
+      "related_keys": [
+        "F01",
+        "F08",
+        "F09",
+        "視覺原始資料"
+      ],
+      "do_not_assume": "文字描述不能替代不可取得的圖片位元",
+      "followup_evidence_needed": "重新上傳原PNG或取得原始聊天附件"
+    },
+    {
+      "id": "REC-022",
+      "theme": "具象地貌視覺",
+      "summary": "第120份F08觀察到白色曲殼、綠色谷地、中央巨柱、道路和水網，可作世界地貌候選。",
+      "authority": "VISUAL_OBSERVATION_NOT_CANON_PLACEMENT",
+      "source_anchors": [
+        {
+          "path": "05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md",
+          "anchor": "| F08 |"
+        }
+      ],
+      "related_keys": [
+        "F08",
+        "曲殼",
+        "巨柱",
+        "水網"
+      ],
+      "do_not_assume": "F08不自動證成W05或W02真位置",
+      "followup_evidence_needed": "選定W歸屬後補氣候與供水"
+    },
+    {
+      "id": "REC-023",
+      "theme": "視覺拼接候選",
+      "summary": "第121份助手提案以F01+F02形成夕照斷環及海岸遠景的連續可行地理，不是既定城市。",
+      "authority": "EDITORIAL_STORYWORLD_CANDIDATE",
+      "source_anchors": [
+        {
+          "path": "05_場景視覺與參考/121_九圖直接入世組合提案_宏觀骨架交通居民與敘事樣稿.md",
+          "anchor": "夕照斷環—潮岸遠景"
+        }
+      ],
+      "related_keys": [
+        "F01",
+        "F02",
+        "海盆",
+        "斷橋"
+      ],
+      "do_not_assume": "不將景觀來源指為同一原遊戲或同一世界層",
+      "followup_evidence_needed": "工程支撐、水汽氣候、社會歷史"
+    },
+    {
+      "id": "REC-024",
+      "theme": "多樣文明視覺",
+      "summary": "第74份已整理明亮現代先進文明中的普通生活：公寓、霓虹、貓、商店、街路，非每個文明都是暗色廢墟。",
+      "authority": "VISUAL_RESEARCH_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "05_場景視覺與參考/074_研究續錄_多批視覺參考_巨構尺度_生活與閾限空間.md",
+          "anchor": "亮麗現代／先進文明的日常"
+        }
+      ],
+      "related_keys": [
+        "明亮城市",
+        "日常",
+        "文明",
+        "視覺"
+      ],
+      "do_not_assume": "圖像氛圍不等同固定高層科技等級",
+      "followup_evidence_needed": "人物職業、交通、居民文化"
+    },
+    {
+      "id": "REC-025",
+      "theme": "跨AI創意評價來源界線",
+      "summary": "第165份明確記錄作者首先想評估Gemini創意好不好，創意候選地位不可直接當作否決理由。",
+      "authority": "AUTHOR_DIRECTION_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "08_交接勘誤與決議/165_作者原話與跨AI修正先後_伏筆地圖創作評價及來源界線.md",
+          "anchor": "作者主要要的是創意評判"
+        }
+      ],
+      "related_keys": [
+        "Gemini",
+        "創意",
+        "權威",
+        "評估"
+      ],
+      "do_not_assume": "重視創意不表示整套Gemini設定已獲准",
+      "followup_evidence_needed": "具體方案可在後續依效用與因果判斷"
+    },
+    {
+      "id": "REC-026",
+      "theme": "原文備份證據",
+      "summary": "第167份明記完整Gemini原生聊天匯出未入庫；部分早期長文是人工可見文字轉錄，不能稱逐位元備份。",
+      "authority": "SOURCE_PRESERVATION_FACT_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
+          "anchor": "Gemini 平台原生聊天"
+        }
+      ],
+      "related_keys": [
+        "Gemini",
+        "備份",
+        "逐字",
+        "證據"
+      ],
+      "do_not_assume": "現存合冊字句不可替代平台原生聊天全文",
+      "followup_evidence_needed": "原生JSON/TXT匯出或原對話來源"
+    },
+    {
+      "id": "REC-027",
+      "theme": "Celeste人物知情",
+      "summary": "第188份第二次相遇試演中，雙主角保有玩笑與猜疑，但不自動變成能揭開Celeste真實管理者身分。",
+      "authority": "NONCANON_SCENE_ASSET",
+      "source_anchors": [
+        {
+          "path": "07_候選故事與場景/188_非正史試演_Celeste第二次偶遇_舊觀測園的風聲.md",
+          "anchor": "不自動進入身分大猜謎"
+        }
+      ],
+      "related_keys": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "知情"
+      ],
+      "do_not_assume": "第二次會面地點、事件、是否真救援均候選",
+      "followup_evidence_needed": "第一／二／三見的合法時間線"
+    },
+    {
+      "id": "REC-028",
+      "theme": "Gemini題庫覆蓋",
+      "summary": "第20261108來源核對指出80題有71題明確觸及、9題無獨立深答確證；有提及不代表深度解答。",
+      "authority": "SOURCE_COVERAGE_AUDIT_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "06_敘事規劃與工作流/20261108_全庫舊設定回收_血腥生態遷徙Gemini創意與深層異常訊號.md",
+          "anchor": "71/80題號"
+        }
+      ],
+      "related_keys": [
+        "Gemini80題",
+        "知識覆蓋",
+        "原始答案"
+      ],
+      "do_not_assume": "不能稱80題均完成或全文有原始逐字",
+      "followup_evidence_needed": "第59、61、62、65、66、67、71、75、76題"
+    },
+    {
+      "id": "REC-029",
+      "theme": "人性與暴力基調",
+      "summary": "第20261108回收作者作品基調：血腥可明寫、極端殘酷依事件，不能把全城居民視為麻木同質群體。",
+      "authority": "AUTHOR_DIRECTION_AS_RECORDED",
+      "source_anchors": [
+        {
+          "path": "06_敘事規劃與工作流/20261108_全庫舊設定回收_血腥生態遷徙Gemini創意與深層異常訊號.md",
+          "anchor": "普通明確血腥可普遍"
+        }
+      ],
+      "related_keys": [
+        "人物",
+        "社會",
+        "戰鬥",
+        "血腥"
+      ],
+      "do_not_assume": "不等於所有W高血腥或固定比例",
+      "followup_evidence_needed": "個別地方反應與作者後修"
+    },
+    {
+      "id": "REC-030",
+      "theme": "逐題研究來源定位",
+      "summary": "第20261108的80題對照表明W02異質文明為第173 A-H候選研究，須回讀195C封存而不是只讀題庫。",
+      "authority": "SOURCE_CROSS_REFERENCE_AUDIT",
+      "source_anchors": [
+        {
+          "path": "06_敘事規劃與工作流/20261108_Gemini80題_題目與回覆逐題來源核對.md",
+          "anchor": "W02在文明、生態、空間與探索方式上"
+        }
+      ],
+      "related_keys": [
+        "W02",
+        "Gemini80題",
+        "文明"
+      ],
+      "do_not_assume": "題號本身不是完整答案",
+      "followup_evidence_needed": "逐題原始答案及缺漏權威"
+    }
+  ]
+}
