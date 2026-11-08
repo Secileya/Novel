@@ -1,0 +1,1196 @@
+{
+  "schema": "mega-recovered-source-claims-v3",
+  "batch": "2026-11-09_third_curated",
+  "records_count": 61,
+  "distinct_source_paths": 31,
+  "edge_count": 18,
+  "source_review_kind": "TARGETED_ORIGINAL_PARAGRAPH_READING__NOT_WHOLE_FILE_SEMANTIC_AUDIT",
+  "records": [
+    {
+      "id": "REC3-001",
+      "claim": "局部藍光不代表全世界科技密度",
+      "authority": "AUTHOR_VISUAL_DIRECTION",
+      "evidence": {
+        "path": "01_世界本體與文明/002_視覺美學與龐克.md",
+        "exact_anchor": "藍光只在極少數局部顯示"
+      },
+      "related_keys": [
+        "工業美學",
+        "科技城市",
+        "視覺"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-002",
+      "claim": "龐克風格可以互相融合",
+      "authority": "AUTHOR_VISUAL_DIRECTION",
+      "evidence": {
+        "path": "01_世界本體與文明/002_視覺美學與龐克.md",
+        "exact_anchor": "有些也可以適當互相融入"
+      },
+      "related_keys": [
+        "龐克",
+        "文明",
+        "文化交流"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-003",
+      "claim": "現存文明必須有真實生產與供應",
+      "authority": "AUTHOR_WORLD_CONSTRAINT",
+      "evidence": {
+        "path": "01_世界本體與文明/005_生存敵人與裝備.md",
+        "exact_anchor": "幾萬年不耗盡的罐頭倉庫"
+      },
+      "related_keys": [
+        "食物",
+        "能源",
+        "醫療",
+        "生產"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-004",
+      "claim": "敵對智慧群體不是刷怪素材",
+      "authority": "AUTHOR_WORLD_CONSTRAINT_AND_EXAMPLES",
+      "evidence": {
+        "path": "01_世界本體與文明/005_生存敵人與裝備.md",
+        "exact_anchor": "敵對智慧群體"
+      },
+      "related_keys": [
+        "敵人",
+        "勢力",
+        "法律"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-005",
+      "claim": "跨區去程和返程條件不同",
+      "authority": "TRANSPORT_CAUSAL_EXAMPLE",
+      "evidence": {
+        "path": "01_世界本體與文明/005_生存敵人與裝備.md",
+        "exact_anchor": "往某個方向容易，返回困難"
+      },
+      "related_keys": [
+        "返程",
+        "交通",
+        "補給"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-006",
+      "claim": "風景地貌寫作短而有畫面",
+      "authority": "AUTHOR_WRITING_RULE",
+      "evidence": {
+        "path": "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md",
+        "exact_anchor": "但不要冗長"
+      },
+      "related_keys": [
+        "風景",
+        "地貌",
+        "城市"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-007",
+      "claim": "世界生活不由主角啟動",
+      "authority": "AUTHOR_WORLD_AND_NARRATIVE_DIRECTION",
+      "evidence": {
+        "path": "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md",
+        "exact_anchor": "世界不需要主角來啟動"
+      },
+      "related_keys": [
+        "城市",
+        "群像",
+        "生態"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-008",
+      "claim": "不是所有交通空間都要閘門",
+      "authority": "AUTHOR_WORLD_DIRECTION",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+        "exact_anchor": "最好不要都用閘門"
+      },
+      "related_keys": [
+        "路網",
+        "機關",
+        "跨城"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-009",
+      "claim": "局部上行不等於跨世界層",
+      "authority": "AUTHOR_MAP_CONSTRAINT",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+        "exact_anchor": "向上就直接稱跨世界層"
+      },
+      "related_keys": [
+        "世界層",
+        "跨層",
+        "路權"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-010",
+      "claim": "非對稱B+C優先但外殼未定",
+      "authority": "AUTHOR_PREFERENCE_OPEN_GEOMETRY",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/026_討論續錄_BC巨構_開篇雙主角_模組貨幣_空洞騎士路網與痛苦之路.md",
+        "exact_anchor": "不規則多向超巨構網"
+      },
+      "related_keys": [
+        "B+C",
+        "巨構",
+        "世界層"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-011",
+      "claim": "原槍是稀有技術不代表各人認得",
+      "authority": "AUTHOR_WEAPON_KNOWLEDGE_CONSTRAINT",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/026_討論續錄_BC巨構_開篇雙主角_模組貨幣_空洞騎士路網與痛苦之路.md",
+        "exact_anchor": "前文明居民不一定知道這把稀有特殊武裝"
+      },
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "前文明",
+        "情報"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-012",
+      "claim": "地方貨幣和正常商路可成立",
+      "authority": "AUTHOR_DESIGN_AND_EDITORIAL_OPTION",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/026_討論續錄_BC巨構_開篇雙主角_模組貨幣_空洞騎士路網與痛苦之路.md",
+        "exact_anchor": "普通聚落地方貨幣"
+      },
+      "related_keys": [
+        "貨幣",
+        "城市",
+        "商路"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-013",
+      "claim": "上行故事軸不是實證直達電梯",
+      "authority": "CANDIDATE_MAP_LIMIT",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/130_V05主升程功能分層_真正最高層目標與起點以下深構.md",
+        "exact_anchor": "不是一根可從底坐到頂的真電梯"
+      },
+      "related_keys": [
+        "主升程",
+        "交通",
+        "W_TOP"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-014",
+      "claim": "底部起點不能擅定正式城市",
+      "authority": "CANDIDATE_MAP_LIMIT",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/130_V05主升程功能分層_真正最高層目標與起點以下深構.md",
+        "exact_anchor": "起點名稱未定"
+      },
+      "related_keys": [
+        "P0",
+        "城市",
+        "地理"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-015",
+      "claim": "雙主角目標是真正最高層但路未定",
+      "authority": "AUTHOR_GOAL_WITH_MAP_OPEN",
+      "evidence": {
+        "path": "02_地圖拓撲與交通/130_V05主升程功能分層_真正最高層目標與起點以下深構.md",
+        "exact_anchor": "真正最高世界層"
+      },
+      "related_keys": [
+        "W_TOP",
+        "主線",
+        "世界層"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-016",
+      "claim": "歷史討論紀錄需依可讀原話分級",
+      "authority": "SOURCE_PROVENANCE_RULE",
+      "evidence": {
+        "path": "03_人物關係與語感/014_逐輪稽查_戰力科技至莉可式探索.md",
+        "exact_anchor": "可讀的使用者原話"
+      },
+      "related_keys": [
+        "舊資料",
+        "版本",
+        "權威"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-017",
+      "claim": "主角暱稱是雙向開放而非固定表",
+      "authority": "AUTHOR_LATER_CHARACTER_RULE",
+      "evidence": {
+        "path": "03_人物關係與語感/030_討論續錄_諾亞艾莉維亞雙向臉紅與暱稱.md",
+        "exact_anchor": "雙向自由使用、可無限依情境擴充"
+      },
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "暱稱"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-018",
+      "claim": "買雙票嘴硬不等於一定臉紅",
+      "authority": "AUTHOR_LATER_DIALOGUE_CORRECTION",
+      "evidence": {
+        "path": "03_人物關係與語感/030_討論續錄_諾亞艾莉維亞雙向臉紅與暱稱.md",
+        "exact_anchor": "沒有必要臉紅"
+      },
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "買票"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-019",
+      "claim": "終橋諾亞本人會懷疑無法復歸",
+      "authority": "AUTHOR_CHARACTER_CORRECTION",
+      "evidence": {
+        "path": "03_人物關係與語感/041_討論續錄_終橋本能恐懼_諾亞懷疑自己無法復歸_完整對話保留.md",
+        "exact_anchor": "諾亞會本能產生無法復歸的想法"
+      },
+      "related_keys": [
+        "諾亞",
+        "靜謐迴廊",
+        "恐懼"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-020",
+      "claim": "靜謐黑霧有已確認真死效果",
+      "authority": "AUTHOR_LATER_FACT",
+      "evidence": {
+        "path": "03_人物關係與語感/041_討論續錄_終橋本能恐懼_諾亞懷疑自己無法復歸_完整對話保留.md",
+        "exact_anchor": "黑霧是瑟莉思媞創造的真正終局死亡區域"
+      },
+      "related_keys": [
+        "靜謐迴廊",
+        "黑霧",
+        "復歸"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-021",
+      "claim": "本能親近不限一場橋和握手",
+      "authority": "AUTHOR_CHARACTER_RULE",
+      "evidence": {
+        "path": "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
+        "exact_anchor": "這種反應不要只限於在這邊"
+      },
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "互動"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-022",
+      "claim": "早期到成熟的親密不可倒灌",
+      "authority": "TEMPORAL_CHARACTER_CAUTION",
+      "evidence": {
+        "path": "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
+        "exact_anchor": "初識、同行、戀人與多年共同生活"
+      },
+      "related_keys": [
+        "人物時期",
+        "關係",
+        "初見"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-023",
+      "claim": "故事焦點是人物選擇與長線目標",
+      "authority": "AUTHOR_WRITING_PRIORITY",
+      "evidence": {
+        "path": "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
+        "exact_anchor": "故事要有趣和長期目標"
+      },
+      "related_keys": [
+        "角色",
+        "敘事",
+        "旅行"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-024",
+      "claim": "自由漫遊也可自然生成目的",
+      "authority": "AUTHOR_STORY_DIRECTION",
+      "evidence": {
+        "path": "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
+        "exact_anchor": "無目的遊蕩探索引出目標"
+      },
+      "related_keys": [
+        "世界",
+        "探索",
+        "支線"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-025",
+      "claim": "轉貼他作語體研究不等於原作驗證",
+      "authority": "SECONDHAND_CHARACTER_RESEARCH",
+      "evidence": {
+        "path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
+        "exact_anchor": "助手長期過度重複「我去」"
+      },
+      "related_keys": [
+        "語體",
+        "來源",
+        "艾莉維亞"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-026",
+      "claim": "口語素材可用但要依情境",
+      "authority": "AUTHOR_LANGUAGE_PERMISSION",
+      "evidence": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "exact_anchor": "艾莉維亞可用的語言素材"
+      },
+      "related_keys": [
+        "艾莉維亞",
+        "語體",
+        "角色"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-027",
+      "claim": "粗口頻率不能機械套用每章",
+      "authority": "AUTHOR_LATER_STYLE_RULE",
+      "evidence": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "exact_anchor": "普通時段一般低頻"
+      },
+      "related_keys": [
+        "粗口",
+        "艾莉維亞",
+        "對話"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-028",
+      "claim": "情緒和判斷是雙向且有身體反射",
+      "authority": "SECONDHAND_RESEARCH_WITH_AUTHOR_RULE",
+      "evidence": {
+        "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "exact_anchor": "兩人都有判斷、情緒、反射動作與直接的真心"
+      },
+      "related_keys": [
+        "互動",
+        "人物",
+        "生死"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-029",
+      "claim": "白髮解鎖在靜謐深處",
+      "authority": "AUTHOR_ABILITY_TIMELINE_RULE",
+      "evidence": {
+        "path": "03_人物關係與語感/145_白髮轉換與神情演出_危險愉悅冰冷殺意癲狂.md",
+        "exact_anchor": "靜謐迴廊深處首次解鎖"
+      },
+      "related_keys": [
+        "艾莉維亞",
+        "白髮",
+        "靜謐迴廊"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-030",
+      "claim": "極端殺意不能遺忘救治角色",
+      "authority": "EDITORIAL_SCENE_CANDIDATE",
+      "evidence": {
+        "path": "03_人物關係與語感/145_白髮轉換與神情演出_危險愉悅冰冷殺意癲狂.md",
+        "exact_anchor": "先確認諾亞仍有呼吸"
+      },
+      "related_keys": [
+        "艾莉維亞",
+        "諾亞",
+        "醫療"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-031",
+      "claim": "諾亞反向危機已做候選試演",
+      "authority": "AUTHOR_SCENE_REQUEST_UNHAPPENED",
+      "evidence": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "exact_anchor": "兩人位置交換呢，看看諾亞反應"
+      },
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "危機"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-032",
+      "claim": "艾莉維亞無同款復歸的危機差異",
+      "authority": "CHARACTER_CORE_CAUTION",
+      "evidence": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "exact_anchor": "她沒有Celeste所賜同型復歸"
+      },
+      "related_keys": [
+        "艾莉維亞",
+        "復歸",
+        "諾亞"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-033",
+      "claim": "靜謐深處獎勵含艾莉維亞能力成長",
+      "authority": "AUTHOR_SELECTED_UPGRADE_GOAL",
+      "evidence": {
+        "path": "04_能力武器與試煉/056_討論續錄_Celeste靜謐迴廊結尾_艾莉維亞實質升級與名稱待核.md",
+        "exact_anchor": "Celeste 設計的靜謐迴廊結尾"
+      },
+      "related_keys": [
+        "靜謐迴廊",
+        "艾莉維亞",
+        "能力"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-034",
+      "claim": "女主成長需真實而非象徵",
+      "authority": "AUTHOR_DIRECTION_WITH_UNDECIDED_MECHANICS",
+      "evidence": {
+        "path": "04_能力武器與試煉/056_討論續錄_Celeste靜謐迴廊結尾_艾莉維亞實質升級與名稱待核.md",
+        "exact_anchor": "能讓艾莉維亞升級的內容"
+      },
+      "related_keys": [
+        "艾莉維亞",
+        "能力",
+        "獎勵"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-035",
+      "claim": "第60具體模組和路圖仍研究候選",
+      "authority": "EDITORIAL_REWARD_CANDIDATE",
+      "evidence": {
+        "path": "04_能力武器與試煉/060_候選設計_靜謐迴廊終點_諾亞巨大模組_艾莉維亞巨大升級與其他收穫.md",
+        "exact_anchor": "本份全部具體模組名稱"
+      },
+      "related_keys": [
+        "諾亞",
+        "靜謐迴廊",
+        "模組"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-036",
+      "claim": "原生執行樞核構想不等於已採用",
+      "authority": "EDITORIAL_WEAPON_CANDIDATE",
+      "evidence": {
+        "path": "04_能力武器與試煉/060_候選設計_靜謐迴廊終點_諾亞巨大模組_艾莉維亞巨大升級與其他收穫.md",
+        "exact_anchor": "原生執行樞核"
+      },
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "模組"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-037",
+      "claim": "葛桑為折索地方調度商人候選",
+      "authority": "EDITORIAL_CHARACTER_CANDIDATE",
+      "evidence": {
+        "path": "04_能力武器與試煉/063_候選實作_雙主角初期能力_成長追尋_活人物群像與互動.md",
+        "exact_anchor": "葛桑｜折索集市貨運調度商人"
+      },
+      "related_keys": [
+        "葛桑",
+        "折索集市",
+        "貨運"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-038",
+      "claim": "留燈是跨兩地短期郵運者候選",
+      "authority": "EDITORIAL_CHARACTER_CANDIDATE",
+      "evidence": {
+        "path": "04_能力武器與試煉/063_候選實作_雙主角初期能力_成長追尋_活人物群像與互動.md",
+        "exact_anchor": "留燈｜橫跨兩座地方"
+      },
+      "related_keys": [
+        "留燈",
+        "郵差",
+        "跨城"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-039",
+      "claim": "驗證白髮不可作弊設敵專門被剋",
+      "authority": "AUTHOR_SCENE_TEST_CORRECTION",
+      "evidence": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "exact_anchor": "別為白髮特製一種恰巧能被它破解的護盾"
+      },
+      "related_keys": [
+        "白髮",
+        "艾莉維亞",
+        "戰鬥"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-040",
+      "claim": "同級第一次交手不可直接知曉白髮機制",
+      "authority": "AUTHOR_INFORMATION_BOUNDARY",
+      "evidence": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "exact_anchor": "第一次見到便得知白髮的理論名稱"
+      },
+      "related_keys": [
+        "艾莉維亞",
+        "戰鬥",
+        "情報"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-041",
+      "claim": "白髮新作用A/B/C是競爭方案",
+      "authority": "EDITORIAL_ALTERNATIVES",
+      "evidence": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "exact_anchor": "三條相互競爭的候選"
+      },
+      "related_keys": [
+        "白髮",
+        "新作用",
+        "能力"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-042",
+      "claim": "新述方案允許淘汰不能鎖死",
+      "authority": "EDITORIAL_UNRESOLVED",
+      "evidence": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "exact_anchor": "不排除A/B最終均被淘汰"
+      },
+      "related_keys": [
+        "白髮",
+        "版本",
+        "能力"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-043",
+      "claim": "主樞核不能把C/F功能重複算升級",
+      "authority": "EDITORIAL_MECHANICAL_CONSTRAINT",
+      "evidence": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "exact_anchor": "不得只換名字再領一次C或F"
+      },
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "模組"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-044",
+      "claim": "同一運作系統持續施行是候選",
+      "authority": "EDITORIAL_WEAPON_CANDIDATE",
+      "evidence": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "exact_anchor": "尚未結束的持續施行"
+      },
+      "related_keys": [
+        "諾亞",
+        "主樞核",
+        "原槍"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-045",
+      "claim": "影子倒影反向作用只是A2研究候選",
+      "authority": "EDITORIAL_ALTERNATIVE",
+      "evidence": {
+        "path": "04_能力武器與試煉/146_A2影像反向作用研究_真實對應與反例.md",
+        "exact_anchor": "A2反向現象對應"
+      },
+      "related_keys": [
+        "白髮",
+        "影子",
+        "艾莉維亞"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-046",
+      "claim": "A2不等於影子自身變成獨立生命",
+      "authority": "EDITORIAL_TECHNOLOGY_LIMIT",
+      "evidence": {
+        "path": "04_能力武器與試煉/146_A2影像反向作用研究_真實對應與反例.md",
+        "exact_anchor": "不是所有影子獨立變生命"
+      },
+      "related_keys": [
+        "影子",
+        "白髮",
+        "能力"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-047",
+      "claim": "遷巒遠征候選不等於正式跨世界層",
+      "authority": "LATER_GEOGRAPHY_CORRECTION",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/069_長篇主幹候選_遷巒遠征_人物競逐_第一大高潮到登頂.md",
+        "exact_anchor": "《遷巒帶》跨越先"
+      },
+      "related_keys": [
+        "遷巒帶",
+        "跨世界層",
+        "世界層"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-048",
+      "claim": "聞橋是可競爭亦可合作的候選人物",
+      "authority": "EDITORIAL_CHARACTER_CANDIDATE",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/069_長篇主幹候選_遷巒遠征_人物競逐_第一大高潮到登頂.md",
+        "exact_anchor": "聞橋"
+      },
+      "related_keys": [
+        "聞橋",
+        "遠征",
+        "測路"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-049",
+      "claim": "B路線未批准成正式第一章",
+      "authority": "AUTHOR_CANDIDATE_STATUS",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "exact_anchor": "不是把第110變成正史"
+      },
+      "related_keys": [
+        "B案",
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-050",
+      "claim": "B的L0至L2候選未跨宏觀世界層",
+      "authority": "EDITORIAL_TRANSPORT_SCOPE",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "exact_anchor": "在目前 L0→L2"
+      },
+      "related_keys": [
+        "方井城",
+        "雨檐埠",
+        "世界層"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-051",
+      "claim": "W01萬公里級尺度有互斥方案",
+      "authority": "EDITORIAL_SCALE_ALTERNATIVES",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/182_作者決策前工作底圖_萬公里宏觀與雙主角升級_非線性道具鎖.md",
+        "exact_anchor": "三種競爭性W01量尺"
+      },
+      "related_keys": [
+        "W01",
+        "里程",
+        "尺度"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-052",
+      "claim": "高階原槍射程和能量尚有相斥數字",
+      "authority": "EDITORIAL_WEAPON_VERSION_CAUTION",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/182_作者決策前工作底圖_萬公里宏觀與雙主角升級_非線性道具鎖.md",
+        "exact_anchor": "一公里射程"
+      },
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "射程"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-053",
+      "claim": "人物可誤判不必全能最優解",
+      "authority": "AUTHOR_LATER_CHARACTER_RULE",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/183_人物誤判有限理性與前六章修稿規則_作者後出確認.md",
+        "exact_anchor": "人物的判斷不完美"
+      },
+      "related_keys": [
+        "人物",
+        "有限理性",
+        "情報"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-054",
+      "claim": "諾亞早期不應知悉完整模組分類",
+      "authority": "AUTHOR_CHARACTER_KNOWLEDGE_BOUNDARY",
+      "evidence": {
+        "path": "06_敘事規劃與工作流/183_人物誤判有限理性與前六章修稿規則_作者後出確認.md",
+        "exact_anchor": "沒有可靠證據可判定某物必為"
+      },
+      "related_keys": [
+        "諾亞",
+        "原槍",
+        "知情"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-055",
+      "claim": "兩個巨大空域相連不保證跨界",
+      "authority": "AUTHOR_TERMINOLOGY_REVIEW",
+      "evidence": {
+        "path": "08_交接勘誤與決議/118_近期未同步對話逐項回補稽核_世界層術語荒野圖片有人修正_原檔相容與未決.md",
+        "exact_anchor": "單憑兩片巨大空域相連"
+      },
+      "related_keys": [
+        "世界層",
+        "宏觀",
+        "空腔"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-056",
+      "claim": "早期Gemini完整原稿保存範圍有限",
+      "authority": "HISTORICAL_SOURCE_VERIFICATION",
+      "evidence": {
+        "path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+        "exact_anchor": "只有這三份能稱為本次 Gemini"
+      },
+      "related_keys": [
+        "Gemini",
+        "原始文檔",
+        "版本"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-057",
+      "claim": "W01十二大區不可被助手降成小流域",
+      "authority": "AUTHOR_LATER_MAP_PRIORITY",
+      "evidence": {
+        "path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+        "exact_anchor": "W01 十二大區是作者主動指定的主體地圖"
+      },
+      "related_keys": [
+        "W01",
+        "十二區",
+        "地圖"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-058",
+      "claim": "階段同行人物需有獨立生活和離隊原因",
+      "authority": "EDITORIAL_CHARACTER_CANDIDATE",
+      "evidence": {
+        "path": "08_交接勘誤與決議/198_階段同行_終焉雙人候選_巧合無固定比例_鐘擺工程QA.md",
+        "exact_anchor": "夥伴不是永久RPG職業填格"
+      },
+      "related_keys": [
+        "人物",
+        "同行",
+        "跨城"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-059",
+      "claim": "巧合和安排沒有固定混合比例",
+      "authority": "AUTHOR_CAUSAL_RULE",
+      "evidence": {
+        "path": "08_交接勘誤與決議/198_階段同行_終焉雙人候選_巧合無固定比例_鐘擺工程QA.md",
+        "exact_anchor": "巧合和安排沒有固定配方"
+      },
+      "related_keys": [
+        "因果",
+        "安排",
+        "巧合"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-060",
+      "claim": "四種文明/政治組織不是四個跨層國家",
+      "authority": "LATER_EDITORIAL_CLASSIFICATION_WARNING",
+      "evidence": {
+        "path": "08_交接勘誤與決議/20261108_Gemini第二輪四線盤點_權威完成度與正文時序_核對QA_非正史.md",
+        "exact_anchor": "四大跨層政權"
+      },
+      "related_keys": [
+        "文明",
+        "政治",
+        "跨層"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    },
+    {
+      "id": "REC3-061",
+      "claim": "權威機制正文完成度是交叉維度",
+      "authority": "LATER_EDITORIAL_STATUS_MODEL",
+      "evidence": {
+        "path": "08_交接勘誤與決議/20261108_Gemini第二輪四線盤點_權威完成度與正文時序_核對QA_非正史.md",
+        "exact_anchor": "三條交叉維度"
+      },
+      "related_keys": [
+        "權威",
+        "機制",
+        "候選正文"
+      ],
+      "semantic_scope": "EDITORIAL_PARAGRAPH_REVIEW__NOT_COMPLETE_FILE_REVIEW",
+      "status": "SOURCE_RECORDED_OR_CANDIDATE__NO_CANON_PROMOTION",
+      "required_validation": "Follow later user amendments, competing manuscript versions and actual temporal/geographic evidence"
+    }
+  ],
+  "links": [
+    {
+      "id": "RECL3-001",
+      "from": "REC3-003",
+      "to": "REC3-012",
+      "kind": "WORLD_CIVIC_CAUSAL",
+      "reason": "真實居民與地方貨幣供給有因果需求但非固定世界經濟",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-002",
+      "from": "REC3-005",
+      "to": "REC3-013",
+      "kind": "TRANSPORT_BACKWARD",
+      "reason": "去返差異要求宏觀主升程無法畫一條箭頭視為通車",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-003",
+      "from": "REC3-009",
+      "to": "REC3-014",
+      "kind": "WORLD_VS_UPWARD",
+      "reason": "局部向上與世界層/主升程不等同",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-004",
+      "from": "REC3-019",
+      "to": "REC3-033",
+      "kind": "SHARED_RISK_DIFFERENT_TIMELINE",
+      "reason": "終橋死亡感與升級地點是不同設計維度",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-005",
+      "from": "REC3-021",
+      "to": "REC3-022",
+      "kind": "TEMPORAL_RELATION",
+      "reason": "本能親近必依關係時期生長",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-006",
+      "from": "REC3-023",
+      "to": "REC3-047",
+      "kind": "STORY_CAUSAL_LONGTERM",
+      "reason": "主線不靠全系列意外事件，而靠長期目標及參與者選擇",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-007",
+      "from": "REC3-026",
+      "to": "REC3-027",
+      "kind": "LANGUAGE_FREQUENCY",
+      "reason": "可借口語與粗口低頻應分別理解",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-008",
+      "from": "REC3-029",
+      "to": "REC3-042",
+      "kind": "FIRST_UNHAPPENED_WHITE",
+      "reason": "白髮首次開啟與其具體候選機理不同",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-009",
+      "from": "REC3-031",
+      "to": "REC3-032",
+      "kind": "REVERSIBLE_VS_PERMANENT_DEATH",
+      "reason": "兩人受傷敘事須區分復歸可能及未知例外",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-010",
+      "from": "REC3-035",
+      "to": "REC3-036",
+      "kind": "CANDIDATE_MODULE",
+      "reason": "武器模組名稱與採用狀態分離",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-011",
+      "from": "REC3-038",
+      "to": "REC3-058",
+      "kind": "COMPANIONS_HAVE_AUTONOMY",
+      "reason": "商人及郵運者可有生活，並非自動成永久團員",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-012",
+      "from": "REC3-039",
+      "to": "REC3-041",
+      "kind": "SAME_POWER_DIVERGENT_OPTIONS",
+      "reason": "同一能力提案的互斥競爭方案要分開",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-013",
+      "from": "REC3-043",
+      "to": "REC3-044",
+      "kind": "WEAPON_CONSTRAINT",
+      "reason": "持續施行構想與輸出C/F不應重複獲利",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-014",
+      "from": "REC3-049",
+      "to": "REC3-050",
+      "kind": "LEGACY_GEOGRAPHY_VS_PASSAGE",
+      "reason": "地方長途遠征與L0L2上行不自動跨宏觀W",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-015",
+      "from": "REC3-051",
+      "to": "REC3-054",
+      "kind": "SCALE_VS_PERSON_KNOWLEDGE",
+      "reason": "地理數值的作者候選不能直接被角色作為已知",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-016",
+      "from": "REC3-055",
+      "to": "REC3-057",
+      "kind": "WORLD_LAYER_PRIORITY",
+      "reason": "宏觀詞義與W01十二區權威需共同核對",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-017",
+      "from": "REC3-056",
+      "to": "REC3-060",
+      "kind": "SOURCE_AUTHORITY_THREE_AXES",
+      "reason": "原始Gemini版本保存不等於候選被正式採用",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    },
+    {
+      "id": "RECL3-018",
+      "from": "REC3-059",
+      "to": "REC3-061",
+      "kind": "CAUSAL_STATUS",
+      "reason": "巧合與安排不固定比例，不能機械升格版別",
+      "link_authority": "RESEARCH_RETRIEVAL_ONLY"
+    }
+  ],
+  "warning": "本批由原文實際段落整理，原文錨點必須通過CI校驗。被引用來源不表示全文已完成語義判讀。明確作者方向與助手候選絕不互相取代。"
+}
