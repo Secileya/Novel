@@ -1,0 +1,92 @@
+{
+  "schema": "mega-entity-container-registry-v1",
+  "notice": "當作者新增房屋、城市、設施與子房間時，在本登記簿記錄全體子項並註明權威與來源。父容器或任一子項命中都應展開所有子項，不因語意排名遺失其他房間。示範房屋只存在於合成檢索測例，不屬 Canon。",
+  "containers": [
+    {
+      "id": "CON-W01",
+      "name": "W01 十二區主體",
+      "aliases": [
+        "W01",
+        "十二區",
+        "十二大區",
+        "W01主體"
+      ],
+      "authority": "AUTHOR_DESIGN_DIRECTION_WITH_CANDIDATE_ZONE_DETAILS",
+      "expected_children": 12,
+      "children_from": "creativity.map_versions.primary.children",
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "policy": "父項或子項被問及時完整展開十二區；名稱／功能細節多為候選"
+    },
+    {
+      "id": "CON-W01-OLD",
+      "name": "W01 舊九大區",
+      "aliases": [
+        "舊九區",
+        "九大區",
+        "W01九區",
+        "舊R01",
+        "舊R04"
+      ],
+      "authority": "HISTORICAL_LAYOUT_CANDIDATE",
+      "expected_children": 9,
+      "children_from": "creativity.map_versions.legacy.children",
+      "source_paths": [
+        "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md"
+      ],
+      "policy": "舊圖不取代後出十二區；子項創意保留待重新定位"
+    },
+    {
+      "id": "CON-W04-CANDIDATES",
+      "name": "W04 兩個並列城市方案",
+      "aliases": [
+        "W04",
+        "萬律專利城邦",
+        "萬噸配重裁定國",
+        "四柱衡城"
+      ],
+      "authority": "PARALLEL_CANDIDATES_NO_AUTHOR_SELECTION",
+      "expected_children": 2,
+      "children": [
+        {
+          "id": "W04-CITY-A",
+          "name": "萬律專利城邦／二十四工坊冠域",
+          "aliases": [
+            "萬律專利城邦",
+            "二十四工坊冠域"
+          ],
+          "kind": "urban_institutional_candidate",
+          "status": "CANDIDATE_NOT_ADOPTED",
+          "features": [
+            "母脊公證院",
+            "技術壟斷工坊",
+            "專利經濟",
+            "懸星前文明天體候選"
+          ]
+        },
+        {
+          "id": "W04-CITY-B",
+          "name": "萬噸配重裁定國／四柱衡城",
+          "aliases": [
+            "萬噸配重裁定國",
+            "四柱衡城"
+          ],
+          "kind": "industrial_city_candidate",
+          "status": "CANDIDATE_NOT_ADOPTED",
+          "features": [
+            "司衡院",
+            "承重額度",
+            "配重物流",
+            "古工程艦殘骸候選"
+          ]
+        }
+      ],
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "policy": "二者為競爭或可共存候選；不可把並列子項理解成已存在兩座正式城市"
+    }
+  ]
+}
