@@ -1,8 +1,8 @@
 {
   "schema": "mega-source-atomic-recovery-v1",
-  "generated_label": "2026-11-09_first_semantic_recovery_batch",
-  "notice": "此30項為依可核對原文回收的歷史已討論素材，不是新增Canon；來源錨點必須能在對應原文定位。另有全335檔自動段落回收，不代表全部語義審讀。",
-  "records_count": 30,
+  "generated_label": "2026-11-09_first_semantic_recovery_batch_plus_12_candidate_chapters",
+  "notice": "42項史料回收，包括30條世界/人物/視覺/制度與12條候選章節事件。不新增Canon。335原檔皆可由全文段落索引定位，但不等於全部完成語義拆解。",
+  "records_count": 42,
   "records": [
     {
       "id": "REC-001",
@@ -605,6 +605,261 @@
       ],
       "do_not_assume": "題號本身不是完整答案",
       "followup_evidence_needed": "逐題原始答案及缺漏權威"
+    },
+    {
+      "id": "REC-031",
+      "theme": "候選章節01_十噸開箱衝突",
+      "summary": "G2候選第一章，吊塢第七環日常、開箱爭奪、古斯塔與諾亞／艾莉維亞的遭遇、十噸配重設施成戰術環境；章末尚未完成戰鬥。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+          "anchor": "頭頂二十五公尺處的起吊龍門架"
+        }
+      ],
+      "related_keys": [
+        "W01-Z05",
+        "古斯塔",
+        "諾亞",
+        "艾莉維亞",
+        "吊塢"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-032",
+      "theme": "候選章節02_配重解局和出城",
+      "summary": "G3R候選第二章承接高熱盾及配重錘，描寫物權、老巴爾交易、離城前買脆肉餅及雙層酸果糖等生活。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+          "anchor": "三千度的高熱力場盾在卸貨台中央撐開"
+        }
+      ],
+      "related_keys": [
+        "W01-Z05",
+        "老巴爾",
+        "諾亞",
+        "艾莉維亞",
+        "物權"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-033",
+      "theme": "候選章節03_過風鐘與生活轉場",
+      "summary": "G5R候選第三章：過風鐘換氣、攤販和學徒的風中日常、兩主角休息、凹槽與紅酸果互動，下一步朝萬鈞鐘心。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+          "anchor": "傍晚六點的「過風鐘」敲響時"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "萬鈞鐘心",
+        "風鐘",
+        "凹槽"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-034",
+      "theme": "候選章節04_青苔中繼站與巨蟬接敵",
+      "summary": "G6候選第四章：兩主角沿Z字形檢修懸梯抵青苔三號中繼站，與白堊院相關人物、巨根、巨蟬和真貨辨識交織。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+          "anchor": "青苔三號中繼站"
+        }
+      ],
+      "related_keys": [
+        "白堊院",
+        "巨蟬",
+        "根橋",
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-035",
+      "theme": "候選章節05_剖蟬與塞拉初次對峙",
+      "summary": "G7R1候選第五章：鏡殼擬態蟬戰鬥後，故事銜接塞拉修女與主鐘擺定位件疑問；兩主角有臨場應對和訊息差。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+          "anchor": "鏡殼擬態蟬"
+        }
+      ],
+      "related_keys": [
+        "塞拉",
+        "主鐘擺",
+        "諾亞",
+        "艾莉維亞",
+        "臨時定位銷"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-036",
+      "theme": "候選章節06_塞拉、鋼橋與無聲客預告",
+      "summary": "G8E候選第六章：塞拉具工務、審判權責，黑水／搖臂橋的修復與前往底錨塔；結尾另有人提及白衣無聲客。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+          "anchor": "雙腿裝著沉重打樁機式機械義肢"
+        }
+      ],
+      "related_keys": [
+        "塞拉",
+        "底錨塔",
+        "橋",
+        "白衣人",
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-037",
+      "theme": "候選章節07_底錨塔鉛盒與真假情報",
+      "summary": "G9E候選第七章：雙主角到達底錨塔，白瓷面具人攜鉛盒、操作阻尼裝置且傷勢嚴重；他的說法與諾亞原槍共鳴不能自動互證。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+          "anchor": "白瓷面具人"
+        }
+      ],
+      "related_keys": [
+        "底錨塔",
+        "白瓷面具人",
+        "諾亞",
+        "原槍",
+        "塞拉"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-038",
+      "theme": "候選章節08_多恩、塞拉與停擺決議",
+      "summary": "G10R4候選第八章承接第七章，涉及多恩、塞拉與鉛盒斷針，城市發出緊急停擺警報，塞拉交付軸承室十字母匙供上行處置。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+          "anchor": "頂層軸承室十字母匙"
+        }
+      ],
+      "related_keys": [
+        "多恩",
+        "塞拉",
+        "萬鈞鐘心",
+        "十字母匙",
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-039",
+      "theme": "候選章節09_雙千米停擺工程與三日交付",
+      "summary": "第九章11/08結案候選：高架重載列車與冷卻制動、兩公里高度工程、塞拉與多恩的危機處理；結尾保留約三日後交斷針的安排。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+          "anchor": "三天後塞拉修女把那截斷針送過來"
+        }
+      ],
+      "related_keys": [
+        "塞拉",
+        "多恩",
+        "主鐘擺",
+        "霜脈散熱嶺",
+        "三日"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-040",
+      "theme": "候選章節10_風停後的恢復與疲憊",
+      "summary": "第十章11/08候選描寫萬鈞鐘心停擺後兩主角極度疲倦、旅店生活與城市繼續自行工作，沒有直接跳入下個跨W任務。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "anchor": "風停了，但這座城市還在自己往前走"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "萬鈞鐘心",
+        "休息",
+        "人物關係"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-041",
+      "theme": "候選章節11_撈風底群像與舊鐘市集",
+      "summary": "第十一章11/08候選：萬鈞鐘心停擺後生活、修理和吃食，提到百足軒、五環舊鐘市集與普通居民；仍在等斷針。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+          "anchor": "舊鐘市集"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "百足軒",
+        "萬鈞鐘心",
+        "舊鐘市集"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
+    },
+    {
+      "id": "REC-042",
+      "theme": "候選章節12_二十二年物件與九區班車意向",
+      "summary": "第十二章11/08候選：舊機關及二十二年記憶線、多恩、塞拉與個人物件，末尾有去霜脈散熱嶺搭早班火車的意向，尚未正式出發且非跨K實證。",
+      "authority": "GEMINI_CANDIDATE_CHAPTER__NOT_FORMAL_STORY",
+      "source_anchors": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+          "anchor": "早班火車去『霜脈散熱嶺』"
+        }
+      ],
+      "related_keys": [
+        "諾亞",
+        "艾莉維亞",
+        "塞拉",
+        "多恩",
+        "W01-Z09",
+        "早班火車"
+      ],
+      "do_not_assume": "這是最新順讀補丁候選，不是正式已發生正文；同章其他版本仍須回讀，時間/物權/人物知情不得跨版融合。",
+      "followup_evidence_needed": "核對同章版本、11/08 QA與後續作者是否正式採用"
     }
   ]
 }
