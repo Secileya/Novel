@@ -1,0 +1,797 @@
+{
+  "schema": "mega-creative-compatibility-v1",
+  "source_snapshot": "97d9c580a2eadee72ed185e78b0de49f07388db9",
+  "warning": "分類與素材來自對應 GitHub 原始資料；zone名稱、地貌與技術機制多為候選。作者採納的是某些方向，不代表列表全成正史。",
+  "default_review": "PRESERVE_OLDER_IDEA_UNTIL_PROVEN_INCOMPATIBLE",
+  "map_versions": {
+    "primary": {
+      "id": "W01-12",
+      "status": "AUTHOR_BACKED_DESIGN_DIRECTION__DETAILS_CANDIDATE",
+      "children_required": 12,
+      "children": [
+        {
+          "id": "W01-Z01",
+          "number": "01",
+          "name": "髓骨底塢／青鉚埠",
+          "aliases": [
+            "01區",
+            "第01區",
+            "髓骨底塢／青鉚埠",
+            "髓骨底塢",
+            "青鉚埠"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "冷卻回水",
+            "萬噸落物分揀",
+            "盲拍箱",
+            "回收市場"
+          ],
+          "functions": [
+            "回收",
+            "物權",
+            "師徒"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z02",
+          "number": "02",
+          "name": "織巢暗巷",
+          "aliases": [
+            "02區",
+            "第02區",
+            "織巢暗巷",
+            "織巢暗巷"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "紡鋼族",
+            "立體絲道",
+            "微型共振技術"
+          ],
+          "functions": [
+            "族群混居",
+            "工坊",
+            "公民權"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z03",
+          "number": "03",
+          "name": "獵者小徑／根橋",
+          "aliases": [
+            "03區",
+            "第03區",
+            "獵者小徑／根橋",
+            "獵者小徑",
+            "根橋"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "苦髓樹",
+            "巨根橋",
+            "巨蛛",
+            "裂枝獸"
+          ],
+          "functions": [
+            "紅顎會",
+            "禁獵季",
+            "藥材業"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z04",
+          "number": "04",
+          "name": "殼木巨林",
+          "aliases": [
+            "04區",
+            "第04區",
+            "殼木巨林",
+            "殼木巨林"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "矽鐵共生巨木",
+            "活根橋",
+            "引枝膏"
+          ],
+          "functions": [
+            "引枝工匠",
+            "活體建築",
+            "工程材料"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z05",
+          "number": "05",
+          "name": "垂錨吊塢・赤銅環",
+          "aliases": [
+            "05區",
+            "第05區",
+            "垂錨吊塢・赤銅環",
+            "垂錨吊塢",
+            "赤銅環"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "吊籠",
+            "重軌",
+            "索聯工業"
+          ],
+          "functions": [
+            "鐵索工聯",
+            "保險",
+            "貨運"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z06",
+          "number": "06",
+          "name": "灰沼沉降帶",
+          "aliases": [
+            "06區",
+            "第06區",
+            "灰沼沉降帶",
+            "灰沼沉降帶"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "盲眼白蝦",
+            "重甲泥鰻",
+            "巡迴爐心龜"
+          ],
+          "functions": [
+            "漁民",
+            "龜背集",
+            "排水"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z07",
+          "number": "07",
+          "name": "蝕階風廊",
+          "aliases": [
+            "07區",
+            "第07區",
+            "蝕階風廊",
+            "蝕階風廊"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "蝕鐵狂風",
+            "倒掛巢屋",
+            "風板聲訊"
+          ],
+          "functions": [
+            "風鈴契",
+            "語言與商貿",
+            "維修"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z08",
+          "number": "08",
+          "name": "聖堡機樞／萬鈞鐘心",
+          "aliases": [
+            "08區",
+            "第08區",
+            "聖堡機樞／萬鈞鐘心",
+            "聖堡機樞",
+            "萬鈞鐘心"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "青銅巨輪",
+            "鐘擺",
+            "鐘鳴共同體"
+          ],
+          "functions": [
+            "工務",
+            "承光贖罪庭",
+            "鐘錶行會"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z09",
+          "number": "09",
+          "name": "霜脈散熱嶺",
+          "aliases": [
+            "09區",
+            "第09區",
+            "霜脈散熱嶺",
+            "霜脈散熱嶺"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "極寒冰原",
+            "高熱巨脊",
+            "冰脈線蟲"
+          ],
+          "functions": [
+            "義體醫療",
+            "療養",
+            "材料競爭"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z10",
+          "number": "10",
+          "name": "冠冕白庭",
+          "aliases": [
+            "10區",
+            "第10區",
+            "冠冕白庭",
+            "冠冕白庭"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "高科技潔白城市",
+            "人工光",
+            "環境配額"
+          ],
+          "functions": [
+            "環境配給",
+            "技術階級",
+            "城市政治"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z11",
+          "number": "11",
+          "name": "腐殖濾渠",
+          "aliases": [
+            "11區",
+            "第11區",
+            "腐殖濾渠",
+            "腐殖濾渠"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "重金屬腐殖菌林",
+            "抗排斥血清",
+            "沼氣"
+          ],
+          "functions": [
+            "製藥",
+            "污染規範",
+            "診所"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        },
+        {
+          "id": "W01-Z12",
+          "number": "12",
+          "name": "沉肋深淵",
+          "aliases": [
+            "12區",
+            "第12區",
+            "沉肋深淵",
+            "沉肋深淵"
+          ],
+          "role": "W01主體十二大區的候選細節",
+          "authority": "AUTHOR_DIRECTION_FOR_TWELVE_ZONE_LAYOUT__INDIVIDUAL_DETAILS_CANDIDATE",
+          "ecology": [
+            "墜落殘骸",
+            "菌磷光",
+            "鯨落經濟"
+          ],
+          "functions": [
+            "深淵打撈",
+            "墜落者文化",
+            "物件再利用"
+          ],
+          "source_paths": [
+            "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+            "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+          ],
+          "canon_appearance": "NOT_ESTABLISHED"
+        }
+      ],
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ]
+    },
+    "legacy": {
+      "id": "W01-R09",
+      "status": "OLDER_CANDIDATE_LAYOUT_SUPERSEDED_AS_MASTER_MAP",
+      "children_required": 9,
+      "children": [
+        {
+          "id": "LEGACY-W01-R01",
+          "number": "01",
+          "name": "高肋外緣",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R02",
+          "number": "02",
+          "name": "巨拱陸灣",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R03",
+          "number": "03",
+          "name": "斜脊城山",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R04",
+          "number": "04",
+          "name": "高懸械林",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R05",
+          "number": "05",
+          "name": "海盆濱岸",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R06",
+          "number": "06",
+          "name": "內海汐域",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R07",
+          "number": "07",
+          "name": "複生曲殼",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R08",
+          "number": "08",
+          "name": "沉積低谷",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        },
+        {
+          "id": "LEGACY-W01-R09",
+          "number": "09",
+          "name": "未測外緣",
+          "status": "HISTORICAL_CANDIDATE__NOT_ACTIVE_W01_MASTER_LAYOUT",
+          "idea_disposition": "REUSE_ALLOWED_NOT_AUTOMATICALLY_LOCATED",
+          "source_paths": [
+            "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+            "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+          ]
+        }
+      ],
+      "source_paths": [
+        "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md"
+      ]
+    }
+  },
+  "idea_pool": [
+    {
+      "id": "IDEA-ECO-001",
+      "label": "自然生長的巨根橋／根系通路",
+      "tags": [
+        "生態",
+        "植物",
+        "巨樹",
+        "根橋",
+        "交通",
+        "工程"
+      ],
+      "summary": "巨根作道路，植物生長、含水與重量改變交通；人口、貿易、維修、保育與事故形成長期關係。",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "possible_placement": [
+        "W01-Z03",
+        "W01-Z04",
+        "UNLOCATED_OTHER_WORLD_LAYER"
+      ],
+      "compatibility": "CAN_OVERLAY_IF_ROUTE_AND_BIOLOGY_VERIFIED",
+      "checks": [
+        "兩端固定與長期負重",
+        "植物養分與水流",
+        "居民道路權",
+        "是否跨真正層間隔界"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-002",
+      "label": "巨蛛／垂幕根蛛與根系掠食生態",
+      "tags": [
+        "生態",
+        "巨蛛",
+        "捕食",
+        "根橋",
+        "食物鏈"
+      ],
+      "summary": "巨型捕食者有獵物來源、繁殖季與行為，不是無限生成的過路 Boss。物種名稱與尺寸仍未正式核定。",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "possible_placement": [
+        "W01-Z03",
+        "W01-Z04"
+      ],
+      "compatibility": "PLAUSIBLE_NOT_AUTOMATIC_CANON",
+      "checks": [
+        "食物鏈能量與繁殖",
+        "與路網及居民狩獵互動",
+        "不任意無視強者防護"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-003",
+      "label": "巨龜／龜背聚落與移動生態",
+      "tags": [
+        "生態",
+        "巨龜",
+        "社會",
+        "聚落",
+        "跨域",
+        "遷徙"
+      ],
+      "summary": "巨龜可載聚落，龜背居民與生物自身有不同利益；移動、換甲、寄生物與物流發生連鎖。老慢個人史與具體數值仍候選。",
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "possible_placement": [
+        "W01-Z06",
+        "W01-Z12",
+        "MOBILE_ACROSS_AREAS"
+      ],
+      "compatibility": "CAN_COEXIST_WITH_W01_TWELVE_ZONES",
+      "checks": [
+        "巨龜生命需求",
+        "聚落自治與共生契約",
+        "物種攜入與檢疫",
+        "行進路線未定"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-004",
+      "label": "小型生命／寄生／維護機群的連鎖作用",
+      "tags": [
+        "生態",
+        "微生物",
+        "小生命",
+        "寄生",
+        "檢疫",
+        "醫療",
+        "維修"
+      ],
+      "summary": "小生物包括有益共生、可愛伴生者、捕食者與工業損害；不等於每個孢子都能穿透高階防護。",
+      "source_paths": [
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "possible_placement": [
+        "W01-Z04",
+        "W01-Z05",
+        "W01-Z06",
+        "W01-Z09",
+        "W01-Z11",
+        "MANY_REGIONS"
+      ],
+      "compatibility": "CROSS_CUTTING",
+      "checks": [
+        "宿主與傳播途徑",
+        "氣流水流與貨路",
+        "不同族群生理相容性",
+        "公共衛生技術"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-005",
+      "label": "層間極端氣象／熱冷壓差與老機關",
+      "tags": [
+        "世界層",
+        "氣象",
+        "機關",
+        "交通",
+        "極寒",
+        "熱浪",
+        "生態"
+      ],
+      "summary": "既有真實高危地理與 Celeste 特別高危地域方向可並存；具體氣象、地區與機關不等於已採。",
+      "source_paths": [
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md"
+      ],
+      "possible_placement": [
+        "W01-Z07",
+        "W01-Z09",
+        "UNLOCATED_OTHER_WORLD_LAYER"
+      ],
+      "compatibility": "COEXISTING_CANDIDATE_SYSTEMS",
+      "checks": [
+        "世界層與層間隔界的語義",
+        "交通避險與當地社會",
+        "高端科技不能被平庸天候強制無效",
+        "氣候生物適性"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-006",
+      "label": "冰脈線蟲／義體接口生物醫療",
+      "tags": [
+        "冰脈線蟲",
+        "義體",
+        "醫療",
+        "冰原",
+        "生態",
+        "技術"
+      ],
+      "summary": "第09區所提義體熱損傷及排斥症修復的科幻醫療生物；長期植入與二十年數值未經核准。",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ],
+      "possible_placement": [
+        "W01-Z09"
+      ],
+      "compatibility": "AREA_DETAIL_CANDIDATE",
+      "checks": [
+        "冰寒生理來源",
+        "醫療技術有效邊界",
+        "供應鏈對第11區血清是否真有依賴",
+        "不是現實醫療事實"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-007",
+      "label": "污染濾渠、製藥與下游濕地",
+      "tags": [
+        "污染",
+        "製藥",
+        "沼澤",
+        "水道",
+        "血清",
+        "生態"
+      ],
+      "summary": "第11區上游污水與第06區濕地之間可形成產業收益和生態損害，不只是一場 Boss 戰。",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md"
+      ],
+      "possible_placement": [
+        "W01-Z11",
+        "W01-Z06",
+        "W01-Z08",
+        "W01-Z10"
+      ],
+      "compatibility": "CANDIDATE_CROSS_AREA_DEPENDENCY",
+      "checks": [
+        "明確上游下游水文路徑",
+        "排污法與責任主體",
+        "濾渠微生態與漁業的風險",
+        "污染規模與時間"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-008",
+      "label": "舊 R04 高懸械林與 E01 升降井的局部剖面",
+      "tags": [
+        "高懸械林",
+        "機械森林",
+        "升降井",
+        "地圖",
+        "舊版",
+        "九區"
+      ],
+      "summary": "舊九區圖內真實保存的地貌創意；當前不再用作 W01 唯一主體分區，但可候選重定位，不應刪除。",
+      "source_paths": [
+        "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+        "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md"
+      ],
+      "possible_placement": [
+        "W01-Z04",
+        "W01-UNMAPPED",
+        "OTHER_WORLD_LAYER"
+      ],
+      "compatibility": "POSSIBLE_ADAPTATION_NOT_IDENTICAL_TO_W01_Z04",
+      "checks": [
+        "不能直接當殼木巨林同一地",
+        "E01不等於其他候選E3",
+        "世界層地理位置與路網證據",
+        "是否兼有機械與活體巨樹"
+      ]
+    },
+    {
+      "id": "IDEA-ECO-009",
+      "label": "歷史候選六組異質地貌",
+      "tags": [
+        "地貌",
+        "遷巒",
+        "雨根林海",
+        "白脈寂原",
+        "地圖",
+        "巨構"
+      ],
+      "summary": "遷巒帶、雙晝穹原、雨根林海、垂潮裂灣、白脈寂原、錯岸天峽等較早提案保留素材價值；未經核定不得自動塞入 W01 固定十二區。",
+      "source_paths": [
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "000_舊設定寶庫_接手必讀_20261108.md"
+      ],
+      "possible_placement": [
+        "UNLOCATED_W01_OR_OTHER"
+      ],
+      "compatibility": "UNPLACED_REUSABLE_CONCEPT",
+      "checks": [
+        "地貌形成史",
+        "與新版十二區是否同址",
+        "跨界交通與地點權威"
+      ]
+    },
+    {
+      "id": "IDEA-SOC-010",
+      "label": "W04 兩個都市制度方案並存可能",
+      "tags": [
+        "W04",
+        "Project Moon",
+        "都市",
+        "專利",
+        "配重",
+        "制度",
+        "工坊"
+      ],
+      "summary": "萬律專利城邦與萬噸配重裁定國都未被作者選作 W04 正史；新版不能因政治制度相似而淘汰初版。可考慮世界層內多城邦。",
+      "source_paths": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "000_現行決策與主題索引.md"
+      ],
+      "possible_placement": [
+        "W04-CANDIDATE"
+      ],
+      "compatibility": "TWO_COMPETING_OR_COEXISTING_CANDIDATES",
+      "checks": [
+        "法域與產業是否真能並存",
+        "原版本並非錯誤或強制排除",
+        "前文明懸星與工程艦來源尚未定"
+      ]
+    }
+  ],
+  "compatibility_decisions": [
+    {
+      "id": "MAP-OVERRIDE-01",
+      "newer": "W01-Z01..W01-Z12",
+      "older": "LEGACY-W01-R01..LEGACY-W01-R09",
+      "decision": "新十二區作為W01主體的作者方向優先；舊九區圖不作當前主體分區標準",
+      "retain": "舊九區中的獨立地貌、機械、交通與生活概念仍可相容、改址或另行保留",
+      "forbid": [
+        "12區和9區直接相加成21個同級正式區",
+        "把舊R04高懸械林直接認定為新Z04殼木巨林",
+        "較早地圖上的候選交通線視為現役"
+      ],
+      "sources": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "02_地圖拓撲與交通/126_前期世界層地圖設定未落圖稽核_既存待映射與候選隔離.md",
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
+      ]
+    },
+    {
+      "id": "MAP-OVERRIDE-02",
+      "newer": "W01十二區候選命名與細節",
+      "older": "W01九區歷史草圖",
+      "decision": "只覆蓋主圖組織，不覆蓋已獨立討論的生態規則與有助於故事的候選場景",
+      "retain": "第097、101、102、068等舊跨尺度生態、特殊地貌、危險生物與交通設計，待逐件核對放置",
+      "sources": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md",
+        "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md"
+      ]
+    },
+    {
+      "id": "SOCIETY-PAIR-01",
+      "newer": "W04萬噸配重裁定國後出版本",
+      "older": "W04萬律專利城邦初版",
+      "decision": "兩個都只是候選；後出時間不等於作者正式取代。可競爭或分城並存",
+      "retain": "技術壟斷、最高法權、配重經濟、懸星與古工程艦兩類創意",
+      "sources": [
+        "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "000_現行決策與主題索引.md"
+      ]
+    }
+  ]
+}
