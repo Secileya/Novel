@@ -278,6 +278,54 @@ function findCrossLinks(q,macro,people,travel) {
     caveat:"每條具有 SOURCE_CANDIDATE 或 EDITORIAL_INTEGRATION_HYPOTHESIS 等證據狀態；引用已確認世界方向不代表具體生物遷徙、帝國疆界、公共路線已正式成立"};
 }
 
+
+function findImpactChains(q, zones, macro) {
+  const seeds=unique([
+    ...zoneIDsFromQuery(q,zones),
+    ...macroMap.worlds.filter(w=>contains(q,w.id)||contains(q,w.name)).map(w=>w.id)
+  ]);
+  const edges=[
+    ...ecoLinks.edges.map(e=>({...e,trace_kind:"W01_ECO_CANDIDATE",trace_status:e.evidence_status})),
+    ...crossWorldLinks.edges.map(e=>({...e,trace_kind:"CROSS_LAYER_CIVILIZATION_CANDIDATE",trace_status:e.status}))
+  ];
+  const results=[], used=new Set();
+  for(const start of seeds.slice(0,8)) {
+    let frontier=[{node:start,nodes:[start],steps:[]}];
+    for(let depth=1; depth<=2; depth++) {
+      const next=[];
+      for(const path of frontier) {
+        for(const edge of edges) {
+          if(edge.from!==path.node && edge.to!==path.node)continue;
+          if(path.steps.some(s=>s.id===edge.id))continue;
+          const target=edge.from===path.node?edge.to:edge.from;
+          if(path.nodes.includes(target))continue;
+          const step={id:edge.id,from:edge.from,to:edge.to,
+            discovered_reverse_of_recorded_direction:edge.to===path.node,
+            kind:edge.trace_kind,evidence_status:edge.trace_status,
+            mechanism:edge.mechanism||edge.cause||"",
+            source_paths:edge.source_paths||[]};
+          const chain={node:target,nodes:[...path.nodes,target],steps:[...path.steps,step]};
+          if(depth===2){
+            const key=[start,...chain.steps.map(s=>s.id)].join("|");
+            if(!used.has(key)){
+              used.add(key);
+              results.push({start,nodes:chain.nodes,links:chain.steps,
+                sources:unique(chain.steps.flatMap(x=>x.source_paths))});
+            }
+          }else next.push(chain);
+          if(results.length>=60)break;
+        }
+        if(results.length>=60)break;
+      }
+      if(results.length>=60)break;
+      frontier=next.slice(0,90);
+    }
+    if(results.length>=60)break;
+  }
+  return {query_start_nodes:seeds,possible_two_link_paths:results,
+    warning:"這是『兩條已登記關聯邊』的候選路徑探索，不是因果已成立的證明。反向搜尋只是發現依賴，不代表污染／物流／生物能反向流動。每個環節仍須回讀來源與證據條件。"};
+}
+
 function collectTerms(q, ids, claims, ideas, zones) {
   const t = [];
   for (const e of graph.entities) {
@@ -344,6 +392,7 @@ function query(q, corpus) {
   const travel = findTravel(q,macro);
   const people = findPeople(q);
   const cross = findCrossLinks(q,macro,people,travel);
+  const impact = findImpactChains(q,zones,macro);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -376,6 +425,7 @@ function query(q, corpus) {
     ...people.entities.flatMap(e=>e.source_paths||[]),
     ...people.relationships.flatMap(e=>e.source_paths||[]),
     ...cross.edges.flatMap(e=>e.source_paths||[]),
+    ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
     ...(zones.count?creativity.compatibility_decisions.filter(x=>x.id.startsWith("MAP-"))
@@ -406,6 +456,7 @@ function query(q, corpus) {
     character_timeline:phaseMatches, ecology_industry_network:causal, version_compatibility_ledger:versions,
     macro_world_layer_graph:macro, travel_direction_and_rights:travel,
     character_and_organization_graph:people, cross_world_ecology_civilization_links:cross,
+    candidate_two_hop_impact_paths:impact,
     version_decisions:versionFindings,
     searched_terms:terms, selected_sources:opened,
     missing_rule_sources:missingMustRead, source_selection_truncated, source_index_drift:drift,
@@ -485,6 +536,8 @@ function selfTest(corpus) {
   const fish=query("W01第06區漁業受到第11區污染有什麼後果",corpus);
   assert(fish.ecology_industry_network.direct_edges.some(x=>x.id==="ECO-001"));
   assert(fish.ecology_industry_network.matched_zone_ids.includes("W01-Z06"));
+  assert(fish.candidate_two_hop_impact_paths.possible_two_link_paths
+    .some(p=>p.links.some(x=>x.id==="ECO-001") && p.links.some(x=>x.id==="ECO-016")));
   const temporalCheck=query("諾亞第一次死亡之前知道自己能復歸嗎",corpus);
   assert(temporalCheck.character_timeline.some(x=>x.id==="P-NOAH-01"));
   const alivia=query("艾莉維亞白髮是否變成第二人格",corpus);
@@ -529,7 +582,8 @@ function selfTest(corpus) {
     "generic parent-to-all-10-room synthetic recall", "registered W01 and W04 container expansion",
     "K04 old/new endpoint collision", "W02 candidate eco-transport retrieval",
     "K01-T-A return direction unknown", "Dorne-Sera candidate character edge",
-    "atonement vs empire name nonidentity", "turtle inter-layer biosecurity link"]};
+    "atonement vs empire name nonidentity", "turtle inter-layer biosecurity link",
+    "2-hop W01 wastewater/fisheries/biomedical dependency discovery"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
