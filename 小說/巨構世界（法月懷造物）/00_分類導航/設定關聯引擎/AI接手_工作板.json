@@ -8,10 +8,10 @@
   "last_checked_head_before_handoff": "0437691488964557e81065a2195e25878e611e79",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42714925069",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42715358135",
     "conclusion": "success",
-    "head_sha": "d79fb8186587d2ae9f7d446f1442d32478aa8621",
-    "warning": "This certifies batch15 before the helper Code.gs + board follow-up; the follow-up commit still requires its own CI."
+    "head_sha": "bcbeb68f986318b32ad582e9529b3354435e1dde",
+    "warning": "CI verifies repository evidence and helper code commit, but cannot prove the user-side Google Apps Script has been manually redeployed."
   },
   "fact_snapshot": {
     "raw_source_files": 335,
@@ -505,7 +505,8 @@
     "state": "COMPLETE__COMMIT_CI_VERIFIED",
     "notes": "10來源已通過GitHub整檔AI編輯性驗收。配額冷卻Code.gs是GitHub helper改動，需使用者複製到已安裝的Apps Script編輯器才會生效；不可把Git更新說成已部署雲端觸發器。",
     "most_recent_verified_commit": "d79fb8186587d2ae9f7d446f1442d32478aa8621",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42714925069"
+    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42714925069",
+    "mirror_cooldown_helper": "GitHub Code.gs patch with 25h error-specific Docs create cooldown + README; not applied to existing user Apps Script editor. Repo CI 42715358135 successful."
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -530,7 +531,14 @@
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42714925069",
     "not_finished": "289份來源未完成全文語義驗收。Gemini第七八章與B2六章長篇仍應獨立讀完，不以索引代替全文。",
-    "next_step": "接續原版候選長篇全文及跨來源QA；將GitHub已改良的Docs quota cooldown程式實際複製至使用者已安裝的Apps Script，確認90筆失敗不重複燒配額。"
+    "next_step": "接續原版候選長篇全文及跨來源QA；將GitHub已改良的Docs quota cooldown程式實際複製至使用者已安裝的Apps Script，確認90筆失敗不重複燒配額。",
+    "mirror_cooldown_helper": {
+      "github_commit": "bcbeb68f986318b32ad582e9529b3354435e1dde",
+      "status": "PATCH_COMMITTED_AND_CI_PASS__USER_APPS_SCRIPT_NOT_DEPLOYED",
+      "ci_url": "https://github.com/Secileya/Novel/actions/runs/42715358135",
+      "local_helper_syntax": "PARSED_AND_5_ERROR_FIXTURES_PASSED",
+      "manual_install_required": true
+    }
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
