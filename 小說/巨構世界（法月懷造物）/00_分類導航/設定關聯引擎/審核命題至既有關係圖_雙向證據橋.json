@@ -1,12 +1,12 @@
 {
   "schema": "mega-audit-to-domain-reverse-graph-v1",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "repository": "Secileya/Novel",
   "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
   "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
-  "audit_record_count": 557,
-  "mapped_review_count": 557,
-  "links_count": 1172,
+  "audit_record_count": 649,
+  "mapped_review_count": 649,
+  "links_count": 1356,
   "unmapped_review_ids": [],
   "no_new_canon_or_hard_dependency_edges": true,
   "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
@@ -14840,6 +14840,2398 @@
         "line": 26
       },
       "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-558",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "第151檔僅為權威稽核工作卡，正式0章",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-558-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-558-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 3
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-559",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "第150試演和原槍、白髮、四獎勵及共同旅史皆不能自動轉為既成事實",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-559-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-559-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 5
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-560",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "作者已選但未發生與正式發生是不同時序層",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-560-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-560-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 9
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-561",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "作者候選即使寫成完整篇章仍非正式Canon",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-561-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-561-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 11
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-562",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "同一版本真矛盾與尚未核定的落筆假設須分開登記",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-562-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-562-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 12
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-563",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "白橋黑霧後出確認無法復歸，諾亞的恐懼不再只是無實證的猜測",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-563-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-563-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 19
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-564",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "巨大成長必須先有靜謐前真實能力與戰績基準",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-564-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-564-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 20
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-565",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "主執行樞核及C/F/E/G模組裝妥屬候選，槍核與外模組復歸不能混淆",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-565-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-565-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-GUN-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 21
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-566",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "女主常態已有高階能力與科技，白髮不能被寫成第一次會配重",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-566-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-566-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 22
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-567",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "白髮首次質變可保留，A1/A2/B不是已統合的固定招式",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-567-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-567-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 23
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-568",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "白髮人格仍是同一人，149呆毛與臉側髮分層具有後出優先",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-568-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-568-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 24
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-569",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "四類收穫方向可討論，具體器物效能、文字、順序未採案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-569-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-569-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 25
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-570",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "母女記憶有故事價值但不直接公開可識別姓名、面貌、聲紋",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-570-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-570-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-CEL-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 26
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-571",
+      "reviewed_status": "SELECTED_NOT_OCCURRED",
+      "summary": "第三個座位是已選未發生且發生於雙主角熟識後；記憶不揭設計者",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-571-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-571-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-CEL-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 27
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-572",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "首次死前未知復歸、世界不倒帶、槍核跟隨與外物不跟隨是基本邊界；錨點與模組尚未決",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-572-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-572-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-GUN-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 28
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-573",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "高階敵人需要自身裝備與動機，不可第一次見白髮便精準知曉其本質",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-573-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-573-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 29
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-574",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "長年同行和裝備成熟是第150試寫前史，不可當正式已發生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-574-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-574-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 33
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-575",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "主樞核的持續施行需與C貫行、F供能等保持可驗證功能區別",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-575-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-575-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-GUN-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 35
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-576",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "光承力A1若能由常態科技無差別達成，就不符合真質變要求",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-576-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-576-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 37
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-577",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "呆毛與臉側髮後修不排斥白髮的危險、戲謔與極端情緒",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-577-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-577-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 39
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-578",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "遠域圖不能直接推出合法、雙向、可營運交通；道具是否可帶走仍未決",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-578-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-578-2",
+          "target_type": "container",
+          "target_id": "CON-W01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 41
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-579",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "母女記憶匿名性應由媒介本身可檢驗特性支撐，非任意消音",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-579-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-579-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-CEL-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 43
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-580",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "結尾遠行願望不能鎖死下一章的路段、休息日或世界層",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-580-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-580-2",
+          "target_type": "container",
+          "target_id": "CON-W01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 45
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-581",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "角色當時知情須沿真實共同經歷推導，不能首章預知復歸或身分",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-581-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-581-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 47
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-582",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "第150不是第139匿名記憶逐字替代，也沒有讓全部候選招式正式解鎖",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-582-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-582-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 51
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-583",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "A第109是連續開篇試演，第134是後出篇章擴展而非新版全文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-583-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-583-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 57
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-584",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B2由第134提供九場次工作綱，不能把第110舊B正文改名當新版B2",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-584-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-584-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 58
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-585",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "C是完整篇章級光板與居民利益設計，尚無獨立完整小說正文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-585-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-585-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 59
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-586",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "A/B2/C彼此互斥且未採案，第135前史不是它們的續章",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-586-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-586-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 61
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-587",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "A若要追讀需具體職業/路權後果與局部結案，而不只揭景",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-587-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-587-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 65
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-588",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B2需保留唐榆游洵各自人生與局部路圖責任，不全篇變文書改錯",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-588-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-588-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 67
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-589",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "C光板權益不能由主角單方超能力代替當地政治協商",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-589-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-589-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 69
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-590",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "首篇追讀檢驗不是硬配額；大尺度居民生態不必全歸主角武器",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-590-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-590-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 71
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-591",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "P0-1保留第150原文並標G01-G08採案缺口，禁止silent rewrite",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-591-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-591-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 75
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-592",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B2連續場景測試是非正史工作，不排除A/C或成為正式首章",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-592-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-592-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 77
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-593",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "白髮原理、模組復歸、W/K地理與首篇選案尚未定，不得代作者決定",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-593-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-593-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 79
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-594",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "第151曾新增索引，不表示第109、110、134、150文本已被覆寫",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-594-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-594-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 81
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-595",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "三案閱讀包整合現存版本，不等於B2/C皆已有完整正式正文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-595-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-595-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 85
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-596",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B2出城短場景完成局部P0-2試驗，未完成整篇S7/S8或路權定案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-596-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-596-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+        "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+        "line": 89
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-597",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "第203是人物寫作研究，並未新增正式故事Canon",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-597-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-597-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 3
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-598",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "來源只含照片可見六題，未讀原書八步驟；人物判斷另依Git候選與確認",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-598-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-598-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 5
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-599",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "完整六題深入研究主要針對具有重大敘事重量的人物，而非全部路人",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-599-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-599-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 9
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-600",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "長期核心需要足以支撐選擇的人生背景，但要以足夠開始寫止損",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-600-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-600-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 15
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-601",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "篇章核心配角只須有關於當篇決策、工作與責任的實際因果前史",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-601-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-601-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 16
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-602",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "反覆次要人物可維持穩定習慣，不必從一開始建立整套人生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-602-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-602-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 17
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-603",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "單次店員/守衛只要場景職業可信，不需強制六題全做",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-603-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-603-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 18
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-604",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "路人可隨後果升格但非所有配角都必然成為核心",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-604-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-604-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 20
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-605",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "能自然可信和六題深入人物塑造是兩種不同門檻",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-605-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-605-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 22
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-606",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "諾亞/艾莉維亞屬核心，多恩/塞拉因當篇重要值得試測，不等於永久主角群",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-606-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-606-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 24
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-607",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "後出作者補正限縮本檔全部六題/四層流程的適用範圍",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-607-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-607-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 26
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-608",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "背景問題還包含何時深度已夠，不能用無限前史阻止寫作",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-608-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-608-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 30
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-609",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "基本層只須足夠支持角色當下目標、生活和能力限制",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-609-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-609-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 33
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-610",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "因果層重具體經歷對現有言行的影響，不是完整傳記年表",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-610-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-610-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 34
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-611",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "本篇層只回查當下事件需要的知識、責任與關係",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-611-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-611-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 35
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-612",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "深層弧線按長期秘密或重大轉折需要才建立",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-612-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-612-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 36
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-613",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "停止補背景後即可動筆，角色缺席期間仍要有合理行動",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-613-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-613-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 38
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-614",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "諾亞九百公尺危機須知道槍能力與救人取物取捨，不需先定祖輩",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-614-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-614-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 41
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-615",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "艾莉維亞吊盤與界楔段須保有自己的探索動機與專業",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-615-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-615-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 42
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-616",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "多恩三天逃亡與校準經驗是該篇需要的資訊邊界",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-616-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-616-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 43
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-617",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "塞拉的管轄權與工務責任優先於無關家庭細節",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-617-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-617-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 44
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-618",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "第135完整前史A案已存在但未採案、不是開寫前必填履歷",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-618-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-618-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 46
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-619",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "六題是取自照片序號的寫作檢查，而非世界新規",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-619-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-619-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 50
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-620",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "人物背景應解釋今天的選擇；作者知道不等於讀者立刻看完",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-620-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-620-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 52
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-621",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "職業辨識應落到工時收入同行文化與犯錯代價",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-621-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-621-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 53
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-622",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "無姓名也能辨認對話語速笑點焦點，而非輪流講設定",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-622-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-622-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 54
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-623",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "角色關切應透過行動與取捨，而非獨白自評",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-623-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-623-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 55
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-624",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "配角可依自身資訊改變計畫，並承擔故事後果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-624-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-624-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 56
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-625",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "願跟隨人物視角是群像潛力測試，不是要人人升主角",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-625-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-625-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 57
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-626",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "不能把照片未提供的作者全書教法冒稱已研讀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-626-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-626-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 59
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-627",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "諾亞核心名與初見時序已確認；青鉚埠/槍取得史是A案候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-627-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-627-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 65
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-628",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "艾莉維亞獨立願望與高階能力是既有方向，岔光庭/導師/職涯為A案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-628-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-628-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 66
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-629",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "多恩年齡/副指/校準工作及抽薪真相均為Gemini第七八章候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-629-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-629-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 67
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-630",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "塞拉的職權與保護居民行為只有候選文本呈現，家庭未定",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-630-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-630-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 68
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-631",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "檢驗背景不是羅列童年艱苦，而是能影響現有行為",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-631-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-631-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 74
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-632",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "職業可信靠具體程序與失誤後果，不只職稱",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-632-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-632-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 75
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-633",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "對話聲紋核驗需實際移除角色名試聽辨識",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-633-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-633-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 76
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-634",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "多恩/塞拉救援示例可顯關切但不能簡化為單一善良動機",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-634-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-634-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 77
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-635",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "多恩害怕被捕與塞拉停機可保有各自選擇，不能主角到場就讓位",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-635-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-635-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 78
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-636",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "候選600-1000字配角獨立工作場景用於測試鏡頭外自主性",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-636-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-636-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 79
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-637",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "第135已提供兩主角對稱A版前史，但沒有轉為正式履歷",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-637-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-637-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 83
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-638",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "下一步應產兩張確認/候選/未知/演出背景卡，依現有A案而非重造",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-638-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-638-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 85
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-639",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "多恩塞拉各自獨立短場景為非正史壓力測試，不須產生巨大陰謀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-639-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-639-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 87
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-640",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "回讀第七八章應專注實際動作/對話，現檔不覆寫候選正文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-640-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-640-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 89
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-641",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "作者背景知識與讀者必須聽的傳記內容需切開",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-641-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-641-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 93
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-642",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "悲慘孤兒/神祕血統不是所有人物深度的唯一途徑",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-642-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-642-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 94
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-643",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "有魅力配角不必都被寫成未來命運主謀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-643-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-643-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 95
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-644",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "巨構制度應真實作用在活人身上而不是取代人物",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-644-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-644-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 96
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-645",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "封底照片可見問題但原書未查，不虛稱全書讀完",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-645-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-645-2",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 99
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-646",
+      "reviewed_status": "LATER_REVISION_BOUNDARY",
+      "summary": "第029確認命名與互動，來源清單不可替原文採案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-646-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-646-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 100
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-647",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "第067明定第一章初遇，是高於先前熟識開場的作者時序",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-647-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-647-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 102
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-648",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "第135雙主角完整前史仍只是一套未採A案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-648-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-648-2",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 103
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-649",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "第七八章Gemini全文與幕後因果仍候選，不能據此設正式歷史",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-649-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-649-2",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+        "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+        "line": 104
+      },
+      "guardrail": "This is a retrieval relation to already-present nodes, not evidence that a candidate event or consequence occurred."
     }
   ]
 }

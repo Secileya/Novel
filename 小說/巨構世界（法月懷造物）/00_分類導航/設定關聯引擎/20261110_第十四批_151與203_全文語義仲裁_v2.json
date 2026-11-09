@@ -1,0 +1,1960 @@
+{
+  "schema": "mega-batch14-151-203-full-semantic-v2",
+  "date": "2026-11-10",
+  "source_files_targeted": 2,
+  "source_lines": 195,
+  "sections_total": 19,
+  "record_count": 92,
+  "original_anchors_count": 92,
+  "source_file_manifest": [
+    {
+      "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+      "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+      "lines": 90,
+      "sections": 10,
+      "claims": 39
+    },
+    {
+      "path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+      "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+      "lines": 105,
+      "sections": 9,
+      "claims": 53
+    }
+  ],
+  "authority_boundary": "來源151是第150與A/B2/C權威工作卡，203是角色塑造研究。任何白髮機制、前史地名、獎勵形態、候選第7–8章或首篇方案均不得自動升Canon。照片來源不足以代表整本《角色人物的解剖》。",
+  "records": [
+    {
+      "id": "SRC-ALL-558",
+      "title": "第151檔僅為權威稽核工作卡，正式0章",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第151檔僅為權威稽核工作卡，正式0章。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 3,
+          "quote": "> 2026-10-23。**本份為增量稽核與創作工作卡，不是正式小說正文，也不以稽核直接採用第150份。正式正文仍0章；PREWRITE HOLD。** 本次實查 GitHub `Seci"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-559",
+      "title": "第150試演和原槍、白髮、四獎勵及共同旅史皆不能自動轉為既成事實",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "第150試演和原槍、白髮、四獎勵及共同旅史皆不能自動轉為既成事實。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 5,
+          "quote": "> **重點結論**：第150份是可閱讀、保有價值的完整**非正史候選篇章**。它沒有越過正式採案閘門；其白髮 A1／自身原界、諾亞原槍主執行樞核、四類額外收穫的器物實作以及共同旅程史，均以"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-560",
+      "title": "作者已選但未發生與正式發生是不同時序層",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者已選但未發生與正式發生是不同時序層。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 9,
+          "quote": "- **〔已確認／已選方向〕**：使用者明確確定的設定、敘事界線或未來採用的場景核心；尚未發生的事件也可能屬「已選未寫」，不可混同「已發生」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-561",
+      "title": "作者候選即使寫成完整篇章仍非正式Canon",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者候選即使寫成完整篇章仍非正式Canon。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 11,
+          "quote": "- **〔作者候選〕**：研究、命名、原理、設施、地圖、戰鬥敵人、獎勵形制與場景推演；即使寫成千字小說或被保存於 GitHub，也不自動升 Canon。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-562",
+      "title": "同一版本真矛盾與尚未核定的落筆假設須分開登記",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "同一版本真矛盾與尚未核定的落筆假設須分開登記。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 12,
+          "quote": "- **〔真矛盾〕**：同一版本同一前提有互不相容的明文；**〔落筆缺口〕**：第150為了演出先假設尚未確立的時序／器物／機制；不能把所有未決都假稱已衝突。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-563",
+      "title": "白橋黑霧後出確認無法復歸，諾亞的恐懼不再只是無實證的猜測",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "白橋黑霧後出確認無法復歸，諾亞的恐懼不再只是無實證的猜測。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 19,
+          "quote": "| 靜謐迴廊與終焉迴廊 | 第058後出定名；第037、040–041、137 | 高危長路、末端潔白無機關孤橋，黑霧帶上飄黑點 | **舊版演出相容；現行結果已有後出更正**：諾亞感受到真"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-564",
+      "title": "巨大成長必須先有靜謐前真實能力與戰績基準",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "巨大成長必須先有靜謐前真實能力與戰績基準。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 20,
+          "quote": "| 諾亞與艾莉維亞雙重大幅提升 | 第059使用者已定方向；第137–138後出解釋 | 終點兩人各有獨立巨大力量改變 | **方向相容**；必須先建立靜謐前各自真正成長、失敗、設備與戰績，"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-565",
+      "title": "主執行樞核及C/F/E/G模組裝妥屬候選，槍核與外模組復歸不能混淆",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "主執行樞核及C/F/E/G模組裝妥屬候選，槍核與外模組復歸不能混淆。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 21,
+          "quote": "| 諾亞原槍 | 第035／057武器候選、第140／143差分、第035–036已選核心特殊武器隨死亡復歸 | 第150演出主執行樞核，能於真已核證局部系統持續深入施行 | **助手候選而"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-566",
+      "title": "女主常態已有高階能力與科技，白髮不能被寫成第一次會配重",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "女主常態已有高階能力與科技，白髮不能被寫成第一次會配重。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 22,
+          "quote": "| 艾莉維亞常態能力 | 第035作用配重與第138後出糾錯 | 終點發現不同於既往的「作用成立」 | **必須明確保有常態已強的高階作用／科技**；不可寫成白髮前不會配重或必須諾亞保護才有"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-567",
+      "title": "白髮首次質變可保留，A1/A2/B不是已統合的固定招式",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "白髮首次質變可保留，A1/A2/B不是已統合的固定招式。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 23,
+          "quote": "| 白髮首次解鎖與作用 | 第136–138、142、144–146 | 深青藍→銀白；A1 光作承力介面，暫以自身原界承擔 | **首次時機與「真質變」方向相容**；A1／A2／B 底層方"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-568",
+      "title": "白髮人格仍是同一人，149呆毛與臉側髮分層具有後出優先",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "白髮人格仍是同一人，149呆毛與臉側髮分層具有後出優先。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 24,
+          "quote": "| 白髮人格與髮型 | 第093／103／136、第144–145、第149最新視覺文字 | 摸髮、照鏡、看呆毛、逗諾亞、笑、轉頭研究槍 | **相容且可保留**：同一人可狡黠、愉悅、危險，"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-569",
+      "title": "四類收穫方向可討論，具體器物效能、文字、順序未採案",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "四類收穫方向可討論，具體器物效能、文字、順序未採案。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 25,
+          "quote": "| 四種額外收穫 | 第138已提出／支持方向，但具體物件未定 | 高遠上行圖、復歸落點圖譜、匿名母女模型記憶、玩心成就牌 | **四種類型相容，四件器物具體效果／文字／順序都屬第150候選"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-570",
+      "title": "母女記憶有故事價值但不直接公開可識別姓名、面貌、聲紋",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "母女記憶有故事價值但不直接公開可識別姓名、面貌、聲紋。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 26,
+          "quote": "| 匿名母女記憶 | 第138後修、第139非正史全文、第114已選未寫〈第三個座位〉 | 母親真誠誇讚孩子，談交通、送貨、麵包店和秘密路雛形；旁觀者不知真名 | **核心敘事方向相容**；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-571",
+      "title": "第三個座位是已選未發生且發生於雙主角熟識後；記憶不揭設計者",
+      "status": "SELECTED_NOT_OCCURRED",
+      "analysis": "第三個座位是已選未發生且發生於雙主角熟識後；記憶不揭設計者。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_SELECTED_NOT_OCCURRED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 27,
+          "quote": "| 瑟莉思媞的情報邊界 | 第006／050／087／114、第138 | 沒有當面公開管理權，也未在記憶露身份 | **相容**：第114〈第三個座位〉是使用者已選的未來相遇場景，須發生在"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-572",
+      "title": "首次死前未知復歸、世界不倒帶、槍核跟隨與外物不跟隨是基本邊界；錨點與模組尚未決",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "首次死前未知復歸、世界不倒帶、槍核跟隨與外物不跟隨是基本邊界；錨點與模組尚未決。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 28,
+          "quote": "| 死亡復歸 | 第028、035–037、085、088、112、138 | 第150以「數次嘗試，諾亞失敗後回到某入口附近」作既有經歷 | **試寫前史假設**；已選：首死前本人不知可復"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-573",
+      "title": "高階敵人需要自身裝備與動機，不可第一次見白髮便精準知曉其本質",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "高階敵人需要自身裝備與動機，不可第一次見白髮便精準知曉其本質。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 29,
+          "quote": "| 高階敵人及同級反制 | 第138、141–145、147–148 | 第150主要測安全工作架，未直接安排「初見白髮就秒懂」的敵人 | **避免了舊誤寫**；未來戰鬥仍要先成立敵人自身職"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-574",
+      "title": "長年同行和裝備成熟是第150試寫前史，不可當正式已發生",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "長年同行和裝備成熟是第150試寫前史，不可當正式已發生。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 33,
+          "quote": "**G01｜真正巨大提升的基準缺失〔落筆缺口／P0〕**。第150假設兩位主角已一起長年旅行、既有原槍部件、足以理解白髮超越常態；首章與此前數個中篇尚未決定，故不得把此作品反過來當成前史已發"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-575",
+      "title": "主樞核的持續施行需與C貫行、F供能等保持可驗證功能區別",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "主樞核的持續施行需與C貫行、F供能等保持可驗證功能區別。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 35,
+          "quote": "**G02｜諾亞主執行樞核與 C／F／E 功能重疊〔候選架構衝突／P0〕**。若把新模組簡化成「射得更痛、射得更久」，可能重複第057 C單擊貫行與F供能。第143暫以「已核證局部同一系統的"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-576",
+      "title": "光承力A1若能由常態科技無差別達成，就不符合真質變要求",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "光承力A1若能由常態科技無差別達成，就不符合真質變要求。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 37,
+          "quote": "**G03｜A1光承力能否真與常態不同〔可反證原理缺口／P0〕**。第150工作架由照明現象取得有效承力，屬第142 A1＋B的敘事實驗。真正質變的要求是：即使用艾莉維亞此前成熟的「常態作用"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-577",
+      "title": "呆毛與臉側髮後修不排斥白髮的危險、戲謔與極端情緒",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "呆毛與臉側髮後修不排斥白髮的危險、戲謔與極端情緒。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 39,
+          "quote": "**G04｜女主外貌與情緒〔無硬衝突，須逐鏡核對／P1〕**。第150保留第一次驚喜、玩笑、詢問諾亞是否好看與想研究槍的行為；這比只用三句「好漂亮」合理。第149最新後修使「呆毛先高向上再彎"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-578",
+      "title": "遠域圖不能直接推出合法、雙向、可營運交通；道具是否可帶走仍未決",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "遠域圖不能直接推出合法、雙向、可營運交通；道具是否可帶走仍未決。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 41,
+          "quote": "**G05｜四件收穫的價值與代價〔具體形制未定／P1〕**。第150文字的「居然真的找到啦！」、路圖範圍、復歸圖譜的推測方式、模型載體、是否可帶出及其餘物件可否隨復歸，均非使用者逐項核定；不"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-579",
+      "title": "母女記憶匿名性應由媒介本身可檢驗特性支撐，非任意消音",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "母女記憶匿名性應由媒介本身可檢驗特性支撐，非任意消音。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 43,
+          "quote": "**G06｜母女身份保密不是作者硬藏〔條件未完全定義／P0〕**。第150記憶保留第139最珍貴的母親直接誇獎、一起討論麵包店與隱藏危險道路的創意，且不透露名字與真臉；應保留。只是「模型語意"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-580",
+      "title": "結尾遠行願望不能鎖死下一章的路段、休息日或世界層",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "結尾遠行願望不能鎖死下一章的路段、休息日或世界層。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 45,
+          "quote": "**G07｜場景結尾的旅行決定不等於下一章劇情已確定〔前瞻假設／P1〕**。第150最後兩人整理遠域地圖、想著睡後再出發，是優秀的關係與旅行動力；但休息多久、前往哪片真正宏觀世界層、能否使用"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-581",
+      "title": "角色當時知情須沿真實共同經歷推導，不能首章預知復歸或身分",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "角色當時知情須沿真實共同經歷推導，不能首章預知復歸或身分。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 47,
+          "quote": "**G08｜整體時間與角色知情〔需要 P1 敘事帳〕**。諾亞「知道自己能復歸」與艾莉維亞對死亡的了解須建立在先前真實共同經歷；初遇首章不可提前如此親密或已知復歸。〈第三個座位〉安排在兩人熟"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-582",
+      "title": "第150不是第139匿名記憶逐字替代，也沒有讓全部候選招式正式解鎖",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "第150不是第139匿名記憶逐字替代，也沒有讓全部候選招式正式解鎖。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 51,
+          "quote": "第150**沒有**正式覆寫第139匿名記憶全文；有一段相容的重述與嵌入，不能將它視為逐字替代。第150**沒有**確定所有原槍模組、艾莉維亞兩種A1/A2都全面解鎖，或證明諾亞一定可在白橋"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-583",
+      "title": "A第109是連續開篇試演，第134是後出篇章擴展而非新版全文",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "A第109是連續開篇試演，第134是後出篇章擴展而非新版全文。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 57,
+          "quote": "| **A《拆路之後仍有人走》** | [第109份](../07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md)，第134第三節作後續篇章擴展 | 第1"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-584",
+      "title": "B2由第134提供九場次工作綱，不能把第110舊B正文改名當新版B2",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "B2由第134提供九場次工作綱，不能把第110舊B正文改名當新版B2。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 58,
+          "quote": "| **B2《從上面下來的人》** | [第134份](134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md)第四–八節；前版連續試演為[第110份B](../07_候選故"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-585",
+      "title": "C是完整篇章級光板與居民利益設計，尚無獨立完整小說正文",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "C是完整篇章級光板與居民利益設計，尚無獨立完整小說正文。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 59,
+          "quote": "| **C《把天光賣出去的人》** | [第134份](134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md)第三節 | 一個具有居民、光板業權、轉賣動機、主角真目的、高潮"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-586",
+      "title": "A/B2/C彼此互斥且未採案，第135前史不是它們的續章",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "A/B2/C彼此互斥且未採案，第135前史不是它們的續章。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 61,
+          "quote": "**防誤會**：上述是「接手前已在 GitHub 的最新可引用版本」，不是將第151份新研究改名為三案正式更新。第135新增雙主角前史候選並非A/B2/C正文續篇，第150是靜謐遠期場景而非"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-587",
+      "title": "A若要追讀需具體職業/路權後果與局部結案，而不只揭景",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "A若要追讀需具體職業/路權後果與局部結案，而不只揭景。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 65,
+          "quote": "**A**：讓懸在空中的巨橋真被拆走，揭露有人完整生活的上層城市；但在鏡頭揭景之前，先給一個會因吊運而失去合法側道或維修窗口的具體人物／職業。諾亞和艾莉維亞因各自不同需求相遇，不靠解說。篇末"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-588",
+      "title": "B2需保留唐榆游洵各自人生與局部路圖責任，不全篇變文書改錯",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "B2需保留唐榆游洵各自人生與局部路圖責任，不全篇變文書改錯。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 67,
+          "quote": "**B2**：讓唐榆回城、甜醬餅、舊識游洵與即將出發的隊伍成為真正選擇的引線。**前段局部解決錯誤路圖，不能把整篇寫成更新路政文書**；後段依尚待勘驗的真可用通路讓雙主角分別追自己的目的，出"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-589",
+      "title": "C光板權益不能由主角單方超能力代替當地政治協商",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "C光板權益不能由主角單方超能力代替當地政治協商。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 69,
+          "quote": "**C**：把可移動光板造成的巨大陰影位移，與農園／校舍／工坊真正損益同時拍出來。諾亞為了看可見的上方遠梁而來；艾莉維亞為了鏡渠與實際接合研究而來，首次相識是碰上可驗的同一光學／結構事件。當"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-590",
+      "title": "首篇追讀檢驗不是硬配額；大尺度居民生態不必全歸主角武器",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "首篇追讀檢驗不是硬配額；大尺度居民生態不必全歸主角武器。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 71,
+          "quote": "**通用追讀檢驗（非硬配額）**：首1–3章讀者能指認誰想做什麼、立即阻力與不可免費逆轉的選擇；首篇本身有名場面、人物關係變化、局部結案、後果以及主角想繼續旅行的原因；不拿「世界很大」當成懸"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-591",
+      "title": "P0-1保留第150原文並標G01-G08採案缺口，禁止silent rewrite",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "P0-1保留第150原文並標G01-G08採案缺口，禁止silent rewrite。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 75,
+          "quote": "**P0-1：回顧第150的採案風險**。以本矩陣保留第150原稿，不對它做 silent rewrite；後續每次引用必附「候選」與 G01–G08 相應缺口。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-592",
+      "title": "B2連續場景測試是非正史工作，不排除A/C或成為正式首章",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "B2連續場景測試是非正史工作，不排除A/C或成為正式首章。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 77,
+          "quote": "**P0-2：故事節奏試驗**。以第134 B2 為編輯優先的非正史材料，真正試寫「文書局部處理後，隊員選擇、雙主角各自離開井城並在遠處互相碰上」的連續場面；先給新視覺、新行動與人物選擇，不"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-593",
+      "title": "白髮原理、模組復歸、W/K地理與首篇選案尚未定，不得代作者決定",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "白髮原理、模組復歸、W/K地理與首篇選案尚未定，不得代作者決定。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 79,
+          "quote": "**P0-3：未定決策不得代答**。白髮A1/A2/B的最終有效原理、槍樞核及 C/F 取得次序、復歸錨點／模組帶回規則、正式首篇A/B2/C、七W十K實際地理、四獎勵具體器物、Celest"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-594",
+      "title": "第151曾新增索引，不表示第109、110、134、150文本已被覆寫",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第151曾新增索引，不表示第109、110、134、150文本已被覆寫。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 81,
+          "quote": "**本輪同步範圍**：只新增第151份，並將第150及第151的真實狀態索引加入三份`000`入口；第109／110／134／150 原文不改、不重排、不刪。正式正文章數＝**0**；**P"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-595",
+      "title": "三案閱讀包整合現存版本，不等於B2/C皆已有完整正式正文",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "三案閱讀包整合現存版本，不等於B2/C皆已有完整正式正文。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 85,
+          "quote": "為免B2被誤當第110舊B全文，另外保存 [《首篇A／B2／C最新原文閱讀包》](../07_候選故事與場景/首篇A_B2_C_最新原文閱讀包_2026-10-23.md)：程式直接依 Gi"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-596",
+      "title": "B2出城短場景完成局部P0-2試驗，未完成整篇S7/S8或路權定案",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "B2出城短場景完成局部P0-2試驗，未完成整篇S7/S8或路權定案。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+          "git_blob_sha": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+          "line": 89,
+          "quote": "已實際寫出 [《上去的人，回來的人》非正史場景](../07_候選故事與場景/首篇B2_出城連續場景試寫_非正史增量_2026-10-23.md)：從遠行隊修訂出發、私人退改票、唐榆／游洵的"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-597",
+      "title": "第203是人物寫作研究，並未新增正式故事Canon",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第203是人物寫作研究，並未新增正式故事Canon。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 3,
+          "quote": "> **性質**：小說創作研究／人物核查，非角色新正史，非正文修訂，正式正文 **0章／PREWRITE HOLD** 不變。2026-11-06。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-598",
+      "title": "來源只含照片可見六題，未讀原書八步驟；人物判斷另依Git候選與確認",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "來源只含照片可見六題，未讀原書八步驟；人物判斷另依Git候選與確認。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 5,
+          "quote": "> **來源界限**：使用者提供《角色人物的解剖：長銷經典版》封面與封底照片；以下只引用**照片中可見**的六個問題，未聲稱讀完全書、掌握其「八步驟」具體內文。人物資料另核對本 repo 第"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-599",
+      "title": "完整六題深入研究主要針對具有重大敘事重量的人物，而非全部路人",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "完整六題深入研究主要針對具有重大敘事重量的人物，而非全部路人。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 9,
+          "quote": "**作者明確界定適用範圍**：前述「需要知道人物什麼背景／知道到哪裡才夠」及六項深入研究，**主要針對主角、重要配角、篇章核心或會反覆承擔重要抉擇的角色**；不可以當成每個路人、守衛、商販、"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-600",
+      "title": "長期核心需要足以支撐選擇的人生背景，但要以足夠開始寫止損",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "長期核心需要足以支撐選擇的人生背景，但要以足夠開始寫止損。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 15,
+          "quote": "| 長期核心人物／主角 | 建立足以支撐長線選擇、關係、成長與獨立人生的背景；仍以相關性和「足夠即可開始寫」為止損 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-601",
+      "title": "篇章核心配角只須有關於當篇決策、工作與責任的實際因果前史",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "篇章核心配角只須有關於當篇決策、工作與責任的實際因果前史。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 16,
+          "quote": "| 重要配角／篇章核心人物 | 建立當篇／跨篇重要決定所需的過去經驗、職業、個人關切、人際、資訊邊界及後果，不強制填滿其一生 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-602",
+      "title": "反覆次要人物可維持穩定習慣，不必從一開始建立整套人生",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "反覆次要人物可維持穩定習慣，不必從一開始建立整套人生。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 17,
+          "quote": "| 反覆出現但負擔較輕的次要人物 | 確保言行、既有經歷與關係穩定，有幾個有辨識度的生活細節；必要時隨劇情加深 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-603",
+      "title": "單次店員/守衛只要場景職業可信，不需強制六題全做",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "單次店員/守衛只要場景職業可信，不需強制六題全做。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 18,
+          "quote": "| 單次登場的守衛、店員、路人、臨時對手等 | **只須符合場景與職業，行動可信、不違反已建世界邏輯**；通常無須完整前史或六項逐題盤點 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-604",
+      "title": "路人可隨後果升格但非所有配角都必然成為核心",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "路人可隨後果升格但非所有配角都必然成為核心。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 20,
+          "quote": "**動態升降**：一位路人可以因後續事件漸成重要人物，再按需要補足有因果的背景；但**不代表每個配角未來都必須升格**。有些普通人始終只在一幕中出現，依然能讓都市和巨構有生活感。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-605",
+      "title": "能自然可信和六題深入人物塑造是兩種不同門檻",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "能自然可信和六題深入人物塑造是兩種不同門檻。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 22,
+          "quote": "**關鍵區分**：「所有登場者至少要自然可信」是基本敘事品質要求，**不等於所有登場者都必須接受完整人物塑造六題／人生前史研究**。第十題「願不願意單獨跟隨該人物」主要是測試重要配角與群像潛"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-606",
+      "title": "諾亞/艾莉維亞屬核心，多恩/塞拉因當篇重要值得試測，不等於永久主角群",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞/艾莉維亞屬核心，多恩/塞拉因當篇重要值得試測，不等於永久主角群。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 24,
+          "quote": "**目前四人只是本次示例**：諾亞、艾莉維亞是長期核心；多恩、塞拉現階段承擔此篇重要選擇，因此值得做較深入測試，**但是否長期留在核心角色群尚未定案**。莫恩、小馬克等守衛不需要為了這份研究"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-607",
+      "title": "後出作者補正限縮本檔全部六題/四層流程的適用範圍",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "後出作者補正限縮本檔全部六題/四層流程的適用範圍。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 26,
+          "quote": "**補正此前第203份的閱讀方式**：下方先前的「四層按需深挖」「停止條件」和「四角色盤點」**只對值得深入建構的角色按需使用**，不得誤讀成所有登場人物的普遍義務。此規則是作者對工作方法的"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-608",
+      "title": "背景問題還包含何時深度已夠，不能用無限前史阻止寫作",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "背景問題還包含何時深度已夠，不能用無限前史阻止寫作。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 30,
+          "quote": "**作者新澄清（優先於本文任何傾向無限補背景的建議）**：第 1 題「關於人物的背景我需要知道些什麼？」不只問**要寫／建立哪些背景資料**，還問**作者需掌握至什麼深度便已足以開始、繼續或"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-609",
+      "title": "基本層只須足夠支持角色當下目標、生活和能力限制",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "基本層只須足夠支持角色當下目標、生活和能力限制。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 33,
+          "quote": "1. **基本層**：角色在當下是誰、正在追求什麼、怎麼生活、在乎誰、主要能力限制與處境；能讓他開始行動。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-610",
+      "title": "因果層重具體經歷對現有言行的影響，不是完整傳記年表",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "因果層重具體經歷對現有言行的影響，不是完整傳記年表。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 34,
+          "quote": "2. **因果層**：哪些已發生的事真的塑造了此刻的性格、關係、態度、工作習慣與選擇；不用列完整年表。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-611",
+      "title": "本篇層只回查當下事件需要的知識、責任與關係",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "本篇層只回查當下事件需要的知識、責任與關係。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 35,
+          "quote": "3. **本篇事件層**：眼前事件會用到哪些過去經歷、知識邊界、責任、人脈或代價；**只補足這一篇需要的深度**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-612",
+      "title": "深層弧線按長期秘密或重大轉折需要才建立",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "深層弧線按長期秘密或重大轉折需要才建立。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 36,
+          "quote": "4. **深層人物弧線層**：只有當重大轉變、長期秘密、核心矛盾或跨篇因果確實依賴時，才建立更深歷史；仍可保留合理未知。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-613",
+      "title": "停止補背景後即可動筆，角色缺席期間仍要有合理行動",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "停止補背景後即可動筆，角色缺席期間仍要有合理行動。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 38,
+          "quote": "**停止條件**：當作者已能回答「這個人此刻為何這樣做、他知道哪些事、不知道哪些事、其他選擇為何可能／不可能、如果主角不在他會做什麼、其行動可能留下什麼後果」，且足以寫成有辨識度、前後不矛盾"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-614",
+      "title": "諾亞九百公尺危機須知道槍能力與救人取物取捨，不需先定祖輩",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞九百公尺危機須知道槍能力與救人取物取捨，不需先定祖輩。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 41,
+          "quote": "- **諾亞**：要寫他在九百公尺的危機判斷，目前只需核實他熟知與不知道的槍械能力、救人／取物取捨、當下和艾莉維亞的關係；不必先定完祖父母、童年所有搬遷。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-615",
+      "title": "艾莉維亞吊盤與界楔段須保有自己的探索動機與專業",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞吊盤與界楔段須保有自己的探索動機與專業。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 42,
+          "quote": "- **艾莉維亞**：要寫吊盤冒險與界楔戰鬥，需懂她的探索慾、熟悉裝備、與諾亞當下的默契；完整故鄉和學歷可以等回訪／人物篇再決定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-616",
+      "title": "多恩三天逃亡與校準經驗是該篇需要的資訊邊界",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "多恩三天逃亡與校準經驗是該篇需要的資訊邊界。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 43,
+          "quote": "- **多恩**：本篇必須知道他為何參與校準、何時發覺危害、為何救纜、三天逃亡如何仍得知一些情報，以及其知識的上限；不必先寫滿二十七年人生。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-617",
+      "title": "塞拉的管轄權與工務責任優先於無關家庭細節",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "塞拉的管轄權與工務責任優先於無關家庭細節。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 44,
+          "quote": "- **塞拉**：本篇要知道她的管轄權、專業經驗、居民與工務責任、為何認得多恩；無關此次決策的私人家庭細節可先留白。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-618",
+      "title": "第135完整前史A案已存在但未採案、不是開寫前必填履歷",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "第135完整前史A案已存在但未採案、不是開寫前必填履歷。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 46,
+          "quote": "**尤其注意**：現存第135份已經提出諾亞與艾莉維亞各自的完整前史 A 案，但那是**可選用的素材庫，不是創作前必須整套批准的人物履歷**。正文與人物卡的工作先後由故事需求決定，而不是先填"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-619",
+      "title": "六題是取自照片序號的寫作檢查，而非世界新規",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "六題是取自照片序號的寫作檢查，而非世界新規。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 50,
+          "quote": "以下維持照片中十二問的原序號，這是**創作檢核題，不是新增世界觀規則**："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-620",
+      "title": "人物背景應解釋今天的選擇；作者知道不等於讀者立刻看完",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "人物背景應解釋今天的選擇；作者知道不等於讀者立刻看完。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 52,
+          "quote": "1. **關於人物的背景我需要知道些什麼？** 不能只列身分卡；要能回答過去的生存、關係、工作如何造成**現在**的選擇。作者知道不等於讀者要立刻知道。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-621",
+      "title": "職業辨識應落到工時收入同行文化與犯錯代價",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "職業辨識應落到工時收入同行文化與犯錯代價。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 53,
+          "quote": "3. **我對描寫的職業有感覺嗎？人們怎麼看待他們的工作？** 不只技能名稱，要有工時、收入、聲望、同行文化、工作限制、職業習慣與真正犯錯的代價。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-622",
+      "title": "無姓名也能辨認對話語速笑點焦點，而非輪流講設定",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "無姓名也能辨認對話語速笑點焦點，而非輪流講設定。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 54,
+          "quote": "5. **如果不看人物的名字，我是否能分辨出誰在講話？** 分辨語速、比喻、關注焦點、笑點與避免講什麼；不能只是每個人輪流說明作者的工程設定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-623",
+      "title": "角色關切應透過行動與取捨，而非獨白自評",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "角色關切應透過行動與取捨，而非獨白自評。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 55,
+          "quote": "6. **我的人物關心什麼？是通過行動傳達出來，或是獨白？** 優先由行為、花費、誰先被保護、拒絕、取捨展現；不把核心人格都交給旁白自我評價。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-624",
+      "title": "配角可依自身資訊改變計畫，並承擔故事後果",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "配角可依自身資訊改變計畫，並承擔故事後果。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 56,
+          "quote": "8. **我的角色是否正在接管故事？這種接管使故事受到損害，還是使其得到有趣的發展？** 角色可按自己的知識與底線改變原計畫；作者依情節後果吸收，不是任角色無因果地破壞整部小說。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-625",
+      "title": "願跟隨人物視角是群像潛力測試，不是要人人升主角",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "願跟隨人物視角是群像潛力測試，不是要人人升主角。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 57,
+          "quote": "10. **我是否願意暫時跟隨該人物，看看會發生什麼事？** 一個人即使離開主角鏡頭，也應擁有自己的日程、想法、麻煩、人際與事件；不是要求所有配角輪流升格主線。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-626",
+      "title": "不能把照片未提供的作者全書教法冒稱已研讀",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "不能把照片未提供的作者全書教法冒稱已研讀。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 59,
+          "quote": "**照片沒有提供**六項的完整書內論證或所有操作範例；以上應用文字是本次分析，不冒稱作者 Linda Seger 的原文逐句教法。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-627",
+      "title": "諾亞核心名與初見時序已確認；青鉚埠/槍取得史是A案候選",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "諾亞核心名與初見時序已確認；青鉚埠/槍取得史是A案候選。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 65,
+          "quote": "| **諾亞** | 第029確立姓名；第067確立第一章與艾莉維亞**真正初遇**；第053作者重視其自發登頂意願；現有第七章候選中，他替守衛斷膠、優先判斷重大風險、看艾莉維亞出神又用「高"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-628",
+      "title": "艾莉維亞獨立願望與高階能力是既有方向，岔光庭/導師/職涯為A案",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "艾莉維亞獨立願望與高階能力是既有方向，岔光庭/導師/職涯為A案。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 66,
+          "quote": "| **艾莉維亞** | 第029確立中文名；第053確認她有**獨立**登頂願望、研究／探索行動力及高階空間能力，不是諾亞助手；第067確立初遇時尚不熟；第七章候選有對巨構風景的真心興奮、"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-629",
+      "title": "多恩年齡/副指/校準工作及抽薪真相均為Gemini第七八章候選",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "多恩年齡/副指/校準工作及抽薪真相均為Gemini第七八章候選。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 67,
+          "quote": "| **多恩・斐斯** | **僅限 Gemini 新第七八章候選**：鐘錶坊出身、二十七歲、五年前赴白庭作校準、雙腕機械副指、舊燙傷，三天前事故後逃離並冒死搶修；他有參與校準的自認責任。不"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-630",
+      "title": "塞拉的職權與保護居民行為只有候選文本呈現，家庭未定",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "塞拉的職權與保護居民行為只有候選文本呈現，家庭未定。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 68,
+          "quote": "| **塞拉** | **第六至八章候選正文呈現**：底錨塔審判官、長年工務經驗，脾氣強硬；認得守衛和小多恩；在危險時選擇保住居民而不是先服從白庭政治。尚未由作者把這些場景全部核為 Cano"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-631",
+      "title": "檢驗背景不是羅列童年艱苦，而是能影響現有行為",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "檢驗背景不是羅列童年艱苦，而是能影響現有行為。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 74,
+          "quote": "| 1 背景 | 角色卡寫「童年很苦」「工作十年」 | 讓一件過去的具體經驗影響今天的話、做法、習慣或害怕，且不要求當場講完回憶 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-632",
+      "title": "職業可信靠具體程序與失誤後果，不只職稱",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "職業可信靠具體程序與失誤後果，不只職稱。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 75,
+          "quote": "| 3 職業 | 「她是專業工務主管／校準匠」 | 她一眼認出哪項會害死人、先照顧哪個程序；從習慣、工具、人際與失誤的後果看見職業 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-633",
+      "title": "對話聲紋核驗需實際移除角色名試聽辨識",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "對話聲紋核驗需實際移除角色名試聽辨識。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 76,
+          "quote": "| 5 對白 | 每人用一樣句式依序講解軸承理論 | 去除人名後仍可辨別：誰先吐槽、誰先問代價、誰先罵人、誰講校準術語 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-634",
+      "title": "多恩/塞拉救援示例可顯關切但不能簡化為單一善良動機",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "多恩/塞拉救援示例可顯關切但不能簡化為單一善良動機。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 77,
+          "quote": "| 6 關心 | 「他很在乎大家」 | 多恩明知可能被抓仍留在纜座搶修；塞拉承擔停機責任；但其動機仍可包含恐懼、自保和複雜性 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-635",
+      "title": "多恩害怕被捕與塞拉停機可保有各自選擇，不能主角到場就讓位",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "多恩害怕被捕與塞拉停機可保有各自選擇，不能主角到場就讓位。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 78,
+          "quote": "| 8 自主 | 主角到場，所有配角無條件讓位、說答案 | 多恩因害怕被捕拒交鉛盒、塞拉先接管停機；其他人應據己方資訊介入並留下後果 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-636",
+      "title": "候選600-1000字配角獨立工作場景用於測試鏡頭外自主性",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "候選600-1000字配角獨立工作場景用於測試鏡頭外自主性。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 79,
+          "quote": "| 10 跟隨 | 諾亞不在場，塞拉或多恩就停止生活 | 假設用 600～1000 字只跟隨塞拉／多恩一段普通工作或私人活動，仍能產生一個具體小選擇 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-637",
+      "title": "第135已提供兩主角對稱A版前史，但沒有轉為正式履歷",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "第135已提供兩主角對稱A版前史，但沒有轉為正式履歷。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 83,
+          "quote": "**第一步（本檔已開始）**：四人初次盤點，確認既有來源；尤須注意第135份已有**雙主角等量完整前史 A 案**，不可說倉庫完全沒有前史，更不能把 A 案自動採納。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-638",
+      "title": "下一步應產兩張確認/候選/未知/演出背景卡，依現有A案而非重造",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "下一步應產兩張確認/候選/未知/演出背景卡，依現有A案而非重造。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 85,
+          "quote": "**第二步（下一輪工作主軸）**：先針對諾亞和艾莉維亞各製作一張「**已確認／候選可選／關鍵未知／正文呈現方式**」背景卡。先從第135份的現存候選比較與取捨，不重新憑空編一套，也不要一次把"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-639",
+      "title": "多恩塞拉各自獨立短場景為非正史壓力測試，不須產生巨大陰謀",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "多恩塞拉各自獨立短場景為非正史壓力測試，不須產生巨大陰謀。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 87,
+          "quote": "**第三步**：為多恩及塞拉各做一場**獨立於雙主角的生活／職業壓力短場景試驗**（標記 NON-CANON），測試第3、6、8、10題。應讓人物自己做選擇、有工作和人際後果，而不是每場都給"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-640",
+      "title": "回讀第七八章應專注實際動作/對話，現檔不覆寫候選正文",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "回讀第七八章應專注實際動作/對話，現檔不覆寫候選正文。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 89,
+          "quote": "**第四步**：回頭讀第七、八章，看哪些動作、對話自然顯示人物，而不是硬塞設定。真正要修改正文時，再由使用者指定原作者 Gemini 或此處修訂；本檔**不**改寫候選正文。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-641",
+      "title": "作者背景知識與讀者必須聽的傳記內容需切開",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者背景知識與讀者必須聽的傳記內容需切開。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 93,
+          "quote": "- 不把「作者要知道背景」誤作「讀者必須看完整生平」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-642",
+      "title": "悲慘孤兒/神祕血統不是所有人物深度的唯一途徑",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "悲慘孤兒/神祕血統不是所有人物深度的唯一途徑。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 94,
+          "quote": "- 不以悲慘、孤兒、神祕血統作主角深入的唯一來源；平凡但充實的生活也能有角色重量。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-643",
+      "title": "有魅力配角不必都被寫成未來命運主謀",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "有魅力配角不必都被寫成未來命運主謀。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 95,
+          "quote": "- 不把每個有魅力的配角逼成未來 E.G.O 式人物、關鍵主謀或永遠接到主線。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-644",
+      "title": "巨構制度應真實作用在活人身上而不是取代人物",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "巨構制度應真實作用在活人身上而不是取代人物。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 96,
+          "quote": "- **人物先活，巨構才有重量**；事件尺度、工程合理性、路網與政治要能真實影響人，但不是角色的替代物。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-645",
+      "title": "封底照片可見問題但原書未查，不虛稱全書讀完",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "封底照片可見問題但原書未查，不虛稱全書讀完。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 99,
+          "quote": "- 使用者提供的《角色人物的解剖》封底照片（可見十二問與八個宣傳重點；未接觸全書內文）。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-646",
+      "title": "第029確認命名與互動，來源清單不可替原文採案",
+      "status": "LATER_REVISION_BOUNDARY",
+      "analysis": "第029確認命名與互動，來源清單不可替原文採案。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 100,
+          "quote": "- [第029份｜命名與對話](029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md)"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-647",
+      "title": "第067明定第一章初遇，是高於先前熟識開場的作者時序",
+      "status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "analysis": "第067明定第一章初遇，是高於先前熟識開場的作者時序。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 102,
+          "quote": "- [第067份｜正式第一章雙主角首次相遇](067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md)"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-648",
+      "title": "第135雙主角完整前史仍只是一套未採A案",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第135雙主角完整前史仍只是一套未採A案。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 103,
+          "quote": "- [第135份｜前史 A 案，尚未採納](135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md)"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-649",
+      "title": "第七八章Gemini全文與幕後因果仍候選，不能據此設正式歷史",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第七八章Gemini全文與幕後因果仍候選，不能據此設正式歷史。依來源原文、具名後出依賴及人物當時知情限制做範圍內判讀；不將出處整理誤作正式小說採案。",
+      "guardrail": "來源SHA與原文片段可查；候選、已選未發生及正式發生分開，不將關聯圖解讀為新增因果或Canon。",
+      "next_action": "如相關設定或候選章要採用，先重讀此處原文、後出修正並查明最新作者決定。",
+      "authority": "EDITORIAL_SOURCE_ANCHORED__NOT_AUTHOR_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
+          "git_blob_sha": "2e0291d5e29818b399686c082f1996903312a929",
+          "line": 104,
+          "quote": "- [Gemini 第七、八章最新完整候選](../待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md)"
+        }
+      ]
+    }
+  ]
+}

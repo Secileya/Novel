@@ -1,6 +1,6 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
@@ -25,16 +25,16 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第13批6份344行，50段，101命題／原文行號證據，202條非Canon圖邊；累計34／335，301待審。語氣庫另外建立可測但不強迫說詞的真寫作查閱流程。",
+    "important": "第14批 151/203 兩份全行195行，19段，92項錨定原文命題與184條非Canon圖回接；36／335待CI驗證通過才宣稱正式核定，299仍待審。正式0章 PREWRITE HOLD。",
     "targeted_audit_records": 557,
     "targeted_audit_verified_quotes": 748,
-    "full_file_editorial_accepted": 15,
-    "full_file_editorial_remaining": 156,
+    "full_file_editorial_accepted": 16,
+    "full_file_editorial_remaining": 155,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 34,
-    "all_source_full_file_editorial_remaining": 301,
-    "historical_164_full_file_acceptance": 19,
-    "historical_171_full_file_acceptance": 15,
+    "all_source_full_file_editorial_accepted": 36,
+    "all_source_full_file_editorial_remaining": 299,
+    "historical_164_full_file_acceptance": 20,
+    "historical_171_full_file_acceptance": 16,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -80,8 +80,8 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 34,
-        "pending": 301,
+        "verified_complete": 36,
+        "pending": 299,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -89,7 +89,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "No all-source fulfillment; continue batch-by-batch",
-        "stage": "BATCH13_FULL_SOURCE_CI_VERIFIED",
+        "stage": "BATCH14_COMMITTED_CI_PENDING",
         "last_verified_commit": "0437691488964557e81065a2195e25878e611e79",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42620847545",
         "cross_source_next_batch": [
@@ -98,17 +98,16 @@
           "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
           "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md"
         ],
-        "historical_164_accepted": 19,
-        "historical_171_accepted": 15,
-        "last_batch_files": "03_135,04_140/141/142/143,07_148",
-        "last_batch_full_lines": 344,
-        "last_batch_sections": 50,
-        "last_batch_new_claims": 101,
-        "last_batch_new_anchors": 101,
+        "historical_164_accepted": 20,
+        "historical_171_accepted": 16,
+        "last_batch_files": "06_151,03_203",
+        "last_batch_full_lines": 195,
+        "last_batch_sections": 19,
+        "last_batch_new_claims": 92,
+        "last_batch_new_anchors": 92,
         "next_batch": [
-          "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
-          "03_人物關係與語感/203_人物背景與活人感_六項讀本檢查_四角色初次盤點_非正史.md",
-          "07_候選故事與場景/150_非正史長篇試寫_靜謐迴廊終點_第一次白髮與雙巨大收穫.md"
+          "07_候選故事與場景/150_非正史長篇試寫_靜謐迴廊終點_第一次白髮與雙巨大收穫.md",
+          "待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -451,22 +450,18 @@
     }
   ],
   "last_delivered_work": {
-    "date": "2026-11-09",
-    "task": "NEXT-009 batch13 + optional phrase library workflow",
-    "source_files_attested_this_turn": 6,
-    "original_lines_reviewed": 344,
-    "review_sections": 50,
-    "atomic_findings": 101,
-    "original_line_anchors": 101,
-    "nonCanon_graph_links": 202,
-    "all_source_accepted": 34,
-    "all_source_pending": 301,
-    "voice_retro_review_files": 12,
-    "voice_original_writing_consultation": "NOT_VERIFIED",
-    "voice_ci_url": "https://github.com/Secileya/Novel/actions/runs/42620246527",
-    "most_recent_verified_commit": "0437691488964557e81065a2195e25878e611e79",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42620847545",
-    "notes": "All original material untouched, new voice check optional terms and per-file SHA receipt. Initial CI test failures corrected in 76c4f, latest batch13 CI succeeded."
+    "date": "2026-11-10",
+    "task": "NEXT-009 batch14",
+    "source_files_attested_this_turn": 2,
+    "original_lines_reviewed": 195,
+    "review_sections": 19,
+    "atomic_findings": 92,
+    "original_line_anchors": 92,
+    "nonCanon_graph_links": 184,
+    "all_source_accepted": 36,
+    "all_source_pending": 299,
+    "state": "COMMITTED_CI_PENDING",
+    "notes": "151/203 checked with actual Git source anchors and external candidate/later revision boundary; no Canon changes. Only count as CI verified after GitHub Actions success."
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -485,14 +480,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH13_CI_VERIFIED__VOICE_LIBRARY_NONMANDATORY_QA_INSTALLED",
-    "scope": "Latest 34/335 full-source AI editorial attested; 301 unreviewed; batch13 6 files 344 lines 50 sections 101 SHA-quoted claims and 202 non-Canon links. The voice library check is now CI-enforced for 12 current candidate source SHAs, but it does not force any dialogue term.",
-    "commit": "0437691488964557e81065a2195e25878e611e79",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42620847545",
-    "voice_ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42620246527",
-    "not_finished": "301 source originals unreviewed; long source 150 has 1619 lines, B2 six-chapter source 152 has 3015 lines and require independent high-density passes; prior writing-time voice library consultation has no historical receipt.",
-    "next_step": "Next review 151 (90 lines), 203 (105 lines), then long 150 (1619 lines) without auto Canon promotion; keep voice receipt current on new drafts."
+    "stage": "BATCH14_SUBMITTED_CI_PENDING",
+    "scope": "151 (90 lines) + 203 (105 lines), v2 editorial QA with source anchors, full line sections and scoped existing-domain graph mapping. Still 0 formal Canon chapters.",
+    "commit": "PENDING_COMMIT",
+    "ci_result": "PENDING",
+    "ci_run_url": null,
+    "not_finished": "299 sources after this proposed batch, subject to CI; long candidate 150 and Gemini chapter 7/8 still demand independent full-pass.",
+    "next_step": "Verify exact batch14 commit in Actions, inspect failed tests if any, then begin 150 full 1619-line pass without Canon promotion."
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -504,6 +498,7 @@
     "00_分類導航/設定關聯引擎/20261109_第十批四份_語氣權威與劇情引擎長評析_v2.json",
     "00_分類導航/設定關聯引擎/20261109_第十一批六份_白髮修訂與篇章候選_全文v2語義審核.json",
     "00_分類導航/設定關聯引擎/20261109_第十二批六份_匿名記憶視覺與升級_全文v2審核.json",
-    "00_分類導航/設定關聯引擎/20261109_第十三批六份_前史雙武裝白髮反例與五版試寫_v2.json"
+    "00_分類導航/設定關聯引擎/20261109_第十三批六份_前史雙武裝白髮反例與五版試寫_v2.json",
+    "00_分類導航/設定關聯引擎/20261110_第十四批_151與203_全文語義仲裁_v2.json"
   ]
 }
