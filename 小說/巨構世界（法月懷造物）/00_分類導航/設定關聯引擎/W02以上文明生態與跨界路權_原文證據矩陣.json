@@ -724,48 +724,139 @@
   "version_sensitive_barriers": [
     {
       "id": "LEGACY-K04",
+      "name": "熱交換巨塹",
+      "endpoints": [
+        "W03",
+        "W04"
+      ],
       "version": "V03_LEGACY_K",
-      "status": "CANDIDATE"
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
     },
     {
       "id": "LEGACY-K07",
+      "name": "懸殼風隙",
+      "endpoints": [
+        "W05",
+        "W06"
+      ],
       "version": "V03_LEGACY_K",
-      "status": "CANDIDATE"
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
     },
     {
       "id": "LEGACY-K08",
+      "name": "斜柱厚隔",
+      "endpoints": [
+        "W02",
+        "W07"
+      ],
       "version": "V03_LEGACY_K",
-      "status": "CANDIDATE"
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
     },
     {
       "id": "LEGACY-K09",
+      "name": "上段側脊",
+      "endpoints": [
+        "W07",
+        "W06"
+      ],
       "version": "V03_LEGACY_K",
-      "status": "CANDIDATE"
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
     },
     {
       "id": "LEGACY-K10",
+      "name": "複合環境隔帶",
+      "endpoints": [
+        "W03",
+        "W05"
+      ],
       "version": "V03_LEGACY_K",
-      "status": "CANDIDATE"
+      "authority": "AUTHOR_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "地圖/巨構導航資料_宏觀V0.3.json",
+        "02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md",
+        "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md"
+      ]
     },
     {
       "id": "G-K04",
+      "name": "視線可見的K04巨塹",
+      "endpoints": [
+        "W02",
+        "W03"
+      ],
       "version": "GEMINI_G_K_LATER_CANDIDATE",
-      "status": "CANDIDATE"
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
     },
     {
       "id": "G-K07",
+      "name": "斜向風隙",
+      "endpoints": [
+        "W05",
+        "W07"
+      ],
       "version": "GEMINI_G_K_LATER_CANDIDATE",
-      "status": "CANDIDATE"
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
     },
     {
       "id": "G-K08",
+      "name": "橫跨萬里",
+      "endpoints": [
+        "W06",
+        "W07"
+      ],
       "version": "GEMINI_G_K_LATER_CANDIDATE",
-      "status": "CANDIDATE"
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
     },
     {
       "id": "G-K09",
+      "name": "水熱垂直環帶",
+      "endpoints": [
+        "W03",
+        "W05"
+      ],
       "version": "GEMINI_G_K_LATER_CANDIDATE",
-      "status": "CANDIDATE"
+      "authority": "GEMINI_CANDIDATE_NON_CANON",
+      "crossing_operational_verified": false,
+      "source_paths": [
+        "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md"
+      ]
     }
   ],
   "world_status": {
