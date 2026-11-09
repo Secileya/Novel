@@ -22,6 +22,7 @@
 - `GitHub source index entry invalid`：來源索引格式錯誤；腳本拒絕使用不完整清單判斷刪除或封存。
 - `Blob SHA mismatch`：下載到的內容與所選 commit 的 GitHub SHA 不同，該筆設為 `SYNC_FAILED`，不得標為現行。
 - `Exception: Service invoked too many times`、`Exceeded maximum execution time`：Google 配額或執行時間；v3 程式每批最多嘗試 8 筆、每 2 筆保存進度，並在各檔案之間核對 135 秒軟性時間閥值；若單次 Google API 呼叫本身卡住仍可能逾時。批次過大可以調低 `maxFilesPerRun`。
+- **2026-11-10 `docs create` 每日額度冷卻補丁（GitHub helper，尚非實際部署）**：一旦 Google Apps Script 回報 `docs create` 每日建立額度，立刻停下同批餘下的檔案嘗試，將 `docsCreateQuotaPauseUntil` 記入 `_GITHUB_SYNC_STATE.json`，保守冷卻 25 小時；既有 `syncDrain` 每 5 分鐘排程仍可執行，但冷卻期間不會繼續建立文件，解除冷卻後可自動繼續重試。已成功的 SHA 不重新建立，失敗仍保持 `SYNC_FAILED`，不製造假完成。**GitHub 修改 Code.gs 不會自動更新使用者自己的 Apps Script 專案**；必須將最新完整 `Code.gs` 複製到既有 Apps Script 的 `程式碼.gs` 並儲存（原觸發器繼續沿用），才能真正啟用本補丁。若未安裝，本來的自動重試仍會於 Google 配額恢復後繼續，但每輪仍可能反覆觸及配額。
 - 部分檔案持續失敗：看 `00_鏡像同步狀態與使用說明` 中的失敗清單、Apps Script 執行紀錄與 manifest；不得說全庫同步完成。
 - Google Drive 搜尋延遲：Google 索引不一定立即更新。可先依鏡像分類資料夾及 `GitHub SHA`/文件連結讀取，避免只看檔名或搜尋摘要。
 ## 安全與限制

@@ -87,7 +87,14 @@ function syncCore_() {
     let failed = 0;
     let bytes = 0;
     const errors = [];
+    // A docs.create daily quota error is not an individual-file defect.
+    // Save one shared cooldown so the 5-minute trigger does not burn through
+    // eight identical failures every run. No manifest entry is marked CURRENT.
+    const pauseUntilMs = Date.parse(state.docsCreateQuotaPauseUntil || '');
+    const coolingDown = Number.isFinite(pauseUntilMs) && Date.now() < pauseUntilMs;
+    let pausedForDocsQuotaThisRun = false;
     for (const entry of pending) {
+      if (coolingDown) break;
       if (updated + failed >= cfg.maxFilesPerRun || Date.now() - started > cfg.maxTimeMs) break;
       const rel = entry.path.slice(cfg.prefix.length);
       try {
@@ -118,9 +125,16 @@ function syncCore_() {
         // Don't mislabel old content as current on failures.
         const prev = state.files[rel] || {};
         state.files[rel] = Object.assign({}, prev, { status:'SYNC_FAILED', error:String(err).slice(0,300) });
+        if (isDailyDocsCreateQuotaError_(err)) {
+          // Conservative 25h from the observed limit: Google daily quotas
+          // are not guaranteed to reset at a local midnight boundary.
+          state.docsCreateQuotaPauseUntil = new Date(Date.now() + 25*60*60*1000).toISOString();
+          pausedForDocsQuotaThisRun = true;
+        }
       }
       // Resumable progress: survive a provider timeout after each attempted file.
       if ((updated + failed) % 2 === 0) saveState_(manifestFile,state);
+      if (pausedForDocsQuotaThisRun) break;
     }
     // Preserve deleted sources as explicitly archived historical data; never erase.
     let archived = 0;
@@ -161,10 +175,18 @@ function syncCore_() {
     updateStatusDoc_(root,state);
     if (unfinished===0) removeTrigger_('syncDrain');
     else ensureTrigger_('syncDrain',5);
-    return {status: unfinished===0 ? 'COMPLETE' : 'PARTIAL', head:head.sha,
+    return {status: unfinished===0 ? 'COMPLETE' :
+      (coolingDown || pausedForDocsQuotaThisRun ? 'DOCS_CREATE_QUOTA_COOLDOWN' : 'PARTIAL'), head:head.sha,
       total: matching.length, current:matching.length-unfinished, pending:unfinished,
-      updated, failed, archived, bytes, errors:errors.slice(0,8)};
+      updated, failed, archived, bytes, errors:errors.slice(0,8),
+      docsCreateQuotaPauseUntil:state.docsCreateQuotaPauseUntil || null};
   } finally { lock.releaseLock(); }
+}
+function isDailyDocsCreateQuotaError_(err) {
+  const s = String(err || '').toLowerCase();
+  return (s.includes('docs create') || s.includes('documentapp.create')) &&
+    (s.includes('單日') || s.includes('for one day') || s.includes('per day') ||
+     s.includes('daily') || s.includes('too many times') || s.includes('quota'));
 }
 function getJson_(url) {
   const res = UrlFetchApp.fetch(url, { muteHttpExceptions:true,
@@ -295,6 +317,8 @@ function updateStatusDoc_(root,state) {
     'GitHub 範圍內檔案數：'+state.totalInTree,
     'CURRENT：'+current+'｜未完成/失敗：'+state.pending,
     '本輪成功：'+state.successfulThisRun+'｜本輪失敗：'+state.failedThisRun,
+    'Google Docs 每日建立額度冷卻至：'+
+      (Date.parse(state.docsCreateQuotaPauseUntil||'') > Date.now() ? state.docsCreateQuotaPauseUntil : '目前無冷卻'),
     '失敗（若有）：'+(state.lastErrors||[]).join(' | '),
     '注意：這是來源鏡像，不是新 Canon。Gemini 應按需讀取原文及後出修訂；不能把 CANDIDATE、PREWRITE HOLD 當正式正文。',
     '鏡像僅由 Apps Script 維護。不要在鏡像內編輯原文；請在 GitHub main 修改。已刪除來源會移入封存，不會永久刪除。',
