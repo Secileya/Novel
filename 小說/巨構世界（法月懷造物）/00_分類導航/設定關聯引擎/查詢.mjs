@@ -34,7 +34,14 @@ const importantVersionQA = JSON.parse(fs.readFileSync(path.join(HOME,"候選版�
 const fourthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第四批跨源語義衝突與審核門檻.json"),"utf8"));
 const fifthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第五批首篇版本與敘事權威仲裁.json"),"utf8"));
 const sixthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第六批視覺與敘事研究仲裁.json"),"utf8"));
-const auditedClaimByID=new Map([...fourthAudit.records,...fifthAudit.records,...sixthAudit.records].map(x=>[x.id,x]));
+const auditManifest=JSON.parse(fs.readFileSync(path.join(HOME,"AI接手_工作板.json"),"utf8")).audited_batch_paths;
+const extraAudits=auditManifest.slice(3).map(p=>{
+  if(!p.startsWith("00_分類導航/設定關聯引擎/")||p.includes(".."))throw Error("unsafe audit path "+p);
+  return JSON.parse(fs.readFileSync(path.join(PROJECT,p),"utf8"));
+});
+const allAudits=[fourthAudit,fifthAudit,sixthAudit,...extraAudits];
+const allAuditRecords=allAudits.flatMap(x=>x.records||[]);
+const auditedClaimByID=new Map(allAuditRecords.map(x=>[x.id,x]));
 const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
 const sourceRolesByID = new Map(allSourceRoles.map(x=>[x.id,x]));
@@ -729,10 +736,10 @@ function findFifthAudit(q) {
     warning:"22項第五批首篇版本／作者回饋／局部後修審核；並未證明這14份來源逐檔全文語義已完成，也沒有把A/B/C候選或第051已選未發生升為正式故事進度。"
   };
 }
-function findReviewedSourceImpact(versions,fourthFindings,fifthFindings,sixthFindings) {
+function findReviewedSourceImpact(versions,fourthFindings,fifthFindings,sixthFindings,additionalFindings) {
   // Conservative one-hop graph only: version↔reviewed claim↔original file.
   // It produces a re-read checklist, NOT a proof of causal effects or canon promotion.
-  const selected=new Set([...fourthFindings.matched_findings,...fifthFindings.matched_findings,...sixthFindings.matched_findings].map(a=>a.id));
+  const selected=new Set([...fourthFindings.matched_findings,...fifthFindings.matched_findings,...sixthFindings.matched_findings,...additionalFindings.matched_findings].map(a=>a.id));
   for(const v of versions)for(const id of v.related_audit_ids||[])selected.add(id);
   const records=[...selected].map(id=>auditedClaimByID.get(id)).filter(Boolean);
   const linked=versionLedger.records.filter(v=>
@@ -770,6 +777,25 @@ function findSixthAudit(q) {
     matched_count:found.length,matched_findings:found.slice(0,broad?14:12).map(x=>({...x.record,relevance_score:x.score})),
     warning:"五份171待審舊來源作局部語義核對＋第119後出准用；不證明五份全文已審完，也不將任何候選正式化。"};
 }
+function findAdditionalAudits(q){
+  const qn=norm(q);
+  const broad=/第七批|後續定向審核總覽|SRC-171-0(?:5[6-9]|6[0-8])/.test(q);
+  const terms=q.split(/[\s、，。；：！?？／()「」《》]+/).map(norm).filter(t=>t.length>=2);
+  const found=extraAudits.flatMap(a=>a.records||[]).map(record=>{
+    let score=qn.includes(norm(record.id))?100:0;
+    for(const t of terms){
+      if(norm(record.title).includes(t))score+=12;
+      if(norm(record.status).includes(t))score+=4;
+      if(norm(record.analysis).includes(t))score+=3;
+      if(norm(record.evidence.map(e=>e.source_path).join(" ")).includes(t))score+=2;
+    }
+    return {score,record};
+  }).filter(x=>broad||x.score>0).sort((a,b)=>b.score-a.score||a.record.id.localeCompare(b.record.id));
+  return {reviewed_batches:extraAudits.length,all_reviewed_findings:extraAudits.reduce((n,x)=>n+x.records.length,0),
+    verified_original_quotes:extraAudits.reduce((n,x)=>n+Number(x.evidence_count??x.original_anchors_count??0),0),
+    matched_count:found.length,matched_findings:found.slice(0,broad?30:12).map(x=>({...x.record,relevance_score:x.score})),
+    warning:"從工作板批次清單查詢新增定向語義證據；只能代表此範圍的原文判讀，不代表整份舊檔全文已仲裁或升為Canon。"};
+}
 function query(q, corpus) {
   if (!q || !q.trim()) throw Error("Need --query or positional query text");
   const ids = identify(q);
@@ -791,7 +817,8 @@ function query(q, corpus) {
   const fourthFindings = findFourthAudit(q);
   const fifthFindings = findFifthAudit(q);
   const sixthFindings = findSixthAudit(q);
-  const reviewedImpact=findReviewedSourceImpact(versions,fourthFindings,fifthFindings,sixthFindings);
+  const additionalFindings=findAdditionalAudits(q);
+  const reviewedImpact=findReviewedSourceImpact(versions,fourthFindings,fifthFindings,sixthFindings,additionalFindings);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -874,7 +901,7 @@ function query(q, corpus) {
     candidate_two_hop_impact_paths:impact,
     version_decisions:versionFindings,
     reviewed_source_impact_and_recheck:reviewedImpact,
-    unified_semantic_audit_graph:{reviewed_findings:auditedClaimByID.size,verified_original_quotes:fourthAudit.evidence_count+fifthAudit.original_anchors_count+sixthAudit.original_anchors_count,
+    unified_semantic_audit_graph:{reviewed_findings:auditedClaimByID.size,verified_original_quotes:allAudits.reduce((n,x)=>n+Number(x.evidence_count??x.original_anchors_count??0),0),
       linked_versions:versionLedger.records.filter(v=>(v.related_audit_ids||[]).length>0).map(v=>({id:v.id,related_audit_ids:v.related_audit_ids})),
       warning:"既有版本決策可取回第四／五批原文SHA、行號及候選狀態；並非171份全文仲裁，也非Canon採案。"},
     searched_terms:terms, selected_sources:opened,
@@ -885,6 +912,7 @@ function query(q, corpus) {
     fourth_batch_cross_source_semantic_findings:fourthFindings,
     fifth_batch_opening_version_authority_findings:fifthFindings,
     sixth_batch_visual_reference_and_narrative_findings:sixthFindings,
+    subsequent_batch_original_source_semantic_findings:additionalFindings,
     human_reviewed_candidate_version_changes:{
       total_semantic_version_notes:importantVersionQA.records.length,
       matched_semantic_differences:importantVersionQA.records
@@ -1024,8 +1052,12 @@ function selfTest(corpus) {
   const visualQuery=query("圖片 景觀 直接 授權",corpus);
   assert(visualQuery.sixth_batch_visual_reference_and_narrative_findings.matched_findings.some(x=>x.id==="SRC-171-054"));
   assert(visualQuery.version_compatibility_ledger.some(x=>x.id==="VER-013"&&x.linked_verified_audits.some(a=>a.id==="SRC-171-054")));
-  assert.equal(visualQuery.unified_semantic_audit_graph.reviewed_findings,55);
-  assert.equal(visualQuery.unified_semantic_audit_graph.verified_original_quotes,147);
+  assert.equal(visualQuery.unified_semantic_audit_graph.reviewed_findings,68);
+  assert.equal(visualQuery.unified_semantic_audit_graph.verified_original_quotes,188);
+  const legal=query("G3 物權 32噸 回彈",corpus);
+  assert(legal.version_compatibility_ledger.some(x=>x.id==="VER-014"&&x.linked_verified_audits.some(a=>a.id==="SRC-171-060")));
+  assert(legal.subsequent_batch_original_source_semantic_findings.matched_findings.some(x=>x.id==="SRC-171-060"));
+  assert(legal.reviewed_source_impact_and_recheck.suggested_source_paths_to_reread.some(p=>p.includes("160_Gemini整合後全庫對照")));
   assert(reviewedOpen.reviewed_source_impact_and_recheck.matched_reviewed_records.some(x=>x.id==="SRC-171-020"));
   assert(reviewedOpen.reviewed_source_impact_and_recheck.related_version_decisions.some(x=>x.id==="VER-011"));
   assert(reviewedOpen.reviewed_source_impact_and_recheck.suggested_source_paths_to_reread.some(p=>p.includes("111_雙開篇連續試演")));

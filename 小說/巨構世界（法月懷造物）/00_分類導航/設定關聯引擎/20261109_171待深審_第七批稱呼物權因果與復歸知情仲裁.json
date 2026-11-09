@@ -1,0 +1,444 @@
+{
+  "schema": "mega-171-batch7-scope-anchored-audit-v1",
+  "date": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "baseline_commit": "a1d79ffbc5070ce4c12ca2fde252ee8490b87f64",
+  "topic": "第七批：艾莉維亞稱呼／原槍認知；G1–G3局部修補與未解物權／受力／社會後果；復歸見證與外部案例限度",
+  "backlog_targeted_sources": [
+    "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+    "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+    "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md"
+  ],
+  "reviewed_scope": "三份171待整檔深審來源的限定範圍交叉核對，另回讀3份後出／對照文件；不是三份全文語義驗收。",
+  "record_count": 13,
+  "original_anchors_count": 41,
+  "source_files_targeted": 5,
+  "source_file_manifest": [
+    {
+      "path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+      "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee"
+    },
+    {
+      "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+      "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c"
+    },
+    {
+      "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+      "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b"
+    },
+    {
+      "path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+      "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d"
+    },
+    {
+      "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+      "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5"
+    }
+  ],
+  "records": [
+    {
+      "id": "SRC-171-056",
+      "title": "艾莉維亞的少女／女生／姑娘用詞不削減其成熟實力",
+      "status": "AUTHOR_DEFINED_NARRATION_LEXICON",
+      "priority": "HIGH",
+      "analysis": "11/04局部修稿遵照第093、103既有讀稿用詞，艾莉維亞宜用少女、女生或姑娘，不能以『女人』泛指她；這是敘事稱呼，不是能力或人格降級。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 3,
+          "quote": "「少女／女生／姑娘」"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 3,
+          "quote": "稱呼與能力強弱沒有關係"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 7,
+          "quote": "其他同字串均指另一名成年歸來旅人"
+        }
+      ],
+      "guardrail": "不可在其他成年人物出現『女人』時全面取代，也不將G3局部稱呼當全部原稿已修好。",
+      "next_action": "查第093及103後出人物用詞；後續稿逐場按說話者/指涉對象核對稱呼。"
+    },
+    {
+      "id": "SRC-171-057",
+      "title": "G3第二章有三處特定稱呼修補，且只同步兩個閱讀入口",
+      "status": "SCOPED_TEXT_PATCH_TWO_READING_COPIES",
+      "priority": "HIGH",
+      "analysis": "11/04稽核對當時59份候選稿掃描，只定位G3第二章三個指涉；實際同步純正文與155完整回覆排版兩個閱讀入口，不能稱全庫重寫。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 7,
+          "quote": "共59份 Markdown"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 8,
+          "quote": "兩個常用的 **G3第二章閱讀入口**"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 9,
+          "quote": "這個轉眼就賣隊友的少女"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 23,
+          "quote": "用詞／情報校訂不能冒稱已將G3劇情所有問題修好"
+        }
+      ],
+      "guardrail": "兩個閱讀版變更≠TXT原始討論已被改寫、≠作者採用G3、≠當前所有後出候選版別也有相同錯字。",
+      "next_action": "若要對照現行順讀稿，重新檢查三處字串和被指涉者；不直接批量替換其他人物。"
+    },
+    {
+      "id": "SRC-171-058",
+      "title": "黑銃與暗銀卡槽共鳴不等於諾亞知道原廠來源",
+      "status": "CHARACTER_KNOWLEDGE_BOUNDARY_NOT_IDENTIFIED_COMPONENT",
+      "priority": "HIGH",
+      "analysis": "原G3把未查證的卡槽直接命名『原槍外圍傳導碎件』與角色所知不相符；修補將主觀信息限為可見共鳴及不明用途。作者層知道槍特殊不會自動賦予諾亞原廠鑑定能力。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 10,
+          "quote": "暗銀色微型卡槽與諾亞黑銃隱隱共鳴"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 14,
+          "quote": "不能據此斷言諾亞第一章已掌握原槍技術譜系"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 16,
+          "quote": "共鳴是可觀察線索，不等於原廠鑑定"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 17,
+          "quote": "正式後續須由真實檢測、記錄"
+        }
+      ],
+      "guardrail": "共鳴可以構成諾亞重視物件的動機，但不等於原廠鑑定、完整型號與歷史知識，亦不等於此件已證真品。",
+      "next_action": "任何後續升格都須新增實際檢測、觀測記錄、知情者或相容性測試的有效情節證據。"
+    },
+    {
+      "id": "SRC-171-059",
+      "title": "後出11/08的『深層同化B』覆蓋較早的『曾安裝過』傾向",
+      "status": "AUTHORITY_TIMELINE_MODULAR_REBIRTH",
+      "priority": "HIGH",
+      "analysis": "第036文首明載較晚作者明確選B：已融入槍體的暗銀卡槽與高壓導流管隨復歸；尚未深層同化的可拆黑銷依當下狀態不跟，並可能在死亡現場造成未解安全問題。該文第二段『曾裝過就能回』是較早的使用者傾向。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 3,
+          "quote": "作者在看完 Gemini 第三輪三選後直接說"
+        },
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 3,
+          "quote": "黑銷目前只是可拆的環狀卡扣下掛件、尚未深層同化"
+        },
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 3,
+          "quote": "不能憑「槍消失了」就宣布它自動安全休眠"
+        },
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 5,
+          "quote": "使用者說「我現在傾向」"
+        }
+      ],
+      "guardrail": "不能因11/04舊G3『共鳴』就說已完成同化；不把較早的安裝傾向蓋過後出明確B；沒有首次死亡已發生的Canon場景。",
+      "next_action": "模組每次新狀態須明確記錄是否真正深層同化、是否離槍仍能作用；黑銷現場封存安全另列未決。"
+    },
+    {
+      "id": "SRC-171-060",
+      "title": "G3打撈物權涉及工聯、商行與研究站，不能一句話全數讓渡",
+      "status": "G3_PERSISTENT_PROPERTY_RIGHTS_GAP",
+      "priority": "HIGH",
+      "analysis": "原G3第二章的打撈權、商行競標保證金與舊研究站權利存在不同法律／事實主體；局部稱呼修補不曾證實老巴爾能單方抹除全部權益。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+          "line": 45,
+          "quote": "工聯打撈物權、商行保證金"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+          "line": 66,
+          "quote": "三家商行競標保證金"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 23,
+          "quote": "灰顎負債／工聯與商行物權"
+        }
+      ],
+      "guardrail": "此為針對G3候選的因果缺口，非全都市打撈法律定案，也不宣稱後出其他章版必然未修。",
+      "next_action": "若改寫G3，建立緊急僱傭、撈貨與賠償主體、商行權益、交易時點的物權鏈。"
+    },
+    {
+      "id": "SRC-171-061",
+      "title": "G3女主移出摺片造成5t到32t回彈，需保存主動責任",
+      "status": "G3_TRIGGER_LIABILITY_NOT_AUTOMATIC_RESCUE",
+      "priority": "HIGH",
+      "analysis": "候選G3事件中，艾莉維亞取出空間摺片而產生延遲回彈，且她明知相關風險並用搶險談判；即使保留其灰度，相關行為不應被簡化成純粹無辜的救場。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+          "line": 46,
+          "quote": "5t→32t延遲回彈"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+          "line": 67,
+          "quote": "明知危險卻以搶險作交易施壓"
+        }
+      ],
+      "guardrail": "精確的40秒倒數錨定仍需機制證據，不能用主角可愛／強大抹去被影響者的認知和責任。",
+      "next_action": "若G3被選進候選改稿，補居民、老巴爾與其他利益關係者的實際反應。"
+    },
+    {
+      "id": "SRC-171-062",
+      "title": "G3的下墜動能、靜載重量與三柱承載不能合併計算",
+      "status": "G3_ENGINEERING_FORCE_AND_ENERGY_GAP",
+      "priority": "HIGH",
+      "analysis": "原G3以『八成動能分給三柱』就停止32t下墜並懸停，沒有交代能量、衝量與受力去向；若用特殊能力處理也須建立具體運作條件。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+          "line": 47,
+          "quote": "32噸下墜動能、三柱配重"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+          "line": 68,
+          "quote": "未建立能量與衝量去向"
+        }
+      ],
+      "guardrail": "此條只檢出候選敘事的物理連續性缺口，不是憑此一條就確定能力必定失效。",
+      "next_action": "對照最新版G3/G3修訂，逐項列動量卸載、靜載支撐、結構強度與能量去向。"
+    },
+    {
+      "id": "SRC-171-063",
+      "title": "G3損壞公共軌道與水管後仍有居民、物流和工務後果",
+      "status": "G3_INFRASTRUCTURE_DAMAGES_REQUIRE_FOLLOWTHROUGH",
+      "priority": "HIGH",
+      "analysis": "若G3事故破壞軌道、輸水管等公共設施，工務、居民、停運、物流與保險後果不因老巴爾扔帳單而自動消失。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+          "line": 48,
+          "quote": "軌道、水管、公用設施傷害"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+          "line": 74,
+          "quote": "工務損害、保險、公共物流、私人爭議"
+        }
+      ],
+      "guardrail": "保留候選的奇觀和交易笑點，但不能把帳單當世界瞬間恢復的遊戲結算介面。",
+      "next_action": "檢查後出G3修訂是否明確承接停運、修復期限、賠償責任與居民反應。"
+    },
+    {
+      "id": "SRC-171-064",
+      "title": "G3三枚供能匣的發現者與抵價人出現物權敘事錯接",
+      "status": "G3_ENERGY_CANISTERS_CUSTODY_MISMATCH",
+      "priority": "HIGH",
+      "analysis": "原G3先寫諾亞拾得三枚供能匣，後段台詞卻視其為艾莉維亞抵押物；若採這條候選，須交代雙人之間如何轉移所有／處分權，或將說法明確定為玩笑。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+          "line": 49,
+          "quote": "供能匣原持有人是諾亞"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+          "line": 77,
+          "quote": "實際前段拾獲者是諾亞"
+        }
+      ],
+      "guardrail": "不能因兩人是未來雙主角就假定所有資產共同持有。",
+      "next_action": "核候選原稿的拾得、持有、攜帶、抵押與交易連續時點，避免跨版挪用。"
+    },
+    {
+      "id": "SRC-171-065",
+      "title": "G1第一章舊結尾不能直拼G3第二章，需遵守G2修正版斷點",
+      "status": "G1_G2_G3_CANDIDATE_JOIN_INVALID",
+      "priority": "HIGH",
+      "analysis": "早期稽核明示 G1 當時第一章末尾的古斯塔事件結局與 G3 第二章接續不合；同一原稿家族應按 G2 修正後斷點接 G3，並核對後續順讀整合稿是否已再修。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+          "line": 35,
+          "quote": "**只能G2→G3**"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+          "line": 56,
+          "quote": "第154新版分第一章混亂、第二章高潮與帳單"
+        }
+      ],
+      "guardrail": "不是說G1的所有素材廢棄，亦不是指目前12章候選順讀一定仍有此錯。",
+      "next_action": "每次取用G1/G2/G3須標明具體版別及前後段停點；不能只看章號拼接。"
+    },
+    {
+      "id": "SRC-171-066",
+      "title": "使用者提供的原始Gemini TXT與可見對話人工轉錄必須分級",
+      "status": "PRIMARY_TEXT_VS_VISIBLE_CHAT_TRANSCRIPTION",
+      "priority": "HIGH",
+      "analysis": "當時的153–155可核實使用者提供TXT原文；第161–164、166、168等則是可見聊天人工轉錄／整理。後來09資料已合冊，歷史路徑應透過新版原檔名索引回查，而非宣稱舊檔仍在原位置。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 21,
+          "quote": "原始 Gemini TXT 原文未刪改"
+        },
+        {
+          "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+          "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+          "line": 22,
+          "quote": "不是 Gemini 平台原生原檔或圖片位元保全"
+        },
+        {
+          "source_path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+          "line": 36,
+          "quote": "可見聊天轉錄而非平台原生匯出"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d",
+          "line": 16,
+          "quote": "逐字回讀等於來源文字"
+        }
+      ],
+      "guardrail": "不能將截圖文字轉錄等同平台原生字節保全；原始TXT未改稿不代表讀者版沒有局部修補。",
+      "next_action": "找回來源時同時記錄原文名稱、合冊內起迄及來源保全等級，並保留歷史錯誤供版本比較。"
+    },
+    {
+      "id": "SRC-171-067",
+      "title": "艾莉維亞目擊死亡須依當時能力、距離和關係設計，不可無故旁觀",
+      "status": "WITNESS_CAUSAL_ABILITY_RESPONSIBILITY",
+      "priority": "HIGH",
+      "analysis": "第85份是助手對女主目睹諾亞真死的演出研究；若未來正式採此情節，她的高階能力意味著必須對救援時機、行動位置、資訊與實際失敗原因給因果，不能為了悲傷而讓她忘記能力。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 7,
+          "quote": "不是已定案的第一次死亡章節或正式正文"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 62,
+          "quote": "不要把艾莉維亞寫成只會站在旁邊哭的人"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 66,
+          "quote": "第一時間便採取行動"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 70,
+          "quote": "死亡發生得極快"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 72,
+          "quote": "刻意使她忘記使用能力"
+        }
+      ],
+      "guardrail": "使用者沒有定案第一次死亡是第85份的具體試寫；不同熟識時期的反應只是條件式建議，不能作已發生記憶。",
+      "next_action": "若設計實際死亡場景，先校對兩人時期、能力冷卻／反制、位置與風險，再決定她有無目睹和如何反應。"
+    },
+    {
+      "id": "SRC-171-068",
+      "title": "方九死亡回溯研究不可套成諾亞死亡可無限重試的能力與心理公式",
+      "status": "CROSS_UNIVERSE_REVIVAL_MECHANISM_SEPARATION",
+      "priority": "HIGH",
+      "analysis": "第85份後補記深藍聖堂轉貼是外部敘事案例、未獨立核原作；方九機制回到過去，諾亞世界時間不倒流。艾莉維亞不該默認其可在期限內用無限死亡解問題，亦不能憑死亡次數機械判諾亞必定精神崩潰。",
+      "authority": "SOURCE_SCOPE_INTERPRETATION__AUTHOR_DECISION_ONLY_WHERE_EXPLICIT__NOT_CANON_CHAPTER",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 730,
+          "quote": "能復歸不代表當事人負荷"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 732,
+          "quote": "尚未獨立對原著核查"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 734,
+          "quote": "外界時間不倒流"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+          "line": 734,
+          "quote": "更不能只計算死亡次數就推定絕對精神崩潰"
+        }
+      ],
+      "guardrail": "來源中『一兩百次』是轉貼他作的角色反應實驗，不是本世界死亡容許量、統一精神懲罰或確認復歸次數上限。",
+      "next_action": "後續建立真正死亡負荷與相應角色知情的場景證據，保留未定記憶／痛覺／復歸延時。"
+    }
+  ],
+  "remaining_full_file_semantic_backlog_snapshot": 170,
+  "scope_note": "第六批後仍170份待整檔審核。此批新增的每項是指定原文範圍內的細粒度判讀，不把被觸及的3份來源自動計入已完成整檔。第51已選未發生、G3及第85的候選演出與正式0章分開。"
+}

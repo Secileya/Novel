@@ -20,13 +20,13 @@
     "source_excerpt_sections": 1597,
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
-    "version_decision_nodes": 13,
+    "version_decision_nodes": 14,
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "歷史171份有來源用途卡，其中009提示詞57行已獲有條件編輯性全檔驗收；可驗收完成1、剩餘170。55定向命題不代表55份已完成；正式0章/PREWRITE HOLD。",
-    "targeted_audit_records": 55,
-    "targeted_audit_verified_quotes": 147,
+    "important": "第七批額外13條局部判讀/41原文錨點；全批共68條/188錨點；170份171來源仍未整檔完成驗收，新增定向核對不直接使未完成數下降。",
+    "targeted_audit_records": 68,
+    "targeted_audit_verified_quotes": 188,
     "full_file_editorial_accepted": 1,
     "full_file_editorial_remaining": 170
   },
@@ -312,15 +312,22 @@
     "current_head_warning": "This is the verified install baseline. Fetch latest main HEAD and CI before further edits."
   },
   "latest_progress": {
-    "task_id": "NEXT-008",
-    "stage": "PILOT_COMMITTED_PENDING_CI",
-    "scope": "建立來源整檔驗收台帳、SHA/行號/無斷裂全行覆蓋及反向缺口測試；009全57行試作，另外4份仍局部。",
-    "not_finished": "170份171原始待審清冊尚未整檔驗收；NEXT-008機制仍須延伸至其他大檔；NEXT-001後續跨源命題、NEXT-003/004/005/007與作者阻擋NEXT-006",
-    "next_step": "先取得本次CI成功；擴展NEXT-008對源檔版本與新後修的失效偵測，繼續NEXT-001下一組171來源。"
+    "task_id": "NEXT-001",
+    "stage": "SEVENTH_BATCH_STAGED_PENDING_CI",
+    "scope": "第七批定向回讀3份171待審來源，對照2份後出/舊因果修正，共13條限定命題、41處原文SHA/行號引文，並聯入VER-002、VER-006、VER-010與新VER-014。",
+    "files": [
+      "00_分類導航/設定關聯引擎/20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json",
+      "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
+      "00_分類導航/設定關聯引擎/查詢.mjs",
+      "00_分類導航/設定關聯引擎/驗證第七批原文錨點.mjs"
+    ],
+    "not_finished": "完整171份用途卡中僅有1份獲整檔編輯性驗收，其餘170份仍待；NEXT-001/003/004/005/007/008持續，NEXT-006作者HOLD。",
+    "next_step": "先驗證第七批SHA/行號與查詢回歸；下一批選未重覆的171來源，持續按整檔驗收台帳逐段完成，不把局部取證視為全檔完成。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
     "00_分類導航/設定關聯引擎/20261109_171待深審_第五批首篇版本與敘事權威仲裁.json",
-    "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json"
+    "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json",
+    "00_分類導航/設定關聯引擎/20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json"
   ]
 }
