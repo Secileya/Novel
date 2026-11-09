@@ -1,3 +1,5 @@
+> **2026-11-10｜Google Drive 鏡像及 Gemini Skill 新接手入口**：GitHub `main` 到 Stingray Drive 的來源鏡像、v3 逾時修補、Google Apps Script 部署界線、明天 Gemini Skill 更新及全新對話測試，詳見[跨 AI 同步與 Gemini 驗收交接](../../tools/google_drive_mirror/HANDOFF_GEMINI_DRIVE_20261110.md)。同一專案的 `syncDrain/syncHourly` 觸發器已建立過；GitHub 本身不能替使用者更新 Apps Script 程式或 Gemini Skill。Drive 的鏡像完成與來源335份語義驗收是不同事。正式0章／PREWRITE HOLD。
+
 > **全庫最新CI提示｜2026-11-09**：第13批完成後為34／335份已驗收、301待審；第1～12章的語庫回溯檢查已設CI，但不強迫任何嘆詞，過往寫作是否查過105仍未驗證。正式0章PREWRITE HOLD。舊第8批6／335屬歷史快照，勿當當前值。詳見[工作板](00_分類導航/設定關聯引擎/AI接手_工作板.json)。
 
 > **批量審核新作業法（2026-11-09）**：NEXT-009 不是每輪固定2～4份。先讀 [批量審核 v2](00_分類導航/設定關聯引擎/批量審核_加速與完整性保障.md)，可批量排件、共用後出來源；但每份新增全文驗收都必須具實際第二遍漏檢問答、逐段材料主張錨點、跨批依賴 SHA 和完整現行圖譜證據。不得將機械全行連續覆蓋當作語義已完整。後修或新來源觸發跨批影響回查。正式0章 PREWRITE HOLD。
