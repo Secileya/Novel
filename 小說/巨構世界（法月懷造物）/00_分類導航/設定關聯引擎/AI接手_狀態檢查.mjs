@@ -137,10 +137,14 @@ const allAudits=new Set(auditedRecords.map(x=>x.id));
 for(const v of VER.records)for(const id of v.related_audit_ids||[])
  if(!allAudits.has(id))faults.push(v.id+': audit ID not in reviewed evidence: '+id);
 if(args.includes('--metrics')){
- console.log(JSON.stringify({schema:'mega-derived-live-coverage-v1',git_head:head,source_categories:derivedCategories,
-  current_operational_metrics:latestDerivedMetrics,audited_batch_paths:auditFiles,
-  snapshot_in_sync:faults.length===0,errors:faults,
-  note:'Machine-derived local counts; not proof of full semantic review or remote CI.'},null,2));
+ console.log(JSON.stringify({schema:'mega-derived-live-coverage-v1',git_head:head,
+  historical_baseline_categories_335:derivedCategories,
+  historical_baseline_metrics:latestDerivedMetrics,
+  current_all_source_universe:GLOBAL?{total:GLOBAL.source_total,full_file_accepted:GLOBAL.accepted_full_file_count,
+    full_file_pending:GLOBAL.pending_full_file_count,new_sources:GLOBAL.new_sources_auto_queued,
+    changed_source_files:GLOBAL.changed_sources_requiring_inspection,cohorts:GLOBAL.cohort_counts}:null,
+  audited_batch_paths:auditFiles,snapshot_in_sync:faults.length===0,errors:faults,
+  note:'Live all-source universe includes future Git-committed settings; old 335/164/171 source buckets and per-category bytes are historical baseline snapshots, not full-review completion evidence. Does NOT check remote CI or grant Canon.'},null,2));
  if(faults.length)process.exitCode=2;
 }else if(args.includes('--report')){
  const pending=B.tasks.filter(x=>x.status!=='DONE');

@@ -88,8 +88,8 @@
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "No all-source fulfillment; continue batch-by-batch",
         "stage": "ALL_335_PLUS_FUTURE_GLOBAL_INTAKE_CI_VERIFIED",
-        "last_verified_commit": "045daa57536dd92b27c241c8e7628b7ce2c722eb",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42597334692",
+        "last_verified_commit": "3027b476d85e29ac8f6fba4bfc82a39a4b26f91e",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42597609809",
         "cross_source_next_batch": [
           "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
           "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
@@ -347,13 +347,27 @@
       "blocked_on": null,
       "complete_evidence": [],
       "progress": {
-        "stage": "DYNAMIC_GIT_TREE_SCAN_IMPLEMENTED_PENDING_CI",
+        "stage": "DYNAMIC_INTAKE_AND_FULL_FILE_SHA_INVALIDATION_VERIFIED_BY_CI",
         "future_media_full_semantic_attestation": "NOT_YET_SUPPORTED",
-        "downstream_dependency_invalidations": "LATER_REVISION_SHA_REVOCATION_SUPPORTED__GLOBAL_CROSSGRAPH_IMPACT_STILL_PENDING"
+        "downstream_dependency_invalidations": "LATER_REVISION_SHA_REVOCATION_SUPPORTED__GLOBAL_CROSSGRAPH_IMPACT_STILL_PENDING",
+        "verified_ci_url": "https://github.com/Secileya/Novel/actions/runs/42597609809",
+        "validated_negative_fixtures": [
+          "virtual future source enters +1 total and +1 pending, not accepted",
+          "source SHA mutated revokes accepted full-file status",
+          "later-authority source SHA mutated revokes dependent accepted status",
+          "missing lines, fake unmapped graph claim rejected"
+        ],
+        "remaining": "MEDIA_FULL_REVIEW_METHOD_AND_BROADER_GRAPH_IMPACT_COVERAGE_STILL_UNFINISHED"
       }
     }
   ],
   "last_delivered_work": [
+    {
+      "commit": "3027b476d85e29ac8f6fba4bfc82a39a4b26f91e",
+      "work": "新增來源自動入隊、來源SHA變更與後出權威SHA變更撤銷整檔完成狀態的合成反向測試實際成功；已驗收仍2/335、未驗收333，無法用測試數量冒充整檔完成數。",
+      "verification": "https://github.com/Secileya/Novel/actions/runs/42597609809 success",
+      "status": "DONE__AUTO_QUEUE_AND_REVOCATION_NEGATIVE_TESTS"
+    },
     {
       "commit": "045daa57536dd92b27c241c8e7628b7ce2c722eb",
       "work": "確認原335來源的完整母集合應為164+171，而非171單獨；落實全體2/335、剩餘333及未來新增來源動態佇列的統一作業標準、腳本與交接主任務NEXT-009。",
@@ -419,9 +433,9 @@
   "latest_progress": {
     "task_id": "NEXT-009",
     "stage": "ALL_335_PLUS_FUTURE_SOURCE_UNIVERSE_AND_164_REFERENCE_COHORT_IN_SCOPE__CI_VERIFIED",
-    "scope": "335原始來源統一完整語義/版本/人物社會生態/子單元/跨層關聯回接目標。原164僅既有細粒度引用，尚無整檔驗收；原171有2份整檔驗收。全庫2/335可證、333未驗收。動態掃描目前Git source含未來新增檔自動入分母，且新增來源、改原稿SHA、改後出權威來源SHA各有模擬退回測試。",
-    "commit": "045daa57536dd92b27c241c8e7628b7ce2c722eb",
-    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42597334692",
+    "scope": "335原始來源統一完整語義/版本/人物社會生態/子單元/跨層關聯回接目標。原164僅既有細粒度引用，尚無整檔驗收；原171有2份整檔驗收。全庫2/335可證、333未驗收。動態掃描目前Git source含未來新增檔自動入分母，且新增來源、改原稿SHA、改後出權威來源SHA各有模擬退回測試。 已由CI實際驗證『模擬新增來源自動入待審、原始來源SHA異動撤銷已完成、後出權威來源SHA異動撤銷受影響完成證書』三類反例；本輪未增加任何整檔驗收來源。",
+    "commit": "3027b476d85e29ac8f6fba4bfc82a39a4b26f91e",
+    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42597609809",
     "ci_result": "success",
     "not_finished": "333份當前來源仍無整檔完成證據（164歷史細粒度引用+169歷史用途卡）。全面原生圖連線尚未完成；68條定向命題已接164條範圍關聯，但不能換算成335份全圖回接。未來新檔需逐個實際讀；二進位視覺媒體完整驗收尚需專用程序。",
     "next_step": "NEXT-009：用全量來源_動態納管與驗收.mjs --next先查新檔/失效；混合閱讀05_083、06_084及03_104、03_106等原164／171同題文件，逐段、後修及來源權威核定，條件成立才寫入完成證書並把333扣除。若有新設定，分母隨之增加。"
