@@ -10,9 +10,13 @@ import {execFileSync} from 'node:child_process';
 const HOME=path.dirname(fileURLToPath(import.meta.url));
 const PROJECT=path.resolve(HOME,'../..');
 const B=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_工作板.json'),'utf8'));
-const A4=JSON.parse(fs.readFileSync(path.join(HOME,'20261109_171待深審_第四批跨源語義衝突與審核門檻.json'),'utf8'));
-const A5=JSON.parse(fs.readFileSync(path.join(HOME,'20261109_171待深審_第五批首篇版本與敘事權威仲裁.json'),'utf8'));
-const A6=JSON.parse(fs.readFileSync(path.join(HOME,'20261109_171待深審_第六批視覺與敘事研究仲裁.json'),'utf8'));
+const auditFiles=B.audited_batch_paths||[];
+const audits=auditFiles.map(p=>{
+  if(!p.startsWith('00_分類導航/設定關聯引擎/')||p.includes('..'))throw Error('unsafe audit path: '+p);
+  return JSON.parse(fs.readFileSync(path.join(PROJECT,p),'utf8'));
+});
+const auditedRecords=audits.flatMap(a=>a.records||[]);
+const auditedAnchorsCount=audits.reduce((n,a)=>n+Number(a.evidence_count??a.original_anchors_count??0),0);
 const BACK=JSON.parse(fs.readFileSync(path.join(HOME,'全庫待原子化缺口清冊.json'),'utf8'));
 const INV=JSON.parse(fs.readFileSync(path.join(HOME,'全庫物理清冊.json'),'utf8'));
 const VER=JSON.parse(fs.readFileSync(path.join(HOME,'版本取代與相容決策鏈.json'),'utf8'));
@@ -25,6 +29,29 @@ let head='NOT_VERIFIED_GIT_CHECKOUT';
 try{head=execFileSync('git',['rev-parse','HEAD'],{cwd:PROJECT,encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim()}
 catch{warnings.push('未取得本機git HEAD；請用GitHub連接器查main HEAD，不得自行推定')}
 const snapshot=B.fact_snapshot;
+const COVER=JSON.parse(fs.readFileSync(path.join(HOME,'語義覆蓋計數快照.json'),'utf8'));
+const sourceRolePaths=new Set(BACK.sources.map(x=>x.path));
+const derivedCategories={};
+for(const f of INV.files){
+  const k=f.path.includes('/')?f.path.split('/')[0]:'專案根目錄';
+  const row=derivedCategories[k]??={physical:0,referenced:0,bytes:0,source_role_indexed:0,source_roles_plus_atomic:0};
+  row.physical++;row.bytes+=f.bytes;row.source_roles_plus_atomic++;
+  if(sourceRolePaths.has(f.path))row.source_role_indexed++;
+  else row.referenced++;
+}
+const latestDerivedMetrics={
+  raw_original_sources:INV.files.length,
+  with_fine_grained_reference:BACK.referenced,
+  with_source_role_card_pending_full_semantic_review:BACK.sources.length,
+  machine_screened_source_dossiers:DOS.sources.length,
+  source_excerpt_sections:SECTION.sections,
+  version_nodes:VER.records.length,
+  audited_batched_claims:auditedRecords.length,
+  audited_original_quote_anchors:auditedAnchorsCount,
+  original_archive_09_files:fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,
+  formal_novel_chapters:snapshot.canon_formal_chapters,
+  prewrite_hold:snapshot.prewrite_hold
+};
 const actualCoverage=Object.freeze({
   raw_source_files:INV.files.length,
   direct_fine_grained_source_paths:BACK.referenced,
@@ -33,12 +60,23 @@ const actualCoverage=Object.freeze({
   excerpt_sections:SECTION.sections,
   version_literal_diff_pairs:DIFF.comparisons.length,
   human_semantic_version_issues:HUMAN.records.length,
-  targeted_reviewed_claims:A4.records.length+A5.records.length+A6.records.length,
-  verified_source_quotes:A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,
+  targeted_reviewed_claims:auditedRecords.length,
+  verified_source_quotes:auditedAnchorsCount,
   version_decisions:VER.records.length,
   original_archive_09_files:fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,
   full_file_semantic_review_completed:'NOT_ESTABLISHED__DO_NOT_INFER_FROM_TARGETED_CLAIMS'
 });
+const liveSnapshot=COVER.current_operational_metrics||{};
+if(JSON.stringify(derivedCategories)!==JSON.stringify(COVER.source_categories))
+  faults.push('覆蓋快照 source_categories 已過期；需從物理清冊和待審用途卡重新產生');
+for(const [name,value] of Object.entries(latestDerivedMetrics))
+  if(liveSnapshot[name]!==value)faults.push('coverage snapshot stale: '+name+': saved='+liveSnapshot[name]+', actual='+value);
+if(COVER.version_decision_count!==VER.records.length)
+  faults.push('top-level version_decision_count stale');
+if(new Set(auditFiles).size!==auditFiles.length)
+  faults.push('duplicated audit batch path');
+if(auditedRecords.length!==new Set(auditedRecords.map(x=>x.id)).size)
+  faults.push('duplicated reviewed finding ID');
 const historyIsNotCurrent='舊版文檔的251／213／182、41條／111錨點等都是歷史快照；以本報表實際讀取的來源清冊與審核檔為準。';
 function check(label,actual,expected){if(actual!==expected)faults.push(label+': actual='+actual+', board='+expected)}
 check('raw_source_files',INV.files.length,snapshot.raw_source_files);
@@ -49,8 +87,8 @@ check('source_dossiers_machine_screened',DOS.sources.length,snapshot.source_doss
 check('source_excerpt_sections',SECTION.sections,snapshot.source_excerpt_sections);
 check('candidate_version_text_diff_pairs',DIFF.comparisons.length,snapshot.candidate_version_text_diff_pairs);
 check('candidate_version_human_semantic_reviews',HUMAN.records.length,snapshot.candidate_version_human_semantic_reviews);
-check('targeted_audit_records',A4.records.length+A5.records.length+A6.records.length,snapshot.targeted_audit_records);
-check('targeted_audit_verified_quotes',A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,snapshot.targeted_audit_verified_quotes);
+check('targeted_audit_records',auditedRecords.length,snapshot.targeted_audit_records);
+check('targeted_audit_verified_quotes',auditedAnchorsCount,snapshot.targeted_audit_verified_quotes);
 check('version_decision_nodes',VER.records.length,snapshot.version_decision_nodes);
 check('nine_folder_files',fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,snapshot.nine_folder_files);
 if(snapshot.canon_formal_chapters!==0||snapshot.prewrite_hold!==true)
@@ -78,10 +116,16 @@ for(const task of B.tasks||[]){
   if(!fs.existsSync(path.resolve(PROJECT,p)))faults.push(task.id+': missing read file '+p);
  }
 }
-const allAudits=new Set([...A4.records,...A5.records,...A6.records].map(x=>x.id));
+const allAudits=new Set(auditedRecords.map(x=>x.id));
 for(const v of VER.records)for(const id of v.related_audit_ids||[])
  if(!allAudits.has(id))faults.push(v.id+': audit ID not in reviewed evidence: '+id);
-if(args.includes('--report')){
+if(args.includes('--metrics')){
+ console.log(JSON.stringify({schema:'mega-derived-live-coverage-v1',git_head:head,source_categories:derivedCategories,
+  current_operational_metrics:latestDerivedMetrics,audited_batch_paths:auditFiles,
+  snapshot_in_sync:faults.length===0,errors:faults,
+  note:'Machine-derived local counts; not proof of full semantic review or remote CI.'},null,2));
+ if(faults.length)process.exitCode=2;
+}else if(args.includes('--report')){
  const pending=B.tasks.filter(x=>x.status!=='DONE');
  const next=B.tasks.filter(x=>x.status==='READY').sort((a,b)=>a.priority-b.priority||B.tasks.indexOf(a)-B.tasks.indexOf(b))[0]||null;
  console.log(JSON.stringify({schema:'mega-required-every-turn-status-report-v1',git_head:head,
