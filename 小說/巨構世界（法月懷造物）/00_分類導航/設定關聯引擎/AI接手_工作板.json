@@ -25,16 +25,16 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第14批151/203兩份全行195行、19段、92項原文命題、184條非Canon證據圖關聯，現經GitHub Actions CI 42664816999成功驗證；累計36／335已驗收、299份待審。正式0章／PREWRITE HOLD。",
-    "targeted_audit_records": 649,
-    "targeted_audit_verified_quotes": 840,
-    "full_file_editorial_accepted": 16,
-    "full_file_editorial_remaining": 155,
+    "important": "第15批已寫入10份全文，2130行、71段、249原文錨及498非Canon證據橋；須待CI核查才可聲稱驗證完成。全庫暫登46/335，0正式章。",
+    "targeted_audit_records": 898,
+    "targeted_audit_verified_quotes": 1089,
+    "full_file_editorial_accepted": 17,
+    "full_file_editorial_remaining": 154,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 36,
-    "all_source_full_file_editorial_remaining": 299,
-    "historical_164_full_file_acceptance": 20,
-    "historical_171_full_file_acceptance": 16,
+    "all_source_full_file_editorial_accepted": 46,
+    "all_source_full_file_editorial_remaining": 289,
+    "historical_164_full_file_acceptance": 29,
+    "historical_171_full_file_acceptance": 17,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -80,8 +80,8 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 36,
-        "pending": 299,
+        "verified_complete": 46,
+        "pending": 289,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -89,7 +89,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "No all-source fulfillment; continue batch-by-batch",
-        "stage": "BATCH14_FULL_SOURCE_CI_VERIFIED",
+        "stage": "BATCH15_COMMITTED_CI_PENDING",
         "last_verified_commit": "b697f413d8fa4c05a2c1833057cf30b805807901",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42664816999",
         "cross_source_next_batch": [
@@ -98,16 +98,27 @@
           "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
           "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md"
         ],
-        "historical_164_accepted": 20,
-        "historical_171_accepted": 16,
-        "last_batch_files": "06_151,03_203",
-        "last_batch_full_lines": 195,
-        "last_batch_sections": 19,
-        "last_batch_new_claims": 92,
-        "last_batch_new_anchors": 92,
+        "historical_164_accepted": 29,
+        "historical_171_accepted": 17,
+        "last_batch_files": [
+          "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "03_人物關係與語感/087_後出修正_第三個座位_下次見呀的普通語氣與複層意境.md",
+          "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+          "02_地圖拓撲與交通/127_聊天V02世界層W01大區圖與R04局部內構重建_非正史.md",
+          "02_地圖拓撲與交通/129_宏觀立體剖視V04_地貌美術與未決界線.md",
+          "02_地圖拓撲與交通/131_V051主升程骨架改良_總覽圖不是最外殼_跨域與多代用途核對.md",
+          "08_交接勘誤與決議/165_作者原話與跨AI修正先後_伏筆地圖創作評價及來源界線.md",
+          "06_敘事規劃與工作流/183_人物誤判有限理性與前六章修稿規則_作者後出確認.md",
+          "07_候選故事與場景/188_非正史試演_Celeste第二次偶遇_舊觀測園的風聲.md",
+          "07_候選故事與場景/150_非正史長篇試寫_靜謐迴廊終點_第一次白髮與雙巨大收穫.md"
+        ],
+        "last_batch_full_lines": 2130,
+        "last_batch_sections": 71,
+        "last_batch_new_claims": 249,
+        "last_batch_new_anchors": 249,
         "next_batch": [
-          "07_候選故事與場景/150_非正史長篇試寫_靜謐迴廊終點_第一次白髮與雙巨大收穫.md",
-          "待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md"
+          "待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md",
+          "07_候選故事與場景/152_B2完整非正史小說試寫_從上面下來的人_六章.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -469,19 +480,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch14",
-    "source_files_attested_this_turn": 2,
-    "original_lines_reviewed": 195,
-    "review_sections": 19,
-    "atomic_findings": 92,
-    "original_line_anchors": 92,
-    "nonCanon_graph_links": 184,
-    "all_source_accepted": 36,
-    "all_source_pending": 299,
-    "state": "COMPLETE__COMMIT_CI_VERIFIED",
-    "notes": "151/203 fully source-anchored editorial v2, with non-Canon graph links and named revision SHAs. CI ultimately passed after synchronizing workboard and coverage snapshot counts; initial failed runs preserved as evidence. No source/Canon edits.",
-    "most_recent_verified_commit": "b697f413d8fa4c05a2c1833057cf30b805807901",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42664816999"
+    "task": "NEXT-009 batch15",
+    "source_files_attested_this_turn": 10,
+    "original_lines_reviewed": 2130,
+    "review_sections": 71,
+    "atomic_findings": 249,
+    "original_line_anchors": 249,
+    "nonCanon_graph_links": 498,
+    "all_source_accepted": 46,
+    "all_source_pending": 289,
+    "state": "CI_PENDING",
+    "notes": "包含150完整長篇、首次見面、已選Celeste日常、三份地圖與作者原話；全部限縮來源證據，Canon未改。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -500,13 +509,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH14_CI_VERIFIED",
-    "scope": "151 (90 lines) + 203 (105 lines), v2 editorial QA with source anchors, full line sections and scoped existing-domain graph mapping. Still 0 formal Canon chapters.",
-    "commit": "b697f413d8fa4c05a2c1833057cf30b805807901",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42664816999",
-    "not_finished": "299 sources still pending, including 07_150 (1619 lines) and candidate Gemini chapter 7/8; do not treat these as accepted.",
-    "next_step": "Start full source+version review of 07_150 in independently traced segments, then update claim/graph/acceptance only after source-complete and CI verified."
+    "stage": "BATCH15_SUBMITTED_CI_PENDING",
+    "scope": "10份原文2130行、71段、249項命題、498條非Canon關係",
+    "commit": "PENDING",
+    "ci_result": "PENDING",
+    "ci_run_url": null,
+    "not_finished": "289份原始來源尚待全文驗收",
+    "next_step": "核證本批CI後繼續Gemini候選第七八章以及B2六章。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -519,6 +528,7 @@
     "00_分類導航/設定關聯引擎/20261109_第十一批六份_白髮修訂與篇章候選_全文v2語義審核.json",
     "00_分類導航/設定關聯引擎/20261109_第十二批六份_匿名記憶視覺與升級_全文v2審核.json",
     "00_分類導航/設定關聯引擎/20261109_第十三批六份_前史雙武裝白髮反例與五版試寫_v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第十四批_151與203_全文語義仲裁_v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第十四批_151與203_全文語義仲裁_v2.json",
+    "00_分類導航/設定關聯引擎/20261110_第十五批十份_靜謐長篇初遇與地圖來源_全文語義v2.json"
   ]
 }
