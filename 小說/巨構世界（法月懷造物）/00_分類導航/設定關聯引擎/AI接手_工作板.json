@@ -106,6 +106,12 @@
           "ci_url": "https://github.com/Secileya/Novel/actions/runs/42560705147",
           "result": "success",
           "scope": "獨立覆蓋口徑文件、工作流程入口及CI交叉檢查"
+        },
+        {
+          "commit": "9ff91a2b6ffcbcaa46bf7460c84a808c5b6bf7fc",
+          "ci_url": "https://github.com/Secileya/Novel/actions/runs/42561130723",
+          "result": "success",
+          "scope": "Reconciled static semantic coverage snapshot categories 09=5/待定正文=91, current 13 version nodes and 55 audited findings/147 quote anchors; checker now verifies snapshot against live inputs and reads future audited_batch_paths."
         }
       ],
       "progress": {
@@ -247,6 +253,12 @@
   ],
   "last_delivered_work": [
     {
+      "commit": "9ff91a2b6ffcbcaa46bf7460c84a808c5b6bf7fc",
+      "work": "追加完成統計快照對賬和通用批次漂移偵測，與另一工作者已完成的NEXT-002操作文檔/CI並存。",
+      "verification": "https://github.com/Secileya/Novel/actions/runs/42561130723; success",
+      "status": "DONE__COVERAGE_RECONCILIATION"
+    },
+    {
       "commit": "3875f8abb52adf262401e9df20d468d5c9cf095f",
       "work": "NEXT-002：即時統計與歷史來源快照區分，建立獨立覆蓋率口徑文件及CI驗收",
       "verification": "https://github.com/Secileya/Novel/actions/runs/42560705147 success",
@@ -286,13 +298,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-002",
-    "stage": "S6_DONE_VERIFIED",
-    "scope": "動態來源覆蓋統計、歷史快照警示、統一定義文檔及CI一致性檢查已部署完成",
-    "commit": "3875f8abb52adf262401e9df20d468d5c9cf095f",
-    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42560705147",
+    "stage": "S6_DONE_VERIFIED_WITH_RECONCILED_SNAPSHOT",
+    "scope": "已完成真正的物理清冊分類重算、版本節點與定向審核數字對賬，保留舊歷史記錄；同步驗證工具可依工作板audited_batch_paths適應後續批次。",
+    "commit": "9ff91a2b6ffcbcaa46bf7460c84a808c5b6bf7fc",
+    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42561130723",
     "ci_result": "success",
-    "not_finished": "NEXT-001 171來源整檔深審；NEXT-003 版本圖擴充；NEXT-004 37組語義差異；NEXT-005 W02交通；NEXT-007原圖；NEXT-008整檔完成量測；NEXT-006需作者解除PREWRITE HOLD",
-    "next_step": "優先NEXT-001：從171清冊選擇與第六批不同的下一組文件，逐條讀原文及最新修正，建立新判讀、引文與版本關聯。可並行規劃NEXT-008以確立整檔完成標準。"
+    "not_finished": "NEXT-001：171份待逐檔仲裁仍未完成；NEXT-003～005、NEXT-007～008持續待辦；NEXT-006需作者解除PREWRITE HOLD。",
+    "next_step": "NEXT-001：從171份待完整仲裁來源中排除第四～六批已定向檢查過的題目，選下一組有關聯原始來源逐條讀取；留下Git SHA／行號引文、版本判定與CI測例。其次NEXT-008建立整檔通過與退回的量測門檻。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
