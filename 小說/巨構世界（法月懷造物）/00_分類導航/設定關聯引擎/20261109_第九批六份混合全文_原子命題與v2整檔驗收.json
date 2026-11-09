@@ -1,0 +1,1557 @@
+{
+  "schema": "mega-batch9-source-editorial-v2",
+  "date": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "topic": "105/107語庫雙向外貌復歸；79/80外部分析與77摘要78未採候選。",
+  "authority_boundary": "原始外作研究非獨立原著查核；作者准入不等於正式採用示例。",
+  "record_count": 70,
+  "original_anchors_count": 78,
+  "source_files_targeted": 6,
+  "source_file_manifest": [
+    {
+      "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+      "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543"
+    },
+    {
+      "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+      "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf"
+    },
+    {
+      "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+      "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095"
+    },
+    {
+      "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+      "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb"
+    },
+    {
+      "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+      "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072"
+    },
+    {
+      "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+      "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769"
+    }
+  ],
+  "reviewed_sections": 70,
+  "records": [
+    {
+      "id": "SRC-ALL-091",
+      "title": "作者准用通用語庫與聲線",
+      "status": "AUTHOR_SCOPED_PERMISSION",
+      "analysis": "作者准用通用語庫與聲線；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "AUTHOR_SCOPED_PERMISSION",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 3,
+          "quote": "> **2026-10-20 使用者新確認原話**：「但你可以把莉雅說過的那些納入語庫，還有說話也可以有情緒變化"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-092",
+      "title": "第058舊禁止照搬需窄義理解",
+      "status": "AUTHOR_SCOPED_PERMISSION",
+      "analysis": "第058舊禁止照搬需窄義理解；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "AUTHOR_SCOPED_PERMISSION",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 13,
+          "quote": "**第058份曾說「不能直接搬原作招牌口頭禪」**，現在須嚴格限定為**反對機械固定與抄寫整段原作劇情**，而不"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-093",
+      "title": "來源詞句與角色誤歸屬",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "來源詞句與角色誤歸屬；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 33,
+          "quote": "**不錯置**：第058份提到「往好處想」「我有個想法」「我尋思」「問題不大」主要是**方九**的語言參考，不可"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-094",
+      "title": "新創C語料只是候選",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "新創C語料只是候選；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 46,
+          "quote": "- 長出私人語彙：某次錯音、技術笑話、尷尬插曲、旅行事件自然變成內梗，過很多章後偶爾回收，優於每章硬造十個新口頭"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-095",
+      "title": "符號表演與橫線字形",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "符號表演與橫線字形；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 67,
+          "quote": "**關於「一條直線兩條直線」**：先理解並納入單長橫「—」與雙長橫「——」這組候選記法，不擅自把使用者口述等同於"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-096",
+      "title": "咬牙動作與情緒強弱",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "咬牙動作與情緒強弱；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 81,
+          "quote": "**咬牙切齒**不只靠每個字插頓號：還可以描寫牙關發緊、唇角壓住、吸一口氣、原本想喊卻收小聲、盯著對方手指或平靜"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-097",
+      "title": "結巴物理錯音及諧音成因",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "結巴物理錯音及諧音成因；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 111,
+          "quote": "**人物尊重與世界連續性**：若有人物確實有固定的口吃、口腔傷或語言障礙，應另按人物設定和成因處理；不能拿真實語"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-098",
+      "title": "同一句不同人際情境",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "同一句不同人際情境；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 125,
+          "quote": "**這些都不是固定配方**，同一種情緒可以另有十幾種自然說法；最重要的是眼前真正發生什麼。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-099",
+      "title": "修設備與玩鬧示例非正文",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "修設備與玩鬧示例非正文；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 145,
+          "quote": "艾莉維亞接過來，嘴角還繃著，下一瞬卻笑了。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-100",
+      "title": "驚呼後專業及害羞停頓",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "驚呼後專業及害羞停頓；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 165,
+          "quote": "「先把傷處理好再說，行不行！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-101",
+      "title": "低聲制止與食物錯音示例",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "低聲制止與食物錯音示例；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 189,
+          "quote": "「我是說，先等我吃完！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-102",
+      "title": "熟人調戲與真正擔憂差異",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "熟人調戲與真正擔憂差異；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 215,
+          "quote": "可見情緒完全足夠，不一定需要粗口或過量標點；但其他場景她自然喊出「媽呀！」也並不被禁止。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-103",
+      "title": "先判斷人物目的再選聲線",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "先判斷人物目的再選聲線；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 227,
+          "quote": "**不要過度保守**：使用者的最新意圖正是要有聲音、有情緒、有各種詞彙、偶爾非常誇張、偶爾不標準的音，**不是要"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-104",
+      "title": "夾子音波浪愛心使用限制",
+      "status": "AUTHOR_SCOPED_PERMISSION",
+      "analysis": "夾子音波浪愛心使用限制；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "AUTHOR_SCOPED_PERMISSION",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 245,
+          "quote": "3. **愛心符號可進入角色台詞表演**：使用者說的「你說話會加的那個愛心」以空心愛心 **`♡`** 為主要參"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-105",
+      "title": "那咋啦原句不得隨意增補",
+      "status": "AUTHOR_SCOPED_PERMISSION",
+      "analysis": "那咋啦原句不得隨意增補；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "AUTHOR_SCOPED_PERMISSION",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+          "line": 264,
+          "quote": "**使用者的語感修正**：在 [051〈第三個座位〉候選](../07_候選故事與場景/051_候選場景_諾亞艾"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-106",
+      "title": "二手原作來源與作者雙向審美意向",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "二手原作來源與作者雙向審美意向；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 7,
+          "quote": "> **使用者真正的新方向**：「我倒是希望艾莉維亞也能跟諾亞一樣，不過當然有區別。」結合其上文談雙方是否在心裡"
+        },
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 5,
+          "quote": "> **來源性質必須嚴格區分**：以下原作情節、數字和引句皆出自使用者貼來的「另一助手聲稱掃描完整TXT」之文"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-107",
+      "title": "外作欣賞與吐槽的混合",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "外作欣賞與吐槽的混合；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 42,
+          "quote": "從轉貼可以較有把握地說「方九的美貌欣賞在心裡／限知視角比較顯著，當面常被包成吐槽或陰陽怪氣」；**沒有找到直球外"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-108",
+      "title": "外作未檢出不等於本線禁止",
+      "status": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "analysis": "外作未檢出不等於本線禁止；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 62,
+          "quote": "**兩個人都可以在心裡覺得對方好看，也都可以說出來；甚至兩人都能有不經意真心與刻意玩笑。**差別從性格、相處過程"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-109",
+      "title": "雙主角均可稱讚外貌的差異",
+      "status": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "analysis": "雙主角均可稱讚外貌的差異；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 75,
+          "quote": "- 可以有「其實長得挺好看」「這傢伙認真起來還挺帥」「他笑起來……」「你這樣挺好看的呀」「哎呀～今天還挺帥嘛♡」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-110",
+      "title": "多組原創互誇示例非正文",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "多組原創互誇示例非正文；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 125,
+          "quote": "艾莉維亞眨眼：「幹嘛，不能看？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-111",
+      "title": "反對固定花癡與每次臉紅",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "反對固定花癡與每次臉紅；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 148,
+          "quote": "- 兩人雙向欣賞**不等於每次互相對看都要臉紅、撒嬌或親吻**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-112",
+      "title": "深藍聖堂數字是未核實案例",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "深藍聖堂數字是未核實案例；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 163,
+          "quote": "5. 方九腦中冒出利用**死亡回溯重複嘗試密碼**來堆疊計算次數的方案；在莉雅的理解裡，這會累積到**天文數字級"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-113",
+      "title": "技術方案與精神成本及自主權",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "技術方案與精神成本及自主權；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 183,
+          "quote": "**但是她說不行，不等於客觀上能無條件控制方九的一切決策**。真正好看的，是方九**理解她此處為何不會退**、知"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-114",
+      "title": "諾亞復歸不重置世界時間",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "諾亞復歸不重置世界時間；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 213,
+          "quote": "不能直接照抄「時間剩18分鐘卻能回到原時刻無限試」。因為**諾亞的死亡復歸不重置倒數或機關進度**。若故事中某一"
+        },
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 206,
+          "quote": "- 諾亞復歸時**外界時間繼續向前**；與方九回到過去、可以在同一事件中重新試探的回溯不是同一種機制。"
+        },
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 225,
+          "quote": "- 艾莉維亞可以反對諾亞將自己當一次性消耗品，就算確實可以復歸；她仍可提出某條**更聰明的技術替代方案**，也"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-115",
+      "title": "平常審美與風險照顧可共存",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "平常審美與風險照顧可共存；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 234,
+          "quote": "**平時小事**：艾莉維亞可以看諾亞好看，故意笑著誇「挺帥的嘛♡」，也能認真盯著他的眼睛一瞬間失神；諾亞可以發現"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-116",
+      "title": "女方反對死亡試算的示例",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "女方反對死亡試算的示例；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 260,
+          "quote": "諾亞把裝置的外殼合上，指著遠處那座還沒完全封閉的轉接井。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-117",
+      "title": "男方也能阻止女方透支示例",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "男方也能阻止女方透支示例；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 282,
+          "quote": "諾亞沒有先去碰她，只問：「妳上一次是怎麼回來的？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-118",
+      "title": "外貌感情與復歸成本需長線積累",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "外貌感情與復歸成本需長線積累；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 318,
+          "quote": "方九的時間回檔允許某些重新嘗試；諾亞的復歸只能讓**人回來，不能讓那18分鐘重來**。深藍聖堂教的是「看見效率之"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-119",
+      "title": "確認方向和未決細節三分",
+      "status": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "analysis": "確認方向和未決細節三分；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+          "line": 328,
+          "quote": "**仍未決／不可自動定案**：誰第一次稱讚誰「帥／漂亮」、彼此固定審美偏好、具體外貌新細節、諾亞痛覺或精神負荷的"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-120",
+      "title": "使用者提出世界大但劇情難推問題",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "使用者提出世界大但劇情難推問題；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 12,
+          "quote": "分析故事魅力，我現在世界觀架很大，實際自己只設計幾個特別的，其他人物也沒幾個，都只是籠統的分類，故事劇情也不知道"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-121",
+      "title": "外作小型承諾引出目標階梯",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "外作小型承諾引出目標階梯；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 35,
+          "quote": "答應莉雅，要想辦法把她安全送回家。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-122",
+      "title": "答案生成新問題而非換站刷事件",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "答案生成新問題而非換站刷事件；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 91,
+          "quote": "一個小問題，答案裡藏著下一個更大的問題。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-123",
+      "title": "後期謎底可重釋前期線索",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "後期謎底可重釋前期線索；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 134,
+          "quote": "例如後期「侵蝕」真正被解釋成始源真主的壽命／死亡機制時，前面很多本來看起來只是「邪門黑色污染」的東西都會被讀者重"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-124",
+      "title": "事件謎團人物三種期待",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "事件謎團人物三種期待；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 145,
+          "quote": "事件線、謎團線、人物線。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-125",
+      "title": "慾望承諾讓世界分類可發生故事",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "慾望承諾讓世界分類可發生故事；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 253,
+          "quote": "有人欠某人一個承諾。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-126",
+      "title": "地方勢力利益網與自主衝突",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "地方勢力利益網與自主衝突；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 295,
+          "quote": "分類只要被欲望碰到，就會變劇情。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-127",
+      "title": "世界知識作現場解題工具",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "世界知識作現場解題工具；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 348,
+          "quote": "我要設計一件只有這個種族才會發生的麻煩。"
+        },
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 328,
+          "quote": "所以世界觀資訊是解題工具。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-128",
+      "title": "日常比喻翻譯巨大設定",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "日常比喻翻譯巨大設定；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 399,
+          "quote": "如果你自己的世界非常大，我非常建議你也設計一兩個翻譯世界的人。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-129",
+      "title": "高階力量仍保留小願望",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "高階力量仍保留小願望；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 445,
+          "quote": "我以前想去海邊走走。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-130",
+      "title": "日常事物可以成情感錨",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "日常事物可以成情感錨；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 494,
+          "quote": "這就是情感錨。"
+        },
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 453,
+          "quote": "你的主角也一定要有「小東西」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-131",
+      "title": "固定配角漸進長出不先造八十人",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "固定配角漸進長出不先造八十人；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 538,
+          "quote": "3～5個能反覆出現的角色。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-132",
+      "title": "中型事件留下不可逆差異",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "中型事件留下不可逆差異；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 555,
+          "quote": "每一個中型事件結束後，最好至少留下一個永久改變。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-133",
+      "title": "四卷舉例只是外部建議",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "四卷舉例只是外部建議；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 634,
+          "quote": "「你們一直以為這是局部問題，其實它只是某個更大機制的症狀。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-134",
+      "title": "外作終局重回私人關係",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "外作終局重回私人關係；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 675,
+          "quote": "這就是答案。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-135",
+      "title": "首篇可問當下願望阻力及後果",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "首篇可問當下願望阻力及後果；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+          "line": 685,
+          "quote": "你的兩個主角現在最想得到什麼？"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-136",
+      "title": "外部回評批評宣言缺因果引擎",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "外部回評批評宣言缺因果引擎；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 17,
+          "quote": "**它現在還比較像一份很好的「創作宣言」，還沒有完全變成一台真的能自己生出劇情的引擎。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-137",
+      "title": "現在性與欲望阻力選擇後果",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "現在性與欲望阻力選擇後果；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 29,
+          "quote": "2. **需要一個比「懸念」更基礎的推進循環：欲望 → 阻力 → 選擇 → 後果。**\\"
+        },
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 28,
+          "quote": "諾亞「想去最上層」很好，但太遠；艾莉維亞「想研究空間」也太寬。真正能推一章的是：「這班升層列車三天後停駛」「艾"
+        },
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 32,
+          "quote": "3. **《巨構世界》尤其需要「阻力」，但阻力不等於敵人。**\\"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-138",
+      "title": "發現可用可誤用且雙主角輪流推動",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "發現可用可誤用且雙主角輪流推動；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 43,
+          "quote": "6. **諾亞和艾莉維亞要不只「一起遇事」，而要輪流成為劇情發動者。**\\"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-139",
+      "title": "配角離鏡仍有獨立生活",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "配角離鏡仍有獨立生活；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 50,
+          "quote": "這其實正好能解你目前「人物太少」又不想一次造八十人的問題。你不用造八十個角色，只要幾個人真的有自己的時間。主角離"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-140",
+      "title": "上一選擇產生下一件事",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "上一選擇產生下一件事；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 58,
+          "quote": "> **某人現在想做什麼 → 為什麼不能直接做到 → 他因此作了什麼選擇 → 這個選擇把所有人帶到哪裡。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-141",
+      "title": "歸來者美麗鉤子尚缺當下行動",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "歸來者美麗鉤子尚缺當下行動；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 80,
+          "quote": "**她出現之後，到底有什麼「正在發生的事情」，讓三個人不能聊完天就各自回家？**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-142",
+      "title": "情感未完成令讀者期待",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "情感未完成令讀者期待；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 128,
+          "quote": "**情感上的未完成。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-143",
+      "title": "不必每個重要人物隱藏身份",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "不必每個重要人物隱藏身份；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 152,
+          "quote": "**不是所有角色都要藏。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-144",
+      "title": "九問只是創作工具非已選情節",
+      "status": "SECONDHAND_RESEARCH_ONLY",
+      "analysis": "九問只是創作工具非已選情節；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SECONDHAND_RESEARCH_ONLY",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+          "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+          "line": 182,
+          "quote": "**誰現在想做什麼；為什麼是現在；誰不希望／不能讓它順利完成；諾亞為什麼介入；艾莉維亞為什麼介入；三人的目標在哪"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-145",
+      "title": "作者肯定某試寫未正式採首章",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "作者肯定某試寫未正式採首章；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 8,
+          "quote": "1. **諾亞與艾莉維亞的語氣練習**：第29「男主買兩張票，以優惠／退票掩飾陪女主」，維亞看穿並逗弄；第30暱"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-146",
+      "title": "外作分析僅為二手比較素材",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "外作分析僅為二手比較素材；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 19,
+          "quote": "- 用戶轉貼的另一對話更明確補充：**即時性（為什麼今天）／欲望→阻力→選擇→後果／非敵人型阻力／發現可用、可誤"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-147",
+      "title": "事件人物發現懸念四線不配額",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "事件人物發現懸念四線不配額；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 25,
+          "quote": "- **長線懸念**：有作者層已知因果和回收方向的謎團，重要歷史或武器線索逐步累積。**不應每個地方事件都連 C"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-148",
+      "title": "地方獨立故事不全連終極謎團",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "地方獨立故事不全連終極謎團；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 30,
+          "quote": "- 「事件→下一個事件」容易成每站新事故／任務；「得到答案後讓新問題自然浮現」有吸引力，但若每件都升級成更大的宇"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-149",
+      "title": "情感未完成及信息公開有用",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "情感未完成及信息公開有用；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 39,
+          "quote": "- 懸念和**情感上的未完成**不同：讀者可以已知事件真相，卻想看某人會否赴約、兩人何時把另一人的行程當作自己的"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-150",
+      "title": "研究摘要77不能替代原始79至82",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "研究摘要77不能替代原始79至82；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 50,
+          "quote": "本檔是摘要和研究主題索引。原先「外部分析」「外部回評」全文現分別存 [79](../05_場景視覺與參考/079"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-151",
+      "title": "132與133長篇研究仍是候選方法",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "132與133長篇研究仍是候選方法；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 58,
+          "quote": "[第133份完整研究](133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md)。使用者同意保存整本"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-152",
+      "title": "134多套首篇方案並存未採案",
+      "status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "analysis": "134多套首篇方案並存未採案；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 62,
+          "quote": "[第134份14,230字元完整篇章設計](134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.m"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-153",
+      "title": "歸來者身世與事件都是助手候選",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "歸來者身世與事件都是助手候選；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 5,
+          "quote": "> **權威隔離**：【使用者明確】目前欠的是整體劇情魅力與節奏；第一章諾亞×艾莉維亞首次相遇（第67）。【外部"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-154",
+      "title": "從高處回來不等於登上最高層",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "從高處回來不等於登上最高層；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 10,
+          "quote": "- 她真走過諾亞與維亞尚不熟悉的一片**遙遠高處地域**，但**不等於登過整座巨構真正最高層**。她有自己的旅途"
+        },
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 9,
+          "quote": "- 有個滿身旅行痕跡、帶大背包、似乎心情不錯的女人，從高處降回曾經熟悉的城市。她第一件事不是宣告秘密、展示神力"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-155",
+      "title": "現在性非反派阻力與當下回報",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "現在性非反派阻力與當下回報；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 17,
+          "quote": "- **阻力從哪來**：另一人物不願答應，法律／物資／互相衝突的目標、路況、誤解、本人過去等；阻力不必是反派和怪"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-156",
+      "title": "九問舊日棄隊員只是未選假設",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "九問舊日棄隊員只是未選假設；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 32,
+          "quote": "| 7. 中段使讀者重新理解誰 | 一版測試設定女人真曾成功上去，卻當年為了繼續前進而沒有救回某名隊員。**此秘"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-157",
+      "title": "兩段重逢與出場轉折均非正史",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "兩段重逢與出場轉折均非正史；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 41,
+          "quote": "**舊友重逢反差**：女人找到舊友，兩人沒有立刻拔刀或長篇吵架，而是停頓，談起是否吃過飯、近年如何；然後在遠征問"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-158",
+      "title": "男女主各有能動性且首章初遇",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "男女主各有能動性且首章初遇；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 45,
+          "quote": "- 艾莉維亞能真實辨認舊地圖有問題，也可發現另有可用的空間路徑；她能實際改變其他人的選項，但不因此替所有遠征者保"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-159",
+      "title": "其他舊開篇候選不被淘汰",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "其他舊開篇候選不被淘汰；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 50,
+          "quote": "- 第34《倒行潮》、第53《將被拆走的上行路》、第64《還有兩張票》、第65–66「尚未拆下」、第69「遷巒遠"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-160",
+      "title": "人物井道旅行選擇全部未決",
+      "status": "ASSISTANT_STORY_CANDIDATE",
+      "analysis": "人物井道旅行選擇全部未決；此僅為按原始來源界線的編輯判讀，非正式小說已發生情節。",
+      "guardrail": "不得混合二手作品分析、使用者明確許可、助手候選與正式Canon。",
+      "next_action": "後修時查原文版本、角色知情與對應段落。",
+      "authority": "SCOPE_LIMITED_EDITORIAL__NOT_CANON",
+      "authority_axis": "ASSISTANT_STORY_CANDIDATE",
+      "strength_axis": "SCOPED_SEMANTIC_EDITORIAL_CLAIM",
+      "story_progress_axis": "NOT_OCCURRED__PREWRITE_HOLD",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+          "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+          "line": 55,
+          "quote": "此女遠征者姓名、人生歷史、實力、是否回鄉、井道與城市、她是否真的想阻止隊伍、昔日同伴是否存在、是否放棄隊友、是否"
+        }
+      ]
+    }
+  ]
+}

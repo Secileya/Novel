@@ -6,6 +6,7 @@
  * No Canon decisions are made by this tool. Requires a full git checkout.
  */
 import fs from "node:fs";
+import {validateBatchQuality} from "./批量審核_語義缺口與跨批影響.mjs";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
 import {execFileSync} from "node:child_process";
@@ -105,6 +106,7 @@ function validateAcceptance(record,liveByPath){
   if(m?.relations?.some(link=>!allowedGraphNodeTypes.has(link.target_type)||link.connection!=="EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"))
    issues.push("unverified_or_promoted_graph_edge:"+id);
  }
+ issues.push(...validateBatchQuality(record));
  return [...new Set(issues)];
 }
 export function buildLiveReviewReport(options={}){

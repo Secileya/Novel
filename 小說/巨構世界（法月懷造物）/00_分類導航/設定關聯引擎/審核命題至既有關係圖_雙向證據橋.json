@@ -4,9 +4,9 @@
   "repository": "Secileya/Novel",
   "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
   "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
-  "audit_record_count": 90,
-  "mapped_review_count": 90,
-  "links_count": 238,
+  "audit_record_count": 160,
+  "mapped_review_count": 160,
+  "links_count": 378,
   "unmapped_review_ids": [],
   "no_new_canon_or_hard_dependency_edges": true,
   "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
@@ -2698,6 +2698,1826 @@
         "line": 131
       },
       "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-091",
+      "reviewed_status": "AUTHOR_SCOPED_PERMISSION",
+      "summary": "作者准用通用語庫與聲線",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-091-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-091-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 3
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-092",
+      "reviewed_status": "AUTHOR_SCOPED_PERMISSION",
+      "summary": "第058舊禁止照搬需窄義理解",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-092-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-092-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 13
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-093",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "來源詞句與角色誤歸屬",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-093-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-093-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 33
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-094",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "新創C語料只是候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-094-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-094-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 46
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-095",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "符號表演與橫線字形",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-095-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-095-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 67
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-096",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "咬牙動作與情緒強弱",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-096-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-096-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 81
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-097",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "結巴物理錯音及諧音成因",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-097-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-097-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 111
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-098",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "同一句不同人際情境",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-098-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-098-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 125
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-099",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "修設備與玩鬧示例非正文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-099-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-099-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 145
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-100",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "驚呼後專業及害羞停頓",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-100-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-100-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 165
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-101",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "低聲制止與食物錯音示例",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-101-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-101-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 189
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-102",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "熟人調戲與真正擔憂差異",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-102-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-102-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 215
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-103",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "先判斷人物目的再選聲線",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-103-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-103-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 227
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-104",
+      "reviewed_status": "AUTHOR_SCOPED_PERMISSION",
+      "summary": "夾子音波浪愛心使用限制",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-104-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-104-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 245
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-105",
+      "reviewed_status": "AUTHOR_SCOPED_PERMISSION",
+      "summary": "那咋啦原句不得隨意增補",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-105-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-105-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+        "line": 264
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-106",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "二手原作來源與作者雙向審美意向",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-106-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-106-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 7
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-107",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "外作欣賞與吐槽的混合",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-107-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-107-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 42
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-108",
+      "reviewed_status": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "summary": "外作未檢出不等於本線禁止",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-108-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-108-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 62
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-109",
+      "reviewed_status": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "summary": "雙主角均可稱讚外貌的差異",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-109-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-109-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 75
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-110",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "多組原創互誇示例非正文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-110-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-110-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 125
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-111",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "反對固定花癡與每次臉紅",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-111-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-111-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 148
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-112",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "深藍聖堂數字是未核實案例",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-112-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-112-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 163
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-113",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "技術方案與精神成本及自主權",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-113-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-113-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 183
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-114",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "諾亞復歸不重置世界時間",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-114-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-114-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 213
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-115",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "平常審美與風險照顧可共存",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-115-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-115-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 234
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-116",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "女方反對死亡試算的示例",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-116-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-116-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 260
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-117",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "男方也能阻止女方透支示例",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-117-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-117-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 282
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-118",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "外貌感情與復歸成本需長線積累",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-118-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-118-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 318
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-119",
+      "reviewed_status": "AUTHOR_DIRECTION_WITH_OPEN_DETAILS",
+      "summary": "確認方向和未決細節三分",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-119-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-119-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+        "line": 328
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-120",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "使用者提出世界大但劇情難推問題",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-120-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-120-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 12
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-121",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "外作小型承諾引出目標階梯",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-121-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-121-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 35
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-122",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "答案生成新問題而非換站刷事件",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-122-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-122-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 91
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-123",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "後期謎底可重釋前期線索",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-123-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-123-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 134
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-124",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "事件謎團人物三種期待",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-124-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-124-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 145
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-125",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "慾望承諾讓世界分類可發生故事",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-125-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-125-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 253
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-126",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "地方勢力利益網與自主衝突",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-126-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-126-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 295
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-127",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "世界知識作現場解題工具",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-127-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-127-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 348
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-128",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "日常比喻翻譯巨大設定",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-128-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-128-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 399
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-129",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "高階力量仍保留小願望",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-129-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-129-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 445
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-130",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "日常事物可以成情感錨",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-130-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-130-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 494
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-131",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "固定配角漸進長出不先造八十人",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-131-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-131-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 538
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-132",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "中型事件留下不可逆差異",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-132-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-132-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 555
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-133",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "四卷舉例只是外部建議",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-133-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-133-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 634
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-134",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "外作終局重回私人關係",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-134-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-134-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 675
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-135",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "首篇可問當下願望阻力及後果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-135-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-135-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+        "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+        "line": 685
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-136",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "外部回評批評宣言缺因果引擎",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-136-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-136-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 17
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-137",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "現在性與欲望阻力選擇後果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-137-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-137-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 29
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-138",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "發現可用可誤用且雙主角輪流推動",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-138-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-138-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 43
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-139",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "配角離鏡仍有獨立生活",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-139-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-139-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 50
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-140",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "上一選擇產生下一件事",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-140-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-140-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 58
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-141",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "歸來者美麗鉤子尚缺當下行動",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-141-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-141-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 80
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-142",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "情感未完成令讀者期待",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-142-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-142-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 128
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-143",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "不必每個重要人物隱藏身份",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-143-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-143-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 152
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-144",
+      "reviewed_status": "SECONDHAND_RESEARCH_ONLY",
+      "summary": "九問只是創作工具非已選情節",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-144-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-144-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+        "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+        "line": 182
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-145",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "作者肯定某試寫未正式採首章",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-145-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-145-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 8
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-146",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "外作分析僅為二手比較素材",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-146-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-146-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 19
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-147",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "事件人物發現懸念四線不配額",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-147-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-147-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 25
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-148",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "地方獨立故事不全連終極謎團",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-148-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-148-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 30
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-149",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "情感未完成及信息公開有用",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-149-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-149-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 39
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-150",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "研究摘要77不能替代原始79至82",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-150-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-150-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 50
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-151",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "132與133長篇研究仍是候選方法",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-151-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-151-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 58
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-152",
+      "reviewed_status": "SCOPED_EDIT_OR_UNADOPTED_EXAMPLE",
+      "summary": "134多套首篇方案並存未採案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-152-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-152-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+        "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+        "line": 62
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-153",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "歸來者身世與事件都是助手候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-153-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-153-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 5
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-154",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "從高處回來不等於登上最高層",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-154-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-154-02",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 10
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-155",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "現在性非反派阻力與當下回報",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-155-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-155-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 17
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-156",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "九問舊日棄隊員只是未選假設",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-156-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-156-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 32
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-157",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "兩段重逢與出場轉折均非正史",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-157-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-157-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 41
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-158",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "男女主各有能動性且首章初遇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-158-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-158-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 45
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-159",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "其他舊開篇候選不被淘汰",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-159-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-159-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 50
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-160",
+      "reviewed_status": "ASSISTANT_STORY_CANDIDATE",
+      "summary": "人物井道旅行選擇全部未決",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-160-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-160-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+        "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+        "line": 55
+      },
+      "guardrail": "Existing node relevance only, not new confirmed causal edge."
     }
   ]
 }
