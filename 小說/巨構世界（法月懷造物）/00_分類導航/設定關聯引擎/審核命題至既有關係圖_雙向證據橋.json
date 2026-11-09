@@ -4,9 +4,9 @@
   "repository": "Secileya/Novel",
   "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
   "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
-  "audit_record_count": 160,
-  "mapped_review_count": 160,
-  "links_count": 378,
+  "audit_record_count": 199,
+  "mapped_review_count": 199,
+  "links_count": 456,
   "unmapped_review_ids": [],
   "no_new_canon_or_hard_dependency_edges": true,
   "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
@@ -4518,6 +4518,1020 @@
         "line": 55
       },
       "guardrail": "Existing node relevance only, not new confirmed causal edge."
+    },
+    {
+      "audit_id": "SRC-ALL-161",
+      "reviewed_status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "summary": "第105與兩迴廊同樣美學的後出權威",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-161-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-161-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 11
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-162",
+      "reviewed_status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "summary": "正式靜謐迴廊名稱與終焉迴廊差異",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-162-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-162-02",
+          "target_type": "entity",
+          "target_id": "final_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 15
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-163",
+      "reviewed_status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "summary": "使用者允許粗口與大量既有暱稱",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-163-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-163-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 23
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-164",
+      "reviewed_status": "RESEARCH_METHOD_NOT_CANON",
+      "summary": "借口語結構而不固定複製方九莉雅",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-164-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-164-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 50
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-165",
+      "reviewed_status": "RESEARCH_METHOD_NOT_CANON",
+      "summary": "五種人物相處階段的語氣差異",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-165-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-165-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 57
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-166",
+      "reviewed_status": "RESEARCH_METHOD_NOT_CANON",
+      "summary": "工程操作與互罵場景只是示例",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-166-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-166-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 74
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-167",
+      "reviewed_status": "RESEARCH_METHOD_NOT_CANON",
+      "summary": "復歸後擔憂與擁抱試演非正文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-167-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-167-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 138
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-168",
+      "reviewed_status": "RESEARCH_METHOD_NOT_CANON",
+      "summary": "白橋恐懼與互損試演不得覆蓋第041",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-168-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-168-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 172
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-169",
+      "reviewed_status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "summary": "第059後出要求粗口日常低頻",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-169-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-169-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 185
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-170",
+      "reviewed_status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "summary": "第138／139母女記憶及後續升級非本檔定案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-170-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-170-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+        "line": 191
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-171",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "作者糾正粗口頻率與靜謐獎勵價值",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-171-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-171-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 5
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-172",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "正常粗口低頻而其他語體全部保留",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-172-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-172-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 11
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-173",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "靜謐深處男女主各有真正巨大提升",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-173-01",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-173-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 19
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-174",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "作者要求整庫保留原稿並獨立勘誤",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-174-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-174-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 30
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-175",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "髮色變化不能改寫艾莉維亞人格",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-175-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-175-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 38
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-176",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "十四張圖片文字分析和候選能力須分權威",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-176-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-176-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 41
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-177",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "匿名母女記憶及多種獎勵仍候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-177-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-177-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 45
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-178",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "後出白髮表情殺意與敵方資訊限制",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-178-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-178-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 51
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-179",
+      "reviewed_status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "summary": "第149新髮型修正上翹呆毛和長側髮",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-179-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-179-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+        "line": 54
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-180",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "本篇是第079轉貼之後助手原長評析非Canon",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-180-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-180-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 11
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-181",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "私人遠期願望在旅途中增添新的重要人生目的",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-181-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-181-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 61
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-182",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "事件人物發現長線懸念四動力不配額",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-182-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-182-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 80
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-183",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "世界可以有地方事件與純風景而非全屬陰謀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-183-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-183-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 121
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-184",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "先建構有自主願望的人物再使他交會主角",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-184-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-184-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 142
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-185",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "從上面下來的人只是新的人物先行試案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-185-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-185-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 200
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-186",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "好的閱讀體感也有戰鬥日常反差和意外選擇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-186-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-186-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 224
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-187",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "作者知道因果與讀者知道的時間不必一致",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-187-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-187-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 264
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-188",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "先測試一條能使讀者真想追的人物故事鏈",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-188-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-188-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+        "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+        "line": 306
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-189",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "本篇是第080外評後的助手研究與實驗非作者採案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-189-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-189-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 17
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-190",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "欲望阻力選擇後果不是每章強制危機公式",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-190-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-190-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 45
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-191",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "歸來者九問及曾棄隊友純候選待驗因果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-191-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-191-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 81
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-192",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "只有傳遞路線線索的人物出場缺少故事推力",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-192-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-192-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 111
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-193",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "女子聞出遠征隊與舊友後轉為行動是候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-193-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-193-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 157
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-194",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "相識舊友仍有情感不能讓衝突吞掉全部關係",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-194-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-194-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 193
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-195",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "兩主角各有能力與目的不能只旁觀聽故事",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-195-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-195-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 219
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-196",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "事件結案後保留情感未完成及生活習慣回聲",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-196-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-196-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 265
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-197",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "人物可合理偏離原本作者設計的九問答案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-197-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-197-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 301
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-198",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "四種探索人物戰鬥生活故事類型並非固定輪班",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-198-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-198-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 351
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-199",
+      "reviewed_status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "summary": "真正魅力還需要演出與即時回報而非只有因果骨架",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-199-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-199-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+        "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+        "line": 359
+      },
+      "guardrail": "既有實體或場所的索引關聯；不自動推出作者新正典或真實因果。"
     }
   ]
 }

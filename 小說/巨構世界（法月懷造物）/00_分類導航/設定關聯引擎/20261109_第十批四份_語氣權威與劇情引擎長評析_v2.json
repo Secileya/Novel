@@ -1,0 +1,850 @@
+{
+  "schema": "mega-batch10-full-semantic-v2",
+  "date": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "topic": "03_058／059之使用者語氣與靜謐獎勵後修；06_081／082之完整助手劇情研究與九問實驗。",
+  "authority_boundary": "有關人物語氣與獎勵的使用者明確修正不代表助手候選劇情或外作研究正式採用。",
+  "source_files_targeted": 4,
+  "record_count": 39,
+  "original_anchors_count": 39,
+  "reviewed_sections": 39,
+  "source_file_manifest": [
+    {
+      "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+      "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+    },
+    {
+      "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+      "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18"
+    },
+    {
+      "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+      "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79"
+    },
+    {
+      "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+      "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068"
+    }
+  ],
+  "records": [
+    {
+      "id": "SRC-ALL-161",
+      "title": "第105與兩迴廊同樣美學的後出權威",
+      "status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "analysis": "第105與兩迴廊同樣美學的後出權威。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 11,
+          "quote": "> 使用者原話：**「苦痛之路在這邊的名稱就是靜謐迴廊，是你之前提及過得，只是我之前一直用path of pain代"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-162",
+      "title": "正式靜謐迴廊名稱與終焉迴廊差異",
+      "status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "analysis": "正式靜謐迴廊名稱與終焉迴廊差異。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 15,
+          "quote": "- **「靜謐迴廊」**就是 **Celeste 所設計的「真正隱藏苦痛之路」**，先前大量文件為方便溝通借用《Ho"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-163",
+      "title": "使用者允許粗口與大量既有暱稱",
+      "status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "analysis": "使用者允許粗口與大量既有暱稱。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 23,
+          "quote": "**【使用者已明確】**既有第 30 份全部暱稱皆可自然雙向使用：**維亞**為較偏好的日常稱呼，**艾莉**同樣可"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-164",
+      "title": "借口語結構而不固定複製方九莉雅",
+      "status": "RESEARCH_METHOD_NOT_CANON",
+      "analysis": "借口語結構而不固定複製方九莉雅。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "RESEARCH_METHOD_NOT_CANON",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 50,
+          "quote": "- 上面兩條只是**為建立差異的初步建議，不是把兩人永遠綁為「理性男／感性女」**。諾亞也可以先爆一句髒話才分析，維"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-165",
+      "title": "五種人物相處階段的語氣差異",
+      "status": "RESEARCH_METHOD_NOT_CANON",
+      "analysis": "五種人物相處階段的語氣差異。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "RESEARCH_METHOD_NOT_CANON",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 57,
+          "quote": "2. **熟透的損友搭檔**：可突然喊「傻逼」「大傻逼」「神經病」「我靠」「你他媽的」，語速交疊、互相補刀、隨口歪理"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-166",
+      "title": "工程操作與互罵場景只是示例",
+      "status": "RESEARCH_METHOD_NOT_CANON",
+      "analysis": "工程操作與互罵場景只是示例。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "RESEARCH_METHOD_NOT_CANON",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 74,
+          "quote": "「大傻逼，那下面的人呢？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-167",
+      "title": "復歸後擔憂與擁抱試演非正文",
+      "status": "RESEARCH_METHOD_NOT_CANON",
+      "analysis": "復歸後擔憂與擁抱試演非正文。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "RESEARCH_METHOD_NOT_CANON",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 138,
+          "quote": "她把臉埋在他肩側，悶悶地罵：「你他媽的，嚇死我了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-168",
+      "title": "白橋恐懼與互損試演不得覆蓋第041",
+      "status": "RESEARCH_METHOD_NOT_CANON",
+      "analysis": "白橋恐懼與互損試演不得覆蓋第041。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "RESEARCH_METHOD_NOT_CANON",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 172,
+          "quote": "> 這是**第 41 份已存正式候選對話之外**的語氣參考，不能用來改刪當時使用者明確要求完整保留的原台詞及收束。橋"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-169",
+      "title": "第059後出要求粗口日常低頻",
+      "status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "analysis": "第059後出要求粗口日常低頻。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 185,
+          "quote": "**本檔提供「可以這樣說話」，並不代表「必須每場都這樣說話」。**使用者最新明確要求：**「傻逼」「大傻逼」「神經病"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-170",
+      "title": "第138／139母女記憶及後續升級非本檔定案",
+      "status": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "analysis": "第138／139母女記憶及後續升級非本檔定案。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "AUTHOR_DECISION_OR_LATER_REVISION",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+          "line": 191,
+          "quote": "**既有與新方向**：第50在相識後可能由瑟莉思媞**隱晦提示靜謐存在**（是否及何時仍未定），但〈第三個座位〉第1"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-171",
+      "title": "作者糾正粗口頻率與靜謐獎勵價值",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "作者糾正粗口頻率與靜謐獎勵價值。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 5,
+          "quote": "> 使用者原話：「平常說傻逼，大傻逼看情況，之前那種設定過得對話風格也可以保留，不要只剩神經質，傻逼跟神經病出線的頻"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-172",
+      "title": "正常粗口低頻而其他語體全部保留",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "正常粗口低頻而其他語體全部保留。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 11,
+          "quote": "「**傻逼／大傻逼**」允許平常依實際情境自然講；「**神經病**」也允許，但**這些都不是高頻、每場定額出現的口頭"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-173",
+      "title": "靜謐深處男女主各有真正巨大提升",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "靜謐深處男女主各有真正巨大提升。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 19,
+          "quote": "1. **給諾亞的原裝武器模組，帶來極其巨大的實際能力提升**。不可再只是「一件有用的模組」、小幅火力加成、普通鉤索"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-174",
+      "title": "作者要求整庫保留原稿並獨立勘誤",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "作者要求整庫保留原稿並獨立勘誤。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 30,
+          "quote": "- **定期增量稽核**：每次新決策須更新現行入口、修訂來源到舊版映射、舊資料勘誤、根索引／交接；對任何過時文字保留"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-175",
+      "title": "髮色變化不能改寫艾莉維亞人格",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "髮色變化不能改寫艾莉維亞人格。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 38,
+          "quote": "使用者因最新女主視覺圖片糾正：**「剛剛說的女主外觀不能大幅改變她之前定的性格，你可以發現更適合她的說話方式，但該開"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-176",
+      "title": "十四張圖片文字分析和候選能力須分權威",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "十四張圖片文字分析和候選能力須分權威。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 41,
+          "quote": "[136｜14張原圖逐張詳述、雙髮色視覺DNA與同一人格](136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-177",
+      "title": "匿名母女記憶及多種獎勵仍候選",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "匿名母女記憶及多種獎勵仍候選。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 45,
+          "quote": "**使用者最新明確糾正**：法月懷是**真心疼愛瑟莉思媞**的母親，會稱讚、摸頭、擁抱、一起實際改設計，不能像每完成"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-178",
+      "title": "後出白髮表情殺意與敵方資訊限制",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "後出白髮表情殺意與敵方資訊限制。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 51,
+          "quote": "**後出明確方向**：白髮主要有戲弄、愉悅、從容、狡黠、危險的神情；極端情況可非常冰冷、專注、帶殺意，**也可能相反"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-179",
+      "title": "第149新髮型修正上翹呆毛和長側髮",
+      "status": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "analysis": "第149新髮型修正上翹呆毛和長側髮。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "SCOPED_AUTHOR_DECISION_AND_LATER_SUMMARY",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+          "line": 54,
+          "quote": "[149｜上揚呆毛、額前散髮、雙側長側髮與正文詞庫](149_艾莉維亞髮型正式補充_上揚呆毛_額前碎髮_雙側外飄長髮"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-180",
+      "title": "本篇是第079轉貼之後助手原長評析非Canon",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "本篇是第079轉貼之後助手原長評析非Canon。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 11,
+          "quote": "**我們已經建立了「主角為什麼出發」，卻還沒有建立「主角為什麼非得繼續做下一件事，以及讀者為什麼迫不及待想看」。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-181",
+      "title": "私人遠期願望在旅途中增添新的重要人生目的",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "私人遠期願望在旅途中增添新的重要人生目的。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 61,
+          "quote": "**他的目的不是每次換掉，而是人生裡值得追求的東西逐漸增多。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-182",
+      "title": "事件人物發現長線懸念四動力不配額",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "事件人物發現長線懸念四動力不配額。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 80,
+          "quote": "四條可以互相交織，但並不是每個篇章都必須同時推進四條。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-183",
+      "title": "世界可以有地方事件與純風景而非全屬陰謀",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "世界可以有地方事件與純風景而非全屬陰謀。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 121,
+          "quote": "- 有些事情只是獨立人物和文明的故事，解決後便真正結束，但人物、關係和社會後果可以繼續存在。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-184",
+      "title": "先建構有自主願望的人物再使他交會主角",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "先建構有自主願望的人物再使他交會主角。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 142,
+          "quote": "**先創造一個讀者會想繼續看的人，再讓他的人生與主角的道路發生交集。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-185",
+      "title": "從上面下來的人只是新的人物先行試案",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "從上面下來的人只是新的人物先行試案。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 200,
+          "quote": "我們應該先讓她成為令人感興趣的人，再決定她的人生最適合產生怎樣的故事。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-186",
+      "title": "好的閱讀體感也有戰鬥日常反差和意外選擇",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "好的閱讀體感也有戰鬥日常反差和意外選擇。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 224,
+          "quote": "所以我們還需要主動追求不同的閱讀感受，而不是所有章節只有懸念和嚴肅推進。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-187",
+      "title": "作者知道因果與讀者知道的時間不必一致",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "作者知道因果與讀者知道的時間不必一致。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 264,
+          "quote": "正式寫作應該反過來：先讓讀者遇見一個有趣的人、看見一件令人好奇的事，再在適當的時候揭露他真正的能力、人生與社會重量。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-188",
+      "title": "先測試一條能使讀者真想追的人物故事鏈",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "先測試一條能使讀者真想追的人物故事鏈。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+          "git_blob_sha": "94857cedb07e169cb1fc8747fe90178685042a79",
+          "line": 306,
+          "quote": "**我從這份《異常大舞台》分析得到的最大啟發是：我們現在不缺一座足夠龐大的世界，也不缺幾個很漂亮的片段；我們缺的是讓"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-189",
+      "title": "本篇是第080外評後的助手研究與實驗非作者採案",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "本篇是第080外評後的助手研究與實驗非作者採案。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 17,
+          "quote": "> 下一章最好不是作者問「接下來安排什麼」，而是上一章結束後，有人已經不得不做某件事。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-190",
+      "title": "欲望阻力選擇後果不是每章強制危機公式",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "欲望阻力選擇後果不是每章強制危機公式。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 45,
+          "quote": "有時甚至沒有阻力，只是諾亞與艾莉維亞非常想去看某片風景，於是兩人買票出發，度過一個開心的下午。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-191",
+      "title": "歸來者九問及曾棄隊友純候選待驗因果",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "歸來者九問及曾棄隊友純候選待驗因果。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 81,
+          "quote": "| **中途反轉是什麼？** | 女人不是不知道能否抵達，她真的成功過。她隱瞞的是當年為了繼續前進，曾經放棄救回一名"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-192",
+      "title": "只有傳遞路線線索的人物出場缺少故事推力",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "只有傳遞路線線索的人物出場缺少故事推力。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 111,
+          "quote": "整段可以寫得很美，但讀者不一定在意女人以後會怎樣。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-193",
+      "title": "女子聞出遠征隊與舊友後轉為行動是候選",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "女子聞出遠征隊與舊友後轉為行動是候選。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 157,
+          "quote": "「那我得先去見她。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-194",
+      "title": "相識舊友仍有情感不能讓衝突吞掉全部關係",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "相識舊友仍有情感不能讓衝突吞掉全部關係。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 193,
+          "quote": "**重點是衝突不是一開始就把人物所有關係吞掉。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-195",
+      "title": "兩主角各有能力與目的不能只旁觀聽故事",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "兩主角各有能力與目的不能只旁觀聽故事。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 219,
+          "quote": "這樣她的能力既強大，也真正改變了別人可以採取的行動。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-196",
+      "title": "事件結案後保留情感未完成及生活習慣回聲",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "事件結案後保留情感未完成及生活習慣回聲。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 265,
+          "quote": "而是**一段完整事件之後，人物仍然擁有自己的未來。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-197",
+      "title": "人物可合理偏離原本作者設計的九問答案",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "人物可合理偏離原本作者設計的九問答案。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 301,
+          "quote": "**作者需要掌握因果和各種可能後果，但不應把人物當成必須走到指定答案的棋子。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-198",
+      "title": "四種探索人物戰鬥生活故事類型並非固定輪班",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "四種探索人物戰鬥生活故事類型並非固定輪班。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 351,
+          "quote": "它們不是四個固定篇章類別，更不是依順序輪流發生。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-199",
+      "title": "真正魅力還需要演出與即時回報而非只有因果骨架",
+      "status": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "analysis": "真正魅力還需要演出與即時回報而非只有因果骨架。需按本段原文與來源先後判讀，不將助手提出的『正式採用』自動視為作者已採用。",
+      "guardrail": "作者原話、助手創作建議、外部二手研究與已發生正文不得互相混淆。",
+      "next_action": "後續作者糾正或正文寫作時核對此原文行號與相應後出文件。",
+      "authority": "SCOPED_EDITORIAL_ONLY__NO_CANON_PROMOTION",
+      "authority_axis": "ASSISTANT_NARRATIVE_RESEARCH_OR_STORY_CANDIDATE",
+      "strength_axis": "SOURCE_GROUNDED_METHOD_OR_SCOPED_CORRECTION",
+      "story_progress_axis": "PREWRITE_HOLD__NO_FORMAL_CHAPTER",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+          "git_blob_sha": "c1952d40405d04c510e056cfde9e8f6935e91068",
+          "line": 359,
+          "quote": "**欲望、阻力、選擇、後果，確實是劇情推進的骨架；但它們還不是魅力本身。**"
+        }
+      ]
+    }
+  ]
+}
