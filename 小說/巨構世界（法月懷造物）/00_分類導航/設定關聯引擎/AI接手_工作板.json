@@ -38,7 +38,8 @@
     "completion_rule": "Commit+readback+CI (or honest NOT_RUN) and workboard status update; a mention of a source does not reduce 171 pending full semantic files",
     "source_integrity": "Original fiction and user raw sources must remain byte-for-byte unchanged without express permission.",
     "branch": "Non-Canon non-destructive changes direct main by author rule; risky multi-file migration use atomic Git tree or reviewed PR",
-    "no_fabricated_work": true
+    "no_fabricated_work": true,
+    "audit_batch_growth": "新增審核批次時在 audited_batch_paths 登記，工作板累積數依實際資料核對；五檔與封存原SHA保持嚴格不變，不能把舊批次固定數字設成未來上限。"
   },
   "tasks": [
     {
@@ -226,5 +227,10 @@
     ],
     "not_finished": "171整檔全文語義審核仍全數待完整驗收；NEXT-002統一歷史統計等其他任務仍READY",
     "next_step": "完成CI後更新進度；下一批不重複源記錄，並處理NEXT-002統計口徑。"
-  }
+  },
+  "audited_batch_paths": [
+    "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
+    "00_分類導航/設定關聯引擎/20261109_171待深審_第五批首篇版本與敘事權威仲裁.json",
+    "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json"
+  ]
 }

@@ -30,10 +30,24 @@ const fifth=JSON.parse(fs.readFileSync(resolve(HOME,'20261109_171待深審_第�
 const a=fourth.records.find(x=>x.id==='SRC-171-001');
 if(a?.resolution?.original_blob_sha_unchanged!==originalSHA||a.evidence[1]?.source_path!==newPath)
 err.push('原稽核歷史與新來源未相連');
-const ids=new Set([...fourth.records,...fifth.records].map(x=>x.id));
+const board=JSON.parse(fs.readFileSync(resolve(HOME,'AI接手_工作板.json'),'utf8'));
+const listed=board.audited_batch_paths;
+if(!Array.isArray(listed)||listed.length<2)err.push('工作板未列原文錨點審核批次');
+const audits=(listed||[]).map(p=>{
+ if(typeof p!=='string'||p.includes('..')||p.includes('\\')||p.startsWith('/'))throw Error('unsafe audit batch path');
+ return JSON.parse(fs.readFileSync(resolve(PROJECT,p),'utf8'));
+});
+const ids=new Set(audits.flatMap(b=>b.records.map(x=>x.id)));
+const count=audits.reduce((n,b)=>n+b.records.length,0);
+const anchors=audits.reduce((n,b)=>n+(b.evidence_count??b.original_anchors_count??0),0);
+if(ids.size!==count)err.push('重複或缺失的跨批次審核ID');
+if(count!==board.fact_snapshot.targeted_audit_records||
+ anchors!==board.fact_snapshot.targeted_audit_verified_quotes)
+ err.push('跨批次審核與工作板累積紀錄不一致');
 const ledger=JSON.parse(fs.readFileSync(resolve(HOME,'版本取代與相容決策鏈.json'),'utf8'));
 for(const record of ledger.records)for(const id of record.related_audit_ids||[])
 if(!ids.has(id))err.push(record.id+'引用不存在的審核ID:'+id);
-if(ids.size!==41||ledger.records.length!==12)err.push('審核項數或統一版本數量不符');
+if(ledger.records.length!==board.fact_snapshot.version_decision_nodes)
+err.push('既有版本圖節點數與工作板不一致');
 if(err.length){console.error(err.join('\n'));process.exitCode=1}
-else console.log('遷移通過：09五檔、原第九章Git blob不變、335來源、213份索引、12版本節點、41項跨批次證據');
+else console.log('遷移通過：09五檔、原第九章Git blob不變、335來源、213份索引、'+ledger.records.length+'版本節點、'+count+'項跨批次證據、'+anchors+'錨點');
