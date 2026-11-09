@@ -1,0 +1,270 @@
+{
+  "schema": "mega-batch9-six-source-preacceptance-v1",
+  "date": "2026-11-09",
+  "purpose": "Record real full-source reading and second-pass risk findings without prematurely incrementing final semantic acceptance.",
+  "batch_goal": 6,
+  "source_line_total": 1622,
+  "anchor_count": 31,
+  "source_files": [
+    {
+      "source_path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+      "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543",
+      "all_source_lines_read": 272,
+      "reviewed_content_scope": "Entire GitHub source file, with original source vs quoted outside analysis identified.",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-10-20 使用者新確認原話**：「但你可以把莉雅說過的那些納入語庫，還有說話也可以有情緒變",
+          "review_kind": "AUTHOR_CONFIRMATION",
+          "editorial_finding": "使用者後出允許通用語庫與有變化的標點聲線"
+        },
+        {
+          "line": 13,
+          "quote": "**第058份曾說「不能直接搬原作招牌口頭禪」**，現在須嚴格限定為**反對機械固定與抄寫整段原作劇情**，而",
+          "review_kind": "VERSION_SCOPE",
+          "editorial_finding": "較早不能照搬的禁令僅防止固定模仿"
+        },
+        {
+          "line": 245,
+          "quote": "3. **愛心符號可進入角色台詞表演**：使用者說的「你說話會加的那個愛心」以空心愛心 **`♡`** 為主要",
+          "review_kind": "MISSED_LOCAL_CORRECTION",
+          "editorial_finding": "全形尾音和愛心是可用表演而非固定人格或告白"
+        },
+        {
+          "line": 264,
+          "quote": "**使用者的語感修正**：在 [051〈第三個座位〉候選](../07_候選故事與場景/051_候選場景_諾亞",
+          "review_kind": "CROSS_SOURCE_IMPACT",
+          "editorial_finding": "第051原有那咋啦台詞不因後出示例擅加下一句"
+        }
+      ],
+      "review_state": "FULL_SOURCE_READ_AND_CROSSCHECKED__AWAITING_ATOMIC_CLAIM_GRAPH_AND_V2_CERTIFICATE",
+      "authority_limit": "AI editorial review of the Git-preserved source, not a verification of external original media or author adoption."
+    },
+    {
+      "source_path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+      "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf",
+      "all_source_lines_read": 331,
+      "reviewed_content_scope": "Entire GitHub source file, with original source vs quoted outside analysis identified.",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> **來源性質必須嚴格區分**：以下原作情節、數字和引句皆出自使用者貼來的「另一助手聲稱掃描完整TXT」之文",
+          "review_kind": "SOURCE_LIMIT",
+          "editorial_finding": "外部原著細節只是轉貼分析未獨立對照TXT"
+        },
+        {
+          "line": 62,
+          "quote": "**兩個人都可以在心裡覺得對方好看，也都可以說出來；甚至兩人都能有不經意真心與刻意玩笑。**差別從性格、相處過",
+          "review_kind": "AUTHOR_DIRECTION",
+          "editorial_finding": "雙主角都可以有外貌吸引且可以說出口"
+        },
+        {
+          "line": 163,
+          "quote": "5. 方九腦中冒出利用**死亡回溯重複嘗試密碼**來堆疊計算次數的方案；在莉雅的理解裡，這會累積到**天文數字",
+          "review_kind": "EXTERNAL_ONLY",
+          "editorial_finding": "外作密碼與分鐘數不是本線客觀機制"
+        },
+        {
+          "line": 206,
+          "quote": "- 諾亞復歸時**外界時間繼續向前**；與方九回到過去、可以在同一事件中重新試探的回溯不是同一種機制。",
+          "review_kind": "MECHANISM_BOUNDARY",
+          "editorial_finding": "諾亞復歸不使外界時間倒轉"
+        },
+        {
+          "line": 225,
+          "quote": "- 艾莉維亞可以反對諾亞將自己當一次性消耗品，就算確實可以復歸；她仍可提出某條**更聰明的技術替代方案**，也",
+          "review_kind": "RELATIONSHIP_CONSEQUENCE",
+          "editorial_finding": "兩人可以雙向反對自我消耗但不剝奪自主權"
+        },
+        {
+          "line": 328,
+          "quote": "**仍未決／不可自動定案**：誰第一次稱讚誰「帥／漂亮」、彼此固定審美偏好、具體外貌新細節、諾亞痛覺或精神負荷",
+          "review_kind": "OPEN_NOT_CANON",
+          "editorial_finding": "首次互誇、復歸安全次數與試演場景未選定"
+        }
+      ],
+      "review_state": "FULL_SOURCE_READ_AND_CROSSCHECKED__AWAITING_ATOMIC_CLAIM_GRAPH_AND_V2_CERTIFICATE",
+      "authority_limit": "AI editorial review of the Git-preserved source, not a verification of external original media or author adoption."
+    },
+    {
+      "source_path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+      "git_blob_sha": "8b7862b067ddba283d25baa8cdd6c225b4168095",
+      "all_source_lines_read": 692,
+      "reviewed_content_scope": "Entire GitHub source file, with original source vs quoted outside analysis identified.",
+      "evidence": [
+        {
+          "line": 12,
+          "quote": "分析故事魅力，我現在世界觀架很大，實際自己只設計幾個特別的，其他人物也沒幾個，都只是籠統的分類，故事劇情也不知",
+          "review_kind": "SOURCE_LIMIT",
+          "editorial_finding": "使用者詢問如何從巨大世界觀產生吸引人的劇情"
+        },
+        {
+          "line": 35,
+          "quote": "答應莉雅，要想辦法把她安全送回家。",
+          "review_kind": "NARRATIVE_METHOD",
+          "editorial_finding": "外部分析用小型私人承諾衍生長線目標"
+        },
+        {
+          "line": 145,
+          "quote": "事件線、謎團線、人物線。",
+          "review_kind": "SOURCE_LIMIT",
+          "editorial_finding": "事件謎團人物是研究歸納不是原著核實"
+        },
+        {
+          "line": 328,
+          "quote": "所以世界觀資訊是解題工具。",
+          "review_kind": "ACTION_CONSEQUENCE",
+          "editorial_finding": "設定被角色實際拿來處理問題才有劇情力"
+        },
+        {
+          "line": 453,
+          "quote": "你的主角也一定要有「小東西」",
+          "review_kind": "CHARACTER_LIFE",
+          "editorial_finding": "高層力量人物仍需要小型生活願望及情感錨"
+        },
+        {
+          "line": 555,
+          "quote": "每一個中型事件結束後，最好至少留下一個永久改變。",
+          "review_kind": "NON_CANON_METHOD",
+          "editorial_finding": "章節應有永久變化是研究方法而非每章硬性Canon"
+        }
+      ],
+      "review_state": "FULL_SOURCE_READ_AND_CROSSCHECKED__AWAITING_ATOMIC_CLAIM_GRAPH_AND_V2_CERTIFICATE",
+      "authority_limit": "AI editorial review of the Git-preserved source, not a verification of external original media or author adoption."
+    },
+    {
+      "source_path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+      "git_blob_sha": "0ce6af9019ecc987a881f02765fd416973af3acb",
+      "all_source_lines_read": 201,
+      "reviewed_content_scope": "Entire GitHub source file, with original source vs quoted outside analysis identified.",
+      "evidence": [
+        {
+          "line": 28,
+          "quote": "諾亞「想去最上層」很好，但太遠；艾莉維亞「想研究空間」也太寬。真正能推一章的是：「這班升層列車三天後停駛」「艾",
+          "review_kind": "NARRATIVE_METHOD",
+          "editorial_finding": "外部回評增加每件事為何此刻發生的現在性"
+        },
+        {
+          "line": 32,
+          "quote": "3. **《巨構世界》尤其需要「阻力」，但阻力不等於敵人。**\\",
+          "review_kind": "NARRATIVE_METHOD",
+          "editorial_finding": "欲望阻力選擇後果需要一起構成事件循環"
+        },
+        {
+          "line": 43,
+          "quote": "6. **諾亞和艾莉維亞要不只「一起遇事」，而要輪流成為劇情發動者。**\\",
+          "review_kind": "AGENCY",
+          "editorial_finding": "兩名主角都能輪流啟動故事，不是某人永遠陪同"
+        },
+        {
+          "line": 128,
+          "quote": "**情感上的未完成。**",
+          "review_kind": "MISSED_DISTINCTION",
+          "editorial_finding": "情感未完成能使讀者想追下一章而不必全靠秘密"
+        },
+        {
+          "line": 182,
+          "quote": "**誰現在想做什麼；為什麼是現在；誰不希望／不能讓它順利完成；諾亞為什麼介入；艾莉維亞為什麼介入；三人的目標在",
+          "review_kind": "NON_CANON_METHOD",
+          "editorial_finding": "九問是設計輔助不是歸來者篇的正式採案"
+        }
+      ],
+      "review_state": "FULL_SOURCE_READ_AND_CROSSCHECKED__AWAITING_ATOMIC_CLAIM_GRAPH_AND_V2_CERTIFICATE",
+      "authority_limit": "AI editorial review of the Git-preserved source, not a verification of external original media or author adoption."
+    },
+    {
+      "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+      "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+      "all_source_lines_read": 64,
+      "reviewed_content_scope": "Entire GitHub source file, with original source vs quoted outside analysis identified.",
+      "evidence": [
+        {
+          "line": 8,
+          "quote": "1. **諾亞與艾莉維亞的語氣練習**：第29「男主買兩張票，以優惠／退票掩飾陪女主」，維亞看穿並逗弄；第30",
+          "review_kind": "AUTHOR_FEEDBACK",
+          "editorial_finding": "用戶肯定具體試寫表演而沒有批准正式首章"
+        },
+        {
+          "line": 19,
+          "quote": "- 用戶轉貼的另一對話更明確補充：**即時性（為什麼今天）／欲望→阻力→選擇→後果／非敵人型阻力／發現可用、可",
+          "review_kind": "SECONDARY_RESEARCH",
+          "editorial_finding": "外部回評對當下回報與戲劇推力提供研究方法"
+        },
+        {
+          "line": 25,
+          "quote": "- **長線懸念**：有作者層已知因果和回收方向的謎團，重要歷史或武器線索逐步累積。**不應每個地方事件都連 ",
+          "review_kind": "NARRATIVE_METHOD",
+          "editorial_finding": "事件人物發現懸念四線不需每章四全"
+        },
+        {
+          "line": 30,
+          "quote": "- 「事件→下一個事件」容易成每站新事故／任務；「得到答案後讓新問題自然浮現」有吸引力，但若每件都升級成更大的",
+          "review_kind": "WORLD_AUTONOMY",
+          "editorial_finding": "地方故事與宇宙秘密可獨立存在"
+        },
+        {
+          "line": 62,
+          "quote": "[第134份14,230字元完整篇章設計](134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.",
+          "review_kind": "VERSION_SCOPE",
+          "editorial_finding": "第134 A B2 C等首篇方案並存，B2編輯推薦不是作者採案"
+        }
+      ],
+      "review_state": "FULL_SOURCE_READ_AND_CROSSCHECKED__AWAITING_ATOMIC_CLAIM_GRAPH_AND_V2_CERTIFICATE",
+      "authority_limit": "AI editorial review of the Git-preserved source, not a verification of external original media or author adoption."
+    },
+    {
+      "source_path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+      "git_blob_sha": "5b6744367ff564ae5623e2c4295fca6532658769",
+      "all_source_lines_read": 62,
+      "reviewed_content_scope": "Entire GitHub source file, with original source vs quoted outside analysis identified.",
+      "evidence": [
+        {
+          "line": 9,
+          "quote": "- 有個滿身旅行痕跡、帶大背包、似乎心情不錯的女人，從高處降回曾經熟悉的城市。她第一件事不是宣告秘密、展示神力",
+          "review_kind": "SCOPE_LIMIT",
+          "editorial_finding": "歸來女人只走過高處不等於抵達巨構世界最高層"
+        },
+        {
+          "line": 17,
+          "quote": "- **阻力從哪來**：另一人物不願答應，法律／物資／互相衝突的目標、路況、誤解、本人過去等；阻力不必是反派和",
+          "review_kind": "NARRATIVE_METHOD",
+          "editorial_finding": "人物的現在性與非反派阻力讓漂亮鉤子產生後續"
+        },
+        {
+          "line": 32,
+          "quote": "| 7. 中段使讀者重新理解誰 | 一版測試設定女人真曾成功上去，卻當年為了繼續前進而沒有救回某名隊員。**此",
+          "review_kind": "CRITICAL_CANDIDATE_ONLY",
+          "editorial_finding": "女人當年可能沒有救隊員只是一次助手情節試案"
+        },
+        {
+          "line": 45,
+          "quote": "- 艾莉維亞能真實辨認舊地圖有問題，也可發現另有可用的空間路徑；她能實際改變其他人的選項，但不因此替所有遠征者",
+          "review_kind": "FIRST_MEETING",
+          "editorial_finding": "雙主角可主動行事且正式首章兩人仍是第一次見面"
+        },
+        {
+          "line": 55,
+          "quote": "此女遠征者姓名、人生歷史、實力、是否回鄉、井道與城市、她是否真的想阻止隊伍、昔日同伴是否存在、是否放棄隊友、是",
+          "review_kind": "OPEN_NOT_CANON",
+          "editorial_finding": "遠征者身份井道和歷史均保持未決"
+        }
+      ],
+      "review_state": "FULL_SOURCE_READ_AND_CROSSCHECKED__AWAITING_ATOMIC_CLAIM_GRAPH_AND_V2_CERTIFICATE",
+      "authority_limit": "AI editorial review of the Git-preserved source, not a verification of external original media or author adoption."
+    }
+  ],
+  "cross_reference_sources": [
+    {
+      "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+      "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+    },
+    {
+      "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+      "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18"
+    }
+  ],
+  "completed_editorial_attestations_added": 0,
+  "unresolved": "Per-file semantic_quality_v2 continuous sections, claim IDs, domain graph reverse links, dependency manifests, negative tests, and successful CI still need final integration.",
+  "baseline_accepted_before_this_batch": 6,
+  "baseline_pending_before_this_batch": 329
+}

@@ -121,6 +121,23 @@
           ],
           "existing_six": "v1 retained; no automatic migration",
           "execution_note": "Next actual source batch starts after infrastructure CI"
+        },
+        "acceleration_batch_9": {
+          "stage": "S2_S3_FULL_TEXT_READ_AND_GAP_RECHECK__AWAITING_S4_S5_GRAPH_AND_ATTESTATION",
+          "source_count": 6,
+          "source_lines": 1622,
+          "source_claim_anchor_count": 31,
+          "new_full_file_attestations": 0,
+          "source_evidence_path": "00_分類導航/設定關聯引擎/20261109_第九批六份原文實讀與防漏複核_未簽核.json",
+          "sources": [
+            "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+            "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+            "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+            "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+            "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+            "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md"
+          ],
+          "next_action": "Convert all six to atomic source claims and scoped domain graph reverse links; add full-section semantic_quality_v2 and dependency impacts, then CI. Do not alter 6/335 count until valid."
         }
       }
     },
@@ -466,13 +483,12 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "S6_BATCH8_FOUR_FULL_FILES_CI_VERIFIED",
-    "scope": "混合歷史164／171來源逐檔審核4份：03_104(401行15段)、03_106(326行13段)、05_083(1016行19段)、06_084(739行14段)；合計2482行61區段，新增22細粒度來源命題與85處Git SHA/原文行證據、VER-015/016兩個版本節點、74條非Canon的領域圖關聯。全庫6/335整檔編輯性完成，329份尚待。",
-    "commit": "5b394c340b1aa0a735435e52b8b2315b04495a81",
-    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42602270803",
-    "ci_result": "success",
-    "not_finished": "335份中尚有329份無完整AI編輯性整檔驗收證據（歷史164剩162，歷史171剩167）。外部《異常大舞台》情節只核對Git保存的二手轉貼，不是獨立原作全文考證；全體335份實體/人物/社會/地理/版本/生態/跨層依賴尚未完整回接，正式小說仍0章/PREWRITE HOLD。",
-    "next_step": "NEXT-009：先查最新Git動態來源，優先混合讀03_105詞庫、03_107雙向外貌與深藍聖堂、05_079及05_080的外部轉貼，讀相關作者後修；逐檔全段審核與適用實體/版本/依賴圖回接，真正符合標準才讓329減少。"
+    "stage": "BATCH9_S2_S3_SIX_SOURCES_READ__NOT_SIGNED",
+    "scope": "Six actual source files, 1622 lines and 31 SHA-line risk findings verified separately; no new full-file attestation.",
+    "commit": "CURRENT_CHANGE_PENDING",
+    "ci_result": "PENDING",
+    "not_finished": "S4 source-to-domain-graph and S5 full v2 attestations, still 6/335 accepted and 329 pending.",
+    "next_step": "Complete six v2 records and graph bridges, run integrity validator and CI before increment."
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
