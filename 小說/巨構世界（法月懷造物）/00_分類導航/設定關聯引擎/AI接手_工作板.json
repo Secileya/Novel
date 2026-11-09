@@ -177,6 +177,12 @@
   ],
   "last_delivered_work": [
     {
+      "commit": "67be4a1407314bcab8699bfbfab0ccb79240dbfb",
+      "work": "新增完整下一任AI接手流程與機器工作板、Node狀態檢查、AGENTS/GEMINI入口，CI新增三項接手檢查",
+      "verification": "https://github.com/Secileya/Novel/actions/runs/42558496856；新接手驗證語法、來源不變式、下一任任務路由與全部原設定查詢回歸成功",
+      "status": "DONE__NON_CANON_INFRASTRUCTURE"
+    },
+    {
       "commit": "97c403420af4b0e230e656fd00a574ab013ad4b9",
       "work": "09恢復五檔與335/213全索引同SHA無損遷移，12版本節點連41個來源核對",
       "verification": "three GitHub workflows success on this commit"
@@ -193,5 +199,12 @@
     "Record exact changed files plus Git commit and successful or failed CI",
     "Update workboard and preserve candidate/non-Canon and PREWRITE HOLD",
     "Do not claim 171 pending full semantic reviews are done from 41 targeted audit findings"
-  ]
+  ],
+  "last_verified_handoff_install": {
+    "baseline_commit": "67be4a1407314bcab8699bfbfab0ccb79240dbfb",
+    "ci_run_id": 42558496856,
+    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42558496856",
+    "result": "success",
+    "current_head_warning": "This is the verified install baseline. Fetch latest main HEAD and CI before further edits."
+  }
 }
