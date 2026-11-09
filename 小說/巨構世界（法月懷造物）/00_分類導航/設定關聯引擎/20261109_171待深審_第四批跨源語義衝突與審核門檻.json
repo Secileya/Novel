@@ -14,7 +14,7 @@
       "git_blob_sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a"
     },
     {
-      "path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "path": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
       "git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258"
     },
     {
@@ -64,13 +64,20 @@
     "required_files": 5,
     "extra_file": "20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "observation": "2026-11-09 GitHub main contents API",
-    "warning": "不得未經引用重寫與索引維護直接移除這份原文。"
+    "warning": "不得未經引用重寫與索引維護直接移除這份原文。",
+    "historical_snapshot_preserved": true,
+    "resolution": {
+      "old_live_files": 6,
+      "current_live_files": 5,
+      "new_archive_path": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "original_git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258"
+    }
   },
   "records": [
     {
       "id": "SRC-171-001",
       "title": "09五檔上限與現存六檔相衝",
-      "status": "REPOSITORY_LAYOUT_CONFLICT",
+      "status": "RESOLVED_REPOSITORY_LAYOUT_CONFLICT",
       "priority": "HIGH",
       "assessment": "09 README 明定 README+A/B/C/D 共五檔；2026-11-09 live contents 查得六檔，第六個為 20261107 第九章封存。若移檔必同步修索引和所有原路徑引用，不得刪去來源內容。",
       "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
@@ -82,14 +89,23 @@
           "quote": "本 README＋A／B／C／D 四冊"
         },
         {
-          "source_path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+          "source_path": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
           "git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258",
           "line": 3,
           "quote": "使用者 2026-11-07 提供的第九章完整來源文字原樣封存"
         }
       ],
       "guardrail": "不自動刪檔；單憑資料夾規則不能推測原文無價值。",
-      "next_action": "建立內容不變的遷移方案；先處理至少10處跨檔引用及舊原文SHA索引，再恢復五檔限制。"
+      "next_action": "已完成第九章原文無損移至獨立封存，09恢復五檔；未來不可再直接新增第六檔。",
+      "historical_status": "REPOSITORY_LAYOUT_CONFLICT",
+      "historical_source_path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "resolution": {
+        "migration_id": "MEGA-SOURCE-RELOCATE-20261109-001",
+        "date": "2026-11-09",
+        "current_source_path": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+        "original_blob_sha_unchanged": "78adb6225d3ff3a71538a70e66cb176e1571f258",
+        "live_09_file_count_after": 5
+      }
     },
     {
       "id": "SRC-171-002",

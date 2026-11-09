@@ -72,24 +72,24 @@
     },
     {
       "path": "000_專案交接.md",
-      "git_blob_sha": "b00c68a730c01a02d174af13ca31640d76a88c74",
-      "bytes": 54662,
+      "git_blob_sha": "a4dca50835ab8f754867c27eb7129e1cfa9807d3",
+      "bytes": 129863,
       "category": "(專案根目錄)",
       "discovery": "git_tree_verified",
       "semantic_validation": "NOT_YET_VERIFIED"
     },
     {
       "path": "000_現行決策與主題索引.md",
-      "git_blob_sha": "3c9c7541f863cb9b8176652006fd6cbee6beb6b6",
-      "bytes": 158860,
+      "git_blob_sha": "6143f08d9dde43484a7ff78dcfa733570e241b10",
+      "bytes": 158871,
       "category": "(專案根目錄)",
       "discovery": "git_tree_verified",
       "semantic_validation": "NOT_YET_VERIFIED"
     },
     {
       "path": "000_導覽與狀態.md",
-      "git_blob_sha": "8e7262b3b35e1724bb0de007cc089691de93196c",
-      "bytes": 133361,
+      "git_blob_sha": "42608c569b96494d1f49bbb58b06f9332d6a68eb",
+      "bytes": 133372,
       "category": "(專案根目錄)",
       "discovery": "git_tree_verified",
       "semantic_validation": "NOT_YET_VERIFIED"
@@ -1791,10 +1791,10 @@
       "semantic_validation": "NOT_YET_VERIFIED"
     },
     {
-      "path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "path": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
       "git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258",
       "bytes": 28948,
-      "category": "09_跨AI原始來源",
+      "category": "待定正文/原始來源封存",
       "discovery": "git_tree_verified",
       "semantic_validation": "NOT_YET_VERIFIED"
     },
@@ -2376,8 +2376,8 @@
     },
     {
       "path": "待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md",
-      "git_blob_sha": "752134bdc374b330df4f10add5253186dec1d85e",
-      "bytes": 34052,
+      "git_blob_sha": "5a374361011b8b8aac217e588e0161ec26a9fda3",
+      "bytes": 34047,
       "category": "待定正文",
       "discovery": "git_tree_verified",
       "semantic_validation": "NOT_YET_VERIFIED"
@@ -2640,8 +2640,8 @@
     },
     {
       "path": "待定正文/README.md",
-      "git_blob_sha": "c9119de8ec29a318d0e23f2fe4b9b9949b2d8294",
-      "bytes": 31116,
+      "git_blob_sha": "5a56d76e2950f3b2dc72a42a6150d99efffaad2e",
+      "bytes": 31111,
       "category": "待定正文",
       "discovery": "git_tree_verified",
       "semantic_validation": "NOT_YET_VERIFIED"
@@ -2686,5 +2686,13 @@
       "discovery": "git_tree_verified",
       "semantic_validation": "NOT_YET_VERIFIED"
     }
-  ]
+  ],
+  "reconciled_source_migration": {
+    "id": "MEGA-SOURCE-RELOCATE-20261109-001",
+    "original_historical_path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+    "live_path": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+    "original_git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258",
+    "source_count_preserved": 335,
+    "earlier_baseline_commit_stays_as_historical_record": true
+  }
 }

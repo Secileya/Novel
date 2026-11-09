@@ -49,6 +49,10 @@
         "同化",
         "復歸",
         "卡扣"
+      ],
+      "related_audit_ids": [
+        "SRC-171-029",
+        "SRC-171-030"
       ]
     },
     {
@@ -71,6 +75,10 @@
         "初遇",
         "暱稱",
         "買票"
+      ],
+      "related_audit_ids": [
+        "SRC-171-026",
+        "SRC-171-028"
       ]
     },
     {
@@ -92,6 +100,10 @@
         "Celeste初遇",
         "甜餅",
         "未來正文"
+      ],
+      "related_audit_ids": [
+        "SRC-171-031",
+        "SRC-171-032"
       ]
     },
     {
@@ -230,7 +242,92 @@
         "PREWRITE",
         "正式正文",
         "候選章"
+      ],
+      "related_audit_ids": [
+        "SRC-171-020",
+        "SRC-171-023",
+        "SRC-171-024",
+        "SRC-171-025",
+        "SRC-171-035"
+      ]
+    },
+    {
+      "id": "VER-011",
+      "subject": "首篇A／B／C初遇互斥版本與實際讀後回饋",
+      "older": "第066熟人版與第091／092拆路連續P0候選",
+      "newer": "第109 A、第110 B、第134 B2及C互斥試演；B讀後較佳但未正式採案",
+      "decision_type": "MUTUALLY_EXCLUSIVE_CANDIDATES__USER_FEEDBACK_NOT_CANON",
+      "authoritative_scope": "第一章初遇已定；A/B/C的地理與人物事件不能視為同一條正式時間線。",
+      "preserved": "第066熟人表演可於後期使用；A景觀、B歸來者與C天光仍可各自試演。",
+      "premature_inferences_to_avoid": "B較佳評價直接等於正式第一章；將A/B/C地景同時堆入第一天。",
+      "still_open": "正式採案、男主原圖、B2具名同行者與地理路線證據。",
+      "source_paths": [
+        "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+        "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+        "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md"
+      ],
+      "query_terms": [
+        "首篇",
+        "初遇",
+        "B案",
+        "A案",
+        "C案",
+        "歸來者",
+        "天光",
+        "讀者回饋"
+      ],
+      "related_audit_ids": [
+        "SRC-171-020",
+        "SRC-171-021",
+        "SRC-171-022",
+        "SRC-171-023",
+        "SRC-171-024",
+        "SRC-171-025",
+        "SRC-171-027",
+        "SRC-171-036",
+        "SRC-171-037",
+        "SRC-171-041"
+      ]
+    },
+    {
+      "id": "VER-012",
+      "subject": "G9B第七章與原G10第八章對答時序",
+      "older": "G9B章末已答為何不找塞拉，原G10又稱未回答",
+      "newer": "沿已答或未答其中一條候選支線同步修訂，不可套用另一條起點",
+      "decision_type": "CANDIDATE_CONTINUITY_CONFLICT__PAIR_SPECIFIC",
+      "authoritative_scope": "只確認G9B和原G10的版本錯接；後出G10R4不得直接推定仍有同錯。",
+      "preserved": "舊版章文與第201跨章對照保持可回查。",
+      "premature_inferences_to_avoid": "候選章文當正式已發生；忽略下章開場與上章末尾的問答相依。",
+      "still_open": "哪一條候選雙章採用、後修是否完整排除。",
+      "source_paths": [
+        "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+        "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+        "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md"
+      ],
+      "query_terms": [
+        "G9B",
+        "G10",
+        "第七章",
+        "第八章",
+        "塞拉",
+        "對答",
+        "錯接"
+      ],
+      "related_audit_ids": [
+        "SRC-171-009",
+        "SRC-171-014",
+        "SRC-171-015"
       ]
     }
-  ]
+  ],
+  "audit_integration": {
+    "date": "2026-11-09",
+    "reviewed_audit_counts": [
+      19,
+      22
+    ],
+    "verified_original_quote_anchors": 111,
+    "scope": "Version graph references fourth and fifth audit IDs, never promotes candidate to Canon"
+  }
 }

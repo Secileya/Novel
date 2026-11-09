@@ -33,6 +33,7 @@ const versionLineDiffs = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本
 const importantVersionQA = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本差異_14項重要語義核對.json"),"utf8"));
 const fourthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第四批跨源語義衝突與審核門檻.json"),"utf8"));
 const fifthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第五批首篇版本與敘事權威仲裁.json"),"utf8"));
+const auditedClaimByID=new Map([...fourthAudit.records,...fifthAudit.records].map(x=>[x.id,x]));
 const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
 const sourceRolesByID = new Map(allSourceRoles.map(x=>[x.id,x]));
@@ -59,7 +60,7 @@ function unique(a) { return Array.from(new Set(a.filter(Boolean))); }
 function contains(s, term) { return !!term && norm(s).includes(norm(term)); }
 function validTextPath(p) { return /\.(md|txt|json|yml|yaml|svg)$/i.test(p); }
 function sourceCategory(p) {
-  if (p.startsWith("09_跨AI原始來源/")) return "source_archive";
+  if (p.startsWith("09_跨AI原始來源/") || p.startsWith("待定正文/原始來源封存/")) return "source_archive";
   if (p.startsWith("待定正文/") || p.startsWith("07_候選故事與場景/")) return "candidate_story";
   if (p.startsWith("舊資料_勘誤/")) return "errata";
   if (/^000_/.test(p)) return "cumulative_index";
@@ -244,8 +245,12 @@ function findCausal(q, zones) {
 }
 function findVersionDecisions(q) {
   return versionLedger.records.filter(x=>
-    hasTextSignal(q,x.query_terms) || contains(q,x.subject)
-  );
+    hasTextSignal(q,x.query_terms) || contains(q,x.subject) ||
+    (x.related_audit_ids||[]).some(id=>contains(q,id))
+  ).map(v=>({...v,linked_verified_audits:(v.related_audit_ids||[]).map(id=>{
+    const a=auditedClaimByID.get(id);
+    return a?{id:a.id,title:a.title,status:a.status,evidence:a.evidence}:null;
+  }).filter(Boolean)}));
 }
 
 
@@ -694,7 +699,7 @@ function findFourthAudit(q) {
   return {total_reviewed_issues:fourthAudit.claims_count,verified_original_anchors:fourthAudit.evidence_count,
     source_files_targeted:fourthAudit.source_count,matched_count:matched.length,
     matched_findings:matched.slice(0,broad?19:12).map(x=>({...x.record,relevance_score:x.score})),
-    warning:"這是12份來源的19項定向語義／版本／衝突核對（50原文錨點），不是171份全文仲裁或作者批准Canon；涉及09資料夾五檔規則的問題仍待非破壞性處理。"};
+    warning:"這是12份來源的19項定向語義／版本／衝突核對（50原文錨點），不是171份全文仲裁或作者批准Canon；09六檔歷史衝突已透過同SHA原文搬遷解決，六檔觀察保留為歷史。"};
 }
 function findFifthAudit(q) {
   const qn=norm(q);
@@ -822,6 +827,9 @@ function query(q, corpus) {
     character_and_organization_graph:people, cross_world_ecology_civilization_links:cross,
     candidate_two_hop_impact_paths:impact,
     version_decisions:versionFindings,
+    unified_semantic_audit_graph:{reviewed_findings:auditedClaimByID.size,verified_original_quotes:fourthAudit.evidence_count+fifthAudit.original_anchors_count,
+      linked_versions:versionLedger.records.filter(v=>(v.related_audit_ids||[]).length>0).map(v=>({id:v.id,related_audit_ids:v.related_audit_ids})),
+      warning:"既有版本決策可取回第四／五批原文SHA、行號及候選狀態；並非171份全文仲裁，也非Canon採案。"},
     searched_terms:terms, selected_sources:opened,
     historical_ideas_recovered:recovered,
     deep_scene_provenance_and_crossworld_retrieval:deep,
@@ -904,6 +912,8 @@ function integrity(corpus) {
   const legacyK=macroMap.barriers.filter(x=>x.version==="V03_LEGACY_K");
   const newK=macroMap.barriers.filter(x=>x.version==="GEMINI_G_K_LATER_CANDIDATE");
   const noCrossingClaim=travelEvidence.routes.every(r=>r.world_crossing_verified===false);
+  const brokenAuditVersionLinks=versionLedger.records.flatMap(v=>(v.related_audit_ids||[])
+    .filter(id=>!auditedClaimByID.has(id)).map(id=>v.id+"->"+id));
   const allIds=[
     ...graph.claims.map(x=>x.id),...temporal.phases.map(x=>x.id),
     ...ecoLinks.edges.map(x=>x.id),...versionLedger.records.map(x=>x.id),
@@ -939,11 +949,12 @@ function integrity(corpus) {
     full_corpus_passage_files:passageInventory.files_with_passages,
     full_corpus_passage_total:passageInventory.total_passages,
     full_corpus_unsegmentable_files:passageInventory.files_without_passages,
-    dangling_ecology_edges:danglingEco,duplicated_extended_ids:duplicateGraphIDs,source_index_drift:drift,
+    dangling_ecology_edges:danglingEco,duplicated_extended_ids:duplicateGraphIDs,
+    broken_version_audit_links:brokenAuditVersionLinks,source_index_drift:drift,
     active_w01_children:children.length,old_w01_children:legacy.length,
     temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
     registered_containers:containers,incomplete_registered_containers:incompleteContainers,
-    ok:deepValidation.ok&&sourceRolesValidation.ok&&versionDiffValidation.ok&&missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
+    ok:deepValidation.ok&&sourceRolesValidation.ok&&versionDiffValidation.ok&&missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&brokenAuditVersionLinks.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -956,6 +967,15 @@ function selfTest(corpus) {
   assert.equal(three.container_expansion.legacy_candidates.length,9);
   assert(three.creative_candidate_ideas.some(x=>x.id==="IDEA-ECO-008"));
   assert(three.version_compatibility_ledger.some(x=>x.id==="VER-001"));
+  const reviewedGun=query("諾亞 原槍 復歸",corpus);
+  assert(reviewedGun.version_compatibility_ledger.some(x=>x.id==="VER-002"&&
+    x.linked_verified_audits.some(a=>a.id==="SRC-171-029")));
+  const reviewedOpen=query("B案 初遇 讀者回饋",corpus);
+  assert(reviewedOpen.version_compatibility_ledger.some(x=>x.id==="VER-011"&&
+    x.linked_verified_audits.some(a=>a.id==="SRC-171-020")));
+  const reviewedChapters=query("G9B G10 第七章 第八章",corpus);
+  assert(reviewedChapters.version_compatibility_ledger.some(x=>x.id==="VER-012"&&
+    x.linked_verified_audits.some(a=>a.id==="SRC-171-009")));
   const fish=query("W01第06區漁業受到第11區污染有什麼後果",corpus);
   assert(fish.ecology_industry_network.direct_edges.some(x=>x.id==="ECO-001"));
   assert(fish.ecology_industry_network.matched_zone_ids.includes("W01-Z06"));

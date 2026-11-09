@@ -12,10 +12,10 @@
     "06_敘事規劃與工作流": 28,
     "07_候選故事與場景": 20,
     "08_交接勘誤與決議": 25,
-    "09_跨AI原始來源": 4,
+    "09_跨AI原始來源": 3,
     "交接稽核": 1,
     "地圖": 10,
-    "待定正文": 77,
+    "待定正文": 78,
     "舊資料_勘誤": 1
   },
   "source_sections_indexed": 1597,
@@ -891,8 +891,8 @@
       "doc_id": "R213-009",
       "source_path": "000_專案交接.md",
       "source_category": "(專案根目錄)",
-      "source_bytes": 129852,
-      "git_blob_sha_verified": "b00c68a730c01a02d174af13ca31640d76a88c74",
+      "source_bytes": 129863,
+      "git_blob_sha_verified": "a4dca50835ab8f754867c27eb7129e1cfa9807d3",
       "source_lines": 399,
       "type": ".md",
       "headings_found": 57,
@@ -1116,8 +1116,8 @@
       "doc_id": "R213-010",
       "source_path": "000_導覽與狀態.md",
       "source_category": "(專案根目錄)",
-      "source_bytes": 133361,
-      "git_blob_sha_verified": "8e7262b3b35e1724bb0de007cc089691de93196c",
+      "source_bytes": 133372,
+      "git_blob_sha_verified": "42608c569b96494d1f49bbb58b06f9332d6a68eb",
       "source_lines": 458,
       "type": ".md",
       "headings_found": 49,
@@ -1164,7 +1164,7 @@
           "heading_line": 23,
           "heading": "## 2026-11-08｜最新：第九、十章完整候選已補存（CANDIDATE / NON-CANON）",
           "excerpt_line": 25,
-          "excerpt": "先前漏存已補齊：[**第九章〈兩千公尺的卸載燈與蜂窩襯套〉完整整合候選**](待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md) 與 [**第十章〈風停以後〉使用者貼入完整候選**](待定正文/純正文_Gemini/第十章_風停以後_使用者貼入完整候選_20261108.md) 現已在 GitHub `main`，均已讀回核對。第九章以[原始上傳封存](09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md)正文為底，完整接入後續九百公尺平台與塞拉交涉、**由塞拉主動偽造「已銷毀」報告**的收束原文；保留該角色的灰色決策",
+          "excerpt": "先前漏存已補齊：[**第九章〈兩千公尺的卸載燈與蜂窩襯套〉完整整合候選**](待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md) 與 [**第十章〈風停以後〉使用者貼入完整候選**](待定正文/純正文_Gemini/第十章_風停以後_使用者貼入完整候選_20261108.md) 現已在 GitHub `main`，均已讀回核對。第九章以[原始上傳封存](待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md)正文為底，完整接入後續九百公尺平台與塞拉交涉、**由塞拉主動偽造「已銷毀」報告**的收束原文；保留該角色的灰色決策",
           "terms": [
             "Gemini",
             "候選"
@@ -14149,8 +14149,8 @@
     },
     {
       "doc_id": "R213-122",
-      "source_path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
-      "source_category": "09_跨AI原始來源",
+      "source_path": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "source_category": "待定正文/原始來源封存",
       "source_bytes": 28948,
       "git_blob_sha_verified": "78adb6225d3ff3a71538a70e66cb176e1571f258",
       "source_lines": 309,
@@ -19275,8 +19275,8 @@
       "doc_id": "R213-192",
       "source_path": "待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md",
       "source_category": "待定正文",
-      "source_bytes": 34052,
-      "git_blob_sha_verified": "752134bdc374b330df4f10add5253186dec1d85e",
+      "source_bytes": 34047,
+      "git_blob_sha_verified": "5a374361011b8b8aac217e588e0161ec26a9fda3",
       "source_lines": 390,
       "type": ".md",
       "headings_found": 1,
@@ -21121,8 +21121,8 @@
       "doc_id": "R213-212",
       "source_path": "待定正文/README.md",
       "source_category": "待定正文",
-      "source_bytes": 31116,
-      "git_blob_sha_verified": "c9119de8ec29a318d0e23f2fe4b9b9949b2d8294",
+      "source_bytes": 31111,
+      "git_blob_sha_verified": "5a56d76e2950f3b2dc72a42a6150d99efffaad2e",
       "source_lines": 190,
       "type": ".md",
       "headings_found": 30,
@@ -21474,5 +21474,11 @@
       "authority": "MACHINE_SCREENED__SOURCE_CONTENT_UNADJUDICATED",
       "semantic_claims_reviewed": 0
     }
-  ]
+  ],
+  "source_path_alias_migration": {
+    "date": "2026-11-09",
+    "historical": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+    "current": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+    "blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258"
+  }
 }

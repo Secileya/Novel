@@ -1,0 +1,26 @@
+{
+  "schema": "mega-atomic-source-migration-v1",
+  "migration_id": "MEGA-SOURCE-RELOCATE-20261109-001",
+  "date": "2026-11-09",
+  "historical_from": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+  "current_to": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+  "original_git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258",
+  "method": "Single Git tree commit, unchanged original blob SHA with new path, remove old path in same tree",
+  "folder_file_count_from": 6,
+  "to": 5,
+  "unchanged_original_files_count": 335,
+  "unchanged_213_dossiers": 213,
+  "fourth_and_fifth_semantic_records": 41,
+  "verified_source_line_anchors": 111,
+  "version_records_before": 10,
+  "version_records_after": 12,
+  "historical_evidence_preservation": "SRC-171-001 retains six-file historical observation but is marked RESOLVED; Git history retains original path",
+  "source_edit_boundary": "Original Chapter 9 blob is unchanged, all candidate fiction remains NON-CANON, 0 official chapters, PREWRITE HOLD",
+  "affected_handoff_docs": [
+    "000_專案交接.md",
+    "000_導覽與狀態.md",
+    "000_現行決策與主題索引.md",
+    "待定正文/README.md",
+    "待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md"
+  ]
+}
