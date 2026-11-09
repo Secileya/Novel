@@ -1,0 +1,38 @@
+name: 巨構37組候選版本原文差異生成
+on:
+  push:
+    branches: [main]
+    paths:
+      - '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/候選版本37組_差異生成.mjs'
+      - '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_候選77份.json'
+      - '.github/workflows/mega-candidate-37-diff.yml'
+  workflow_dispatch:
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Rebuild and check literal version differences
+        working-directory: '小說/巨構世界（法月懷造物）'
+        run: |
+          node '00_分類導航/設定關聯引擎/候選版本37組_差異生成.mjs'
+          node '00_分類導航/設定關聯引擎/候選版本37組_差異生成.mjs' --check
+      - name: Persist generated historical source comparison
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/候選版本37組_逐行文字差異證據.json'
+          if git diff --cached --quiet; then
+            echo 'Index already current'
+          else
+            git commit -m 'data(mega): verify 37 candidate source version differences'
+            git push origin HEAD:main
+          fi
