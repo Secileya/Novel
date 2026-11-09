@@ -57,6 +57,12 @@ jobs:
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_整檔語義驗收.mjs'
       - name: Full-file original SHA, line coverage and deliberately broken gap fixture
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_整檔語義驗收.mjs' --negative-test
+      - name: Batch semantic omission and transitive-impact syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/批量審核_語義缺口與跨批影響.mjs'
+      - name: Batch semantic v2 quality gate and negative tests
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/批量審核_語義缺口與跨批影響.mjs' --check --negative-test
+      - name: Risk and workload aware next-batch planner
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/批量審核_語義缺口與跨批影響.mjs' --plan > "$RUNNER_TEMP/mega-workload-batch.json"
       - name: Seventh source semantic audit validator syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第七批原文錨點.mjs'
       - name: Seventh original Git SHA, line and quoted-source audit

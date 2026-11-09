@@ -49,7 +49,8 @@
     "no_fabricated_work": true,
     "audit_batch_growth": "新增審核批次時在 audited_batch_paths 登記，工作板累積數依實際資料核對；五檔與封存原SHA保持嚴格不變，不能把舊批次固定數字設成未來上限。",
     "live_new_source_intake": "Read HEAD Git tree using 全量來源_動態納管與驗收.mjs. All new sources, modified evidence, multimedia assets automatically join the pending universe on next actual run; not background monitoring; never silently exclude future files.",
-    "goal_not_fixed_335": "335 historical baseline, total grows; 164/171 historic provenance, not mutually exclusive completion levels. Report accepted_all/total and remaining_all first."
+    "goal_not_fixed_335": "335 historical baseline, total grows; 164/171 historic provenance, not mutually exclusive completion levels. Report accepted_all/total and remaining_all first.",
+    "batch_full_semantic_v2": "Use workload/risk-based batch planning; newly attested files require semantic_quality_v2. Existing six v1 proofs kept at historical provenance level, not automatically upgraded. CI checks section materiality and cross-batch reverse dependencies; no semantic omniscience claim."
   },
   "tasks": [
     {
@@ -66,7 +67,7 @@
         "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
         "00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json"
       ],
-      "first_action": "先執行 node '00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --next 查看新增/失效/未驗收全集。第一批把171來源05_083、06_084與歷史164來源03_104、03_106一起讀原文與後修，按照全行覆蓋和全面圖連線標準分別存證、驗收。可多份並行，不能只為拉高數字挑最短檔。",
+      "first_action": "使用批量審核_語義缺口與跨批影響.mjs --plan 建立按工作量的混合批次；以03_105、03_107、05_079、05_080為第一組，補查相關後修，逐檔建立v2證據並回接圖；不得用批次讀取數取代真正驗收數。",
       "acceptance": [
         "每個Git提交樹中的來源都有唯一、動態可計數的狀態；原335及未來新增均涵蓋，accepted+pending=live total。",
         "每份達成相同實質完整標準：所有段落、原始來源/轉貼分界、作者後修、權威/強度/發生進度、所有有效版本與未決事項。",
@@ -108,7 +109,19 @@
           "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
           "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
           "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md"
-        ]
+        ],
+        "batch_acceleration": {
+          "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
+          "target_batch_files": "up to 12 guided by approx 2600 lines, adjust for risk",
+          "quality_controls": [
+            "material evidence per section",
+            "four-category second-pass gap questions",
+            "cross-batch dependency SHA and transitive impact",
+            "individual file acceptance and current CI"
+          ],
+          "existing_six": "v1 retained; no automatic migration",
+          "execution_note": "Next actual source batch starts after infrastructure CI"
+        }
       }
     },
     {

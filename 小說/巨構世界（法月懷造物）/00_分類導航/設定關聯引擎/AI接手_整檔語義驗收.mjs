@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /** Full-file semantic editorial acceptance: mechanical proof, not author Canon. */
 import fs from 'node:fs';
+import {validateBatchQuality} from './批量審核_語義缺口與跨批影響.mjs';
 import {createHash} from 'node:crypto';
 import {resolve,dirname,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -31,6 +32,7 @@ function validate(record){
  try{original=getText(record.source_path)}catch(e){faults.push(e.message);return faults}
  if(original.sha!==record.git_blob_sha)faults.push('source Git blob changed; revoke acceptance');
  if(record.status==='FULL_FILE_EDITORIAL_ATTESTED'){
+  faults.push(...validateBatchQuality(record));
   if(original.lines.length!==record.source_line_count)faults.push('line count changed');
   const sections=record.reviewed_sections||[];
   let end=0;
