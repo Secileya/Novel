@@ -15,9 +15,9 @@ const MIRROR_CONFIG = Object.freeze({
   mirrorFolderId: '1-8xXZ98taJKK_Zpj65RjZtA4J5MzIXBY',
   manifestFileName: '_GITHUB_SYNC_STATE.json',
   statusDocName: '00_鏡像同步狀態與使用說明',
-  maxFilesPerRun: 25,
-  maxTimeMs: 260000,
-  maxDocsChars: 750000,
+  maxFilesPerRun: 8,
+  maxTimeMs: 135000,
+  maxDocsChars: 12000,
   allowedExtensions: ['.md', '.json', '.mjs', '.svg', '.txt']
 });
 /** Run only once as the signed-in Stingray Google account. */
@@ -120,7 +120,7 @@ function syncCore_() {
         state.files[rel] = Object.assign({}, prev, { status:'SYNC_FAILED', error:String(err).slice(0,300) });
       }
       // Resumable progress: survive a provider timeout after each attempted file.
-      if ((updated + failed) % 5 === 0) saveState_(manifestFile,state);
+      if ((updated + failed) % 2 === 0) saveState_(manifestFile,state);
     }
     // Preserve deleted sources as explicitly archived historical data; never erase.
     let archived = 0;
@@ -196,8 +196,9 @@ function makeMirrorText_(entry,commit,source) {
     '----- BEGIN EXACT UTF-8 SOURCE TEXT -----\n'+source;
 }
 function writeMirrorFile_(prev,folder,name,text,maxChars) {
-  // Native Google Docs are preferred for Gemini Workspace's text search. Oversized files
-  // are mirrored as UTF-8 plain text instead to avoid Docs maximum-character limits.
+  // Use Google Docs only for small texts. Large Docs can hang for >360 seconds
+  // in DocumentApp.setText/openById; mirror large files verbatim as text/plain.
+  // GitHub SHA verification protects original bytes before text conversion.
   const isDoc = text.length <= maxChars;
   let file, id;
   if (prev.driveId) {
@@ -218,6 +219,9 @@ function writeMirrorFile_(prev,folder,name,text,maxChars) {
     while (existing.hasNext()) {
       const candidate=existing.next();
       try {
+        // Skip an orphan of the opposite format: large sources are now
+        // mirrored as plain UTF-8 text, never opened as enormous Google Docs.
+        if ((candidate.getMimeType() === MimeType.GOOGLE_DOCS) !== isDoc) continue;
         const content=candidate.getMimeType()===MimeType.GOOGLE_DOCS
           ? DocumentApp.openById(candidate.getId()).getBody().getText()
           : candidate.getBlob().getDataAsString('UTF-8');
