@@ -20,13 +20,13 @@
     "source_excerpt_sections": 1597,
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
-    "fourth_and_fifth_audit_records": 41,
-    "fourth_and_fifth_verified_quotes": 111,
-    "version_decision_nodes": 12,
+    "version_decision_nodes": 13,
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "These are counts at the verified snapshot, NOT 171 new unread docs, not 171 completed full-file reviews, not a dynamic CI statement."
+    "important": "55項定向證據（含第六批14項）不是55份來源全文已審，也不能從171減去14；以GitHub最新HEAD與CI為準。",
+    "targeted_audit_records": 55,
+    "targeted_audit_verified_quotes": 147
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -53,9 +53,10 @@
         "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_候選77份.json",
         "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
         "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
-        "00_分類導航/設定關聯引擎/20261109_171待深審_第五批首篇版本與敘事權威仲裁.json"
+        "00_分類導航/設定關聯引擎/20261109_171待深審_第五批首篇版本與敘事權威仲裁.json",
+        "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json"
       ],
-      "first_action": "從缺口清冊選一批同主題來源，查SHA與最相關原稿及後出作者決議；逐條建立命題、可證的supersedes／非證實欄位；先比對41筆避免重複。",
+      "first_action": "第六批已對171中的5份視覺／外部研究做14項定向核對（非整檔完成）。下一批避開SRC-171-001～055的已有議題，選171清冊其他文件，先查原文SHA/後修，再新增非重複的原子命題與關聯。",
       "acceptance": [
         "每條新命題有來源Git blob SHA、原文行號與原文引文",
         "逐項記錄作者權威／候選分支／適用時點及否定式防誤推",
@@ -63,7 +64,13 @@
         "CI通過與GitHub讀回；不把本批涉及的檔案直接算作全文完成"
       ],
       "blocked_on": null,
-      "complete_evidence": []
+      "complete_evidence": [],
+      "progress": {
+        "last_completed_batch": "第六批定向仲裁14項、36錨點，171清冊中5份來源被定向核對",
+        "full_file_semantic_reviews_completed_from_this_batch": 0,
+        "full_file_semantic_reviews_pending": 171,
+        "verification_status": "PENDING_CI_AT_STAGE__CONFIRM_AFTER_PUSH"
+      }
     },
     {
       "id": "NEXT-002",
@@ -198,7 +205,8 @@
     "Read original sources and user/latest authority before any write",
     "Record exact changed files plus Git commit and successful or failed CI",
     "Update workboard and preserve candidate/non-Canon and PREWRITE HOLD",
-    "Do not claim 171 pending full semantic reviews are done from 41 targeted audit findings"
+    "Do not claim 171 pending full semantic reviews are done from 41 targeted audit findings",
+    "Every assistant handoff/reply must report completed work, unfinished tasks, exact next step and verification status; consult --report."
   ],
   "last_verified_handoff_install": {
     "baseline_commit": "67be4a1407314bcab8699bfbfab0ccb79240dbfb",
@@ -206,5 +214,17 @@
     "ci_url": "https://github.com/Secileya/Novel/actions/runs/42558496856",
     "result": "success",
     "current_head_warning": "This is the verified install baseline. Fetch latest main HEAD and CI before further edits."
+  },
+  "latest_progress": {
+    "task_id": "NEXT-001",
+    "stage": "S4_CREATED_STAGED_AWAITING_CI",
+    "scope": "第六批：5份171來源中定向語義14項36錨點，後出119作權威對照，VER-013及VER-005證據回連",
+    "files": [
+      "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json",
+      "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
+      "00_分類導航/設定關聯引擎/查詢.mjs"
+    ],
+    "not_finished": "171整檔全文語義審核仍全數待完整驗收；NEXT-002統一歷史統計等其他任務仍READY",
+    "next_step": "完成CI後更新進度；下一批不重複源記錄，並處理NEXT-002統計口徑。"
   }
 }

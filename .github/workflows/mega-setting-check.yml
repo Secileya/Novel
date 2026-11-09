@@ -38,6 +38,8 @@ jobs:
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs'
       - name: Machine-readable handoff board and source invariants
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --check
+      - name: Required per-turn remaining-work and next-step report
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --report > "$RUNNER_TEMP/next-agent-remaining-work.json"
       - name: Handoff next-task route and safe task selection
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --task NEXT > "$RUNNER_TEMP/next-agent-task.json"
       - name: Synthetic and real regression checks

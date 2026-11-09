@@ -12,6 +12,7 @@ const PROJECT=path.resolve(HOME,'../..');
 const B=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_工作板.json'),'utf8'));
 const A4=JSON.parse(fs.readFileSync(path.join(HOME,'20261109_171待深審_第四批跨源語義衝突與審核門檻.json'),'utf8'));
 const A5=JSON.parse(fs.readFileSync(path.join(HOME,'20261109_171待深審_第五批首篇版本與敘事權威仲裁.json'),'utf8'));
+const A6=JSON.parse(fs.readFileSync(path.join(HOME,'20261109_171待深審_第六批視覺與敘事研究仲裁.json'),'utf8'));
 const BACK=JSON.parse(fs.readFileSync(path.join(HOME,'全庫待原子化缺口清冊.json'),'utf8'));
 const INV=JSON.parse(fs.readFileSync(path.join(HOME,'全庫物理清冊.json'),'utf8'));
 const VER=JSON.parse(fs.readFileSync(path.join(HOME,'版本取代與相容決策鏈.json'),'utf8'));
@@ -33,8 +34,8 @@ check('source_dossiers_machine_screened',DOS.sources.length,snapshot.source_doss
 check('source_excerpt_sections',SECTION.sections,snapshot.source_excerpt_sections);
 check('candidate_version_text_diff_pairs',DIFF.comparisons.length,snapshot.candidate_version_text_diff_pairs);
 check('candidate_version_human_semantic_reviews',HUMAN.records.length,snapshot.candidate_version_human_semantic_reviews);
-check('fourth_and_fifth_audit_records',A4.records.length+A5.records.length,snapshot.fourth_and_fifth_audit_records);
-check('fourth_and_fifth_verified_quotes',A4.evidence_count+A5.original_anchors_count,snapshot.fourth_and_fifth_verified_quotes);
+check('targeted_audit_records',A4.records.length+A5.records.length+A6.records.length,snapshot.targeted_audit_records);
+check('targeted_audit_verified_quotes',A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,snapshot.targeted_audit_verified_quotes);
 check('version_decision_nodes',VER.records.length,snapshot.version_decision_nodes);
 check('nine_folder_files',fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,snapshot.nine_folder_files);
 if(snapshot.canon_formal_chapters!==0||snapshot.prewrite_hold!==true)
@@ -62,10 +63,23 @@ for(const task of B.tasks||[]){
   if(!fs.existsSync(path.resolve(PROJECT,p)))faults.push(task.id+': missing read file '+p);
  }
 }
-const allAudits=new Set([...A4.records,...A5.records].map(x=>x.id));
+const allAudits=new Set([...A4.records,...A5.records,...A6.records].map(x=>x.id));
 for(const v of VER.records)for(const id of v.related_audit_ids||[])
  if(!allAudits.has(id))faults.push(v.id+': audit ID not in reviewed evidence: '+id);
-if(args.includes('--task')){
+if(args.includes('--report')){
+ const pending=B.tasks.filter(x=>x.status!=='DONE');
+ const next=B.tasks.filter(x=>x.status==='READY').sort((a,b)=>a.priority-b.priority||B.tasks.indexOf(a)-B.tasks.indexOf(b))[0]||null;
+ console.log(JSON.stringify({schema:'mega-required-every-turn-status-report-v1',git_head:head,
+  last_successful_ci:'NOT_CHECKED__FETCH_GITHUB_ACTIONS',completed_tasks:B.tasks.filter(x=>x.status==='DONE').map(x=>x.id),
+  latest_actual_progress:B.latest_progress||null,
+  remaining_tasks:pending.map(x=>({id:x.id,name:x.name,status:x.status,blocked_on:x.blocked_on||null})),
+  incomplete_full_file_semantic_reviews:BACK.sources.length,
+  targeted_reviewed_findings:A4.records.length+A5.records.length+A6.records.length,
+  verified_exact_quotes:A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,
+  next_task:next?{id:next.id,name:next.name,first_action:next.first_action}:null,
+  reporting_rule:'每次答覆列已做、還沒做、下一步、commit與CI。不可把此本機報表當全部語義證明。'},null,2));
+ if(faults.length)process.exitCode=2;
+}else if(args.includes('--task')){
  const ix=args.indexOf('--task');
  const requested=args[ix+1];
  const next=B.tasks.filter(t=>t.status==='READY').sort((a,b)=>a.priority-b.priority||B.tasks.indexOf(a)-B.tasks.indexOf(b))[0];
@@ -80,7 +94,7 @@ if(args.includes('--task')){
   same_head_as_stored_baseline:head===B.last_checked_head_before_handoff,
   ci_status:'NOT_CHECKED_BY_THIS_SCRIPT__VERIFY_REMOTE_ACTIONS_FOR_CURRENT_HEAD',
   source_snapshot:{raw_files:INV.files.length,source_role_backlog:BACK.sources.length,
-    indexed_213:DOS.sources.length,verified_quote_anchors:A4.evidence_count+A5.original_anchors_count,
+    indexed_213:DOS.sources.length,verified_quote_anchors:A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,
     version_nodes:VER.records.length},
   task_counts:{ready:B.tasks.filter(t=>t.status==='READY').length,
     blocked:B.tasks.filter(t=>t.status==='BLOCKED').length,done:B.tasks.filter(t=>t.status==='DONE').length},

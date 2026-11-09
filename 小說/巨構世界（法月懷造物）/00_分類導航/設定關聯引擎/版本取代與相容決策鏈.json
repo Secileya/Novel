@@ -127,6 +127,9 @@
         "紫眼",
         "清冷",
         "溫柔"
+      ],
+      "related_audit_ids": [
+        "SRC-171-045"
       ]
     },
     {
@@ -319,6 +322,40 @@
         "SRC-171-014",
         "SRC-171-015"
       ]
+    },
+    {
+      "id": "VER-013",
+      "subject": "參考圖可直接採景觀形體，但不是正式地理／原IP素材轉載權",
+      "older": "早期過度保守：只能取抽象氛圍，原構圖須修改到不可辨認",
+      "newer": "2026-10-21後出使用者准許直接採景觀構件、放大與拼接；既有原創同存，地理位置、交通、IP原圖授權仍待獨立確認",
+      "decision_type": "AUTHOR_CREATIVE_SCOPE_OVERRIDE__LOCATION_AND_ASSET_RIGHTS_NOT_GRANTED",
+      "authoritative_scope": "所有使用者先前及本輪提供的參考圖之空間構造與景觀候選，可直接吸收。不是所有圖都已進正式城市或發生Canon故事，也不是外部作品商標、人物、受保護圖檔公開授權。",
+      "preserved": "初始巨拱水域、工業母骨架、綠色人工居地、原創路網與圖批視覺構造均可保留；不同候選城市不被迫合併。",
+      "premature_inferences_to_avoid": "由圖片認定真世界層或跨K營運；說原圖已在GitHub；把官方遊戲Logo、角色與原圖商用權默認已授權。",
+      "still_open": "原圖二進位歸檔、素材使用授權、九圖各自真地理／交通／歷史／本篇採案。",
+      "source_paths": [
+        "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+        "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+        "05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md"
+      ],
+      "query_terms": [
+        "參考圖",
+        "圖片",
+        "景觀",
+        "直搬",
+        "九圖",
+        "繪圖",
+        "原創",
+        "地理",
+        "授權"
+      ],
+      "related_audit_ids": [
+        "SRC-171-042",
+        "SRC-171-044",
+        "SRC-171-045",
+        "SRC-171-054",
+        "SRC-171-055"
+      ]
     }
   ],
   "audit_integration": {
@@ -328,6 +365,7 @@
       22
     ],
     "verified_original_quote_anchors": 111,
-    "scope": "Version graph references fourth and fifth audit IDs, never promotes candidate to Canon"
+    "scope": "Version graph references fourth and fifth audit IDs, never promotes candidate to Canon",
+    "latest_batch": "第六批：14項36原文錨點"
   }
 }

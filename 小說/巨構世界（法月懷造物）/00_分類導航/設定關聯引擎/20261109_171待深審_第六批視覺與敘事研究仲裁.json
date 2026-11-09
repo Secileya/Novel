@@ -1,0 +1,432 @@
+{
+  "schema": "mega-171-batch6-scope-anchored-audit-v1",
+  "date": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "baseline_commit": "fe0d29a8e3866bcee877ce431eeb9fcf258a8f70",
+  "topic": "第五批後續：171待審來源中的視覺與比較研究，以及後出119圖像權威對照",
+  "backlog_targeted_sources": [
+    "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+    "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+    "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+    "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+    "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md"
+  ],
+  "reviewed_scope": "對五份171待深審來源做有限定向核對，第119作後出權威對照；不代表五份全文完成。",
+  "record_count": 14,
+  "original_anchors_count": 36,
+  "source_files_targeted": 6,
+  "source_file_manifest": [
+    {
+      "path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+      "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7"
+    },
+    {
+      "path": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+      "git_blob_sha": "34519957135498742dd8fad840c253ea8d29975a"
+    },
+    {
+      "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+      "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62"
+    },
+    {
+      "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+      "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47"
+    },
+    {
+      "path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+      "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d"
+    },
+    {
+      "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+      "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08"
+    }
+  ],
+  "records": [
+    {
+      "id": "SRC-171-042",
+      "title": "首圖與後來補圖不能錯置",
+      "status": "REFERENCE_CHRONOLOGY",
+      "priority": "HIGH",
+      "analysis": "第007保存使用者更正：最初只有一張微仰視巨構圖，圓門工業設施是其後補圖。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 9,
+          "quote": "這不是最開始嗎，我只發一張"
+        },
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 13,
+          "quote": "**再後來補一張工業設施圖**"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-043",
+      "title": "巨構整體近無邊與局部成熟城市可並存",
+      "status": "MULTISCALE_DIRECTION",
+      "priority": "HIGH",
+      "analysis": "第007的世界尺度不是全世界上中下三層，局部完整交通社會與長旅探索同時成立。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 21,
+          "quote": "兩個同時成立"
+        },
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 21,
+          "quote": "只適用單一區域"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-044",
+      "title": "參考作品與原作正史內容不能混同",
+      "status": "EXTERNAL_REFERENCE_BOUNDARY",
+      "priority": "MEDIUM",
+      "analysis": "Metal Garden、少女終末旅行與BLAME!是參考對象，不等於自動搬入地圖、人物或原作設定。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 34,
+          "quote": "真正存在的 Metal Garden 遊戲"
+        },
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 36,
+          "quote": "不能照搬：遊戲真實地圖範圍"
+        },
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 70,
+          "quote": "並未指示其世界設定必須出現於本巨構世界"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-045",
+      "title": "Celeste舊金髮紅瞳與道具視覺皆非現行固定形象",
+      "status": "APPEARANCE_HISTORICAL_OVERRIDE",
+      "priority": "HIGH",
+      "analysis": "早期圖片的金髮紅眼作廢；霜青冰藍髮、亮紫瞳獲後修明示，湯匙小冠不機械定為常態。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 25,
+          "quote": "當時金髮紅瞳已被後續修正作廢"
+        },
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 95,
+          "quote": "正式髮色以**霜青冰藍**為準"
+        },
+        {
+          "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+          "line": 95,
+          "quote": "小冠、湯匙和永久淡冷表情也不固定"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-046",
+      "title": "靜態繪圖Prompt不是遊戲互動或世界原件",
+      "status": "PROMPT_NOT_INTERACTION",
+      "priority": "MEDIUM",
+      "analysis": "第009是搜尋和繪圖工具資料，按鈕／設備能運作仍需真正機制，不可只靠渲染圖聲稱可玩。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+          "git_blob_sha": "34519957135498742dd8fad840c253ea8d29975a",
+          "line": 3,
+          "quote": "搜尋詞／AI 繪圖 Prompt"
+        },
+        {
+          "source_path": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+          "git_blob_sha": "34519957135498742dd8fad840c253ea8d29975a",
+          "line": 3,
+          "quote": "單靠一張渲染圖無法證明有真實可玩的系統"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-047",
+      "title": "第047外部作品研究與本世界候選必分權威",
+      "status": "EXTERNAL_RESEARCH_NOT_CANON",
+      "priority": "HIGH",
+      "analysis": "外部作品知識與助手轉化為原創的想法是兩層來源，六種世界架構不能自動寫入本世界地理政治。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+          "line": 5,
+          "quote": "真正網路查詢後的素材研究"
+        },
+        {
+          "source_path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+          "line": 9,
+          "quote": "「能如何用於本世界」全部是本輪助手的分析"
+        },
+        {
+          "source_path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+          "line": 30,
+          "quote": "全部為原創轉化候選"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-048",
+      "title": "消息與名望依真實資訊路網擴散",
+      "status": "INFORMATION_DIFFUSION_CONDITIONAL",
+      "priority": "MEDIUM",
+      "analysis": "外部架構研究提醒消息要有傳播途徑，局部事件不能一夜間變成整個巨構的共識。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+          "line": 50,
+          "quote": "只有傳得到的資訊才是名氣"
+        },
+        {
+          "source_path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+          "line": 82,
+          "quote": "不能一夜之間「整個巨構」都知道"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-049",
+      "title": "戰鬥強度與專業生存、物流損失不同軸",
+      "status": "MULTI_AXIS_STAKES",
+      "priority": "MEDIUM",
+      "analysis": "能擊敗敵人不保證識別毒物或補救冷鏈；重要的是職業能力、時間和物質代價。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+          "line": 58,
+          "quote": "並非一定可以靠武器火力解決"
+        },
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 112,
+          "quote": "無法救回因冷鏈失效而報廢的整船藥"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-050",
+      "title": "懸潮港試驗非正式第一章也不固定第三個座位位置",
+      "status": "LOCAL_CANDIDATE_NOT_SELECTED",
+      "priority": "HIGH",
+      "analysis": "第052只為研究暫採第034港口，不等於使用者選案或把第051轉運市集定在港口。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 5,
+          "quote": "轉運市集未確立在哪座城市"
+        },
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 29,
+          "quote": "不是使用者選定正式開場"
+        },
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 29,
+          "quote": "不廢除「折索集市」候選"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-051",
+      "title": "地方議事院和黑市勢力是可推翻候選",
+      "status": "LOCAL_POLITICS_NOT_GLOBAL",
+      "priority": "MEDIUM",
+      "analysis": "第052政權與小型辛迪加的社會範圍只有假設港城，不能無來源升級成統治整個巨構。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 49,
+          "quote": "可整體推翻的原創候選"
+        },
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 51,
+          "quote": "沒有統治整片人工海或所有外部世界層"
+        },
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 65,
+          "quote": "不能因「黑市」就把全員寫成一樣邪惡或無敵"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-052",
+      "title": "原文明特殊槍與現代一般工業產品保留技術斷層",
+      "status": "TECHNOLOGY_POWER_BOUNDARY",
+      "priority": "HIGH",
+      "analysis": "地方工坊部件不因稀有直接變成諾亞原槍原裝模組；高階原文明裝備與地方護衛有質變差。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 75,
+          "quote": "不因此自動成為能匹敵諾亞原文明巔峰特殊槍的原裝模組"
+        },
+        {
+          "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+          "line": 117,
+          "quote": "普通護衛與地方改裝裝備可以完全無法有效擊穿其防禦"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-053",
+      "title": "人物可以專業，旁白不可搶演；長章不設固定配額",
+      "status": "NARRATIVE_METHOD_NOT_FIXED_FORMULA",
+      "priority": "MEDIUM",
+      "analysis": "第132反對全員白話與禁止抽象，也否定每六千字固定反轉次數與六千字硬性下限。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+          "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d",
+          "line": 111,
+          "quote": "不能把規則寫成「禁止抽象」"
+        },
+        {
+          "source_path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+          "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d",
+          "line": 121,
+          "quote": "只能做粗略診斷，不是固定配額"
+        },
+        {
+          "source_path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+          "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d",
+          "line": 185,
+          "quote": "不升格為固定最低字數硬規"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-054",
+      "title": "後出圖片可直接取具體環境形體，不等於地理定案",
+      "status": "LATER_CREATIVE_PERMISSION_SCOPE",
+      "priority": "HIGH",
+      "analysis": "第119明確覆蓋『只能借抽象氛圍』的舊誤讀；但實際地名／座標／路權／場景仍待核。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+          "line": 11,
+          "quote": "以前太常說「只能借原理"
+        },
+        {
+          "source_path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+          "line": 16,
+          "quote": "**可直接採畫面骨幹**"
+        },
+        {
+          "source_path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+          "line": 37,
+          "quote": "**已正式實體化的小說地理／事件**"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    },
+    {
+      "id": "SRC-171-055",
+      "title": "有景觀吸收授權不等於圖檔存在與外部公開使用權",
+      "status": "ASSET_PROVENANCE_SEPARATE",
+      "priority": "HIGH",
+      "analysis": "九張新圖原二進位尚未保存到GitHub，亦不能把原IP人物、LOGO、公開再製權當作使用者已授權。",
+      "authority": "SCOPE_BOUND_SOURCE_INTERPRETATION__NOT_AUTOMATIC_CANON",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+          "line": 3,
+          "quote": "未要求、亦未做到把九張圖片的二進位原檔上傳GitHub"
+        },
+        {
+          "source_path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+          "line": 7,
+          "quote": "並確認素材實際使用權"
+        },
+        {
+          "source_path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+          "line": 97,
+          "quote": "本文僅保存名稱和逐張觀察記錄"
+        }
+      ],
+      "guardrail": "原始出處與後出權威適用範圍須一起讀；此條不表示整檔語義通過或正式故事已發生。",
+      "next_action": "有實際決策時接回版本圖與相關人物／地理／道具節點，保留未定與非Canon狀態。"
+    }
+  ],
+  "remaining_full_file_semantic_backlog_snapshot": 171,
+  "scope_note": "查到新局部命題不扣減171整檔待審統計，除非另有整檔驗收清冊。正式0章/PREWRITE HOLD。"
+}
