@@ -31,6 +31,7 @@ const sourceRole94 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔�
 const sourceRole77 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔語義用途回收_候選77份.json"),"utf8"));
 const versionLineDiffs = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本37組_逐行文字差異證據.json"),"utf8"));
 const importantVersionQA = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本差異_14項重要語義核對.json"),"utf8"));
+const fourthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第四批跨源語義衝突與審核門檻.json"),"utf8"));
 const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
 const sourceRolesByID = new Map(allSourceRoles.map(x=>[x.id,x]));
@@ -671,6 +672,29 @@ function excerpts(body, terms) {
   }
   return results;
 }
+function findFourthAudit(q) {
+  const qn=norm(q);
+  const broad=/第四批|19項|十九項|跨源語義總覽|來源衝突總覽|171待深審/.test(q);
+  const terms=q.split(/[\s、，。；：！?？／()「」《》]+/)
+    .map(norm).filter(x=>x.length>=2&&!/^(設定|故事|來源|候選|內容|問題|有沒有|小說)$/.test(x));
+  const matched=fourthAudit.records.map(r=>{
+    const title=norm(r.title),id=norm(r.id),category=norm(r.status);
+    const paths=norm(r.evidence.map(e=>e.source_path).join(" "));
+    const explanation=norm(r.assessment);
+    let score=qn.includes(id)?100:0;
+    for(const t of terms){
+      if(title.includes(t))score+=9;
+      if(category.includes(t))score+=5;
+      if(paths.includes(t))score+=4;
+      if(explanation.includes(t))score+=2;
+    }
+    return {score,record:r};
+  }).filter(x=>broad||x.score>0).sort((a,b)=>b.score-a.score||a.record.id.localeCompare(b.record.id));
+  return {total_reviewed_issues:fourthAudit.claims_count,verified_original_anchors:fourthAudit.evidence_count,
+    source_files_targeted:fourthAudit.source_count,matched_count:matched.length,
+    matched_findings:matched.slice(0,broad?19:12).map(x=>({...x.record,relevance_score:x.score})),
+    warning:"這是12份來源的19項定向語義／版本／衝突核對（50原文錨點），不是171份全文仲裁或作者批准Canon；涉及09資料夾五檔規則的問題仍待非破壞性處理。"};
+}
 function query(q, corpus) {
   if (!q || !q.trim()) throw Error("Need --query or positional query text");
   const ids = identify(q);
@@ -689,6 +713,7 @@ function query(q, corpus) {
   const deep = deepEvidenceSearch(q);
   const sourceRoles = findRecoveredSourceRoles(q);
   const historicalDiffs = findHistoricalVersionLineDiffs(q,sourceRoles);
+  const fourthFindings = findFourthAudit(q);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -730,6 +755,7 @@ function query(q, corpus) {
     ...sourceRoles.matched_roles.map(x=>x.path||x.source_path),
     ...sourceRoles.related_candidate_versions.map(x=>x.path||x.source_path),
     ...historicalDiffs.matching_compared_pairs.flatMap(x=>[x.from_source,x.to_source]),
+    ...fourthFindings.matched_findings.flatMap(x=>x.evidence.map(e=>e.source_path)),
     ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
@@ -771,6 +797,7 @@ function query(q, corpus) {
     deep_scene_provenance_and_crossworld_retrieval:deep,
     historical_171_source_role_reviews:sourceRoles,
     historical_candidate_version_line_differences:historicalDiffs,
+    fourth_batch_cross_source_semantic_findings:fourthFindings,
     human_reviewed_candidate_version_changes:{
       total_semantic_version_notes:importantVersionQA.records.length,
       matched_semantic_differences:importantVersionQA.records
@@ -936,7 +963,9 @@ function selfTest(corpus) {
   assert(lineDiffCheck.historical_candidate_version_line_differences.matching_compared_pairs.some(x=>x.relation==="G7R_TO_G7R1_NARRATOR"));
   const doubleCopy=query("G8E 第六章 版本比對",corpus);
   assert(doubleCopy.historical_candidate_version_line_differences.matching_compared_pairs.some(x=>x.relation==="SAME_G8E_TWO_ARCHIVES__COMPARE"));
-  const rolesQuery=query("G9B 第七章 版本修訂",corpus);
+  const fourthQuery=query("G9B G10 第七章 對答",corpus);
+   assert(fourthQuery.fourth_batch_cross_source_semantic_findings.matched_findings.some(x=>x.id==="SRC-171-009"));
+   const rolesQuery=query("G9B 第七章 版本修訂",corpus);
   assert.equal(rolesQuery.historical_171_source_role_reviews.source_roles_total,171);
   assert(rolesQuery.historical_171_source_role_reviews.matched_roles.some(x=>x.id==="COV-DRAFT-030"));
   assert(rolesQuery.historical_171_source_role_reviews.version_links.some(x=>x.relation==="G9A_TO_G9B_THREE_PATCHES"||x.relation==="G9B_TO_G9C_CONTINUITY"));
