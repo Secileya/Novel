@@ -76,7 +76,7 @@
     {
       "id": "NEXT-002",
       "priority": 1,
-      "status": "READY",
+      "status": "DONE",
       "name": "讓舊交接快照與最新動態數字不再互相混淆",
       "purpose": "原AGENTS/GEMINI/多份歷史README仍保留251、213、182等歷史數字，建立單一可查快照／更新口徑並在非原文入口加明確新指標。",
       "required_read_files": [
@@ -94,7 +94,25 @@
         "測試證明計數來自實際檔案而非手打加總"
       ],
       "blocked_on": null,
-      "complete_evidence": []
+      "complete_evidence": [
+        {
+          "commit": "8620cee7ff811ce0afa0e6a16ec91be94d9254d1",
+          "ci_url": "https://github.com/Secileya/Novel/actions/runs/42560425771",
+          "result": "success",
+          "scope": "AGENTS/GEMINI現行口徑前置與即時計數欄位"
+        },
+        {
+          "commit": "3875f8abb52adf262401e9df20d468d5c9cf095f",
+          "ci_url": "https://github.com/Secileya/Novel/actions/runs/42560705147",
+          "result": "success",
+          "scope": "獨立覆蓋口徑文件、工作流程入口及CI交叉檢查"
+        }
+      ],
+      "progress": {
+        "result": "最新入口已用動態來源分軸與獨立統計定義，保留歷史來源快照、遠端CI成功",
+        "finished_at": "2026-11-09",
+        "remaining_note": "歷史來源舊數值是當時證據，不能被誤當現行；真正全檔語義仍未量測"
+      }
     },
     {
       "id": "NEXT-003",
@@ -181,9 +199,59 @@
       ],
       "blocked_on": "AUTHOR_EXPLICIT_RELEASE_OF_PREWRITE_HOLD_AND_CANON_VERSION_CHOICE",
       "complete_evidence": []
+    },
+    {
+      "id": "NEXT-007",
+      "priority": 3,
+      "status": "READY",
+      "name": "找回視覺原圖二進位與可核實來源／使用權",
+      "purpose": "第119/120僅留下九圖文字觀察與尺寸，尚未證明原圖完整存進GitHub；避免把原圖景觀吸收允許混同公開重製權。",
+      "required_read_files": [
+        "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+        "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+        "05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md",
+        "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json"
+      ],
+      "first_action": "核對GitHub現有圖檔／原聊天可獲得的來源指紋，僅對實際可取回的圖片建立路徑、來源、授權、雜湊；無原圖即標MISSING而非用AI生成圖冒充。",
+      "acceptance": [
+        "原圖實際有Git檔或可靠可追取來源、無法取得明標MISSING",
+        "景觀創作准用與原圖轉售／公開再製權分開",
+        "本身不創設九圖地理Canon",
+        "CI／證據讀回和工作板更新"
+      ],
+      "blocked_on": null,
+      "complete_evidence": []
+    },
+    {
+      "id": "NEXT-008",
+      "priority": 2,
+      "status": "READY",
+      "name": "建立真正的來源整檔語義完成判定與退回機制",
+      "purpose": "目前171份只可統計用途卡及定向命題，無法量測逐檔完整審定完成量；需要可驗證的整檔完成清冊而不以41／55條命題直接折抵。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/全庫待原子化缺口清冊.json",
+        "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_非候選94份.json",
+        "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_候選77份.json",
+        "00_分類導航/設定關聯引擎/AI接手_來源覆蓋率與完成度口徑.md"
+      ],
+      "first_action": "定義逐檔原文段落／命題範圍的已核對／未核對／被後修覆蓋欄，建立驗收台帳，選一份真實全文回查後試作；不得先把171任意減5。",
+      "acceptance": [
+        "具原始blobSHA及版本時點之逐檔工作完成簽核",
+        "缺重要命題、引文或後修時CI能阻止宣稱整檔通過",
+        "全檔完成數由實際完成台帳計算而非手動猜測",
+        "覆蓋率與工作板聯動，保持Canon/候選界線"
+      ],
+      "blocked_on": null,
+      "complete_evidence": []
     }
   ],
   "last_delivered_work": [
+    {
+      "commit": "3875f8abb52adf262401e9df20d468d5c9cf095f",
+      "work": "NEXT-002：即時統計與歷史來源快照區分，建立獨立覆蓋率口徑文件及CI驗收",
+      "verification": "https://github.com/Secileya/Novel/actions/runs/42560705147 success",
+      "status": "DONE"
+    },
     {
       "commit": "67be4a1407314bcab8699bfbfab0ccb79240dbfb",
       "work": "新增完整下一任AI接手流程與機器工作板、Node狀態檢查、AGENTS/GEMINI入口，CI新增三項接手檢查",
@@ -218,15 +286,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-002",
-    "stage": "S4_IMPLEMENTED_PENDING_CI",
-    "scope": "動態統計報表增加實際來源覆蓋分軸，修正先前 --status 漏掉第六批的固定計數，GEMINI/AGENTS入口清楚標示歷史數字；NEXT-001第六批已在main並通過先前CI，但171份整檔仍待審。",
-    "files": [
-      "00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs",
-      "AGENTS.md",
-      "GEMINI.md"
-    ],
-    "not_finished": "NEXT-002仍需檢查其餘舊交接檔與計數快照；NEXT-001還需持續下一批逐條命題；NEXT-003至005未完成，NEXT-006作者權限阻擋。",
-    "next_step": "本提交CI驗證後，繼續將統計口徑同步至語義覆蓋計數快照，修正過時『最新』標示，然後做下一批171來源仲裁。"
+    "stage": "S6_DONE_VERIFIED",
+    "scope": "動態來源覆蓋統計、歷史快照警示、統一定義文檔及CI一致性檢查已部署完成",
+    "commit": "3875f8abb52adf262401e9df20d468d5c9cf095f",
+    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42560705147",
+    "ci_result": "success",
+    "not_finished": "NEXT-001 171來源整檔深審；NEXT-003 版本圖擴充；NEXT-004 37組語義差異；NEXT-005 W02交通；NEXT-007原圖；NEXT-008整檔完成量測；NEXT-006需作者解除PREWRITE HOLD",
+    "next_step": "優先NEXT-001：從171清冊選擇與第六批不同的下一組文件，逐條讀原文及最新修正，建立新判讀、引文與版本關聯。可並行規劃NEXT-008以確立整檔完成標準。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
