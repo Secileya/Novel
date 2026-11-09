@@ -5,7 +5,7 @@ const here=dirname(fileURLToPath(import.meta.url)),root=resolve(here,'../..'),re
 function read(path){if(typeof path!=='string'||!path||path.startsWith('/')||path.includes('\\')||path.split('/').includes('..'))throw Error('unsafe source path');const f=resolve(root,path);if(!f.startsWith(root+sep))throw Error('source path escaped');const b=fs.readFileSync(f);return{sha:createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex'),source:b.toString('utf8')}}
 function countStr(s,term){return s.split(term).length-1}
 function dialogue(source){return [...source.matchAll(/「([^」]*)」/gs)].map(m=>m[1]).join('\n')}
-function interjectionCount(s){return [...s.matchAll(/(?:^|[，。？！!?：:；;\s])我去(?=$|[，。？！!?,，；;～~…—])/gmu)].length}
+function interjectionCount(s){return [...s.matchAll(/(?:^|[「，。？！!?：:；;\s])我去(?=$|[，。？！!?,，；;～~…—])/gmu)].length}
 const all=rec.source_files.map(row=>{const r=read(row.path);const texts=dialogue(r.source);const counts=Object.fromEntries(rec.term_keys.filter(t=>countStr(texts,t)>0).map(t=>[t,countStr(texts,t)]));if(r.sha!==row.git_blob_sha)issues.push('UNREVIEWED_CANDIDATE_SOURCE_CHANGED '+row.path);if(JSON.stringify(counts)!==JSON.stringify(row.dialogue_term_counts))issues.push('REVIEW_TERM_COUNTS_STALE '+row.path);return{chapter:row.path,dialogue_term_counts:counts}});
 for(const r of rec.reference_corpus){if(read(r.path).sha!==r.git_blob_sha)issues.push('VOICE_LIBRARY_SOURCE_CHANGED '+r.path)}
 if(rec.source_files.length!==12||rec.manual_interpretation.mandatory_phrases!==false||rec.manual_interpretation.earlier_authoring_consultation_evidence!=='NOT_RECORDED_OR_NOT_VERIFIED')issues.push('RECEIPT_GUARDRAIL_MISSING');
