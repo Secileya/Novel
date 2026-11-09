@@ -32,6 +32,7 @@ const sourceRole77 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔�
 const versionLineDiffs = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本37組_逐行文字差異證據.json"),"utf8"));
 const importantVersionQA = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本差異_14項重要語義核對.json"),"utf8"));
 const fourthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第四批跨源語義衝突與審核門檻.json"),"utf8"));
+const fifthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第五批首篇版本與敘事權威仲裁.json"),"utf8"));
 const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
 const sourceRolesByID = new Map(allSourceRoles.map(x=>[x.id,x]));
@@ -695,6 +696,33 @@ function findFourthAudit(q) {
     matched_findings:matched.slice(0,broad?19:12).map(x=>({...x.record,relevance_score:x.score})),
     warning:"這是12份來源的19項定向語義／版本／衝突核對（50原文錨點），不是171份全文仲裁或作者批准Canon；涉及09資料夾五檔規則的問題仍待非破壞性處理。"};
 }
+function findFifthAudit(q) {
+  const qn=norm(q);
+  const broad=/第五批|22項|二十二項|首篇版本總覽|初遇與權威總覽|SRC-171-0(2[0-9]|3[0-9]|4[01])/.test(q);
+  const terms=q.split(/[\s、，。；：！?？／()「」《》]+/).map(norm)
+    .filter(x=>x.length>=2&&!/^(作品|設定|資料|來源|候選|故事|有沒有|第幾章|如何|小說|內容)$/.test(x));
+  const matched=fifthAudit.records.map(record=>{
+    const title=norm(record.title), status=norm(record.status);
+    const sourcePaths=norm(record.evidence.map(x=>x.source_path).join(" "));
+    const assessment=norm(record.analysis);
+    let score=qn.includes(norm(record.id))?100:0;
+    for(const t of terms) {
+      if(title.includes(t))score+=11;
+      if(status.includes(t))score+=4;
+      if(sourcePaths.includes(t))score+=3;
+      if(assessment.includes(t))score+=2;
+    }
+    return {score,record};
+  }).filter(x=>broad||x.score>0).sort((a,b)=>b.score-a.score||a.record.id.localeCompare(b.record.id));
+  return {
+    total_scope_limited_review_records:fifthAudit.record_count,
+    verified_source_line_anchors:fifthAudit.original_anchors_count,
+    original_source_files_targeted:fifthAudit.source_files_targeted,
+    matched_count:matched.length,
+    matched_findings:matched.slice(0,broad?22:12).map(x=>({...x.record,relevance_score:x.score})),
+    warning:"22項第五批首篇版本／作者回饋／局部後修審核；並未證明這14份來源逐檔全文語義已完成，也沒有把A/B/C候選或第051已選未發生升為正式故事進度。"
+  };
+}
 function query(q, corpus) {
   if (!q || !q.trim()) throw Error("Need --query or positional query text");
   const ids = identify(q);
@@ -714,6 +742,7 @@ function query(q, corpus) {
   const sourceRoles = findRecoveredSourceRoles(q);
   const historicalDiffs = findHistoricalVersionLineDiffs(q,sourceRoles);
   const fourthFindings = findFourthAudit(q);
+  const fifthFindings = findFifthAudit(q);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -756,6 +785,7 @@ function query(q, corpus) {
     ...sourceRoles.related_candidate_versions.map(x=>x.path||x.source_path),
     ...historicalDiffs.matching_compared_pairs.flatMap(x=>[x.from_source,x.to_source]),
     ...fourthFindings.matched_findings.flatMap(x=>x.evidence.map(e=>e.source_path)),
+    ...fifthFindings.matched_findings.flatMap(x=>x.evidence.map(e=>e.source_path)),
     ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
@@ -798,6 +828,7 @@ function query(q, corpus) {
     historical_171_source_role_reviews:sourceRoles,
     historical_candidate_version_line_differences:historicalDiffs,
     fourth_batch_cross_source_semantic_findings:fourthFindings,
+    fifth_batch_opening_version_authority_findings:fifthFindings,
     human_reviewed_candidate_version_changes:{
       total_semantic_version_notes:importantVersionQA.records.length,
       matched_semantic_differences:importantVersionQA.records
@@ -965,6 +996,10 @@ function selfTest(corpus) {
   assert(doubleCopy.historical_candidate_version_line_differences.matching_compared_pairs.some(x=>x.relation==="SAME_G8E_TWO_ARCHIVES__COMPARE"));
   const fourthQuery=query("G9B G10 第七章 對答",corpus);
    assert(fourthQuery.fourth_batch_cross_source_semantic_findings.matched_findings.some(x=>x.id==="SRC-171-009"));
+   const fifthReturn=query("原槍 復歸 舊版本",corpus);
+   assert(fifthReturn.fifth_batch_opening_version_authority_findings.matched_findings.some(x=>x.id==="SRC-171-029"));
+   const fifthOpening=query("B案 比較好看 初遇",corpus);
+   assert(fifthOpening.fifth_batch_opening_version_authority_findings.matched_findings.some(x=>x.id==="SRC-171-020"));
    const rolesQuery=query("G9B 第七章 版本修訂",corpus);
   assert.equal(rolesQuery.historical_171_source_role_reviews.source_roles_total,171);
   assert(rolesQuery.historical_171_source_role_reviews.matched_roles.some(x=>x.id==="COV-DRAFT-030"));
