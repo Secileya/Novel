@@ -24,11 +24,11 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第七批額外13條局部判讀/41原文錨點；全批共68條/188錨點；170份171來源仍未整檔完成驗收，新增定向核對不直接使未完成數下降。",
+    "important": "第七批13個定向議題/41原文引文；另有本次25行G3局部修補史檔達到AI編輯性全行驗收。171歷史待審母集合已有2份整檔驗收，169未驗收；不得把13個議題再加算13份。",
     "targeted_audit_records": 68,
     "targeted_audit_verified_quotes": 188,
-    "full_file_editorial_accepted": 1,
-    "full_file_editorial_remaining": 170
+    "full_file_editorial_accepted": 2,
+    "full_file_editorial_remaining": 169
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -313,16 +313,14 @@
   },
   "latest_progress": {
     "task_id": "NEXT-001",
-    "stage": "SEVENTH_BATCH_STAGED_PENDING_CI",
-    "scope": "第七批定向回讀3份171待審來源，對照2份後出/舊因果修正，共13條限定命題、41處原文SHA/行號引文，並聯入VER-002、VER-006、VER-010與新VER-014。",
+    "stage": "SEVENTH_BATCH_SHA_ANCHORS_CI_PASS__FULL_FILE_ACCEPTANCE_PENDING_CI",
+    "scope": "第七批3份171來源定向核對13條41行錨點，原文驗證與查詢回歸已通過6fee4da CI。另依NEXT-008標準將25行艾莉維亞稱呼/原槍知情史檔全6區段、5份後出修正逐項對證。",
     "files": [
       "00_分類導航/設定關聯引擎/20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json",
-      "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
-      "00_分類導航/設定關聯引擎/查詢.mjs",
-      "00_分類導航/設定關聯引擎/驗證第七批原文錨點.mjs"
+      "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json"
     ],
-    "not_finished": "完整171份用途卡中僅有1份獲整檔編輯性驗收，其餘170份仍待；NEXT-001/003/004/005/007/008持續，NEXT-006作者HOLD。",
-    "next_step": "先驗證第七批SHA/行號與查詢回歸；下一批選未重覆的171來源，持續按整檔驗收台帳逐段完成，不把局部取證視為全檔完成。"
+    "not_finished": "171份來源用途卡已有2份獲AI編輯性整檔驗收、169份仍待。NEXT-001等主線持續；03人物/候選章G3實際修訂需另作精確QA；NEXT-006 PREWRITE HOLD。",
+    "next_step": "待這次2/169驗收CI通過後，繼續下一組未重覆171來源（建議06_084與05_083人物跨作品研究），逐段核後出版本，能全行審定才降低169；其他只記定向命題。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",

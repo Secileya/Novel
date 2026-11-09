@@ -2,8 +2,8 @@
   "schema": "mega-full-file-semantic-acceptance-pilot-v1",
   "date": "2026-11-09",
   "historical_171_role_backlog": 171,
-  "accepted_editorial_file_count": 1,
-  "remaining_for_full_file_semantic_acceptance": 170,
+  "accepted_editorial_file_count": 2,
+  "remaining_for_full_file_semantic_acceptance": 169,
   "acceptance_rule": "Only full, non-overlapping, contiguous 1..source_line_count reviewed sections, correct SHA and original quote, source role and audited claims, explicit checklist and later-revision limits can yield FULL_FILE_EDITORIAL_ATTESTED; any change revokes. Editor acceptance != author Canon.",
   "records": [
     {
@@ -169,7 +169,117 @@
       ],
       "status": "TARGETED_SEMANTIC_ONLY__NOT_FULL_FILE",
       "source_progress_note": "第六批僅定位部分原文命題，未進行整檔完整語義判定。"
+    },
+    {
+      "source_path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+      "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+      "source_role_id": "COV-NON-004",
+      "related_claim_ids": [
+        "SRC-171-056",
+        "SRC-171-057",
+        "SRC-171-058",
+        "SRC-171-059",
+        "SRC-171-060",
+        "SRC-171-066"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全25行按6個連續區段完成限定來源的語義用途、作者用詞、兩個G3閱讀副本修補、原槍知情、Gemini來源保全及遺留G3因果缺口核對；不代表G3整章已修改或採用Canon。",
+      "source_line_count": 25,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 4,
+          "anchor_line": 3,
+          "quote": "作者指定的局部讀稿校訂／非正史採案",
+          "meaning": "文件標題、日期、作者指定少女／女生／姑娘用詞及此舉不改實力人格的編輯權威"
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "anchor_line": 9,
+          "quote": "三處對應",
+          "meaning": "掃描範圍、定位3處錯稱、兩個G3閱讀版本精確修補及非全域替換"
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "anchor_line": 10,
+          "quote": "暗銀色微型卡槽與諾亞黑銃隱隱共鳴",
+          "meaning": "2處原槍零件知情越界修補；不預告碎件原廠身分"
+        },
+        {
+          "from": 12,
+          "to": 17,
+          "anchor_line": 16,
+          "quote": "共鳴是可觀察線索，不等於原廠鑑定",
+          "meaning": "作者層前文明武器事實、06/57/135候選與角色當時知識的界限"
+        },
+        {
+          "from": 18,
+          "to": 22,
+          "anchor_line": 21,
+          "quote": "原始 Gemini TXT 原文未刪改",
+          "meaning": "原始與讀者版有別；Gemini文字轉錄並非原生完整圖片或平台檔案"
+        },
+        {
+          "from": 23,
+          "to": 25,
+          "anchor_line": 23,
+          "quote": "仍是 OPEN",
+          "meaning": "G3物權、彈回責任、受力、公共損失、供能匣等未結案，以及原稿最後換行與正式0章/PREWRITE HOLD"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md",
+        "03_人物關係與語感/103_後出視覺補充_艾莉維亞呆毛彎弧與神態表演_圖片待進一步核定.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+        "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md",
+          "git_blob_sha": "99ad2435b32f694bbe2953d840c5e0c21b7341e3"
+        },
+        {
+          "path": "03_人物關係與語感/103_後出視覺補充_艾莉維亞呆毛彎弧與神態表演_圖片待進一步核定.md",
+          "git_blob_sha": "f5df3959867c4c44225d9ee4b43d6d1eb66d873a"
+        },
+        {
+          "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c"
+        },
+        {
+          "path": "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
+          "git_blob_sha": "a7289faf8126c75a7c5753ee55d64cf0b6425f8d"
+        },
+        {
+          "path": "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+          "git_blob_sha": "6cd239f1275b7fcbb6ce5430b7d47e60f14f54dc"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-09",
+        "review_scope": "Only the 25-line 2026-11-04 G3 local repair and knowledge boundary historical audit. Does not attest later chapter files, complete original Gemini TXT, actual module tests, or all G3 risk resolution.",
+        "revocation": "Any source blob SHA change or later author authority correction requires recheck"
+      },
+      "remaining_caveats": [
+        "當前11/08順讀候選不是這份11/04 G3歷史兩副本的自動同版，必須按實際版本再核。",
+        "第155原始Gemini TXT在09合冊可按原檔名查；此文件有歷史相對路徑，不得誤當當前獨立檔仍存在。",
+        "第036最新同化B只在作者層判斷模組復歸，不能預先賦予諾亞當時鑑定知識。",
+        "G3原本5種社會/工程/物權爭議並非這份文字用詞修補已解決。"
+      ]
     }
   ],
-  "warning": "The 171 historical source-role backlog remains an immutable source-population snapshot; the new acceptance ledger separately measures 1/171 full document editorial completion, with 170 still to validate. No changes to raw source or Canon."
+  "warning": "Historical 171 source-role cohort is unchanged. Two specific files now have AI-only complete editorial line-range coverage, 169 not yet accepted; no Canon adoption, no original source rewrite."
 }
