@@ -24,6 +24,9 @@ const crossWorldLinks = JSON.parse(fs.readFileSync(path.join(HOME, "跨層文明
 const recoveredHistory = JSON.parse(fs.readFileSync(path.join(HOME, "歷史素材原子化回收_首批.json"), "utf8"));
 const recoveredBatch2 = JSON.parse(fs.readFileSync(path.join(HOME, "歷史素材原子化回收_第二批.json"), "utf8"));
 const thirdRecovered = JSON.parse(fs.readFileSync(path.join(HOME,"歷史素材原子化回收_第三批_精讀.json"),"utf8"));
+const sceneContinuity = JSON.parse(fs.readFileSync(path.join(HOME,"候選01至12章逐場事件與道具連續性證據帳.json"),"utf8"));
+const crossAIProvenance = JSON.parse(fs.readFileSync(path.join(HOME,"跨AI原始討論來源與版本替代證據鏈.json"),"utf8"));
+const worldEvidence = JSON.parse(fs.readFileSync(path.join(HOME,"W02以上文明生態與跨界路權_原文證據矩陣.json"),"utf8"));
 const allRecoveredRecords = [...recoveredHistory.records,...recoveredBatch2.records,...thirdRecovered.records];
 const allRecoveryLinks = [...(recoveredBatch2.links||[]),...(thirdRecovered.links||[])];
 function recordEvidencePaths(r){return r.evidence?[r.evidence.path]:(r.source_anchors||[]).map(a=>a.path);}
@@ -322,6 +325,92 @@ function findSourceDossiers(q,terms) {
     caution:"213原始來源經SHA核實與行號摘錄，可回讀；不是213份逐句完成權威、版本或Canon審定。"};
 }
 
+
+function deepEvidenceSearch(q) {
+  const qn=norm(q);
+  const chapterGlyphs=["一","二","三","四","五","六","七","八","九","十","十一","十二"];
+  const chapterIds=[];
+  for(let i=1;i<=12;i++) {
+    if(["第"+i+"章","第"+String(i).padStart(2,"0")+"章","第"+chapterGlyphs[i-1]+"章"].some(w=>q.includes(w)))chapterIds.push(i);
+  }
+  const hasEntity=keys=>keys.some(k=>k&&norm(k).length>=2&&qn.includes(norm(k)));
+  const broadScene=/逐場|十二章|全部章節|物件連續|道具連續|章節台帳|候選事件/.test(q);
+  const beats=sceneContinuity.chapter_scene_beats.filter(b=>{
+    const chapterMatch=chapterIds.includes(b.chapter);
+    const entityMatch=hasEntity(b.entities)||hasEntity([b.name]);
+    return broadScene||((!chapterIds.length||chapterMatch)&&(entityMatch||chapterMatch));
+  });
+  const objects=sceneContinuity.object_chains.filter(o=>broadScene||
+    hasEntity([o.name,o.id,...o.name.split(/[／、與]/)])||
+    o.states.some(st=>hasEntity([st.change.slice(0,7)])));
+  const aiBroad=/跨AI|原始Gemini|Gemini原始|Gemini對話|原生聊天|版本來源|人工轉錄/.test(q);
+  const ai=crossAIProvenance.records.filter(r=>aiBroad||hasEntity([r.id,r.statement.slice(0,10)]));
+  const worlds=[...new Set((q.match(/W0[2-7]/gi)||[]).map(x=>x.toUpperCase()))];
+  const worldBroad=/跨界|跨層|世界層|文明生態|生態依賴/.test(q);
+  const facts=worldEvidence.facts.filter(f=>{
+    if(worlds.length)return worlds.includes(f.world)||f.world==="ALL";
+    if(worldBroad)return f.world==="ALL"||hasEntity([f.claim.slice(0,9)]);
+    return hasEntity([f.id,f.claim.slice(0,10)]);
+  });
+  const travelBroad=/路網|現役|班次|交通|去返|通車|路權|跨K|跨界/.test(q);
+  const routes=worldEvidence.route_candidates.filter(r=>travelBroad||
+    worlds.some(w=>(r.from+" "+r.to).includes(w))||hasEntity([r.route_id,r.group]));
+  const versionBarriers=worldEvidence.version_sensitive_barriers.filter(b=>hasEntity([b.id])||
+    (travelBroad&&worlds.some(w=>b.endpoints.includes(w)))||
+    (/K0[4789]|K10/.test(q)&&(q.match(/K0[4789]|K10/)||[]).some(v=>b.id.endsWith(v))));
+  return {
+    candidate_scene_continuity:{matched_beats:beats.slice(0,36),matched_beat_count:beats.length,
+      tracked_object_chains:objects.slice(0,14),total_beats:sceneContinuity.scenes,
+      total_objects:sceneContinuity.tracked_objects,timing_place_rules:sceneContinuity.time_place_checks,
+      note:"候選章節01至12，不是正式已發生故事；原文行號和道具去向按11/08順讀補丁版。"},
+    cross_ai_originals_and_revisions:{records:ai.slice(0,22),matched_count:ai.length,
+      total_records:crossAIProvenance.source_records,source_limitations:crossAIProvenance.missing_originals,
+      note:"來源分原生TXT、可見人工轉錄、衍生候選及缺失原始聊天。"},
+    W02_plus_civilization_ecology_and_routes:{facts:facts.slice(0,35),matched_fact_count:facts.length,
+      routes:routes.slice(0,12),version_sensitive_barriers:versionBarriers.slice(0,10),
+      verified_operational_cross_world_routes:worldEvidence.route_candidates.filter(r=>r.world_crossing_verified===true).length,
+      missing_evidence:worldEvidence.missing_real_world_evidence,
+      note:"W02以上各層為歷史候選及原則；12條T路線仍未證真實跨K去返，null不得被補造。"}
+  };
+}
+function deepEvidencePaths(deep) {
+  return unique([
+    ...deep.candidate_scene_continuity.matched_beats.map(x=>x.evidence.source_path),
+    ...deep.candidate_scene_continuity.tracked_object_chains.flatMap(x=>x.states.map(st=>st.evidence.source_path)),
+    ...deep.cross_ai_originals_and_revisions.records.map(x=>x.evidence.source_path),
+    ...deep.W02_plus_civilization_ecology_and_routes.facts.map(x=>x.source_evidence.path),
+    ...deep.W02_plus_civilization_ecology_and_routes.routes.flatMap(x=>x.source_paths||[]),
+    ...deep.W02_plus_civilization_ecology_and_routes.version_sensitive_barriers.flatMap(x=>x.source_paths||[])
+  ]);
+}
+function validateDeepEvidence(corpus) {
+  const byPath=new Map(corpus.read.map(x=>[x.path,x.body.split(/\r?\n/)]));
+  const records=[
+    ...sceneContinuity.chapter_scene_beats.map(x=>({id:x.id,e:x.evidence})),
+    ...sceneContinuity.object_chains.flatMap(x=>x.states.map((st,i)=>({id:x.id+"-"+i,e:st.evidence}))),
+    ...crossAIProvenance.records.map(x=>({id:x.id,e:{source_path:x.evidence.source_path,line:x.evidence.line,quote:x.evidence.excerpt}})),
+    ...worldEvidence.facts.map(x=>({id:x.id,e:{source_path:x.source_evidence.path,line:x.source_evidence.line,quote:x.source_evidence.excerpt}}))
+  ];
+  const badQuotes=records.filter(x=>{
+    const lines=byPath.get(x.e.source_path);
+    return !lines||!lines[x.e.line-1]?.trim().startsWith(x.e.quote);
+  }).map(x=>x.id+":"+x.e.source_path+":"+x.e.line);
+  const knownRoutes=new Set(travelEvidence.routes.map(x=>x.route_id));
+  const badRoutes=worldEvidence.route_candidates.filter(x=>!knownRoutes.has(x.route_id)).map(x=>x.route_id);
+  const badBarriers=worldEvidence.version_sensitive_barriers.filter(x=>{
+    const b=macroMap.barriers.find(y=>y.id===x.id);
+    return !b||JSON.stringify(b.endpoints)!==JSON.stringify(x.endpoints);
+  }).map(x=>x.id);
+  const ids=records.map(x=>x.id);
+  const duplicateIds=ids.filter((x,i)=>ids.indexOf(x)!==i);
+  const operational=worldEvidence.route_candidates.filter(x=>x.world_crossing_verified===true).length;
+  return {records_checked:records.length,failed_source_line_quotes:badQuotes,
+    broken_route_references:badRoutes,broken_versioned_barriers:badBarriers,
+    duplicated_check_ids:duplicateIds,verified_operational_crossworld_routes:operational,
+    ok:badQuotes.length===0&&badRoutes.length===0&&badBarriers.length===0&&duplicateIds.length===0&&
+      worldEvidence.route_candidates.length===12&&operational===0};
+}
+
 function findRecoveredHistory(q) {
   const broad=/全部(?:舊設定|歷史素材|回收紀錄)|舊素材總覽|歷史原子化總覽/.test(q);
   const direct=allRecoveredRecords.filter(r=>broad||
@@ -452,6 +541,7 @@ function query(q, corpus) {
   const cross = findCrossLinks(q,macro,people,travel);
   const impact = findImpactChains(q,zones,macro);
   const recovered = findRecoveredHistory(q);
+  const deep = deepEvidenceSearch(q);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -489,6 +579,7 @@ function query(q, corpus) {
     ...people.relationships.flatMap(e=>e.source_paths||[]),
     ...cross.edges.flatMap(e=>e.source_paths||[]),
     ...[...recovered.records,...recovered.linked_records].flatMap(recordEvidencePaths),
+    ...deepEvidencePaths(deep),
     ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
@@ -527,6 +618,7 @@ function query(q, corpus) {
     version_decisions:versionFindings,
     searched_terms:terms, selected_sources:opened,
     historical_ideas_recovered:recovered,
+    deep_scene_provenance_and_crossworld_retrieval:deep,
     remaining_source_evidence_dossiers:dossierMatches,
     full_corpus_passage_recovery:{files_with_passages:passageInventory.files_with_passages,files_without_passages:passageInventory.files_without_passages,total_passages:passageInventory.total_passages,by_category:passageInventory.by_category,...passageMatches},
     missing_rule_sources:missingMustRead, source_selection_truncated, source_index_drift:drift,
@@ -553,7 +645,11 @@ function integrity(corpus) {
     ...peopleNetwork.entities.flatMap(x=>x.source_paths||[]),
     ...peopleNetwork.edges.flatMap(x=>x.source_paths||[]),
     ...crossWorldLinks.edges.flatMap(x=>x.source_paths||[]),
-    ...allRecoveredRecords.flatMap(recordEvidencePaths)
+    ...allRecoveredRecords.flatMap(recordEvidencePaths),
+    ...sceneContinuity.chapter_scene_beats.map(x=>x.evidence.source_path),
+    ...sceneContinuity.object_chains.flatMap(x=>x.states.map(st=>st.evidence.source_path)),
+    ...crossAIProvenance.records.map(x=>x.evidence.source_path),
+    ...worldEvidence.facts.map(x=>x.source_evidence.path)
   ]);
   const missingDossiers=JSON.parse(fs.readFileSync(path.join(HOME,"全庫待原子化缺口清冊.json"),"utf8")).sources
     .filter(row=>!sourceDossierByPath.has(row.path)||sourceDossierByPath.get(row.path).git_blob_sha_verified!==row.git_blob_sha)
@@ -572,6 +668,7 @@ function integrity(corpus) {
   const children=expandChildren(creativity.map_versions.primary);
   const legacy=expandChildren(creativity.map_versions.legacy);
   const drift=sourceDrift();
+  const deepValidation=validateDeepEvidence(corpus);
   const passageInventory=getPassages(corpus);
   const byPath=new Map(corpus.read.map(d=>[d.path,d.body]));
   const badRecoveryAnchors=allRecoveredRecords.flatMap(r=>recordEvidenceAnchors(r)
@@ -605,6 +702,7 @@ function integrity(corpus) {
     relationship_nodes:peopleNetwork.entities.length,relationship_edges:peopleNetwork.edges.length,
     extra_crossworld_dependency_edges:crossWorldLinks.edges.length,
     historical_recovery_records:allRecoveredRecords.length,
+    deep_scene_crossai_world_evidence:deepValidation,
     original_213_source_dossiers:sourceDossiers.length,
     original_213_section_excerpts:sourceScreenManifest.sections,
     missing_213_source_dossiers:missingDossiers,
@@ -623,7 +721,7 @@ function integrity(corpus) {
     active_w01_children:children.length,old_w01_children:legacy.length,
     temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
     registered_containers:containers,incomplete_registered_containers:incompleteContainers,
-    ok:missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
+    ok:deepValidation.ok&&missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -668,6 +766,14 @@ function selfTest(corpus) {
   assert(scraped.remaining_source_evidence_dossiers.matching_source_count>0);
   const thirdQuery=query("REC3-053 人物的判斷不完美",corpus);
   assert(thirdQuery.historical_ideas_recovered.records.some(x=>x.id==="REC3-053"));
+  const sceneTrack=query("第九章 黑銷 母匙",corpus);
+  assert(sceneTrack.deep_scene_provenance_and_crossworld_retrieval.candidate_scene_continuity.matched_beats.some(x=>x.chapter===9));
+  assert(sceneTrack.deep_scene_provenance_and_crossworld_retrieval.candidate_scene_continuity.tracked_object_chains.some(x=>x.id==="OBJ-PIN"));
+  const aiTrack=query("Gemini原始對話版本來源",corpus);
+  assert(aiTrack.deep_scene_provenance_and_crossworld_retrieval.cross_ai_originals_and_revisions.records.length>=15);
+  const worldTrack=query("W02的農田、交通與K01厚界是否通車",corpus);
+  assert(worldTrack.deep_scene_provenance_and_crossworld_retrieval.W02_plus_civilization_ecology_and_routes.facts.some(x=>x.world==="W02"));
+  assert.equal(worldTrack.deep_scene_provenance_and_crossworld_retrieval.W02_plus_civilization_ecology_and_routes.verified_operational_cross_world_routes,0);
   const recoveredW02=query("W02倒懸麥田風帆列車與導光軌農業城",corpus);
   assert(recoveredW02.historical_ideas_recovered.records.some(x=>x.id==="REC-002"));
   assert(recoveredW02.historical_ideas_recovered.records.some(x=>x.id==="REC-003"));
@@ -714,7 +820,10 @@ function selfTest(corpus) {
     "Celeste third-seat ordinary goodbye preserved",
     "213 SHA-validated original-source dossiers and 1597 excerpts loaded",
     "query returns source dossier links and original line evidence",
-    "third batch 61 curated original claims with 18 cross-links and exact anchor integrity"]};
+    "third batch 61 curated original claims with 18 cross-links and exact anchor integrity",
+    "78 scene beats 14 custody chains and 34 recorded states",
+    "22 cross-AI original-and-revision records",
+    "30 W02+ civilization ecology facts and 12 routes not operationally verified"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
