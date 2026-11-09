@@ -1,10 +1,10 @@
 {
   "schema": "mega-source-atomization-gap-v1",
-  "snapshot_label": "2026-11-09_after_third_curated_pass",
+  "snapshot_label": "2026-11-09_deep_three_track_evidence",
   "original_files": 335,
-  "referenced": 153,
-  "without_direct_structured_reference": 182,
-  "warning": "目前182份來源尚未被經分級的手工語義命題直接引用，但這182份已在213證據索引中完成Git SHA驗證與具行號的機器逐檔摘錄。未引用≠無法找到，引用≠全檔完整審定。",
+  "referenced": 164,
+  "without_direct_structured_reference": 171,
+  "warning": "171份尚無直接人工語義命題引用，但都可全文檢索且全部在先前213份原文SHA驗證及1597行號摘錄索引中。引用不等於全檔完成審核；本輪78逐場、14道具鏈、22跨AI來源、30跨W證據仍按候選/作者地位分級。",
   "sources": [
     {
       "path": "00_分類導航/2026-11-05_巨構GitHub完整接手_最新狀態稽核_非正史.md",
@@ -567,22 +567,6 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "08_交接勘誤與決議/176_Gemini第三至五章與八十題增量稽核_時序能力物權來源未決.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 19832,
-      "git_blob_sha": "af9e7ec8e581c016bcd98c1ea501690f16a2e2dd",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "08_交接勘誤與決議/181_Gemini萬公里尺度復歸黑霧第六章_來源優先與工程獨立稽核.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 17046,
-      "git_blob_sha": "a5a65a282c6e719832dfc70b02414f4eca976a9e",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "08_交接勘誤與決議/186_Gemini新版第六章最終QA_280米誤引_橋跨角色認知與G8D修訂.md",
       "category": "08_交接勘誤與決議",
       "bytes": 8056,
@@ -599,26 +583,10 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "08_交接勘誤與決議/197_Gemini真貨誤導_殞落殘篇_抽薪B案及G9B三補丁QA_非正史.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 7849,
-      "git_blob_sha": "6efb1ceb9385bbe0ea463367ffb9ef26593904ac",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
       "category": "08_交接勘誤與決議",
       "bytes": 10646,
       "git_blob_sha": "b3a90641ccebb07186a46c242f387df20bbb75cd",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "08_交接勘誤與決議/200_G9B對G10第八章候選_直接續接_連續性工程時間與證據QA_非正史.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 15385,
-      "git_blob_sha": "3c8067fdb6e7da3c7ec4fe64c86767169166eb0d",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
@@ -639,42 +607,10 @@
       "full_semantic_review": "NOT_MEASURED"
     },
     {
-      "path": "08_交接勘誤與決議/202_Gemini新版第七八章全章對讀_仍存第五章臨時銷與制動聯鎖QA_非正史.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 9059,
-      "git_blob_sha": "ee4bf250f58c9c7d00f090c1fa90fcf9b3247110",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
       "path": "08_交接勘誤與決議/20261108_不思議迴廊繪本翻頁與破頁者_Celeste管理者倫理_深度QA_非正史.md",
       "category": "08_交接勘誤與決議",
       "bytes": 9577,
       "git_blob_sha": "85f13397887596e6d6329d4059604f406be21928",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 5831,
-      "git_blob_sha": "6cd239f1275b7fcbb6ce5430b7d47e60f14f54dc",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "08_交接勘誤與決議/204_Gemini再修第七八章_五項QA修復實證與尚存細節_非正史.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 8551,
-      "git_blob_sha": "ddec1d916416b98181108ad5172321a613203eef",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "08_交接勘誤與決議/205_第五六章定位銷微修與第七八章雙輪補丁實際整合QA_非正史.md",
-      "category": "08_交接勘誤與決議",
-      "bytes": 6833,
-      "git_blob_sha": "f7da47f9327177fdd32c50147fdc2b57e4d5b7a5",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },
@@ -707,30 +643,6 @@
       "category": "08_交接勘誤與決議",
       "bytes": 5792,
       "git_blob_sha": "6eeef15bbd5c85c00e9e6e1154322303bda7f0e5",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "09_跨AI原始來源/195_A_對話與核心決議_含031與189全文_2026-11-05.md",
-      "category": "09_跨AI原始來源",
-      "bytes": 245051,
-      "git_blob_sha": "60a3d6461f7f90ea09262711142565ac101f2884",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "09_跨AI原始來源/195_D_第三至六章QA_第七章保全與PR核驗_2026-11-05.md",
-      "category": "09_跨AI原始來源",
-      "bytes": 382054,
-      "git_blob_sha": "854c6bd0d8f4e4fb8659b57afd7183420eac7473",
-      "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
-      "full_semantic_review": "NOT_MEASURED"
-    },
-    {
-      "path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
-      "category": "09_跨AI原始來源",
-      "bytes": 28948,
-      "git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258",
       "status": "PASSAGE_SEARCHABLE__NO_DIRECT_STRUCTURED_REFERENCE",
       "full_semantic_review": "NOT_MEASURED"
     },

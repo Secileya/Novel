@@ -9,8 +9,8 @@
   "causal_candidate_edge_count": 18,
   "version_decision_count": 10,
   "registered_container_count": 6,
-  "distinct_original_source_paths_with_some_structured_reference": 153,
-  "warning": "全部335份全文可搜尋；此前未直接引用的213份已逐檔SHA校驗與1597段原文定位，不能當作全部語義定案。已完成針對性原文段落審查而加入原子引用之來源共153份，182份仍無直接語義命題。小說正式0章。",
+  "distinct_original_source_paths_with_some_structured_reference": 164,
+  "warning": "全文可查、機器證據摘錄、至少一個手工來源命題、完整逐檔語義審定是不同層級。不能稱全部335來源或候選12章已正式Canon；沒有任何已驗跨K常態去返路。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -59,12 +59,12 @@
     },
     "08_交接勘誤與決議": {
       "physical": 28,
-      "referenced": 7,
+      "referenced": 15,
       "bytes": 309697
     },
     "09_跨AI原始來源": {
       "physical": 6,
-      "referenced": 2,
+      "referenced": 5,
       "bytes": 1025465
     },
     "交接稽核": {
@@ -96,10 +96,10 @@
   "people_and_institution_nodes": 26,
   "people_and_institution_relationships": 24,
   "cross_world_dependency_edges": 22,
-  "notice_2026_11_09": "213 source dossiers verified with 1597 excerpts; 61 curated claims on 31 additional previously unreferenced originals; 156 history claims total, 41 retrieval links total, 153/335 original paths direct claim references, 182 left without structured claim reference.",
+  "notice_2026_11_09": "最新四軌：335/335全文機器可查，先前213份逐檔SHA核對與1597段機器證據提綱；156原先歷史命題、41關聯，加上78個章節事件、14條34次道具狀態、22跨AI來源紀錄、30 W02+原文候選；164/335原始來源有直接結構化引用，171份仍無；本輪新增11份直接來源引用，未核實常態跨W往返道路仍為0。",
   "historical_source_recovery_atoms": 156,
   "candidate_chapter_event_recovery_records": 12,
-  "original_paths_without_structured_reference": 182,
+  "original_paths_without_structured_reference": 171,
   "all_original_files_text_passage_extraction": "IMPLEMENTED_AND_CI_TESTED_NOT_SEMANTICALLY_REVIEWED",
   "historical_recovery_links": 41,
   "second_recovery_source_count": 38,
@@ -107,5 +107,15 @@
   "historical_source_first_pass_excerpt_sections": 1597,
   "third_curated_records": 61,
   "third_curated_source_paths": 31,
-  "full_file_semantic_complete_by_manual_review": "NOT_MEASURED"
+  "full_file_semantic_complete_by_manual_review": "NOT_MEASURED",
+  "candidate_scene_beats_source_anchored": 78,
+  "candidate_object_custody_chains": 14,
+  "candidate_object_observed_state_changes": 34,
+  "cross_ai_provenance_records": 22,
+  "cross_ai_revisions_linked": 7,
+  "w02plus_source_grounded_hypotheses": 30,
+  "world_version_collision_barriers": 9,
+  "transport_hypotheses_retained": 12,
+  "verified_operational_cross_layer_return_routes": 0,
+  "targeted_deep_source_line_checks": 164
 }
