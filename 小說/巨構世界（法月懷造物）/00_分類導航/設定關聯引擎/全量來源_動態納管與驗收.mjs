@@ -107,8 +107,9 @@ function validateAcceptance(record,liveByPath){
  }
  return [...new Set(issues)];
 }
-export function buildLiveReviewReport(){
+export function buildLiveReviewReport(options={}){
  const current=discoverCommittedSources();
+ if(options.sourceOverride)current.sources=[...options.sourceOverride].sort((a,b)=>a.path<b.path?-1:a.path>b.path?1:0);
  const liveByPath=new Map(current.sources.map(x=>[x.path,x]));
  const faults=[],knownPaths=new Set(),cases=[];
  if(baseline.files.length!==baseline.files_count)faults.push("baseline inventory internal count mismatch");
@@ -199,6 +200,27 @@ function main(){
    if(!validateAcceptance(wrong,live).includes("source_sha_changed"))report.faults.push("negative original-SHA fixture not caught");
    const unlink=structuredClone(proof);unlink.related_claim_ids=["UNLINKED-CLAIM-IMPOSSIBLE"];
    if(!validateAcceptance(unlink,live).some(s=>s.includes("missing_domain_graph_link")))report.faults.push("negative unlinked claim fixture not caught");
+   const current=discoverCommittedSources().sources;
+   const pretendNew={path:"__FUTURE_SOURCE_INTAKE_FIXTURE__.md",git_blob_sha:"a".repeat(40),content_kind:"TEXT_SOURCE",git_mode:"100644"};
+   const auto=buildLiveReviewReport({sourceOverride:[...current,pretendNew]});
+   if(auto.source_total!==report.source_total+1||
+      auto.pending_full_file_count!==report.pending_full_file_count+1||
+      !auto.new_sources_auto_queued.some(x=>x.path===pretendNew.path)||
+      auto.faults.length)
+     report.faults.push("negative future-source automatic intake fixture failed");
+   const originalCorrupted=current.map(x=>x.path===proof.source_path?{...x,git_blob_sha:"0".repeat(40)}:x);
+   const revoked=buildLiveReviewReport({sourceOverride:originalCorrupted});
+   if(revoked.accepted_full_file_count>=report.accepted_full_file_count||
+      !revoked.all_file_records.some(x=>x.source_path===proof.source_path&&x.review_status==="REVOKED_RECHECK_REQUIRED"))
+     report.faults.push("negative original-blob change failed to revoke full-file acceptance");
+   const upstream=proof.latest_revision_source_sha_manifest?.[0]?.path;
+   if(upstream){
+    const revisionCorrupted=current.map(x=>x.path===upstream?{...x,git_blob_sha:"0".repeat(40)}:x);
+    const downstream=buildLiveReviewReport({sourceOverride:revisionCorrupted});
+    if(downstream.accepted_full_file_count>=report.accepted_full_file_count||
+       !downstream.all_file_records.some(x=>x.source_path===proof.source_path&&x.review_status==="REVOKED_RECHECK_REQUIRED"))
+       report.faults.push("negative later-authority-source change failed to revoke dependent acceptance");
+   }
   }
  }
  if(args.includes("--report"))console.log(JSON.stringify(report,null,2));
