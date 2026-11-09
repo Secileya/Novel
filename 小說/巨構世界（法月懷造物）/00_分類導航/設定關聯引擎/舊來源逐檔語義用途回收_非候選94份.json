@@ -1,0 +1,3164 @@
+{
+  "schema": "mega-171-source-roles-nondraft-v1",
+  "date": "2026-11-09",
+  "records": 94,
+  "source_count": 94,
+  "kind": "targeted source-roles plus original quoted passages",
+  "statuses": "NO CANON PROMOTION",
+  "cards": [
+    {
+      "id": "COV-NON-001",
+      "path": "00_分類導航/2026-11-05_巨構GitHub完整接手_最新狀態稽核_非正史.md",
+      "category": "00_分類導航",
+      "source_function": "11/05接手稽核：按實讀清單、權威讀取順序與 PREWRITE HOLD 區分正式設定及候選稿；不能因文件順序自動採案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 文件種類：**編輯接手／資料完整性與版本稽核（NON-CANON）**。不是正文、不是設定決議、不解除 PREWRITE HOLD、不將候選轉為正史。",
+          "heading": "# 《巨構世界（法月懷造物）》GitHub 最新接手基準｜2026-11-05"
+        },
+        {
+          "line": 19,
+          "quote": "| 來源實讀 | 核查三份 000 入口、專案 README、候選正文入口、版別差異、重要的 #031、#067、#114、#160、#183、#186、#187、#189、2026-11-04勘誤、G2/G3R/G7R/G8D 正文首尾，以及跨世界家庭總檔與小說總工作流程 |",
+          "heading": "## 一、稽核實際做了什麼／沒有做什麼"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W_TOP",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "宗教",
+        "生態",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-002",
+      "path": "00_分類導航/2026-11-05_晚間接手增量_3b8fe7_非正史.md",
+      "category": "00_分類導航",
+      "source_function": "11/05晚間相對3b8fe7快照：記錄後出作者確認、初遇時序與巧合／安排不採固定比例；Git SHA只是當時截點。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> 基準：`Secileya/Novel` 的 `main` commit `3b8fe73467e2f0716a465a9c83481676cfcaf772`（2026-11-05 13:04:11 UTC／臺灣 21:04:11）。實際接手時必須重新抓取 HEAD；不可將本快照當永久最新。此文件補充而不取代[同日上午的完整稽核](2026-11-05_巨構GitHub完整接手_最新狀態稽核_非正史.md)及[三份 000 入口](../000_現行決策與主題索引.md)。",
+          "heading": "# 《巨構世界（法月懷造物）》GitHub 晚間交接增量｜2026-11-05"
+        },
+        {
+          "line": 12,
+          "quote": "- **正式小說正文：0 章；`PREWRITE HOLD` 仍有效。** 任何已存在的 ChatGPT／Gemini 章稿仍是候選，除非作者後續明確採納並通過工作流程。",
+          "heading": "## 1. 當前事實與來源權威"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W_TOP",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-003",
+      "path": "00_分類導航/2026-11-08_GitHub即時接手核對_8005072_非正史.md",
+      "category": "00_分類導航",
+      "source_function": "11/08相對8005072即時交接：記錄候選1–12章及不同Gemini/GPT版本鏈、人物能力／來源保護界線。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **性質：HANDOFF / AUDIT / NON-CANON**。本檔僅記錄跨對話接手時確認的實際存檔狀況，不是新的角色設定、世界正史或已定稿章節。核查基準：`Secileya/Novel` → `main` → `8005072a62c8545deef058190a80d8462871b70d`。此基準已以 GitHub compare 與 `main` 確認為 identical。日後如有更新，應重新核查 HEAD，不把本檔當永久最新狀態。",
+          "heading": "# 《巨構世界（法月懷造物）》｜2026-11-08 GitHub 即時接手核對"
+        },
+        {
+          "line": 7,
+          "quote": "- 專案根：`小說/巨構世界（法月懷造物）/`；主要資料庫是 `Secileya/Novel` 的一部分，與其他小說、家庭總檔相關但不能混淆。",
+          "heading": "## 1. 來源與存取"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "生態",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-004",
+      "path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+      "category": "00_分類導航",
+      "source_function": "局部校正艾莉維亞稱呼和諾亞對原槍原裝碎件的知情限制；不能在全庫無差別替換『女人』。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **範圍：作者指定的局部讀稿校訂／非正史採案。** 依第093及103份既有明確敘事用詞，艾莉維亞應稱「少女／女生／姑娘」（必要時直接用名字或代名詞），**不要稱她為「女人」**。保留成熟戰力、人格與思考力，稱呼與能力強弱沒有關係。",
+          "heading": "# 艾莉維亞稱呼、諾亞原槍知識界線及 Gemini 截圖來源（2026-11-04）"
+        },
+        {
+          "line": 7,
+          "quote": "- 掃描 `07_候選故事與場景/` 及 `待定正文/` 共59份 Markdown：**涉及艾莉維亞的「女人」指稱出現在 G3 第二章的3個句位**。其他同字串均指另一名成年歸來旅人、攤商、修鞋者、售票員等不同角色，不能無差別取代。",
+          "heading": "## 一、此次實際處理"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "主角",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-005",
+      "path": "00_分類導航/原路徑對照表.json",
+      "category": "00_分類導航",
+      "source_function": "原路徑映射JSON：舊根目錄編號文件對應分門後路徑，旨在回溯來源而非新設定。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 2,
+          "quote": "\"source_main_sha\": \"286f81f8828fee8b9c53f31b43e9059b46837b99\",",
+          "heading": "\"source_main_sha\": \"286f81f8828fee8b9c53f31b43e9059b46837b99\","
+        },
+        {
+          "line": 19,
+          "quote": "\"小說/巨構世界（法月懷造物）/002_視覺美學與龐克.md\": \"小說/巨構世界（法月懷造物）/01_世界本體與文明/002_視覺美學與龐克.md\",",
+          "heading": "\"小說/巨構世界（法月懷造物）/002_視覺美學與龐克.md\": \"小說/巨構世界（法月懷造物）/01_世界本體與文明/002_視覺美學與龐克.md\","
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "K01",
+        "K10",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "帝國",
+        "生態",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-006",
+      "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+      "category": "00_分類導航",
+      "source_function": "11/04過時矛盾台帳：明列第051已選未發生、正式0章和各候選、後出作者修正及工程待查。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **文件性質：編輯稽核／非正史。** 本次實體分類不改變任何設定的權威與採用狀態；保留所有歷史原檔與舊圖，**只修正因搬移而失效的 Markdown 相對路徑**。若本報告引述歷史來源與後出修正有衝突，以使用者可可靠確認的最新明確決議為準，不能因文件編號、標題或上傳時間推定採案。",
+          "heading": "# 巨構世界｜過時、錯誤、矛盾與未決事項稽核台帳（2026-11-04）"
+        },
+        {
+          "line": 13,
+          "quote": "| 正式正文 | **0章、PREWRITE HOLD**；A、B、B2、C 與 Gemini 試稿均是候選 | 不因G2較新、G3寫完、B2有六章而自動宣布正史 | 確認 |",
+          "heading": "## 1｜當前優先決議快照"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W07",
+        "W_TOP",
+        "K04",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-007",
+      "path": "00_分類導航/GitHub提交與PR合併_作者指定工作規則_2026-11-05.md",
+      "category": "00_分類導航",
+      "source_function": "作者指定GitHub保存操作：修改須實際提交main、讀回校驗；PR只用於確有需要的改動並清楚合併。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **狀態：作者明確確認的工作流程規則（2026-11-05）**。這是**存檔／交接／版控規範，不是小說世界 Canon**。適用於後續 ChatGPT 對話、接手本 GitHub 專案的其他 AI 工作階段；若使用者之後明確修改，以較新的要求為準。",
+          "heading": "# 《巨構世界（法月懷造物）》｜GitHub 資料保存、PR 與合併的作者指定工作規則"
+        },
+        {
+          "line": 7,
+          "quote": "- **不要只在聊天裡口頭答應**。使用者要求新增或更新的可留存研究、原稿、修稿、QA、整理結果，應按此規則**實際寫入 `Secileya/Novel` 的 `main` 並重新讀取驗證**。",
+          "heading": "## 0. 給新接手對話的最優先提醒"
+        }
+      ],
+      "linked_topics": [
+        "法月懷",
+        "Gemini",
+        "交接",
+        "候選"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-008",
+      "path": "00_分類導航/README.md",
+      "category": "00_分類導航",
+      "source_function": "00分類導航索引：跨分類入口、來源與勘誤不自成小說Canon。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "這個資料夾專門集中**跨分類導覽、可機器讀取的路徑對照、過時錯誤矛盾台帳**，不是新小說正文或新增的設定來源。重要判定仍回到當事作者後出決議與原始文本。",
+          "heading": "# 分類導航、來源與稽核工作區"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W_TOP",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "候選",
+        "非正史",
+        "終焉迴廊"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-009",
+      "path": "000_專案交接.md",
+      "category": "(專案根目錄)",
+      "source_function": "專案交接總檔：按日期累積後出作者決策、候選章補丁與跨AI接手資訊，最新段優先但各舊段仍留存。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 8,
+          "quote": "- **血腥場景觀察者的反應有個體與地方差異**：熟悉血腥的人可以邊吃飯邊聊天，卻不表示贊同暴力；外地人可以不適、保持沉默、適應或反對，不能硬套全員尖叫／全員麻木。2026-11-08 作者補充已套第022、023份，不等於指定哪座城必有公開殘酷制度。",
+          "heading": "## 2026-11-08｜Gemini 80 題三批回覆已找回（糾正只存十題的誤判）"
+        },
+        {
+          "line": 14,
+          "quote": "- **[一頁接手導航](000_舊設定寶庫_接手必讀_20261108.md)**：清點既有血腥尺度、灰度倫理、根橋巨樹／蜘蛛／巨龜、跨層遷徙、微小生物、不同地貌，以及 Gemini 80題研究的真實存放位置，標注作者確立方向與可推翻原創候選。",
+          "heading": "## 2026-11-08｜舊設定寶庫回收（重要：避免跨AI接手時遺忘）"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W07",
+        "W_TOP",
+        "K01",
+        "K10",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "帝國",
+        "醫療",
+        "宗教",
+        "生態",
+        "工坊"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-010",
+      "path": "000_導覽與狀態.md",
+      "category": "(專案根目錄)",
+      "source_function": "專案導覽與狀態：11/08確認都市式組織參考可採、W04兩類城邦候選未被否決，保護原稿與權威狀態。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "**最新作者明確補充：喜歡《Project Moon》都市式的組織與社會架構，正是提出參考的目的。** 過去助手因 W04 初版「太像《都市》」便要求 Gemini「去換皮」重設，是**錯誤審稿方向，已撤回**。**萬律專利城邦**（最高公證院、技術壟斷工坊／企業、階層、外緣與懸星）並未被作者否決，**四柱衡城**（承重、司衡院、配重制度）亦是另一候選，非取代前者的唯一新版；二者可獨立、並存或合理整合，均未正式採案。相似的高位統治／技術壟斷／巢與後巷式生活落差可直接作為正向目標；核對真實世界因果與來源權威，**不要審查「像不像參考作品」來強行刪掉作者喜歡的架構**。懸星觀測天體亦保留，不以古工",
+          "heading": "## 2026-11-08｜都市參考方向更正（請按後出作者意圖閱讀舊 QA）"
+        },
+        {
+          "line": 11,
+          "quote": "- **[一頁接手導航](000_舊設定寶庫_接手必讀_20261108.md)**：清點既有血腥尺度、灰度倫理、根橋巨樹／蜘蛛／巨龜、跨層遷徙、微小生物、不同地貌，以及 Gemini 80題研究的真實存放位置，標注作者確立方向與可推翻原創候選。",
+          "heading": "## 2026-11-08｜舊設定寶庫回收（重要：避免跨AI接手時遺忘）"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W04",
+        "W07",
+        "W_TOP",
+        "K01",
+        "K10",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "帝國",
+        "醫療",
+        "宗教",
+        "生態"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-011",
+      "path": "待定正文_總入口.md",
+      "category": "(專案根目錄)",
+      "source_function": "待定正文入口：指向候選版本、排版及順讀稿；可閱讀不是作者正式採用。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gemini` 為歷史底稿。**",
+          "heading": "## 2026-11-08｜第01～12章最新已套補丁・依章號順序閱讀（現行入口）"
+        },
+        {
+          "line": 14,
+          "quote": "[第七章 G9B完整融合增修版](待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md)：從G9A全章整合三處Gemini新補丁；完整保留G9與G9A舊版。後續其他「第七章尚未回收」均為舊時間點稽核敘述，不是最新狀態；**正式正文仍0章／PREWRITE HOLD**。相關作者層黑幕與殞落日候選不得自動當作本章已證實事實。[第197份QA及設定邊界](08_交接勘誤與決議/197_Gemini真貨誤導_殞落殘篇_抽薪B案及G9B三補丁QA_非正史.md)。",
+          "heading": "## 2026-11-05｜最新第七章可直接閱讀：G9B融合版（非正史）"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-012",
+      "path": "01_世界本體與文明/README.md",
+      "category": "01_世界本體與文明",
+      "source_function": "世界本體與文明目錄：依主題收納宏觀環境、前文明、勢力與生態，檔號及分類不等於權威定案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "- **[一頁接手導航](../000_舊設定寶庫_接手必讀_20261108.md)**：清點既有血腥尺度、灰度倫理、根橋巨樹／蜘蛛／巨龜、跨層遷徙、微小生物、不同地貌，以及 Gemini 80題研究的真實存放位置，標注作者確立方向與可推翻原創候選。",
+          "heading": "## 2026-11-08｜舊設定寶庫回收（重要：避免跨AI接手時遺忘）"
+        },
+        {
+          "line": 11,
+          "quote": "> 按**主要用途**收納；編號不是權威排名。檔案內的過時說法、原文／候選／確認狀態仍須個別判讀，**不可因收納分類而自動升格 Canon**。",
+          "heading": "# 01_世界本體與文明｜檔案索引"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "Gemini",
+        "前文明",
+        "帝國",
+        "生態",
+        "跨層",
+        "交接",
+        "候選",
+        "世界層",
+        "主角",
+        "城市",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-013",
+      "path": "02_地圖拓撲與交通/README.md",
+      "category": "02_地圖拓撲與交通",
+      "source_function": "地理交通目錄：彙整宏觀W、厚界K與地方路網的歷代提案；圖上相連不能直接推定客貨運現役。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 按**主要用途**收納；編號不是權威排名。檔案內的過時說法、原文／候選／確認狀態仍須個別判讀，**不可因收納分類而自動升格 Canon**。",
+          "heading": "# 02_地圖拓撲與交通｜檔案索引"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "K01",
+        "K10",
+        "Gemini",
+        "生態",
+        "候選",
+        "非正史",
+        "世界層",
+        "主角",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-014",
+      "path": "03_人物關係與語感/README.md",
+      "category": "03_人物關係與語感",
+      "source_function": "人物與語感目錄：收錄諾亞、艾莉維亞、瑟莉思媞不同時期互動，先核對後修及知情界線。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 按**主要用途**收納；編號不是權威排名。檔案內的過時說法、原文／候選／確認狀態仍須個別判讀，**不可因收納分類而自動升格 Canon**。",
+          "heading": "# 03_人物關係與語感｜檔案索引"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "復歸",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-015",
+      "path": "04_能力武器與試煉/README.md",
+      "category": "04_能力武器與試煉",
+      "source_function": "能力與試煉目錄：收錄原槍、復歸、白髮與靜謐／終焉等能力方案，已選方向與未發生事件不可混淆。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 按**主要用途**收納；編號不是權威排名。檔案內的過時說法、原文／候選／確認狀態仍須個別判讀，**不可因收納分類而自動升格 Canon**。",
+          "heading": "# 04_能力武器與試煉｜檔案索引"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "候選",
+        "復歸",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-016",
+      "path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "參考圖沿革：最初僅一張仰視遊戲截圖，後續圖片需分辨使用者親選、聊天轉述與原始附件是否仍在。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 此檔**不能**混淆「使用者親自挑選的參考」和「對話中順帶研究的其他作品」；更不能把先前助手自己說過的畫面名稱或無從核實的附件檔名寫成有憑有據的圖片實檔。",
+          "heading": "# 全部提及作品、圖片出現順序與參考功能核對"
+        },
+        {
+          "line": 9,
+          "quote": "使用者先提供單張遊戲截圖並問：「這是甚麼樣的風格，甚麼樣的朋克」。後來使用者還以一張聊天截圖明確糾正：「這不是最開始嗎，我只發一張」。",
+          "heading": "## 一、最初真的只有一張照片"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "法月懷",
+        "前文明",
+        "生態",
+        "遺跡",
+        "跨層",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-017",
+      "path": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "中英文搜尋詞及AI繪圖提示詞，屬場景製作工具而非可互動設備或已形成世界地理。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 這部分是本次對話中使用者曾要求「都做」的**搜尋詞／AI 繪圖 Prompt**資料保存，屬創作工具，不是既成正史。輸出圖片只是靜態視覺；「真的按按鈕、真的開路」涉及遊戲／敘事互動設計，單靠一張渲染圖無法證明有真實可玩的系統。",
+          "heading": "# 搜尋關鍵字、繪圖提示詞與不宜偏移的方向"
+        },
+        {
+          "line": 9,
+          "quote": "- 群落文明與真實居民、多年代設備混融、探索者與商隊、生產基地、科技與工業共存、跨層遠征、非線性的空間探索。",
+          "heading": "## 中文組合詞"
+        }
+      ],
+      "linked_topics": [
+        "商隊",
+        "跨層",
+        "主角",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-018",
+      "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "多作品架構研究：可借鑑巨構尺度與局部獨立深淵的詛咒，但不得移植一套統一世界詛咒。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **【2026-10-19 使用者後出補充】** 第 03 與本研究所說「勿照搬全世界統一上升詛咒」，**不表示局部完整深淵不能有自己的真實詛咒**。使用者新明確希望借鑑《來自深淵》「絕界行」的單向遠征重量，但其視角**相對整個巨構世界**，不能只指涉某座深淵；個別世界層可以通往**獨立、具有詛咒的完整深淵**，深淵底部又接**另一整個世界層**，且喜歡原作第四層的奇特濕潤生態美學。此處的「絕界行」世界內稱謂、局部詛咒機理與地圖仍待選。詳見 [048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md](../02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深",
+          "heading": "# 外部研究 47｜相似作品架構比較與巨構世界可用轉化"
+        },
+        {
+          "line": 15,
+          "quote": "| **《BLAME!》漫畫** | 宏大的失控城市、殘存住民、探索者攜高規格武器走過巨量樓層 [Kodansha](https://kodansha.us/series/blame/)／[講談社](https://www.kodansha.co.jp/comic/products/0000045468) | 結構本身超越文明視野；少數高階武器可形成真實代差；視覺允許極長無人路段 | 不照搬網端遺傳因子、統治局、敵對分類，也不讓全篇只剩漫遊巨城 |",
+          "heading": "## 一、10部主要作品與機制抽取"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "商隊",
+        "生態",
+        "工坊",
+        "遺跡",
+        "跨層",
+        "候選",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-019",
+      "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "以懸潮港局部為例設計路網、居民、工藝與外圍勢力；此選點只是候選，折索集市方案仍有效。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-19。使用者要求：「你之前說的（初遇）做了／之前查得作品戰鬥方面和事件有什麼可以參考／做下一步，將開場候選區域的道路、居民、工藝、政治、地下勢力、遠方傳聞、無人遺跡和諾亞／艾莉維亞實際可能遇到的人事串起來」。**本檔從世界來源 01–11、第 34、39、43、46、47、49–51 的後出限制推導，全部新命名／地方事件／人物是原創候選，未被使用者核可，不是正式 Canon 或正式章節。**",
+          "heading": "# 候選實作 52｜戰鬥與事件架構研究；懸潮港及外部世界的一片可運作地域"
+        },
+        {
+          "line": 9,
+          "quote": "以下的「原作機制」基於可核驗的官方或製作者資料；「本世界轉化」是助手建議，嚴格不是官方原作或使用者 Canon。",
+          "heading": "## 1. 之前研究的作品，戰鬥及事件到底學什麼"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "商隊",
+        "醫療",
+        "生態",
+        "工坊",
+        "遺跡",
+        "候選",
+        "復歸",
+        "世界層",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "航道",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-020",
+      "path": "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "使用者轉貼《異常大舞台》劇情魅力討論全文；此為外部分析原文，不是已驗外部作品設定。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **類型：使用者轉貼的另一個對話問答原文；不是《巨構世界》正式 Canon，也不是本助手獨立驗證的《異常大舞台》原作資料。**",
+          "heading": "# 第79份｜原文存證：使用者轉貼《異常大舞台》故事魅力與劇情推進分析"
+        },
+        {
+          "line": 12,
+          "quote": "分析故事魅力，我現在世界觀架很大，實際自己只設計幾個特別的，其他人物也沒幾個，都只是籠統的分類，故事劇情也不知道怎麼推進。這個劇情是怎麼推進的，有目標性的嗎，他是怎麼讓人覺得好看的",
+          "heading": "## 以下為使用者貼入的完整文字"
+        }
+      ],
+      "linked_topics": [
+        "帝國",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-021",
+      "path": "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "使用者轉貼對故事引擎及九問的完整回評，核心關注人物動機、衝突、選擇與不可逆後果。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **類型：使用者轉貼另一個對話對本助手回覆的完整評議；不是《巨構世界》正式 Canon，也不代表使用者逐條明確採用建議。**",
+          "heading": "# 第80份｜原文存證：外部對話對《巨構世界》劇情魅力回覆的完整批評與建議"
+        },
+        {
+          "line": 13,
+          "quote": "這份回覆的方向其實很好，而且比單純「照《異常大舞台》做目標階梯」成熟很多。它已經抓到幾個很重要的東西：**世界不該只為主角謎團存在、探索本身可以成立、人物先於設定說明、資訊釋放本身也是敘事、諾亞與艾莉維亞要長出新的願望。**",
+          "heading": "## 以下為使用者貼入的完整文字"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "主角",
+        "列車",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-022",
+      "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "使用者轉貼他對方九／莉雅初遇和能力互識的詳析，包含取回早期章節後的自我修正，引用需分前後版。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **來源分類**：2026-10-20 使用者貼入的另一個對話關於《異常大舞台》方九與莉雅初次相遇、如何逐步理解能力的回答，包含**先前只能依既有片段描述的初答**，以及**隨後重新取得早期章節後的自我修正和十三段詳細分析**。以下照使用者轉貼的文字次序完整保存，不能只引用初答就忽略後出修正。",
+          "heading": "# 第83份｜使用者轉貼原文：方九 × 莉雅初遇、互相了解能力及早期章節修正"
+        },
+        {
+          "line": 18,
+          "quote": "有一個地方我先講清楚：我現在這份上傳檔的早期章節索引剛好抓不回來，所以「第一次見面當下逐句發生了什麼」我不想硬補成假原文。目前我能從既有檔案紀錄確定的是，兩人最早期的相處方式本來就不是「坐下來互報能力表」，而是在一起碰事情、試東西、出狀況，能力一點一點被彼此理解。",
+          "heading": "## 以下為使用者新貼的原文"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-023",
+      "path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "十二項小說研究涉及不同角色語體、抽象用詞及長短章吸引力；作品比較不是本世界既有Canon。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 4,
+          "quote": "> 2026-10-21｜使用者明確要求把最近整段討論補入《巨構世界》設定庫，「不要太精簡，最好12點都有」。以下**完整保留十二項分析**，尤其八名非方九／莉雅的人物說話方法、敘述與抽象語言、2,000～3,000字短章相較6,000字以上長章的吸引力稀釋問題，以及《巨構》正文修稿辦法。這是使用者要求存檔的**創作研究／方法參考**，不是已核定的新世界Canon、固定台詞配額或小說已發生的情節。",
+          "heading": "# 第132份｜完整十二項研究：群像語體、抽象用詞與長章吸引力"
+        },
+        {
+          "line": 12,
+          "quote": "最早的觀察是《異常大舞台》即使有大量專業名詞，句子依舊常常像正常小說，不一直用抽象分析取代當場正在發生的事。初期助手太愛拿方九和莉雅的互損、吐槽與白話翻譯舉例；使用者特別指出那是兩個人的人物特質，不代表其他502成員。",
+          "heading": "## 一、不是全員說白話，而是讓不同人物真正用不同語言理解世界"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "工坊",
+        "交接",
+        "候選",
+        "復歸",
+        "世界層",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-024",
+      "path": "05_場景視覺與參考/README.md",
+      "category": "05_場景視覺與參考",
+      "source_function": "場景視覺索引：現有素材按主要用途收納，原圖片是否存在與敘述記錄分開檢查。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 按**主要用途**收納；編號不是權威排名。檔案內的過時說法、原文／候選／確認狀態仍須個別判讀，**不可因收納分類而自動升格 Canon**。",
+          "heading": "# 05_場景視覺與參考｜檔案索引"
+        }
+      ],
+      "linked_topics": [
+        "生態",
+        "候選",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-025",
+      "path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "作者要求寫作前實讀所有相關GitHub原設定、核版本與資訊差，不能把總索引當完整閱讀。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-19。使用者本輪原話：**「寫作流程，現在有很多設定，不能當作不去看的沒用文字」**。",
+          "heading": "# 討論續錄 32｜正式長篇寫作流程：設定實讀、版本對照、作者層規劃與逐章稽查"
+        },
+        {
+          "line": 11,
+          "quote": "- **必須真的查閱 GitHub 原檔**：不能把「有一份總導覽」「我有記憶」「先前總結寫過」當作「已讀完整設定」。文件越多，越需要真正索引、讀取、定位來源及版本，不能忽略以前辛苦累積的世界尺度、角色 DNA、情感結構、機制細節、歷史與否定條件。",
+          "heading": "## 1. 基本立場：多份設定不是裝飾品，不能只憑聊天印象寫"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "前文明",
+        "醫療",
+        "生態",
+        "工坊",
+        "候選",
+        "復歸",
+        "主角",
+        "列車",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-026",
+      "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "比較三套候選開篇並優先試寫拆走上行路；這是助手研究排序，未被作者採成正式第一章。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-19。使用者於第 63（主角早期實力與群像）、64（完整地方事件與開篇候選）完成後說「繼續」。本輪**主動比較現有三套開篇並選一套深入「試寫」**，**不是使用者正式批准第一章**。來源：[34《倒行潮》](../07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md)、[53《將被拆走的上行路》](../03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md)、[64《還有兩張票》](../07_候選故事與場景/064_候選實作_地方事件兩案_開篇旅行與完整人物場景.md)，比照 [61 景物短而有畫面](../01_世",
+          "heading": "# 討論候選 65｜三套開篇評估：優先試寫《將被拆走的上行路》"
+        },
+        {
+          "line": 11,
+          "quote": "| 第三名重要人物 | 牧冬、芙纓和港方負責人較多，需要控制鏡頭 | 席蘿既有強私人目的又持有部分真路線，自然可和兩人短暫同行／衝突 | 葛桑與邱賀有地方法規與承力困境，很可信但容易被工程對話占滿 |",
+          "heading": "## 一｜不是比較哪一套有最多世界設定"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "候選",
+        "復歸",
+        "靜謐迴廊",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-027",
+      "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "使用者重點轉向故事吸引力與節奏，保留成功的語氣、靜謐橋與相遇試寫，不要推倒重來。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 來源：2026-10-19 第73份之後，使用者明確說「**回到故事**」「之前試寫的我感覺都挺好的，不是第一章的試寫，反而是試語氣，試靜謐迴廊的橋，試瑟莉絲媞初遇還不錯」「**現在缺的還是劇情的魅力，節奏**」。使用者另完整貼出與另一個對話研究《異常大舞台》的分析，及對本助手回覆的外部評議與建議。",
+          "heading": "# 第77份｜劇情魅力與節奏研究：人物不是設定解說器，如何讓讀者願意翻下一章"
+        },
+        {
+          "line": 8,
+          "quote": "1. **諾亞與艾莉維亞的語氣練習**：第29「男主買兩張票，以優惠／退票掩飾陪女主」，維亞看穿並逗弄；第30暱稱、雙向臉紅和無意直球；嘴硬不等於臉紅，日常可甜、正常、荒謬、嚴肅、安靜。成熟默契屬於**長期相識之後**，不能倒灌第1章。",
+          "heading": "## 一、對過去成功試寫的使用者評價：不能推倒重來"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "前文明",
+        "候選",
+        "復歸",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-028",
+      "path": "06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "完整留存第一篇故事魅力長評：目標會變，探索、人物及生活需要各自運作。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 原對話來源：第79份的使用者轉貼分析之後，本助手的完整長篇回應，開頭為「我把你貼的這份《異常大舞台》分析，和我們目前的《巨構世界》放在一起比較後」。原先第77份只存節略，此份為**長版全文的 Markdown 存檔**，保留完整論述、例子、分岔與七個段落。聊天介面的圖形佈局／樣式容器轉換為一般 Markdown 排版，不影響故事研究實質文字內容。",
+          "heading": "# 第81份｜助手原長評析補錄：從《異常大舞台》分析轉向《巨構世界》的劇情魅力"
+        },
+        {
+          "line": 90,
+          "quote": "**不能因為發現線很強，就讓所有地點只是新奇觀；也不能因為人物線重要，就把每次旅行都變成感情考驗。**",
+          "heading": "## 二、這份分析裡的「三條線」，我們可以用，但要補一條"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "遺跡",
+        "候選",
+        "靜謐迴廊",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-029",
+      "path": "06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "完整留存第二篇劇情引擎長評：人物欲望、阻力、選擇、後果與九問，只是分析不是正式劇情。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 原對話來源：使用者貼出另一個對話對助手回覆的回評後，本助手的完整長篇回應，開頭為「我覺得這份回評非常有幫助，而且它確實指出了我上一則回覆最大的不足」。原先第77–78份僅節略，此檔為**長版全文 Markdown 留存**，保留全部七節、具體場面、九問表、兩種版本比較、人物／節奏和圖解之文字等價內容。聊天界面圖形與卡片樣式轉為 Markdown。",
+          "heading": "# 第82份｜助手原長評析補錄：從「創作宣言」到欲望、阻力、選擇、後果與九問實測"
+        },
+        {
+          "line": 55,
+          "quote": "不把這個故事定成正式開篇，只是用它來檢查我們能否真正生成一段有吸引力的劇情。",
+          "heading": "## 二、我想直接用《從上面下來的人》測試九個問題"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-030",
+      "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "完整研究初識時逐步互知能力與人格，不能把成熟暱稱和默契倒灌首章。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 來源：使用者指出「你沒有完整回應」後，本助手對第83份《方九莉雅初遇能力互識》發表的**完整長回應**。",
+          "heading": "# 第84份｜完整回應存證：方九×莉雅能力互識對諾亞×艾莉維亞初遇與劇情的啟發"
+        },
+        {
+          "line": 61,
+          "quote": "正式第一章既然已經確定是兩人第一次相遇，就不能直接跳到熟人式的默契與暱稱。",
+          "heading": "## 一、最重要的不是能力展示，而是「認識一個人的過程」"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "復歸",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-031",
+      "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "完整研究諾亞復歸對讀者／艾莉維亞資訊差，及第三個座位普通道別的伏筆，非固定反應表。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 來源：使用者回應「復歸我們一直討論，但其實對角色跟讀者來說就是謎團……」以及指出瑟莉絲媞《第三個座位》聊天自然成功、離別「下次見呀」和只給讀者看的「母親」念頭之後，本助手發表的**完整十一節長回應**。",
+          "heading": "# 第85份｜完整回應存證：諾亞復歸與維亞目睹死亡、瑟莉絲媞《第三個座位》初遇與「下次見呀」"
+        },
+        {
+          "line": 66,
+          "quote": "如果諾亞遭遇足以致死的危險，她很可能第一時間便採取行動，而不是等事情發生後才突然想起自己具有空間技藝。",
+          "heading": "### 最重要的是：不要把艾莉維亞寫成只會站在旁邊哭的人"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "候選",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "列車",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-032",
+      "path": "06_敘事規劃與工作流/086_完整回應存證_異常大舞台第一二章_諾亞艾莉維亞開篇節奏研究.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "完整開篇節奏研究：讓讀者先看人物如何作決定；外部作品章節解讀未獨立原著驗證。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 來源：使用者轉貼另一個對話對《異常大舞台》第一章與第二章的完整分析後，本助手的長回應，以下按原段落逐節補存。原先圖形流程改為文字與 Markdown 表格；來源涉及外部對話尚未經本助手獨立原著核實。",
+          "heading": "# 第86份｜完整回應存證：方九與莉雅第一、二章如何立住人物，以及對《巨構世界》的開篇啟發"
+        },
+        {
+          "line": 23,
+          "quote": "它做了一件更有價值的事情：**讓讀者觀察他在不同情境下，會怎麼做決定。**",
+          "heading": "## 一、第一章真正的作用，是建立「人物的行為邏輯」"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "復歸",
+        "世界層",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-033",
+      "path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第89份全庫預寫稽核：回讀01–88原文並分類能寫、不能偷定之首章門檻。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 日期 2026-10-20。承接使用者「寫作流程，需要查看的檔案？」→「繼續」。本次依 **PROJECT_HANDOFF_MASTER → NOVEL_WORKFLOW_PROTOCOL → 巨構專案交接 → 主題索引／勘誤 → 01–88 編號來源 → 首章高相關原文核對**執行資料覆蓋。本檔是**稽核與導覽記錄，不覆寫任何成立原文與正式 01–11**。",
+          "heading": "# 第89份｜正式第一章寫前稽核：01–88 全庫覆蓋、首章主題回查與「能寫／不能偷定」邊界"
+        },
+        {
+          "line": 9,
+          "quote": "- 倉庫 `Secileya/Novel`，作品路徑 `小說/巨構世界（法月懷造物）/`，正式基底01–11及家庭總檔，已確認的後出使用者設定即使存在討論檔仍須遵守。前後有衝突先讀 `舊資料_勘誤/01_後出取代與明確錯誤.md`、`02_候選與未決隔離.md`。",
+          "heading": "## 一、接手權威與現況"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "前文明",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-034",
+      "path": "06_敘事規劃與工作流/090_開篇候選P0工作卡_被拆走的上行路_真初遇與第二章因果.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "拆路P0工作卡：真首次相遇、各方各自目的和第二章後果屬候選設計，未授權定案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **性質：候選作者層工作卡／未經使用者定案**。承接 [第89份稽核](089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md)、[第65作者層可收束真相](065_開篇比較_三方案敘事吸引力與上行路優先試寫.md)、[第67首章真正初遇](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md)、[第53人物優先](../03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md)、[第80「現在性／欲望、阻力、選擇、後果」](../05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_",
+          "heading": "# 第90份｜第一章 P0 寫前工作卡：把《將被拆走的上行路》改成真正初遇，並讓第二章從第一章的選擇長出來"
+        },
+        {
+          "line": 17,
+          "quote": "| 中途什麼會讓讀者重新理解某人 | 席蘿並非只會嗆人的老探險者；她熟悉危險、仍會在普通事上笑和算價，卻對一本原始測線冊異常執著。真相不第一章揭露；作者層前提詳第65 |",
+          "heading": "## 一、九問工作卡（僅供作者）"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "復歸",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-035",
+      "path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第108份PREWRITE候選：檢查拆路第一次相遇、角色時序和工程事實，正式章准寫仍HOLD。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-10-20 新建，狀態：PREWRITE_P0 = 可供核定；正式第一章准寫 = HOLD。** 使用者在建議「從第91份開篇構想審查並製作正式第一章 PREWRITE」後說「開始」，本輪取得的是**準備、檢查、詳列選擇與同步工作檔**的授權，並未因此自動核定折索集市、席蘿、閻白、路權及事故已發生。",
+          "heading": "# 第108份｜正式第一章 PREWRITE：〈那條路正在被拆走〉P0候選之初遇、因果、視角、資訊與准寫檢查"
+        },
+        {
+          "line": 17,
+          "quote": "| 真正第一章，兩人第一次見面 | [067 初遇修正](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md) | **使用者已定**：諾亞與艾莉維亞之前互不認識。舊第066版先叫「維亞」、自然牽手、已共同生活的內容不能作正式初章。 |",
+          "heading": "## 一｜本輪必須保持的正史與版本分界"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "工坊",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "列車",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-036",
+      "path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第109 A與第110 B互斥開篇比較；B較有眼前問題但非讀者已全面認可的定案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **日期：2026-10-20。作品內部編輯自評，不是使用者已閱讀兩份新稿後給出的評價。** 比較已寫成完整連續場面的[109 A〈拆路之後仍有人走〉](../07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md)及[110 B〈從上面下來的人〉](../07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md)。兩案是**相互替代的首次相遇版本**，不是第一章接第二章；不改寫第066、091、092原稿，正式正文章數仍為0。所有本輪新增地點、人物、台詞與事件，除與有效世界觀重疊部分外，均屬非正史候選。",
+          "heading": "# 第111份｜雙開篇連續試演的閱讀驗收與下一步（尚未定案）"
+        },
+        {
+          "line": 11,
+          "quote": "諾亞買熱餅、看見巨大舊橋正在吊離；原先遮住的斷裂石階、後人加焊的窄梯、正常貨運與另一片生活城市逐步顯現。他因想親眼看見這條路的獨特視角去問路；閻白以真實工地風險拒絕他，他便自己選仍供居民使用的側道。艾莉維亞之前就拿著量測片追問拆除前的連接次序，與諾亞初次說話時兩人有不同目的：他要景色，她要可核查的接合事實。她沿側道去測量，沒有因工地禁區被「降智」或限制高階力量。吊梁移走時諾亞看見對面曲殼上仍住人的城市，艾莉維亞獲得新的可量測方向；兩人互報名字，仍不立刻變成固定旅行隊伍。",
+          "heading": "## 一｜實際場景結果：兩版各自做到什麼"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-037",
+      "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "長篇敘事節點是一張可更新的航圖，不能固定每第幾章死、復歸或解鎖。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-20。根據使用者閱讀第109 A／第110 B後的直接回饋建立。這是**能持續更新的作者層敘事導航**，不是固定章號大綱，也沒有把B候選升格為正式第一章。",
+          "heading": "# 第112份｜長篇敘事節點系統：知道故事往哪裡走，又不把人物寫成照表行動"
+        },
+        {
+          "line": 15,
+          "quote": "使用者要找的不是「第5章開槍／第16章死／第17章復活」這類預先鎖住章數的清單。那會讓人物為配合進度而不自然行動。也不是只把重要設定放在資料庫裡，讓下一任助手自己從上一章臨場發明接下來的故事。",
+          "heading": "## 一｜「節點」的準確定義：故事的航圖、不是固定站牌"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W03",
+        "K01",
+        "K10",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "生態",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "第三個座位"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-038",
+      "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "整本小說記憶網重視跨章回聲與可記住的大型篇章名場面，不是每章填一個梗配額。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-21，延續使用者要求保存的第132份長章語言與閱讀回報研究。使用者同意另外建立完整的「整本小說的記憶網絡」專題，**並立刻補充重要修正：名場面也非常重要**。使用者隔很久仍記得《異常大舞台》的許多具名大型篇章，包括**時鐘塔篇、深藍聖堂篇、黃昏之神篇、萬機之理想鄉篇、橙色現實、無限世界篇（莉雅篇）、海星世界篇、紅色篇、無序者篇（方九打老鄉篇）、紫胎之洞篇、失控篇、決戰篇**，以及篇章中間穿插的其他故事。使用者說：「**這就是一種篇幅裡的目標**。」**本份必須把「名場面＋完整篇章的目標與高潮」提升到和「人物反應＋長期生活記憶」同級，而不是前者被後者取代。**",
+          "heading": "# 第133份｜整本小說的記憶網絡：篇章級目標、名場面、人物反應、情緒與可重新剪輯的畫面庫"
+        },
+        {
+          "line": 15,
+          "quote": "早先助手把記憶點分為角色動作、關係、畫面、台詞、選擇、反差、舊梗回收和事件，這有用，但若被理解為「每章至少一個主記憶點加兩三個小記憶點」，便仍只是在作**單章配額**。使用者後來描述：自己很久沒看小說，卻在聽歌、看歌詞與MV時，會主動腦補《異常大舞台》的人物與劇情；畫面不必出現在原著或原MV，卻覺得非常符合角色和這段人生。",
+          "heading": "## 一、使用者真正說的「記憶點」不是每章一個小梗，而是整本小說在讀者腦內會留下的一整張網"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "商隊",
+        "候選",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "列車",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-039",
+      "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第134從研究轉篇章構造：將完整人物、高潮、結局與後果納入A／B2／C相競首篇方向。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-21。**使用者已明確說「開始」**，意指從第132「人物語言與單章回報」與第133「名場面、篇章級目標與整本小說記憶網絡」向下一步推進：建立能追讀的長篇篇章方向，並真正替第一個篇章設計人物、事件、高潮、結案與跨篇後果。**本稿是可供評讀的作者層完整設計／候選分歧，不是使用者已選定首章，也沒有撰寫正式正文章節。** 不用抽象宣言充數，也不把尚未確證的世界地圖當通行現實。",
+          "heading": "# 第134份｜從研究轉為真正故事：長篇篇章方向、首篇三案比較與《從上面下來的人》篇級重構"
+        },
+        {
+          "line": 15,
+          "quote": "第132與第133給了兩個不同尺度的評估：6,000字若只把2,500字的閱讀回報攤薄，會慢；十幾或幾十章若都是替「以後才有的登頂」鋪路，便沒有像時鐘塔、深藍聖堂、無限世界等那樣可被讀者叫出名字的篇章。本篇開始處理中間缺口：**這一整篇到底在演什麼，主角為什麼在場，每個重要人想得到什麼，哪個高潮不是能被行政報告取代的，結束後什麼是真變了？**",
+          "heading": "## 一、這次工作的衡量：不是多一份研究，是至少有一個真正想追的完整故事"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "商隊",
+        "醫療",
+        "生態",
+        "工坊",
+        "候選",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-040",
+      "path": "06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第151稽核第150靜謐試寫的已確認與候選機理，並對A/B2/C首篇保持互斥及未決標記。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-23。**本份為增量稽核與創作工作卡，不是正式小說正文，也不以稽核直接採用第150份。正式正文仍0章；PREWRITE HOLD。** 本次實查 GitHub `Secileya/Novel` 的交接／導覽／主題索引、總流程及舊資料勘誤清冊，定向對照第035、057、059、109、110、114、134、136–150份及其後出修訂。部分舊文件的原始全文不在本次逐字重讀範圍內；凡依後出稽核的記錄復述，以下均明示依據而不冒稱「全部150份逐字複核」。",
+          "heading": "# 第151份｜第150份《走到這裡的人》權威稽核、長篇推進與首篇 A／B2／C 版本交接"
+        },
+        {
+          "line": 9,
+          "quote": "- **〔已確認／已選方向〕**：使用者明確確定的設定、敘事界線或未來採用的場景核心；尚未發生的事件也可能屬「已選未寫」，不可混同「已發生」。",
+          "heading": "## 1｜權威標籤與判斷準則"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "生態",
+        "工坊",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "城市",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-041",
+      "path": "06_敘事規劃與工作流/159_Gemini下一階段八十題與創作優先級_研究任務清單.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第159保留Gemini80題題名與研究任務，題庫存在不表示80題皆完整作答。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> **2026-10-31；身分：AUTHOR_PREFERENCE／RESEARCH_TASK，非 Canon。**原稿由 GPT 在本輪跨 AI 對談中提出 80 題並請 Gemini 批次深化；本文件按題號逐項保留題名及核心要求，**非字句逐字複製原來每一題長段敘述**。最初的完整版保留在本聊天交談；不得假稱這 80 題都已得到完整答案。",
+          "heading": "# 第159份｜Gemini 下一階段 80 題設計任務庫（全題名與來源目的）"
+        },
+        {
+          "line": 11,
+          "quote": "- 01｜W01十二大區在真實三維中的宏觀形貌：母骨架、空域、天幕、承載面",
+          "heading": "## A 宏觀世界與巨大尺度"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W07",
+        "K01",
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "醫療",
+        "宗教",
+        "生態",
+        "工坊",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-042",
+      "path": "06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第169評審Gemini首十題：珍貴日常道具須有物理因果，如走慢三分鐘的錶是每日慢或固定慢不可混用。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 日期：2026-10-31。**編輯評審／CANDIDATE REVIEW，不是 Canon 提升、不是新正文、不是作者最終確認。**",
+          "heading": "# 第169份｜Gemini 首批十題重製：獨立創意評審、敘事價值、硬因果與下一輪測試"
+        },
+        {
+          "line": 9,
+          "quote": "本版**明顯高於**前一輪幾百字扁平提案，尤其擅長用可記住的道具、日常語氣、人物職業與地方後果將龐大設定寫出生活氣味。暫時最具小說價值的是：",
+          "heading": "## 總體判斷"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "醫療",
+        "宗教",
+        "交接",
+        "候選",
+        "復歸",
+        "第三個座位",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-043",
+      "path": "06_敘事規劃與工作流/190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第190跨遊戲研究：NPC有資訊不必初見就主動說，多入口自然獲訊須有社會情境，非對話UI。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-11-05｜**研究與創作素材候選，不是新 Canon。** 使用者以Roblox《Deepwoken》《Archived》《Mountfall》等為例，指出「NPC沒開口說出資訊」很多時候不是刻意隱瞞，只是尚未具備談起它的情境；別的人、線索、物品也可能把主角帶向這位人物。本研究不只研究NPC對話，還探討可移植的社會、路網、環境、角色差異、戰鬥代價、知識探索和世界自主性。讀此文不表示遊戲的設定、數值或劇情被搬入《巨構世界》。",
+          "heading": "# 第190份｜跨遊戲研究：NPC自然對話契機、多入口情報網、社會系統與活著的巨構世界"
+        },
+        {
+          "line": 9,
+          "quote": "角色知道某件事不代表他有義務在初次見面的買賣中主動交代。可能是沒人問、彼此不熟、對方無從理解、他自己沒把兩件事連在一起、正在忙別的工作、事情還沒發生、談了也無益，甚至只是上次忘記提。反過來，真的有隱瞞、故意說謊、受契約限制的角色也可存在，但須有個別理由。",
+          "heading": "## 一｜真正要借鑑的不是「觸發對話UI」，而是「此人為何此時自然開口」"
+        }
+      ],
+      "linked_topics": [
+        "商隊",
+        "生態",
+        "工坊",
+        "候選",
+        "主角",
+        "城市",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-044",
+      "path": "06_敘事規劃與工作流/191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第191外部作品研究建造、經濟、文明、宗教、戰鬥等活世界因果，以作品事實／可轉化原理／風險分層。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 研究日期：2026-11-05。**外部作品研究／創作素材庫，全部為候選，不是《巨構世界》Canon。** 回應使用者「這些遊戲不必是固定名單，繼續主動研究地區建造、物品經濟、文明日常、宗教學術、戰鬥、喜劇、環境敘事、純粹有趣的偶遇」的指令。本次研究涵蓋十餘款不同類型作品，不以Roblox RPG為上限；重點是理解運作原理、移植方法和不宜模仿的錯誤。外部遊戲內容依官方遊戲頁、開發者文章／訪談、官方支援或開發商Wiki核對；**沒有宣稱逐一通關或完整觀看每場遊戲劇情**。",
+          "heading": "# 第191份｜跨遊戲世界生命力深度研究：建造、經濟、文明日常、信仰學術、戰鬥、喜劇、環境敘事與旅途偶遇"
+        },
+        {
+          "line": 11,
+          "quote": "研究採四層：**（A）查證作品實際有什麼→（B）為何產生效果→（C）如何轉為文學演出→（D）過度照抄會造成什麼缺點。** 下面的小說示例均為新的非正史概念，不是宣布該地已有該組織或該角色。局部現實技術與虛構機制可共存，作者不能由遊戲的架構數字硬推巨構世界的科技／經濟公式。",
+          "heading": "## 核心研究結果：讓世界的各部分「有自己的理由」"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "商隊",
+        "宗教",
+        "生態",
+        "工坊",
+        "遺跡",
+        "交接",
+        "候選",
+        "非正史",
+        "世界層",
+        "主角",
+        "城市",
+        "人口",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-045",
+      "path": "06_敘事規劃與工作流/192_跨媒介敘事研究_BLAME奇諾魔女之旅_巨構異質風格情緒交疊_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第192研究BLAME!的巨構、奇諾之旅的地方文明、魔女之旅的鮮明旅行者，三種功能不能互代。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> 這份研究回應作者希望參考《奇諾之旅》《魔女之旅》，把《BLAME!》研究得更完整，同時探索新奇、怪異、刺激、殘酷、血腥、溫暖、空曠、漂亮、壓抑等可重疊風格的要求。**這不是新增正式世界規則、地理、文明、人物、血腥尺度、劇情事件或固定配額，也不要求下一章必須使用下列元素**。",
+          "heading": "# 第192份｜跨媒介作品研究：BLAME! 深拆、奇諾之旅、魔女之旅，以及巨構世界的異質風格與情緒交疊"
+        },
+        {
+          "line": 13,
+          "quote": "《BLAME!》代表「人行走於失去可理解比例的建築」；《奇諾之旅》代表「每一站可形成自我封閉但可持續反思的文明鏡子」；《魔女之旅》代表「旅行者本身有鮮明人格，每一次遭遇可以換故事種類」。這三者構成**空間—社會—人物**三條不同研究軸，不應互相替代。",
+          "heading": "## 0｜真正的研究目標：不是把《巨構世界》塗成單一美術風格"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "宗教",
+        "生態",
+        "遺跡",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-046",
+      "path": "06_敘事規劃與工作流/193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "第193補充Deepwoken、Archived、Mountfall與意外遭遇的研究；保留裝備風險、情報和撤退之行動成本。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-11-05｜來源核對＋敘事原理分析＋原創微型實驗；全篇 NON-CANON／非正史**。這是第190份（NPC自然談話／多入口情報）與第191份（建造、經濟、文化、社群、戰鬥、日常等八個研究方向）的增量；與第192份（BLAME!、奇諾、魔女之旅及異質情緒矩陣）並列互參，**第192份原先在 Draft PR #18，現已合併 main**。不改任何主角設定、已寫候選章、具體地方或正式Canon。",
+          "heading": "# 第193份｜Roblox 與跨媒介續研：Deepwoken、Archived、Mountfall，及生活、戰鬥、偶遇、怪異的互相滲透"
+        },
+        {
+          "line": 13,
+          "quote": "| [Roblox Deepwoken](https://www.roblox.com/games/4111023553/Deepwoken) | **A** 官方明示永久失去角色、複雜武器和裝備構築、不同出身／屬性／升級、多座繁忙城鎮、敵對海域、荒廢聖所和非自然幾何、幾百人物與逐步擴充的世界詞典。**B** [社群聲望表](https://deepwoken.fandom.com/wiki/Reputation)記載陣營敵意影響衛兵、商人、賞金與部分對話；[對話頁](https://deepwoken.fandom.com/wiki/Dialogue)記載部分前置條件。 | 探索時不知道下一",
+          "heading": "## 一｜每部作品究竟能讓讀者學到什麼"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "商隊",
+        "宗教",
+        "生態",
+        "工坊",
+        "野生",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "主角",
+        "列車",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-047",
+      "path": "06_敘事規劃與工作流/20261108_Gemini八十題_逐題來源覆蓋與原文保存等級核對.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "11/08核對Gemini80題已非只有首十題；題庫、168/171/173回覆、逐題保存等級不同，標題命中不是完整答案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-11-08 重新核對、修正「只找到首批十題」錯誤**。此為**來源及保存狀態索引，不是新回答，也不是劇情 Canon**。當前第1–12章 CANDIDATE / NON-CANON；正式正文0章／PREWRITE HOLD。",
+          "heading": "# Gemini 80 題｜第159題庫 × 第168／171／173回覆 × 第176覆蓋稽核"
+        },
+        {
+          "line": 7,
+          "quote": "1. [第159份精簡80題題庫](159_Gemini下一階段八十題與創作優先級_研究任務清單.md)：**80個題目全部有保存**。原始長題與使用者交代的回覆規範，被合冊於[195_B 中第166份](../09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md)。",
+          "heading": "## 核對後的結論"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "K01",
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "醫療",
+        "宗教",
+        "生態",
+        "工坊",
+        "交接",
+        "候選",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-048",
+      "path": "06_敘事規劃與工作流/README.md",
+      "category": "06_敘事規劃與工作流",
+      "source_function": "敘事規劃目錄：歷史研究與正文候選依用途導航，需查後出作者修訂。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 4,
+          "quote": "- **血腥場景觀察者的反應有個體與地方差異**：熟悉血腥的人可以邊吃飯邊聊天，卻不表示贊同暴力；外地人可以不適、保持沉默、適應或反對，不能硬套全員尖叫／全員麻木。2026-11-08 作者補充已套第022、023份，不等於指定哪座城必有公開殘酷制度。",
+          "heading": "## 2026-11-08｜Gemini 80 題三批回覆已找回（糾正只存十題的誤判）"
+        },
+        {
+          "line": 10,
+          "quote": "- **[一頁接手導航](../000_舊設定寶庫_接手必讀_20261108.md)**：清點既有血腥尺度、灰度倫理、根橋巨樹／蜘蛛／巨龜、跨層遷徙、微小生物、不同地貌，以及 Gemini 80題研究的真實存放位置，標注作者確立方向與可推翻原創候選。",
+          "heading": "## 2026-11-08｜舊設定寶庫回收（重要：避免跨AI接手時遺忘）"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "宗教",
+        "生態",
+        "工坊",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "主角",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-049",
+      "path": "07_候選故事與場景/019_討論候選_女主兩場完整場景測試_前文明交鋒與海盆救援.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第019兩個女主獨立能力場景：對仍運作的高階守衛交涉及無男主原槍的重大救援；局部結果不定女主戰力上限。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-18。使用者回覆「好」，同意先前提案：**寫出一場女主獨自對抗真正高階敵人的戰鬥，以及一場不用男主那把槍的重大事件，測試女主能力、角色表演與獨立性**。",
+          "heading": "# 討論候選 19｜女主獨立能力的兩場場景實測"
+        },
+        {
+          "line": 13,
+          "quote": "**測試目標**：女主獨自與仍正常運作、可反制她能力的前文明高階守衛交手，不依賴男主、不靠敵人突然故障或被超低科技「改進」打敗；動作、垃圾話、決策與原理性限制共存。結局是她逼對方從強制隔離改為允許醫療與身份複核，不是殺死守衛。這是**此輪故事測試的局部結局**，不是她已確定只能打成平局的戰力設定。",
+          "heading": "## 場景測試一｜沒有破損的前文明兵器"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "前文明",
+        "醫療",
+        "候選",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-050",
+      "path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第034倒行潮地方開篇大綱：潮汐導流與地方保護權的利益衝突形成可收束事件，不強制神秘貨車開局。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **【2026-10-19 更新：開場聚落與世界層定位】** 以本檔的折索集市多出口地圖及最初巨閘外巨拱／大水域／上方架體為基礎，另擴充每個出口通向的**真實社會和遠方網絡**，詳見 [039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md](../02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md)。此前「公開高難挑戰」不能理解為售票競賽，而是一片原本就可能令人死亡的巨構地域／世界層；真正 Path of Pain 深處額外隱秘，普通訪客沒有諾亞專屬復歸。折索集市、懸潮港、附加地方名均仍只是地理候選。",
+          "heading": "# 候選大綱 34｜第一篇《倒行潮》：懸潮港、多出口巨構、諾亞初死、艾莉維亞登場與完整收束"
+        },
+        {
+          "line": 11,
+          "quote": "早期助手多次提議「折索集市有失蹤路線貨車，武器感應到零件」。那是可用候選但可能太習慣靠「主角對神秘物件產生反應」推劇情，且容易令每件事都通往同一個伏筆。本次改用**一個本來就在運作的城市機關、真實利益衝突、人物主動做選擇**作骨架，提升生活、物理、文化和可視化動作。不是否定之前的候選，而是拿不同方案比較。",
+          "heading": "## 一、為什麼這次不用「神祕貨車忽然出現」開場"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "生態",
+        "工坊",
+        "交接",
+        "候選",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-051",
+      "path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第051雙主角與瑟莉思媞〈第三個座位〉初次相遇試寫；必依後出第114已選未發生，具體市場及時間不自定。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> 2026-10-19。使用者要求「把一般通行者寫的可能刪掉，甚至我都想刪掉高階能力的可能，但可以先留懸念，然後模擬一下主角們第一次遇到Celeste」。",
+          "heading": "# 候選場景 51｜諾亞、艾莉維亞第一次遇見 Celeste：第三個座位"
+        },
+        {
+          "line": 17,
+          "quote": "午後的人工日光穿過數十道高懸金屬梁架，落在轉運市集的街道上。巨型貨櫃沿懸軌滑過，機械聲、商販叫賣聲與遠方的交通鐘聲混在一起。欄杆之外，是深得看不見底部的空間。",
+          "heading": "## 初次相遇：第三個座位（情緒與對話示範）"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "列車"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-052",
+      "path": "07_候選故事與場景/064_候選實作_地方事件兩案_開篇旅行與完整人物場景.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第064地方事件集含舊索末班、藥品運送、葛桑的合法與私人負擔，地方路網是可撤回候選。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 建立：2026-10-19。承接 [62 四地／交通](../02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md) 與 [63 初期能力／人物](../04_能力武器與試煉/063_候選實作_雙主角初期能力_成長追尋_活人物群像與互動.md)，具體交付 **5 地方事件與長期人物線＋1 主角開篇與首段旅程**。同時遵守 [31 事件因果骨架](../06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md)、[34《倒行潮》舊候選](034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md)、[53《將被拆走的上行路》舊候選](../",
+          "heading": "# 候選實作 64｜第三階段：兩件有始有終的地方事件，與一段可以真正開篇的旅程"
+        },
+        {
+          "line": 9,
+          "quote": "> **地域**：舊 [62 折索集市](../02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md) 與外緣藥品中繼聚落之間的貨索。可能是開篇第一件事件，也可能是故事之後回來遇見的人生插曲。可全部推翻。",
+          "heading": "## 一｜事件 A：《舊索最後一班》——不是打倒壞人，而是那條路真的老了"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "醫療",
+        "生態",
+        "候選",
+        "復歸",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "航道",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-053",
+      "path": "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第066熟人版拆路首章已有親暱稱呼與牽手，與後出正式首章必須初見規則不相容，只能留作後期素材。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **【2026-10-19 使用者後出確定：正式第一章諾亞與艾莉維亞第一次相遇】**** 本檔原先採「已熟識、自然叫維亞、短暫牽手」的**助手假設**，已不符合使用者最新指定的正式第一章關係時序。**保留原試寫全文，不抹掉本稿場景價值；只能當兩人認識後的場景素材，或作正式初遇版重寫時參考的環境／其他人物描寫，不能直接當正式第1章。**詳 [67 後出初遇時間線](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md)。",
+          "heading": "# 候選長篇試寫 66｜第1章〈尚未拆下的那一段〉"
+        },
+        {
+          "line": 14,
+          "quote": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。",
+          "heading": "## 候選第1章｜尚未拆下的那一段"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "候選",
+        "復歸",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-054",
+      "path": "07_候選故事與場景/078_候選劇情實驗_從上面下來的人_九問因果_情感未完成.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第078歸來者故事與九問因果實驗，外部回評指出有鉤子仍需當下目標與近期後果。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 來源：2026-10-19，第73份後「回到故事／劇情魅力、節奏」討論。此檔保存助手先提出的《從上面下來的人》，使用者提供的另一個對話針對此案的回評及建議，以及助手後續提出的「九個問題」實測版本。",
+          "heading": "# 第78份｜劇情實驗：《從上面下來的人》、九問因果、讀者當下期待與未完成情感"
+        },
+        {
+          "line": 12,
+          "quote": "- 她可以是著名人物，真相在於她的性格、選擇；也可以起初不知名。**不能每個強者都靠身份反轉出場**。",
+          "heading": "## 一、最初人物鉤子：不是地圖 NPC"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-055",
+      "path": "07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第091拆路P0真初遇候選：諾亞、艾莉維亞沿舊路各有目的，地方角色席蘿／閻白仍可撤回。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **注意：全篇是可撤回的第一章候選，而非正式正文。**本次依第89全庫盤點和第90開篇P0工作卡，借用第53／65已有的地景與人物因果，**完整改寫成第67要求的「諾亞×艾莉維亞第一次見面」**。所示地方、姓名（席蘿、閻白）、道路、時間與能力演出仍是候選；不覆寫第66熟人版原稿。所有人的私下想法與臺詞只是此版本的合理推演，尚待讀者評估。",
+          "heading": "# 第91份｜非正史連續試寫：第一章〈那條路正在被拆走〉"
+        },
+        {
+          "line": 13,
+          "quote": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。",
+          "heading": "# 第一章｜那條路正在被拆走"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-056",
+      "path": "07_候選故事與場景/092_非正史連續試寫_第二章_舊站仍有人來過.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第092承接91的第二章候選，兩人只逐步交換聯絡與認識，不可先行套熟人曖昧習慣。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 與 [第91第一章](091_非正史連續試寫_第一章_那條路正在被拆走.md) 連續的**第二章候選**。兩位主角剛剛第一次認識，只知道彼此姓名、局部行動和願望；席蘿與閻白是具有獨立職責／過去的地方候選人物。此稿不代表正式正文、不鎖定女主規則或地理、不能自動承諾此段一定作為小說開頭。",
+          "heading": "# 第92份｜非正史連續試寫：第二章〈舊站仍有人來過〉"
+        },
+        {
+          "line": 522,
+          "quote": "2. **人物關係前進而未跨級**：兩人交換聯絡方式，開始知道對方說話和行動的一些規律；尚未稱「維亞」、沒有戀愛或肢體慣例，仍可隨時分道揚鑣。",
+          "heading": "## 作者層第二章結果與第三章自然入口（非正文）"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-057",
+      "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第109 A方案拆路首篇與B互斥；拆橋揭露仍有人居住的對面曲殼城市，但非實際地理定案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女主高階能力、人物生活感與資訊邊界有效；具體城市、道路、人物台詞、景色、髮色在此僅是試驗素材。第一章官方正史仍為0章。",
+          "heading": "# 第109份｜非正史開篇對照 A：〈拆路之後仍有人走〉"
+        },
+        {
+          "line": 17,
+          "quote": "它斜斜穿過幾層懸空街市，底下掛著比房屋還高的支撐架。六條吊索從更上方一處看不見的工作平臺垂下，拉得筆直；橋身緩慢向左偏轉，連帶把一大片陰影從市場的布棚上挪開。",
+          "heading": "# 拆路之後仍有人走"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "主角",
+        "列車",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-058",
+      "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第110 B方案歸來者與舊測線路圖引導初識，與A互斥，不是A的續篇。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫面、選擇與後果的整合測試。所有本篇新出現的地名、私人稱呼、遠征隊名稱、歸來者名字與過去均是**助手本輪新增可撤回候選**。",
+          "heading": "# 第110份｜非正史開篇對照 B：〈從上面下來的人〉"
+        },
+        {
+          "line": 17,
+          "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。",
+          "heading": "# 從上面下來的人"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "候選",
+        "非正史",
+        "復歸",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-059",
+      "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第139未署名母女記憶整合A/B兩版，描寫尚未完成的道路與普通記憶，仍是非正史試寫。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-10-22。本份是第138修訂決定所要求的完整版場景試寫，尚未作正式章節Canon。** **正式正文0章，PREWRITE HOLD；此場景只供使用者檢視情感與世界細節，未經採案不得視為正式已發生歷史。** 原有母女記憶試寫分為：**A最初的匿名版**（設計上行道路→居民城市與麵包店→有危險卻被藏起來的秘密道路原型→想給抵達者禮物），和**B後出溫暖版**（母親真心誇獎孩子、有摸頭和擁抱、與她共同修改、母親「現在就已經很喜歡了」而非連續挑錯）。使用者最新要求**兩版優點均保留**，並明確指出正式給讀者看的記憶**不能在敘事裡寫出法月懷／瑟莉思媞真名**，應像最初A版，只讓人",
+          "heading": "# 第139份｜未署名記憶：還沒有建成的路（完整非正史整合試寫）"
+        },
+        {
+          "line": 617,
+          "quote": "1. **地理與交通資訊不是抽象設定**：模型裡有往上、往下、側向道路，還有看似近卻實際隔很遠的地方；諾亞與艾莉維亞會聯想到真正走過的路，也可能注意到某個後來的城市布局與當時模型相似。",
+          "heading": "## 二｜這個記憶不是「媽媽說好」就結束：當下就成立的四層故事價值"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "候選",
+        "非正史",
+        "復歸",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-060",
+      "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第148五種白髮表演／主角危機場景的歷史索引；白髮首次解鎖不等於可在普通貨港無前提出現。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-10-22，用戶要求「是不是有好幾個設定沒補了，完整點」。本檔保留**原聊天確曾寫過的五條場景的可追蹤事件順序、差異、修正與人物目的**；完整原聊天段落仍以聊天原文為準，此處**不是聲稱逐字複製了每篇全文**。所有場景均非正式正文，沒有真正發生的戰役／傷亡／角色固定身分，PREWRITE HOLD／正式0章。核心使用者修正見[144](../03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md)，能力見[142](../04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md)、[146](../04_能力武器與試煉/146_A2",
+          "heading": "# 第148份｜五組非正史試寫的完整版本歸檔索引：不得誤認同一場已定歷史"
+        },
+        {
+          "line": 7,
+          "quote": "**後出糾正**：用戶指出不該把白髮寫成冷神明，**玩味愉悅是主要神情魅力**；又指出「一開始就是直接白髮嗎」，所以這版**若作一次重要首次演出，轉換鏡頭不足**。不是說未來每次場景開頭已有白髮都錯。",
+          "heading": "## S1｜《妳在笑什麼？》：白髮戲弄、高興、狡黠、危險的第一版"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "醫療",
+        "工坊",
+        "候選",
+        "非正史",
+        "復歸",
+        "靜謐迴廊",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-061",
+      "path": "07_候選故事與場景/150_非正史長篇試寫_靜謐迴廊終點_第一次白髮與雙巨大收穫.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第150靜謐終點長篇試寫包含雙主角大幅升級與匿名記憶，具體能力A1及主樞核均只候選。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-10-22｜完整長篇候選場景，非正式正文，PREWRITE HOLD／全書正式正文仍0章。** 承接第037、040–041靜謐終橋，第059／060雙主角巨大獎勵，第136／149視覺，第137–138／140–143能力試案，第139匿名母女記憶，第144–145神情／轉換修正。**本稿刻意試用**：諾亞「主執行樞核／局部系統持續施行」；艾莉維亞「自身原界→有限作用新述」的A1示例，**不是用戶已核定的原理**。A2影子倒影的反向攻擊未在此當成自動解鎖的完整常規招式。路線圖、歸點圖譜、成就紀念的具體器物與寫法都是場景所需的助手候選。此處的共同生活／熟悉程度假設二人已有很長",
+          "heading": "# 第150份｜非正史長篇試寫：《走到這裡的人》"
+        },
+        {
+          "line": 1612,
+          "quote": "- 第139匿名記憶有既定完整試寫，本篇回顧中保留主要內容與「又轉向下一片尚未完成的地方」原停點；**本篇重述不是宣布第139原文被取代**，若後來逐字採案應以實際選版為準。",
+          "heading": "## 本候選的未定點與嚴格回收"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "工坊",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-062",
+      "path": "07_候選故事與場景/152_B2完整非正史小說試寫_從上面下來的人_六章.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第152 B2六章試寫從歸來者、舊圖、初遇發展到分路高潮和結局，不是已通過首篇採用。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "本版從頭重寫 B2，保留原本「歸來者、舊圖、雙主角初遇」的核心，但將故事延伸至遠方城市、真正的分路高潮與結局。所有新增加的人物、地理與事件均屬試寫，不代表已正式採用。",
+          "heading": "# 《巨構世界》B2完整小說試寫"
+        },
+        {
+          "line": 61,
+          "quote": "大片不像天然山脈的灰色承力結構從空腔邊緣斜斜探出，支撐著沿途生長的商街、工坊、溫室與住宅。早班列車在其中一條銀色軌道上行駛，遠得像是一條慢慢移動的黑線。",
+          "heading": "## 第一章｜從上面下來的人"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "工坊",
+        "候選",
+        "非正史",
+        "主角",
+        "列車",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-063",
+      "path": "07_候選故事與場景/196_白鳥禁則澄清_萬鈞鐘心跨區黑幕作者真相與正文示範_非正史.md",
+      "category": "07_候選故事與場景",
+      "source_function": "第196萬鈞鐘心跨區黑幕B案與局部事故A案相競；作者允許黑幕但此案身份及陰謀非定案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-11-05，僅供作者對照 Gemini G9／G9A 設計水平與實作演出的「另案示範」。** 本檔是獨立的 GPT 創作候選，不是使用者確認的白瓷面具人身份、事故真相、勢力名稱、既有機構權限、小說第八章，也不是續寫命令。正式正文仍0章／PREWRITE HOLD。第189份Gemini／ChatGPT「純官僚違章事故A案」仍保留供比較，**沒有被本案取代**。",
+          "heading": "# 第196份｜黑幕、較大因果與長線伏筆允許：萬鈞鐘心「跨區承運黑幕B案」作者層真相＋可讀正文示範（NON-CANON）"
+        },
+        {
+          "line": 9,
+          "quote": "Gemini原答有完整「多恩・斐斯」「白庭違章吊運砸偏黑銷」「鉛盒物證」「四方修復」「第8～9章結案」的一套候選。**這說明它能填寫一套結局明確的地方事故作者層提案**，但不代表已證明自己能寫「當下有答案、上層也確有答案、局部仍能結案」的兩層因果。評估不應把「沒有黑幕」當作錯，應看下列壓力測試：",
+          "heading": "## 甲｜反面比較：Gemini 已答的與還沒證明的"
+        }
+      ],
+      "linked_topics": [
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "生態",
+        "跨層",
+        "交接",
+        "候選",
+        "復歸",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-064",
+      "path": "07_候選故事與場景/20261108_不思議迴廊_BLACK_SOULS參考與Celeste奈亞對照_研究候選.md",
+      "category": "07_候選故事與場景",
+      "source_function": "11/08不思議迴廊初探BLACK SOULS 參考，當時位置機制與創造者尚未明定，須依後出Celeste親創修正。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-11-08｜研究／創意候選；NON-CANON。** 使用者在本對話指出：「不思議迴廊，參考black soul 1 2 dlc，而且跟Celeste 跟奈亞有些許相似，不過也有很多不同」。本檔僅保存該意圖與公開來源可驗證的創作參考、待選方向；**使用者尚未具體定義迴廊的構造、位置、掌管者、與 Celeste 的關係，也未確認「奈亞」是否專指 BLACK SOULS 的奈亞拉托提普**。不將助手猜測升格成作者設定；不修改第1–12章候選、不改正式正文0章／PREWRITE HOLD。",
+          "heading": "# 不思議迴廊｜BLACK SOULS 1／2／DLC 參考、Celeste／奈亞對照與原創可能性"
+        },
+        {
+          "line": 7,
+          "quote": "- BLACK SOULS 1：黑暗童話重詮釋；熟悉的人物、文本和童話世界帶有殘酷與多層敘事，含延伸 DLC《THE BLACK GOAT OF THE WOODS A THOUSAND YOUNG》。一代特定人物真相與支配者身分主要依社群整理，不將所有解讀當製作者明文宣告。",
+          "heading": "## 一、參考作品中已可核對的特徵"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "法月懷",
+        "生態",
+        "候選",
+        "靜謐迴廊",
+        "終焉迴廊"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-065",
+      "path": "07_候選故事與場景/20261108_不思議迴廊_DLC3三姊妹人偶_格林關係_管理者少女舊核復檢.md",
+      "category": "07_候選故事與場景",
+      "source_function": "11/08不思議迴廊深化三姊妹人偶等參照，要求恢復Celeste可怖管理者的非人倫理，仍為研究候選。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> **2026-11-08｜研究與可演進創作提案；CANDIDATE / NON-CANON，正式正文 0 章／PREWRITE HOLD。** 本文件在[先前的 BLACK SOULS 參考短稿](20261108_不思議迴廊_BLACK_SOULS參考與Celeste奈亞對照_研究候選.md)之後補寫。使用者明確指出：Celeste 最初那位真正可怕的管理者少女逐漸被「可愛、親切、愛玩」框住；早期資料尚未充分運用；作者希望保有壓抑、絕望、灰度、殘酷、血腥、令人毛骨悚然，以及真實的溫暖與希望。**舊設可迭代，不必將所有早期文字永久神聖化；但也不能以新可愛層覆蓋舊管理者層。**",
+          "heading": "# 不思議迴廊：DLC3 三姊妹人偶、格林的情感，以及 Celeste「管理者少女」舊核重新融入"
+        },
+        {
+          "line": 11,
+          "quote": "- [第010逐次源流](../08_交接勘誤與決議/010_全對話逐次設定核對與尺度補遺.md)：作者最初明確建立**無人知曉的真正最高管理者**（後續修正可遊走各地）；早期原話最具辨識度的是「她知道痛苦、悲傷，甚至真正了解，但這些感受與她自己的價值判斷並沒有必然約束關係；聲音仍溫柔」。這種自知與選擇是可怖的核心，不是冷血機器。",
+          "heading": "## 一、原有檔案實際包含什麼：這次不能再忽略"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "遺跡",
+        "跨層",
+        "交接",
+        "候選",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角",
+        "列車",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-066",
+      "path": "07_候選故事與場景/首篇A_B2_C_最新原文閱讀包_2026-10-23.md",
+      "category": "07_候選故事與場景",
+      "source_function": "首篇A/B2/C閱讀包：A有完整試演、B2有篇章級重構、C是未另寫正文方案，互不可當直續。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> **閱讀規則**：A＝第109份實際已寫成的最新完整非正史開篇試演，另附第134篇章擴展；B2＝第134份後出的B2篇章級重構（不是新 B2 正文），另附第134對B的定位；C＝第134份完整篇章候選（尚無獨立正文）。第110份B的**舊連續試演**仍獨立存在，並未由本包悄悄替換為B2。",
+          "heading": "# 巨構世界｜首篇 A／B2／C 最新已保存版本原文閱讀包（2026-10-23）"
+        },
+        {
+          "line": 15,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女主高階能力、人物生活感與資訊邊界有效；具體城市、道路、人物台詞、景色、髮色在此僅是試驗素材。第一章官方正史仍為0章。",
+          "heading": "# 第109份｜非正史開篇對照 A：〈拆路之後仍有人走〉"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "工坊",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "第三個座位",
+        "主角",
+        "列車",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-067",
+      "path": "07_候選故事與場景/首篇B2_出城連續場景試寫_非正史增量_2026-10-23.md",
+      "category": "07_候選故事與場景",
+      "source_function": "B2出城增量是新試寫不是第152六章，初識兩人搭載地方交通與遠征後果可撤回。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **狀態：助手新撰寫的非正史連續場景，並非第134份B2最新舊版原文，也不是正式正文。** 諾亞、艾莉維亞與第110份首次相遇、唐榆／游洵以及第113–134份「E去S回資料遺失＋現行改建」的候選因果相容。承接第110已有的前一日接觸與第134 B2 的S2–S6方向，測試路圖公示修正以後如何用生活、選擇、動作和巨構景觀讓讀者繼續看。當地地名、貨運班次、次日選擇及這段新發生的一切**均可撤回**；它不回填已採用的〈第三個座位〉，不將A/C首遇融入同城，也不涉及靜謐白髮、諾亞首次死亡或Celeste揭身分。",
+          "heading": "# B2續寫壓力測試｜《上去的人，回來的人》（2026-10-23，非正史增量）"
+        },
+        {
+          "line": 105,
+          "quote": "一個老人在等著把三籃新鮮蔬菜送到上面，還有個抱著小孩的女人正與司機討論能不能在第二個停臺多等半刻鐘。",
+          "heading": "## 《上去的人，回來的人》"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "諾亞",
+        "艾莉維亞",
+        "工坊",
+        "候選",
+        "非正史",
+        "世界層",
+        "第三個座位",
+        "列車",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-068",
+      "path": "07_候選故事與場景/README.md",
+      "category": "07_候選故事與場景",
+      "source_function": "候選故事目錄：各篇作試演/研究來源，不能用檔名宣告正式已發生。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "[不思議迴廊：三姊妹人偶、格林／小紅帽／普利凱特，以及管理者少女舊核復檢](20261108_不思議迴廊_DLC3三姊妹人偶_格林關係_管理者少女舊核復檢.md)；[較早的初步研究](20261108_不思議迴廊_BLACK_SOULS參考與Celeste奈亞對照_研究候選.md)。最新討論指出先前對 Celeste 的「可愛、親切、愛玩」刻板化，使第006／010原本的非人價值、殞落責任與第095跨年代恐怖素材少被使用；本次研究保留高位殘酷、壓抑、不可逆悲劇與真實溫暖希望，反對將可愛／恐怖機械分三模式。**只登記研究候選，不覆寫第006人物設定、第114已選未發生初遇或1–12章候選正文；正",
+          "heading": "## 2026-11-08｜Celeste 舊「管理者少女」氣質恢復／BLACK SOULS II DLC3 深入研究（研究候選）"
+        },
+        {
+          "line": 9,
+          "quote": "[第187份：三重氣質、第二次相遇、隱晦提示、出手與身份猜測的權威分層QA](../08_交接勘誤與決議/187_Gemini瑟莉思媞三重氣質_二次相遇展力與身份猜測_權威QA.md)｜[第188份：非正史試演《舊觀測園的風聲》](../07_候選故事與場景/188_非正史試演_Celeste第二次偶遇_舊觀測園的風聲.md)。",
+          "heading": "## 2026-11-05｜瑟莉思媞相遇專題對照 QA（第187份）與第二次偶遇小試演（第188份）"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "前文明",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-069",
+      "path": "08_交接勘誤與決議/008_候選示例與未決台帳.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "早期助手即興示範城鎮、人物與比例均列未決台帳，第十七轉運井僅地方內段。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 這些名稱、人物、事件、地理和百分比多由前面助手即興提案，**未經使用者逐一核定**；它們可用作靈感，但不能寫成世界已經存在的正式角色／城市／歷史。",
+          "heading": "# 純示例與仍待決事項｜防止助手自行設定冒充正式"
+        },
+        {
+          "line": 6,
+          "quote": "- 「第十七轉運井」及其「上段懸架區／中段研究與設備區／下段舊轉運設施」：只是**一處示範區域**的內部結構，並非世界縮小模型。使用者明確糾正世界尺度不能這麼小、這麼固定。",
+          "heading": "## A. 助手提出的示範地名與城市"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "法月懷",
+        "前文明",
+        "生態",
+        "跨層",
+        "候選",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-070",
+      "path": "08_交接勘誤與決議/010_全對話逐次設定核對與尺度補遺.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "從第一張圖一路追索世界尺度與Celeste起源的原話和更正；最初使用者只給一張仰視圖。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 用途：避免只有「世界極大」「多龐克」「居民知道程度不同」等濃縮字眼，而遺失使用者**提出情境的具體空間、提問與後來否定的錯誤邏輯**。",
+          "heading": "# 整串對話逐次核對：從第一張圖到法月懷之女｜原句脈絡與完整尺度補遺"
+        },
+        {
+          "line": 9,
+          "quote": "**使用者**：「這是甚麼樣的風格，甚麼樣的朋克」。當時只上傳**一張**遊戲畫面。畫面微仰視，巨大的鏽暗結構、像起重吊架與桁架的上部工程、懸空長條物、深遠的空洞、灰暗霧與局部藍色科技點光共存。",
+          "heading": "## 01｜真正的開頭：只是一張仰視圖"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "法月懷",
+        "前文明",
+        "醫療",
+        "生態",
+        "遺跡",
+        "跨層",
+        "候選",
+        "世界層",
+        "主角",
+        "城市",
+        "人口"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-071",
+      "path": "08_交接勘誤與決議/033_正式寫作準備_現行設定全檔稽核_版本與未決清單.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第33源檔稽核從01–32分類已確定、未決與首篇流程，作者已定復歸差異不能變成女主同類復活。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **本篇是作者層工作資料，尚非新的正式 Canon，也不是正式故事。**2026-10-19。使用者前輪要求「現在有很多設定，不能當作不去看的沒用文字」，後續說「下一步」。依 [32 實讀與逐章稽查流程](../06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md)，本輪實際用 GitHub connector 依 00 導覽逐份抓取 01–32 各檔，核對標題、章節、關鍵原話、後出修正／作廢文字；另讀 [家庭總檔 12｜Celeste 補充](../../家庭總檔/12_瑟莉思媞_Celeste_親子與家庭關係補充.md)。",
+          "heading": "# 寫作準備 33｜GitHub 01–32 全檔稽核：現行有效規則、歷史修正、未決問題與首篇使用索引"
+        },
+        {
+          "line": 13,
+          "quote": "| 01 世界尺度 | 【正式基底】局部完整、整體近乎無邊、真正世界層、上層高科技 | 多層非三格；全體外部幾何尚未定案。B＋C 參考 25–26 |",
+          "heading": "## A｜本輪 01–32 逐份查閱與其寫作功能"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "前文明",
+        "醫療",
+        "生態",
+        "候選",
+        "復歸",
+        "世界層",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-072",
+      "path": "08_交接勘誤與決議/186_Gemini新版第六章最終QA_280米誤引_橋跨角色認知與G8D修訂.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第186第六章QA實證滑輪只有18公尺，反駁引用『280公尺』來證明諾亞槍射程的誤判。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-11-05。**任務：**逐段驗收作者本輪上傳的Gemini最新第六章及附帶的3／5章能力補丁，與GitHub現有G2、G3R、G5R、G6、G7R、G8C及第183份已確認的「人物可以誤判」寫作原則交叉核對。**原文來源**：[第185份](../09_跨AI原始來源/185_用戶上傳_Gemini第六章再精修_射程補丁與新正文全文.md)。**可讀修訂稿**：[第六章G8D](../待定正文/純正文_Gemini/第六章_G8D_無聲巨腔與沉水搖臂_最終QA續修候選.md)。本次屬編輯候選修訂／證據QA，不把第六章正式採案；正式正文章數仍0、PREWRITE HOLD。",
+          "heading": "# 第186份｜最新Gemini第六章《無聲巨腔與沉水搖臂》最終QA：實證更正與G8D續修"
+        },
+        {
+          "line": 10,
+          "quote": "- **角色已知邊界**：諾亞可以感知黑銃異常，不能由此立刻知道「核心原裝大模組」的設計真相；艾莉維亞和塞拉都可在有限證據下推論甚至誤判。",
+          "heading": "## 一｜已確認能保留的改善"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "生態",
+        "候選",
+        "主角",
+        "列車",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-073",
+      "path": "08_交接勘誤與決議/194_第三至第六章正文逐章對照_Roblox旅行巨構研究QA與第七章保全_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第194逐章對照Gemini三至六章對生活、路網、戰鬥的展示與不足；當時第七章來源尚待補。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-11-05｜已開啟四章完整 GitHub 正文作跨章比對；CANDIDATE QA，非小說正文，不重寫來源。** 本稿對照第190、191、192（第192份已由PR #18合併）及第193份 Roblox /跨媒介研究。**下面已寫出發生之事取自實際候選文本，改進方向屬分析，不代表原作者已同意或目前已改完。** 第七章原文無可靠同步副本，另有[PR #19](https://github.com/Secileya/Novel/pull/19)的缺檔登記，該PR已合併（原文仍待回收），不能說本文完成了第七章全文歸檔。",
+          "heading": "# 第194份｜第三至第六章實際候選正文對讀：世界生命力、旅行、戰鬥、地理與第七章保全"
+        },
+        {
+          "line": 11,
+          "quote": "| 第三章 G5R《過風鐘與多餘的凹槽》 | [純正文G5R](../待定正文/純正文_Gemini/第三章_G5R_過風鐘與多餘的凹槽_300銀券修訂候選.md) | 傍晚換氣扇和逆風、工坊學徒／攤販、工程城生活；短途碰到商人及裝備、報酬／價格，還有買糖果、玩笑、互相照顧。不是只有一個機關。 | 章末二人在晨光下分享雙層糖衣紅酸果，約定繼續往萬鈞鐘心。 |",
+          "heading": "## 一｜逐章已核對的真實文本（不只看梗概）"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "生態",
+        "工坊",
+        "跨層",
+        "候選",
+        "世界層",
+        "主角",
+        "城市",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-074",
+      "path": "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第199全停擺/石托架候選需要真正承力與散熱工程，否定普通鋼銷可隨意支撐半功率的舊假設。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-11-05。本文件依使用者本輪貼入之 Gemini 新回覆、主分支 `3b8fe73467e2f0716a465a9c83481676cfcaf772` 的[第198份](198_階段同行_終焉雙人候選_巧合無固定比例_鐘擺工程QA.md)、[第197份](197_Gemini真貨誤導_殞落殘篇_抽薪B案及G9B三補丁QA_非正史.md)與[G9B 第七章完整候選](../待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md)定點對照。",
+          "heading": "# 第199份｜Gemini 全停擺／石托架／黑銷下掛桿、休伊與終焉告別、第八章寫作門檻 QA（NON-CANON）"
+        },
+        {
+          "line": 9,
+          "quote": "- **全停擺而不是普通鋼銷維持半功率**：停下主鐘擺並永久搁置於既有檢修承座，無有效替代核心前不能重啟；讓地方供能、交通、班次及經濟有持續代價。這比「普通鋼銷直接替代特殊核心」更合理，亦改變前一版「三個月半功率運轉」的結局，兩者不得同時當正史。",
+          "heading": "## A. 新候選的完整意圖與真正改善"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "Gemini",
+        "候選",
+        "非正史",
+        "復歸",
+        "主角",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-075",
+      "path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第201對Gemini重寫指令：GPT曾錯把已存在的G9B結尾當未回答，造成第八章重複答話。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-11-05，使用者要求：把 GPT 發現的第七、八章問題合併給 Gemini，讓 Gemini 用原有文筆重新寫出完整兩章；GPT 此前擅自替作者寫了 G9D＋G10R1，這份**可作修正參考，不代表文筆已被作者採用**。為了能直接複製，本檔下列全文以第二人稱命令形式書寫。",
+          "heading": "# 給 Gemini 的完整交接指令｜重寫第七、八章（NON-CANON）"
+        },
+        {
+          "line": 10,
+          "quote": "1. **你的第七章原候選 G9B**（保留你原本的敘事節奏與人物聲音）：https://github.com/Secileya/Novel/blob/main/小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "heading": "## 必讀正文"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "交接",
+        "候選",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-076",
+      "path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第201另份完整根因與修訂清單，明確由Gemini重寫並保留其原筆法；GPT自行重寫不得冒充採案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "**2026-11-05。** 作者的真實要求：GPT 將已發現問題完整彙整，讓 **Gemini** 修改；GPT 卻越界自行改寫 G9C 和 G9D＋G10R1，應將後者視為**校錯參考**，絕非作者已採用之文筆或正史。供複製給 Gemini：",
+          "heading": "# 第201份｜交 Gemini 第七、八章重新以原筆法寫作的完整交接（NON-CANON）"
+        },
+        {
+          "line": 17,
+          "quote": "**核心不是泛泛的「混淆正文與大綱」**：GPT 把**Gemini 原本針對第七章 G9/G9A 的修訂設計、G9B 三處補丁和工程補充**錯放成**第八章規劃**，在第七章尚未核對真實最後一行時便轉向第八章。接著 GPT 錯認 G9B 最後停在諾亞問「為什麼不找塞拉」；實際 G9B 白衣人**已回答、反問雙主角身分**，與 G10 「他沒有立刻回答」相衝突。GPT 又把使用者要求的「整合問題交 Gemini」擅自做成自己改寫兩章，留下不同稿件、不同完成階段和錯誤交接。因此請**將第七章與第八章視為同一連續事件，兩章同步驗收**，不能單改一章，另一章仍沿舊版。",
+          "heading": "## GPT 此次真正犯錯根因"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "交接",
+        "候選",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-077",
+      "path": "08_交接勘誤與決議/20261108_不思議迴廊繪本翻頁與破頁者_Celeste管理者倫理_深度QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "11/08不思議迴廊QA確認Celeste創造此迴廊，但繪本翻頁及破頁者等機制仍候選，與靜謐/終焉有別。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **2026-11-08｜評審來源：使用者於對話貼入的 Gemini 最新整合設計。屬 DESIGN QA / CANDIDATE，**不是把其中任何具體故事、對話、歷史動機升為小說 Canon。**第1–12章仍是候選，正式正文0章／PREWRITE HOLD；本次不撰第13章。**",
+          "heading": "# 《不思議迴廊》繪本翻頁／破頁者、Celeste 非人倫理與第75題擴展｜獨立創意 QA"
+        },
+        {
+          "line": 7,
+          "quote": "1. **《不思議迴廊》由瑟莉思媞（Celeste）本人親自創造**，見[2026-11-08 作者明確確認](../01_世界本體與文明/20261108_不思議迴廊由Celeste親自創造_作者明確確認.md)。不可再稱創造者未定。它不是《靜謐迴廊》或《終焉迴廊》的改名；詳細內部機制尚未獲作者正式選定。",
+          "heading": "## 一、來源分層：真正已成立的設定"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "生態",
+        "候選",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-078",
+      "path": "08_交接勘誤與決議/205_Gemini第五六章已套用微補丁_第八章精確替換包與風險QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第205核實G7R1/G8E上游只微修主觀定位銷旁白，不容角色對頂軸遠距結構全知。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> 2026-11-06｜**CANDIDATE / NON-CANON；正式正文 0 章、PREWRITE HOLD 不變。**這是**使用者本輪轉貼 Gemini 修訂補丁**的保存、依 GitHub 現行文字進行實際核對，以及分開標示未通過之推論的交接檔。沒有把任何劇情候選升為正史。原始 G7R／G8D 皆不覆寫。上一輪 **2026-11-06 Gemini 最新第七、八章完整全文仍僅在對話中**，GitHub 此前的 Nov-05 Gemini 完整檔是上一版，不能直接當最新底稿進行不完整覆蓋。",
+          "heading": "# 第205份｜Gemini 第五／六章真正上游微補丁、四項作者層補充、第八章五處替換包與安全核查"
+        },
+        {
+          "line": 7,
+          "quote": "- [第五章 G7R1（新候選全文）](../待定正文/純正文_Gemini/第五章_G7R1_定位銷主觀誤判旁白微補丁_候選.md)。原 G7R 第183行**諾亞的判斷台詞完整保留**。第215行真實原文含「對著主鐘擺頂端軸承裡插著的那個『臨時定位銷』」，在新候選只替成「對著主鐘擺頂端軸承裡那處傳來異響的核心部件」。其他正文逐字保持。Gemini 本輪所引整句「強烈十倍」**不是當時實際 G7R 原句**，所以未誤套。",
+          "heading": "## 一、第五／六章微補丁已實際套用到獨立全文候選"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "交接",
+        "候選",
+        "非正史",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-079",
+      "path": "08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "第206退針QA指出換向速度0不等於卸載張力0，0.5秒操作窗口需工程實測。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **NON-CANON／CANDIDATE；正式正文 0 章、PREWRITE HOLD。**此份是審核／設計材料，並非作者正式批准第九章劇情。對應檔案：[G9E＋G10R4 完整衍生候選](../待定正文/第七八章_G9E_G10R4_Gemini四處工程因果微補丁_完整衍生候選_20261106.md)，由前一版 [G9E＋G10R3](../待定正文/第七八章_G9E_G10R3_Gemini跨輪精確補丁整合_衍生完整候選_20261106.md) 延續；**只按使用者貼出的四組補丁修改第八章，原稿保留**。注意：G10R4 是本對話以 GitHub 底稿和作者所貼補丁組裝的衍生候選",
+          "heading": "# 第206份｜Gemini「外部振針卡座退針」A–D 微補丁與第九章藍圖驗收（2026-11-06）"
+        },
+        {
+          "line": 9,
+          "quote": "| **A 多恩時間** | 昨夜從六環水門回退後藏入塔外側排風夾層，今天才因異音加劇入塔、糊守衛、堵主吊籠；符合守衛所稱「剛才」 | **可用的候選閉環**，可繼續核查第六章至第七章當日時間 |",
+          "heading": "## 一、四組驗收"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "候選",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-080",
+      "path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "另份第206記第八章ABC補丁已套而D仍待核；多恩認為母核仍頂層是推論非客觀定案。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 3,
+          "quote": "> **狀態**：作者／跨 AI 審核用，**NON-CANON、CANDIDATE；正式正文 0 章／PREWRITE HOLD 未解除**。本文件是本次 ChatGPT 針對使用者轉交之 Gemini「第205份四個微補丁＋第九章設計」的批判性驗收，**不是 Gemini 第九章正文**。不代表作者批准任何人物最終結局、黑銷歸屬或工程奇蹟。",
+          "heading": "# 第206份｜第八章補丁 A／B／C 已實套、D 仍需校正；第九章推進設計審核（2026-11-06）"
+        },
+        {
+          "line": 11,
+          "quote": "| **C｜母核去向是推論** | **可用但不能轉為客觀證據**：母核半噸、自鎖銷焊在頂層樑、一號吊籠受守衛看管；多恩由這些條件推斷還在頂層，卻三天未重新查核，不能排除特殊技術、私設吊具或新操作 | **已套入另存 G9E＋G10R4** |",
+          "heading": "## 核心結果"
+        }
+      ],
+      "linked_topics": [
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "公會",
+        "工坊",
+        "交接",
+        "候選",
+        "非正史",
+        "主角",
+        "列車"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-081",
+      "path": "08_交接勘誤與決議/README.md",
+      "category": "08_交接勘誤與決議",
+      "source_function": "交接勘誤目錄：索引已知問題、當時來源截點和補丁狀態；舊缺檔說法可能後出已修。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "[第193份：Deepwoken／Archived／Mountfall原版與Descent、Regretevator、Creatures of Sonaria、Block Tales 跨媒介敘事研究](../06_敘事規劃與工作流/193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md)｜[第194份：G5R第三章→G6第四章→G7R第五章→G8D第六章逐章有據對讀、跨章因果與可修之處](194_第三至第六章正文逐章對照_Roblox旅行巨構研究QA與第七章保全_非正史.md)。",
+          "heading": "## 2026-11-05｜第193–194份：Roblox作品續研與第三至第六章實際候選正文 QA（非正史）"
+        },
+        {
+          "line": 14,
+          "quote": "[第187份：三重氣質、第二次相遇、隱晦提示、出手與身份猜測的權威分層QA](../08_交接勘誤與決議/187_Gemini瑟莉思媞三重氣質_二次相遇展力與身份猜測_權威QA.md)｜[第188份：非正史試演《舊觀測園的風聲》](../07_候選故事與場景/188_非正史試演_Celeste第二次偶遇_舊觀測園的風聲.md)。",
+          "heading": "## 2026-11-05｜瑟莉思媞相遇專題對照 QA（第187份）與第二次偶遇小試演（第188份）"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "Gemini",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-082",
+      "path": "09_跨AI原始來源/README.md",
+      "category": "09_跨AI原始來源",
+      "source_function": "跨AI合冊README導覽不同時點的Gemini原始TXT、人工轉錄與已合併編輯研究；原生完整聊天仍有缺口。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 1,
+          "quote": "# 09_跨AI原始來源｜五檔完整合輯與最新使用者決定（2026-11-05）",
+          "heading": "# 09_跨AI原始來源｜五檔完整合輯與最新使用者決定（2026-11-05）"
+        },
+        {
+          "line": 5,
+          "quote": "使用者另貼Gemini新回覆並要求實際融合三處第七章文稿；**G9B已製作為獨立全章候選**：[閱讀G9B](../待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md)。[第197份逐項評論與跨章核查](../08_交接勘誤與決議/197_Gemini真貨誤導_殞落殘篇_抽薪B案及G9B三補丁QA_非正史.md)說明Gemini的觀測人偶、危險日常遺物、蒼冕王朝、殞落三殘篇、復歸主觀咔噠與白庭抽薪B案的創作價值及待驗證點。**這是新增導覽和QA，不宣稱其全文已被逐字封存至09，不升Canon**；本資料夾依舊維持五檔，不新增第",
+          "heading": "## 2026-11-05｜新增來源後出導覽：Gemini真貨誤猜與G9B完整融合正文"
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "生態",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "主角",
+        "物權"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-083",
+      "path": "交接稽核/2026-11-04_巨構GitHub接手稽核_非正史.md",
+      "category": "交接稽核",
+      "source_function": "11/04接手歷史快照：列明0正式章、首篇互斥、後出初見規則與關係時期限制，不可作最新唯一狀態。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> **保護原則：** 所有舊版、候選、歷史對話、圖片索引、地圖候選與未決台帳原樣保留；本檔僅盤點，絕不讓「版本較新」「Gemini／ChatGPT 寫得完整」自動取得正史資格。",
+          "heading": "# 《巨構世界》GitHub 接手稽核快照｜2026-11-04"
+        },
+        {
+          "line": 10,
+          "quote": "1. **交接真源：** [000_專案交接](../000_專案交接.md)、[000_導覽與狀態](../000_導覽與狀態.md)、[000_現行決策與主題索引](../000_現行決策與主題索引.md)，並依較晚的使用者明確決議修正早期文字。",
+          "heading": "## 1. 真正的權威與現行狀態"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W_TOP",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "法月懷",
+        "Gemini",
+        "前文明",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-084",
+      "path": "地圖/巨構世界層與厚重隔界_總圖V0.3.svg",
+      "category": "地圖",
+      "source_function": "宏觀W及厚界K總圖V0.3，呈當時分層連接的SVG草案，不代表物理測量或通車。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 1,
+          "quote": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1250 1180\" width=\"1250\" height=\"1180\"><defs><linearGradient id=\"bg\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"1\"><stop stop-color=\"#0c1722\"/><stop offset=\"1\" stop-color=\"#182732\"/></linearGradient><pattern id=\"haz\" patternUnits=\"userSpaceOnUse\" width=\"22\" height=\"",
+          "heading": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1250 1180\" width=\"1250\" height=\"1180\"><defs><linearGradient id=\"bg\" x1=\"0\" x2=\"1\" y1=\"0"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09",
+        "K10",
+        "候選"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-085",
+      "path": "地圖/巨構主升程功能分層V0.5_非正史.json",
+      "category": "地圖",
+      "source_function": "主升程功能JSON V0.5明載AUTHOR_CANDIDATE_NONCANON，區分頂端目的、起點與下方深構。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 2,
+          "quote": "\"schema\": \"megascale-main-ascent-v0.5\",",
+          "heading": "\"schema\": \"megascale-main-ascent-v0.5\","
+        },
+        {
+          "line": 4,
+          "quote": "\"status\": \"AUTHOR_CANDIDATE_NONCANON\",",
+          "heading": "\"status\": \"AUTHOR_CANDIDATE_NONCANON\","
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "生態",
+        "跨層",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "主角",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-086",
+      "path": "地圖/巨構主升程地圖V0.5_頂端目標與下方深構_非正史.svg",
+      "category": "地圖",
+      "source_function": "主升程V0.5地圖SVG，畫的是功能與敘事方向，不應視為最外殼或真實客貨電梯。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 2,
+          "quote": "<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\".7\" y2=\"1\"><stop stop-color=\"#070d17\"/><stop offset=\".48\" stop-color=\"#0d1720\"/><stop offset=\"1\" stop-color=\"#030911\"/></linearGradient>",
+          "heading": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1820\" height=\"2470\" viewBox=\"0 0 1820 2470\" role=\"img\" aria-labelledby=\"ttl desc\"><title id=\""
+        },
+        {
+          "line": 6,
+          "quote": "<pattern id=\"interior\" width=\"24\" height=\"24\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 17h14M6 0v13\" stroke=\"#e1d9b5\" stroke-opacity=\".11\" stroke-width=\"1.2\"/></pattern>",
+          "heading": "<pattern id=\"interior\" width=\"24\" height=\"24\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 17h14M6 0v13\" stroke=\"#e1d9b5\" stroke-opacity=\".11\" "
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "生態",
+        "候選",
+        "世界層",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-087",
+      "path": "地圖/巨構主升程骨架修正版V0.5.1_非對稱多代交錯_非正史.svg",
+      "category": "地圖",
+      "source_function": "V0.5.1主升程骨架改良SVG，重畫非對稱、多代交錯結構，仍非真最外殼測繪。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 2,
+          "quote": "<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\".7\" y2=\"1\"><stop stop-color=\"#070d17\"/><stop offset=\".48\" stop-color=\"#0d1720\"/><stop offset=\"1\" stop-color=\"#030911\"/></linearGradient>",
+          "heading": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1820\" height=\"2470\" viewBox=\"0 0 1820 2470\" role=\"img\" aria-labelledby=\"ttl desc\"><title id=\""
+        },
+        {
+          "line": 6,
+          "quote": "<pattern id=\"interior\" width=\"24\" height=\"24\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 17h14M6 0v13\" stroke=\"#e1d9b5\" stroke-opacity=\".11\" stroke-width=\"1.2\"/></pattern>",
+          "heading": "<pattern id=\"interior\" width=\"24\" height=\"24\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 17h14M6 0v13\" stroke=\"#e1d9b5\" stroke-opacity=\".11\" "
+        }
+      ],
+      "linked_topics": [
+        "Celeste",
+        "生態",
+        "候選",
+        "世界層",
+        "主角"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-088",
+      "path": "地圖/巨構宏觀立體空域剖視V0.4_候選.svg",
+      "category": "地圖",
+      "source_function": "V0.4宏觀立體剖視SVG描寫空域與支承骨架的視覺比例，像素非真公里。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 1,
+          "quote": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1840\" height=\"1450\" viewBox=\"0 0 1840 1450\"><defs><linearGradient id=\"bg\" x2=\".8\" y2=\"1\"><stop stop-color=\"#091925\"/><stop offset=\".55\" stop-color=\"#1c3240\"/><stop offset=\"1\" stop-color=\"#0a1825\"/></linearGradient><linearGradient id=\"rib\" x2=\".8\" y2=\"1\"",
+          "heading": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1840\" height=\"1450\" viewBox=\"0 0 1840 1450\"><defs><linearGradient id=\"bg\" x2=\".8\" y2=\"1\"><sto"
+        },
+        {
+          "line": 2,
+          "quote": "<path d=\"M-60 1350C222 1137 304 795 331 555S382 201 130 -40\" stroke=\"#081621\" stroke-width=\"145\" fill=\"none\"/><path d=\"M-60 1350C222 1137 304 795 331 555S382 201 130 -40\" stroke=\"url(#rib)\" stroke-width=\"105\" fill=\"none\"/><path d=\"M-60 1350C222 1137 304 795 331 555S382 201 130 -40\" stroke=\"#b1ccd1\" ",
+          "heading": "<path d=\"M-60 1350C222 1137 304 795 331 555S382 201 130 -40\" stroke=\"#081621\" stroke-width=\"145\" fill=\"none\"/><path d=\"M-60 1350C222 1137 30"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09",
+        "K10",
+        "Celeste"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-089",
+      "path": "地圖/K01折返厚殼帶_局部放大剖面V0.3.svg",
+      "category": "地圖",
+      "source_function": "K01折返厚殼帶V0.3局部剖面SVG，放大近側、厚腹地與遠側，非三扇門。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 1,
+          "quote": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1280 815\" width=\"1280\" height=\"815\"><defs><linearGradient id=\"g\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"1\"><stop stop-color=\"#14222d\"/><stop offset=\"1\" stop-color=\"#1f2830\"/></linearGradient><pattern id=\"stripes\" width=\"21\" height=\"21\" patternUnits=\"userSpaceOn",
+          "heading": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1280 815\" width=\"1280\" height=\"815\"><defs><linearGradient id=\"g\" x1=\"0\" x2=\"0\" y1=\"0\" y"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "K01",
+        "候選"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-090",
+      "path": "地圖/R04高懸械林_內部構造圖V0.2重建.svg",
+      "category": "地圖",
+      "source_function": "R04高懸械林V0.2內部結構SVG，地方子區示意非宏觀W層。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 1,
+          "quote": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 840 610\" width=\"840\" height=\"610\"><rect width=\"840\" height=\"610\" fill=\"#14202b\"/><g font-family=\"Noto Sans CJK TC, Microsoft JhengHei,sans-serif\"><text x=\"23\" y=\"33\" font-size=\"24\" font-weight=\"700\" fill=\"#f0f4f6\">R04｜高懸械林內部構造 V0.2重建</text><text x",
+          "heading": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 840 610\" width=\"840\" height=\"610\"><rect width=\"840\" height=\"610\" fill=\"#14202b\"/><g fon"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "候選",
+        "世界層"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-091",
+      "path": "地圖/T交通可達證據分層_三套候選路線V0.1.svg",
+      "category": "地圖",
+      "source_function": "T交通V0.1三套互不相連候選路網SVG，虛線與色線不是現役營運證據。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 2,
+          "quote": "<title id=\"tTitle\">T 交通可達證據分層：三組非正史候選路網</title>",
+          "heading": "<title id=\"tTitle\">T 交通可達證據分層：三組非正史候選路網</title>"
+        },
+        {
+          "line": 4,
+          "quote": "<rect width=\"1500\" height=\"1100\" fill=\"#081320\"/>",
+          "heading": "<desc id=\"tDesc\">三張互不相連的候選交通示意：K01三線、B案方井至雨檐埠、拱海側域；右下R04 E01尚未證實接通。虛線非證實道路。</desc>"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "W02",
+        "K01",
+        "候選",
+        "非正史",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-092",
+      "path": "地圖/W01大區R01至R09與R04局部_重建資料V0.2.json",
+      "category": "地圖",
+      "source_function": "W01 R01–R09及R04局部重建JSON V0.2，AUTHOR_CANDIDATE_NONCANON非正式全十二區測圖。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 2,
+          "quote": "\"schema\": \"reconstructed_chat_V0.2\",",
+          "heading": "\"schema\": \"reconstructed_chat_V0.2\","
+        },
+        {
+          "line": 4,
+          "quote": "\"authority\": \"AUTHOR_CANDIDATE_NONCANON\",",
+          "heading": "\"authority\": \"AUTHOR_CANDIDATE_NONCANON\","
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "生態",
+        "候選",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-093",
+      "path": "地圖/W01肋海廣域_R01至R09大區圖V0.2重建.svg",
+      "category": "地圖",
+      "source_function": "W01肋海廣域R01–R09 SVG V0.2重建示意，不能覆蓋後出W01十二大區優先框架。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 1,
+          "quote": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 830 745\" width=\"830\" height=\"745\"><rect width=\"830\" height=\"745\" fill=\"#15202c\"/><defs><pattern id=\"u\" width=\"16\" height=\"16\" patternUnits=\"userSpaceOnUse\" patternTransform=\"rotate(35)\"><path d=\"M0 0V16\" stroke=\"#d1dbe0\" stroke-opacity=\".19\" strok",
+          "heading": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 830 745\" width=\"830\" height=\"745\"><rect width=\"830\" height=\"745\" fill=\"#15202c\"/><defs>"
+        }
+      ],
+      "linked_topics": [
+        "W01",
+        "K02",
+        "生態",
+        "候選",
+        "世界層",
+        "城市"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    },
+    {
+      "id": "COV-NON-094",
+      "path": "舊資料_勘誤/00_全檔清冊與版本狀態.md",
+      "category": "舊資料_勘誤",
+      "source_function": "舊資料1–59版本狀態與逐檔風險，保留歷史來源並區分基底、候選及後出修正。",
+      "authority_scope": "DOCUMENT_ROLE_AND_TARGETED_EXCERPT_INTERPRETATION__NOT_WHOLE_FILE_CANON_REVIEW",
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "> **不得破壞原文**：本表是舊資料的**增量勘誤索引**，不取代任何原檔，亦不刪改已成立原文。若需完整人物或世界描寫，按條目直接開原檔。標籤「基底有效」不表示該檔包含所有後出決策；「已定＋候選」更不能整份視為 Canon。",
+          "heading": "# 舊資料版本稽核｜01–59 逐檔權威與風險清冊"
+        },
+        {
+          "line": 73,
+          "quote": "- [00_導覽與狀態](../000_導覽與狀態.md)：**全歷史編號目錄繼續有效**，但部分較早條目摘要是當時版本，需查現行主題入口與後出勘誤，不能只看某一列。",
+          "heading": "## 交叉來源／不在 01–59 的部分"
+        }
+      ],
+      "linked_topics": [
+        "K01",
+        "K10",
+        "Celeste",
+        "瑟莉思媞",
+        "諾亞",
+        "艾莉維亞",
+        "前文明",
+        "帝國",
+        "生態",
+        "跨層",
+        "交接",
+        "候選",
+        "非正史",
+        "復歸",
+        "世界層",
+        "靜謐迴廊",
+        "終焉迴廊",
+        "第三個座位"
+      ],
+      "source_stage": "SOURCE_ROLE_CURATED__STILL_NEEDS_CLAIM_BY_CLAIM_ARBITRATION",
+      "warning": "此卡確認來源用途及局部文字線索，不代表原檔全部原創設定、事件、人物知情都經手工逐句驗收。"
+    }
+  ]
+}
