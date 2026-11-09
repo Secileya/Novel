@@ -10,82 +10,112 @@
   "version_decision_count": 10,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "全文可查、機器證據摘錄、至少一個手工來源命題、完整逐檔語義審定是不同層級。不能稱全部335來源或候選12章已正式Canon；沒有任何已驗跨K常態去返路。",
+  "warning": "不能把171/171來源用途卡完成稱為171份全文已完成精細語義審核。新增了47? 不使用此推測。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
       "referenced": 0,
-      "bytes": 101628
+      "bytes": 101628,
+      "source_role_indexed": 8,
+      "source_roles_plus_atomic": 8
     },
     "專案根目錄": {
       "physical": 6,
       "referenced": 3,
-      "bytes": 395783
+      "bytes": 395783,
+      "source_role_indexed": 3,
+      "source_roles_plus_atomic": 6
     },
     "01_世界本體與文明": {
       "physical": 25,
       "referenced": 24,
-      "bytes": 409797
+      "bytes": 409797,
+      "source_role_indexed": 1,
+      "source_roles_plus_atomic": 25
     },
     "02_地圖拓撲與交通": {
       "physical": 24,
       "referenced": 23,
-      "bytes": 305265
+      "bytes": 305265,
+      "source_role_indexed": 1,
+      "source_roles_plus_atomic": 24
     },
     "03_人物關係與語感": {
       "physical": 32,
       "referenced": 31,
-      "bytes": 514199
+      "bytes": 514199,
+      "source_role_indexed": 1,
+      "source_roles_plus_atomic": 32
     },
     "04_能力武器與試煉": {
       "physical": 26,
       "referenced": 25,
-      "bytes": 390462
+      "bytes": 390462,
+      "source_role_indexed": 1,
+      "source_roles_plus_atomic": 26
     },
     "05_場景視覺與參考": {
       "physical": 14,
       "referenced": 5,
-      "bytes": 228805
+      "bytes": 228805,
+      "source_role_indexed": 9,
+      "source_roles_plus_atomic": 14
     },
     "06_敘事規劃與工作流": {
       "physical": 34,
       "referenced": 10,
-      "bytes": 707170
+      "bytes": 707170,
+      "source_role_indexed": 24,
+      "source_roles_plus_atomic": 34
     },
     "07_候選故事與場景": {
       "physical": 24,
       "referenced": 4,
-      "bytes": 443501
+      "bytes": 443501,
+      "source_role_indexed": 20,
+      "source_roles_plus_atomic": 24
     },
     "08_交接勘誤與決議": {
       "physical": 28,
       "referenced": 15,
-      "bytes": 309697
+      "bytes": 309697,
+      "source_role_indexed": 13,
+      "source_roles_plus_atomic": 28
     },
     "09_跨AI原始來源": {
       "physical": 6,
       "referenced": 5,
-      "bytes": 1025465
+      "bytes": 1025465,
+      "source_role_indexed": 1,
+      "source_roles_plus_atomic": 6
     },
     "交接稽核": {
       "physical": 1,
       "referenced": 0,
-      "bytes": 11525
+      "bytes": 11525,
+      "source_role_indexed": 1,
+      "source_roles_plus_atomic": 1
     },
     "地圖": {
       "physical": 13,
       "referenced": 3,
-      "bytes": 217320
+      "bytes": 217320,
+      "source_role_indexed": 10,
+      "source_roles_plus_atomic": 13
     },
     "待定正文": {
       "physical": 90,
       "referenced": 13,
-      "bytes": 2393394
+      "bytes": 2393394,
+      "source_role_indexed": 77,
+      "source_roles_plus_atomic": 90
     },
     "舊資料_勘誤": {
       "physical": 4,
       "referenced": 3,
-      "bytes": 135135
+      "bytes": 135135,
+      "source_role_indexed": 1,
+      "source_roles_plus_atomic": 4
     }
   },
   "world_layer_records": 9,
@@ -99,7 +129,7 @@
   "notice_2026_11_09": "最新四軌：335/335全文機器可查，先前213份逐檔SHA核對與1597段機器證據提綱；156原先歷史命題、41關聯，加上78個章節事件、14條34次道具狀態、22跨AI來源紀錄、30 W02+原文候選；164/335原始來源有直接結構化引用，171份仍無；本輪新增11份直接來源引用，未核實常態跨W往返道路仍為0。",
   "historical_source_recovery_atoms": 156,
   "candidate_chapter_event_recovery_records": 12,
-  "original_paths_without_structured_reference": 171,
+  "original_paths_without_structured_reference": 0,
   "all_original_files_text_passage_extraction": "IMPLEMENTED_AND_CI_TESTED_NOT_SEMANTICALLY_REVIEWED",
   "historical_recovery_links": 41,
   "second_recovery_source_count": 38,
@@ -117,5 +147,19 @@
   "world_version_collision_barriers": 9,
   "transport_hypotheses_retained": 12,
   "verified_operational_cross_layer_return_routes": 0,
-  "targeted_deep_source_line_checks": 164
+  "targeted_deep_source_line_checks": 164,
+  "original_source_role_reviewed_count": 171,
+  "original_source_role_quotes_checked": 370,
+  "all_original_sources_with_some_structured_retrieval_entry": 335,
+  "original_source_paths_without_any_structured_reference": 0,
+  "distinct_original_source_paths_with_fine_grained_semantic_claim": 164,
+  "deep_atomic_semantic_review_pending_source_paths": 171,
+  "original_paths_without_fine_grained_semantic_claim": 171,
+  "candidate_archive_source_cards": 77,
+  "nondraft_source_cards": 94,
+  "candidate_version_relationships_curated": 37,
+  "candidate_version_pairs_literal_diffed": 37,
+  "semantic_candidate_version_issues_human_interpreted": 14,
+  "full_file_semantic_review_completed": "NOT_MEASURED",
+  "note": "335來源有某種可追蹤結構化入口；164份至少有既有細粒度命題，171份有獨立來源用途卡、370原文錨點與部分修訂語義，但未完成全文設定命題逐一仲裁。37組文字關係含互斥／補篇對照，不全是同章修訂。"
 }
