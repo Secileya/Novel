@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+/** Batch 11 source SHA/quote/line and real negative fixtures; semantic QA still needs editorial review. */
+import fs from 'node:fs';import {createHash} from 'node:crypto';import {resolve,dirname,sep} from 'node:path';import {fileURLToPath} from 'node:url';
+const home=dirname(fileURLToPath(import.meta.url)),root=resolve(home,'../..'),audit=JSON.parse(fs.readFileSync(resolve(home,'20261109_第十一批六份_白髮修訂與篇章候選_全文v2語義審核.json'),'utf8'));const bad=[],cache=new Map(),seen=new Set();let count=0;
+function src(p){if(typeof p!=='string'||!p||p.startsWith('/')||p.includes('\\')||p.split('/').includes('..'))throw Error('unsafe source');const f=resolve(root,p);if(!f.startsWith(root+sep))throw Error('outside source tree');if(!cache.has(p)){const b=fs.readFileSync(f);cache.set(p,{sha:createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex'),lines:b.toString('utf8').split(/\r?\n/)})}return cache.get(p)}
+function valid(e){const s=src(e.source_path);return s.sha===e.git_blob_sha&&Number.isInteger(e.line)&&e.line>0&&typeof e.quote==='string'&&e.quote.length>0&&!!s.lines[e.line-1]?.includes(e.quote)}
+for(const r of audit.records){if(!r.id||seen.has(r.id))bad.push('duplicate claim '+r.id);seen.add(r.id);if(!r.guardrail||!r.authority||!r.evidence?.length)bad.push('incomplete claim '+r.id);for(const e of r.evidence||[]){count++;try{if(!valid(e))bad.push('invalid source anchor '+r.id+':'+e.line)}catch(err){bad.push(err.message)}}}
+for(const x of audit.source_file_manifest)try{if(src(x.path).sha!==x.git_blob_sha)bad.push('source manifest drift '+x.path)}catch(err){bad.push(err.message)}
+if(audit.record_count!==seen.size||audit.original_anchors_count!==count||audit.source_files_targeted!==cache.size)bad.push('count mismatch');
+if(process.argv.includes('--negative-test')){const e=audit.records[0].evidence[0];for(const f of [{...e,quote:'THIS_IS_AN_INVALID_QUOTE_114410'},{...e,git_blob_sha:'0'.repeat(40)},{...e,line:0}])if(valid(f))bad.push('negative fixture wrongly accepted')}
+if(bad.length){console.error(bad.join('\n'));process.exitCode=2}else console.log('Batch11 '+seen.size+' claims / '+count+' exact SHA-line anchors / '+cache.size+' Git source files; AI editorial only, not Canon.');
