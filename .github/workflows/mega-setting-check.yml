@@ -34,6 +34,12 @@ jobs:
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九章封存五檔遷移.mjs'
       - name: Five-file limit, unchanged original source SHA, and linked audits
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九章封存五檔遷移.mjs'
+      - name: Next AI handoff verifier syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs'
+      - name: Machine-readable handoff board and source invariants
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --check
+      - name: Handoff next-task route and safe task selection
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --task NEXT > "$RUNNER_TEMP/next-agent-task.json"
       - name: Synthetic and real regression checks
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs' --self-test
       - name: Example retrieval receipt

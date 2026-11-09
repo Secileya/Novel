@@ -1,0 +1,197 @@
+{
+  "schema": "mega-next-agent-workboard-v1",
+  "updated_at": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "project_root": "小說/巨構世界（法月懷造物）",
+  "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
+  "scope": "Non-Canon knowledge infrastructure maintenance. Writing formal chapters is blocked by PREWRITE HOLD until author explicitly releases.",
+  "last_checked_head_before_handoff": "8c371bbe552167848c0751e4a2a5fa18ae1b2c7a",
+  "last_checked_successful_ci": {
+    "name": "巨構設定索引查詢器驗證",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42557190412",
+    "conclusion": "success",
+    "warning": "Historical run for prior HEAD; next AI must fetch actual current main CI."
+  },
+  "fact_snapshot": {
+    "raw_source_files": 335,
+    "source_paths_with_prior_fine_grained_references": 164,
+    "source_role_cards_awaiting_full_claim_arbitration": 171,
+    "source_dossiers_machine_screened": 213,
+    "source_excerpt_sections": 1597,
+    "candidate_version_text_diff_pairs": 37,
+    "candidate_version_human_semantic_reviews": 14,
+    "fourth_and_fifth_audit_records": 41,
+    "fourth_and_fifth_verified_quotes": 111,
+    "version_decision_nodes": 12,
+    "nine_folder_files": 5,
+    "canon_formal_chapters": 0,
+    "prewrite_hold": true,
+    "important": "These are counts at the verified snapshot, NOT 171 new unread docs, not 171 completed full-file reviews, not a dynamic CI statement."
+  },
+  "rules": {
+    "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
+    "states": [
+      "READY",
+      "BLOCKED",
+      "DONE"
+    ],
+    "completion_rule": "Commit+readback+CI (or honest NOT_RUN) and workboard status update; a mention of a source does not reduce 171 pending full semantic files",
+    "source_integrity": "Original fiction and user raw sources must remain byte-for-byte unchanged without express permission.",
+    "branch": "Non-Canon non-destructive changes direct main by author rule; risky multi-file migration use atomic Git tree or reviewed PR",
+    "no_fabricated_work": true
+  },
+  "tasks": [
+    {
+      "id": "NEXT-001",
+      "priority": 1,
+      "status": "READY",
+      "name": "逐條仲裁171來源待辦的下一小批，並將真實版本關係接回統一查詢圖",
+      "purpose": "從現有171份用途卡取得獨立命題，不重複第四／五批已完成的41個議題，也不能只製作新的來源用途標籤。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/全庫待原子化缺口清冊.json",
+        "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_非候選94份.json",
+        "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_候選77份.json",
+        "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
+        "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
+        "00_分類導航/設定關聯引擎/20261109_171待深審_第五批首篇版本與敘事權威仲裁.json"
+      ],
+      "first_action": "從缺口清冊選一批同主題來源，查SHA與最相關原稿及後出作者決議；逐條建立命題、可證的supersedes／非證實欄位；先比對41筆避免重複。",
+      "acceptance": [
+        "每條新命題有來源Git blob SHA、原文行號與原文引文",
+        "逐項記錄作者權威／候選分支／適用時點及否定式防誤推",
+        "適用時新增版本關聯與查詢器回歸案例",
+        "CI通過與GitHub讀回；不把本批涉及的檔案直接算作全文完成"
+      ],
+      "blocked_on": null,
+      "complete_evidence": []
+    },
+    {
+      "id": "NEXT-002",
+      "priority": 1,
+      "status": "READY",
+      "name": "讓舊交接快照與最新動態數字不再互相混淆",
+      "purpose": "原AGENTS/GEMINI/多份歷史README仍保留251、213、182等歷史數字，建立單一可查快照／更新口徑並在非原文入口加明確新指標。",
+      "required_read_files": [
+        "AGENTS.md",
+        "GEMINI.md",
+        "00_分類導航/設定關聯引擎/全庫待原子化缺口清冊.json",
+        "00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
+        "00_分類導航/設定關聯引擎/語義覆蓋稽核.md"
+      ],
+      "first_action": "檢查哪些『最新』標籤早已被後出數字覆蓋；建立或加強唯一動態統計輸出，將舊數字標成歷史而非直接抹除封存文字。",
+      "acceptance": [
+        "新的接手入口沒有互相矛盾的『最新』數據",
+        "原始歷史來源不被為了修統計而覆寫",
+        "各類覆蓋率分開計數：可讀取／有來源卡／已具命題／全文語義完成",
+        "測試證明計數來自實際檔案而非手打加總"
+      ],
+      "blocked_on": null,
+      "complete_evidence": []
+    },
+    {
+      "id": "NEXT-003",
+      "priority": 2,
+      "status": "READY",
+      "name": "擴展既有版本圖的實際證據鏈（第四／五批41條）",
+      "purpose": "先前已連接12版本節點及部分審核ID，尚有不少跨主題後果未入既有人物／物件／地理／章際關聯圖；避免對所有41項硬加假因果。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
+        "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
+        "00_分類導航/設定關聯引擎/20261109_171待深審_第五批首篇版本與敘事權威仲裁.json",
+        "00_分類導航/設定關聯引擎/人物組織與社會關係圖.json"
+      ],
+      "first_action": "先挑真正有直接證據的人物/版本關聯；未實證者只做『需回查』關係，不自動推實際因果。",
+      "acceptance": [
+        "每條新增關聯都有可追到源文件的證據及候選/確定類型",
+        "更新查詢器輸出相鄰實體與回查檔案",
+        "不把任何可疑候選章事件升為正式既成事件",
+        "CI測試關聯端點和原文準確性"
+      ],
+      "blocked_on": null,
+      "complete_evidence": []
+    },
+    {
+      "id": "NEXT-004",
+      "priority": 2,
+      "status": "READY",
+      "name": "驗證37組候選文字差異與14項已核對語義之外的版本風險",
+      "purpose": "已有37組來源逐行差異和14項重要人工語義核對；尚不能宣稱37組語義都仲裁完。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/候選版本37組_逐行文字差異證據.json",
+        "00_分類導航/設定關聯引擎/候選版本差異_14項重要語義核對.json",
+        "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_候選77份.json"
+      ],
+      "first_action": "核實每一組的來源版本家族與末尾/開頭接續關係，從高風險未審配對逐項做原文對讀。",
+      "acceptance": [
+        "明示本批實際完成語義仲裁的配對ID，不將37文字差異全稱已仲裁",
+        "記錄已修／部分覆蓋／仍候選／需作者選案",
+        "不同版別下的人物知情、物權與工程物理不得互相拼接",
+        "CI與回執可驗證"
+      ],
+      "blocked_on": null,
+      "complete_evidence": []
+    },
+    {
+      "id": "NEXT-005",
+      "priority": 3,
+      "status": "READY",
+      "name": "深化W02以上城市、生態與跨界交通的條件證據",
+      "purpose": "現有12條候選T路沒有一條可證明常態雙向跨K營運，W02以上具名子區域及社會結構仍需深入來源核實。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/跨世界層與厚界多版本拓撲.json",
+        "00_分類導航/設定關聯引擎/跨區交通去返與法權證據帳.json",
+        "00_分類導航/設定關聯引擎/W02以上文明生態與跨界路權_原文證據矩陣.json",
+        "00_分類導航/設定關聯引擎/跨層文明生態依賴網.json"
+      ],
+      "first_action": "選一條候選T線或一處具名區域，回查物理可達性、去返、客貨、權限、使用者和生態代價；未知值保持null。",
+      "acceptance": [
+        "每個已核對條件附原文證據且和版本K對應",
+        "明示無證據的跨界現役營運仍為未知",
+        "父物件涉及的所有具名子項都已回查",
+        "自動檢索能定位受影響世界層及依賴"
+      ],
+      "blocked_on": null,
+      "complete_evidence": []
+    },
+    {
+      "id": "NEXT-006",
+      "priority": 4,
+      "status": "BLOCKED",
+      "name": "撰寫或採納正式第一章／解除PREWRITE HOLD",
+      "purpose": "只能依作者明確解鎖及採案而執行；現在只可做非正史候選設計或QA，不得擅啟正式第一章。",
+      "required_read_files": [
+        "README.md",
+        "000_現行決策與主題索引.md",
+        "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json"
+      ],
+      "first_action": "如果作者明確選定首篇與解除HOLD，先核正式正文最新版本、真初遇、角色狀態、尚未發生場景與正式章號，再依長篇寫作流程執行。",
+      "acceptance": [
+        "可查的作者明確批准來源",
+        "正式稿由使用者確定、記錄版本與完整章節原文",
+        "原先候選與原稿仍保留",
+        "正式寫作不依舊助手候選自動決定世界真相"
+      ],
+      "blocked_on": "AUTHOR_EXPLICIT_RELEASE_OF_PREWRITE_HOLD_AND_CANON_VERSION_CHOICE",
+      "complete_evidence": []
+    }
+  ],
+  "last_delivered_work": [
+    {
+      "commit": "97c403420af4b0e230e656fd00a574ab013ad4b9",
+      "work": "09恢復五檔與335/213全索引同SHA無損遷移，12版本節點連41個來源核對",
+      "verification": "three GitHub workflows success on this commit"
+    },
+    {
+      "commit": "8c371bbe552167848c0751e4a2a5fa18ae1b2c7a",
+      "work": "新增版本—審核—原始來源一跳回查清單",
+      "verification": "GitHub Actions 設定查詢器驗證成功"
+    }
+  ],
+  "handoff_requirements": [
+    "Run status/check and inspect current HEAD and CI",
+    "Read original sources and user/latest authority before any write",
+    "Record exact changed files plus Git commit and successful or failed CI",
+    "Update workboard and preserve candidate/non-Canon and PREWRITE HOLD",
+    "Do not claim 171 pending full semantic reviews are done from 41 targeted audit findings"
+  ]
+}
