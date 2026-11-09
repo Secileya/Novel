@@ -1,0 +1,600 @@
+{
+  "schema": "mega-171-deep-semantic-audit-batch4-v1",
+  "date": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "baseline_commit": "48b1a8d74402be6f206ec7adb6b6a3b64eaa5c80",
+  "audit_scope": "在171份已具來源卡但尚待原子命題審核的來源中，對11份歷史來源進行定點交叉審核，另覆核1份新增第九章封存；不表示任一來源全文完成審定。",
+  "priority_rule": "只以明確原文及現行檔案結構判定，已確認的文本衝突與仍待採用的設計風險分離；所有故事候選NON-CANON且正式0章/PREWRITE HOLD。",
+  "source_count": 12,
+  "claims_count": 19,
+  "evidence_count": 50,
+  "files_consulted": [
+    {
+      "path": "09_跨AI原始來源/README.md",
+      "git_blob_sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a"
+    },
+    {
+      "path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258"
+    },
+    {
+      "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+      "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541"
+    },
+    {
+      "path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+      "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c"
+    },
+    {
+      "path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+      "git_blob_sha": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38"
+    },
+    {
+      "path": "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
+      "git_blob_sha": "b3a90641ccebb07186a46c242f387df20bbb75cd"
+    },
+    {
+      "path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+      "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1"
+    },
+    {
+      "path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+      "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e"
+    },
+    {
+      "path": "08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md",
+      "git_blob_sha": "25de6936a6637a1fa45e1bb5457b9df5c2510bbd"
+    },
+    {
+      "path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+      "git_blob_sha": "4a886ab4910e47eb1f485b88ec246b945965e0db"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+      "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a"
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+      "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e"
+    }
+  ],
+  "live_repository_observation": {
+    "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源",
+    "current_files": 6,
+    "required_files": 5,
+    "extra_file": "20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+    "observation": "2026-11-09 GitHub main contents API",
+    "warning": "不得未經引用重寫與索引維護直接移除這份原文。"
+  },
+  "records": [
+    {
+      "id": "SRC-171-001",
+      "title": "09五檔上限與現存六檔相衝",
+      "status": "REPOSITORY_LAYOUT_CONFLICT",
+      "priority": "HIGH",
+      "assessment": "09 README 明定 README+A/B/C/D 共五檔；2026-11-09 live contents 查得六檔，第六個為 20261107 第九章封存。若移檔必同步修索引和所有原路徑引用，不得刪去來源內容。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/README.md",
+          "git_blob_sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a",
+          "line": 24,
+          "quote": "本 README＋A／B／C／D 四冊"
+        },
+        {
+          "source_path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+          "git_blob_sha": "78adb6225d3ff3a71538a70e66cb176e1571f258",
+          "line": 3,
+          "quote": "使用者 2026-11-07 提供的第九章完整來源文字原樣封存"
+        }
+      ],
+      "guardrail": "不自動刪檔；單憑資料夾規則不能推測原文無價值。",
+      "next_action": "建立內容不變的遷移方案；先處理至少10處跨檔引用及舊原文SHA索引，再恢復五檔限制。"
+    },
+    {
+      "id": "SRC-171-002",
+      "title": "黑幕允許但必須有事先的作者層因果",
+      "status": "AUTHOR_INSTRUCTION_IN_SOURCE",
+      "priority": "HIGH",
+      "assessment": "09 README 保存使用者澄清：黑幕、跨區勢力和長線伏筆可存在，但應先規劃角色動機、情報差與收束，不能因先前地方事件候選而禁止黑幕。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/README.md",
+          "git_blob_sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a",
+          "line": 10,
+          "quote": "使用者原意"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
+          "git_blob_sha": "b3a90641ccebb07186a46c242f387df20bbb75cd",
+          "line": 22,
+          "quote": "黑幕尚未達作者層已採狀態"
+        }
+      ],
+      "guardrail": "黑幕可寫不等於多恩／科爾／白庭的特定陰謀方案已採。",
+      "next_action": "在作品決議前分開 AUTHOR_DIRECTION 與 SPECIFIC_CANDIDATE_PLOT。"
+    },
+    {
+      "id": "SRC-171-003",
+      "title": "外部《異常大舞台》研究是二手轉貼且含後出自修",
+      "status": "UNVERIFIED_EXTERNAL_REFERENCE",
+      "priority": "MEDIUM",
+      "assessment": "第083文件先說第26章才有能力測試，後補第2–4章已互動；本庫沒有獨立驗證外部原著，不能把二手表述直接當小說原著事實或本世界角色命運。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+          "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+          "line": 5,
+          "quote": "沒有獨立對照《異常大舞台》原著全文"
+        },
+        {
+          "source_path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+          "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+          "line": 7,
+          "quote": "第2～4章早已互動"
+        }
+      ],
+      "guardrail": "第083的先後表述不是兩份彼此獨立的原著證據。",
+      "next_action": "如需引用外部作品，另行核對原著；本庫目前只回收可移植的敘事方法。"
+    },
+    {
+      "id": "SRC-171-004",
+      "title": "設定閱讀必回原文並核對後修，不能由覆蓋率代替",
+      "status": "EDITORIAL_PROCESS_RULE",
+      "priority": "HIGH",
+      "assessment": "第032明示必須讀 GitHub 原檔，舊版不得覆蓋後出修正；此項直接限制本171來源卡後續語義核對流程。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+          "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+          "line": 11,
+          "quote": "必須真的查閱 GitHub 原檔"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+          "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+          "line": 13,
+          "quote": "不得使用舊版本覆蓋新修正"
+        }
+      ],
+      "guardrail": "這是流程規則，不代表335份已逐字審核。",
+      "next_action": "語義條目需同時記 source SHA、行號、適用版本、權威來源。"
+    },
+    {
+      "id": "SRC-171-005",
+      "title": "未決台帳與已知答案的伏筆台帳必須分離",
+      "status": "EDITORIAL_PROCESS_RULE",
+      "priority": "MEDIUM",
+      "assessment": "第032要求未決機制與伏筆分帳；章節可以因角色選擇調整，但必須同步改因果鏈與收束。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+          "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+          "line": 44,
+          "quote": "未決與伏筆兩張獨立台帳"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+          "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+          "line": 55,
+          "quote": "事件起點、真正的衝突"
+        }
+      ],
+      "guardrail": "不能把尚未設定的機制說成作者早已知道的秘密伏筆。",
+      "next_action": "為第7–9章作者層稿拆出未決工程與既定伏筆欄位。"
+    },
+    {
+      "id": "SRC-171-006",
+      "title": "正式首章門檻仍 HOLD，不等於禁止候選試寫",
+      "status": "PREWRITE_SCOPE",
+      "priority": "HIGH",
+      "assessment": "第089明確指出正式首章 HOLD 的原因是首篇事件、作者因果與地方設定尚未選定；在此階段可寫明示非正史的候選，不能偷升正史。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+          "git_blob_sha": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38",
+          "line": 66,
+          "quote": "PREWRITE_GATE（正式正文）"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+          "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+          "line": 66,
+          "quote": "重讀上一章的"
+        }
+      ],
+      "guardrail": "不存在自動解除 HOLD 的提交或作者批准。",
+      "next_action": "僅把檔案回收與跨章稽核列為研究進展，不改正式0章狀態。"
+    },
+    {
+      "id": "SRC-171-007",
+      "title": "初遇時序與瑟莉思媞知情／介入範圍分層",
+      "status": "CHARACTER_TIMELINE_BOUNDARY",
+      "priority": "HIGH",
+      "assessment": "正式首章諾亞與艾莉維亞是第一次互相見面；瑟莉思媞的安排不強迫戀愛，也不可讓主角提前知道作者層真相。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+          "git_blob_sha": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38",
+          "line": 11,
+          "quote": "第一次互相見面"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+          "git_blob_sha": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38",
+          "line": 12,
+          "quote": "不強制兩人戀愛"
+        }
+      ],
+      "guardrail": "熟人版試寫與初見候選不得合成同一正式首章。",
+      "next_action": "候選角色資訊要標示世界時間、角色所知與作者層所知。"
+    },
+    {
+      "id": "SRC-171-008",
+      "title": "同號第201份是兩個保存文檔，不是唯一鍵",
+      "status": "IDENTIFIER_COLLISION",
+      "priority": "MEDIUM",
+      "assessment": "08資料夾有兩份第201的交接稿，內容部分重疊但形式和來源相異；以路徑與Git blob SHA識別，不能以 201 當全庫唯一主鍵。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 1,
+          "quote": "給 Gemini 的完整交接指令"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+          "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+          "line": 1,
+          "quote": "第201份"
+        }
+      ],
+      "guardrail": "不得將兩檔視為同一檔案的重複字節，或擅刪任一保存本。",
+      "next_action": "新索引使用 compound key (source_path,blob_sha)，可另標雙檔同號。"
+    },
+    {
+      "id": "SRC-171-009",
+      "title": "G9B章末已回答，G10開頭卻說尚未回答",
+      "status": "CANDIDATE_TEXT_CONFLICT",
+      "priority": "CRITICAL",
+      "assessment": "G9B第121行面具人已回答找塞拉的問題並反問身分；原G10第13行又稱未立刻回答諾亞問題，造成章際重複／錯接。兩份第201交接也辨認此點。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+          "line": 120,
+          "quote": "為什麼在底下不直接找塞拉修女"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+          "line": 121,
+          "quote": "找承光贖罪庭？"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+          "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+          "line": 13,
+          "quote": "沒有立刻回答諾亞的問題"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+          "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+          "line": 17,
+          "quote": "白衣人**已回答"
+        }
+      ],
+      "guardrail": "此衝突限於 G9B+原G10 的候選拼接，後修版本不得一律判為仍有同錯。",
+      "next_action": "後續章節比對只可採『第七章止於問句』或『第八章接既有反問』其中一條支線，兩章同步核對。"
+    },
+    {
+      "id": "SRC-171-010",
+      "title": "一號主吊籠已毀仍被G10要求直接搭乘",
+      "status": "CANDIDATE_TEXT_CONFLICT",
+      "priority": "CRITICAL",
+      "assessment": "G9B第96行已寫控制線被切斷；原G10第113行命角色立即搭乘一號主吊籠登頂，缺少修通設備與路權／時間步驟。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+          "line": 96,
+          "quote": "控制電線被人用利器挑斷了兩根"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+          "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+          "line": 113,
+          "quote": "坐一號主吊籠"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 37,
+          "quote": "一號主吊籠"
+        }
+      ],
+      "guardrail": "後來第九章候選有修籠，不表示原G9B→G10這一處矛盾當場已補。",
+      "next_action": "依選定版本逐段列吊籠狀態：損壞→施工→試動→可載人；不得跳狀態。"
+    },
+    {
+      "id": "SRC-171-011",
+      "title": "多恩機械副指受損與『包紮斷指』需分辨",
+      "status": "POTENTIAL_BODY_EQUIPMENT_AMBIGUITY",
+      "priority": "MEDIUM",
+      "assessment": "G9B明寫雙腕各四機械副指、受損兩根；原G10末尾『包紮斷指』容易讓讀者理解為真手指斷裂。須確認是副指、接口傷還是新增肉身受傷，不可從一句話推斷器官傷勢。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+          "line": 100,
+          "quote": "各延伸出四根"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+          "line": 108,
+          "quote": "兩根機械副指被震得彎折"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+          "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+          "line": 114,
+          "quote": "包紮斷指"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 30,
+          "quote": "各四根機械副指"
+        }
+      ],
+      "guardrail": "這是潛在認知歧義，不是已證明多恩失去真指。",
+      "next_action": "候選逐場傷情帳拆分義體損壞／肉身傷口。"
+    },
+    {
+      "id": "SRC-171-012",
+      "title": "20m結構辨識不等於射程或1100m共鳴",
+      "status": "ABILITY_KNOWLEDGE_BOUNDARY",
+      "priority": "HIGH",
+      "assessment": "原文與交接稿分別建立近距20公尺隔障結構感知、遠距黑銃共鳴與可在25公尺開槍三種不同機制。不能在角色尚未知情時把遠端共鳴當成透視並直接命名黑銷構造。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+          "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+          "line": 24,
+          "quote": "20m 隔障結構感知"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+          "line": 106,
+          "quote": "一千一百公尺外的最高處軸承室"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 28,
+          "quote": "20 公尺隔障結構感知"
+        }
+      ],
+      "guardrail": "二十公尺不是原槍所有力量的總上限。",
+      "next_action": "將感測、射擊、共鳴及角色理解程度設成不同欄位。"
+    },
+    {
+      "id": "SRC-171-013",
+      "title": "三日前失竊物不能逕指五百年固定黑銷",
+      "status": "EVENT_PROVENANCE_CONFLICT_RISK",
+      "priority": "HIGH",
+      "assessment": "第五章線索是三天前失竊的上層特級封存物；候選G10的黑銷據稱長年固定鐘擺中。除非有完整物件與事件證據，不能合併成同一件。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 41,
+          "quote": "三天前十區市政廳失竊"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+          "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+          "line": 34,
+          "quote": "三日前市政廳失竊"
+        }
+      ],
+      "guardrail": "不能以『一切其實更大陰謀』自動掩蓋來源與物件衝突。",
+      "next_action": "為失竊物／母核／黑銷建立分離的物件ID與證據鏈，直到有同一性證明。"
+    },
+    {
+      "id": "SRC-171-014",
+      "title": "簽核單／制服／供述≠科爾主使確證",
+      "status": "EVIDENCE_VS_VERDICT",
+      "priority": "HIGH",
+      "assessment": "原G10角色已因簽核單與追兵怒斥科爾；兩份交接都警告這只能增加供述可信度，不能直接成為作者層已證實的主使、犯罪命令鏈與責任結論。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+          "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+          "line": 95,
+          "quote": "三天前，白庭配額委員會"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+          "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+          "line": 98,
+          "quote": "好一個十區白庭"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 49,
+          "quote": "簽核單、斷針、現場裂痕和追兵"
+        }
+      ],
+      "guardrail": "角色在情境下確信不等於旁白已核實政治真相。",
+      "next_action": "作者層與場內角色的證據知情矩陣分開追蹤。"
+    },
+    {
+      "id": "SRC-171-015",
+      "title": "G10R4同名存在ABC版與ABCD版兩條衍生",
+      "status": "CANDIDATE_VERSION_LABEL_COLLISION",
+      "priority": "HIGH",
+      "assessment": "第206甲記四組微補丁應用於另一份R4衍生候選；第206乙紀錄只套A/B/C、D待核，兩條文件名皆含G10R4而有效內容不同。不能單靠R4標籤選唯一最新版。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md",
+          "git_blob_sha": "25de6936a6637a1fa45e1bb5457b9df5c2510bbd",
+          "line": 3,
+          "quote": "只按使用者貼出的四組補丁"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+          "git_blob_sha": "4a886ab4910e47eb1f485b88ec246b945965e0db",
+          "line": 14,
+          "quote": "僅套 A、B、C"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+          "git_blob_sha": "4a886ab4910e47eb1f485b88ec246b945965e0db",
+          "line": 12,
+          "quote": "0.5秒減載窗口可安全拔針"
+        }
+      ],
+      "guardrail": "『已套入文本』與『編輯同意工程可行』也不是同一件事。",
+      "next_action": "查詢器應以完整路徑及補丁集合識別ABC / ABCD分支；作者未選之前並行保留。"
+    },
+    {
+      "id": "SRC-171-016",
+      "title": "換向速度短暫為零不證明可安全減載拔針",
+      "status": "ENGINEERING_UNPROVEN",
+      "priority": "HIGH",
+      "assessment": "第206雙版QA皆明示0.5秒減載窗口欠缺受力證明；針尾能外部觸及也不等於帶載可安全退出，必須量測局部剪力、反力和位移並允許撤退。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md",
+          "git_blob_sha": "25de6936a6637a1fa45e1bb5457b9df5c2510bbd",
+          "line": 22,
+          "quote": "0.5 秒減載空檔"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+          "git_blob_sha": "4a886ab4910e47eb1f485b88ec246b945965e0db",
+          "line": 12,
+          "quote": "0.5秒減載窗口可安全拔針"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+          "git_blob_sha": "4a886ab4910e47eb1f485b88ec246b945965e0db",
+          "line": 38,
+          "quote": "極端應急路線"
+        }
+      ],
+      "guardrail": "不能把候選情節的成功結果誤寫成已確認物理定律。",
+      "next_action": "在採案前要求可觀測門檻、風險回退、物件承力及封孔方法。"
+    },
+    {
+      "id": "SRC-171-017",
+      "title": "巨擺停擺不代表頂軸卸載完成",
+      "status": "ENGINEERING_AND_LOAD_PATH",
+      "priority": "HIGH",
+      "assessment": "G10原稿要求十分鐘停擺、十五分鐘內頂升開套；後出第201／206 QA指出永久承座、載荷轉移與頂部空載確認是不同步驟。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+          "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+          "line": 109,
+          "quote": "十分鐘之內"
+        },
+        {
+          "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+          "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+          "line": 113,
+          "quote": "坐一號主吊籠"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+          "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+          "line": 39,
+          "quote": "停擺不等於頂軸承卸載"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md",
+          "git_blob_sha": "4a886ab4910e47eb1f485b88ec246b945965e0db",
+          "line": 37,
+          "quote": "常規路線"
+        }
+      ],
+      "guardrail": "不可直接把巨擺質量、液壓承力與動能耗散當成已計算完成。",
+      "next_action": "物件鏈須包含制動、永久多點承座鎖死、主懸索卸載實測、開套四個狀態。"
+    },
+    {
+      "id": "SRC-171-018",
+      "title": "黑銷相似接口不等於原槍模組已核實",
+      "status": "OBJECT_IDENTITY_UNPROVEN",
+      "priority": "HIGH",
+      "assessment": "第199指出相似、卡口共鳴只能支持同源或配套推論；第201也警告能否作原槍行構長桿／牽引模組仍是候選。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
+          "git_blob_sha": "b3a90641ccebb07186a46c242f387df20bbb75cd",
+          "line": 20,
+          "quote": "外觀相似＋能插入槍槽"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+          "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+          "line": 43,
+          "quote": "黑銷是原槍"
+        }
+      ],
+      "guardrail": "即使候選後續接合成功，也不能反過來說早期角色當時已知道全部能力。",
+      "next_action": "暫標 POSSIBLE_ORIGINAL_MODULE，保留同文明獨立零件作競爭假說。"
+    },
+    {
+      "id": "SRC-171-019",
+      "title": "不同第201存檔均要求共同驗第七八章而非先寫第九章",
+      "status": "STORY_WORKFLOW_CONSENSUS",
+      "priority": "MEDIUM",
+      "assessment": "第201兩份不同文本共同要求完整連續地校對第七、八章；GPT既有G9D/G10R1只是校錯參考，文筆未被作者採用。",
+      "authority": "SOURCE_DERIVED_EDITORIAL_OR_NONCANON_CANDIDATE__NO_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 32,
+          "quote": "章末只留一輪對答"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+          "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+          "line": 17,
+          "quote": "白衣人**已回答"
+        },
+        {
+          "source_path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+          "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+          "line": 58,
+          "quote": "目前已有的連續性修正版"
+        }
+      ],
+      "guardrail": "不得把GPT衍生稿存在main當作作者批准之定稿。",
+      "next_action": "之後修候選時先核對7末與8初，然後才談第9章事件。"
+    }
+  ],
+  "coverage_note": "19個範圍有限的人工命題／風險判讀，沒有宣告335份全審或把171份待辦減為152；如需計入正式細粒度引用覆蓋，尚須將此表整合查詢器的來源清冊與CI驗證。"
+}
