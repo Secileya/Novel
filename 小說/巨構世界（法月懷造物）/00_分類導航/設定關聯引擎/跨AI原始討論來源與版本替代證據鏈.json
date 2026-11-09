@@ -1,0 +1,299 @@
+{
+  "schema": "mega-crossai-origin-and-revision-ledger-v1",
+  "source_records": 22,
+  "distinct_source_paths": 14,
+  "records": [
+    {
+      "id": "XAI-001",
+      "statement": "第162最初開篇構想早於第161全維度設定",
+      "authority": "MANUAL_TRANSCRIPTION_CHRONOLOGY",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
+        "line": 9,
+        "excerpt": "**實際創作順序與 GitHub 編號順序不同**。第162的《懸艙開箱日》最初設計是使用者先讓 Gemini 讀了八份舊正文後的獨立構想；第161的「全維度故事引擎」是這個獨立首篇構想**之後**再加的人物、地圖與組織背景。**不要因161號小於162號，誤認先有全維地圖才構想第一次開箱。**"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-002",
+      "statement": "編號161比162小，但實際在原始首篇構想後出",
+      "authority": "MANUAL_TRANSCRIPTION_CHRONOLOGY",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
+        "line": 9,
+        "excerpt": "**實際創作順序與 GitHub 編號順序不同**。第162的《懸艙開箱日》最初設計是使用者先讓 Gemini 讀了八份舊正文後的獨立構想；第161的「全維度故事引擎」是這個獨立首篇構想**之後**再加的人物、地圖與組織背景。**不要因161號小於162號，誤認先有全維地圖才構想第一次開箱。**"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-003",
+      "statement": "153、154、155由使用者提供完整TXT檔且GitHub保存一致",
+      "authority": "USER_UPLOADED_TXT_VERIFIED",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
+        "line": 28,
+        "excerpt": "- **第153–155完整TXT**：原先便已由使用者附檔讀入、GitHub 逐字回讀。這是目前唯一具有獨立附檔作內容比對依據的 Gemini 三篇長文。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-004",
+      "statement": "161–164、166是可見聊天人工轉錄，不是Gemini原生完整匯出",
+      "authority": "VISIBLE_CHAT_MANUAL_TRANSCRIPT",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
+        "line": 5,
+        "excerpt": "> **最重要的警告**：**第161–164、166是「以本次聊天中可見文本為依據的人工轉錄」**，不能和原生 TXT 匯出的第153–155三份混在同一個「逐位元原始檔」類別。GitHub SHA 或「回讀一致」只證明**寫入後一致**，不能反向證明人工轉錄與聊天原貌逐字無差。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-005",
+      "statement": "195A按可見聊天與已存GitHub原檔保留資訊，不是平台全對話備份",
+      "authority": "USER_CHAT_RECONSTRUCTION",
+      "evidence": {
+        "source_path": "09_跨AI原始來源/195_A_對話與核心決議_含031與189全文_2026-11-05.md",
+        "line": 15,
+        "excerpt": "> **來源標準**：A｜以下第一部分依使用者在本對話貼出的**舊問答轉錄**保存；B｜第二部分保存本對話能確定的逐則使用者訊息、助手回覆及具體操作，對不能程式化提取之助手完整 UI 文字明確區分「可讀整理／非逐字」；C｜附錄保留 GitHub 主分支**實際存在的第031、189、190、191、192、193、194份全文**，提供來源SHA、檔案路徑；D｜PR實際合併紀錄。這不代表能存取ChatGPT平台所有其他聊天之完整原始位元流。**不得把此「可回收對話＋真實存檔全量」聲稱為所有平台記錄的100%逐字備份。**"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-006",
+      "statement": "195A合冊納入指定已存在來源，缺失資料不能靠合冊名稱補造",
+      "authority": "ARCHIVED_GITHUB_SOURCE",
+      "evidence": {
+        "source_path": "09_跨AI原始來源/195_A_對話與核心決議_含031與189全文_2026-11-05.md",
+        "line": 15,
+        "excerpt": "> **來源標準**：A｜以下第一部分依使用者在本對話貼出的**舊問答轉錄**保存；B｜第二部分保存本對話能確定的逐則使用者訊息、助手回覆及具體操作，對不能程式化提取之助手完整 UI 文字明確區分「可讀整理／非逐字」；C｜附錄保留 GitHub 主分支**實際存在的第031、189、190、191、192、193、194份全文**，提供來源SHA、檔案路徑；D｜PR實際合併紀錄。這不代表能存取ChatGPT平台所有其他聊天之完整原始位元流。**不得把此「可回收對話＋真實存檔全量」聲稱為所有平台記錄的100%逐字備份。**"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-007",
+      "statement": "2026-11-05當時第七章某個原稿尚未可靠逐字存GitHub；這是歷史截點",
+      "authority": "HISTORICAL_MISSING_FILE_THEN",
+      "evidence": {
+        "source_path": "09_跨AI原始來源/195_D_第三至六章QA_第七章保全與PR核驗_2026-11-05.md",
+        "line": 18,
+        "excerpt": "> **2026-11-05｜已開啟四章完整 GitHub 正文作跨章比對；CANDIDATE QA，非小說正文，不重寫來源。** 本稿對照第190、191、192（第192份已由PR #18合併）及第193份 Roblox /跨媒介研究。**下面已寫出發生之事取自實際候選文本，改進方向屬分析，不代表原作者已同意或目前已改完。** 第七章原文無可靠同步副本，另有[PR #19](https://github.com/Secileya/Novel/pull/19)的缺檔登記，該PR已合併（原文仍待回收），不能說本文完成了第七章全文歸檔。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-008",
+      "statement": "跨媒介研究提供地理、道路與人生觀察，不等於作者採用其他作品宇宙規則",
+      "authority": "RESEARCH_PROPOSAL",
+      "evidence": {
+        "source_path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+        "line": 1496,
+        "excerpt": "**「地理不是章節佈景，是完整可返回可失敗的空間；道路以工具／技能／路權／時間和承擔風險形成。」** 巨構荒野能有幾乎沒人、稀疏維護者、繁忙路段、活體環境和完整城市的層次。敵人和商人都不需每個機關前配置NPC說明。空曠是一種視角、人口密度、尺度與聲學交織的體驗，**不是總要把所有人清空**。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-009",
+      "statement": "Gemini候選提出K01斜壁居民、W02倒懸農田及風帆運輸",
+      "authority": "GEMINI_RESEARCH_CANDIDATE",
+      "evidence": {
+        "source_path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+        "line": 911,
+        "excerpt": "- K01「折返厚殼帶」多層裝甲迷宮，重力方向每10km偏15度；「斜壁人／傾角游牧民」穿磁吸鉤靴住45°／70°巨大甲板接縫，採集冷凝重水、舊電纜，與W01、W02的貿易權及稅制對峙。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-010",
+      "statement": "Gemini候選提出W02三農業城導光故障及工程救援，未成為正式事件",
+      "authority": "GEMINI_STORY_CANDIDATE",
+      "evidence": {
+        "source_path": "09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md",
+        "line": 1277,
+        "excerpt": "在 W02（折殼曲原），頭頂那條長達百公里的「人工導光軌」因百年前的位移出現了三秒鐘的折射誤差，導致下方三座農業城鎮即將迎來長達十年的「永夜寒冬」。沒有怪物可打！高潮是艾莉維亞站在高空兩百米的導光鏡陣中央，在導光車高速掠過的短短十二秒窗口內，頂著足以把人烤焦的強光與狂風，用全部六枚界楔與諾亞遠距離射出的三發《續斷》精準配合，硬生生把重達千噸的偏折稜鏡「扳」回正確角度——當金色的陽光重新穿過雲層、照亮底下萬畝麥田與歡呼的人群時，那種工程奇蹟的震撼感絕對不輸任何一場 Boss 戰！"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-011",
+      "statement": "第176對三枚供能匣一度有過強的斷鏈判讀，已被181更正",
+      "authority": "SUPERSEDED_QA_JUDGEMENT",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/176_Gemini第三至五章與八十題增量稽核_時序能力物權來源未決.md",
+        "line": 3,
+        "excerpt": "> **2026-11-04 第181份後出重要更正**：[181獨立核對](181_Gemini萬公里尺度復歸黑霧第六章_來源優先與工程獨立稽核.md)實際讀回G3純正文，確認老巴爾已說「東西歸你們了」，三枚供能匣沒有被文字明確轉交工聯；N01先前「已抵付後又持有」的**確定物權斷鏈判定過強**。更準確的是艾莉維亞後段「三枚匣幫你抵救援費」的口頭說法與先前「把拿走的物件作搶險報酬」間有**交易語義混淆**。舊評審記錄不刪，但後續編修以第181新增核對為準，不要改掉原本諾亞實持三枚的動作。第181亦指出G3純正文現存版本已無「女人」三處，舊補丁不可重複套用。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-012",
+      "statement": "第181核對原第二章：老巴爾同意交易、匣未實交工聯，人物費用說法仍不清",
+      "authority": "LATER_SOURCE_QA_CORRECTION",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/181_Gemini萬公里尺度復歸黑霧第六章_來源優先與工程獨立稽核.md",
+        "line": 18,
+        "excerpt": "- 事件結束，老巴爾說「**東西歸你們了**！」；他未在文本內收走三枚匣。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-013",
+      "statement": "第197為編輯論述，G9B是衍生融合候選；不冒充Gemini原生聊天",
+      "authority": "EDITORIAL_RESEARCH_NOT_NATIVE",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/197_Gemini真貨誤導_殞落殘篇_抽薪B案及G9B三補丁QA_非正史.md",
+        "line": 3,
+        "excerpt": "> 2026-11-05。來源是使用者本輪完整貼出的Gemini長篇回覆，要求「看看，順便幫我把她融合的融合進正文」。本文件是**評論與出處辨識**，不是Gemini原文逐字封存，也不代表作者批准了任何新世界設定。實際新增的小說正文是[第七章G9B完整候選](../待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md)。正式正文仍為0章／PREWRITE HOLD。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-014",
+      "statement": "G9B舊版章界已答而G10再次回答的衝突，只適用當時版本",
+      "authority": "VERSION_BOUND_PROBLEM",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/200_G9B對G10第八章候選_直接續接_連續性工程時間與證據QA_非正史.md",
+        "line": 9,
+        "excerpt": "- **更正重大查核錯誤**：G9B 的最後一句**不是諾亞的質問**，而是白衣人已回答「找承光贖罪庭？」並反問雙主角到底是誰；Gemini G10 開頭又寫「白瓷面具人沒有立刻回答諾亞的問題」，因此兩章同場直接銜接但**章末對白不相容**。獨立 [G9C 修訂候選](../待定正文/純正文_Gemini/第七章_G9C_底錨塔裡的無聲客_銜接動作與阻尼楔修訂候選.md) 修此漏洞，另補登台、五十→十五公尺、左右機械副指、阻尼楔定位、遠距共鳴語意；原 G9B 保留。G10 須以 G9C 為候選續接基底重新校對。其他劇情節奏與事件順序本身可保留。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-015",
+      "statement": "後出Gemini修訂使第七問／第八答連接，其他問題尚在",
+      "authority": "LATER_REVISED_CANDIDATE",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/202_Gemini新版第七八章全章對讀_仍存第五章臨時銷與制動聯鎖QA_非正史.md",
+        "line": 9,
+        "excerpt": "- 第七章現在停在諾亞問「為什麼不找塞拉修女」，第八章接續多恩回答；原 G9B 已答後 G10 又答的致命**章界重複已修**。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-016",
+      "statement": "第204是11/06回覆審查而非完整原生訊息逐字副本",
+      "authority": "REVIEW_ONLY_SOURCE",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/204_Gemini再修第七八章_五項QA修復實證與尚存細節_非正史.md",
+        "line": 3,
+        "excerpt": "> **2026-11-06。NON-CANON／CANDIDATE；不更動正式正文 0 章／PREWRITE HOLD。**本份依據使用者**本輪聊天直接貼出的** Gemini 最新「五項補丁＋作者台帳＋第七、八章完整正文」。**請注意：此篇是審查紀錄，並不是該次聊天整段新增正文的逐字備份；截至本次稽核，倉庫內較早保存的 Gemini 全章檔仍為 `待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md`。不能把該較早檔宣稱為 11/06 再修版。**本篇保留必要改動差異與引用，可供後續對原文核查；沒有擅自覆蓋 G7R／G8D／其他正文。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-017",
+      "statement": "11/06 G9E＋G10R3按已有原稿與作者補丁衍生，不能冒充完整原文",
+      "authority": "DERIVED_CANDIDATE",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/205_第五六章定位銷微修與第七八章雙輪補丁實際整合QA_非正史.md",
+        "line": 5,
+        "excerpt": "> **特別注意版本身份**：使用者在先前對話又貼出 11/06 Gemini 修訂全文，此次最新一則又給五章／六章句子、四項因果與第八章五處精確補丁。GitHub 存檔 [G9E＋G10R3](../待定正文/第七八章_G9E_G10R3_Gemini跨輪精確補丁整合_衍生完整候選_20261106.md) 是**從已存的 11/05 Gemini 原稿按這兩輪變化組裝**的完整衍生候選，**不是聲稱完整逐字轉存上輪貼文**。若有未被列為補丁的細微文風差異，以實際保存在 repo 的檔案與使用者原帖另行比對；勿將其稱為「使用者 11/06 Gemini 原文完整逐字備份」。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-018",
+      "statement": "11/07第九章完整候選與同日幕後因果原樣封存，後出結案另記",
+      "authority": "USER_PROVIDED_CHAPTER_SOURCE",
+      "evidence": {
+        "source_path": "09_跨AI原始來源/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+        "line": 3,
+        "excerpt": "> CANDIDATE / NON-CANON；本專案正式正文 0 章、PREWRITE HOLD。以下為使用者 2026-11-07 提供的第九章完整來源文字原樣封存；後續在同一對話另行提供第九章結案收束段落，不在本原始來源中覆寫。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-019",
+      "statement": "11/08單章順讀版是從原稿加精確QA補丁的候選，不是原生全文替代",
+      "authority": "PATCHED_CANDIDATE_READING",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+        "line": 3,
+        "excerpt": "> **性質：CANDIDATE／NON-CANON；正式正文0章／PREWRITE HOLD。** 這份紀錄對應 `待定正文/順讀_最新補丁候選/` 的逐章閱讀檔與 `待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md`。**原始 `純正文_Gemini/` 來源保留，不改歷史稿，不把舊版自動刪除。** 本輪處理使用者所指前述正文 QA 與第1/2章距離／戰利品疑問，以能在正文直接成立的最小文字修補為原則。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-020",
+      "statement": "Gemini平台全聊天原生匯出仍缺；不能假裝全部逐字備份",
+      "authority": "MISSING_NATIVE_CHAT",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
+        "line": 35,
+        "excerpt": "1. **Gemini 平台原生聊天 JSON／TXT 匯出**：本次沒有直接登入或匯出 Gemini 完整對話的工具，亦未取得該平台原始檔。因此 161–164不是 Gemini 原生 hash 檔。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-021",
+      "statement": "地圖原截圖PNG未被實際上傳入GitHub；SVG描述不取代圖片位元",
+      "authority": "MISSING_ORIGINAL_IMAGE",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
+        "line": 37,
+        "excerpt": "3. **地圖截圖的原始 PNG 二進位進 GitHub**：本輪聊天附件實際有地圖與伏筆截圖，當前可追溯的上傳檔名包括：`image(20261030-151729).png`（W01十二區圖）、`image(20261030-154059).png`（伏筆截圖）、`image(20261030-182718).png`（七世界層地圖）、`image(20261030-184209).png`（三維分支圖）、`image(20261030-184644).png`（頂端剖視圖）。**GitHub 第157、第164保存文字版與位置修正，但沒有聲稱這些原始二進位PNG已推進倉庫**。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    },
+    {
+      "id": "XAI-022",
+      "statement": "11/08共有10處文字修補分布7章，但不等於所有QA均修完或Canon已採用",
+      "authority": "PATCHED_CANDIDATE_AUDIT",
+      "evidence": {
+        "source_path": "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+        "line": 19,
+        "excerpt": "**合計：9項審核問題、10處局部替換／補句落在7章；第01、02、04、07、11章文字保持原樣。** 不另外為每章改一堆普通感覺、戰鬥策略或工程數字。"
+      },
+      "commentary": "原文截點與權威按source type區分，並非作者批准，且不外推未保存的原始聊天內容。"
+    }
+  ],
+  "links": [
+    {
+      "from": "XAI-001",
+      "to": "XAI-002",
+      "relation": "CREATED_BEFORE_DESPITE_FILE_NUMBER",
+      "status": "PROVENANCE_OR_VERSION_LINK_NOT_CANON"
+    },
+    {
+      "from": "XAI-003",
+      "to": "XAI-004",
+      "relation": "NATIVE_TXT_VS_VISIBLE_TRANSCRIPTION",
+      "status": "PROVENANCE_OR_VERSION_LINK_NOT_CANON"
+    },
+    {
+      "from": "XAI-011",
+      "to": "XAI-012",
+      "relation": "SUPERSEDED_BY_PRIMARY_SOURCE_CHECK",
+      "status": "PROVENANCE_OR_VERSION_LINK_NOT_CANON"
+    },
+    {
+      "from": "XAI-014",
+      "to": "XAI-015",
+      "relation": "SUPERSEDED_BY_LATER_CANDIDATE",
+      "status": "PROVENANCE_OR_VERSION_LINK_NOT_CANON"
+    },
+    {
+      "from": "XAI-016",
+      "to": "XAI-017",
+      "relation": "REVIEW_VS_DERIVED_REWRITE",
+      "status": "PROVENANCE_OR_VERSION_LINK_NOT_CANON"
+    },
+    {
+      "from": "XAI-018",
+      "to": "XAI-019",
+      "relation": "SOURCE_VS_PATCHED_CANDIDATE",
+      "status": "PROVENANCE_OR_VERSION_LINK_NOT_CANON"
+    },
+    {
+      "from": "XAI-009",
+      "to": "XAI-010",
+      "relation": "W02_LOCAL_WORLD_VS_EVENT_CANDIDATE",
+      "status": "PROVENANCE_OR_VERSION_LINK_NOT_CANON"
+    }
+  ],
+  "missing_originals": [
+    "Gemini平台原生完整聊天匯出",
+    "部分ChatGPT平台歷史完整訊息匯出",
+    "早期地圖原PNG"
+  ],
+  "caveat": "此台帳處理跨AI來源順序、保存真偽、修稿前後和作者/助手證據界線；不替歷史場景新增正史。"
+}
