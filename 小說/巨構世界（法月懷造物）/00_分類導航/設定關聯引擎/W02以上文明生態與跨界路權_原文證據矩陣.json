@@ -1,0 +1,786 @@
+{
+  "schema": "mega-W02plus-social-ecology-transport-evidence-v1",
+  "facts_count": 30,
+  "source_docs": 11,
+  "route_inventory_count": 12,
+  "facts": [
+    {
+      "id": "WDEP-001",
+      "world": "W02",
+      "domain": "GEO",
+      "claim": "β折殼曲原可以有巨大內曲殼、農田、林、丘陵、高技住區與荒置地，並非只有農村",
+      "authority": "EDITORIAL_WORLD_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "line": 29,
+        "excerpt": "**先有的巨構**：另一組大弧殼和不規則包覆部件，在空間投影上與 α 的一根主肋相近。它的內側可容納大片農田、溫帶林、丘陵、清潔高科技居地、舊城墟與廣大人跡稀少地。這片不是只有田園的單一文明。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-002",
+      "world": "W02",
+      "domain": "ENGINEERING_ECOLOGY",
+      "claim": "後世文明建造導光環與多代空中列車，崩損可造成光照農林分化",
+      "authority": "EDITORIAL_WORLD_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "line": 33,
+        "excerpt": "**文明新巨構**：有文明建立自己的次級太陽導光環和幾百年多代擴建的折線空中列車。後來導光環部分斷裂，一側成為漫長陰涼林海，另一側仍有成熟光照農田；殼內居民將舊環連接部叫「白虹山」。某些工程已成地形，工務部仍保留它原本的檔案。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-003",
+      "world": "W02",
+      "domain": "TRADE_AND_PEOPLE",
+      "claim": "K01斜壁居民持磁吸鉤靴採冷凝重水與舊纜，與W01及W02稅權、貿易有關",
+      "authority": "GEMINI_STORYWORLD_CANDIDATE",
+      "source_evidence": {
+        "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+        "line": 911,
+        "excerpt": "- K01「折返厚殼帶」多層裝甲迷宮，重力方向每10km偏15度；「斜壁人／傾角游牧民」穿磁吸鉤靴住45°／70°巨大甲板接縫，採集冷凝重水、舊電纜，與W01、W02的貿易權及稅制對峙。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-004",
+      "world": "W02",
+      "domain": "TRANSPORT",
+      "claim": "重型風帆列車與飛艇屬W02遠距運輸候選，3000km及跨K入口不定案",
+      "authority": "GEMINI_STORYWORLD_CANDIDATE",
+      "source_evidence": {
+        "path": "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+        "line": 912,
+        "excerpt": "- W02「折殼曲原」候選內凹雙曲殼，跨度3000km，天穹隔數百km可見倒懸大陸、河、麥田及列車；跨大陸靠重型風帆列車或飛艇而非樓梯。**W02尺寸、跨越、K01端點與唯一入口不可偷定。**"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-005",
+      "world": "W02",
+      "domain": "AGRICULTURE",
+      "claim": "W02三座農業城依人工導光軌候選事件；數量、工程、是否發生皆未定",
+      "authority": "GEMINI_EPISODE_CANDIDATE",
+      "source_evidence": {
+        "path": "09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md",
+        "line": 1277,
+        "excerpt": "在 W02（折殼曲原），頭頂那條長達百公里的「人工導光軌」因百年前的位移出現了三秒鐘的折射誤差，導致下方三座農業城鎮即將迎來長達十年的「永夜寒冬」。沒有怪物可打！高潮是艾莉維亞站在高空兩百米的導光鏡陣中央，在導光車高速掠過的短短十二秒窗口內，頂著足以把人烤焦的強光與狂風，用全部六枚界楔與諾亞遠距離射出的三發《續斷》精準配合，硬生生把重達千噸的偏折稜鏡「扳」回正確角度——當金色的陽光重新穿過雲層、照亮底下萬畝麥田與歡呼的人群時，那種工程奇蹟的震撼感絕對不輸任何一場 Boss 戰！"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-006",
+      "world": "W02",
+      "domain": "BARRIER_GEOGRAPHY",
+      "claim": "K01近端、腹地、遠側反向壁各有真正宏觀地理厚度，非三道門",
+      "authority": "EDITORIAL_GEO_CANDIDATE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 20,
+        "excerpt": "- **三段地理**：近側接面→折殼堆疊腹地→遠側反向壁。每段可容納多處巨大空間，不是三間房。詳[第124放大](124_K01折返厚殼帶_地理厚度內部構造三條候選通行鏈與QA.md)。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-007",
+      "world": "W03",
+      "domain": "ENERGY_CLIMATE",
+      "claim": "γ靜熱盲域為散熱支脈及冷凝、熱裂等交錯地貌原型，仍可能有正常能源系統",
+      "authority": "EDITORIAL_WORLD_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "line": 39,
+        "excerpt": "**先有的巨構**：靠大型散熱支脈與失養的內殼部分，形成漫長冷凝谷、熱脈裂地、近乎不可測深的大空洞與多種特殊環境。某處仍有真正正常工作的能源系統，另處則是被生物佔據的舊輸送骨架。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-008",
+      "world": "W03",
+      "domain": "SOCIETY",
+      "claim": "W03候選聚落靠換熱、水源、耐熱耐寒工藝維生，邊緣有科研站",
+      "authority": "EDITORIAL_WORLD_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "line": 41,
+        "excerpt": "**環境長出的社會**：少量聚落發展耐熱／耐寒生活技術，沿可用水與高能換熱口建屋，現代研究人員也可能在區域邊緣設大型精密科研站。**這裡人較少，不代表文明智力較低或到處都只有怪物**。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-009",
+      "world": "W03",
+      "domain": "BARRIER_K04",
+      "claim": "舊K04為W03↔W04熱交換巨塹；後來G-K04改指W02↔W03，不能合併",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 40,
+        "excerpt": "## K04｜熱交換巨塹（W03 ↔ W04）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-010",
+      "world": "W03",
+      "domain": "BARRIER_K10",
+      "claim": "舊K10候選W03↔W05涵蓋水熱差、生態與氣候隔帶，非已營運路",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 94,
+        "excerpt": "## K10｜複合環境隔帶（W03 ↔ W05）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-011",
+      "world": "W04",
+      "domain": "GEO",
+      "claim": "W04稱貫脊交域為跨主脊中上候選，未證為所有世界層共同交通樞紐",
+      "authority": "GEMINI_MACRO_CANDIDATE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "line": 32,
+        "excerpt": "起點 W01〔沉鐘肋海界〕往上分 W02〔折殼曲原，左翼〕、W03〔靜熱盲域，右翼〕；往下另有未知深構 W_DEEP。中層為 W04〔貫脊交域，中上樞紐／跨層交通〕與 W05〔白穹庭域，中上生態／內嵌巨柱與水網〕；高層 W06〔懸冠斷域〕與 W07〔深柱複域〕；最上標 W_TOP〔冠頂天穹〕。此七層是清晰的**宏觀拓撲候選**，不是宣稱真實世界層總數已被證明只有七層；「真正最高世界層」的目標是真正宏觀終點，不等於 10 冠冕白庭。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-012",
+      "world": "W04",
+      "domain": "CITY_LEGAL_A",
+      "claim": "初版W04都市以母脊公證院及專利工坊為制度重點，技術包括折疊匣、昨日鐘、換血爐",
+      "authority": "GEMINI_CITY_CANDIDATE_A",
+      "source_evidence": {
+        "path": "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "line": 15,
+        "excerpt": "| **初版都市** | W04「萬律專利城邦／二十四工坊冠域」 | 「母脊公證院」最高秩序；三大法律；約十二家技術壟斷大工坊；「折疊匣」（商用空間折疊）、「昨日鐘」（臨終記憶提取）、「換血爐」（生化殖裝）等產業；城內外生活差距、商路、外緣荒地；高處「懸星」前文明自律觀測天體候選 | **必須保留，未因相似被否決**；具體機構數、科技性能、懸星來源均 CANDIDATE |"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-013",
+      "world": "W04",
+      "domain": "CITY_LOAD_B",
+      "claim": "後版W04城市以司衡院、主承力斜柱、配重額度與掛壁聚落為核心；可與初版競爭或共存",
+      "authority": "GEMINI_CITY_CANDIDATE_B",
+      "source_evidence": {
+        "path": "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "line": 16,
+        "excerpt": "| **後出版新都市** | W04「萬噸配重裁定國／四柱衡城」 | 「司衡院」監管承重與掛載額度；四根主承力斜柱；動態載貨、配重住區、剃骨隊與掛壁聚落；高處另提出古工程艦殘骸 | **競爭或並存候選**；不可因它是「去換皮」後版本，就默認獲作者核准或覆蓋初版 |"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-014",
+      "world": "W04",
+      "domain": "POLITICS_AUTHORITY",
+      "claim": "作者明確喜歡類Project Moon都市結構；不能因相似而自動判退初版城邦",
+      "authority": "LATER_AUTHOR_PREFERENCE_RECORD",
+      "source_evidence": {
+        "path": "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+        "line": 7,
+        "excerpt": "> **糾正來源**：作者明確指出提出《Project Moon》都市參考，正是因為**喜歡這類架構、想在《巨構世界》看到它**。助手先前用「太像／換皮」要求 Gemini 重做整座 W04 都市，**那是助手採用了錯誤的審稿標準，不是作者要求**。本檔原本第67行已肯定此類都市適合本書，現補充提升為明確創作準則。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-015",
+      "world": "W04",
+      "domain": "K03",
+      "claim": "舊K03指W02↔W04斷折主脊，橋匠與保險等有候選社會機制，無正式交通權",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 31,
+        "excerpt": "## K03｜斷折主脊（W02 ↔ W04）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-016",
+      "world": "W05",
+      "domain": "ROOT_ECOLOGY",
+      "claim": "W04↔W05曲殼根系隔界可能有長久聚落、農耕、修殼社會與根橋",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 49,
+        "excerpt": "## K05｜曲殼根系（W04 ↔ W05）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-017",
+      "world": "W05",
+      "domain": "NATURAL_CITIES",
+      "claim": "W05候選白穹庭域含曲殼環境、生態、巨大水網等，不應等同W01第十區白庭",
+      "authority": "GEMINI_MACRO_CANDIDATE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "line": 32,
+        "excerpt": "起點 W01〔沉鐘肋海界〕往上分 W02〔折殼曲原，左翼〕、W03〔靜熱盲域，右翼〕；往下另有未知深構 W_DEEP。中層為 W04〔貫脊交域，中上樞紐／跨層交通〕與 W05〔白穹庭域，中上生態／內嵌巨柱與水網〕；高層 W06〔懸冠斷域〕與 W07〔深柱複域〕；最上標 W_TOP〔冠頂天穹〕。此七層是清晰的**宏觀拓撲候選**，不是宣稱真實世界層總數已被證明只有七層；「真正最高世界層」的目標是真正宏觀終點，不等於 10 冠冕白庭。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-018",
+      "world": "W05",
+      "domain": "WETLANDS",
+      "claim": "舊K10濕熱氣候、冷凝水路、植物及水生生態可同時存在，未能證明G-K09就是同地",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 94,
+        "excerpt": "## K10｜複合環境隔帶（W03 ↔ W05）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-019",
+      "world": "W06",
+      "domain": "STRUCTURAL_FRONTIER",
+      "claim": "W04↔W06間有高位懸斷脊與不可僅靠目視越過的斷裂段",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 58,
+        "excerpt": "## K06｜高位懸斷脊（W04 ↔ W06）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-020",
+      "world": "W06",
+      "domain": "WIND_FRONTIER",
+      "claim": "舊K07 W05↔W06懸殼風隙可有風壓、聲學、不同生態，未證班次",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 67,
+        "excerpt": "## K07｜懸殼風隙（W05 ↔ W06）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-021",
+      "world": "W06",
+      "domain": "HIGH_LAYER",
+      "claim": "W06為候選高層左翼之一，不能由位置推定是最終真正最高世界層",
+      "authority": "GEMINI_MACRO_CANDIDATE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "line": 32,
+        "excerpt": "起點 W01〔沉鐘肋海界〕往上分 W02〔折殼曲原，左翼〕、W03〔靜熱盲域，右翼〕；往下另有未知深構 W_DEEP。中層為 W04〔貫脊交域，中上樞紐／跨層交通〕與 W05〔白穹庭域，中上生態／內嵌巨柱與水網〕；高層 W06〔懸冠斷域〕與 W07〔深柱複域〕；最上標 W_TOP〔冠頂天穹〕。此七層是清晰的**宏觀拓撲候選**，不是宣稱真實世界層總數已被證明只有七層；「真正最高世界層」的目標是真正宏觀終點，不等於 10 冠冕白庭。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-022",
+      "world": "W07",
+      "domain": "HIGH_LAYER",
+      "claim": "W07候選高層右翼與W06分叉，仍非W_TOP的客觀同一定位",
+      "authority": "GEMINI_MACRO_CANDIDATE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
+        "line": 32,
+        "excerpt": "起點 W01〔沉鐘肋海界〕往上分 W02〔折殼曲原，左翼〕、W03〔靜熱盲域，右翼〕；往下另有未知深構 W_DEEP。中層為 W04〔貫脊交域，中上樞紐／跨層交通〕與 W05〔白穹庭域，中上生態／內嵌巨柱與水網〕；高層 W06〔懸冠斷域〕與 W07〔深柱複域〕；最上標 W_TOP〔冠頂天穹〕。此七層是清晰的**宏觀拓撲候選**，不是宣稱真實世界層總數已被證明只有七層；「真正最高世界層」的目標是真正宏觀終點，不等於 10 冠冕白庭。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-023",
+      "world": "W07",
+      "domain": "BARRIER_K08",
+      "claim": "舊K08候選W02↔W07，Gemini新圖G-K08為W06↔W07，名字和端點不可暗合",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 76,
+        "excerpt": "## K08｜斜柱厚隔（W02 ↔ W07）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-024",
+      "world": "W07",
+      "domain": "BARRIER_K09",
+      "claim": "舊K09候選W07↔W06，Gemini新圖G-K09轉為W03↔W05，必須區分",
+      "authority": "LEGACY_BARRIER_PROTOTYPE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/123_十處層間隔界K01至K10_厚度地理交通社會與確證稽核.md",
+        "line": 85,
+        "excerpt": "## K09｜上段側脊（W07 ↔ W06）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-025",
+      "world": "ALL",
+      "domain": "ECOSYSTEM",
+      "claim": "生態必須有食物來源、繁殖、食水、遷徙與人口因果；不能硬放一隻巨大蜘蛛當完整生態",
+      "authority": "AUTHOR_DIRECTION_WITH_EDITORIAL_CANDIDATES",
+      "source_evidence": {
+        "path": "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+        "line": 51,
+        "excerpt": "## 四｜生態能自我維持：不能只給「恐怖蜘蛛」一個食物名字"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-026",
+      "world": "ALL",
+      "domain": "MICROECOLOGY",
+      "claim": "微小生物、寄生群與小型捕食者同樣影響工業管道、醫療、運輸及檢疫",
+      "authority": "AUTHOR_DIRECTION_WITH_EDITORIAL_CANDIDATES",
+      "source_evidence": {
+        "path": "01_世界本體與文明/101_後出完整研究_微小生物小型捕食者寄生群體與環境連鎖危險.md",
+        "line": 3,
+        "excerpt": "> **2026-10-20 使用者新增明確方向**：「然後也不要忽略小的生物和危險性」。此條補強先前 [05 生存與敵人](005_生存敵人與裝備.md)及 [97 植物巨構、捕食者、龜背城](097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md)，並非推翻巨獸、大型捕食者或高端戰鬥。同一生態中**微小、普通大小、稍大的小獸、巨獸、智慧族群、人工機械與非生命危險都應存在且有不同重量**。具體以下的物種名／數值／傷害機理均是**助手候選，不是正式世界物種**。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-027",
+      "world": "ALL",
+      "domain": "IMPERIAL_MODEL",
+      "claim": "承光帝統是跨層帝國制度樣板工作名，尚未決定轄哪些W、實際通路或首都",
+      "authority": "EDITORIAL_POLITY_CANDIDATE",
+      "source_evidence": {
+        "path": "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md",
+        "line": 29,
+        "excerpt": "## 三｜候選政治樣板A：真正的跨層帝國「承光帝統」（工作名）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-028",
+      "world": "ALL",
+      "domain": "TRADE_MODEL",
+      "claim": "跨層商業／保險／合約聯盟是候選，需已驗實際營運線才能落地，不等於國家主權",
+      "authority": "EDITORIAL_TRADE_CANDIDATE",
+      "source_evidence": {
+        "path": "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md",
+        "line": 48,
+        "excerpt": "## 五｜候選政治樣板C：跨世界層「星渡商路協約」（工作名）"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-029",
+      "world": "ALL",
+      "domain": "ECORISK",
+      "claim": "同一兩W可有高端承運、狩獵危路、封閉接面；可見或有技術不代表所有人可去返",
+      "authority": "AUTHOR_WORLD_CONSTRAINT",
+      "source_evidence": {
+        "path": "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md",
+        "line": 13,
+        "excerpt": "不要反向極端：不是所有世界層的每個角落都危險、每條跨層交通都必死，也不是跨層帝國擁有一條可靠高科技航路，就代表普通居民沿旁邊的原始巨構橋也能安全通行。**技術通道與自然／廢棄路網可有巨大差距**。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    },
+    {
+      "id": "WDEP-030",
+      "world": "ALL",
+      "domain": "TRANSPORT_GATE",
+      "claim": "跨W路須分物理連續、入口、去返、客貨服務、法權、票價與現役證據；現有候選不等於核驗",
+      "authority": "SOURCE_BACKED_RETRIEVAL_RULE",
+      "source_evidence": {
+        "path": "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md",
+        "line": 13,
+        "excerpt": "- **真空白**：目前的 W01～07、K01～10、R01～09仍是可改的作者候選；真正可靠的跨界交通完整表**未建立**；主角所在W、全部世界層數、各路線實勘、現役班表、最終海拔、所有城市的W歸屬均未知。第126補了三級示例的圖資缺件，不等於補齊上述事實。"
+      },
+      "validated_as": "HISTORICAL_PROPOSAL_OR_AUTHOR_DIRECTION_ONLY",
+      "must_not_infer": "未給出已批准的實體座標、完整社會制度、現役跨W班車、真實政治轄權與交易量。"
+    }
+  ],
+  "route_candidates": [
+    {
+      "route_id": "K01-T-A",
+      "group": "K01",
+      "from": "K01_W01_NEARSIDE",
+      "to": "K01_W02_FARSIDE",
+      "through": [
+        "K01_FOLDED_INTERIOR"
+      ],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": null,
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": null,
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "K01-T-B",
+      "group": "K01",
+      "from": "K01_W01_NEARSIDE",
+      "to": "K01_W02_FARSIDE",
+      "through": [
+        "K01_OUTER_SHELL"
+      ],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": null,
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": null,
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "K01-T-C",
+      "group": "K01",
+      "from": "K01_W01_NEARSIDE",
+      "to": "K01_W02_FARSIDE",
+      "through": [
+        "K01_OLD_CRACK"
+      ],
+      "status": "UNSURVEYED",
+      "world_crossing_verified": false,
+      "outward": null,
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": null,
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "B-E01",
+      "group": "B_LOCAL",
+      "from": "B_L0",
+      "to": "B_E3",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": "L0→E3候選",
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "30–60分鐘（第113作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "B-E02",
+      "group": "B_LOCAL",
+      "from": "B_E3",
+      "to": "B_E5",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": "E3→E5候選",
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "2–4小時（第113作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "B-E03",
+      "group": "B_LOCAL",
+      "from": "B_E5",
+      "to": "B_NORTH_RIDGE",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": "E5→北斜候選",
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "約半日（第113作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "B-E04",
+      "group": "B_LOCAL",
+      "from": "B_NORTH_RIDGE",
+      "to": "B_L2",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": "北斜→L2候選",
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "1–3日（第113作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "B-RETURN",
+      "group": "B_LOCAL",
+      "from": "B_L2",
+      "to": "B_L0",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": "L2→L0候選",
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "2–4日（第113作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "A-MARKET-PORT",
+      "group": "ARCH_SEA",
+      "from": "A_MARKET",
+      "to": "A_PORT",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": null,
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "6–12日（第062作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "A-PORT-SUN",
+      "group": "ARCH_SEA",
+      "from": "A_PORT",
+      "to": "A_SUN_CITY",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": null,
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "20–40日（第062作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "A-MARKET-MOSS",
+      "group": "ARCH_SEA",
+      "from": "A_MARKET",
+      "to": "A_MOSS_EDGE",
+      "through": [],
+      "status": "PROPOSED",
+      "world_crossing_verified": false,
+      "outward": null,
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": "3–6日（第062作者估計）",
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    },
+    {
+      "route_id": "A-MOSS-SUN",
+      "group": "ARCH_SEA",
+      "from": "A_MOSS_DEPTH",
+      "to": "A_SUN_CITY",
+      "through": [],
+      "status": "UNSURVEYED",
+      "world_crossing_verified": false,
+      "outward": null,
+      "return": null,
+      "physical_continuity": null,
+      "passenger": null,
+      "freight": null,
+      "service": null,
+      "who_can_use": null,
+      "permit": null,
+      "fare": null,
+      "estimated_duration": null,
+      "source_paths": [
+        "地圖/T交通證據帳_三套候選路網V0.1.json",
+        "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md"
+      ],
+      "warning": "本項複用既有T證據帳，未填者維持null，不新增實證。"
+    }
+  ],
+  "version_sensitive_barriers": [
+    {
+      "id": "LEGACY-K04",
+      "version": "V03_LEGACY_K",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "LEGACY-K07",
+      "version": "V03_LEGACY_K",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "LEGACY-K08",
+      "version": "V03_LEGACY_K",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "LEGACY-K09",
+      "version": "V03_LEGACY_K",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "LEGACY-K10",
+      "version": "V03_LEGACY_K",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "G-K04",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "G-K07",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "G-K08",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "G-K09",
+      "version": "GEMINI_G_K_LATER_CANDIDATE",
+      "status": "CANDIDATE"
+    }
+  ],
+  "world_status": {
+    "W02": "ACTIVE_CANDIDATE_WITH_AGRICULTURE_RESIDENTS_AND_TRAVEL_IDEAS",
+    "W03": "PROTOTYPE_CLIMATE_AND_SPARSE_SETTLEMENTS",
+    "W04": "TWO_CITY_POLITY_CANDIDATES_BOTH_PRESERVED",
+    "W05": "PROTOTYPE_ROOT_WATER_ECOLOGY",
+    "W06": "HIGH_FRONTIER_AND_BARRIERS_ONLY",
+    "W07": "HIGH_FRONTIER_AND_BARRIERS_ONLY"
+  },
+  "missing_real_world_evidence": [
+    "W02至W07各城市的人口與生活史大多缺完整驗收",
+    "農水熱電供應鏈未逐W形成法定資料",
+    "具名政權尚未證實實際轄W或有連續的軍民運輸",
+    "12條候選T路線沒有任何完整去返的已核實跨K線"
+  ],
+  "guidance": "沿source_evidence回讀原始材料。此處絕非補創設定或宣稱可直接通車。"
+}
