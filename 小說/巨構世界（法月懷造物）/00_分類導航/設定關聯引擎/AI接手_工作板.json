@@ -26,8 +26,8 @@
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
     "important": "第14批 151/203 兩份全行195行，19段，92項錨定原文命題與184條非Canon圖回接；36／335待CI驗證通過才宣稱正式核定，299仍待審。正式0章 PREWRITE HOLD。",
-    "targeted_audit_records": 557,
-    "targeted_audit_verified_quotes": 748,
+    "targeted_audit_records": 649,
+    "targeted_audit_verified_quotes": 840,
     "full_file_editorial_accepted": 16,
     "full_file_editorial_remaining": 155,
     "all_source_historical_baseline": 335,
@@ -460,7 +460,7 @@
     "nonCanon_graph_links": 184,
     "all_source_accepted": 36,
     "all_source_pending": 299,
-    "state": "COMMITTED_CI_PENDING",
+    "state": "CI_REPAIR_IN_PROGRESS_WORKBOARD_TOTALS",
     "notes": "151/203 checked with actual Git source anchors and external candidate/later revision boundary; no Canon changes. Only count as CI verified after GitHub Actions success."
   },
   "handoff_requirements": [
@@ -483,7 +483,7 @@
     "stage": "BATCH14_SUBMITTED_CI_PENDING",
     "scope": "151 (90 lines) + 203 (105 lines), v2 editorial QA with source anchors, full line sections and scoped existing-domain graph mapping. Still 0 formal Canon chapters.",
     "commit": "PENDING_COMMIT",
-    "ci_result": "PENDING",
+    "ci_result": "REPAIRING_FAILED_CI",
     "ci_run_url": null,
     "not_finished": "299 sources after this proposed batch, subject to CI; long candidate 150 and Gemini chapter 7/8 still demand independent full-pass.",
     "next_step": "Verify exact batch14 commit in Actions, inspect failed tests if any, then begin 150 full 1619-line pass without Canon promotion."
