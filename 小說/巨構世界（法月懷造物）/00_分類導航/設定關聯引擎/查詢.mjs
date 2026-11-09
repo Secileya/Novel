@@ -29,6 +29,8 @@ const crossAIProvenance = JSON.parse(fs.readFileSync(path.join(HOME,"跨AI原始
 const worldEvidence = JSON.parse(fs.readFileSync(path.join(HOME,"W02以上文明生態與跨界路權_原文證據矩陣.json"),"utf8"));
 const sourceRole94 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔語義用途回收_非候選94份.json"),"utf8"));
 const sourceRole77 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔語義用途回收_候選77份.json"),"utf8"));
+const versionLineDiffs = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本37組_逐行文字差異證據.json"),"utf8"));
+const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
 const sourceRolesByID = new Map(allSourceRoles.map(x=>[x.id,x]));
 const allRecoveredRecords = [...recoveredHistory.records,...recoveredBatch2.records,...thirdRecovered.records];
@@ -331,6 +333,26 @@ function findSourceDossiers(q,terms) {
 
 
 
+function findHistoricalVersionLineDiffs(q,sourceRoles) {
+  const qn=norm(q);
+  const connectedIDs=new Set([
+    ...sourceRoles.matched_roles.map(x=>x.id),
+    ...sourceRoles.related_candidate_versions.map(x=>x.id),
+    ...sourceRoles.version_links.flatMap(x=>[x.from,x.to])
+  ]);
+  const broad=/全部37組|所有版本差異|版本差異總覽|37組文字差異/.test(q);
+  const relevant=versionLineDiffs.comparisons.filter(x=>
+    broad||connectedIDs.has(x.from)||connectedIDs.has(x.to)||
+    [x.id,x.relation].some(k=>k&&qn.includes(norm(k)))||
+    (qn.length>=4&&[x.from_source,x.to_source].some(p=>norm(p).includes(qn)))
+  );
+  return {relationships_compared_total:versionLineDiffs.comparisons.length,
+    source_corpus_count:versionLineDiffs.original_sources,
+    matching_compared_pairs:relevant.slice(0,broad?37:12),
+    matching_pair_count:relevant.length,
+    important_reminder:"逐行新增/刪除只能證明可回讀的字面改動。非相同章稿的關係（如獨立場景比較）不可憑低重疊率解釋為被作者捨棄；原始TXT單行過長時也不能直接以低比率推論內容差異。"};
+}
+
 function findRecoveredSourceRoles(q) {
   const qn=norm(q);
   const generic=/^(全部|作品|小說|設定|來源|原始|候選|故事|世界|有沒有|我想要)$/.test(qn);
@@ -371,6 +393,35 @@ function findRecoveredSourceRoles(q) {
     note:"171份舊來源有各自的內容用途判讀和精確原文摘錄；每卡僅保證局部已檢閱，不表示全文已完成語義審定或候選已採用。版本連線是來源關係，不是同一世界已發生的因果。"
   };
 }
+function validateVersionLineDiffs(corpus) {
+  const byPath=new Map(corpus.read.map(x=>[x.path,x.body.split(/\r?\n/)]));
+  const byId=new Map(sourceRole77.version_links.map(x=>[x.id,x]));
+  const brokenEndpoints=[],badTextQuotes=[],badSourceSHA=[],duplicateIds=[],seen=new Set();
+  for(const diff of versionLineDiffs.comparisons){
+    if(seen.has(diff.id))duplicateIds.push(diff.id);
+    seen.add(diff.id);
+    const edge=byId.get(diff.id);
+    if(!edge||edge.from!==diff.from||edge.to!==diff.to||edge.relation!==diff.relation)brokenEndpoints.push(diff.id);
+    const expectedFrom=sourceRolesByID.get(diff.from),expectedTo=sourceRolesByID.get(diff.to);
+    if(!expectedFrom||!expectedTo||
+       diff.from_source!==expectedFrom.source_path||diff.to_source!==expectedTo.source_path||
+       diff.from_blob_sha!==expectedFrom.source_git_blob_sha||diff.to_blob_sha!==expectedTo.source_git_blob_sha)
+       badSourceSHA.push(diff.id);
+    for(const pair of [{p:diff.from_source,e:diff.removed_line_evidence},{p:diff.to_source,e:diff.added_line_evidence}]){
+      const lines=byPath.get(pair.p);
+      for(const q of pair.e||[])if(!lines||!lines[q.line-1]?.trim().startsWith(q.excerpt))badTextQuotes.push(diff.id+":"+pair.p+":"+q.line);
+    }
+  }
+  const missingPairs=sourceRole77.version_links.map(x=>x.id).filter(x=>!seen.has(x));
+  return {pairs_checked:versionLineDiffs.comparisons.length,
+    literal_line_quotes_checked:versionLineDiffs.comparisons.reduce((n,x)=>n+x.added_line_evidence.length+x.removed_line_evidence.length,0),
+    missing_pairs:missingPairs,broken_endpoints:brokenEndpoints,mismatched_sources:badSourceSHA,
+    duplicate_ids:duplicateIds,failed_diff_line_quotes:badTextQuotes,
+    uncomparable_long_line_pairs:versionLineDiffs.comparisons.filter(x=>x.text_overlap_status==="UNCOMPARABLE_SOURCE_LINE_BREAKS").map(x=>x.id),
+    ok:versionLineDiffs.comparisons.length===37&&sourceRole77.version_links.length===37&&
+      missingPairs.length===0&&brokenEndpoints.length===0&&badSourceSHA.length===0&&duplicateIds.length===0&&badTextQuotes.length===0};
+}
+
 function validateSourceRoleCards(corpus){
   const byPath=new Map(corpus.read.map(x=>[x.path,x.body.split(/\r?\n/)]));
   const originalBacklog=new Set(JSON.parse(fs.readFileSync(path.join(HOME,"全庫待原子化缺口清冊.json"),"utf8")).sources.map(x=>x.path));
@@ -626,6 +677,7 @@ function query(q, corpus) {
   const recovered = findRecoveredHistory(q);
   const deep = deepEvidenceSearch(q);
   const sourceRoles = findRecoveredSourceRoles(q);
+  const historicalDiffs = findHistoricalVersionLineDiffs(q,sourceRoles);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -666,6 +718,7 @@ function query(q, corpus) {
     ...deepEvidencePaths(deep),
     ...sourceRoles.matched_roles.map(x=>x.path||x.source_path),
     ...sourceRoles.related_candidate_versions.map(x=>x.path||x.source_path),
+    ...historicalDiffs.matching_compared_pairs.flatMap(x=>[x.from_source,x.to_source]),
     ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
@@ -706,6 +759,7 @@ function query(q, corpus) {
     historical_ideas_recovered:recovered,
     deep_scene_provenance_and_crossworld_retrieval:deep,
     historical_171_source_role_reviews:sourceRoles,
+    historical_candidate_version_line_differences:historicalDiffs,
     remaining_source_evidence_dossiers:dossierMatches,
     full_corpus_passage_recovery:{files_with_passages:passageInventory.files_with_passages,files_without_passages:passageInventory.files_without_passages,total_passages:passageInventory.total_passages,by_category:passageInventory.by_category,...passageMatches},
     missing_rule_sources:missingMustRead, source_selection_truncated, source_index_drift:drift,
@@ -737,7 +791,8 @@ function integrity(corpus) {
     ...sceneContinuity.object_chains.flatMap(x=>x.states.map(st=>st.evidence.source_path)),
     ...crossAIProvenance.records.map(x=>x.evidence.source_path),
     ...worldEvidence.facts.map(x=>x.source_evidence.path),
-    ...allSourceRoles.map(x=>x.path||x.source_path)
+    ...allSourceRoles.map(x=>x.path||x.source_path),
+    ...versionLineDiffs.comparisons.flatMap(x=>[x.from_source,x.to_source])
   ]);
   const missingDossiers=JSON.parse(fs.readFileSync(path.join(HOME,"全庫待原子化缺口清冊.json"),"utf8")).sources
     .filter(row=>!sourceDossierByPath.has(row.path)||sourceDossierByPath.get(row.path).git_blob_sha_verified!==row.git_blob_sha)
@@ -758,6 +813,7 @@ function integrity(corpus) {
   const drift=sourceDrift();
   const deepValidation=validateDeepEvidence(corpus);
   const sourceRolesValidation=validateSourceRoleCards(corpus);
+  const versionDiffValidation=validateVersionLineDiffs(corpus);
   const passageInventory=getPassages(corpus);
   const byPath=new Map(corpus.read.map(d=>[d.path,d.body]));
   const badRecoveryAnchors=allRecoveredRecords.flatMap(r=>recordEvidenceAnchors(r)
@@ -793,6 +849,7 @@ function integrity(corpus) {
     historical_recovery_records:allRecoveredRecords.length,
     deep_scene_crossai_world_evidence:deepValidation,
     historical_171_source_roles:sourceRolesValidation,
+    historical_37_original_candidate_version_differences:versionDiffValidation,
     original_213_source_dossiers:sourceDossiers.length,
     original_213_section_excerpts:sourceScreenManifest.sections,
     missing_213_source_dossiers:missingDossiers,
@@ -811,7 +868,7 @@ function integrity(corpus) {
     active_w01_children:children.length,old_w01_children:legacy.length,
     temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
     registered_containers:containers,incomplete_registered_containers:incompleteContainers,
-    ok:deepValidation.ok&&sourceRolesValidation.ok&&missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
+    ok:deepValidation.ok&&sourceRolesValidation.ok&&versionDiffValidation.ok&&missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -856,6 +913,10 @@ function selfTest(corpus) {
   assert(scraped.remaining_source_evidence_dossiers.matching_source_count>0);
   const thirdQuery=query("REC3-053 人物的判斷不完美",corpus);
   assert(thirdQuery.historical_ideas_recovered.records.some(x=>x.id==="REC3-053"));
+  const lineDiffCheck=query("G7R1 定位銷 版本差異",corpus);
+  assert(lineDiffCheck.historical_candidate_version_line_differences.matching_compared_pairs.some(x=>x.relation==="G7R_TO_G7R1_NARRATOR"));
+  const doubleCopy=query("G8E 第六章 版本比對",corpus);
+  assert(doubleCopy.historical_candidate_version_line_differences.matching_compared_pairs.some(x=>x.relation==="SAME_G8E_TWO_ARCHIVES__COMPARE"));
   const rolesQuery=query("G9B 第七章 版本修訂",corpus);
   assert.equal(rolesQuery.historical_171_source_role_reviews.source_roles_total,171);
   assert(rolesQuery.historical_171_source_role_reviews.matched_roles.some(x=>x.id==="COV-DRAFT-030"));
@@ -920,7 +981,8 @@ function selfTest(corpus) {
     "78 scene beats 14 custody chains and 34 recorded states",
     "22 cross-AI original-and-revision records",
     "30 W02+ civilization ecology facts and 12 routes not operationally verified",
-    "171 individually source-reviewed historical files and 37 version-provenance links"]};
+    "171 individually source-reviewed historical files and 37 version-provenance links",
+    "37 actual source SHA-verified literal version comparisons and line evidence"]};
 }
 const corpus=readAll();
 if(args.includes("--check")) {
