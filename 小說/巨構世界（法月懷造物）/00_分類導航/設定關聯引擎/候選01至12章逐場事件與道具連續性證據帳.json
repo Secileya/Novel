@@ -1,0 +1,2041 @@
+{
+  "schema": "mega-scenario-12-chapter-event-object-evidence-v1",
+  "report_date": "2026-11-09",
+  "source_boundary": "2026-11-08 patched sequential candidate chapters 1–12; not adopted Canon",
+  "chapters": 12,
+  "scenes": 78,
+  "tracked_objects": 14,
+  "chapter_scene_beats": [
+    {
+      "id": "BEAT-01-01",
+      "chapter": 1,
+      "beat_order": 1,
+      "name": "懸艙公示與地方市場",
+      "summary": "第七環公開切開白色工程艙，工聯有打撈／公示程序，商人和居民有各自利益。",
+      "entities": [
+        "工聯",
+        "白銀核心匣"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+        "line": 23,
+        "quote": "這東西是三天前被吊塢頂部的回收網從上方的「雲隙荒野」撈回來的。因為外殼帶有舊時代高階研究所的防偽鉛封，鐵索工聯的吊塢分部不敢私吞，按規矩排在今天下午當眾切開盲標。整個第七環有一半的商人在賭裡面有沒有完好的特種供能匣，另一半的閒漢則純粹等著看工務班會不會把這玩意兒切炸了。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-01-02",
+      "chapter": 1,
+      "beat_order": 2,
+      "name": "主角第一次共同觀察",
+      "summary": "兩人第一次觀察到異常接觸面，諾亞尚未掌握艾莉維亞完整機制。",
+      "entities": [
+        "諾亞",
+        "艾莉維亞"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+        "line": 43,
+        "quote": "諾亞咀嚼的動作停了一瞬。剛才那一下，沒有風壓變化，也沒有常見的電磁護盾藍光。那幾滴油是順著某種臨時建立的接觸面，被直接「改了落點」。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-01-03",
+      "chapter": 1,
+      "beat_order": 3,
+      "name": "灰顎團暴力奪貨",
+      "summary": "灰顎掠奪團炸壞承力索，搶奪艙內貨物並危及工聯現場。",
+      "entities": [
+        "灰顎掠奪團",
+        "吊塢"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+        "line": 87,
+        "quote": "人群瞬間炸了鍋，尖叫聲、桌椅翻倒聲與蒸氣警報混成一片。古斯塔根本不管死傷的平民，獰笑著按下手裡的遙控引信——灰顎掠奪團早在昨晚就買通了測繪內線，知道這座工程艙裡有一只高價值核心匣，提前在二號副承力索上裝了切索炸藥！按照古斯塔精密的計畫，只要炸斷二號副索讓懸艙傾斜，核心匣就會順著斜坡直接滾進他們架好的接貨滑槽，整個搶奪過程不會超過五秒！轟——！二號副索應聲炸斷，懸艙猛然向東側傾斜！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-01-04",
+      "chapter": 1,
+      "beat_order": 4,
+      "name": "剪線獸破出",
+      "summary": "懸艙內的生物／異常空間意外釋放，衝突不只有強盜一方。",
+      "entities": [
+        "剪線獸",
+        "空間夾層"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+        "line": 91,
+        "quote": "古斯塔的「撤」字還沒吐出半個音，異變陡生！因為副索斷裂的劇烈震動，加上熱熔炬燒穿了主鎖，懸艙右下方那道扭曲的「空間夾層」徹底崩潰了。一團原本被封在夾層裡、連灰顎內線都沒探測到的龐大黑影，伴隨著令人牙酸的高頻金屬摩擦聲，從裂口裡猛然彈了出來！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-01-05",
+      "chapter": 1,
+      "beat_order": 5,
+      "name": "古斯塔取核心匣",
+      "summary": "古斯塔取得半米見方白銀核心匣，裡有空間摺片與三枚幽藍組件，第一章此刻沒有正式分配所有權。",
+      "entities": [
+        "白銀核心匣",
+        "空間摺片",
+        "供能匣"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+        "line": 159,
+        "quote": "諾亞順著她的目光看去。只見趁著剪線獸被秒殺的短短幾秒鐘，灰顎掠奪團的首領「鏽顎」古斯塔，已經一腳踩進了卸貨台中央的緩衝坑裡，用左臂的液壓巨鉗硬生生從懸艙底部扯下了那只半米見方的「白銀核心匣」！因為剛才的爆炸，核心匣的卡扣彈開了一道縫，裡面既露出了艾莉維亞心心念念的那塊「空間摺片」，也露出了三枚正與諾亞手中黑銃產生強烈共鳴的幽藍組件！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-02-01",
+      "chapter": 2,
+      "beat_order": 1,
+      "name": "十八公尺滑輪戰術",
+      "summary": "兩人針對十八公尺滑輪及十噸配重設計應對，距離不代表武器最大有效射程。",
+      "entities": [
+        "配重錘",
+        "界楔"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+        "line": 11,
+        "quote": "艾莉維亞深青藍的長髮在熱浪裡微微捲曲，她非但沒看那門隨時會把人轟成碎肉的鉚釘砲，反而仰起臉，亮青藍的十字瞳飛快掃過古斯塔頭頂十八公尺處的三號滑輪座。",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-02-02",
+      "chapter": 2,
+      "beat_order": 2,
+      "name": "諾亞切主軸芯",
+      "summary": "諾亞以黑銃使滑輪主軸失去連接，進而放下配重。",
+      "entities": [
+        "黑銃",
+        "主軸芯"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+        "line": 37,
+        "quote": "剛甩開滾燙防爆鋼板的諾亞，連呼吸都沒有亂上半拍。在滑輪座外殼裂開、露出內部主軸芯的那一瞬，他原本指著古斯塔眉心的深黑短銃猛然上抬四十五度！沒有瞄準鏡，也沒有預熱，扳機乾脆利落地扣到底。一道細得幾乎看不見的冷白微光，穿透漫天水霧與混亂的氣流，精準無比地沒入了十八公尺高處那道巴掌寬的鐵縫裡。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-02-03",
+      "chapter": 2,
+      "beat_order": 3,
+      "name": "重錘制伏古斯塔",
+      "summary": "十噸配重撞擊高熱盾，暫時結束古斯塔主戰。",
+      "entities": [
+        "古斯塔",
+        "配重錘"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+        "line": 43,
+        "quote": "咔——轟隆隆隆隆！！！頭頂傳來如同山崩般的滑軌摩擦巨響！失去拉力的十噸鑄鐵平衡錘，順著四十五度傾斜的緊急洩載槽狂飆而下！站在緩衝坑正中央的古斯塔這才察覺頭頂風聲不對，獨眼猛然瞪大，剛抬起頭，那顆龐大如房屋般的黑色鑄鐵重錘已經帶著摧枯拉朽的動能，結結實實地撞上了他的三千度高熱力場盾！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-02-04",
+      "chapter": 2,
+      "beat_order": 4,
+      "name": "暗銀碎件與三枚匣",
+      "summary": "諾亞取得暗銀碎件、三枚供能匣；此時仍有工聯對合法打撈權的爭議。",
+      "entities": [
+        "暗銀碎件",
+        "供能匣",
+        "工聯"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+        "line": 67,
+        "quote": "諾亞面不改色地用手指夾起那塊暗銀色碎件與三枚供能匣，「而且我替妳擋了三發高熱鉚釘，算下來還是我比較虧。」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-02-05",
+      "chapter": 2,
+      "beat_order": 5,
+      "name": "工聯現場救援交易",
+      "summary": "艾莉維亞提出以穩住工程艙換取將已拿物品列為技術費，老巴爾同意，原所有權及保險界線不能抹去。",
+      "entities": [
+        "老巴爾",
+        "物權"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+        "line": 125,
+        "quote": "老巴爾額頭青筋暴起，看著頭頂那座在短短十秒內憑空「長大」了一倍、正帶著恐怖的金屬呻吟聲往下沉的巨型工程艙，急得左臂液壓鉗直砸大腿！就在一號主纜即將徹底崩斷的千鈞一髮之際，艾莉維亞笑吟吟地豎起兩根手指，晃到了老巴爾面前：「大叔，現在給你兩個選擇。第一，你繼續帶人抓我們，四十秒後大家一起摸黑在廢墟裡游泳；第二——」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-02-06",
+      "chapter": 2,
+      "beat_order": 6,
+      "name": "金屬路線圖與離開",
+      "summary": "諾亞取得指向萬鈞鐘心的舊路線圖，兩人談妥同行及食物安排後準備出城。",
+      "entities": [
+        "路線圖",
+        "萬鈞鐘心"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+        "line": 151,
+        "quote": "艾莉維亞走到他面前，故意把雙手背在身後，微微傾身湊近了半步，亮青藍的十字瞳裡帶著滿滿的好奇與笑意，「剛才配合得還挺不賴嘛。不過，你還沒告訴我，你最後從箱子底下順走的那張金屬路線圖，上面畫的是哪兒啊？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-03-01",
+      "chapter": 3,
+      "beat_order": 1,
+      "name": "過風鐘地方生活",
+      "summary": "換氣風形成市民共同生活節律，非神秘關卡。",
+      "entities": [
+        "過風鐘",
+        "居民"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "line": 9,
+        "quote": "傍晚六點的「過風鐘」敲響時，諾亞和艾莉維亞正順著連接七環與六環的懸空鐵梯往下走。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-03-02",
+      "chapter": 3,
+      "beat_order": 2,
+      "name": "工聯結賞與合法領物",
+      "summary": "工聯給賞金，危險爐芯封存抵工本、經簽章私物准領，不能理解成屍體和全部證物屬主角。",
+      "entities": [
+        "古斯塔",
+        "爐芯",
+        "賞金",
+        "物權"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "line": 31,
+        "quote": "「廢、廢話！」小學徒跑到兩人面前，扶著膝蓋大口喘氣，眼神既敬畏又像在看兩尊隨時會爆炸的瘟神，「巴爾工務長說了，坑底下那具『鏽顎』古斯塔的屍體已經挖出來了！賞金三百銀鉚券，照規矩給你們。那雜碎胸口裂掉的二級高熱爐芯，工聯按本案的危險裝備回收項估了兩百，直接抵去看台臨修、起重機復位和挖屍的兩百工本；爐芯本體由工聯封存處理，可不是把整副義體判給你們了！至於那死人兜裡的零碎私物，核對過後沒列入證物的，巴爾工務長已在這次的結賞單上簽字，准你們一併領走！屍體和要查案的東西都留在工聯，別搞錯了！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-03-03",
+      "chapter": 3,
+      "beat_order": 3,
+      "name": "宿屋實際休息",
+      "summary": "在短租宿屋停留並使用獨立工作台，不是無時間旅行。",
+      "entities": [
+        "宿屋",
+        "工作台"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "line": 57,
+        "quote": "東側舊檢修軌入口旁的「錨頭短期宿屋」，是專門租給等班次過夜的遠征客與修路工的鐵皮艙房，四個小時起租，隔音極差，但勝在房間裡配有一張帶獨立電源的生鐵工作台。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-03-04",
+      "chapter": 3,
+      "beat_order": 4,
+      "name": "暗銀碎件被黑銃吸收",
+      "summary": "暗銀碎件物理融入黑銃，不應在後章作完整外置配件另行交易。",
+      "entities": [
+        "暗銀碎件",
+        "黑銃"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "line": 95,
+        "quote": "只見那把原本像一塊死鐵般的深黑短銃，槍身側面那條從未亮起過的筆直細縫，突然泛起了一抹極淡的冷白色微光。緊接著，在沒有任何卡扣機械動作的情況下，那塊暗銀色碎件與槍柄底部接觸的邊緣，竟像是兩滴水融在一起似的，直接跨越了物質阻隔，嚴絲合縫地「咬合」進了槍身內部！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-03-05",
+      "chapter": 3,
+      "beat_order": 5,
+      "name": "供能匣耗用一枚",
+      "summary": "三枚中一枚被黑銃吸收並耗去；其餘數量後續須依實際物件事件重新盤點。",
+      "entities": [
+        "供能匣",
+        "黑銃"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "line": 97,
+        "quote": "下一秒，槍柄底部剛剛生成的新接口自動彈開一道微不可察的細口，將諾亞放在桌上的三枚「高純度供能匣」中的一枚直接吸了過去！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-03-06",
+      "chapter": 3,
+      "beat_order": 6,
+      "name": "檢修軌噬電螢事件",
+      "summary": "進舊檢修軌道遇環境生態危險，不能當作已穿過K厚界。",
+      "entities": [
+        "噬電螢",
+        "檢修軌"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "line": 175,
+        "quote": "整條幽暗的檢修軌道，瞬間被一片狂暴的深藍色螢火風暴吞沒！上萬隻暴怒的噬電螢匯聚成一條席捲整座長廊的藍色狂潮，所過之處，老舊高壓電纜當場短路炸開一團團耀眼的雷火，連後面那頭原本準備偷襲諾亞的裂枝獸都發出一聲淒厲的慘叫，轉頭就往樹根深處逃命！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-04-01",
+      "chapter": 4,
+      "beat_order": 1,
+      "name": "青苔中繼站活根月台",
+      "summary": "青苔三號站長有殼木巨根與舊列車，生態建設相互依存。",
+      "entities": [
+        "活根閘",
+        "青苔三號"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+        "line": 21,
+        "quote": "數十條碗口粗的活體殼木氣根在隧道口交織盤結，長成了一道厚達兩公尺、表面流淌著琥珀色樹脂的「活體木質根閘」；而在根閘正中央，還卡著一截不知道多少年前被樹根絞碎的舊時代裝甲列車頭，車頭裂口處正一呼一吸地閃爍著某種極不穩定的淡紫色空間波紋。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-04-02",
+      "chapter": 4,
+      "beat_order": 2,
+      "name": "赫連白堊院身分",
+      "summary": "赫連隸屬測繪院，與郵運人及地方林場有不同利益，不能自動獲得破壞權。",
+      "entities": [
+        "赫連",
+        "白堊院"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+        "line": 41,
+        "quote": "白堊測繪院三等外勤實測官，外號「拾骨人」的赫連・鴉。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-04-03",
+      "chapter": 4,
+      "beat_order": 3,
+      "name": "留燈關注林場經濟",
+      "summary": "留燈的抗酸藥尾款依林場收成，巨根破壞會跨組織牽連。",
+      "entities": [
+        "留燈",
+        "林場",
+        "抗酸藥"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+        "line": 49,
+        "quote": "「喂！白堊院的大學者！我再問最後一遍啊，你們到底炸不炸？你們要是真拿那台高能破機器把這扇『活根閘』炸塌了，震波順著主根傳下去，底下三百公尺處『殼木七號林場』的採脂管道可就全斷了！林場那幫伐木工要是沒了這個月的樹脂收成，我背上這兩桶給他們送去的抗酸藥，誰付我尾款啊？！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-04-04",
+      "chapter": 4,
+      "beat_order": 4,
+      "name": "雙主角和白堊院衝突",
+      "summary": "在院方爆破與主角目的衝突後爆發實際對抗，並非友好同行。",
+      "entities": [
+        "赫連",
+        "紅顎會"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+        "line": 99,
+        "quote": "「那還用選嗎？！」艾莉維亞右手拇指一彈，腰間的深銀色尺匣「鏘」地展開成修長的折光主刃，亮青藍的十字瞳裡戰意盎然，「我負責把那個姓赫連的連人帶機器踹下月台，旁邊那兩個拿弩的獵人交給你？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-04-05",
+      "chapter": 4,
+      "beat_order": 5,
+      "name": "鏡殼擬態蟬現身",
+      "summary": "古列車中的生物與空間技術共生，後章戰利品和生態後果有源。",
+      "entities": [
+        "巨蟬",
+        "核心"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+        "line": 169,
+        "quote": "緊接著，一頭體長超過六公尺、全身覆蓋著半透明稜鏡般幾丁質甲殼的龐大生物——「鏡殼擬態蟬（成體）」，緩緩從扭曲的列車頭空間夾縫裡爬了出來！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-04-06",
+      "chapter": 4,
+      "beat_order": 6,
+      "name": "預先提出分配方案",
+      "summary": "主角提出巨蟬核心歸艾莉維亞、舊車頭金屬歸諾亞、殼歸白堊院的條件；要在後章追蹤履行。",
+      "entities": [
+        "巨蟬核心",
+        "甲殼",
+        "赫連"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+        "line": 189,
+        "quote": "「赫連先生，看來你們白堊院的炸藥是用不上了。現在這頭大知了歸我們兩個處理——肚子裡那顆核心歸她，車頭裡剩下的舊時代金屬歸我；至於蟲子死後蛻下來的那層『空間結晶外殼』，我們免費送給你帶回白堊院交差。條件是，今天這件事在白堊院的報告裡，叫『雙方友好的學術合作』，怎麼樣？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-05-01",
+      "chapter": 5,
+      "beat_order": 1,
+      "name": "三界楔制衡巨蟬",
+      "summary": "艾莉維亞使用三枚界楔和折光刀打擬態蟬，未呈現白髮首次覺醒。",
+      "entities": [
+        "界楔",
+        "艾莉維亞"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+        "line": 29,
+        "quote": "艾莉維亞甚至沒有落地。她在從殼木氣根頂端躍下的半途，左手腕上的雙層金屬環連震三下！三枚銀色界楔沒有射向那十幾個真假難辨的巨蟬殘影，而是呈一個倒三角形，分別釘進了隧道口左上方、右上方以及正下方的三根粗大鈣化樹根上！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-05-02",
+      "chapter": 5,
+      "beat_order": 2,
+      "name": "諾亞辨識生物與器材",
+      "summary": "諾亞因碎件得到較清晰局部感知；角色此時不是全知異常學家。",
+      "entities": [
+        "黑銃",
+        "暗銀碎件"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+        "line": 51,
+        "quote": "在他眼裡，自從手裡這把深黑短銃吞掉了那塊暗銀色感測碎件後，底下那頭六公尺長的巨獸早就不再是一團模糊的甲殼與殘影。在五至十公尺的清晰感知圈內，他能清楚無比地「看」見——那顆人造的紫色空間核心，是被無數條畸形的生物血管與神經索強行包裹、焊接在巨蟬的消化腔壁上的。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-05-03",
+      "chapter": 5,
+      "beat_order": 3,
+      "name": "巨蟬核心歸女主",
+      "summary": "巨蟬被處理後，艾莉維亞可取得空間核心；標本與核心拆分追蹤。",
+      "entities": [
+        "巨蟬核心",
+        "艾莉維亞"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+        "line": 19,
+        "quote": "「別用眼睛看它的翅膀！這畜生肚子裡那顆『空間穩定器核心』把周圍十五公尺的接觸面全折成鏡像了！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-05-04",
+      "chapter": 5,
+      "beat_order": 4,
+      "name": "赫連接受標本",
+      "summary": "赫連以標本補工作損失並可向總部交差，不能把全部戰利品算雙主角所有。",
+      "entities": [
+        "赫連",
+        "巨蟬標本"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+        "line": 103,
+        "quote": "「願賭服輸。這具完整的成年鏡殼擬態蟬標本，足夠抵銷我那台爆破儀支架的損失，外加向總部交差了。」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-05-05",
+      "chapter": 5,
+      "beat_order": 5,
+      "name": "留燈開閘手搖車",
+      "summary": "留燈協助操控活根閘並讓三人搭手搖軌道車進萬鈞鐘心，不是跨K營運交通。",
+      "entities": [
+        "留燈",
+        "手搖車"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+        "line": 157,
+        "quote": "伴隨著清脆的棘輪咬合聲，小巧的發條軌道車車頭那罐噬電螢提燈亮起幽幽的藍光，載著三個各懷心思的人，一頭駛進了幽深寂靜的百年古根隧道之中。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-05-06",
+      "chapter": 5,
+      "beat_order": 6,
+      "name": "主鐘擺異響引出塞拉",
+      "summary": "諾亞以自身感知猜測有臨時定位銷，後續作者QA已要求不把猜測寫成完整客觀機制。",
+      "entities": [
+        "塞拉",
+        "主鐘擺",
+        "定位銷"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+        "line": 187,
+        "quote": "諾亞也早就聽見了。他手搭在欄杆上，看著遠處那根主鐘擺上方被白色水霧籠罩的巨型軸座：「不是雜音。是裡面的主定位銷磨損了，有人拿別的東西臨時頂替了上去，轉速比標準慢了零點二秒。」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-06-01",
+      "chapter": 6,
+      "beat_order": 1,
+      "name": "塞拉審核外來者",
+      "summary": "塞拉查核赫連報備人員，懷疑雙主角身分；她是具有工程與治安責任的地方角色。",
+      "entities": [
+        "塞拉",
+        "報備",
+        "物權"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+        "line": 15,
+        "quote": "「白堊測繪院的三等實測官確實在一週前向本庭報備過，要去青苔三號中繼站清理活體根閘。但他報備的名單裡只有兩名紅顎會的赤鐵獵人，可沒有你們這兩張生面孔——更沒有一個腰裡揣著高危分解武器的年輕人。」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-06-02",
+      "chapter": 6,
+      "beat_order": 2,
+      "name": "老舊車站壓力辨識",
+      "summary": "雙主角透過物理結構觀察增加可信度，但不等同知道整座鐘心所有秘密。",
+      "entities": [
+        "工程",
+        "人物知情"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+        "line": 45,
+        "quote": "「你們左邊第四根主立柱底下的地基早就空了，表面看著還立在那兒，其實根本沒在吃力。再看天花板那幾根後來補上去的粗拉索角度——當年封閉這座車站的人為了防止頂棚塌陷，至少把左四柱一半以上的頂部負重，強行斜拉轉移到了右邊第一根與第七根柱子上。修女閣下，這種拆東牆補西牆的臨時拉法最多撐二十年，現在右邊第一根柱子背面的承重鉚釘，怕是已經被擠得凸出來了吧？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-06-03",
+      "chapter": 6,
+      "beat_order": 3,
+      "name": "授予臨時檢修牌",
+      "summary": "塞拉把臨時檢修牌交雙主角；這是有限範圍憑證，不是永久跨層通行許可。",
+      "entities": [
+        "檢修牌",
+        "塞拉"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+        "line": 59,
+        "quote": "塞拉修女冷哼一聲，從腰間解下一塊沉甸甸、邊緣澆鑄著鉛封與齒輪聖徽的「青銅臨時檢修牌」，直接從鐵柵欄的縫隙裡扔了過來。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-06-04",
+      "chapter": 6,
+      "beat_order": 4,
+      "name": "廢扳道房生活痕跡",
+      "summary": "兩人探索失修空域與舊工人生活，保留非劇情專用環境。",
+      "entities": [
+        "扳道房",
+        "探索"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+        "line": 131,
+        "quote": "兩人彎腰鑽進小洞，裡面是一間只有三坪大小、早已被遺忘了不知多少歲月的「舊時代守夜人扳道房」。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-06-05",
+      "chapter": 6,
+      "beat_order": 5,
+      "name": "沉箱橋復位",
+      "summary": "兩個沉箱支持搖臂架橋，局部實際可達不代表經K界直通。",
+      "entities": [
+        "沉箱",
+        "橋",
+        "路網"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+        "line": 169,
+        "quote": "緊接著，距離高台約一百八十公尺的水面突然劇烈翻湧，一座直徑超過三十公尺的重型液壓沉箱橋墩破水而出；另一座沉箱則在更靠對岸的位置升起。兩座支點隔著數十公尺的黑水，沉在水下的兩百五十公尺長「主配重鋼鐵搖臂」隨之抬起，一端沿著近岸高台的承重槽慢慢定位，中段由第一座沉箱托住。黑水沿桁架瀑布般傾瀉，底下齒輪與配重機構發出令人牙酸的低鳴！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-06-06",
+      "chapter": 6,
+      "beat_order": 6,
+      "name": "修理古濾霧鏡",
+      "summary": "老錫匠維修艾莉維亞測距儀鏡片，後續可升級但不是憑空多一枚鏡片。",
+      "entities": [
+        "濾霧鏡",
+        "測距儀"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+        "line": 233,
+        "quote": "老錫匠手腳麻利地從破工具箱裡掏出微型車床與銀焊絲，花了一小段工夫，便車出一個精巧的轉接環，還順手幫她補上了鏡片邊緣缺失的導引銀齒，「咔」地一聲幫她裝進了單眼稜鏡測距儀裡！",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-06-07",
+      "chapter": 6,
+      "beat_order": 7,
+      "name": "底錨塔警訊",
+      "summary": "老錫匠通報另有白衣人已入塔，為下一章有限情報。",
+      "entities": [
+        "底錨塔",
+        "白衣人"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+        "line": 241,
+        "quote": "「你們要是去底錨塔查主鐘擺，從前面那扇缺了半邊門板的排風口就能上垂直維修電梯。不過老頭子提醒你們一句，塔裡面除了塞拉修女派去的兩個苦修守衛，剛才好像還有個穿白衣服、走路沒聲音的怪人也從上面滑進去了——行了，橋既然被你們升起來了，老頭子我也順便借你們的橋回西邊睡覺去嘍！」",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-07-01",
+      "chapter": 7,
+      "beat_order": 1,
+      "name": "兩守衛被封膠困住",
+      "summary": "底錨塔值班守衛遇襲被束，主角見到現場不能直接判誰真正惡意。",
+      "entities": [
+        "守衛",
+        "多恩"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+        "line": 45,
+        "quote": "只見值班室中央的鐵柵地板上，一老一少兩名身穿灰黑苦修長袍的承光贖罪庭守衛，正背靠著背坐在地上。他們雙腳那兩雙笨重的制式平底鐵靴、連同腰間垂下的黃銅齒輪十字鍊，全被一層已經徹底硬化、泛著灰白色澤的「高強絕緣封管膠」死死焊在了地面格柵裡；兩人的雙手被鐵鏈反扣在背後的一根蒸氣立管上，嘴裡則各自塞著一團油乎乎的擦車破布，正瞪大了眼睛，對著門口發出憤怒的悶哼。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-07-02",
+      "chapter": 7,
+      "beat_order": 2,
+      "name": "諾亞使用臨時檢修牌",
+      "summary": "諾亞向守衛出示塞拉給的牌後扣回腰帶，未見轉交或被收回。",
+      "entities": [
+        "檢修牌",
+        "諾亞"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+        "line": 53,
+        "quote": "他沒去碰守衛腰間的武器，只是伸手把絡腮鬍守衛嘴裡那團滿是機油味的破布扯了出來，順手亮了亮自己手裡那塊帶有齒輪聖徽與鉛封的青銅臨時檢修牌，隨即將牌子扣回自己風衣左側的腰帶環上：",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-07-03",
+      "chapter": 7,
+      "beat_order": 3,
+      "name": "二號小吊盤往九百米",
+      "summary": "主角搭二號吊盤上行，中繼站和塔底存在可追蹤返程機制。",
+      "entities": [
+        "吊盤",
+        "交通"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+        "line": 121,
+        "quote": "粗重的鋼纜絞盤開始轉動，二號小吊盤拉著一串火星，沿著底錨塔內部幽暗深邃的垂直井道，以每秒近十公尺的速度急速向上攀升！",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-07-04",
+      "chapter": 7,
+      "beat_order": 4,
+      "name": "多恩保護二號穩定纜",
+      "summary": "白瓷面具人以楔固定損壞承力點，判斷其行為不能只從外觀推斷。",
+      "entities": [
+        "多恩",
+        "阻尼楔"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+        "line": 209,
+        "quote": "那名白瓷面具人甚至顧不上抬頭看一眼逼近的兩人，他左腕另外兩根完好的機械副指已經發瘋似地從腰間摸出一枚備用的軟質黃銅阻尼楔，頂著刺耳的金屬刮擦聲與電弧火花，死死往鋼纜裂口旁劇烈抖動的「阻尼固定槽」裡硬塞進去，試圖用軟銅楔壓住順著鋼纜狂瀉而下的高頻震動！",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-07-05",
+      "chapter": 7,
+      "beat_order": 5,
+      "name": "黑銷情報尚未核實",
+      "summary": "多恩宣稱黑銷與剝離針受損，諾亞看到共鳴但尚不知全貌。",
+      "entities": [
+        "黑銷",
+        "黑銃",
+        "人物知情"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+        "line": 215,
+        "quote": "「不管你們是白堊院的走狗還是十區白庭派來滅口的追兵——想動手就等我把這枚阻尼楔釘死再動！上面主軸承裡那根『黑銷』三天前被人拿剝離針頂鬆了，今天連軸套內襯都磨穿偏了位，現在主鐘擺每盪一次，它都在順著承力鏈往下『切斷』結構連接！你們現在打斷我，不出一個鐘頭，上面那根兩公里長的大鐵槌就會把整座萬鈞鐘心連同你們一起砸進深淵裡去！！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-07-06",
+      "chapter": 7,
+      "beat_order": 6,
+      "name": "第七章以質問停點",
+      "summary": "章末由諾亞提問，直接影響第八章起始回答，不能套舊G9B已答版本。",
+      "entities": [
+        "多恩",
+        "塞拉",
+        "章界"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+        "line": 229,
+        "quote": "「既然你是在救這座鐘擺，為什麼在底下不直接找塞拉修女幫忙，反而把她的守衛糊在地板上？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-08-01",
+      "chapter": 8,
+      "beat_order": 1,
+      "name": "多恩回應並述通報追殺",
+      "summary": "多恩解釋向聯席工務處通報後被追擊、獨自躲藏，仍是角色敘述。",
+      "entities": [
+        "多恩",
+        "工務處",
+        "知情"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+        "line": 17,
+        "quote": "「三天前上面剛出事的時候，我第一時間就拿著測繪警報去找過八區與十區交界的『聯席工務處』。結果呢？工務處的值班主管聽完我的報告，笑呵呵地讓我去隔壁房間喝茶等消息——要不是我耳朵尖，聽見外頭通風管裡有人在給消音步槍上膛，當場撬開排污井跳下來，現在早就變成底塢分揀場裡的一具無名屍了！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-08-02",
+      "chapter": 8,
+      "beat_order": 2,
+      "name": "多恩剪斷主吊籠",
+      "summary": "多恩承認為防追兵破壞一號主吊籠，後來主角須修回才能上頂端。",
+      "entities": [
+        "主吊籠",
+        "多恩"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+        "line": 19,
+        "quote": "他劇烈地咳了一聲，指節因為用力而發白：「我在底下暗渠裡躲了兩天多，昨晚才順著廢排風管摸進這座底錨塔外圍的夾層裡藏著。聯席工務處掛的也是贖罪庭的齒輪章，我哪敢賭底下的守衛跟上面是不是穿一條褲子？本來我想等半夜換班時再悄悄溜上來，可剛才我在夾層裡聽見上面傳來的摩擦聲突然變了調，知道軸套撐不住了，這才不得不從通風管滑下去，拿快乾膠把莫恩他們兩個糊在地板上！我當時以為只要帶著三枚黃銅楔和聽診箱上九百公尺中繼站，把順著二號纜洩下來的震波鎖死在中段就能爭取時間，根本沒打算單槍匹馬再去兩千公尺的頂層送死——所以我才把一號主吊籠開到這兒挑斷了兩根控制線、卡死副索當路障，免得底下的人或上面的追兵坐主吊籠直接衝到我臉上！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-08-03",
+      "chapter": 8,
+      "beat_order": 3,
+      "name": "鉛盒裝斷針證物",
+      "summary": "多恩自述鉛盒內有剝離振針證物，開蓋可能釋放信號。",
+      "entities": [
+        "鉛盒",
+        "斷針"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+        "line": 29,
+        "quote": "「我叫多恩。多恩・斐斯，以前是八區鐘錶坊的學徒，五年前考上了白庭的外聘高空減震校準技師。」年輕男人抹去下巴上的血跡，盯著諾亞腰間的鉛封牌，「當時能從下層考進白庭外聘名單，我還以為自己走了大運，給上頭幹活從來不敢多嘴……不管你們是用什麼辦法讓塞拉放行的，如果我說這只鉛盒裡裝著三天前主軸承被人動手腳的證物，你們信嗎？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-08-04",
+      "chapter": 8,
+      "beat_order": 4,
+      "name": "諾亞推算黑銷可否保留",
+      "summary": "主角此時不知道黑銷能否在卸載後留在原位，保留角色資訊邊界。",
+      "entities": [
+        "黑銷",
+        "諾亞"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+        "line": 89,
+        "quote": "「多恩，」諾亞抬起眼皮，問出了最關鍵的問題，「如果我們現在上去，把卡在軸套裡的那兩根振針拔出來，那根黑銷能不能恢復穩定、繼續留在裡面撐住主鐘擺？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-08-05",
+      "chapter": 8,
+      "beat_order": 5,
+      "name": "塞拉實際搭二號吊盤",
+      "summary": "塔底回召後塞拉搭二號吊盤抵達九百米，不是瞬移。",
+      "entities": [
+        "塞拉",
+        "吊盤"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+        "line": 163,
+        "quote": "莫恩守衛在塔底接通電話時，塞拉修女正因為主鐘擺越發劇烈的異響往一號底錨塔趕來；她一到塔底便直接搭上了被召回的二號無頂小吊盤一路全速升空！在吊盤距離九百公尺平台還有最後三公尺時，這位高達兩米、身穿灰黑苦修長袍的老審判官直接啟動了雙腿「重型打樁機式機械義肢」的蒸氣助力，借力一躍而起，避開了前方受損的穩定纜基座，重重落在了平台靠近塔身主體的實心承重橫樑上！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-08-06",
+      "chapter": 8,
+      "beat_order": 6,
+      "name": "塞拉交十字母匙",
+      "summary": "塞拉將頂層軸承室母匙交諾亞，附嚴格「卸載前不能拆主軸套」條件。",
+      "entities": [
+        "母匙",
+        "諾亞",
+        "塞拉"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+        "line": 241,
+        "quote": "說完，老修女這才鬆開鐵手套，將那把沉甸甸的十字母匙交進諾亞掌心。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-08-07",
+      "chapter": 8,
+      "beat_order": 7,
+      "name": "上行前先修一號吊籠",
+      "summary": "第八章停在修主吊籠的決策，第九章必須承接維修而非直接抵達頂層。",
+      "entities": [
+        "主吊籠",
+        "連續性"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+        "line": 245,
+        "quote": "「先把上去的吊籠修通。」諾亞對塞拉修女點了點頭，「底下的制動交給妳了，修女閣下。到了上面怎麼處置，我們看著辦。」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-01",
+      "chapter": 9,
+      "beat_order": 1,
+      "name": "修復主吊籠",
+      "summary": "艾莉維亞卸去副索張力、諾亞處理止退卡口、多恩接線恢復上行。",
+      "entities": [
+        "主吊籠",
+        "界楔",
+        "多恩"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 17,
+        "quote": "「裡面的電控線我三十秒就能接通，但吊籠頂上那根『二號牽引副索』被我用止退鐵楔卡進滑輪死角裡了！主纜現在受著張力，拿撬棍硬撬會把滑輪邊緣崩裂的！」",
+        "match_count": 4
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-02",
+      "chapter": 9,
+      "beat_order": 2,
+      "name": "塞拉留九百米指揮",
+      "summary": "塞拉留下指揮制動並看守人，不應同時憑空出現在頂層工作。",
+      "entities": [
+        "塞拉",
+        "指揮",
+        "時間"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 43,
+        "quote": "站在平台控制室門口的塞拉修女沒有跟進來——她必須留在九百公尺中繼站看守那兩名被捆住的白庭內環襲擊者、盯住二號穩定纜的裂口，並隨時透過傳聲筒與底槽總控室保持聯動。老修女隔著緩緩合攏的吊籠鐵網門，朝三人重重一揮鐵拳：",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-03",
+      "chapter": 9,
+      "beat_order": 3,
+      "name": "母匙打開軸承安全門",
+      "summary": "諾亞用母匙解鎖頂層出入口；開門不等於可卸載前開主軸套。",
+      "entities": [
+        "母匙",
+        "軸承室"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 81,
+        "quote": "諾亞取出塞拉交給他的十字母匙，解開吊籠出口那道厚重安全門的十字門禁鎖，三人這才踏入軸承大廳。",
+        "match_count": 4
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-04",
+      "chapter": 9,
+      "beat_order": 4,
+      "name": "母核仍鎖在增壓室",
+      "summary": "頂層增壓室可見母核，外部控制器被破壞；未據此單獨證明所有陰謀者罪行。",
+      "entities": [
+        "母核",
+        "物證",
+        "多恩"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 95,
+        "quote": "只見五坪見方的增壓室中央，果真立著一座重型防爆底座。底座上死死鎖著一台足有半人高、外殼鑄著白庭市政廳特級鉛封銘文的銀白色八角形金屬罐——正是赫連・鴉口中「三天前在市政廳失竊」的那顆【特級封存諧振母核】！",
+        "match_count": 3
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-05",
+      "chapter": 9,
+      "beat_order": 5,
+      "name": "外部暫態退針",
+      "summary": "外殼盲孔的退針靠局部承力轉移，不能把女主作用解讀為獨自承受整個巨擺載荷。",
+      "entities": [
+        "振針",
+        "界楔"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 129,
+        "quote": "四枚銀色界楔呈矩形陣列，兩枚精準釘進兩處檢修盲孔外圍的法蘭盤底座，另外兩枚則深深釘入後方三公尺外、直接連著塔頂主肋骨的「百噸級副承力拱架」上！",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-06",
+      "chapter": 9,
+      "beat_order": 6,
+      "name": "永久支承與卸載",
+      "summary": "主鐘擺停住並由基岩永久承重座承接，得以安全開軸套。",
+      "entities": [
+        "停擺",
+        "機械工程"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 181,
+        "quote": "緊接著，一陣從兩千公尺地底深處傳上來的、沉悶而雄渾的巨型機械落鎖聲，順著百公尺寬的塔身主肋骨直傳上頂層——那是底槽的工務三班已經將擺幅磨停到垂直死點的萬鈞巨擺，用扎入深層基岩的「八組重型永久機械承重座」死死鎖定，隨後啟動了底部液壓頂升陣列，將數百萬噸的錘體緩緩向上托起了最後半尺！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-07",
+      "chapter": 9,
+      "beat_order": 7,
+      "name": "主軸黑銷需要另存",
+      "summary": "黑銷離開主軸後仍切穿鉛匣，特殊器材風險導向主角黑銃下掛。",
+      "entities": [
+        "黑銷",
+        "黑銃",
+        "鉛匣"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 321,
+        "quote": "那口號稱能封住高熱電漿、足有兩寸厚的精鋼鉛匣底部，在接觸到黑銷表面冷白微光的瞬間，就像一塊被熱刀切開的牛油，連同匣子下方半寸厚的平台鋪面鐵板一起，毫無阻礙地裂開了一道整整齊齊的平滑豁口！",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-09-08",
+      "chapter": 9,
+      "beat_order": 8,
+      "name": "塞拉安排多恩工作及約定交針",
+      "summary": "塞拉安排多恩戴罪修復六個月、兩主角等待約三日取得斷針。",
+      "entities": [
+        "塞拉",
+        "多恩",
+        "斷針"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+        "line": 381,
+        "quote": "「蒸餃可以吃三份。不過吃完我們得先找家通風好的旅店睡一覺——等三天後塞拉修女把那截斷針送過來，我們再看看接下來是先去左邊的『霜脈散熱嶺』，還是去上面會會那位科爾大結構師。」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-10-01",
+      "chapter": 10,
+      "beat_order": 1,
+      "name": "巨擺停後社會生活異動",
+      "summary": "日常風力停擺、居民生活習慣改變，並非城一停主角就離開。",
+      "entities": [
+        "萬鈞鐘心",
+        "社會"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+        "line": 21,
+        "quote": "那是過去五百年裡，中央主鐘擺盪過街區正上方、即將帶起「四十秒大擺風」的固定預警音。",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-10-02",
+      "chapter": 10,
+      "beat_order": 2,
+      "name": "交通減班與旅宿爆滿",
+      "summary": "火車減班、通往十區的升降梯停運與疏散居民造成旅宿壓力，僅此路線運作狀態可判。",
+      "entities": [
+        "火車",
+        "旅館",
+        "八區",
+        "十區"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+        "line": 83,
+        "quote": "「退錢也沒用啊老闆！今天發條火車減了一半班次，去十區白庭的重型升降梯也停了，我們這幾百號人出不了城，難道今晚全睡在車站的煤灰堆裡嗎？！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-10-03",
+      "chapter": 10,
+      "beat_order": 3,
+      "name": "移往風剪長廊住宿",
+      "summary": "兩主角因旅館滿員轉往偏遠長廊找宿屋，城市空間仍有居民自主生活。",
+      "entities": [
+        "旅館",
+        "風剪長廊"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+        "line": 101,
+        "quote": "那名腳夫看了一眼銅幣，嘆了口氣，把旱煙桿在鞋底上磕了磕：「小哥，今天這日子，凡是通火車、有暖氣管的街區，連耗子洞都住滿人嘍！你們要是真想找安靜又有空床的地方，除非去西邊外沿的『風剪長廊』碰碰運氣。」",
+        "match_count": 5
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-10-04",
+      "chapter": 10,
+      "beat_order": 4,
+      "name": "多恩留下負責工務",
+      "summary": "多恩在塔內參與襯套重鑄，主角沒有把他帶成永久旅伴。",
+      "entities": [
+        "多恩",
+        "工務"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+        "line": 165,
+        "quote": "三艘塗著承光贖罪庭黑白徽記的重型浮空工程駁船，正懸停在底錨塔的排風口外側，數十名工程僧正喊著號子，用粗大的鋼纜將一箱箱重鑄襯套所需的青銅錠吊進塔內；而在駁船甲板的最前端，戴著半邊破面具、換了一身髒兮兮苦力皮圍裙的多恩・斐斯，正抱著一摞厚厚的圖紙，被一名滿臉絡腮鬍的老工匠拿捲起來的工程藍圖敲得抱頭鼠竄。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-10-05",
+      "chapter": 10,
+      "beat_order": 5,
+      "name": "休息與私人互動",
+      "summary": "兩主角住宿休息，角色疲勞與生活時間不能被省略。",
+      "entities": [
+        "艾莉維亞",
+        "諾亞"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+        "line": 211,
+        "quote": "他沒有去動她工具袋裡的研究樣本，也沒有把自己風衣裡那把掛著休眠黑銷的短銃掏出來拆解研究。他只是走過去，輕手輕腳地幫艾莉維亞把掛在床邊的那隻長靴脫下來擺正，拉過床尾的薄毯蓋在她背上；然後走到外間的窗台前，伸手撥開了那枚已經幾十年沒有人敢在白天拉開過的防風重鐵栓，將厚重的雙層黃銅百葉窗，緩緩向外推開。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-11-01",
+      "chapter": 11,
+      "beat_order": 1,
+      "name": "黑銷令原槍套不適用",
+      "summary": "黑銃下掛黑銷造成物理外形改變，必須改用新槍套。",
+      "entities": [
+        "黑銷",
+        "槍套"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "line": 25,
+        "quote": "自從昨晚在頂層軸承室把那根一尺長的深黑細桿扣合在槍管下方後，這把原本可以輕鬆藏進腋下短槍套裡的黑銃，底部就多出了一截四寸多長的冰涼黑鐵。此刻那根黑銷依然安安靜靜地沉睡在槍管下方的導槽裡，連半點微光都沒露，但舊槍套的底兜已經被它頂開了線，根本包不住多出來的長度。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-11-02",
+      "chapter": 11,
+      "beat_order": 2,
+      "name": "停風後迴風渦槽開放",
+      "summary": "大擺風停止讓失物回收區變成可進入，地方居民生活可因主事件自然生長。",
+      "entities": [
+        "迴風渦槽",
+        "居民"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "line": 53,
+        "quote": "「這條長廊正好處在主鐘擺大擺風的風口末端。過去幾十年裡，內環三條街的住戶被狂風吹跑的帽子、銅盆、工具袋，甚至商販沒抓穩的零碎貨物，有一半都被捲進了下面那道『迴風渦槽』裡。平時那下面每四十秒就有一個能把人撕碎的風旋，誰也下不去；今天主鐘擺一停，渦槽裡積了幾十年的家當全露出來了。」",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-11-03",
+      "chapter": 11,
+      "beat_order": 3,
+      "name": "營救紡鋼族工匠塔里",
+      "summary": "主角協助當地工匠脫困，取得其工藝服務，而非立即安排永久跟隊。",
+      "entities": [
+        "塔里",
+        "紡鋼族"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "line": 3,
+        "quote": "> **最新可連續閱讀的 Gemini 候選版本：11/08塔里飲食個體化＋長桿字形修訂**。正式正文 0 章／PREWRITE HOLD；「最新」指此閱讀鏈中的後出補丁基準，非正式採用。",
+        "match_count": 17
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-11-04",
+      "chapter": 11,
+      "beat_order": 4,
+      "name": "工匠以技術作交換",
+      "summary": "塔里提供為原槍設計泥鰻皮長槍套、替測距儀裝護鏡，交易緣由與價格需沿原文核實。",
+      "entities": [
+        "槍套",
+        "鏡殼",
+        "塔里"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "line": 113,
+        "quote": "「就這？！」塔里簡直不敢相信自己的耳朵，連忙把頭點得像小雞啄米，「別說收手工費了，只要兩位能讓我神不知鬼不覺地爬上這道坎，皮套和鏡殼我免費給兩位用最好的『深水泥鰻皮』做！二十分鐘就能交貨！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-11-05",
+      "chapter": 11,
+      "beat_order": 5,
+      "name": "實際製作新槍套",
+      "summary": "諾亞改用長槍套包住連黑銷的槍，後章不能回到舊短套無解。",
+      "entities": [
+        "黑銃",
+        "槍套"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "line": 189,
+        "quote": "另一邊，諾亞也將那條嶄新的深黑泥鰻皮長槍套扣在了自己風衣內側的肩帶上，順手將連著一尺黑銷的深黑短銃插了進去。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-11-06",
+      "chapter": 11,
+      "beat_order": 6,
+      "name": "鏡片防塵蓋裝上",
+      "summary": "艾莉維亞光學測距儀增加可開合的防塵結構，不是獲得全新高階感知能力。",
+      "entities": [
+        "濾霧鏡",
+        "測距儀"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "line": 185,
+        "quote": "艾莉維亞拿起自己的單眼測距儀，「咔噠」一聲按了一下側面的微型黃銅鈕——前端那枚原本暴露在外、容易沾灰刮傷的六角古測繪師殘鏡外側，立刻彈開了六片如花瓣般精密咬合的黃銅防塵葉片；再按一下，葉片又瞬間收攏成一面嚴密的小銅蓋。",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-11-07",
+      "chapter": 11,
+      "beat_order": 7,
+      "name": "明示仍等兩日",
+      "summary": "第十一章距塞拉約定交針尚有等待時間，下一章需接對實際日數。",
+      "entities": [
+        "斷針",
+        "時間"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "line": 219,
+        "quote": "「對了，諾亞。」艾莉維亞拍了拍手指上的酥皮碎屑，看了一眼遠處高空中那座亮著一圈黃色檢修燈的一號底錨塔，隨口問道，「我們還得在這城裡等兩天，等塞拉修女把那截斷針送過來。明天沒事幹，你打算去哪兒逛逛？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-01",
+      "chapter": 12,
+      "beat_order": 1,
+      "name": "停止巨輪使舊庫露出",
+      "summary": "二十二年前封閉貨庫因主鐘擺停擺而重見天日，產生自治市集及物權事件。",
+      "entities": [
+        "舊庫",
+        "居民"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 33,
+        "quote": "前方人群聚集最多的地方，正處在「十四號大惰輪」的正中央。",
+        "match_count": 5
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-02",
+      "chapter": 12,
+      "beat_order": 2,
+      "name": "憑舊存單合法領物",
+      "summary": "掌櫃允許昔日寄存者憑票領物，未領和死當舊貨另行販售。",
+      "entities": [
+        "存單",
+        "物權"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 45,
+        "quote": "「凡是二十二年前在我們九號庫存過貨、手裡還有當年黃紙存單的苦主，今天憑單子直接進來領東西，老莫斯我一分錢逾期保管費都不收！至於那些當年死當沒贖的、還有過了二十二年找不到主人的五金礦料和老古董，今天全部在輪齒上擺攤清倉，給錢就賣！！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-03",
+      "chapter": 12,
+      "beat_order": 3,
+      "name": "購買冷鍛材料",
+      "summary": "艾莉維亞發現鍛造界楔可用的老純度沉銀，必須查明是否付款及實際持有。",
+      "entities": [
+        "冷鍛沉銀",
+        "界楔"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 53,
+        "quote": "「諾亞，左邊第三個箱子，底下壓著四根暗青色的六稜金屬條。」艾莉維亞從輪齒上輕巧地跳下來，壓低聲音對諾亞說道，「那是九區霜脈散熱嶺才產的『冷鍛沉銀』！而且是二十多年前還沒摻雜生鐵的老純度！拿那個給我的界楔重新包一層尖頭，以後就算再遇到上回那種幾十噸的剪切力，我的釘子也不會震歪了！」",
+        "match_count": 3
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-04",
+      "chapter": 12,
+      "beat_order": 4,
+      "name": "白庭護衛企圖徵用貨物",
+      "summary": "十區人員在八區強行徵物，諾亞指出司法權限與簽章邊界。",
+      "entities": [
+        "白庭",
+        "八區",
+        "十區",
+        "物權"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 101,
+        "quote": "韋恩管事轉過身，從懷裡抽出一張蓋著白庭市政配額委員會紅印的《緊急物資徵用令》，「啪」地拍在莫斯掌櫃的舊帳冊上，下巴高高揚起：",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-05",
+      "chapter": 12,
+      "beat_order": 5,
+      "name": "舊箱不是無限能源神器",
+      "summary": "舊箱謠傳的極寒能源實為老克里普二十二年前的蛋糕與花，注意物件情感價值。",
+      "entities": [
+        "老克里普",
+        "寒鐵匣"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 251,
+        "quote": "「我哪知道會鎖二十二年啊！！」老克里普抱著腦袋大喊冤枉，「那天早上我們吵完架，你去紡織廠上早班，我去買了蛋糕和花，怕放家裡天熱化了，就偷偷借了我們工坊裝樣品用的霜脈保溫箱，花兩個銅板寄在老莫斯這兒，打算等你下午下班去接你時再拿出來！我怕老莫斯他們手重把我的蛋糕摔爛了，才在單子上瞎寫了個『一級急凍冷源・嚴禁倒置』——誰知道那天下午十四號大銅輪就塌了三寸把門給堵死了啊！！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-06",
+      "chapter": 12,
+      "beat_order": 6,
+      "name": "寒鐵匣贈予主角",
+      "summary": "老克里普將已取出蛋糕的寒鐵匣贈送，匣與內襯需分開追蹤。",
+      "entities": [
+        "寒鐵匣",
+        "寒晶內襯"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 269,
+        "quote": "「兩位年輕人，剛才要不是你們出手鎮住白庭那幫惡犬，我這盒子還有這口氣，今天肯定都得被他們砸了！這只『霜脈寒鐵匣』其實是二十二年前一位路過九區的散熱嶺老鐵匠送我的樣品匣，裡頭的寒晶內襯不用充電就能常年保持零下低溫。現在蛋糕拿出來了，這空匣子留在我手裡也沒用——我看這位姑娘剛才買了極寒淬火脂，這只寒鐵匣就送給你們裝東西吧！」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-07",
+      "chapter": 12,
+      "beat_order": 7,
+      "name": "多恩交斷針及母核拓印",
+      "summary": "多恩代塞拉交付斷針及母核來源編號拓印；仍要核對原件歸屬和時間。",
+      "entities": [
+        "斷針",
+        "拓印",
+        "多恩"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 303,
+        "quote": "「塞拉審判官說她說話算話，結了案就把這截斷針給你們送來。」多恩指了指鉛管裡那張拓印紙，神色稍微認真了幾分，「不過，今天中午我們工務班用重型切割機把頂層那顆『特級封存諧振母核』從鋼樑上切下來移交的時候，我在母核底座最底下發現了一行被科爾他們用鉛油塗掉的原產地打撈編號，順手幫你們拓了一份。」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-08",
+      "chapter": 12,
+      "beat_order": 8,
+      "name": "寒晶內襯冷卻黑銷",
+      "summary": "諾亞把寒晶內襯放進槍套附近令黑銷溫度下降，黑銷是否真正甦醒仍未知。",
+      "entities": [
+        "黑銷",
+        "寒晶內襯"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 271,
+        "quote": "艾莉維亞眼睛一亮，看了一眼箱子內壁那層可拆卸的薄片狀「霜脈寒晶內襯」——",
+        "match_count": 2
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    },
+    {
+      "id": "BEAT-12-09",
+      "chapter": 12,
+      "beat_order": 9,
+      "name": "出發尚為次日意向",
+      "summary": "章末兩主角提出次日往霜脈散熱嶺搭火車，還未真正抵達九區。",
+      "entities": [
+        "霜脈散熱嶺",
+        "火車"
+      ],
+      "evidence": {
+        "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "line": 321,
+        "quote": "「看來連老天爺都在催我們去泡溫泉、找鍛造師傅呢。怎麼樣，諾亞先生，今晚吃完老太太的最後一頓晚飯，明天早上我們就搭早班火車去『霜脈散熱嶺』？」",
+        "match_count": 1
+      },
+      "version_scope": "LATEST_PATCHED_SEQUENTIAL_CANDIDATE_20261108",
+      "authoritative_event": false
+    }
+  ],
+  "object_chains": [
+    {
+      "id": "OBJ-CELL",
+      "name": "三枚高純度供能匣",
+      "states": [
+        {
+          "chapter": 2,
+          "change": "諾亞已持有三枚",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+            "line": 67,
+            "quote": "諾亞面不改色地用手指夾起那塊暗銀色碎件與三枚供能匣，「而且我替妳擋了三發高熱鉚釘，算下來還是我比較虧。」",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 3,
+          "change": "黑銃吸收其中一枚，文本記其光耗去一半後散為白氣",
+          "custody": "諾亞／黑銃",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+            "line": 97,
+            "quote": "下一秒，槍柄底部剛剛生成的新接口自動彈開一道微不可察的細口，將諾亞放在桌上的三枚「高純度供能匣」中的一枚直接吸了過去！",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "沒有後續明確取用前只能推算剩餘兩枚；不能把推算當直接點貨證據",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-FRAGMENT",
+      "name": "暗銀感測碎件",
+      "states": [
+        {
+          "chapter": 2,
+          "change": "諾亞取得外置碎件",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+            "line": 67,
+            "quote": "諾亞面不改色地用手指夾起那塊暗銀色碎件與三枚供能匣，「而且我替妳擋了三發高熱鉚釘，算下來還是我比較虧。」",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 3,
+          "change": "與槍融合不再可作外置原件",
+          "custody": "黑銃",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+            "line": 95,
+            "quote": "只見那把原本像一塊死鐵般的深黑短銃，槍身側面那條從未亮起過的筆直細縫，突然泛起了一抹極淡的冷白色微光。緊接著，在沒有任何卡扣機械動作的情況下，那塊暗銀色碎件與槍柄底部接觸的邊緣，竟像是兩滴水融在一起似的，直接跨越了物質阻隔，嚴絲合縫地「咬合」進了槍身內部！",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "不混入後來的巨蟬核心或黑銷",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-FOLD",
+      "name": "空間摺片",
+      "states": [
+        {
+          "chapter": 1,
+          "change": "封在白銀匣中",
+          "custody": "白銀核心匣",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+            "line": 65,
+            "quote": "少女眨了眨那雙亮青藍的十字瞳，嘴角慢慢彎起一個狡黠又帶點危險的弧度：「退了十步，待會那塊空間摺片掉出來的時候，不就便宜別人了嗎？」",
+            "match_count": 4
+          }
+        },
+        {
+          "chapter": 2,
+          "change": "艾莉維亞從匣中帶出並引發交易",
+          "custody": "艾莉維亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+            "line": 183,
+            "quote": "諾亞頭也不回地走下鐵梯，聲音混在吊塢午後喧囂的蒸氣風聲裡，「趁老巴爾還沒反應過來那塊空間摺片到底值多少錢，先去六環把剛才沒吃完的脆肉餅買齊，再買兩串妳的酸果糖，然後出城。」",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "第十二章仍須區分摺片與巨蟬核心、古鏡片",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-ROUTE",
+      "name": "金屬舊路線圖",
+      "states": [
+        {
+          "chapter": 2,
+          "change": "諾亞帶出指向萬鈞鐘心的圖",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+            "line": 151,
+            "quote": "艾莉維亞走到他面前，故意把雙手背在身後，微微傾身湊近了半步，亮青藍的十字瞳裡帶著滿滿的好奇與笑意，「剛才配合得還挺不賴嘛。不過，你還沒告訴我，你最後從箱子底下順走的那張金屬路線圖，上面畫的是哪兒啊？」",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "這張候選路圖不證明有跨世界層道路",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-CICADA",
+      "name": "鏡殼擬態蟬標本／核心",
+      "states": [
+        {
+          "chapter": 4,
+          "change": "核心與殼分別提議分配",
+          "custody": "談判中",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+            "line": 189,
+            "quote": "「赫連先生，看來你們白堊院的炸藥是用不上了。現在這頭大知了歸我們兩個處理——肚子裡那顆核心歸她，車頭裡剩下的舊時代金屬歸我；至於蟲子死後蛻下來的那層『空間結晶外殼』，我們免費送給你帶回白堊院交差。條件是，今天這件事在白堊院的報告裡，叫『雙方友好的學術合作』，怎麼樣？」",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 5,
+          "change": "赫連以標本做交差；艾莉維亞另持核心",
+          "custody": "赫連／艾莉維亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+            "line": 103,
+            "quote": "「願賭服輸。這具完整的成年鏡殼擬態蟬標本，足夠抵銷我那台爆破儀支架的損失，外加向總部交差了。」",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "分件、取樣、委託不代表主角拿走全部甲殼",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-PERMIT",
+      "name": "青銅臨時檢修牌",
+      "states": [
+        {
+          "chapter": 6,
+          "change": "塞拉授予",
+          "custody": "諾亞／艾莉維亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+            "line": 59,
+            "quote": "塞拉修女冷哼一聲，從腰間解下一塊沉甸甸、邊緣澆鑄著鉛封與齒輪聖徽的「青銅臨時檢修牌」，直接從鐵柵欄的縫隙裡扔了過來。",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 7,
+          "change": "諾亞出示後扣回腰帶",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+            "line": 53,
+            "quote": "他沒去碰守衛腰間的武器，只是伸手把絡腮鬍守衛嘴裡那團滿是機油味的破布扯了出來，順手亮了亮自己手裡那塊帶有齒輪聖徽與鉛封的青銅臨時檢修牌，隨即將牌子扣回自己風衣左側的腰帶環上：",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 8,
+          "change": "多恩看見諾亞持有",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+            "line": 23,
+            "quote": "「聯席工務處有人想滅你的口，不代表塞拉修女也知情。那個老太婆脾氣臭歸臭，剛才在底下可是為了主鐘擺的怪聲急得跳腳——她要是想封死消息，何必把這塊臨時檢修牌扔給我們兩個外人進來查病灶？」",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "有限路權；未找到正式歸還或永久通行證據",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-KEY",
+      "name": "頂層十字母匙",
+      "states": [
+        {
+          "chapter": 8,
+          "change": "塞拉交付，卸載前禁拆套",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+            "line": 241,
+            "quote": "說完，老修女這才鬆開鐵手套，將那把沉甸甸的十字母匙交進諾亞掌心。",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 9,
+          "change": "諾亞用來解開頂層安全門",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "line": 81,
+            "quote": "諾亞取出塞拉交給他的十字母匙，解開吊籠出口那道厚重安全門的十字門禁鎖，三人這才踏入軸承大廳。",
+            "match_count": 4
+          }
+        }
+      ],
+      "uncertainty": "後續是否歸還需要另查，不推斷持有終身",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-EVIDENCE",
+      "name": "鉛盒與斷針",
+      "states": [
+        {
+          "chapter": 7,
+          "change": "白瓷面具人保護鉛盒",
+          "custody": "多恩",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+            "line": 227,
+            "quote": "諾亞抬起眼皮，看著十五公尺外渾身是血卻依然死死護著胸口鉛盒的男人，平靜地問道：",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 8,
+          "change": "多恩稱含針證物，不能直接作全陰謀確證",
+          "custody": "多恩",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+            "line": 29,
+            "quote": "「我叫多恩。多恩・斐斯，以前是八區鐘錶坊的學徒，五年前考上了白庭的外聘高空減震校準技師。」年輕男人抹去下巴上的血跡，盯著諾亞腰間的鉛封牌，「當時能從下層考進白庭外聘名單，我還以為自己走了大運，給上頭幹活從來不敢多嘴……不管你們是用什麼辦法讓塞拉放行的，如果我說這只鉛盒裡裝著三天前主軸承被人動手腳的證物，你們信嗎？」",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 9,
+          "change": "塞拉承諾延期交付",
+          "custody": "塞拉",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "line": 381,
+            "quote": "「蒸餃可以吃三份。不過吃完我們得先找家通風好的旅店睡一覺——等三天後塞拉修女把那截斷針送過來，我們再看看接下來是先去左邊的『霜脈散熱嶺』，還是去上面會會那位科爾大結構師。」",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 12,
+          "change": "多恩受託帶來斷針及拓印",
+          "custody": "雙主角",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "line": 303,
+            "quote": "「塞拉審判官說她說話算話，結了案就把這截斷針給你們送來。」多恩指了指鉛管裡那張拓印紙，神色稍微認真了幾分，「不過，今天中午我們工務班用重型切割機把頂層那顆『特級封存諧振母核』從鋼樑上切下來移交的時候，我在母核底座最底下發現了一行被科爾他們用鉛油塗掉的原產地打撈編號，順手幫你們拓了一份。」",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "鉛盒、斷針、拓印是不同物；主張者與實物交付分開",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-MOTHER",
+      "name": "特級封存諧振母核",
+      "states": [
+        {
+          "chapter": 9,
+          "change": "頂層增壓室仍鎖在防爆底座",
+          "custody": "增壓室",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "line": 95,
+            "quote": "只見五坪見方的增壓室中央，果真立著一座重型防爆底座。底座上死死鎖著一台足有半人高、外殼鑄著白庭市政廳特級鉛封銘文的銀白色八角形金屬罐——正是赫連・鴉口中「三天前在市政廳失竊」的那顆【特級封存諧振母核】！",
+            "match_count": 3
+          }
+        },
+        {
+          "chapter": 12,
+          "change": "工班從鋼樑上切下並移交，產地編號被拓印",
+          "custody": "相關工班",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "line": 303,
+            "quote": "「塞拉審判官說她說話算話，結了案就把這截斷針給你們送來。」多恩指了指鉛管裡那張拓印紙，神色稍微認真了幾分，「不過，今天中午我們工務班用重型切割機把頂層那顆『特級封存諧振母核』從鋼樑上切下來移交的時候，我在母核底座最底下發現了一行被科爾他們用鉛油塗掉的原產地打撈編號，順手幫你們拓了一份。」",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "在頂層看到實物≠證明所有罪責及簽章人",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-PIN",
+      "name": "五百年黑銷",
+      "states": [
+        {
+          "chapter": 7,
+          "change": "多恩稱主軸套內不穩定",
+          "custody": "主軸套",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+            "line": 215,
+            "quote": "「不管你們是白堊院的走狗還是十區白庭派來滅口的追兵——想動手就等我把這枚阻尼楔釘死再動！上面主軸承裡那根『黑銷』三天前被人拿剝離針頂鬆了，今天連軸套內襯都磨穿偏了位，現在主鐘擺每盪一次，它都在順著承力鏈往下『切斷』結構連接！你們現在打斷我，不出一個鐘頭，上面那根兩公里長的大鐵槌就會把整座萬鈞鐘心連同你們一起砸進深淵裡去！！」",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 9,
+          "change": "安全卸載後發現黑銷在中央",
+          "custody": "主軸套",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "line": 203,
+            "quote": "只見在直徑兩公尺半的青銅主軸套正中央，確實懸著一根只有一尺長、食指粗細、通體漆黑無縫的古老細圓桿——正是那根服役了五百年的「黑銷」。",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 10,
+          "change": "下掛黑銃且休眠",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+            "line": 211,
+            "quote": "他沒有去動她工具袋裡的研究樣本，也沒有把自己風衣裡那把掛著休眠黑銷的短銃掏出來拆解研究。他只是走過去，輕手輕腳地幫艾莉維亞把掛在床邊的那隻長靴脫下來擺正，拉過床尾的薄毯蓋在她背上；然後走到外間的窗台前，伸手撥開了那枚已經幾十年沒有人敢在白天拉開過的防風重鐵栓，將厚重的雙層黃銅百葉窗，緩緩向外推開。",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 11,
+          "change": "因黑銷擴長換槍套",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+            "line": 25,
+            "quote": "自從昨晚在頂層軸承室把那根一尺長的深黑細桿扣合在槍管下方後，這把原本可以輕鬆藏進腋下短槍套裡的黑銃，底部就多出了一截四寸多長的冰涼黑鐵。此刻那根黑銷依然安安靜靜地沉睡在槍管下方的導槽裡，連半點微光都沒露，但舊槍套的底兜已經被它頂開了線，根本包不住多出來的長度。",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 12,
+          "change": "受寒晶降溫，甦醒僅感覺徵兆",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "line": 271,
+            "quote": "艾莉維亞眼睛一亮，看了一眼箱子內壁那層可拆卸的薄片狀「霜脈寒晶內襯」——",
+            "match_count": 2
+          }
+        }
+      ],
+      "uncertainty": "第十二章依舊不算正式解封／完全掌控黑銷",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-MONOCLE",
+      "name": "古測繪師殘鏡與單眼測距儀",
+      "states": [
+        {
+          "chapter": 6,
+          "change": "老錫匠修復古殘鏡裝置",
+          "custody": "艾莉維亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+            "line": 233,
+            "quote": "老錫匠手腳麻利地從破工具箱裡掏出微型車床與銀焊絲，花了一小段工夫，便車出一個精巧的轉接環，還順手幫她補上了鏡片邊緣缺失的導引銀齒，「咔」地一聲幫她裝進了單眼稜鏡測距儀裡！",
+            "match_count": 2
+          }
+        },
+        {
+          "chapter": 11,
+          "change": "塔里製作可開合護鏡殼",
+          "custody": "艾莉維亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+            "line": 185,
+            "quote": "艾莉維亞拿起自己的單眼測距儀，「咔噠」一聲按了一下側面的微型黃銅鈕——前端那枚原本暴露在外、容易沾灰刮傷的六角古測繪師殘鏡外側，立刻彈開了六片如花瓣般精密咬合的黃銅防塵葉片；再按一下，葉片又瞬間收攏成一面嚴密的小銅蓋。",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "兩次維護屬同儀器不同部件，不要重算成兩件高階遺物",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-HOLSTER",
+      "name": "黑銃槍套",
+      "states": [
+        {
+          "chapter": 10,
+          "change": "諾亞風衣內有黑銃及下掛黑銷",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+            "line": 211,
+            "quote": "他沒有去動她工具袋裡的研究樣本，也沒有把自己風衣裡那把掛著休眠黑銷的短銃掏出來拆解研究。他只是走過去，輕手輕腳地幫艾莉維亞把掛在床邊的那隻長靴脫下來擺正，拉過床尾的薄毯蓋在她背上；然後走到外間的窗台前，伸手撥開了那枚已經幾十年沒有人敢在白天拉開過的防風重鐵栓，將厚重的雙層黃銅百葉窗，緩緩向外推開。",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 11,
+          "change": "舊槍套不適配",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+            "line": 25,
+            "quote": "自從昨晚在頂層軸承室把那根一尺長的深黑細桿扣合在槍管下方後，這把原本可以輕鬆藏進腋下短槍套裡的黑銃，底部就多出了一截四寸多長的冰涼黑鐵。此刻那根黑銷依然安安靜靜地沉睡在槍管下方的導槽裡，連半點微光都沒露，但舊槍套的底兜已經被它頂開了線，根本包不住多出來的長度。",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 11,
+          "change": "塔里製作新長套並已裝備",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+            "line": 189,
+            "quote": "另一邊，諾亞也將那條嶄新的深黑泥鰻皮長槍套扣在了自己風衣內側的肩帶上，順手將連著一尺黑銷的深黑短銃插了進去。",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "第十二章不得再使用初版短槍套而不解釋",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-BOX",
+      "name": "霜脈寒鐵匣",
+      "states": [
+        {
+          "chapter": 12,
+          "change": "老克里普贈送，內部寒晶內襯可分拆",
+          "custody": "雙主角",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "line": 269,
+            "quote": "「兩位年輕人，剛才要不是你們出手鎮住白庭那幫惡犬，我這盒子還有這口氣，今天肯定都得被他們砸了！這只『霜脈寒鐵匣』其實是二十二年前一位路過九區的散熱嶺老鐵匠送我的樣品匣，裡頭的寒晶內襯不用充電就能常年保持零下低溫。現在蛋糕拿出來了，這空匣子留在我手裡也沒用——我看這位姑娘剛才買了極寒淬火脂，這只寒鐵匣就送給你們裝東西吧！」",
+            "match_count": 1
+          }
+        },
+        {
+          "chapter": 12,
+          "change": "取出一片冷卻黑銷",
+          "custody": "諾亞",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "line": 271,
+            "quote": "艾莉維亞眼睛一亮，看了一眼箱子內壁那層可拆卸的薄片狀「霜脈寒晶內襯」——",
+            "match_count": 2
+          }
+        }
+      ],
+      "uncertainty": "寒晶材料不是已證永久零耗能黑銷增幅器",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    },
+    {
+      "id": "OBJ-TICKETS",
+      "name": "早班火車目的地",
+      "states": [
+        {
+          "chapter": 9,
+          "change": "主角討論之後去哪",
+          "custody": "意向",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "line": 355,
+            "quote": "「拿著！這是五百枚銀鉚券的底槽緊急制動搶險費，外加兩張能直接通過八區上行檢查站、前往左翼『霜脈散熱嶺』或上層外環的正式重軌通行證！至於鉛盒裡那截斷針，既然你們對這鬼東西感興趣，等老娘三天後拿它跟上面那顆母核把科爾的皮扒下來，自然會讓人送去你們落腳的工坊！」",
+            "match_count": 2
+          }
+        },
+        {
+          "chapter": 12,
+          "change": "次日交通計畫，尚未登車",
+          "custody": "意向",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "line": 321,
+            "quote": "「看來連老天爺都在催我們去泡溫泉、找鍛造師傅呢。怎麼樣，諾亞先生，今晚吃完老太太的最後一頓晚飯，明天早上我們就搭早班火車去『霜脈散熱嶺』？」",
+            "match_count": 1
+          }
+        }
+      ],
+      "uncertainty": "不是已到W09或已跨厚界K的交通紀錄",
+      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "version_scope": "CANDIDATE"
+    }
+  ],
+  "time_place_checks": [
+    {
+      "id": "TIMING-001",
+      "subject": "第七至九章底錨塔救援",
+      "rule": "第七章搭二號吊盤→第八章塞拉乘回送二號吊盤抵九百米→第九章先修一號吊籠再上兩千米；中間不可跳過"
+    },
+    {
+      "id": "TIMING-002",
+      "subject": "第九至十二章斷針",
+      "rule": "第九章允諾三日後送針→第十一章仍說等兩日→第十二章多恩實際帶來，確切日數應再核季節/白晝"
+    },
+    {
+      "id": "TIMING-003",
+      "subject": "第十二章交通",
+      "rule": "出發是提案，未實際乘早班車；停擺後交通減班和道路法權必須保留"
+    },
+    {
+      "id": "TIMING-004",
+      "subject": "跨世界層",
+      "rule": "此12章上升的月台/城市/塔高度不構成完整宏觀W跨層實證"
+    }
+  ],
+  "caveat": "按檔案順讀候選原文核對引文；摘要屬情境定位而非作者已批准的事件。早期Gemini舊版和11/08合輯間仍需另存版本差異，任何實物歸屬採最小證據邊界。"
+}
