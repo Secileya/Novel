@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 import {resolve,dirname,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 const HERE=dirname(fileURLToPath(import.meta.url)),ROOT=resolve(HERE,'../..');
-const ledger=JSON.parse(fs.readFileSync(resolve(HERE,'20261109_171待深審_第七批視覺與敘事研究仲裁.json'),'utf8'));
+const ledger=JSON.parse(fs.readFileSync(resolve(HERE,'20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json'),'utf8'));
 const bad=[],seen=new Set(),cached=new Map();let anchors=0;
 function source(path){
  if(typeof path!=='string'||!path||path.startsWith('/')||path.includes('\\')||path.split('/').includes('..'))throw Error('unsafe path');
