@@ -1029,7 +1029,7 @@ function selfTest(corpus) {
   assert(reviewedOpen.reviewed_source_impact_and_recheck.matched_reviewed_records.some(x=>x.id==="SRC-171-020"));
   assert(reviewedOpen.reviewed_source_impact_and_recheck.related_version_decisions.some(x=>x.id==="VER-011"));
   assert(reviewedOpen.reviewed_source_impact_and_recheck.suggested_source_paths_to_reread.some(p=>p.includes("111_雙開篇連續試演")));
-  assert.equal(reviewedOpen.reviewed_source_impact_and_recheck.reviewed_records_in_repository,41);
+  assert.equal(reviewedOpen.reviewed_source_impact_and_recheck.reviewed_records_in_repository,auditedClaimByID.size);
   const reviewedChapters=query("G9B G10 第七章 第八章",corpus);
   assert(reviewedChapters.version_compatibility_ledger.some(x=>x.id==="VER-012"&&
     x.linked_verified_audits.some(a=>a.id==="SRC-171-009")));
