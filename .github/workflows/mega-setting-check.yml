@@ -43,7 +43,7 @@ jobs:
       - name: Dynamic report separates coverage dimensions
         run: |
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --report > "$RUNNER_TEMP/mega-coverage.json"
-          node -e "const r=require(process.argv[1]), l=require(process.argv[2]), c=r.dynamic_coverage;if(c.raw_source_files!==c.direct_fine_grained_source_paths+c.source_role_backlog||c.targeted_reviewed_claims!==r.targeted_reviewed_findings||c.verified_source_quotes!==r.verified_exact_quotes||c.full_file_editorial_accepted!==l.accepted_editorial_file_count||c.full_file_editorial_remaining!==l.remaining_for_full_file_semantic_acceptance||!String(c.full_file_semantic_review_completed).startsWith('EDITORIAL_ATTESTED'))process.exit(2)" "$RUNNER_TEMP/mega-coverage.json" '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json'
+          node -e "const r=require(process.argv[1]), l=require(require('path').resolve(process.argv[2])), c=r.dynamic_coverage;if(c.raw_source_files!==c.direct_fine_grained_source_paths+c.source_role_backlog||c.targeted_reviewed_claims!==r.targeted_reviewed_findings||c.verified_source_quotes!==r.verified_exact_quotes||c.full_file_editorial_accepted!==l.accepted_editorial_file_count||c.full_file_editorial_remaining!==l.remaining_for_full_file_semantic_acceptance||!String(c.full_file_semantic_review_completed).startsWith('EDITORIAL_ATTESTED'))process.exit(2)" "$RUNNER_TEMP/mega-coverage.json" '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json'
       - name: Handoff next-task route and safe task selection
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --task NEXT > "$RUNNER_TEMP/next-agent-task.json"
       - name: Full-file editorial acceptance validator syntax
