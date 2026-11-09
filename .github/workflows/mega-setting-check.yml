@@ -4,10 +4,12 @@ on:
     paths:
       - '小說/巨構世界（法月懷造物）/**'
       - '.github/workflows/mega-setting-check.yml'
+      - '.gemini/commands/mega/**'
   pull_request:
     paths:
       - '小說/巨構世界（法月懷造物）/**'
       - '.github/workflows/mega-setting-check.yml'
+      - '.gemini/commands/mega/**'
 jobs:
   settings-query-test:
     runs-on: ubuntu-latest
@@ -99,6 +101,8 @@ jobs:
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十三批來源錨點.mjs'
       - name: Batch13 original source SHA and corrupt-proof regression
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十三批來源錨點.mjs' --negative-test
+      - name: Gemini CLI custom command TOML parse
+        run: python3 -c "import tomllib; tomllib.load(open('.gemini/commands/mega/voice.toml','rb'))"
       - name: Gemini CLI voice command wiring syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證Gemini語庫執行接線.mjs'
       - name: Gemini 105 059 voice input and no-quota wiring regression
