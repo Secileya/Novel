@@ -1,0 +1,22 @@
+# 來源覆蓋率與完整審核｜下一任 AI 統一統計口徑
+
+> 工程管理文件，非Canon。須執行 `AI接手_狀態檢查.mjs --report` 讀取 `dynamic_coverage` 之現行本地台帳數據；查最新GitHub狀態仍需重新核實 HEAD／CI。
+
+| 報表欄位 | 現行值與來源 | **不代表** |
+|---|---|---|
+| `raw_source_files` | 335，物理清冊 | 335整檔理解完畢 |
+| `direct_fine_grained_source_paths` | 164，缺口清冊既有直接細粒度引用 | 164整檔全文審畢 |
+| `source_role_backlog` | 171，有SHA／局部引文／來源用途卡 | 171完全沒讀過，也不是已全部審完 |
+| `machine_screened_dossiers` | 213，歷史分卷機器初篩 | 213現今未讀或完成Canon |
+| `version_literal_diff_pairs` | 37，候選文本逐行比較 | 37組語義均已解決 |
+| `human_semantic_version_issues` | 14，人工重要問題 | 37組全部細緻完成 |
+| `targeted_reviewed_claims` | 55，第四／五／六批定向判讀 | 55份來源全文審畢 |
+| `verified_source_quotes` | 147，SHA＋行號引文 | 147條Canon事實 |
+| `version_decisions` | 13，有版本權威與相容判斷 | 13個正式小說事件 |
+| `full_file_semantic_review_completed` | `NOT_ESTABLISHED` | 不能由其他任何欄位倒算全文完成數 |
+
+**歷史快照不能被當成同時期現況。** 舊文件曾記251、213、182、41／111等數字，出自不同時間及不同「直接引用」口徑，原文不該被洗掉；新接手第一步以本檔及`--report`的當前數據為準。引用一條原文、製作一張來源用途卡、完成一份整檔語義對讀，是不同工作層次。第六批雖涉及171清冊中五份原稿，**仍不能把171擅自減成166**。
+
+整檔完成至少需要所有重要原子命題、作者後出修正、版本衝突、人物知情與文本接續全面對照，有獨立可驗證整檔驗收紀錄，再更新清冊。
+
+每次回覆固定報告：**本輪實際完成／仍未完成／下一步任務ID和第一動作／已核實的commit與CI（或尚未核實）**。若只有GitHub連接器而沒本機checkout，不能聲稱跑了本地腳本。正式正文0章、PREWRITE HOLD。
