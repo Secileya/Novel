@@ -1,0 +1,2149 @@
+{
+  "schema": "mega-171-candidate-source-roles-v1",
+  "review_date": "2026-11-09",
+  "records": 77,
+  "version_relationships": 37,
+  "cards": [
+    {
+      "id": "COV-DRAFT-001",
+      "source_path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+      "source_group": "待定正文",
+      "source_function": "11/08最新補丁順讀第01–12章合輯；將11/08已套的候選章逐章連排，不是單一作者正式定稿。",
+      "family": "REFERENCE_OR_UNSELECTED_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 《巨構世界》｜第01～12章最新補丁候選・完整合輯",
+          "quote": "> **整合閱讀版／CANDIDATE、NON-CANON**。正式正文0章／PREWRITE HOLD。這是依 GitHub 當前已套補丁選出的「最新可連續閱讀」候選，**不是作者正式選定的 Canon**。第七、八章使用 11/08 A/B/C＋極簡 D 版；第09～12章使用已完成後出局部補丁的完整稿。"
+        },
+        {
+          "line": 13,
+          "heading": "## 目錄",
+          "quote": "| 03 | [第03章｜過風鐘與多餘的凹槽](順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md) |"
+        },
+        {
+          "line": 124,
+          "heading": "# 第01章｜懸艙開箱日",
+          "quote": "諾亞左腳抵住鋼欄底座猛地發力一拽，在鋼索掃碎整個鐵皮攤位的瞬間，硬生生把一百六十斤的攤主連同他懷裡的錢箱拽進了內側走廊！攤主一屁股摔在地上，驚魂未定地看著自己剛才站立的地方被鋼索抽出一道半米深的豁口，嘴唇哆嗦著剛想轉頭道謝，就看見救了他的黑風衣青年順手彎下腰，從翻倒在地的鐵篩裡，夾走了唯一一塊沒沾到灰的脆肉餅。"
+        },
+        {
+          "line": 234,
+          "heading": "# 第02章｜十噸重的帳單",
+          "quote": "號稱能硬扛重砲轟擊的二級文明力場盾，在十噸純粹物理質量的正面碾壓下，只撐了不到零點三秒就如同玻璃般轟然炸碎！如果這座「六號緊急洩載緩衝坑」還完好無損，十噸重錘砸進坑裡，最多也就是把古斯塔壓成肉泥，然後被坑底的兩塊重型減速阻尼楔死死卡住。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-002",
+      "source_path": "待定正文/01_版本差異_ChatGPT與Gemini開篇逐項比較.md",
+      "source_group": "待定正文",
+      "source_function": "編輯比較ChatGPT開篇A/B/B2與Gemini不同候選G版本的互斥及較晚修訂，不可把兩種開篇接在同一時間線。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "## 第177–182份新增：Gemini第五章尾段改線A/B（2026-11-04）",
+          "quote": "- **A線**：原[第175第五章](純正文_Gemini/第五章_G7_剖蟬放血與逃票的手搖車_候選.md)留燈同乘進入鐘心鎮，塞拉帶隊封鎖貨站；最後雙主角聲稱白堊院特聘來修鐘擺。"
+        },
+        {
+          "line": 10,
+          "heading": "## 2026-11-04 後出增量：新增G5／G6／G7但不改既有首篇互斥關係",
+          "quote": "在原G2第一章＋G3第二章之後，另有三個從2026-11-04聊天可見回答轉存的候選連續章節：[G5第三章](純正文_Gemini/第三章_G5_過風鐘與多餘的凹槽_候選.md) → [G6第四章](純正文_Gemini/第四章_G6_舊軌上的買路錢_候選.md) → [G7第五章](純正文_Gemini/第五章_G7_剖蟬放血與逃票的手搖車_候選.md)。G5/G6/G7是**本庫方便檢索使用的自訂代號**。另有[熟稔後獨立猜拳場景](其他場景/Gemini_墜落深坑的剪刀石頭布_熟稔後獨立試寫.md)，不算此線已完成的第六章。**此新增不構成採案**，第176稽核指出G3與G5間的供能匣／"
+        },
+        {
+          "line": 14,
+          "heading": "# 待定正文｜ChatGPT 與 Gemini 版本差異（截至 2026-11-04）",
+          "quote": "> **版本定位**：比較已可從 GitHub 取回的**實際文本**，而不是比較「誰提出的設定更大」。本文件是編輯分析，不是正文。資料原件保持原樣，所有小說候選 **NON-CANON／PREWRITE HOLD，正式章數仍為 0**。"
+        },
+        {
+          "line": 22,
+          "heading": "## 一、版本對照：真正寫了哪些章節？",
+          "quote": "| GPT-66 | [第066 熟人開篇](ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md) | 一章長篇試寫，角色開始時已相識 | **因正式開篇須雙主角真初見，不能原樣用作第一章**；可用為後期日常事件素材 |"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-003",
+      "source_path": "待定正文/02_Gemini排版整理與原文完整性核對.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini G1–G3原生TXT與排版版的保真核驗；G3閱讀版後來有用詞／原槍知情校正，已非原TXT逐字一致。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# Gemini 貼文排版修整與原文完整性核對",
+          "quote": "> 原始排版驗收日期：2026-11-04。**以下「字句與 TXT 完全一致」是當日首次排版結果；後出局部校訂已修改 G3 第二章兩種閱讀版的3處人物稱呼及2處原槍知識邊界。第155份原始TXT未修改，故現行G3閱讀版不再逐字等同 TXT。**正式正文章數仍為0。詳見[校訂紀錄](../00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md)。"
+        },
+        {
+          "line": 11,
+          "heading": "## 實際更新的小說正文閱讀版",
+          "quote": "| [G3 第二章初版](純正文_Gemini/第二章_G3_十噸重的帳單_目前唯一完整稿.md) | 29 | **89** | 首次排版時一致；**後出局部用詞／知識校訂已不一致** |"
+        },
+        {
+          "line": 18,
+          "heading": "## 實際新增的三份完整回覆「排版版」",
+          "quote": "- [第154份｜G2 第一章＋宏觀世界層地圖](Gemini排版全文/154_G2_懸艙開箱日_世界層地圖與第一章_完整排版.md)"
+        },
+        {
+          "line": 28,
+          "heading": "## 原始檔案仍保留",
+          "quote": "- [154 原生TXT全文](../09_跨AI原始來源/154_Gemini原始對話封存_第一章距離因果修訂與試寫_完整貼文.txt)"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-004",
+      "source_path": "待定正文/已選未發生/ChatGPT_第051_第三個座位_已選未正式發生.md",
+      "source_group": "待定正文",
+      "source_function": "〈第三個座位〉已選未發生的後出採用場景保存，不代表市場位置、首次相遇時間與之後同行已定。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 5,
+          "heading": "# 候選場景 51｜諾亞、艾莉維亞第一次遇見 Celeste：第三個座位",
+          "quote": "> 2026-10-19。使用者要求「把一般通行者寫的可能刪掉，甚至我都想刪掉高階能力的可能，但可以先留懸念，然後模擬一下主角們第一次遇到Celeste」。"
+        },
+        {
+          "line": 17,
+          "heading": "## 初次相遇：第三個座位（情緒與對話示範）",
+          "quote": "午後的人工日光穿過數十道高懸金屬梁架，落在轉運市集的街道上。巨型貨櫃沿懸軌滑過，機械聲、商販叫賣聲與遠方的交通鐘聲混在一起。欄杆之外，是深得看不見底部的空間。"
+        },
+        {
+          "line": 259,
+          "heading": "## 作者層核對",
+          "quote": "**全段未定 Canon**：相遇是否真的在市場、是否吃甜餅、兩人是否已經買過雙人車票、彼時戀情階段、此後 Celeste 是否同行／再次出現，全未定。終焉迴廊的出發位置、啟動實際條件、白光出口也未定。"
+        },
+        {
+          "line": 263,
+          "heading": "## 2026-10-20｜後出讀法修正（不改原候選對話與結尾）",
+          "quote": "**使用者原意優先**：「其實下次見呀本身應該是常說的話，但結合人物，和一種意境導致可能有更多意思，而且不是很明顯但又感覺有。」第51篇原有收尾**保持原字、原停頓與普通道別口吻**。瑟莉思媞在攤位上獨自吃掉最後一小塊甜餅、想起母親、望向上行列車，然後輕笑「下次見呀。」這場戲已完成她單純來看看並聊天的私人目的。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-005",
+      "source_path": "待定正文/其他場景/ChatGPT_第019_女主兩場獨立能力場景.md",
+      "source_group": "待定正文",
+      "source_function": "第019女主兩段獨立高階能力測試，對完好前文明守衛交涉以及非男主原槍的重大事件，不是戰力公式。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 討論候選 19｜女主獨立能力的兩場場景實測",
+          "quote": "> 2026-10-18。使用者回覆「好」，同意先前提案：**寫出一場女主獨自對抗真正高階敵人的戰鬥，以及一場不用男主那把槍的重大事件，測試女主能力、角色表演與獨立性**。"
+        },
+        {
+          "line": 13,
+          "heading": "## 場景測試一｜沒有破損的前文明兵器",
+          "quote": "**測試目標**：女主獨自與仍正常運作、可反制她能力的前文明高階守衛交手，不依賴男主、不靠敵人突然故障或被超低科技「改進」打敗；動作、垃圾話、決策與原理性限制共存。結局是她逼對方從強制隔離改為允許醫療與身份複核，不是殺死守衛。這是**此輪故事測試的局部結局**，不是她已確定只能打成平局的戰力設定。"
+        },
+        {
+          "line": 255,
+          "heading": "### 測試讀法",
+          "quote": "- 女主主動交涉、打趣、受威脅後認真，不是全程冷面強者。她的戰鬥目標是放人，不是每遇到高階武裝就比誰炸得更大。"
+        },
+        {
+          "line": 260,
+          "heading": "## 場景測試二｜讓一座城市繼續存在",
+          "quote": "**測試目標**：女主不用男主頂尖槍、沒有男主在場，獨立解決大型水利危機；高階規則不是替代所有其他人的知識、工作、經濟與制度。受損的是**殞落後當地居民興建／改裝的普通水利工程**，不要錯寫成原初前文明核心因自然老化損毀。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-006",
+      "source_path": "待定正文/其他場景/ChatGPT_第064_還有兩張票_開場片段及地方事件.md",
+      "source_group": "待定正文",
+      "source_function": "第064地方事件與開篇『還有兩張票』試寫，舊貨索、葛桑與貨運利益可作候選事件而非正式城史。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 候選實作 64｜第三階段：兩件有始有終的地方事件，與一段可以真正開篇的旅程",
+          "quote": "> 建立：2026-10-19。承接 [62 四地／交通](../../02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md) 與 [63 初期能力／人物](../../04_能力武器與試煉/063_候選實作_雙主角初期能力_成長追尋_活人物群像與互動.md)，具體交付 **5 地方事件與長期人物線＋1 主角開篇與首段旅程**。同時遵守 [31 事件因果骨架](../../06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md)、[34《倒行潮》舊候選](../../07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸"
+        },
+        {
+          "line": 9,
+          "heading": "## 一｜事件 A：《舊索最後一班》——不是打倒壞人，而是那條路真的老了",
+          "quote": "> **地域**：舊 [62 折索集市](../../02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md) 與外緣藥品中繼聚落之間的貨索。可能是開篇第一件事件，也可能是故事之後回來遇見的人生插曲。可全部推翻。"
+        },
+        {
+          "line": 15,
+          "heading": "### 核心人物各自想要的結果（不只寫「利益衝突」四個字）",
+          "quote": "- **葛桑**：想讓這條舊線合法多跑一趟，爭取延長拆除公告；她有充分理由但也隱藏了過去一次不太符合規定的局部換件，若曝光得承擔商業及法律責任。她可以說謊、付錢、威脅證人，但不是突然要殺光技師。"
+        },
+        {
+          "line": 39,
+          "heading": "### 若主角決定不插手？",
+          "quote": "葛桑仍須面對退役令，邱賀不會因沒英雄就願意簽字；貨物轉路、延誤、賠償與員工失業仍可能發生。**這是先確立的地方社會因果，不是被主角決定才存在的任務。**"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-007",
+      "source_path": "待定正文/其他場景/ChatGPT_第088_首次死亡與復歸短篇.md",
+      "source_group": "待定正文",
+      "source_function": "第088諾亞首次真正死亡與復歸感受試寫；首次死亡前不知道可復歸、旁觀者也不直接知來源。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第88份｜諾亞第一次真正死亡：從死亡感覺、意識中斷到復歸後第一次醒來",
+          "quote": "> 來源：使用者 2026-10-20 要求「順便處理一下主角第一次死亡到底會經歷什麼，復活怎麼運作到他活起來的感受」；承接第13、28、36、37以及第84、85。**本檔既記錄可確認的客觀規則，也提出可以直接試讀的敘事候選；不擅自宣告死亡期間有固定神明、白光、虛無、對話或精確數字。**"
+        },
+        {
+          "line": 10,
+          "heading": "## 一｜先把「作者知道的真相」和「角色能感到的事」分開",
+          "quote": "- 諾亞在第一次實際死亡之前**完全不知道自己能復歸**，死前的自救、恐懼和抉擇必須真實，不得當成「死了也無所謂」的熟練操作。"
+        },
+        {
+          "line": 27,
+          "heading": "## 二｜為何「死亡本身」不該像已知的遊戲重生",
+          "quote": "- 第一次見證復歸不是首次**理解復歸規則**。他可以感到震動、恐懼、荒謬或好笑，卻不能因一次觀察便推出全部有效性與真正來源。"
+        },
+        {
+          "line": 35,
+          "heading": "## 三｜三種敘事選擇：不是同時適用的強制流程",
+          "quote": "**C：從艾莉維亞一側目睹死亡，再切到諾亞的初醒**。若她已建立感情、身處同場而不降能力，就可帶出真正的死亡對另一人的影響。她可能先出手、檢查、處理仍在威脅的局勢，確認死亡；之後她的世界繼續走，而諾亞那邊經歷感官斷檔。兩個人回見的時間可以錯開、情感不必同頻。具體初死是否讓她親眼見證仍未定。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-008",
+      "source_path": "待定正文/其他場景/ChatGPT_第096_空心古根商旅與紫瞳少女.md",
+      "source_group": "待定正文",
+      "source_function": "第096古根中真實小商旅與少女的非正史相遇，植物根洞是可走道路，但人物相遇未正式發生。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第96份｜非正史候選場景：空心古根裡的小商旅、偶遇紫瞳少女與多年後的尋常重逢",
+          "quote": "> **全部候選、非正式正文。**承接 [95 Celeste傳說／真假祭壇／小旅團研究](../../01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md)。此文僅示範**「真正可見的巨型植物內部道路＋一群有日常生計的旅人＋少女普通相遇＋後來可能辨認同一人」**，不擅自建立固定地理、物種生理、年齡、祭壇真相、主角團名冊或任何正式年表。新人物全部暫名，不預設必入主角團。Celeste 在第一段正文**不以真名及最高身分被旁白揭露**；她的外貌以已定第06份冷色長髮／亮紫瞳為依據，無「必定發光神降」演出。"
+        },
+        {
+          "line": 13,
+          "heading": "# 候選片段一｜從根裡穿過去",
+          "quote": "從外面看，它像一道倒斜著穿過古老建築的山脊。大片青灰色根皮裹住了原有的混凝土肋梁，頂端生出成片嫩葉，底下則被雨水與幾百年的腐爛掏空了一條歪斜的通道。"
+        },
+        {
+          "line": 229,
+          "heading": "# 候選片段二｜很久以後，一句忽然想起來的話",
+          "quote": "她只是忽然有點高興：原來在那樣遙遠、滿是濕苔和老木纖維的角落，自己遇見的人，竟然有一天也會出現在別人的故事裡。"
+        },
+        {
+          "line": 236,
+          "heading": "## 試寫後的權威隔離與可調處",
+          "quote": "- **巨型植物內道路有明確形體**：部分活部分死、粗纖維內壁、斜穿支架、鋼網補路、裂孔可見深層交通、立體根橋、休息臺與維修屋；不是普通城市的人行地下道套上「巨樹」形容詞。物種、尺度、維修歷史與正式名稱仍候選。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-009",
+      "source_path": "待定正文/其他場景/ChatGPT_第100_根橋與捕食者_巨龜城.md",
+      "source_group": "待定正文",
+      "source_function": "第100根橋捕食者／龜背城場景，旅人、植被微生物與龜背居民共存，地理距離和政權仍候選。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第100份｜非正史場景實驗：根橋上的捕食者、小旅團、巨型植物海與遠方龜背城",
+          "quote": "> 全篇**非正式正文、可推翻候選**；不屬於第91–92候選的正式接續，也不替諾亞／艾莉維亞固定首次遭遇。依使用者2026-10-20提出的根莖橋→各向巨型植物→通向層頂大樹→大小出入口與挖掘洞→真正的捕食者→巨龜背殼群落→異種旅商／等級／通緝等元素作一次具體可見的場景實驗。人物、物種名稱、地理距離、法律、戰力尺度與機制皆為**局部可改的小說前提**。明確區分這段「當地普通商旅」與現有雙主角高階實力，不用小旅團的作戰難度去降格諾亞、艾莉維亞。"
+        },
+        {
+          "line": 11,
+          "heading": "# 橋在生長，路還要走",
+          "quote": "央竹第一次踩上去時，鞋底被黏住了一瞬。她低頭，看見灰褐色的根皮裡滲出細細的水線，順著很深的縱向纖維槽往下流。纖維縫間夾著泥和幾片極小的銀色葉子，有不知名的小蟲正沿著水線搬運花粉。"
+        },
+        {
+          "line": 321,
+          "heading": "## 候選後續｜活樹裡的貨站，和會移動的城市",
+          "quote": "兩組高架軌沿著植物壁面彎過去，一條小型運貨帶正把貨箱送進另一處枝腔。靠外的餐館只開半面門，店主正在替幾名遠征者盛湯，其中一名女生背著採樣箱，耳後有半透明的呼吸褶，跟羅沅討論另一世界層的藥材行情。"
+        },
+        {
+          "line": 465,
+          "heading": "## 作者層事件稽查與續篇入口（不屬正文）",
+          "quote": "**一、當下的人物想做什麼**：羅沅想準時送藥、保住商業信用；央竹因尋找自己的生活方向而搭車，也有真好奇；嚴策受僱帶路，懂地圖和生態但不能控制全世界。站務、醫師和龜背商人都有與主角不同的生活，不在鏡頭時亦繼續工作。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-010",
+      "source_path": "待定正文/其他場景/ChatGPT_第117_五組巨構荒野場景樣稿.md",
+      "source_group": "待定正文",
+      "source_function": "第117巨構荒野五類場景包含有人生活的鋼鐵森林、機關與工業年代，不把荒野一律寫沒居民。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第117份｜巨構荒野的實際小說寫法：完整場景、人口差異、機關後果與B案敘事節點QA",
+          "quote": "> 日期：2026-10-21。承接[115新世界層語義](../../02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md)、[116本批巨構荒野圖片與有人社會](../../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md)。**使用者要的不是更多群落名字和荒野分類名，而是正文中真正看得到、聽得到、能走過、有機關與有完整社會的巨構荒野。**"
+        },
+        {
+          "line": 11,
+          "heading": "## 一｜先明確「荒野」在小說裡不是固定空無人煙",
+          "quote": "使用者先說「缺少荒野的描寫，鋼鐵森林，混泥土構成的，或其他種類的」，並特別指出**機關、電梯、荒涼密布叢生、灰矇矇、暗、不明覺厲的遺跡**。助手一度誤把「荒涼」強化成「沒有正常生活聲音、幾乎無人」，使用者立刻修正：「**不一定沒有人**」。"
+        },
+        {
+          "line": 24,
+          "heading": "## 二｜非正史短場景A：灰色鋼鐵森林裡的一班早車——有人，卻依然像荒野",
+          "quote": "> **功能**：讀者感到空間遠大於小城、鋼構有多代年代、仍有生活交通。這版可以換成任何人物，不預設諾亞／艾莉維亞正式在場。"
+        },
+        {
+          "line": 66,
+          "heading": "## 三｜非正史短場景B：泵站不是寶箱——一次普通人的手動機關與真實下游",
+          "quote": "> **功能**：在有效的工程系統上建立人際與後果；可被改寫成高階主角插手或不插手的劇情，不暗定任何地名。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-011",
+      "source_path": "待定正文/其他場景/ChatGPT_第121_三段景觀與人物短場景.md",
+      "source_group": "待定正文",
+      "source_function": "第121依使用者九張景觀圖片研究組合方案與三段短場景；景色可採但實際落點尚未核定。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第121份｜九圖直接入世：擴張、拼接與既有原創同存的空間方案＋非正史敘事演練",
+          "quote": "> 2026-10-21。承接[119｜使用者直接准用景觀](../../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜本輪九圖逐張完整觀察](../../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[116｜較早一批巨構荒野影像](../../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md)。**使用者允許直接搬入照片畫面的建築、場景與關係，不須每次只吸收抽象風格；也准許自行擴張、拼接，既有原創仍存在，過"
+        },
+        {
+          "line": 11,
+          "heading": "## 一｜作者層新增一道「視覺景觀准用」欄，放在正式地理和純研究之間",
+          "quote": "以往常將有價值的畫面拒絕成「不能照搬」，長期造成**看過很多漂亮圖，小說實際卻只有群落名稱／路線數據**的落差。第119更新：對於使用者交來的風景，**可以明確說採其空間形態**；正式小說實際寫進哪一處和誰居住仍依正文因果決定。"
+        },
+        {
+          "line": 23,
+          "heading": "## 二｜組合方案A（助手候選）：「夕照斷環—潮岸遠景」：F01＋F02＋原第001的大空域水域",
+          "quote": "## 二｜組合方案A（助手候選）：「夕照斷環—潮岸遠景」：F01＋F02＋原第001的大空域水域"
+        },
+        {
+          "line": 33,
+          "heading": "### A2. 一版可行S/V/J/T/H（不是唯一答案）",
+          "quote": "- **S／支承**：大空域周圍有厚重承力壁、環帶支座與斷裂的後代工程；空中殘構可能由仍完整的若干隱蔽主承力件支住。若必須真浮空，則另外設定局部高階重力／空間技術，**不把所有空中碎物一律歸為C，也不把Celeste當萬能解釋器**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-012",
+      "source_path": "待定正文/其他場景/ChatGPT_第139_無名母女記憶_整合試寫.md",
+      "source_group": "待定正文",
+      "source_function": "第139匿名母女與未完成道路記憶的整合非正史試寫，不能由記憶片段推定客觀Celeste歷史。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第139份｜未署名記憶：還沒有建成的路（完整非正史整合試寫）",
+          "quote": "> **2026-10-22。本份是第138修訂決定所要求的完整版場景試寫，尚未作正式章節Canon。** **正式正文0章，PREWRITE HOLD；此場景只供使用者檢視情感與世界細節，未經採案不得視為正式已發生歷史。** 原有母女記憶試寫分為：**A最初的匿名版**（設計上行道路→居民城市與麵包店→有危險卻被藏起來的秘密道路原型→想給抵達者禮物），和**B後出溫暖版**（母親真心誇獎孩子、有摸頭和擁抱、與她共同修改、母親「現在就已經很喜歡了」而非連續挑錯）。使用者最新要求**兩版優點均保留**，並明確指出正式給讀者看的記憶**不能在敘事裡寫出法月懷／瑟莉思媞真名**，應像最初A版，只讓人"
+        },
+        {
+          "line": 57,
+          "heading": "### 《還沒有建成的路》",
+          "quote": "「上面的人總不能都只往上跑吧？他們也會有想回去的地方呀。」"
+        },
+        {
+          "line": 617,
+          "heading": "## 二｜這個記憶不是「媽媽說好」就結束：當下就成立的四層故事價值",
+          "quote": "1. **地理與交通資訊不是抽象設定**：模型裡有往上、往下、側向道路，還有看似近卻實際隔很遠的地方；諾亞與艾莉維亞會聯想到真正走過的路，也可能注意到某個後來的城市布局與當時模型相似。"
+        },
+        {
+          "line": 624,
+          "heading": "## 三｜讀者與雙主角在不同時間點可能如何理解這份記憶",
+          "quote": "**首次觀看，尚不知真身**：可合理理解為某種古老建構模型留下的兩人互動。記憶沒有姓名、完整面孔、可比對音色，也沒有讓「母親」以世界管理者的全知視角講技術科普。兩人可能對模型與自己眼前靜謐終段的相似感興趣，也可能談那家小小麵包店、那位非常疼愛孩子的母親，乃至到底多少現存地域來自這套設計。**不能憑一份這樣的殘影精確指名瑟莉思媞／法月懷**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-013",
+      "source_path": "待定正文/其他場景/ChatGPT_第150_走到這裡的人_靜謐迴廊.md",
+      "source_group": "待定正文",
+      "source_function": "第150靜謐迴廊長篇試寫、白髮和原槍模組的候選演出；現實事件和能力A1／主樞核均未定。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第150份｜非正史長篇試寫：《走到這裡的人》",
+          "quote": "> **2026-10-22｜完整長篇候選場景，非正式正文，PREWRITE HOLD／全書正式正文仍0章。** 承接第037、040–041靜謐終橋，第059／060雙主角巨大獎勵，第136／149視覺，第137–138／140–143能力試案，第139匿名母女記憶，第144–145神情／轉換修正。**本稿刻意試用**：諾亞「主執行樞核／局部系統持續施行」；艾莉維亞「自身原界→有限作用新述」的A1示例，**不是用戶已核定的原理**。A2影子倒影的反向攻擊未在此當成自動解鎖的完整常規招式。路線圖、歸點圖譜、成就紀念的具體器物與寫法都是場景所需的助手候選。此處的共同生活／熟悉程度假設二人已有很長"
+        },
+        {
+          "line": 19,
+          "heading": "## 《走到這裡的人》",
+          "quote": "她見到他的第一句話是：「你就不能先跟我說一聲再死嗎？」"
+        },
+        {
+          "line": 1612,
+          "heading": "## 本候選的未定點與嚴格回收",
+          "quote": "- 第139匿名記憶有既定完整試寫，本篇回顧中保留主要內容與「又轉向下一片尚未完成的地方」原停點；**本篇重述不是宣布第139原文被取代**，若後來逐字採案應以實際選版為準。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-014",
+      "source_path": "待定正文/其他場景/Gemini_墜落深坑的剪刀石頭布_熟稔後獨立試寫.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini深坑剪刀石頭布獨立場景，取自第174可見聊天轉錄，屬熟識後互動不能作初遇。",
+      "family": "REFERENCE_OR_UNSELECTED_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 獨立場景｜墜落深坑的剪刀石頭布",
+          "quote": "> **純正文閱讀擷取／CANDIDATE**，來自 [第174份](../../09_跨AI原始來源/174_聊天可見轉錄_墜落深坑的剪刀石頭布_獨立候選場景.md) 的聊天可見人工轉錄；不另改寫正文。G5/G6/G7只是本庫歸檔代號，非Gemini官方版號。正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-015",
+      "source_path": "待定正文/其他場景/Gemini_靜謐迴廊白橋黑霧真死感_候選潤稿.md",
+      "source_group": "待定正文",
+      "source_function": "靜謐白橋黑霧潤稿摘自第179可見聊天，黑霧真死已有另一作者來源確認，但本場仍非正式歷史。",
+      "family": "REFERENCE_OR_UNSELECTED_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 靜謐迴廊白橋（獨立候選）",
+          "quote": "> **純正文閱讀擷取／非正史 CANDIDATE**。從[來源第179份](../../09_跨AI原始來源/179_聊天可見轉錄_靜謐迴廊白橋黑霧真正死感_完整候選場景.md)忠實抽取正文內容。此白橋潤稿是非正史候選，不覆蓋第041舊對話；但黑霧由瑟莉思媞創造、墜入便確實無法再次復歸，已由作者另外確認。正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-016",
+      "source_path": "待定正文/純正文_ChatGPT/早期熟人版_尚未拆下的那一段.md",
+      "source_group": "待定正文",
+      "source_function": "ChatGPT純閱讀版第066熟人開場，已被後出首次相遇時序排除正式首章，場景其他素材仍可回收。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 7,
+          "heading": "## 候選第1章｜尚未拆下的那一段",
+          "quote": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-017",
+      "source_path": "待定正文/純正文_ChatGPT/拆路P0_第一章_那條路正在被拆走.md",
+      "source_group": "待定正文",
+      "source_function": "ChatGPT純閱讀版第091拆路P0第一章：諾亞與艾莉維亞真初見、觀察拆除上行路的地方事件。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 9,
+          "heading": "# 第一章｜那條路正在被拆走",
+          "quote": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-018",
+      "source_path": "待定正文/純正文_ChatGPT/拆路P0_第二章_舊站仍有人來過.md",
+      "source_group": "待定正文",
+      "source_function": "ChatGPT純閱讀版第092拆路P0第二章：剛認識的兩人繼續探索舊站，不能套後期戀人默契。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 57,
+          "heading": "# 第二章｜舊站仍有人來過",
+          "quote": "「你們兩個，能不能等到了上面再討論這地方長得合不合理？」"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-019",
+      "source_path": "待定正文/純正文_ChatGPT/A_拆路之後仍有人走.md",
+      "source_group": "待定正文",
+      "source_function": "ChatGPT純閱讀版第109 A案拆路初見，與第110 B案互斥不是連續前後兩章。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 9,
+          "heading": "# 拆路之後仍有人走",
+          "quote": "它斜斜穿過幾層懸空街市，底下掛著比房屋還高的支撐架。六條吊索從更上方一處看不見的工作平臺垂下，拉得筆直；橋身緩慢向左偏轉，連帶把一大片陰影從市場的布棚上挪開。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-020",
+      "source_path": "待定正文/純正文_ChatGPT/B_從上面下來的人.md",
+      "source_group": "待定正文",
+      "source_function": "ChatGPT純閱讀版第110 B案歸來者與舊圖故事，建立初遇與游洵唐榆候選，不續接A。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 9,
+          "heading": "# 從上面下來的人",
+          "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-021",
+      "source_path": "待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md",
+      "source_group": "待定正文",
+      "source_function": "ChatGPT純閱讀版第152 B2六章全文，歸來者舊圖到遠方城市及分路收束，非已採首篇。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 57,
+          "heading": "## 第一章｜從上面下來的人",
+          "quote": "大片不像天然山脈的灰色承力結構從空腔邊緣斜斜探出，支撐著沿途生長的商街、工坊、溫室與住宅。早班列車在其中一條銀色軌道上行駛，遠得像是一條慢慢移動的黑線。"
+        },
+        {
+          "line": 523,
+          "heading": "## 第二章｜兩個箭頭",
+          "quote": "紙張邊緣已經磨損，幾處原本貼著的測量標籤也有些褪色。"
+        },
+        {
+          "line": 945,
+          "heading": "## 第三章｜貨架旁邊的窗",
+          "quote": "遠征隊的補給車沿著導軌前進，游洵站在最前方，向隊員再次確認各自選定的返程安排。"
+        },
+        {
+          "line": 1547,
+          "heading": "## 第四章｜雨檐埠",
+          "quote": "木製的晾衣臺架在寬大鋼梁上，蔬菜與水生植物沿著住宅外側成排栽種。遠處一片寬闊的溫室平臺上，成千上萬塊半透明面板正隨著日照角度緩慢調整。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-022",
+      "source_path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini順讀入口指向11/08補丁版第01–12章，保留原始各版本，不能單憑入口宣告Canon。",
+      "family": "REFERENCE_OR_UNSELECTED_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 最新完整補丁候選請從這裡閱讀",
+          "quote": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gemini` 為歷史底稿。**"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-023",
+      "source_path": "待定正文/純正文_Gemini/第一章_G0_懸艙開箱日_初稿短片段_非全章.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini G0第162最初短試寫，非完整第一章且可見人工轉錄並非原生TXT。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 15,
+          "heading": "# G0｜《懸艙開箱日》最初開場短試寫（**不是完整第一章**）",
+          "quote": "這東西是三天前從更上方的「雲隙荒野」掉進回收網裡的。吊塢裡一半的人在賭裡面有沒有高價的古代密封零件，另一半的人則等著看鐵索工會今天能不能活著把這玩意兒撬開。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-024",
+      "source_path": "待定正文/純正文_Gemini/第一章_G1_懸艙開箱日_完整初版.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini G1完整初版第一章，以懸艙開箱及古斯塔引發第一次合作，來源第153原TXT獨立保留。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 97,
+          "heading": "# 第一章｜懸艙開箱日（Gemini G1 完整初版）",
+          "quote": "攤主一屁股坐在地上，驚魂未定地看著自己剛才站立的地方被鋼索抽出一道半米深的豁口，嘴唇哆嗦著還沒來得及說聲謝謝，就看見救了他的黑風衣青年順手彎下腰，從翻倒在地的鐵篩裡，夾走了唯一一塊沒沾到灰的脆肉餅。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-025",
+      "source_path": "待定正文/純正文_Gemini/第一章_G2_懸艙開箱日_距離與章節分拆精修版.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini G2精修第一章，修正距離／空間因果並將合擊部分切分到次章，原TXT第154為底。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 5,
+          "heading": "# 第一章｜懸艙開箱日（Gemini G2 精修版）",
+          "quote": "> 完整原始文字與當時討論請見 [第154份](../../09_跨AI原始來源/154_Gemini原始對話封存_第一章距離因果修訂與試寫_完整貼文.txt)；原樣複本亦保存於 `待定正文/Gemini原稿/`。若需要核對逐字原始輸入，以 TXT 為準。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-026",
+      "source_path": "待定正文/純正文_Gemini/第七八章_G9E_G10R4_ABC加極簡D_完整候選_20261108.md",
+      "source_group": "待定正文",
+      "source_function": "11/08第七八章整合版G9E＋G10R4，含ABC及簡化D修補，兩章連讀仍是候選。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 【CANDIDATE / NON-CANON｜正式正文 0 章・PREWRITE HOLD】",
+          "quote": "> 第七／八章最新已套補丁的可讀整合候選：以 GitHub G9E＋G10R4 **已套 A/B/C** 全文為底，精準套用先前已同意的「塞拉極簡 D」一段。保留原稿與既有 QA 歷史，不再新增工程驗收清單。"
+        },
+        {
+          "line": 10,
+          "heading": "# 第七章：底錨塔裡的無聲客",
+          "quote": "煤油燈那點昏黃的火光，在三百八十公尺跨距的鋼鐵搖臂橋彼端晃了晃，最終連同老錫匠不成調的哼唱聲一起，被濃重的灰白霧氣吞沒了。"
+        },
+        {
+          "line": 246,
+          "heading": "# 第八章：鉛盒裡的斷針與九百公尺的風",
+          "quote": "他劇烈地咳了一聲，指節因為用力而發白：「我在底下暗渠裡躲了兩天多，昨晚才順著廢排風管摸進這座底錨塔外圍的夾層裡藏著。聯席工務處掛的也是贖罪庭的齒輪章，我哪敢賭底下的守衛跟上面是不是穿一條褲子？本來我想等半夜換班時再悄悄溜上來，可剛才我在夾層裡聽見上面傳來的摩擦聲突然變了調，知道軸套撐不住了，這才不得不從通風管滑下去，拿快乾膠把莫恩他們兩個糊在地板上！我當時以為只要帶著三枚黃銅楔和聽診箱上九百公尺中繼站，把順著二號纜洩下來的震波鎖死在中段就能爭取時間，根本沒打算單槍匹馬再去兩千公尺的頂層送死——所以我才把一號主吊籠開到這兒挑斷了兩根控制線、卡死副索當路障，免得底下的人或上面的追兵坐主吊籠直接衝到"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-027",
+      "source_path": "待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md",
+      "source_group": "待定正文",
+      "source_function": "使用者11/05貼Gemini第七八章同步修訂全文及幕後因果分層；內部有作者層候選真相，勿視為已證。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "### 一、 作者專用：幕後因果與真相說明（動筆前劇透台帳）",
+          "quote": "在維持正式正文 **0 章／`PREWRITE HOLD**` 的前提下，本輪將第七章與第八章視為同一條連續事件進行同步精修，所有內容均屬 **`CANDIDATE / NON-CANON`** 候選正文。以下先依第 031、189、201 份規範，區分幕後設定的三個層級："
+        },
+        {
+          "line": 7,
+          "heading": "#### 1. 已建立事實（既有設定與前六章連續前提）",
+          "quote": "* **空間與吊籠狀態**：主鐘擺頂端軸承位於兩千公尺高空，中層止擺檢修廊位於九百公尺高處（兩者高差一千一百公尺）。一號主吊籠被白瓷面具人停在九百公尺處，籠內挑斷了兩根控制電線、外頭卡死了牽引副索，無法直接搭乘；二號無頂小吊盤為運廢料的簡易升降盤，塔底守衛莫恩與小馬克具備召回吊盤與接通備用電話線通知塞拉修女的能力。"
+        },
+        {
+          "line": 25,
+          "heading": "#### 2. 這次採用的候選設計（解決全部工程、時間與跨章矛盾） `[CANDIDATE]`",
+          "quote": "**作者層真相**：三天前，白堊院內環結構組的首席學者科爾為了進行「抽薪計畫」，違規從白庭市政廳調出了一件剛從更上層墜落回收、帶有高維諧振特性的「特級封存器（作為高頻共鳴剝離母機的核心驅動源）」。當多恩發現三根剝離振針頂入主軸套引發「斷接」災難、砸毀外部控制器並搶走第一根折斷的針頭與簽核單逃亡後，涉案高層為了掩蓋「私用封存物差點毀掉主鐘擺」的罪責，遂向市政廳與贖罪庭謊報「三天前特級封存物失竊」，藉全城戒嚴網派清道夫追殺多恩滅口。"
+        },
+        {
+          "line": 51,
+          "heading": "#### 3. 仍需作者決定的內容（留待後續章節拍板）",
+          "quote": "* 第九章修通一號主吊籠登頂並完成卸載後，打開軸套時究竟發現「承力鞍座已被兩根振針與斷接波徹底咬穿、不取出黑銷就會切斷主懸索」，還是另有工程轉折？"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-028",
+      "source_path": "待定正文/純正文_Gemini/第七章_G9_底錨塔裡的無聲客_第一版原稿_使用者回貼候選.md",
+      "source_group": "待定正文",
+      "source_function": "第七章G9第一版使用者回貼原稿，須與G9A較晚精修分開。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第七章〈底錨塔裡的無聲客〉｜第一版原稿 G9（使用者2026-11-05回貼原文；CANDIDATE）",
+          "quote": "> **來源與地位**：使用者本輪在貼出Gemini G9A精修版後，明確說「我接下來放的是之前第一版第七章，記得上面的是精修的版本」，然後完整貼出此章。下面正文是第一版，不是G9A；本檔只保留章文，不拿前述Gemini作者層候選回填或修改原稿。**正式正文仍0章／PREWRITE HOLD**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-029",
+      "source_path": "待定正文/純正文_Gemini/第七章_G9A_底錨塔裡的無聲客_精修版_使用者回貼候選.md",
+      "source_group": "待定正文",
+      "source_function": "第七章G9A精修版使用者回貼原文，對多恩等身份的解釋仍是角色／編輯候選。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第七章〈底錨塔裡的無聲客〉｜G9A精修版（Gemini回覆中之完整候選章）",
+          "quote": "> **來源與地位**：使用者2026-11-05本輪貼出Gemini長回覆，其內明列〈第七章：底錨塔裡的無聲客（G9A 審稿精修完整版）〉，並明確指示這是上面的精修版；後面另貼的是第一版 G9。本檔按精修版單獨歸檔，**不是已採正式正文**；Gemini提出之多恩・斐斯白衣人真相、事故責任與第8～9章結案仍只是他當時的候選，不因本章歸檔變成Canon。**正式正文0章／PREWRITE HOLD**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-030",
+      "source_path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+      "source_group": "待定正文",
+      "source_function": "第七章G9B以G9A為底融合三處Gemini補丁，修隔障感知、吊盤細節、白衣人對話。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第七章〈底錨塔裡的無聲客〉｜G9B Gemini 三處融合補丁實裝版（完整候選正文）",
+          "quote": "> 來源：2026-11-05 使用者貼入 Gemini 對 G9 原稿／G9A 精修版的三處融合修正，並要求「幫我把她融合的融合進正文」。以 **G9A 全章**為底稿，只套入這三處：①隔障結構感知不再宣稱確認無陷阱；②吊盤心動段恢復 G9 的感官層次並保留 G9A 的固定動作；③白衣人一邊搶險一邊對峙，保留認知不確定性。其餘不作劇情重構。**原 G9、G9A 不覆蓋。本稿 G9B 仍是 CANDIDATE，不是正式第七章／Canon；正式正文依舊0章／PREWRITE HOLD。**"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-031",
+      "source_path": "待定正文/純正文_Gemini/第七章_G9C_底錨塔裡的無聲客_銜接動作與阻尼楔修訂候選.md",
+      "source_group": "待定正文",
+      "source_function": "第七章G9C依G9B修橋與塔台動作、阻尼楔和末尾接續，不覆蓋前三版本。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第七章〈底錨塔裡的無聲客〉｜G9C 銜接及現場動作修訂完整候選",
+          "quote": "> 以 G9B 為唯一底稿，僅修第七章與 G10 續接的末尾重複、停靠登台、接近動作、指爪數量、振動楔用途與遠距共鳴語義。G9／G9A／G9B 原稿不覆蓋。本稿 CANDIDATE／NON-CANON，正式正文0章，PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-032",
+      "source_path": "待定正文/純正文_Gemini/第九章_Gemini_兩千公尺的卸載燈與蜂窩襯套_結案收束合併全文_候選_20261108.md",
+      "source_group": "待定正文",
+      "source_function": "第九章11/08結案整合版本，承接停擺工程與後續多恩／塞拉安排，仍為候選。",
+      "family": "GEMINI_LATE_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 【CANDIDATE / NON-CANON｜正式正文 0 章・PREWRITE HOLD】",
+          "quote": "> 來源：使用者 2026-11-07 上傳之 Gemini 第九章完整候選正文，精確截取小說段落，接續使用者在本對話提供的〈第九章結案收束正文〉。"
+        },
+        {
+          "line": 11,
+          "heading": "# 第九章：兩千公尺的卸載燈與蜂窩襯套",
+          "quote": "那聲音低沉得讓人胸骨發麻。才響了不到十秒鐘，九百公尺中繼平台東側那片原本燈火通明、永不停歇的內環齒輪海，便肉眼可見地騷動了起來——三列正在高架雙軌上疾馳的發條重載列車同時拉響了尖銳的氣笛，車輪在鐵軌上擦出長達百公尺的橘紅火星，緊急停靠在半空的齒輪軸座月台上；更下方的深淵裡，數十道粗大的白色高壓蒸氣柱沖天而起，那是底槽工務班已經打開了西側冷卻水道，正往滾燙的制動軌裡全線注水！"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-033",
+      "source_path": "待定正文/純正文_Gemini/第二章_G3_十噸重的帳單_目前唯一完整稿.md",
+      "source_group": "待定正文",
+      "source_function": "第二章G3早期完整候選，十噸配重與古斯塔高熱盾戰鬥，原TXT第155與閱讀版不同步改動需校。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 45,
+          "heading": "# 第二章｜十噸重的帳單（Gemini G3）",
+          "quote": "號稱能硬扛重砲轟擊的二級文明力場盾，在十噸純粹物理質量的正面碾壓下，只撐了不到零點三秒就如同玻璃般轟然炸碎！如果這座「六號緊急洩載緩衝坑」還完好無損，十噸重錘砸進坑裡，最多也就是把古斯塔壓成肉泥，然後被坑底的兩塊重型減速阻尼楔死死卡住。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-034",
+      "source_path": "待定正文/純正文_Gemini/第二章_G3R_十噸重的帳單_物權與台詞修訂候選.md",
+      "source_group": "待定正文",
+      "source_function": "第二章G3R修訂工聯物權、32噸貨艙受力和對話；不能拿舊G3物權結論覆蓋它。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第二章｜十噸重的帳單（Gemini G3）",
+          "quote": "> **G3R 局部修訂候選／非正史**：依第183份及前次帳務稽核，修正搶險時32噸重艙的受力描述、鐵索工聯與商行的保證金交代，以及艾莉維亞末尾『供能匣抵價』台詞。**不是原樣轉錄**；舊G3和第155份完整來源保留，正式正文0章／PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-035",
+      "source_path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+      "source_group": "待定正文",
+      "source_function": "第八章G10使用者貼入未校改全文，需對照第七章G9B的真實最後一句避免重複回答。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第八章〈鉛盒裡的斷針與九百公尺的風〉｜Gemini 使用者貼入完整候選正文（未校改）",
+          "quote": "> 來源：2026-11-05 使用者在對話中貼入 Gemini「六項幕後修正＋第八章候選正文＋後續第九章提案」。本檔只保存**第二部分所示小說正文**，不合併「第一部分幕後工程分析」與末尾自評；後者另有第200份關係與漏洞 QA 承接。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-036",
+      "source_path": "待定正文/純正文_Gemini/第十一章_Gemini_撈風底的人_使用者貼入完整候選_20261108.md",
+      "source_group": "待定正文",
+      "source_function": "第十一章Gemini原貼候選：停風後撈風底、塔里工匠、黑銃槍套與測距儀護罩。",
+      "family": "GEMINI_LATE_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 【CANDIDATE / NON-CANON｜正式正文 0 章・PREWRITE HOLD】",
+          "quote": "> 來源：2026-11-08 使用者本對話提供的 Gemini 第十一章〈撈風底的人〉完整候選正文。"
+        },
+        {
+          "line": 98,
+          "heading": "# 第十一章：撈風底的人",
+          "quote": "以他的眼力，一眼就看清了下面那名紡鋼族匠人的處境：沒有半點生命危險，純粹就是年輕手藝人「既捨不得刮花自己剛保養好的精密機械腿、又死要面子怕被同行笑話」的尷尬死局。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-037",
+      "source_path": "待定正文/純正文_Gemini/第十二章_Gemini_齒背後的二十二年盲盒_使用者貼入完整候選_20261108.md",
+      "source_group": "待定正文",
+      "source_function": "第十二章Gemini原貼候選：二十二年舊箱、寒鐵匣、斷針、前往霜脈的次日出發意向；有前夜時間校正。",
+      "family": "GEMINI_LATE_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 【CANDIDATE / NON-CANON｜正式正文 0 章・PREWRITE HOLD】",
+          "quote": "> 來源：2026-11-08 使用者貼入 Gemini 第十二章〈齒背後的二十二年盲盒〉完整候選；正文以使用者原稿為底；僅對第九至十二章相對日序作一處精準校正（「昨晚」→「前夜」），其餘原意保留，歷史版本可由 Git commit 回溯。"
+        },
+        {
+          "line": 10,
+          "heading": "## 作者專用幕後因果（非正文、非 Canon）",
+          "quote": "- 主角購得冷鍛沉銀及淬火脂，收到空冷匣；多恩帶來斷針與指向 09 區霜脈散熱嶺的母核出土戳記。這些均屬本章候選發展，未升正式正史。"
+        },
+        {
+          "line": 81,
+          "heading": "## 候選正文",
+          "quote": "「哎呀，這位官爺，」艾莉維亞拍了拍手，把那兩罐極寒淬火脂慢條斯理地塞進自己的深藍色工具袋裡，居高臨下地看著跪在自己面前、臉憋成紫紅色的白庭護衛，一臉無辜地眨了眨那雙亮青藍的十字瞳，「我們八區的買賣規矩，是付了錢再拿貨；您這一上來就行這麼大的跪拜禮，我也不能把剛買的油白送給您呀。」"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-038",
+      "source_path": "待定正文/純正文_Gemini/第十章_風停以後_使用者貼入完整候選_20261108.md",
+      "source_group": "待定正文",
+      "source_function": "第十章較短純小說閱讀擷取，停擺後交通減班、旅宿與疲勞生活；比較長版時勿重複算事件。",
+      "family": "GEMINI_LATE_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 43,
+          "heading": "第十章：風停以後",
+          "quote": "「退錢也沒用啊老闆！今天發條火車減了一半班次，去十區白庭的重型升降梯也停了，我們這幾百號人出不了城，難道今晚全睡在車站的煤灰堆裡嗎？！」"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-039",
+      "source_path": "待定正文/純正文_Gemini/第十章_Gemini_風停以後_使用者貼入完整候選_20261108.md",
+      "source_group": "待定正文",
+      "source_function": "第十章長版使用者貼入完整候選，與短小說讀取版是同一章不同保存形式。",
+      "family": "GEMINI_LATE_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 【CANDIDATE / NON-CANON｜正式正文 0 章・PREWRITE HOLD】",
+          "quote": "> 來源：使用者於 2026-11-08 在本對話完整貼出的 Gemini 第十章〈風停以後〉候選原文。"
+        },
+        {
+          "line": 82,
+          "heading": "# 第十章：風停以後",
+          "quote": "「退錢也沒用啊老闆！今天發條火車減了一半班次，去十區白庭的重型升降梯也停了，我們這幾百號人出不了城，難道今晚全睡在車站的煤灰堆裡嗎？！」"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-040",
+      "source_path": "待定正文/純正文_Gemini/第三章_G5_過風鐘與多餘的凹槽_候選.md",
+      "source_group": "待定正文",
+      "source_function": "第三章G5原可見聊天轉錄候選，過風鐘及地方生活和原槍碎件、供能匣後續。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第三章｜過風鐘與多餘的凹槽",
+          "quote": "> **純正文閱讀擷取／CANDIDATE**，來自 [第170份](../../09_跨AI原始來源/170_聊天可見轉錄_Gemini第三章過風鐘與多餘的凹槽_完整候選正文.md) 的聊天可見人工轉錄；不另改寫正文。G5/G6/G7只是本庫歸檔代號，非Gemini官方版號。正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-041",
+      "source_path": "待定正文/純正文_Gemini/第三章_G5R_過風鐘與多餘的凹槽_300銀券修訂候選.md",
+      "source_group": "待定正文",
+      "source_function": "第三章G5R修訂報酬為300銀券、G3R帳務連接與原槍認知用詞，G5保留。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第三章｜過風鐘與多餘的凹槽",
+          "quote": "> **候選正文修訂版 G5R／非正史**，依第177、181與183份稽核同步第二章工聯交易及第三章收支，修正未知武器的角色語氣。舊G5／第170份來源不覆蓋。正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-042",
+      "source_path": "待定正文/純正文_Gemini/第五章_G7_剖蟬放血與逃票的手搖車_候選.md",
+      "source_group": "待定正文",
+      "source_function": "第五章G7原可見聊天轉錄：巨蟬核心、留燈手搖車、主鐘擺異常與塞拉初盤查。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第五章｜剖蟬、放血與逃票的手搖車",
+          "quote": "> **純正文閱讀擷取／CANDIDATE**，來自 [第175份](../../09_跨AI原始來源/175_聊天可見轉錄_Gemini第五章剖蟬放血與逃票的手搖車_完整候選正文.md) 的聊天可見人工轉錄；不另改寫正文。G5/G6/G7只是本庫歸檔代號，非Gemini官方版號。正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-043",
+      "source_path": "待定正文/純正文_Gemini/第五章_G7R_剖蟬放血與逃票的手搖車_認知與射程修訂候選.md",
+      "source_group": "待定正文",
+      "source_function": "第五章G7R修正原裝模組知情洩漏，分開20公尺結構感知與遠距共鳴／射擊。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第五章｜剖蟬、放血與逃票的手搖車",
+          "quote": "> **候選正文修訂版 G7R／非正史**，依第177、181、183份稽核修正『原裝模組』角色認知洩漏，將射擊距離與隔障結構感知分開，保留原第五章塞拉盤查停點。舊G7／第175份原文保留；正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-044",
+      "source_path": "待定正文/純正文_Gemini/第五章_G7R1_定位銷主觀誤判旁白微補丁_候選.md",
+      "source_group": "待定正文",
+      "source_function": "第五章G7R1簡版僅對『臨時定位銷』客觀旁白作微修，不因此變更諾亞主觀誤判。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 5,
+          "heading": "# 第五章｜剖蟬、放血與逃票的手搖車",
+          "quote": "> **候選正文修訂版 G7R／非正史**，依第177、181、183份稽核修正『原裝模組』角色認知洩漏，將射擊距離與隔障結構感知分開，保留原第五章塞拉盤查停點。舊G7／第175份原文保留；正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-045",
+      "source_path": "待定正文/純正文_Gemini/第五章_G7R1_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+      "source_group": "待定正文",
+      "source_function": "第五章G7R1長檔名後出旁白微修獨立存檔，與同名簡版應比對文本是否完全相同。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 5,
+          "heading": "# 第五章｜剖蟬、放血與逃票的手搖車",
+          "quote": "> **候選正文修訂版 G7R／非正史**，依第177、181、183份稽核修正『原裝模組』角色認知洩漏，將射擊距離與隔障結構感知分開，保留原第五章塞拉盤查停點。舊G7／第175份原文保留；正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-046",
+      "source_path": "待定正文/純正文_Gemini/第六章_G8B_無聲巨腔實體按鈕與向下的深淵鎖_改線候選.md",
+      "source_group": "待定正文",
+      "source_function": "第六章G8B『向下深淵鎖』是走第五章B改線才可接的支線，不能直接續G7原線。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第六章（改線B）",
+          "quote": "> **純正文閱讀擷取／非正史 CANDIDATE**。從[來源第180份](../../09_跨AI原始來源/180_聊天可見轉錄_Gemini第六章無聲巨腔實體按鈕與向下的深淵鎖_完整候選正文.md)忠實抽取正文內容。此第六章**不是**第175原版第五章的直續，必須先有第五章B改線。正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-047",
+      "source_path": "待定正文/純正文_Gemini/第六章_G8C_假專家與無聲巨腔_接續及探索修訂候選.md",
+      "source_group": "待定正文",
+      "source_function": "第六章G8C『假專家』候選，塞拉和雙主角的工程觀察與沉箱橋構造開始連接。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 25,
+          "heading": "# 第六章｜假專家、四百五十公尺搖臂與無聲巨腔",
+          "quote": "這位在萬鈞鐘心底層修了三十年承重結構的老修女，比誰都清楚頭頂那根主鐘擺的狀況。最近三天，每當主鐘擺盪到西側極限時，傳下來的震動波裡確實夾雜著一絲讓她夜不能寐的異常摩擦音；只是主鐘擺頂端的軸承室懸在離地兩千公尺的高空，外圍又隔著早已廢棄封鎖的「靜風沉降槽」，連她派出去的兩批苦修技師都還沒能摸到軸承塔的門邊。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-048",
+      "source_path": "待定正文/純正文_Gemini/第六章_G8D_無聲巨腔與沉水搖臂_最終QA續修候選.md",
+      "source_group": "待定正文",
+      "source_function": "第六章G8D最終QA續修，主擺異音、立柱受力及沉水搖臂橋，有20公尺感知邊界。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 41,
+          "heading": "# 第六章｜無聲巨腔與沉水搖臂",
+          "quote": "「你們左邊第四根主立柱底下的地基早就空了，表面看著還立在那兒，其實根本沒在吃力。再看天花板那幾根後來補上去的粗拉索角度——當年封閉這座車站的人為了防止頂棚塌陷，至少把左四柱一半以上的頂部負重，強行斜拉轉移到了右邊第一根與第七根柱子上。修女閣下，這種拆東牆補西牆的臨時拉法最多撐二十年，現在右邊第一根柱子背面的承重鉚釘，怕是已經被擠得凸出來了吧？」"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-049",
+      "source_path": "待定正文/純正文_Gemini/第六章_G8E_定位件認知旁白微補丁_候選.md",
+      "source_group": "待定正文",
+      "source_function": "第六章G8E簡版對定位件認知旁白微修，不能把諾亞主觀猜測當實證機制。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 43,
+          "heading": "# 第六章｜無聲巨腔與沉水搖臂",
+          "quote": "「你們左邊第四根主立柱底下的地基早就空了，表面看著還立在那兒，其實根本沒在吃力。再看天花板那幾根後來補上去的粗拉索角度——當年封閉這座車站的人為了防止頂棚塌陷，至少把左四柱一半以上的頂部負重，強行斜拉轉移到了右邊第一根與第七根柱子上。修女閣下，這種拆東牆補西牆的臨時拉法最多撐二十年，現在右邊第一根柱子背面的承重鉚釘，怕是已經被擠得凸出來了吧？」"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-050",
+      "source_path": "待定正文/純正文_Gemini/第六章_G8E_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+      "source_group": "待定正文",
+      "source_function": "第六章G8E另一存檔名指明只旁白微修，需比對與前項是否鏡像保留。",
+      "family": "GEMINI_FIFTH_SIXTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 43,
+          "heading": "# 第六章｜無聲巨腔與沉水搖臂",
+          "quote": "「你們左邊第四根主立柱底下的地基早就空了，表面看著還立在那兒，其實根本沒在吃力。再看天花板那幾根後來補上去的粗拉索角度——當年封閉這座車站的人為了防止頂棚塌陷，至少把左四柱一半以上的頂部負重，強行斜拉轉移到了右邊第一根與第七根柱子上。修女閣下，這種拆東牆補西牆的臨時拉法最多撐二十年，現在右邊第一根柱子背面的承重鉚釘，怕是已經被擠得凸出來了吧？」"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-051",
+      "source_path": "待定正文/純正文_Gemini/第四章_G6_舊軌上的買路錢_候選.md",
+      "source_group": "待定正文",
+      "source_function": "第四章G6舊軌上買路錢可見聊天轉錄，青苔中繼站與赫連、留燈、巨蟬危機。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第四章｜舊軌上的買路錢",
+          "quote": "> **純正文閱讀擷取／CANDIDATE**，來自 [第172份](../../09_跨AI原始來源/172_聊天可見轉錄_Gemini第四章舊軌上的買路錢_完整候選正文.md) 的聊天可見人工轉錄；不另改寫正文。G5/G6/G7只是本庫歸檔代號，非Gemini官方版號。正式正文0章、PREWRITE HOLD。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-052",
+      "source_path": "待定正文/第七八章_G9D_G10R1_合併完整修訂候選_含作者層劇透與錯誤修正.md",
+      "source_group": "待定正文",
+      "source_function": "第七八章G9D＋G10R1 GPT合併校錯候選；作者要Gemini改稿，GPT文筆未獲採用。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第七、八章完整整合修訂候選｜G9D＋G10R1（兩章連續、可直接校改）",
+          "quote": "> **來源**：以已保留的第七章 G9C（依 G9B 改）及使用者提供的 Gemini 第八章 G10 為正文底稿，按 2026-11-05 第197–200份QA逐點整合；本文是 **NON-CANON／CANDIDATE**，**不代表作者已批准新世界觀、犯罪真相或章節定稿**。原 G9、G9A、G9B、G9C、G10 全部保留。正式正文仍0章、PREWRITE HOLD。"
+        },
+        {
+          "line": 232,
+          "heading": "## 作者專用｜本次錯誤回顧、已核定的修文與仍待決定的真相（不屬正文）",
+          "quote": "## 作者專用｜本次錯誤回顧、已核定的修文與仍待決定的真相（不屬正文）"
+        },
+        {
+          "line": 237,
+          "heading": "### I. GPT 自身這次的失誤",
+          "quote": "2. **工作階段混亂**：把 Gemini 的工程候選分析、G9B 已有正文與 G10 新完成完整正文混成「即將寫第八章」，在使用者貼上 G10 全文後也未即時改口用現有全文逐段審稿。"
+        },
+        {
+          "line": 245,
+          "heading": "### II. 兩章統一後的現場帳",
+          "quote": "- **人物／物件**：諾亞持有塞拉給的鉛封檢修牌；面具人雙腕各四根機械副指，左腕兩根受震損，右手／右腕仍在；面具在被推離狙擊線時撞碎一角；鉛盒一直由多恩攜帶，最後由塞拉封存接管。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-053",
+      "source_path": "待定正文/第七八章_G9E_G10R3_Gemini跨輪精確補丁整合_衍生完整候選_20261106.md",
+      "source_group": "待定正文",
+      "source_function": "第七八章G9E＋G10R3跨輪衍生版，黑銷與母核為兩件且手工套修，不是Gemini原生全文。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 5,
+          "heading": "# 《巨構世界》第七、八章｜G9E＋G10R3 跨輪補丁整合候選（2026-11-06）",
+          "quote": "> **來源與誠實版本註記：** 本文不是 Gemini 在 11/06 貼出全文的逐字備份，而是**以 11/05 已存的 Gemini 完整兩章正文為底**，依使用者之後在對話提供的「11/06 上輪五項 QA 修訂」與「本輪第五／六章微補丁、四項作者層因果及第八章五處精確替換」**逐段組裝的完整可讀衍生候選**。已保留上一版原稿；不要把兩者混同，也不要宣稱所有不同標點和局部敘事均已與尚未入庫的上輪貼文逐字相同。已修改段落詳列下文記錄。"
+        },
+        {
+          "line": 9,
+          "heading": "## 作者專用：目前採用的候選因果，不是已決 Canon",
+          "quote": "1. **黑銷與失竊物是兩件物件**：黑銷五百年前已在兩千公尺頂軸承主鞍座裡；三天前科爾研究團隊越權調出的是一件高頻諧振母核，安在頂層副控增壓室半噸重的防爆底座上，外接三根剝離針。科爾與兩名配額委員涉案、借兩枚真章規避贖罪庭的第三道聯席審批，均為本候選作者層設計。"
+        },
+        {
+          "line": 19,
+          "heading": "## G7R1／G8E 上游旁白微修（另有完整獨立檔）",
+          "quote": "- [第五章 G7R1](純正文_Gemini/第五章_G7R1_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md)：**只將**「對著主鐘擺頂端軸承裡插著的那個『臨時定位銷』」→「對著主鐘擺頂端軸承裡那處傳來異響的核心部件」，留住 G7R 既有諾亞對臨時銷與零點二秒的猜測，沒有妄改當時角色發言。"
+        },
+        {
+          "line": 27,
+          "heading": "# 第七章：底錨塔裡的無聲客",
+          "quote": "煤油燈那點昏黃的火光，在三百八十公尺跨距的鋼鐵搖臂橋彼端晃了晃，最終連同老錫匠不成調的哼唱聲一起，被濃重的灰白霧氣吞沒了。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-054",
+      "source_path": "待定正文/第七八章_G9E_G10R4_已套A_B_C_應急D待核_衍生完整候選_20261106.md",
+      "source_group": "待定正文",
+      "source_function": "第七八章G9E＋G10R4 ABC已套／D未核版，舊0.5秒卸載說法不成立；後出再對D簡化。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 《巨構世界》第七、八章｜G9E＋G10R4 三項細節微修候選（2026-11-06）",
+          "quote": "> **版本界限：** 這是從已存 GitHub G9E＋G10R3 全文派生的新候選，只套用本輪 A／B／C 三項微補丁（共 4 處段落與 1 處紙名改動），**沒有套用 D：換向瞬間 0.5 秒減載退針**，因為它的機械安全推論還不成立。A／B／C 為使用者轉交的 Gemini 原文修補候選；仍須區分角色推論與已驗證事實。原版全文保留。正式正文0章／PREWRITE HOLD。**後文 G10R3 字樣如出現均為上一版來源紀錄，不表示此檔尚未微修。**"
+        },
+        {
+          "line": 13,
+          "heading": "## 作者專用：目前採用的候選因果，不是已決 Canon",
+          "quote": "1. **黑銷與失竊物是兩件物件**：黑銷五百年前已在兩千公尺頂軸承主鞍座裡；三天前科爾研究團隊越權調出的是一件高頻諧振母核，安在頂層副控增壓室半噸重的防爆底座上，外接三根剝離針。科爾與兩名配額委員涉案、借兩枚真章規避贖罪庭的第三道聯席審批，均為本候選作者層設計。"
+        },
+        {
+          "line": 23,
+          "heading": "## G7R1／G8E 上游旁白微修（另有完整獨立檔）",
+          "quote": "- [第五章 G7R1](純正文_Gemini/第五章_G7R1_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md)：**只將**「對著主鐘擺頂端軸承裡插著的那個『臨時定位銷』」→「對著主鐘擺頂端軸承裡那處傳來異響的核心部件」，留住 G7R 既有諾亞對臨時銷與零點二秒的猜測，沒有妄改當時角色發言。"
+        },
+        {
+          "line": 31,
+          "heading": "# 第七章：底錨塔裡的無聲客",
+          "quote": "煤油燈那點昏黃的火光，在三百八十公尺跨距的鋼鐵搖臂橋彼端晃了晃，最終連同老錫匠不成調的哼唱聲一起，被濃重的灰白霧氣吞沒了。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-055",
+      "source_path": "待定正文/第七八章_G9E_G10R4_Gemini四處工程因果微補丁_完整衍生候選_20261106.md",
+      "source_group": "待定正文",
+      "source_function": "第七八章G9E＋G10R4四處工程補丁整合候選，A/B/C/D與前版區別須核具體替換。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 《巨構世界》第七、八章｜G9E＋G10R4 四處微補丁整合完整衍生候選（2026-11-06）",
+          "quote": "> **2026-11-06 更新說明（優先閱讀）**：本檔由 [G9E＋G10R3](第七八章_G9E_G10R3_Gemini跨輪精確補丁整合_衍生完整候選_20261106.md) 原樣衍生，只按使用者本輪提交之 A／B／C／D 四組補丁替換第八章指定段落（B 涵蓋三段），其餘第七、八章敘事不改。**D 補丁忠實收錄而非工程安全已驗證**：換向點速度瞬時為零不代表切向剪力為零，半秒拆雙箍並退兩針的操作窗口與實測載荷尚未成立。見[第206份 QA](../08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md)。所有資料仍 CANDIDATE / NON-CANON，"
+        },
+        {
+          "line": 11,
+          "heading": "## 作者專用：目前採用的候選因果，不是已決 Canon",
+          "quote": "1. **黑銷與失竊物是兩件物件**：黑銷五百年前已在兩千公尺頂軸承主鞍座裡；三天前科爾研究團隊越權調出的是一件高頻諧振母核，安在頂層副控增壓室半噸重的防爆底座上，外接三根剝離針。科爾與兩名配額委員涉案、借兩枚真章規避贖罪庭的第三道聯席審批，均為本候選作者層設計。"
+        },
+        {
+          "line": 21,
+          "heading": "## G7R1／G8E 上游旁白微修（另有完整獨立檔）",
+          "quote": "- [第五章 G7R1](純正文_Gemini/第五章_G7R1_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md)：**只將**「對著主鐘擺頂端軸承裡插著的那個『臨時定位銷』」→「對著主鐘擺頂端軸承裡那處傳來異響的核心部件」，留住 G7R 既有諾亞對臨時銷與零點二秒的猜測，沒有妄改當時角色發言。"
+        },
+        {
+          "line": 29,
+          "heading": "# 第七章：底錨塔裡的無聲客",
+          "quote": "煤油燈那點昏黃的火光，在三百八十公尺跨距的鋼鐵搖臂橋彼端晃了晃，最終連同老錫匠不成調的哼唱聲一起，被濃重的灰白霧氣吞沒了。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-056",
+      "source_path": "待定正文/第七章_底錨塔裡的無聲客_原文待回收登記_非小說正文.md",
+      "source_group": "待定正文",
+      "source_function": "第七章缺原稿登記卡是歷史截點，後出已回收G9/G9A雙全文；不能說至今缺第七章。",
+      "family": "GEMINI_SEVENTH_EIGHTH_REVISIONS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "## 2026-11-05｜缺檔已補：使用者回貼第七章完整雙版本（後出追認來源，不修改舊登記歷史）",
+          "quote": "> 此節**覆蓋本檔建立時「尚未回收」的狀態描述**；下方全文保留當時之缺檔稽核紀錄，因當時確實尚未回收，不能刪去或反改為當時已存在。"
+        },
+        {
+          "line": 14,
+          "heading": "# 第七章〈底錨塔裡的無聲客〉｜候選正文來源待回收登記（**非正文**）",
+          "quote": "> **2026-11-05 建立**。這是第七章**原始正文待補的來源登記卡，絕不是第七章完整正文**，不能作為正式小說閱讀文本或接續第八章之依據。禁止用第189份的助手候選A覆蓋使用者原稿。**候選章不必正式採用才能保存；第七章不應被排除於候選庫之外。**"
+        },
+        {
+          "line": 18,
+          "heading": "## 已確認存在的原稿與出處",
+          "quote": "- 使用者於**2026-11-05 約08:04（臺灣時間；對話紀錄時間 00:04:32Z）**，在先前的對話貼出名為**第七章〈底錨塔裡的無聲客〉**的**完整候選小說正文**。當時助手已閱讀、提出QA／修訂意見，**沒有把原文同步到 GitHub**；原稿不是「從未寫過」。"
+        },
+        {
+          "line": 25,
+          "heading": "## 本輪實際可取得／無法取得的部分",
+          "quote": "已檢查 GitHub 候選正文索引、第185／186／189等相關研究與交接紀錄，並檢索當前可存取的過往文件來源。能找到第六章全文、前次對第七章的評論與部分劇情資訊，**不能逐字取回使用者那次貼文的第七章完整內容**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-057",
+      "source_path": "待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md",
+      "source_group": "待定正文",
+      "source_function": "第九章兩千公尺結案後段整合候選，章界和三天後斷針交付需核對11/08順讀版本。",
+      "family": "GEMINI_LATE_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 11,
+          "heading": "# 第九章：兩千公尺的卸載燈與蜂窩襯套",
+          "quote": "那聲音低沉得讓人胸骨發麻。才響了不到十秒鐘，九百公尺中繼平台東側那片原本燈火通明、永不停歇的內環齒輪海，便肉眼可見地騷動了起來——三列正在高架雙軌上疾馳的發條重載列車同時拉響了尖銳的氣笛，車輪在鐵軌上擦出長達百公尺的橘紅火星，緊急停靠在半空的齒輪軸座月台上；更下方的深淵裡，數十道粗大的白色高壓蒸氣柱沖天而起，那是底槽工務班已經打開了西側冷卻水道，正往滾燙的制動軌裡全線注水！"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-058",
+      "source_path": "待定正文/提綱非正文/ChatGPT_第034_倒行潮_舊首篇大綱非完整正文.md",
+      "source_group": "待定正文",
+      "source_function": "第034倒行潮只存首篇大綱，城市潮汐導流及首次復歸是候選，非小說完整章節。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 候選大綱 34｜第一篇《倒行潮》：懸潮港、多出口巨構、諾亞初死、艾莉維亞登場與完整收束",
+          "quote": "> **【2026-10-19 更新：開場聚落與世界層定位】** 以本檔的折索集市多出口地圖及最初巨閘外巨拱／大水域／上方架體為基礎，另擴充每個出口通向的**真實社會和遠方網絡**，詳見 [039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md](../../02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md)。此前「公開高難挑戰」不能理解為售票競賽，而是一片原本就可能令人死亡的巨構地域／世界層；真正 Path of Pain 深處額外隱秘，普通訪客沒有諾亞專屬復歸。折索集市、懸潮港、附加地方名均仍只是地理候選。"
+        },
+        {
+          "line": 11,
+          "heading": "## 一、為什麼這次不用「神祕貨車忽然出現」開場",
+          "quote": "早期助手多次提議「折索集市有失蹤路線貨車，武器感應到零件」。那是可用候選但可能太習慣靠「主角對神秘物件產生反應」推劇情，且容易令每件事都通往同一個伏筆。本次改用**一個本來就在運作的城市機關、真實利益衝突、人物主動做選擇**作骨架，提升生活、物理、文化和可視化動作。不是否定之前的候選，而是拿不同方案比較。"
+        },
+        {
+          "line": 18,
+          "heading": "### 暫定篇名：《倒行潮》",
+          "quote": "- 本篇結案條件：確認並改變一次特定人為潮汐導流與地方保護權限的利益安排，讓某條原本停用的實際上行路線變得可使用（無須全世界地圖完全解鎖）；此地居民／商會因事件承受真實持續後果。**不能後面再多出三層幕後而拒絕結案。**"
+        },
+        {
+          "line": 22,
+          "heading": "## 二、首篇畫面與物理空間：不是地下井，也不是荒廢金屬房",
+          "quote": "懸潮港座落於**一個巨大世界層內部的人工潮盆側壁**。上方有極遠處的平整技術天幕，遠方海水平面與直立巨構金屬牆相遇；同一時刻，一面倒置的彎曲運輸水道讓部分水流**沿龐大結構表面向高處被抬升**，這是有設備、能源、常態管理與操作員的已知工程，**不是故事首次才出現的異常奇蹟**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-059",
+      "source_path": "待定正文/提綱非正文/ChatGPT_第078_從上面下來的人_早期因果實驗.md",
+      "source_group": "待定正文",
+      "source_function": "第078從上面下來的人九問試驗是因果框架，非完整小說正文。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第78份｜劇情實驗：《從上面下來的人》、九問因果、讀者當下期待與未完成情感",
+          "quote": "> 來源：2026-10-19，第73份後「回到故事／劇情魅力、節奏」討論。此檔保存助手先提出的《從上面下來的人》，使用者提供的另一個對話針對此案的回評及建議，以及助手後續提出的「九個問題」實測版本。"
+        },
+        {
+          "line": 12,
+          "heading": "## 一、最初人物鉤子：不是地圖 NPC",
+          "quote": "- 她可以是著名人物，真相在於她的性格、選擇；也可以起初不知名。**不能每個強者都靠身份反轉出場**。"
+        },
+        {
+          "line": 16,
+          "heading": "## 二、外部評議最重要的批評：美麗鉤子不足以生成下一件事",
+          "quote": "- **今天就要做什麼**：明天要走、今晚要見誰、地方正在拆遷、某路線短暫可測等。不能每件都倒數計時，卻要有活生生的當下動機。"
+        },
+        {
+          "line": 28,
+          "heading": "## 三、九個問題的第一版「助手答題實驗」（均未定）",
+          "quote": "| 3. 誰／何物構成阻力 | 領隊可能是她的昔日同伴，數人已準備多年、有自己的自主判斷，不能因她反對便停。 |"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-060",
+      "source_path": "待定正文/提綱非正文/ChatGPT_第148_白髮與雙向危機_五版摘要非完整原文.md",
+      "source_group": "待定正文",
+      "source_function": "第148白髮五版只保存事件摘要和後出改稿，未宣稱所有原聊天場景逐字齊全。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第148份｜五組非正史試寫的完整版本歸檔索引：不得誤認同一場已定歷史",
+          "quote": "> 2026-10-22，用戶要求「是不是有好幾個設定沒補了，完整點」。本檔保留**原聊天確曾寫過的五條場景的可追蹤事件順序、差異、修正與人物目的**；完整原聊天段落仍以聊天原文為準，此處**不是聲稱逐字複製了每篇全文**。所有場景均非正式正文，沒有真正發生的戰役／傷亡／角色固定身分，PREWRITE HOLD／正式0章。核心使用者修正見[144](../../03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md)，能力見[142](../../04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md)、[146](../../04_能力武器與"
+        },
+        {
+          "line": 7,
+          "heading": "## S1｜《妳在笑什麼？》：白髮戲弄、高興、狡黠、危險的第一版",
+          "quote": "**後出糾正**：用戶指出不該把白髮寫成冷神明，**玩味愉悅是主要神情魅力**；又指出「一開始就是直接白髮嗎」，所以這版**若作一次重要首次演出，轉換鏡頭不足**。不是說未來每次場景開頭已有白髮都錯。"
+        },
+        {
+          "line": 11,
+          "heading": "## S2｜《那麼，換個方式玩吧》：從深青藍真正轉白髮",
+          "quote": "**重要時序**：這是假定**靜謐迴廊首次解鎖之後的公開轉換**，不是在貨港第一次發現白髮。由髮根逐步銀白是助手畫面候選，不是唯一必然機制；真正靜謐首次解鎖另需足夠重量。"
+        },
+        {
+          "line": 15,
+          "heading": "## S3｜《別再碰他》：艾莉維亞冰冷憤怒、專注、明確殺意",
+          "quote": "**使用者權威**：「高冷，專注等等可以發生在情況真的嚴重，或嚴重危及諾亞，殺意這些」。不是所有白髮必冷、也不是固定要在每次受傷後處決任何對手。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-061",
+      "source_path": "待定正文/提綱非正文/ChatGPT_C_B2_第134_完整篇章設計_非小說正文.md",
+      "source_group": "待定正文",
+      "source_function": "第134篇章與首篇A/B2/C是作者層候選設計，未形成C獨立完成正文。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第134份｜從研究轉為真正故事：長篇篇章方向、首篇三案比較與《從上面下來的人》篇級重構",
+          "quote": "> 2026-10-21。**使用者已明確說「開始」**，意指從第132「人物語言與單章回報」與第133「名場面、篇章級目標與整本小說記憶網絡」向下一步推進：建立能追讀的長篇篇章方向，並真正替第一個篇章設計人物、事件、高潮、結案與跨篇後果。**本稿是可供評讀的作者層完整設計／候選分歧，不是使用者已選定首章，也沒有撰寫正式正文章節。** 不用抽象宣言充數，也不把尚未確證的世界地圖當通行現實。"
+        },
+        {
+          "line": 15,
+          "heading": "## 一、這次工作的衡量：不是多一份研究，是至少有一個真正想追的完整故事",
+          "quote": "第132與第133給了兩個不同尺度的評估：6,000字若只把2,500字的閱讀回報攤薄，會慢；十幾或幾十章若都是替「以後才有的登頂」鋪路，便沒有像時鐘塔、深藍聖堂、無限世界等那樣可被讀者叫出名字的篇章。本篇開始處理中間缺口：**這一整篇到底在演什麼，主角為什麼在場，每個重要人想得到什麼，哪個高潮不是能被行政報告取代的，結束後什麼是真變了？**"
+        },
+        {
+          "line": 26,
+          "heading": "## 二、把全書主方向拆成可互相交錯的八條「篇章母題」，不是固定八大關",
+          "quote": "以下是**篇章類型與可研究的實體故事候選庫**，順序不等於章序、數量不等於全書最終篇數，括號中的既有檔號代表先前已存在相似素材，不代表已採案。每段都有其自己能完成的目標、明確可期待的高潮與收束；部分可以與主角線交會，部分可以純由重要配角主導。"
+        },
+        {
+          "line": 48,
+          "heading": "## 三、第一個篇章先真實比較三案：A「景色」、B「歸來者」、C「天光」，都可完整結案",
+          "quote": "- 成篇需要額外現實目標：例如有人要在拆除前取回正式可驗的舊建造資料，有人要確保側道仍可維修；吊橋完工後路網與生計怎麼變，不能只留下「兩人看見美景」。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-062",
+      "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+      "source_group": "待定正文",
+      "source_function": "第066原始ChatGPT熟人版候選，與後出真初見要求不相容，原稿不得刪改。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 候選長篇試寫 66｜第1章〈尚未拆下的那一段〉",
+          "quote": "> **【2026-10-19 使用者後出確定：正式第一章諾亞與艾莉維亞第一次相遇】**** 本檔原先採「已熟識、自然叫維亞、短暫牽手」的**助手假設**，已不符合使用者最新指定的正式第一章關係時序。**保留原試寫全文，不抹掉本稿場景價值；只能當兩人認識後的場景素材，或作正式初遇版重寫時參考的環境／其他人物描寫，不能直接當正式第1章。**詳 [67 後出初遇時間線](../../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md)。"
+        },
+        {
+          "line": 14,
+          "heading": "## 候選第1章｜尚未拆下的那一段",
+          "quote": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。"
+        },
+        {
+          "line": 519,
+          "heading": "## 作者層場景連續性與後續約束（非小說正文）",
+          "quote": "- **女主能力有正面結果**：最後標記片確實在她操作下轉移下落的作用路徑；她不是臨危突然失效，也不是只能驚嘆。**這只是初期演出候選，不鎖死其正式規則名稱／範圍／是否需動手**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-063",
+      "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+      "source_group": "待定正文",
+      "source_function": "第091原始ChatGPT拆路P0真初遇第一章，附作者層續寫鉤子但非定案。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第91份｜非正史連續試寫：第一章〈那條路正在被拆走〉",
+          "quote": "> **注意：全篇是可撤回的第一章候選，而非正式正文。**本次依第89全庫盤點和第90開篇P0工作卡，借用第53／65已有的地景與人物因果，**完整改寫成第67要求的「諾亞×艾莉維亞第一次見面」**。所示地方、姓名（席蘿、閻白）、道路、時間與能力演出仍是候選；不覆寫第66熟人版原稿。所有人的私下想法與臺詞只是此版本的合理推演，尚待讀者評估。"
+        },
+        {
+          "line": 13,
+          "heading": "# 第一章｜那條路正在被拆走",
+          "quote": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。"
+        },
+        {
+          "line": 532,
+          "heading": "## 作者層續寫鉤子（不屬小說正文）",
+          "quote": "- **未定與修改空間**：「艾莉維亞改變墊圈落點」是能力演出示例不是正式能力極限；「諾亞未開槍」不削弱核心槍；席蘿舊錯按第65只是作者候選，第1章不洩露；本場的門、距離與集市位置不是全世界固定結構。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-064",
+      "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+      "source_group": "待定正文",
+      "source_function": "第092原始ChatGPT拆路P0第二章，初識後交換資訊，尚未成多年熟悉相處。",
+      "family": "GEMINI_EARLY_CHAPTERS",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第92份｜非正史連續試寫：第二章〈舊站仍有人來過〉",
+          "quote": "> 與 [第91第一章](../../07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md) 連續的**第二章候選**。兩位主角剛剛第一次認識，只知道彼此姓名、局部行動和願望；席蘿與閻白是具有獨立職責／過去的地方候選人物。此稿不代表正式正文、不鎖定女主規則或地理、不能自動承諾此段一定作為小說開頭。"
+        },
+        {
+          "line": 61,
+          "heading": "# 第二章｜舊站仍有人來過",
+          "quote": "「你們兩個，能不能等到了上面再討論這地方長得合不合理？」"
+        },
+        {
+          "line": 522,
+          "heading": "## 作者層第二章結果與第三章自然入口（非正文）",
+          "quote": "2. **人物關係前進而未跨級**：兩人交換聯絡方式，開始知道對方說話和行動的一些規律；尚未稱「維亞」、沒有戀愛或肢體慣例，仍可隨時分道揚鑣。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-065",
+      "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+      "source_group": "待定正文",
+      "source_function": "第109原始ChatGPT A案拆橋首篇，初見主角與仍有居民的曲殼風景，與B互斥。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第109份｜非正史開篇對照 A：〈拆路之後仍有人走〉",
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女主高階能力、人物生活感與資訊邊界有效；具體城市、道路、人物台詞、景色、髮色在此僅是試驗素材。第一章官方正史仍為0章。"
+        },
+        {
+          "line": 17,
+          "heading": "# 拆路之後仍有人走",
+          "quote": "它斜斜穿過幾層懸空街市，底下掛著比房屋還高的支撐架。六條吊索從更上方一處看不見的工作平臺垂下，拉得筆直；橋身緩慢向左偏轉，連帶把一大片陰影從市場的布棚上挪開。"
+        },
+        {
+          "line": 471,
+          "heading": "## A案作者層當場成果與尚存缺口（非正文）",
+          "quote": "- **可見景色**：施工拆橋揭露巨壁內的斷／補路、仍運行的列車、有人生活的對面曲殼城市。用人物站位和視線逐層打開空間，避免景物只作開場插圖。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-066",
+      "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+      "source_group": "待定正文",
+      "source_function": "第110原始ChatGPT B案歸來者首篇，唐榆游洵與舊圖候選，不是A續篇。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第110份｜非正史開篇對照 B：〈從上面下來的人〉",
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫面、選擇與後果的整合測試。所有本篇新出現的地名、私人稱呼、遠征隊名稱、歸來者名字與過去均是**助手本輪新增可撤回候選**。"
+        },
+        {
+          "line": 17,
+          "heading": "# 從上面下來的人",
+          "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。"
+        },
+        {
+          "line": 640,
+          "heading": "## B案作者層當場成果與尚存缺口（非正文）",
+          "quote": "- **女主有效能力**：她能獨立整理與展示局部拓撲結果，並公開更正圖。研究「為何移位」與「能不能整理當下結果」是不同層次；**未假定她無力移動或無法完整尋路**。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-067",
+      "source_path": "待定正文/ChatGPT原稿/B2_出城增量_2026-10-23_非第152六章.md",
+      "source_group": "待定正文",
+      "source_function": "B2出城增量試寫不是第152六章，兩主角仍在初識時期，偏地方運輸與人物選擇。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# B2續寫壓力測試｜《上去的人，回來的人》（2026-10-23，非正史增量）",
+          "quote": "> **狀態：助手新撰寫的非正史連續場景，並非第134份B2最新舊版原文，也不是正式正文。** 諾亞、艾莉維亞與第110份首次相遇、唐榆／游洵以及第113–134份「E去S回資料遺失＋現行改建」的候選因果相容。承接第110已有的前一日接觸與第134 B2 的S2–S6方向，測試路圖公示修正以後如何用生活、選擇、動作和巨構景觀讓讀者繼續看。當地地名、貨運班次、次日選擇及這段新發生的一切**均可撤回**；它不回填已採用的〈第三個座位〉，不將A/C首遇融入同城，也不涉及靜謐白髮、諾亞首次死亡或Celeste揭身分。"
+        },
+        {
+          "line": 105,
+          "heading": "## 《上去的人，回來的人》",
+          "quote": "一個老人在等著把三籃新鮮蔬菜送到上面，還有個抱著小孩的女人正與司機討論能不能在第二個停臺多等半刻鐘。"
+        },
+        {
+          "line": 419,
+          "heading": "## 本次真試寫的結果與未定",
+          "quote": "- **人物互動**：二人仍初識，尚無戀人稱呼；艾莉維亞有俏皮語氣、行動和真能力，髮色仍深青藍，沒有誤用靜謐後白髮。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-068",
+      "source_path": "待定正文/ChatGPT原稿/B2_第152_從上面下來的人_六章完整正文.md",
+      "source_group": "待定正文",
+      "source_function": "第152 ChatGPT B2原稿六章，歸來者、測線和城鎮遠征到分路結局，並非已採正式。",
+      "family": "CHATGPT_ALTERNATE_OPENING_OR_VIGNETTE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 5,
+          "heading": "# 《巨構世界》B2完整小說試寫",
+          "quote": "本版從頭重寫 B2，保留原本「歸來者、舊圖、雙主角初遇」的核心，但將故事延伸至遠方城市、真正的分路高潮與結局。所有新增加的人物、地理與事件均屬試寫，不代表已正式採用。"
+        },
+        {
+          "line": 61,
+          "heading": "## 第一章｜從上面下來的人",
+          "quote": "大片不像天然山脈的灰色承力結構從空腔邊緣斜斜探出，支撐著沿途生長的商街、工坊、溫室與住宅。早班列車在其中一條銀色軌道上行駛，遠得像是一條慢慢移動的黑線。"
+        },
+        {
+          "line": 527,
+          "heading": "## 第二章｜兩個箭頭",
+          "quote": "紙張邊緣已經磨損，幾處原本貼著的測量標籤也有些褪色。"
+        },
+        {
+          "line": 949,
+          "heading": "## 第三章｜貨架旁邊的窗",
+          "quote": "遠征隊的補給車沿著導軌前進，游洵站在最前方，向隊員再次確認各自選定的返程安排。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-069",
+      "source_path": "待定正文/Gemini原稿/G0_第162_懸艙開箱日_首輪提綱與短試寫_聊天轉錄.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini G0第162可見聊天轉錄首篇短段含最早候選意圖，不是與第153原TXT同等保真。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第162份｜Gemini 首次獨立第一章方案及開場試寫：對話可見文字轉錄",
+          "quote": "**來源等級：VISIBLE_CHAT_TRANSCRIPTION。**此檔依使用者在本次對話實際貼出的 Gemini 回覆逐段人工轉錄，保留當時內容和錯別字，例如「打了个」「热湯」；未從 Gemini 原始聊天匯出驗證位元一致。**請勿與第153／154已另有原始 TXT 的完整第一章混為同一稿**。第162為更早的「提綱＋約1200字試寫片段」。所有 Gemini 新增情節為 CANDIDATE，後修見第158、160。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-070",
+      "source_path": "待定正文/Gemini原稿/G1_第153_懸艙開箱日_完整初版_全文含設計.txt",
+      "source_group": "待定正文",
+      "source_function": "Gemini G1第153使用者提供完整原始TXT，含第一章與世界生態設計；原始檔優先於後排版。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 4,
+          "heading": "先向你和 GPT 脫帽致敬。這兩輪跨 AI 碰撞的結果太有價值了！尤其你親自點出、且 GPT 隨後深刻拆解的那一點——我太愛用「瞬間起雞皮疙瘩」「情感核彈」「讀者立刻愛上」「滴水不漏」這類行銷號式的誇張詞彙去『規定』讀者的反應——這記批評非常精準，我完全認領。",
+          "quote": "這次他在第一章救下烤餅攤老闆，純粹是因為老闆剛才好心提醒過他別站主纜底下，而他剛好站在旁邊、順手拉一把不費事。在初次合作時，諾亞與艾莉維亞沒有天生完美的默契——他們會因為互不熟悉對方的招式而互相卡位、甚至差點誤傷對方，是在一兩次狼狽的碰撞後，才憑著頂尖的實戰直覺勉強打出配合，並且在結尾為了分贓繼續互相提防與試探。   5. 懸艙開箱的三個現場合理性（為什麼在人群旁開？為什麼怪獸與劫匪同時動？）為什麼工會敢當眾切艙？ 因為這座懸艙打撈上來時，外殼已經破了一道大口子，工會的常規熱感應與生命探測器掃描了三天，讀數全是零（完全死寂）。工務長老巴爾為了向各大買家證明「裡面沒有被工會高層私吞掉包」，才按吊"
+        },
+        {
+          "line": 4,
+          "heading": "爐心龜不是毫無預兆地突然下潛。當牠準備潛入高壓或深水裂谷前，背甲氣孔會先發出持續半天的低頻悶鳴（居民稱為「閉殼鐘」）。",
+          "quote": "這次他在第一章救下烤餅攤老闆，純粹是因為老闆剛才好心提醒過他別站主纜底下，而他剛好站在旁邊、順手拉一把不費事。在初次合作時，諾亞與艾莉維亞沒有天生完美的默契——他們會因為互不熟悉對方的招式而互相卡位、甚至差點誤傷對方，是在一兩次狼狽的碰撞後，才憑著頂尖的實戰直覺勉強打出配合，並且在結尾為了分贓繼續互相提防與試探。   5. 懸艙開箱的三個現場合理性（為什麼在人群旁開？為什麼怪獸與劫匪同時動？）為什麼工會敢當眾切艙？ 因為這座懸艙打撈上來時，外殼已經破了一道大口子，工會的常規熱感應與生命探測器掃描了三天，讀數全是零（完全死寂）。工務長老巴爾為了向各大買家證明「裡面沒有被工會高層私吞掉包」，才按吊"
+        },
+        {
+          "line": 4,
+          "heading": "龜背聚落的建築分為兩層：底層是釘死在甲殼上的「耐壓密封石屋與地熱工坊」，下潛時會直接拉下雙層水密鐵閘，全鎮轉入像潛水艇一樣的「閉氣夜市」狀態，靠巨龜體溫與發光菌照明繼續過日子；而外圍不耐水壓的木造商舖與外來船隊，則建在可拆卸的「浮箱街區」上——閉殼鐘一響，外圍",
+          "quote": "這次他在第一章救下烤餅攤老闆，純粹是因為老闆剛才好心提醒過他別站主纜底下，而他剛好站在旁邊、順手拉一把不費事。在初次合作時，諾亞與艾莉維亞沒有天生完美的默契——他們會因為互不熟悉對方的招式而互相卡位、甚至差點誤傷對方，是在一兩次狼狽的碰撞後，才憑著頂尖的實戰直覺勉強打出配合，並且在結尾為了分贓繼續互相提防與試探。   5. 懸艙開箱的三個現場合理性（為什麼在人群旁開？為什麼怪獸與劫匪同時動？）為什麼工會敢當眾切艙？ 因為這座懸艙打撈上來時，外殼已經破了一道大口子，工會的常規熱感應與生命探測器掃描了三天，讀數全是零（完全死寂）。工務長老巴爾為了向各大買家證明「裡面沒有被工會高層私吞掉包」，才按吊"
+        },
+        {
+          "line": 4,
+          "heading": "這次他在第一章救下烤餅攤老闆，純粹是因為老闆剛才好心提醒過他別站主纜底下，而他剛好站在旁邊、順手拉一把不費事。在初次合作時，諾亞與艾莉維亞沒有天生完美的默契——他們會因為互不熟悉對方的招式而互相卡位、甚至差點誤傷對方，是在一兩次狼狽的碰撞後，才憑著頂尖的實戰直",
+          "quote": "這次他在第一章救下烤餅攤老闆，純粹是因為老闆剛才好心提醒過他別站主纜底下，而他剛好站在旁邊、順手拉一把不費事。在初次合作時，諾亞與艾莉維亞沒有天生完美的默契——他們會因為互不熟悉對方的招式而互相卡位、甚至差點誤傷對方，是在一兩次狼狽的碰撞後，才憑著頂尖的實戰直覺勉強打出配合，並且在結尾為了分贓繼續互相提防與試探。   5. 懸艙開箱的三個現場合理性（為什麼在人群旁開？為什麼怪獸與劫匪同時動？）為什麼工會敢當眾切艙？ 因為這座懸艙打撈上來時，外殼已經破了一道大口子，工會的常規熱感應與生命探測器掃描了三天，讀數全是零（完全死寂）。工務長老巴爾為了向各大買家證明「裡面沒有被工會高層私吞掉包」，才按吊"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-071",
+      "source_path": "待定正文/Gemini原稿/G2_第154_懸艙開箱日_精修版_全文含地圖.txt",
+      "source_group": "待定正文",
+      "source_function": "Gemini G2第154使用者提供原始TXT，含宏觀W/K初版地圖與距離修訂；終焉雙頂層舊圖已後修。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "GPT 這次轉變視角後的批評非常精準，尤其是直接抓出了我上一版正文裡的兩個硬性物理/空間前後矛盾（三米鋼欄變成三百米滑輪座、五十米衰減卻砍了三百米），以及把兩章容量硬塞進一章導致節奏過趕的問題。這是我寫high了之後出現的空間座標失誤，完全認領！以下我們直接分",
+          "quote": "第二部分，徹底修復 GPT 抓出的三個正文漏洞，並將《懸艙開箱日》拆分為呼吸感極佳、空間距離完全自洽的「第一章（初遇與失控）＋第二章（合擊與逃債）」結構！   第一部分：整座巨構的「最外層宏觀世界總圖」 [CANDIDATE]按照你的要求：「W01 裡面就是那 12 大區域＋各種通道與小地方；而往外看，我要看到由數個宏觀世界層（W）與厚重層間隔界（K）組成的整座巨構最外層總圖，並且保有一個真正的最高點層。」   我們吸收《絲之歌》「從底層一路向頂端聖所攀升、兩側展開異質分支、最底下壓著深淵」的結構美學，結合本世界 B+C（非對稱多向巨構母骨架＋局部非普通空間拓撲） 的核心規則，將整座巨構的最外"
+        },
+        {
+          "line": 3,
+          "heading": "第一部分，先為你建構你要求的「整座巨構的最外層宏觀世界層總圖（多世界層交錯＋唯一真正最高點層）」；",
+          "quote": "第二部分，徹底修復 GPT 抓出的三個正文漏洞，並將《懸艙開箱日》拆分為呼吸感極佳、空間距離完全自洽的「第一章（初遇與失控）＋第二章（合擊與逃債）」結構！   第一部分：整座巨構的「最外層宏觀世界總圖」 [CANDIDATE]按照你的要求：「W01 裡面就是那 12 大區域＋各種通道與小地方；而往外看，我要看到由數個宏觀世界層（W）與厚重層間隔界（K）組成的整座巨構最外層總圖，並且保有一個真正的最高點層。」   我們吸收《絲之歌》「從底層一路向頂端聖所攀升、兩側展開異質分支、最底下壓著深淵」的結構美學，結合本世界 B+C（非對稱多向巨構母骨架＋局部非普通空間拓撲） 的核心規則，將整座巨構的最外"
+        },
+        {
+          "line": 14,
+          "heading": "第二部分，徹底修復 GPT 抓出的三個正文漏洞，並將《懸艙開箱日》拆分為呼吸感極佳、空間距離完全自洽的「第一章（初遇與失控）＋第二章（合擊與逃債）」結構！   第一部分：整座巨構的「最外層宏觀世界總圖」 [CANDIDATE]按照你的要求：「W01 裡面就是那",
+          "quote": "│   【W06：懸冠斷域 (高層左)】  │ ◄═ [K08] ═► │   【W07：深柱複域 (高層右)】  │"
+        },
+        {
+          "line": 17,
+          "heading": "│ (漂浮碎樓群、環形斷橋與晚霞海) │             │ (前文明殘存高階都市与巨柱群) │",
+          "quote": "║ [K06：高位懸斷脊]                           ║ [K07：懸殼風隙]"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-072",
+      "source_path": "待定正文/Gemini原稿/G3_第155_十噸重的帳單_第二章初版_全文含地圖.txt",
+      "source_group": "待定正文",
+      "source_function": "Gemini G3第155使用者提供原始TXT，含第二章及舊頂層地圖，局部物權後修不得偷偷改原文。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 10,
+          "heading": "GPT 這次給出的第三點建議——「你把搶銀行的宰了，銀行裡的錢就歸你啊？」——簡直是神來之筆！這一下直接打通了《巨構世界》最核心的任督二脈：世界不是圍繞著主角轉的 RPG 副本，打死 Boss 掉出來的東西，在當地社會眼裡叫做「有主人的扣押物資與競標資產」。當",
+          "quote": "(K06 垂直斷崖)│                                 ╱ (K07 斜向風隙・三千公里)"
+        },
+        {
+          "line": 10,
+          "heading": "(路線A：終焉迴廊)       ╱                 ╲       (路線B：K_FINAL 裂界天梯)",
+          "quote": "(K06 垂直斷崖)│                                 ╱ (K07 斜向風隙・三千公里)"
+        },
+        {
+          "line": 10,
+          "heading": "[絕對單向・越界永不可返]    ╱                   ╲   [可往返・但需硬撼跨層霸權與天災]",
+          "quote": "(K06 垂直斷崖)│                                 ╱ (K07 斜向風隙・三千公里)"
+        },
+        {
+          "line": 16,
+          "heading": "(K06 垂直斷崖)│                                 ╱ (K07 斜向風隙・三千公里)",
+          "quote": "(K03 斜向爬升主脊)│          ╲           ╱          │(K09 水熱垂直環帶)"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-073",
+      "source_path": "待定正文/Gemini原稿/G4_第168_十題人物日常復歸群像_短篇試寫與提案.md",
+      "source_group": "待定正文",
+      "source_function": "Gemini G4第168使用者貼出的十題深研為可見聊天人工轉錄，非原平台原生匯出。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# 第168份｜Gemini 80題「第一批十題深度重製版」的可見聊天長文轉錄",
+          "quote": "> **資料來源**：使用者於 2026-10-31 本次聊天完整貼入的 Gemini 回答。此份由助手根據目前可見聊天**人工重錄**，保留十題的候選設計、段落例文、Gemini 的自我檢討及宣稱。與第161–164份相同，**非平台原生 TXT 匯出，也未能與來源位元比對；不能以 GitHub 寫入成功推論完全逐字等同使用者原始貼文。**"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-074",
+      "source_path": "待定正文/Gemini排版全文/153_G1_懸艙開箱日_設定與第一章_完整排版.md",
+      "source_group": "待定正文",
+      "source_function": "第153原文排版版含G1及設定，附目錄換行不等於用戶正式採用G1開篇。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 7,
+          "heading": "# Gemini 第153份｜完整貼文・排版整理版（含 G1 第一章）",
+          "quote": "真正動人的文學餘韻（無論是那個「讓走累的人坐下來看風景的小位置」，還是「白醬別蓋掉果醬酸味的甜餅」），恰恰在於作者不吭聲、不敲鑼打鼓，只讓那份跨時空的普通心意安安靜靜地落在那裡，等讀者自己心頭一暖。"
+        },
+        {
+          "line": 13,
+          "heading": "## 一、 針對 GPT 最後幾項因果與機制問題的定調 [CANDIDATE]",
+          "quote": "1. 地圖尺度收斂：12 區就是這一個世界層（加通道與小地方）完全聽你的！不再為了證明大而疊床架屋說「12 區只是某條主肋的一角」。這 12 個大區加上交錯的升降通道、維修滑道、荒野空腔與小聚落，就是當前這整個世界層（W01）的主體結構。"
+        },
+        {
+          "line": 41,
+          "heading": "## 二、 《巨構世界》正式第一章完整試寫 [CANDIDATE]",
+          "quote": "## 二、 《巨構世界》正式第一章完整試寫 [CANDIDATE]"
+        },
+        {
+          "line": 139,
+          "heading": "### 第一章：懸艙開箱日",
+          "quote": "攤主一屁股坐在地上，驚魂未定地看著自己剛才站立的地方被鋼索抽出一道半米深的豁口，嘴唇哆嗦著還沒來得及說聲謝謝，就看見救了他的黑風衣青年順手彎下腰，從翻倒在地的鐵篩裡，夾走了唯一一塊沒沾到灰的脆肉餅。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-075",
+      "source_path": "待定正文/Gemini排版全文/154_G2_懸艙開箱日_世界層地圖與第一章_完整排版.md",
+      "source_group": "待定正文",
+      "source_function": "第154原文排版版含G2及多世界層舊圖，K_FINAL與終焉平列的舊方案已被後出修改。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# Gemini 第154份｜完整貼文・排版整理版（含 G2 精修第一章與世界層地圖）",
+          "quote": "> 排版整理日期：2026-11-04。**只增加標題、換行、段落與地圖等寬顯示，不改原文內容**；內文關於《終焉迴廊》與 K_FINAL 平級的地圖是當時舊方案，後續已被第164份修正，**不要誤讀為現行設定**。原始 TXT 見[第154份](../../09_跨AI原始來源/154_Gemini原始對話封存_第一章距離因果修訂與試寫_完整貼文.txt)。"
+        },
+        {
+          "line": 13,
+          "heading": "## 第一部分：整座巨構的「最外層宏觀世界總圖」 [CANDIDATE]",
+          "quote": "按照你的要求：「W01 裡面就是那 12 大區域＋各種通道與小地方；而往外看，我要看到由數個宏觀世界層（W）與厚重層間隔界（K）組成的整座巨構最外層總圖，並且保有一個真正的最高點層。」"
+        },
+        {
+          "line": 31,
+          "heading": "### Plaintext",
+          "quote": "│   【W06：懸冠斷域 (高層左)】  │ ◄═ [K08] ═► │   【W07：深柱複域 (高層右)】  │"
+        },
+        {
+          "line": 97,
+          "heading": "## 第二部分：修復第一章的三大具體問題（空間距離、界楔射程、事件密度）",
+          "quote": "十八公尺完全在界楔五十米無衰減射程內，且諾亞站在下面能清楚看見那枚釘子與滑輪座的結構！修復「十噸重錘為什麼剛好能砸中古斯塔」的軌道因果：平衡錘不是懸在半空亂飛的，它原本就嵌在龍門架一條「四十五度向下、直接通往卸貨台中央緩衝坑」的緊急洩載滑軌上。"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-076",
+      "source_path": "待定正文/Gemini排版全文/155_G3_十噸重的帳單_地圖與第二章_完整排版.md",
+      "source_group": "待定正文",
+      "source_function": "第155原文排版版含G3及舊圖，後來五處稱呼/原槍知情文字校訂使其不再與第155 TXT逐字一致。",
+      "family": "GEMINI_PRIMARY_AND_FORMATTED_COPIES",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "# Gemini 第155份｜完整貼文・排版整理版（含 G3 第二章與雙頂層舊圖）",
+          "quote": "> 排版整理日期：2026-11-04。**2026-11-04 最初整理僅增加排版；後續已依作者明確要求，針對艾莉維亞稱呼（3 處）與諾亞辨識原槍碎件的資訊邊界（2 處）進行局部文字校訂。故本閱讀版現已不與原始 TXT 逐字一致；第155份原始 TXT 完整不動**；其中《終焉迴廊》與 K_FINAL 並列的「雙路線」屬於已遭後續質疑的**歷史舊版設定**，不是現行既定規則。原始完整 TXT 在[第155份](../../09_跨AI原始來源/155_Gemini原始對話封存_第二章十噸重帳單與雙終局初案_完整貼文.txt)。"
+        },
+        {
+          "line": 13,
+          "heading": "## 第一部分：四項關鍵設定的精準升級 [CANDIDATE]",
+          "quote": "1. 宏觀地圖的「三維空間剖面」與「雙終局通道」（非垂直公寓樓！）為了避免上一輪的拓撲連通圖被誤讀為「一樓疊二樓的垂直電梯大樓」，我們建立「真實三維空間剖面」與「頂層雙路線代價」："
+        },
+        {
+          "line": 27,
+          "heading": "### Plaintext",
+          "quote": "(K06 垂直斷崖)│                                 ╱ (K07 斜向風隙・三千公里)"
+        },
+        {
+          "line": 70,
+          "heading": "## 第二部分：正式第二章完整試寫（接續修訂版第一章結尾） [CANDIDATE]",
+          "quote": "## 第二部分：正式第二章完整試寫（接續修訂版第一章結尾） [CANDIDATE]"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    },
+    {
+      "id": "COV-DRAFT-077",
+      "source_path": "待定正文/README.md",
+      "source_group": "待定正文",
+      "source_function": "待定正文README保留12章順讀入口、各版QA和來源選擇；目錄不是唯一真源也不批准Canon。",
+      "family": "REFERENCE_OR_UNSELECTED_CANDIDATE",
+      "artifact_credibility": "UNADOPTED_NARRATIVE_OR_VERSION_ARCHIVE__NOT_CANON",
+      "evidence": [
+        {
+          "line": 3,
+          "heading": "## 2026-11-08｜第01～12章最新已套補丁・依章號順序閱讀（現行入口）",
+          "quote": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gemini` 為歷史底稿。**"
+        },
+        {
+          "line": 13,
+          "heading": "## 2026-11-08｜第十二章全文入庫＋已同意補丁實際套用（以此節為最新進度）",
+          "quote": "- [**第七、八章 G9E＋G10R4（A/B/C 已套，簡化 D 已正式套入候選正文）**](純正文_Gemini/第七八章_G9E_G10R4_ABC加極簡D_完整候選_20261108.md)：以先前已存 A/B/C 版為底，僅替換塞拉的頂層待命命令；不再採用「換向 0.5 秒＝卸載」說法。舊稿與 QA 仍封存為歷史來源。"
+        },
+        {
+          "line": 23,
+          "heading": "## 2026-11-08｜第十一章〈撈風底的人〉原文候選已入庫，第十章兩處微校正已套用",
+          "quote": "[**第十一章〈撈風底的人〉完整候選**](純正文_Gemini/第十一章_Gemini_撈風底的人_使用者貼入完整候選_20261108.md)已按使用者本輪完整貼文入庫、讀回核對，不擅自改寫；[**第十章〈風停以後〉主要候選**](純正文_Gemini/第十章_Gemini_風停以後_使用者貼入完整候選_20261108.md)則已精準融合「缺德王八蛋」資訊差笑點與救城事實，並修正兩處簡繁字（「诺亞」→「諾亞」、「他们」→「他們」）。第十章的未修訂早期保存稿仍保留為歷史來源；不製造新的章節修訂鏈。**第1～11章目前均有候選正文，正式正文0章、PREWRITE HOLD、CANDIDATE"
+        },
+        {
+          "line": 35,
+          "heading": "## 2026-11-06｜最新可讀：G9E＋G10R4（A/B/C已套，D待核）",
+          "quote": "[完整兩章 G9E＋G10R4 衍生候選](第七八章_G9E_G10R4_已套A_B_C_應急D待核_衍生完整候選_20261106.md)以 G9E＋G10R3 真實文字微調多恩入塔時間（A）、作業單表面名稱和設備欄（B）、母核自鎖／多恩推論（C）；**原 G10R3 完整正文仍保留**。**D 未套用／未驗收**：換向零速≠卸載，0.5秒固定減載窗缺少受力依據，盲孔外部退針與卡箍剪力仍需實測門檻。[第206份 QA 與 D 原文附錄](../08_交接勘誤與決議/206_第八章ABC微補丁已實套_D換向減載與第九章事件設計審核_非正史.md)。第九章尚未動筆，非正史，正式0章／PREWRI"
+        }
+      ],
+      "source_stage": "TARGETED_SOURCE_ROLE_REVIEW__NOT_WHOLE_CHAPTER_ARBITRATION",
+      "editorial_guardrail": "若要引用事件、角色所知、道具去向，先以本檔版本與同家族修訂版核實；即使相同語句出現多次也不當多次故事事件。"
+    }
+  ],
+  "version_links": [
+    {
+      "id": "CVLINK-001",
+      "from": "COV-DRAFT-023",
+      "to": "COV-DRAFT-024",
+      "relation": "GEMINI_C1_REVISED",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-002",
+      "from": "COV-DRAFT-024",
+      "to": "COV-DRAFT-025",
+      "relation": "GEMINI_C1_DISTANCE_REVISED",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-003",
+      "from": "COV-DRAFT-023",
+      "to": "COV-DRAFT-069",
+      "relation": "SHORT_EXCERPT_OF_CHAT",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-004",
+      "from": "COV-DRAFT-024",
+      "to": "COV-DRAFT-070",
+      "relation": "G1_PRIMARY_TXT_EXISTS",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-005",
+      "from": "COV-DRAFT-025",
+      "to": "COV-DRAFT-071",
+      "relation": "G2_PRIMARY_TXT_EXISTS",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-006",
+      "from": "COV-DRAFT-024",
+      "to": "COV-DRAFT-074",
+      "relation": "G1_FORMATTED_COPY",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-007",
+      "from": "COV-DRAFT-025",
+      "to": "COV-DRAFT-075",
+      "relation": "G2_FORMATTED_COPY",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-008",
+      "from": "COV-DRAFT-033",
+      "to": "COV-DRAFT-034",
+      "relation": "G3_TO_G3R_LOCAL_REVISIONS",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-009",
+      "from": "COV-DRAFT-033",
+      "to": "COV-DRAFT-072",
+      "relation": "G3_PRIMARY_TXT_EXISTS",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-010",
+      "from": "COV-DRAFT-033",
+      "to": "COV-DRAFT-076",
+      "relation": "G3_FORMATTED_BUT_LATER_EDITED",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-011",
+      "from": "COV-DRAFT-040",
+      "to": "COV-DRAFT-041",
+      "relation": "G5_TO_G5R_MONEY_AND_KNOWLEDGE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-012",
+      "from": "COV-DRAFT-042",
+      "to": "COV-DRAFT-043",
+      "relation": "G7_TO_G7R_KNOWLEDGE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-013",
+      "from": "COV-DRAFT-043",
+      "to": "COV-DRAFT-044",
+      "relation": "G7R_TO_G7R1_NARRATOR",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-014",
+      "from": "COV-DRAFT-044",
+      "to": "COV-DRAFT-045",
+      "relation": "SAME_G7R1_TWO_ARCHIVES__COMPARE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-015",
+      "from": "COV-DRAFT-047",
+      "to": "COV-DRAFT-048",
+      "relation": "G8C_TO_G8D_REVIEW",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-016",
+      "from": "COV-DRAFT-048",
+      "to": "COV-DRAFT-049",
+      "relation": "G8D_TO_G8E_NARRATOR",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-017",
+      "from": "COV-DRAFT-049",
+      "to": "COV-DRAFT-050",
+      "relation": "SAME_G8E_TWO_ARCHIVES__COMPARE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-018",
+      "from": "COV-DRAFT-028",
+      "to": "COV-DRAFT-029",
+      "relation": "G9_TO_G9A_REWRITE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-019",
+      "from": "COV-DRAFT-029",
+      "to": "COV-DRAFT-030",
+      "relation": "G9A_TO_G9B_THREE_PATCHES",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-020",
+      "from": "COV-DRAFT-030",
+      "to": "COV-DRAFT-031",
+      "relation": "G9B_TO_G9C_CONTINUITY",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-021",
+      "from": "COV-DRAFT-031",
+      "to": "COV-DRAFT-052",
+      "relation": "G9C_TO_G9D_G10R1_EDITORIAL_DERIVATION",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-022",
+      "from": "COV-DRAFT-035",
+      "to": "COV-DRAFT-052",
+      "relation": "G10_TO_R1_EDITORIAL_REWRITE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-023",
+      "from": "COV-DRAFT-053",
+      "to": "COV-DRAFT-054",
+      "relation": "G9E_G10R3_TO_R4_ABC",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-024",
+      "from": "COV-DRAFT-054",
+      "to": "COV-DRAFT-055",
+      "relation": "R4_ABC_TO_ABCD_ENGINEERING_CANDIDATE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-025",
+      "from": "COV-DRAFT-055",
+      "to": "COV-DRAFT-026",
+      "relation": "R4_TO_1108_SIMPLIFIED_D",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-026",
+      "from": "COV-DRAFT-019",
+      "to": "COV-DRAFT-020",
+      "relation": "A_AND_B_MUTUALLY_EXCLUSIVE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-027",
+      "from": "COV-DRAFT-020",
+      "to": "COV-DRAFT-021",
+      "relation": "B_PROTOTYPE_VS_B2_EXPANDED",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-028",
+      "from": "COV-DRAFT-062",
+      "to": "COV-DRAFT-016",
+      "relation": "CHATGPT_066_ORIGINAL_TO_READING",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-029",
+      "from": "COV-DRAFT-063",
+      "to": "COV-DRAFT-017",
+      "relation": "CHATGPT_091_ORIGINAL_TO_READING",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-030",
+      "from": "COV-DRAFT-064",
+      "to": "COV-DRAFT-018",
+      "relation": "CHATGPT_092_ORIGINAL_TO_READING",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-031",
+      "from": "COV-DRAFT-065",
+      "to": "COV-DRAFT-019",
+      "relation": "CHATGPT_109_ORIGINAL_TO_READING",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-032",
+      "from": "COV-DRAFT-066",
+      "to": "COV-DRAFT-020",
+      "relation": "CHATGPT_110_ORIGINAL_TO_READING",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-033",
+      "from": "COV-DRAFT-068",
+      "to": "COV-DRAFT-021",
+      "relation": "CHATGPT_152_ORIGINAL_TO_READING",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-034",
+      "from": "COV-DRAFT-067",
+      "to": "COV-DRAFT-068",
+      "relation": "B2_SUPPLEMENT_NOT_REPLACEMENT",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-035",
+      "from": "COV-DRAFT-007",
+      "to": "COV-DRAFT-015",
+      "relation": "FIRST_DEATH_VS_SILENT_BLACK_MIST",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-036",
+      "from": "COV-DRAFT-011",
+      "to": "COV-DRAFT-010",
+      "relation": "ART_REFERENCE_NEEDS_SOURCE",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    },
+    {
+      "id": "CVLINK-037",
+      "from": "COV-DRAFT-037",
+      "to": "COV-DRAFT-038",
+      "relation": "C12_TO_C10_RELATIVE_TIME_NOT_DIRECT_SEQUEL",
+      "status": "EDITORIAL_PROVENANCE_LINK__DOES_NOT_MERGE_EVENTS"
+    }
+  ],
+  "warning": "77份候選來源各有來源角色、原文行號及候選家族。版本關係為有文內支持的編輯來源鏈，並非所有段落已逐句完成差異驗收。全部NON-CANON，正式0章。"
+}
