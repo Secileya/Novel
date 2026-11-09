@@ -1,0 +1,1951 @@
+{
+  "schema": "mega-audit-to-domain-reverse-graph-v1",
+  "as_of": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
+  "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
+  "audit_record_count": 68,
+  "mapped_review_count": 68,
+  "links_count": 164,
+  "unmapped_review_ids": [],
+  "no_new_canon_or_hard_dependency_edges": true,
+  "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
+  "records": [
+    {
+      "audit_id": "SRC-171-001",
+      "reviewed_status": "RESOLVED_REPOSITORY_LAYOUT_CONFLICT",
+      "summary": "09五檔上限與現存六檔相衝",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-001-01",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-001-02",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/README.md",
+        "git_blob_sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a",
+        "line": 24
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-002",
+      "reviewed_status": "AUTHOR_INSTRUCTION_IN_SOURCE",
+      "summary": "黑幕允許但必須有事先的作者層因果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-002-01",
+          "target_type": "claim",
+          "target_id": "MG-C017",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-002-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/README.md",
+        "git_blob_sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a",
+        "line": 10
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-003",
+      "reviewed_status": "UNVERIFIED_EXTERNAL_REFERENCE",
+      "summary": "外部《異常大舞台》研究是二手轉貼且含後出自修",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-003-01",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-003-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+        "line": 5
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-004",
+      "reviewed_status": "EDITORIAL_PROCESS_RULE",
+      "summary": "設定閱讀必回原文並核對後修，不能由覆蓋率代替",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-004-01",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-004-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+        "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+        "line": 11
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-005",
+      "reviewed_status": "EDITORIAL_PROCESS_RULE",
+      "summary": "未決台帳與已知答案的伏筆台帳必須分離",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-005-01",
+          "target_type": "claim",
+          "target_id": "MG-C017",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-005-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+        "git_blob_sha": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+        "line": 44
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-006",
+      "reviewed_status": "PREWRITE_SCOPE",
+      "summary": "正式首章門檻仍 HOLD，不等於禁止候選試寫",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-006-01",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-006-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-006-03",
+          "target_type": "version",
+          "target_id": "VER-010",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+        "git_blob_sha": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38",
+        "line": 66
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-007",
+      "reviewed_status": "CHARACTER_TIMELINE_BOUNDARY",
+      "summary": "初遇時序與瑟莉思媞知情／介入範圍分層",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-007-01",
+          "target_type": "claim",
+          "target_id": "MG-C020",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-007-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-007-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-CEL-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-007-04",
+          "target_type": "social_relation",
+          "target_id": "REL-004",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+        "git_blob_sha": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38",
+        "line": 11
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-008",
+      "reviewed_status": "IDENTIFIER_COLLISION",
+      "summary": "同號第201份是兩個保存文檔，不是唯一鍵",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-008-01",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-008-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+        "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+        "line": 1
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-009",
+      "reviewed_status": "CANDIDATE_TEXT_CONFLICT",
+      "summary": "G9B章末已回答，G10開頭卻說尚未回答",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-009-01",
+          "target_type": "version",
+          "target_id": "VER-012",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-009-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+        "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+        "line": 120
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-010",
+      "reviewed_status": "CANDIDATE_TEXT_CONFLICT",
+      "summary": "一號主吊籠已毀仍被G10要求直接搭乘",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-010-01",
+          "target_type": "version",
+          "target_id": "VER-012",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-010-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+        "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+        "line": 96
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-011",
+      "reviewed_status": "POTENTIAL_BODY_EQUIPMENT_AMBIGUITY",
+      "summary": "多恩機械副指受損與『包紮斷指』需分辨",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-011-01",
+          "target_type": "social_entity",
+          "target_id": "person:dorne",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-011-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+        "git_blob_sha": "22297bfef8df5ff101e2c21af66fb380894c060a",
+        "line": 100
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-012",
+      "reviewed_status": "ABILITY_KNOWLEDGE_BOUNDARY",
+      "summary": "20m結構辨識不等於射程或1100m共鳴",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-012-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-012-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/201_Gemini第七八章整合修訂交接指令_GPT根因與必修清單_非正史.md",
+        "git_blob_sha": "b7e0eb885513b42ddad68694e37859619074878e",
+        "line": 24
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-013",
+      "reviewed_status": "EVENT_PROVENANCE_CONFLICT_RISK",
+      "summary": "三日前失竊物不能逕指五百年固定黑銷",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-013-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-013-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+        "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+        "line": 41
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-014",
+      "reviewed_status": "EVIDENCE_VS_VERDICT",
+      "summary": "簽核單／制服／供述≠科爾主使確證",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-014-01",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-014-02",
+          "target_type": "version",
+          "target_id": "VER-012",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+        "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+        "line": 95
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-015",
+      "reviewed_status": "CANDIDATE_VERSION_LABEL_COLLISION",
+      "summary": "G10R4同名存在ABC版與ABCD版兩條衍生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-015-01",
+          "target_type": "version",
+          "target_id": "VER-012",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-015-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md",
+        "git_blob_sha": "25de6936a6637a1fa45e1bb5457b9df5c2510bbd",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-016",
+      "reviewed_status": "ENGINEERING_UNPROVEN",
+      "summary": "換向速度短暫為零不證明可安全減載拔針",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-016-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-016-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/206_盲孔退針四補丁第九章工程構想QA_非正史.md",
+        "git_blob_sha": "25de6936a6637a1fa45e1bb5457b9df5c2510bbd",
+        "line": 22
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-017",
+      "reviewed_status": "ENGINEERING_AND_LOAD_PATH",
+      "summary": "巨擺停擺不代表頂軸卸載完成",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-017-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-017-02",
+          "target_type": "version",
+          "target_id": "VER-012",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+        "git_blob_sha": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+        "line": 109
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-018",
+      "reviewed_status": "OBJECT_IDENTITY_UNPROVEN",
+      "summary": "黑銷相似接口不等於原槍模組已核實",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-018-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-018-02",
+          "target_type": "claim",
+          "target_id": "MG-C007",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
+        "git_blob_sha": "b3a90641ccebb07186a46c242f387df20bbb75cd",
+        "line": 20
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-019",
+      "reviewed_status": "STORY_WORKFLOW_CONSENSUS",
+      "summary": "不同第201存檔均要求共同驗第七八章而非先寫第九章",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-019-01",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-019-02",
+          "target_type": "version",
+          "target_id": "VER-012",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/201_交Gemini第七八章重寫指令_GPT錯誤與同步修訂總清單_非正史.md",
+        "git_blob_sha": "93785315050212d902d0a2f091fb109dc2d58ac1",
+        "line": 32
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-020",
+      "reviewed_status": "USER_FEEDBACK_WITHOUT_CANON_ADOPTION",
+      "summary": "B首篇獲較佳讀後回饋，但僅有限追讀興趣",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-020-01",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-020-02",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+        "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+        "line": 79
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-021",
+      "reviewed_status": "MUTUALLY_EXCLUSIVE_OPENING_VERSIONS",
+      "summary": "A與B兩個初遇候選互斥，不應前後接成同一故事",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-021-01",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-021-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-021-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-022",
+      "reviewed_status": "ALTERNATE_CANDIDATE_NO_CANON_PROMOTION",
+      "summary": "C《把天光賣出去的人》是新第三競爭案而非後出定案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-022-01",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-022-02",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+        "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+        "line": 58
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-023",
+      "reviewed_status": "TEST_BASELINE_VS_AUTHOR_SELECTION",
+      "summary": "第090試寫選擇不是使用者對拆路首篇的正式選案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-023-01",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-023-02",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/090_開篇候選P0工作卡_被拆走的上行路_真初遇與第二章因果.md",
+        "git_blob_sha": "c6cf85d13a0566dc31c359dc8419333e22c4d77b",
+        "line": 5
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-024",
+      "reviewed_status": "CONTINUOUS_DRAFT_NOT_HAPPENED",
+      "summary": "第091第一章與092第二章可連讀但都是非正史候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-024-01",
+          "target_type": "version",
+          "target_id": "VER-010",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-024-02",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-025",
+      "reviewed_status": "TWO_INDEPENDENT_READER_QA_GATES",
+      "summary": "劇情拉力與人物／空間可視化是兩個獨立的准寫門檻",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-025-01",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-025-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+        "git_blob_sha": "8e9bd4e341947111f1894d7124efcb844c644cb3",
+        "line": 282
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-026",
+      "reviewed_status": "LATER_CORRECTION_TO_CANDIDATE",
+      "summary": "A試演的『前文有人喊出諾亞姓名』時序錯誤已修",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-026-01",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-026-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+        "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+        "line": 54
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-027",
+      "reviewed_status": "VISUAL_SOURCE_GAP",
+      "summary": "男主完整正式外貌來源未回收，不能憑助手想像定髮瞳",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-027-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-027-02",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+        "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+        "line": 36
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-028",
+      "reviewed_status": "TIMELINE_SUPERSEDED_SCENE_REUSABLE",
+      "summary": "熟人版第066不符合初見，但場景與人物表演應保留",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-028-01",
+          "target_type": "version",
+          "target_id": "VER-003",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-028-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-028-03",
+          "target_type": "social_relation",
+          "target_id": "REL-004",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
+        "git_blob_sha": "2247dd76e7b562f23934b38f3089efaea6a80ab9",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-029",
+      "reviewed_status": "PARTIAL_LATER_OVERRIDE",
+      "summary": "第034對復歸武器去向的舊未決表述已被後出部分覆蓋",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-029-01",
+          "target_type": "version",
+          "target_id": "VER-002",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-029-02",
+          "target_type": "claim",
+          "target_id": "MG-C007",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+        "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+        "line": 93
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-030",
+      "reviewed_status": "DEATH_RETURN_PHASE_AND_CONSEQUENCE",
+      "summary": "第一次死亡不屬主角主動試命；世界外部事件持續",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-030-01",
+          "target_type": "claim",
+          "target_id": "MG-C008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-030-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-030-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-02",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+        "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+        "line": 91
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-031",
+      "reviewed_status": "AUTHOR_SELECTED_NOT_YET_OCCURRED",
+      "summary": "第051核心已選但曾寫『全段未定』的舊段落須限縮",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-031-01",
+          "target_type": "claim",
+          "target_id": "MG-C020",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-031-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-CEL-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-031-03",
+          "target_type": "social_relation",
+          "target_id": "REL-005",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+        "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+        "line": 259
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-032",
+      "reviewed_status": "SUBTEXT_NOT_PROPHECY",
+      "summary": "『下次見呀』只是自然道別，額外意境不能變成預言",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-032-01",
+          "target_type": "claim",
+          "target_id": "MG-C020",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-032-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-CEL-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-032-03",
+          "target_type": "version",
+          "target_id": "VER-004",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+        "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+        "line": 263
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-033",
+      "reviewed_status": "MILESTONE_DECOUPLING",
+      "summary": "武器第一次可見、實際開槍與獲配套不能一鏡頭合併",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-033-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-033-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 59
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-034",
+      "reviewed_status": "MAP_EVIDENCE_STATUS_BOUNDARY",
+      "summary": "B的L0→L2工作路線不是跨W或跨K通行證",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-034-01",
+          "target_type": "container",
+          "target_id": "CON-W01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-034-02",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-034-03",
+          "target_type": "claim",
+          "target_id": "MG-C011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 215
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-035",
+      "reviewed_status": "NARRATIVE_PLANNING_NOT_CANON_ORDER",
+      "summary": "長篇篇章母題不是固定八關、未定必經順序",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-035-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-035-02",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+        "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+        "line": 24
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-036",
+      "reviewed_status": "UNRESOLVED_STORY_DESIGN_GATE",
+      "summary": "B2的S7人物高潮缺具名同行者與事前生活",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-036-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-036-02",
+          "target_type": "social_entity",
+          "target_id": "person:tangyu",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-036-03",
+          "target_type": "social_entity",
+          "target_id": "person:youxun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+        "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+        "line": 134
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-037",
+      "reviewed_status": "STORY_CAUSAL_SEQUENCE_NOT_CHAPTER_QUOTA",
+      "summary": "B2路圖應在前段局部結案，高潮是實際旅途與選擇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-037-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-037-02",
+          "target_type": "version",
+          "target_id": "VER-011",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+        "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+        "line": 106
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-038",
+      "reviewed_status": "READER_EXPERIENCE_QUALITY_CRITERION",
+      "summary": "篇章記憶依人物、生活、名場面、後果一起累積",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-038-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-038-02",
+          "target_type": "claim",
+          "target_id": "MG-C017",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 26
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-039",
+      "reviewed_status": "SECOND_HAND_REFERENCE_NOT_VERIFIED_ORIGINAL",
+      "summary": "外部《異常大舞台》篇章記憶只能作使用者讀後資料",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-039-01",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-039-02",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 39
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-040",
+      "reviewed_status": "LOCAL_ARC_SELF_CONTAINMENT_CANDIDATE",
+      "summary": "《倒行潮》是可獨立收束的地方篇而非宇宙陰謀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-040-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-040-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+        "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+        "line": 90
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-041",
+      "reviewed_status": "CHARACTER_AGENCY_AND_ENSEMBLE",
+      "summary": "B2雙主角各自目的不得被唐榆與游洵搶走",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-041-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-041-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-041-03",
+          "target_type": "social_entity",
+          "target_id": "person:tangyu",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-041-04",
+          "target_type": "social_entity",
+          "target_id": "person:youxun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-041-05",
+          "target_type": "social_relation",
+          "target_id": "REL-008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+        "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+        "line": 92
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-042",
+      "reviewed_status": "REFERENCE_CHRONOLOGY",
+      "summary": "首圖與後來補圖不能錯置",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-042-01",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-042-02",
+          "target_type": "version",
+          "target_id": "VER-013",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+        "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+        "line": 9
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-043",
+      "reviewed_status": "MULTISCALE_DIRECTION",
+      "summary": "巨構整體近無邊與局部成熟城市可並存",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-043-01",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-043-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+        "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+        "line": 21
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-044",
+      "reviewed_status": "EXTERNAL_REFERENCE_BOUNDARY",
+      "summary": "參考作品與原作正史內容不能混同",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-044-01",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-044-02",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+        "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+        "line": 34
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-045",
+      "reviewed_status": "APPEARANCE_HISTORICAL_OVERRIDE",
+      "summary": "Celeste舊金髮紅瞳與道具視覺皆非現行固定形象",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-045-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-045-02",
+          "target_type": "version",
+          "target_id": "VER-005",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-045-03",
+          "target_type": "claim",
+          "target_id": "MG-C002",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+        "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+        "line": 25
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-046",
+      "reviewed_status": "PROMPT_NOT_INTERACTION",
+      "summary": "靜態繪圖Prompt不是遊戲互動或世界原件",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-046-01",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-046-02",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+        "git_blob_sha": "34519957135498742dd8fad840c253ea8d29975a",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-047",
+      "reviewed_status": "EXTERNAL_RESEARCH_NOT_CANON",
+      "summary": "第047外部作品研究與本世界候選必分權威",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-047-01",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-047-02",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+        "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+        "line": 5
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-048",
+      "reviewed_status": "INFORMATION_DIFFUSION_CONDITIONAL",
+      "summary": "消息與名望依真實資訊路網擴散",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-048-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-048-02",
+          "target_type": "claim",
+          "target_id": "MG-C018",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+        "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+        "line": 50
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-049",
+      "reviewed_status": "MULTI_AXIS_STAKES",
+      "summary": "戰鬥強度與專業生存、物流損失不同軸",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-049-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-049-02",
+          "target_type": "claim",
+          "target_id": "MG-C018",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+        "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+        "line": 58
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-050",
+      "reviewed_status": "LOCAL_CANDIDATE_NOT_SELECTED",
+      "summary": "懸潮港試驗非正式第一章也不固定第三個座位位置",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-050-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-050-02",
+          "target_type": "claim",
+          "target_id": "MG-C020",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+        "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+        "line": 5
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-051",
+      "reviewed_status": "LOCAL_POLITICS_NOT_GLOBAL",
+      "summary": "地方議事院和黑市勢力是可推翻候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-051-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-051-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+        "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+        "line": 49
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-052",
+      "reviewed_status": "TECHNOLOGY_POWER_BOUNDARY",
+      "summary": "原文明特殊槍與現代一般工業產品保留技術斷層",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-052-01",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-052-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-052-03",
+          "target_type": "claim",
+          "target_id": "MG-C012",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+        "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+        "line": 75
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-053",
+      "reviewed_status": "NARRATIVE_METHOD_NOT_FIXED_FORMULA",
+      "summary": "人物可以專業，旁白不可搶演；長章不設固定配額",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-053-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-053-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+        "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d",
+        "line": 111
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-054",
+      "reviewed_status": "LATER_CREATIVE_PERMISSION_SCOPE",
+      "summary": "後出圖片可直接取具體環境形體，不等於地理定案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-054-01",
+          "target_type": "version",
+          "target_id": "VER-013",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-054-02",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+        "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+        "line": 11
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-055",
+      "reviewed_status": "ASSET_PROVENANCE_SEPARATE",
+      "summary": "有景觀吸收授權不等於圖檔存在與外部公開使用權",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-055-01",
+          "target_type": "version",
+          "target_id": "VER-013",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-055-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+        "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-056",
+      "reviewed_status": "AUTHOR_DEFINED_NARRATION_LEXICON",
+      "summary": "艾莉維亞的少女／女生／姑娘用詞不削減其成熟實力",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-056-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-056-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-02",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-056-03",
+          "target_type": "version",
+          "target_id": "VER-006",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+        "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-057",
+      "reviewed_status": "SCOPED_TEXT_PATCH_TWO_READING_COPIES",
+      "summary": "G3第二章有三處特定稱呼修補，且只同步兩個閱讀入口",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-057-01",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-057-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+        "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+        "line": 7
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-058",
+      "reviewed_status": "CHARACTER_KNOWLEDGE_BOUNDARY_NOT_IDENTIFIED_COMPONENT",
+      "summary": "黑銃與暗銀卡槽共鳴不等於諾亞知道原廠來源",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-058-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-058-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-058-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-058-04",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+        "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+        "line": 10
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-059",
+      "reviewed_status": "AUTHORITY_TIMELINE_MODULAR_REBIRTH",
+      "summary": "後出11/08的『深層同化B』覆蓋較早的『曾安裝過』傾向",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-059-01",
+          "target_type": "claim",
+          "target_id": "MG-C007",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-059-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-GUN-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-059-03",
+          "target_type": "version",
+          "target_id": "VER-002",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 3
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-060",
+      "reviewed_status": "G3_PERSISTENT_PROPERTY_RIGHTS_GAP",
+      "summary": "G3打撈物權涉及工聯、商行與研究站，不能一句話全數讓渡",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-060-01",
+          "target_type": "social_entity",
+          "target_id": "org:railunion",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-060-02",
+          "target_type": "social_relation",
+          "target_id": "REL-010",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-060-03",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-060-04",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+        "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+        "line": 45
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-061",
+      "reviewed_status": "G3_TRIGGER_LIABILITY_NOT_AUTOMATIC_RESCUE",
+      "summary": "G3女主移出摺片造成5t到32t回彈，需保存主動責任",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-061-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-061-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-061-03",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+        "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+        "line": 46
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-062",
+      "reviewed_status": "G3_ENGINEERING_FORCE_AND_ENERGY_GAP",
+      "summary": "G3的下墜動能、靜載重量與三柱承載不能合併計算",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-062-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-062-02",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+        "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+        "line": 47
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-063",
+      "reviewed_status": "G3_INFRASTRUCTURE_DAMAGES_REQUIRE_FOLLOWTHROUGH",
+      "summary": "G3損壞公共軌道與水管後仍有居民、物流和工務後果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-063-01",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-063-02",
+          "target_type": "social_entity",
+          "target_id": "org:railunion",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-063-03",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+        "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+        "line": 48
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-064",
+      "reviewed_status": "G3_ENERGY_CANISTERS_CUSTODY_MISMATCH",
+      "summary": "G3三枚供能匣的發現者與抵價人出現物權敘事錯接",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-064-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-064-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-064-03",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+        "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+        "line": 49
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-065",
+      "reviewed_status": "G1_G2_G3_CANDIDATE_JOIN_INVALID",
+      "summary": "G1第一章舊結尾不能直拼G3第二章，需遵守G2修正版斷點",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-065-01",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-065-02",
+          "target_type": "claim",
+          "target_id": "MG-C014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+        "git_blob_sha": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+        "line": 35
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-066",
+      "reviewed_status": "PRIMARY_TEXT_VS_VISIBLE_CHAT_TRANSCRIPTION",
+      "summary": "使用者提供的原始Gemini TXT與可見對話人工轉錄必須分級",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-066-01",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-066-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "00_分類導航/艾莉維亞稱呼與原槍知識邊界_2026-11-04.md",
+        "git_blob_sha": "b7cc311ffd87f202cb05c02b4d5d58cbb9ee19ee",
+        "line": 21
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-067",
+      "reviewed_status": "WITNESS_CAUSAL_ABILITY_RESPONSIBILITY",
+      "summary": "艾莉維亞目擊死亡須依當時能力、距離和關係設計，不可無故旁觀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-067-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-067-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-067-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-067-04",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-067-05",
+          "target_type": "version",
+          "target_id": "VER-014",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+        "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+        "line": 7
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-171-068",
+      "reviewed_status": "CROSS_UNIVERSE_REVIVAL_MECHANISM_SEPARATION",
+      "summary": "方九死亡回溯研究不可套成諾亞死亡可無限重試的能力與心理公式",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-068-01",
+          "target_type": "claim",
+          "target_id": "MG-C008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-068-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-02",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-068-03",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+        "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+        "line": 730
+      },
+      "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    }
+  ]
+}

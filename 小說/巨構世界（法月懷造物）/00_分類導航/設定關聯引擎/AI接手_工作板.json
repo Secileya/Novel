@@ -142,7 +142,14 @@
         "CI測試關聯端點和原文準確性"
       ],
       "blocked_on": null,
-      "complete_evidence": []
+      "complete_evidence": [],
+      "progress": {
+        "stage": "SCOPED_REVIEW_GRAPH_BRIDGE_STAGED_PENDING_CI",
+        "audit_claims_mapped": 68,
+        "scope_limited_links": 164,
+        "remaining": "真正新增已證生態／跨層依賴、未回收原文來源的完整圖譜、候選版別全段物權及場景因果仍未完成。",
+        "warning": "所有可追來源的既有審核ID都回連既有領域圖節點，但沒有將可能性畫成確定因果；非完成整個335來源圖譜。"
+      }
     },
     {
       "id": "NEXT-004",
@@ -318,19 +325,11 @@
     "current_head_warning": "This is the verified install baseline. Fetch latest main HEAD and CI before further edits."
   },
   "latest_progress": {
-    "task_id": "NEXT-001",
-    "stage": "SEVENTH_BATCH_CI_VERIFIED__SECOND_FULL_FILE_ACCEPTED",
-    "scope": "第七批3份171待審來源（艾莉維亞稱呼/原槍知情、舊矛盾台帳、第85份復歸試驗）定向整合13項判讀與41個原文SHA/行號錨點；新增VER-014，總68項188錨點/14版節點。第00艾莉維亞25行經6連續區段+5份對照原文驗收，累計2/171整檔編輯性驗收。",
-    "files": [
-      "00_分類導航/設定關聯引擎/20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json",
-      "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
-      "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json"
-    ],
-    "commit": "1f02a9824ba8ac13d52fe276814314cf2ea4394a",
-    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42562746549",
-    "ci_result": "success",
-    "not_finished": "整檔尚待169/171；本輪另兩份長源只做限定語義，仍未全文結案。NEXT-001持續；NEXT-003/004/005/007/008仍READY，NEXT-006需要作者明確解除PREWRITE HOLD。",
-    "next_step": "NEXT-001：實際讀未曾第四～七批深入對讀的06_084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md及05_083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md；先核兩份來源原話差異、作者糾錯、角色與世界線互不混同，再判定是否可完成整檔驗收，不能先減169。"
+    "task_id": "NEXT-003",
+    "stage": "BRIDGE_68_CLAIMS_164_DOMAIN_RELATIONS_PENDING_CI",
+    "scope": "補上第四至七批68/68條審核命題與既有高優先規則／人際／版本／時期／容器圖的164條有型證據關聯。查詢器可從命題或原生圖節點雙向回查實體、版本、人物相鄰邊與父容器全部子項。CI嚴格查dangling endpoints、引文SHA、權威不能升格。",
+    "not_finished": "169份171待審來源未通過整檔語義驗收，且335全來源並非全部原子化；特定生態與跨層真因果不能從相關性邊倒推。NEXT-001、NEXT-003後續深化、NEXT-004/005/007/008未完成，NEXT-006作者PREWRITE HOLD。",
+    "next_step": "先讓本次GitHub CI完整通過；接著回NEXT-001，選多份原文成組核對，符合完整全行驗收標準的每份才扣169。對跨層/生態/因果新增實體連線時先核獨立原文，不做無證跨層推斷。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",

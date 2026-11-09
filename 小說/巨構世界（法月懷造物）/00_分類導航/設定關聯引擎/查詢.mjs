@@ -42,6 +42,8 @@ const extraAudits=auditManifest.slice(3).map(p=>{
 const allAudits=[fourthAudit,fifthAudit,sixthAudit,...extraAudits];
 const allAuditRecords=allAudits.flatMap(x=>x.records||[]);
 const auditedClaimByID=new Map(allAuditRecords.map(x=>[x.id,x]));
+const auditDomainBridge=JSON.parse(fs.readFileSync(path.join(HOME,"審核命題至既有關係圖_雙向證據橋.json"),"utf8"));
+const domainBridgeByAuditID=new Map(auditDomainBridge.records.map(x=>[x.audit_id,x]));
 const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
 const sourceRolesByID = new Map(allSourceRoles.map(x=>[x.id,x]));
@@ -758,6 +760,65 @@ function findReviewedSourceImpact(versions,fourthFindings,fifthFindings,sixthFin
     warning:"僅按已登記的版本—審核—來源一跳關係提供回讀範圍；不代表已讀完所有來源、沒有漏項、候選已定案，亦非任何事件必然產生的因果影響。"
   };
 }
+/**
+ * Scope-preserving bidirectional join: source-audit ↔ established domain IDs.
+ * A link is an index/re-read dependency, NEVER a Canon or causal upgrade.
+ */
+function findAuditedDomainBridge(q,ids,versions,containers,people,phases,claims,reviewedImpact){
+  const exact=norm(q);
+  const selections={
+    entity:new Set(ids.direct),
+    claim:new Set(claims.map(x=>x.id)),
+    version:new Set(versions.map(x=>x.id)),
+    temporal_phase:new Set(phases.map(x=>x.id)),
+    social_entity:new Set(people.direct_ids),
+    social_relation:new Set(people.relationships.map(x=>x.id)),
+    container:new Set(containers.map(x=>x.id)),
+    ecology_dependency:new Set(),
+    crosslayer_dependency:new Set()
+  };
+  const selected=new Set(reviewedImpact.matched_reviewed_records.map(x=>x.id));
+  const scored=auditDomainBridge.records.map(row=>{
+    let score=exact.includes(norm(row.audit_id))?100:0;
+    if(selected.has(row.audit_id))score+=35;
+    for(const link of row.relations){
+      if(selections[link.target_type]?.has(link.target_id))score+=24;
+      else if(exact.includes(norm(link.target_id))&&link.target_id.length>=6)score+=40;
+    }
+    if(exact.length>=4&&norm(row.summary).includes(exact))score+=12;
+    return {score,row};
+  }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||a.row.audit_id.localeCompare(b.row.audit_id));
+  const limited=scored.slice(0,25);
+  const refs=limited.flatMap(x=>x.row.relations);
+  const relevantIds=new Set(refs.filter(x=>x.target_type==="entity").map(x=>x.target_id));
+  const relevantSocialIds=new Set(refs.filter(x=>x.target_type==="social_entity").map(x=>x.target_id));
+  const socialEdges=new Set(refs.filter(x=>x.target_type==="social_relation").map(x=>x.target_id));
+  const containerIDs=new Set(refs.filter(x=>x.target_type==="container").map(x=>x.target_id));
+  return {
+    total_audit_records_in_original_batches:auditedClaimByID.size,
+    mapped_records_in_bridge:auditDomainBridge.records.length,
+    evidence_scoped_links_in_bridge:auditDomainBridge.links_count,
+    unmatched_audit_count:auditedClaimByID.size-domainBridgeByAuditID.size,
+    matching_review_count:scored.length,
+    results_truncated:scored.length>limited.length,
+    matched_audits_and_existing_nodes:limited.map(({score,row})=>{
+      const a=auditedClaimByID.get(row.audit_id);
+      return {audit_id:row.audit_id,audit_title:a?.title,audit_status:a?.status,
+        relevance_score:score,related_existing_nodes:row.relations,
+        original_evidence:(a?.evidence||[]).map(e=>({source_path:e.source_path,line:e.line,git_blob_sha:e.git_blob_sha,quote:e.quote})),
+        next_action:a?.next_action};
+    }),
+    existing_canon_graph_adjacent_edges:graph.edges.filter(e=>relevantIds.has(e.from)||relevantIds.has(e.to)),
+    existing_social_graph_adjacent_edges:peopleNetwork.edges.filter(e=>socialEdges.has(e.id)||relevantSocialIds.has(e.from)||relevantSocialIds.has(e.to)),
+    audit_traced_complete_containers:containerRegistry.containers.filter(c=>containerIDs.has(c.id)).map(c=>{
+      const children=resolveChildren(c);
+      return {id:c.id,name:c.name,authority:c.authority,expected_children:c.expected_children,
+        actual_children:children.length,children,complete:children.length===c.expected_children,
+        warning:"來源審核是相關性連結，不構成特定候選位置或跨世界層連通已證明"};
+    }),
+    caution:"第四至七批皆有對現有圖的可追索映射；結構性/候選關聯不會變成新的因果、物權或Canon事實。既有生態與跨層網只有獨立原文證據充分時才可新增真正因果邊；本橋本身沒有創造那種邊。"
+  };
+}
 function findSixthAudit(q) {
   const qn=norm(q);
   const broad=/第六批|視覺研究總覽|SRC-171-0(4[2-9]|5[0-5])/.test(q);
@@ -819,6 +880,8 @@ function query(q, corpus) {
   const sixthFindings = findSixthAudit(q);
   const additionalFindings=findAdditionalAudits(q);
   const reviewedImpact=findReviewedSourceImpact(versions,fourthFindings,fifthFindings,sixthFindings,additionalFindings);
+  const domainEvidenceBridge=findAuditedDomainBridge(q,ids,versions,containers,people,phaseMatches,graph.claims.filter(r=>
+    (r.subjects||[]).some(id=>ids.expanded.includes(id))),reviewedImpact);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -901,6 +964,7 @@ function query(q, corpus) {
     candidate_two_hop_impact_paths:impact,
     version_decisions:versionFindings,
     reviewed_source_impact_and_recheck:reviewedImpact,
+    audited_domain_graph_bidirectional_links:domainEvidenceBridge,
     unified_semantic_audit_graph:{reviewed_findings:auditedClaimByID.size,verified_original_quotes:allAudits.reduce((n,x)=>n+Number(x.evidence_count??x.original_anchors_count??0),0),
       linked_versions:versionLedger.records.filter(v=>(v.related_audit_ids||[]).length>0).map(v=>({id:v.id,related_audit_ids:v.related_audit_ids})),
       warning:"既有版本決策可取回第四／五批原文SHA、行號及候選狀態；並非171份全文仲裁，也非Canon採案。"},
@@ -988,6 +1052,18 @@ function integrity(corpus) {
   const legacyK=macroMap.barriers.filter(x=>x.version==="V03_LEGACY_K");
   const newK=macroMap.barriers.filter(x=>x.version==="GEMINI_G_K_LATER_CANDIDATE");
   const noCrossingClaim=travelEvidence.routes.every(r=>r.world_crossing_verified===false);
+  const missingDomainAuditIds=allAuditRecords.filter(r=>!domainBridgeByAuditID.has(r.id)).map(r=>r.id);
+  const unknownDomainAuditIds=auditDomainBridge.records.filter(r=>!auditedClaimByID.has(r.audit_id)).map(r=>r.audit_id);
+  const knownDomainIDs={
+    entity:new Set(graph.entities.map(x=>x.id)),claim:new Set(graph.claims.map(x=>x.id)),
+    version:new Set(versionLedger.records.map(x=>x.id)),temporal_phase:new Set(temporal.phases.map(x=>x.id)),
+    social_entity:new Set(peopleNetwork.entities.map(x=>x.id)),social_relation:new Set(peopleNetwork.edges.map(x=>x.id)),
+    container:new Set(containerRegistry.containers.map(x=>x.id)),
+    ecology_dependency:new Set(ecoLinks.edges.map(x=>x.id)),
+    crosslayer_dependency:new Set(crossWorldLinks.edges.map(x=>x.id))
+  };
+  const brokenDomainBridgeReferences=auditDomainBridge.records.flatMap(r=>r.relations.filter(link=>
+    !knownDomainIDs[link.target_type]?.has(link.target_id)).map(link=>r.audit_id+" -> "+link.target_type+":"+link.target_id));
   const brokenAuditVersionLinks=versionLedger.records.flatMap(v=>(v.related_audit_ids||[])
     .filter(id=>!auditedClaimByID.has(id)).map(id=>v.id+"->"+id));
   const allIds=[
@@ -1027,10 +1103,13 @@ function integrity(corpus) {
     full_corpus_unsegmentable_files:passageInventory.files_without_passages,
     dangling_ecology_edges:danglingEco,duplicated_extended_ids:duplicateGraphIDs,
     broken_version_audit_links:brokenAuditVersionLinks,source_index_drift:drift,
+    audit_to_existing_domain_graph:{mapped:auditDomainBridge.records.length,total_audits:allAuditRecords.length,
+      links:auditDomainBridge.links_count,missing_audits:missingDomainAuditIds,unknown_audits:unknownDomainAuditIds,
+      broken_node_references:brokenDomainBridgeReferences},
     active_w01_children:children.length,old_w01_children:legacy.length,
     temporal_phases:temporal.phases.length,causal_edges:ecoLinks.edges.length,version_decisions:versionLedger.records.length,
     registered_containers:containers,incomplete_registered_containers:incompleteContainers,
-    ok:deepValidation.ok&&sourceRolesValidation.ok&&versionDiffValidation.ok&&missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&brokenAuditVersionLinks.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
+    ok:deepValidation.ok&&sourceRolesValidation.ok&&versionDiffValidation.ok&&missingDossiers.length===0&&dossierAnchorFailures.length===0&&sourceDossiers.length===213&&sourceScreenManifest.sections===1597&&missing.length===0&&corpus.missing.length===0&&badRecoveryAnchors.length===0&&brokenRecoveryLinks.length===0&&duplicateRecoveryLinks.length===0&&duplicateRecoveryIDs.length===0&&passageInventory.files_with_passages===corpus.read.length&&collisions.length===0&&danglingEco.length===0&&missingRelationEndpoints.length===0&&duplicateGraphIDs.length===0&&brokenAuditVersionLinks.length===0&&missingDomainAuditIds.length===0&&unknownDomainAuditIds.length===0&&brokenDomainBridgeReferences.length===0&&incompleteContainers.length===0&&children.length===12&&legacy.length===9&&legacyK.length===10&&newK.length===9&&travelEvidence.routes.length===12&&noCrossingClaim&&!drift.stale};
 }
 function selfTest(corpus) {
   const one=query("Celeste 被前文明強者砍出傷口",corpus);
@@ -1065,6 +1144,21 @@ function selfTest(corpus) {
   const reviewedChapters=query("G9B G10 第七章 第八章",corpus);
   assert(reviewedChapters.version_compatibility_ledger.some(x=>x.id==="VER-012"&&
     x.linked_verified_audits.some(a=>a.id==="SRC-171-009")));
+  const bridgedGun=query("SRC-171-059",corpus);
+  assert(bridgedGun.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(r=>
+    r.audit_id==="SRC-171-059"&&r.related_existing_nodes.some(e=>e.target_id==="P-GUN-01")));
+  const bridgedG3=query("SRC-171-060",corpus);
+  assert(bridgedG3.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(r=>
+    r.audit_id==="SRC-171-060"&&r.related_existing_nodes.some(e=>e.target_id==="REL-010")));
+  assert(bridgedG3.audited_domain_graph_bidirectional_links.existing_social_graph_adjacent_edges.some(e=>e.id==="REL-010"));
+  const bridgedContainer=query("SRC-171-034",corpus);
+  assert(bridgedContainer.audited_domain_graph_bidirectional_links.audit_traced_complete_containers.some(c=>
+    c.id==="CON-W01"&&c.actual_children===12&&c.complete));
+  const bridgedCeleste=query("SRC-171-032",corpus);
+  assert(bridgedCeleste.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(r=>
+    r.audit_id==="SRC-171-032"&&r.related_existing_nodes.some(e=>e.target_id==="P-CEL-01")));
+  assert.equal(bridgedCeleste.audited_domain_graph_bidirectional_links.mapped_records_in_bridge,68);
+  assert.equal(bridgedCeleste.audited_domain_graph_bidirectional_links.evidence_scoped_links_in_bridge,164);
   const fish=query("W01第06區漁業受到第11區污染有什麼後果",corpus);
   assert(fish.ecology_industry_network.direct_edges.some(x=>x.id==="ECO-001"));
   assert(fish.ecology_industry_network.matched_zone_ids.includes("W01-Z06"));
@@ -1174,6 +1268,7 @@ function selfTest(corpus) {
     "22 cross-AI original-and-revision records",
     "30 W02+ civilization ecology facts and 12 routes not operationally verified",
     "171 individually source-reviewed historical files and 37 version-provenance links",
+     "all 68 fourth-to-seventh reviewed findings linked with 164 validated existing-domain relevance edges, reverse lookup plus 12-child expansion, no Canon promotion",
     "37 actual source SHA-verified literal version comparisons and line evidence"]};
 }
 const corpus=readAll();
