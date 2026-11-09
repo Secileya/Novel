@@ -43,7 +43,14 @@ jobs:
       - name: Dynamic report separates coverage dimensions
         run: |
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --report > "$RUNNER_TEMP/mega-coverage.json"
-          node -e "const r=require(process.argv[1]), l=require(require('path').resolve(process.argv[2])), c=r.dynamic_coverage;if(c.raw_source_files!==c.direct_fine_grained_source_paths+c.source_role_backlog||c.targeted_reviewed_claims!==r.targeted_reviewed_findings||c.verified_source_quotes!==r.verified_exact_quotes||c.full_file_editorial_accepted!==l.accepted_editorial_file_count||c.full_file_editorial_remaining!==l.remaining_for_full_file_semantic_acceptance||!String(c.full_file_semantic_review_completed).startsWith('EDITORIAL_ATTESTED'))process.exit(2)" "$RUNNER_TEMP/mega-coverage.json" '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json'
+          node -e "const r=require(process.argv[1]), l=require(require('path').resolve(process.argv[2])), c=r.dynamic_coverage;if(c.raw_source_files!==c.direct_fine_grained_source_paths+c.source_role_backlog+c.new_auto_queued_source_files||c.targeted_reviewed_claims!==r.targeted_reviewed_findings||c.verified_source_quotes!==r.verified_exact_quotes||c.full_file_editorial_accepted!==l.accepted_editorial_file_count||c.full_file_editorial_remaining!==l.remaining_for_full_file_semantic_acceptance||c.all_sources_full_file_accepted+c.all_sources_full_file_pending!==c.raw_source_files||!String(c.full_file_semantic_review_completed).startsWith('EDITORIAL_ATTESTED'))process.exit(2)" "$RUNNER_TEMP/mega-coverage.json" '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json'
+      - name: All current source files dynamic intake syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs'
+      - name: All 335 plus future new source files are included in uniform full-file QA
+        run: |
+          node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --check --negative-test > "$RUNNER_TEMP/mega-live-universe.json"
+          node -e "const r=require(process.argv[1]);if(r.source_total<335||r.accepted_full_file_count+r.pending_full_file_count!==r.source_total||r.historical_fine_grained_reference_only!==164||r.historical_role_card_set!==171||r.faults.length)process.exit(2)" "$RUNNER_TEMP/mega-live-universe.json"
+          node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --next > "$RUNNER_TEMP/mega-next-batch-queue.json"
       - name: Handoff next-task route and safe task selection
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --task NEXT > "$RUNNER_TEMP/next-agent-task.json"
       - name: Full-file editorial acceptance validator syntax

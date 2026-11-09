@@ -4,7 +4,7 @@
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
-  "scope": "Non-Canon knowledge infrastructure maintenance. Writing formal chapters is blocked by PREWRITE HOLD until author explicitly releases.",
+  "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
   "last_checked_head_before_handoff": "8c371bbe552167848c0751e4a2a5fa18ae1b2c7a",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
@@ -24,11 +24,17 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第七批13個定向議題/41原文引文；另有本次25行G3局部修補史檔達到AI編輯性全行驗收。171歷史待審母集合已有2份整檔驗收，169未驗收；不得把13個議題再加算13份。",
+    "important": "2026-11-09初始全域真值：335份原始來源，164舊細粒度引用但無整檔完成證明、171用途卡中2份編輯性整檔驗收，故全體已可驗收2、尚餘333。68為定向命題、188為原文錨點、164條只是68命題回接原圖的範圍證據邊。新檔須動態計入分母，既有164不能漏審。",
     "targeted_audit_records": 68,
     "targeted_audit_verified_quotes": 188,
     "full_file_editorial_accepted": 2,
-    "full_file_editorial_remaining": 169
+    "full_file_editorial_remaining": 169,
+    "all_source_historical_baseline": 335,
+    "all_source_full_file_editorial_accepted": 2,
+    "all_source_full_file_editorial_remaining": 333,
+    "historical_164_full_file_acceptance": 0,
+    "historical_171_full_file_acceptance": 2,
+    "all_source_progress_is_dynamic": true
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -37,13 +43,52 @@
       "BLOCKED",
       "DONE"
     ],
-    "completion_rule": "Commit+readback+CI (or honest NOT_RUN) and workboard status update; a mention of a source does not reduce 171 pending full semantic files",
+    "completion_rule": "Every Git-committed source must achieve identical full-document semantic editorial review (all text/image, provenance, author authority, later corrections, exact SHA/anchors, all applicable domain graphs and reverse links, CI). A prior fine-grained reference, source-role card, audit finding or graph edge does not count as a completed source.",
     "source_integrity": "Original fiction and user raw sources must remain byte-for-byte unchanged without express permission.",
     "branch": "Non-Canon non-destructive changes direct main by author rule; risky multi-file migration use atomic Git tree or reviewed PR",
     "no_fabricated_work": true,
-    "audit_batch_growth": "新增審核批次時在 audited_batch_paths 登記，工作板累積數依實際資料核對；五檔與封存原SHA保持嚴格不變，不能把舊批次固定數字設成未來上限。"
+    "audit_batch_growth": "新增審核批次時在 audited_batch_paths 登記，工作板累積數依實際資料核對；五檔與封存原SHA保持嚴格不變，不能把舊批次固定數字設成未來上限。",
+    "live_new_source_intake": "Read HEAD Git tree using 全量來源_動態納管與驗收.mjs. All new sources, modified evidence, multimedia assets automatically join the pending universe on next actual run; not background monitoring; never silently exclude future files.",
+    "goal_not_fixed_335": "335 historical baseline, total grows; 164/171 historic provenance, not mutually exclusive completion levels. Report accepted_all/total and remaining_all first."
   },
   "tasks": [
+    {
+      "id": "NEXT-009",
+      "priority": 1,
+      "status": "READY",
+      "name": "全庫335份＋未來新增來源：逐份完整語義審核與全關係圖回接（總主線）",
+      "purpose": "強制統一歷史164細粒度引用與171用途卡兩類來源。目標為所有Git-committed來源都具相同整檔語義判斷、作者/外部溯源、版本與時序仲裁、原文SHA證據，以及原生人物/社會/生態/地理/交通/容器/依賴圖雙向回接。第一個全域快照2/335已驗收、333待審；任何新增設定自動入分母。不因定向命題或引用自動完成。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/全量來源_完整標準與新增來源流程.md",
+        "00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs",
+        "00_分類導航/設定關聯引擎/全庫物理清冊.json",
+        "00_分類導航/設定關聯引擎/全庫待原子化缺口清冊.json",
+        "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
+        "00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json"
+      ],
+      "first_action": "先執行 node '00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --next 查看新增/失效/未驗收全集。第一批把171來源05_083、06_084與歷史164來源03_104、03_106一起讀原文與後修，按照全行覆蓋和全面圖連線標準分別存證、驗收。可多份並行，不能只為拉高數字挑最短檔。",
+      "acceptance": [
+        "每個Git提交樹中的來源都有唯一、動態可計數的狀態；原335及未來新增均涵蓋，accepted+pending=live total。",
+        "每份達成相同實質完整標準：所有段落、原始來源/轉貼分界、作者後修、權威/強度/發生進度、所有有效版本與未決事項。",
+        "逐項重要命題都有原文SHA/行號或媒體可核實來源，均回接相應原生實體、人物關係、時間、版本、子容器、生態依賴等圖；查詢器可雙向回查，未實證邊保留為候選。",
+        "每份個別登記整檔證據並通過專用驗收；因原文SHA/後修SHA/關係變動失效會撤銷並回到待審。",
+        "GitHub atomic commit / read-back / latest CI success；每輪公布已驗收M/全部N、未驗收N-M、批次跨來源與下一批，不把68命題或188錨點當完成檔數。"
+      ],
+      "blocked_on": null,
+      "complete_evidence": [],
+      "progress": {
+        "baseline_total": 335,
+        "verified_complete": 2,
+        "pending": 333,
+        "source_cohorts": {
+          "historic_fine_grained_reference_only": 164,
+          "historic_role_card": 171
+        },
+        "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
+        "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
+        "note": "No all-source fulfillment; continue batch-by-batch"
+      }
+    },
     {
       "id": "NEXT-001",
       "priority": 1,
@@ -270,6 +315,32 @@
         "remaining": 170,
         "acceptance_limit": "EDITORIAL_ATTESTATION_NOT_CANON__REVOKE_IF_SOURCE_OR_LATER_AUTHOR_RULE_CHANGES",
         "stage": "PILOT_COMMITTED_PENDING_CI"
+      }
+    },
+    {
+      "id": "NEXT-010",
+      "priority": 1,
+      "status": "READY",
+      "name": "未來新增設定檔／圖片自動納管、變更影響與重新驗收",
+      "purpose": "每次新增Git source立即加入全域333+待辦，包含文字、SVG及其他媒體；對變更來源與後出修正產生依賴重檢，避免隱形漏檔或把舊完成率當現況。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs",
+        "00_分類導航/設定關聯引擎/全量來源_完整標準與新增來源流程.md",
+        "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收.mjs"
+      ],
+      "first_action": "執行 all-source --check --negative-test，檢驗新增來源進全域母集合與不可自動簽核；後續對新媒體建立同等標準的可驗收觀察／來源保全；再設跨資料依賴更新後的重新檢查。",
+      "acceptance": [
+        "所有新增Git來源都自動進分母／待審佇列且顯示路徑、SHA、來源媒體類型，不要求先改335常數。",
+        "修改源SHA、後出權威SHA或原圖時撤銷受影響完成證明；保留原稿與版本歷史。",
+        "媒體類型須可核原檔／視覺／授權，不允許用文字驗收證書偽裝已審圖片。",
+        "CI具新來源模擬、缺口/壞SHA、權威升格的反向測試；無背景監控虛假承諾。"
+      ],
+      "blocked_on": null,
+      "complete_evidence": [],
+      "progress": {
+        "stage": "DYNAMIC_GIT_TREE_SCAN_IMPLEMENTED_PENDING_CI",
+        "future_media_full_semantic_attestation": "NOT_YET_SUPPORTED",
+        "downstream_dependency_invalidations": "LATER_REVISION_SHA_REVOCATION_SUPPORTED__GLOBAL_CROSSGRAPH_IMPACT_STILL_PENDING"
       }
     }
   ],

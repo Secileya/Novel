@@ -7,6 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {execFileSync} from 'node:child_process';
+import {buildLiveReviewReport} from './全量來源_動態納管與驗收.mjs';
 const HOME=path.dirname(fileURLToPath(import.meta.url));
 const PROJECT=path.resolve(HOME,'../..');
 const B=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_工作板.json'),'utf8'));
@@ -31,6 +32,9 @@ catch{warnings.push('未取得本機git HEAD；請用GitHub連接器查main HEAD
 const snapshot=B.fact_snapshot;
 const FULL=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_整檔語義驗收台帳.json'),'utf8'));
 const editorialAccepted=FULL.records.filter(x=>x.status==='FULL_FILE_EDITORIAL_ATTESTED').length;
+let GLOBAL=null;
+try{GLOBAL=buildLiveReviewReport();}catch(e){warnings.push('無法取得動態Git來源全集：'+String(e.message).slice(0,160))}
+if(GLOBAL?.faults.length)faults.push(...GLOBAL.faults.map(x=>'ALL_SOURCE:'+x));
 const COVER=JSON.parse(fs.readFileSync(path.join(HOME,'語義覆蓋計數快照.json'),'utf8'));
 const sourceRolePaths=new Set(BACK.sources.map(x=>x.path));
 const derivedCategories={};
@@ -57,7 +61,13 @@ const latestDerivedMetrics={
   full_file_editorial_pending:BACK.sources.length-editorialAccepted
 };
 const actualCoverage=Object.freeze({
-  raw_source_files:INV.files.length,
+  raw_source_files:GLOBAL?.source_total??INV.files.length,
+  historical_source_baseline_files:INV.files.length,
+  all_sources_full_file_accepted:GLOBAL?.accepted_full_file_count??editorialAccepted,
+  all_sources_full_file_pending:GLOBAL?.pending_full_file_count??null,
+  new_auto_queued_source_files:GLOBAL?.new_sources_auto_queued.length??0,
+  source_review_scope:'ALL_CURRENT_GIT_SOURCES__NOT_ONLY_HISTORICAL_171',
+  all_sources_group_breakdown:GLOBAL?.cohort_counts??null,
   direct_fine_grained_source_paths:BACK.referenced,
   source_role_backlog:BACK.sources.length,
   machine_screened_dossiers:DOS.sources.length,
@@ -139,7 +149,10 @@ if(args.includes('--metrics')){
   last_successful_ci:'NOT_CHECKED__FETCH_GITHUB_ACTIONS',completed_tasks:B.tasks.filter(x=>x.status==='DONE').map(x=>x.id),
   latest_actual_progress:B.latest_progress||null,
   remaining_tasks:pending.map(x=>({id:x.id,name:x.name,status:x.status,blocked_on:x.blocked_on||null})),
-  incomplete_full_file_semantic_reviews:BACK.sources.length-editorialAccepted,
+  incomplete_full_file_semantic_reviews:GLOBAL?.pending_full_file_count??null,
+  remaining_unverified_all_sources:GLOBAL?.pending_full_file_count??null,
+  auto_discovered_new_sources:GLOBAL?.new_sources_auto_queued??[],
+  historical_171_subset_remaining:BACK.sources.length-editorialAccepted,
   targeted_reviewed_findings:actualCoverage.targeted_reviewed_claims,
   verified_exact_quotes:actualCoverage.verified_source_quotes,
   dynamic_coverage:actualCoverage,
@@ -162,6 +175,9 @@ if(args.includes('--metrics')){
   same_head_as_stored_baseline:head===B.last_checked_head_before_handoff,
   ci_status:'NOT_CHECKED_BY_THIS_SCRIPT__VERIFY_REMOTE_ACTIONS_FOR_CURRENT_HEAD',
   source_snapshot:actualCoverage,
+  all_sources_live_status:GLOBAL?{source_total:GLOBAL.source_total,accepted:GLOBAL.accepted_full_file_count,
+     pending:GLOBAL.pending_full_file_count,discovered_new:GLOBAL.new_sources_auto_queued.length,
+     cohort_counts:GLOBAL.cohort_counts}:null,
   historical_snapshot_warning:historyIsNotCurrent,
   task_counts:{ready:B.tasks.filter(t=>t.status==='READY').length,
     blocked:B.tasks.filter(t=>t.status==='BLOCKED').length,done:B.tasks.filter(t=>t.status==='DONE').length},

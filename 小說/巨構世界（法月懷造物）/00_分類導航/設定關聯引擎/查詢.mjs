@@ -140,7 +140,9 @@ function sourceDrift() {
     }
     for(const p of prior.keys())if(!current.has(p))removed.push(p);
     return {available:true,changed,added,removed,
-      stale:changed.length>0||added.length>0||removed.length>0};
+      auto_discovered_new_source_files:added.length,
+      caution:"New Git-committed files enter the dynamic all-source review queue automatically; original source changes/removals still require explicit revalidation.",
+      stale:changed.length>0||removed.length>0};
   }catch(e) {return {available:false,stale:true,reason:String(e.message).slice(0,220)};}
 }
 
