@@ -2,7 +2,7 @@
   "schema": "mega-semantic-coverage-v1",
   "inventory_source_commit": "a7c85cf56e25640c70b9172b43ec66b4c11c2a4d",
   "physical_files": 335,
-  "semantic_full_file_review_count": "NOT_MEASURED__DO_NOT_CLAIM",
+  "semantic_full_file_review_count": 1,
   "structured_rule_count": 21,
   "creative_asset_count": 30,
   "temporal_constraint_count": 12,
@@ -160,7 +160,7 @@
   "candidate_version_relationships_curated": 37,
   "candidate_version_pairs_literal_diffed": 37,
   "semantic_candidate_version_issues_human_interpreted": 14,
-  "full_file_semantic_review_completed": "NOT_MEASURED",
+  "full_file_semantic_review_completed": 1,
   "note": "335來源有某種可追蹤結構化入口；164份至少有既有細粒度命題，171份有獨立來源用途卡、370原文錨點與部分修訂語義，但未完成全文設定命題逐一仲裁。37組文字關係含互斥／補篇對照，不全是同章修訂。",
   "current_operational_metrics": {
     "source": "derived by matching 全庫物理清冊.json and 全庫待原子化缺口清冊.json paths, version ledger, audited batches",
@@ -176,12 +176,15 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "55 audit claims / 147 source quote anchors are scoped checks, not 55 fully reviewed source files; 171 pending is not reduced; git/CI status must be checked separately."
+    "limitations": "55 audit claims / 147 source quote anchors are scoped checks, not 55 fully reviewed source files; 171 pending is not reduced; git/CI status must be checked separately.",
+    "full_file_editorial_accepted": 1,
+    "full_file_editorial_pending": 170
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
     "archive09_files": 6,
     "candidate_archive_files": 90,
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
-  }
+  },
+  "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。"
 }

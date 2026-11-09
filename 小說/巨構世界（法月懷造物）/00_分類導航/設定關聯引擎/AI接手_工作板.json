@@ -24,9 +24,11 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "55項定向證據（含第六批14項）不是55份來源全文已審，也不能從171減去14；以GitHub最新HEAD與CI為準。",
+    "important": "歷史171份有來源用途卡，其中009提示詞57行已獲有條件編輯性全檔驗收；可驗收完成1、剩餘170。55定向命題不代表55份已完成；正式0章/PREWRITE HOLD。",
     "targeted_audit_records": 55,
-    "targeted_audit_verified_quotes": 147
+    "targeted_audit_verified_quotes": 147,
+    "full_file_editorial_accepted": 1,
+    "full_file_editorial_remaining": 170
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -238,7 +240,9 @@
         "00_分類導航/設定關聯引擎/全庫待原子化缺口清冊.json",
         "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_非候選94份.json",
         "00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_候選77份.json",
-        "00_分類導航/設定關聯引擎/AI接手_來源覆蓋率與完成度口徑.md"
+        "00_分類導航/設定關聯引擎/AI接手_來源覆蓋率與完成度口徑.md",
+        "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
+        "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收.mjs"
       ],
       "first_action": "定義逐檔原文段落／命題範圍的已核對／未核對／被後修覆蓋欄，建立驗收台帳，選一份真實全文回查後試作；不得先把171任意減5。",
       "acceptance": [
@@ -248,7 +252,18 @@
         "覆蓋率與工作板聯動，保持Canon/候選界線"
       ],
       "blocked_on": null,
-      "complete_evidence": []
+      "complete_evidence": [],
+      "progress": {
+        "pilot_source": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+        "pilot_source_sha": "34519957135498742dd8fad840c253ea8d29975a",
+        "full_line_coverage_segments": 10,
+        "source_lines": 57,
+        "accepted_editorial_files": 1,
+        "source_pool": 171,
+        "remaining": 170,
+        "acceptance_limit": "EDITORIAL_ATTESTATION_NOT_CANON__REVOKE_IF_SOURCE_OR_LATER_AUTHOR_RULE_CHANGES",
+        "stage": "PILOT_COMMITTED_PENDING_CI"
+      }
     }
   ],
   "last_delivered_work": [
@@ -297,14 +312,11 @@
     "current_head_warning": "This is the verified install baseline. Fetch latest main HEAD and CI before further edits."
   },
   "latest_progress": {
-    "task_id": "NEXT-002",
-    "stage": "S6_DONE_VERIFIED_WITH_RECONCILED_SNAPSHOT",
-    "scope": "已完成真正的物理清冊分類重算、版本節點與定向審核數字對賬，保留舊歷史記錄；同步驗證工具可依工作板audited_batch_paths適應後續批次。",
-    "commit": "9ff91a2b6ffcbcaa46bf7460c84a808c5b6bf7fc",
-    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42561130723",
-    "ci_result": "success",
-    "not_finished": "NEXT-001：171份待逐檔仲裁仍未完成；NEXT-003～005、NEXT-007～008持續待辦；NEXT-006需作者解除PREWRITE HOLD。",
-    "next_step": "NEXT-001：從171份待完整仲裁來源中排除第四～六批已定向檢查過的題目，選下一組有關聯原始來源逐條讀取；留下Git SHA／行號引文、版本判定與CI測例。其次NEXT-008建立整檔通過與退回的量測門檻。"
+    "task_id": "NEXT-008",
+    "stage": "PILOT_COMMITTED_PENDING_CI",
+    "scope": "建立來源整檔驗收台帳、SHA/行號/無斷裂全行覆蓋及反向缺口測試；009全57行試作，另外4份仍局部。",
+    "not_finished": "170份171原始待審清冊尚未整檔驗收；NEXT-008機制仍須延伸至其他大檔；NEXT-001後續跨源命題、NEXT-003/004/005/007與作者阻擋NEXT-006",
+    "next_step": "先取得本次CI成功；擴展NEXT-008對源檔版本與新後修的失效偵測，繼續NEXT-001下一組171來源。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",

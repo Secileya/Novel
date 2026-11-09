@@ -29,6 +29,8 @@ let head='NOT_VERIFIED_GIT_CHECKOUT';
 try{head=execFileSync('git',['rev-parse','HEAD'],{cwd:PROJECT,encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim()}
 catch{warnings.push('未取得本機git HEAD；請用GitHub連接器查main HEAD，不得自行推定')}
 const snapshot=B.fact_snapshot;
+const FULL=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_整檔語義驗收台帳.json'),'utf8'));
+const editorialAccepted=FULL.records.filter(x=>x.status==='FULL_FILE_EDITORIAL_ATTESTED').length;
 const COVER=JSON.parse(fs.readFileSync(path.join(HOME,'語義覆蓋計數快照.json'),'utf8'));
 const sourceRolePaths=new Set(BACK.sources.map(x=>x.path));
 const derivedCategories={};
@@ -50,7 +52,9 @@ const latestDerivedMetrics={
   audited_original_quote_anchors:auditedAnchorsCount,
   original_archive_09_files:fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,
   formal_novel_chapters:snapshot.canon_formal_chapters,
-  prewrite_hold:snapshot.prewrite_hold
+  prewrite_hold:snapshot.prewrite_hold,
+  full_file_editorial_accepted:editorialAccepted,
+  full_file_editorial_pending:BACK.sources.length-editorialAccepted
 };
 const actualCoverage=Object.freeze({
   raw_source_files:INV.files.length,
@@ -64,7 +68,9 @@ const actualCoverage=Object.freeze({
   verified_source_quotes:auditedAnchorsCount,
   version_decisions:VER.records.length,
   original_archive_09_files:fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,
-  full_file_semantic_review_completed:'NOT_ESTABLISHED__DO_NOT_INFER_FROM_TARGETED_CLAIMS'
+  full_file_semantic_review_completed:'EDITORIAL_ATTESTED__NOT_AUTHOR_CANON_SIGNOFF',
+  full_file_editorial_accepted:editorialAccepted,
+  full_file_editorial_remaining:BACK.sources.length-editorialAccepted
 });
 const liveSnapshot=COVER.current_operational_metrics||{};
 if(JSON.stringify(derivedCategories)!==JSON.stringify(COVER.source_categories))
@@ -90,6 +96,7 @@ check('candidate_version_human_semantic_reviews',HUMAN.records.length,snapshot.c
 check('targeted_audit_records',auditedRecords.length,snapshot.targeted_audit_records);
 check('targeted_audit_verified_quotes',auditedAnchorsCount,snapshot.targeted_audit_verified_quotes);
 check('version_decision_nodes',VER.records.length,snapshot.version_decision_nodes);
+check('full_file_editorial_accepted',editorialAccepted,snapshot.full_file_editorial_accepted);
 check('nine_folder_files',fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,snapshot.nine_folder_files);
 if(snapshot.canon_formal_chapters!==0||snapshot.prewrite_hold!==true)
  faults.push('PREWRITE HOLD / 正式0章快照被更改：需要核對明確作者採案與現有正式正文真源');
@@ -132,7 +139,7 @@ if(args.includes('--metrics')){
   last_successful_ci:'NOT_CHECKED__FETCH_GITHUB_ACTIONS',completed_tasks:B.tasks.filter(x=>x.status==='DONE').map(x=>x.id),
   latest_actual_progress:B.latest_progress||null,
   remaining_tasks:pending.map(x=>({id:x.id,name:x.name,status:x.status,blocked_on:x.blocked_on||null})),
-  incomplete_full_file_semantic_reviews:BACK.sources.length,
+  incomplete_full_file_semantic_reviews:BACK.sources.length-editorialAccepted,
   targeted_reviewed_findings:actualCoverage.targeted_reviewed_claims,
   verified_exact_quotes:actualCoverage.verified_source_quotes,
   dynamic_coverage:actualCoverage,

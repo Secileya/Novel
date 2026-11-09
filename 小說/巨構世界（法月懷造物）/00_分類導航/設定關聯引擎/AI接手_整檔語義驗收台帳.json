@@ -1,0 +1,165 @@
+{
+  "schema": "mega-full-file-semantic-acceptance-pilot-v1",
+  "date": "2026-11-09",
+  "historical_171_role_backlog": 171,
+  "accepted_editorial_file_count": 1,
+  "remaining_for_full_file_semantic_acceptance": 170,
+  "acceptance_rule": "Only full, non-overlapping, contiguous 1..source_line_count reviewed sections, correct SHA and original quote, source role and audited claims, explicit checklist and later-revision limits can yield FULL_FILE_EDITORIAL_ATTESTED; any change revokes. Editor acceptance != author Canon.",
+  "records": [
+    {
+      "source_path": "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+      "git_blob_sha": "3a4a1071df4b725ff287b22b5367f3016dccaec7",
+      "source_role_id": "COV-NON-016",
+      "related_claim_ids": [
+        "SRC-171-042",
+        "SRC-171-043",
+        "SRC-171-044",
+        "SRC-171-045"
+      ],
+      "status": "TARGETED_SEMANTIC_ONLY__NOT_FULL_FILE",
+      "source_progress_note": "第六批僅定位部分原文命題，未進行整檔完整語義判定。"
+    },
+    {
+      "source_path": "05_場景視覺與參考/009_搜尋詞與繪圖提示詞.md",
+      "git_blob_sha": "34519957135498742dd8fad840c253ea8d29975a",
+      "source_role_id": "COV-NON-017",
+      "related_claim_ids": [
+        "SRC-171-046"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全57行十組逐段核對，來源為提示詞研究，非Canon、非互動程式。",
+      "source_line_count": 57,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 4,
+          "anchor_line": 3,
+          "quote": "搜尋詞／AI 繪圖 Prompt",
+          "meaning": "文件性質、静態畫面與真互動區別"
+        },
+        {
+          "from": 5,
+          "to": 10,
+          "anchor_line": 6,
+          "quote": "工業巨構、巨構科幻",
+          "meaning": "中文組合詞是搜索素材而不是已定地理"
+        },
+        {
+          "from": 11,
+          "to": 17,
+          "anchor_line": 12,
+          "quote": "megastructure sci-fi",
+          "meaning": "英文主題詞不代表世界內專名"
+        },
+        {
+          "from": 18,
+          "to": 34,
+          "anchor_line": 19,
+          "quote": "industrial megastructure cavern",
+          "meaning": "現成查詢組合含外部作品名，但不是IP移入"
+        },
+        {
+          "from": 35,
+          "to": 37,
+          "anchor_line": 36,
+          "quote": "一名探索者站在極其龐大的人工空間底部",
+          "meaning": "第一類工業巨構圖像提示詞"
+        },
+        {
+          "from": 38,
+          "to": 40,
+          "anchor_line": 39,
+          "quote": "在生鏽鋼架與混凝土組成的巨大洞穴",
+          "meaning": "第二類有人與半運作設施提示詞"
+        },
+        {
+          "from": 41,
+          "to": 43,
+          "anchor_line": 42,
+          "quote": "探索者從一條實際啟動過的工業設備路線走出",
+          "meaning": "第三類多路與水域候選鏡頭"
+        },
+        {
+          "from": 44,
+          "to": 46,
+          "anchor_line": 45,
+          "quote": "近距離第一人稱探索者伸手接觸",
+          "meaning": "第四類操作畫面非實際系統可玩驗證"
+        },
+        {
+          "from": 47,
+          "to": 49,
+          "anchor_line": 48,
+          "quote": "An immense, partially inhabited",
+          "meaning": "英文合成圖提示詞，非物理／地理定案"
+        },
+        {
+          "from": 50,
+          "to": 57,
+          "anchor_line": 51,
+          "quote": "不預設所有地方密集廣告霓虹",
+          "meaning": "六項禁止一元化視覺與探索失誤，非禁止明亮科技"
+        }
+      ],
+      "latest_revisions_checked": [
+        "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+        "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md"
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-09",
+        "review_scope": "Only this 57-line prompt/search tool file, not visual source binaries or every related novel setting",
+        "revocation": "Changed original blob or later author override requires recheck"
+      },
+      "remaining_caveats": [
+        "景觀可以直接吸收不等於既有遊戲Logo、圖片公開授權",
+        "搜尋詞／Prompt不是遊戲互動系統",
+        "原圖未保存在本檔"
+      ]
+    },
+    {
+      "source_path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+      "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+      "source_role_id": "COV-NON-018",
+      "related_claim_ids": [
+        "SRC-171-047",
+        "SRC-171-048",
+        "SRC-171-049"
+      ],
+      "status": "TARGETED_SEMANTIC_ONLY__NOT_FULL_FILE",
+      "source_progress_note": "第六批僅定位部分原文命題，未進行整檔完整語義判定。"
+    },
+    {
+      "source_path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+      "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+      "source_role_id": "COV-NON-019",
+      "related_claim_ids": [
+        "SRC-171-050",
+        "SRC-171-051",
+        "SRC-171-052"
+      ],
+      "status": "TARGETED_SEMANTIC_ONLY__NOT_FULL_FILE",
+      "source_progress_note": "第六批僅定位部分原文命題，未進行整檔完整語義判定。"
+    },
+    {
+      "source_path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+      "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d",
+      "source_role_id": "COV-NON-023",
+      "related_claim_ids": [
+        "SRC-171-053"
+      ],
+      "status": "TARGETED_SEMANTIC_ONLY__NOT_FULL_FILE",
+      "source_progress_note": "第六批僅定位部分原文命題，未進行整檔完整語義判定。"
+    }
+  ],
+  "warning": "The 171 historical source-role backlog remains an immutable source-population snapshot; the new acceptance ledger separately measures 1/171 full document editorial completion, with 170 still to validate. No changes to raw source or Canon."
+}
