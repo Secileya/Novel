@@ -340,9 +340,19 @@ function deepEvidenceSearch(q) {
     const entityMatch=hasEntity(b.entities)||hasEntity([b.name]);
     return broadScene||((!chapterIds.length||chapterMatch)&&(entityMatch||chapterMatch));
   });
+  const objectTopic=(name)=>{
+    const a=norm(name),b=norm(q);
+    if(a.length<2||b.length<2)return false;
+    if(b.includes(a))return true;
+    for(let i=0;i<a.length-1;i++) {
+      const key=a.slice(i,i+2);
+      if(b.includes(key)&&!/^(第九|第十|第一|世界|條目|物件|來源|候選)$/.test(key))return true;
+    }
+    return false;
+  };
   const objects=sceneContinuity.object_chains.filter(o=>broadScene||
     hasEntity([o.name,o.id,...o.name.split(/[／、與]/)])||
-    o.states.some(st=>hasEntity([st.change.slice(0,7)])));
+    objectTopic(o.name));
   const aiBroad=/跨AI|原始Gemini|Gemini原始|Gemini對話|原生聊天|版本來源|人工轉錄/.test(q);
   const ai=crossAIProvenance.records.filter(r=>aiBroad||hasEntity([r.id,r.statement.slice(0,10)]));
   const worlds=[...new Set((q.match(/W0[2-7]/gi)||[]).map(x=>x.toUpperCase()))];
