@@ -1,0 +1,296 @@
+/**
+ * Secileya/Novel -> Stingray Google Drive, source-faithful, read-only GitHub mirror.
+ * License: MIT. Runs in the Google account that owns MIRROR_FOLDER_ID.
+ * One-time: paste into https://script.google.com, run installSync() and grant Drive,
+ * Docs and external-request permissions. Then syncDrain() runs every 5 minutes
+ * until complete; syncHourly() keeps checking GitHub changes indefinitely.
+ * Does not delete history or classify Canon.
+ */
+const MIRROR_CONFIG = Object.freeze({
+  owner: 'Secileya',
+  repository: 'Novel',
+  branch: 'main',
+  prefix: '小說/巨構世界（法月懷造物）/',
+  mirrorFolderId: '1-8xXZ98taJKK_Zpj65RjZtA4J5MzIXBY',
+  manifestFileName: '_GITHUB_SYNC_STATE.json',
+  statusDocName: '00_鏡像同步狀態與使用說明',
+  maxFilesPerRun: 25,
+  maxTimeMs: 260000,
+  maxDocsChars: 750000,
+  allowedExtensions: ['.md', '.json', '.mjs', '.svg', '.txt']
+});
+/** Run only once as the signed-in Stingray Google account. */
+function installSync() {
+  ensureTrigger_('syncHourly', 60);
+  ensureTrigger_('syncDrain', 5);
+  const result = syncCore_();
+  Logger.log(JSON.stringify(result, null, 2));
+  return result;
+}
+function syncHourly() {
+  const result = syncCore_();
+  Logger.log(JSON.stringify(result));
+  return result;
+}
+function syncDrain() {
+  const result = syncCore_();
+  Logger.log(JSON.stringify(result));
+  return result;
+}
+/** Manual catch-up/test; never rewrites GitHub. */
+function syncNow() { return syncHourly(); }
+function syncCore_() {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(10000)) return { status: 'SKIPPED_LOCK_BUSY' };
+  const cfg = MIRROR_CONFIG;
+  const started = Date.now();
+  try {
+    const root = DriveApp.getFolderById(cfg.mirrorFolderId);
+    const manifestFile = getOrCreateManifest_(root);
+    const state = parseState_(manifestFile);
+    const head = getJson_(`https://api.github.com/repos/${cfg.owner}/${cfg.repository}/commits/${cfg.branch}`);
+    if (!head.sha || !/^[0-9a-f]{40}$/.test(head.sha)) throw Error('GitHub main HEAD invalid');
+    const tree = getJson_(`https://api.github.com/repos/${cfg.owner}/${cfg.repository}/git/trees/${head.sha}?recursive=1`);
+    if (tree.truncated || !Array.isArray(tree.tree)) throw Error('GitHub tree incomplete/truncated; refusing to sync');
+    const matching = tree.tree.filter(function(entry) {
+      return entry.type === 'blob' && entry.path.startsWith(cfg.prefix) &&
+        cfg.allowedExtensions.some(function(ext) { return entry.path.toLowerCase().endsWith(ext); });
+    }).sort(function(a,b) { return a.path.localeCompare(b.path); });
+    const pathsNow = new Set(matching.map(function(entry) { return entry.path.slice(cfg.prefix.length); }));
+    const folderCache = { '': root };
+    const pending = matching.filter(function(entry) {
+      const rel = entry.path.slice(cfg.prefix.length);
+      const prev = state.files[rel];
+      return !(prev && prev.blobSha === entry.sha && prev.driveId && prev.status === 'CURRENT');
+    }).sort(function(a,b) {
+      // Never let one repeatedly failing source block all untried files.
+      const av=state.files[a.path.slice(cfg.prefix.length)];
+      const bv=state.files[b.path.slice(cfg.prefix.length)];
+      return Number(Boolean(av && av.status==='SYNC_FAILED')) - Number(Boolean(bv && bv.status==='SYNC_FAILED')) || a.path.localeCompare(b.path);
+    });
+    let updated = 0;
+    let failed = 0;
+    let bytes = 0;
+    const errors = [];
+    for (const entry of pending) {
+      if (updated + failed >= cfg.maxFilesPerRun || Date.now() - started > cfg.maxTimeMs) break;
+      const rel = entry.path.slice(cfg.prefix.length);
+      try {
+        const contentBytes = fetchPinnedBytes_(entry.path, head.sha);
+        const observedSha = gitBlobSha_(contentBytes);
+        if (observedSha !== entry.sha) throw Error('Blob SHA mismatch; expected '+entry.sha+' got '+observedSha);
+        const raw = Utilities.newBlob(contentBytes).getDataAsString('UTF-8');
+        const dir = rel.lastIndexOf('/') < 0 ? '' : rel.slice(0,rel.lastIndexOf('/'));
+        const name = rel.slice(dir ? dir.length + 1 : 0);
+        const dest = getOrCreateSubfolder_(root, dir, folderCache);
+        const prev = state.files[rel] || {};
+        const wrapped = makeMirrorText_(entry, head.sha, raw);
+        const saved = writeMirrorFile_(prev, dest, name, wrapped, cfg.maxDocsChars);
+        state.files[rel] = {
+          driveId: saved.id,
+          blobSha: entry.sha,
+          commitSha: head.sha,
+          bytes: contentBytes.length,
+          mime: saved.mime,
+          status: 'CURRENT',
+          updatedAt: new Date().toISOString()
+        };
+        bytes += contentBytes.length;
+        updated++;
+      } catch (err) {
+        failed++;
+        errors.push(rel + ': ' + String(err).slice(0,250));
+        // Don't mislabel old content as current on failures.
+        const prev = state.files[rel] || {};
+        state.files[rel] = Object.assign({}, prev, { status:'SYNC_FAILED', error:String(err).slice(0,300) });
+      }
+      // Resumable progress: survive a provider timeout after each attempted file.
+      if ((updated + failed) % 5 === 0) saveState_(manifestFile,state);
+    }
+    // Preserve deleted sources as explicitly archived historical data; never erase.
+    let archived = 0;
+    let unfinished = 0;
+    for (const entry of matching) {
+      const p = entry.path.slice(cfg.prefix.length);
+      const v = state.files[p];
+      if (!(v && v.status === 'CURRENT' && v.blobSha === entry.sha)) unfinished++;
+    }
+    if (unfinished === 0) {
+      for (const rel of Object.keys(state.files)) {
+        if (pathsNow.has(rel) || state.files[rel].status === 'ARCHIVED') continue;
+        try {
+          const v = state.files[rel];
+          if (v.driveId) {
+            const archive = getOrCreateSubfolder_(root, '_99_GitHub已刪除_歷史封存', folderCache);
+            DriveApp.getFileById(v.driveId).moveTo(archive);
+          }
+          v.status = 'ARCHIVED';
+          v.archivedAt = new Date().toISOString();
+          archived++;
+        } catch(err) { errors.push('ARCHIVE '+rel+': '+String(err).slice(0,250)); }
+      }
+    }
+    state.repo = `${cfg.owner}/${cfg.repository}`;
+    state.branch = cfg.branch;
+    state.sourcePrefix = cfg.prefix;
+    state.latestCheckedCommit = head.sha;
+    state.latestTreeSha = tree.sha || '';
+    state.latestCheckedAt = new Date().toISOString();
+    state.totalInTree = matching.length;
+    state.pending = unfinished;
+    state.successfulThisRun = updated;
+    state.failedThisRun = failed;
+    state.lastErrors = errors.slice(0,15);
+    state.completeCommit = unfinished===0 && errors.length===0 ? head.sha : (state.completeCommit || null);
+    saveState_(manifestFile,state);
+    updateStatusDoc_(root,state);
+    if (unfinished===0) removeTrigger_('syncDrain');
+    else ensureTrigger_('syncDrain',5);
+    return {status: unfinished===0 ? 'COMPLETE' : 'PARTIAL', head:head.sha,
+      total: matching.length, current:matching.length-unfinished, pending:unfinished,
+      updated, failed, archived, bytes, errors:errors.slice(0,8)};
+  } finally { lock.releaseLock(); }
+}
+function getJson_(url) {
+  const res = UrlFetchApp.fetch(url, { muteHttpExceptions:true,
+    headers:{ 'Accept':'application/vnd.github+json', 'User-Agent':'StingrayNovelDriveMirror/1.0' },
+    followRedirects:true });
+  if (res.getResponseCode() !== 200) throw Error('GitHub API HTTP '+res.getResponseCode()+' '+res.getContentText().slice(0,200));
+  return JSON.parse(res.getContentText('UTF-8'));
+}
+function fetchPinnedBytes_(path,commit) {
+  const pieces = path.split('/').map(encodeURIComponent).join('/');
+  const url = 'https://raw.githubusercontent.com/'+MIRROR_CONFIG.owner+'/'+MIRROR_CONFIG.repository+'/'+commit+'/'+pieces;
+  const res = UrlFetchApp.fetch(url,{muteHttpExceptions:true,headers:{'User-Agent':'StingrayNovelDriveMirror/1.0'}});
+  if (res.getResponseCode() !== 200) throw Error('GitHub raw HTTP '+res.getResponseCode());
+  return res.getContent();
+}
+function gitBlobSha_(bytes) {
+  const hdr = Utilities.newBlob('blob '+bytes.length+'\0').getBytes();
+  const digest = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_1,hdr.concat(bytes));
+  return digest.map(function(b){ return ('0'+((b+256)%256).toString(16)).slice(-2); }).join('');
+}
+function makeMirrorText_(entry,commit,source) {
+  return '[GITHUB MIRROR｜AUTO-GENERATED｜DO NOT EDIT HERE]\n'+
+    'Repository: '+MIRROR_CONFIG.owner+'/'+MIRROR_CONFIG.repository+'\n'+
+    'Original path: '+entry.path+'\n'+
+    'Source Git blob SHA: '+entry.sha+'\n'+
+    'Source commit SHA: '+commit+'\n'+
+    'Source URL: https://github.com/'+MIRROR_CONFIG.owner+'/'+MIRROR_CONFIG.repository+'/blob/'+commit+'/'+entry.path.split('/').map(encodeURIComponent).join('/')+'\n'+
+    'Authority: Mirrored source only; GitHub main inclusion DOES NOT imply approved novel Canon. Respect original CANDIDATE/NON-CANON labels.\n'+
+    '----- BEGIN EXACT UTF-8 SOURCE TEXT -----\n'+source;
+}
+function writeMirrorFile_(prev,folder,name,text,maxChars) {
+  // Native Google Docs are preferred for Gemini Workspace's text search. Oversized files
+  // are mirrored as UTF-8 plain text instead to avoid Docs maximum-character limits.
+  const isDoc = text.length <= maxChars;
+  let file, id;
+  if (prev.driveId) {
+    try {
+      file = DriveApp.getFileById(prev.driveId);
+      id = file.getId();
+      const prevIsDoc = file.getMimeType() === MimeType.GOOGLE_DOCS;
+      if (isDoc !== prevIsDoc) {
+        file.moveTo(getOrCreateSubfolder_(DriveApp.getFolderById(MIRROR_CONFIG.mirrorFolderId),'_98_檔案格式變更封存', {'':DriveApp.getFolderById(MIRROR_CONFIG.mirrorFolderId)}));
+        id = null;
+      }
+    } catch(e) { id = null; }
+  }
+  if (!id) {
+    // Adopt a pre-seeded source mirror doc, but never claim a random same-name
+    // user file. This also recovers an orphan from an interrupted sync.
+    const existing = folder.getFilesByName(name);
+    while (existing.hasNext()) {
+      const candidate=existing.next();
+      try {
+        const content=candidate.getMimeType()===MimeType.GOOGLE_DOCS
+          ? DocumentApp.openById(candidate.getId()).getBody().getText()
+          : candidate.getBlob().getDataAsString('UTF-8');
+        if (content.startsWith('[GITHUB MIRROR｜AUTO-GENERATED｜DO NOT EDIT HERE]')) {
+          file=candidate; id=candidate.getId(); break;
+        }
+      } catch(e) { /* Skip an unreadable unrelated file. */ }
+    }
+  }
+  if (isDoc) {
+    if (!id) {
+      const document = DocumentApp.create(name);
+      id = document.getId();
+      file = DriveApp.getFileById(id);
+      file.moveTo(folder);
+    }
+    const document = DocumentApp.openById(id);
+    document.getBody().setText(text);
+    document.saveAndClose();
+    file = DriveApp.getFileById(id);
+  } else {
+    if (id) file.setContent(text);
+    else { file = folder.createFile(name,text,MimeType.PLAIN_TEXT); id=file.getId(); }
+  }
+  if (file.getName() !== name) file.setName(name);
+  file.moveTo(folder);
+  return {id:id,mime:isDoc?MimeType.GOOGLE_DOCS:MimeType.PLAIN_TEXT};
+}
+function getOrCreateManifest_(root) {
+  const it = root.getFilesByName(MIRROR_CONFIG.manifestFileName);
+  if (it.hasNext()) return it.next();
+  return root.createFile(MIRROR_CONFIG.manifestFileName,JSON.stringify({schema:1,files:{}},null,2),MimeType.PLAIN_TEXT);
+}
+function parseState_(file) {
+  const data = JSON.parse(file.getBlob().getDataAsString('UTF-8'));
+  if (data.schema !== 1 || typeof data.files !== 'object' || data.files === null) throw Error('Invalid manifest; refusing to overwrite');
+  return data;
+}
+function saveState_(file,state) { file.setContent(JSON.stringify(state,null,2)); }
+function getOrCreateSubfolder_(root,relative,cache) {
+  if (!relative) return root;
+  if (cache[relative]) return cache[relative];
+  const items = relative.split('/');
+  let parent=root, p='';
+  for (const segment of items) {
+    p = p ? p+'/'+segment : segment;
+    if (cache[p]) { parent=cache[p]; continue; }
+    const list = parent.getFoldersByName(segment);
+    const next=list.hasNext()?list.next():parent.createFolder(segment);
+    cache[p]=next;
+    parent=next;
+  }
+  return parent;
+}
+function updateStatusDoc_(root,state) {
+  let doc;
+  const it=root.getFilesByName(MIRROR_CONFIG.statusDocName);
+  if (it.hasNext()) doc=DocumentApp.openById(it.next().getId());
+  else {
+    doc=DocumentApp.create(MIRROR_CONFIG.statusDocName);
+    DriveApp.getFileById(doc.getId()).moveTo(root);
+  }
+  const current=Object.values(state.files).filter(x=>x.status==='CURRENT').length;
+  const body=[
+    'GitHub MAIN → Stingray Drive｜自動同步狀態',
+    '來源：'+state.repo+' @ '+state.branch,
+    '原始路徑：'+state.sourcePrefix,
+    '最後檢查：'+state.latestCheckedAt,
+    '最新檢查 HEAD：'+state.latestCheckedCommit,
+    '已完整同步 HEAD：'+(state.completeCommit||'尚未完成首次完整同步'),
+    'GitHub 範圍內檔案數：'+state.totalInTree,
+    'CURRENT：'+current+'｜未完成/失敗：'+state.pending,
+    '本輪成功：'+state.successfulThisRun+'｜本輪失敗：'+state.failedThisRun,
+    '失敗（若有）：'+(state.lastErrors||[]).join(' | '),
+    '注意：這是來源鏡像，不是新 Canon。Gemini 應按需讀取原文及後出修訂；不能把 CANDIDATE、PREWRITE HOLD 當正式正文。',
+    '鏡像僅由 Apps Script 維護。不要在鏡像內編輯原文；請在 GitHub main 修改。已刪除來源會移入封存，不會永久刪除。',
+    '完整檔案級 Git blob SHA/Drive ID 清冊：_GITHUB_SYNC_STATE.json。'
+  ].join('\n\n');
+  doc.getBody().setText(body);
+  doc.saveAndClose();
+}
+function ensureTrigger_(functionName, intervalMin) {
+  const existing=ScriptApp.getProjectTriggers().some(function(t){return t.getHandlerFunction()===functionName;});
+  if (existing) return;
+  const b=ScriptApp.newTrigger(functionName).timeBased();
+  if (intervalMin>=60) b.everyHours(1).create();
+  else b.everyMinutes(intervalMin).create();
+}
+function removeTrigger_(fn) {
+  for (const t of ScriptApp.getProjectTriggers()) if (t.getHandlerFunction()===fn) ScriptApp.deleteTrigger(t);
+}
