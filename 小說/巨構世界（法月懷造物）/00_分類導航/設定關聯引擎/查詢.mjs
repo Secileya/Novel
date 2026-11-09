@@ -30,6 +30,7 @@ const worldEvidence = JSON.parse(fs.readFileSync(path.join(HOME,"W02以上文明
 const sourceRole94 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔語義用途回收_非候選94份.json"),"utf8"));
 const sourceRole77 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔語義用途回收_候選77份.json"),"utf8"));
 const versionLineDiffs = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本37組_逐行文字差異證據.json"),"utf8"));
+const importantVersionQA = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本差異_14項重要語義核對.json"),"utf8"));
 const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
 const sourceRolesByID = new Map(allSourceRoles.map(x=>[x.id,x]));
@@ -395,6 +396,14 @@ function findRecoveredSourceRoles(q) {
 }
 function validateVersionLineDiffs(corpus) {
   const byPath=new Map(corpus.read.map(x=>[x.path,x.body.split(/\r?\n/)]));
+  const semanticQAIntegrityFailures=importantVersionQA.records.flatMap(x=>{
+    const expected=versionDiffByID.get(x.diff_id);
+    if(!expected)return [x.id+":no source version pair"];
+    return [...x.evidence_from,...x.evidence_to].filter(e=>{
+      const lines=byPath.get(e.source_path);
+      return !lines||!lines[e.line-1]?.trim().startsWith(e.quote);
+    }).map(e=>x.id+":"+e.source_path+":"+e.line);
+  });
   const byId=new Map(sourceRole77.version_links.map(x=>[x.id,x]));
   const brokenEndpoints=[],badTextQuotes=[],badSourceSHA=[],duplicateIds=[],seen=new Set();
   for(const diff of versionLineDiffs.comparisons){
@@ -417,8 +426,10 @@ function validateVersionLineDiffs(corpus) {
     literal_line_quotes_checked:versionLineDiffs.comparisons.reduce((n,x)=>n+x.added_line_evidence.length+x.removed_line_evidence.length,0),
     missing_pairs:missingPairs,broken_endpoints:brokenEndpoints,mismatched_sources:badSourceSHA,
     duplicate_ids:duplicateIds,failed_diff_line_quotes:badTextQuotes,
+    semantic_14_version_checks:importantVersionQA.records.length,
+    invalid_14_semantic_version_quotes:semanticQAIntegrityFailures,
     uncomparable_long_line_pairs:versionLineDiffs.comparisons.filter(x=>x.text_overlap_status==="UNCOMPARABLE_SOURCE_LINE_BREAKS").map(x=>x.id),
-    ok:versionLineDiffs.comparisons.length===37&&sourceRole77.version_links.length===37&&
+    ok:importantVersionQA.records.length===14&&semanticQAIntegrityFailures.length===0&&versionLineDiffs.comparisons.length===37&&sourceRole77.version_links.length===37&&
       missingPairs.length===0&&brokenEndpoints.length===0&&badSourceSHA.length===0&&duplicateIds.length===0&&badTextQuotes.length===0};
 }
 
@@ -760,6 +771,12 @@ function query(q, corpus) {
     deep_scene_provenance_and_crossworld_retrieval:deep,
     historical_171_source_role_reviews:sourceRoles,
     historical_candidate_version_line_differences:historicalDiffs,
+    human_reviewed_candidate_version_changes:{
+      total_semantic_version_notes:importantVersionQA.records.length,
+      matched_semantic_differences:importantVersionQA.records
+        .filter(x=>historicalDiffs.matching_compared_pairs.some(p=>p.id===x.diff_id)||
+          contains(q,x.id)||contains(q,x.title)).slice(0,18),
+      warning:"只解讀14個已核對的版本差異，不代表全部37組已完成逐場語義仲裁或候選被正式採用。"},
     remaining_source_evidence_dossiers:dossierMatches,
     full_corpus_passage_recovery:{files_with_passages:passageInventory.files_with_passages,files_without_passages:passageInventory.files_without_passages,total_passages:passageInventory.total_passages,by_category:passageInventory.by_category,...passageMatches},
     missing_rule_sources:missingMustRead, source_selection_truncated, source_index_drift:drift,
@@ -913,6 +930,8 @@ function selfTest(corpus) {
   assert(scraped.remaining_source_evidence_dossiers.matching_source_count>0);
   const thirdQuery=query("REC3-053 人物的判斷不完美",corpus);
   assert(thirdQuery.historical_ideas_recovered.records.some(x=>x.id==="REC3-053"));
+  const qaCheck=query("G7R1 定位銷 版本差異",corpus);
+  assert(qaCheck.human_reviewed_candidate_version_changes.matched_semantic_differences.some(x=>x.diff_id==="CVLINK-013"));
   const lineDiffCheck=query("G7R1 定位銷 版本差異",corpus);
   assert(lineDiffCheck.historical_candidate_version_line_differences.matching_compared_pairs.some(x=>x.relation==="G7R_TO_G7R1_NARRATOR"));
   const doubleCopy=query("G8E 第六章 版本比對",corpus);
