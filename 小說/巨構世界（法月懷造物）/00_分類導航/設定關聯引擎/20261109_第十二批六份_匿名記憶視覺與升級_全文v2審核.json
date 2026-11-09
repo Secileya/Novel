@@ -1,0 +1,2966 @@
+{
+  "schema": "mega-batch12-six-file-semantic-v2",
+  "date": "2026-11-09",
+  "repository": "Secileya/Novel",
+  "topic": "139匿名母女記憶／136十四圖文字分析／133篇章記憶網絡／137主獎勵模組方案／144與147白髮和雙向危機",
+  "authority_boundary": "139及137、147均非正史試演；136沒有原圖在Git，133外作章名為使用者回憶，不可用助手分析擅自升格Canon。",
+  "source_files_targeted": 6,
+  "record_count": 139,
+  "original_anchors_count": 139,
+  "source_file_manifest": [
+    {
+      "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+      "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda"
+    },
+    {
+      "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+      "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d"
+    },
+    {
+      "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+      "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8"
+    },
+    {
+      "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+      "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79"
+    },
+    {
+      "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+      "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33"
+    },
+    {
+      "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+      "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4"
+    }
+  ],
+  "sections_total": 85,
+  "records": [
+    {
+      "id": "SRC-ALL-318",
+      "title": "A匿名與B母親溫柔兩版整合為未採C候選並隔離作者真相",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "A匿名與B母親溫柔兩版整合為未採C候選並隔離作者真相。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 5,
+          "quote": "> **作者層**：記憶的母親是法月懷，孩子是瑟莉思媞（Celeste），這是專案既有的真相。**讀者版的以下純場景自「記憶最先呈現」至「記憶結束」沒有具名台詞／旁白，也沒有可以直"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-319",
+      "title": "透明模型與世界巨構接路，記憶未揭身份",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "透明模型與世界巨構接路，記憶未揭身份。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 27,
+          "quote": "很快，幾座規模龐大的結構在桌面上互相交錯。它們的表面布滿了彷彿城市般細密的亮點；某些空間從外側看來相距很近，真正可走的路卻要繞上一大圈。另一些看似遠到毫無關聯的地方，反而能沿著彎曲"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-320",
+      "title": "往上之外還有下行與回家方向，設計不是單向登頂",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "往上之外還有下行與回家方向，設計不是單向登頂。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 57,
+          "quote": "「上面的人總不能都只往上跑吧？他們也會有想回去的地方呀。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-321",
+      "title": "母親明確誇獎道路能讓不同居民相遇並摸頭",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母親明確誇獎道路能讓不同居民相遇並摸頭。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 67,
+          "quote": "「做得很好。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-322",
+      "title": "舊住宅街區不宜直接剷平，貨運需要另闢道路",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "舊住宅街區不宜直接剷平，貨運需要另闢道路。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 117,
+          "quote": "「我本來想讓貨車從這裡走，別跟住宅街上的人擠在一起。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-323",
+      "title": "母女共同調整貨道使客運和送貨合理並行",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母女共同調整貨道使客運和送貨合理並行。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 145,
+          "quote": "她突然笑了出來。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-324",
+      "title": "小麵包店與送貨工人的早餐是具體生活而非抽象地圖",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "小麵包店與送貨工人的早餐是具體生活而非抽象地圖。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 173,
+          "quote": "「因為早上會有人去買呀。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-325",
+      "title": "約定未來一起去那個尚未完成的地方，生活持續",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "約定未來一起去那個尚未完成的地方，生活持續。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 197,
+          "quote": "「那等我做好，母親一定要來！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-326",
+      "title": "從正常道路轉向隱蔽難找的私人挑戰入口",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "從正常道路轉向隱蔽難找的私人挑戰入口。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 245,
+          "quote": "「不是所有想往上走的人，都會喜歡同樣的路嘛。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-327",
+      "title": "隱藏道路有真落腳點、挑戰和安全可達條件",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "隱藏道路有真落腳點、挑戰和安全可達條件。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 279,
+          "quote": "「然後這裡……嗯，不對，要讓人真的有地方落腳。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-328",
+      "title": "危險道路是自願選擇，不強迫每位居民參加",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "危險道路是自願選擇，不強迫每位居民參加。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 307,
+          "quote": "「可是我不是想讓每個人都非得走這條。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-329",
+      "title": "母親指出實際傷亡風險但不否定女兒的創作",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母親指出實際傷亡風險但不否定女兒的創作。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 327,
+          "quote": "「不是叫妳把它刪掉。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-330",
+      "title": "安靜白色細橋只是最初設計雛形而非當代全套機關",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "安靜白色細橋只是最初設計雛形而非當代全套機關。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 375,
+          "quote": "那座橋是白色的。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-331",
+      "title": "白橋讓旅行者自行選擇是否走過，氣氛莊重",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "白橋讓旅行者自行選擇是否走過，氣氛莊重。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 405,
+          "quote": "「只要自己決定，要不要再走過去。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-332",
+      "title": "終點須有與努力相稱的內容與私人小紀念",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "終點須有與努力相稱的內容與私人小紀念。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 429,
+          "quote": "「人家那麼辛苦走到最後，結果什麼都沒有，也太過分了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-333",
+      "title": "小小紀念表達創作者對走完道路者的欣賞",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "小小紀念表達創作者對走完道路者的欣賞。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 459,
+          "quote": "「我覺得他很厲害。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-334",
+      "title": "雛形仍未完成，不把獎勵或黑霧在此刻定死",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "雛形仍未完成，不把獎勵或黑霧在此刻定死。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 499,
+          "quote": "只是望著自己還沒做完的那些路，露出了非常開心的笑。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-335",
+      "title": "孩子擔心母親是否喜歡不成熟作品，母親說現在就喜歡",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "孩子擔心母親是否喜歡不成熟作品，母親說現在就喜歡。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 533,
+          "quote": "「我現在就已經很喜歡了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-336",
+      "title": "摸頭與相擁是被疼愛的母女關係而不揭露真名",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "摸頭與相擁是被疼愛的母女關係而不揭露真名。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 561,
+          "quote": "只看見兩個人相互擁抱時，桌面上那些細小的光點仍在慢慢亮著。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-337",
+      "title": "承諾完工再看且立刻又興奮介紹其他設計",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "承諾完工再看且立刻又興奮介紹其他設計。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 575,
+          "quote": "「我期待看到妳做出來的。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-338",
+      "title": "記憶淡出時兩人仍在設計，沒有宣布完整通關系統",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "記憶淡出時兩人仍在設計，沒有宣布完整通關系統。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 601,
+          "quote": "桌面上，無數尚未成形的道路與地域緩緩展開。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-339",
+      "title": "原型道路生活、母女感情與秘密挑戰四層價值",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "原型道路生活、母女感情與秘密挑戰四層價值。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 619,
+          "quote": "3. **隱藏高危路段雛形逐步誕生**：不是一打開記憶便宣布「這是靜謐迴廊設計圖」。它由普通旅人選擇多樣出發，經秘密小路、技術性危險、休息點、安靜白色細橋，最後才有小小紀念。**當"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-340",
+      "title": "初見記憶只可形成有限推測，較晚知道真身才有回聲",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "初見記憶只可形成有限推測，較晚知道真身才有回聲。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 624,
+          "quote": "**首次觀看，尚不知真身**：可合理理解為某種古老建構模型留下的兩人互動。記憶沒有姓名、完整面孔、可比對音色，也沒有讓「母親」以世界管理者的全知視角講技術科普。兩人可能對模型與自己"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-341",
+      "title": "A/B/C試寫優點與正式0章及第三個座位時序一致",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "A/B/C試寫優點與正式0章及第三個座位時序一致。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 634,
+          "quote": "- **C本稿合併**：A的世界與秘密道路誕生、B的母女感情、最新禁止姓名的資訊界線；只把此稿當**優先可發展的故事試演**，不宣稱逐字採案。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-342",
+      "title": "孩子得意展示路網並自然稱母親",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "孩子得意展示路網並自然稱母親。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 35,
+          "quote": "「妳看，我把之前那幾片接起來了！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-343",
+      "title": "新的道路可以連居民原本到不了的地點",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "新的道路可以連居民原本到不了的地點。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 45,
+          "quote": "「本來住在這座城的人，只能走舊路到那邊。現在有了這一段，他們就能去更遠的地方了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-344",
+      "title": "母親明確讚美作品漂亮",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母親明確讚美作品漂亮。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 73,
+          "quote": "「嗯。很漂亮。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-345",
+      "title": "母親說我很喜歡並非持續找缺點",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母親說我很喜歡並非持續找缺點。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 85,
+          "quote": "「我很喜歡。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-346",
+      "title": "女兒留存老街居民自行修建搬遷選擇",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "女兒留存老街居民自行修建搬遷選擇。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 97,
+          "quote": "「這裡有住宅，旁邊是市場。再往下有一片比較舊的街區，地面沒那麼平，可是那裡的人已經住很久了，所以我不想直接把它改掉。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-347",
+      "title": "母親與女兒一起實際修改貨運路",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母親與女兒一起實際修改貨運路。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 133,
+          "quote": "「如果貨物不是沿這一側上坡，而是從後面繞過來呢？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-348",
+      "title": "小麵包店照顧清晨上工的送貨人",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "小麵包店照顧清晨上工的送貨人。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 167,
+          "quote": "「麵包店！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-349",
+      "title": "模型中的巨大尺度最後落到普通生活",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "模型中的巨大尺度最後落到普通生活。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 215,
+          "quote": "但它逐漸不再只是讓人驚嘆的建築。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-350",
+      "title": "隱密入口從普通維修結構旁開始",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "隱密入口從普通維修結構旁開始。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 233,
+          "quote": "它從一處看似普通的維修結構旁邊開始，往裡延伸，穿過數個高度不同的空間，最後消失在一片沒有標記的地方。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-351",
+      "title": "設計者好奇誰能自己找到秘密路",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "設計者好奇誰能自己找到秘密路。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 265,
+          "quote": "「到底會不會有人自己找出來？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-352",
+      "title": "普通上行道路與自願挑戰並存",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "普通上行道路與自願挑戰並存。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 311,
+          "quote": "「大家本來就有其他路可以走。這一條是給真的想自己找、真的想挑戰的人。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-353",
+      "title": "危險真的會使走入其中的人付出代價",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "危險真的會使走入其中的人付出代價。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 331,
+          "quote": "「妳可以繼續做。只是如果有人真的走進去了，那些危險對他們都是真的。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-354",
+      "title": "被修正的設計仍保有女兒自己的風格",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "被修正的設計仍保有女兒自己的風格。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 349,
+          "quote": "「而且很有妳的風格。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-355",
+      "title": "白橋希望旅行者在最後先停下來看看",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "白橋希望旅行者在最後先停下來看看。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 397,
+          "quote": "「前面是一直想辦法往前走。最後這裡，我想讓人先看一看。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-356",
+      "title": "獎勵除大型珍貴物還有一點小紀念",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "獎勵除大型珍貴物還有一點小紀念。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 447,
+          "quote": "「再放一點紀念。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-357",
+      "title": "母親期待有人收到女兒留下的東西",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母親期待有人收到女兒留下的東西。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 479,
+          "quote": "「我很期待有人真的收到妳留下的東西。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-358",
+      "title": "母親現在就已喜歡，不以完工換認可",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母親現在就已喜歡，不以完工換認可。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 533,
+          "quote": "「我現在就已經很喜歡了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-359",
+      "title": "相擁畫面只顯局部不暴露身份",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "相擁畫面只顯局部不暴露身份。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 561,
+          "quote": "只看見兩個人相互擁抱時，桌面上那些細小的光點仍在慢慢亮著。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-360",
+      "title": "母女仍一起繼續創造下一個世界區域",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "母女仍一起繼續創造下一個世界區域。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 597,
+          "quote": "她把整張模型轉了過去，興致勃勃地開始介紹下一片尚未完成的地方。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-361",
+      "title": "當代黑霧、入口錨點和白髮獎勵不自動存在雛形中",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "當代黑霧、入口錨點和白髮獎勵不自動存在雛形中。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 619,
+          "quote": "3. **隱藏高危路段雛形逐步誕生**：不是一打開記憶便宣布「這是靜謐迴廊設計圖」。它由普通旅人選擇多樣出發，經秘密小路、技術性危險、休息點、安靜白色細橋，最後才有小小紀念。**當"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-362",
+      "title": "多年後知情才可能產生對第三個座位的第二次理解",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "多年後知情才可能產生對第三個座位的第二次理解。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+          "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+          "line": 628,
+          "quote": "**真實身份多年後揭露**：讀者與主角才回頭理解那位年輕的設計者與母親真正是誰、為何願意設計秘密迴廊並留給通關者紀念；若他們此前已在〈第三個座位〉認識一位愛旅行和甜餅的女生，才有重"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-363",
+      "title": "十四張附件依原序文字記錄，11和13像素重複不減編號",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "十四張附件依原序文字記錄，11和13像素重複不減編號。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 5,
+          "quote": "> **來源實況**：此GitHub檔保存完整14個附件的順序、上傳時附件basename、每張可見事物、可提取的角色演出和不可擅定的情節；原圖檔案仍見本輪聊天，**沒有宣稱已把1"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-364",
+      "title": "第01至03張白髮近景棋局和冷色十字眼各有表情",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "第01至03張白髮近景棋局和冷色十字眼各有表情。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 12,
+          "quote": "### 02｜白髮下棋：舉棋、托腮、狡黠而享受的笑"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-365",
+      "title": "第04至06張展示長髮動勢與深青藍爽朗正面樣貌",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "第04至06張展示長髮動勢與深青藍爽朗正面樣貌。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 21,
+          "quote": "### 05｜深青藍近距離伸手大笑：完全不是無口高冷"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-366",
+      "title": "第07至09張深髮星空、生活近景與遮光旅行姿態",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "第07至09張深髮星空、生活近景與遮光旅行姿態。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 30,
+          "quote": "### 08｜深髮俯身，手托近下巴：生活感與重力髮流"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-367",
+      "title": "第10至12張狡黠陰影與白髮歡快漫畫大呆毛",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "第10至12張狡黠陰影與白髮歡快漫畫大呆毛。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 39,
+          "quote": "### 11｜白髮張嘴大笑與雙拳：高階外觀也有很真實的歡快"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-368",
+      "title": "第13重複與14雙人圖片分別保留來源序列",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "第13重複與14雙人圖片分別保留來源序列。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 48,
+          "quote": "### 14｜深青藍雙人宣傳式橫幅：長髮與真實親近感"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-369",
+      "title": "兩個髮色共享十字瞳、額帶、分束長髮與層次",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "兩個髮色共享十字瞳、額帶、分束長髮與層次。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 55,
+          "quote": "**額帶**：頭額一條寬窄適中的帶狀物，常見十字及少量短橫／細青藍線；深底與淺底變體在不同畫面有差別。應保留「額帶＋十字」的視覺語言，但不強制所有場景只一款材質、花紋或顏色，也不能"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-370",
+      "title": "白髮不是永遠清冷，深髮也能俏皮安靜溫柔",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "白髮不是永遠清冷，深髮也能俏皮安靜溫柔。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 65,
+          "quote": "**深青藍圖像本身同時含有**：05大笑、06微怔、07星空下安靜、08俯身、09遮眉帶笑、10陰影小壞笑、14與別人親近。它們不支援「深髮＝嚴肅冷美人」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-371",
+      "title": "圖片能證外觀而不能直接證立刻發生的棋局星空劇情",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖片能證外觀而不能直接證立刻發生的棋局星空劇情。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 77,
+          "quote": "5. **圖片能作故事畫面素材，但不是劇情證據**：左邊棕髮、棋盤、星空、白光、漫畫英文、金髮尖耳少女和宣傳標題，不能挪用來宣告《巨構》發生了誰與誰的固定事件。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-372",
+      "title": "白髮解鎖與巨大能力質變方向需跨第137核對",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "白髮解鎖與巨大能力質變方向需跨第137核對。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 83,
+          "quote": "**新的使用者明確方向**：白髮在靜謐迴廊深處**解鎖**，且不是只有新外觀、應有重大能力質變；此能力不應被寫成普通招式想用就用的小技，也**不預設**只能瞬間開一下、消耗可怕而後"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-373",
+      "title": "第136文字對第137的模組方案不宣布採用",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "第136文字對第137的模組方案不宣布採用。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 87,
+          "quote": "## 六｜與第137重大升級完整方案的索引和未決界線"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-374",
+      "title": "十四個原附件來源順序必須保留不能按重複像素併掉",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "十四個原附件來源順序必須保留不能按重複像素併掉。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 95,
+          "quote": "03 image(20261021-163946).png；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-375",
+      "title": "第138與139後出匿名母女記憶與雙主角成長修正",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "第138與139後出匿名母女記憶與雙主角成長修正。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 113,
+          "quote": "**其他後出糾正**：第35「作用配重」已是艾莉維亞**常態成熟候選**，不能說現在沒有；白髮若只增加空間參照範圍不夠質變，最新深案為**在真條件下從自身本質介入作用成立**（助手"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-376",
+      "title": "第144至148表情、危機與能力試演均有後出界線",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "第144至148表情、危機與能力試演均有後出界線。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 117,
+          "quote": "[144｜使用者原話與後出優先級逐項修正](144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md)｜[145｜白髮神情完整矩陣和深青藍→白髮轉換](145_白髮轉換與神情演出"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-377",
+      "title": "第149髮束後出新觀察修正先橫向後上揚誤讀",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "第149髮束後出新觀察修正先橫向後上揚誤讀。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 121,
+          "quote": "[149｜上揚呆毛、額前散髮、雙側長側髮與正文詞庫](149_艾莉維亞髮型正式補充_上揚呆毛_額前碎髮_雙側外飄長髮_用詞.md)。使用者新提供三張白髮大圖／局部近景，指出**呆毛"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-378",
+      "title": "圖01白髮側面微張唇與短側髮",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖01白髮側面微張唇與短側髮。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 9,
+          "quote": "### 01｜白髮側面近景：欲言又止／微張唇，短側髮與長髮同在"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-379",
+      "title": "圖02白髮棋子托腮狡黠笑",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖02白髮棋子托腮狡黠笑。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 12,
+          "quote": "### 02｜白髮下棋：舉棋、托腮、狡黠而享受的笑"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-380",
+      "title": "圖03十字眼與冷光不是神性能力的證明",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖03十字眼與冷光不是神性能力的證明。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 15,
+          "quote": "### 03｜白髮仰角特寫：冷色光、十字眼、胸前發光飾件"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-381",
+      "title": "圖04白髮極長髮流與服裝",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖04白髮極長髮流與服裝。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 18,
+          "quote": "### 04｜白髮長度與服裝：大幅向左散開的柔軟細絲長髮"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-382",
+      "title": "圖05深青藍伸手大笑證明不是無口",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖05深青藍伸手大笑證明不是無口。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 21,
+          "quote": "### 05｜深青藍近距離伸手大笑：完全不是無口高冷"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-383",
+      "title": "圖06深髮正面基準額帶與雙層髮色",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖06深髮正面基準額帶與雙層髮色。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 24,
+          "quote": "### 06｜深青藍正面基準：雙層髮色、額帶、十字瞳與正面衣裝"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-384",
+      "title": "圖07星空深髮安靜也有自我生活",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖07星空深髮安靜也有自我生活。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 27,
+          "quote": "### 07｜深色長髮與星空：安靜、半垂眼、手靠近胸前"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-385",
+      "title": "圖08托腮與俯身的髮流",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖08托腮與俯身的髮流。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 30,
+          "quote": "### 08｜深髮俯身，手托近下巴：生活感與重力髮流"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-386",
+      "title": "圖09遮光遠望的旅行者好奇",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖09遮光遠望的旅行者好奇。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 33,
+          "quote": "### 09｜深青藍額前遮光望遠：旅行者的好奇與笑意"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-387",
+      "title": "圖10陰影狡黠笑與十字眼",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖10陰影狡黠笑與十字眼。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 36,
+          "quote": "### 10｜深髮陰影下的小笑：明亮十字瞳與狡黠戲劇感"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-388",
+      "title": "圖11白髮歡快握拳大笑",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖11白髮歡快握拳大笑。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 39,
+          "quote": "### 11｜白髮張嘴大笑與雙拳：高階外觀也有很真實的歡快"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-389",
+      "title": "圖12漫畫弧形呆毛和喜悅",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖12漫畫弧形呆毛和喜悅。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 42,
+          "quote": "### 12｜白髮漫畫畫面：巨大的柔弧呆毛與歡快台詞"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-390",
+      "title": "圖13與第11張完全相同仍保留序位",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖13與第11張完全相同仍保留序位。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 45,
+          "quote": "### 13｜白髮高興握拳重複圖，保留第十三附件位"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-391",
+      "title": "圖14深髮雙人畫面不得直接推定正式CP事件",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "圖14深髮雙人畫面不得直接推定正式CP事件。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+          "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+          "line": 48,
+          "quote": "### 14｜深青藍雙人宣傳式橫幅：長髮與真實親近感"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-392",
+      "title": "使用者重視整本書長期記憶與名場面但外作章節未獨立核實",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "使用者重視整本書長期記憶與名場面但外作章節未獨立核實。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 3,
+          "quote": "> 2026-10-21，延續使用者要求保存的第132份長章語言與閱讀回報研究。使用者同意另外建立完整的「整本小說的記憶網絡」專題，**並立刻補充重要修正：名場面也非常重要**。使"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-393",
+      "title": "讀者對具體片段、人物關係及可重組情緒形成記憶網",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "讀者對具體片段、人物關係及可重組情緒形成記憶網。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 20,
+          "quote": "3. **可重新組合的情緒／影像庫**：陌生歌曲裡的「回來」「守住」「抓住」「別走」「找尋」，碰到原著積累的角色形象與事件情緒，讀者自行生成新畫面。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-394",
+      "title": "名場面屬重要篇章級目標，不得只剩日常情感回聲",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "名場面屬重要篇章級目標，不得只剩日常情感回聲。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 24,
+          "quote": "## 二、重要後出修正：名場面絕不可被「人物日常記憶」沖淡"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-395",
+      "title": "使用者保留十二個外作品篇章名稱作為回憶而非本線大綱",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "使用者保留十二個外作品篇章名稱作為回憶而非本線大綱。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 39,
+          "quote": "以下是**使用者記得的篇章／事件群名稱**，不是本輪對原著正式目錄的查證，也不是我按原著時間排序的結果。特別重要：**記得這些篇章的名字，本身就是閱讀印象已在「篇章尺度」成立的直接"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-396",
+      "title": "篇章目標應有完整中途成果，不是只有全書登頂",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "篇章目標應有完整中途成果，不是只有全書登頂。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 64,
+          "quote": "- **整本小說尺度**：諾亞與艾莉維亞真想抵達最高世界層、兩人的人生和愛情如何變化、原槍及其真配套怎樣發展；其他人的人生與世界也繼續運作。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-397",
+      "title": "人物欲望阻力與高潮收束成真正有重量的具名大篇",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "人物欲望阻力與高潮收束成真正有重量的具名大篇。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 78,
+          "quote": "4. **真正屬於這個篇的難忘片刻**：可能是第一次看到壯觀的景象、一場實打實的決戰、一個笑點、一句話、一次完成研究或一個無法再撤回的決定。它應有可感「形」，而非全是事後抽象概括。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-398",
+      "title": "名場面有可見形體人物反應與代價，不只是抽象特效",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "名場面有可見形體人物反應與代價，不只是抽象特效。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 87,
+          "quote": "先前討論的參考記憶包含：砍頭鬼與回歸、深藍聖堂的拒絕、星球分娩與命名、與掃地機器人相關的荒唐演出、無限世界裡不同身份仍牽著手、後期某首舊歌變成辨認莉雅的私人驗證。**這些是使用者提"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-399",
+      "title": "可被音樂MV召喚的私人回憶建立在原故事人生",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "可被音樂MV召喚的私人回憶建立在原故事人生。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 102,
+          "quote": "能支撐這種自動組合的素材包括："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-400",
+      "title": "核心群像應擁有各自長期篇章和相遇因果",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "核心群像應擁有各自長期篇章和相遇因果。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 114,
+          "quote": "整本小說的記憶庫若只有兩個主角的初遇、戰鬥、甜蜜和最後登頂，其他人全被寫成只為兩人遞情報、送裝備或被救，則世界越大，小說反而越窄。先前分析其他502成員的價值就在這裡：楊柳、陸玲、"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-401",
+      "title": "長章閱讀回報與跨章大型篇章高潮要同時成立",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "長章閱讀回報與跨章大型篇章高潮要同時成立。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 126,
+          "quote": "- **整本小說**不能讓所有高潮都只是「終局登頂」的預告；真正最高層是長期願望，但中途的每片世界、每段人生都能有自主的完整故事。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-402",
+      "title": "地方小篇可獨立結束不必全部接終極宇宙陰謀",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "地方小篇可獨立結束不必全部接終極宇宙陰謀。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 137,
+          "quote": "- 具有制度和資源重量的城市／組織衝突；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-403",
+      "title": "現有巨構素材僅構成候選篇章意象，不算正式完成",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "現有巨構素材僅構成候選篇章意象，不算正式完成。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 152,
+          "quote": "|---|---|---|"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-404",
+      "title": "梗與小動作多年後回來才有不靠謎團的回聲",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "梗與小動作多年後回來才有不靠謎團的回聲。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 165,
+          "quote": "有些畫面第一次出場便很驚艷；有些則是多年後再次出現，才突然變得很重。早期某首可笑的BGM、熟人間某句招呼、一直喜歡的食物、誰替誰留座位，可以在後期重逢、驗證身份或真正困難時產生新的"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-405",
+      "title": "篇章記憶卡提供作者追蹤工具但不固定三幕章數",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "篇章記憶卡提供作者追蹤工具但不固定三幕章數。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 185,
+          "quote": "| 篇後影響 | 哪些人物、資料、裝備、世界、心理真正與開頭不同？ | 永久變化非硬配額；不強制悲劇 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-406",
+      "title": "第132語體章長研究與第133篇章回聲研究可互補",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "第132語體章長研究與第133篇章回聲研究可互補。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 200,
+          "quote": "- **第112重在事件節點／連續性**：長、中、近程需要彼此知情、時間、地理、裝備、人生順序的可查因果；一段路不是因為圖上畫過就自動可達。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-407",
+      "title": "第134首篇A B C等候選仍待作者選擇",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "第134首篇A B C等候選仍待作者選擇。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 208,
+          "quote": "## 2026-10-21｜第134份：正式從寫作研究轉向篇章實作，首篇A／B2／C三案並存"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-408",
+      "title": "十二個外作篇章仍是使用者記得的名字，不是本線固定章單",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "十二個外作篇章仍是使用者記得的名字，不是本線固定章單。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 37,
+          "quote": "## 三、使用者提供的十二個《異常大舞台》篇章記憶錨點：全部原名保存"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-409",
+      "title": "篇章需有眼前可操作事件與當地人物獨立願望",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "篇章需有眼前可操作事件與當地人物獨立願望。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 75,
+          "quote": "1. **清楚的眼前事情**：不是「探索更大的世界」的空話，而是誰因何現在非得去做某件事；對地方居民或另一主角亦有不同意義。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-410",
+      "title": "讓讀者可記住具體形狀而非僅抽象效果",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "讓讀者可記住具體形狀而非僅抽象效果。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 78,
+          "quote": "4. **真正屬於這個篇的難忘片刻**：可能是第一次看到壯觀的景象、一場實打實的決戰、一個笑點、一句話、一次完成研究或一個無法再撤回的決定。它應有可感「形」，而非全是事後抽象概括。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-411",
+      "title": "篇章結束是真結案，不強制下一個陰謀",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "篇章結束是真結案，不強制下一個陰謀。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 79,
+          "quote": "5. **實際完成與結束**：解決了就承認有解決；沒有得到某答案也應因人物和事件自然留白，不必假裝每場都是更大陰謀的前傳。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-412",
+      "title": "配角離場後仍有生活和制度後果",
+      "status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "analysis": "配角離場後仍有生活和制度後果。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 80,
+          "quote": "6. **離開後仍存在的後果**：可能永久、也可能只是關係、情報、風景記憶或未來選路的影響；不能為了保存巨大主線讓地方人一律原地歸零。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-413",
+      "title": "靜謐雙主角各大升級是作者方向，A/B/C模組與白髮參照方案仍候選",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "靜謐雙主角各大升級是作者方向，A/B/C模組與白髮參照方案仍候選。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 5,
+          "quote": "> **權威優先**：第058確認靜謐迴廊正式名稱，與終焉迴廊**為兩個獨立場所**，但共享崇高、悲壯、淒涼、莊重的感受；靜謐末段是**沒有機關的潔白孤橋、下方有上飄黑點黑霧**，"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-414",
+      "title": "隱密苦痛道路末端無機關白橋與不復歸黑霧的真風險",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "隱密苦痛道路末端無機關白橋與不復歸黑霧的真風險。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 13,
+          "quote": "這條道路不是普通街區旅遊、週末刷素材、副本掉落列表；入口極端隱密，內部有超高難度的地形與可能致命的移動關卡，能真正耗掉諾亞多次復歸與世界外部不倒帶的時間。艾莉維亞不會復歸，不能為編"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-415",
+      "title": "白髮首次解鎖是實質力量質變，時間不隨意鎖三分鐘",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "白髮首次解鎖是實質力量質變，時間不隨意鎖三分鐘。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 19,
+          "quote": "**目前由使用者確定的設計方向**：白髮形態在靜謐迴廊**首次解鎖**，與她的能力**本質性質變**綁定；它不是只把髮色調白、發光特效加十倍，也不是她的全部日常攻擊都必切換白髮。*"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-416",
+      "title": "原本高階的艾莉維亞不可為展示白髮被先故意削弱",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "原本高階的艾莉維亞不可為展示白髮被先故意削弱。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 34,
+          "quote": "**以前：已經很強**。艾莉維亞能在真實可驗證的範圍內，精準改配局部物體和界面間的有效接觸、相對位置或通行條件；可折開某些攻擊、使一處本來不易觸及的側面短暫可達，自己也能攻殺與防禦"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-417",
+      "title": "原生主執行樞核是助手首選原裝槍配套，尚未採用",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "原生主執行樞核是助手首選原裝槍配套，尚未採用。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 46,
+          "quote": "**名稱候選**：原生主執行樞核／原生執行樞核／原裝主執行核／展構核心。它沿[第60份](060_候選設計_靜謐迴廊終點_諾亞巨大模組_艾莉維亞巨大升級與其他收穫.md)原生執行樞"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-418",
+      "title": "主樞核對多層屏障的火力貫穿需真功率與相性",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "主樞核對多層屏障的火力貫穿需真功率與相性。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 54,
+          "quote": "**接入後**：對此前難以破壞的多層屏障與巨型裝甲，可真的持續送入足夠功率，不只在外側留下細傷；可能深入深層、貫穿核心運作部位、摧毀高等設施的一整段關鍵結構。這是可以前後演同一敵方"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-419",
+      "title": "集中展幅與持續執行的原槍操作不等於無限能力",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "集中展幅與持續執行的原槍操作不等於無限能力。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 58,
+          "quote": "舊階段多以一次真有效命中、單處精密破壞；新樞核能維持有實效的作用前沿，讓讀者**看到射擊方式根本改變**："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-420",
+      "title": "大系統局部連鎖打擊需真識別，不能隔宇宙抹除",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "大系統局部連鎖打擊需真識別，不能隔宇宙抹除。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 70,
+          "quote": "**重點不是「一槍變三槍」**，而是執行不只困在第一個局部切口。這能讓真正大型敵方系統感受整體失效的危險。但也要和第57後期**E多址並發／G深層同一性索引／D界域定址**分開：他"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-421",
+      "title": "刀與鉤索載體可受益，但具體來源仍有需求",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "刀與鉤索載體可受益，但具體來源仍有需求。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 72,
+          "quote": "## 八｜巨大躍升四：不是只變強一種射擊模式；長刃、鉤索與戰術載體都受益"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-422",
+      "title": "要塞前後對照非真戰績，只測可見的大幅輸出",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "要塞前後對照非真戰績，只測可見的大幅輸出。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 82,
+          "quote": "**升級後**：原槍的持續高負荷打擊貫穿第一道後仍存在，第二道接替屏障時能繼續作用；他得以接近並摧毀以前破壞不到的中央關鍵位置。這仍**依敵方科技、實際索引與射擊條件而定，不代表所"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-423",
+      "title": "界域定址B與源流供能C都是保留競選方案",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "界域定址B與源流供能C都是保留競選方案。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 108,
+          "quote": "**優點**：非常有《巨構》的辨識度，對探索、遠征、與高等科技敵方打擊都能產生名場面。**缺點**：如沒有同步提升基礎執行火力，部分讀者會覺得「只是從另一個角度射同樣那槍」，不夠配"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-424",
+      "title": "雙主角應各有獨立高階能力，不讓艾莉維亞只當輔助",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "雙主角應各有獨立高階能力，不讓艾莉維亞只當輔助。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 127,
+          "quote": "**推薦組合的清楚差異**："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-425",
+      "title": "白髮變身視覺可以不對稱，示例台詞並非已發生",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "白髮變身視覺可以不對稱，示例台詞並非已發生。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 138,
+          "quote": "**白髮發動的示意**：艾莉維亞安靜閉眼再睜開，深青長髮逐漸轉白；相隔極遠、原本不在同一可操作參照的幾片巨大結構開始按新的有效關係運作。她回頭仍可能笑著問諾亞「怎麼樣？剛剛那下是不"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-426",
+      "title": "升級後敵方不應每次同步漲血量抵銷成果",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "升級後敵方不應每次同步漲血量抵銷成果。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 145,
+          "quote": "3. 研究者、武器行家或地方勢力可從**可信實測戰果**發現其技術層級已不同，知名度依見證、影像、實際組織情報擴散，不是全世界立刻知道「她白髮＝什麼級」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-427",
+      "title": "除了主獎勵還有路線記憶與私人紀念等候選",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "除了主獎勵還有路線記憶與私人紀念等候選。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 151,
+          "quote": "[第060份](060_候選設計_靜謐迴廊終點_諾亞巨大模組_艾莉維亞巨大升級與其他收穫.md)已有三類值得沿用但尚未定案的**其他收穫候選**："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-428",
+      "title": "決議／未知清單與第57八功能族不等於八顆掉落",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "決議／未知清單與第57八功能族不等於八顆掉落。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 169,
+          "quote": "**此研究保留第057／058／059／060及第136全部有效原文，並不把最新版助手候選自動升格Canon**。正式故事正文仍0章，PREWRITE HOLD；後續若使用者選定某"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-429",
+      "title": "第138/139後修修正母女匿名、常態配重與未知白髮反制",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "第138/139後修修正母女匿名、常態配重與未知白髮反制。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 175,
+          "quote": "**既有與新方向**：第50在相識後可能由瑟莉思媞**隱晦提示靜謐存在**（是否及何時仍未定），但〈第三個座位〉第114已採正式初遇場景**不可變成發攻略、當場揭管理者身分**；觀"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-430",
+      "title": "八個原槍功能族不能直接等同八顆模組",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "八個原槍功能族不能直接等同八顆模組。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 48,
+          "quote": "**與第57《續斷》候選的相容性**：它能對已識別的持續運作整體、真關聯施加斷接與終止；第57有A–H八個原裝**功能族**，其中C貫行執行、F原生供能、B構識、E多址等可能與主執"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-431",
+      "title": "大系統關聯切斷需要確知同一性，不是全宇宙名稱索引",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "大系統關聯切斷需要確知同一性，不是全宇宙名稱索引。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 70,
+          "quote": "**重點不是「一槍變三槍」**，而是執行不只困在第一個局部切口。這能讓真正大型敵方系統感受整體失效的危險。但也要和第57後期**E多址並發／G深層同一性索引／D界域定址**分開：他"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-432",
+      "title": "飛行要塞擊穿只是模擬相同防護下的前後比較",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "飛行要塞擊穿只是模擬相同防護下的前後比較。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 82,
+          "quote": "**升級後**：原槍的持續高負荷打擊貫穿第一道後仍存在，第二道接替屏障時能繼續作用；他得以接近並摧毀以前破壞不到的中央關鍵位置。這仍**依敵方科技、實際索引與射擊條件而定，不代表所"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-433",
+      "title": "B方案原生界域定址可以形成空間戰術差異",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "B方案原生界域定址可以形成空間戰術差異。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 105,
+          "quote": "### 方案B｜原生界域定址樞核"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-434",
+      "title": "C方案原生源流供能強調持久高功率但不保證執行端提升",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "C方案原生源流供能強調持久高功率但不保證執行端提升。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 110,
+          "quote": "### 方案C｜原生源流／供能核心"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-435",
+      "title": "A只是助手推薦，不壓過B/C兩個完整比較案",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "A只是助手推薦，不壓過B/C兩個完整比較案。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+          "line": 123,
+          "quote": "**A是助手上一輪的優先推薦，並非使用者已選方案**。若後續使用者偏好B或C，應在世界技術、既有第57功能族、靜謐極端難度與女主白髮質變下重新平衡，不是以檔案編號越晚便稱A覆蓋全部"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-436",
+      "title": "白髮情緒後出使用者方向與助手場景候選需隔離",
+      "status": "SCOPED_LATER_USER_DIRECTION",
+      "analysis": "白髮情緒後出使用者方向與助手場景候選需隔離。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 3,
+          "quote": "> 2026-10-22。使用者發現最近幾輪設定未補完整，明確要求「完整點」。本檔區分**使用者直接修正、已有設定、助手仍待挑選的研究候選、非正史場景試寫**。不刪第93、103、"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-437",
+      "title": "白髮可愉悅戲謔又可冰冷或狂笑，轉換要可見",
+      "status": "SCOPED_LATER_USER_DIRECTION",
+      "analysis": "白髮可愉悅戲謔又可冰冷或狂笑，轉換要可見。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 10,
+          "quote": "| 助手以「高冷、專注」定義白髮基本氛圍 | 使用者：「高冷，專注等等可以發生在情況真的嚴重，或嚴重危及諾亞，殺意這些」 | 認真嚴重時可突然無笑、專注、冰冷、殺意極強；**這是特"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-438",
+      "title": "外觀原圖能支撐髮色神態但不能支撐完整能力",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "外觀原圖能支撐髮色神態但不能支撐完整能力。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 18,
+          "quote": "- 雙髮色都是**同一名艾莉維亞**。眼睛始終是青藍十字瞳、深色額帶與黑白青藍衣裝、長髮層次；白髮有銀白近白、淡灰冷青漸層和柔軟細束，深色有黑青外側和亮青藍內層；額飾和胸前十字在圖"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-439",
+      "title": "壓迫感源於人物實力及真反應，而非全場固定光環",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "壓迫感源於人物實力及真反應，而非全場固定光環。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 23,
+          "quote": "日常／興味正濃時的高壓可以來自**她笑得很愉快，卻真能在對手不能理解的地方施展力量**；她不害怕對方有技巧，反而可能因其高明而欣賞、想試招。對手的真恐懼來自目擊不合理但確實發生的結"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-440",
+      "title": "第一次未知能力與諾亞換位傷勢仍有知情限制",
+      "status": "SCOPED_LATER_USER_DIRECTION",
+      "analysis": "第一次未知能力與諾亞換位傷勢仍有知情限制。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 30,
+          "quote": "- **諾亞有復歸能力，不表示他沒有疼痛、恐懼與生命危機；艾莉維亞沒有Celeste賜予的同型復歸**，但並未證明世界所有其他復活科技均不可能。諾亞擔心她可能失去，是合理重大情感來"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-441",
+      "title": "反模版檢查：不能用唯一情緒與強制死亡觸發",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "反模版檢查：不能用唯一情緒與強制死亡觸發。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 35,
+          "quote": "「白髮一律冷漠」「高階能力一律發金光」「有殺意必喪失理智」「諾亞受傷艾莉必笑瘋」「艾莉受傷諾亞必平靜」「所有敵人首次見新能力就破解」「變身每次都一定一縷縷從髮根白到髮梢」「打完敵人"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-442",
+      "title": "冰冷殺意並非白髮永久表情也非角色唯一答案",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "冰冷殺意並非白髮永久表情也非角色唯一答案。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 7,
+          "quote": "| 出現的問題／較早方案 | 使用者後來的明確方向 | 目前應如何使用 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-443",
+      "title": "深髮白髮兩態共享人格且圖像不決定能力",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "深髮白髮兩態共享人格且圖像不決定能力。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 19,
+          "quote": "- 呆毛頭頂較長、蓬鬆、自然側彎，但可隨活動變向；依第93／103使用者補充，**偶爾可以有少量情緒表演**，不是每個情緒自動對應一種角度。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-444",
+      "title": "危機換位不表示艾莉維亞擁有同型復歸",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "危機換位不表示艾莉維亞擁有同型復歸。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+          "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+          "line": 28,
+          "quote": "- **第一章首次相識仍是深青藍髮且雙方陌生**；白髮依既有方向在靜謐迴廊**首次解鎖**，不可將後期白髮交戰帶進開篇。先前關於《第三個座位》瑟莉思媞普通甜餅相識、隱晦線索和第13"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-445",
+      "title": "諾亞與艾莉維亞互換重傷者只是一種情緒和戰術試驗",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "諾亞與艾莉維亞互換重傷者只是一種情緒和戰術試驗。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 3,
+          "quote": "> 2026-10-22。使用者在「艾莉維亞見到諾亞受重傷／白髮冰冷殺意」後明確要求：「兩人位置交換呢，看看諾亞反應。」助手已在聊天寫出長場景《她不會回來的》。本檔**保存具體事件"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-446",
+      "title": "諾亞有個人復歸但維亞沒有同型機制，恐懼不等於她絕對不可救",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "諾亞有個人復歸但維亞沒有同型機制，恐懼不等於她絕對不可救。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 10,
+          "quote": "**諾亞見艾莉維亞受傷**：他知道自己能復歸，卻知道**她沒有Celeste所賜同型復歸**。因此「我還能醒來、她可能不會」成為額外恐懼的重要候選；但不是對其它世界科技下絕對不存在"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-447",
+      "title": "貨港危機中的救護、防護與停止攻擊需要真實先後因果",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "貨港危機中的救護、防護與停止攻擊需要真實先後因果。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 21,
+          "quote": "**4．持續威脅與選擇**：敵人仍有能力繼續對維亞／工人開火。諾亞需要同時照顧她與停止再次傷害；將能維持的急救、防護交付可靠醫療裝置或他人，才去處理敵方。如果現場仍沒有可靠照顧者，"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-448",
+      "title": "示例對話要符合已熟識人格，不推成固定口頭禪",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "示例對話要符合已熟識人格，不推成固定口頭禪。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 28,
+          "quote": "在上一版試寫，諾亞說「是你打的？」、「她在救人」、「她可能會死」並逐步決定消除威脅；之後他趕回傷者旁，以輕顫的聲音確認她仍活著。這些台詞證明**可演得出**一種恐懼、怒氣和精確戰技"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-449",
+      "title": "雙向不同受傷情況會導致不同情緒，而非換名字鏡像",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "雙向不同受傷情況會導致不同情緒，而非換名字鏡像。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 37,
+          "quote": "| 對方已由可靠的人救治 | 可以繼續解除確定的威脅、也可能守在身旁 | 可以優先隔離敵人的再次攻擊能力，再選擇是否追究責任 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-450",
+      "title": "不同白髮場景的冰冷癲狂和復歸恐懼均屬候選版本",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "不同白髮場景的冰冷癲狂和復歸恐懼均屬候選版本。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 44,
+          "quote": "- **轉換版《那麼，換個方式玩吧》**：真正先寫深青藍髮常態的獨立強戰，途中主動試更高力量、髮色逐步銀白，再以活潑狡黠神情交手；髮根變白的順序只是助手視覺候選。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-451",
+      "title": "正式寫之前需核對器械、傷勢、時間、人格與情報",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "正式寫之前需核對器械、傷勢、時間、人格與情報。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 51,
+          "quote": "**結論**：使用者提出的「換位看看」應保存成**更完整可互相比較的雙向心理與戰術候選**，不是下命令使諾亞從此每次都只會冷靜逐步射擊。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-452",
+      "title": "敵人破壞承載件須有本有武裝，不是為劇情突然升級",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "敵人破壞承載件須有本有武裝，不是為劇情突然升級。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 15,
+          "quote": "**1．危機與戰術**：艾莉維亞已具足夠防護、可以躲很多攻擊，卻需要同時維持工人的實際退路。重裝指揮官利用真實的第二組武裝向承載件開火；諾亞擊偏／破壞其中一處，但仍有另一股高端輸出"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-453",
+      "title": "受傷後當地醫療效用不能被作者任意封掉",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "受傷後當地醫療效用不能被作者任意封掉。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 17,
+          "quote": "**2．傷勢**：白髮少女倒下，主刃滑落；她自己先低頭看傷口，還可能努力說一句短話或關心先前沒撤完的人。這是**候選戲劇效果**，不是固定必說「人呢」。傷口若涉及非普通殘留，醫療科"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-454",
+      "title": "諾亞若無現場救護設備或支援必須從事前建立",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "諾亞若無現場救護設備或支援必須從事前建立。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 19,
+          "quote": "**3．諾亞第一反應**：幾乎立刻放棄次要注意力，利用已得到的行構牽引移動到她身旁、穩住她，呼叫醫療。若他當下沒有相應救護設備／工坊／網路，必須另據地理先建立。恐懼可來自她沒有同型"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-455",
+      "title": "原槍可反制確知的運作鏈而非全系統無條件抹消",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "原槍可反制確知的運作鏈而非全系統無條件抹消。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 23,
+          "quote": "**5．原槍實際攻防**：諾亞仍可以因失誤擦傷與敵方交鋒；經A行構與部分B索引、靜謐主執行樞核（皆是候選）逐步毀掉**真正被確認的武裝接合、推進、載荷與近端運作鏈**，使後續攻擊能"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-456",
+      "title": "威脅解除不代表醫療結果同步自動痊癒",
+      "status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "analysis": "威脅解除不代表醫療結果同步自動痊癒。此僅對Git原始文字中可證據支持的敘述作來源級編輯判讀，未把候選情節升Canon。",
+      "guardrail": "作者真相、讀者知情、原始照片、二手研究、助手試演與正式章節明確隔離。",
+      "next_action": "後出設計採案、人物知情變動或來源SHA改變後必須核對這段原文。",
+      "authority": "EDITORIAL_SOURCE_ONLY__NOT_CANON_SIGNOFF",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_GROUNDED_SEMANTIC_TOPIC",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+          "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+          "line": 25,
+          "quote": "**6．情緒與善後**：威脅解除後諾亞應重返維亞，關注生命體徵、後續治療與人員撤離。若她醒來，可能吐槽、關心他受傷、只說短話；諾亞先前的強行穩住才可能一下崩下來、握著她的手、哭或笑"
+        }
+      ]
+    }
+  ],
+  "cross_batch_review": {
+    "earlier_sources": [
+      "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+      "03_人物關係與語感/149_艾莉維亞髮型正式補充_上揚呆毛_額前碎髮_雙側外飄長髮_用詞.md",
+      "03_人物關係與語感/145_白髮轉換與神情演出_危險愉悅冰冷殺意癲狂.md"
+    ],
+    "conclusion": "第139匿名劇本沒有成為正式故事；第136文本原圖未入庫、圖11／13只在記錄中重複。第137原生主樞核仍候選、144與147維持人物演出限制。"
+  }
+}

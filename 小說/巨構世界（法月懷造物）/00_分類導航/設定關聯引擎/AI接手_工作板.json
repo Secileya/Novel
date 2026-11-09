@@ -24,16 +24,16 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第11批六份原稿841行、77全行區段、118命題、118SHA來源錨點、236條非Canon圖回接。132舊局部驗收原位升級，累計22／335、待313。",
-    "targeted_audit_records": 317,
-    "targeted_audit_verified_quotes": 508,
-    "full_file_editorial_accepted": 12,
-    "full_file_editorial_remaining": 159,
+    "important": "第十二批六份原文1237行、85段、139項來源命題、139處SHA／行號證據、278非Canon連線；全庫28/335、307待審。",
+    "targeted_audit_records": 456,
+    "targeted_audit_verified_quotes": 647,
+    "full_file_editorial_accepted": 14,
+    "full_file_editorial_remaining": 157,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 22,
-    "all_source_full_file_editorial_remaining": 313,
-    "historical_164_full_file_acceptance": 10,
-    "historical_171_full_file_acceptance": 12,
+    "all_source_full_file_editorial_accepted": 28,
+    "all_source_full_file_editorial_remaining": 307,
+    "historical_164_full_file_acceptance": 14,
+    "historical_171_full_file_acceptance": 14,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -67,7 +67,7 @@
         "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
         "00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json"
       ],
-      "first_action": "查 batch11 HEAD CI 成功後，按後出依賴處理139、136、133及其他來源；循原文與版本交叉驗證完成才計數。",
+      "first_action": "先檢查第十二批HEAD與CI，再按關聯高權重的143、148、135或新變更來源排批，不自行創作Canon。",
       "acceptance": [
         "每個Git提交樹中的來源都有唯一、動態可計數的狀態；原335及未來新增均涵蓋，accepted+pending=live total。",
         "每份達成相同實質完整標準：所有段落、原始來源/轉貼分界、作者後修、權威/強度/發生進度、所有有效版本與未決事項。",
@@ -155,6 +155,17 @@
           "previously_targeted_upgraded": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
           "accepted_total": 22,
           "pending_total": 313
+        },
+        "acceleration_batch_12": {
+          "stage": "S4_S5_V2_CI_PENDING",
+          "files": 6,
+          "lines": 1237,
+          "sections": 85,
+          "claims": 139,
+          "anchors": 139,
+          "graph_edges": 278,
+          "total_accepted": 28,
+          "total_pending": 307
         }
       }
     },
@@ -500,12 +511,12 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH11_SIX_SOURCES_V2_CI_PENDING",
-    "scope": "6 sources, 841 lines, 77 sections, 118 source-grounded claims, 236 scoped domain edges; 22/335 after CI.",
-    "commit": "CHECK_COMMIT_HEAD",
-    "ci_result": "PENDING_COMMIT_SPECIFIC_CHECK",
-    "not_finished": "313 unreviewed complete source files; original images not in Git; formal 0 chapters / PREWRITE HOLD.",
-    "next_step": "Verify batch11 CI; prioritize candidate source 139, visual source136, story memory source133 according to workload."
+    "stage": "BATCH12_SIX_FILE_V2_CI_PENDING",
+    "scope": "Full source files 139,136,133,137,144,147; 1237 lines, 85 sections, 139 atomic findings, 278 related graph links. 28/335 subject to CI.",
+    "commit": "CHECK_NEW_HEAD",
+    "ci_result": "PENDING_CI",
+    "not_finished": "307 full source files remain; images only in chat; formal chapter0/PREWRITE HOLD",
+    "next_step": "Verify latest HEAD GitHub Actions; prioritize remaining later revision source143/148, historical 171 candidates and new sources by dependency and line budgets."
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -515,6 +526,7 @@
     "00_分類導航/設定關聯引擎/20261109_全庫第八批_164與171混合_外部研究權威與主角互識仲裁.json",
     "00_分類導航/設定關聯引擎/20261109_第九批六份混合全文_原子命題與v2整檔驗收.json",
     "00_分類導航/設定關聯引擎/20261109_第十批四份_語氣權威與劇情引擎長評析_v2.json",
-    "00_分類導航/設定關聯引擎/20261109_第十一批六份_白髮修訂與篇章候選_全文v2語義審核.json"
+    "00_分類導航/設定關聯引擎/20261109_第十一批六份_白髮修訂與篇章候選_全文v2語義審核.json",
+    "00_分類導航/設定關聯引擎/20261109_第十二批六份_匿名記憶視覺與升級_全文v2審核.json"
   ]
 }

@@ -4,9 +4,9 @@
   "repository": "Secileya/Novel",
   "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
   "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
-  "audit_record_count": 317,
-  "mapped_review_count": 317,
-  "links_count": 692,
+  "audit_record_count": 456,
+  "mapped_review_count": 456,
+  "links_count": 970,
   "unmapped_review_ids": [],
   "no_new_canon_or_hard_dependency_edges": true,
   "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
@@ -8600,6 +8600,3620 @@
         "line": 32
       },
       "guardrail": "Only navigation to existing graph node; no new proved causal fact, character knowledge, or Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-318",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "A匿名與B母親溫柔兩版整合為未採C候選並隔離作者真相",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-318-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-318-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 5
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-319",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "透明模型與世界巨構接路，記憶未揭身份",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-319-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-319-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 27
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-320",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "往上之外還有下行與回家方向，設計不是單向登頂",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-320-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-320-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 57
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-321",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母親明確誇獎道路能讓不同居民相遇並摸頭",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-321-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-321-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 67
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-322",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "舊住宅街區不宜直接剷平，貨運需要另闢道路",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-322-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-322-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 117
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-323",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母女共同調整貨道使客運和送貨合理並行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-323-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-323-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 145
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-324",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "小麵包店與送貨工人的早餐是具體生活而非抽象地圖",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-324-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-324-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 173
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-325",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "約定未來一起去那個尚未完成的地方，生活持續",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-325-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-325-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 197
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-326",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "從正常道路轉向隱蔽難找的私人挑戰入口",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-326-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-326-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 245
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-327",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "隱藏道路有真落腳點、挑戰和安全可達條件",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-327-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-327-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 279
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-328",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "危險道路是自願選擇，不強迫每位居民參加",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-328-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-328-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 307
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-329",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母親指出實際傷亡風險但不否定女兒的創作",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-329-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-329-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 327
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-330",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "安靜白色細橋只是最初設計雛形而非當代全套機關",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-330-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-330-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 375
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-331",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "白橋讓旅行者自行選擇是否走過，氣氛莊重",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-331-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-331-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 405
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-332",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "終點須有與努力相稱的內容與私人小紀念",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-332-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-332-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 429
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-333",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "小小紀念表達創作者對走完道路者的欣賞",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-333-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-333-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 459
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-334",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "雛形仍未完成，不把獎勵或黑霧在此刻定死",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-334-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-334-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 499
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-335",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "孩子擔心母親是否喜歡不成熟作品，母親說現在就喜歡",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-335-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-335-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 533
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-336",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "摸頭與相擁是被疼愛的母女關係而不揭露真名",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-336-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-336-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 561
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-337",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "承諾完工再看且立刻又興奮介紹其他設計",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-337-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-337-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 575
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-338",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "記憶淡出時兩人仍在設計，沒有宣布完整通關系統",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-338-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-338-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 601
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-339",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "原型道路生活、母女感情與秘密挑戰四層價值",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-339-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-339-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 619
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-340",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "初見記憶只可形成有限推測，較晚知道真身才有回聲",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-340-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-340-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 624
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-341",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "A/B/C試寫優點與正式0章及第三個座位時序一致",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-341-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-341-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 634
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-342",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "孩子得意展示路網並自然稱母親",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-342-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-342-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 35
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-343",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "新的道路可以連居民原本到不了的地點",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-343-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-343-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 45
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-344",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母親明確讚美作品漂亮",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-344-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-344-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 73
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-345",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母親說我很喜歡並非持續找缺點",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-345-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-345-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 85
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-346",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "女兒留存老街居民自行修建搬遷選擇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-346-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-346-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 97
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-347",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母親與女兒一起實際修改貨運路",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-347-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-347-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 133
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-348",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "小麵包店照顧清晨上工的送貨人",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-348-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-348-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 167
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-349",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "模型中的巨大尺度最後落到普通生活",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-349-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-349-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 215
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-350",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "隱密入口從普通維修結構旁開始",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-350-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-350-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 233
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-351",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "設計者好奇誰能自己找到秘密路",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-351-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-351-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 265
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-352",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "普通上行道路與自願挑戰並存",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-352-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-352-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 311
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-353",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "危險真的會使走入其中的人付出代價",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-353-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-353-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 331
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-354",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "被修正的設計仍保有女兒自己的風格",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-354-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-354-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 349
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-355",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "白橋希望旅行者在最後先停下來看看",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-355-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-355-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 397
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-356",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "獎勵除大型珍貴物還有一點小紀念",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-356-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-356-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 447
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-357",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母親期待有人收到女兒留下的東西",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-357-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-357-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 479
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-358",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母親現在就已喜歡，不以完工換認可",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-358-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-358-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 533
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-359",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "相擁畫面只顯局部不暴露身份",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-359-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-359-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 561
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-360",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "母女仍一起繼續創造下一個世界區域",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-360-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-360-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 597
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-361",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "當代黑霧、入口錨點和白髮獎勵不自動存在雛形中",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-361-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-361-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 619
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-362",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "多年後知情才可能產生對第三個座位的第二次理解",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-362-01",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-362-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/139_非正史記憶完整試寫_無名的母女與靜謐迴廊雛形.md",
+        "git_blob_sha": "f4e881255055442f2e6de7f389826087c8e46bda",
+        "line": 628
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-363",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "十四張附件依原序文字記錄，11和13像素重複不減編號",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-363-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-363-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 5
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-364",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "第01至03張白髮近景棋局和冷色十字眼各有表情",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-364-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-364-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 12
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-365",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "第04至06張展示長髮動勢與深青藍爽朗正面樣貌",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-365-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-365-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 21
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-366",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "第07至09張深髮星空、生活近景與遮光旅行姿態",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-366-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-366-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 30
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-367",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "第10至12張狡黠陰影與白髮歡快漫畫大呆毛",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-367-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-367-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 39
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-368",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "第13重複與14雙人圖片分別保留來源序列",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-368-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-368-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 48
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-369",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "兩個髮色共享十字瞳、額帶、分束長髮與層次",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-369-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-369-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 55
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-370",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "白髮不是永遠清冷，深髮也能俏皮安靜溫柔",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-370-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-370-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 65
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-371",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖片能證外觀而不能直接證立刻發生的棋局星空劇情",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-371-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-371-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 77
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-372",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "白髮解鎖與巨大能力質變方向需跨第137核對",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-372-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-372-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 83
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-373",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "第136文字對第137的模組方案不宣布採用",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-373-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-373-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 87
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-374",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "十四個原附件來源順序必須保留不能按重複像素併掉",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-374-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-374-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 95
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-375",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "第138與139後出匿名母女記憶與雙主角成長修正",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-375-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-375-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 113
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-376",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "第144至148表情、危機與能力試演均有後出界線",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-376-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-376-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 117
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-377",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "第149髮束後出新觀察修正先橫向後上揚誤讀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-377-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-377-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 121
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-378",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖01白髮側面微張唇與短側髮",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-378-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-378-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 9
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-379",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖02白髮棋子托腮狡黠笑",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-379-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-379-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 12
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-380",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖03十字眼與冷光不是神性能力的證明",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-380-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-380-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 15
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-381",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖04白髮極長髮流與服裝",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-381-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-381-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 18
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-382",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖05深青藍伸手大笑證明不是無口",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-382-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-382-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 21
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-383",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖06深髮正面基準額帶與雙層髮色",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-383-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-383-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 24
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-384",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖07星空深髮安靜也有自我生活",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-384-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-384-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 27
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-385",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖08托腮與俯身的髮流",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-385-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-385-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 30
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-386",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖09遮光遠望的旅行者好奇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-386-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-386-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 33
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-387",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖10陰影狡黠笑與十字眼",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-387-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-387-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 36
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-388",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖11白髮歡快握拳大笑",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-388-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-388-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 39
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-389",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖12漫畫弧形呆毛和喜悅",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-389-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-389-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 42
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-390",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖13與第11張完全相同仍保留序位",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-390-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-390-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 45
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-391",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "圖14深髮雙人畫面不得直接推定正式CP事件",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-391-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-391-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/136_艾莉維亞十四張視覺參考逐張完整觀察_雙髮色人格與演出.md",
+        "git_blob_sha": "0f4073a7f1747492a494313d0f90d668cf34865d",
+        "line": 48
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-392",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "使用者重視整本書長期記憶與名場面但外作章節未獨立核實",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-392-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-392-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 3
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-393",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "讀者對具體片段、人物關係及可重組情緒形成記憶網",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-393-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-393-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 20
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-394",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "名場面屬重要篇章級目標，不得只剩日常情感回聲",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-394-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-394-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 24
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-395",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "使用者保留十二個外作品篇章名稱作為回憶而非本線大綱",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-395-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-395-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 39
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-396",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "篇章目標應有完整中途成果，不是只有全書登頂",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-396-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-396-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 64
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-397",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "人物欲望阻力與高潮收束成真正有重量的具名大篇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-397-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-397-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 78
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-398",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "名場面有可見形體人物反應與代價，不只是抽象特效",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-398-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-398-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 87
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-399",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "可被音樂MV召喚的私人回憶建立在原故事人生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-399-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-399-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 102
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-400",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "核心群像應擁有各自長期篇章和相遇因果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-400-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-400-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 114
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-401",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "長章閱讀回報與跨章大型篇章高潮要同時成立",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-401-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-401-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 126
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-402",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "地方小篇可獨立結束不必全部接終極宇宙陰謀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-402-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-402-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 137
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-403",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "現有巨構素材僅構成候選篇章意象，不算正式完成",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-403-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-403-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 152
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-404",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "梗與小動作多年後回來才有不靠謎團的回聲",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-404-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-404-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 165
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-405",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "篇章記憶卡提供作者追蹤工具但不固定三幕章數",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-405-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-405-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 185
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-406",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "第132語體章長研究與第133篇章回聲研究可互補",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-406-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-406-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 200
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-407",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "第134首篇A B C等候選仍待作者選擇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-407-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-407-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 208
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-408",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "十二個外作篇章仍是使用者記得的名字，不是本線固定章單",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-408-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-408-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 37
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-409",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "篇章需有眼前可操作事件與當地人物獨立願望",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-409-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-409-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 75
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-410",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "讓讀者可記住具體形狀而非僅抽象效果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-410-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-410-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 78
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-411",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "篇章結束是真結案，不強制下一個陰謀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-411-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-411-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 79
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-412",
+      "reviewed_status": "TEXTUAL_RESEARCH_OR_VISUAL_ARCHIVE",
+      "summary": "配角離場後仍有生活和制度後果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-412-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-412-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+        "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+        "line": 80
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-413",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "靜謐雙主角各大升級是作者方向，A/B/C模組與白髮參照方案仍候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-413-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-413-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 5
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-414",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "隱密苦痛道路末端無機關白橋與不復歸黑霧的真風險",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-414-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-414-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 13
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-415",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "白髮首次解鎖是實質力量質變，時間不隨意鎖三分鐘",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-415-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-415-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 19
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-416",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "原本高階的艾莉維亞不可為展示白髮被先故意削弱",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-416-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-416-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 34
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-417",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "原生主執行樞核是助手首選原裝槍配套，尚未採用",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-417-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-417-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 46
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-418",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "主樞核對多層屏障的火力貫穿需真功率與相性",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-418-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-418-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 54
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-419",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "集中展幅與持續執行的原槍操作不等於無限能力",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-419-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-419-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 58
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-420",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "大系統局部連鎖打擊需真識別，不能隔宇宙抹除",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-420-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-420-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 70
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-421",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "刀與鉤索載體可受益，但具體來源仍有需求",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-421-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-421-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 72
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-422",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "要塞前後對照非真戰績，只測可見的大幅輸出",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-422-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-422-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 82
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-423",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "界域定址B與源流供能C都是保留競選方案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-423-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-423-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 108
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-424",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "雙主角應各有獨立高階能力，不讓艾莉維亞只當輔助",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-424-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-424-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 127
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-425",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "白髮變身視覺可以不對稱，示例台詞並非已發生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-425-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-425-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 138
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-426",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "升級後敵方不應每次同步漲血量抵銷成果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-426-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-426-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 145
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-427",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "除了主獎勵還有路線記憶與私人紀念等候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-427-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-427-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 151
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-428",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "決議／未知清單與第57八功能族不等於八顆掉落",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-428-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-428-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 169
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-429",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "第138/139後修修正母女匿名、常態配重與未知白髮反制",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-429-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-429-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 175
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-430",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "八個原槍功能族不能直接等同八顆模組",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-430-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-430-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 48
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-431",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "大系統關聯切斷需要確知同一性，不是全宇宙名稱索引",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-431-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-431-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 70
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-432",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "飛行要塞擊穿只是模擬相同防護下的前後比較",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-432-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-432-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 82
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-433",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "B方案原生界域定址可以形成空間戰術差異",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-433-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-433-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 105
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-434",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "C方案原生源流供能強調持久高功率但不保證執行端提升",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-434-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-434-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 110
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-435",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "A只是助手推薦，不壓過B/C兩個完整比較案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-435-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-435-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+        "git_blob_sha": "058c2c9e95821deb349a46edc82f752c156ddd79",
+        "line": 123
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-436",
+      "reviewed_status": "SCOPED_LATER_USER_DIRECTION",
+      "summary": "白髮情緒後出使用者方向與助手場景候選需隔離",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-436-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-436-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 3
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-437",
+      "reviewed_status": "SCOPED_LATER_USER_DIRECTION",
+      "summary": "白髮可愉悅戲謔又可冰冷或狂笑，轉換要可見",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-437-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-437-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 10
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-438",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "外觀原圖能支撐髮色神態但不能支撐完整能力",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-438-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-438-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 18
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-439",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "壓迫感源於人物實力及真反應，而非全場固定光環",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-439-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-439-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 23
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-440",
+      "reviewed_status": "SCOPED_LATER_USER_DIRECTION",
+      "summary": "第一次未知能力與諾亞換位傷勢仍有知情限制",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-440-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-440-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 30
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-441",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "反模版檢查：不能用唯一情緒與強制死亡觸發",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-441-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-441-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 35
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-442",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "冰冷殺意並非白髮永久表情也非角色唯一答案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-442-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-442-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 7
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-443",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "深髮白髮兩態共享人格且圖像不決定能力",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-443-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-443-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 19
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-444",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "危機換位不表示艾莉維亞擁有同型復歸",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-444-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-444-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/144_後出修正全錄_白髮神情殺意轉換_諾亞反向危機.md",
+        "git_blob_sha": "2e5ea0521759b178777123e7abaff664e45f7d33",
+        "line": 28
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-445",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "諾亞與艾莉維亞互換重傷者只是一種情緒和戰術試驗",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-445-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-445-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 3
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-446",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "諾亞有個人復歸但維亞沒有同型機制，恐懼不等於她絕對不可救",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-446-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-446-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 10
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-447",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "貨港危機中的救護、防護與停止攻擊需要真實先後因果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-447-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-447-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 21
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-448",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "示例對話要符合已熟識人格，不推成固定口頭禪",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-448-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-448-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 28
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-449",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "雙向不同受傷情況會導致不同情緒，而非換名字鏡像",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-449-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-449-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 37
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-450",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "不同白髮場景的冰冷癲狂和復歸恐懼均屬候選版本",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-450-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-450-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 44
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-451",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "正式寫之前需核對器械、傷勢、時間、人格與情報",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-451-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-451-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 51
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-452",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "敵人破壞承載件須有本有武裝，不是為劇情突然升級",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-452-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-452-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 15
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-453",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "受傷後當地醫療效用不能被作者任意封掉",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-453-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-453-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 17
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-454",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "諾亞若無現場救護設備或支援必須從事前建立",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-454-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-454-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 19
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-455",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "原槍可反制確知的運作鏈而非全系統無條件抹消",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-455-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-455-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 23
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-456",
+      "reviewed_status": "NON_CANON_CANDIDATE_SCENE_OR_TECH",
+      "summary": "威脅解除不代表醫療結果同步自動痊癒",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-456-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-456-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/147_諾亞艾莉維亞雙向危機_反應對照與試寫綱要.md",
+        "git_blob_sha": "0dfd732c0d1568af9a96f22bf10ee14385e4d0c4",
+        "line": 25
+      },
+      "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
     }
   ]
 }
