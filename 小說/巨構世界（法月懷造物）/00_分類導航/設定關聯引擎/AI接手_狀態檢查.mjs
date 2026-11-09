@@ -25,6 +25,21 @@ let head='NOT_VERIFIED_GIT_CHECKOUT';
 try{head=execFileSync('git',['rev-parse','HEAD'],{cwd:PROJECT,encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim()}
 catch{warnings.push('未取得本機git HEAD；請用GitHub連接器查main HEAD，不得自行推定')}
 const snapshot=B.fact_snapshot;
+const actualCoverage=Object.freeze({
+  raw_source_files:INV.files.length,
+  direct_fine_grained_source_paths:BACK.referenced,
+  source_role_backlog:BACK.sources.length,
+  machine_screened_dossiers:DOS.sources.length,
+  excerpt_sections:SECTION.sections,
+  version_literal_diff_pairs:DIFF.comparisons.length,
+  human_semantic_version_issues:HUMAN.records.length,
+  targeted_reviewed_claims:A4.records.length+A5.records.length+A6.records.length,
+  verified_source_quotes:A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,
+  version_decisions:VER.records.length,
+  original_archive_09_files:fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,
+  full_file_semantic_review_completed:'NOT_ESTABLISHED__DO_NOT_INFER_FROM_TARGETED_CLAIMS'
+});
+const historyIsNotCurrent='舊版文檔的251／213／182、41條／111錨點等都是歷史快照；以本報表實際讀取的來源清冊與審核檔為準。';
 function check(label,actual,expected){if(actual!==expected)faults.push(label+': actual='+actual+', board='+expected)}
 check('raw_source_files',INV.files.length,snapshot.raw_source_files);
 check('inventory_count',INV.files_count,snapshot.raw_source_files);
@@ -74,8 +89,10 @@ if(args.includes('--report')){
   latest_actual_progress:B.latest_progress||null,
   remaining_tasks:pending.map(x=>({id:x.id,name:x.name,status:x.status,blocked_on:x.blocked_on||null})),
   incomplete_full_file_semantic_reviews:BACK.sources.length,
-  targeted_reviewed_findings:A4.records.length+A5.records.length+A6.records.length,
-  verified_exact_quotes:A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,
+  targeted_reviewed_findings:actualCoverage.targeted_reviewed_claims,
+  verified_exact_quotes:actualCoverage.verified_source_quotes,
+  dynamic_coverage:actualCoverage,
+  historical_snapshot_warning:historyIsNotCurrent,
   next_task:next?{id:next.id,name:next.name,first_action:next.first_action}:null,
   reporting_rule:'每次答覆列已做、還沒做、下一步、commit與CI。不可把此本機報表當全部語義證明。'},null,2));
  if(faults.length)process.exitCode=2;
@@ -93,9 +110,8 @@ if(args.includes('--report')){
   git_head:head,previous_verified_baseline:B.last_checked_head_before_handoff,
   same_head_as_stored_baseline:head===B.last_checked_head_before_handoff,
   ci_status:'NOT_CHECKED_BY_THIS_SCRIPT__VERIFY_REMOTE_ACTIONS_FOR_CURRENT_HEAD',
-  source_snapshot:{raw_files:INV.files.length,source_role_backlog:BACK.sources.length,
-    indexed_213:DOS.sources.length,verified_quote_anchors:A4.evidence_count+A5.original_anchors_count+A6.original_anchors_count,
-    version_nodes:VER.records.length},
+  source_snapshot:actualCoverage,
+  historical_snapshot_warning:historyIsNotCurrent,
   task_counts:{ready:B.tasks.filter(t=>t.status==='READY').length,
     blocked:B.tasks.filter(t=>t.status==='BLOCKED').length,done:B.tasks.filter(t=>t.status==='DONE').length},
   recommended_next_ready_task:B.tasks.filter(t=>t.status==='READY').sort((a,b)=>a.priority-b.priority||B.tasks.indexOf(a)-B.tasks.indexOf(b))[0]?.id||null,

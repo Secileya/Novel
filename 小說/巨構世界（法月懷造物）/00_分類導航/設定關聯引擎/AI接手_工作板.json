@@ -217,16 +217,16 @@
     "current_head_warning": "This is the verified install baseline. Fetch latest main HEAD and CI before further edits."
   },
   "latest_progress": {
-    "task_id": "NEXT-001",
-    "stage": "S4_CREATED_STAGED_AWAITING_CI",
-    "scope": "第六批：5份171來源中定向語義14項36錨點，後出119作權威對照，VER-013及VER-005證據回連",
+    "task_id": "NEXT-002",
+    "stage": "S4_IMPLEMENTED_PENDING_CI",
+    "scope": "動態統計報表增加實際來源覆蓋分軸，修正先前 --status 漏掉第六批的固定計數，GEMINI/AGENTS入口清楚標示歷史數字；NEXT-001第六批已在main並通過先前CI，但171份整檔仍待審。",
     "files": [
-      "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json",
-      "00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
-      "00_分類導航/設定關聯引擎/查詢.mjs"
+      "00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs",
+      "AGENTS.md",
+      "GEMINI.md"
     ],
-    "not_finished": "171整檔全文語義審核仍全數待完整驗收；NEXT-002統一歷史統計等其他任務仍READY",
-    "next_step": "完成CI後更新進度；下一批不重複源記錄，並處理NEXT-002統計口徑。"
+    "not_finished": "NEXT-002仍需檢查其餘舊交接檔與計數快照；NEXT-001還需持續下一批逐條命題；NEXT-003至005未完成，NEXT-006作者權限阻擋。",
+    "next_step": "本提交CI驗證後，繼續將統計口徑同步至語義覆蓋計數快照，修正過時『最新』標示，然後做下一批171來源仲裁。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
