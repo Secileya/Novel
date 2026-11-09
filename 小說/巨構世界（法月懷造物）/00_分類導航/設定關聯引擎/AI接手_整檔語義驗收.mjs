@@ -43,7 +43,15 @@ function validate(record){
   if(Object.keys(checks).length<6||Object.values(checks).some(x=>x!==true))faults.push('missing semantic checklist attestation');
   if(record.attestation?.actor!=='AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF')faults.push('missing editorial-not-Canon caveat');
   if(!(record.latest_revisions_checked||[]).length)faults.push('missing later-revision evidence');
-  for(const p of record.latest_revisions_checked||[])try{getText(p)}catch{faults.push('later source missing '+p)}
+  const checked=record.latest_revisions_checked||[];
+  const manifest=record.latest_revision_source_sha_manifest||[];
+  if(manifest.length!==checked.length)faults.push('later revision manifest missing/outdated');
+  for(let i=0;i<checked.length;i++){
+    const path=checked[i],rev=manifest[i];
+    if(!rev||rev.path!==path||!rev.git_blob_sha){faults.push('later revision manifest path missing '+path);continue;}
+    try{if(getText(path).sha!==rev.git_blob_sha)faults.push('later-revision source SHA changed: '+path)}
+    catch{faults.push('later source missing '+path)}
+  }
  }else if(record.status!=='TARGETED_SEMANTIC_ONLY__NOT_FULL_FILE')faults.push('unknown review state');
  return faults;
 }
@@ -56,6 +64,10 @@ if(process.argv.includes('--negative-test')){
  const broken=structuredClone(full);
  broken.reviewed_sections[3].from++;
  if(!validate(broken).some(x=>x.includes('gap/overlap')))errors.push('negative gap fixture did not fail');
+ const outdated=structuredClone(full);
+ outdated.latest_revision_source_sha_manifest[0].git_blob_sha='0000000000000000000000000000000000000000';
+ if(!validate(outdated).some(x=>x.includes('later-revision source SHA changed')))
+   errors.push('negative later-source drift fixture did not fail');
 }
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1}
 else console.log('整檔驗收台帳：'+passed.length+'份編輯性全行覆蓋已核對、'+(gap.sources.length-passed.length)+'份待處理，原始來源一字未改；非Canon核准');
