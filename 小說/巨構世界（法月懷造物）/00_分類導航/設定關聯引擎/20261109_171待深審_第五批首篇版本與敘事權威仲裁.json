@@ -1,0 +1,702 @@
+{
+  "schema": "mega-171-deep-semantic-audit-batch5-v1",
+  "date": "2026-11-09",
+  "repo": "Secileya/Novel",
+  "baseline_commit": "0a0045e9063622da73026e1f363956bdcac8d386",
+  "topic": "首篇A/B/C互斥、讀者實際回饋、人物初遇及第051採用、首死與槍復歸後修、候選T路網、篇章記憶與實際戲劇缺口",
+  "scope_note": "從尚未全文仲裁的來源做逐條、有適用範圍的定向深讀；舊說與後出修正只在可證範圍內建立關係。研究用非Canon，正式正文0章/PREWRITE HOLD。",
+  "record_count": 22,
+  "original_anchors_count": 61,
+  "source_files_targeted": 14,
+  "source_file_manifest": [
+    {
+      "path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+      "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532"
+    },
+    {
+      "path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+      "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027"
+    },
+    {
+      "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+      "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102"
+    },
+    {
+      "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+      "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161"
+    },
+    {
+      "path": "06_敘事規劃與工作流/090_開篇候選P0工作卡_被拆走的上行路_真初遇與第二章因果.md",
+      "git_blob_sha": "c6cf85d13a0566dc31c359dc8419333e22c4d77b"
+    },
+    {
+      "path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+      "git_blob_sha": "8e9bd4e341947111f1894d7124efcb844c644cb3"
+    },
+    {
+      "path": "07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md",
+      "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423"
+    },
+    {
+      "path": "07_候選故事與場景/092_非正史連續試寫_第二章_舊站仍有人來過.md",
+      "git_blob_sha": "bb315e3583dc975be098bd8bf50ea05440bbefc0"
+    },
+    {
+      "path": "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
+      "git_blob_sha": "2247dd76e7b562f23934b38f3089efaea6a80ab9"
+    },
+    {
+      "path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+      "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072"
+    },
+    {
+      "path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+      "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465"
+    },
+    {
+      "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+      "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1"
+    },
+    {
+      "path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+      "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21"
+    },
+    {
+      "path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+      "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8"
+    }
+  ],
+  "records": [
+    {
+      "id": "SRC-171-020",
+      "title": "B首篇獲較佳讀後回饋，但僅有限追讀興趣",
+      "status": "USER_FEEDBACK_WITHOUT_CANON_ADOPTION",
+      "priority": "HIGH",
+      "analysis": "使用者直接評價B比較好看、仍只有少許好奇；第134僅把B列為編輯優先再測，不是作者選定的正式第一章。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+          "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+          "line": 79,
+          "quote": "B更好看些"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 55,
+          "quote": "使用者「B比較好看但只有一點好奇」"
+        }
+      ],
+      "guardrail": "閱讀比較結論與正式故事選案權威分開；助手的推薦不能代替使用者採案。",
+      "next_action": "保留B為目前優先測試基線，仍與A、C及其他提案並存。"
+    },
+    {
+      "id": "SRC-171-021",
+      "title": "A與B兩個初遇候選互斥，不應前後接成同一故事",
+      "status": "MUTUALLY_EXCLUSIVE_OPENING_VERSIONS",
+      "priority": "HIGH",
+      "analysis": "第109與110都是各自獨立的真初遇；第134明文禁止硬將三套世界形制的優點塞進同一首城。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 3,
+          "quote": "不是第091的直接覆寫"
+        },
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 3,
+          "quote": "互斥的不同首篇方案"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 78,
+          "quote": "硬把A的對面曲殼城、B的方井回路和C的太陽光板全部塞進同一個首城"
+        }
+      ],
+      "guardrail": "共享敘事功能不等於地圖、人物認識時間或同日事件能直接合併。",
+      "next_action": "用 branch_family 識別A/B/C，跨案回收素材需要重新建立時序與地理。"
+    },
+    {
+      "id": "SRC-171-022",
+      "title": "C《把天光賣出去的人》是新第三競爭案而非後出定案",
+      "status": "ALTERNATE_CANDIDATE_NO_CANON_PROMOTION",
+      "priority": "MEDIUM",
+      "analysis": "第134新提光板／鏡渠的城市生活與合法交易衝突，但明示全案地形與技術待核，不能偷增W世界地圖。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 58,
+          "quote": "C：〈把天光賣出去的人〉全新開篇競爭案"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 64,
+          "quote": "全案從名字到地形均是純候選"
+        }
+      ],
+      "guardrail": "名稱較新及視覺更強不代表新案取代A/B或已有真實地理座標。",
+      "next_action": "留在候選庫，若正式選C再重新核世界層、能源、商權與初遇。"
+    },
+    {
+      "id": "SRC-171-023",
+      "title": "第090試寫選擇不是使用者對拆路首篇的正式選案",
+      "status": "TEST_BASELINE_VS_AUTHOR_SELECTION",
+      "priority": "HIGH",
+      "analysis": "第090選拆路是減少重新設計成本；第108明示開始PREWRITE是准許準備與核對，不等於正式採用拆路時空與事件。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/090_開篇候選P0工作卡_被拆走的上行路_真初遇與第二章因果.md",
+          "git_blob_sha": "c6cf85d13a0566dc31c359dc8419333e22c4d77b",
+          "line": 5,
+          "quote": "只是先選一條"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/090_開篇候選P0工作卡_被拆走的上行路_真初遇與第二章因果.md",
+          "git_blob_sha": "c6cf85d13a0566dc31c359dc8419333e22c4d77b",
+          "line": 58,
+          "quote": "正式 PREWRITE_GATE"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+          "git_blob_sha": "8e9bd4e341947111f1894d7124efcb844c644cb3",
+          "line": 208,
+          "quote": "使用者是否真的採用「拆路真初遇」"
+        }
+      ],
+      "guardrail": "不以文件使用「P0」「開始」推論正式第一章已確定。",
+      "next_action": "正式章維持HOLD；用新讀者回饋和作者選案決定後才建正史。"
+    },
+    {
+      "id": "SRC-171-024",
+      "title": "第091第一章與092第二章可連讀但都是非正史候選",
+      "status": "CONTINUOUS_DRAFT_NOT_HAPPENED",
+      "priority": "MEDIUM",
+      "analysis": "兩章構成同一可撤回的連續試寫；連讀只是文本連續性，不等於正式人物已經互識或地方事故曾發生。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 3,
+          "quote": "可撤回的第一章候選"
+        },
+        {
+          "source_path": "07_候選故事與場景/092_非正史連續試寫_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "bb315e3583dc975be098bd8bf50ea05440bbefc0",
+          "line": 3,
+          "quote": "連續的**第二章候選**"
+        }
+      ],
+      "guardrail": "不得把第二章後果登記成已發生故事史或用來覆寫其他首章分支。",
+      "next_action": "若有新的候選首章版本，必重新對照第二章起點，避免沿用不再成立的條件。"
+    },
+    {
+      "id": "SRC-171-025",
+      "title": "劇情拉力與人物／空間可視化是兩個獨立的准寫門檻",
+      "status": "TWO_INDEPENDENT_READER_QA_GATES",
+      "priority": "HIGH",
+      "analysis": "第108後出補校明確將閱讀慾望、節奏與空間人物畫面分開評估；即使工程與人物資訊相容，仍不能自稱正式開篇過稿。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+          "git_blob_sha": "8e9bd4e341947111f1894d7124efcb844c644cb3",
+          "line": 282,
+          "quote": "閱讀慾望／節奏"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+          "git_blob_sha": "8e9bd4e341947111f1894d7124efcb844c644cb3",
+          "line": 284,
+          "quote": "空間與人物畫面"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+          "git_blob_sha": "8e9bd4e341947111f1894d7124efcb844c644cb3",
+          "line": 286,
+          "quote": "NARRATIVE_PULL_QA = NOT_PASS_YET"
+        }
+      ],
+      "guardrail": "此處NOT_PASS適用第091／092當時版本，不可機械判定所有未來稿都失敗。",
+      "next_action": "修稿驗收分別檢查選擇／當下回報與姿勢／場景站位／可見地景。"
+    },
+    {
+      "id": "SRC-171-026",
+      "title": "A試演的『前文有人喊出諾亞姓名』時序錯誤已修",
+      "status": "LATER_CORRECTION_TO_CANDIDATE",
+      "priority": "MEDIUM",
+      "analysis": "第111保存舊草稿曾讓少女引用未實際發生的工地叫名，後來改為當場第一次互報姓名；第109維持初見僅短暫同行的狀態。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+          "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+          "line": 54,
+          "quote": "舊草稿尾段曾讓少女聲稱"
+        },
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 474,
+          "quote": "能互報姓名、互相玩笑"
+        }
+      ],
+      "guardrail": "不能用舊錯台詞倒推出雙主角早已認識。",
+      "next_action": "以經修訂的實際文本判定當時角色能知道的名字。"
+    },
+    {
+      "id": "SRC-171-027",
+      "title": "男主完整正式外貌來源未回收，不能憑助手想像定髮瞳",
+      "status": "VISUAL_SOURCE_GAP",
+      "priority": "MEDIUM",
+      "analysis": "第111指出男主髮色、眼睛、體態等仍未據正式原圖核准；第134亦把諾亞完整外貌列為尚未定案。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+          "git_blob_sha": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+          "line": 36,
+          "quote": "尚未把他已確認的髮色"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 9,
+          "quote": "諾亞的完整外貌"
+        }
+      ],
+      "guardrail": "這是當時指定視覺證據未回收的限制，不代表男主永遠不能有外觀描寫。",
+      "next_action": "正式人物卡需先追回權威圖與後出指示，標註候選和已批准的視覺細節。"
+    },
+    {
+      "id": "SRC-171-028",
+      "title": "熟人版第066不符合初見，但場景與人物表演應保留",
+      "status": "TIMELINE_SUPERSEDED_SCENE_REUSABLE",
+      "priority": "HIGH",
+      "analysis": "第066原寫已相識和私暱稱，後出正式初章必須初見；第077同時保留舊稿成熟互動成功的閱讀價值。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
+          "git_blob_sha": "2247dd76e7b562f23934b38f3089efaea6a80ab9",
+          "line": 3,
+          "quote": "本檔原先採「已熟識"
+        },
+        {
+          "source_path": "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
+          "git_blob_sha": "2247dd76e7b562f23934b38f3089efaea6a80ab9",
+          "line": 6,
+          "quote": "本章示範兩人**已相識"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+          "git_blob_sha": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+          "line": 11,
+          "quote": "第66整篇保留"
+        }
+      ],
+      "guardrail": "不能把版別『已熟識』作故事前提，也不能因不適合第一章而刪掉後期可用素材。",
+      "next_action": "建立『時序不可用／演出可回收』雙欄，不強行同時採用。"
+    },
+    {
+      "id": "SRC-171-029",
+      "title": "第034對復歸武器去向的舊未決表述已被後出部分覆蓋",
+      "status": "PARTIAL_LATER_OVERRIDE",
+      "priority": "HIGH",
+      "analysis": "較早第034將槍與行李跟隨復歸一併視作未決；第134後出明確說明諾亞本人原槍會隨復歸，普通外物不自動跟隨。這僅覆蓋原槍基礎歸屬規則，並不決定所有衣物、背包、已／未同化模組例外或本次復歸落點。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+          "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+          "line": 93,
+          "quote": "其槍和行李是否跟隨復歸屬全世界尚未定"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 7,
+          "quote": "本人原槍隨復歸而普通外物不自動跟隨"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 232,
+          "quote": "第135份"
+        }
+      ],
+      "guardrail": "不得以後出『槍跟回』概括為所有外物必跟回。",
+      "next_action": "更新知識檢索時標較早未決為 PARTIALLY_SUPERSEDED，另讀後出同化B規則。"
+    },
+    {
+      "id": "SRC-171-030",
+      "title": "第一次死亡不屬主角主動試命；世界外部事件持續",
+      "status": "DEATH_RETURN_PHASE_AND_CONSEQUENCE",
+      "priority": "HIGH",
+      "analysis": "第034初死候選要求諾亞在不知復歸的狀況下遭真正致命事故，復歸後交通和地方事件沒有倒帶；第112把死亡、醒來、返回原事件拆開，避免一句『復活』跳過時間／社會後果。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+          "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+          "line": 91,
+          "quote": "未知道自己能不死"
+        },
+        {
+          "source_path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+          "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+          "line": 93,
+          "quote": "世界未倒流"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 66,
+          "quote": "第一次真正死亡"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 68,
+          "quote": "重回原事件因果"
+        }
+      ],
+      "guardrail": "具體首死地點和時間仍是候選，不能用這些作者層節點宣告正式曾發生。",
+      "next_action": "建立死前知情、復歸點、外物狀態、返程、旁觀者認知五個獨立欄位。"
+    },
+    {
+      "id": "SRC-171-031",
+      "title": "第051核心已選但曾寫『全段未定』的舊段落須限縮",
+      "status": "AUTHOR_SELECTED_NOT_YET_OCCURRED",
+      "priority": "HIGH",
+      "analysis": "第051前段稱全段未定，末段後出直接更正：甜餅攤初見與母親思念／普通告別的場面核心獲作者採用；章號、地點、票價仍未定，且未發生正式故事。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+          "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+          "line": 259,
+          "quote": "**全段未定 Canon**"
+        },
+        {
+          "source_path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+          "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+          "line": 272,
+          "quote": "之前「全段未定Canon」的選案結論現在失效"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 220,
+          "quote": "尚未寫入正式章節"
+        }
+      ],
+      "guardrail": "採用場面核心不等於採用每一句舊候選正文、車票制度或發生日期。",
+      "next_action": "在查詢中讓後出已選覆蓋早期全段未選的絕對說法；保留未決子項。"
+    },
+    {
+      "id": "SRC-171-032",
+      "title": "『下次見呀』只是自然道別，額外意境不能變成預言",
+      "status": "SUBTEXT_NOT_PROPHECY",
+      "priority": "HIGH",
+      "analysis": "第051後出讀法將女聲普通生活化告別與額外可能的氛圍並存，明確否決用旁白定義為預知必再見。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+          "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+          "line": 263,
+          "quote": "其實下次見呀本身應該是常說的話"
+        },
+        {
+          "source_path": "07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md",
+          "git_blob_sha": "7f34364fd8663651f28503bc9b4c9c8f598b4d21",
+          "line": 265,
+          "quote": "不可再把這句誇張解說為"
+        }
+      ],
+      "guardrail": "對讀者可能產生的餘韻不等於故事世界已發生的未來因果或最高權限預言。",
+      "next_action": "正式場景保留私人目的、動作與含蓄語氣，不用硬性說明註解。"
+    },
+    {
+      "id": "SRC-171-033",
+      "title": "武器第一次可見、實際開槍與獲配套不能一鏡頭合併",
+      "status": "MILESTONE_DECOUPLING",
+      "priority": "MEDIUM",
+      "analysis": "第112把W00初次被看見與W01首次動槍列為不同節點；第134亦警告不要為了名場面臨時送出配套。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 59,
+          "quote": "武器首次被讀者看見"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 60,
+          "quote": "第一次動用原裝槍"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 176,
+          "quote": "此篇不自動發獎"
+        }
+      ],
+      "guardrail": "節點卡是敘事管理，不代表某章或某個首篇必須開槍。",
+      "next_action": "查詢器分別記錄首次展示、首次操作、理解缺件、模組取得。"
+    },
+    {
+      "id": "SRC-171-034",
+      "title": "B的L0→L2工作路線不是跨W或跨K通行證",
+      "status": "MAP_EVIDENCE_STATUS_BOUNDARY",
+      "priority": "HIGH",
+      "analysis": "第112明確指出第113 L0-L2僅為B路線P1候選，尚未被作者採定歸屬；第134提醒S梁可見或承重不能直接推論T實際通車。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 215,
+          "quote": "L0井城→E3/E5→L1北斜承脊→L2雨檐埠"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 227,
+          "quote": "不是使用者已批准兩城歸屬"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 103,
+          "quote": "單一S梁的可見／承重不等於T能走"
+        }
+      ],
+      "guardrail": "同一世界層的測試路線不等於現役跨隔界去返路權。",
+      "next_action": "按每段T交通保留去向、回程、營運、許可與來源，不能由地圖畫線自動補null。"
+    },
+    {
+      "id": "SRC-171-035",
+      "title": "長篇篇章母題不是固定八關、未定必經順序",
+      "status": "NARRATIVE_PLANNING_NOT_CANON_ORDER",
+      "priority": "MEDIUM",
+      "analysis": "第134列八種篇章母題，直接限定不代表八篇正式故事，不強制把靜謐迴廊塞在固定關卡；第133也禁止把候選素材排成已定章回表。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 24,
+          "quote": "不是固定八大關"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 39,
+          "quote": "靜謐迴廊不能為了有「八篇」被硬安排"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 161,
+          "quote": "不能誤寫成"
+        }
+      ],
+      "guardrail": "不可將長篇創作方向直接變成已發生事件目錄、必經戰力升級線或正式篇名。",
+      "next_action": "若後續採案，單獨批准具體篇章並建立跨篇交通與角色因果。"
+    },
+    {
+      "id": "SRC-171-036",
+      "title": "B2的S7人物高潮缺具名同行者與事前生活",
+      "status": "UNRESOLVED_STORY_DESIGN_GATE",
+      "priority": "HIGH",
+      "analysis": "第134自查S6-S7目前仍缺能獨立承擔高潮重量的具名同行人物與生活鋪墊；僅有流程表不能證明劇情已達到強烈讀者興趣。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 134,
+          "quote": "尚未有一名足以獨立支撐高潮的具名同行者"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 181,
+          "quote": "需要一位真有生活的人"
+        }
+      ],
+      "guardrail": "這是設計缺口，不是已定的S7事件或必然存在的新人物。",
+      "next_action": "先設計一段能讓讀者在意其私人代價的候選場景，否則不得把S7標成已過篇章高潮驗收。"
+    },
+    {
+      "id": "SRC-171-037",
+      "title": "B2路圖應在前段局部結案，高潮是實際旅途與選擇",
+      "status": "STORY_CAUSAL_SEQUENCE_NOT_CHAPTER_QUOTA",
+      "priority": "MEDIUM",
+      "analysis": "第134提議先更正與局部處置路圖錯因，再透過出城和分向地景讓人物面對真正去返選擇；九個S0–S8是場次，不是九章。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 106,
+          "quote": "不是九章配額"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 115,
+          "quote": "路圖爭議先得到結案"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 118,
+          "quote": "本篇主視覺候選"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 119,
+          "quote": "人物高潮與景觀高潮同時存在"
+        }
+      ],
+      "guardrail": "這是建議中的B2事件骨架，不能當成已發生章節。",
+      "next_action": "正式試演需優先驗當下閱讀回報，不能只把窗口爭執拖成十章。"
+    },
+    {
+      "id": "SRC-171-038",
+      "title": "篇章記憶依人物、生活、名場面、後果一起累積",
+      "status": "READER_EXPERIENCE_QUALITY_CRITERION",
+      "priority": "MEDIUM",
+      "analysis": "第133明示名場面不可被日常記憶概念沖淡，也反對固定每章配額；中型篇章要有相稱完成感，不靠全書登頂才得到回報。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 26,
+          "quote": "名場面也很重要"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 35,
+          "quote": "不能只追"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 122,
+          "quote": "2,000～3,000字短章"
+        }
+      ],
+      "guardrail": "敘事品質方法不等於世界內物理設定或全體角色固定成長模板。",
+      "next_action": "用可觀測的角色後果與完整場景驗收，不靠對話後自評『有名場面』。"
+    },
+    {
+      "id": "SRC-171-039",
+      "title": "外部《異常大舞台》篇章記憶只能作使用者讀後資料",
+      "status": "SECOND_HAND_REFERENCE_NOT_VERIFIED_ORIGINAL",
+      "priority": "MEDIUM",
+      "analysis": "第133保存的是使用者印象與對其他作品的二手討論案例，明確不是原著目錄或原文逐字核證。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 39,
+          "quote": "不是本輪對原著正式目錄的查證"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+          "git_blob_sha": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+          "line": 87,
+          "quote": "使用者提供的二手討論案例"
+        }
+      ],
+      "guardrail": "不能將他作故事啟發的例子誤寫成已從外部原著確認的精準事實。",
+      "next_action": "引用外部作品時應標二手與待查證，能用的是人物反應與記憶建構的技巧。"
+    },
+    {
+      "id": "SRC-171-040",
+      "title": "《倒行潮》是可獨立收束的地方篇而非宇宙陰謀",
+      "status": "LOCAL_ARC_SELF_CONTAINMENT_CANDIDATE",
+      "priority": "MEDIUM",
+      "analysis": "第034建議以工程分流、地方承包責任與現實損失形成一次可以結案的事件，明確禁止主角自動正義或強行接宇宙終極幕後。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+          "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+          "line": 90,
+          "quote": "不寫成進城見人受傷就自動正義熱血發作"
+        },
+        {
+          "source_path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+          "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+          "line": 104,
+          "quote": "必須承擔某筆實際費用"
+        },
+        {
+          "source_path": "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
+          "git_blob_sha": "6788b82b73707b17140a1ea014fea7215dd0c465",
+          "line": 145,
+          "quote": "把地方事故無限延長成宇宙終極幕後"
+        }
+      ],
+      "guardrail": "此具體城市與事件仍屬助手候選，不等於全世界禁止長線黑幕。",
+      "next_action": "作為地方篇評估候選，保留其他政治或冒險類篇章選擇。"
+    },
+    {
+      "id": "SRC-171-041",
+      "title": "B2雙主角各自目的不得被唐榆與游洵搶走",
+      "status": "CHARACTER_AGENCY_AND_ENSEMBLE",
+      "priority": "MEDIUM",
+      "analysis": "第134列出諾亞旅行、艾莉維亞研究、唐榆回歸和游洵履責的不同欲望；第110仍提醒唐榆游洵太搶眼的風險。",
+      "authority": "HISTORICAL_TEXT_OR_AUTHOR_FEEDBACK_INTERPRETATION__NOT_CANON_PROMOTION",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 92,
+          "quote": "不是義務拯救所有乘客"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 93,
+          "quote": "不是諾亞的導遊"
+        },
+        {
+          "source_path": "06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+          "git_blob_sha": "9e277db8149c95714859a3a7648f3dd524180027",
+          "line": 94,
+          "quote": "不是所有返程路的現任活地圖"
+        },
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 644,
+          "quote": "唐榆與游洵很容易比兩主角更搶眼"
+        }
+      ],
+      "guardrail": "有群像厚度不表示配角必定掩蓋主角，也不能簡單砍配角以恢復戲份。",
+      "next_action": "試寫時讓雙主角也做有代價的獨立選擇，地方人物同時保有人生。"
+    }
+  ],
+  "coverage_limitation": "新增細粒度檢索證據，但沒有量測任一來源的全文語義完成度；不得自動從171個全文待審扣減，也不得把此前已採未發生的第051當正式發生。"
+}
