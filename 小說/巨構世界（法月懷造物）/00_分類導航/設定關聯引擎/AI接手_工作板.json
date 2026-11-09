@@ -87,9 +87,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "No all-source fulfillment; continue batch-by-batch",
-        "stage": "BATCH8_STAGED_PENDING_CI",
-        "last_verified_commit": "3027b476d85e29ac8f6fba4bfc82a39a4b26f91e",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42597609809",
+        "stage": "BATCH8_CI_VERIFIED",
+        "last_verified_commit": "5b394c340b1aa0a735435e52b8b2315b04495a81",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42602270803",
         "cross_source_next_batch": [
           "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
           "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
@@ -102,7 +102,13 @@
         "last_batch_full_lines": 2482,
         "last_batch_sections": 61,
         "last_batch_new_claims": 22,
-        "last_batch_new_anchors": 85
+        "last_batch_new_anchors": 85,
+        "next_batch": [
+          "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "05_場景視覺與參考/079_原文保存_異常大舞台故事魅力與推進分析_使用者轉貼.md",
+          "05_場景視覺與參考/080_原文保存_外部回評_劇情引擎與九問建議_使用者轉貼.md"
+        ]
       }
     },
     {
@@ -132,8 +138,10 @@
       "progress": {
         "last_completed_batch": "第六批定向仲裁14項、36錨點，171清冊中5份來源被定向核對",
         "full_file_semantic_reviews_completed_from_this_batch": 0,
-        "full_file_semantic_reviews_pending": 171,
-        "verification_status": "PENDING_CI_AT_STAGE__CONFIRM_AFTER_PUSH"
+        "full_file_semantic_reviews_pending": 167,
+        "verification_status": "PENDING_CI_AT_STAGE__CONFIRM_AFTER_PUSH",
+        "historical_171_reviewed": 4,
+        "comment": "NEXT-001是171歷史子集合，真正全庫主線為NEXT-009"
       }
     },
     {
@@ -370,6 +378,12 @@
   ],
   "last_delivered_work": [
     {
+      "commit": "5b394c340b1aa0a735435e52b8b2315b04495a81",
+      "work": "第八批原164/171混合整檔驗收4份2482行61區段；新增22項命題85處原文SHA行錨點、VER-015/016、74關聯；全庫6/335驗收329未完。",
+      "verification": "https://github.com/Secileya/Novel/actions/runs/42602270803 (success)",
+      "status": "DONE__BATCH8_CI_VERIFIED__NOT_ALL_SOURCES_COMPLETE"
+    },
+    {
       "commit": "3027b476d85e29ac8f6fba4bfc82a39a4b26f91e",
       "work": "新增來源自動入隊、來源SHA變更與後出權威SHA變更撤銷整檔完成狀態的合成反向測試實際成功；已驗收仍2/335、未驗收333，無法用測試數量冒充整檔完成數。",
       "verification": "https://github.com/Secileya/Novel/actions/runs/42597609809 success",
@@ -439,10 +453,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH8_FOUR_FULL_FILES_STAGED_PENDING_ACTUAL_CI",
-    "scope": "混合原164與171來源做第八批4份完整逐段編輯性審核，共2482行61無缺漏區段、22條新細粒度語義判讀與85證據錨點、兩條版本決策與74條範圍性圖譜連線。總6/335來源有完整AI編輯性證書，329份仍待。",
-    "not_finished": "329/335仍待嚴格整檔驗收；外作小說轉貼未獨立查原著，335全部來源與完整生態交通依賴網尚未全量回接；正式章0章、PREWRITE HOLD。",
-    "next_step": "先確認第八批CI SHA/行號、6份完成證書及反向圖查詢全部通過；下一批讀第105詞庫/第107外貌死亡負荷、第079/080外部作品轉貼並對照作者修正。新增設定則自動入全體待辦，不能永遠報335。"
+    "stage": "S6_BATCH8_FOUR_FULL_FILES_CI_VERIFIED",
+    "scope": "混合歷史164／171來源逐檔審核4份：03_104(401行15段)、03_106(326行13段)、05_083(1016行19段)、06_084(739行14段)；合計2482行61區段，新增22細粒度來源命題與85處Git SHA/原文行證據、VER-015/016兩個版本節點、74條非Canon的領域圖關聯。全庫6/335整檔編輯性完成，329份尚待。",
+    "commit": "5b394c340b1aa0a735435e52b8b2315b04495a81",
+    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42602270803",
+    "ci_result": "success",
+    "not_finished": "335份中尚有329份無完整AI編輯性整檔驗收證據（歷史164剩162，歷史171剩167）。外部《異常大舞台》情節只核對Git保存的二手轉貼，不是獨立原作全文考證；全體335份實體/人物/社會/地理/版本/生態/跨層依賴尚未完整回接，正式小說仍0章/PREWRITE HOLD。",
+    "next_step": "NEXT-009：先查最新Git動態來源，優先混合讀03_105詞庫、03_107雙向外貌與深藍聖堂、05_079及05_080的外部轉貼，讀相關作者後修；逐檔全段審核與適用實體/版本/依賴圖回接，真正符合標準才讓329減少。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
