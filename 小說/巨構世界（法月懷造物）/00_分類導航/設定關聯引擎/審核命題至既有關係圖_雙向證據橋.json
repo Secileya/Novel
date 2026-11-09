@@ -4,9 +4,9 @@
   "repository": "Secileya/Novel",
   "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
   "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
-  "audit_record_count": 456,
-  "mapped_review_count": 456,
-  "links_count": 970,
+  "audit_record_count": 557,
+  "mapped_review_count": 557,
+  "links_count": 1172,
   "unmapped_review_ids": [],
   "no_new_canon_or_hard_dependency_edges": true,
   "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
@@ -12214,6 +12214,2632 @@
         "line": 25
       },
       "guardrail": "Topical cross-reference to a pre-existing graph entity, no new world fact or Canon confirmation."
+    },
+    {
+      "audit_id": "SRC-ALL-457",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "使用者要求雙主角等量完整前史和真武裝，但具體過去仍是助手候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-457-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-457-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 5
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-458",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "週期交通與特別遠征可並存，不可把全部世界當單一路線",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-458-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-458-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 9
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-459",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "游洵特殊外側勘查團及同伴私生活只是B2候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-459-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-459-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 20
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-460",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "出生地家族與已學能力未知，不能用悲劇與天選全部填空",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-460-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-460-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 28
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-461",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "諾亞青鉚埠故鄉、工作和原槍拆庫分份取得均屬備選人生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-461-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-461-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 40
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-462",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "艾莉維亞岔光庭、研究工坊與失誤責任形成獨立候選人生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-462-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-462-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 52
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-463",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "雙主角對照表完整但未定故鄉、年歲與錢等具體答案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-463-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-463-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 76
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-464",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "原槍功能族A-H尚候選，八族不等於八個必掉模組",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-464-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-464-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 93
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-465",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "艾莉維亞主刃與標定環自有工坊來源和實戰不依賴男主",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-465-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-465-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 99
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-466",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "艾莉維亞可能借槍但復歸權與槍再分離均未決",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-466-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-466-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 118
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-467",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "人物故事伏筆與道具物權要先有作者層因果，甜餅第三個座位仍未發生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-467-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-467-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 137
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-468",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "兩位主角各有真實戰鬥和地方生活，不能全依男主升級",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-468-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-468-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 143
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-469",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "已定是相遇、頂層願望、復歸差異；新家鄉武器與路線仍待選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-469-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-469-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 153
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-470",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "136/137後出原圖與白髮方案均不因135候選變成Canon",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-470-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-470-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 160
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-471",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "借原作探索感不是照搬詛咒或全世界往上朝聖",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-471-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-471-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 11
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-472",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "游洵特殊勘查地點暫名不能成地理定點",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-472-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-472-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 17
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-473",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "B2還缺一位真正獨立有生活的遠征隊員",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-473-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-473-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 21
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-474",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "諾亞登頂願望可以源於純真旅行好奇",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-474-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-474-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 36
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-475",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "原槍整備庫分份取得是具有社會契約的候選故事",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-475-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-475-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 40
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-476",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "艾莉維亞岔光庭親友工作是獨立候選非真出生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-476-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-476-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 46
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-477",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "常態高階力量並非遇諾亞才覺醒",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-477-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-477-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 48
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-478",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "她的早期驗證失誤不能當已發生工作事故",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-478-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-478-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 52
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-479",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "女主原本就想見真正最高世界層",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-479-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-479-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 56
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-480",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "第57續斷名稱原理及模組全部尚未正式採用",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-480-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-480-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 80
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-481",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "武器八族不是八顆固定道具",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-481-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-481-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 93
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-482",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "界楔主刃與標定環擬有真重量和維修來源",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-482-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-482-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 101
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-483",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "女方常態規則不能全靠現成男方武器",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-483-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-483-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 103
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-484",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "借槍時諾亞死亡是否即刻召回仍未知",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-484-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-484-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 120
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-485",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "槍跟復歸已定但具體機理尚未定",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-485-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-485-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 136
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-486",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "借槍與家庭方案不因成稿自動採用",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-486-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-486-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md",
+        "git_blob_sha": "835b60d2749eaef8dc1d823408a50fe0983a9d4e",
+        "line": 153
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-487",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "S0到S5成長設計屬可更改候選，不是時序Canon",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-487-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-487-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 2
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-488",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "普通磨練、新能力與靜謐質變要有可看見的差異",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-488-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-488-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 5
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-489",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "雙主角S0至S5各已強並有獨立正常成長與靜謐獎勵",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-489-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-489-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 15
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-490",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "五類工作與挑戰應由真社會生活和裝備來源形成",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-490-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-490-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 18
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-491",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "第57 C貫行與主樞核不可重複領同一火力提升",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-491-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-491-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 21
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-492",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "同一敵人前後對照且白髮不能靠削弱常態凸顯",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-492-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-492-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 24
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-493",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "S0艾莉維亞的常態作用配重若採35則早已會用",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-493-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-493-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 10
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-494",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "原裝鉤鎖刀具與女方維修工坊是候選成長，不當已發生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-494-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-494-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 12
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-495",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "靜謐前兩人都須有成熟但不全能的實戰實績",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-495-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-495-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 14
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-496",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "完整C與主執行樞核重疊時需另行時序決策",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-496-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-496-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+        "git_blob_sha": "cf3215452deb9fb1175983d457a9aebef2fccdb5",
+        "line": 21
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-497",
+      "reviewed_status": "PRIOR_AUTHOR_CORRECTION",
+      "summary": "研究測試的作者禁則：不特製敵人、不讓首次遭遇就全懂",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-497-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-497-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 3
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-498",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "S4常態已強與S5白髮必須出現真新增作用類型",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-498-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-498-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 7
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-499",
+      "reviewed_status": "PRIOR_AUTHOR_CORRECTION",
+      "summary": "正常高階護送機械作同一敵方測試，不能偷換防禦",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-499-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-499-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 17
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-500",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "無接口工程白髮候選要與常態科技作同規格比較",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-500-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-500-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 25
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-501",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "成熟高階單位可用既有裝備應對未知白髮，不等於精準破譯",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-501-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-501-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 33
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-502",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "原槍主樞核持續施行與第57 C/F功能族不能重複",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-502-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-502-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 38
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-503",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "三類測試只有部分可行，未定機制與上限",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-503-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-503-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 49
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-504",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "142/143後出突破與原槍研究仍是研究候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-504-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-504-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 52
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-505",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "常態早有真作用調節和自行科技建立接口能力",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-505-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-505-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 6
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-506",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "第一次高階敵人不會直接知道白髮理論名稱與全部限制",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-506-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-506-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 8
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-507",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "敵人需先在世界裡為商會護送貨物而存在",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-507-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-507-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 13
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-508",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "若常態可直接打贏敵人無須硬變白髮",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-508-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-508-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 15
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-509",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "若內部負荷本就在常態承載鏈則不能算新交互",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-509-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-509-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 19
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-510",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "正常工程可以搭橋、搬運或用高科技不可貶低",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-510-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-510-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 23
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-511",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "相同準備／負荷下常態可做到即非本次質變證據",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-511-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-511-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 27
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-512",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "真正敵人武裝與文化不能專為白髮預造",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-512-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-512-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 31
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-513",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "白髮有真失敗可能，仍可以換現有主刃與戰技",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-513-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-513-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 35
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-514",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "第57 C單次貫行與持續局部系統執行要另分權限",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-514-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-514-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 40
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-515",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "能力是否本質新還需進一步可推翻反例",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-515-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-515-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+        "git_blob_sha": "1bb381af8f064816aac4190613f4d1459d56959f",
+        "line": 49
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-516",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "白髮多案全為助手大膽候選，沒有使用者選定",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-516-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-516-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 3
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-517",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "前版只擴空間參照或穿甲無法單獨證明質變",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-517-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-517-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 6
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-518",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "A新作用、B自身原界、C結果編成為競爭方案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-518-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-518-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 15
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-519",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "光與明暗可作新真作用入口但不免費提供力量",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-519-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-519-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 21
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-520",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "力量負荷與可辨現象都須成立，沒有隨意三分鐘冷卻",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-520-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-520-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 25
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-521",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "自然存在敵人首次見白髮不會瞬間精準破解",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-521-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-521-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 29
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-522",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "常態同規格若可做、只有硬光、無限負荷均可否決方案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-522-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-522-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 36
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-523",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "諾亞槍與女主新相互作用能協同但雙方各自強大",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-523-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-523-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 39
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-524",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "後出144-148神情與危機仍是候選及限制",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-524-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-524-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 45
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-525",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "A作用新述讓真光可以成為受力接口僅是候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-525-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-525-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 11
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-526",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "B自身原界不等於只是不需GPS",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-526-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-526-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 12
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-527",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "C結果編成過近常態配重所以優先低",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-527-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-527-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 13
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-528",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "普通光本質不是免費硬光平台",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-528-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-528-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 18
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-529",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "明暗界線切割需由艾莉維亞真正供能",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-529-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-529-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 20
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-530",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "巨構級承載仍需要真功率與材料承載",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-530-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-530-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 25
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-531",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "首次未知高階敵人有獨立武裝文化不會秒懂",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-531-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-531-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 29
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-532",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "常態同代價實作反例會否定特殊突破證據",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-532-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-532-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 32
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-533",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "白髮絕不變成第二人格或我去高頻公式",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-533-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-533-02",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+        "git_blob_sha": "cc0c08680bb7e144721dfae517b3ebbd8ba438ec",
+        "line": 36
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-534",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "主執行樞核純候選，未選正式原槍型號",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-534-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-534-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 2
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-535",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "與C一次攻擊火力F供能差別：持續局部運作系統施行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-535-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-535-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 7
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-536",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "A持續B展幅C局部作戰域仍互相競爭及有限條件",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-536-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-536-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 11
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-537",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "艦艇對照只展示已證局部運作鏈續打，不是全宇宙遠攻",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-537-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-537-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 15
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-538",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "諾亞主樞核和維亞白髮各能獨立高階攻殺與工程",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-538-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-538-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 18
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-539",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "後出白髮情緒與換位危機只是可用試演候選",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-539-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-539-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 24
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-540",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "第57 C單次貫行與F原生供能本身早已是候選，不能重複取名",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-540-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-540-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 5
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-541",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "A持續執行程序要確知局部運行鏈",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-541-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-541-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 10
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-542",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "C局部作戰域很容易重複多址功能需慎重",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-542-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-542-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 12
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-543",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "大型艦艇仍需目標辨識與實際供能",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-543-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-543-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 15
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-544",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "C/F完整狀態與武器失落後復歸仍待核",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-544-01",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-544-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
+        "git_blob_sha": "2530a783654477cb71ad89425071470015a12890",
+        "line": 20
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-545",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "五組聊天場面是可追溯場景摘要非五篇逐字全文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-545-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-545-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 3
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-546",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "S1白髮戲謔愉悅，但重要初演不能直接跳過變色",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-546-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-546-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 6
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-547",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "S2在靜謐解鎖後公開可見深青藍變白髮仍是候選演出",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-547-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-547-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 10
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-548",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "S3諾亞受創時維亞可冰冷有殺意卻需先防護救治",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-548-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-548-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 14
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-549",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "S4其他極端可癲狂大笑，但不自動失智或必然觸發",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-549-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-549-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 18
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-550",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "S5雙主角位置互換及諾亞復歸差異都屬未採情緒測試",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-550-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-550-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 22
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-551",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "五版可能相互替代，不能當成已發生五場戰役",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-551-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-551-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 26
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-552",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "S1首鏡即白髮是重要第一次演出的不足，不表示所有後期場景不准白髮入鏡",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-552-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-552-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 7
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-553",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "貨港試演一定在靜謐解鎖以後而非初次解鎖白髮",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-553-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-553-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 11
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-554",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "使用者允許白髮真冷與殺意但非每場固定表情",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-554-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-554-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 15
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-555",
+      "reviewed_status": "SCOPED_AUTHOR_DIRECTION_ALREADY_RECORDED",
+      "summary": "癲狂大笑不是必定對所有威脅出現",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-555-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-555-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 19
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-556",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "她不會回來的只是諾亞主觀恐懼，不能否定其他療法",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-556-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-556-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 23
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
+    },
+    {
+      "audit_id": "SRC-ALL-557",
+      "reviewed_status": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "summary": "五組候選不是五場正史，後出修正不等於早案全部作廢",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-557-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-557-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
+        "git_blob_sha": "91b2261cdcfc28dc93818c7f8fe5673bbf153f4f",
+        "line": 26
+      },
+      "guardrail": "Provisional topical navigation only; no new demonstrated real-world state or author-adopted character ability."
     }
   ]
 }

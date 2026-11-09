@@ -95,6 +95,10 @@ jobs:
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/檢查候選正文語氣庫參考.mjs'
       - name: Voice corpus is optional and source changes require renewed receipt
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/檢查候選正文語氣庫參考.mjs' --check --self-test
+      - name: Batch13 source evidence syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十三批來源錨點.mjs'
+      - name: Batch13 original source SHA and corrupt-proof regression
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十三批來源錨點.mjs' --negative-test
       - name: Scoped audit-to-domain graph bridge syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證審核至既有關係圖_證據橋.mjs'
       - name: All audited claims mapped to existing domain IDs without authority promotion

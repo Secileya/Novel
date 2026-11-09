@@ -25,16 +25,16 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第十二批六份原文1237行、85段、139項來源命題、139處SHA／行號證據、278非Canon連線；全庫28/335、307待審。",
-    "targeted_audit_records": 456,
-    "targeted_audit_verified_quotes": 647,
-    "full_file_editorial_accepted": 14,
-    "full_file_editorial_remaining": 157,
+    "important": "第13批6份344行，50段，101命題／原文行號證據，202條非Canon圖邊；累計34／335，301待審。語氣庫另外建立可測但不強迫說詞的真寫作查閱流程。",
+    "targeted_audit_records": 557,
+    "targeted_audit_verified_quotes": 748,
+    "full_file_editorial_accepted": 15,
+    "full_file_editorial_remaining": 156,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 28,
-    "all_source_full_file_editorial_remaining": 307,
-    "historical_164_full_file_acceptance": 14,
-    "historical_171_full_file_acceptance": 14,
+    "all_source_full_file_editorial_accepted": 34,
+    "all_source_full_file_editorial_remaining": 301,
+    "historical_164_full_file_acceptance": 19,
+    "historical_171_full_file_acceptance": 15,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -68,7 +68,7 @@
         "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
         "00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json"
       ],
-      "first_action": "使用動態全庫清單查下一批143、148、135三個來源SHA與後修關係，按行數增加其他同題短檔，逐檔全文V2才驗收；本批12份已通過Actions，勿重算。",
+      "first_action": "Check live HEAD/CI then run live remaining-source planner (the suggested 150 path is provisional; resolve actual repository path first).",
       "acceptance": [
         "每個Git提交樹中的來源都有唯一、動態可計數的狀態；原335及未來新增均涵蓋，accepted+pending=live total。",
         "每份達成相同實質完整標準：所有段落、原始來源/轉貼分界、作者後修、權威/強度/發生進度、所有有效版本與未決事項。",
@@ -80,8 +80,8 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 28,
-        "pending": 307,
+        "verified_complete": 34,
+        "pending": 301,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -98,17 +98,15 @@
           "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
           "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md"
         ],
-        "historical_164_accepted": 14,
-        "historical_171_accepted": 14,
-        "last_batch_files": "07_139, 03_136, 06_133, 04_137, 03_144, 03_147",
-        "last_batch_full_lines": 1237,
-        "last_batch_sections": 85,
-        "last_batch_new_claims": 139,
-        "last_batch_new_anchors": 139,
+        "historical_164_accepted": 19,
+        "historical_171_accepted": 15,
+        "last_batch_files": "03_135,04_140/141/142/143,07_148",
+        "last_batch_full_lines": 344,
+        "last_batch_sections": 50,
+        "last_batch_new_claims": 101,
+        "last_batch_new_anchors": 101,
         "next_batch": [
-          "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md",
-          "07_候選故事與場景/148_非正史試寫五版索引_白髮戲謔轉換冰冷癲狂與諾亞換位.md",
-          "03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md"
+          "03_人物關係與語感/150_後出適用_艾莉維亞與諾亞角色語氣編輯審核.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -170,6 +168,17 @@
           "total_accepted": 28,
           "total_pending": 307,
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42617738254"
+        },
+        "acceleration_batch_13": {
+          "stage": "S4_S5_CI_PENDING",
+          "files": 6,
+          "source_lines": 344,
+          "sections": 50,
+          "claims": 101,
+          "original_anchor_count": 101,
+          "nonCanon_graph_links": 202,
+          "reviewed_total": 34,
+          "unreviewed_total": 301
         }
       }
     },
@@ -470,13 +479,12 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH11_12_CI_VERIFIED__READY_NEXT",
-    "scope": "Batch11 6 sources 841 lines 77 sections 118 claims; batch12 6 sources 1237 lines 85 sections 139 claims. Both HEAD CI success. Total 28/335 accepted, 307 pending. All author originals unchanged.",
-    "commit": "2a894a6966b6c4b106f2ae8957f935d71c9c5b94",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42617738254",
-    "not_finished": "307 originals still require full-file editorial proof; 14 external reference images preserved as textual analysis only; formal 0 chapters, PREWRITE HOLD.",
-    "next_step": "Next priority: 143 core gun module candidate, 148 fifth scene-variant index, 135 expedition/first-meeting source; expand batch by workload, use v2 acceptance and CI."
+    "stage": "BATCH13_SIX_SOURCE_V2_CI_PENDING",
+    "scope": "135 140 141 142 143 148: 344 lines, 50 sections, 101 anchored claims, 202 non-Canon graph edges; tentative 34/335 after CI. Voice-reference CI separate.",
+    "commit": "VERIFY_MAIN",
+    "ci_result": "PENDING_THIS_COMMIT",
+    "not_finished": "301 originals still not fully reviewed; first 12 chapters candidate only and voice usage receipt cannot verify earlier authoring behavior; PREWRITE HOLD.",
+    "next_step": "Verify current HEAD CI. Prioritize unresolved source backlogs 150+, reading full text and preserving source/authorship and voice-performance boundaries."
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -487,6 +495,7 @@
     "00_分類導航/設定關聯引擎/20261109_第九批六份混合全文_原子命題與v2整檔驗收.json",
     "00_分類導航/設定關聯引擎/20261109_第十批四份_語氣權威與劇情引擎長評析_v2.json",
     "00_分類導航/設定關聯引擎/20261109_第十一批六份_白髮修訂與篇章候選_全文v2語義審核.json",
-    "00_分類導航/設定關聯引擎/20261109_第十二批六份_匿名記憶視覺與升級_全文v2審核.json"
+    "00_分類導航/設定關聯引擎/20261109_第十二批六份_匿名記憶視覺與升級_全文v2審核.json",
+    "00_分類導航/設定關聯引擎/20261109_第十三批六份_前史雙武裝白髮反例與五版試寫_v2.json"
   ]
 }
