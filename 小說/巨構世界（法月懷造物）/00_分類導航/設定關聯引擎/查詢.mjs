@@ -728,6 +728,28 @@ function findFifthAudit(q) {
     warning:"22項第五批首篇版本／作者回饋／局部後修審核；並未證明這14份來源逐檔全文語義已完成，也沒有把A/B/C候選或第051已選未發生升為正式故事進度。"
   };
 }
+function findReviewedSourceImpact(versions,fourthFindings,fifthFindings) {
+  // Conservative one-hop graph only: version↔reviewed claim↔original file.
+  // It produces a re-read checklist, NOT a proof of causal effects or canon promotion.
+  const selected=new Set([...fourthFindings.matched_findings,...fifthFindings.matched_findings].map(a=>a.id));
+  for(const v of versions)for(const id of v.related_audit_ids||[])selected.add(id);
+  const records=[...selected].map(id=>auditedClaimByID.get(id)).filter(Boolean);
+  const linked=versionLedger.records.filter(v=>
+    versions.some(m=>m.id===v.id)||(v.related_audit_ids||[]).some(id=>selected.has(id)));
+  const paths=unique([...records.flatMap(r=>r.evidence.map(e=>e.source_path)),
+    ...linked.flatMap(v=>v.source_paths||[])]);
+  return {
+    reviewed_records_in_repository:auditedClaimByID.size,
+    matched_reviewed_records:records.map(r=>({id:r.id,title:r.title,status:r.status,
+      recheck_action:r.next_action,source_evidence:r.evidence.map(e=>({
+        path:e.source_path,line:e.line,git_blob_sha:e.git_blob_sha}))})),
+    related_version_decisions:linked.map(v=>({id:v.id,subject:v.subject,decision_type:v.decision_type,
+      still_open:v.still_open,related_audit_ids:v.related_audit_ids||[]})),
+    suggested_source_paths_to_reread:paths.slice(0,80),
+    complete_source_path_count:paths.length,
+    warning:"僅按已登記的版本—審核—來源一跳關係提供回讀範圍；不代表已讀完所有來源、沒有漏項、候選已定案，亦非任何事件必然產生的因果影響。"
+  };
+}
 function query(q, corpus) {
   if (!q || !q.trim()) throw Error("Need --query or positional query text");
   const ids = identify(q);
@@ -748,6 +770,7 @@ function query(q, corpus) {
   const historicalDiffs = findHistoricalVersionLineDiffs(q,sourceRoles);
   const fourthFindings = findFourthAudit(q);
   const fifthFindings = findFifthAudit(q);
+  const reviewedImpact=findReviewedSourceImpact(versions,fourthFindings,fifthFindings);
   const claims = graph.claims.filter(r=>{
     const entityMatch = (r.subjects || []).some(id=>ids.expanded.includes(id));
     const hits = ruleTriggers(r,q);
@@ -791,6 +814,7 @@ function query(q, corpus) {
     ...historicalDiffs.matching_compared_pairs.flatMap(x=>[x.from_source,x.to_source]),
     ...fourthFindings.matched_findings.flatMap(x=>x.evidence.map(e=>e.source_path)),
     ...fifthFindings.matched_findings.flatMap(x=>x.evidence.map(e=>e.source_path)),
+    ...reviewedImpact.suggested_source_paths_to_reread,
     ...impact.possible_two_link_paths.flatMap(p=>p.sources||[]),
     ...(zones.count?[...creativity.map_versions.primary.source_paths,
                     ...creativity.map_versions.legacy.source_paths]:[]),
@@ -827,6 +851,7 @@ function query(q, corpus) {
     character_and_organization_graph:people, cross_world_ecology_civilization_links:cross,
     candidate_two_hop_impact_paths:impact,
     version_decisions:versionFindings,
+    reviewed_source_impact_and_recheck:reviewedImpact,
     unified_semantic_audit_graph:{reviewed_findings:auditedClaimByID.size,verified_original_quotes:fourthAudit.evidence_count+fifthAudit.original_anchors_count,
       linked_versions:versionLedger.records.filter(v=>(v.related_audit_ids||[]).length>0).map(v=>({id:v.id,related_audit_ids:v.related_audit_ids})),
       warning:"既有版本決策可取回第四／五批原文SHA、行號及候選狀態；並非171份全文仲裁，也非Canon採案。"},
@@ -973,6 +998,10 @@ function selfTest(corpus) {
   const reviewedOpen=query("B案 初遇 讀者回饋",corpus);
   assert(reviewedOpen.version_compatibility_ledger.some(x=>x.id==="VER-011"&&
     x.linked_verified_audits.some(a=>a.id==="SRC-171-020")));
+  assert(reviewedOpen.reviewed_source_impact_and_recheck.matched_reviewed_records.some(x=>x.id==="SRC-171-020"));
+  assert(reviewedOpen.reviewed_source_impact_and_recheck.related_version_decisions.some(x=>x.id==="VER-011"));
+  assert(reviewedOpen.reviewed_source_impact_and_recheck.suggested_source_paths_to_reread.some(p=>p.includes("111_雙開篇連續試演")));
+  assert.equal(reviewedOpen.reviewed_source_impact_and_recheck.reviewed_records_in_repository,41);
   const reviewedChapters=query("G9B G10 第七章 第八章",corpus);
   assert(reviewedChapters.version_compatibility_ledger.some(x=>x.id==="VER-012"&&
     x.linked_verified_audits.some(a=>a.id==="SRC-171-009")));
