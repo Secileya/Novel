@@ -20,20 +20,20 @@
     "source_excerpt_sections": 1597,
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
-    "version_decision_nodes": 14,
+    "version_decision_nodes": 16,
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-09初始全域真值：335份原始來源，164舊細粒度引用但無整檔完成證明、171用途卡中2份編輯性整檔驗收，故全體已可驗收2、尚餘333。68為定向命題、188為原文錨點、164條只是68命題回接原圖的範圍證據邊。新檔須動態計入分母，既有164不能漏審。",
-    "targeted_audit_records": 68,
-    "targeted_audit_verified_quotes": 188,
-    "full_file_editorial_accepted": 2,
-    "full_file_editorial_remaining": 169,
+    "important": "第八批跨164/171實讀四份：401+326+1016+739=2482行、15+13+19+14=61全覆蓋區段，新增22項語義判讀/85處行錨點；全庫6/335完整驗收、329待審。總90判讀273錨點/16版本節點/238條原生圖相關性連結（非確定因果）。",
+    "targeted_audit_records": 90,
+    "targeted_audit_verified_quotes": 273,
+    "full_file_editorial_accepted": 4,
+    "full_file_editorial_remaining": 167,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 2,
-    "all_source_full_file_editorial_remaining": 333,
-    "historical_164_full_file_acceptance": 0,
-    "historical_171_full_file_acceptance": 2,
+    "all_source_full_file_editorial_accepted": 6,
+    "all_source_full_file_editorial_remaining": 329,
+    "historical_164_full_file_acceptance": 2,
+    "historical_171_full_file_acceptance": 4,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -78,8 +78,8 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 2,
-        "pending": 333,
+        "verified_complete": 6,
+        "pending": 329,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -87,7 +87,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "No all-source fulfillment; continue batch-by-batch",
-        "stage": "ALL_335_PLUS_FUTURE_GLOBAL_INTAKE_CI_VERIFIED",
+        "stage": "BATCH8_STAGED_PENDING_CI",
         "last_verified_commit": "3027b476d85e29ac8f6fba4bfc82a39a4b26f91e",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42597609809",
         "cross_source_next_batch": [
@@ -95,7 +95,14 @@
           "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
           "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
           "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md"
-        ]
+        ],
+        "historical_164_accepted": 2,
+        "historical_171_accepted": 4,
+        "last_batch_files": "03_104,03_106,05_083,06_084",
+        "last_batch_full_lines": 2482,
+        "last_batch_sections": 61,
+        "last_batch_new_claims": 22,
+        "last_batch_new_anchors": 85
       }
     },
     {
@@ -432,18 +439,16 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "ALL_335_PLUS_FUTURE_SOURCE_UNIVERSE_AND_164_REFERENCE_COHORT_IN_SCOPE__CI_VERIFIED",
-    "scope": "335原始來源統一完整語義/版本/人物社會生態/子單元/跨層關聯回接目標。原164僅既有細粒度引用，尚無整檔驗收；原171有2份整檔驗收。全庫2/335可證、333未驗收。動態掃描目前Git source含未來新增檔自動入分母，且新增來源、改原稿SHA、改後出權威來源SHA各有模擬退回測試。 已由CI實際驗證『模擬新增來源自動入待審、原始來源SHA異動撤銷已完成、後出權威來源SHA異動撤銷受影響完成證書』三類反例；本輪未增加任何整檔驗收來源。",
-    "commit": "3027b476d85e29ac8f6fba4bfc82a39a4b26f91e",
-    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42597609809",
-    "ci_result": "success",
-    "not_finished": "333份當前來源仍無整檔完成證據（164歷史細粒度引用+169歷史用途卡）。全面原生圖連線尚未完成；68條定向命題已接164條範圍關聯，但不能換算成335份全圖回接。未來新檔需逐個實際讀；二進位視覺媒體完整驗收尚需專用程序。",
-    "next_step": "NEXT-009：用全量來源_動態納管與驗收.mjs --next先查新檔/失效；混合閱讀05_083、06_084及03_104、03_106等原164／171同題文件，逐段、後修及來源權威核定，條件成立才寫入完成證書並把333扣除。若有新設定，分母隨之增加。"
+    "stage": "BATCH8_FOUR_FULL_FILES_STAGED_PENDING_ACTUAL_CI",
+    "scope": "混合原164與171來源做第八批4份完整逐段編輯性審核，共2482行61無缺漏區段、22條新細粒度語義判讀與85證據錨點、兩條版本決策與74條範圍性圖譜連線。總6/335來源有完整AI編輯性證書，329份仍待。",
+    "not_finished": "329/335仍待嚴格整檔驗收；外作小說轉貼未獨立查原著，335全部來源與完整生態交通依賴網尚未全量回接；正式章0章、PREWRITE HOLD。",
+    "next_step": "先確認第八批CI SHA/行號、6份完成證書及反向圖查詢全部通過；下一批讀第105詞庫/第107外貌死亡負荷、第079/080外部作品轉貼並對照作者修正。新增設定則自動入全體待辦，不能永遠報335。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
     "00_分類導航/設定關聯引擎/20261109_171待深審_第五批首篇版本與敘事權威仲裁.json",
     "00_分類導航/設定關聯引擎/20261109_171待深審_第六批視覺與敘事研究仲裁.json",
-    "00_分類導航/設定關聯引擎/20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json"
+    "00_分類導航/設定關聯引擎/20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json",
+    "00_分類導航/設定關聯引擎/20261109_全庫第八批_164與171混合_外部研究權威與主角互識仲裁.json"
   ]
 }

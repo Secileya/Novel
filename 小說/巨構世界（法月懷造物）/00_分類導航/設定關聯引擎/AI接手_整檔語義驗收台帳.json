@@ -2,8 +2,8 @@
   "schema": "mega-full-file-semantic-acceptance-pilot-v1",
   "date": "2026-11-09",
   "historical_171_role_backlog": 171,
-  "accepted_editorial_file_count": 2,
-  "remaining_for_full_file_semantic_acceptance": 169,
+  "accepted_editorial_file_count": 4,
+  "remaining_for_full_file_semantic_acceptance": 167,
   "acceptance_rule": "Only full, non-overlapping, contiguous 1..source_line_count reviewed sections, correct SHA and original quote, source role and audited claims, explicit checklist and later-revision limits can yield FULL_FILE_EDITORIAL_ATTESTED; any change revokes. Editor acceptance != author Canon.",
   "records": [
     {
@@ -279,7 +279,718 @@
         "第036最新同化B只在作者層判斷模組復歸，不能預先賦予諾亞當時鑑定知識。",
         "G3原本5種社會/工程/物權爭議並非這份文字用詞修補已解決。"
       ]
+    },
+    {
+      "source_path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
+      "git_blob_sha": "0684791518dead99de1b27a48a6f82af91dfbccc",
+      "source_role_id": "FULL-MIXED-A",
+      "related_claim_ids": [
+        "SRC-ALL-081",
+        "SRC-ALL-082",
+        "SRC-ALL-083",
+        "SRC-ALL-084"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第八批來源逐段全檔覆蓋並核對實際後修，只有對Git已保存文獻與分類的編輯性通過，外部原著內容未曾獨立取得全文，不升格小說Canon。",
+      "source_line_count": 401,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 9,
+          "anchor_line": 3,
+          "quote": "二手分析",
+          "meaning": "原作者轉貼的二手口語研究，非原作獨立考證"
+        },
+        {
+          "from": 10,
+          "to": 67,
+          "anchor_line": 11,
+          "quote": "我去",
+          "meaning": "口頭禪反模板及情境語氣表"
+        },
+        {
+          "from": 68,
+          "to": 105,
+          "anchor_line": 72,
+          "quote": "「你丫」",
+          "meaning": "帶惱怒/催促的熟人口語，而非固定稱呼"
+        },
+        {
+          "from": 106,
+          "to": 125,
+          "anchor_line": 108,
+          "quote": "「你小子」",
+          "meaning": "熟人狐疑與觀察心態"
+        },
+        {
+          "from": 126,
+          "to": 155,
+          "anchor_line": 142,
+          "quote": "媽呀",
+          "meaning": "媽呀/媽耶傾向，不是硬文法"
+        },
+        {
+          "from": 156,
+          "to": 193,
+          "anchor_line": 170,
+          "quote": "「臥槽」",
+          "meaning": "我靠、臥槽、我去不同語境"
+        },
+        {
+          "from": 194,
+          "to": 227,
+          "anchor_line": 198,
+          "quote": "專業狀態",
+          "meaning": "專業分析時精準切換，不必塞口頭禪"
+        },
+        {
+          "from": 228,
+          "to": 258,
+          "anchor_line": 242,
+          "quote": "「夠了。」",
+          "meaning": "高情緒重量也可短句安靜"
+        },
+        {
+          "from": 259,
+          "to": 277,
+          "anchor_line": 267,
+          "quote": "「我想讓你幫我",
+          "meaning": "鄭重私人請求與早期少死警示"
+        },
+        {
+          "from": 278,
+          "to": 334,
+          "anchor_line": 280,
+          "quote": "先寫她此刻",
+          "meaning": "意圖優先、口語後選與對話示例"
+        },
+        {
+          "from": 335,
+          "to": 357,
+          "anchor_line": 341,
+          "quote": "先判斷意圖",
+          "meaning": "巨構角色個別人格與非配額詞庫"
+        },
+        {
+          "from": 358,
+          "to": 384,
+          "anchor_line": 383,
+          "quote": "四段都可以零",
+          "meaning": "原創對話示例非正式正文"
+        },
+        {
+          "from": 385,
+          "to": 392,
+          "anchor_line": 387,
+          "quote": "第104份的 A 區",
+          "meaning": "A轉貼與B助手提案分權威、首章初見"
+        },
+        {
+          "from": 393,
+          "to": 396,
+          "anchor_line": 395,
+          "quote": "但你可以把莉雅",
+          "meaning": "C段作者後出許可詞句和聲線變化"
+        },
+        {
+          "from": 397,
+          "to": 401,
+          "anchor_line": 399,
+          "quote": "第132份十二項",
+          "meaning": "D段鏈接第132長篇研究，不建立字數硬規"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+        "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md",
+        "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543"
+        },
+        {
+          "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18"
+        },
+        {
+          "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+        },
+        {
+          "path": "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md",
+          "git_blob_sha": "99ad2435b32f694bbe2953d840c5e0c21b7341e3"
+        },
+        {
+          "path": "05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md",
+          "git_blob_sha": "327616dc2185f825f14cd1860f40719975cabe7d"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-09",
+        "review_scope": "Fully read this exact version of 03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md; external novel claims remain secondary; author later decisions kept separate; evidence linked to new version/graph batches.",
+        "revocation": "If source Git blob SHA, any registered post-correction source SHA or domain graph evidence changes, revalidate."
+      },
+      "remaining_caveats": [
+        "外部《異常大舞台》描述為用戶轉貼的另一助手分析，未獨立證實原作章節／台詞；不可寫成原著確證。",
+        "本文件若描述巨構角色首次相遇、復歸、後期語氣或同行，都不能自動當成已發生的正式章節。",
+        "其他後出來源仍可能有未檢索的新修正，後續增量必須用權威追溯與動態退回檢查。"
+      ]
+    },
+    {
+      "source_path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+      "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+      "source_role_id": "FULL-MIXED-B",
+      "related_claim_ids": [
+        "SRC-ALL-085",
+        "SRC-ALL-086",
+        "SRC-ALL-087",
+        "SRC-ALL-088",
+        "SRC-ALL-089",
+        "SRC-ALL-090"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第八批來源逐段全檔覆蓋並核對實際後修，只有對Git已保存文獻與分類的編輯性通過，外部原著內容未曾獨立取得全文，不升格小說Canon。",
+      "source_line_count": 326,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 8,
+          "anchor_line": 3,
+          "quote": "不冒稱逐字轉存",
+          "meaning": "兩份外部研究的分層轉述，不是原作逐字稿"
+        },
+        {
+          "from": 9,
+          "to": 28,
+          "anchor_line": 21,
+          "quote": "會復歸",
+          "meaning": "拒絕情理/反射/復歸/殉情四套固定配方"
+        },
+        {
+          "from": 29,
+          "to": 59,
+          "anchor_line": 31,
+          "quote": "失蹤",
+          "meaning": "失蹤與求救時雙向身體反射、日常親近"
+        },
+        {
+          "from": 60,
+          "to": 93,
+          "anchor_line": 64,
+          "quote": "盡可能少死",
+          "meaning": "可以回檔但未知成本與共同求生"
+        },
+        {
+          "from": 94,
+          "to": 113,
+          "anchor_line": 108,
+          "quote": "艾莉維亞沒有",
+          "meaning": "本世界042/085/021的能力及人物時序界線"
+        },
+        {
+          "from": 114,
+          "to": 127,
+          "anchor_line": 116,
+          "quote": "初識時真正互救",
+          "meaning": "六種原創候選行為而非已發生"
+        },
+        {
+          "from": 128,
+          "to": 156,
+          "anchor_line": 130,
+          "quote": "字詞層",
+          "meaning": "語言、動作、技術與來源權威區分"
+        },
+        {
+          "from": 157,
+          "to": 191,
+          "anchor_line": 157,
+          "quote": "補強",
+          "meaning": "後增的兩份外部研究逐事件摘要表"
+        },
+        {
+          "from": 192,
+          "to": 253,
+          "anchor_line": 230,
+          "quote": "10.7",
+          "meaning": "十項具體事件的觸發與反應兩拍"
+        },
+        {
+          "from": 254,
+          "to": 278,
+          "anchor_line": 254,
+          "quote": "情緒先行",
+          "meaning": "身體、語調、戰術可同步的表演"
+        },
+        {
+          "from": 279,
+          "to": 292,
+          "anchor_line": 283,
+          "quote": "第一章初見",
+          "meaning": "不同相識時期的合理動作與復歸風險"
+        },
+        {
+          "from": 293,
+          "to": 316,
+          "anchor_line": 308,
+          "quote": "未主張之事",
+          "meaning": "十二項QA及不假裝外作獨立核實"
+        },
+        {
+          "from": 317,
+          "to": 326,
+          "anchor_line": 319,
+          "quote": "23位密碼",
+          "meaning": "第107增補：深藍聖堂精神成本不可套成本世界死次公式"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
+        "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+        "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+        "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
+          "git_blob_sha": "d1359190da901efdc7dde58dfef9fde0b2998c6f"
+        },
+        {
+          "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5"
+        },
+        {
+          "path": "03_人物關係與語感/107_外貌雙向欣賞_深藍聖堂死亡負荷與拒絕過度復歸_詳細研究.md",
+          "git_blob_sha": "8021734febdf23693ab48bdaefbe0b19ed3a1cbf"
+        },
+        {
+          "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        },
+        {
+          "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
+          "git_blob_sha": "7db3042e6c886f27660bbad20ecb7110fd2a1543"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-09",
+        "review_scope": "Fully read this exact version of 03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md; external novel claims remain secondary; author later decisions kept separate; evidence linked to new version/graph batches.",
+        "revocation": "If source Git blob SHA, any registered post-correction source SHA or domain graph evidence changes, revalidate."
+      },
+      "remaining_caveats": [
+        "外部《異常大舞台》描述為用戶轉貼的另一助手分析，未獨立證實原作章節／台詞；不可寫成原著確證。",
+        "本文件若描述巨構角色首次相遇、復歸、後期語氣或同行，都不能自動當成已發生的正式章節。",
+        "其他後出來源仍可能有未檢索的新修正，後續增量必須用權威追溯與動態退回檢查。"
+      ]
+    },
+    {
+      "source_path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+      "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+      "source_role_id": "FULL-MIXED-C",
+      "related_claim_ids": [
+        "SRC-ALL-069",
+        "SRC-ALL-070",
+        "SRC-ALL-071",
+        "SRC-ALL-072",
+        "SRC-ALL-073",
+        "SRC-ALL-074"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第八批來源逐段全檔覆蓋並核對實際後修，只有對Git已保存文獻與分類的編輯性通過，外部原著內容未曾獨立取得全文，不升格小說Canon。",
+      "source_line_count": 1016,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 13,
+          "anchor_line": 3,
+          "quote": "來源分類",
+          "meaning": "使用者轉貼外部另一助手問答，保留初答後修"
+        },
+        {
+          "from": 14,
+          "to": 69,
+          "anchor_line": 45,
+          "quote": "最早能明確確認的能力測試",
+          "meaning": "早期索引不可讀時的舊第26章暫定判斷"
+        },
+        {
+          "from": 70,
+          "to": 140,
+          "anchor_line": 91,
+          "quote": "第205章",
+          "meaning": "外作長期共同戰術及死歸資訊界線"
+        },
+        {
+          "from": 141,
+          "to": 224,
+          "anchor_line": 175,
+          "quote": "這事可以問莉雅",
+          "meaning": "逐漸把對方能力納入個人決策"
+        },
+        {
+          "from": 225,
+          "to": 325,
+          "anchor_line": 318,
+          "quote": "第26章不是兩人第一次",
+          "meaning": "外作初答被後段修正的關鍵位置"
+        },
+        {
+          "from": 326,
+          "to": 373,
+          "anchor_line": 327,
+          "quote": "電腦畫面",
+          "meaning": "初見螢幕、音量與基本信任試探"
+        },
+        {
+          "from": 374,
+          "to": 427,
+          "anchor_line": 383,
+          "quote": "我自己都还在琢磨",
+          "meaning": "魔法師當時的暫時能力限制"
+        },
+        {
+          "from": 428,
+          "to": 457,
+          "anchor_line": 440,
+          "quote": "达成契约关系",
+          "meaning": "臨時房東/房客生活關係，不是立刻搭檔"
+        },
+        {
+          "from": 458,
+          "to": 503,
+          "anchor_line": 493,
+          "quote": "只有方九擁有",
+          "meaning": "外作第一次死亡回檔與獨有記憶"
+        },
+        {
+          "from": 504,
+          "to": 569,
+          "anchor_line": 541,
+          "quote": "正常人根本不可能躲開",
+          "meaning": "莉雅從異常現象發問、理論尚未知"
+        },
+        {
+          "from": 570,
+          "to": 614,
+          "anchor_line": 593,
+          "quote": "放《好漢歌》",
+          "meaning": "未能施法但仍主動幫忙的有限方法"
+        },
+        {
+          "from": 615,
+          "to": 659,
+          "anchor_line": 642,
+          "quote": "「你。」",
+          "meaning": "元素強度觀察有外部專業視角"
+        },
+        {
+          "from": 660,
+          "to": 692,
+          "anchor_line": 663,
+          "quote": "電力轉換成魔力",
+          "meaning": "能源替代使外作第一次施法可實現"
+        },
+        {
+          "from": 693,
+          "to": 740,
+          "anchor_line": 706,
+          "quote": "魔力奔流",
+          "meaning": "能力互相揭露交叉"
+        },
+        {
+          "from": 741,
+          "to": 781,
+          "anchor_line": 762,
+          "quote": "没有魔法痕迹",
+          "meaning": "長時間能力檢測得局部負面結論"
+        },
+        {
+          "from": 782,
+          "to": 853,
+          "anchor_line": 852,
+          "quote": "共同訓練",
+          "meaning": "第26章正式協作新能力訓練"
+        },
+        {
+          "from": 854,
+          "to": 907,
+          "anchor_line": 886,
+          "quote": "因为我觉得你尽可能还是少死",
+          "meaning": "莉雅准應急回檔但反對濫用"
+        },
+        {
+          "from": 908,
+          "to": 970,
+          "anchor_line": 935,
+          "quote": "把我送回家",
+          "meaning": "私人目標因共同能力了解而形成"
+        },
+        {
+          "from": 971,
+          "to": 1016,
+          "anchor_line": 972,
+          "quote": "先看見人",
+          "meaning": "完整七步人物/能力關係回收方法"
+        }
+      ],
+      "latest_revisions_checked": [
+        "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+        "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+          "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        },
+        {
+          "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+          "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece"
+        },
+        {
+          "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5"
+        },
+        {
+          "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-09",
+        "review_scope": "Fully read this exact version of 05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md; external novel claims remain secondary; author later decisions kept separate; evidence linked to new version/graph batches.",
+        "revocation": "If source Git blob SHA, any registered post-correction source SHA or domain graph evidence changes, revalidate."
+      },
+      "remaining_caveats": [
+        "外部《異常大舞台》描述為用戶轉貼的另一助手分析，未獨立證實原作章節／台詞；不可寫成原著確證。",
+        "本文件若描述巨構角色首次相遇、復歸、後期語氣或同行，都不能自動當成已發生的正式章節。",
+        "其他後出來源仍可能有未檢索的新修正，後續增量必須用權威追溯與動態退回檢查。"
+      ]
+    },
+    {
+      "source_path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+      "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+      "source_role_id": "FULL-MIXED-D",
+      "related_claim_ids": [
+        "SRC-ALL-075",
+        "SRC-ALL-076",
+        "SRC-ALL-077",
+        "SRC-ALL-078",
+        "SRC-ALL-079",
+        "SRC-ALL-080"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第八批來源逐段全檔覆蓋並核對實際後修，只有對Git已保存文獻與分類的編輯性通過，外部原著內容未曾獨立取得全文，不升格小說Canon。",
+      "source_line_count": 739,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 22,
+          "anchor_line": 3,
+          "quote": "完整長回應",
+          "meaning": "第84助手對第83的完整分析，不是原作原文"
+        },
+        {
+          "from": 23,
+          "to": 70,
+          "anchor_line": 53,
+          "quote": "人物感先於能力感",
+          "meaning": "人物初見與日常小事優先於技能介紹"
+        },
+        {
+          "from": 71,
+          "to": 124,
+          "anchor_line": 101,
+          "quote": "高的空間與幾何技藝",
+          "meaning": "高階女主已強，初遇知識仍有限"
+        },
+        {
+          "from": 125,
+          "to": 206,
+          "anchor_line": 155,
+          "quote": "能力理解的交互循環",
+          "meaning": "能力互觀與產生新假說"
+        },
+        {
+          "from": 207,
+          "to": 244,
+          "anchor_line": 207,
+          "quote": "交互作用",
+          "meaning": "兩位獨立能力者的願望互相影響"
+        },
+        {
+          "from": 245,
+          "to": 298,
+          "anchor_line": 269,
+          "quote": "她明明幫不上什麼忙",
+          "meaning": "有意願與能做多少不同"
+        },
+        {
+          "from": 299,
+          "to": 363,
+          "anchor_line": 319,
+          "quote": "世界的時間倒回去",
+          "meaning": "方九回檔和諾亞非回溯復歸分離"
+        },
+        {
+          "from": 364,
+          "to": 415,
+          "anchor_line": 376,
+          "quote": "尽可能还是少死",
+          "meaning": "能復歸不代表無成本或不被在乎"
+        },
+        {
+          "from": 416,
+          "to": 471,
+          "anchor_line": 416,
+          "quote": "我要幫妳回家",
+          "meaning": "能力線與私人願望的因果互相形成"
+        },
+        {
+          "from": 472,
+          "to": 555,
+          "anchor_line": 528,
+          "quote": "第一次真正的共同決定",
+          "meaning": "初遇後的短程共同目標須有理由"
+        },
+        {
+          "from": 556,
+          "to": 593,
+          "anchor_line": 580,
+          "quote": "能力成熟，不等於關係成熟",
+          "meaning": "關係理解逐段積累，非固定章配額"
+        },
+        {
+          "from": 594,
+          "to": 649,
+          "anchor_line": 620,
+          "quote": "妳是不是想去那邊看看",
+          "meaning": "後期自發把對方願望算入行程"
+        },
+        {
+          "from": 650,
+          "to": 697,
+          "anchor_line": 690,
+          "quote": "故事是人物",
+          "meaning": "人物目標自然驅動事件、保留日常"
+        },
+        {
+          "from": 698,
+          "to": 739,
+          "anchor_line": 734,
+          "quote": "能力的認識",
+          "meaning": "能力、人物、願望與故事連續發展"
+        }
+      ],
+      "latest_revisions_checked": [
+        "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+        "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
+        "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+          "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        },
+        {
+          "path": "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "git_blob_sha": "9359d7e77b817863d9e81ae869d6b110ad934da5"
+        },
+        {
+          "path": "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
+          "git_blob_sha": "d1359190da901efdc7dde58dfef9fde0b2998c6f"
+        },
+        {
+          "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-09",
+        "review_scope": "Fully read this exact version of 06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md; external novel claims remain secondary; author later decisions kept separate; evidence linked to new version/graph batches.",
+        "revocation": "If source Git blob SHA, any registered post-correction source SHA or domain graph evidence changes, revalidate."
+      },
+      "remaining_caveats": [
+        "外部《異常大舞台》描述為用戶轉貼的另一助手分析，未獨立證實原作章節／台詞；不可寫成原著確證。",
+        "本文件若描述巨構角色首次相遇、復歸、後期語氣或同行，都不能自動當成已發生的正式章節。",
+        "其他後出來源仍可能有未檢索的新修正，後續增量必須用權威追溯與動態退回檢查。"
+      ]
     }
   ],
-  "warning": "Historical 171 source-role cohort is unchanged. Two specific files now have AI-only complete editorial line-range coverage, 169 not yet accepted; no Canon adoption, no original source rewrite."
+  "warning": "Current 335-source universe: six verifiable full-file AI editorial acceptances (2 old + four new), 329 pending. Historic 171 segment now 4 accepted/167 pending; historic fine-grained 164 contains two newly validated full files. Same acceptance standard, not Author Canon."
 }

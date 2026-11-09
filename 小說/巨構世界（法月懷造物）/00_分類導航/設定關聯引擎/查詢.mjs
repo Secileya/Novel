@@ -1133,8 +1133,8 @@ function selfTest(corpus) {
   const visualQuery=query("圖片 景觀 直接 授權",corpus);
   assert(visualQuery.sixth_batch_visual_reference_and_narrative_findings.matched_findings.some(x=>x.id==="SRC-171-054"));
   assert(visualQuery.version_compatibility_ledger.some(x=>x.id==="VER-013"&&x.linked_verified_audits.some(a=>a.id==="SRC-171-054")));
-  assert.equal(visualQuery.unified_semantic_audit_graph.reviewed_findings,68);
-  assert.equal(visualQuery.unified_semantic_audit_graph.verified_original_quotes,188);
+  assert.equal(visualQuery.unified_semantic_audit_graph.reviewed_findings,allAuditRecords.length);
+  assert.equal(visualQuery.unified_semantic_audit_graph.verified_original_quotes,allAudits.reduce((n,a)=>n+Number(a.evidence_count??a.original_anchors_count??0),0));
   const legal=query("G3 物權 32噸 回彈",corpus);
   assert(legal.version_compatibility_ledger.some(x=>x.id==="VER-014"&&x.linked_verified_audits.some(a=>a.id==="SRC-171-060")));
   assert(legal.subsequent_batch_original_source_semantic_findings.matched_findings.some(x=>x.id==="SRC-171-060"));
@@ -1159,8 +1159,17 @@ function selfTest(corpus) {
   const bridgedCeleste=query("SRC-171-032",corpus);
   assert(bridgedCeleste.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(r=>
     r.audit_id==="SRC-171-032"&&r.related_existing_nodes.some(e=>e.target_id==="P-CEL-01")));
-  assert.equal(bridgedCeleste.audited_domain_graph_bidirectional_links.mapped_records_in_bridge,68);
-  assert.equal(bridgedCeleste.audited_domain_graph_bidirectional_links.evidence_scoped_links_in_bridge,164);
+  assert.equal(bridgedCeleste.audited_domain_graph_bidirectional_links.mapped_records_in_bridge,auditDomainBridge.records.length);
+  assert.equal(bridgedCeleste.audited_domain_graph_bidirectional_links.evidence_scoped_links_in_bridge,auditDomainBridge.links_count);
+  const mixed104=query("SRC-ALL-084 莉雅語庫 艾莉維亞",corpus);
+  assert(mixed104.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(x=>
+    x.audit_id==="SRC-ALL-084"&&x.related_existing_nodes.some(e=>e.target_id==="VER-016")));
+  const mixed83=query("SRC-ALL-069 方九 第26章",corpus);
+  assert(mixed83.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(x=>
+    x.audit_id==="SRC-ALL-069"&&x.related_existing_nodes.some(e=>e.target_id==="VER-015")));
+  const mixed106=query("SRC-ALL-087 諾亞 復歸",corpus);
+  assert(mixed106.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(x=>
+    x.audit_id==="SRC-ALL-087"&&x.related_existing_nodes.some(e=>e.target_id==="P-NOAH-01")));
   const fish=query("W01第06區漁業受到第11區污染有什麼後果",corpus);
   assert(fish.ecology_industry_network.direct_edges.some(x=>x.id==="ECO-001"));
   assert(fish.ecology_industry_network.matched_zone_ids.includes("W01-Z06"));

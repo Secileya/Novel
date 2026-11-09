@@ -4,9 +4,9 @@
   "repository": "Secileya/Novel",
   "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
   "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
-  "audit_record_count": 68,
-  "mapped_review_count": 68,
-  "links_count": 164,
+  "audit_record_count": 90,
+  "mapped_review_count": 90,
+  "links_count": 238,
   "unmapped_review_ids": [],
   "no_new_canon_or_hard_dependency_edges": true,
   "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
@@ -1946,6 +1946,758 @@
         "line": 730
       },
       "guardrail": "See original audit status, evidence, and follow-on author decision; domain graph navigation does not assert candidate event occurred."
+    },
+    {
+      "audit_id": "SRC-ALL-069",
+      "reviewed_status": "EXTERNAL_SOURCE_SELF_CORRECTION",
+      "summary": "第83初答與後段自修：初見是電腦畫面，第2～4章已有互識，第26章才進入系統訓練",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-069-01",
+          "target_type": "version",
+          "target_id": "VER-015",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-069-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-069-03",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+        "line": 7
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-070",
+      "reviewed_status": "SECONDHAND_EXTERNAL_OPENING",
+      "summary": "第83轉貼初見先有生活限制、試探與臨時居住關係，而非能力表交換",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-070-01",
+          "target_type": "version",
+          "target_id": "VER-015",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-070-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-070-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+        "line": 327
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-071",
+      "reviewed_status": "EXTERNAL_REVIVAL_DISTINCT",
+      "summary": "方九回檔的信息差屬外部作品，諾亞死亡復歸不倒轉世界時間",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-071-01",
+          "target_type": "claim",
+          "target_id": "MG-C008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-071-02",
+          "target_type": "claim",
+          "target_id": "MG-C009",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-071-03",
+          "target_type": "version",
+          "target_id": "VER-007",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-071-04",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+        "line": 465
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-072",
+      "reviewed_status": "EXTERNAL_EVENT_FEEDBACK_METHOD",
+      "summary": "莉雅從無法支援至能源轉換、火球與雙向元素觀察是外作成長序列",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-072-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-072-02",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-072-03",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+        "line": 587
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-073",
+      "reviewed_status": "EXTERNAL_REVIEW_CORRECTED_SCOPE",
+      "summary": "第83第26章能力訓練與『盡可能少死』的風險顧慮並存",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-073-01",
+          "target_type": "claim",
+          "target_id": "MG-C008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-073-02",
+          "target_type": "version",
+          "target_id": "VER-015",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-073-03",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+        "line": 789
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-074",
+      "reviewed_status": "EXTERNAL_METHOD_NOT_CANON_QUEST",
+      "summary": "第83能力互證逐步轉化為『送莉雅回家』私人願望，而非突發主線任務",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-074-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-074-02",
+          "target_type": "version",
+          "target_id": "VER-003",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-074-03",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-074-04",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
+        "git_blob_sha": "23dea8daea4842fdd5b7262acdb3d6b8abb35541",
+        "line": 929
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-075",
+      "reviewed_status": "ASSISTANT_DERIVED_SECONDARY_ANALYSIS",
+      "summary": "第84是第83後的助手完整十二節研究，非原著或作者正式定案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-075-01",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-075-02",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-075-03",
+          "target_type": "version",
+          "target_id": "VER-015",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+        "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+        "line": 5
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-076",
+      "reviewed_status": "CHARACTER_STRENGTH_WITH_KNOWLEDGE_LIMIT",
+      "summary": "能力成熟不等於關係成熟；高階艾莉維亞初見仍可逐步發現對方",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-076-01",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-076-02",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-076-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-076-04",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+        "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+        "line": 99
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-077",
+      "reviewed_status": "BIDIRECTIONAL_LEARNING_STORY_METHOD",
+      "summary": "第84雙主角互相利用能力理解生成新選擇，並非輪流展示出場技",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-077-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-077-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-077-03",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-077-04",
+          "target_type": "claim",
+          "target_id": "MG-C017",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+        "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+        "line": 145
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-078",
+      "reviewed_status": "CONDITIONAL_FIRST_DEATH_SCENE",
+      "summary": "第84首死目擊場景是條件式助手分析，外界不回溯、首死前不知復歸",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-078-01",
+          "target_type": "claim",
+          "target_id": "MG-C008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-078-02",
+          "target_type": "claim",
+          "target_id": "MG-C009",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-078-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-078-04",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-02",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-078-05",
+          "target_type": "version",
+          "target_id": "VER-007",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+        "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+        "line": 317
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-079",
+      "reviewed_status": "FIRST_MEETING_CAUSAL_GATE",
+      "summary": "第84首章互相同行應由各自目的與實際交集形成，而非作者指定相遇就組隊",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-079-01",
+          "target_type": "version",
+          "target_id": "VER-003",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-079-02",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-079-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+        "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+        "line": 494
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-080",
+      "reviewed_status": "NARRATIVE_METHOD_NOT_FIXED_PLOT",
+      "summary": "第84故事事件可從主角互相影響形成，同時容許日常、地方群像自行運作",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-080-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-080-02",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-080-03",
+          "target_type": "claim",
+          "target_id": "MG-C018",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+        "git_blob_sha": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+        "line": 660
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-081",
+      "reviewed_status": "SECONDHAND_DIALOGUE_RHYTHM",
+      "summary": "第104轉貼口語研究的核心是情境與語體切換，不是固定『我去』配額",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-081-01",
+          "target_type": "version",
+          "target_id": "VER-016",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-081-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-081-03",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
+        "git_blob_sha": "0684791518dead99de1b27a48a6f82af91dfbccc",
+        "line": 3
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-082",
+      "reviewed_status": "SECONDHAND_WORD_CHOICE",
+      "summary": "第104『你丫』『你小子』『媽呀/媽耶』有不同語用傾向而非固定感情公式",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-082-01",
+          "target_type": "version",
+          "target_id": "VER-016",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-082-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-082-03",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
+        "git_blob_sha": "0684791518dead99de1b27a48a6f82af91dfbccc",
+        "line": 72
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-083",
+      "reviewed_status": "PROFESSIONAL_SILENCE_OPTION",
+      "summary": "第104專業分析與嚴肅/情感場景可以不用口頭禪，但不可公式化沉默",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-083-01",
+          "target_type": "version",
+          "target_id": "VER-016",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-083-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-083-03",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
+        "git_blob_sha": "0684791518dead99de1b27a48a6f82af91dfbccc",
+        "line": 198
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-084",
+      "reviewed_status": "LATER_AUTHOR_WORD_BANK_PERMISSION",
+      "summary": "第104後出作者明示普通來源詞可入庫，並允許聲調符號與咬字變化",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-084-01",
+          "target_type": "version",
+          "target_id": "VER-016",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-084-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-084-03",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
+        "git_blob_sha": "0684791518dead99de1b27a48a6f82af91dfbccc",
+        "line": 393
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-085",
+      "reviewed_status": "EXTERNAL_RESEARCH_NO_GENDER_FORMULA",
+      "summary": "第106否定『方九理性／莉雅情緒』互斥配方，雙方可反射與計算",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-085-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-085-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-085-03",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+        "line": 3
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-086",
+      "reviewed_status": "EXTERNAL_DEATH_COST_NOT_MECHANICAL_LIMIT",
+      "summary": "第106外作回檔可用但不可無上限消耗：早期未知元素與深藍聖堂心理損耗",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-086-01",
+          "target_type": "claim",
+          "target_id": "MG-C008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-086-02",
+          "target_type": "version",
+          "target_id": "VER-007",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-086-03",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+        "line": 23
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-087",
+      "reviewed_status": "AUTHOR_WORLD_BOUNDARY_RECONCILED",
+      "summary": "第106巨構既有硬界線：第042雙向本能、第085不回溯、維亞沒有同型復歸",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-087-01",
+          "target_type": "claim",
+          "target_id": "MG-C008",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-087-02",
+          "target_type": "claim",
+          "target_id": "MG-C009",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-087-03",
+          "target_type": "temporal_phase",
+          "target_id": "P-NOAH-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-087-04",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+        "line": 106
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-088",
+      "reviewed_status": "RELATIONSHIP_STAGE_NOT_FASTFORWARDED",
+      "summary": "第106雙向親密身體記憶必須靠時間累積，初遇不能預支後期口頭暗號",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-088-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-088-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-088-03",
+          "target_type": "version",
+          "target_id": "VER-003",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-088-04",
+          "target_type": "temporal_phase",
+          "target_id": "P-ALIVIA-00",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+        "line": 116
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-089",
+      "reviewed_status": "EXTERNAL_SURVIVAL_BRANCH_CANDIDATE",
+      "summary": "第106外作終局強調尋求共同活路，不是必定一起殉情",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-089-01",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-089-02",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-089-03",
+          "target_type": "claim",
+          "target_id": "MG-C018",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+        "line": 27
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
+    },
+    {
+      "audit_id": "SRC-ALL-090",
+      "reviewed_status": "VISIBLE_CHARACTER_PERFORMANCE_METHOD",
+      "summary": "第106身體／語言／專業決策可同拍並行，拒絕為親密讓角色變笨",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "relations": [
+        {
+          "link_id": "A2G-090-01",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-090-02",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-090-03",
+          "target_type": "claim",
+          "target_id": "MG-C019",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md",
+        "git_blob_sha": "830fbec6a0838f33710d26460515dfdb4e736ece",
+        "line": 131
+      },
+      "guardrail": "Reference-only connection: may not imply outside-story event happened in mega-world or grant author Canon."
     }
   ]
 }

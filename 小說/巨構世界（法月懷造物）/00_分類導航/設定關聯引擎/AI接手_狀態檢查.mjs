@@ -31,7 +31,9 @@ try{head=execFileSync('git',['rev-parse','HEAD'],{cwd:PROJECT,encoding:'utf8',st
 catch{warnings.push('未取得本機git HEAD；請用GitHub連接器查main HEAD，不得自行推定')}
 const snapshot=B.fact_snapshot;
 const FULL=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_整檔語義驗收台帳.json'),'utf8'));
-const editorialAccepted=FULL.records.filter(x=>x.status==='FULL_FILE_EDITORIAL_ATTESTED').length;
+const historical171Paths=new Set(BACK.sources.map(x=>x.path));
+const editorialAccepted=FULL.records.filter(x=>x.status==='FULL_FILE_EDITORIAL_ATTESTED'&&historical171Paths.has(x.source_path)).length;
+const allSourceEditorialAccepted=FULL.records.filter(x=>x.status==='FULL_FILE_EDITORIAL_ATTESTED').length;
 let GLOBAL=null;
 try{GLOBAL=buildLiveReviewReport();}catch(e){warnings.push('無法取得動態Git來源全集：'+String(e.message).slice(0,160))}
 if(GLOBAL?.faults.length)faults.push(...GLOBAL.faults.map(x=>'ALL_SOURCE:'+x));
@@ -80,7 +82,8 @@ const actualCoverage=Object.freeze({
   original_archive_09_files:fs.readdirSync(path.join(PROJECT,'09_跨AI原始來源')).length,
   full_file_semantic_review_completed:'EDITORIAL_ATTESTED__NOT_AUTHOR_CANON_SIGNOFF',
   full_file_editorial_accepted:editorialAccepted,
-  full_file_editorial_remaining:BACK.sources.length-editorialAccepted
+  full_file_editorial_remaining:BACK.sources.length-editorialAccepted,
+  all_source_ledger_attested_count:allSourceEditorialAccepted
 });
 const liveSnapshot=COVER.current_operational_metrics||{};
 if(JSON.stringify(derivedCategories)!==JSON.stringify(COVER.source_categories))
