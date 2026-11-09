@@ -275,6 +275,12 @@
   ],
   "last_delivered_work": [
     {
+      "commit": "f27d4bbdb341d14a91fa8195e3ff2320a884e65f",
+      "work": "第四至七批68項已審命題全部回接既有領域圖（164條不升級Canon的證據範圍邊）；查詢器已雙向反查並可展開相關容器子項；CI驗證端點存在、原文SHA及負面權威升格測試。",
+      "verification": "https://github.com/Secileya/Novel/actions/runs/42592057420 (success)",
+      "status": "DONE__AUDITED_SCOPE_GRAPH_BRIDGE_ONLY"
+    },
+    {
       "commit": "1f02a9824ba8ac13d52fe276814314cf2ea4394a",
       "work": "第七批新增13項G3人物知情/物權/工程/復歸事實的定向核對、41 SHA原文錨點、VER-014與查詢器，並對25行艾莉維亞歷史修補原檔完成整檔編輯性驗收：2/171完成，169待審。",
       "verification": "https://github.com/Secileya/Novel/actions/runs/42562746549 success; 第七批引文、來源SHA、查詢器回歸、整檔台帳正反向測試",
@@ -326,10 +332,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-003",
-    "stage": "BRIDGE_68_CLAIMS_164_DOMAIN_RELATIONS_PENDING_CI",
-    "scope": "補上第四至七批68/68條審核命題與既有高優先規則／人際／版本／時期／容器圖的164條有型證據關聯。查詢器可從命題或原生圖節點雙向回查實體、版本、人物相鄰邊與父容器全部子項。CI嚴格查dangling endpoints、引文SHA、權威不能升格。",
-    "not_finished": "169份171待審來源未通過整檔語義驗收，且335全來源並非全部原子化；特定生態與跨層真因果不能從相關性邊倒推。NEXT-001、NEXT-003後續深化、NEXT-004/005/007/008未完成，NEXT-006作者PREWRITE HOLD。",
-    "next_step": "先讓本次GitHub CI完整通過；接著回NEXT-001，選多份原文成組核對，符合完整全行驗收標準的每份才扣169。對跨層/生態/因果新增實體連線時先核獨立原文，不做無證跨層推斷。"
+    "stage": "S6_SCOPED_DOMAIN_BRIDGE_VERIFIED",
+    "scope": "已驗證第四至七批所有68條定向來源命題→既有實體／規則／人物時期／社會關係／版本／容器的164條有型範圍證據橋；從命題或領域節點雙向反查，W01容器可依審核ID完整展開12子區，原有生態與跨層網維持真實來源界線。",
+    "commit": "f27d4bbdb341d14a91fa8195e3ff2320a884e65f",
+    "ci_url": "https://github.com/Secileya/Novel/actions/runs/42592057420",
+    "ci_result": "success",
+    "not_finished": "全335來源尚未全量語義原子化；171來源母集合整檔驗收2/171，169份未完成；定向審核全部接線不代表不具原文證據的跨層/生態因果已回填。NEXT-001/003後續/004/005/007/008未完成；NEXT-006需作者解除PREWRITE HOLD。",
+    "next_step": "恢復NEXT-001批次原稿：讀05_083與06_084等多份來源、逐段對照作者後修與來源可靠性；有真正整檔證據才把169減少。往後新定向審核需同時入既有關係圖橋，避免再出現孤立審核記錄。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
