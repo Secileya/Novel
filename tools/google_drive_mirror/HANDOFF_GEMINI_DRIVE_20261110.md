@@ -1,3 +1,5 @@
+> **2026-11-10｜新的通用對話 SOP 已建立**：見[跨 AI 每輪來源刷新、Gemini 回貼全文歸檔與寫作前置流程](../../小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md)。同步完成僅代表「該 GitHub 原文可從 Drive 被搜尋和讀取」，**不是 Gemini 已自動讀過**。Gemini 接到 GPT 修改卡後核對 `00_最新GitHub變更交接.txt`／manifest，實讀列出的設定檔、必要原章全文、人物語氣庫及跨檔依賴；同 SHA 且本會話已實讀的原文才可免重讀。回貼 Gemini 長答由 GPT 主動查重後完整歸檔、QA 分開、作者決議分開，紀錄五階段保存狀態。若尚未實際更新 Gemini 網頁版 Skill，GitHub 本流程不會自動修改該 Skill。
+
 # 《巨構世界》｜GitHub → Stingray Google Drive 同步與 Gemini Skill 隔日接手（2026-11-10）
 
 > **狀態：可操作交接／非小說 Canon。** 本文件供 Gemini（網頁版 Skill）、ChatGPT、Gemini CLI 及其他 AI 接手。不要把此文件或 GitHub `main` 視為小說正式正史。沒有實際讀取工具時，不得宣稱已核實同步狀態。
