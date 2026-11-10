@@ -195,13 +195,41 @@ function matchContainers(q, registered=containerRegistry.containers) {
   });
 }
 
+// Resolve a named W01 subregion as a whole token: never match "一區" inside "十一區",
+// or "1區" inside "11區". Other worlds' numbered districts are not W01 districts.
+function extractW01ZoneNumbers(q) {
+  const raw=String(q||"");
+  const compact=raw.normalize("NFKC").replace(/\s+/g,"");
+  const zh=["","一","二","三","四","五","六","七","八","九","十","十一","十二"];
+  const numbers=new Set();
+  const token=/(?<!\d)(?:第)?(?:(0?[1-9]|1[0-2])|(十二|十一|十|[一二三四五六七八九]))(?:區域|区域|區|区)/g;
+  for(const m of compact.matchAll(token)) {
+    const prefix=compact.slice(Math.max(0,m.index-4),m.index);
+    // "舊九區" is the legacy nine-zone map, not automatically current zone nine.
+    if(/(?:舊版|舊的|舊|原版|原)$/.test(prefix))continue;
+    const scopes=[...compact.slice(0,m.index).matchAll(/W0?([1-9]|1[0-9])(?=[^\d]|$)/gi)];
+    const nearestWorld=scopes.at(-1);
+    if(nearestWorld && Number(nearestWorld[1])!==1 &&
+       m.index-(nearestWorld.index+nearestWorld[0].length)<=24)continue;
+    const n=m[1]?Number(m[1]):zh.indexOf(m[2]);
+    if(n>=1&&n<=12)numbers.add(n);
+  }
+  // "W01 09" is scoped; bare "09" could also mean chapter/route K09 and stays ambiguous.
+  for(const m of raw.matchAll(/W0?1(?:\s*[-/:]\s*|\s+)(?:Z)?(0?[1-9]|1[0-2])(?=\b|區|区)/gi))
+    numbers.add(Number(m[1]));
+  return [...numbers].sort((a,b)=>a-b);
+}
+function isGenericZoneAlias(alias) {
+  return /^(?:第)?(?:0?[1-9]|1[0-2])(?:區域|区域|區|区)$/.test(String(alias||"").normalize("NFKC"));
+}
 function getZones(q, ids) {
   const w = expandChildren(creativity.map_versions.primary);
   const old = expandChildren(creativity.map_versions.legacy);
-  const zoneNamed = w.some(z => (z.aliases || []).some(a => a.length > 2 && contains(q,a)));
+  const zoneNamed = w.some(z => (z.aliases || []).some(a => a.length > 2 &&
+    !isGenericZoneAlias(a) && contains(q,a)));
   const legacyNamed = old.some(z => contains(q,z.name));
-  const w01 = /w[\s-]?0?1\b/i.test(q) || /十二[大個]?區|12[大個]?區|九[大個]?區|9[大個]?區/.test(q) ||
-    /(?:第)?(?:十[一二]?|[一二三四五六七八九])(?:區|區域)/.test(q);
+  const w01 = /w[\s-]?0?1\b/i.test(q) || /十二[大個]區|12[大個]區|九[大個]區|9[大個]區/.test(q) ||
+    extractW01ZoneNumbers(q).length>0;
   // A parent or any known child triggers full expansion, never just most-similar children.
   const expand = w01 || zoneNamed || legacyNamed || ids.direct.includes("w01");
   return expand ? {mode:"W01_FULL_CONTAINER_EXPANSION",count:w.length,active_design_children:w,
@@ -213,10 +241,12 @@ function findIdeas(q, zones) {
   const all = creativity.idea_pool;
   const broad = /生態|地圖|創意|世界層|物種|地域|區域|兼容|相容|九區|十二區|w01/i.test(q);
   const zoneIDs = new Set(zones.active_design_children.map(z => z.id));
+  const focusedIDs = new Set(zoneIDsFromQuery(q,zones));
   return all.map(item => {
     const direct = (item.tags || []).filter(t => contains(q,t));
     const placements = (item.possible_placement || []).filter(p => zoneIDs.has(p));
-    const active = direct.length > 0 || (zones.count === 12 && placements.length > 0 && broad);
+    const active = direct.length > 0 || (zones.count === 12 && placements.length > 0 &&
+      (focusedIDs.size>0 ? placements.some(p=>focusedIDs.has(p)) : broad));
     return active ? {...item, reason:direct.length ? "KEYWORD_MATCH" : "POSSIBLE_PLACEMENT_FROM_FULL_PARENT_EXPANSION",
       matching_terms:direct} : null;
   }).filter(Boolean);
@@ -232,19 +262,11 @@ function findTemporal(q, ids) {
   ).map(p=>({...p,matching_terms:(p.triggers||[]).filter(t=>contains(q,t))}));
 }
 function zoneIDsFromQuery(q, zones) {
-  const hits=[];
-  for(const z of zones.active_design_children) {
-    const n=String(Number(z.number));
-    const numPattern=new RegExp("(?:第)?0?"+n+"(?:區|區域)");
-    const strongNames=(z.aliases||[]).filter(x=>String(x).length>=3);
-    const zhNumbers=["","一","二","三","四","五","六","七","八","九","十","十一","十二"];
-    const zhNumber=zhNumbers[Number(z.number)];
-    const isExplicitOldNine=/(?:舊|舊版|原版)九(?:大)?區/.test(q);
-    const zhZoneMatch=zhNumber && !(isExplicitOldNine && zhNumber==="九") &&
-      new RegExp("(?:第)?"+zhNumber+"(?:區|區域)").test(q);
-    if(strongNames.some(x=>contains(q,x)) || numPattern.test(q) || zhZoneMatch || contains(q,z.id)) hits.push(z.id);
-  }
-  return unique(hits);
+  const matchedNumbers=new Set(extractW01ZoneNumbers(q));
+  return unique(zones.active_design_children.filter(z=>{
+    const strongNames=(z.aliases||[]).filter(a=>String(a).length>=3 && !isGenericZoneAlias(a));
+    return matchedNumbers.has(Number(z.number)) || strongNames.some(a=>contains(q,a)) || contains(q,z.id);
+  }).map(z=>z.id));
 }
 function findFocusedZoneContext(q, zones) {
   const matchedIds=zoneIDsFromQuery(q,zones);
@@ -257,7 +279,8 @@ function findFocusedZoneContext(q, zones) {
           status:idea.compatibility,source_paths:idea.source_paths||[]})),
         source_paths:unique([...(z.source_paths||[]),...matchedIdeas.flatMap(idea=>idea.source_paths||[])])};
     }),
-    warning:"這是宏觀區域與候選創意的專題展開；命中不等於全部設定已仲裁或已成正式章節／Canon。"};
+    unscoped_number_ambiguous:/^(?:0?[1-9]|1[0-2])$/.test(norm(q)),
+    warning:"聚焦區域回收只在地區有明確語境時解讀數字。單獨「09」可能是第09章、K09或第09區，請補W01／區號；區域和創意命中不代表已完成語義仲裁、現役通路或作者Canon。"};
 }
 function findCausal(q, zones) {
   const selectedIDs=zoneIDsFromQuery(q,zones);
@@ -1193,6 +1216,30 @@ function selfTest(corpus) {
   const mixed106=query("SRC-ALL-087 諾亞 復歸",corpus);
   assert(mixed106.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(x=>
     x.audit_id==="SRC-ALL-087"&&x.related_existing_nodes.some(e=>e.target_id==="P-NOAH-01")));
+  // Numeric district regression: all twelve two-digit, integer, Chinese, spaced and simplified forms.
+  const cn=["","一","二","三","四","五","六","七","八","九","十","十一","十二"];
+  for(let n=1;n<=12;n++) {
+    const pad=String(n).padStart(2,"0");
+    for(const q of ["第"+pad+"區","第"+n+"區","第"+cn[n]+"區",
+      cn[n]+"區","第 "+pad+" 區","第"+n+"区","W01 "+pad]) {
+      assert.deepEqual(extractW01ZoneNumbers(q),[n],"W01 district identification: "+q);
+    }
+  }
+  for(const q of ["09","第九章","K09","W09","舊九區","舊第九區","第011區",
+    "W02第九區","W02第11區","W03第十二區","W02 第 09 区"])
+    assert.deepEqual(extractW01ZoneNumbers(q),[],"false scoped W01 district: "+q);
+  assert.deepEqual(extractW01ZoneNumbers("第十一區與第一區"),[1,11]);
+  assert.deepEqual(extractW01ZoneNumbers("舊九區與現行第九區"),[9]);
+  assert.deepEqual(extractW01ZoneNumbers("W02第09區與W01第09區"),[9]);
+  const eleven=query("第十一區的醫療生態",corpus);
+  assert.deepEqual(eleven.focused_zone_retrieval.matched_zone_ids,["W01-Z11"]);
+  const twelve=query("第12區的深淵打撈",corpus);
+  assert.deepEqual(twelve.focused_zone_retrieval.matched_zone_ids,["W01-Z12"]);
+  const otherWorld=query("W02第09區交通",corpus);
+  assert(!otherWorld.focused_zone_retrieval.matched_zone_ids.includes("W01-Z09"));
+  const bare09=query("09",corpus);
+  assert(bare09.focused_zone_retrieval.unscoped_number_ambiguous);
+  assert.equal(bare09.focused_zone_retrieval.matched_zone_ids.length,0);
   const nine=query("W01第九區霜脈散熱嶺在第十三章有什麼產業、生態與長線故事來源",corpus);
   assert(nine.focused_zone_retrieval.matched_zone_ids.includes("W01-Z09"));
   assert(nine.focused_zone_retrieval.zones.some(z=>z.id==="W01-Z09" &&
