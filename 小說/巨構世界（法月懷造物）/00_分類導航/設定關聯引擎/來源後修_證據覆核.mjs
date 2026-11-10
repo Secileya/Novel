@@ -1,12 +1,24 @@
 /** Append-only, SHA-pinned source revalidation. Historical ledgers stay immutable. */
 import fs from 'node:fs';
 import path from 'node:path';
-import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 const HOME=path.dirname(fileURLToPath(import.meta.url));
 const sha=b=>createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');
 const cache=new Map();
+// Reconstruct the old bytes from the current source and reviewed insertions.
+// Checking the original Git blob SHA is stronger than normalized line equality
+// and works in Actions' default shallow checkout without fetching repo history.
+function revisionBytes(loc,target,migrations,home){
+ let b=fs.readFileSync(path.resolve(home,'../..',loc));
+ if(sha(b)===target)return b;
+ for(const m of migrations.slice().reverse())if(m.path===loc&&sha(b)===m.to_sha){
+  const lines=b.toString('utf8').split('\n');lines.splice(m.insert_before-1,m.insert_count);b=Buffer.from(lines.join('\n'));
+  if(sha(b)!==m.from_sha)throw Error('migration is not the reviewed exact insertion '+loc);
+  if(sha(b)===target)return b;
+ }
+ throw Error('revalidated source changed again '+loc);
+}
 export function readRevalidations(home=HOME){
  if(cache.has(home))return cache.get(home);
  const manifest=JSON.parse(fs.readFileSync(path.join(home,'AI接手_增量分片清單.json'),'utf8'));
@@ -25,16 +37,9 @@ export function readRevalidations(home=HOME){
    if(!m.path||m.path.includes('..')||m.path.includes('\\')||path.isAbsolute(m.path)||!Number.isInteger(m.insert_before)||!Number.isInteger(m.insert_count)||m.insert_count<1)throw Error('invalid anchor migration');
    if(!/^[a-f0-9]{40}$/.test(m.from_sha)||!/^[a-f0-9]{40}$/.test(m.to_sha))throw Error('invalid migration SHA');
    const key=m.path+'@'+m.from_sha;if(migrationKeys.has(key))throw Error('duplicate/forked source revision');migrationKeys.add(key);
-   let current=fs.readFileSync(path.resolve(home,'../..',m.path));
-   if(sha(current)!==m.to_sha){
-    const next=allMigrations.find(n=>n.path===m.path&&n.from_sha===m.to_sha);
-    if(!next||allMigrations.indexOf(next)<=allMigrations.indexOf(m))throw Error('revalidated source changed again '+m.path);
-    current=execFileSync('git',['cat-file','blob',m.to_sha],{cwd:home,maxBuffer:8e6});
-   }
-   const old=execFileSync('git',['cat-file','blob',m.from_sha],{cwd:home,maxBuffer:8e6});
-   const oldLines=old.toString('utf8').split(/\r?\n/),newLines=current.toString('utf8').split(/\r?\n/);
-   const restored=newLines.slice();restored.splice(m.insert_before-1,m.insert_count);
-   if(JSON.stringify(oldLines)!==JSON.stringify(restored))throw Error('migration is not the reviewed exact insertion '+m.path);
+   const current=revisionBytes(m.path,m.to_sha,allMigrations,home),newLines=current.toString('utf8').split(/\r?\n/);
+   const restored=current.toString('utf8').split('\n');restored.splice(m.insert_before-1,m.insert_count);
+   if(sha(Buffer.from(restored.join('\n')))!==m.from_sha)throw Error('migration is not the reviewed exact insertion '+m.path);
    if(m.decision_line<m.insert_before||m.decision_line>=m.insert_before+m.insert_count||!newLines[m.decision_line-1]?.includes(m.decision_quote)||m.meaning.length<30)throw Error('missing substantive revision evidence');
   }
   const seenSources=new Set();
@@ -97,8 +102,9 @@ export function readEffectiveJson(filename,home=HOME){
   const e=data.records?.find(r=>r.id===a.record_id)?.evidence;
   const m=p.anchor_migrations.find(m=>m.path===a.source_path);
   if(!e||!m||e.source_path!==a.source_path||e.line!==a.from_line||e.excerpt!==a.quote)throw Error('legacy anchor base mismatch');
-  const old=execFileSync('git',['cat-file','blob',m.from_sha],{cwd:home,encoding:'utf8'}).split(/\r?\n/);
-  const now=fs.readFileSync(path.resolve(home,'../..',a.source_path),'utf8').split(/\r?\n/);
+  const all=readRevalidations(home).flatMap(p=>p.anchor_migrations);
+  const old=revisionBytes(a.source_path,m.from_sha,all,home).toString('utf8').split(/\r?\n/);
+  const now=revisionBytes(a.source_path,m.to_sha,all,home).toString('utf8').split(/\r?\n/);
   if(!old[a.from_line-1]?.startsWith(a.quote)||!now[a.to_line-1]?.startsWith(a.quote))throw Error('legacy anchor quote drift');
   e.line=a.to_line;e.git_blob_sha=m.to_sha;applyEvidenceRevalidations(e,home);
  }
