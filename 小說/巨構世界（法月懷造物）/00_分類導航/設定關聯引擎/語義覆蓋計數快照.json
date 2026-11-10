@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "B29重做待CI，141/335為未核實登記，194待審；PREWRITE HOLD。",
+  "warning": "B29重做已由CI 42792369866成功；B30重做待CI，147/335暫存登記、剩188，0正式章。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,18 +170,18 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 3759,
-    "audited_original_quote_anchors": 3950,
+    "audited_batched_claims": 4008,
+    "audited_original_quote_anchors": 4199,
     "original_archive_09_files": 5,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "先前第29/30批不合格資料已撤回；第29批完全重新審稿六份721行，221條實質命題等CI。",
+    "limitations": "B29來源重審6份CI成功；B30來源重審6份249筆等待CI；合計非Canon編輯性材料470項，不是作者Canon。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
-    "all_source_full_file_editorial_accepted_pending_ci": 141,
-    "all_source_full_file_editorial_pending": 194,
-    "historical_164_accepted": 92
+    "all_source_full_file_editorial_accepted_pending_ci": 147,
+    "all_source_full_file_editorial_pending": 188,
+    "historical_164_accepted": 98
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,

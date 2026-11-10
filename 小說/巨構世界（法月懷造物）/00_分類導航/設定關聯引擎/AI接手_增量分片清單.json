@@ -90,6 +90,17 @@
       "claim_count": 221,
       "graph_relations": 221,
       "note": "All 6 source files independently reread and 221 specific source-anchored material judgments; previously contaminated shard removed, new CI pending."
+    },
+    {
+      "path": "20261110_第三十批_原文重審6份_012_043_044_046_055_061_全文語義v2.json",
+      "git_blob_sha": "8c84cfb31af9ea5ecbf989720bc7fe9b513a2449",
+      "batch": "BATCH30_REDO",
+      "source_count": 6,
+      "original_lines": 713,
+      "semantic_sections": 74,
+      "claim_count": 249,
+      "graph_relations": 249,
+      "note": "Redone from full original source and later corrections: 249 individually authored line-anchored material findings, no reuse of invalid former batch; awaiting CI."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."
