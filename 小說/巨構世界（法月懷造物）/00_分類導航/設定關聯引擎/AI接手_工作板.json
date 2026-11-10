@@ -5,7 +5,7 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "a89ab47b960e22283a91871031fe7d861652af4a",
+  "last_checked_head_before_handoff": "46859beef97b22280c3cdf802d77b9ee08f536c7",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
     "run_url": "https://github.com/Secileya/Novel/actions/runs/42781284588",
@@ -90,10 +90,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第31批六份完整語義分片已準備，實際CI成功前僅為登記待驗；上次遠端已核實147／335。",
-        "stage": "BATCH31_6_SUBMITTED_PENDING_CI",
-        "last_verified_commit": "69033523eee67b09a93d9a4ba37e1d9faecda136",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42794800399",
+        "note": "第31批六份916行已由當批核心CI與Drive索引CI各自完成success；動態153／335，182待審。",
+        "stage": "BATCH31_6_CI_VERIFIED",
+        "last_verified_commit": "43f857137c8b4f3224301a86d9f2d1ffa8b252c0",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42806727619",
         "cross_source_next_batch": [],
         "historical_164_accepted": 104,
         "historical_171_accepted": 49,
@@ -521,7 +521,7 @@
           "accepted_registered": 147
         },
         "acceleration_batch_31": {
-          "stage": "SUBMITTED_PENDING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 6,
           "source_lines": 916,
           "sections": 79,
@@ -531,7 +531,11 @@
           "native_candidate_entities_added": 11,
           "registered_accepted_pending_ci": 153,
           "pending_registered": 182,
-          "shard_sha": "a09bbbab48ccb35cb9e6db6db8c50db1d1968994"
+          "shard_sha": "a09bbbab48ccb35cb9e6db6db8c50db1d1968994",
+          "accepted_registered": 153,
+          "batch_commit": "43f857137c8b4f3224301a86d9f2d1ffa8b252c0",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42806727619",
+          "index_ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42806727623"
         }
       }
     },
@@ -811,8 +815,8 @@
     "nonCanon_graph_links": 344,
     "all_source_accepted": 153,
     "all_source_pending": 182,
-    "state": "PENDING_CURRENT_COMMIT_CI__NOT_CANON",
-    "notes": "本機驗證及遠端當批CI成功前不對外稱驗收完成。"
+    "state": "BATCH31_CI_VERIFIED__NON_CANON",
+    "notes": "52項本機Node檢查及兩項當批GitHub Actions成功；不將形式驗證當語義全知。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -832,13 +836,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH31_6_SUBMITTED_PENDING_CI",
+    "stage": "BATCH31_6_CI_VERIFIED",
     "scope": "第31批073／076／095／097／098／099共916行79語義段223命題225原文錨點，24條逐檔二遍反問、32項依賴影響與344條非Canon回讀關聯；新增11個有證據候選人物／生物節點。",
-    "commit": null,
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "本批登記153／335、182待審；當批CI尚未完成，上次成功批次有效登記147／335。正式0章／PREWRITE HOLD。",
-    "next_step": "核本批提交CI，成功後直接執行第32批102、Celeste痕跡、006、017、027、045；先最新HEAD與防重預檢。"
+    "commit": "43f857137c8b4f3224301a86d9f2d1ffa8b252c0",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42806727619",
+    "not_finished": "尚182份待整檔驗收；本批候選仍非Canon，實際交通、機制與作者未決設定不因驗收落地。正式0章／PREWRITE HOLD。",
+    "next_step": "直接執行第32批102、Celeste跨世界痕跡、006、017、027、045；先核最新main與防重門禁，再逐檔全文和二遍。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",

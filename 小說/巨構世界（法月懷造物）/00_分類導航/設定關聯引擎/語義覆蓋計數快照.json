@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第31批登記153／335，182待審；當批CI待核，不將登記數宣稱成功。",
+  "warning": "第31批兩項GitHub CI成功，153／335、182待審；正式0章／PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,12 +176,13 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第31批本機待驗，新增六份916行；當批CI尚未成功，上次已核147／335。225個實際引文，其中主證據計數223，另2個版本仲裁補充錨點。",
+    "limitations": "第31批六份916行223命題、225個實際引文（主證據口徑223）、344回讀關聯，52項本機Node檢查與當批核心42806727619／Drive42806727623均成功。AI編輯性驗收不等於作者採案。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
     "all_source_full_file_editorial_accepted_pending_ci": 153,
     "all_source_full_file_editorial_pending": 182,
-    "historical_164_accepted": 104
+    "historical_164_accepted": 104,
+    "all_source_full_file_editorial_accepted": 153
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
