@@ -8,10 +8,10 @@
   "last_checked_head_before_handoff": "fbb2fa0ecb1a304e8c07e28a001417bd9363031b",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42733294901",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42755107686",
     "conclusion": "success",
-    "head_sha": "9e28599f3e304faa251326ff6459dafe51051459",
-    "warning": "第18批修復後通過 CI；本次小幅交接提交仍須驗證自己的 CI，機械通過不等於作者 Canon 採案。"
+    "head_sha": "2a813b665208a6f45c8cca26f10ff1e719491701",
+    "warning": "第21批此前假失敗為新版語義測試的負向樣本不再保證缺欄位；修正測試樣本後CI通過。後續新提交仍須自查CI；通過不等於作者Canon。"
   },
   "fact_snapshot": {
     "raw_source_files": 335,
@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第21批10份新增證據已登記101/335、待234；本批CI仍待成功。原第20批91份CI已成功，正式0章PREWRITE HOLD。",
+    "important": "第21批10份101/335已取得CI成功，剩234份；原始檔保留，正式0章PREWRITE HOLD；CI只驗證機械結構與可追溯性，不表示作者Canon。",
     "targeted_audit_records": 3130,
     "targeted_audit_verified_quotes": 3321,
     "full_file_editorial_accepted": 46,
@@ -89,9 +89,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
-        "stage": "BATCH21_10_COMMITTED_PENDING_CI",
-        "last_verified_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42752714779",
+        "stage": "BATCH21_10_CI_VERIFIED",
+        "last_verified_commit": "2a813b665208a6f45c8cca26f10ff1e719491701",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42755107686",
         "cross_source_next_batch": [
           "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
           "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
@@ -117,10 +117,10 @@
         "last_batch_new_claims": 271,
         "last_batch_new_anchors": 271,
         "next_batch": [
-          "01_世界本體與文明/001_世界尺度與空間.md",
-          "01_世界本體與文明/002_視覺美學與龐克.md",
-          "01_世界本體與文明/004_群落社會與知識.md",
-          "01_世界本體與文明/005_生存敵人與裝備.md"
+          "03_人物關係與語感/093_後出確認_艾莉維亞外觀不改性格_深青藍與白髮候選_口語活人感.md",
+          "06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+          "06_敘事規劃與工作流/086_完整回應存證_異常大舞台第一二章_諾亞艾莉維亞開篇節奏研究.md",
+          "06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -331,7 +331,7 @@
           "batch_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb"
         },
         "acceleration_batch_21": {
-          "stage": "COMMITTED_PENDING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 10,
           "source_names": [
             "05_場景視覺與參考/007_參考作品與圖片沿革.md",
@@ -357,7 +357,8 @@
           ],
           "accepted_total_registered": 101,
           "pending_total_registered": 234,
-          "ci_run_url": null
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42755107686",
+          "ci_repair_commit": "2a813b665208a6f45c8cca26f10ff1e719491701"
         }
       }
     },
@@ -637,10 +638,10 @@
     "nonCanon_graph_links": 542,
     "all_source_accepted": 101,
     "all_source_pending": 234,
-    "state": "COMMITTED_PENDING_CI",
-    "notes": "先前第20批91份已CI成功；本批檔案不重複，007/047/052保留先前SRC-171原命題，不擅升Canon。",
-    "most_recent_verified_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42752714779"
+    "state": "COMPLETE__COMMIT_CI_VERIFIED",
+    "notes": "第21批10份101/335驗收，修復語義QA負向樣本順序依賴後成功通過CI。其他234份未審；093/085/086/108已有非Canon檢查點但未全文簽證。",
+    "most_recent_verified_commit": "2a813b665208a6f45c8cca26f10ff1e719491701",
+    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42755107686"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -659,13 +660,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH21_10_COMMITTED_PENDING_CI",
-    "scope": "第21批10份來源717行、62段、271筆SHA原文錨與542條非Canon圖關聯；007/047/052局部紀錄無損升級，CI待完成。",
-    "commit": "GIT_COMMIT_PENDING",
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "本批新提交待CI，尚有234份未整檔審核；正式0章，PREWRITE HOLD。",
-    "next_step": "驗證新提交CI成功後將工作板轉為VERIFIED；下一批001/002/004/005依後出來源核查。"
+    "stage": "BATCH21_10_CI_VERIFIED",
+    "scope": "第21批10份來源717行、62段、271筆原文SHA錨及542條非Canon圖關聯，CI修復後通過。",
+    "commit": "2a813b665208a6f45c8cca26f10ff1e719491701",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42755107686",
+    "not_finished": "仍有234份來源等待整檔審核；第093/085/086/108目前只完成初步仲裁，尚未登記FULL_FILE_EDITORIAL_ATTESTED。正式小說0章 PREWRITE HOLD。",
+    "next_step": "以新增第21批原有工作成果為準，從未驗收來源組建第22批；093、085、086、108可優先續審並補全證據，避免重複計數。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
