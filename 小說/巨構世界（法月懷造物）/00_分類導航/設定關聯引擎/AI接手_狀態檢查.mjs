@@ -1,3 +1,4 @@
+import {loadLedger} from './AI接手_分片讀取.mjs';
 #!/usr/bin/env node
 /**
  * 巨構下一任AI的狀態入口：只讀；--status / --task NEXT / --task ID / --check。
@@ -30,7 +31,7 @@ let head='NOT_VERIFIED_GIT_CHECKOUT';
 try{head=execFileSync('git',['rev-parse','HEAD'],{cwd:PROJECT,encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim()}
 catch{warnings.push('未取得本機git HEAD；請用GitHub連接器查main HEAD，不得自行推定')}
 const snapshot=B.fact_snapshot;
-const FULL=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_整檔語義驗收台帳.json'),'utf8'));
+const FULL=loadLedger(HOME);
 const historical171Paths=new Set(BACK.sources.map(x=>x.path));
 const editorialAccepted=FULL.records.filter(x=>x.status==='FULL_FILE_EDITORIAL_ATTESTED'&&historical171Paths.has(x.source_path)).length;
 const allSourceEditorialAccepted=FULL.records.filter(x=>x.status==='FULL_FILE_EDITORIAL_ATTESTED').length;

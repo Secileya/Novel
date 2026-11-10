@@ -1,3 +1,4 @@
+import {loadLedger,loadBridge} from './AI接手_分片讀取.mjs';
 #!/usr/bin/env node
 /**
  * One evolving source universe, not a permanent 171-only backlog.
@@ -15,9 +16,9 @@ const PROJECT=path.resolve(HOME,"../..");
 const read=name=>JSON.parse(fs.readFileSync(path.join(HOME,name),"utf8"));
 const baseline=read("全庫物理清冊.json");
 const historical=read("全庫待原子化缺口清冊.json");
-const ledger=read("AI接手_整檔語義驗收台帳.json");
+const ledger=loadLedger(HOME);
 const board=read("AI接手_工作板.json");
-const bridge=read("審核命題至既有關係圖_雙向證據橋.json");
+const bridge=loadBridge(HOME);
 const textExtensions=/\.(md|txt|json|yaml|yml|svg)$/i;
 const ignored=new Set(["AGENTS.md","GEMINI.md"]);
 const allowedGraphNodeTypes=new Set(["entity","claim","version","temporal_phase","social_entity","social_relation","container","ecology_dependency","crosslayer_dependency"]);

@@ -1,3 +1,4 @@
+import {loadLedger} from './AI接手_分片讀取.mjs';
 #!/usr/bin/env node
 /** Full-file semantic editorial acceptance: mechanical proof, not author Canon. */
 import fs from 'node:fs';
@@ -8,7 +9,7 @@ import {fileURLToPath} from 'node:url';
 import {discoverCommittedSources,buildLiveReviewReport} from './全量來源_動態納管與驗收.mjs';
 const here=dirname(fileURLToPath(import.meta.url)),root=resolve(here,'../..'),errors=[];
 const read=n=>JSON.parse(fs.readFileSync(resolve(here,n),'utf8'));
-const ledger=read('AI接手_整檔語義驗收台帳.json');
+const ledger=loadLedger(here);
 const gap=read('全庫待原子化缺口清冊.json');
 const board=read('AI接手_工作板.json');
 const role=new Map(gap.sources.map(x=>[x.path,x]));
