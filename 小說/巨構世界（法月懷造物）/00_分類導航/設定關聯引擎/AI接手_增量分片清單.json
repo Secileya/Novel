@@ -2,6 +2,18 @@
   "schema": "mega-ledger-shard-manifest-v1",
   "date": "2026-11-10",
   "mode": "legacy-monolith-readonly-plus-append-shards",
-  "shards": [],
+  "shards": [
+    {
+      "path": "20261110_第二十二批4份_093_085_086_108_全文語義v2.json",
+      "git_blob_sha": "042692d0db9dc897adba778c0b13c132f85d93f8",
+      "batch": "BATCH22",
+      "source_count": 4,
+      "original_lines": 1797,
+      "semantic_sections": 72,
+      "claim_count": 72,
+      "graph_relations": 144,
+      "note": "New source data stored in independent Git Blob; legacy monolithic JSON ledgers immutable."
+    }
+  ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."
 }
