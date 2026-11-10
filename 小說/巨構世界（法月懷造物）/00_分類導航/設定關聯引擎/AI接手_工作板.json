@@ -494,7 +494,7 @@
           "graph_links": 166,
           "registered_pending_ci": 141,
           "pending_remaining": 194,
-          "shard_sha": "49261b4ec2674de85da8f344b37b5fc4dd216728"
+          "shard_sha": "4add69aca9371de4010f4b7fe96c9d37abe39c49"
         },
         "acceleration_batch_30": {
           "stage": "SUBMITTED_PENDING_CI",
@@ -503,7 +503,7 @@
           "sections": 74,
           "claims": 74,
           "graph_links": 148,
-          "shard_sha": "52de5182e4b79c63b123c94e8e8641d55627a519"
+          "shard_sha": "aeb5dc5b25b8678b589c9c2badf742dcab340b6b"
         }
       }
     },
@@ -805,11 +805,11 @@
   "latest_progress": {
     "task_id": "NEXT-009",
     "stage": "BATCH30_6_SUBMITTED_PENDING_CI",
-    "scope": "第29、30批連續12份1434行、157命題314限域非Canon關聯已提交，CI尚待確認。",
+    "scope": "B29/B30原CI失敗；已修正157筆證據橋摘要，待新CI。",
     "commit": "afeb96eb4310bc63cce2fc43cb44c8b506576a8a",
     "ci_result": "pending",
     "ci_run_url": "",
-    "not_finished": "兩批CI待確認；188份來源未審，正式0章PREWRITE HOLD。",
+    "not_finished": "原始兩批CI失敗，修正仍需CI成功。",
     "next_step": "核實B29/B30 CI，失敗修復；下一批073、076、095、097、098、099。"
   },
   "audited_batch_paths": [
