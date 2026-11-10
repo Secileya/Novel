@@ -51,7 +51,8 @@
     "audit_batch_growth": "新增審核批次時在 audited_batch_paths 登記，工作板累積數依實際資料核對；五檔與封存原SHA保持嚴格不變，不能把舊批次固定數字設成未來上限。",
     "live_new_source_intake": "Read HEAD Git tree using 全量來源_動態納管與驗收.mjs. All new sources, modified evidence, multimedia assets automatically join the pending universe on next actual run; not background monitoring; never silently exclude future files.",
     "goal_not_fixed_335": "335 historical baseline, total grows; 164/171 historic provenance, not mutually exclusive completion levels. Report accepted_all/total and remaining_all first.",
-    "batch_full_semantic_v2": "Use workload/risk-based batch planning; newly attested files require semantic_quality_v2. Existing six v1 proofs kept at historical provenance level, not automatically upgraded. CI checks section materiality and cross-batch reverse dependencies; no semantic omniscience claim."
+    "batch_full_semantic_v2": "Use workload/risk-based batch planning; newly attested files require semantic_quality_v2. Existing six v1 proofs kept at historical provenance level, not automatically upgraded. CI checks section materiality and cross-batch reverse dependencies; no semantic omniscience claim.",
+    "handoff_knowledge_base": "Every assistant MUST read AI接手_經驗回寫與Git交易規範.md and append an issue/solution entry to AI接手_經驗更新日誌.jsonl after updating latest batch progress; CI validates journal against workboard."
   },
   "tasks": [
     {
@@ -668,7 +669,8 @@
     "Record exact changed files plus Git commit and successful or failed CI",
     "Update workboard and preserve candidate/non-Canon and PREWRITE HOLD",
     "Do not claim 171 pending full semantic reviews are done from 41 targeted audit findings",
-    "Every assistant handoff/reply must report completed work, unfinished tasks, exact next step and verification status; consult --report."
+    "Every assistant handoff/reply must report completed work, unfinished tasks, exact next step and verification status; consult --report.",
+    "For every batch or materially changed handoff, update append-only AI接手_經驗更新日誌.jsonl with actual problems, root causes, fixes, verified CI and next action; run AI接手_經驗回寫驗證.mjs."
   ],
   "last_verified_handoff_install": {
     "baseline_commit": "67be4a1407314bcab8699bfbfab0ccb79240dbfb",

@@ -116,6 +116,10 @@ jobs:
       - name: Example retrieval receipt
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs' --query 'W01 十二區與舊九區的生態相容性' --receipt "$RUNNER_TEMP/giant-setting-receipt.json" > "$RUNNER_TEMP/giant-setting-stdout.json"
 
+      - name: Mandatory AI experience journal checker syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_經驗回寫驗證.mjs'
+      - name: Every batch records real failures and resolutions
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_經驗回寫驗證.mjs' --check --negative-test
       - name: Latest human-readable handoff generator syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_最新交接產生器.mjs'
       - name: Latest human-readable handoff agrees with workboard
