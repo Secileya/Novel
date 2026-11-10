@@ -22,6 +22,8 @@ jobs:
           node-version: '20'
       - name: Script syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs'
+      - name: Shared batch renderer syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/批次_分片建檔.mjs'
       - name: Source path integrity
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs' --check
       - name: Fourth semantic source ledger syntax

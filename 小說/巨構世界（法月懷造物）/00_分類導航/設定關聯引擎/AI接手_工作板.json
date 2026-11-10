@@ -5,13 +5,13 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "4a0c6fec0e53d590dceadc0eceb19599cf91845a",
+  "last_checked_head_before_handoff": "f27b25cca659eb13bbd79a2b00f76dfd45ea1834",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42781284588",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42811816504",
     "conclusion": "success",
-    "head_sha": "bb45c1125c85a64344a5dbb54c554bc6688748ec",
-    "warning": "來源唯一性及行號、來源SHA、結構、圖譜與日誌通過CI；不能替作者裁決Canon，也不是人類盲審全部語義。"
+    "head_sha": "d5c3dbce367dac915d1b3699abe59ff5126fe873",
+    "warning": "結構證據驗證不是作者Canon批准或語義絕對正確證明。"
   },
   "fact_snapshot": {
     "raw_source_files": 335,
@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第32批新登記6份待當批CI；最後已成功153／335，候選不升Canon，正式0章。",
+    "important": "第32批6份核心CI42811816504與Drive42811816442已success；159／335有效驗收，待176。第33批未驗收，目標已由使用者暫停。",
     "targeted_audit_records": 4464,
     "targeted_audit_verified_quotes": 4655,
     "full_file_editorial_accepted": 49,
@@ -90,10 +90,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第32批已完成編輯性驗收與登記，待當批CI success；已確認成功仍153份，不把pending當完成。",
-        "stage": "BATCH32_6_SUBMITTED_PENDING_CI",
-        "last_verified_commit": "43f857137c8b4f3224301a86d9f2d1ffa8b252c0",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42806727619",
+        "note": "第32批核心CI及Drive索引CI success，159／335，待176。使用者已暫停目標；第33批12份1948行僅排批與部分首讀，未建立驗收或計數。",
+        "stage": "BATCH32_6_CI_VERIFIED",
+        "last_verified_commit": "d5c3dbce367dac915d1b3699abe59ff5126fe873",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42811816504",
         "cross_source_next_batch": [],
         "historical_164_accepted": 110,
         "historical_171_accepted": 49,
@@ -115,7 +115,13 @@
           "07_候選故事與場景/064_候選實作_地方事件兩案_開篇旅行與完整人物場景.md",
           "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
           "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
-          "06_敘事規劃與工作流/069_長篇主幹候選_遷巒遠征_人物競逐_第一大高潮到登頂.md"
+          "06_敘事規劃與工作流/069_長篇主幹候選_遷巒遠征_人物競逐_第一大高潮到登頂.md",
+          "03_人物關係與語感/020_討論續錄_女主低配Franiya與故事優先.md",
+          "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
+          "03_人物關係與語感/016_逐輪補查_莉可到男女主及Celeste嗑CP.md",
+          "03_人物關係與語感/030_討論續錄_諾亞艾莉維亞雙向臉紅與暱稱.md",
+          "03_人物關係與語感/041_討論續錄_終橋本能恐懼_諾亞懷疑自己無法復歸_完整對話保留.md",
+          "06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -815,8 +821,8 @@
     "nonCanon_graph_links": 233,
     "all_source_accepted": 159,
     "all_source_pending": 176,
-    "state": "BATCH32_PENDING_CI__NON_CANON",
-    "notes": "本機直接建檔與Git CLI；CI尚未完成不得報當批成功。"
+    "state": "BATCH32_CI_VERIFIED__NON_CANON",
+    "notes": "52／52本機檢查及兩項當批CI成功；本次流程最佳化不新增驗收份數或完成批次。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -836,13 +842,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH32_6_SUBMITTED_PENDING_CI",
+    "stage": "BATCH32_6_CI_VERIFIED",
     "scope": "第32批六份838行、76主題段、233實質命題與24條個別二遍反問；具體後修SHA與原生節點雙向回讀。",
-    "commit": null,
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "已登記159／335待當批CI，最後成功153；另176份待整檔。候選不採Canon，正式0章／PREWRITE HOLD。",
-    "next_step": "當批CI成功後回寫並直接核讀下一批；原文不重寫，未知不補定。"
+    "commit": "d5c3dbce367dac915d1b3699abe59ff5126fe873",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42811816504",
+    "not_finished": "仍176份待整檔；目標依使用者操作暫停，第33批只有部分首讀與已防重排批，沒有新增驗收。正式0章／PREWRITE HOLD。",
+    "next_step": "使用者恢復目標後，先核最新main及12份防重，再沿既有首讀區段接續、完成全文兩遍與具體後修。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
