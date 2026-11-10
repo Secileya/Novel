@@ -4,9 +4,9 @@
   "repository": "Secileya/Novel",
   "source": "AI接手_工作板.json audited_batch_paths / 4th–7th source audits",
   "semantics": "Domain references are scoped retrieval joins to nodes already present in the canonical rules/social/temporal/container/version graphs. Association of a candidate or a correction to a domain node does NOT endorse the candidate or add an actual causal edge.",
-  "audit_record_count": 1851,
-  "mapped_review_count": 1851,
-  "links_count": 3760,
+  "audit_record_count": 1965,
+  "mapped_review_count": 1965,
+  "links_count": 3988,
   "unmapped_review_ids": [],
   "no_new_canon_or_hard_dependency_edges": true,
   "graph_gap_notice": "Original ecology/crosslayer dependency graphs exist separately. Do NOT infer a migration, trade flow or crossing from a semantic audit that only flags a draft or broad world motif. New causal edges require explicit independent source/path validation; audit-to-node relevance is not transitive causation.",
@@ -48484,6 +48484,2970 @@
         }
       ],
       "guardrail": "Read-only domain relevance, never new hard Canon or graph fact."
+    },
+    {
+      "audit_id": "SRC-ALL-1852",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "A/B互斥且A不是正式第一章｜原文3行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1852-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1852-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1853",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "吊索拆橋與市場生活同時運轉｜原文17行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 17
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1853-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1853-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1854",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "送貨員與踏板修復呈現地方人日常｜原文47行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 47
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1854-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1854-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1855",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "折索集市是多層立體生活場所｜原文73行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 73
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1855-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1855-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1856",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "工地安全路權不因主角能飛失效｜原文111行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 111
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1856-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1856-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1857",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "諾亞選觀景方式出於自己好奇｜原文143行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 143
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1857-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1857-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1858",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主青藍髮與彎呆毛是暫演｜原文165行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 165
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1858-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1858-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1859",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主有既存接縫研究且結果不符｜原文189行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 189
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1859-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1859-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1860",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "男主想走上舊梯與女主研究目的不同｜原文221行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 221
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1860-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1860-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1861",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "初見玩笑不代表多年私人默契｜原文241行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 241
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1861-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1861-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1862",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "兩主角對同一處結構懷不同目的｜原文269行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 269
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1862-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1862-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1863",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "居民步道可走而施工區不得跨線｜原文283行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 283
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1863-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1863-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1864",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "同路不等於女主答應同行觀光｜原文319行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 319
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1864-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1864-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1865",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主取得接縫觀測點但未全解謎｜原文345行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 345
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1865-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1865-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1866",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "對面曲殼有人居住的城是本A候選遠景｜原文377行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 377
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1866-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1866-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1867",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "後代改接的觀測屬本場證據｜原文413行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 413
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1867-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1867-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1868",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "最後才互報姓名，關係仍是初識｜原文435行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 435
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1868-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1868-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1869",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主仍獨自續查而男主仍看風景｜原文459行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 459
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1869-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1869-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1870",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "工地與居民的路權不得升格全域法條｜原文475行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 475
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1870-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1870-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1871",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "B與A互斥，唐榆游洵及新地名全是可撤回候選｜原文3行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1871-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1871-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1872",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "方井巨構、多代道路與日常貨運並存｜原文17行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 17
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1872-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1872-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1873",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "攤販知道本地出發窗口但非全知｜原文53行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 53
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1873-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1873-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1874",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "有人能上行也有人回不來，非必死預言｜原文65行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 65
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1874-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1874-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1875",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "公示上行圖是地方路網拼接｜原文79行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 79
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1875-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1875-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1876",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主先有定位標和自身研究問題｜原文103行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 103
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1876-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1876-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1877",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "局部未知不應被假定為已知安全｜原文135行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 135
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1877-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1877-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1878",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "男主注意到箭頭與實際臺階不符｜原文159行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 159
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1878-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1878-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1879",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "唐榆返城仍要交貨與結款｜原文181行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 181
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1879-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1879-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1880",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "多年未返的唐榆與餅攤有既有人際｜原文193行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 193
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1880-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1880-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1881",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主只知歸來者從某個上方路段到來｜原文225行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 225
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1881-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1881-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1882",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "唐榆看見游洵用舊圖而擔心遠征｜原文269行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 269
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1882-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1882-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1883",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "男主尚未決定加入遠征｜原文301行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 301
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1883-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1883-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1884",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "E去/S回在印刷版被合成同一路線｜原文325行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 325
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1884-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1884-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1885",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "唐榆不冒稱多年後仍知道所有現地｜原文355行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 355
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1885-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1885-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1886",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "今日局部接合實測不等於全域地理真相｜原文375行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 375
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1886-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1886-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1887",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主可公開帶時間範圍的局部更正｜原文419行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 419
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1887-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1887-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1888",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主願意關切但不自認整隊責任者｜原文441行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 441
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1888-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1888-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1889",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "互報姓名也未合夥或共享能力來源｜原文465行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 465
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1889-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1889-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1890",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "窗口能登異議附錄但不能取消私人隊伍｜原文483行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 483
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1890-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1890-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1891",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "沒交名冊會使諾亞失去隔日正式資格｜原文513行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 513
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1891-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1891-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1892",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "不提交報名表是有代價的自主選擇｜原文519行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 519
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1892-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1892-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1893",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "唐榆有自己的生活，不是主角工具人｜原文547行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 547
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1893-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1893-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1894",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B尾點為唐榆當面追問游洵舊資料｜原文581行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 581
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1894-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1894-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1895",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主打算去量回來的一側｜原文597行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 597
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1895-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1895-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1896",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主先忙自己的，沒有邀請同行｜原文619行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 619
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1896-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1896-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1897",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "附錄和報名後果都只發生在B試演｜原文641行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 641
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1897-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1897-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1898",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B更有鉤子但可能讓地方群像搶掉雙主角｜原文644行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 644
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1898-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1898-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1899",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "這是可重排的作者節點航圖非定章表｜原文3行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1899-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1899-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1900",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "使用者偏好B僅些微好奇並未正式採案｜原文5行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 5
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1900-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1900-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1901",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "核心硬規則與B私設地點必須隔離｜原文7行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 7
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1901-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1901-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1902",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "長中近三層導航，近程三至五章非配額｜原文23行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 23
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1902-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1902-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1903",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B較A好看不等於吸引力達標｜原文41行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 41
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1903-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1903-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1904",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "N00初見為方向，但B具體場景尚候選｜原文55行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 55
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1904-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1904-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1905",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "W01原槍首用必有真因果與後果｜原文60行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 60
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1905-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1905-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1906",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "首次真死前不知復歸，世界不倒帶｜原文66行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 66
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1906-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1906-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1907",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "戀人關係靠生活長期累積而非打卡｜原文69行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 69
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1907-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1907-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1908",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "節點總表不是正式發生順序｜原文75行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 75
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1908-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1908-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1909",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "原槍先天強大，不把續斷模組研究當已定｜原文83行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 83
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1909-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1909-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1910",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "首次開槍需考慮他人與物理損害｜原文89行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 89
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1910-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1910-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1911",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "死處醒處有效錨點和外物去留須事前釐清｜原文103行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 103
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1911-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1911-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1912",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主在遇見男主前就有個人研究問題｜原文125行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 125
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1912-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1912-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1913",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主可因自身目標獨立遠行｜原文128行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 128
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1913-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1913-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1914",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "局部登高與宏觀世界層跨越不同｜原文137行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 137
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1914-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1914-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1915",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "普通升降梯不應偷偷變宏觀跨層｜原文148行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 148
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1915-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1915-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1916",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B後續路圖事件要得局部答案而非無盡疑雲｜原文158行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 158
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1916-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1916-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1917",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "每章應保存角色位置、物件、信息差｜原文173行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 173
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1917-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1917-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1918",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "改路必連鎖改後續見面與人物知情｜原文193行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 193
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1918-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1918-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1919",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B路圖真相尚需正式採案前核定｜原文203行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 203
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1919-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1919-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1920",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "113只是B的P1，地圖更細不等於權威提高｜原文215行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 215
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1920-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1920-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1921",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "C51第三個座位是已採而尚未正式發生｜原文220行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 220
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1921-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1921-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1922",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "荒野可有人，不能一路只跳交通表｜原文225行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 225
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1922-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1922-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1923",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "參考景觀可入世但地理相鄰未定｜原文232行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 232
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1923-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1923-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1924",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "W/K真層級和L0-L2地方路網分開｜原文236行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 236
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1924-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1924-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1925",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "W01九區舊圖重建不是原圖精確複製｜原文245行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 245
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1925-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1925-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1926",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "十二項寫作研究不變成固定六千字規定｜原文249行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 249
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1926-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1926-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1927",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "A/B2/C三案互斥，不能擅自合為正式章｜原文257行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+        "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+        "line": 257
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1927-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1927-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1928",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B後續P1不是首篇採案｜原文3行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1928-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1928-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1929",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "初遇與復歸武器等已定邊界仍要遵守｜原文7行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 7
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1929-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1929-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1930",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "雨檐埠是有經濟居民的生活地域候選｜原文19行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 19
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1930-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1930-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1931",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "各方因各自工作和願望相遇非統一陰謀｜原文23行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 23
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1931-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1931-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1932",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "E/S是不同當地功能路並非世界層｜原文41行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 41
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1932-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1932-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1933",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "交通行時是假設值非真測算｜原文47行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 47
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1933-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1933-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1934",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "費用無已定貨幣或正式報價｜原文53行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 53
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1934-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1934-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1935",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "看似連續承脊不代表現役全段可達｜原文61行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 61
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1935-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1935-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1936",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "唐榆E去S回為可撤回候選往事｜原文71行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 71
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1936-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1936-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1937",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "舊圖有適用日期與分向但不永久有效｜原文73行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 73
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1937-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1937-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1938",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "公示圖合成分向而漏非雙向註記｜原文83行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 83
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1938-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1938-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1939",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "編圖者與領隊責任有別且不宜代替法庭｜原文87行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 87
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1939-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1939-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1940",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "現實工程改接與資料錯誤是兩個原因｜原文91行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 91
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1940-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1940-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1941",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主局部測線無法證明整段回程安全｜原文97行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 97
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1941-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1941-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1942",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "唐榆多年缺席使她不知全部現役工務｜原文109行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 109
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1942-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1942-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1943",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "游洵不能憑去程核證保證回程｜原文116行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 116
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1943-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1943-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1944",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "女主可公開片段資料保留核心研究｜原文123行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 123
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1944-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1944-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1945",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "諾亞未交名冊不會免費恢復入隊身分｜原文130行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 130
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1945-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1945-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1946",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "公示附註與設施關閉分屬不同職權｜原文137行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 137
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1946-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1946-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1947",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "S1從唐榆質問游洵與比對兩圖展開｜原文147行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 147
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1947-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1947-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1948",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "S3以舊圖與今日工務證據局部閉合｜原文149行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 149
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1948-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1948-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1949",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "S5當地結案不能突然補新超級幕後｜原文151行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 151
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1949-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1949-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1950",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "隊伍可有條件出發，成員自行衡量｜原文156行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 156
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1950-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1950-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1951",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "首章讀者只需所見地景與問題｜原文170行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 170
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1951-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1951-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1952",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "諾亞另找運輸須有真代價｜原文181行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 181
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1952-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1952-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1953",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "雙主角即使同向也要各自選路｜原文190行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 190
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1953-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1953-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1954",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "諾亞知道什麼與唐榆私人過去分開｜原文201行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 201
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1954-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1954-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1955",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B案初遇不是多年熟稔｜原文214行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 214
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1955-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1955-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1956",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "續篇不能跳過B真停點與未交名冊｜原文225行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 225
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1956-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1956-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1957",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "讀者若未吸引不能靠亂添世界級陰謀｜原文239行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 239
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1957-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1957-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1958",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "L0-E3-E5-L2路線完整但只供P1候選｜原文245行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 245
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1958-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1958-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1959",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "地名與價格及女主術式均未正式定案｜原文250行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 250
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1959-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1959-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1960",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "後出修正同層只是假設沒有已定W編號｜原文259行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 259
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1960-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1960-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1961",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "荒野不是無人，居民不因主角到來才存在｜原文263行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 263
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1961-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1961-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1962",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "參考圖片可直接入世但不能亂配地理路線｜原文268行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 268
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1962-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1962-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1963",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "W/K總圖不把方井城擅自定W01或升跨層陰謀｜原文275行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 275
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1963-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1963-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1964",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "九區地圖重建未授權併入方井城｜原文282行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 282
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1964-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1964-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
+    },
+    {
+      "audit_id": "SRC-ALL-1965",
+      "reviewed_status": "UNRESOLVED_EXPLICIT",
+      "summary": "135新故鄉/雙武裝前史仍未採入Canon｜原文285行",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+        "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+        "line": 285
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-1965-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-1965-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "Evidence-scoped domain relevance only; no new Canon or crossing facts."
     }
   ]
 }

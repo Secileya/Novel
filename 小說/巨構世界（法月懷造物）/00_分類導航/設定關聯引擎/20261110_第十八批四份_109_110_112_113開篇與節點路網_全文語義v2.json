@@ -1,0 +1,2440 @@
+{
+  "schema": "mega-batch18-four-source-v2",
+  "date": "2026-11-10",
+  "source_files_targeted": 4,
+  "source_lines": 1669,
+  "sections_total": 29,
+  "record_count": 114,
+  "original_anchors_count": 114,
+  "source_file_manifest": [
+    {
+      "path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+      "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+      "lines": 478,
+      "sections": 8,
+      "claims": 19,
+      "cohort": "HISTORICAL_ROLE_CARD_171"
+    },
+    {
+      "path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+      "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+      "lines": 645,
+      "sections": 10,
+      "claims": 28,
+      "cohort": "HISTORICAL_ROLE_CARD_171"
+    },
+    {
+      "path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+      "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+      "lines": 259,
+      "sections": 5,
+      "claims": 29,
+      "cohort": "HISTORICAL_ROLE_CARD_171"
+    },
+    {
+      "path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+      "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+      "lines": 287,
+      "sections": 6,
+      "claims": 38,
+      "cohort": "HISTORICAL_FINE_GRAINED_164"
+    }
+  ],
+  "authority_boundary": "A109/B110互斥，112節點表非固定章號，113的L0/L2與唐榆/游洵都是可撤回候選。世界層後出修訂與C51已採未寫獨立成立；正式0章PREWRITE HOLD。",
+  "records": [
+    {
+      "id": "SRC-ALL-1852",
+      "title": "A/B互斥且A不是正式第一章｜原文3行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第3行原文：「> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女」。本來源可證的實際編輯性判讀：A/B互斥且A不是正式第一章。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1853",
+      "title": "吊索拆橋與市場生活同時運轉｜原文17行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第17行原文：「它斜斜穿過幾層懸空街市，底下掛著比房屋還高的支撐架。六條吊索從更上方一處看不見的工作平臺垂下，拉得筆直；橋身緩慢向左偏轉，連帶把一大片陰影從市場的布棚上挪開。」。本來源可證的實際編輯性判讀：吊索拆橋與市場生活同時運轉。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 17,
+          "quote": "它斜斜穿過幾層懸空街市，底下掛著比房屋還高的支撐架。六條吊索從更上方一處看不見的工作平臺垂下，拉得筆直；橋身緩慢向左偏轉，連帶把一大片陰影從市場的布棚上挪開。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1854",
+      "title": "送貨員與踏板修復呈現地方人日常｜原文47行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第47行原文：「「他昨天還在抱怨那條梯子的第三塊板晃得太厲害。」」。本來源可證的實際編輯性判讀：送貨員與踏板修復呈現地方人日常。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 47,
+          "quote": "「他昨天還在抱怨那條梯子的第三塊板晃得太厲害。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1855",
+      "title": "折索集市是多層立體生活場所｜原文73行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第73行原文：「昨夜燈火把遠近的道路揉成了一片，他只看到沿著巨壁展開的幾條明亮街帶。現在陽光從舊橋拆開的空隙漏進來，才顯出各層根本不在同一個平面。」。本來源可證的實際編輯性判讀：折索集市是多層立體生活場所。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 73,
+          "quote": "昨夜燈火把遠近的道路揉成了一片，他只看到沿著巨壁展開的幾條明亮街帶。現在陽光從舊橋拆開的空隙漏進來，才顯出各層根本不在同一個平面。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1856",
+      "title": "工地安全路權不因主角能飛失效｜原文111行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第111行原文：「「你能爬，能跳，能飛，都跟我沒關係。吊梁下面有人，出了事不是你自己摔一下就算了。」」。本來源可證的實際編輯性判讀：工地安全路權不因主角能飛失效。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 111,
+          "quote": "「你能爬，能跳，能飛，都跟我沒關係。吊梁下面有人，出了事不是你自己摔一下就算了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1857",
+      "title": "諾亞選觀景方式出於自己好奇｜原文143行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第143行原文：「諾亞本來已準備去買升降臺的票。」。本來源可證的實際編輯性判讀：諾亞選觀景方式出於自己好奇。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 143,
+          "quote": "諾亞本來已準備去買升降臺的票。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1858",
+      "title": "女主青藍髮與彎呆毛是暫演｜原文165行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第165行原文：「風掀起她深青藍色的長髮，髮梢掃過肩頭，頭頂有一小撮不太聽話的髮絲翹著，彎出一個柔軟的弧。她把圖紙一角壓在掌下，抬眼看向高處時，原本還帶著一點笑的神情忽然認真起來。」。本來源可證的實際編輯性判讀：女主青藍髮與彎呆毛是暫演。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 165,
+          "quote": "風掀起她深青藍色的長髮，髮梢掃過肩頭，頭頂有一小撮不太聽話的髮絲翹著，彎出一個柔軟的弧。她把圖紙一角壓在掌下，抬眼看向高處時，原本還帶著一點笑的神情忽然認真起來。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1859",
+      "title": "女主有既存接縫研究且結果不符｜原文189行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第189行原文：「「因為我剛才量到的，不像是斷開的東西會有的結果。」」。本來源可證的實際編輯性判讀：女主有既存接縫研究且結果不符。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 189,
+          "quote": "「因為我剛才量到的，不像是斷開的東西會有的結果。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1860",
+      "title": "男主想走上舊梯與女主研究目的不同｜原文221行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第221行原文：「「因為我想上去。」」。本來源可證的實際編輯性判讀：男主想走上舊梯與女主研究目的不同。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 221,
+          "quote": "「因為我想上去。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1861",
+      "title": "初見玩笑不代表多年私人默契｜原文241行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第241行原文：「「那更巧了。」諾亞說，「我通常就是對不一樣的地方比較有興趣。」」。本來源可證的實際編輯性判讀：初見玩笑不代表多年私人默契。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 241,
+          "quote": "「那更巧了。」諾亞說，「我通常就是對不一樣的地方比較有興趣。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1862",
+      "title": "兩主角對同一處結構懷不同目的｜原文269行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第269行原文：「「觀景臺看的是大家都能看到的角度。」諾亞重新抬頭，「但那條路剛才還被橋擋著。我想看看從它那裡，會不會有別的東西。」」。本來源可證的實際編輯性判讀：兩主角對同一處結構懷不同目的。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 269,
+          "quote": "「觀景臺看的是大家都能看到的角度。」諾亞重新抬頭，「但那條路剛才還被橋擋著。我想看看從它那裡，會不會有別的東西。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1863",
+      "title": "居民步道可走而施工區不得跨線｜原文283行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第283行原文：「入口旁甚至釘著一塊小牌子：**居民通行，前段施工區不得跨入。**」。本來源可證的實際編輯性判讀：居民步道可走而施工區不得跨線。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 283,
+          "quote": "入口旁甚至釘著一塊小牌子：**居民通行，前段施工區不得跨入。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1864",
+      "title": "同路不等於女主答應同行觀光｜原文319行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第319行原文：「「等等。」她比他還快一步踏上旁邊的階，轉身望著他，「只是同一條路。別講得像我答應陪你觀光一樣。」」。本來源可證的實際編輯性判讀：同路不等於女主答應同行觀光。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 319,
+          "quote": "「等等。」她比他還快一步踏上旁邊的階，轉身望著他，「只是同一條路。別講得像我答應陪你觀光一樣。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1865",
+      "title": "女主取得接縫觀測點但未全解謎｜原文345行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第345行原文：「她在一道新舊接縫前蹲下，指尖沿著金屬表面停住。」。本來源可證的實際編輯性判讀：女主取得接縫觀測點但未全解謎。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 345,
+          "quote": "她在一道新舊接縫前蹲下，指尖沿著金屬表面停住。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1866",
+      "title": "對面曲殼有人居住的城是本A候選遠景｜原文377行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第377行原文：「它不是建在他們這道巨壁上的，而是沿著對面一塊看似懸空的巨大曲殼展開。明亮的屋頂像細碎的鱗片，從曲殼下側一路連到上側；兩城之間沒有一座完整的直橋，只有幾段不同年代的舊梁懸在雲間。某一處斷梁頂端，竟還亮著一小片生活」。本來源可證的實際編輯性判讀：對面曲殼有人居住的城是本A候選遠景。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 377,
+          "quote": "它不是建在他們這道巨壁上的，而是沿著對面一塊看似懸空的巨大曲殼展開。明亮的屋頂像細碎的鱗片，從曲殼下側一路連到上側；兩城之間沒有一座完整的直橋，只有幾段不同年代的舊梁懸在雲間。某一處斷梁頂端，竟還亮著一小片生活"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1867",
+      "title": "後代改接的觀測屬本場證據｜原文413行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第413行原文：「「你看。原本以為是斷口的地方，從這個角度看，其實還有一段被後人接到另一片路網裡了。」」。本來源可證的實際編輯性判讀：後代改接的觀測屬本場證據。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 413,
+          "quote": "「你看。原本以為是斷口的地方，從這個角度看，其實還有一段被後人接到另一片路網裡了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1868",
+      "title": "最後才互報姓名，關係仍是初識｜原文435行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第435行原文：「「艾莉維亞。」」。本來源可證的實際編輯性判讀：最後才互報姓名，關係仍是初識。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 435,
+          "quote": "「艾莉維亞。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1869",
+      "title": "女主仍獨自續查而男主仍看風景｜原文459行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第459行原文：「她不是為了他的風景而來。」。本來源可證的實際編輯性判讀：女主仍獨自續查而男主仍看風景。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 459,
+          "quote": "她不是為了他的風景而來。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1870",
+      "title": "工地與居民的路權不得升格全域法條｜原文475行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第475行原文：「- **地方自主**：閻白拒絕B工地，C居民步道可走且不跨紅線，店家和送貨員正常工作；工地不因主角到場停工。**A/B/C路權在本篇只是單次可撤回設定，不代表正式世界法規。**」。本來源可證的實際編輯性判讀：工地與居民的路權不得升格全域法條。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/109_非正史開篇對照A_拆路之後仍有人走_真初遇連續試演.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 475,
+          "quote": "- **地方自主**：閻白拒絕B工地，C居民步道可走且不跨紅線，店家和送貨員正常工作；工地不因主角到場停工。**A/B/C路權在本篇只是單次可撤回設定，不代表正式世界法規。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1871",
+      "title": "B與A互斥，唐榆游洵及新地名全是可撤回候選｜原文3行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第3行原文：「> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫」。本來源可證的實際編輯性判讀：B與A互斥，唐榆游洵及新地名全是可撤回候選。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1872",
+      "title": "方井巨構、多代道路與日常貨運並存｜原文17行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第17行原文：「四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。」。本來源可證的實際編輯性判讀：方井巨構、多代道路與日常貨運並存。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 17,
+          "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1873",
+      "title": "攤販知道本地出發窗口但非全知｜原文53行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第53行原文：「「小伙子。」她望向他，「你該不會是準備上去的人吧？」」。本來源可證的實際編輯性判讀：攤販知道本地出發窗口但非全知。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 53,
+          "quote": "「小伙子。」她望向他，「你該不會是準備上去的人吧？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1874",
+      "title": "有人能上行也有人回不來，非必死預言｜原文65行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第65行原文：「「有啊。」她語氣自然得像在說下一條街，「也有回不來的人。」」。本來源可證的實際編輯性判讀：有人能上行也有人回不來，非必死預言。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 65,
+          "quote": "「有啊。」她語氣自然得像在說下一條街，「也有回不來的人。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1875",
+      "title": "公示上行圖是地方路網拼接｜原文79行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第79行原文：「告示上畫的不是一條普通道路，而是一組由許多局部路段拼成的上行線。路線先從井東側攀升，接著越過兩座維護臺，再沿一片斜向伸出的巨大承力脊繞到更深處。」。本來源可證的實際編輯性判讀：公示上行圖是地方路網拼接。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 79,
+          "quote": "告示上畫的不是一條普通道路，而是一組由許多局部路段拼成的上行線。路線先從井東側攀升，接著越過兩座維護臺，再沿一片斜向伸出的巨大承力脊繞到更深處。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1876",
+      "title": "女主先有定位標和自身研究問題｜原文103行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第103行原文：「「那裡有我貼的定位標。你一翻，今天早上的數據就白記了。」」。本來源可證的實際編輯性判讀：女主先有定位標和自身研究問題。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 103,
+          "quote": "「那裡有我貼的定位標。你一翻，今天早上的數據就白記了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1877",
+      "title": "局部未知不應被假定為已知安全｜原文135行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第135行原文：「「不客氣。」她又補上一句，「不懂就別亂信它。」」。本來源可證的實際編輯性判讀：局部未知不應被假定為已知安全。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 135,
+          "quote": "「不客氣。」她又補上一句，「不懂就別亂信它。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1878",
+      "title": "男主注意到箭頭與實際臺階不符｜原文159行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第159行原文：「她沒有立刻反駁，而是順著他的手看了好幾秒。」。本來源可證的實際編輯性判讀：男主注意到箭頭與實際臺階不符。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 159,
+          "quote": "她沒有立刻反駁，而是順著他的手看了好幾秒。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1879",
+      "title": "唐榆返城仍要交貨與結款｜原文181行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第181行原文：「一架狹窄的升降籠沿南壁滑下，速度不快。鐵籠裡擠著幾袋包裹、一輛折好的小車，還有一個背包幾乎比自己寬的旅人。」。本來源可證的實際編輯性判讀：唐榆返城仍要交貨與結款。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 181,
+          "quote": "一架狹窄的升降籠沿南壁滑下，速度不快。鐵籠裡擠著幾袋包裹、一輛折好的小車，還有一個背包幾乎比自己寬的旅人。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1880",
+      "title": "多年未返的唐榆與餅攤有既有人際｜原文193行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第193行原文：「「……唐榆？」」。本來源可證的實際編輯性判讀：多年未返的唐榆與餅攤有既有人際。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 193,
+          "quote": "「……唐榆？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1881",
+      "title": "女主只知歸來者從某個上方路段到來｜原文225行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第225行原文：「「至少從我們上面的某一段來。」」。本來源可證的實際編輯性判讀：女主只知歸來者從某個上方路段到來。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 225,
+          "quote": "「至少從我們上面的某一段來。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1882",
+      "title": "唐榆看見游洵用舊圖而擔心遠征｜原文269行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第269行原文：「「對啊。聽說這次準備很久，連你的舊圖都弄到了。你們以前不是走過？」」。本來源可證的實際編輯性判讀：唐榆看見游洵用舊圖而擔心遠征。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 269,
+          "quote": "「對啊。聽說這次準備很久，連你的舊圖都弄到了。你們以前不是走過？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1883",
+      "title": "男主尚未決定加入遠征｜原文301行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第301行原文：「唐榆短暫沉默。」。本來源可證的實際編輯性判讀：男主尚未決定加入遠征。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 301,
+          "quote": "唐榆短暫沉默。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1884",
+      "title": "E去/S回在印刷版被合成同一路線｜原文325行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第325行原文：「「這張印成了來回都走同一段。」」。本來源可證的實際編輯性判讀：E去/S回在印刷版被合成同一路線。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 325,
+          "quote": "「這張印成了來回都走同一段。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1885",
+      "title": "唐榆不冒稱多年後仍知道所有現地｜原文355行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第355行原文：「「很多年前的路，我不能保證現在還一樣。」」。本來源可證的實際編輯性判讀：唐榆不冒稱多年後仍知道所有現地。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 355,
+          "quote": "「很多年前的路，我不能保證現在還一樣。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1886",
+      "title": "今日局部接合實測不等於全域地理真相｜原文375行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第375行原文：「「這個不是圖紙印反。是你們原本要回來的那段接合，現在跟出發時的接合不在同一個位置了。」」。本來源可證的實際編輯性判讀：今日局部接合實測不等於全域地理真相。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 375,
+          "quote": "「這個不是圖紙印反。是你們原本要回來的那段接合，現在跟出發時的接合不在同一個位置了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1887",
+      "title": "女主可公開帶時間範圍的局部更正｜原文419行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第419行原文：「「現在能確定這個箭頭不能照原樣標。我可以出一張附實測時間的更正圖。」」。本來源可證的實際編輯性判讀：女主可公開帶時間範圍的局部更正。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 419,
+          "quote": "「現在能確定這個箭頭不能照原樣標。我可以出一張附實測時間的更正圖。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1888",
+      "title": "女主願意關切但不自認整隊責任者｜原文441行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第441行原文：「「也不是不擔心。」她很坦然，「但我跟他們又不認識，沒必要說得像我非得負責一樣。」」。本來源可證的實際編輯性判讀：女主願意關切但不自認整隊責任者。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 441,
+          "quote": "「也不是不擔心。」她很坦然，「但我跟他們又不認識，沒必要說得像我非得負責一樣。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1889",
+      "title": "互報姓名也未合夥或共享能力來源｜原文465行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第465行原文：「「嗯，知道了。」她把一份測線示意塞進臨時封套，「現在，諾亞先生，能不能先幫我把這個遞到窗口？我得去把旁邊的量測臺收起來。」」。本來源可證的實際編輯性判讀：互報姓名也未合夥或共享能力來源。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 465,
+          "quote": "「嗯，知道了。」她把一份測線示意塞進臨時封套，「現在，諾亞先生，能不能先幫我把這個遞到窗口？我得去把旁邊的量測臺收起來。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1890",
+      "title": "窗口能登異議附錄但不能取消私人隊伍｜原文483行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第483行原文：「報名窗口的工作人員看了艾莉維亞的更正圖，又看了唐榆帶來的舊路記錄。」。本來源可證的實際編輯性判讀：窗口能登異議附錄但不能取消私人隊伍。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 483,
+          "quote": "報名窗口的工作人員看了艾莉維亞的更正圖，又看了唐榆帶來的舊路記錄。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1891",
+      "title": "沒交名冊會使諾亞失去隔日正式資格｜原文513行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第513行原文：「「有。但今天窗口關閉前，你不交名冊，明天就不算正式隊員。」」。本來源可證的實際編輯性判讀：沒交名冊會使諾亞失去隔日正式資格。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 513,
+          "quote": "「有。但今天窗口關閉前，你不交名冊，明天就不算正式隊員。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1892",
+      "title": "不提交報名表是有代價的自主選擇｜原文519行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第519行原文：「這是他今天做的第一個真正有代價的選擇。」。本來源可證的實際編輯性判讀：不提交報名表是有代價的自主選擇。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 519,
+          "quote": "這是他今天做的第一個真正有代價的選擇。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1893",
+      "title": "唐榆有自己的生活，不是主角工具人｜原文547行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第547行原文：「「那最好先別把別人的路當故事。」」。本來源可證的實際編輯性判讀：唐榆有自己的生活，不是主角工具人。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 547,
+          "quote": "「那最好先別把別人的路當故事。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1894",
+      "title": "B尾點為唐榆當面追問游洵舊資料｜原文581行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第581行原文：「「你還記不記得，我當年給你的是哪一段路？」」。本來源可證的實際編輯性判讀：B尾點為唐榆當面追問游洵舊資料。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 581,
+          "quote": "「你還記不記得，我當年給你的是哪一段路？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1895",
+      "title": "女主打算去量回來的一側｜原文597行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第597行原文：「「不是他們明天要走的出發口。」」。本來源可證的實際編輯性判讀：女主打算去量回來的一側。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 597,
+          "quote": "「不是他們明天要走的出發口。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1896",
+      "title": "女主先忙自己的，沒有邀請同行｜原文619行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第619行原文：「「那就等有空再去。」她轉身往自己原先的測點走，聲音十分隨意，「我先忙我的。」」。本來源可證的實際編輯性判讀：女主先忙自己的，沒有邀請同行。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 619,
+          "quote": "「那就等有空再去。」她轉身往自己原先的測點走，聲音十分隨意，「我先忙我的。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1897",
+      "title": "附錄和報名後果都只發生在B試演｜原文641行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第641行原文：「- **可見代價與後果**：公開附錄已登記（不能隨便收回），諾亞沒立即提交名冊可能錯過既定出發資格，唐榆拿著資料去質問舊識，游洵必須面對自己與隊員的選擇。」。本來源可證的實際編輯性判讀：附錄和報名後果都只發生在B試演。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 641,
+          "quote": "- **可見代價與後果**：公開附錄已登記（不能隨便收回），諾亞沒立即提交名冊可能錯過既定出發資格，唐榆拿著資料去質問舊識，游洵必須面對自己與隊員的選擇。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1898",
+      "title": "B更有鉤子但可能讓地方群像搶掉雙主角｜原文644行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第644行原文：「- **此案也有真風險**：唐榆與游洵很容易比兩主角更搶眼；場景若再拉長一倍工程、地圖和許可對話，節奏又會變沉。**B案不因事件鉤子較強就自動成為正式首章**。」。本來源可證的實際編輯性判讀：B更有鉤子但可能讓地方群像搶掉雙主角。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "07_候選故事與場景/110_非正史開篇對照B_從上面下來的人_真初遇連續試演.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 644,
+          "quote": "- **此案也有真風險**：唐榆與游洵很容易比兩主角更搶眼；場景若再拉長一倍工程、地圖和許可對話，節奏又會變沉。**B案不因事件鉤子較強就自動成為正式首章**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1899",
+      "title": "這是可重排的作者節點航圖非定章表｜原文3行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第3行原文：「> 2026-10-20。根據使用者閱讀第109 A／第110 B後的直接回饋建立。這是**能持續更新的作者層敘事導航**，不是固定章號大綱，也沒有把B候選升格為正式第一章。」。本來源可證的實際編輯性判讀：這是可重排的作者節點航圖非定章表。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 3,
+          "quote": "> 2026-10-20。根據使用者閱讀第109 A／第110 B後的直接回饋建立。這是**能持續更新的作者層敘事導航**，不是固定章號大綱，也沒有把B候選升格為正式第一章。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1900",
+      "title": "使用者偏好B僅些微好奇並未正式採案｜原文5行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第5行原文：「> **使用者本輪意見與優先級**：「B更好看些」；不過「雖然沒有強烈興趣但還是會有點好奇」。初章讀者知道得少是可以接受的：大概知道城市很大、似乎有隊伍固定往上走，其他透過對話與景觀、角色在需要時發問慢慢了解即」。本來源可證的實際編輯性判讀：使用者偏好B僅些微好奇並未正式採案。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "SOURCE_SCOPED_LATER_REVISION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 5,
+          "quote": "> **使用者本輪意見與優先級**：「B更好看些」；不過「雖然沒有強烈興趣但還是會有點好奇」。初章讀者知道得少是可以接受的：大概知道城市很大、似乎有隊伍固定往上走，其他透過對話與景觀、角色在需要時發問慢慢了解即"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1901",
+      "title": "核心硬規則與B私設地點必須隔離｜原文7行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第7行原文：「> **現行正史邊界**：第067已定正式第一章諾亞與艾莉維亞初遇。第028已定真正最高層是兩人的長線興趣、諾亞原裝核心武器確實不完整且能得到有真效果的配套。第036／037已定特殊武器跟諾亞復歸、普通外物不自」。本來源可證的實際編輯性判讀：核心硬規則與B私設地點必須隔離。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 7,
+          "quote": "> **現行正史邊界**：第067已定正式第一章諾亞與艾莉維亞初遇。第028已定真正最高層是兩人的長線興趣、諾亞原裝核心武器確實不完整且能得到有真效果的配套。第036／037已定特殊武器跟諾亞復歸、普通外物不自"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1902",
+      "title": "長中近三層導航，近程三至五章非配額｜原文23行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第23行原文：「| 近程滾動窗口 | 下一章及其後約3–5章，非硬配額 | 當前日時地點、下一段要做什麼、誰在場、裝備、信息差、預定場景推力及本段結尾 | **每完成一章就更新** |」。本來源可證的實際編輯性判讀：長中近三層導航，近程三至五章非配額。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 23,
+          "quote": "| 近程滾動窗口 | 下一章及其後約3–5章，非硬配額 | 當前日時地點、下一段要做什麼、誰在場、裝備、信息差、預定場景推力及本段結尾 | **每完成一章就更新** |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1903",
+      "title": "B較A好看不等於吸引力達標｜原文41行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第41行原文：「**用戶的實際閱讀感受**：B比A有趣，但目前只有一些好奇，並未被強烈吸住。這應作為真實回饋保留，不能記成「B完全成功」。」。本來源可證的實際編輯性判讀：B較A好看不等於吸引力達標。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 41,
+          "quote": "**用戶的實際閱讀感受**：B比A有趣，但目前只有一些好奇，並未被強烈吸住。這應作為真實回饋保留，不能記成「B完全成功」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1904",
+      "title": "N00初見為方向，但B具體場景尚候選｜原文55行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第55行原文：「| **N00 雙主角** | 第一次見面，兩人已分別有向高處看的動機 | 此前互不認識；現場兩人都為自己的事而來 | 彼此知道姓名和若干特徵，不能立刻擁有後期私人默契 | 初遇為已定；B場景候選 |」。本來源可證的實際編輯性判讀：N00初見為方向，但B具體場景尚候選。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 55,
+          "quote": "| **N00 雙主角** | 第一次見面，兩人已分別有向高處看的動機 | 此前互不認識；現場兩人都為自己的事而來 | 彼此知道姓名和若干特徵，不能立刻擁有後期私人默契 | 初遇為已定；B場景候選 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1905",
+      "title": "W01原槍首用必有真因果與後果｜原文60行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第60行原文：「| **W01 諾亞** | 第一次動用原裝槍 | 真敵人或物理問題，需要開槍；基礎槍已足夠強，無須模組才有用 | 可見威力、用槍方式、後果與他作決定的風格 | 候選，場景未決 |」。本來源可證的實際編輯性判讀：W01原槍首用必有真因果與後果。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 60,
+          "quote": "| **W01 諾亞** | 第一次動用原裝槍 | 真敵人或物理問題，需要開槍；基礎槍已足夠強，無須模組才有用 | 可見威力、用槍方式、後果與他作決定的風格 | 候選，場景未決 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1906",
+      "title": "首次真死前不知復歸，世界不倒帶｜原文66行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第66行原文：「| **D00 諾亞** | 第一次真正死亡 | 死前不知道會復歸，當下危險足以致死；槍和維亞都不無理失靈 | 原地世界繼續、真失物／死者／目擊後果不倒帶 | 核心規則已定；死處與時機未決 |」。本來源可證的實際編輯性判讀：首次真死前不知復歸，世界不倒帶。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 66,
+          "quote": "| **D00 諾亞** | 第一次真正死亡 | 死前不知道會復歸，當下危險足以致死；槍和維亞都不無理失靈 | 原地世界繼續、真失物／死者／目擊後果不倒帶 | 核心規則已定；死處與時機未決 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1907",
+      "title": "戀人關係靠生活長期累積而非打卡｜原文69行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第69行原文：「| **REL0–REL2 雙主角** | 陌生→可靠同伴→高度親密與真正戀人 | 足夠多有因果的選擇、生活與互相理解 | 私人暱稱、牽手、調戲、外貌欣賞與擔心逐步變自然；不用大吵架 | 長線方向已定；具體事件」。本來源可證的實際編輯性判讀：戀人關係靠生活長期累積而非打卡。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 69,
+          "quote": "| **REL0–REL2 雙主角** | 陌生→可靠同伴→高度親密與真正戀人 | 足夠多有因果的選擇、生活與互相理解 | 私人暱稱、牽手、調戲、外貌欣賞與擔心逐步變自然；不用大吵架 | 長線方向已定；具體事件"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1908",
+      "title": "節點總表不是正式發生順序｜原文75行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第75行原文：「**特別注意**：此表不是事件的正式發生順序表。E00可能早於W01；D00可能在M00前或後；兩人戀愛進度也不依槍模組數目提升。不同錨點可以同一事件碰在一起，但**不能為了省章把全部重要第一次塞進一個高潮**」。本來源可證的實際編輯性判讀：節點總表不是正式發生順序。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 75,
+          "quote": "**特別注意**：此表不是事件的正式發生順序表。E00可能早於W01；D00可能在M00前或後；兩人戀愛進度也不依槍模組數目提升。不同錨點可以同一事件碰在一起，但**不能為了省章把全部重要第一次塞進一個高潮**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1909",
+      "title": "原槍先天強大，不把續斷模組研究當已定｜原文83行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第83行原文：「**已定**：諾亞原本就持有超高階原裝核心槍，並非拿到第一個模組才擁有真正的武力；原槍確有追尋配套的長期空間；首次死亡後原槍跟人回來。第057「續斷」的具體型態、斷接與八模組族仍是候選，不得當已核准原理。」。本來源可證的實際編輯性判讀：原槍先天強大，不把續斷模組研究當已定。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 83,
+          "quote": "**已定**：諾亞原本就持有超高階原裝核心槍，並非拿到第一個模組才擁有真正的武力；原槍確有追尋配套的長期空間；首次死亡後原槍跟人回來。第057「續斷」的具體型態、斷接與八模組族仍是候選，不得當已核准原理。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1910",
+      "title": "首次開槍需考慮他人與物理損害｜原文89行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第89行原文：「| **W01 第一次實際開槍** | 出現與主角目的有關的戰鬥、救援、精密拆卸或明確阻力 | 目標、其防護與真價值、附近工人／居民、使用槍會帶來什麼破壞與反應 |」。本來源可證的實際編輯性判讀：首次開槍需考慮他人與物理損害。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 89,
+          "quote": "| **W01 第一次實際開槍** | 出現與主角目的有關的戰鬥、救援、精密拆卸或明確阻力 | 目標、其防護與真價值、附近工人／居民、使用槍會帶來什麼破壞與反應 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1911",
+      "title": "死處醒處有效錨點和外物去留須事前釐清｜原文103行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第103行原文：「**R00｜復歸醒來**：在正式寫D00之前，作者**必須先核定當次有效錨點、地點、原因、外界過去多久、他醒後如何確認不是昏迷、武器與普通外物如何處置**。地理錨點與生活痕跡錨點均已存在，但何者第一次生效尚未選」。本來源可證的實際編輯性判讀：死處醒處有效錨點和外物去留須事前釐清。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 103,
+          "quote": "**R00｜復歸醒來**：在正式寫D00之前，作者**必須先核定當次有效錨點、地點、原因、外界過去多久、他醒後如何確認不是昏迷、武器與普通外物如何處置**。地理錨點與生活痕跡錨點均已存在，但何者第一次生效尚未選"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1912",
+      "title": "女主在遇見男主前就有個人研究問題｜原文125行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第125行原文：「| **E00** | 初登場就有自己在研究的具體問題 | 她已取得部分局部數據與技術，知道自己在找什麼 | 看到諾亞後才開始有目標 |」。本來源可證的實際編輯性判讀：女主在遇見男主前就有個人研究問題。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 125,
+          "quote": "| **E00** | 初登場就有自己在研究的具體問題 | 她已取得部分局部數據與技術，知道自己在找什麼 | 看到諾亞後才開始有目標 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1913",
+      "title": "女主可因自身目標獨立遠行｜原文128行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第128行原文：「| **E03** | 她為了自己的事情主動去一片遠方生活地域 | 地理、研究動機、個人關係成立 | 永遠只因諾亞去才跟 |」。本來源可證的實際編輯性判讀：女主可因自身目標獨立遠行。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 128,
+          "quote": "| **E03** | 她為了自己的事情主動去一片遠方生活地域 | 地理、研究動機、個人關係成立 | 永遠只因諾亞去才跟 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1914",
+      "title": "局部登高與宏觀世界層跨越不同｜原文137行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第137行原文：「使用者想知道「上去之前在哪／下一層是哪」非常合理，但要區分：**往上一個站、跨過一個巨大支座、前往另一座遠城，與真正越過宏觀世界層隔界不是同一件事**。依第070／071的後出要求，真正宏觀世界層間有極大隔絕與」。本來源可證的實際編輯性判讀：局部登高與宏觀世界層跨越不同。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 137,
+          "quote": "使用者想知道「上去之前在哪／下一層是哪」非常合理，但要區分：**往上一個站、跨過一個巨大支座、前往另一座遠城，與真正越過宏觀世界層隔界不是同一件事**。依第070／071的後出要求，真正宏觀世界層間有極大隔絕與"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1915",
+      "title": "普通升降梯不應偷偷變宏觀跨層｜原文148行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第148行原文：「**先做得足夠精細的只需L0→L1→L2**。LX不必第一章向讀者解釋；但作者不能默默用一台升降梯就讓角色跨了此前描寫難以抵達的真正世界層。」。本來源可證的實際編輯性判讀：普通升降梯不應偷偷變宏觀跨層。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 148,
+          "quote": "**先做得足夠精細的只需L0→L1→L2**。LX不必第一章向讀者解釋；但作者不能默默用一台升降梯就讓角色跨了此前描寫難以抵達的真正世界層。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1916",
+      "title": "B後續路圖事件要得局部答案而非無盡疑雲｜原文158行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第158行原文：「| **B→1 舊圖爭論延續** | 唐榆與游洵交談，隊伍不因主角登場就停工；諾亞、維亞各有下一步 | 是依舊圖照走、改線、再驗證，還是有人自行退出？ | **確認一個局部事實**，而非製造十個新謎題 |」。本來源可證的實際編輯性判讀：B後續路圖事件要得局部答案而非無盡疑雲。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 158,
+          "quote": "| **B→1 舊圖爭論延續** | 唐榆與游洵交談，隊伍不因主角登場就停工；諾亞、維亞各有下一步 | 是依舊圖照走、改線、再驗證，還是有人自行退出？ | **確認一個局部事實**，而非製造十個新謎題 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1917",
+      "title": "每章應保存角色位置、物件、信息差｜原文173行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第173行原文：「2. **人物與物件位置**：日期、時刻、宏觀世界層／地域／街道、諾亞／維亞是否同行、誰拿著什麼、傷勢、旅費、核心槍／模組、誰知道什麼。」。本來源可證的實際編輯性判讀：每章應保存角色位置、物件、信息差。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 173,
+          "quote": "2. **人物與物件位置**：日期、時刻、宏觀世界層／地域／街道、諾亞／維亞是否同行、誰拿著什麼、傷勢、旅費、核心槍／模組、誰知道什麼。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1918",
+      "title": "改路必連鎖改後續見面與人物知情｜原文193行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第193行原文：「如果首次死亡從早期改到很晚，**所有預設「維亞已經知道復歸」的後續情節也必須調整**。如果諾亞選擇不加入游洵隊伍，就不能下一章突然變成原隊固定成員。若女主先獨自行動，後續重逢需要真路線、通訊、共同利益或私人原因」。本來源可證的實際編輯性判讀：改路必連鎖改後續見面與人物知情。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 193,
+          "quote": "如果首次死亡從早期改到很晚，**所有預設「維亞已經知道復歸」的後續情節也必須調整**。如果諾亞選擇不加入游洵隊伍，就不能下一章突然變成原隊固定成員。若女主先獨自行動，後續重逢需要真路線、通訊、共同利益或私人原因"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1919",
+      "title": "B路圖真相尚需正式採案前核定｜原文203行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第203行原文：「1. **B城市與路圖事件的真相骨架**：採或不採B仍需使用者核定；如採B，唐榆、游洵雙方知道什麼、圖究竟錯在哪裡、隊伍在什麼條件下出發，作者必須有合理真相，但不用對讀者一次講完。」。本來源可證的實際編輯性判讀：B路圖真相尚需正式採案前核定。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 203,
+          "quote": "1. **B城市與路圖事件的真相骨架**：採或不採B仍需使用者核定；如採B，唐榆、游洵雙方知道什麼、圖究竟錯在哪裡、隊伍在什麼條件下出發，作者必須有合理真相，但不用對讀者一次講完。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1920",
+      "title": "113只是B的P1，地圖更細不等於權威提高｜原文215行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第215行原文：「[113｜B後續P1候選：方井城至雨檐埠、路圖真相與結案](113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md) 具體化了本檔所列近程節點：**L0井城→E3/E5→L1北斜承脊→L2雨」。本來源可證的實際編輯性判讀：113只是B的P1，地圖更細不等於權威提高。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 215,
+          "quote": "[113｜B後續P1候選：方井城至雨檐埠、路圖真相與結案](113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md) 具體化了本檔所列近程節點：**L0井城→E3/E5→L1北斜承脊→L2雨"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1921",
+      "title": "C51第三個座位是已採而尚未正式發生｜原文220行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第220行原文：「使用者後出已正式選定[第051〈第三個座位〉](../07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md)成為**未來正文中的瑟莉思媞初次面對面遇見諾亞×艾莉維亞的場景基線」。本來源可證的實際編輯性判讀：C51第三個座位是已採而尚未正式發生。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "AUTHOR_SELECTED_NOT_OCCURRED",
+      "authority_axis": "SOURCE_SCOPED_LATER_REVISION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 220,
+          "quote": "使用者後出已正式選定[第051〈第三個座位〉](../07_候選故事與場景/051_候選場景_諾亞艾莉維亞初遇Celeste_第三個座位.md)成為**未來正文中的瑟莉思媞初次面對面遇見諾亞×艾莉維亞的場景基線"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1922",
+      "title": "荒野可有人，不能一路只跳交通表｜原文225行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第225行原文：「[F115](../02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md)、[F116](../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林」。本來源可證的實際編輯性判讀：荒野可有人，不能一路只跳交通表。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 225,
+          "quote": "[F115](../02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md)、[F116](../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1923",
+      "title": "參考景觀可入世但地理相鄰未定｜原文232行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第232行原文：「[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/1」。本來源可證的實際編輯性判讀：參考景觀可入世但地理相鄰未定。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 232,
+          "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/1"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1924",
+      "title": "W/K真層級和L0-L2地方路網分開｜原文236行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第236行原文：「[122｜宏觀總圖V0.3](../02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md)、[123｜十厚界完整逐項](../02_地圖拓撲與交通/123_十處層間隔界K01至K1」。本來源可證的實際編輯性判讀：W/K真層級和L0-L2地方路網分開。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 236,
+          "quote": "[122｜宏觀總圖V0.3](../02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md)、[123｜十厚界完整逐項](../02_地圖拓撲與交通/123_十處層間隔界K01至K1"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1925",
+      "title": "W01九區舊圖重建不是原圖精確複製｜原文245行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第245行原文：「實際查核：**第122–125份與原交接／索引的V0.3條目原本已同步**，不是漏寫；真正遺落於GitHub圖庫的是先前聊天已顯示的**V0.2 W01之R01–R09完整大區示意與R04 E01內部剖面**。」。本來源可證的實際編輯性判讀：W01九區舊圖重建不是原圖精確複製。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 245,
+          "quote": "實際查核：**第122–125份與原交接／索引的V0.3條目原本已同步**，不是漏寫；真正遺落於GitHub圖庫的是先前聊天已顯示的**V0.2 W01之R01–R09完整大區示意與R04 E01內部剖面**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1926",
+      "title": "十二項寫作研究不變成固定六千字規定｜原文249行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第249行原文：「[第132份十二項全文](../05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md)。依使用者「補入，不要太精簡，最好12點都有」要求，已補**十二個完整段落群**：①作品語言不等」。本來源可證的實際編輯性判讀：十二項寫作研究不變成固定六千字規定。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 249,
+          "quote": "[第132份十二項全文](../05_場景視覺與參考/132_完整十二項研究_群像語體抽象用詞與長章吸引力.md)。依使用者「補入，不要太精簡，最好12點都有」要求，已補**十二個完整段落群**：①作品語言不等"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1927",
+      "title": "A/B2/C三案互斥，不能擅自合為正式章｜原文257行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第257行原文：「[第134份14,230字元完整篇章設計](134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md)：承接第132「語體／6,000字章內閱讀回報」及第133「具名大型篇章／名場面／整本故事記憶」。本來源可證的實際編輯性判讀：A/B2/C三案互斥，不能擅自合為正式章。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+          "git_blob_sha": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+          "line": 257,
+          "quote": "[第134份14,230字元完整篇章設計](134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md)：承接第132「語體／6,000字章內閱讀回報」及第133「具名大型篇章／名場面／整本故事記憶"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1928",
+      "title": "B後續P1不是首篇採案｜原文3行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第3行原文：「> 日期：2026-10-20。承接使用者「開始」：執行[112長篇敘事節點系統](112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md)最後要求，**具體化 L0→L1→L2 的可達路線**」。本來源可證的實際編輯性判讀：B後續P1不是首篇採案。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 3,
+          "quote": "> 日期：2026-10-20。承接使用者「開始」：執行[112長篇敘事節點系統](112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md)最後要求，**具體化 L0→L1→L2 的可達路線**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1929",
+      "title": "初遇與復歸武器等已定邊界仍要遵守｜原文7行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第7行原文：「> **已定硬規則**：第067雙主角第一次見面；諾亞原槍強大且有後續原裝模組線，初死前不知道自己能復歸；死亡後核心槍跟隨復歸、普通外物不自動跟、世界不回捲、地理／生命痕跡雙錨點；艾莉維亞獨立而強大，沒有相同復」。本來源可證的實際編輯性判讀：初遇與復歸武器等已定邊界仍要遵守。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 7,
+          "quote": "> **已定硬規則**：第067雙主角第一次見面；諾亞原槍強大且有後續原裝模組線，初死前不知道自己能復歸；死亡後核心槍跟隨復歸、普通外物不自動跟、世界不回捲、地理／生命痕跡雙錨點；艾莉維亞獨立而強大，沒有相同復"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1930",
+      "title": "雨檐埠是有經濟居民的生活地域候選｜原文19行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第19行原文：「- **L2「雨檐埠」／所屬「懸檐水庭」**：**新造可推翻的第一個遠方完整生活地域候選**。它建在另一段寬大承力肋與多代居民修出的導流檐／蓄水平台上，有住戶、交易、學舍、診療、風水工程、交通站與自己的過去；上」。本來源可證的實際編輯性判讀：雨檐埠是有經濟居民的生活地域候選。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 19,
+          "quote": "- **L2「雨檐埠」／所屬「懸檐水庭」**：**新造可推翻的第一個遠方完整生活地域候選**。它建在另一段寬大承力肋與多代居民修出的導流檐／蓄水平台上，有住戶、交易、學舍、診療、風水工程、交通站與自己的過去；上"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1931",
+      "title": "各方因各自工作和願望相遇非統一陰謀｜原文23行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第23行原文：「**這版故事的直接推動，不是「圖有誤所以古代陰謀啟動」**：諾亞真的想去一片此前未親眼見過的高處居住地；艾莉維亞想實地檢驗某種反向接合在近距離測線下**可確認什麼、又有哪些尚未知**；唐榆不願自己舊資料被誤用傷」。本來源可證的實際編輯性判讀：各方因各自工作和願望相遇非統一陰謀。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 23,
+          "quote": "**這版故事的直接推動，不是「圖有誤所以古代陰謀啟動」**：諾亞真的想去一片此前未親眼見過的高處居住地；艾莉維亞想實地檢驗某種反向接合在近距離測線下**可確認什麼、又有哪些尚未知**；唐榆不願自己舊資料被誤用傷"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1932",
+      "title": "E/S是不同當地功能路並非世界層｜原文41行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第41行原文：「**E路／S路是方向不同的當地功能通路，不是兩個巨構維度**。E路有可維護的升降、步道和向承脊的貨運；S路的一部分貼著不同牆體，原本適合部分隊伍從遠路回城，但經多年工務改建、某處舊接口停用／改位。當地人照常以別」。本來源可證的實際編輯性判讀：E/S是不同當地功能路並非世界層。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 41,
+          "quote": "**E路／S路是方向不同的當地功能通路，不是兩個巨構維度**。E路有可維護的升降、步道和向承脊的貨運；S路的一部分貼著不同牆體，原本適合部分隊伍從遠路回城，但經多年工務改建、某處舊接口停用／改位。當地人照常以別"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1933",
+      "title": "交通行時是假設值非真測算｜原文47行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第47行原文：「| L0市集→E3 | 公共升降／接駁廊，居民、工人、旅客皆可在規定時段使用 | **約半小時至一小時**（含候車，僅本地模擬） | 一般票／工務月票；普通旅客原則可付費搭乘 | 班次停靠、載重、工區封鎖不等於」。本來源可證的實際編輯性判讀：交通行時是假設值非真測算。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 47,
+          "quote": "| L0市集→E3 | 公共升降／接駁廊，居民、工人、旅客皆可在規定時段使用 | **約半小時至一小時**（含候車，僅本地模擬） | 一般票／工務月票；普通旅客原則可付費搭乘 | 班次停靠、載重、工區封鎖不等於"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1934",
+      "title": "費用無已定貨幣或正式報價｜原文53行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第53行原文：「**費用目前沒有已核定幣值／一套全球貨幣**。不要突然捏造「37晶幣」。工作比較只用**相對費用：井內一般升降票 < 按段接駁與旅宿 < 完整貨運遠行的正常合約 < 臨時更改返程／私人包車**；此排序也是這條候」。本來源可證的實際編輯性判讀：費用無已定貨幣或正式報價。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 53,
+          "quote": "**費用目前沒有已核定幣值／一套全球貨幣**。不要突然捏造「37晶幣」。工作比較只用**相對費用：井內一般升降票 < 按段接駁與旅宿 < 完整貨運遠行的正常合約 < 臨時更改返程／私人包車**；此排序也是這條候"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1935",
+      "title": "看似連續承脊不代表現役全段可達｜原文61行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第61行原文：「- 某個遠處看似連續的承力脊，**不能**據外觀斷言整條都可步行；E5後的上行線之所以可用，是有現役貨運維護、回報、班次與中繼。」。本來源可證的實際編輯性判讀：看似連續承脊不代表現役全段可達。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 61,
+          "quote": "- 某個遠處看似連續的承力脊，**不能**據外觀斷言整條都可步行；E5後的上行線之所以可用，是有現役貨運維護、回報、班次與中繼。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1936",
+      "title": "唐榆E去S回為可撤回候選往事｜原文71行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第71行原文：「**候選往事**：多年以前，唐榆曾參與一次經北斜承脊進出的長途測路／物流同行。原計畫的**去程**走東壁 E3→E5→北斜承脊；**返程**為了某段載重限制、當時的風向／貨物配置與運行方向，另外採南側的回風廊 」。本來源可證的實際編輯性判讀：唐榆E去S回為可撤回候選往事。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 71,
+          "quote": "**候選往事**：多年以前，唐榆曾參與一次經北斜承脊進出的長途測路／物流同行。原計畫的**去程**走東壁 E3→E5→北斜承脊；**返程**為了某段載重限制、當時的風向／貨物配置與運行方向，另外採南側的回風廊 "
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1937",
+      "title": "舊圖有適用日期與分向但不永久有效｜原文73行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第73行原文：「唐榆把當時量過的**部分路段**畫成原始手繪工作圖，帶有分向箭頭、日期以及旁註：**「本圖只記當次可達方向，長期使用需重新核測」**。她沒有為整個大域作永久保證，也沒有必定因某次悲劇而終生封筆。」。本來源可證的實際編輯性判讀：舊圖有適用日期與分向但不永久有效。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 73,
+          "quote": "唐榆把當時量過的**部分路段**畫成原始手繪工作圖，帶有分向箭頭、日期以及旁註：**「本圖只記當次可達方向，長期使用需重新核測」**。她沒有為整個大域作永久保證，也沒有必定因某次悲劇而終生封筆。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1938",
+      "title": "公示圖合成分向而漏非雙向註記｜原文83行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第83行原文：「→ 數年後地方遠行資料編輯／游洵隊的準備工作，將**去程E方向和歷史S返程圖層合併**成方便旅客看的示意總圖」。本來源可證的實際編輯性判讀：公示圖合成分向而漏非雙向註記。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 83,
+          "quote": "→ 數年後地方遠行資料編輯／游洵隊的準備工作，將**去程E方向和歷史S返程圖層合併**成方便旅客看的示意總圖"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1939",
+      "title": "編圖者與領隊責任有別且不宜代替法庭｜原文87行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第87行原文：「本案的責任不是由「某個神祕敵人在背後竄改」造成。**編圖者**對丟失方向註記負資料責任，**游洵**對將圖用於帶隊承諾的安全審查負領隊責任；**唐榆**對當年筆記範圍與傳遞史有責任解釋，但不因自己的原始圖多年後」。本來源可證的實際編輯性判讀：編圖者與領隊責任有別且不宜代替法庭。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 87,
+          "quote": "本案的責任不是由「某個神祕敵人在背後竄改」造成。**編圖者**對丟失方向註記負資料責任，**游洵**對將圖用於帶隊承諾的安全審查負領隊責任；**唐榆**對當年筆記範圍與傳遞史有責任解釋，但不因自己的原始圖多年後"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1940",
+      "title": "現實工程改接與資料錯誤是兩個原因｜原文91行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第91行原文：「幾年以來，某段原本連上 S 線的舊接駁經**工務改造、維護封閉與臨時／長期轉用**，其現實接合位置已和當年不同；旁邊仍有居民、貨運或工程路線運作。這是**路況本身改變**，不等於宣傳圖錯誤唯一原因。」。本來源可證的實際編輯性判讀：現實工程改接與資料錯誤是兩個原因。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 91,
+          "quote": "幾年以來，某段原本連上 S 線的舊接駁經**工務改造、維護封閉與臨時／長期轉用**，其現實接合位置已和當年不同；旁邊仍有居民、貨運或工程路線運作。這是**路況本身改變**，不等於宣傳圖錯誤唯一原因。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1941",
+      "title": "女主局部測線無法證明整段回程安全｜原文97行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第97行原文：「**艾莉維亞本章真正能證明的只有**：她今天在東壁 E3～E5 附近觀測的局部接口，其目前相對位置／連接方向與印圖**不符**；若其能力當時足以取得局部拓撲讀數，可以公開附觀測範圍和時間的**部分實測更正**。」。本來源可證的實際編輯性判讀：女主局部測線無法證明整段回程安全。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 97,
+          "quote": "**艾莉維亞本章真正能證明的只有**：她今天在東壁 E3～E5 附近觀測的局部接口，其目前相對位置／連接方向與印圖**不符**；若其能力當時足以取得局部拓撲讀數，可以公開附觀測範圍和時間的**部分實測更正**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1942",
+      "title": "唐榆多年缺席使她不知全部現役工務｜原文109行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第109行原文：「- **局限**：她許久未回，今天看到的修建進度並不完整；不該因曾走過就自動知道當前工務所有決定。」。本來源可證的實際編輯性判讀：唐榆多年缺席使她不知全部現役工務。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 109,
+          "quote": "- **局限**：她許久未回，今天看到的修建進度並不完整；不該因曾走過就自動知道當前工務所有決定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1943",
+      "title": "游洵不能憑去程核證保證回程｜原文116行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第116行原文：「- **他必須承擔的責任**：如果只有去程查過、返程卻在宣傳圖寫得像已查過，他必須更正承諾、聯繫報名者並提出返程可行替案；不能以「我工作很忙」逃避。」。本來源可證的實際編輯性判讀：游洵不能憑去程核證保證回程。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 116,
+          "quote": "- **他必須承擔的責任**：如果只有去程查過、返程卻在宣傳圖寫得像已查過，他必須更正承諾、聯繫報名者並提出返程可行替案；不能以「我工作很忙」逃避。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1944",
+      "title": "女主可公開片段資料保留核心研究｜原文123行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第123行原文：「- 她可立刻準確指出自己的觀測範圍、協助區分印圖誤用與現場真正改造，但**沒有義務負責整支遠征隊的人生選擇**。她可以選擇公開一部分數據，也可以留住自己的高階研究細節。」。本來源可證的實際編輯性判讀：女主可公開片段資料保留核心研究。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 123,
+          "quote": "- 她可立刻準確指出自己的觀測範圍、協助區分印圖誤用與現場真正改造，但**沒有義務負責整支遠征隊的人生選擇**。她可以選擇公開一部分數據，也可以留住自己的高階研究細節。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1945",
+      "title": "諾亞未交名冊不會免費恢復入隊身分｜原文130行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第130行原文：「- 第一章第110已寫：他**沒有在當日截止前交名冊**，若正式採用，下一段就不能讓他無成本自動恢復原隊資格。」。本來源可證的實際編輯性判讀：諾亞未交名冊不會免費恢復入隊身分。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 130,
+          "quote": "- 第一章第110已寫：他**沒有在當日截止前交名冊**，若正式採用，下一段就不能讓他無成本自動恢復原隊資格。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1946",
+      "title": "公示附註與設施關閉分屬不同職權｜原文137行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第137行原文：「- 窗口有職權收**有來源、有時間的異議附錄**，不能單方面宣告整支私人隊伍禁止出發；若實際工務管理者依規章關閉某個公共危險接口，則是**真有管轄權的設施管理決定**，不是窗口假裝統治整個世界。」。本來源可證的實際編輯性判讀：公示附註與設施關閉分屬不同職權。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 137,
+          "quote": "- 窗口有職權收**有來源、有時間的異議附錄**，不能單方面宣告整支私人隊伍禁止出發；若實際工務管理者依規章關閉某個公共危險接口，則是**真有管轄權的設施管理決定**，不是窗口假裝統治整個世界。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1947",
+      "title": "S1從唐榆質問游洵與比對兩圖展開｜原文147行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第147行原文：「| **S1 名字之後** | 唐榆已把舊本子放到游洵前，問他記不記得當年是哪段路 | 游洵看到**兩個不同方向的原箭頭**，拿出隊伍現存的合併版宣傳圖與最近去程檢查；他不能只嘴硬一句 | 確認兩圖版本不同、去」。本來源可證的實際編輯性判讀：S1從唐榆質問游洵與比對兩圖展開。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 147,
+          "quote": "| **S1 名字之後** | 唐榆已把舊本子放到游洵前，問他記不記得當年是哪段路 | 游洵看到**兩個不同方向的原箭頭**，拿出隊伍現存的合併版宣傳圖與最近去程檢查；他不能只嘴硬一句 | 確認兩圖版本不同、去"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1948",
+      "title": "S3以舊圖與今日工務證據局部閉合｜原文149行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第149行原文：「| **S3 檔案與現場互證** | 唐榆原始日期、維亞當日局部量測、現役工務接線簿 | 編圖失落的單向註記被找回；地方工務已有 S 某段改建／封閉記錄；三證**各自證不同部分** | 作者真相不再無限擴張：舊」。本來源可證的實際編輯性判讀：S3以舊圖與今日工務證據局部閉合。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 149,
+          "quote": "| **S3 檔案與現場互證** | 唐榆原始日期、維亞當日局部量測、現役工務接線簿 | 編圖失落的單向註記被找回；地方工務已有 S 某段改建／封閉記錄；三證**各自證不同部分** | 作者真相不再無限擴張：舊"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1949",
+      "title": "S5當地結案不能突然補新超級幕後｜原文151行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第151行原文：「| **S5 正式地方結案** | 已知 E去程哪段可走、S老返程不可靠 | 在出發前完成登記圖**方向與日期更正**，遠征隊的返程條件改為已知可用貨線／另驗安排；工務只管理真實管轄的接口 | 圖誤事件局部收束」。本來源可證的實際編輯性判讀：S5當地結案不能突然補新超級幕後。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 151,
+          "quote": "| **S5 正式地方結案** | 已知 E去程哪段可走、S老返程不可靠 | 在出發前完成登記圖**方向與日期更正**，遠征隊的返程條件改為已知可用貨線／另驗安排；工務只管理真實管轄的接口 | 圖誤事件局部收束"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1950",
+      "title": "隊伍可有條件出發，成員自行衡量｜原文156行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第156行原文：「**作者暫優先版本**：游洵確認錯誤後，不取消所有活動，而是**刪除「E去、E原路回」的安全承諾**，保留確實查過的去程；持有有效返程貨線替代與真正必要補給者可重新確認登記，不能接受額外成本者可以依合約退出／改」。本來源可證的實際編輯性判讀：隊伍可有條件出發，成員自行衡量。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 156,
+          "quote": "**作者暫優先版本**：游洵確認錯誤後，不取消所有活動，而是**刪除「E去、E原路回」的安全承諾**，保留確實查過的去程；持有有效返程貨線替代與真正必要補給者可重新確認登記，不能接受額外成本者可以依合約退出／改"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1951",
+      "title": "首章讀者只需所見地景與問題｜原文170行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第170行原文：「| B試演首章 | 巨井非常大，人住在各層；有固定遠征；出發與回來未必同一路；唐榆看到圖與游洵名字有反應 | 餅攤、告示、梯車、人物突然放下食物、短問答和目光 | 巨構總分層、各城國人口、全部路線、原槍和復歸完」。本來源可證的實際編輯性判讀：首章讀者只需所見地景與問題。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 170,
+          "quote": "| B試演首章 | 巨井非常大，人住在各層；有固定遠征；出發與回來未必同一路；唐榆看到圖與游洵名字有反應 | 餅攤、告示、梯車、人物突然放下食物、短問答和目光 | 巨構總分層、各城國人口、全部路線、原槍和復歸完"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1952",
+      "title": "諾亞另找運輸須有真代價｜原文181行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第181行原文：「2. **讓諾亞付出一次清楚但不誇張的代價**：他沒有交名冊，就失去最方便、最便宜或最有人接應的那班隊伍安排。他真的去找別的運輸／自行路線，發現下一站的某項景色與當地風俗，開始由自己決定方向；**不靠被女主或歸」。本來源可證的實際編輯性判讀：諾亞另找運輸須有真代價。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 181,
+          "quote": "2. **讓諾亞付出一次清楚但不誇張的代價**：他沒有交名冊，就失去最方便、最便宜或最有人接應的那班隊伍安排。他真的去找別的運輸／自行路線，發現下一站的某項景色與當地風俗，開始由自己決定方向；**不靠被女主或歸"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1953",
+      "title": "雙主角即使同向也要各自選路｜原文190行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第190行原文：「| **諾亞** | 尚未成游洵遠征正式隊員；想向上看，不熟悉地方完整路網 | 查公共升降→選拼商運或自己搭不同時段去E5→沿北斜承脊到L2；付更多交通／住宿成本，或選用自身能力縮短部分路程 | 送貨人、貨件遺」。本來源可證的實際編輯性判讀：雙主角即使同向也要各自選路。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 190,
+          "quote": "| **諾亞** | 尚未成游洵遠征正式隊員；想向上看，不熟悉地方完整路網 | 查公共升降→選拼商運或自己搭不同時段去E5→沿北斜承脊到L2；付更多交通／住宿成本，或選用自身能力縮短部分路程 | 送貨人、貨件遺"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1954",
+      "title": "諾亞知道什麼與唐榆私人過去分開｜原文201行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第201行原文：「| 諾亞 | 有人改圖或原圖用法可疑、維亞叫艾莉維亞、唐榆正去找游洵、自己未交隊伍名冊 | 被整理好的公開方向更正與可用交通；若沒有旁聽S3不能知道唐榆私下歷史 | 艾莉維亞完整能力來源、Celeste、復歸原」。本來源可證的實際編輯性判讀：諾亞知道什麼與唐榆私人過去分開。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 201,
+          "quote": "| 諾亞 | 有人改圖或原圖用法可疑、維亞叫艾莉維亞、唐榆正去找游洵、自己未交隊伍名冊 | 被整理好的公開方向更正與可用交通；若沒有旁聽S3不能知道唐榆私下歷史 | 艾莉維亞完整能力來源、Celeste、復歸原"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1955",
+      "title": "B案初遇不是多年熟稔｜原文214行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第214行原文：「| **N00首遇** | 第110既有候選成立的前提繼續保留；不把二主角寫成已多年熟識 | 如採B，正文先初見，再依此P1寫各自後續；不倒灌親暱私人語言 |」。本來源可證的實際編輯性判讀：B案初遇不是多年熟稔。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 214,
+          "quote": "| **N00首遇** | 第110既有候選成立的前提繼續保留；不把二主角寫成已多年熟識 | 如採B，正文先初見，再依此P1寫各自後續；不倒灌親暱私人語言 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1956",
+      "title": "續篇不能跳過B真停點與未交名冊｜原文225行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第225行原文：「**特別核對第110真停點**：唐榆正站在游洵面前拿原始圖問「你還記不記得……」，諾亞在告示牆附近**沒交名冊**，艾莉維亞已收好測量臺，正打算去量回來的另一邊，兩人只是第一次互報姓名且**沒有說好同行**。*」。本來源可證的實際編輯性判讀：續篇不能跳過B真停點與未交名冊。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 225,
+          "quote": "**特別核對第110真停點**：唐榆正站在游洵面前拿原始圖問「你還記不記得……」，諾亞在告示牆附近**沒交名冊**，艾莉維亞已收好測量臺，正打算去量回來的另一邊，兩人只是第一次互報姓名且**沒有說好同行**。*"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1957",
+      "title": "讀者若未吸引不能靠亂添世界級陰謀｜原文239行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第239行原文：「- 若讀者仍覺得B缺追讀魅力：不要繼續往故事裡加世界級黑幕、加武器展演或立即安排首次死亡；**可改人物選擇、場面表演、個人情緒與具體收穫**，也可以整套地點撤掉。」。本來源可證的實際編輯性判讀：讀者若未吸引不能靠亂添世界級陰謀。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 239,
+          "quote": "- 若讀者仍覺得B缺追讀魅力：不要繼續往故事裡加世界級黑幕、加武器展演或立即安排首次死亡；**可改人物選擇、場面表演、個人情緒與具體收穫**，也可以整套地點撤掉。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1958",
+      "title": "L0-E3-E5-L2路線完整但只供P1候選｜原文245行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第245行原文：「- 一套對B原有文字自洽的**局部地形／交通網**：L0方井城、E3/E5接駁、L1北斜承脊、L2雨檐埠，附出程／返程不同、時間候選、成本比較、路權和非唯一可達方法。」。本來源可證的實際編輯性判讀：L0-E3-E5-L2路線完整但只供P1候選。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 245,
+          "quote": "- 一套對B原有文字自洽的**局部地形／交通網**：L0方井城、E3/E5接駁、L1北斜承脊、L2雨檐埠，附出程／返程不同、時間候選、成本比較、路權和非唯一可達方法。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1959",
+      "title": "地名與價格及女主術式均未正式定案｜原文250行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第250行原文：「**仍未核定且不可假稱Canon的精度**：方井城／雨檐埠正式名、具體所屬世界層與絕對方位、路程距離與票價／貨幣、商會與工務法定權限、唐榆游洵完整私人史、誰最後退隊、今日工務改接的實施年月、艾莉維亞精確術式及原」。本來源可證的實際編輯性判讀：地名與價格及女主術式均未正式定案。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 250,
+          "quote": "**仍未核定且不可假稱Canon的精度**：方井城／雨檐埠正式名、具體所屬世界層與絕對方位、路程距離與票價／貨幣、商會與工務法定權限、唐榆游洵完整私人史、誰最後退隊、今日工務改接的實施年月、艾莉維亞精確術式及原"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1960",
+      "title": "後出修正同層只是假設沒有已定W編號｜原文259行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第259行原文：「**本檔地理中的「L0方井城→L1東壁E3/E5承脊→L2雨檐埠仍在同一宏觀世界層」只是一版可撤回作者建模假設**，不是已經從整座巨構三維模型證明的世界層歸屬。使用者現已正式同意詞義：**世界層＝完整巨大空間體」。本來源可證的實際編輯性判讀：後出修正同層只是假設沒有已定W編號。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "SOURCE_SCOPED_LATER_REVISION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 259,
+          "quote": "**本檔地理中的「L0方井城→L1東壁E3/E5承脊→L2雨檐埠仍在同一宏觀世界層」只是一版可撤回作者建模假設**，不是已經從整座巨構三維模型證明的世界層歸屬。使用者現已正式同意詞義：**世界層＝完整巨大空間體"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1961",
+      "title": "荒野不是無人，居民不因主角到來才存在｜原文263行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第263行原文：「**最重要的居民修正**：使用者說**「不一定沒有人」**，因此新工作稿中的「荒野」絕不自動表示無人、末日、全設備死去；可以有現役工務、少數旅者、正常商運、世居居民、非人社會甚至繁華地帶，亦可有真正少人或未探訪」。本來源可證的實際編輯性判讀：荒野不是無人，居民不因主角到來才存在。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "SOURCE_SCOPED_LATER_REVISION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 263,
+          "quote": "**最重要的居民修正**：使用者說**「不一定沒有人」**，因此新工作稿中的「荒野」絕不自動表示無人、末日、全設備死去；可以有現役工務、少數旅者、正常商運、世居居民、非人社會甚至繁華地帶，亦可有真正少人或未探訪"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1962",
+      "title": "參考圖片可直接入世但不能亂配地理路線｜原文268行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第268行原文：「[第119｜視覺直接入世權威](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[第120｜九圖逐張全量分析](../05_場景視覺與參考/12」。本來源可證的實際編輯性判讀：參考圖片可直接入世但不能亂配地理路線。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "SOURCE_SCOPED_LATER_REVISION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 268,
+          "quote": "[第119｜視覺直接入世權威](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[第120｜九圖逐張全量分析](../05_場景視覺與參考/12"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1963",
+      "title": "W/K總圖不把方井城擅自定W01或升跨層陰謀｜原文275行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第275行原文：「[122｜宏觀總圖V0.3](../02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md)、[123｜十厚界完整逐項](../02_地圖拓撲與交通/123_十處層間隔界K01至K1」。本來源可證的實際編輯性判讀：W/K總圖不把方井城擅自定W01或升跨層陰謀。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "SOURCE_SCOPED_LATER_REVISION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 275,
+          "quote": "[122｜宏觀總圖V0.3](../02_地圖拓撲與交通/122_宏觀世界層總圖V03_真正厚重隔界與非線性主脊.md)、[123｜十厚界完整逐項](../02_地圖拓撲與交通/123_十處層間隔界K01至K1"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1964",
+      "title": "九區地圖重建未授權併入方井城｜原文282行",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第282行原文：「實際查核：**第122–125份與原交接／索引的V0.3條目原本已同步**，不是漏寫；真正遺落於GitHub圖庫的是先前聊天已顯示的**V0.2 W01之R01–R09完整大區示意與R04 E01內部剖面**。」。本來源可證的實際編輯性判讀：九區地圖重建未授權併入方井城。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 282,
+          "quote": "實際查核：**第122–125份與原交接／索引的V0.3條目原本已同步**，不是漏寫；真正遺落於GitHub圖庫的是先前聊天已顯示的**V0.2 W01之R01–R09完整大區示意與R04 E01內部剖面**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-1965",
+      "title": "135新故鄉/雙武裝前史仍未採入Canon｜原文285行",
+      "status": "UNRESOLVED_EXPLICIT",
+      "analysis": "第285行原文：「[閱讀第135份12節全文](../03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md)。**已存在**：第003/004確有定期班車／商運／週期測繪；第098容許共」。本來源可證的實際編輯性判讀：135新故鄉/雙武裝前史仍未採入Canon。這是來源範圍內的事實/提案區分，不是使用者對候選正文的正式採案。",
+      "guardrail": "嚴格保存角色視角、權威/時間、候選與作者已核准項目的差別；不擅自增加實際世界層或法規。",
+      "next_action": "來源SHA和後出依賴更動時回查；正式寫作前另行核准Canon採案。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+          "git_blob_sha": "6479bb95a610f1496cde6d81dc88b6008c539778",
+          "line": 285,
+          "quote": "[閱讀第135份12節全文](../03_人物關係與語感/135_研究候選_週期遠征與特殊上行_雙主角完整前史_雙武裝及伏筆.md)。**已存在**：第003/004確有定期班車／商運／週期測繪；第098容許共"
+        }
+      ]
+    }
+  ]
+}
