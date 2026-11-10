@@ -5,7 +5,7 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "f27b25cca659eb13bbd79a2b00f76dfd45ea1834",
+  "last_checked_head_before_handoff": "29b8c83c378c3410e548d1c03aedb73ced99126e",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
     "run_url": "https://github.com/Secileya/Novel/actions/runs/42811816504",
@@ -25,16 +25,16 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第32批6份核心CI42811816504與Drive42811816442已success；159／335有效驗收，待176。第33批未驗收，目標已由使用者暫停。",
-    "targeted_audit_records": 4464,
-    "targeted_audit_verified_quotes": 4655,
-    "full_file_editorial_accepted": 49,
-    "full_file_editorial_remaining": 122,
+    "important": "第33批新登記12份待當批CI；最後成功159／335。正式0章／PREWRITE HOLD。",
+    "targeted_audit_records": 4650,
+    "targeted_audit_verified_quotes": 4841,
+    "full_file_editorial_accepted": 52,
+    "full_file_editorial_remaining": 119,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 159,
-    "all_source_full_file_editorial_remaining": 176,
-    "historical_164_full_file_acceptance": 110,
-    "historical_171_full_file_acceptance": 49,
+    "all_source_full_file_editorial_accepted": 171,
+    "all_source_full_file_editorial_remaining": 164,
+    "historical_164_full_file_acceptance": 119,
+    "historical_171_full_file_acceptance": 52,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -82,34 +82,22 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 159,
-        "pending": 176,
+        "verified_complete": 171,
+        "pending": 164,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第32批核心CI及Drive索引CI success，159／335，待176。使用者已暫停目標；第33批12份1948行僅排批與部分首讀，未建立驗收或計數。",
-        "stage": "BATCH32_6_CI_VERIFIED",
+        "note": "第33批完成編輯性驗收並登記，待對應CI；已成功仍159，不把登記當通過。使用者已明確恢復執行。",
+        "stage": "BATCH33_12_SUBMITTED_PENDING_CI",
         "last_verified_commit": "d5c3dbce367dac915d1b3699abe59ff5126fe873",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42811816504",
         "cross_source_next_batch": [],
-        "historical_164_accepted": 110,
-        "historical_171_accepted": 49,
+        "historical_164_accepted": 119,
+        "historical_171_accepted": 52,
         "last_batch_files": [
-          "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md",
-          "01_世界本體與文明/20261108_Celeste跨世界痕跡_暗影祭壇傳說_啟發文明與長線回聲_創意候選.md",
-          "03_人物關係與語感/006_絕對管理者少女.md",
-          "03_人物關係與語感/017_討論續錄_Celeste命運安排_女主界側能力.md",
-          "03_人物關係與語感/027_討論續錄_早中期Celeste不揭露_主線路網_作品事件_戀愛發展.md",
-          "03_人物關係與語感/045_討論續錄_雙主角可搶奪他人裝備與自主殺人奪物.md"
-        ],
-        "last_batch_full_lines": 838,
-        "last_batch_sections": 76,
-        "last_batch_new_claims": 233,
-        "last_batch_new_anchors": 408,
-        "next_batch": [
           "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
           "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
           "07_候選故事與場景/064_候選實作_地方事件兩案_開篇旅行與完整人物場景.md",
@@ -122,6 +110,24 @@
           "03_人物關係與語感/030_討論續錄_諾亞艾莉維亞雙向臉紅與暱稱.md",
           "03_人物關係與語感/041_討論續錄_終橋本能恐懼_諾亞懷疑自己無法復歸_完整對話保留.md",
           "06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md"
+        ],
+        "last_batch_full_lines": 1948,
+        "last_batch_sections": 100,
+        "last_batch_new_claims": 186,
+        "last_batch_new_anchors": 631,
+        "next_batch": [
+          "03_人物關係與語感/014_逐輪稽查_戰力科技至莉可式探索.md",
+          "05_場景視覺與參考/074_研究續錄_多批視覺參考_巨構尺度_生活與閾限空間.md",
+          "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+          "06_敘事規劃與工作流/182_作者決策前工作底圖_萬公里宏觀與雙主角升級_非線性道具鎖.md",
+          "06_敘事規劃與工作流/189_白瓷面具人作者層因果骨架與防白鳥式無限延伸_續寫門檻.md",
+          "06_敘事規劃與工作流/190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md",
+          "06_敘事規劃與工作流/191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md",
+          "06_敘事規劃與工作流/192_跨媒介敘事研究_BLAME奇諾魔女之旅_巨構異質風格情緒交疊_非正史.md",
+          "06_敘事規劃與工作流/193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md",
+          "06_敘事規劃與工作流/20261108_Gemini80題_題目與回覆逐題來源核對.md",
+          "06_敘事規劃與工作流/20261108_Gemini八十題_逐題來源覆蓋與原文保存等級核對.md",
+          "06_敘事規劃與工作流/20261108_全庫舊設定回收_血腥生態遷徙Gemini創意與深層異常訊號.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -812,17 +818,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch32",
-    "source_files_attested_this_turn": 6,
-    "original_lines_reviewed": 838,
-    "review_sections": 76,
-    "atomic_findings": 233,
-    "original_line_anchors": 408,
-    "nonCanon_graph_links": 233,
-    "all_source_accepted": 159,
-    "all_source_pending": 176,
-    "state": "BATCH32_CI_VERIFIED__NON_CANON",
-    "notes": "52／52本機檢查及兩項當批CI成功；本次流程最佳化不新增驗收份數或完成批次。"
+    "task": "NEXT-009 batch33",
+    "source_files_attested_this_turn": 12,
+    "original_lines_reviewed": 1948,
+    "review_sections": 100,
+    "atomic_findings": 186,
+    "original_line_anchors": 631,
+    "nonCanon_graph_links": 240,
+    "all_source_accepted": 171,
+    "all_source_pending": 164,
+    "state": "BATCH33_PENDING_CI__NON_CANON",
+    "notes": "只以CI成功份數和批次數衡量產能；命題、引文和圖邊是追溯材料。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -842,13 +848,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH32_6_CI_VERIFIED",
-    "scope": "第32批六份838行、76主題段、233實質命題與24條個別二遍反問；具體後修SHA與原生節點雙向回讀。",
-    "commit": "d5c3dbce367dac915d1b3699abe59ff5126fe873",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42811816504",
-    "not_finished": "仍176份待整檔；目標依使用者操作暫停，第33批只有部分首讀與已防重排批，沒有新增驗收。正式0章／PREWRITE HOLD。",
-    "next_step": "使用者恢復目標後，先核最新main及12份防重，再沿既有首讀區段接續、完成全文兩遍與具體後修。"
+    "stage": "BATCH33_12_SUBMITTED_PENDING_CI",
+    "scope": "第33批12份1948行，逐檔全文、48條個別二遍問題及46項具體SHA依賴影響；原稿未改。",
+    "commit": null,
+    "ci_result": "pending",
+    "ci_run_url": null,
+    "not_finished": "已登記171／335待CI，最後成功159；另164份待審。正式0章，候選不採Canon。",
+    "next_step": "當批CI成功後回寫，直接對下一批12份做最新HEAD防重與全文，不等待逐批指令。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -879,6 +885,7 @@
     "00_分類導航/設定關聯引擎/20261110_第二十九批_原文重審6份_001_002_004_005_011_072_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第三十批_原文重審6份_012_043_044_046_055_061_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第三十一批6份_073_076_095_097_098_099_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第三十二批6份_102_痕跡_006_017_027_045_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第三十二批6份_102_痕跡_006_017_027_045_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261110_第三十三批12份_人物敘事初遇與候選長篇_全文語義v2.json"
   ]
 }
