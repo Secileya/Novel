@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {loadBridge} from './AI接手_分片讀取.mjs';
 /** Verify scoped source-audit ↔ existing domain graph references. No Canon write. */
 import fs from "node:fs";
 import path from "node:path";
@@ -6,7 +7,7 @@ import {createHash} from "node:crypto";
 import {fileURLToPath} from "node:url";
 const HOME=path.dirname(fileURLToPath(import.meta.url)),PROJECT=path.resolve(HOME,"../..");
 const read=(n)=>JSON.parse(fs.readFileSync(path.join(HOME,n),"utf8"));
-const bridge=read("審核命題至既有關係圖_雙向證據橋.json");
+const bridge=loadBridge(HOME);
 const board=read("AI接手_工作板.json");
 const g=read("高優先規則與關聯.json");
 const v=read("版本取代與相容決策鏈.json");

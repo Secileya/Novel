@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {loadLedger} from './AI接手_分片讀取.mjs';
 /** Batch semantic QA v2: strengthens evidence requirements, not a substitute for reading. */
 import fs from "node:fs";
 import path from "node:path";
@@ -76,7 +77,7 @@ export function impactClosure(changedPath,records) {
  return affected;
 }
 async function main(){
- const a=process.argv.slice(2),ledger=read("AI接手_整檔語義驗收台帳.json");
+ const a=process.argv.slice(2),ledger=loadLedger(home);
  const errors=ledger.records.flatMap(r=>validateBatchQuality(r).map(e=>r.source_path+": "+e));
  if(a.includes("--negative-test")){
   const base=ledger.records.find(r=>r.status==="FULL_FILE_EDITORIAL_ATTESTED");

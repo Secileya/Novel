@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {loadBridge} from './AI接手_分片讀取.mjs';
 // 巨構設定查詢 v1 — Node.js 20+ standard library only.
 // Runs from a checked-out GitHub repository. Never modifies Canon.
 import fs from "node:fs";
@@ -42,7 +43,7 @@ const extraAudits=auditManifest.slice(3).map(p=>{
 const allAudits=[fourthAudit,fifthAudit,sixthAudit,...extraAudits];
 const allAuditRecords=allAudits.flatMap(x=>x.records||[]);
 const auditedClaimByID=new Map(allAuditRecords.map(x=>[x.id,x]));
-const auditDomainBridge=JSON.parse(fs.readFileSync(path.join(HOME,"審核命題至既有關係圖_雙向證據橋.json"),"utf8"));
+const auditDomainBridge=loadBridge(HOME);
 const domainBridgeByAuditID=new Map(auditDomainBridge.records.map(x=>[x.audit_id,x]));
 const versionDiffByID=new Map(versionLineDiffs.comparisons.map(x=>[x.id,x]));
 const allSourceRoles = [...sourceRole94.cards,...sourceRole77.cards];
