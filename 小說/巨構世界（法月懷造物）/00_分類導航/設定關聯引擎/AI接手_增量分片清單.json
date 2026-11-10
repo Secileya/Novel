@@ -181,14 +181,14 @@
     },
     {
       "path": "20261111_第三十八批12份_Gemini早期候選與版本分線_全文語義v2.json",
-      "git_blob_sha": "5198bc2231221be43ed0e702729513b95c91613a",
+      "git_blob_sha": "da632d144b773a24a7da7efd24f81154ac3f64aa",
       "batch": "BATCH38",
       "source_count": 12,
       "original_lines": 2050,
       "semantic_sections": 65,
       "claim_count": 65,
       "graph_relations": 130,
-      "note": "逐份原文＋後出181/183更正，48條第二遍反問；保留版本分線，候選不升正史。GitHub CI待查。"
+      "note": "逐份原文＋後出181/183更正，48條第二遍反問；保留版本分線，候選不升正史。GitHub CI待查。；第38批後續修正第二條圖鏈為非Canon EVIDENCE_SCOPED，避免驗收失敗。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",

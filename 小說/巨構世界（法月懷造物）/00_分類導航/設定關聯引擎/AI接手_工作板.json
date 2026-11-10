@@ -561,7 +561,8 @@
           "countercheck_questions": 48,
           "unverified_ci": true,
           "unmodified_originals": true,
-          "dynamic_sources_added_during_batch": 3
+          "dynamic_sources_added_during_batch": 3,
+          "graph_connection_qa_repaired": 65
         }
       }
     },
@@ -867,7 +868,7 @@
     "commit": "6f6c98b22ab29f59d893465eacce5055e454ef12",
     "ci_result": "pending",
     "ci_run_url": "未取得第38批CI",
-    "not_finished": "另有3份新來源進入動態清冊；當前登記231／348，待審117；第38批CI重驗中。正式0章，PREWRITE HOLD。",
+    "not_finished": "第38批12份圖譜邊標籤與覆蓋快照修正後待CI；目前登記231／348、剩117份。正式正文0章／PREWRITE HOLD。",
     "next_step": "核第38批實際GitHub CI成功，再轉入第39批G7R至G9C候選版本。"
   },
   "audited_batch_paths": [
