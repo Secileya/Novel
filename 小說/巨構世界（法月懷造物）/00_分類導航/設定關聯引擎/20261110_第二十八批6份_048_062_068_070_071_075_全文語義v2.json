@@ -1,0 +1,4605 @@
+{
+  "schema": "mega-batch28-full-file-v2-sharded",
+  "date": "2026-11-10",
+  "source_file_count": 6,
+  "source_line_count": 689,
+  "source_sections": 58,
+  "evidence_count": 58,
+  "source_file_manifest": [
+    {
+      "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+      "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+      "source_line_count": 109,
+      "reviewed_sections": 9
+    },
+    {
+      "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+      "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+      "source_line_count": 246,
+      "reviewed_sections": 12
+    },
+    {
+      "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+      "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+      "source_line_count": 140,
+      "reviewed_sections": 12
+    },
+    {
+      "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+      "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+      "source_line_count": 56,
+      "reviewed_sections": 8
+    },
+    {
+      "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+      "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+      "source_line_count": 82,
+      "reviewed_sections": 8
+    },
+    {
+      "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+      "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+      "source_line_count": 56,
+      "reviewed_sections": 9
+    }
+  ],
+  "authority_boundary": "B28區分全巨構絕界行與局部詛咒深淵、四城六地圖原創候選、環境文明多代地貌、世界層115宏觀詞義和真正立體交通；外部作品僅參考，不擅定Canon。正式0章PREWRITE HOLD。",
+  "records": [
+    {
+      "id": "SRC-ALL-3481",
+      "title": "048｜巨構級絕界行與局部深淵詛咒是兩種尺度｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者明言絕界行相對整個巨構，可在其中另外存在完整局部詛咒深淵及深處連向另一宏觀分域，絕非全球統一上升詛咒",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 3,
+          "quote": "> 2026-10-19。使用者原話：「**我想要有類似來自深淵絕界行的設定，甚至說不定某個世界層後是完整深淵還有詛咒，最底層又接著另一個世界層，不是整個搬過來，不過我喜歡第四層，我要的絕界行不是只在這邊的，是相對於整個世界**」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3482",
+      "title": "048｜來自深淵作品材料只提供構建參照｜L15",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "外部作品第四層濕潤生態與Last Dive背景屬二手／引用研究，本世界不能照搬原生物、統一深度或詛咒症狀",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "SECONDARY_RESEARCH",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 15,
+          "quote": "在《來自深淵》原作世界裡，「絕界行／Last Dive」與進入深界六層之後的幾乎無法回返密切相關；詛咒與上升負荷越深越嚴峻，但本世界**不移植其統一深度階級**。[Sentai 官方動畫頁](https://www.sentaifilmworks.com/blogs/catalog/made-in-abyss-the-golden-city-of-"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3483",
+      "title": "048｜世界級最後旅程是相對回程條件｜L25",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "無可靠返程不代表抵達後必死，方向可橫側上下；個人科技與路網可能形成不同不可逆程度，統一名稱與儀式尚未定",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 25,
+          "quote": "**世界層不是按樓層編號的連續通關遊戲**。同一巨構的不同方向、不同通道及互相嵌套的廣域世界層，可能通向根本不同的環境與文明。某些邊界因地理單向、工程技術門檻、長距離與後勤斷裂、地方性的致命作用而使人無法回到原本的生活世界。旅行者仍可能在另一側繼續生活、建立社會、遇見新城市、成家、甚至再向遠方出發；**無法返回原處≠抵達後必死**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3484",
+      "title": "048｜宏觀A經完整局部深淵到B是候選剖面｜L35",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "A/B不是固定世界層序列，局部深淵可以有居民、不同技術與詛咒，底部另有宏觀世界不等於全球最底端",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 35,
+          "quote": "某一龐大的世界層 A 的遠端出口，可直接接入一座**自成完整區域的垂直生態深淵**。其深部地理可能分化為數個不同環境帶和真正的奇異生物群，具有**局部特定的方向性負荷或詛咒**。沿深淵再向下抵達某個真正的地理底端、穿過天然裂口／失落機關／地下瀑流／巨大門道後，眼前可能展開**另一個龐大的世界層 B**：有自己的城市、海盆、荒野與文明，其實不是整個巨"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3485",
+      "title": "048｜浮潮盤林與泓盤帶原創潮濕生態未採｜L61",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "立體蓄水托盤、落瀑、霧與共生物種可提供大尺度生態美感，但工作名和數百數千公里尺寸不是正式地理",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 61,
+          "quote": "**助手未定名的原創候選：層內「浮潮盤林」／「泓盤帶」**（純臨時名稱，可全撤）："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3486",
+      "title": "048｜三套局部方向詛咒機制彼此競爭｜L74",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "生態流場、長期歷程適應與拓撲方向剪切只是候選，不得同時宣告生效，更不能讓所有世界層上行皆受詛咒",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 74,
+          "quote": "**方案 1：方向性生態流場**：局部空間有特定沿高度、密度與生態循環的流場；順流向下穩定，反向上行時生命承載與運動訊號遭不協調的負荷。不同體質、種族、護具與技術能造成差異，不只是達到某一米數立即觸發標準流血。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3487",
+      "title": "048｜諾亞復歸不保證能讓隊友返鄉｜L84",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩類錨點與槍隨復歸不能把同行者一起帶走；女主自身規則能真正解除部分困局，但不自動免死",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 84,
+          "quote": "- 諾亞有 Celeste 賜予的**個體復歸**，現行後出選擇是**地理拓撲＋個人生命痕跡雙錨點並存**；核心特殊槍隨復歸，普通外物不自動。**復活不等於能控制復歸位置，也不等於可以把同伴一起傳回家**；若在深淵死亡後回到很遠的舊錨點，可能付出數日甚至更久的回程與無法再次進入的成本；具體判定仍待設定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3488",
+      "title": "048｜離鄉不可返可沿長線逐步發生｜L92",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "最後可回頭的窗口會受路況、人物選擇與各地制度影響；尋模組、最終敵人與登頂主線成立但不限定四站",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 92,
+          "quote": "世界巨大，某地把某一片深淵認為世界盡頭，經過此地抵達更深處，卻發現那下面竟然還有一整個世界層。從更宏觀角度看，先前「永遠無法返回」對某些探索者依然是真的，卻不是世界真的在這裡終結。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3489",
+      "title": "048｜絕界行通稱與局部深淵坐標未決｜L102",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "世界內誰使用絕界行稱呼、詛咒真原理、深淵位置及與靜謐的關係都未定，不能把局部深淵硬連到Celeste秘密路",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+          "line": 102,
+          "quote": "- 「絕界行」究竟是世界內若干文明已使用的共同稱呼，還是作者層統稱不同文明各自的「最後遠征」？**用語形式未由使用者指定**。不可抄《來自深淵》原作詞作為全世界所有文明正式行政稱號。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3490",
+      "title": "062｜作者要求實際地景與短而有意境的正文｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "使用者要從城市地貌與路網工作出發，保持真實社會、畫面和具體旅行；四地及人物皆未採正史",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 3,
+          "quote": "> 日期：2026-10-19。使用者確定要從六項工作中的 **3 城市／地貌／集市＋6 路網／地域差異** 開始實際建構。**本檔是豐富的可推翻世界局部候選，不是已選正式地圖、不是第一章、沒有發生的故事也不算已發生。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3491",
+      "title": "062｜拱海側域的多點交通不是同一房間地圖｜L11",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "工作名拱海側域及四地連接只是草圖，城內生活、跨城長途、野路與真正隔界路程有差異，6–12/20–40日非正式距離",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 11,
+          "quote": "**「拱海側域」只是本次繪圖工作名，不代表居民使用的統一國名、行政區、世界層號或正式地理稱謂。**以第 39 份「拱海斷面」大空腔為一個可見起點，而不是硬說四座場景都在一個洞穴、同一街道或同一個行政統治下。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3492",
+      "title": "062｜折索集市有家庭與職業因果｜L42",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "葛桑的貨吊租用、老索維修成本和工人薪資是地方獨立生活候選，不是主角的掉落物或指定NPC",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 42,
+          "quote": "市場沿著數層傾斜鋼架展開，布棚和燈牌在頭頂交錯。烤肉與香料混進熱油、機油味，升降貨籠從攤販上方緩緩滑過。走到最外側的護欄才會發現，這片鬧烘烘的生活不過是巨構側壁上一小團亮光，遠方更大的斷裂建築消失在灰霧裡。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3493",
+      "title": "062｜懸潮港的水運與技師不能直接變已發生｜L68",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "牧冬與芙纓延續既有候選，其票據、船運與修理倫理有自身利害，不取代第34／52原先版本",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 68,
+          "quote": "退潮時，海盆邊緣露出大片青黑色的舊基座。漁船在碼頭卸網，運貨吊臂的陰影從海面慢慢移過。天邊有一道不可思議的長拱，另一端高得像伸進了雲。港城的早餐店已經點起火，遠處傳來船主催促繫纜的喊聲。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3494",
+      "title": "062｜晴紋城明亮高階不等於原初前文明頂峰｜L92",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "喬芮與公共步道設計可帶城市產業與日常，不能把明亮高科技外觀直接等同十級以上舊前文明",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 92,
+          "quote": "> **暫名**，可推翻。位於與港城相隔很遠的另一片高光照巨構區域，並非「折索集市上方一條電梯就到」；也不是最高世界層。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3495",
+      "title": "062｜苔脊無人帶也有生態與個人專業｜L122",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "綠色大荒域、桑雨的生態路圖和家鄉利益仍是候選；無人不代表整個巨構荒野都沒居民",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 122,
+          "quote": "> **暫名**，是拱海斷面延向一側的廣域荒地與失養建築斷帶，不預設其深處即是靜謐迴廊、終焉迴廊入口或諾亞核心原裝模組所在。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3496",
+      "title": "062｜路網的時間物資運具要真計算｜L151",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "地方班車、港船、裝備限制、路權與季節航期為真實因果方向，具體候選行程時間未獲作者核定",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 151,
+          "quote": "> **以下時間全是本稿對其中一套候選交通網的工作估計，不是巨構世界通用數字，也不是「高等主角絕不能更快」的禁令**。須依角色真正採用的科技、路徑、貨運需求、稅關與道路狀況調整。快路會有交易、可達性、情報和地方代價，某些高等個體可以更快通行；這不取消普通城市的交通社會。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3497",
+      "title": "062｜生活事件能獨立收束而非主線副本｜L170",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩人買票、貨與人的先後、普通居民願景可以連貫地方經濟與私人決定，不必每個城都有大災難",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 170,
+          "quote": "折索集市某張多人聯票只在當日夜貨開走前有效，諾亞本來只想問上行路，卻順手買兩張，艾莉維亞能看穿他的心思；**第 29 份已有「買兩張票被看穿」的具體舊候選，這裡可作地理接續，不把同一場景宣稱第一次正式發生**。兩人可因票務、攤商與普通交通同路，旅途中在幾個中繼站遇到別的乘客。若某人只想去港口看兒子，那人的目的不必給主線出模組。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3498",
+      "title": "062｜折索食物遠景試演未成正文｜L192",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "人吃飯看見遠處巨構和另一人打趣是對畫面密度及人物日常的寫作測試，不是正式某日已發生",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 192,
+          "quote": "諾亞望向老闆用長夾子從油鍋撈出的金色食物。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3499",
+      "title": "062｜懸潮港等船與日常摩擦仍屬樣稿｜L210",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "港口生活、等船和地方交涉是情境短片，不可由文字存在認定主角實際經歷或已選地理",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 210,
+          "quote": "海風把桌上的票據掀起來，牧冬伸手按住。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3500",
+      "title": "062｜晴紋城午後與情緒是可替換場景｜L226",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "明亮生活與角色親近可發展，不使晴紋城自動成正式旅行順序或高階文明核心",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 226,
+          "quote": "一段步道在兩人面前安靜地抬高，替坐在行動輔具上的老人形成新坡面。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3501",
+      "title": "062｜四地工作狀態明說全屬可推翻｜L242",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "折索懸潮沿用舊候選、晴紋苔脊新候選、距離天數與人物均未批准；Celeste、復歸、靜謐不因示範而成歷史",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+          "line": 242,
+          "quote": "- **確定的用戶需求**：真正開始做第 3＋6，畫面與意境重要且正文不冗長；世界須有生活與巨大距離。所有正確舊內容保留。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3502",
+      "title": "068｜外部研究與第一章相遇都需權威分層｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "本檔六原創地貌非正式地名，使用者後出第一章初遇方向不能回推六地已成第一章實景",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 3,
+          "quote": "> 日期：2026-10-19。**本檔是「查外部作品＋讀現有設定＋補足特殊地形」的具體候選庫**，不是作者把所有候選列成同一條必經升級之路，也不是新增正式地名 Canon。同期使用者明確定下**正式第一章諾亞與艾莉維亞第一次相遇**，另見 [67 首次相遇修正](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3503",
+      "title": "068｜五種作品與NASA素材僅是設計原理研究｜L11",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "Hollow Knight、Outer Wilds、Rain World、Scavengers Reign與NASA的摘要是文件載外部背景，未獨立查核全部引用，不等於本宇宙事實",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "SECONDARY_RESEARCH",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 11,
+          "quote": "| 來源 | 已可查證的觀察 | 此世界可轉用的創作原理 | 避免誤用 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3504",
+      "title": "068｜遷巒帶可動工程山脊候選｜L33",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "大型承重座緩慢變位可改變地形與交通，但運作原理、地名及居民反應未經作者選定",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 33,
+          "quote": "**一句短景**：大平原上，一整排形如山嶽的黑色平臺沉默地移動。兩座遠山之間原本看不見的天空，被它們緩緩挪出的巨大縫隙照亮；草原上的移動市集已在收棚，等待明天的新道路。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3505",
+      "title": "068｜雙晝穹原導光農原候選｜L45",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩片可見土地、人工日照與真農業生產的巨構場景是設計案，並非已定外部宇宙幾何",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 45,
+          "quote": "**一句短景**：淺金色的草原在腳下延展。諾亞抬頭，另一片農田竟彎過極遙遠的天空；遠處一條運貨列車正沿著那片「天上」的地面緩緩滑行。兩側的人都在同一個午後過日子。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3506",
+      "title": "068｜雨根林海有真水養分與棲居可能｜L55",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "支架上的植物、水氣與採集生態應自洽，不能把每片林地都當主角可撿原裝槍模組的寶箱",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 55,
+          "quote": "**一句短景**：成千上萬條粗大的根從高處垂下，交織成森林。雨水沿根表慢慢滴落，在離地數百公尺的葉面間變成一層淡綠的霧。腳下有人劃著小船，從巨根間的水道安靜經過。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3507",
+      "title": "068｜垂潮裂灣多水幕與生活運輸候選｜L65",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "跨高差分層人工海與異常潮汐可構成船行和維修矛盾，未核定它與哪座港城實際相連",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 65,
+          "quote": "**一句短景**：懸崖背後有整片人工海，遠處卻看不見水平的海岸線。七道巨大的水幕從裂開的層緣瀉下，撞在半空的攔流架上，化作遠比城市寬廣的白色雲霧；雲霧深處偶爾露出一艘貨船的燈。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3508",
+      "title": "068｜白脈寂原散熱荒野仍可有使用者｜L75",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "冷白散熱地域可安靜且少人口，但設備在用與否、居民是否在內及真正危險門檻尚待設定",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 75,
+          "quote": "**一句短景**：遠處的雪不像雪。漫長的淺色地表滿是細密裂紋，黑色散熱脊在地平線上起伏，偶爾把暖霧吐向天空。天色將暗時，幾十公里外一輛慢車亮起了孤零零的窗燈。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3509",
+      "title": "068｜錯岸天峽視距近不等於真實交通近｜L85",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩城可在視野相近但隔真物理巨壁或非普通拓撲，未定路網與正式地名",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 85,
+          "quote": "**一句短景**：從觀景臺看去，對岸城市的電車就在眼前一條明亮的弧線上行駛。可是懸崖下沒有橋，連飛行測標也要繞行很遠才能回到視線裡。有人在這邊買早餐，那邊的鐘聲已經遙遙響了三次。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3510",
+      "title": "068｜六地有不同尺度交通與生活｜L100",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原創地貌不是同一區內六間房，各社會與旅人可因貨運、氣候與路權形成獨立長線",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 100,
+          "quote": "[較早有人居住的區域]──(普通商運數日、數週)──[其他生活城、研究站與真正漫長的路]"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3511",
+      "title": "068｜不是每處風景都要承擔全球主線｜L120",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "能只作美麗生活場景，也可有自身政治經濟事件，六個候選地貌不可排成固定向上升級清單",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 120,
+          "quote": "- **最適合作為首個遠征級高潮候選**：《遷巒帶》。因為真正持續移動的巨大環境能讓地形、商隊、技術、利益及彼此選擇相撞；並非又一座需要救的城市。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3512",
+      "title": "068｜後出荒野圖片使有人與無人並存｜L135",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "116荒野可有泵站工務、居民與未經探索巨坑；不以新材料廢掉遷巒等六種原創候選",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 135,
+          "quote": "[F115](115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md)、[F116](../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md)、[F117](../07_候選故事與場景/117_巨構荒野長篇敘事實作_多人口版本場景樣稿_旅程節點B候選修補與QA"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3513",
+      "title": "068｜原創地貌與119直接入世圖片是加法｜L140",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "外部特定幾何准入世界不能等於六原創命名已採案，也不刪老小洞、斜橋與新圖片的獨立組合可能",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+          "line": 140,
+          "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3514",
+      "title": "070｜作者確認環境養育文明及舊工程成地貌｜L6",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "世界原始巨構先於文明社區，文明再造新巨構，衰落物可變後世地形；具體外殼形狀仍助手模型",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 6,
+          "quote": "「文明群落是由環境長出來的，文明也可以長出屬於自己的巨構，某些衰落後又變成之後被當成地貌的巨構。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3515",
+      "title": "070｜多代水工交通與生態演替實際可能｜L11",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "天然承載與光水空氣催生社會，文明建水工橋、廢棄後生態侵入；不是所有橋都Celeste親製",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 11,
+          "quote": "1. 既有巨構的支脊、殼、谷地、裂隙與熱、水、光照、承載條件，形成不同環境機會。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3516",
+      "title": "070｜世界層不等於一個文明區塊｜L18",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "宏觀分域可能有多國城市和真無人區，一座城市／一條國境不等於跨世界層",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 18,
+          "quote": "真正世界層是巨構的極大結構／可達性分域，可包括若干互通或部分隔絕的空域、複雜高差、多城國家、完整海盆、森林、地質、遠方高科技、無人大遺跡。單個文明不等於一層，一條高架、一道國境、一次城市換景亦不算跨層。不同世界層的交通預設非常困難，但也保留不同文明已有真實高階工程或少量有效道路的局部例外，遵循最新使用者對層間隔絕的強調。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3517",
+      "title": "070｜四種交錯模型仍助手模擬｜L21",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "共同巨脊、投影近卻真隔、巢狀副殼、斷裂縫補都只是可能組合，不是已確認完整全球拓撲",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 21,
+          "quote": "A：**共同主脊跨穿**。同一巨大承重主骨架穿越多片廣大空域，各處可以有居民、自然生態、無人工程；能看見同一根巨構不等於內部能沿它安全跨界。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3518",
+      "title": "070｜B+C外表模型未敲定外宇宙｜L29",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "不對稱主脊與曲殼、非普通內部容積是偏好提案，真外殼、可達表面、氣壓光熱需另外核實",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 29,
+          "quote": "外部可由非對稱巨型主脊、大型環或曲殼、向外發散的支枝與不同厚度的容納節點構成；局部又能有非普通空間拓撲，內部可容納比外側直觀可見更大的生活空域。整體外觀是否有單一封閉殼、位於何種宇宙、真外表面能否抵達，都仍未定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3519",
+      "title": "070｜古導流壁斜脊山與農穹示例非正史｜L36",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "後世居民把舊水工與城橋當地貌的三種具體樣本可替換，不等於已在某正式世界層造出",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 36,
+          "quote": "**古導流壁**：某代文明為海盆建起宏大的分流堤；衰落後關鍵泵站斷續運作、泥沙與生物沿壁聚集，上游形成濕原，下方形成次生瀑布，後代在壁上建立市場和養殖平台。古壁此時是真正海岸地形，不是每天等待主角開機關的地下城。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3520",
+      "title": "070｜現實地理參照和未決清單｜L41",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "UNESCO、景觀公園連結只供研究類比，宏觀層數、路線、建築者及時間線不能靠資料直接確定",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "SECONDARY_RESEARCH",
+      "authority_axis": "SECONDARY_RESEARCH",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 41,
+          "quote": "一片環形主殼不一定等於一個世界層；同一層可同時存在古代廢棄工程、現代文明巨構、自然谷地與完全無人之處。使用者原本喜歡的「左方大拱、旁邊小洞、上方長路、右方看不見岸的水」要維持多方向未知，不把每條通路都硬安排一座文明作下一站。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3521",
+      "title": "070｜115重新確認宏觀世界層但不承認四模型｜L54",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者的世界層＝宏觀分域、層間隔界＝巨大危險斷隔是正式詞義；本檔四交錯例子及實體幾何未採",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+          "line": 54,
+          "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3522",
+      "title": "071｜形體可達時間三圖需一致｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "物理有主肋與海盆、能否靠真實交通抵達、各年代工程演替不能互相矛盾；這是研究檢驗法不是正式地圖",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 3,
+          "quote": "> 2026-10-19，**助手模擬候選，非正式地圖**。承接使用者新確認方向與第70份研究：巨構本身先有環境；文明在其中生長，文明興建新巨構，一部分文明衰落後的工程又成為後世的真實地貌。以下世界層原型及專名均屬測試代號，不是已知世界所有層清單，更不是由下到上的必經序列。整體環境仍全在 B＋C 巨構內部，不能因一片生活區有農田／藍天就放到巨構外星"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3523",
+      "title": "071｜α肋海廣域是超廣分域測試｜L19",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "一片宏觀世界可容多城不同文明和巨大無人區，名α及其社會地貌都尚未定案",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 19,
+          "quote": "**先有的巨構**：某段不規則寬廣主脊與側向巨肋，支撐一系列尺度極大的開闊空域。北側局部有岩脈／乾谷，遠端連到海盆、巨大拱門、原本的高熱設備和數不清的建築斷面。可見空間很大，但幾條巨肋間的長線交通未必有人維護。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3524",
+      "title": "071｜β折殼曲原可見而不可達｜L29",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "看似兩地接近卻由厚殼和真實交通距離分隔；β名稱位置及與α跨層關係未採",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 29,
+          "quote": "**先有的巨構**：另一組大弧殼和不規則包覆部件，在空間投影上與 α 的一根主肋相近。它的內側可容納大片農田、溫帶林、丘陵、清潔高科技居地、舊城墟與廣大人跡稀少地。這片不是只有田園的單一文明。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3525",
+      "title": "071｜γ靜熱盲域低人口不等於野怪關卡｜L39",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "熱交換廣域可少居民但存在現代研究、工人和生態，γ不是確認第三世界層",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 39,
+          "quote": "**先有的巨構**：靠大型散熱支脈與失養的內殼部分，形成漫長冷凝谷、熱脈裂地、近乎不可測深的大空洞與多種特殊環境。某處仍有真正正常工作的能源系統，另處則是被生物佔據的舊輸送骨架。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3526",
+      "title": "071｜四代文明疊建工程成新地形｜L51",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "引水堤、貨運城、廢墟再利用、現代水工可在相同位置歷時演化，所有年代與地名是非正史模擬",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 51,
+          "quote": "**第零階段**：某巨大主肋下方有真長河與空腔風場，最早的可用陸地沿著肋緣、天然斜坡和水系集中。這些原有環境可以由巨構原始工程、水文與地質共同提供，不必知道是誰創造第一根樑。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3527",
+      "title": "071｜路線跨層判斷與巨構物理一致｜L65",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "巨肋看似連續仍可能不可走，真跨層需要路權工務環境與特殊拓撲證據，不能只靠全圖漂亮",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 65,
+          "quote": "* **一條巨肋**：可以穿透不同巨大空域；中途某些工程段沒有可用通路，不能憑它看起來連續就自動跨世界層。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3528",
+      "title": "071｜外殼世界層數與原型仍開放｜L73",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "A/B/C概型不能被誤當僅三層世界、真實高低層位置或全部Celeste已安排的旅程",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 73,
+          "quote": "正式世界層數、α β γ 之間的真正排序與是否存在、整體最外壳是否有可走的表面、外宇宙位置、非普通空間接點數與技術原理、各文明具體建造者與年代、是否有世界公認「真正最高層」證據，全部尚未定案。作者層 Celeste 的絕對管理者真相不能冒充外界居民的科學共識。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3529",
+      "title": "071｜115後出語義不會使αβγ變正史｜L80",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "宏觀分域定義與模擬相容，只說明分類用法，不確認三片原型實際存在及排序",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+          "line": 80,
+          "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3530",
+      "title": "075｜立體多路與怪異空間是作者方向｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者具體提五呎側壁、天花板方井、巨大斜柱、交通工具、Backrooms參考；具體五路分類非正式制度",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 3,
+          "quote": "> 來源：2026-10-19 第73份後使用者繼續上傳圖像，明確描述：「世界有趕路工具嗎」「路網，那種很多通道，在城市中是，在遺跡中也是」「斜著往上插的巨大石柱」「各種垂落的樓梯」「五呎高大石牆一層一層往上，正常人只能走前面，有勾鎖或能跳高地和其他技術可以走左右邊」「天花板可能有正方形垂直往上的看不見底的通道，有特殊技藝的人可能可以上去，也可能有"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3531",
+      "title": "075｜居民交通讓城市和旅程真實｜L8",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "火車扶梯貨船與貨運平台應有能源路權維修，不能讓人人徒手攀架或強行封女主能力",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 8,
+          "quote": "- 巨構內有完整且成熟的普通城市與廣域交通：道路、各類列車／懸軌／曲軌、大升降機、扶梯、電梯、纜車、公共車、貨運甲板、真實海域上的船、在環境與科技允許時的飛行運具、特別地形的搬運索道等。不同文明可以自行造更高階科技交通；不是只有前文明才能造宏偉工程。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3532",
+      "title": "075｜同走廊多種路的可達性分級｜L14",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "居民正常路、工務設備、勾鎖側壁與特殊高位方井各有體能、貨物、承重條件，不能讓鉤索抓不存在的點",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 14,
+          "quote": "**使用者原型**：巨大長廊，正前方是常規可行的道路，左右兩側每隔一段就有約五呎（約 1.5 米）高的大型牆／臺階／隔斷；帶勾鎖、擅跳躍、懂壁面攀行者可以由側邊快速連續向上穿行；天花板某處還有一個正方形垂直向上、望不見底／頂的方井，可能有人從上方落下或正常攀降。附近還有斜入上空的龐大石柱、另一組垂落階梯、內部維修孔和地下水道。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3533",
+      "title": "075｜路網交錯非RPG五級門｜L25",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "民路工路技路只是助手觀察角度，仍有旁路、環路與社會維修，不能按工具技能固定通關次序",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 25,
+          "quote": "助手曾口語提出「民路／工路／技路／孔道／閾限路」五種觀察角度；**不得寫成客觀五大類、技能解鎖順序或世界所有入口只有這五種**。真正有用的是："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3534",
+      "title": "075｜閾限建築也有多種真因果｜L33",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "長廊照明與不合常理構造可能正常使用、古文明遺物或真正無明目的；不能一律認定Celeste造怪談",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 33,
+          "quote": "- 可有彷彿公共機關／辦公室／酒店／醫院的長廊，異常空曠、燈具仍開著、地毯延伸，甚至重複到迷失方向。失落的用途、被遺棄的文明累積、天然或特殊幾何、Celeste 親自塑造，都可能是不同地點的實際成因，**不能一律指向一個神祕主體**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3535",
+      "title": "075｜日常交通場景不是主角到才開始｜L39",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "早餐升降車、工人通勤、勾鎖短路和高方井來客的試演不能變成已發生章節",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 39,
+          "quote": "黎明時，一班工務升降車載著早餐箱和零件升往曲殼住區；下面正常步行道有人趕車。左側平臺一個帶勾索的人從老街跨到斜向承力脊，高處維修師收起繩索後回家睡覺；方井頂端一群遠路來客剛剛降下來，從旁側小店問價。再遠一些，無人的照明走廊延伸至一個新地區。這些人本來就在過自己的人生，**不因主角進場才出現路線**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3536",
+      "title": "075｜女主不應被強制降階以維持探索｜L42",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "她可以用自身真高階科技有效繞路，諾亞武器鉤鎖模組尚未定案，不宜把兩人可達性當同級",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 42,
+          "quote": "- 艾莉維亞早期已真正強大，對應合適環境可直接繞路／重新理解拓撲／有效使用自身特殊力量；**不能臨時剝奪她的高等能力以解釋橋怎麼過**。能力的精確原理與成本仍是未定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3537",
+      "title": "075｜後出工務機關照片可有人維護｜L50",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "115／116確認世界層詞義及有人荒野，不能看見泵站灰霧就假定停機無人",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 50,
+          "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3538",
+      "title": "075｜119九圖形體可直接入世但路權待核｜L56",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "高位廊、環形台與承重梁可能成真道路或只是工程構件，能否承載車與回程均需查實",
+      "guardrail": "本批來源只有其真實作者方向與事後修正可納入相應範圍；外部參照與地名、試寫非Canon。正式0章PREWRITE HOLD。",
+      "next_action": "若主張依賴或原文SHA變更，按明確後出影響重新核對，不得把一種候選地理當唯一正史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+          "line": 56,
+          "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_"
+        }
+      ]
+    }
+  ],
+  "staged_attestations": [
+    {
+      "source_path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+      "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+      "source_role_id": "FULL-B28-048",
+      "related_claim_ids": [
+        "SRC-ALL-3481",
+        "SRC-ALL-3482",
+        "SRC-ALL-3483",
+        "SRC-ALL-3484",
+        "SRC-ALL-3485",
+        "SRC-ALL-3486",
+        "SRC-ALL-3487",
+        "SRC-ALL-3488",
+        "SRC-ALL-3489"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第28批逐段連續覆蓋109原文行並做4類素材特定問答、逐項回查5條SHA依賴，提交CI前屬待驗收。",
+      "source_line_count": 109,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 12,
+          "anchor_line": 3,
+          "quote": "> 2026-10-19。使用者原話：「**我想要有類似來自深淵絕界行的設定，甚至說不定某個世界層後是完整深淵還有詛咒，最底層又接著另一個世界層，不是整個搬過來，不過我喜歡第四層，我要的絕界行不是只在這邊的，是相對於整個世界**」。",
+          "meaning": "巨構級絕界行與局部深淵詛咒是兩種尺度：作者明言絕界行相對整個巨構，可在其中另外存在完整局部詛咒深淵及深處連向另一宏觀分域，絕非全球統一上升詛咒"
+        },
+        {
+          "from": 13,
+          "to": 20,
+          "anchor_line": 15,
+          "quote": "在《來自深淵》原作世界裡，「絕界行／Last Dive」與進入深界六層之後的幾乎無法回返密切相關；詛咒與上升負荷越深越嚴峻，但本世界**不移植其統一深度階級**。[Sentai 官方動畫頁](https://www.sentaifilmworks.com/blogs/catalog/made-in-abyss-the-golden-city-of-",
+          "meaning": "來自深淵作品材料只提供構建參照：外部作品第四層濕潤生態與Last Dive背景屬二手／引用研究，本世界不能照搬原生物、統一深度或詛咒症狀"
+        },
+        {
+          "from": 21,
+          "to": 32,
+          "anchor_line": 25,
+          "quote": "**世界層不是按樓層編號的連續通關遊戲**。同一巨構的不同方向、不同通道及互相嵌套的廣域世界層，可能通向根本不同的環境與文明。某些邊界因地理單向、工程技術門檻、長距離與後勤斷裂、地方性的致命作用而使人無法回到原本的生活世界。旅行者仍可能在另一側繼續生活、建立社會、遇見新城市、成家、甚至再向遠方出發；**無法返回原處≠抵達後必死**。",
+          "meaning": "世界級最後旅程是相對回程條件：無可靠返程不代表抵達後必死，方向可橫側上下；個人科技與路網可能形成不同不可逆程度，統一名稱與儀式尚未定"
+        },
+        {
+          "from": 33,
+          "to": 58,
+          "anchor_line": 35,
+          "quote": "某一龐大的世界層 A 的遠端出口，可直接接入一座**自成完整區域的垂直生態深淵**。其深部地理可能分化為數個不同環境帶和真正的奇異生物群，具有**局部特定的方向性負荷或詛咒**。沿深淵再向下抵達某個真正的地理底端、穿過天然裂口／失落機關／地下瀑流／巨大門道後，眼前可能展開**另一個龐大的世界層 B**：有自己的城市、海盆、荒野與文明，其實不是整個巨",
+          "meaning": "宏觀A經完整局部深淵到B是候選剖面：A/B不是固定世界層序列，局部深淵可以有居民、不同技術與詛咒，底部另有宏觀世界不等於全球最底端"
+        },
+        {
+          "from": 59,
+          "to": 71,
+          "anchor_line": 61,
+          "quote": "**助手未定名的原創候選：層內「浮潮盤林」／「泓盤帶」**（純臨時名稱，可全撤）：",
+          "meaning": "浮潮盤林與泓盤帶原創潮濕生態未採：立體蓄水托盤、落瀑、霧與共生物種可提供大尺度生態美感，但工作名和數百數千公里尺寸不是正式地理"
+        },
+        {
+          "from": 72,
+          "to": 81,
+          "anchor_line": 74,
+          "quote": "**方案 1：方向性生態流場**：局部空間有特定沿高度、密度與生態循環的流場；順流向下穩定，反向上行時生命承載與運動訊號遭不協調的負荷。不同體質、種族、護具與技術能造成差異，不只是達到某一米數立即觸發標準流血。",
+          "meaning": "三套局部方向詛咒機制彼此競爭：生態流場、長期歷程適應與拓撲方向剪切只是候選，不得同時宣告生效，更不能讓所有世界層上行皆受詛咒"
+        },
+        {
+          "from": 82,
+          "to": 89,
+          "anchor_line": 84,
+          "quote": "- 諾亞有 Celeste 賜予的**個體復歸**，現行後出選擇是**地理拓撲＋個人生命痕跡雙錨點並存**；核心特殊槍隨復歸，普通外物不自動。**復活不等於能控制復歸位置，也不等於可以把同伴一起傳回家**；若在深淵死亡後回到很遠的舊錨點，可能付出數日甚至更久的回程與無法再次進入的成本；具體判定仍待設定。",
+          "meaning": "諾亞復歸不保證能讓隊友返鄉：兩類錨點與槍隨復歸不能把同行者一起帶走；女主自身規則能真正解除部分困局，但不自動免死"
+        },
+        {
+          "from": 90,
+          "to": 99,
+          "anchor_line": 92,
+          "quote": "世界巨大，某地把某一片深淵認為世界盡頭，經過此地抵達更深處，卻發現那下面竟然還有一整個世界層。從更宏觀角度看，先前「永遠無法返回」對某些探索者依然是真的，卻不是世界真的在這裡終結。",
+          "meaning": "離鄉不可返可沿長線逐步發生：最後可回頭的窗口會受路況、人物選擇與各地制度影響；尋模組、最終敵人與登頂主線成立但不限定四站"
+        },
+        {
+          "from": 100,
+          "to": 109,
+          "anchor_line": 102,
+          "quote": "- 「絕界行」究竟是世界內若干文明已使用的共同稱呼，還是作者層統稱不同文明各自的「最後遠征」？**用語形式未由使用者指定**。不可抄《來自深淵》原作詞作為全世界所有文明正式行政稱號。",
+          "meaning": "絕界行通稱與局部深淵坐標未決：世界內誰使用絕界行稱呼、詛咒真原理、深淵位置及與靜謐的關係都未定，不能把局部深淵硬連到Celeste秘密路"
+        }
+      ],
+      "latest_revisions_checked": [
+        "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+        "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+        "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+          "git_blob_sha": "2f7e69a18d969c2b2ddb92b3f1dd16be3e214aa8"
+        },
+        {
+          "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62"
+        },
+        {
+          "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d"
+        },
+        {
+          "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c"
+        },
+        {
+          "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+          "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原文全文語義主題分段、各自第二遍反向核查、具體跨檔權威和非Canon圖譜",
+        "revocation": "來源Git SHA、依賴SHA變動或CI失敗需重新核驗"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 2026-10-19。使用者原話：「**我想要有類似來自深淵絕界行的設定，甚至說不定某個世界層後是完整深淵還有詛咒，最底層又接著另一個世界層，不是整個搬過來，不過我喜歡第四層，我要的絕界行不是只在這邊的，是相對於整個世界**」。",
+            "topic": "巨構級絕界行與局部深淵詛咒是兩種尺度",
+            "finding": "作者明言絕界行相對整個巨構，可在其中另外存在完整局部詛咒深淵及深處連向另一宏觀分域，絕非全球統一上升詛咒",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3481"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 15,
+            "quote": "在《來自深淵》原作世界裡，「絕界行／Last Dive」與進入深界六層之後的幾乎無法回返密切相關；詛咒與上升負荷越深越嚴峻，但本世界**不移植其統一深度階級**。[Sentai 官方動畫頁](https://www.sentaifilmworks.com/blogs/catalog/made-in-abyss-the-golden-city-of-",
+            "topic": "來自深淵作品材料只提供構建參照",
+            "finding": "外部作品第四層濕潤生態與Last Dive背景屬二手／引用研究，本世界不能照搬原生物、統一深度或詛咒症狀",
+            "authority": "SECONDARY_RESEARCH",
+            "claim_ids": [
+              "SRC-ALL-3482"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 25,
+            "quote": "**世界層不是按樓層編號的連續通關遊戲**。同一巨構的不同方向、不同通道及互相嵌套的廣域世界層，可能通向根本不同的環境與文明。某些邊界因地理單向、工程技術門檻、長距離與後勤斷裂、地方性的致命作用而使人無法回到原本的生活世界。旅行者仍可能在另一側繼續生活、建立社會、遇見新城市、成家、甚至再向遠方出發；**無法返回原處≠抵達後必死**。",
+            "topic": "世界級最後旅程是相對回程條件",
+            "finding": "無可靠返程不代表抵達後必死，方向可橫側上下；個人科技與路網可能形成不同不可逆程度，統一名稱與儀式尚未定",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3483"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 35,
+            "quote": "某一龐大的世界層 A 的遠端出口，可直接接入一座**自成完整區域的垂直生態深淵**。其深部地理可能分化為數個不同環境帶和真正的奇異生物群，具有**局部特定的方向性負荷或詛咒**。沿深淵再向下抵達某個真正的地理底端、穿過天然裂口／失落機關／地下瀑流／巨大門道後，眼前可能展開**另一個龐大的世界層 B**：有自己的城市、海盆、荒野與文明，其實不是整個巨",
+            "topic": "宏觀A經完整局部深淵到B是候選剖面",
+            "finding": "A/B不是固定世界層序列，局部深淵可以有居民、不同技術與詛咒，底部另有宏觀世界不等於全球最底端",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3484"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 61,
+            "quote": "**助手未定名的原創候選：層內「浮潮盤林」／「泓盤帶」**（純臨時名稱，可全撤）：",
+            "topic": "浮潮盤林與泓盤帶原創潮濕生態未採",
+            "finding": "立體蓄水托盤、落瀑、霧與共生物種可提供大尺度生態美感，但工作名和數百數千公里尺寸不是正式地理",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3485"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 74,
+            "quote": "**方案 1：方向性生態流場**：局部空間有特定沿高度、密度與生態循環的流場；順流向下穩定，反向上行時生命承載與運動訊號遭不協調的負荷。不同體質、種族、護具與技術能造成差異，不只是達到某一米數立即觸發標準流血。",
+            "topic": "三套局部方向詛咒機制彼此競爭",
+            "finding": "生態流場、長期歷程適應與拓撲方向剪切只是候選，不得同時宣告生效，更不能讓所有世界層上行皆受詛咒",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3486"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 84,
+            "quote": "- 諾亞有 Celeste 賜予的**個體復歸**，現行後出選擇是**地理拓撲＋個人生命痕跡雙錨點並存**；核心特殊槍隨復歸，普通外物不自動。**復活不等於能控制復歸位置，也不等於可以把同伴一起傳回家**；若在深淵死亡後回到很遠的舊錨點，可能付出數日甚至更久的回程與無法再次進入的成本；具體判定仍待設定。",
+            "topic": "諾亞復歸不保證能讓隊友返鄉",
+            "finding": "兩類錨點與槍隨復歸不能把同行者一起帶走；女主自身規則能真正解除部分困局，但不自動免死",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3487"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 92,
+            "quote": "世界巨大，某地把某一片深淵認為世界盡頭，經過此地抵達更深處，卻發現那下面竟然還有一整個世界層。從更宏觀角度看，先前「永遠無法返回」對某些探索者依然是真的，卻不是世界真的在這裡終結。",
+            "topic": "離鄉不可返可沿長線逐步發生",
+            "finding": "最後可回頭的窗口會受路況、人物選擇與各地制度影響；尋模組、最終敵人與登頂主線成立但不限定四站",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3488"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 102,
+            "quote": "- 「絕界行」究竟是世界內若干文明已使用的共同稱呼，還是作者層統稱不同文明各自的「最後遠征」？**用語形式未由使用者指定**。不可抄《來自深淵》原作詞作為全世界所有文明正式行政稱號。",
+            "topic": "絕界行通稱與局部深淵坐標未決",
+            "finding": "世界內誰使用絕界行稱呼、詛咒真原理、深淵位置及與靜謐的關係都未定，不能把局部深淵硬連到Celeste秘密路",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-3489"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 2026-10-19。使用者原話：「**我想要有類似來自深淵絕界行的設定，甚至說不定某個世界層後是完整深淵還有詛咒，最底層又接著另一個世界層，不是整個搬過來，不過我喜歡第四層，我要的絕界行不是只在這邊的，是相對於整個世界**」。",
+            "question": "AUTHOR確認絕界行的尺度與局部深淵候選如何分開？",
+            "finding": "作者要巨構級不可返旅程與局部完整深淵可能共存；新深淵位置、名稱、詛咒物理都未選。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 25,
+            "quote": "**世界層不是按樓層編號的連續通關遊戲**。同一巨構的不同方向、不同通道及互相嵌套的廣域世界層，可能通向根本不同的環境與文明。某些邊界因地理單向、工程技術門檻、長距離與後勤斷裂、地方性的致命作用而使人無法回到原本的生活世界。旅行者仍可能在另一側繼續生活、建立社會、遇見新城市、成家、甚至再向遠方出發；**無法返回原處≠抵達後必死**。",
+            "question": "為何03原本反對全球上升詛咒不等於禁止本地詛咒？",
+            "finding": "第11行已把全球統一規則與單一深淵局部逆向負荷拆開；049終焉單向另屬一個特別場所。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 74,
+            "quote": "**方案 1：方向性生態流場**：局部空間有特定沿高度、密度與生態循環的流場；順流向下穩定，反向上行時生命承載與運動訊號遭不協調的負荷。不同體質、種族、護具與技術能造成差異，不只是達到某一米數立即觸發標準流血。",
+            "question": "無可靠返程者是否已死或必掉入女聲秘密路？",
+            "finding": "第25行明說不可返回不等於抵達後死亡；其他社會生活繼續，局部深淵無證據連靜謐。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 102,
+            "quote": "- 「絕界行」究竟是世界內若干文明已使用的共同稱呼，還是作者層統稱不同文明各自的「最後遠征」？**用語形式未由使用者指定**。不可抄《來自深淵》原作詞作為全世界所有文明正式行政稱號。",
+            "question": "來源作品外部研究與世界頂端旅程能否直接合併？",
+            "finding": "BLAME或來自深淵原作術語不是此界制度，真正原槍模組與登頂主線是作者獨立選定方向。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+            "git_blob_sha": "2f7e69a18d969c2b2ddb92b3f1dd16be3e214aa8",
+            "impact": "003不採全球統一上升詛咒，但允許個別通路不可返；048新增局部完整深淵與其自身詛咒，不推翻一般多向交通。"
+          },
+          {
+            "path": "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+            "git_blob_sha": "771f840c86871e5cfce446d4b23bcaa3696bfd62",
+            "impact": "047外部研究屬參考作品的設計分析，不讓Made in Abyss完整層數、村落、症狀進入本世界。"
+          },
+          {
+            "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+            "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+            "impact": "049終焉迴廊普遍單向是特殊場所規則，不能套用成全球所有絕界行皆受Celeste機關。"
+          },
+          {
+            "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+            "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+            "impact": "036原槍與深層同化B隨復歸判準、地理與個人錨點存在，限制048不能讓主角死亡當成整隊免費返鄉。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+            "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2",
+            "impact": "115宏觀世界層與層間隔界分詞，048『深淵底部連另一層』須是真宏觀分域接點而非普通洞穴換景。"
+          }
+        ],
+        "second_pass_method": "第048原文完整二遍：針對本檔規則、後出詞義、物理生態與外部素材／候選不可升Canon進行逐項反證；003、047、049、036、115的差異以子命題具體說明。",
+        "unresolved_risks": [
+          "未經作者採用的地名、宏觀物理、角色試演不以任何CI成功升為Canon；同一AI的第二遍不是第三方獨立全面語義驗證。"
+        ]
+      }
+    },
+    {
+      "source_path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+      "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+      "source_role_id": "FULL-B28-062",
+      "related_claim_ids": [
+        "SRC-ALL-3490",
+        "SRC-ALL-3491",
+        "SRC-ALL-3492",
+        "SRC-ALL-3493",
+        "SRC-ALL-3494",
+        "SRC-ALL-3495",
+        "SRC-ALL-3496",
+        "SRC-ALL-3497",
+        "SRC-ALL-3498",
+        "SRC-ALL-3499",
+        "SRC-ALL-3500",
+        "SRC-ALL-3501"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第28批逐段連續覆蓋246原文行並做4類素材特定問答、逐項回查5條SHA依賴，提交CI前屬待驗收。",
+      "source_line_count": 246,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 8,
+          "anchor_line": 3,
+          "quote": "> 日期：2026-10-19。使用者確定要從六項工作中的 **3 城市／地貌／集市＋6 路網／地域差異** 開始實際建構。**本檔是豐富的可推翻世界局部候選，不是已選正式地圖、不是第一章、沒有發生的故事也不算已發生。**",
+          "meaning": "作者要求實際地景與短而有意境的正文：使用者要從城市地貌與路網工作出發，保持真實社會、畫面和具體旅行；四地及人物皆未採正史"
+        },
+        {
+          "from": 9,
+          "to": 37,
+          "anchor_line": 11,
+          "quote": "**「拱海側域」只是本次繪圖工作名，不代表居民使用的統一國名、行政區、世界層號或正式地理稱謂。**以第 39 份「拱海斷面」大空腔為一個可見起點，而不是硬說四座場景都在一個洞穴、同一街道或同一個行政統治下。",
+          "meaning": "拱海側域的多點交通不是同一房間地圖：工作名拱海側域及四地連接只是草圖，城內生活、跨城長途、野路與真正隔界路程有差異，6–12/20–40日非正式距離"
+        },
+        {
+          "from": 38,
+          "to": 63,
+          "anchor_line": 42,
+          "quote": "市場沿著數層傾斜鋼架展開，布棚和燈牌在頭頂交錯。烤肉與香料混進熱油、機油味，升降貨籠從攤販上方緩緩滑過。走到最外側的護欄才會發現，這片鬧烘烘的生活不過是巨構側壁上一小團亮光，遠方更大的斷裂建築消失在灰霧裡。",
+          "meaning": "折索集市有家庭與職業因果：葛桑的貨吊租用、老索維修成本和工人薪資是地方獨立生活候選，不是主角的掉落物或指定NPC"
+        },
+        {
+          "from": 64,
+          "to": 89,
+          "anchor_line": 68,
+          "quote": "退潮時，海盆邊緣露出大片青黑色的舊基座。漁船在碼頭卸網，運貨吊臂的陰影從海面慢慢移過。天邊有一道不可思議的長拱，另一端高得像伸進了雲。港城的早餐店已經點起火，遠處傳來船主催促繫纜的喊聲。",
+          "meaning": "懸潮港的水運與技師不能直接變已發生：牧冬與芙纓延續既有候選，其票據、船運與修理倫理有自身利害，不取代第34／52原先版本"
+        },
+        {
+          "from": 90,
+          "to": 119,
+          "anchor_line": 92,
+          "quote": "> **暫名**，可推翻。位於與港城相隔很遠的另一片高光照巨構區域，並非「折索集市上方一條電梯就到」；也不是最高世界層。",
+          "meaning": "晴紋城明亮高階不等於原初前文明頂峰：喬芮與公共步道設計可帶城市產業與日常，不能把明亮高科技外觀直接等同十級以上舊前文明"
+        },
+        {
+          "from": 120,
+          "to": 148,
+          "anchor_line": 122,
+          "quote": "> **暫名**，是拱海斷面延向一側的廣域荒地與失養建築斷帶，不預設其深處即是靜謐迴廊、終焉迴廊入口或諾亞核心原裝模組所在。",
+          "meaning": "苔脊無人帶也有生態與個人專業：綠色大荒域、桑雨的生態路圖和家鄉利益仍是候選；無人不代表整個巨構荒野都沒居民"
+        },
+        {
+          "from": 149,
+          "to": 165,
+          "anchor_line": 151,
+          "quote": "> **以下時間全是本稿對其中一套候選交通網的工作估計，不是巨構世界通用數字，也不是「高等主角絕不能更快」的禁令**。須依角色真正採用的科技、路徑、貨運需求、稅關與道路狀況調整。快路會有交易、可達性、情報和地方代價，某些高等個體可以更快通行；這不取消普通城市的交通社會。",
+          "meaning": "路網的時間物資運具要真計算：地方班車、港船、裝備限制、路權與季節航期為真實因果方向，具體候選行程時間未獲作者核定"
+        },
+        {
+          "from": 166,
+          "to": 179,
+          "anchor_line": 170,
+          "quote": "折索集市某張多人聯票只在當日夜貨開走前有效，諾亞本來只想問上行路，卻順手買兩張，艾莉維亞能看穿他的心思；**第 29 份已有「買兩張票被看穿」的具體舊候選，這裡可作地理接續，不把同一場景宣稱第一次正式發生**。兩人可因票務、攤商與普通交通同路，旅途中在幾個中繼站遇到別的乘客。若某人只想去港口看兒子，那人的目的不必給主線出模組。",
+          "meaning": "生活事件能獨立收束而非主線副本：兩人買票、貨與人的先後、普通居民願景可以連貫地方經濟與私人決定，不必每個城都有大災難"
+        },
+        {
+          "from": 180,
+          "to": 207,
+          "anchor_line": 192,
+          "quote": "諾亞望向老闆用長夾子從油鍋撈出的金色食物。",
+          "meaning": "折索食物遠景試演未成正文：人吃飯看見遠處巨構和另一人打趣是對畫面密度及人物日常的寫作測試，不是正式某日已發生"
+        },
+        {
+          "from": 208,
+          "to": 223,
+          "anchor_line": 210,
+          "quote": "海風把桌上的票據掀起來，牧冬伸手按住。",
+          "meaning": "懸潮港等船與日常摩擦仍屬樣稿：港口生活、等船和地方交涉是情境短片，不可由文字存在認定主角實際經歷或已選地理"
+        },
+        {
+          "from": 224,
+          "to": 239,
+          "anchor_line": 226,
+          "quote": "一段步道在兩人面前安靜地抬高，替坐在行動輔具上的老人形成新坡面。",
+          "meaning": "晴紋城午後與情緒是可替換場景：明亮生活與角色親近可發展，不使晴紋城自動成正式旅行順序或高階文明核心"
+        },
+        {
+          "from": 240,
+          "to": 246,
+          "anchor_line": 242,
+          "quote": "- **確定的用戶需求**：真正開始做第 3＋6，畫面與意境重要且正文不冗長；世界須有生活與巨大距離。所有正確舊內容保留。",
+          "meaning": "四地工作狀態明說全屬可推翻：折索懸潮沿用舊候選、晴紋苔脊新候選、距離天數與人物均未批准；Celeste、復歸、靜謐不因示範而成歷史"
+        }
+      ],
+      "latest_revisions_checked": [
+        "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+        "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+        "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md",
+        "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
+        "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+          "git_blob_sha": "016da0bf2d6768e55ec027f49e9d5212c0e861da"
+        },
+        {
+          "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47"
+        },
+        {
+          "path": "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md",
+          "git_blob_sha": "f8ee32dd78f0bf858c8723a20ab4afe35e2fb446"
+        },
+        {
+          "path": "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
+          "git_blob_sha": "0ad4152b3287ffbf0fefb0cc4c1eebe1ca77b2c8"
+        },
+        {
+          "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+          "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原文全文語義主題分段、各自第二遍反向核查、具體跨檔權威和非Canon圖譜",
+        "revocation": "來源Git SHA、依賴SHA變動或CI失敗需重新核驗"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 日期：2026-10-19。使用者確定要從六項工作中的 **3 城市／地貌／集市＋6 路網／地域差異** 開始實際建構。**本檔是豐富的可推翻世界局部候選，不是已選正式地圖、不是第一章、沒有發生的故事也不算已發生。**",
+            "topic": "作者要求實際地景與短而有意境的正文",
+            "finding": "使用者要從城市地貌與路網工作出發，保持真實社會、畫面和具體旅行；四地及人物皆未採正史",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3490"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 11,
+            "quote": "**「拱海側域」只是本次繪圖工作名，不代表居民使用的統一國名、行政區、世界層號或正式地理稱謂。**以第 39 份「拱海斷面」大空腔為一個可見起點，而不是硬說四座場景都在一個洞穴、同一街道或同一個行政統治下。",
+            "topic": "拱海側域的多點交通不是同一房間地圖",
+            "finding": "工作名拱海側域及四地連接只是草圖，城內生活、跨城長途、野路與真正隔界路程有差異，6–12/20–40日非正式距離",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3491"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 42,
+            "quote": "市場沿著數層傾斜鋼架展開，布棚和燈牌在頭頂交錯。烤肉與香料混進熱油、機油味，升降貨籠從攤販上方緩緩滑過。走到最外側的護欄才會發現，這片鬧烘烘的生活不過是巨構側壁上一小團亮光，遠方更大的斷裂建築消失在灰霧裡。",
+            "topic": "折索集市有家庭與職業因果",
+            "finding": "葛桑的貨吊租用、老索維修成本和工人薪資是地方獨立生活候選，不是主角的掉落物或指定NPC",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3492"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 68,
+            "quote": "退潮時，海盆邊緣露出大片青黑色的舊基座。漁船在碼頭卸網，運貨吊臂的陰影從海面慢慢移過。天邊有一道不可思議的長拱，另一端高得像伸進了雲。港城的早餐店已經點起火，遠處傳來船主催促繫纜的喊聲。",
+            "topic": "懸潮港的水運與技師不能直接變已發生",
+            "finding": "牧冬與芙纓延續既有候選，其票據、船運與修理倫理有自身利害，不取代第34／52原先版本",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3493"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 92,
+            "quote": "> **暫名**，可推翻。位於與港城相隔很遠的另一片高光照巨構區域，並非「折索集市上方一條電梯就到」；也不是最高世界層。",
+            "topic": "晴紋城明亮高階不等於原初前文明頂峰",
+            "finding": "喬芮與公共步道設計可帶城市產業與日常，不能把明亮高科技外觀直接等同十級以上舊前文明",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3494"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 122,
+            "quote": "> **暫名**，是拱海斷面延向一側的廣域荒地與失養建築斷帶，不預設其深處即是靜謐迴廊、終焉迴廊入口或諾亞核心原裝模組所在。",
+            "topic": "苔脊無人帶也有生態與個人專業",
+            "finding": "綠色大荒域、桑雨的生態路圖和家鄉利益仍是候選；無人不代表整個巨構荒野都沒居民",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3495"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 151,
+            "quote": "> **以下時間全是本稿對其中一套候選交通網的工作估計，不是巨構世界通用數字，也不是「高等主角絕不能更快」的禁令**。須依角色真正採用的科技、路徑、貨運需求、稅關與道路狀況調整。快路會有交易、可達性、情報和地方代價，某些高等個體可以更快通行；這不取消普通城市的交通社會。",
+            "topic": "路網的時間物資運具要真計算",
+            "finding": "地方班車、港船、裝備限制、路權與季節航期為真實因果方向，具體候選行程時間未獲作者核定",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3496"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 170,
+            "quote": "折索集市某張多人聯票只在當日夜貨開走前有效，諾亞本來只想問上行路，卻順手買兩張，艾莉維亞能看穿他的心思；**第 29 份已有「買兩張票被看穿」的具體舊候選，這裡可作地理接續，不把同一場景宣稱第一次正式發生**。兩人可因票務、攤商與普通交通同路，旅途中在幾個中繼站遇到別的乘客。若某人只想去港口看兒子，那人的目的不必給主線出模組。",
+            "topic": "生活事件能獨立收束而非主線副本",
+            "finding": "兩人買票、貨與人的先後、普通居民願景可以連貫地方經濟與私人決定，不必每個城都有大災難",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3497"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 192,
+            "quote": "諾亞望向老闆用長夾子從油鍋撈出的金色食物。",
+            "topic": "折索食物遠景試演未成正文",
+            "finding": "人吃飯看見遠處巨構和另一人打趣是對畫面密度及人物日常的寫作測試，不是正式某日已發生",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3498"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 210,
+            "quote": "海風把桌上的票據掀起來，牧冬伸手按住。",
+            "topic": "懸潮港等船與日常摩擦仍屬樣稿",
+            "finding": "港口生活、等船和地方交涉是情境短片，不可由文字存在認定主角實際經歷或已選地理",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3499"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 226,
+            "quote": "一段步道在兩人面前安靜地抬高，替坐在行動輔具上的老人形成新坡面。",
+            "topic": "晴紋城午後與情緒是可替換場景",
+            "finding": "明亮生活與角色親近可發展，不使晴紋城自動成正式旅行順序或高階文明核心",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3500"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 242,
+            "quote": "- **確定的用戶需求**：真正開始做第 3＋6，畫面與意境重要且正文不冗長；世界須有生活與巨大距離。所有正確舊內容保留。",
+            "topic": "四地工作狀態明說全屬可推翻",
+            "finding": "折索懸潮沿用舊候選、晴紋苔脊新候選、距離天數與人物均未批准；Celeste、復歸、靜謐不因示範而成歷史",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3501"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 日期：2026-10-19。使用者確定要從六項工作中的 **3 城市／地貌／集市＋6 路網／地域差異** 開始實際建構。**本檔是豐富的可推翻世界局部候選，不是已選正式地圖、不是第一章、沒有發生的故事也不算已發生。**",
+            "question": "四地地名與數週路程是否已被作者固定？",
+            "finding": "沒有，折索、懸潮、晴紋、苔脊乃工作候選，6–12／20–40日不是正式地圖數值。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 68,
+            "quote": "退潮時，海盆邊緣露出大片青黑色的舊基座。漁船在碼頭卸網，運貨吊臂的陰影從海面慢慢移過。天邊有一道不可思議的長拱，另一端高得像伸進了雲。港城的早餐店已經點起火，遠處傳來船主催促繫纜的喊聲。",
+            "question": "哪個舊地景和後出交通／居民要求會影響四地？",
+            "finding": "039多出口與長途交通、52港口人物、115宏觀分域定義限制四地不能變一座小洞四間房。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 170,
+            "quote": "折索集市某張多人聯票只在當日夜貨開走前有效，諾亞本來只想問上行路，卻順手買兩張，艾莉維亞能看穿他的心思；**第 29 份已有「買兩張票被看穿」的具體舊候選，這裡可作地理接續，不把同一場景宣稱第一次正式發生**。兩人可因票務、攤商與普通交通同路，旅途中在幾個中繼站遇到別的乘客。若某人只想去港口看兒子，那人的目的不必給主線出模組。",
+            "question": "六位地方人物除了接待主角還有什麼事？",
+            "finding": "葛桑維修費與員工、芙纓檢修簽字、喬芮公共交通、桑雨家鄉生態均有自己的利益與選擇。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 242,
+            "quote": "- **確定的用戶需求**：真正開始做第 3＋6，畫面與意境重要且正文不冗長；世界須有生活與巨大距離。所有正確舊內容保留。",
+            "question": "短景中對話、曖昧與第一次復歸是否已發生？",
+            "finding": "180–239全為測試，主角首遇與復歸時序另查後修，不能將晴紋下午或航期片段入正文歷史。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+            "git_blob_sha": "016da0bf2d6768e55ec027f49e9d5212c0e861da",
+            "impact": "039原折索／懸潮多出口路網只是候選，062加兩座地景不把兩市距離定成可步行到隔壁。"
+          },
+          {
+            "path": "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+            "git_blob_sha": "0f1d3f5b81819fa54c0cfbfc923dac2371ed4a47",
+            "impact": "052此前懸潮港工務事件與牧冬芙纓人物線是可復用候選，不以062試場景決定新首篇或重寫舊人歷史。"
+          },
+          {
+            "path": "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md",
+            "git_blob_sha": "f8ee32dd78f0bf858c8723a20ab4afe35e2fb446",
+            "impact": "061作者重視風景意境及短正文描寫，062四地大量資料只作場景一致性資料，不在正式敘事逐條解說。"
+          },
+          {
+            "path": "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
+            "git_blob_sha": "0ad4152b3287ffbf0fefb0cc4c1eebe1ca77b2c8",
+            "impact": "053人物動機優先於主線任務，限制062地方居民不因諾亞踏入就成模組供應NPC。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+            "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2",
+            "impact": "115明確世界層宏觀分域，062四個地方候選不能依舊市名或畫面並置推成四個已核定世界層。"
+          }
+        ],
+        "second_pass_method": "第062原文完整二遍：針對本檔規則、後出詞義、物理生態與外部素材／候選不可升Canon進行逐項反證；039、052、061、053、115的差異以子命題具體說明。",
+        "unresolved_risks": [
+          "未經作者採用的地名、宏觀物理、角色試演不以任何CI成功升為Canon；同一AI的第二遍不是第三方獨立全面語義驗證。"
+        ]
+      }
+    },
+    {
+      "source_path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+      "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+      "source_role_id": "FULL-B28-068",
+      "related_claim_ids": [
+        "SRC-ALL-3502",
+        "SRC-ALL-3503",
+        "SRC-ALL-3504",
+        "SRC-ALL-3505",
+        "SRC-ALL-3506",
+        "SRC-ALL-3507",
+        "SRC-ALL-3508",
+        "SRC-ALL-3509",
+        "SRC-ALL-3510",
+        "SRC-ALL-3511",
+        "SRC-ALL-3512",
+        "SRC-ALL-3513"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第28批逐段連續覆蓋140原文行並做4類素材特定問答、逐項回查5條SHA依賴，提交CI前屬待驗收。",
+      "source_line_count": 140,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 8,
+          "anchor_line": 3,
+          "quote": "> 日期：2026-10-19。**本檔是「查外部作品＋讀現有設定＋補足特殊地形」的具體候選庫**，不是作者把所有候選列成同一條必經升級之路，也不是新增正式地名 Canon。同期使用者明確定下**正式第一章諾亞與艾莉維亞第一次相遇**，另見 [67 首次相遇修正](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時",
+          "meaning": "外部研究與第一章相遇都需權威分層：本檔六原創地貌非正式地名，使用者後出第一章初遇方向不能回推六地已成第一章實景"
+        },
+        {
+          "from": 9,
+          "to": 28,
+          "anchor_line": 11,
+          "quote": "| 來源 | 已可查證的觀察 | 此世界可轉用的創作原理 | 避免誤用 |",
+          "meaning": "五種作品與NASA素材僅是設計原理研究：Hollow Knight、Outer Wilds、Rain World、Scavengers Reign與NASA的摘要是文件載外部背景，未獨立查核全部引用，不等於本宇宙事實"
+        },
+        {
+          "from": 29,
+          "to": 42,
+          "anchor_line": 33,
+          "quote": "**一句短景**：大平原上，一整排形如山嶽的黑色平臺沉默地移動。兩座遠山之間原本看不見的天空，被它們緩緩挪出的巨大縫隙照亮；草原上的移動市集已在收棚，等待明天的新道路。",
+          "meaning": "遷巒帶可動工程山脊候選：大型承重座緩慢變位可改變地形與交通，但運作原理、地名及居民反應未經作者選定"
+        },
+        {
+          "from": 43,
+          "to": 52,
+          "anchor_line": 45,
+          "quote": "**一句短景**：淺金色的草原在腳下延展。諾亞抬頭，另一片農田竟彎過極遙遠的天空；遠處一條運貨列車正沿著那片「天上」的地面緩緩滑行。兩側的人都在同一個午後過日子。",
+          "meaning": "雙晝穹原導光農原候選：兩片可見土地、人工日照與真農業生產的巨構場景是設計案，並非已定外部宇宙幾何"
+        },
+        {
+          "from": 53,
+          "to": 62,
+          "anchor_line": 55,
+          "quote": "**一句短景**：成千上萬條粗大的根從高處垂下，交織成森林。雨水沿根表慢慢滴落，在離地數百公尺的葉面間變成一層淡綠的霧。腳下有人劃著小船，從巨根間的水道安靜經過。",
+          "meaning": "雨根林海有真水養分與棲居可能：支架上的植物、水氣與採集生態應自洽，不能把每片林地都當主角可撿原裝槍模組的寶箱"
+        },
+        {
+          "from": 63,
+          "to": 72,
+          "anchor_line": 65,
+          "quote": "**一句短景**：懸崖背後有整片人工海，遠處卻看不見水平的海岸線。七道巨大的水幕從裂開的層緣瀉下，撞在半空的攔流架上，化作遠比城市寬廣的白色雲霧；雲霧深處偶爾露出一艘貨船的燈。",
+          "meaning": "垂潮裂灣多水幕與生活運輸候選：跨高差分層人工海與異常潮汐可構成船行和維修矛盾，未核定它與哪座港城實際相連"
+        },
+        {
+          "from": 73,
+          "to": 82,
+          "anchor_line": 75,
+          "quote": "**一句短景**：遠處的雪不像雪。漫長的淺色地表滿是細密裂紋，黑色散熱脊在地平線上起伏，偶爾把暖霧吐向天空。天色將暗時，幾十公里外一輛慢車亮起了孤零零的窗燈。",
+          "meaning": "白脈寂原散熱荒野仍可有使用者：冷白散熱地域可安靜且少人口，但設備在用與否、居民是否在內及真正危險門檻尚待設定"
+        },
+        {
+          "from": 83,
+          "to": 94,
+          "anchor_line": 85,
+          "quote": "**一句短景**：從觀景臺看去，對岸城市的電車就在眼前一條明亮的弧線上行駛。可是懸崖下沒有橋，連飛行測標也要繞行很遠才能回到視線裡。有人在這邊買早餐，那邊的鐘聲已經遙遙響了三次。",
+          "meaning": "錯岸天峽視距近不等於真實交通近：兩城可在視野相近但隔真物理巨壁或非普通拓撲，未定路網與正式地名"
+        },
+        {
+          "from": 95,
+          "to": 117,
+          "anchor_line": 100,
+          "quote": "[較早有人居住的區域]──(普通商運數日、數週)──[其他生活城、研究站與真正漫長的路]",
+          "meaning": "六地有不同尺度交通與生活：原創地貌不是同一區內六間房，各社會與旅人可因貨運、氣候與路權形成獨立長線"
+        },
+        {
+          "from": 118,
+          "to": 132,
+          "anchor_line": 120,
+          "quote": "- **最適合作為首個遠征級高潮候選**：《遷巒帶》。因為真正持續移動的巨大環境能讓地形、商隊、技術、利益及彼此選擇相撞；並非又一座需要救的城市。",
+          "meaning": "不是每處風景都要承擔全球主線：能只作美麗生活場景，也可有自身政治經濟事件，六個候選地貌不可排成固定向上升級清單"
+        },
+        {
+          "from": 133,
+          "to": 137,
+          "anchor_line": 135,
+          "quote": "[F115](115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md)、[F116](../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md)、[F117](../07_候選故事與場景/117_巨構荒野長篇敘事實作_多人口版本場景樣稿_旅程節點B候選修補與QA",
+          "meaning": "後出荒野圖片使有人與無人並存：116荒野可有泵站工務、居民與未經探索巨坑；不以新材料廢掉遷巒等六種原創候選"
+        },
+        {
+          "from": 138,
+          "to": 140,
+          "anchor_line": 140,
+          "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_",
+          "meaning": "原創地貌與119直接入世圖片是加法：外部特定幾何准入世界不能等於六原創命名已採案，也不刪老小洞、斜橋與新圖片的獨立組合可能"
+        }
+      ],
+      "latest_revisions_checked": [
+        "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+        "05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md",
+        "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816"
+        },
+        {
+          "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+          "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2"
+        },
+        {
+          "path": "05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md",
+          "git_blob_sha": "2a065215b359e4577c3a0af46a7384d19ac155f4"
+        },
+        {
+          "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原文全文語義主題分段、各自第二遍反向核查、具體跨檔權威和非Canon圖譜",
+        "revocation": "來源Git SHA、依賴SHA變動或CI失敗需重新核驗"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 日期：2026-10-19。**本檔是「查外部作品＋讀現有設定＋補足特殊地形」的具體候選庫**，不是作者把所有候選列成同一條必經升級之路，也不是新增正式地名 Canon。同期使用者明確定下**正式第一章諾亞與艾莉維亞第一次相遇**，另見 [67 首次相遇修正](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時",
+            "topic": "外部研究與第一章相遇都需權威分層",
+            "finding": "本檔六原創地貌非正式地名，使用者後出第一章初遇方向不能回推六地已成第一章實景",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3502"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 11,
+            "quote": "| 來源 | 已可查證的觀察 | 此世界可轉用的創作原理 | 避免誤用 |",
+            "topic": "五種作品與NASA素材僅是設計原理研究",
+            "finding": "Hollow Knight、Outer Wilds、Rain World、Scavengers Reign與NASA的摘要是文件載外部背景，未獨立查核全部引用，不等於本宇宙事實",
+            "authority": "SECONDARY_RESEARCH",
+            "claim_ids": [
+              "SRC-ALL-3503"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 33,
+            "quote": "**一句短景**：大平原上，一整排形如山嶽的黑色平臺沉默地移動。兩座遠山之間原本看不見的天空，被它們緩緩挪出的巨大縫隙照亮；草原上的移動市集已在收棚，等待明天的新道路。",
+            "topic": "遷巒帶可動工程山脊候選",
+            "finding": "大型承重座緩慢變位可改變地形與交通，但運作原理、地名及居民反應未經作者選定",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3504"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 45,
+            "quote": "**一句短景**：淺金色的草原在腳下延展。諾亞抬頭，另一片農田竟彎過極遙遠的天空；遠處一條運貨列車正沿著那片「天上」的地面緩緩滑行。兩側的人都在同一個午後過日子。",
+            "topic": "雙晝穹原導光農原候選",
+            "finding": "兩片可見土地、人工日照與真農業生產的巨構場景是設計案，並非已定外部宇宙幾何",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3505"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 55,
+            "quote": "**一句短景**：成千上萬條粗大的根從高處垂下，交織成森林。雨水沿根表慢慢滴落，在離地數百公尺的葉面間變成一層淡綠的霧。腳下有人劃著小船，從巨根間的水道安靜經過。",
+            "topic": "雨根林海有真水養分與棲居可能",
+            "finding": "支架上的植物、水氣與採集生態應自洽，不能把每片林地都當主角可撿原裝槍模組的寶箱",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3506"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 65,
+            "quote": "**一句短景**：懸崖背後有整片人工海，遠處卻看不見水平的海岸線。七道巨大的水幕從裂開的層緣瀉下，撞在半空的攔流架上，化作遠比城市寬廣的白色雲霧；雲霧深處偶爾露出一艘貨船的燈。",
+            "topic": "垂潮裂灣多水幕與生活運輸候選",
+            "finding": "跨高差分層人工海與異常潮汐可構成船行和維修矛盾，未核定它與哪座港城實際相連",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3507"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 75,
+            "quote": "**一句短景**：遠處的雪不像雪。漫長的淺色地表滿是細密裂紋，黑色散熱脊在地平線上起伏，偶爾把暖霧吐向天空。天色將暗時，幾十公里外一輛慢車亮起了孤零零的窗燈。",
+            "topic": "白脈寂原散熱荒野仍可有使用者",
+            "finding": "冷白散熱地域可安靜且少人口，但設備在用與否、居民是否在內及真正危險門檻尚待設定",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3508"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 85,
+            "quote": "**一句短景**：從觀景臺看去，對岸城市的電車就在眼前一條明亮的弧線上行駛。可是懸崖下沒有橋，連飛行測標也要繞行很遠才能回到視線裡。有人在這邊買早餐，那邊的鐘聲已經遙遙響了三次。",
+            "topic": "錯岸天峽視距近不等於真實交通近",
+            "finding": "兩城可在視野相近但隔真物理巨壁或非普通拓撲，未定路網與正式地名",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3509"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 100,
+            "quote": "[較早有人居住的區域]──(普通商運數日、數週)──[其他生活城、研究站與真正漫長的路]",
+            "topic": "六地有不同尺度交通與生活",
+            "finding": "原創地貌不是同一區內六間房，各社會與旅人可因貨運、氣候與路權形成獨立長線",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3510"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 120,
+            "quote": "- **最適合作為首個遠征級高潮候選**：《遷巒帶》。因為真正持續移動的巨大環境能讓地形、商隊、技術、利益及彼此選擇相撞；並非又一座需要救的城市。",
+            "topic": "不是每處風景都要承擔全球主線",
+            "finding": "能只作美麗生活場景，也可有自身政治經濟事件，六個候選地貌不可排成固定向上升級清單",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3511"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 135,
+            "quote": "[F115](115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md)、[F116](../05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md)、[F117](../07_候選故事與場景/117_巨構荒野長篇敘事實作_多人口版本場景樣稿_旅程節點B候選修補與QA",
+            "topic": "後出荒野圖片使有人與無人並存",
+            "finding": "116荒野可有泵站工務、居民與未經探索巨坑；不以新材料廢掉遷巒等六種原創候選",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3512"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 140,
+            "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_",
+            "topic": "原創地貌與119直接入世圖片是加法",
+            "finding": "外部特定幾何准入世界不能等於六原創命名已採案，也不刪老小洞、斜橋與新圖片的獨立組合可能",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3513"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 日期：2026-10-19。**本檔是「查外部作品＋讀現有設定＋補足特殊地形」的具體候選庫**，不是作者把所有候選列成同一條必經升級之路，也不是新增正式地名 Canon。同期使用者明確定下**正式第一章諾亞與艾莉維亞第一次相遇**，另見 [67 首次相遇修正](../03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時",
+            "question": "六種異質地貌與來源作品的關係是已定新地理嗎？",
+            "finding": "六處全部原創候選，外部作品只取環境與生態設計原理，NASA研究不等同本世界尺寸。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 45,
+            "quote": "**一句短景**：淺金色的草原在腳下延展。諾亞抬頭，另一片農田竟彎過極遙遠的天空；遠處一條運貨列車正沿著那片「天上」的地面緩緩滑行。兩側的人都在同一個午後過日子。",
+            "question": "115、116、119分別會改變哪種理解？",
+            "finding": "115重定世界層，116准荒野有人工務生活，119准參考圖片形體直接入世但原創六地不作廢。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 85,
+            "quote": "**一句短景**：從觀景臺看去，對岸城市的電車就在眼前一條明亮的弧線上行駛。可是懸崖下沒有橋，連飛行測標也要繞行很遠才能回到視線裡。有人在這邊買早餐，那邊的鐘聲已經遙遙響了三次。",
+            "question": "六個場域若只各給一個寶物會漏掉什麼？",
+            "finding": "每種地貌都有物理、氣候、人口、交通與後世再利用，不能當固定向上關卡清單。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 140,
+            "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_",
+            "question": "後出第一章相遇與地貌清單有什麼差別？",
+            "finding": "067只約束諾亞和維亞初見時序，不能證明六地都在第一章或全部被正式採用。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+            "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+            "impact": "062折索、懸潮、晴紋、苔脊仍是四地候選，068六個新地貌與它們可以共存，但未獲授權全部拼成小區地圖。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+            "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2",
+            "impact": "115世界層宏觀分域及層間隔界詞義修訂，068各條水幕、懸崖不能憑規模單獨判為跨層。"
+          },
+          {
+            "path": "05_場景視覺與參考/116_圖片全量觀察_巨構荒野鋼鐵森林混凝土機關設施_有人社會與多美學長篇素材庫.md",
+            "git_blob_sha": "2a065215b359e4577c3a0af46a7384d19ac155f4",
+            "impact": "116荒野可有工務、各種居民、灰霧與多樣地材，068白寂荒野或雨根森林不因『荒野』就全無人。"
+          },
+          {
+            "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+            "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+            "impact": "119准特定圖像幾何直接入世，對068六個原創地貌是加法非替換；仍不認證全部候選地名。"
+          },
+          {
+            "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+            "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c",
+            "impact": "067第一章諾亞和維亞首次相遇的時序裁決與068地貌設定相互獨立，不能用地貌來源取代兩人初遇歷史。"
+          }
+        ],
+        "second_pass_method": "第068原文完整二遍：針對本檔規則、後出詞義、物理生態與外部素材／候選不可升Canon進行逐項反證；062、115、116、119、067的差異以子命題具體說明。",
+        "unresolved_risks": [
+          "未經作者採用的地名、宏觀物理、角色試演不以任何CI成功升為Canon；同一AI的第二遍不是第三方獨立全面語義驗證。"
+        ]
+      }
+    },
+    {
+      "source_path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+      "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+      "source_role_id": "FULL-B28-070",
+      "related_claim_ids": [
+        "SRC-ALL-3514",
+        "SRC-ALL-3515",
+        "SRC-ALL-3516",
+        "SRC-ALL-3517",
+        "SRC-ALL-3518",
+        "SRC-ALL-3519",
+        "SRC-ALL-3520",
+        "SRC-ALL-3521"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第28批逐段連續覆蓋56原文行並做4類素材特定問答、逐項回查4條SHA依賴，提交CI前屬待驗收。",
+      "source_line_count": 56,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 9,
+          "anchor_line": 6,
+          "quote": "「文明群落是由環境長出來的，文明也可以長出屬於自己的巨構，某些衰落後又變成之後被當成地貌的巨構。」",
+          "meaning": "作者確認環境養育文明及舊工程成地貌：世界原始巨構先於文明社區，文明再造新巨構，衰落物可變後世地形；具體外殼形狀仍助手模型"
+        },
+        {
+          "from": 10,
+          "to": 16,
+          "anchor_line": 11,
+          "quote": "1. 既有巨構的支脊、殼、谷地、裂隙與熱、水、光照、承載條件，形成不同環境機會。",
+          "meaning": "多代水工交通與生態演替實際可能：天然承載與光水空氣催生社會，文明建水工橋、廢棄後生態侵入；不是所有橋都Celeste親製"
+        },
+        {
+          "from": 17,
+          "to": 19,
+          "anchor_line": 18,
+          "quote": "真正世界層是巨構的極大結構／可達性分域，可包括若干互通或部分隔絕的空域、複雜高差、多城國家、完整海盆、森林、地質、遠方高科技、無人大遺跡。單個文明不等於一層，一條高架、一道國境、一次城市換景亦不算跨層。不同世界層的交通預設非常困難，但也保留不同文明已有真實高階工程或少量有效道路的局部例外，遵循最新使用者對層間隔絕的強調。",
+          "meaning": "世界層不等於一個文明區塊：宏觀分域可能有多國城市和真無人區，一座城市／一條國境不等於跨世界層"
+        },
+        {
+          "from": 20,
+          "to": 27,
+          "anchor_line": 21,
+          "quote": "A：**共同主脊跨穿**。同一巨大承重主骨架穿越多片廣大空域，各處可以有居民、自然生態、無人工程；能看見同一根巨構不等於內部能沿它安全跨界。",
+          "meaning": "四種交錯模型仍助手模擬：共同巨脊、投影近卻真隔、巢狀副殼、斷裂縫補都只是可能組合，不是已確認完整全球拓撲"
+        },
+        {
+          "from": 28,
+          "to": 34,
+          "anchor_line": 29,
+          "quote": "外部可由非對稱巨型主脊、大型環或曲殼、向外發散的支枝與不同厚度的容納節點構成；局部又能有非普通空間拓撲，內部可容納比外側直觀可見更大的生活空域。整體外觀是否有單一封閉殼、位於何種宇宙、真外表面能否抵達，都仍未定。",
+          "meaning": "B+C外表模型未敲定外宇宙：不對稱主脊與曲殼、非普通內部容積是偏好提案，真外殼、可達表面、氣壓光熱需另外核實"
+        },
+        {
+          "from": 35,
+          "to": 39,
+          "anchor_line": 36,
+          "quote": "**古導流壁**：某代文明為海盆建起宏大的分流堤；衰落後關鍵泵站斷續運作、泥沙與生物沿壁聚集，上游形成濕原，下方形成次生瀑布，後代在壁上建立市場和養殖平台。古壁此時是真正海岸地形，不是每天等待主角開機關的地下城。",
+          "meaning": "古導流壁斜脊山與農穹示例非正史：後世居民把舊水工與城橋當地貌的三種具體樣本可替換，不等於已在某正式世界層造出"
+        },
+        {
+          "from": 40,
+          "to": 51,
+          "anchor_line": 41,
+          "quote": "一片環形主殼不一定等於一個世界層；同一層可同時存在古代廢棄工程、現代文明巨構、自然谷地與完全無人之處。使用者原本喜歡的「左方大拱、旁邊小洞、上方長路、右方看不見岸的水」要維持多方向未知，不把每條通路都硬安排一座文明作下一站。",
+          "meaning": "現實地理參照和未決清單：UNESCO、景觀公園連結只供研究類比，宏觀層數、路線、建築者及時間線不能靠資料直接確定"
+        },
+        {
+          "from": 52,
+          "to": 56,
+          "anchor_line": 54,
+          "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+          "meaning": "115重新確認宏觀世界層但不承認四模型：作者的世界層＝宏觀分域、層間隔界＝巨大危險斷隔是正式詞義；本檔四交錯例子及實體幾何未採"
+        }
+      ],
+      "latest_revisions_checked": [
+        "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+        "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
+        "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c"
+        },
+        {
+          "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+          "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2"
+        },
+        {
+          "path": "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
+          "git_blob_sha": "ec00a7bcc26dd1cf3b9bdd80622d789cd4c4c4a1"
+        },
+        {
+          "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+          "git_blob_sha": "2f62fa570e36e4585b8bf0e4d00eb8690987fc30"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原文全文語義主題分段、各自第二遍反向核查、具體跨檔權威和非Canon圖譜",
+        "revocation": "來源Git SHA、依賴SHA變動或CI失敗需重新核驗"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 6,
+            "quote": "「文明群落是由環境長出來的，文明也可以長出屬於自己的巨構，某些衰落後又變成之後被當成地貌的巨構。」",
+            "topic": "作者確認環境養育文明及舊工程成地貌",
+            "finding": "世界原始巨構先於文明社區，文明再造新巨構，衰落物可變後世地形；具體外殼形狀仍助手模型",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3514"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 11,
+            "quote": "1. 既有巨構的支脊、殼、谷地、裂隙與熱、水、光照、承載條件，形成不同環境機會。",
+            "topic": "多代水工交通與生態演替實際可能",
+            "finding": "天然承載與光水空氣催生社會，文明建水工橋、廢棄後生態侵入；不是所有橋都Celeste親製",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3515"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 18,
+            "quote": "真正世界層是巨構的極大結構／可達性分域，可包括若干互通或部分隔絕的空域、複雜高差、多城國家、完整海盆、森林、地質、遠方高科技、無人大遺跡。單個文明不等於一層，一條高架、一道國境、一次城市換景亦不算跨層。不同世界層的交通預設非常困難，但也保留不同文明已有真實高階工程或少量有效道路的局部例外，遵循最新使用者對層間隔絕的強調。",
+            "topic": "世界層不等於一個文明區塊",
+            "finding": "宏觀分域可能有多國城市和真無人區，一座城市／一條國境不等於跨世界層",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3516"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 21,
+            "quote": "A：**共同主脊跨穿**。同一巨大承重主骨架穿越多片廣大空域，各處可以有居民、自然生態、無人工程；能看見同一根巨構不等於內部能沿它安全跨界。",
+            "topic": "四種交錯模型仍助手模擬",
+            "finding": "共同巨脊、投影近卻真隔、巢狀副殼、斷裂縫補都只是可能組合，不是已確認完整全球拓撲",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3517"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 29,
+            "quote": "外部可由非對稱巨型主脊、大型環或曲殼、向外發散的支枝與不同厚度的容納節點構成；局部又能有非普通空間拓撲，內部可容納比外側直觀可見更大的生活空域。整體外觀是否有單一封閉殼、位於何種宇宙、真外表面能否抵達，都仍未定。",
+            "topic": "B+C外表模型未敲定外宇宙",
+            "finding": "不對稱主脊與曲殼、非普通內部容積是偏好提案，真外殼、可達表面、氣壓光熱需另外核實",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3518"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 36,
+            "quote": "**古導流壁**：某代文明為海盆建起宏大的分流堤；衰落後關鍵泵站斷續運作、泥沙與生物沿壁聚集，上游形成濕原，下方形成次生瀑布，後代在壁上建立市場和養殖平台。古壁此時是真正海岸地形，不是每天等待主角開機關的地下城。",
+            "topic": "古導流壁斜脊山與農穹示例非正史",
+            "finding": "後世居民把舊水工與城橋當地貌的三種具體樣本可替換，不等於已在某正式世界層造出",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3519"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 41,
+            "quote": "一片環形主殼不一定等於一個世界層；同一層可同時存在古代廢棄工程、現代文明巨構、自然谷地與完全無人之處。使用者原本喜歡的「左方大拱、旁邊小洞、上方長路、右方看不見岸的水」要維持多方向未知，不把每條通路都硬安排一座文明作下一站。",
+            "topic": "現實地理參照和未決清單",
+            "finding": "UNESCO、景觀公園連結只供研究類比，宏觀層數、路線、建築者及時間線不能靠資料直接確定",
+            "authority": "SECONDARY_RESEARCH",
+            "claim_ids": [
+              "SRC-ALL-3520"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 54,
+            "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+            "topic": "115重新確認宏觀世界層但不承認四模型",
+            "finding": "作者的世界層＝宏觀分域、層間隔界＝巨大危險斷隔是正式詞義；本檔四交錯例子及實體幾何未採",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3521"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 6,
+            "quote": "「文明群落是由環境長出來的，文明也可以長出屬於自己的巨構，某些衰落後又變成之後被當成地貌的巨構。」",
+            "question": "作者明確確認哪個因果循環、哪種圖還未定？",
+            "finding": "環境→文明→文明造巨構→工程再成地貌是作者方向，外殼主脊、四交錯模型及三案例仍助手候選。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 18,
+            "quote": "真正世界層是巨構的極大結構／可達性分域，可包括若干互通或部分隔絕的空域、複雜高差、多城國家、完整海盆、森林、地質、遠方高科技、無人大遺跡。單個文明不等於一層，一條高架、一道國境、一次城市換景亦不算跨層。不同世界層的交通預設非常困難，但也保留不同文明已有真實高階工程或少量有效道路的局部例外，遵循最新使用者對層間隔絕的強調。",
+            "question": "115的世界層新詞是否確認了外部B+C殼形？",
+            "finding": "沒有，只確定宏觀分域與層間隔界的詞義，世界外殼是否封閉與內部四交錯位置未定。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 29,
+            "quote": "外部可由非對稱巨型主脊、大型環或曲殼、向外發散的支枝與不同厚度的容納節點構成；局部又能有非普通空間拓撲，內部可容納比外側直觀可見更大的生活空域。整體外觀是否有單一封閉殼、位於何種宇宙、真外表面能否抵達，都仍未定。",
+            "question": "文明建的舊工程為何不全屬Celeste或前文明？",
+            "finding": "地方水工、多代住民與後世建路都能創造真正地景，歷史連續性不能靠造物主一人代勞。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 54,
+            "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+            "question": "第71的αβγ與第70的四種相交模型誰被作者採用了？",
+            "finding": "兩者仍模擬，不能因第71沿用幾何骨架便升為正式全球地圖。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+            "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+            "impact": "071三片αβγ原型具體模擬070環境造文明的作者方向，但三原型與四交錯不是正式圖。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+            "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2",
+            "impact": "115只確定世界層/層間隔界的語義，不能證明070四種外殼幾何與真外宇宙輪廓。"
+          },
+          {
+            "path": "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
+            "git_blob_sha": "ec00a7bcc26dd1cf3b9bdd80622d789cd4c4c4a1",
+            "impact": "011前文明特殊科技尺度非常高，但070多代普通文明也能自行建造生活巨構，不可全歸前文明作者。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+            "git_blob_sha": "2f62fa570e36e4585b8bf0e4d00eb8690987fc30",
+            "impact": "072後續三維母骨架完整候選是架構推演，不能追認070主脊外殼工作圖為作者採用的真實地圖。"
+          }
+        ],
+        "second_pass_method": "第070原文完整二遍：針對本檔規則、後出詞義、物理生態與外部素材／候選不可升Canon進行逐項反證；071、115、011、072的差異以子命題具體說明。",
+        "unresolved_risks": [
+          "未經作者採用的地名、宏觀物理、角色試演不以任何CI成功升為Canon；同一AI的第二遍不是第三方獨立全面語義驗證。"
+        ]
+      }
+    },
+    {
+      "source_path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+      "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+      "source_role_id": "FULL-B28-071",
+      "related_claim_ids": [
+        "SRC-ALL-3522",
+        "SRC-ALL-3523",
+        "SRC-ALL-3524",
+        "SRC-ALL-3525",
+        "SRC-ALL-3526",
+        "SRC-ALL-3527",
+        "SRC-ALL-3528",
+        "SRC-ALL-3529"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第28批逐段連續覆蓋82原文行並做4類素材特定問答、逐項回查4條SHA依賴，提交CI前屬待驗收。",
+      "source_line_count": 82,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 14,
+          "anchor_line": 3,
+          "quote": "> 2026-10-19，**助手模擬候選，非正式地圖**。承接使用者新確認方向與第70份研究：巨構本身先有環境；文明在其中生長，文明興建新巨構，一部分文明衰落後的工程又成為後世的真實地貌。以下世界層原型及專名均屬測試代號，不是已知世界所有層清單，更不是由下到上的必經序列。整體環境仍全在 B＋C 巨構內部，不能因一片生活區有農田／藍天就放到巨構外星",
+          "meaning": "形體可達時間三圖需一致：物理有主肋與海盆、能否靠真實交通抵達、各年代工程演替不能互相矛盾；這是研究檢驗法不是正式地圖"
+        },
+        {
+          "from": 15,
+          "to": 26,
+          "anchor_line": 19,
+          "quote": "**先有的巨構**：某段不規則寬廣主脊與側向巨肋，支撐一系列尺度極大的開闊空域。北側局部有岩脈／乾谷，遠端連到海盆、巨大拱門、原本的高熱設備和數不清的建築斷面。可見空間很大，但幾條巨肋間的長線交通未必有人維護。",
+          "meaning": "α肋海廣域是超廣分域測試：一片宏觀世界可容多城不同文明和巨大無人區，名α及其社會地貌都尚未定案"
+        },
+        {
+          "from": 27,
+          "to": 36,
+          "anchor_line": 29,
+          "quote": "**先有的巨構**：另一組大弧殼和不規則包覆部件，在空間投影上與 α 的一根主肋相近。它的內側可容納大片農田、溫帶林、丘陵、清潔高科技居地、舊城墟與廣大人跡稀少地。這片不是只有田園的單一文明。",
+          "meaning": "β折殼曲原可見而不可達：看似兩地接近卻由厚殼和真實交通距離分隔；β名稱位置及與α跨層關係未採"
+        },
+        {
+          "from": 37,
+          "to": 48,
+          "anchor_line": 39,
+          "quote": "**先有的巨構**：靠大型散熱支脈與失養的內殼部分，形成漫長冷凝谷、熱脈裂地、近乎不可測深的大空洞與多種特殊環境。某處仍有真正正常工作的能源系統，另處則是被生物佔據的舊輸送骨架。",
+          "meaning": "γ靜熱盲域低人口不等於野怪關卡：熱交換廣域可少居民但存在現代研究、工人和生態，γ不是確認第三世界層"
+        },
+        {
+          "from": 49,
+          "to": 62,
+          "anchor_line": 51,
+          "quote": "**第零階段**：某巨大主肋下方有真長河與空腔風場，最早的可用陸地沿著肋緣、天然斜坡和水系集中。這些原有環境可以由巨構原始工程、水文與地質共同提供，不必知道是誰創造第一根樑。",
+          "meaning": "四代文明疊建工程成新地形：引水堤、貨運城、廢墟再利用、現代水工可在相同位置歷時演化，所有年代與地名是非正史模擬"
+        },
+        {
+          "from": 63,
+          "to": 71,
+          "anchor_line": 65,
+          "quote": "* **一條巨肋**：可以穿透不同巨大空域；中途某些工程段沒有可用通路，不能憑它看起來連續就自動跨世界層。",
+          "meaning": "路線跨層判斷與巨構物理一致：巨肋看似連續仍可能不可走，真跨層需要路權工務環境與特殊拓撲證據，不能只靠全圖漂亮"
+        },
+        {
+          "from": 72,
+          "to": 77,
+          "anchor_line": 73,
+          "quote": "正式世界層數、α β γ 之間的真正排序與是否存在、整體最外壳是否有可走的表面、外宇宙位置、非普通空間接點數與技術原理、各文明具體建造者與年代、是否有世界公認「真正最高層」證據，全部尚未定案。作者層 Celeste 的絕對管理者真相不能冒充外界居民的科學共識。",
+          "meaning": "外殼世界層數與原型仍開放：A/B/C概型不能被誤當僅三層世界、真實高低層位置或全部Celeste已安排的旅程"
+        },
+        {
+          "from": 78,
+          "to": 82,
+          "anchor_line": 80,
+          "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+          "meaning": "115後出語義不會使αβγ變正史：宏觀分域定義與模擬相容，只說明分類用法，不確認三片原型實際存在及排序"
+        }
+      ],
+      "latest_revisions_checked": [
+        "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+        "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+        "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18"
+        },
+        {
+          "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+          "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2"
+        },
+        {
+          "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+          "git_blob_sha": "2f62fa570e36e4585b8bf0e4d00eb8690987fc30"
+        },
+        {
+          "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+          "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原文全文語義主題分段、各自第二遍反向核查、具體跨檔權威和非Canon圖譜",
+        "revocation": "來源Git SHA、依賴SHA變動或CI失敗需重新核驗"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 2026-10-19，**助手模擬候選，非正式地圖**。承接使用者新確認方向與第70份研究：巨構本身先有環境；文明在其中生長，文明興建新巨構，一部分文明衰落後的工程又成為後世的真實地貌。以下世界層原型及專名均屬測試代號，不是已知世界所有層清單，更不是由下到上的必經序列。整體環境仍全在 B＋C 巨構內部，不能因一片生活區有農田／藍天就放到巨構外星",
+            "topic": "形體可達時間三圖需一致",
+            "finding": "物理有主肋與海盆、能否靠真實交通抵達、各年代工程演替不能互相矛盾；這是研究檢驗法不是正式地圖",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3522"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 19,
+            "quote": "**先有的巨構**：某段不規則寬廣主脊與側向巨肋，支撐一系列尺度極大的開闊空域。北側局部有岩脈／乾谷，遠端連到海盆、巨大拱門、原本的高熱設備和數不清的建築斷面。可見空間很大，但幾條巨肋間的長線交通未必有人維護。",
+            "topic": "α肋海廣域是超廣分域測試",
+            "finding": "一片宏觀世界可容多城不同文明和巨大無人區，名α及其社會地貌都尚未定案",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3523"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 29,
+            "quote": "**先有的巨構**：另一組大弧殼和不規則包覆部件，在空間投影上與 α 的一根主肋相近。它的內側可容納大片農田、溫帶林、丘陵、清潔高科技居地、舊城墟與廣大人跡稀少地。這片不是只有田園的單一文明。",
+            "topic": "β折殼曲原可見而不可達",
+            "finding": "看似兩地接近卻由厚殼和真實交通距離分隔；β名稱位置及與α跨層關係未採",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3524"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 39,
+            "quote": "**先有的巨構**：靠大型散熱支脈與失養的內殼部分，形成漫長冷凝谷、熱脈裂地、近乎不可測深的大空洞與多種特殊環境。某處仍有真正正常工作的能源系統，另處則是被生物佔據的舊輸送骨架。",
+            "topic": "γ靜熱盲域低人口不等於野怪關卡",
+            "finding": "熱交換廣域可少居民但存在現代研究、工人和生態，γ不是確認第三世界層",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3525"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 51,
+            "quote": "**第零階段**：某巨大主肋下方有真長河與空腔風場，最早的可用陸地沿著肋緣、天然斜坡和水系集中。這些原有環境可以由巨構原始工程、水文與地質共同提供，不必知道是誰創造第一根樑。",
+            "topic": "四代文明疊建工程成新地形",
+            "finding": "引水堤、貨運城、廢墟再利用、現代水工可在相同位置歷時演化，所有年代與地名是非正史模擬",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3526"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 65,
+            "quote": "* **一條巨肋**：可以穿透不同巨大空域；中途某些工程段沒有可用通路，不能憑它看起來連續就自動跨世界層。",
+            "topic": "路線跨層判斷與巨構物理一致",
+            "finding": "巨肋看似連續仍可能不可走，真跨層需要路權工務環境與特殊拓撲證據，不能只靠全圖漂亮",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3527"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 73,
+            "quote": "正式世界層數、α β γ 之間的真正排序與是否存在、整體最外壳是否有可走的表面、外宇宙位置、非普通空間接點數與技術原理、各文明具體建造者與年代、是否有世界公認「真正最高層」證據，全部尚未定案。作者層 Celeste 的絕對管理者真相不能冒充外界居民的科學共識。",
+            "topic": "外殼世界層數與原型仍開放",
+            "finding": "A/B/C概型不能被誤當僅三層世界、真實高低層位置或全部Celeste已安排的旅程",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-3528"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 80,
+            "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+            "topic": "115後出語義不會使αβγ變正史",
+            "finding": "宏觀分域定義與模擬相容，只說明分類用法，不確認三片原型實際存在及排序",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3529"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 2026-10-19，**助手模擬候選，非正式地圖**。承接使用者新確認方向與第70份研究：巨構本身先有環境；文明在其中生長，文明興建新巨構，一部分文明衰落後的工程又成為後世的真實地貌。以下世界層原型及專名均屬測試代號，不是已知世界所有層清單，更不是由下到上的必經序列。整體環境仍全在 B＋C 巨構內部，不能因一片生活區有農田／藍天就放到巨構外星",
+            "question": "αβγ三片宏觀原型與真正世界層名錄有何區別？",
+            "finding": "三個名字只是測試，非正式世界層、上下排序或僅三層的說法。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 29,
+            "quote": "**先有的巨構**：另一組大弧殼和不規則包覆部件，在空間投影上與 α 的一根主肋相近。它的內側可容納大片農田、溫帶林、丘陵、清潔高科技居地、舊城墟與廣大人跡稀少地。這片不是只有田園的單一文明。",
+            "question": "後出115分詞改變了什麼？",
+            "finding": "一片大海盆或可見他域不足以認定跨世界層，須考慮真正宏觀分域與層間隔界。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 51,
+            "quote": "**第零階段**：某巨大主肋下方有真長河與空腔風場，最早的可用陸地沿著肋緣、天然斜坡和水系集中。這些原有環境可以由巨構原始工程、水文與地質共同提供，不必知道是誰創造第一根樑。",
+            "question": "三圖分析要保留什麼？",
+            "finding": "實體物理、真可達路網、不同世代工程史須互相制約，否則會把看得到當走得到。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 80,
+            "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+            "question": "外部第070文明造地貌方向與本模擬的連續性？",
+            "finding": "第070作者確認環境與文明互成，071只是把此功能建構成候選四代工程時間線。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+            "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+            "impact": "070作者確認環境→文明→工程成地貌循環，071以四代堤海、軌城和濕原具體模擬，但日期地名全候選。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+            "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2",
+            "impact": "115確立宏觀世界層分類，071αβγ三個測試分域依然不是已選世界層名錄。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md",
+            "git_blob_sha": "2f62fa570e36e4585b8bf0e4d00eb8690987fc30",
+            "impact": "072更完整的巨構三維骨架仍是研究模型，不能把071αβγ與072幾何強行合併成全球唯一形狀。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+            "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+            "impact": "075說明真實通勤與立體道路多路交錯，071形體/可達/時間三圖需對照實際貨運路權，不能只連繪圖線條。"
+          }
+        ],
+        "second_pass_method": "第071原文完整二遍：針對本檔規則、後出詞義、物理生態與外部素材／候選不可升Canon進行逐項反證；070、115、072、075的差異以子命題具體說明。",
+        "unresolved_risks": [
+          "未經作者採用的地名、宏觀物理、角色試演不以任何CI成功升為Canon；同一AI的第二遍不是第三方獨立全面語義驗證。"
+        ]
+      }
+    },
+    {
+      "source_path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+      "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+      "source_role_id": "FULL-B28-075",
+      "related_claim_ids": [
+        "SRC-ALL-3530",
+        "SRC-ALL-3531",
+        "SRC-ALL-3532",
+        "SRC-ALL-3533",
+        "SRC-ALL-3534",
+        "SRC-ALL-3535",
+        "SRC-ALL-3536",
+        "SRC-ALL-3537",
+        "SRC-ALL-3538"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第28批逐段連續覆蓋56原文行並做4類素材特定問答、逐項回查5條SHA依賴，提交CI前屬待驗收。",
+      "source_line_count": 56,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "anchor_line": 3,
+          "quote": "> 來源：2026-10-19 第73份後使用者繼續上傳圖像，明確描述：「世界有趕路工具嗎」「路網，那種很多通道，在城市中是，在遺跡中也是」「斜著往上插的巨大石柱」「各種垂落的樓梯」「五呎高大石牆一層一層往上，正常人只能走前面，有勾鎖或能跳高地和其他技術可以走左右邊」「天花板可能有正方形垂直往上的看不見底的通道，有特殊技藝的人可能可以上去，也可能有",
+          "meaning": "立體多路與怪異空間是作者方向：作者具體提五呎側壁、天花板方井、巨大斜柱、交通工具、Backrooms參考；具體五路分類非正式制度"
+        },
+        {
+          "from": 7,
+          "to": 12,
+          "anchor_line": 8,
+          "quote": "- 巨構內有完整且成熟的普通城市與廣域交通：道路、各類列車／懸軌／曲軌、大升降機、扶梯、電梯、纜車、公共車、貨運甲板、真實海域上的船、在環境與科技允許時的飛行運具、特別地形的搬運索道等。不同文明可以自行造更高階科技交通；不是只有前文明才能造宏偉工程。",
+          "meaning": "居民交通讓城市和旅程真實：火車扶梯貨船與貨運平台應有能源路權維修，不能讓人人徒手攀架或強行封女主能力"
+        },
+        {
+          "from": 13,
+          "to": 23,
+          "anchor_line": 14,
+          "quote": "**使用者原型**：巨大長廊，正前方是常規可行的道路，左右兩側每隔一段就有約五呎（約 1.5 米）高的大型牆／臺階／隔斷；帶勾鎖、擅跳躍、懂壁面攀行者可以由側邊快速連續向上穿行；天花板某處還有一個正方形垂直向上、望不見底／頂的方井，可能有人從上方落下或正常攀降。附近還有斜入上空的龐大石柱、另一組垂落階梯、內部維修孔和地下水道。",
+          "meaning": "同走廊多種路的可達性分級：居民正常路、工務設備、勾鎖側壁與特殊高位方井各有體能、貨物、承重條件，不能讓鉤索抓不存在的點"
+        },
+        {
+          "from": 24,
+          "to": 31,
+          "anchor_line": 25,
+          "quote": "助手曾口語提出「民路／工路／技路／孔道／閾限路」五種觀察角度；**不得寫成客觀五大類、技能解鎖順序或世界所有入口只有這五種**。真正有用的是：",
+          "meaning": "路網交錯非RPG五級門：民路工路技路只是助手觀察角度，仍有旁路、環路與社會維修，不能按工具技能固定通關次序"
+        },
+        {
+          "from": 32,
+          "to": 37,
+          "anchor_line": 33,
+          "quote": "- 可有彷彿公共機關／辦公室／酒店／醫院的長廊，異常空曠、燈具仍開著、地毯延伸，甚至重複到迷失方向。失落的用途、被遺棄的文明累積、天然或特殊幾何、Celeste 親自塑造，都可能是不同地點的實際成因，**不能一律指向一個神祕主體**。",
+          "meaning": "閾限建築也有多種真因果：長廊照明與不合常理構造可能正常使用、古文明遺物或真正無明目的；不能一律認定Celeste造怪談"
+        },
+        {
+          "from": 38,
+          "to": 40,
+          "anchor_line": 39,
+          "quote": "黎明時，一班工務升降車載著早餐箱和零件升往曲殼住區；下面正常步行道有人趕車。左側平臺一個帶勾索的人從老街跨到斜向承力脊，高處維修師收起繩索後回家睡覺；方井頂端一群遠路來客剛剛降下來，從旁側小店問價。再遠一些，無人的照明走廊延伸至一個新地區。這些人本來就在過自己的人生，**不因主角進場才出現路線**。",
+          "meaning": "日常交通場景不是主角到才開始：早餐升降車、工人通勤、勾鎖短路和高方井來客的試演不能變成已發生章節"
+        },
+        {
+          "from": 41,
+          "to": 47,
+          "anchor_line": 42,
+          "quote": "- 艾莉維亞早期已真正強大，對應合適環境可直接繞路／重新理解拓撲／有效使用自身特殊力量；**不能臨時剝奪她的高等能力以解釋橋怎麼過**。能力的精確原理與成本仍是未定。",
+          "meaning": "女主不應被強制降階以維持探索：她可以用自身真高階科技有效繞路，諾亞武器鉤鎖模組尚未定案，不宜把兩人可達性當同級"
+        },
+        {
+          "from": 48,
+          "to": 53,
+          "anchor_line": 50,
+          "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+          "meaning": "後出工務機關照片可有人維護：115／116確認世界層詞義及有人荒野，不能看見泵站灰霧就假定停機無人"
+        },
+        {
+          "from": 54,
+          "to": 56,
+          "anchor_line": 56,
+          "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_",
+          "meaning": "119九圖形體可直接入世但路權待核：高位廊、環形台與承重梁可能成真道路或只是工程構件，能否承載車與回程均需查實"
+        }
+      ],
+      "latest_revisions_checked": [
+        "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+        "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+        "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+        "05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md",
+        "05_場景視覺與參考/121_九圖直接入世組合提案_宏觀骨架交通居民與敘事樣稿.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+          "git_blob_sha": "2f7e69a18d969c2b2ddb92b3f1dd16be3e214aa8"
+        },
+        {
+          "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+          "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2"
+        },
+        {
+          "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+          "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08"
+        },
+        {
+          "path": "05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md",
+          "git_blob_sha": "21b6498a6ba67fe0eb1a5c623adcaa56c6a0b2c5"
+        },
+        {
+          "path": "05_場景視覺與參考/121_九圖直接入世組合提案_宏觀骨架交通居民與敘事樣稿.md",
+          "git_blob_sha": "ae5ba9f453fec97032bb5be238fc0c003c68050d"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原文全文語義主題分段、各自第二遍反向核查、具體跨檔權威和非Canon圖譜",
+        "revocation": "來源Git SHA、依賴SHA變動或CI失敗需重新核驗"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 來源：2026-10-19 第73份後使用者繼續上傳圖像，明確描述：「世界有趕路工具嗎」「路網，那種很多通道，在城市中是，在遺跡中也是」「斜著往上插的巨大石柱」「各種垂落的樓梯」「五呎高大石牆一層一層往上，正常人只能走前面，有勾鎖或能跳高地和其他技術可以走左右邊」「天花板可能有正方形垂直往上的看不見底的通道，有特殊技藝的人可能可以上去，也可能有",
+            "topic": "立體多路與怪異空間是作者方向",
+            "finding": "作者具體提五呎側壁、天花板方井、巨大斜柱、交通工具、Backrooms參考；具體五路分類非正式制度",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3530"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 8,
+            "quote": "- 巨構內有完整且成熟的普通城市與廣域交通：道路、各類列車／懸軌／曲軌、大升降機、扶梯、電梯、纜車、公共車、貨運甲板、真實海域上的船、在環境與科技允許時的飛行運具、特別地形的搬運索道等。不同文明可以自行造更高階科技交通；不是只有前文明才能造宏偉工程。",
+            "topic": "居民交通讓城市和旅程真實",
+            "finding": "火車扶梯貨船與貨運平台應有能源路權維修，不能讓人人徒手攀架或強行封女主能力",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3531"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 14,
+            "quote": "**使用者原型**：巨大長廊，正前方是常規可行的道路，左右兩側每隔一段就有約五呎（約 1.5 米）高的大型牆／臺階／隔斷；帶勾鎖、擅跳躍、懂壁面攀行者可以由側邊快速連續向上穿行；天花板某處還有一個正方形垂直向上、望不見底／頂的方井，可能有人從上方落下或正常攀降。附近還有斜入上空的龐大石柱、另一組垂落階梯、內部維修孔和地下水道。",
+            "topic": "同走廊多種路的可達性分級",
+            "finding": "居民正常路、工務設備、勾鎖側壁與特殊高位方井各有體能、貨物、承重條件，不能讓鉤索抓不存在的點",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3532"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 25,
+            "quote": "助手曾口語提出「民路／工路／技路／孔道／閾限路」五種觀察角度；**不得寫成客觀五大類、技能解鎖順序或世界所有入口只有這五種**。真正有用的是：",
+            "topic": "路網交錯非RPG五級門",
+            "finding": "民路工路技路只是助手觀察角度，仍有旁路、環路與社會維修，不能按工具技能固定通關次序",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3533"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 33,
+            "quote": "- 可有彷彿公共機關／辦公室／酒店／醫院的長廊，異常空曠、燈具仍開著、地毯延伸，甚至重複到迷失方向。失落的用途、被遺棄的文明累積、天然或特殊幾何、Celeste 親自塑造，都可能是不同地點的實際成因，**不能一律指向一個神祕主體**。",
+            "topic": "閾限建築也有多種真因果",
+            "finding": "長廊照明與不合常理構造可能正常使用、古文明遺物或真正無明目的；不能一律認定Celeste造怪談",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3534"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 39,
+            "quote": "黎明時，一班工務升降車載著早餐箱和零件升往曲殼住區；下面正常步行道有人趕車。左側平臺一個帶勾索的人從老街跨到斜向承力脊，高處維修師收起繩索後回家睡覺；方井頂端一群遠路來客剛剛降下來，從旁側小店問價。再遠一些，無人的照明走廊延伸至一個新地區。這些人本來就在過自己的人生，**不因主角進場才出現路線**。",
+            "topic": "日常交通場景不是主角到才開始",
+            "finding": "早餐升降車、工人通勤、勾鎖短路和高方井來客的試演不能變成已發生章節",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3535"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 42,
+            "quote": "- 艾莉維亞早期已真正強大，對應合適環境可直接繞路／重新理解拓撲／有效使用自身特殊力量；**不能臨時剝奪她的高等能力以解釋橋怎麼過**。能力的精確原理與成本仍是未定。",
+            "topic": "女主不應被強制降階以維持探索",
+            "finding": "她可以用自身真高階科技有效繞路，諾亞武器鉤鎖模組尚未定案，不宜把兩人可達性當同級",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3536"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 50,
+            "quote": "**【2026-10-21 後出使用者校正】**世界層今後統一指具有完整巨大空間體系的**宏觀分域**；使用者原本稱「世界層」所強調的巨大危險阻隔，今後區分為**層間隔界**。空腔、普通道路、特殊空間接合不自動構成跨層。另使用者提供大量巨構荒野遊戲截圖要求補鋼鐵森林、混凝土峽谷、巨大機關、泵站、電梯、灰霧與其他明亮生態空間，並明確說**「不一定沒有",
+            "topic": "後出工務機關照片可有人維護",
+            "finding": "115／116確認世界層詞義及有人荒野，不能看見泵站灰霧就假定停機無人",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3537"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 56,
+            "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_",
+            "topic": "119九圖形體可直接入世但路權待核",
+            "finding": "高位廊、環形台與承重梁可能成真道路或只是工程構件，能否承載車與回程均需查實",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3538"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 來源：2026-10-19 第73份後使用者繼續上傳圖像，明確描述：「世界有趕路工具嗎」「路網，那種很多通道，在城市中是，在遺跡中也是」「斜著往上插的巨大石柱」「各種垂落的樓梯」「五呎高大石牆一層一層往上，正常人只能走前面，有勾鎖或能跳高地和其他技術可以走左右邊」「天花板可能有正方形垂直往上的看不見底的通道，有特殊技藝的人可能可以上去，也可能有",
+            "question": "五種路型是正式交通制度還是助手觀察？",
+            "finding": "作者確認立體路網和技藝差異，五種『民工技孔閾』分類只是助手工具，不能寫成地理硬技能等級。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 14,
+            "quote": "**使用者原型**：巨大長廊，正前方是常規可行的道路，左右兩側每隔一段就有約五呎（約 1.5 米）高的大型牆／臺階／隔斷；帶勾鎖、擅跳躍、懂壁面攀行者可以由側邊快速連續向上穿行；天花板某處還有一個正方形垂直向上、望不見底／頂的方井，可能有人從上方落下或正常攀降。附近還有斜入上空的龐大石柱、另一組垂落階梯、內部維修孔和地下水道。",
+            "question": "115與119讓哪些交通判讀失效？",
+            "finding": "世界層不是方井或長廊每跨一段就是另一層；圖片幾何可直接入世但不等於所有高架皆能承載。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 39,
+            "quote": "黎明時，一班工務升降車載著早餐箱和零件升往曲殼住區；下面正常步行道有人趕車。左側平臺一個帶勾索的人從老街跨到斜向承力脊，高處維修師收起繩索後回家睡覺；方井頂端一群遠路來客剛剛降下來，從旁側小店問價。再遠一些，無人的照明走廊延伸至一個新地區。這些人本來就在過自己的人生，**不因主角進場才出現路線**。",
+            "question": "特殊人物會飛為何仍要有火車與貨船？",
+            "finding": "載重、生活、休息、社會路權等是真需求；不因主角強就取消常規居民交通。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 56,
+            "quote": "[119｜直接入世准用](../05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md)、[120｜F01-F09原圖逐張分析](../05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md)、[121｜原創與拼接實作](../05_場景視覺與參考/121_",
+            "question": "Backrooms式建築是否必然是Celeste的怪異場所？",
+            "finding": "不一定，有廢棄實用工程、未知起源、正常工人日用等不同因果，亦不必等同靜謐或終焉。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "02_地圖拓撲與交通/003_交通路徑與斷層.md",
+            "git_blob_sha": "2f7e69a18d969c2b2ddb92b3f1dd16be3e214aa8",
+            "impact": "003原則是沒有門的自然路與工務路多樣，075補一走廊多高度可達，路型不是新的固定能力門檻。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/115_後出正式語義核定_世界層宏觀分域_層間隔界_空腔與特殊接合_不精簡核對.md",
+            "git_blob_sha": "d8f5f4e81e19397f57098fc5901ecad568f2e5e2",
+            "impact": "115世界層是宏觀分域，方井不因很高就自動是跨層通道；需查是否穿層間隔界。"
+          },
+          {
+            "path": "05_場景視覺與參考/119_後出確認_圖片可直接入世_既有原創並存_歷次參考圖使用權威與來源界線.md",
+            "git_blob_sha": "0d246a854017338e6d7b0445878aea14e3affd08",
+            "impact": "119圖像外形可直接入世，不意味照片所見吊架都是可通車正式道路；075要求核維修與荷載。"
+          },
+          {
+            "path": "05_場景視覺與參考/120_新九圖逐張完整觀察_開闊海天漂浮殘構_立體工業城市_灰藍巨構.md",
+            "git_blob_sha": "21b6498a6ba67fe0eb1a5c623adcaa56c6a0b2c5",
+            "impact": "120逐張圖片提供環形台、青頂棚、懸橋等具體形體來源，可採景但不認證075候選路徑為已通。"
+          },
+          {
+            "path": "05_場景視覺與參考/121_九圖直接入世組合提案_宏觀骨架交通居民與敘事樣稿.md",
+            "git_blob_sha": "ae5ba9f453fec97032bb5be238fc0c003c68050d",
+            "impact": "121原創拼接仍依同一社會地理有真工務與居民使用，不能把各圖無距離成本連成小房間。"
+          }
+        ],
+        "second_pass_method": "第075原文完整二遍：針對本檔規則、後出詞義、物理生態與外部素材／候選不可升Canon進行逐項反證；003、115、119、120、121的差異以子命題具體說明。",
+        "unresolved_risks": [
+          "未經作者採用的地名、宏觀物理、角色試演不以任何CI成功升為Canon；同一AI的第二遍不是第三方獨立全面語義驗證。"
+        ]
+      }
+    }
+  ],
+  "staged_graph_records": [
+    {
+      "audit_id": "SRC-ALL-3481",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜巨構級絕界行與局部深淵詛咒是兩種尺度｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3481-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3481-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3482",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜來自深淵作品材料只提供構建參照｜L15",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 15
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3482-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3482-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3483",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜世界級最後旅程是相對回程條件｜L25",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 25
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3483-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3483-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3484",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜宏觀A經完整局部深淵到B是候選剖面｜L35",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 35
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3484-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3484-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3485",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜浮潮盤林與泓盤帶原創潮濕生態未採｜L61",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 61
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3485-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3485-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3486",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜三套局部方向詛咒機制彼此競爭｜L74",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 74
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3486-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3486-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3487",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜諾亞復歸不保證能讓隊友返鄉｜L84",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 84
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3487-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3487-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3488",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜離鄉不可返可沿長線逐步發生｜L92",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 92
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3488-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3488-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3489",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "048｜絕界行通稱與局部深淵坐標未決｜L102",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+        "git_blob_sha": "72a9c21ac8200387d62e4f7af44cc42dba6e97f2",
+        "line": 102
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3489-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3489-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3490",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜作者要求實際地景與短而有意境的正文｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3490-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3490-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3491",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜拱海側域的多點交通不是同一房間地圖｜L11",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 11
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3491-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3491-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3492",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜折索集市有家庭與職業因果｜L42",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 42
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3492-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3492-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3493",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜懸潮港的水運與技師不能直接變已發生｜L68",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 68
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3493-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3493-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3494",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜晴紋城明亮高階不等於原初前文明頂峰｜L92",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 92
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3494-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3494-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3495",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜苔脊無人帶也有生態與個人專業｜L122",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 122
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3495-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3495-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3496",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜路網的時間物資運具要真計算｜L151",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 151
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3496-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3496-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3497",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜生活事件能獨立收束而非主線副本｜L170",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 170
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3497-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3497-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3498",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜折索食物遠景試演未成正文｜L192",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 192
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3498-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3498-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3499",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜懸潮港等船與日常摩擦仍屬樣稿｜L210",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 210
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3499-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3499-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3500",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜晴紋城午後與情緒是可替換場景｜L226",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 226
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3500-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3500-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3501",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "062｜四地工作狀態明說全屬可推翻｜L242",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+        "git_blob_sha": "ffb157d36c2a7ed8e577201e68c9b73642bfe816",
+        "line": 242
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3501-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3501-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3502",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜外部研究與第一章相遇都需權威分層｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3502-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3502-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3503",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜五種作品與NASA素材僅是設計原理研究｜L11",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 11
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3503-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3503-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3504",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜遷巒帶可動工程山脊候選｜L33",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 33
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3504-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3504-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3505",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜雙晝穹原導光農原候選｜L45",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 45
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3505-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3505-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3506",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜雨根林海有真水養分與棲居可能｜L55",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 55
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3506-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3506-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3507",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜垂潮裂灣多水幕與生活運輸候選｜L65",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 65
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3507-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3507-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3508",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜白脈寂原散熱荒野仍可有使用者｜L75",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 75
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3508-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3508-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3509",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜錯岸天峽視距近不等於真實交通近｜L85",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 85
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3509-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3509-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3510",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜六地有不同尺度交通與生活｜L100",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 100
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3510-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3510-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3511",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜不是每處風景都要承擔全球主線｜L120",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 120
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3511-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3511-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3512",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜後出荒野圖片使有人與無人並存｜L135",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 135
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3512-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3512-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3513",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "068｜原創地貌與119直接入世圖片是加法｜L140",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+        "git_blob_sha": "4b67861baf7eee4fb6c121c86f21b787ed81b6f8",
+        "line": 140
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3513-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3513-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3514",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜作者確認環境養育文明及舊工程成地貌｜L6",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 6
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3514-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3514-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3515",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜多代水工交通與生態演替實際可能｜L11",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 11
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3515-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3515-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3516",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜世界層不等於一個文明區塊｜L18",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 18
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3516-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3516-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3517",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜四種交錯模型仍助手模擬｜L21",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 21
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3517-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3517-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3518",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜B+C外表模型未敲定外宇宙｜L29",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 29
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3518-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3518-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3519",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜古導流壁斜脊山與農穹示例非正史｜L36",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 36
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3519-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3519-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3520",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜現實地理參照和未決清單｜L41",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 41
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3520-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3520-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3521",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "070｜115重新確認宏觀世界層但不承認四模型｜L54",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+        "git_blob_sha": "a471c39ae3ec92e712f737b818f177192ee6de18",
+        "line": 54
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3521-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3521-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3522",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜形體可達時間三圖需一致｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3522-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3522-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3523",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜α肋海廣域是超廣分域測試｜L19",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 19
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3523-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3523-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3524",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜β折殼曲原可見而不可達｜L29",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 29
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3524-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3524-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3525",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜γ靜熱盲域低人口不等於野怪關卡｜L39",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 39
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3525-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3525-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3526",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜四代文明疊建工程成新地形｜L51",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 51
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3526-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3526-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3527",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜路線跨層判斷與巨構物理一致｜L65",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 65
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3527-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3527-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3528",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜外殼世界層數與原型仍開放｜L73",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 73
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3528-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3528-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3529",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "071｜115後出語義不會使αβγ變正史｜L80",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+        "git_blob_sha": "f5cc967205ac33bf749ddc72d83821eb7046623c",
+        "line": 80
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3529-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3529-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3530",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜立體多路與怪異空間是作者方向｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3530-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3530-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3531",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜居民交通讓城市和旅程真實｜L8",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 8
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3531-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3531-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3532",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜同走廊多種路的可達性分級｜L14",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 14
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3532-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3532-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3533",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜路網交錯非RPG五級門｜L25",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 25
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3533-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3533-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3534",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜閾限建築也有多種真因果｜L33",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 33
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3534-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3534-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3535",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜日常交通場景不是主角到才開始｜L39",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 39
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3535-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3535-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3536",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜女主不應被強制降階以維持探索｜L42",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 42
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3536-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3536-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3537",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜後出工務機關照片可有人維護｜L50",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 50
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3537-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3537-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    },
+    {
+      "audit_id": "SRC-ALL-3538",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "075｜119九圖形體可直接入世但路權待核｜L56",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md",
+        "git_blob_sha": "78b146e19df2e505be067ee6ccd72af2976c369f",
+        "line": 56
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3538-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3538-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅可檢索與既有領域節點的限域相關性，非Canon或新世界真因果。"
+    }
+  ]
+}

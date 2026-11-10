@@ -57,6 +57,28 @@
       "claim_count": 76,
       "graph_relations": 152,
       "note": "Corrected CI duplicate: 088 was pre-attested in historical base ledger, replaced with independently audited 013. All source count six, full 837 lines, 76 claims, 152 scoped links. QA revision 2026-11-10: individualized questions and per-dependency specific impact; no double count."
+    },
+    {
+      "path": "20261110_第二十七批6份_015_018_003_026_039_040_全文語義v2.json",
+      "git_blob_sha": "6fa0817e00e769018228030b74afb3a407f53cfa",
+      "batch": "BATCH27",
+      "source_count": 6,
+      "original_lines": 830,
+      "semantic_sections": 73,
+      "claim_count": 73,
+      "graph_relations": 146,
+      "note": "New six unique full sources; concrete per-source second-pass and version impacts; awaiting CI."
+    },
+    {
+      "path": "20261110_第二十八批6份_048_062_068_070_071_075_全文語義v2.json",
+      "git_blob_sha": "b9efd65e2234347a9aca52a46f793132ed48b7d0",
+      "batch": "BATCH28",
+      "source_count": 6,
+      "original_lines": 689,
+      "semantic_sections": 58,
+      "claim_count": 58,
+      "graph_relations": 116,
+      "note": "Second consecutive six unique sources; environment/transport and external reference authority separated; awaiting CI."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."
