@@ -3,103 +3,13 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "d65d72968973bac6817e73e82812c166fd474288",
-  "sourceTreeSha": "dea2e000ef75d9a497c591e908ffd2a7eb0873cd",
-  "previousSourceCommit": "882130cd96684ebe9d5072abba02f31fcc579cdd",
+  "sourceCommit": "3a38804817b9410d85a23d418fd243c69561f878",
+  "sourceTreeSha": "85fa7db0120af6d9ef27797d3a4c4f82fab8bf93",
+  "previousSourceCommit": "d65d72968973bac6817e73e82812c166fd474288",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261110_來源後修重驗_客觀近即時_16份不重計.json",
-      "sha": "3d3a9f194332429e3ff2bd79e9d2b41413473453",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261111_來源後修重驗_09新增原文政策_2份不重計.json",
-      "sha": "cae9a49d11aba1d04522d29029808d3638eed849",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261111_導航增量與213索引錨點重定位_不作整檔驗收.json",
-      "sha": "69e3a417ad96f863e4190dfe5e4fd1d8d44516eb",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261111_第三十四批12份_創作流程跨媒介研究八十題與舊設定回收_全文語義v2.json",
-      "sha": "7b5049e18655ef4277509695f2540928ba55a4a4",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_分片讀取.mjs",
-      "sha": "a268fa89ed202f2d8818dda36730f83fa1b0e263",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
-      "sha": "a7ddac8afd29c8fab2c189dd7b538b191e7a71c7",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "729cc2a9b7b5090c852c94f4d000bc9e15f70789",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs",
-      "sha": "e8157abbbd9f0980c30cbcfa284843e81e6cb274",
-      "change": "modified"
-    },
-    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/來源後修_證據覆核.mjs",
-      "sha": "f3b65506d54759a10cbc9aa50aaaa719070554b6",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/來源改版後如何重驗_非正史.md",
-      "sha": "e518c95d9c0c151856c3657ca9c32392630dc483",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs",
-      "sha": "a097cbf19be4ff8fecb2274377129c9a3b3ba206",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "4a6189043a18e3c673ed618bfdb06965340b8d0e",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
-      "sha": "fe69009df6ecf5154cdb65d89b365c269ab5a64f",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "79654d90c6c80ef6c0e368b5a56676005fdd10c8",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證來源後修覆核.mjs",
-      "sha": "0847682dfb34c49c65b390ade30731f4dfd19835",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證審核至既有關係圖_證據橋.mjs",
-      "sha": "bb6fe02bd856280f80f9238ef4e14ec6a3b8b670",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第七批原文錨點.mjs",
-      "sha": "552524081371ec6442ebdac84218346896f8f2de",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九章封存五檔遷移.mjs",
-      "sha": "0aa2e29d2a5af2e216991e682f0cbafa99319f66",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第四批原文錨點.mjs",
-      "sha": "1845bcaac2623889358dba6cd8b09a36a19f0c15",
+      "sha": "1b605ebb54aa39f681000a758e79e3434b830250",
       "change": "modified"
     }
   ],
@@ -702,8 +612,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/來源後修_證據覆核.mjs",
-      "sha": "f3b65506d54759a10cbc9aa50aaaa719070554b6",
-      "size": 6737
+      "sha": "1b605ebb54aa39f681000a758e79e3434b830250",
+      "size": 7059
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/來源改版後如何重驗_非正史.md",
