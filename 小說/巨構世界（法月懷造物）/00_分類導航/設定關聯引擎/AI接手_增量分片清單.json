@@ -35,6 +35,17 @@
       "claim_count": 39,
       "graph_relations": 81,
       "note": "New v2 standalone SHA source/graph shard; immutable historical ledgers; awaiting CI"
+    },
+    {
+      "path": "20261110_第二十五批6份_035_036_037_038_049_050_全文語義v2.json",
+      "git_blob_sha": "fbc1dab4031886a84988bf8788433278bde313e4",
+      "batch": "BATCH25",
+      "source_count": 6,
+      "original_lines": 488,
+      "semantic_sections": 51,
+      "claim_count": 51,
+      "graph_relations": 102,
+      "note": "Six original files read in full; 2026-11-08 weapon assimilation B overrides earlier installed-ever inclination; pending CI."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."

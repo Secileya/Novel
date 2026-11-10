@@ -1,0 +1,4059 @@
+{
+  "schema": "mega-batch25-full-file-v2-sharded",
+  "date": "2026-11-10",
+  "source_file_count": 6,
+  "source_line_count": 488,
+  "source_sections": 51,
+  "evidence_count": 51,
+  "source_file_manifest": [
+    {
+      "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+      "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+      "source_line_count": 165,
+      "reviewed_sections": 13
+    },
+    {
+      "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+      "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+      "source_line_count": 94,
+      "reviewed_sections": 9
+    },
+    {
+      "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+      "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+      "source_line_count": 45,
+      "reviewed_sections": 6
+    },
+    {
+      "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+      "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+      "source_line_count": 59,
+      "reviewed_sections": 8
+    },
+    {
+      "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+      "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+      "source_line_count": 66,
+      "reviewed_sections": 7
+    },
+    {
+      "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+      "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+      "source_line_count": 59,
+      "reviewed_sections": 8
+    }
+  ],
+  "authority_boundary": "同檔較晚作者決議與較早傾向、助手候選清楚區分；深層同化B、雙錨點、靜謐/終焉獨立；正式小說0章PREWRITE HOLD。",
+  "records": [
+    {
+      "id": "SRC-ALL-3281",
+      "title": "035｜A推薦已被B替代｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後來選擇武器隨復歸B；舊助手偏好A不能續用，深層同化條件依036較新作者決定",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 3,
+          "quote": "> **【後續使用者明確選擇，2026-10-19】** 第四節 A/B/C 復歸裝備去向**已選 B**：核心特殊武器跟著諾亞死亡復歸，普通背包與其他外物則不自動跟回；**本檔「助手偏 A」的舊推薦已作廢**。復歸落點「稀少穩定錨點＋巨構真正拓撲選址」是助手新推薦，尚未由使用者選定。武器被奪走後是否隨死亡召回、隨身原裝模組與衣物範圍還待定。詳見 "
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3282",
+      "title": "035｜作者既有雙主角與長線｜L16",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "首次死亡前不知復歸、死亡不倒帶；艾莉維亞沒有Celeste賦予的不死且須有獨立高階科技與成長；登頂與模組可保留",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 16,
+          "quote": "3. 諾亞在**第一次死亡前不知道自己能復活**。Celeste 賜予其不死復歸，但死亡不回溯世界；可能醒在遙遠地方，真需要走三天才能回來，其他人的傷亡、世界和貨運照舊前進。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3283",
+      "title": "035｜續斷武器核心是未定試案｜L29",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "助手提議以同一系統的連續關係斷接為核心，與025 A+C候選相容但作者未選原理",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 29,
+          "quote": "武器的特殊本質可以是**辨認一個實體／系統在多處、多層、多種狀態下何以仍是同一個持續作用的整體，並向這種「連續／連接／功能關係」施加可執行的斷接**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3284",
+      "title": "035｜槍刃鉤鎖為候選界面｜L42",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "三形態可共用斷接原理；起手是否具有原裝刀刃與鉤鎖未決，不把表格當已獲裝備",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 42,
+          "quote": "| 槍械射擊端 | 對**已知、可辨識**的局部結構連續作用施加破壞／斷開，比普通高能彈更精確地破壞一個系統的承載或運作 | 有效識別跨多個空間、具有分布式本體和備援的完整目標，對其更深層真實功能關係施加干涉 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3285",
+      "title": "035｜模組與戰鬥能力真正成長｜L54",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原裝索引、執行、供能、界面與護持可真增火力、作用尺度及機動；普通地區與完整前文明技術差距不可亂縮",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 54,
+          "quote": "- **原裝火力／供能／承載**：**真實增高輸出**、破壞量、持續作戰、精度、戰場尺度，與特殊關聯操作可以疊加；不以「不准加攻擊力」作寫作禁令。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3286",
+      "title": "035｜作用配重不是確認的唯一規則｜L69",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作用路徑的有效份量及高階科技是艾莉維亞常態成熟候選，非已定唯一根本法則，也不可寫成諾亞的技能複製",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 69,
+          "quote": "**當一個已可辨識系統同時存在多種互相競爭／協同的實際作用路徑，她能改變它們參與結果的「有效份量」**，並透過自身真實高階科技量測、建立可依靠的作用路徑、擴展作用層次。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3287",
+      "title": "035｜能力場景與來源仍未定｜L84",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "港口工程、獨立戰鬥、日常巧用都只是示範；不能免除她自身選擇、轉移的實際後果或擅定Celeste贈力來源",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 84,
+          "quote": "**1. 港口工程（若採第 34 候選）**：逆向水道分流、重量、牽引、支柱承載同時作用。艾莉維亞能將某些負載的有效權重移向另一套能承接的支架，或建立更有利的安全路徑。**這解決真實物理危險，但不自動判定承包商合法與否、居民的租約和經濟損失；且也不應為了作者要辯論就限制她物理解題**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3288",
+      "title": "035｜外物去向ABC後修判定｜L100",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "本檔列A外物全留、B核心槍跟回、C按連結；後續作者選B，作者再選深層同化判準，保留普通背包留場",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 100,
+          "quote": "| **B：核心槍跟著復歸** | 普通外物留現場，真正稀有槍與諾亞建立特殊回歸關係 | 減少槍丟失導致主線卡住，但需解釋槍為何有特殊連結、原文明科技還是 Celeste 禮物？不能無根據「神裝綁定」 | 哪些形態／原裝模組能跟？有被奪走時還能回收嗎？會不會變免費任意傳送物品？ |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3289",
+      "title": "035｜肉身記憶與衣著不確定｜L111",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原身是否留屍、重建衣物、記憶連續、囚禁與被奪槍召回均不得先定；B不等於免費運送物品",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 111,
+          "quote": "目前**不能擅自宣告**復歸會把原本死去的衣服／背包／身體與物質如何處理；需分清「重建自己的身體」和「重建／搬運非自身的外物」，以及「是否留下屍體」「是否保留原先全部記憶」「是否可被人捕捉／禁錮而不死」。若使用者偏好，之後可選明確的身體連續性表述，但不能因 A 就簡單忘記復歸時衣服、身體狀態、武器保留位置等實際生活問題。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3290",
+      "title": "035｜試場景一角色不固定分工｜L117",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "懸橋負載合作與調皮對話均是非正文試驗，不能固定男主犯錯女主善後；兩人可在不同事件獨立解題",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 117,
+          "quote": "懸空檢修橋的一部分遭負荷轉移而開始彎曲。諾亞想利用特殊槍把某個危險的附加架體斷開；他確實辦到，卻低估了剩餘支架的承載方式。艾莉維亞不是被動地在旁邊喊停，而是直接觀測剩餘負載，**改變受力路徑的有效份量**，讓兩人在支架全面斷裂前能通過。這是局部真正合作；但仍需區分她是否也能獨立處理整座橋、以及她完全可以在別的情況不需要男主支援。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3291",
+      "title": "035｜首次死與完整前文明場景需保留因果｜L133",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "三天回程只是可能，初遇與親密程度未定；前文明壓倒初期配置但不等於原槍本體低階，示例皆非正式故事",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 133,
+          "quote": "若諾亞第一次在某橋失手死亡並真的復歸，世界繼續三天。艾莉維亞是否**當時已經在一起／是否看見死亡**決定她最初反應；她不具 Celeste 復活，不可此時理所當然把復歸當日常。若採 A 留物版，槍和背包在他死的地方，可能被工程人員收走、由艾莉維亞暫時保管、遭承包商扣留或被拾荒者帶走，這些選項須由事件因果和人物位置決定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3292",
+      "title": "035｜首篇倒行潮仍是未採方案｜L145",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "港口救城模板、槍留場等敘事僅供檢驗；可改為奇異探索主線，不能把第34候選變正式首篇",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 145,
+          "quote": "- 男主初次死前必然不知道不死；若死亡時外物留現場，**故事收束前要處理槍去哪裡、當地哪個人拿到**，不能偷偷回歸他身上。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3293",
+      "title": "035｜138後修限制能力與匿名記憶｜L161",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作用配重是已有常態成熟候選；白髮質變方案未採；母女匿名且具真實親情，獎勵多項與兩人同幅巨大成長仍不可鎖具體物件",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+          "line": 161,
+          "quote": "**使用者最新明確糾正**：法月懷是**真心疼愛瑟莉思媞**的母親，會稱讚、摸頭、擁抱、一起實際改設計，不能像每完成一項就找碴；對諾亞×艾莉維亞和讀者正式呈現的記憶，**不得在場景內說出兩人真名或給能直接認出的臉／原聲**。保留最初匿名試寫由**上行道路→居民交通、麵包店→隱藏艱難道路／白橋與通關紀念的靜謐雛形**，再融入後版母親稱讚與真正親密互動"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3294",
+      "title": "036｜11月8日作者最終選深層同化B｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "暗銀卡槽與高壓導流管已融合故隨槍，黑銷現為可拆下掛未同化故不跟；舊同日曾安裝即跟回傾向已被覆蓋",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 3,
+          "quote": "> **【2026-11-08｜後出作者明確選擇：Gemini「選項 B：深層同化／外掛扣合分離」】** 作者在看完 Gemini 第三輪三選後直接說「**我自己是選B方案啦**」。這一選擇**優先於同日較早的「曾經安裝過就能跟回」傾向**：核心原槍 B 隨復歸既定；第03章暗銀微型卡槽已融入槍體、第05章暗銀高壓導流管已被同化，跟回；第09章黑銷"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3295",
+      "title": "036｜10月19日作者選核心武器跟回｜L12",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "使用者直選B，錨點幾何推薦仍為助手候選；後又確認地理與個人兩類均存在",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 12,
+          "quote": "> **「B，然後復歸要復活在哪裡?」**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3296",
+      "title": "036｜裝備隨回範圍與缺口｜L19",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "核心槍跟回、普通外物不跟；遠距召回整槍、衣物、屍體、原因未定，不能因槍消失假設黑銷殘餘力場無害",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 19,
+          "quote": "- 諾亞本人死亡後復歸，**那把特殊的前文明核心武器也跟著他復歸**；不能再把 35 檔舊版「助手推薦 A 外物留下」當作現行首選。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3297",
+      "title": "036｜稀少地理拓撲錨點候選｜L33",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "地點依真實空間連通與最低承接條件選擇；地理錨點的存在經037確認，但具體優先次序與選址公式未定",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 33,
+          "quote": "**候選原理**：Celeste 賜予諾亞的復歸能力，在死亡時由**巨構真正的空間連通圖**中，尋找能承接完整重現的稀少、有效且相對穩定的位置。那些候選位置可能並非人工祭壇，也不必被公共社會認作「復活點」；可以是被廢棄的交通室、空洞平臺、舊維修段、正常社會邊緣的安定空間、洞穴附近。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3298",
+      "title": "036｜生命痕跡錨點後已確認存在｜L45",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "早期B個人痕跡被列可替代，037明確作者選兩類同存；形成門檻仍需罕見，C近處安全選址不是已採定案",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 45,
+          "quote": "少數地點因諾亞在那裡曾長期生活、反覆返回或留下深刻的個人生命連續記錄才成為候選錨點；無需巨構本身事先配置「復活站」，容易讓過去旅居區、兩人的共同住處具有感情重量。但會造成「每住幾天就一個錨點」「主角藉死亡免費回舊城」的濫用風險，**需要非常稀有的成立條件**，而不是旅館睡過就可重生。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3299",
+      "title": "036｜落點應事先對照交通和狀態｜L57",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "若採具體落點條件，須預設道路、時間、敵人監控與安全最低要求；不存在死亡必三天或必原地重生的簡化規則",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 57,
+          "quote": "2. 哪幾個錨點確實具資格，以及資格的實際最低條件（此刻未定，不偷設固定公里數、宇宙層數或溫度）；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3300",
+      "title": "036｜倒行潮候車室示例非已發生｜L68",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第一次死後陌生廢站、槍在身旁而外物遺失只是範例，主角當下不能知道是Celeste禮物，事件沒有成為正式正文",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 68,
+          "quote": "諾亞在當地懸空維修路線上第一次真正死亡；當時完全不知道自己不死，故不能事前測試。重新張開眼睛，他可能已在**另個空間分支的廢棄小型候車室或檢修區**。他旁邊仍是自己帶著的特殊槍，但包裡食物、貨幣、其他旅行物件並不在手中。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3301",
+      "title": "036｜可被奪槍與成熟探路仍需限制｜L79",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "槍被搶後是否跨距離召回未選；帶槍復歸不免除物流成本或對前文明未知技術保持警戒；情侶反應須隨關係發展",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 79,
+          "quote": "- **槍是否可被搶走**：若被敵人先奪走，復歸不能在未定案條件下默認自動召回；可讓它仍是有價值、可偷可賣、可被原文明追索的物件。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3302",
+      "title": "036｜未決清單與先後裁決｜L89",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "復歸衣著、記憶、具體首次死亡與落點未定；模組依最晚深層同化B處理，續斷與作用配重仍非作者批准的正式根本原理",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+          "line": 89,
+          "quote": "4. 特殊槍跟隨復歸的精確連結條件、槍被奪走後死亡是否能召回，以及與武器**已融合的原裝模組**是否全部屬于跟隨範圍。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3303",
+      "title": "037｜靜謐命名與公開危險地域後修｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第58定靜謐迴廊是原隱藏Path of Pain且與終焉分開；公開高難區另存在但不可暴露隱藏核心",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+          "line": 3,
+          "quote": "> **【第58份使用者已確認】靜謐迴廊就是以前借用 Path of Pain 稱呼的真正隱藏苦痛之路。**不是新增第三場所，與終焉迴廊不同。深處保留諾亞原裝模組、其他物件／紀錄／記憶，並新增已確認的艾莉維亞實質能力升級；機制與具體收穫未定。見 [58](../03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md)"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3304",
+      "title": "037｜雙錨點及入口特殊復歸已選｜L12",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "地理拓撲與個人生活痕跡皆存在，Celeste可特設諾亞入口錨點；其特殊性不傳給所有探險者，獎勵超過一件模組",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+          "line": 12,
+          "quote": "使用者選擇地理拓撲錨點與個人生活痕跡錨點**兩種都存在**，不能要求二選一。諾亞的核心特殊武器依先前 B 方案隨其復歸，普通外物不自動跟隨。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3305",
+      "title": "037｜兩類錨點統一判定是助手設計｜L22",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "地理與私人承接資格雖並存，哪個優先、如何定義界線、入口地域性優先皆是尚待選擇的候選細節",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+          "line": 22,
+          "quote": "地理錨點因特殊空間拓撲與穩定性具備承接資格；個人錨點由諾亞在某處長期生活、建立深層聯繫而形成。兩種來源不同，由統一機制判定有效落點。特定區域的入口可以由 Celeste **主動額外設置**錨點，不必硬算成第三種普遍自然來源。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3306",
+      "title": "037｜四層情報與危險差異｜L28",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "外圍名氣、隱藏入口、機關路徑、深層私密核心要分離，不能變公開排隊副本；女主不可被無理封禁能力",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+          "line": 28,
+          "quote": "候選設計為四層：外圍地域可被少數探險者聽聞難度；真正入口不顯眼；内部是不靠單純戰鬥即可致命的立體高精度地形；最深處還有一層未被外界充分認識的私密核心。此地的名聲、入口、考驗與核心秘密是**不同情報層**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3307",
+      "title": "037｜撤退與回訪的因果｜L36",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "可先失敗後獲新模組及技能再訪，需預設真正結尾、別把所有障礙化為卡牌鎖；具體內容仍屬未定試案",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+          "line": 36,
+          "quote": "首次到訪可以真正失敗並撤離；後來於其他獨立事件取得原裝鉤鎖、控制技術、環境情報、熟練操作後返回。不要求所有障礙都是模組鎖，精準行動和現場判斷仍重要。原裝模組可以提高火力、戰鬥性能或機動，不只是解開一道門的鑰匙。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3308",
+      "title": "037｜59後修雙主角均巨幅質變｜L44",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞模組與艾莉維亞規則皆須獨立巨大實質升級，另有其他重大收穫，不能只當兩份小獎品",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+          "line": 44,
+          "quote": "此前「原裝模組、額外物件／紀錄／記憶與艾莉維亞升級」仍成立，**最新用戶要求更精確的幅度：諾亞取得的原裝模組將使他的實際戰鬥／能力巨大提升，艾莉維亞也獲得獨立且同樣非常巨大的實質提升；還有其他東西，絕非兩件小獎品便打發通關**。詳細獎品不在此擅定；入口與白橋既有規則不改。來源：[59](../03_人物關係與語感/059_最新確認_雙主角語氣頻率_"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3309",
+      "title": "038｜公開高難地帶不是售票活動｜L7",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後修：公開版可是真實廣大危險世界層，不是特設排行榜或售票關卡；隱藏靜謐更難，普通旅人不共享諾亞復歸",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 7,
+          "quote": "> **【2026-10-19 使用者最新明確糾正】** 此前本檔把公開版本寫成可經營的挑戰、遊樂化排行榜／挑戰者專屬地域的措辭**不符合新指向**。正確是**世界本身一片巨大而很容易死亡的危險地域，甚至能算整個世界層**；地點可被知道／有傳聞，不代表為冒險者設立的公開競賽。有人因生計、路線、研究、探險或尋刺激進入才形成挑戰文化。**公開地域與真正"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3310",
+      "title": "038｜公開資訊與秘密難度分離｜L17",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "公開高難區位置可被知曉、極少人能通過；靜謐更秘密且考驗更極端，難度不能只靠稱號分級",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 17,
+          "quote": "公開版本身足以成為有歷史、有技術門檻、有頂尖探索者嘗試、有成功與失敗紀錄的極高難度真實場所；不能為了凸顯隱藏版，降級成普通遊樂設施。公開意味著位置／挑戰規則或傳聞可以合法、正常地被外人知道，**不等於保證任何人都能買票輕易通過**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3311",
+      "title": "038｜公開與秘密入口關係尚未選｜L24",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "公開生意、嚮導、同建築或分區藏入口都是助手可能方案，不得自動恢復作者否定的遊樂化營運",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 24,
+          "quote": "- **公開版**：一座公開可辨認的高難地理奇觀。外界可形成嚮導、挑戰紀錄、補給、技術訓練與地方生意；但是否有正式經營、排行榜、門票、獎章等尚未指定，不要機械引入遊戲副本制度。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3312",
+      "title": "038｜特殊入口錨點不能普遍化｜L30",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "雙錨點已存在、Celeste可供諾亞入口再生，但公開版其他挑戰者沒有同等不死；維亞獨立規則不為設難度而封印",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 30,
+          "quote": "- 使用者先前已選擇**雙類錨點都存在**：地理拓撲型＋個人長期生活痕跡型。依第 36 份，諾亞復歸時**特殊核心武器跟隨（裝備方案 B）**，普通外物不自動跟隨；細節如槍遭奪後、衣物與模組整合仍待規劃。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3313",
+      "title": "038｜秘密收穫與可觀測結果｜L38",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "有原裝模組外還有記憶/紀錄等額外內容，確切模組、歷史與出處未定；通公開版不代表自動取得內部真相",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 38,
+          "quote": "根據使用者前幾輪確認，**真正隱藏的路線可以放一件特殊武器原裝模組，但這僅是 Celeste 留下的一部分回報**。另可有記錄、記憶、私人紀念、異常景象、人物真相、某段歷史等，**具體哪件物件、誰的記憶仍未定**。不把所有深層秘密硬歸為 Celeste 和法月懷的家庭往事，也不把隱藏版當作唯一登頂途徑。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3314",
+      "title": "038｜跨故事回訪不是拖延結案｜L46",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞能多次失敗並成長返回，但單地事件要有真正收束；描寫例子沒有正式發生",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 46,
+          "quote": "諾亞可在第一次真正找到隱藏入口後屢次死亡、從錨點重現，發現目前設備與操作能力不足，和艾莉維亞離開，穿越其他真實事件後取得模組／研究成果，再次回來。**這是跨事件的已規劃回訪線，而非故意讓一件地方事件永遠不結束。**作者層需掌握其最深內容及回收方向，但人物可能長期不知道。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3315",
+      "title": "038｜作者已選與助手提案並置｜L50",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "公開危險版及秘密版並存、雙錨點與槍跟回被選；具體獎勵、經營者、入口形貌都非作者硬定案",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 50,
+          "quote": "【使用者已選方向】雙錨點同時存在；特殊武器隨諾亞復歸；Celeste 可在秘密地域入口設復歸點；隱藏版極難且秘密／氛圍有重量；可先失敗、離開成長再回；**公開版也存在，而且本身非常難，但沒有秘密 Path of Pain 那麼難**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3316",
+      "title": "038｜102後修兩類高危世界層可共存｜L58",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原Celeste相關公開高危地層與廣泛極端環境危險地層皆保留，能分地或部分重疊，不應互斥或復活售票關卡",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+          "line": 58,
+          "quote": "使用者明確說「**你說的版本也可以保留**」。正確處理是保留**本檔原先的 Celeste 相關公開高危世界層版本（按第39份後修後的真實世界層／不售票、不設全員復活）**，同時保留第102份新提出的**廣泛極端地貌／氣象／溫差／工程機關／巨構災害／大小生物構成的危險世界層設計**；兩種可以屬不同世界層或部分重疊，**不急著判定同一片、也不互相取代"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3317",
+      "title": "049｜終焉迴廊命名與一般人不可原路返｜L6",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "終焉取代白斷殿暫名，作者確定一般通行者完成越界不能循同機關返回；Celeste例外，出口不強指定深淵",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+          "line": 6,
+          "quote": "> **【2026-10-19 最新單向性收緊：高優先級】** 使用者決定：**對一般通行者，終焉迴廊啟動並完成越界後就不能從同一單向機關原路返回**，不可再以「可能不能回來」弱化。**不預先宣稱高階科技、超常力量可以繞過；是否存在除 Celeste 外的例外暫存懸念、完全未證實。**Celeste 作為親手造物者與世界絕對管理者，確定可自由來回、"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3318",
+      "title": "049｜向上偏好不是固定出口｜L14",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "方向偏向上行但落於何層、地圖拓撲和白殿另一側仍未定；其他完整深淵可以不相連獨立存在",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+          "line": 14,
+          "quote": "**最新偏好：Celeste 所設計的特別絕界行，通行方向更偏向「向上」。**「向上」可對應於諾亞與艾莉維亞追尋真正最高世界層的敘事方向；但使用者並未指定它是普通垂直升降機、橫向穿越後出現在更高拓撲位置，或某個已命名世界層。應先保留高差與空間拓撲的實際呈現方式。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3319",
+      "title": "049｜白殿黑霧及孤寂的機制邊界｜L26",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "任何人可單獨啟動是使用者方向，終焉感受與單向性確立，具體儀式裝置形式未定；勿把靜謐同美學誤當同規則",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+          "line": 26,
+          "quote": "- 真正存在**單向機關**，**一個人也能啟動**，也可與同伴、多人一起進入；沒有必須集結小隊的硬條件。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3320",
+      "title": "049｜上行場景是非正史演示｜L33",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "升降台、橋、拓撲升階只是候選視覺；同伴可真陪伴，場景寂寥不等於人物永久失去感情",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+          "line": 33,
+          "quote": "通行者走進上下左右無法辨明終端的巨大白色殿宇。潔白的平台前方像是被濃黑突然切斷，黑霧與黑點由下方寂靜上湧；遠方大片白光使尺度越發無法判斷。單向機關啟動時，可能是一座**安靜向上升起的龐大平台**，也可能是**往更高處展開的橋、階段式上行通道或拓撲上升的過渡結構**。真正被帶到何處**刻意不在本階段定義**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3321",
+      "title": "049｜早期未定清單受後修糾正｜L41",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "出口、形態、與復歸相容仍未定；白斷殿作暫名現已由終焉覆蓋，一般單向性與Celeste例外不得再列未決",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+          "line": 41,
+          "quote": "- 向上究竟是哪一層、從哪個世界層入口進入、單向性如何實際禁止正常反向；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3322",
+      "title": "049｜Celeste確定自由往返｜L52",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "一般旅行者不可依原單向機關回返，其他高技破解可能性不預宣告；創造者Celeste確定能不受拘束",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+          "line": 52,
+          "quote": "**正確區分（後出修正優先）**：對**經機關正常通行的一般世界內旅行者**，單向性**確定成立，完成越界後不能沿此機關原路返回**；不先幫高階技術或特殊能力宣告可繞過，除 Celeste 外，任何例外僅留未揭曉的懸念。**Celeste 永遠是確定的例外**：她可以自由前往兩端、折返、越過通道、出現在任何世界層，不需要按照她造的交通規則排隊或重新"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3323",
+      "title": "049｜終焉孤寂效果對一切生命形態｜L58",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "機器與無傳統感官生命亦會感受，作用原理未決；靜謐是另一處但可共享崇高悲涼美感",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+          "line": 58,
+          "quote": "**使用者明確：「終焉迴廊的感受適於任何生命體，就算沒有感知器官也一樣，機器人，變異體等等」。** 此修正已同步到正式交通世界檔 [03](../02_地圖拓撲與交通/003_交通路徑與斷層.md)。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3324",
+      "title": "050｜終焉單向與靜謐區別的後修｜L5",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "一般通行者不能循原機關回返；Celeste例外；靜謐是另一處且名稱後出已確定",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 5,
+          "quote": "**【後出最高優先修正 2026-10-19】** 一般通行者啟動終焉迴廊並完成越界，就**無法經由原單向機關回返**，不再使用「可能回不來」；其他高階能力是否有繞過的方式**只留未知懸念，不宣告任何可行例外**。**Celeste 作為創造者能完全自由往返，是唯一已確定的例外**。啟動條件、名聲仍未定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3325",
+      "title": "050｜Celeste也許隱晦提醒靜謐｜L11",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "她可能在初遇後提示而非明說隱藏關卡，但何時與說什麼未定；不能當場透露自己是管理者或安排相遇的秘密",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 11,
+          "quote": "**Celeste 可能在與諾亞、艾莉維亞見面後，隱晦暗示真正 Path of Pain 的存在。**不應像遊戲提示員直接說「那片高危地域還有隱藏版」。她可以自然在聊天或現場觀察中留一句帶個人玩心的細小線索，讓主角自己發現、研究，甚至隔很久後才回想起她的話。**是否真的提示、何時提示、話語內容及與入口的真實機關對應，尚未定案。**早中期她不揭露世界"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3326",
+      "title": "050｜終焉名氣是分層候選｜L20",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "知名稱、知入口、敢啟動與資訊能否回傳為不同層級；局部圈層有傳聞只是助手偏好",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 20,
+          "quote": "4. 真正了解單向後果者極少，對另一側的消息可能缺乏可靠回傳途徑。**信息能否回傳與旅行者能否返回是不同問題**；後者對一般通行者確定無法原路返回，前者未定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3327",
+      "title": "050｜終焉啟動資格ABC仍未選｜L28",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "無身份門檻、需技術條件、特殊客觀條件皆試案；助手偏A+少量B不是作者已選",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 28,
+          "quote": "- **C 特殊客觀條件**：機關依空間狀態、時刻或其他一致的物理／高階作用條件才成立。須先在作者層確立，不能臨時拿神祕資格擋主角。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3328",
+      "title": "050｜啟動與回返不能混為一談｜L34",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "找到、啟動、決心出發分開；單人可啟動已明確，不能把終焉單向與靜謐難路或其他世界絕界行混淆",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 34,
+          "quote": "- **找到終焉迴廊 ≠ 知道啟動法 ≠ 下定決心出發**；完成越界後一般通行者確定無法經原機關折返。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3329",
+      "title": "050｜創造者繞行例外已確定｜L45",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "單向性不困Celeste，其他高階力量不可無據說已破解；終焉另一端及名聲仍未定",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 45,
+          "quote": "**正確區分**：機關設計為對**經機關正常通行的世界內旅行者**具有真實單向性；對任何高階科技或特殊能力都**不預先承諾存在破解方法**，只保留尚未揭曉的懸念。一般通行者完成越界後**確定無法循原單向機關返回**。**Celeste 永遠是確定的例外**：她可以自由前往兩端、折返、越過通道、出現在任何世界層，不需要按照她造的交通規則排隊或重新啟動"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3330",
+      "title": "050｜無感官生命同樣感到終焉｜L51",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "機器人與變異生命一樣有深沉感受，不等於精神控制或同伴分離，既有正式交通檔同步",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 51,
+          "quote": "最新使用者明確：終焉迴廊的孤獨、空虛與其他難言感受，對**任何生命體／生命形式**都成立，含沒有常規感知器官的生命、機器人、人工生命、變異體。不以視聽觸覺、神經系統或人類通常能夠感到孤獨的條件為必需；不得把機器生命寫成當然無感。**這條是已明確的適用規則，已同步正式 [003_交通路徑與斷層.md](../02_地圖拓撲與交通/003_交通路徑與斷"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3331",
+      "title": "050｜138後出靜謐獎勵和匿名場景｜L57",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "女主作用配重是常態成熟候選、靜謐各獲巨幅提升與記憶等；母女回憶不得識破真名，初遇不發攻略",
+      "guardrail": "依原文權威與後出作者修正限域；所有試寫均非正式正文，保持零章 PREWRITE HOLD。",
+      "next_action": "若本源或依賴SHA更動，按來源版本與作者原話重新仲裁。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+          "line": 57,
+          "quote": "**既有與新方向**：第50在相識後可能由瑟莉思媞**隱晦提示靜謐存在**（是否及何時仍未定），但〈第三個座位〉第114已採正式初遇場景**不可變成發攻略、當場揭管理者身分**；觀記憶後亦偏好不知身份。第59早已確立靜謐**雙主角各自巨大真提升、另有其他物件**。近期使用者提出四種額外收穫方向：①通往真正更上方的遠域路線，②母親與女兒私人構想記憶，"
+        }
+      ]
+    }
+  ],
+  "staged_attestations": [
+    {
+      "source_path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+      "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+      "source_role_id": "FULL-B25-035",
+      "related_claim_ids": [
+        "SRC-ALL-3281",
+        "SRC-ALL-3282",
+        "SRC-ALL-3283",
+        "SRC-ALL-3284",
+        "SRC-ALL-3285",
+        "SRC-ALL-3286",
+        "SRC-ALL-3287",
+        "SRC-ALL-3288",
+        "SRC-ALL-3289",
+        "SRC-ALL-3290",
+        "SRC-ALL-3291",
+        "SRC-ALL-3292",
+        "SRC-ALL-3293"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B25全165行13段SHA行錨；提交前語義查核，僅為AI編輯性驗收，待CI。",
+      "source_line_count": 165,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 10,
+          "anchor_line": 3,
+          "quote": "> **【後續使用者明確選擇，2026-10-19】** 第四節 A/B/C 復歸裝備去向**已選 B**：核心特殊武器跟著諾亞死亡復歸，普通背包與其他外物則不自動跟回；**本檔「助手偏 A」的舊推薦已作廢**。復歸落點「稀少穩定錨點＋巨構真正拓撲選址」是助手新推薦，尚未由使用者選定。武器被奪走後是否隨死亡召回、隨身原裝模組與衣物範圍還待定。詳見 ",
+          "meaning": "A推薦已被B替代：作者後來選擇武器隨復歸B；舊助手偏好A不能續用，深層同化條件依036較新作者決定"
+        },
+        {
+          "from": 11,
+          "to": 25,
+          "anchor_line": 16,
+          "quote": "3. 諾亞在**第一次死亡前不知道自己能復活**。Celeste 賜予其不死復歸，但死亡不回溯世界；可能醒在遙遠地方，真需要走三天才能回來，其他人的傷亡、世界和貨運照舊前進。",
+          "meaning": "作者既有雙主角與長線：首次死亡前不知復歸、死亡不倒帶；艾莉維亞沒有Celeste賦予的不死且須有獨立高階科技與成長；登頂與模組可保留"
+        },
+        {
+          "from": 26,
+          "to": 37,
+          "anchor_line": 29,
+          "quote": "武器的特殊本質可以是**辨認一個實體／系統在多處、多層、多種狀態下何以仍是同一個持續作用的整體，並向這種「連續／連接／功能關係」施加可執行的斷接**。",
+          "meaning": "續斷武器核心是未定試案：助手提議以同一系統的連續關係斷接為核心，與025 A+C候選相容但作者未選原理"
+        },
+        {
+          "from": 38,
+          "to": 50,
+          "anchor_line": 42,
+          "quote": "| 槍械射擊端 | 對**已知、可辨識**的局部結構連續作用施加破壞／斷開，比普通高能彈更精確地破壞一個系統的承載或運作 | 有效識別跨多個空間、具有分布式本體和備援的完整目標，對其更深層真實功能關係施加干涉 |",
+          "meaning": "槍刃鉤鎖為候選界面：三形態可共用斷接原理；起手是否具有原裝刀刃與鉤鎖未決，不把表格當已獲裝備"
+        },
+        {
+          "from": 51,
+          "to": 65,
+          "anchor_line": 54,
+          "quote": "- **原裝火力／供能／承載**：**真實增高輸出**、破壞量、持續作戰、精度、戰場尺度，與特殊關聯操作可以疊加；不以「不准加攻擊力」作寫作禁令。",
+          "meaning": "模組與戰鬥能力真正成長：原裝索引、執行、供能、界面與護持可真增火力、作用尺度及機動；普通地區與完整前文明技術差距不可亂縮"
+        },
+        {
+          "from": 66,
+          "to": 81,
+          "anchor_line": 69,
+          "quote": "**當一個已可辨識系統同時存在多種互相競爭／協同的實際作用路徑，她能改變它們參與結果的「有效份量」**，並透過自身真實高階科技量測、建立可依靠的作用路徑、擴展作用層次。",
+          "meaning": "作用配重不是確認的唯一規則：作用路徑的有效份量及高階科技是艾莉維亞常態成熟候選，非已定唯一根本法則，也不可寫成諾亞的技能複製"
+        },
+        {
+          "from": 82,
+          "to": 92,
+          "anchor_line": 84,
+          "quote": "**1. 港口工程（若採第 34 候選）**：逆向水道分流、重量、牽引、支柱承載同時作用。艾莉維亞能將某些負載的有效權重移向另一套能承接的支架，或建立更有利的安全路徑。**這解決真實物理危險，但不自動判定承包商合法與否、居民的租約和經濟損失；且也不應為了作者要辯論就限制她物理解題**。",
+          "meaning": "能力場景與來源仍未定：港口工程、獨立戰鬥、日常巧用都只是示範；不能免除她自身選擇、轉移的實際後果或擅定Celeste贈力來源"
+        },
+        {
+          "from": 93,
+          "to": 108,
+          "anchor_line": 100,
+          "quote": "| **B：核心槍跟著復歸** | 普通外物留現場，真正稀有槍與諾亞建立特殊回歸關係 | 減少槍丟失導致主線卡住，但需解釋槍為何有特殊連結、原文明科技還是 Celeste 禮物？不能無根據「神裝綁定」 | 哪些形態／原裝模組能跟？有被奪走時還能回收嗎？會不會變免費任意傳送物品？ |",
+          "meaning": "外物去向ABC後修判定：本檔列A外物全留、B核心槍跟回、C按連結；後續作者選B，作者再選深層同化判準，保留普通背包留場"
+        },
+        {
+          "from": 109,
+          "to": 113,
+          "anchor_line": 111,
+          "quote": "目前**不能擅自宣告**復歸會把原本死去的衣服／背包／身體與物質如何處理；需分清「重建自己的身體」和「重建／搬運非自身的外物」，以及「是否留下屍體」「是否保留原先全部記憶」「是否可被人捕捉／禁錮而不死」。若使用者偏好，之後可選明確的身體連續性表述，但不能因 A 就簡單忘記復歸時衣服、身體狀態、武器保留位置等實際生活問題。",
+          "meaning": "肉身記憶與衣著不確定：原身是否留屍、重建衣物、記憶連續、囚禁與被奪槍召回均不得先定；B不等於免費運送物品"
+        },
+        {
+          "from": 114,
+          "to": 131,
+          "anchor_line": 117,
+          "quote": "懸空檢修橋的一部分遭負荷轉移而開始彎曲。諾亞想利用特殊槍把某個危險的附加架體斷開；他確實辦到，卻低估了剩餘支架的承載方式。艾莉維亞不是被動地在旁邊喊停，而是直接觀測剩餘負載，**改變受力路徑的有效份量**，讓兩人在支架全面斷裂前能通過。這是局部真正合作；但仍需區分她是否也能獨立處理整座橋、以及她完全可以在別的情況不需要男主支援。",
+          "meaning": "試場景一角色不固定分工：懸橋負載合作與調皮對話均是非正文試驗，不能固定男主犯錯女主善後；兩人可在不同事件獨立解題"
+        },
+        {
+          "from": 132,
+          "to": 141,
+          "anchor_line": 133,
+          "quote": "若諾亞第一次在某橋失手死亡並真的復歸，世界繼續三天。艾莉維亞是否**當時已經在一起／是否看見死亡**決定她最初反應；她不具 Celeste 復活，不可此時理所當然把復歸當日常。若採 A 留物版，槍和背包在他死的地方，可能被工程人員收走、由艾莉維亞暫時保管、遭承包商扣留或被拾荒者帶走，這些選項須由事件因果和人物位置決定。",
+          "meaning": "首次死與完整前文明場景需保留因果：三天回程只是可能，初遇與親密程度未定；前文明壓倒初期配置但不等於原槍本體低階，示例皆非正式故事"
+        },
+        {
+          "from": 142,
+          "to": 158,
+          "anchor_line": 145,
+          "quote": "- 男主初次死前必然不知道不死；若死亡時外物留現場，**故事收束前要處理槍去哪裡、當地哪個人拿到**，不能偷偷回歸他身上。",
+          "meaning": "首篇倒行潮仍是未採方案：港口救城模板、槍留場等敘事僅供檢驗；可改為奇異探索主線，不能把第34候選變正式首篇"
+        },
+        {
+          "from": 159,
+          "to": 165,
+          "anchor_line": 161,
+          "quote": "**使用者最新明確糾正**：法月懷是**真心疼愛瑟莉思媞**的母親，會稱讚、摸頭、擁抱、一起實際改設計，不能像每完成一項就找碴；對諾亞×艾莉維亞和讀者正式呈現的記憶，**不得在場景內說出兩人真名或給能直接認出的臉／原聲**。保留最初匿名試寫由**上行道路→居民交通、麵包店→隱藏艱難道路／白橋與通關紀念的靜謐雛形**，再融入後版母親稱讚與真正親密互動",
+          "meaning": "138後修限制能力與匿名記憶：作用配重是已有常態成熟候選；白髮質變方案未採；母女匿名且具真實親情，獎勵多項與兩人同幅巨大成長仍不可鎖具體物件"
+        }
+      ],
+      "latest_revisions_checked": [
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "04_能力武器與試煉/057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md",
+        "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c"
+        },
+        {
+          "path": "04_能力武器與試煉/057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md",
+          "git_blob_sha": "0ab221117f86cdacce73cae094bc8c120b3e84c2"
+        },
+        {
+          "path": "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+          "git_blob_sha": "2e8b5490c5e9fc985bf55881b13fd8eabf927901"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "來源全文連續段落與依賴SHA、四類反向核問、限域非Canon圖譜。",
+        "revocation": "原文或依賴SHA改變及CI失敗需撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【後續使用者明確選擇，2026-10-19】** 第四節 A/B/C 復歸裝備去向**已選 B**：核心特殊武器跟著諾亞死亡復歸，普通背包與其他外物則不自動跟回；**本檔「助手偏 A」的舊推薦已作廢**。復歸落點「稀少穩定錨點＋巨構真正拓撲選址」是助手新推薦，尚未由使用者選定。武器被奪走後是否隨死亡召回、隨身原裝模組與衣物範圍還待定。詳見 ",
+            "topic": "A推薦已被B替代",
+            "finding": "作者後來選擇武器隨復歸B；舊助手偏好A不能續用，深層同化條件依036較新作者決定",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3281"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 16,
+            "quote": "3. 諾亞在**第一次死亡前不知道自己能復活**。Celeste 賜予其不死復歸，但死亡不回溯世界；可能醒在遙遠地方，真需要走三天才能回來，其他人的傷亡、世界和貨運照舊前進。",
+            "topic": "作者既有雙主角與長線",
+            "finding": "首次死亡前不知復歸、死亡不倒帶；艾莉維亞沒有Celeste賦予的不死且須有獨立高階科技與成長；登頂與模組可保留",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3282"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 29,
+            "quote": "武器的特殊本質可以是**辨認一個實體／系統在多處、多層、多種狀態下何以仍是同一個持續作用的整體，並向這種「連續／連接／功能關係」施加可執行的斷接**。",
+            "topic": "續斷武器核心是未定試案",
+            "finding": "助手提議以同一系統的連續關係斷接為核心，與025 A+C候選相容但作者未選原理",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3283"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 42,
+            "quote": "| 槍械射擊端 | 對**已知、可辨識**的局部結構連續作用施加破壞／斷開，比普通高能彈更精確地破壞一個系統的承載或運作 | 有效識別跨多個空間、具有分布式本體和備援的完整目標，對其更深層真實功能關係施加干涉 |",
+            "topic": "槍刃鉤鎖為候選界面",
+            "finding": "三形態可共用斷接原理；起手是否具有原裝刀刃與鉤鎖未決，不把表格當已獲裝備",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3284"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 54,
+            "quote": "- **原裝火力／供能／承載**：**真實增高輸出**、破壞量、持續作戰、精度、戰場尺度，與特殊關聯操作可以疊加；不以「不准加攻擊力」作寫作禁令。",
+            "topic": "模組與戰鬥能力真正成長",
+            "finding": "原裝索引、執行、供能、界面與護持可真增火力、作用尺度及機動；普通地區與完整前文明技術差距不可亂縮",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3285"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 69,
+            "quote": "**當一個已可辨識系統同時存在多種互相競爭／協同的實際作用路徑，她能改變它們參與結果的「有效份量」**，並透過自身真實高階科技量測、建立可依靠的作用路徑、擴展作用層次。",
+            "topic": "作用配重不是確認的唯一規則",
+            "finding": "作用路徑的有效份量及高階科技是艾莉維亞常態成熟候選，非已定唯一根本法則，也不可寫成諾亞的技能複製",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3286"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 84,
+            "quote": "**1. 港口工程（若採第 34 候選）**：逆向水道分流、重量、牽引、支柱承載同時作用。艾莉維亞能將某些負載的有效權重移向另一套能承接的支架，或建立更有利的安全路徑。**這解決真實物理危險，但不自動判定承包商合法與否、居民的租約和經濟損失；且也不應為了作者要辯論就限制她物理解題**。",
+            "topic": "能力場景與來源仍未定",
+            "finding": "港口工程、獨立戰鬥、日常巧用都只是示範；不能免除她自身選擇、轉移的實際後果或擅定Celeste贈力來源",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3287"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 100,
+            "quote": "| **B：核心槍跟著復歸** | 普通外物留現場，真正稀有槍與諾亞建立特殊回歸關係 | 減少槍丟失導致主線卡住，但需解釋槍為何有特殊連結、原文明科技還是 Celeste 禮物？不能無根據「神裝綁定」 | 哪些形態／原裝模組能跟？有被奪走時還能回收嗎？會不會變免費任意傳送物品？ |",
+            "topic": "外物去向ABC後修判定",
+            "finding": "本檔列A外物全留、B核心槍跟回、C按連結；後續作者選B，作者再選深層同化判準，保留普通背包留場",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3288"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 111,
+            "quote": "目前**不能擅自宣告**復歸會把原本死去的衣服／背包／身體與物質如何處理；需分清「重建自己的身體」和「重建／搬運非自身的外物」，以及「是否留下屍體」「是否保留原先全部記憶」「是否可被人捕捉／禁錮而不死」。若使用者偏好，之後可選明確的身體連續性表述，但不能因 A 就簡單忘記復歸時衣服、身體狀態、武器保留位置等實際生活問題。",
+            "topic": "肉身記憶與衣著不確定",
+            "finding": "原身是否留屍、重建衣物、記憶連續、囚禁與被奪槍召回均不得先定；B不等於免費運送物品",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-3289"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 117,
+            "quote": "懸空檢修橋的一部分遭負荷轉移而開始彎曲。諾亞想利用特殊槍把某個危險的附加架體斷開；他確實辦到，卻低估了剩餘支架的承載方式。艾莉維亞不是被動地在旁邊喊停，而是直接觀測剩餘負載，**改變受力路徑的有效份量**，讓兩人在支架全面斷裂前能通過。這是局部真正合作；但仍需區分她是否也能獨立處理整座橋、以及她完全可以在別的情況不需要男主支援。",
+            "topic": "試場景一角色不固定分工",
+            "finding": "懸橋負載合作與調皮對話均是非正文試驗，不能固定男主犯錯女主善後；兩人可在不同事件獨立解題",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3290"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 133,
+            "quote": "若諾亞第一次在某橋失手死亡並真的復歸，世界繼續三天。艾莉維亞是否**當時已經在一起／是否看見死亡**決定她最初反應；她不具 Celeste 復活，不可此時理所當然把復歸當日常。若採 A 留物版，槍和背包在他死的地方，可能被工程人員收走、由艾莉維亞暫時保管、遭承包商扣留或被拾荒者帶走，這些選項須由事件因果和人物位置決定。",
+            "topic": "首次死與完整前文明場景需保留因果",
+            "finding": "三天回程只是可能，初遇與親密程度未定；前文明壓倒初期配置但不等於原槍本體低階，示例皆非正式故事",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3291"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 145,
+            "quote": "- 男主初次死前必然不知道不死；若死亡時外物留現場，**故事收束前要處理槍去哪裡、當地哪個人拿到**，不能偷偷回歸他身上。",
+            "topic": "首篇倒行潮仍是未採方案",
+            "finding": "港口救城模板、槍留場等敘事僅供檢驗；可改為奇異探索主線，不能把第34候選變正式首篇",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3292"
+            ]
+          },
+          {
+            "section_index": 13,
+            "line": 161,
+            "quote": "**使用者最新明確糾正**：法月懷是**真心疼愛瑟莉思媞**的母親，會稱讚、摸頭、擁抱、一起實際改設計，不能像每完成一項就找碴；對諾亞×艾莉維亞和讀者正式呈現的記憶，**不得在場景內說出兩人真名或給能直接認出的臉／原聲**。保留最初匿名試寫由**上行道路→居民交通、麵包店→隱藏艱難道路／白橋與通關紀念的靜謐雛形**，再融入後版母親稱讚與真正親密互動",
+            "topic": "138後修限制能力與匿名記憶",
+            "finding": "作用配重是已有常態成熟候選；白髮質變方案未採；母女匿名且具真實親情，獎勵多項與兩人同幅巨大成長仍不可鎖具體物件",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3293"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【後續使用者明確選擇，2026-10-19】** 第四節 A/B/C 復歸裝備去向**已選 B**：核心特殊武器跟著諾亞死亡復歸，普通背包與其他外物則不自動跟回；**本檔「助手偏 A」的舊推薦已作廢**。復歸落點「稀少穩定錨點＋巨構真正拓撲選址」是助手新推薦，尚未由使用者選定。武器被奪走後是否隨死亡召回、隨身原裝模組與衣物範圍還待定。詳見 ",
+            "question": "本檔作者確定／偏好與助手候選應怎樣分開？",
+            "finding": "按本檔引言及正文標示區分作者明言、尚在傾向、助手試案與後出修訂；不得用同檔標題把候選升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 54,
+            "quote": "- **原裝火力／供能／承載**：**真實增高輸出**、破壞量、持續作戰、精度、戰場尺度，與特殊關聯操作可以疊加；不以「不准加攻擊力」作寫作禁令。",
+            "question": "同檔頂部後出補註和跨檔選擇是否改變較早正文？",
+            "finding": "優先採實際較晚的作者選擇，尤其裝備深層同化B、雙錨點、靜謐正式命名及終焉普遍單向條件。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 111,
+            "quote": "目前**不能擅自宣告**復歸會把原本死去的衣服／背包／身體與物質如何處理；需分清「重建自己的身體」和「重建／搬運非自身的外物」，以及「是否留下屍體」「是否保留原先全部記憶」「是否可被人捕捉／禁錮而不死」。若使用者偏好，之後可選明確的身體連續性表述，但不能因 A 就簡單忘記復歸時衣服、身體狀態、武器保留位置等實際生活問題。",
+            "question": "是否漏記人物復歸與獎勵的實質限制或社會後果？",
+            "finding": "已涵蓋首次死亡不知情、復歸不倒轉其他人與物資、兩位主角獨立成長及秘密回報資訊邊界。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 161,
+            "quote": "**使用者最新明確糾正**：法月懷是**真心疼愛瑟莉思媞**的母親，會稱讚、摸頭、擁抱、一起實際改設計，不能像每完成一項就找碴；對諾亞×艾莉維亞和讀者正式呈現的記憶，**不得在場景內說出兩人真名或給能直接認出的臉／原聲**。保留最初匿名試寫由**上行道路→居民交通、麵包店→隱藏艱難道路／白橋與通關紀念的靜謐雛形**，再融入後版母親稱讚與真正親密互動",
+            "question": "跨檔候選能否誤導成已完成故事或另一場所規則？",
+            "finding": "後出SHA只對有證據的具體事項仲裁，不將終焉孤寂與單向效果放進靜謐，不把試寫變正式章。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+            "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+            "impact": "版本與關聯核對：036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "04_能力武器與試煉/057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md",
+            "git_blob_sha": "0ab221117f86cdacce73cae094bc8c120b3e84c2",
+            "impact": "版本與關聯核對：057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+            "git_blob_sha": "2e8b5490c5e9fc985bf55881b13fd8eabf927901",
+            "impact": "版本與關聯核對：138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          }
+        ],
+        "second_pass_method": "B25第二遍獨立逆向核對035整份165行的作者權威、後出日期先後、重要未覆蓋主題、跨檔規則差異，並依實際SHA行錨逐段查回。",
+        "unresolved_risks": [
+          "復歸位置細則與已同化模組以外特殊邊界尚未全部定案。",
+          "靜謐收穫具體內容、終焉啟動資格／出口以及首篇候選皆未成為正式小說。"
+        ]
+      }
+    },
+    {
+      "source_path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+      "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+      "source_role_id": "FULL-B25-036",
+      "related_claim_ids": [
+        "SRC-ALL-3294",
+        "SRC-ALL-3295",
+        "SRC-ALL-3296",
+        "SRC-ALL-3297",
+        "SRC-ALL-3298",
+        "SRC-ALL-3299",
+        "SRC-ALL-3300",
+        "SRC-ALL-3301",
+        "SRC-ALL-3302"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B25全94行9段SHA行錨；提交前語義查核，僅為AI編輯性驗收，待CI。",
+      "source_line_count": 94,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 9,
+          "anchor_line": 3,
+          "quote": "> **【2026-11-08｜後出作者明確選擇：Gemini「選項 B：深層同化／外掛扣合分離」】** 作者在看完 Gemini 第三輪三選後直接說「**我自己是選B方案啦**」。這一選擇**優先於同日較早的「曾經安裝過就能跟回」傾向**：核心原槍 B 隨復歸既定；第03章暗銀微型卡槽已融入槍體、第05章暗銀高壓導流管已被同化，跟回；第09章黑銷",
+          "meaning": "11月8日作者最終選深層同化B：暗銀卡槽與高壓導流管已融合故隨槍，黑銷現為可拆下掛未同化故不跟；舊同日曾安裝即跟回傾向已被覆蓋"
+        },
+        {
+          "from": 10,
+          "to": 16,
+          "anchor_line": 12,
+          "quote": "> **「B，然後復歸要復活在哪裡?」**",
+          "meaning": "10月19日作者選核心武器跟回：使用者直選B，錨點幾何推薦仍為助手候選；後又確認地理與個人兩類均存在"
+        },
+        {
+          "from": 17,
+          "to": 26,
+          "anchor_line": 19,
+          "quote": "- 諾亞本人死亡後復歸，**那把特殊的前文明核心武器也跟著他復歸**；不能再把 35 檔舊版「助手推薦 A 外物留下」當作現行首選。",
+          "meaning": "裝備隨回範圍與缺口：核心槍跟回、普通外物不跟；遠距召回整槍、衣物、屍體、原因未定，不能因槍消失假設黑銷殘餘力場無害"
+        },
+        {
+          "from": 27,
+          "to": 42,
+          "anchor_line": 33,
+          "quote": "**候選原理**：Celeste 賜予諾亞的復歸能力，在死亡時由**巨構真正的空間連通圖**中，尋找能承接完整重現的稀少、有效且相對穩定的位置。那些候選位置可能並非人工祭壇，也不必被公共社會認作「復活點」；可以是被廢棄的交通室、空洞平臺、舊維修段、正常社會邊緣的安定空間、洞穴附近。",
+          "meaning": "稀少地理拓撲錨點候選：地點依真實空間連通與最低承接條件選擇；地理錨點的存在經037確認，但具體優先次序與選址公式未定"
+        },
+        {
+          "from": 43,
+          "to": 52,
+          "anchor_line": 45,
+          "quote": "少數地點因諾亞在那裡曾長期生活、反覆返回或留下深刻的個人生命連續記錄才成為候選錨點；無需巨構本身事先配置「復活站」，容易讓過去旅居區、兩人的共同住處具有感情重量。但會造成「每住幾天就一個錨點」「主角藉死亡免費回舊城」的濫用風險，**需要非常稀有的成立條件**，而不是旅館睡過就可重生。",
+          "meaning": "生命痕跡錨點後已確認存在：早期B個人痕跡被列可替代，037明確作者選兩類同存；形成門檻仍需罕見，C近處安全選址不是已採定案"
+        },
+        {
+          "from": 53,
+          "to": 63,
+          "anchor_line": 57,
+          "quote": "2. 哪幾個錨點確實具資格，以及資格的實際最低條件（此刻未定，不偷設固定公里數、宇宙層數或溫度）；",
+          "meaning": "落點應事先對照交通和狀態：若採具體落點條件，須預設道路、時間、敵人監控與安全最低要求；不存在死亡必三天或必原地重生的簡化規則"
+        },
+        {
+          "from": 64,
+          "to": 75,
+          "anchor_line": 68,
+          "quote": "諾亞在當地懸空維修路線上第一次真正死亡；當時完全不知道自己不死，故不能事前測試。重新張開眼睛，他可能已在**另個空間分支的廢棄小型候車室或檢修區**。他旁邊仍是自己帶著的特殊槍，但包裡食物、貨幣、其他旅行物件並不在手中。",
+          "meaning": "倒行潮候車室示例非已發生：第一次死後陌生廢站、槍在身旁而外物遺失只是範例，主角當下不能知道是Celeste禮物，事件沒有成為正式正文"
+        },
+        {
+          "from": 76,
+          "to": 83,
+          "anchor_line": 79,
+          "quote": "- **槍是否可被搶走**：若被敵人先奪走，復歸不能在未定案條件下默認自動召回；可讓它仍是有價值、可偷可賣、可被原文明追索的物件。",
+          "meaning": "可被奪槍與成熟探路仍需限制：槍被搶後是否跨距離召回未選；帶槍復歸不免除物流成本或對前文明未知技術保持警戒；情侶反應須隨關係發展"
+        },
+        {
+          "from": 84,
+          "to": 94,
+          "anchor_line": 89,
+          "quote": "4. 特殊槍跟隨復歸的精確連結條件、槍被奪走後死亡是否能召回，以及與武器**已融合的原裝模組**是否全部屬于跟隨範圍。",
+          "meaning": "未決清單與先後裁決：復歸衣著、記憶、具體首次死亡與落點未定；模組依最晚深層同化B處理，續斷與作用配重仍非作者批准的正式根本原理"
+        }
+      ],
+      "latest_revisions_checked": [
+        "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096"
+        },
+        {
+          "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f"
+        },
+        {
+          "path": "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+          "git_blob_sha": "2e8b5490c5e9fc985bf55881b13fd8eabf927901"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "來源全文連續段落與依賴SHA、四類反向核問、限域非Canon圖譜。",
+        "revocation": "原文或依賴SHA改變及CI失敗需撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【2026-11-08｜後出作者明確選擇：Gemini「選項 B：深層同化／外掛扣合分離」】** 作者在看完 Gemini 第三輪三選後直接說「**我自己是選B方案啦**」。這一選擇**優先於同日較早的「曾經安裝過就能跟回」傾向**：核心原槍 B 隨復歸既定；第03章暗銀微型卡槽已融入槍體、第05章暗銀高壓導流管已被同化，跟回；第09章黑銷",
+            "topic": "11月8日作者最終選深層同化B",
+            "finding": "暗銀卡槽與高壓導流管已融合故隨槍，黑銷現為可拆下掛未同化故不跟；舊同日曾安裝即跟回傾向已被覆蓋",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3294"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 12,
+            "quote": "> **「B，然後復歸要復活在哪裡?」**",
+            "topic": "10月19日作者選核心武器跟回",
+            "finding": "使用者直選B，錨點幾何推薦仍為助手候選；後又確認地理與個人兩類均存在",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3295"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 19,
+            "quote": "- 諾亞本人死亡後復歸，**那把特殊的前文明核心武器也跟著他復歸**；不能再把 35 檔舊版「助手推薦 A 外物留下」當作現行首選。",
+            "topic": "裝備隨回範圍與缺口",
+            "finding": "核心槍跟回、普通外物不跟；遠距召回整槍、衣物、屍體、原因未定，不能因槍消失假設黑銷殘餘力場無害",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3296"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 33,
+            "quote": "**候選原理**：Celeste 賜予諾亞的復歸能力，在死亡時由**巨構真正的空間連通圖**中，尋找能承接完整重現的稀少、有效且相對穩定的位置。那些候選位置可能並非人工祭壇，也不必被公共社會認作「復活點」；可以是被廢棄的交通室、空洞平臺、舊維修段、正常社會邊緣的安定空間、洞穴附近。",
+            "topic": "稀少地理拓撲錨點候選",
+            "finding": "地點依真實空間連通與最低承接條件選擇；地理錨點的存在經037確認，但具體優先次序與選址公式未定",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3297"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 45,
+            "quote": "少數地點因諾亞在那裡曾長期生活、反覆返回或留下深刻的個人生命連續記錄才成為候選錨點；無需巨構本身事先配置「復活站」，容易讓過去旅居區、兩人的共同住處具有感情重量。但會造成「每住幾天就一個錨點」「主角藉死亡免費回舊城」的濫用風險，**需要非常稀有的成立條件**，而不是旅館睡過就可重生。",
+            "topic": "生命痕跡錨點後已確認存在",
+            "finding": "早期B個人痕跡被列可替代，037明確作者選兩類同存；形成門檻仍需罕見，C近處安全選址不是已採定案",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3298"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 57,
+            "quote": "2. 哪幾個錨點確實具資格，以及資格的實際最低條件（此刻未定，不偷設固定公里數、宇宙層數或溫度）；",
+            "topic": "落點應事先對照交通和狀態",
+            "finding": "若採具體落點條件，須預設道路、時間、敵人監控與安全最低要求；不存在死亡必三天或必原地重生的簡化規則",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3299"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 68,
+            "quote": "諾亞在當地懸空維修路線上第一次真正死亡；當時完全不知道自己不死，故不能事前測試。重新張開眼睛，他可能已在**另個空間分支的廢棄小型候車室或檢修區**。他旁邊仍是自己帶著的特殊槍，但包裡食物、貨幣、其他旅行物件並不在手中。",
+            "topic": "倒行潮候車室示例非已發生",
+            "finding": "第一次死後陌生廢站、槍在身旁而外物遺失只是範例，主角當下不能知道是Celeste禮物，事件沒有成為正式正文",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3300"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 79,
+            "quote": "- **槍是否可被搶走**：若被敵人先奪走，復歸不能在未定案條件下默認自動召回；可讓它仍是有價值、可偷可賣、可被原文明追索的物件。",
+            "topic": "可被奪槍與成熟探路仍需限制",
+            "finding": "槍被搶後是否跨距離召回未選；帶槍復歸不免除物流成本或對前文明未知技術保持警戒；情侶反應須隨關係發展",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3301"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 89,
+            "quote": "4. 特殊槍跟隨復歸的精確連結條件、槍被奪走後死亡是否能召回，以及與武器**已融合的原裝模組**是否全部屬于跟隨範圍。",
+            "topic": "未決清單與先後裁決",
+            "finding": "復歸衣著、記憶、具體首次死亡與落點未定；模組依最晚深層同化B處理，續斷與作用配重仍非作者批准的正式根本原理",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3302"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【2026-11-08｜後出作者明確選擇：Gemini「選項 B：深層同化／外掛扣合分離」】** 作者在看完 Gemini 第三輪三選後直接說「**我自己是選B方案啦**」。這一選擇**優先於同日較早的「曾經安裝過就能跟回」傾向**：核心原槍 B 隨復歸既定；第03章暗銀微型卡槽已融入槍體、第05章暗銀高壓導流管已被同化，跟回；第09章黑銷",
+            "question": "本檔作者確定／偏好與助手候選應怎樣分開？",
+            "finding": "按本檔引言及正文標示區分作者明言、尚在傾向、助手試案與後出修訂；不得用同檔標題把候選升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 33,
+            "quote": "**候選原理**：Celeste 賜予諾亞的復歸能力，在死亡時由**巨構真正的空間連通圖**中，尋找能承接完整重現的稀少、有效且相對穩定的位置。那些候選位置可能並非人工祭壇，也不必被公共社會認作「復活點」；可以是被廢棄的交通室、空洞平臺、舊維修段、正常社會邊緣的安定空間、洞穴附近。",
+            "question": "同檔頂部後出補註和跨檔選擇是否改變較早正文？",
+            "finding": "優先採實際較晚的作者選擇，尤其裝備深層同化B、雙錨點、靜謐正式命名及終焉普遍單向條件。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 68,
+            "quote": "諾亞在當地懸空維修路線上第一次真正死亡；當時完全不知道自己不死，故不能事前測試。重新張開眼睛，他可能已在**另個空間分支的廢棄小型候車室或檢修區**。他旁邊仍是自己帶著的特殊槍，但包裡食物、貨幣、其他旅行物件並不在手中。",
+            "question": "是否漏記人物復歸與獎勵的實質限制或社會後果？",
+            "finding": "已涵蓋首次死亡不知情、復歸不倒轉其他人與物資、兩位主角獨立成長及秘密回報資訊邊界。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 89,
+            "quote": "4. 特殊槍跟隨復歸的精確連結條件、槍被奪走後死亡是否能召回，以及與武器**已融合的原裝模組**是否全部屬于跟隨範圍。",
+            "question": "跨檔候選能否誤導成已完成故事或另一場所規則？",
+            "finding": "後出SHA只對有證據的具體事項仲裁，不將終焉孤寂與單向效果放進靜謐，不把試寫變正式章。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+            "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+            "impact": "版本與關聯核對：035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+            "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+            "impact": "版本與關聯核對：037_討論續錄_雙錨點與痛苦之路回訪.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+            "git_blob_sha": "2e8b5490c5e9fc985bf55881b13fd8eabf927901",
+            "impact": "版本與關聯核對：138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          }
+        ],
+        "second_pass_method": "B25第二遍獨立逆向核對036整份94行的作者權威、後出日期先後、重要未覆蓋主題、跨檔規則差異，並依實際SHA行錨逐段查回。",
+        "unresolved_risks": [
+          "復歸位置細則與已同化模組以外特殊邊界尚未全部定案。",
+          "靜謐收穫具體內容、終焉啟動資格／出口以及首篇候選皆未成為正式小說。"
+        ]
+      }
+    },
+    {
+      "source_path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+      "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+      "source_role_id": "FULL-B25-037",
+      "related_claim_ids": [
+        "SRC-ALL-3303",
+        "SRC-ALL-3304",
+        "SRC-ALL-3305",
+        "SRC-ALL-3306",
+        "SRC-ALL-3307",
+        "SRC-ALL-3308"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B25全45行6段SHA行錨；提交前語義查核，僅為AI編輯性驗收，待CI。",
+      "source_line_count": 45,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 9,
+          "anchor_line": 3,
+          "quote": "> **【第58份使用者已確認】靜謐迴廊就是以前借用 Path of Pain 稱呼的真正隱藏苦痛之路。**不是新增第三場所，與終焉迴廊不同。深處保留諾亞原裝模組、其他物件／紀錄／記憶，並新增已確認的艾莉維亞實質能力升級；機制與具體收穫未定。見 [58](../03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md)",
+          "meaning": "靜謐命名與公開危險地域後修：第58定靜謐迴廊是原隱藏Path of Pain且與終焉分開；公開高難區另存在但不可暴露隱藏核心"
+        },
+        {
+          "from": 10,
+          "to": 19,
+          "anchor_line": 12,
+          "quote": "使用者選擇地理拓撲錨點與個人生活痕跡錨點**兩種都存在**，不能要求二選一。諾亞的核心特殊武器依先前 B 方案隨其復歸，普通外物不自動跟隨。",
+          "meaning": "雙錨點及入口特殊復歸已選：地理拓撲與個人生活痕跡皆存在，Celeste可特設諾亞入口錨點；其特殊性不傳給所有探險者，獎勵超過一件模組"
+        },
+        {
+          "from": 20,
+          "to": 25,
+          "anchor_line": 22,
+          "quote": "地理錨點因特殊空間拓撲與穩定性具備承接資格；個人錨點由諾亞在某處長期生活、建立深層聯繫而形成。兩種來源不同，由統一機制判定有效落點。特定區域的入口可以由 Celeste **主動額外設置**錨點，不必硬算成第三種普遍自然來源。",
+          "meaning": "兩類錨點統一判定是助手設計：地理與私人承接資格雖並存，哪個優先、如何定義界線、入口地域性優先皆是尚待選擇的候選細節"
+        },
+        {
+          "from": 26,
+          "to": 33,
+          "anchor_line": 28,
+          "quote": "候選設計為四層：外圍地域可被少數探險者聽聞難度；真正入口不顯眼；内部是不靠單純戰鬥即可致命的立體高精度地形；最深處還有一層未被外界充分認識的私密核心。此地的名聲、入口、考驗與核心秘密是**不同情報層**。",
+          "meaning": "四層情報與危險差異：外圍名氣、隱藏入口、機關路徑、深層私密核心要分離，不能變公開排隊副本；女主不可被無理封禁能力"
+        },
+        {
+          "from": 34,
+          "to": 41,
+          "anchor_line": 36,
+          "quote": "首次到訪可以真正失敗並撤離；後來於其他獨立事件取得原裝鉤鎖、控制技術、環境情報、熟練操作後返回。不要求所有障礙都是模組鎖，精準行動和現場判斷仍重要。原裝模組可以提高火力、戰鬥性能或機動，不只是解開一道門的鑰匙。",
+          "meaning": "撤退與回訪的因果：可先失敗後獲新模組及技能再訪，需預設真正結尾、別把所有障礙化為卡牌鎖；具體內容仍屬未定試案"
+        },
+        {
+          "from": 42,
+          "to": 45,
+          "anchor_line": 44,
+          "quote": "此前「原裝模組、額外物件／紀錄／記憶與艾莉維亞升級」仍成立，**最新用戶要求更精確的幅度：諾亞取得的原裝模組將使他的實際戰鬥／能力巨大提升，艾莉維亞也獲得獨立且同樣非常巨大的實質提升；還有其他東西，絕非兩件小獎品便打發通關**。詳細獎品不在此擅定；入口與白橋既有規則不改。來源：[59](../03_人物關係與語感/059_最新確認_雙主角語氣頻率_",
+          "meaning": "59後修雙主角均巨幅質變：諾亞模組與艾莉維亞規則皆須獨立巨大實質升級，另有其他重大收穫，不能只當兩份小獎品"
+        }
+      ],
+      "latest_revisions_checked": [
+        "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854"
+        },
+        {
+          "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+        },
+        {
+          "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "來源全文連續段落與依賴SHA、四類反向核問、限域非Canon圖譜。",
+        "revocation": "原文或依賴SHA改變及CI失敗需撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【第58份使用者已確認】靜謐迴廊就是以前借用 Path of Pain 稱呼的真正隱藏苦痛之路。**不是新增第三場所，與終焉迴廊不同。深處保留諾亞原裝模組、其他物件／紀錄／記憶，並新增已確認的艾莉維亞實質能力升級；機制與具體收穫未定。見 [58](../03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md)",
+            "topic": "靜謐命名與公開危險地域後修",
+            "finding": "第58定靜謐迴廊是原隱藏Path of Pain且與終焉分開；公開高難區另存在但不可暴露隱藏核心",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3303"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 12,
+            "quote": "使用者選擇地理拓撲錨點與個人生活痕跡錨點**兩種都存在**，不能要求二選一。諾亞的核心特殊武器依先前 B 方案隨其復歸，普通外物不自動跟隨。",
+            "topic": "雙錨點及入口特殊復歸已選",
+            "finding": "地理拓撲與個人生活痕跡皆存在，Celeste可特設諾亞入口錨點；其特殊性不傳給所有探險者，獎勵超過一件模組",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3304"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 22,
+            "quote": "地理錨點因特殊空間拓撲與穩定性具備承接資格；個人錨點由諾亞在某處長期生活、建立深層聯繫而形成。兩種來源不同，由統一機制判定有效落點。特定區域的入口可以由 Celeste **主動額外設置**錨點，不必硬算成第三種普遍自然來源。",
+            "topic": "兩類錨點統一判定是助手設計",
+            "finding": "地理與私人承接資格雖並存，哪個優先、如何定義界線、入口地域性優先皆是尚待選擇的候選細節",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3305"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 28,
+            "quote": "候選設計為四層：外圍地域可被少數探險者聽聞難度；真正入口不顯眼；内部是不靠單純戰鬥即可致命的立體高精度地形；最深處還有一層未被外界充分認識的私密核心。此地的名聲、入口、考驗與核心秘密是**不同情報層**。",
+            "topic": "四層情報與危險差異",
+            "finding": "外圍名氣、隱藏入口、機關路徑、深層私密核心要分離，不能變公開排隊副本；女主不可被無理封禁能力",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3306"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 36,
+            "quote": "首次到訪可以真正失敗並撤離；後來於其他獨立事件取得原裝鉤鎖、控制技術、環境情報、熟練操作後返回。不要求所有障礙都是模組鎖，精準行動和現場判斷仍重要。原裝模組可以提高火力、戰鬥性能或機動，不只是解開一道門的鑰匙。",
+            "topic": "撤退與回訪的因果",
+            "finding": "可先失敗後獲新模組及技能再訪，需預設真正結尾、別把所有障礙化為卡牌鎖；具體內容仍屬未定試案",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3307"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 44,
+            "quote": "此前「原裝模組、額外物件／紀錄／記憶與艾莉維亞升級」仍成立，**最新用戶要求更精確的幅度：諾亞取得的原裝模組將使他的實際戰鬥／能力巨大提升，艾莉維亞也獲得獨立且同樣非常巨大的實質提升；還有其他東西，絕非兩件小獎品便打發通關**。詳細獎品不在此擅定；入口與白橋既有規則不改。來源：[59](../03_人物關係與語感/059_最新確認_雙主角語氣頻率_",
+            "topic": "59後修雙主角均巨幅質變",
+            "finding": "諾亞模組與艾莉維亞規則皆須獨立巨大實質升級，另有其他重大收穫，不能只當兩份小獎品",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3308"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【第58份使用者已確認】靜謐迴廊就是以前借用 Path of Pain 稱呼的真正隱藏苦痛之路。**不是新增第三場所，與終焉迴廊不同。深處保留諾亞原裝模組、其他物件／紀錄／記憶，並新增已確認的艾莉維亞實質能力升級；機制與具體收穫未定。見 [58](../03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md)",
+            "question": "本檔作者確定／偏好與助手候選應怎樣分開？",
+            "finding": "按本檔引言及正文標示區分作者明言、尚在傾向、助手試案與後出修訂；不得用同檔標題把候選升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 22,
+            "quote": "地理錨點因特殊空間拓撲與穩定性具備承接資格；個人錨點由諾亞在某處長期生活、建立深層聯繫而形成。兩種來源不同，由統一機制判定有效落點。特定區域的入口可以由 Celeste **主動額外設置**錨點，不必硬算成第三種普遍自然來源。",
+            "question": "同檔頂部後出補註和跨檔選擇是否改變較早正文？",
+            "finding": "優先採實際較晚的作者選擇，尤其裝備深層同化B、雙錨點、靜謐正式命名及終焉普遍單向條件。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 36,
+            "quote": "首次到訪可以真正失敗並撤離；後來於其他獨立事件取得原裝鉤鎖、控制技術、環境情報、熟練操作後返回。不要求所有障礙都是模組鎖，精準行動和現場判斷仍重要。原裝模組可以提高火力、戰鬥性能或機動，不只是解開一道門的鑰匙。",
+            "question": "是否漏記人物復歸與獎勵的實質限制或社會後果？",
+            "finding": "已涵蓋首次死亡不知情、復歸不倒轉其他人與物資、兩位主角獨立成長及秘密回報資訊邊界。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 44,
+            "quote": "此前「原裝模組、額外物件／紀錄／記憶與艾莉維亞升級」仍成立，**最新用戶要求更精確的幅度：諾亞取得的原裝模組將使他的實際戰鬥／能力巨大提升，艾莉維亞也獲得獨立且同樣非常巨大的實質提升；還有其他東西，絕非兩件小獎品便打發通關**。詳細獎品不在此擅定；入口與白橋既有規則不改。來源：[59](../03_人物關係與語感/059_最新確認_雙主角語氣頻率_",
+            "question": "跨檔候選能否誤導成已完成故事或另一場所規則？",
+            "finding": "後出SHA只對有證據的具體事項仲裁，不將終焉孤寂與單向效果放進靜謐，不把試寫變正式章。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+            "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+            "impact": "版本與關聯核對：038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+            "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+            "impact": "版本與關聯核對：058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+            "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+            "impact": "版本與關聯核對：059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          }
+        ],
+        "second_pass_method": "B25第二遍獨立逆向核對037整份45行的作者權威、後出日期先後、重要未覆蓋主題、跨檔規則差異，並依實際SHA行錨逐段查回。",
+        "unresolved_risks": [
+          "復歸位置細則與已同化模組以外特殊邊界尚未全部定案。",
+          "靜謐收穫具體內容、終焉啟動資格／出口以及首篇候選皆未成為正式小說。"
+        ]
+      }
+    },
+    {
+      "source_path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+      "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+      "source_role_id": "FULL-B25-038",
+      "related_claim_ids": [
+        "SRC-ALL-3309",
+        "SRC-ALL-3310",
+        "SRC-ALL-3311",
+        "SRC-ALL-3312",
+        "SRC-ALL-3313",
+        "SRC-ALL-3314",
+        "SRC-ALL-3315",
+        "SRC-ALL-3316"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B25全59行8段SHA行錨；提交前語義查核，僅為AI編輯性驗收，待CI。",
+      "source_line_count": 59,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 14,
+          "anchor_line": 7,
+          "quote": "> **【2026-10-19 使用者最新明確糾正】** 此前本檔把公開版本寫成可經營的挑戰、遊樂化排行榜／挑戰者專屬地域的措辭**不符合新指向**。正確是**世界本身一片巨大而很容易死亡的危險地域，甚至能算整個世界層**；地點可被知道／有傳聞，不代表為冒險者設立的公開競賽。有人因生計、路線、研究、探險或尋刺激進入才形成挑戰文化。**公開地域與真正",
+          "meaning": "公開高難地帶不是售票活動：作者後修：公開版可是真實廣大危險世界層，不是特設排行榜或售票關卡；隱藏靜謐更難，普通旅人不共享諾亞復歸"
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "anchor_line": 17,
+          "quote": "公開版本身足以成為有歷史、有技術門檻、有頂尖探索者嘗試、有成功與失敗紀錄的極高難度真實場所；不能為了凸顯隱藏版，降級成普通遊樂設施。公開意味著位置／挑戰規則或傳聞可以合法、正常地被外人知道，**不等於保證任何人都能買票輕易通過**。",
+          "meaning": "公開資訊與秘密難度分離：公開高難區位置可被知曉、極少人能通過；靜謐更秘密且考驗更極端，難度不能只靠稱號分級"
+        },
+        {
+          "from": 21,
+          "to": 27,
+          "anchor_line": 24,
+          "quote": "- **公開版**：一座公開可辨認的高難地理奇觀。外界可形成嚮導、挑戰紀錄、補給、技術訓練與地方生意；但是否有正式經營、排行榜、門票、獎章等尚未指定，不要機械引入遊戲副本制度。",
+          "meaning": "公開與秘密入口關係尚未選：公開生意、嚮導、同建築或分區藏入口都是助手可能方案，不得自動恢復作者否定的遊樂化營運"
+        },
+        {
+          "from": 28,
+          "to": 35,
+          "anchor_line": 30,
+          "quote": "- 使用者先前已選擇**雙類錨點都存在**：地理拓撲型＋個人長期生活痕跡型。依第 36 份，諾亞復歸時**特殊核心武器跟隨（裝備方案 B）**，普通外物不自動跟隨；細節如槍遭奪後、衣物與模組整合仍待規劃。",
+          "meaning": "特殊入口錨點不能普遍化：雙錨點已存在、Celeste可供諾亞入口再生，但公開版其他挑戰者沒有同等不死；維亞獨立規則不為設難度而封印"
+        },
+        {
+          "from": 36,
+          "to": 41,
+          "anchor_line": 38,
+          "quote": "根據使用者前幾輪確認，**真正隱藏的路線可以放一件特殊武器原裝模組，但這僅是 Celeste 留下的一部分回報**。另可有記錄、記憶、私人紀念、異常景象、人物真相、某段歷史等，**具體哪件物件、誰的記憶仍未定**。不把所有深層秘密硬歸為 Celeste 和法月懷的家庭往事，也不把隱藏版當作唯一登頂途徑。",
+          "meaning": "秘密收穫與可觀測結果：有原裝模組外還有記憶/紀錄等額外內容，確切模組、歷史與出處未定；通公開版不代表自動取得內部真相"
+        },
+        {
+          "from": 42,
+          "to": 47,
+          "anchor_line": 46,
+          "quote": "諾亞可在第一次真正找到隱藏入口後屢次死亡、從錨點重現，發現目前設備與操作能力不足，和艾莉維亞離開，穿越其他真實事件後取得模組／研究成果，再次回來。**這是跨事件的已規劃回訪線，而非故意讓一件地方事件永遠不結束。**作者層需掌握其最深內容及回收方向，但人物可能長期不知道。",
+          "meaning": "跨故事回訪不是拖延結案：諾亞能多次失敗並成長返回，但單地事件要有真正收束；描寫例子沒有正式發生"
+        },
+        {
+          "from": 48,
+          "to": 55,
+          "anchor_line": 50,
+          "quote": "【使用者已選方向】雙錨點同時存在；特殊武器隨諾亞復歸；Celeste 可在秘密地域入口設復歸點；隱藏版極難且秘密／氛圍有重量；可先失敗、離開成長再回；**公開版也存在，而且本身非常難，但沒有秘密 Path of Pain 那麼難**。",
+          "meaning": "作者已選與助手提案並置：公開危險版及秘密版並存、雙錨點與槍跟回被選；具體獎勵、經營者、入口形貌都非作者硬定案"
+        },
+        {
+          "from": 56,
+          "to": 59,
+          "anchor_line": 58,
+          "quote": "使用者明確說「**你說的版本也可以保留**」。正確處理是保留**本檔原先的 Celeste 相關公開高危世界層版本（按第39份後修後的真實世界層／不售票、不設全員復活）**，同時保留第102份新提出的**廣泛極端地貌／氣象／溫差／工程機關／巨構災害／大小生物構成的危險世界層設計**；兩種可以屬不同世界層或部分重疊，**不急著判定同一片、也不互相取代",
+          "meaning": "102後修兩類高危世界層可共存：原Celeste相關公開高危地層與廣泛極端環境危險地層皆保留，能分地或部分重疊，不應互斥或復活售票關卡"
+        }
+      ],
+      "latest_revisions_checked": [
+        "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+        "02_地圖拓撲與交通/040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md",
+        "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md",
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+          "git_blob_sha": "016da0bf2d6768e55ec027f49e9d5212c0e861da"
+        },
+        {
+          "path": "02_地圖拓撲與交通/040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md",
+          "git_blob_sha": "72bc21fa7414f2eaf137d9363714c4ef86e0c774"
+        },
+        {
+          "path": "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md",
+          "git_blob_sha": "b083a0c0df1ac9e34eea773c0c33c289d45abb89"
+        },
+        {
+          "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "來源全文連續段落與依賴SHA、四類反向核問、限域非Canon圖譜。",
+        "revocation": "原文或依賴SHA改變及CI失敗需撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 7,
+            "quote": "> **【2026-10-19 使用者最新明確糾正】** 此前本檔把公開版本寫成可經營的挑戰、遊樂化排行榜／挑戰者專屬地域的措辭**不符合新指向**。正確是**世界本身一片巨大而很容易死亡的危險地域，甚至能算整個世界層**；地點可被知道／有傳聞，不代表為冒險者設立的公開競賽。有人因生計、路線、研究、探險或尋刺激進入才形成挑戰文化。**公開地域與真正",
+            "topic": "公開高難地帶不是售票活動",
+            "finding": "作者後修：公開版可是真實廣大危險世界層，不是特設排行榜或售票關卡；隱藏靜謐更難，普通旅人不共享諾亞復歸",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3309"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 17,
+            "quote": "公開版本身足以成為有歷史、有技術門檻、有頂尖探索者嘗試、有成功與失敗紀錄的極高難度真實場所；不能為了凸顯隱藏版，降級成普通遊樂設施。公開意味著位置／挑戰規則或傳聞可以合法、正常地被外人知道，**不等於保證任何人都能買票輕易通過**。",
+            "topic": "公開資訊與秘密難度分離",
+            "finding": "公開高難區位置可被知曉、極少人能通過；靜謐更秘密且考驗更極端，難度不能只靠稱號分級",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3310"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 24,
+            "quote": "- **公開版**：一座公開可辨認的高難地理奇觀。外界可形成嚮導、挑戰紀錄、補給、技術訓練與地方生意；但是否有正式經營、排行榜、門票、獎章等尚未指定，不要機械引入遊戲副本制度。",
+            "topic": "公開與秘密入口關係尚未選",
+            "finding": "公開生意、嚮導、同建築或分區藏入口都是助手可能方案，不得自動恢復作者否定的遊樂化營運",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3311"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 30,
+            "quote": "- 使用者先前已選擇**雙類錨點都存在**：地理拓撲型＋個人長期生活痕跡型。依第 36 份，諾亞復歸時**特殊核心武器跟隨（裝備方案 B）**，普通外物不自動跟隨；細節如槍遭奪後、衣物與模組整合仍待規劃。",
+            "topic": "特殊入口錨點不能普遍化",
+            "finding": "雙錨點已存在、Celeste可供諾亞入口再生，但公開版其他挑戰者沒有同等不死；維亞獨立規則不為設難度而封印",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3312"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 38,
+            "quote": "根據使用者前幾輪確認，**真正隱藏的路線可以放一件特殊武器原裝模組，但這僅是 Celeste 留下的一部分回報**。另可有記錄、記憶、私人紀念、異常景象、人物真相、某段歷史等，**具體哪件物件、誰的記憶仍未定**。不把所有深層秘密硬歸為 Celeste 和法月懷的家庭往事，也不把隱藏版當作唯一登頂途徑。",
+            "topic": "秘密收穫與可觀測結果",
+            "finding": "有原裝模組外還有記憶/紀錄等額外內容，確切模組、歷史與出處未定；通公開版不代表自動取得內部真相",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3313"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 46,
+            "quote": "諾亞可在第一次真正找到隱藏入口後屢次死亡、從錨點重現，發現目前設備與操作能力不足，和艾莉維亞離開，穿越其他真實事件後取得模組／研究成果，再次回來。**這是跨事件的已規劃回訪線，而非故意讓一件地方事件永遠不結束。**作者層需掌握其最深內容及回收方向，但人物可能長期不知道。",
+            "topic": "跨故事回訪不是拖延結案",
+            "finding": "諾亞能多次失敗並成長返回，但單地事件要有真正收束；描寫例子沒有正式發生",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3314"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 50,
+            "quote": "【使用者已選方向】雙錨點同時存在；特殊武器隨諾亞復歸；Celeste 可在秘密地域入口設復歸點；隱藏版極難且秘密／氛圍有重量；可先失敗、離開成長再回；**公開版也存在，而且本身非常難，但沒有秘密 Path of Pain 那麼難**。",
+            "topic": "作者已選與助手提案並置",
+            "finding": "公開危險版及秘密版並存、雙錨點與槍跟回被選；具體獎勵、經營者、入口形貌都非作者硬定案",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3315"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 58,
+            "quote": "使用者明確說「**你說的版本也可以保留**」。正確處理是保留**本檔原先的 Celeste 相關公開高危世界層版本（按第39份後修後的真實世界層／不售票、不設全員復活）**，同時保留第102份新提出的**廣泛極端地貌／氣象／溫差／工程機關／巨構災害／大小生物構成的危險世界層設計**；兩種可以屬不同世界層或部分重疊，**不急著判定同一片、也不互相取代",
+            "topic": "102後修兩類高危世界層可共存",
+            "finding": "原Celeste相關公開高危地層與廣泛極端環境危險地層皆保留，能分地或部分重疊，不應互斥或復活售票關卡",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3316"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 7,
+            "quote": "> **【2026-10-19 使用者最新明確糾正】** 此前本檔把公開版本寫成可經營的挑戰、遊樂化排行榜／挑戰者專屬地域的措辭**不符合新指向**。正確是**世界本身一片巨大而很容易死亡的危險地域，甚至能算整個世界層**；地點可被知道／有傳聞，不代表為冒險者設立的公開競賽。有人因生計、路線、研究、探險或尋刺激進入才形成挑戰文化。**公開地域與真正",
+            "question": "本檔作者確定／偏好與助手候選應怎樣分開？",
+            "finding": "按本檔引言及正文標示區分作者明言、尚在傾向、助手試案與後出修訂；不得用同檔標題把候選升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 24,
+            "quote": "- **公開版**：一座公開可辨認的高難地理奇觀。外界可形成嚮導、挑戰紀錄、補給、技術訓練與地方生意；但是否有正式經營、排行榜、門票、獎章等尚未指定，不要機械引入遊戲副本制度。",
+            "question": "同檔頂部後出補註和跨檔選擇是否改變較早正文？",
+            "finding": "優先採實際較晚的作者選擇，尤其裝備深層同化B、雙錨點、靜謐正式命名及終焉普遍單向條件。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 46,
+            "quote": "諾亞可在第一次真正找到隱藏入口後屢次死亡、從錨點重現，發現目前設備與操作能力不足，和艾莉維亞離開，穿越其他真實事件後取得模組／研究成果，再次回來。**這是跨事件的已規劃回訪線，而非故意讓一件地方事件永遠不結束。**作者層需掌握其最深內容及回收方向，但人物可能長期不知道。",
+            "question": "是否漏記人物復歸與獎勵的實質限制或社會後果？",
+            "finding": "已涵蓋首次死亡不知情、復歸不倒轉其他人與物資、兩位主角獨立成長及秘密回報資訊邊界。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 58,
+            "quote": "使用者明確說「**你說的版本也可以保留**」。正確處理是保留**本檔原先的 Celeste 相關公開高危世界層版本（按第39份後修後的真實世界層／不售票、不設全員復活）**，同時保留第102份新提出的**廣泛極端地貌／氣象／溫差／工程機關／巨構災害／大小生物構成的危險世界層設計**；兩種可以屬不同世界層或部分重疊，**不急著判定同一片、也不互相取代",
+            "question": "跨檔候選能否誤導成已完成故事或另一場所規則？",
+            "finding": "後出SHA只對有證據的具體事項仲裁，不將終焉孤寂與單向效果放進靜謐，不把試寫變正式章。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "02_地圖拓撲與交通/039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md",
+            "git_blob_sha": "016da0bf2d6768e55ec027f49e9d5212c0e861da",
+            "impact": "版本與關聯核對：039_討論續錄_開場群落外部路網_高危世界層與隱藏苦痛之路.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md",
+            "git_blob_sha": "72bc21fa7414f2eaf137d9363714c4ef86e0c774",
+            "impact": "版本與關聯核對：040_討論續錄_世界層隔絕_人口空白尺度_苦痛之路終橋.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "01_世界本體與文明/102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md",
+            "git_blob_sha": "b083a0c0df1ac9e34eea773c0c33c289d45abb89",
+            "impact": "版本與關聯核對：102_世界層極限環境與公開高危世界層重建_氣象巨構災害機關生態.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+            "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+            "impact": "版本與關聯核對：058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          }
+        ],
+        "second_pass_method": "B25第二遍獨立逆向核對038整份59行的作者權威、後出日期先後、重要未覆蓋主題、跨檔規則差異，並依實際SHA行錨逐段查回。",
+        "unresolved_risks": [
+          "復歸位置細則與已同化模組以外特殊邊界尚未全部定案。",
+          "靜謐收穫具體內容、終焉啟動資格／出口以及首篇候選皆未成為正式小說。"
+        ]
+      }
+    },
+    {
+      "source_path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+      "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+      "source_role_id": "FULL-B25-049",
+      "related_claim_ids": [
+        "SRC-ALL-3317",
+        "SRC-ALL-3318",
+        "SRC-ALL-3319",
+        "SRC-ALL-3320",
+        "SRC-ALL-3321",
+        "SRC-ALL-3322",
+        "SRC-ALL-3323"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B25全66行7段SHA行錨；提交前語義查核，僅為AI編輯性驗收，待CI。",
+      "source_line_count": 66,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 11,
+          "anchor_line": 6,
+          "quote": "> **【2026-10-19 最新單向性收緊：高優先級】** 使用者決定：**對一般通行者，終焉迴廊啟動並完成越界後就不能從同一單向機關原路返回**，不可再以「可能不能回來」弱化。**不預先宣稱高階科技、超常力量可以繞過；是否存在除 Celeste 外的例外暫存懸念、完全未證實。**Celeste 作為親手造物者與世界絕對管理者，確定可自由來回、",
+          "meaning": "終焉迴廊命名與一般人不可原路返：終焉取代白斷殿暫名，作者確定一般通行者完成越界不能循同機關返回；Celeste例外，出口不強指定深淵"
+        },
+        {
+          "from": 12,
+          "to": 19,
+          "anchor_line": 14,
+          "quote": "**最新偏好：Celeste 所設計的特別絕界行，通行方向更偏向「向上」。**「向上」可對應於諾亞與艾莉維亞追尋真正最高世界層的敘事方向；但使用者並未指定它是普通垂直升降機、橫向穿越後出現在更高拓撲位置，或某個已命名世界層。應先保留高差與空間拓撲的實際呈現方式。",
+          "meaning": "向上偏好不是固定出口：方向偏向上行但落於何層、地圖拓撲和白殿另一側仍未定；其他完整深淵可以不相連獨立存在"
+        },
+        {
+          "from": 20,
+          "to": 30,
+          "anchor_line": 26,
+          "quote": "- 真正存在**單向機關**，**一個人也能啟動**，也可與同伴、多人一起進入；沒有必須集結小隊的硬條件。",
+          "meaning": "白殿黑霧及孤寂的機制邊界：任何人可單獨啟動是使用者方向，終焉感受與單向性確立，具體儀式裝置形式未定；勿把靜謐同美學誤當同規則"
+        },
+        {
+          "from": 31,
+          "to": 36,
+          "anchor_line": 33,
+          "quote": "通行者走進上下左右無法辨明終端的巨大白色殿宇。潔白的平台前方像是被濃黑突然切斷，黑霧與黑點由下方寂靜上湧；遠方大片白光使尺度越發無法判斷。單向機關啟動時，可能是一座**安靜向上升起的龐大平台**，也可能是**往更高處展開的橋、階段式上行通道或拓撲上升的過渡結構**。真正被帶到何處**刻意不在本階段定義**。",
+          "meaning": "上行場景是非正史演示：升降台、橋、拓撲升階只是候選視覺；同伴可真陪伴，場景寂寥不等於人物永久失去感情"
+        },
+        {
+          "from": 37,
+          "to": 47,
+          "anchor_line": 41,
+          "quote": "- 向上究竟是哪一層、從哪個世界層入口進入、單向性如何實際禁止正常反向；",
+          "meaning": "早期未定清單受後修糾正：出口、形態、與復歸相容仍未定；白斷殿作暫名現已由終焉覆蓋，一般單向性與Celeste例外不得再列未決"
+        },
+        {
+          "from": 48,
+          "to": 55,
+          "anchor_line": 52,
+          "quote": "**正確區分（後出修正優先）**：對**經機關正常通行的一般世界內旅行者**，單向性**確定成立，完成越界後不能沿此機關原路返回**；不先幫高階技術或特殊能力宣告可繞過，除 Celeste 外，任何例外僅留未揭曉的懸念。**Celeste 永遠是確定的例外**：她可以自由前往兩端、折返、越過通道、出現在任何世界層，不需要按照她造的交通規則排隊或重新",
+          "meaning": "Celeste確定自由往返：一般旅行者不可依原單向機關回返，其他高技破解可能性不預宣告；創造者Celeste確定能不受拘束"
+        },
+        {
+          "from": 56,
+          "to": 66,
+          "anchor_line": 58,
+          "quote": "**使用者明確：「終焉迴廊的感受適於任何生命體，就算沒有感知器官也一樣，機器人，變異體等等」。** 此修正已同步到正式交通世界檔 [03](../02_地圖拓撲與交通/003_交通路徑與斷層.md)。",
+          "meaning": "終焉孤寂效果對一切生命形態：機器與無傳統感官生命亦會感受，作用原理未決；靜謐是另一處但可共享崇高悲涼美感"
+        }
+      ],
+      "latest_revisions_checked": [
+        "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+          "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c"
+        },
+        {
+          "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "來源全文連續段落與依賴SHA、四類反向核問、限域非Canon圖譜。",
+        "revocation": "原文或依賴SHA改變及CI失敗需撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 6,
+            "quote": "> **【2026-10-19 最新單向性收緊：高優先級】** 使用者決定：**對一般通行者，終焉迴廊啟動並完成越界後就不能從同一單向機關原路返回**，不可再以「可能不能回來」弱化。**不預先宣稱高階科技、超常力量可以繞過；是否存在除 Celeste 外的例外暫存懸念、完全未證實。**Celeste 作為親手造物者與世界絕對管理者，確定可自由來回、",
+            "topic": "終焉迴廊命名與一般人不可原路返",
+            "finding": "終焉取代白斷殿暫名，作者確定一般通行者完成越界不能循同機關返回；Celeste例外，出口不強指定深淵",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3317"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 14,
+            "quote": "**最新偏好：Celeste 所設計的特別絕界行，通行方向更偏向「向上」。**「向上」可對應於諾亞與艾莉維亞追尋真正最高世界層的敘事方向；但使用者並未指定它是普通垂直升降機、橫向穿越後出現在更高拓撲位置，或某個已命名世界層。應先保留高差與空間拓撲的實際呈現方式。",
+            "topic": "向上偏好不是固定出口",
+            "finding": "方向偏向上行但落於何層、地圖拓撲和白殿另一側仍未定；其他完整深淵可以不相連獨立存在",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3318"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 26,
+            "quote": "- 真正存在**單向機關**，**一個人也能啟動**，也可與同伴、多人一起進入；沒有必須集結小隊的硬條件。",
+            "topic": "白殿黑霧及孤寂的機制邊界",
+            "finding": "任何人可單獨啟動是使用者方向，終焉感受與單向性確立，具體儀式裝置形式未定；勿把靜謐同美學誤當同規則",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3319"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 33,
+            "quote": "通行者走進上下左右無法辨明終端的巨大白色殿宇。潔白的平台前方像是被濃黑突然切斷，黑霧與黑點由下方寂靜上湧；遠方大片白光使尺度越發無法判斷。單向機關啟動時，可能是一座**安靜向上升起的龐大平台**，也可能是**往更高處展開的橋、階段式上行通道或拓撲上升的過渡結構**。真正被帶到何處**刻意不在本階段定義**。",
+            "topic": "上行場景是非正史演示",
+            "finding": "升降台、橋、拓撲升階只是候選視覺；同伴可真陪伴，場景寂寥不等於人物永久失去感情",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3320"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 41,
+            "quote": "- 向上究竟是哪一層、從哪個世界層入口進入、單向性如何實際禁止正常反向；",
+            "topic": "早期未定清單受後修糾正",
+            "finding": "出口、形態、與復歸相容仍未定；白斷殿作暫名現已由終焉覆蓋，一般單向性與Celeste例外不得再列未決",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3321"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 52,
+            "quote": "**正確區分（後出修正優先）**：對**經機關正常通行的一般世界內旅行者**，單向性**確定成立，完成越界後不能沿此機關原路返回**；不先幫高階技術或特殊能力宣告可繞過，除 Celeste 外，任何例外僅留未揭曉的懸念。**Celeste 永遠是確定的例外**：她可以自由前往兩端、折返、越過通道、出現在任何世界層，不需要按照她造的交通規則排隊或重新",
+            "topic": "Celeste確定自由往返",
+            "finding": "一般旅行者不可依原單向機關回返，其他高技破解可能性不預宣告；創造者Celeste確定能不受拘束",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3322"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 58,
+            "quote": "**使用者明確：「終焉迴廊的感受適於任何生命體，就算沒有感知器官也一樣，機器人，變異體等等」。** 此修正已同步到正式交通世界檔 [03](../02_地圖拓撲與交通/003_交通路徑與斷層.md)。",
+            "topic": "終焉孤寂效果對一切生命形態",
+            "finding": "機器與無傳統感官生命亦會感受，作用原理未決；靜謐是另一處但可共享崇高悲涼美感",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3323"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 6,
+            "quote": "> **【2026-10-19 最新單向性收緊：高優先級】** 使用者決定：**對一般通行者，終焉迴廊啟動並完成越界後就不能從同一單向機關原路返回**，不可再以「可能不能回來」弱化。**不預先宣稱高階科技、超常力量可以繞過；是否存在除 Celeste 外的例外暫存懸念、完全未證實。**Celeste 作為親手造物者與世界絕對管理者，確定可自由來回、",
+            "question": "本檔作者確定／偏好與助手候選應怎樣分開？",
+            "finding": "按本檔引言及正文標示區分作者明言、尚在傾向、助手試案與後出修訂；不得用同檔標題把候選升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 26,
+            "quote": "- 真正存在**單向機關**，**一個人也能啟動**，也可與同伴、多人一起進入；沒有必須集結小隊的硬條件。",
+            "question": "同檔頂部後出補註和跨檔選擇是否改變較早正文？",
+            "finding": "優先採實際較晚的作者選擇，尤其裝備深層同化B、雙錨點、靜謐正式命名及終焉普遍單向條件。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 41,
+            "quote": "- 向上究竟是哪一層、從哪個世界層入口進入、單向性如何實際禁止正常反向；",
+            "question": "是否漏記人物復歸與獎勵的實質限制或社會後果？",
+            "finding": "已涵蓋首次死亡不知情、復歸不倒轉其他人與物資、兩位主角獨立成長及秘密回報資訊邊界。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 58,
+            "quote": "**使用者明確：「終焉迴廊的感受適於任何生命體，就算沒有感知器官也一樣，機器人，變異體等等」。** 此修正已同步到正式交通世界檔 [03](../02_地圖拓撲與交通/003_交通路徑與斷層.md)。",
+            "question": "跨檔候選能否誤導成已完成故事或另一場所規則？",
+            "finding": "後出SHA只對有證據的具體事項仲裁，不將終焉孤寂與單向效果放進靜謐，不把試寫變正式章。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+            "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+            "impact": "版本與關聯核對：050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+            "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+            "impact": "版本與關聯核對：058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          }
+        ],
+        "second_pass_method": "B25第二遍獨立逆向核對049整份66行的作者權威、後出日期先後、重要未覆蓋主題、跨檔規則差異，並依實際SHA行錨逐段查回。",
+        "unresolved_risks": [
+          "復歸位置細則與已同化模組以外特殊邊界尚未全部定案。",
+          "靜謐收穫具體內容、終焉啟動資格／出口以及首篇候選皆未成為正式小說。"
+        ]
+      }
+    },
+    {
+      "source_path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+      "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+      "source_role_id": "FULL-B25-050",
+      "related_claim_ids": [
+        "SRC-ALL-3324",
+        "SRC-ALL-3325",
+        "SRC-ALL-3326",
+        "SRC-ALL-3327",
+        "SRC-ALL-3328",
+        "SRC-ALL-3329",
+        "SRC-ALL-3330",
+        "SRC-ALL-3331"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B25全59行8段SHA行錨；提交前語義查核，僅為AI編輯性驗收，待CI。",
+      "source_line_count": 59,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 8,
+          "anchor_line": 5,
+          "quote": "**【後出最高優先修正 2026-10-19】** 一般通行者啟動終焉迴廊並完成越界，就**無法經由原單向機關回返**，不再使用「可能回不來」；其他高階能力是否有繞過的方式**只留未知懸念，不宣告任何可行例外**。**Celeste 作為創造者能完全自由往返，是唯一已確定的例外**。啟動條件、名聲仍未定。",
+          "meaning": "終焉單向與靜謐區別的後修：一般通行者不能循原機關回返；Celeste例外；靜謐是另一處且名稱後出已確定"
+        },
+        {
+          "from": 9,
+          "to": 14,
+          "anchor_line": 11,
+          "quote": "**Celeste 可能在與諾亞、艾莉維亞見面後，隱晦暗示真正 Path of Pain 的存在。**不應像遊戲提示員直接說「那片高危地域還有隱藏版」。她可以自然在聊天或現場觀察中留一句帶個人玩心的細小線索，讓主角自己發現、研究，甚至隔很久後才回想起她的話。**是否真的提示、何時提示、話語內容及與入口的真實機關對應，尚未定案。**早中期她不揭露世界",
+          "meaning": "Celeste也許隱晦提醒靜謐：她可能在初遇後提示而非明說隱藏關卡，但何時與說什麼未定；不能當場透露自己是管理者或安排相遇的秘密"
+        },
+        {
+          "from": 15,
+          "to": 23,
+          "anchor_line": 20,
+          "quote": "4. 真正了解單向後果者極少，對另一側的消息可能缺乏可靠回傳途徑。**信息能否回傳與旅行者能否返回是不同問題**；後者對一般通行者確定無法原路返回，前者未定。",
+          "meaning": "終焉名氣是分層候選：知名稱、知入口、敢啟動與資訊能否回傳為不同層級；局部圈層有傳聞只是助手偏好"
+        },
+        {
+          "from": 24,
+          "to": 31,
+          "anchor_line": 28,
+          "quote": "- **C 特殊客觀條件**：機關依空間狀態、時刻或其他一致的物理／高階作用條件才成立。須先在作者層確立，不能臨時拿神祕資格擋主角。",
+          "meaning": "終焉啟動資格ABC仍未選：無身份門檻、需技術條件、特殊客觀條件皆試案；助手偏A+少量B不是作者已選"
+        },
+        {
+          "from": 32,
+          "to": 40,
+          "anchor_line": 34,
+          "quote": "- **找到終焉迴廊 ≠ 知道啟動法 ≠ 下定決心出發**；完成越界後一般通行者確定無法經原機關折返。",
+          "meaning": "啟動與回返不能混為一談：找到、啟動、決心出發分開；單人可啟動已明確，不能把終焉單向與靜謐難路或其他世界絕界行混淆"
+        },
+        {
+          "from": 41,
+          "to": 48,
+          "anchor_line": 45,
+          "quote": "**正確區分**：機關設計為對**經機關正常通行的世界內旅行者**具有真實單向性；對任何高階科技或特殊能力都**不預先承諾存在破解方法**，只保留尚未揭曉的懸念。一般通行者完成越界後**確定無法循原單向機關返回**。**Celeste 永遠是確定的例外**：她可以自由前往兩端、折返、越過通道、出現在任何世界層，不需要按照她造的交通規則排隊或重新啟動",
+          "meaning": "創造者繞行例外已確定：單向性不困Celeste，其他高階力量不可無據說已破解；終焉另一端及名聲仍未定"
+        },
+        {
+          "from": 49,
+          "to": 52,
+          "anchor_line": 51,
+          "quote": "最新使用者明確：終焉迴廊的孤獨、空虛與其他難言感受，對**任何生命體／生命形式**都成立，含沒有常規感知器官的生命、機器人、人工生命、變異體。不以視聽觸覺、神經系統或人類通常能夠感到孤獨的條件為必需；不得把機器生命寫成當然無感。**這條是已明確的適用規則，已同步正式 [003_交通路徑與斷層.md](../02_地圖拓撲與交通/003_交通路徑與斷",
+          "meaning": "無感官生命同樣感到終焉：機器人與變異生命一樣有深沉感受，不等於精神控制或同伴分離，既有正式交通檔同步"
+        },
+        {
+          "from": 53,
+          "to": 59,
+          "anchor_line": 57,
+          "quote": "**既有與新方向**：第50在相識後可能由瑟莉思媞**隱晦提示靜謐存在**（是否及何時仍未定），但〈第三個座位〉第114已採正式初遇場景**不可變成發攻略、當場揭管理者身分**；觀記憶後亦偏好不知身份。第59早已確立靜謐**雙主角各自巨大真提升、另有其他物件**。近期使用者提出四種額外收穫方向：①通往真正更上方的遠域路線，②母親與女兒私人構想記憶，",
+          "meaning": "138後出靜謐獎勵和匿名場景：女主作用配重是常態成熟候選、靜謐各獲巨幅提升與記憶等；母女回憶不得識破真名，初遇不發攻略"
+        }
+      ],
+      "latest_revisions_checked": [
+        "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+        "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+          "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d"
+        },
+        {
+          "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+        },
+        {
+          "path": "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+          "git_blob_sha": "14ff2bd9e7675c001e166b9ef4666e17006b8764"
+        },
+        {
+          "path": "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+          "git_blob_sha": "2e8b5490c5e9fc985bf55881b13fd8eabf927901"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "來源全文連續段落與依賴SHA、四類反向核問、限域非Canon圖譜。",
+        "revocation": "原文或依賴SHA改變及CI失敗需撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 5,
+            "quote": "**【後出最高優先修正 2026-10-19】** 一般通行者啟動終焉迴廊並完成越界，就**無法經由原單向機關回返**，不再使用「可能回不來」；其他高階能力是否有繞過的方式**只留未知懸念，不宣告任何可行例外**。**Celeste 作為創造者能完全自由往返，是唯一已確定的例外**。啟動條件、名聲仍未定。",
+            "topic": "終焉單向與靜謐區別的後修",
+            "finding": "一般通行者不能循原機關回返；Celeste例外；靜謐是另一處且名稱後出已確定",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3324"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 11,
+            "quote": "**Celeste 可能在與諾亞、艾莉維亞見面後，隱晦暗示真正 Path of Pain 的存在。**不應像遊戲提示員直接說「那片高危地域還有隱藏版」。她可以自然在聊天或現場觀察中留一句帶個人玩心的細小線索，讓主角自己發現、研究，甚至隔很久後才回想起她的話。**是否真的提示、何時提示、話語內容及與入口的真實機關對應，尚未定案。**早中期她不揭露世界",
+            "topic": "Celeste也許隱晦提醒靜謐",
+            "finding": "她可能在初遇後提示而非明說隱藏關卡，但何時與說什麼未定；不能當場透露自己是管理者或安排相遇的秘密",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3325"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 20,
+            "quote": "4. 真正了解單向後果者極少，對另一側的消息可能缺乏可靠回傳途徑。**信息能否回傳與旅行者能否返回是不同問題**；後者對一般通行者確定無法原路返回，前者未定。",
+            "topic": "終焉名氣是分層候選",
+            "finding": "知名稱、知入口、敢啟動與資訊能否回傳為不同層級；局部圈層有傳聞只是助手偏好",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3326"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 28,
+            "quote": "- **C 特殊客觀條件**：機關依空間狀態、時刻或其他一致的物理／高階作用條件才成立。須先在作者層確立，不能臨時拿神祕資格擋主角。",
+            "topic": "終焉啟動資格ABC仍未選",
+            "finding": "無身份門檻、需技術條件、特殊客觀條件皆試案；助手偏A+少量B不是作者已選",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3327"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 34,
+            "quote": "- **找到終焉迴廊 ≠ 知道啟動法 ≠ 下定決心出發**；完成越界後一般通行者確定無法經原機關折返。",
+            "topic": "啟動與回返不能混為一談",
+            "finding": "找到、啟動、決心出發分開；單人可啟動已明確，不能把終焉單向與靜謐難路或其他世界絕界行混淆",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3328"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 45,
+            "quote": "**正確區分**：機關設計為對**經機關正常通行的世界內旅行者**具有真實單向性；對任何高階科技或特殊能力都**不預先承諾存在破解方法**，只保留尚未揭曉的懸念。一般通行者完成越界後**確定無法循原單向機關返回**。**Celeste 永遠是確定的例外**：她可以自由前往兩端、折返、越過通道、出現在任何世界層，不需要按照她造的交通規則排隊或重新啟動",
+            "topic": "創造者繞行例外已確定",
+            "finding": "單向性不困Celeste，其他高階力量不可無據說已破解；終焉另一端及名聲仍未定",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3329"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 51,
+            "quote": "最新使用者明確：終焉迴廊的孤獨、空虛與其他難言感受，對**任何生命體／生命形式**都成立，含沒有常規感知器官的生命、機器人、人工生命、變異體。不以視聽觸覺、神經系統或人類通常能夠感到孤獨的條件為必需；不得把機器生命寫成當然無感。**這條是已明確的適用規則，已同步正式 [003_交通路徑與斷層.md](../02_地圖拓撲與交通/003_交通路徑與斷",
+            "topic": "無感官生命同樣感到終焉",
+            "finding": "機器人與變異生命一樣有深沉感受，不等於精神控制或同伴分離，既有正式交通檔同步",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3330"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 57,
+            "quote": "**既有與新方向**：第50在相識後可能由瑟莉思媞**隱晦提示靜謐存在**（是否及何時仍未定），但〈第三個座位〉第114已採正式初遇場景**不可變成發攻略、當場揭管理者身分**；觀記憶後亦偏好不知身份。第59早已確立靜謐**雙主角各自巨大真提升、另有其他物件**。近期使用者提出四種額外收穫方向：①通往真正更上方的遠域路線，②母親與女兒私人構想記憶，",
+            "topic": "138後出靜謐獎勵和匿名場景",
+            "finding": "女主作用配重是常態成熟候選、靜謐各獲巨幅提升與記憶等；母女回憶不得識破真名，初遇不發攻略",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3331"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 5,
+            "quote": "**【後出最高優先修正 2026-10-19】** 一般通行者啟動終焉迴廊並完成越界，就**無法經由原單向機關回返**，不再使用「可能回不來」；其他高階能力是否有繞過的方式**只留未知懸念，不宣告任何可行例外**。**Celeste 作為創造者能完全自由往返，是唯一已確定的例外**。啟動條件、名聲仍未定。",
+            "question": "本檔作者確定／偏好與助手候選應怎樣分開？",
+            "finding": "按本檔引言及正文標示區分作者明言、尚在傾向、助手試案與後出修訂；不得用同檔標題把候選升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 20,
+            "quote": "4. 真正了解單向後果者極少，對另一側的消息可能缺乏可靠回傳途徑。**信息能否回傳與旅行者能否返回是不同問題**；後者對一般通行者確定無法原路返回，前者未定。",
+            "question": "同檔頂部後出補註和跨檔選擇是否改變較早正文？",
+            "finding": "優先採實際較晚的作者選擇，尤其裝備深層同化B、雙錨點、靜謐正式命名及終焉普遍單向條件。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 45,
+            "quote": "**正確區分**：機關設計為對**經機關正常通行的世界內旅行者**具有真實單向性；對任何高階科技或特殊能力都**不預先承諾存在破解方法**，只保留尚未揭曉的懸念。一般通行者完成越界後**確定無法循原單向機關返回**。**Celeste 永遠是確定的例外**：她可以自由前往兩端、折返、越過通道、出現在任何世界層，不需要按照她造的交通規則排隊或重新啟動",
+            "question": "是否漏記人物復歸與獎勵的實質限制或社會後果？",
+            "finding": "已涵蓋首次死亡不知情、復歸不倒轉其他人與物資、兩位主角獨立成長及秘密回報資訊邊界。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 57,
+            "quote": "**既有與新方向**：第50在相識後可能由瑟莉思媞**隱晦提示靜謐存在**（是否及何時仍未定），但〈第三個座位〉第114已採正式初遇場景**不可變成發攻略、當場揭管理者身分**；觀記憶後亦偏好不知身份。第59早已確立靜謐**雙主角各自巨大真提升、另有其他物件**。近期使用者提出四種額外收穫方向：①通往真正更上方的遠域路線，②母親與女兒私人構想記憶，",
+            "question": "跨檔候選能否誤導成已完成故事或另一場所規則？",
+            "finding": "後出SHA只對有證據的具體事項仲裁，不將終焉孤寂與單向效果放進靜謐，不把試寫變正式章。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+            "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+            "impact": "版本與關聯核對：049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+            "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+            "impact": "版本與關聯核對：058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "03_人物關係與語感/114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md",
+            "git_blob_sha": "14ff2bd9e7675c001e166b9ef4666e17006b8764",
+            "impact": "版本與關聯核對：114_後出正式採用_瑟莉思媞第三個座位正文版_首次相遇與時間線界線.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          },
+          {
+            "path": "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+            "git_blob_sha": "2e8b5490c5e9fc985bf55881b13fd8eabf927901",
+            "impact": "版本與關聯核對：138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md對本檔權威及未決事項的實際適用範圍已限縮；不將候選自動升為正史。"
+          }
+        ],
+        "second_pass_method": "B25第二遍獨立逆向核對050整份59行的作者權威、後出日期先後、重要未覆蓋主題、跨檔規則差異，並依實際SHA行錨逐段查回。",
+        "unresolved_risks": [
+          "復歸位置細則與已同化模組以外特殊邊界尚未全部定案。",
+          "靜謐收穫具體內容、終焉啟動資格／出口以及首篇候選皆未成為正式小說。"
+        ]
+      }
+    }
+  ],
+  "staged_graph_records": [
+    {
+      "audit_id": "SRC-ALL-3281",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜A推薦已被B替代｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3281-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3281-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3282",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜作者既有雙主角與長線｜L16",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 16
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3282-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3282-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3283",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜續斷武器核心是未定試案｜L29",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 29
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3283-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3283-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3284",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜槍刃鉤鎖為候選界面｜L42",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 42
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3284-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3284-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3285",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜模組與戰鬥能力真正成長｜L54",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 54
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3285-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3285-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3286",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜作用配重不是確認的唯一規則｜L69",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 69
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3286-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3286-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3287",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜能力場景與來源仍未定｜L84",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 84
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3287-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3287-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3288",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜外物去向ABC後修判定｜L100",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 100
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3288-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3288-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3289",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜肉身記憶與衣著不確定｜L111",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 111
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3289-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3289-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3290",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜試場景一角色不固定分工｜L117",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 117
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3290-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3290-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3291",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜首次死與完整前文明場景需保留因果｜L133",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 133
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3291-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3291-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3292",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜首篇倒行潮仍是未採方案｜L145",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 145
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3292-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3292-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3293",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "035｜138後修限制能力與匿名記憶｜L161",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+        "line": 161
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3293-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3293-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3294",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜11月8日作者最終選深層同化B｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3294-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3294-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3295",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜10月19日作者選核心武器跟回｜L12",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 12
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3295-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3295-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3296",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜裝備隨回範圍與缺口｜L19",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 19
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3296-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3296-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3297",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜稀少地理拓撲錨點候選｜L33",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 33
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3297-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3297-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3298",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜生命痕跡錨點後已確認存在｜L45",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 45
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3298-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3298-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3299",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜落點應事先對照交通和狀態｜L57",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 57
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3299-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3299-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3300",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜倒行潮候車室示例非已發生｜L68",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 68
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3300-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3300-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3301",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜可被奪槍與成熟探路仍需限制｜L79",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 79
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3301-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3301-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3302",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "036｜未決清單與先後裁決｜L89",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+        "line": 89
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3302-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3302-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3303",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "037｜靜謐命名與公開危險地域後修｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3303-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3303-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3304",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "037｜雙錨點及入口特殊復歸已選｜L12",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+        "line": 12
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3304-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3304-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3305",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "037｜兩類錨點統一判定是助手設計｜L22",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+        "line": 22
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3305-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3305-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3306",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "037｜四層情報與危險差異｜L28",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+        "line": 28
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3306-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3306-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3307",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "037｜撤退與回訪的因果｜L36",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+        "line": 36
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3307-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3307-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3308",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "037｜59後修雙主角均巨幅質變｜L44",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+        "line": 44
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3308-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3308-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3309",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜公開高難地帶不是售票活動｜L7",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 7
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3309-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3309-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3310",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜公開資訊與秘密難度分離｜L17",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 17
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3310-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3310-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3311",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜公開與秘密入口關係尚未選｜L24",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 24
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3311-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3311-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3312",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜特殊入口錨點不能普遍化｜L30",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 30
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3312-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3312-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3313",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜秘密收穫與可觀測結果｜L38",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 38
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3313-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3313-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3314",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜跨故事回訪不是拖延結案｜L46",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 46
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3314-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3314-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3315",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜作者已選與助手提案並置｜L50",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 50
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3315-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3315-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3316",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "038｜102後修兩類高危世界層可共存｜L58",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+        "line": 58
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3316-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3316-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3317",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "049｜終焉迴廊命名與一般人不可原路返｜L6",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+        "line": 6
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3317-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3317-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3318",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "049｜向上偏好不是固定出口｜L14",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+        "line": 14
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3318-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3318-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3319",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "049｜白殿黑霧及孤寂的機制邊界｜L26",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+        "line": 26
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3319-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3319-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3320",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "049｜上行場景是非正史演示｜L33",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+        "line": 33
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3320-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3320-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3321",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "049｜早期未定清單受後修糾正｜L41",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+        "line": 41
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3321-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3321-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3322",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "049｜Celeste確定自由往返｜L52",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+        "line": 52
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3322-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3322-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3323",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "049｜終焉孤寂效果對一切生命形態｜L58",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
+        "git_blob_sha": "fc7d20d6806ad16918e01be927537103219ac66d",
+        "line": 58
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3323-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3323-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3324",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜終焉單向與靜謐區別的後修｜L5",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 5
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3324-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3324-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3325",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜Celeste也許隱晦提醒靜謐｜L11",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 11
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3325-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3325-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3326",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜終焉名氣是分層候選｜L20",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 20
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3326-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3326-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3327",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜終焉啟動資格ABC仍未選｜L28",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 28
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3327-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3327-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3328",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜啟動與回返不能混為一談｜L34",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 34
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3328-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3328-2",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3329",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜創造者繞行例外已確定｜L45",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 45
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3329-1",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3329-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3330",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜無感官生命同樣感到終焉｜L51",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 51
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3330-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3330-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    },
+    {
+      "audit_id": "SRC-ALL-3331",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "050｜138後出靜謐獎勵和匿名場景｜L57",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md",
+        "git_blob_sha": "5070974cad5919e1b32655e200d0dfbeb4a1416c",
+        "line": 57
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3331-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3331-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅連至既有領域節點，無新Canon邊。"
+    }
+  ]
+}
