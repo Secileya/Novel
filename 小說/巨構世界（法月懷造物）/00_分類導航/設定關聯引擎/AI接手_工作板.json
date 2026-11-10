@@ -1,6 +1,6 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-10T22:30:27.381Z",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
@@ -25,7 +25,7 @@
     "nine_folder_files": 9,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第37批新登記12份待當批CI；最後成功207／345。正式0章／PREWRITE HOLD。",
+    "important": "第37批遠端CI成功，219/345份有效。正式0章。",
     "targeted_audit_records": 5567,
     "targeted_audit_verified_quotes": 5758,
     "full_file_editorial_accepted": 74,
@@ -90,10 +90,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第37批12份已登記待當批CI，最後成功207/345。第13章指令比對原位元完全未改，另讀追加51行後按新SHA驗收。 使用者指示第37批驗證後停止。",
-        "stage": "BATCH37_12_SUBMITTED_PENDING_CI",
-        "last_verified_commit": "fce52c9d84eb59e045e64d9d0f48747210780c59",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42863743595",
+        "note": "第37批新增12份已通過遠端CI，219/345有效、126待審。使用者指示完成本批後停止。",
+        "stage": "BATCH37_12_VERIFIED_PAUSED",
+        "last_verified_commit": "8ea2dc035371804ed56144c000875c6bbff53147",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42914872412",
         "cross_source_next_batch": [],
         "historical_164_accepted": 135,
         "historical_171_accepted": 74,
@@ -548,7 +548,8 @@
           "batch_commit": "43f857137c8b4f3224301a86d9f2d1ffa8b252c0",
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42806727619",
           "index_ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42806727623"
-        }
+        },
+        "paused_by_user": true
       }
     },
     {
@@ -827,8 +828,8 @@
     "nonCanon_graph_links": 282,
     "all_source_accepted": 219,
     "all_source_pending": 126,
-    "state": "BATCH37_PENDING_CI__NON_CANON",
-    "notes": "分組閱讀即落檔，完整檔案及當批CI作份數證據。"
+    "state": "BATCH37_VERIFIED__NON_CANON",
+    "notes": "本批12份已通過遠端CI，工作依使用者指示暫停。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -848,13 +849,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH37_12_SUBMITTED_PENDING_CI",
+    "stage": "BATCH37_12_VERIFIED_PAUSED",
     "scope": "第37批12份2456行、87段與50條逐份複核，包含49節完整QA及後修追加的第13章指令。",
-    "commit": null,
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "已登記219／345待CI，最後成功207；另126份待審。正式0章，候選不採Canon。",
-    "next_step": "完成第37批CI驗證與交接後，依使用者指示停止。"
+    "commit": "8ea2dc035371804ed56144c000875c6bbff53147",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42914872412",
+    "not_finished": "126份仍待逐份驗收。正式正文0章，PREWRITE HOLD。",
+    "next_step": "依使用者指示，第37批完成後停止。第38批未啟動。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
