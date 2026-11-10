@@ -1,11 +1,11 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-10T22:30:27.381Z",
+  "updated_at": "2026-11-11T00:00:00.000Z",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "7f8d50245a17e993765090a6000bcf2a01895fb7",
+  "last_checked_head_before_handoff": "6f6c98b22ab29f59d893465eacce5055e454ef12",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
     "run_url": "https://github.com/Secileya/Novel/actions/runs/42811816504",
@@ -25,16 +25,16 @@
     "nine_folder_files": 10,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第37批驗收219份；第13章回貼來源、純正文候選及GPT QA新增3份待審。現219/348份有效、129份待審，正式0章。",
-    "targeted_audit_records": 5567,
-    "targeted_audit_verified_quotes": 5758,
-    "full_file_editorial_accepted": 74,
-    "full_file_editorial_remaining": 97,
+    "important": "第38批12份登記待當批CI；最近成功第37批219/345。正式0章 PREWRITE HOLD。",
+    "targeted_audit_records": 5632,
+    "targeted_audit_verified_quotes": 5823,
+    "full_file_editorial_accepted": 86,
+    "full_file_editorial_remaining": 85,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 219,
-    "all_source_full_file_editorial_remaining": 129,
+    "all_source_full_file_editorial_accepted": 231,
+    "all_source_full_file_editorial_remaining": 117,
     "historical_164_full_file_acceptance": 135,
-    "historical_171_full_file_acceptance": 74,
+    "historical_171_full_file_acceptance": 86,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -82,40 +82,22 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 219,
-        "pending": 129,
+        "verified_complete": 231,
+        "pending": 114,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第37批新增12份已通過遠端CI，當時219/345有效、126待審。使用者指示完成本批後停止；本輪第13章另新增3份，現219/348有效、129待審，未啟動新批次。",
-        "stage": "BATCH37_12_VERIFIED_PAUSED",
+        "note": "第38批12份2050行65段暫存登記，最後成功219/345；12份待CI；正式0章PREWRITE HOLD。",
+        "stage": "BATCH38_12_SUBMITTED_PENDING_CI",
         "last_verified_commit": "8ea2dc035371804ed56144c000875c6bbff53147",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42914872412",
         "cross_source_next_batch": [],
         "historical_164_accepted": 135,
         "historical_171_accepted": 74,
         "last_batch_files": [
-          "06_敘事規劃與工作流/20261111_第十三章寫前與候選正文_三指令完整整合_跨域九區冰脈線蟲_非正史.md",
-          "08_交接勘誤與決議/010_全對話逐次設定核對與尺度補遺.md",
-          "07_候選故事與場景/034_候選大綱_首篇懸潮港_倒行潮與第一次復歸.md",
-          "07_候選故事與場景/196_白鳥禁則澄清_萬鈞鐘心跨區黑幕作者真相與正文示範_非正史.md",
-          "07_候選故事與場景/20261108_不思議迴廊_BLACK_SOULS參考與Celeste奈亞對照_研究候選.md",
-          "07_候選故事與場景/20261108_不思議迴廊_DLC3三姊妹人偶_格林關係_管理者少女舊核復檢.md",
-          "交接稽核/2026-11-04_巨構GitHub接手稽核_非正史.md",
-          "待定正文/提綱非正文/ChatGPT_第078_從上面下來的人_早期因果實驗.md",
-          "待定正文/其他場景/Gemini_靜謐迴廊白橋黑霧真死感_候選潤稿.md",
-          "待定正文/其他場景/Gemini_墜落深坑的剪刀石頭布_熟稔後獨立試寫.md",
-          "待定正文/第七章_底錨塔裡的無聲客_原文待回收登記_非小說正文.md",
-          "08_交接勘誤與決議/20261110_GPT兩輪合併驗收_語氣語庫補充_第01至49節_完整交接正文.md"
-        ],
-        "last_batch_full_lines": 2456,
-        "last_batch_sections": 87,
-        "last_batch_new_claims": 217,
-        "last_batch_new_anchors": 1051,
-        "next_batch": [
           "待定正文/01_版本差異_ChatGPT與Gemini開篇逐項比較.md",
           "待定正文/02_Gemini排版整理與原文完整性核對.md",
           "待定正文/Gemini原稿/G0_第162_懸艙開箱日_首輪提綱與短試寫_聊天轉錄.md",
@@ -128,6 +110,24 @@
           "待定正文/純正文_Gemini/第三章_G5R_過風鐘與多餘的凹槽_300銀券修訂候選.md",
           "待定正文/純正文_Gemini/第四章_G6_舊軌上的買路錢_候選.md",
           "待定正文/純正文_Gemini/第五章_G7_剖蟬放血與逃票的手搖車_候選.md"
+        ],
+        "last_batch_full_lines": 2050,
+        "last_batch_sections": 65,
+        "last_batch_new_claims": 65,
+        "last_batch_new_anchors": 65,
+        "next_batch": [
+          "待定正文/純正文_Gemini/第五章_G7R_剖蟬放血與逃票的手搖車_認知與射程修訂候選.md",
+          "待定正文/純正文_Gemini/第五章_G7R1_定位銷主觀誤判旁白微補丁_候選.md",
+          "待定正文/純正文_Gemini/第五章_G7R1_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+          "待定正文/純正文_Gemini/第六章_G8B_無聲巨腔實體按鈕與向下的深淵鎖_改線候選.md",
+          "待定正文/純正文_Gemini/第六章_G8C_假專家與無聲巨腔_接續及探索修訂候選.md",
+          "待定正文/純正文_Gemini/第六章_G8D_無聲巨腔與沉水搖臂_最終QA續修候選.md",
+          "待定正文/純正文_Gemini/第六章_G8E_定位件認知旁白微補丁_候選.md",
+          "待定正文/純正文_Gemini/第六章_G8E_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+          "待定正文/純正文_Gemini/第七章_G9_底錨塔裡的無聲客_第一版原稿_使用者回貼候選.md",
+          "待定正文/純正文_Gemini/第七章_G9A_底錨塔裡的無聲客_精修版_使用者回貼候選.md",
+          "待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+          "待定正文/純正文_Gemini/第七章_G9C_底錨塔裡的無聲客_銜接動作與阻尼楔修訂候選.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -549,7 +549,19 @@
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42806727619",
           "index_ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42806727623"
         },
-        "paused_by_user": true
+        "paused_by_user": true,
+        "batch_38": {
+          "stage": "BATCH38_12_SUBMITTED_PENDING_CI",
+          "source_count": 12,
+          "source_lines": 2050,
+          "semantic_sections": 65,
+          "claims": 65,
+          "graph_links": 130,
+          "dependent_sha_checks": 36,
+          "countercheck_questions": 48,
+          "unverified_ci": true,
+          "unmodified_originals": true
+        }
       }
     },
     {
@@ -819,17 +831,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch37",
+    "task": "NEXT-009 batch38",
     "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 2456,
-    "review_sections": 87,
-    "atomic_findings": 217,
-    "original_line_anchors": 1051,
-    "nonCanon_graph_links": 282,
-    "all_source_accepted": 219,
-    "all_source_pending": 129,
-    "state": "BATCH37_VERIFIED__NON_CANON",
-    "notes": "本批12份已通過遠端CI，工作依使用者指示暫停。"
+    "original_lines_reviewed": 2050,
+    "review_sections": 65,
+    "atomic_findings": 65,
+    "original_line_anchors": 65,
+    "nonCanon_graph_links": 130,
+    "all_source_accepted": 231,
+    "all_source_pending": 114,
+    "state": "BATCH38_SUBMITTED_PENDING_CI__NON_CANON",
+    "notes": "SHA驗收分片、65個定位、48個二遍反問及36個修訂依賴；CI待查。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -849,13 +861,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH37_12_VERIFIED_PAUSED",
-    "scope": "第37批12份2456行、87段與50條逐份複核，包含49節完整QA及後修追加的第13章指令。",
-    "commit": "8ea2dc035371804ed56144c000875c6bbff53147",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42914872412",
-    "not_finished": "129份仍待逐份驗收（新增第13章來源／候選／QA各1份）。正式正文0章，PREWRITE HOLD。",
-    "next_step": "依使用者指示，第37批完成後停止。第38批未啟動。"
+    "stage": "BATCH38_12_SUBMITTED_PENDING_CI",
+    "scope": "第38批12份2050行65段，G0/G1/G2、G3/G3R、G5/G5R、G6/G7及後出修正；只作非正史編輯驗收。",
+    "commit": "6f6c98b22ab29f59d893465eacce5055e454ef12",
+    "ci_result": "pending",
+    "ci_run_url": "未取得第38批CI",
+    "not_finished": "114份仍待驗收，本批CI待查；最後成功219/345，正式0章PREWRITE HOLD。",
+    "next_step": "核第38批實際GitHub CI成功，再轉入第39批G7R至G9C候選版本。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -891,6 +903,7 @@
     "00_分類導航/設定關聯引擎/20261111_第三十四批12份_創作流程跨媒介研究八十題與舊設定回收_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第三十五批12份_交接勘誤與版本QA_暫存續接複核_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第三十六批12份_三輪回貼與重排版本_流程地理及權威逐項複核_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261111_第三十七批12份_交接與舊候選版本_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261111_第三十七批12份_交接與舊候選版本_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第三十八批12份_Gemini早期候選與版本分線_全文語義v2.json"
   ]
 }
