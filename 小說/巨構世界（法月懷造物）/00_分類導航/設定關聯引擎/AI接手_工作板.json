@@ -421,7 +421,14 @@
           "pending_registered": 218,
           "shard_sha": "fbc1dab4031886a84988bf8788433278bde313e4",
           "commit": "22c20ac39554ab247cfc2a5b6d85ac4464ece0b1",
-          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42772022165"
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42772022165",
+          "qa_patch": {
+            "status": "PENDING_CI",
+            "qa_question_count": 24,
+            "dependency_impacts_rewritten": 19,
+            "new_shard_sha": "2ba0ac564bc563203627757f57a8e2df6be3f86b",
+            "original_claims_unchanged": true
+          }
         },
         "acceleration_batch_26": {
           "stage": "COMPLETE__COMMIT_CI_VERIFIED",
@@ -439,7 +446,14 @@
           "replacement_file": "04_能力武器與試煉/013_討論續錄_主角_復歸_頂尖武器_上行動機.md",
           "batch_commit": "f4530919b4bd226dbb1d5f99eac5f3e03a17be19",
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42774871239",
-          "checked_no_duplicate_with_historical_ledger": true
+          "checked_no_duplicate_with_historical_ledger": true,
+          "qa_patch": {
+            "status": "PENDING_CI",
+            "qa_question_count": 24,
+            "dependency_impacts_rewritten": 24,
+            "new_shard_sha": "91af471012a254409e5360c44452939bed59a476",
+            "original_claims_unchanged": true
+          }
         }
       }
     },

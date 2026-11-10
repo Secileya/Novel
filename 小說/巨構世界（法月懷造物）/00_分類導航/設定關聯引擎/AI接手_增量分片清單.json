@@ -38,25 +38,25 @@
     },
     {
       "path": "20261110_第二十五批6份_035_036_037_038_049_050_全文語義v2.json",
-      "git_blob_sha": "fbc1dab4031886a84988bf8788433278bde313e4",
+      "git_blob_sha": "2ba0ac564bc563203627757f57a8e2df6be3f86b",
       "batch": "BATCH25",
       "source_count": 6,
       "original_lines": 488,
       "semantic_sections": 51,
       "claim_count": 51,
       "graph_relations": 102,
-      "note": "Six original files read in full; 2026-11-08 weapon assimilation B overrides earlier installed-ever inclination; pending CI."
+      "note": "Six original files read in full; 2026-11-08 weapon assimilation B overrides earlier installed-ever inclination; pending CI. QA revision 2026-11-10: per-file four differentiated counterchecks and explicit dependencies; same accepted sources/counts."
     },
     {
       "path": "20261110_第二十六批6份_013_054_056_057_060_063_全文語義v2.json",
-      "git_blob_sha": "8ab855194c0c2aec23b1cae33978044ea93289cf",
+      "git_blob_sha": "91af471012a254409e5360c44452939bed59a476",
       "batch": "BATCH26",
       "source_count": 6,
       "original_lines": 837,
       "semantic_sections": 76,
       "claim_count": 76,
       "graph_relations": 152,
-      "note": "Corrected CI duplicate: 088 was pre-attested in historical base ledger, replaced with independently audited 013. All source count six, full 837 lines, 76 claims, 152 scoped links."
+      "note": "Corrected CI duplicate: 088 was pre-attested in historical base ledger, replaced with independently audited 013. All source count six, full 837 lines, 76 claims, 152 scoped links. QA revision 2026-11-10: individualized questions and per-dependency specific impact; no double count."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."
