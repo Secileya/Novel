@@ -14,7 +14,7 @@
     "warning": "結構證據驗證不是作者Canon批准或語義絕對正確證明。"
   },
   "fact_snapshot": {
-    "raw_source_files": 343,
+    "raw_source_files": 344,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,17 +22,17 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 8,
+    "nine_folder_files": 9,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第35批新12份待當批CI；來源後修重驗不重計，最後成功183/343。正式0章。",
+    "important": "第35批12份待當批CI，新增原文使分母344；重驗不重計。最後成功183。",
     "targeted_audit_records": 5115,
     "targeted_audit_verified_quotes": 5306,
     "full_file_editorial_accepted": 63,
     "full_file_editorial_remaining": 108,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 195,
-    "all_source_full_file_editorial_remaining": 148,
+    "all_source_full_file_editorial_remaining": 149,
     "historical_164_full_file_acceptance": 132,
     "historical_171_full_file_acceptance": 63,
     "all_source_progress_is_dynamic": true
@@ -83,14 +83,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 195,
-        "pending": 148,
+        "pending": 149,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第35批12份已登記待當批CI，最後成功183/343；後修重驗不重計，第35原暫存保留唯讀。 沿用普通對話250項暫存，補17真漏項、兩類作者後修與G3/G3R版本，非重做整批。",
+        "note": "第35批12份已登記待當批CI；新增Gemini第三批排版原文使分母344，未驗收來源149。原暫存保留，後修不重計。",
         "stage": "BATCH35_12_SUBMITTED_PENDING_CI",
         "last_verified_commit": "d5c3dbce367dac915d1b3699abe59ff5126fe873",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42811816504",
@@ -826,7 +826,7 @@
     "original_line_anchors": 295,
     "nonCanon_graph_links": 267,
     "all_source_accepted": 195,
-    "all_source_pending": 148,
+    "all_source_pending": 149,
     "state": "BATCH35_PENDING_CI__NON_CANON",
     "notes": "第35批只新增12份；舊分片與總帳唯讀，原文和候選不升Canon。"
   },
@@ -853,7 +853,7 @@
     "commit": null,
     "ci_result": "pending",
     "ci_run_url": null,
-    "not_finished": "195/343份有驗收證據待本次CI，最後成功183；148份待審，正式0章/PREWRITE HOLD。",
+    "not_finished": "195/344份有驗收證據待本次CI，最後成功183；149份待審，正式0章/PREWRITE HOLD。",
     "next_step": "當批CI成功後回寫，直接對下一批12份做最新HEAD防重與全文，不等待逐批指令。"
   },
   "audited_batch_paths": [
