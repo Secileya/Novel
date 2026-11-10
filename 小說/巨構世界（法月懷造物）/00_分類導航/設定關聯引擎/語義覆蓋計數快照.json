@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "統計區分全庫335份、已登記待CI的整檔編輯性驗收105份、既有細分命題和非Canon關聯。CI不等於作者Canon批准；分片需核Git Blob SHA。",
+  "warning": "全庫335份之中105份已記錄編輯性整檔語義審核並通過CI，230份待審。證據來自唯讀舊台帳＋SHA分片，不是作者Canon批准；原圖片若未保存，不冒稱實讀。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,7 +176,7 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第22批透過獨立Git Blob SHA分片新增4份來源（總計105/335，230待審），CI待當前提交驗證。既有總帳保留唯讀；正式小說0章PREWRITE HOLD，原圖片／二手作品仍需核證。",
+    "limitations": "第22批4份以獨立SHA分片驗證成功；105/335、待230。舊總帳JSON保留未改，2026-11-10 GitHub CI https://github.com/Secileya/Novel/actions/runs/42759972095。正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
     "all_source_full_file_editorial_accepted_pending_ci": 105,

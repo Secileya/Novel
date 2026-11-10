@@ -8,10 +8,10 @@
   "last_checked_head_before_handoff": "fbb2fa0ecb1a304e8c07e28a001417bd9363031b",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42755107686",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42759972095",
     "conclusion": "success",
-    "head_sha": "2a813b665208a6f45c8cca26f10ff1e719491701",
-    "warning": "第21批此前假失敗為新版語義測試的負向樣本不再保證缺欄位；修正測試樣本後CI通過。後續新提交仍須自查CI；通過不等於作者Canon。"
+    "head_sha": "fe63af0b469cfcef7f79f1adf372555cc59b6bc5",
+    "warning": "第22批SHA分片完整驗證成功；CI不代替作者審核。"
   },
   "fact_snapshot": {
     "raw_source_files": 335,
@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第22批4份透過SHA分片登記105/335，待230份；CI未確認前只是已提交待驗證，正式小說0章 PREWRITE HOLD，非作者Canon。",
+    "important": "第22批4份正式編輯性整檔驗收已經CI通過；105/335、待230。SHA分片掛接原版唯讀台帳，新批次請參照分片清單與經驗庫。正式0章PREWRITE HOLD，非作者Canon批准。",
     "targeted_audit_records": 3202,
     "targeted_audit_verified_quotes": 3393,
     "full_file_editorial_accepted": 49,
@@ -91,9 +91,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
-        "stage": "BATCH22_4_COMMITTED_AWAITING_CI",
-        "last_verified_commit": "2a813b665208a6f45c8cca26f10ff1e719491701",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42755107686",
+        "stage": "BATCH22_4_CI_VERIFIED",
+        "last_verified_commit": "fe63af0b469cfcef7f79f1adf372555cc59b6bc5",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42759972095",
         "cross_source_next_batch": [],
         "historical_164_accepted": 56,
         "historical_171_accepted": 49,
@@ -351,7 +351,7 @@
           "ci_repair_commit": "2a813b665208a6f45c8cca26f10ff1e719491701"
         },
         "acceleration_batch_22": {
-          "stage": "COMMITTED_AWAITING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 4,
           "source_names": [
             93,
@@ -368,7 +368,8 @@
           "pending_registered": 230,
           "shard_blob_sha": "042692d0db9dc897adba778c0b13c132f85d93f8",
           "shard_manifest": "00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
-          "ci_run_url": null
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42759972095",
+          "verified_repair_commit": "fe63af0b469cfcef7f79f1adf372555cc59b6bc5"
         }
       }
     },
@@ -648,8 +649,10 @@
     "nonCanon_graph_links": 144,
     "all_source_accepted": 105,
     "all_source_pending": 230,
-    "state": "COMMITTED__PENDING_CI",
-    "notes": "採用舊大檔不改＋分片Blob SHA設計，4份源文件新增語義驗收台帳增量；CI成功前不稱最終驗證。"
+    "state": "COMPLETE__COMMIT_CI_VERIFIED",
+    "notes": "第22批4份已用SHA分片合併到完整台帳，總計105/335、尚230，驗證CI成功；舊巨大JSON未覆寫，正式0章PREWRITE HOLD。",
+    "most_recent_verified_commit": "fe63af0b469cfcef7f79f1adf372555cc59b6bc5",
+    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42759972095"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -669,13 +672,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH22_4_COMMITTED_AWAITING_CI",
-    "scope": "第22批4份、1,797原文行、72連續段、72條SHA來源命題與144非Canon關聯；新證據透過獨立Blob SHA與增量分片清單載入。",
-    "commit": "8609f12654f0e2ff2a3ea991c25d3ebd3ef6cd33（證據分片先行提交，總帳整合提交待回讀）",
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "尚有230份來源等待整檔審核；第22批彙總CI待核實，正式0章PREWRITE HOLD。",
-    "next_step": "查當前GitHub Actions；若成功標記第22批VERIFIED並追加經驗日誌，下一批021/022/023先看原文及後修。"
+    "stage": "BATCH22_4_CI_VERIFIED",
+    "scope": "第22批4份（093、085、086、108）共1,797原文行、72段及72來源命題、144非Canon關聯，採用獨立SHA分片，已通過CI。",
+    "commit": "fe63af0b469cfcef7f79f1adf372555cc59b6bc5",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42759972095",
+    "not_finished": "其他230份還需正式全文驗收；新增來源自動加入全庫。正式小說仍0章PREWRITE HOLD。",
+    "next_step": "進入第23批：先讀03_021與01_022、01_023的現行原文SHA及後出修正，做人物道德灰度和血腥世界氣質的權威分層。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
