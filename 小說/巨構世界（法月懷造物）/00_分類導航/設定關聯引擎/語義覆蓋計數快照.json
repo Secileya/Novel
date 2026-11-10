@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "108/335為已登記並等待第23批CI的編輯性整檔審核，其中新增加3份歷史164來源；227待審。外部參考創作方向非正史。",
+  "warning": "全庫108/335整檔編輯性驗收已成功通過第23批CI，227待審。作者確定的創作方向與已採納正史仍須區分。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,7 +176,7 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第23批3份380行、37段與39條SHA行錨已提交分片；CI尚待核實。總計108/335、待227；歷史171仍49/171，正式0章PREWRITE HOLD。",
+    "limitations": "第23批021/022/023新增3份SHA分片並通過GitHub CI，累計108/335、剩227；1.8MB與2.45MB舊總帳仍唯讀。正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
     "all_source_full_file_editorial_accepted_pending_ci": 108,
