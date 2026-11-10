@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第20批10份文本整檔語義核對已登記待本次GitHub CI；台帳91/335，餘244份。Gemini 153–155仍為候選章、原TXT在待定正文/Gemini原稿，0正式章PREWRITE HOLD。",
+    "important": "第20批10份已經GitHub CI 42752714779驗證成功；累積91/335、尚餘244；Gemini第一二章仍候選、正式0章PREWRITE HOLD。",
     "targeted_audit_records": 2859,
     "targeted_audit_verified_quotes": 3050,
     "full_file_editorial_accepted": 37,
@@ -89,9 +89,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
-        "stage": "BATCH20_10_COMMITTED_PENDING_CI",
-        "last_verified_commit": "5b6c72e55906ee89865ab881c6280b6e692155dc",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42748730438",
+        "stage": "BATCH20_10_CI_VERIFIED",
+        "last_verified_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42752714779",
         "cross_source_next_batch": [
           "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
           "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
@@ -300,7 +300,7 @@
           "batch_commit": "5b6c72e55906ee89865ab881c6280b6e692155dc"
         },
         "acceleration_batch_20": {
-          "stage": "COMMITTED_PENDING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 10,
           "source_names": [
             128,
@@ -322,7 +322,8 @@
           "accepted_total_registered": 91,
           "pending_total_registered": 244,
           "skipped_already_accepted": [],
-          "ci_run_url": null
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42752714779",
+          "batch_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb"
         }
       }
     },
@@ -602,10 +603,10 @@
     "nonCanon_graph_links": 734,
     "all_source_accepted": 91,
     "all_source_pending": 244,
-    "state": "COMMITTED_PENDING_CI",
-    "notes": "第20批10份文字審核、含Gemini候選章原始TXT位置與未決問題，等待GitHub CI；原有81不重複。",
-    "most_recent_verified_commit": "5b6c72e55906ee89865ab881c6280b6e692155dc",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42748730438"
+    "state": "COMPLETE__COMMIT_CI_VERIFIED",
+    "notes": "第20批10份GitHub CI驗證成功，既有81份保留，累積91/335。Gemini候選正文非正式章、原始TXT G1-G3與後出來源分層。",
+    "most_recent_verified_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
+    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42752714779"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -624,13 +625,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH20_10_COMMITTED_PENDING_CI",
-    "scope": "第20批10份完整文字來源1489行、82段、367個SHA行錨、734條非Canon圖譜關聯已寫入，等候CI。",
-    "commit": "GIT_COMMIT_PENDING",
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "本批新驗收尚待本次HEAD GitHub CI。全庫尚有244份未完成；Gemini候選章未提升Canon，正式0章PREWRITE HOLD。",
-    "next_step": "核對GitHub CI後寫回正式成功交接；下批自動從未驗收來源重新查詢，不靠重複數字清單。"
+    "stage": "BATCH20_10_CI_VERIFIED",
+    "scope": "第20批10份來源、原文1489行、82段、367條SHA行錨、734條非Canon檢索關聯；GitHub CI驗證成功。",
+    "commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42752714779",
+    "not_finished": "其餘244份仍待完整編輯性語義審核。Gemini G1-G3原始TXT保存在Gemini原稿，正式0章PREWRITE HOLD；CI只驗證既定結構與可追溯性。",
+    "next_step": "第21批重新由全量來源待審來源挑選，注意176後出稽核與原始G系列，不能重做已登記文件。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
