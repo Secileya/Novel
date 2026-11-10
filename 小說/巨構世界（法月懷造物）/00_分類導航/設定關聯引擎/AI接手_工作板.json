@@ -5,13 +5,13 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "fbb2fa0ecb1a304e8c07e28a001417bd9363031b",
+  "last_checked_head_before_handoff": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42760762656",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42768579404",
     "conclusion": "success",
-    "head_sha": "31ba77287c9100361ed2413eaa0be36d1aee8e5e",
-    "warning": "驗證對象是第23批分片合併與工作板狀態。CI不是內容意涵無誤或作者Canon批准。"
+    "head_sha": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384",
+    "warning": "CI檢查程序與證據，不是作者Canon決定或所有語義已知。"
   },
   "fact_snapshot": {
     "raw_source_files": 335,
@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "B24：024、025、028共462行、39個分段、39來源命題與81條非Canon圖關聯已登記，待GitHub CI證實後才能稱111/335已驗收；正式0章PREWRITE HOLD。",
+    "important": "第24批三份來源462行、39段、39SHA錨與81非Canon關聯成功通過Actions；累積111/335、待224；正式0章PREWRITE HOLD。",
     "targeted_audit_records": 3280,
     "targeted_audit_verified_quotes": 3471,
     "full_file_editorial_accepted": 49,
@@ -90,10 +90,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "B24 3份來源已登記SHA分片，CI未驗證。原檔與Canon未改。",
-        "stage": "BATCH24_3_COMMITTED_AWAITING_CI",
-        "last_verified_commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42760762656",
+        "note": "B24三份來源及非Canon關聯已於Actions 42768579404成功；111/335仍224待審，正式0章。",
+        "stage": "BATCH24_3_CI_VERIFIED",
+        "last_verified_commit": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42768579404",
         "cross_source_next_batch": [],
         "historical_164_accepted": 62,
         "historical_171_accepted": 49,
@@ -390,7 +390,7 @@
           "batch_commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e"
         },
         "acceleration_batch_24": {
-          "stage": "COMMITTED_AWAITING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 3,
           "source_lines": 462,
           "sections": 39,
@@ -399,7 +399,9 @@
           "nonCanon_graph_links": 81,
           "registered_accepted": 111,
           "registered_pending": 224,
-          "shard_sha": "9b46070d3da7104e360352bdecff9892fcf60f11"
+          "shard_sha": "9b46070d3da7104e360352bdecff9892fcf60f11",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42768579404",
+          "commit": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384"
         }
       }
     },
@@ -679,8 +681,8 @@
     "nonCanon_graph_links": 81,
     "all_source_accepted": 111,
     "all_source_pending": 224,
-    "state": "REGISTERED_AWAITING_CI__NOT_CANON",
-    "notes": "B24只完成稽核及工作板登記，原稿與舊總帳不變，CI待查。"
+    "state": "CI_VERIFIED__NON_CANON",
+    "notes": "第24批成功經GitHub Actions核證；原檔未改，正式0章PREWRITE HOLD。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -700,13 +702,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH24_3_COMMITTED_AWAITING_CI",
-    "scope": "第24批024/025/028共462行、39段、39條Git SHA行號證據、81條非Canon圖關聯，已建立SHA分片等待CI。",
-    "commit": "1084440f0a95fea5b6f604e9089b23e09a0f7f68",
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "CI仍待核證；尚224份整檔語義待審，正式小說0章PREWRITE HOLD。",
-    "next_step": "驗證B24的Actions後，依035／036／037去重並精讀後出復歸裝備與雙錨規則。"
+    "stage": "BATCH24_3_CI_VERIFIED",
+    "scope": "B24 024/025/028共462行39段39SHA錨81條非Canon關聯，已寫入main、讀回並經本批GitHub Actions成功核證。",
+    "commit": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42768579404",
+    "not_finished": "仍有224份來源待整檔語義審核；正式小說0章PREWRITE HOLD。",
+    "next_step": "第25批先查035/036/037是否已被他人核驗，再沿深層同化B與雙錨點裁決繼續。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
