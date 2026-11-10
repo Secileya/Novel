@@ -14,7 +14,7 @@
     "warning": "結構證據驗證不是作者Canon批准或語義絕對正確證明。"
   },
   "fact_snapshot": {
-    "raw_source_files": 345,
+    "raw_source_files": 348,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -25,14 +25,14 @@
     "nine_folder_files": 9,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第37批遠端CI成功，219/345份有效。正式0章。",
+    "important": "第37批驗收219份；第13章回貼來源、純正文候選及GPT QA新增3份待審。現219/348份有效、129份待審，正式0章。",
     "targeted_audit_records": 5567,
     "targeted_audit_verified_quotes": 5758,
     "full_file_editorial_accepted": 74,
     "full_file_editorial_remaining": 97,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 219,
-    "all_source_full_file_editorial_remaining": 126,
+    "all_source_full_file_editorial_remaining": 129,
     "historical_164_full_file_acceptance": 135,
     "historical_171_full_file_acceptance": 74,
     "all_source_progress_is_dynamic": true
@@ -83,14 +83,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 219,
-        "pending": 126,
+        "pending": 129,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第37批新增12份已通過遠端CI，219/345有效、126待審。使用者指示完成本批後停止。",
+        "note": "第37批新增12份已通過遠端CI，當時219/345有效、126待審。使用者指示完成本批後停止；本輪第13章另新增3份，現219/348有效、129待審，未啟動新批次。",
         "stage": "BATCH37_12_VERIFIED_PAUSED",
         "last_verified_commit": "8ea2dc035371804ed56144c000875c6bbff53147",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42914872412",
@@ -827,7 +827,7 @@
     "original_line_anchors": 1051,
     "nonCanon_graph_links": 282,
     "all_source_accepted": 219,
-    "all_source_pending": 126,
+    "all_source_pending": 129,
     "state": "BATCH37_VERIFIED__NON_CANON",
     "notes": "本批12份已通過遠端CI，工作依使用者指示暫停。"
   },
@@ -854,7 +854,7 @@
     "commit": "8ea2dc035371804ed56144c000875c6bbff53147",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42914872412",
-    "not_finished": "126份仍待逐份驗收。正式正文0章，PREWRITE HOLD。",
+    "not_finished": "129份仍待逐份驗收（新增第13章來源／候選／QA各1份）。正式正文0章，PREWRITE HOLD。",
     "next_step": "依使用者指示，第37批完成後停止。第38批未啟動。"
   },
   "audited_batch_paths": [
