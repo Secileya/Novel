@@ -79,28 +79,6 @@
       "claim_count": 58,
       "graph_relations": 116,
       "note": "Second consecutive six unique sources; environment/transport and external reference authority separated; awaiting CI."
-    },
-    {
-      "path": "20261110_第二十九批6份_001_002_004_005_011_072_全文語義v2.json",
-      "git_blob_sha": "4add69aca9371de4010f4b7fe96c9d37abe39c49",
-      "batch": "BATCH29",
-      "source_count": 6,
-      "original_lines": 721,
-      "semantic_sections": 83,
-      "claim_count": 83,
-      "graph_relations": 166,
-      "note": "Evidence bridge summary aligned to original audit title; awaiting CI."
-    },
-    {
-      "path": "20261110_第三十批6份_012_043_044_046_055_061_全文語義v2.json",
-      "git_blob_sha": "aeb5dc5b25b8678b589c9c2badf742dcab340b6b",
-      "batch": "BATCH30",
-      "source_count": 6,
-      "original_lines": 713,
-      "semantic_sections": 74,
-      "claim_count": 74,
-      "graph_relations": 148,
-      "note": "Evidence bridge summary aligned to original audit title; awaiting CI."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."

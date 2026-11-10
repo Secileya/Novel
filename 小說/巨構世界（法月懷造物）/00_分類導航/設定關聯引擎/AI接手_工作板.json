@@ -25,15 +25,15 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "B29+B30共12份1434行157命題待CI；147/335為未驗證登記，正式0章。",
-    "targeted_audit_records": 3695,
-    "targeted_audit_verified_quotes": 3886,
+    "important": "B25/26材料QA修補已經CI成功；B27/28新增12份1519行131命題與262限域圖邊經CI驗收，累計135/335、待200，正式0章PREWRITE HOLD。",
+    "targeted_audit_records": 3538,
+    "targeted_audit_verified_quotes": 3729,
     "full_file_editorial_accepted": 49,
     "full_file_editorial_remaining": 122,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 147,
-    "all_source_full_file_editorial_remaining": 188,
-    "historical_164_full_file_acceptance": 98,
+    "all_source_full_file_editorial_accepted": 135,
+    "all_source_full_file_editorial_remaining": 200,
+    "historical_164_full_file_acceptance": 86,
     "historical_171_full_file_acceptance": 49,
     "all_source_progress_is_dynamic": true
   },
@@ -82,8 +82,8 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 147,
-        "pending": 188,
+        "verified_complete": 135,
+        "pending": 200,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -91,31 +91,31 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "B25/26的12份舊來源已補強48四類具體反問、43具體後出影響並CI成功；B27/28新增兩批12個未審來源1519行131命題262非Canon邊CI成功，135/335、200待審。",
-        "stage": "BATCH30_6_SUBMITTED_PENDING_CI",
+        "stage": "BATCH28_6_CI_VERIFIED",
         "last_verified_commit": "bb45c1125c85a64344a5dbb54c554bc6688748ec",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42781284588",
         "cross_source_next_batch": [],
         "historical_164_accepted": 86,
         "historical_171_accepted": 49,
         "last_batch_files": [
-          "01_世界本體與文明/012_討論續錄_科技能源_異質社會_光照地景.md",
-          "01_世界本體與文明/043_候選框架_戰力帶_肉身技藝_武器裝備_遺物科技尺度.md",
-          "01_世界本體與文明/044_討論續錄_豎向深淵階梯_墜落者_下方食物與地方習俗.md",
-          "01_世界本體與文明/046_討論續錄_特殊技藝傳承_政府政治_黑市盜團與跨群落勢力.md",
-          "01_世界本體與文明/055_討論續錄_前文明超十級尺度校正_禁止強敵濫用前文明.md",
-          "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md"
+          "02_地圖拓撲與交通/048_討論續錄_全世界絕界行_內嵌完整深淵_第四層式生態與局部詛咒.md",
+          "02_地圖拓撲與交通/062_候選實作_拱海側域四處地景_交通人物與地方事件.md",
+          "02_地圖拓撲與交通/068_外部研究與原創地貌庫_異質巨構地理_旅行生活與劇情用途.md",
+          "02_地圖拓撲與交通/070_研究候選_世界層交錯_巨構外形_環境文明巨構演替.md",
+          "02_地圖拓撲與交通/071_研究模擬_三類世界層交錯_文明巨構與多代地貌.md",
+          "02_地圖拓撲與交通/075_研究續錄_立體交通路網_勾鎖側壁方井與非普通道路.md"
         ],
-        "last_batch_full_lines": 713,
-        "last_batch_sections": 74,
-        "last_batch_new_claims": 74,
-        "last_batch_new_anchors": 74,
+        "last_batch_full_lines": 689,
+        "last_batch_sections": 58,
+        "last_batch_new_claims": 58,
+        "last_batch_new_anchors": 58,
         "next_batch": [
-          "01_世界本體與文明/073_研究候選_身分權力背書_地方承認_勢力反應與跨篇後果.md",
-          "01_世界本體與文明/076_研究續錄_世界層尺寸彈性_Celeste偉力_真實與科技星象_S01.md",
-          "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
-          "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
-          "01_世界本體與文明/098_完整研究候選_冒險者遠征者等級_跨群落認證委託通緝.md",
-          "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
+          "01_世界本體與文明/001_世界尺度與空間.md",
+          "01_世界本體與文明/002_視覺美學與龐克.md",
+          "01_世界本體與文明/004_群落社會與知識.md",
+          "01_世界本體與文明/005_生存敵人與裝備.md",
+          "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
+          "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -484,26 +484,6 @@
           "shard_sha": "b9efd65e2234347a9aca52a46f793132ed48b7d0",
           "commit": "bb45c1125c85a64344a5dbb54c554bc6688748ec",
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42781284588"
-        },
-        "acceleration_batch_29": {
-          "stage": "SUBMITTED_PENDING_CI",
-          "source_count": 6,
-          "source_lines": 721,
-          "sections": 83,
-          "claims": 83,
-          "graph_links": 166,
-          "registered_pending_ci": 141,
-          "pending_remaining": 194,
-          "shard_sha": "4add69aca9371de4010f4b7fe96c9d37abe39c49"
-        },
-        "acceleration_batch_30": {
-          "stage": "SUBMITTED_PENDING_CI",
-          "source_count": 6,
-          "source_lines": 713,
-          "sections": 74,
-          "claims": 74,
-          "graph_links": 148,
-          "shard_sha": "aeb5dc5b25b8678b589c9c2badf742dcab340b6b"
         }
       }
     },
@@ -774,17 +754,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch30",
+    "task": "NEXT-009 batch28",
     "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 1434,
-    "review_sections": 157,
-    "atomic_findings": 157,
-    "original_line_anchors": 157,
-    "nonCanon_graph_links": 314,
-    "all_source_accepted": 147,
-    "all_source_pending": 188,
-    "state": "SUBMITTED_PENDING_CI__NON_CANON",
-    "notes": "兩批CI待確認，無Canon升格。"
+    "original_lines_reviewed": 1519,
+    "review_sections": 131,
+    "atomic_findings": 131,
+    "original_line_anchors": 131,
+    "nonCanon_graph_links": 262,
+    "all_source_accepted": 135,
+    "all_source_pending": 200,
+    "state": "CI_VERIFIED__NON_CANON",
+    "notes": "第27及28批各6份共1519原文行，131原文命題SHA錨、262限域非Canon關聯，核心驗證42781284588及Drive索引42781284676成功；B25/26材料QA另已修補並驗證。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -804,13 +784,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH30_6_SUBMITTED_PENDING_CI",
-    "scope": "B29/B30原CI失敗；已修正157筆證據橋摘要，待新CI。",
-    "commit": "afeb96eb4310bc63cce2fc43cb44c8b506576a8a",
-    "ci_result": "pending",
-    "ci_run_url": "",
-    "not_finished": "原始兩批CI失敗，修正仍需CI成功。",
-    "next_step": "核實B29/B30 CI，失敗修復；下一批073、076、095、097、098、099。"
+    "stage": "BATCH28_6_CI_VERIFIED",
+    "scope": "本輪：第25/26批12份既有驗收的48四類反問與43跨檔impact逐項補強，另新增第27/28批各六份、共12份1519行131命題131來源SHA錨262限域非Canon圖連線，全部相關CI成功。",
+    "commit": "bb45c1125c85a64344a5dbb54c554bc6688748ec",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42781284588",
+    "not_finished": "全庫合計135/335來源已通過既有編輯性驗收、仍有200份未審；正式小說0章PREWRITE HOLD。AI審核不是作者Canon確認。",
+    "next_step": "第29批先對新HEAD的歷史總帳+所有Manifest分片跑排批防重；已排六份01/001、01/002、01/004、01/005、01/011、02/072；整檔閱讀後獨立第二遍查漏、具體依賴、一次提交CI。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -837,8 +817,6 @@
     "00_分類導航/設定關聯引擎/20261110_第二十五批6份_035_036_037_038_049_050_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十六批6份_013_054_056_057_060_063_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十七批6份_015_018_003_026_039_040_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第二十八批6份_048_062_068_070_071_075_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第二十九批6份_001_002_004_005_011_072_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第三十批6份_012_043_044_046_055_061_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第二十八批6份_048_062_068_070_071_075_全文語義v2.json"
   ]
 }
