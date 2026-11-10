@@ -1,0 +1,28 @@
+name: Test 巨構世界 Drive fast lane
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/google_drive_mirror/**'
+      - '.github/workflows/test-giant-world-drive-fast-lane.yml'
+  pull_request:
+    paths:
+      - 'tools/google_drive_mirror/**'
+      - '.github/workflows/test-giant-world-drive-fast-lane.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fast-lane-regressions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: JavaScript syntax
+        run: node --check < tools/google_drive_mirror/Code.gs
+      - name: One-minute quick lane and quota-safe mirror tests
+        run: node tools/google_drive_mirror/test_fast_sync.js
+      - name: Source index change-delta tests
+        run: python3 tools/google_drive_mirror/test_drive_source_index.py

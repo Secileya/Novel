@@ -35,11 +35,22 @@ def main():
     entries.sort(key=lambda e: e['path'])
     if not entries:
         raise ValueError('Empty source inventory; refusing to publish')
+    old = {}
     if INDEX.is_file():
         old = json.loads(INDEX.read_text(encoding='utf-8'))
-        if old.get('sourceTreeSha') == subtree_sha and old.get('files') == entries:
+        if (old.get('sourceTreeSha') == subtree_sha and
+                old.get('files') == entries and
+                'changedFiles' in old and 'removedFiles' in old):
             print('SOURCE_INDEX_UNCHANGED', subtree_sha, len(entries))
             return
+    old_by_path = {e['path']: e['sha'] for e in old.get('files', [])}
+    current_by_path = {e['path']: e['sha'] for e in entries}
+    changed = [
+        {'path': e['path'], 'sha': e['sha'],
+         'change': 'added' if e['path'] not in old_by_path else 'modified'}
+        for e in entries if old_by_path.get(e['path']) != e['sha']
+    ]
+    removed = sorted(p for p in old_by_path if p not in current_by_path)
     payload = {
         'schema': 1,
         'repository': 'Secileya/Novel',
@@ -47,6 +58,9 @@ def main():
         'sourcePrefix': SUBDIR + '/',
         'sourceCommit': sha,
         'sourceTreeSha': subtree_sha,
+        'previousSourceCommit': old.get('sourceCommit'),
+        'changedFiles': changed,
+        'removedFiles': removed,
         'files': entries,
     }
     INDEX.parent.mkdir(parents=True, exist_ok=True)

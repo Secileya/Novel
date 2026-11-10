@@ -4,6 +4,8 @@
  * One-time: paste into https://script.google.com, run installSync() and grant Drive,
  * Docs and external-request permissions. Then syncDrain() runs every 5 minutes
  * until complete; syncHourly() keeps checking GitHub changes indefinitely.
+ * Optional installFastSync() adds one-minute change-only polling; no new Docs
+ * are created by the fast lane, and existing mirror files are never erased.
  * Does not delete history or classify Canon.
  */
 const MIRROR_CONFIG = Object.freeze({
@@ -15,6 +17,11 @@ const MIRROR_CONFIG = Object.freeze({
   mirrorFolderId: '1-8xXZ98taJKK_Zpj65RjZtA4J5MzIXBY',
   manifestFileName: '_GITHUB_SYNC_STATE.json',
   statusDocName: '00_鏡像同步狀態與使用說明',
+  fastHandoffName: '00_最新GitHub變更交接.txt',
+  maxQuickFilesPerRun: 2,
+  maxQuickBytes: 64000,
+  maxQuickTimeMs: 45000,
+  quickErrorRetryMs: 10 * 60 * 1000,
   maxFilesPerRun: 8,
   maxTimeMs: 135000,
   maxDocsChars: 12000,
@@ -24,6 +31,7 @@ const MIRROR_CONFIG = Object.freeze({
 function installSync() {
   ensureTrigger_('syncHourly', 60);
   ensureTrigger_('syncDrain', 5);
+  ensureTrigger_('syncQuick', 1);
   const result = syncCore_();
   Logger.log(JSON.stringify(result, null, 2));
   return result;
@@ -40,6 +48,266 @@ function syncDrain() {
 }
 /** Manual catch-up/test; never rewrites GitHub. */
 function syncNow() { return syncHourly(); }
+
+/**
+ * Install alongside existing triggers. Run once after updating Code.gs in the
+ * user's ACTUAL Apps Script project; changing GitHub alone does not deploy it.
+ * Time-based triggers are approximate, not a push webhook or guaranteed SLA.
+ */
+function installFastSync() {
+  ensureTrigger_('syncQuick', 1);
+  return syncQuick();
+}
+function stopFastSync() {
+  removeTrigger_('syncQuick');
+  return {status:'FAST_LANE_DISABLED', fullMirrorUnchanged:true};
+}
+function quickSyncNow() { return syncQuick(); }
+
+/**
+ * One-minute lightweight fast lane: reads the pinned GitHub Actions source
+ * index, updates a stable plain-text handoff, and syncs only the new delta.
+ * The heavy full-mirror queue is left to syncDrain/syncHourly.
+ */
+function syncQuick() {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(0)) return {status:'SKIPPED_LOCK_BUSY'};
+  try {
+    const cfg = MIRROR_CONFIG;
+    const props = PropertiesService.getScriptProperties();
+    const index = readSourceIndex_();
+    const previouslySeen = props.getProperty('megaQuickCommit');
+    const previousPending = props.getProperty('megaQuickHasPending');
+    if (previouslySeen === index.sourceCommit && previousPending === '0') {
+      return {status:'NO_SOURCE_CHANGE',sourceCommit:index.sourceCommit};
+    }
+    const root = DriveApp.getFolderById(cfg.mirrorFolderId);
+    const manifestFile = getOrCreateManifest_(root);
+    const state = parseState_(manifestFile);
+    const filesByPath = {};
+    index.files.forEach(function(e) { filesByPath[e.path.slice(cfg.prefix.length)] = e; });
+    const isNewIndex = state.quickLaneIndexCommit !== index.sourceCommit;
+    let changes = (state.quickLaneChangedPaths || []).filter(function(p) {
+      return Boolean(filesByPath[p]);
+    });
+    let pending = (state.quickLanePendingPaths || []).filter(function(p) {
+      return Boolean(filesByPath[p]);
+    });
+    if (isNewIndex) {
+      // The index builder records an SHA-based delta relative to its previous
+      // published source index. On first upgrade, fall back only to SOURCES
+      // ALREADY mirrored but outdated, not all 106+ historical backlog items.
+      const publishedDelta = Array.isArray(index.changedFiles) ? index.changedFiles : [];
+      // A skipped polling window can cover multiple index publications. Also
+      // compare previously CURRENT files with live hashes so no intervening
+      // change can vanish; do not add the historical SYNC_FAILED backlog.
+      const staleExisting = index.files.filter(function(e) {
+        const p=e.path.slice(cfg.prefix.length), old=state.files[p];
+        return old && old.status==='CURRENT' && old.driveId && old.blobSha!==e.sha;
+      });
+      const newPaths = uniquePaths_(publishedDelta.concat(staleExisting).map(function(e) {
+        return e.path.slice(cfg.prefix.length);
+      })).filter(function(p) { return Boolean(filesByPath[p]); });
+      changes = newPaths;
+      pending = uniquePaths_(newPaths.concat(pending));
+      state.quickLaneIndexCommit = index.sourceCommit;
+      state.quickLaneChangedPaths = changes;
+    }
+    pending = uniquePaths_(pending).filter(function(p) {
+      const e=filesByPath[p], old=state.files[p];
+      return e && !(old && old.status==='CURRENT' && old.blobSha===e.sha && old.driveId);
+    });
+    const started=Date.now(), errors=[], applied=[];
+    const retryAt=Date.parse(state.quickLaneRetryAfter || '');
+    const retryBlocked=Number.isFinite(retryAt) && Date.now()<retryAt;
+    let attempted=0;
+    const remaining=[];
+    const folderCache={'':root};
+    for (const p of pending) {
+      const entry=filesByPath[p];
+      // Oversized changes are linked in the handoff, not retried every minute.
+      // syncDrain/syncHourly still owns the full-size original mirror.
+      if (entry.size>cfg.maxQuickBytes) continue;
+      if (retryBlocked || attempted>=cfg.maxQuickFilesPerRun ||
+          Date.now()-started>cfg.maxQuickTimeMs) {
+        remaining.push(p);
+        continue;
+      }
+      attempted++;
+      try {
+        const bytes=fetchPinnedBytes_(entry.path,index.sourceCommit);
+        if (gitBlobSha_(bytes)!==entry.sha) throw Error('Fast-lane Git blob SHA mismatch: '+p);
+        const raw=Utilities.newBlob(bytes).getDataAsString('UTF-8');
+        const name=p.split('/').pop(), relative=p.slice(0,-name.length).replace(/\/$/,'');
+        const folder=getOrCreateSubfolder_(root,relative,folderCache);
+        const wrapped=makeMirrorText_(entry,index.sourceCommit,raw);
+        const saved=writeMirrorFileFast_(state.files[p]||{},folder,name,wrapped);
+        state.files[p]={driveId:saved.id,blobSha:entry.sha,commitSha:index.sourceCommit,
+          bytes:bytes.length,mime:saved.mime,status:'CURRENT',updatedAt:new Date().toISOString()};
+        applied.push(p);
+      } catch(err) {
+        errors.push(p+': '+String(err).slice(0,200));
+        remaining.push(p);
+        state.quickLaneRetryAfter=new Date(Date.now()+cfg.quickErrorRetryMs).toISOString();
+      }
+    }
+    state.quickLanePendingPaths=remaining;
+    state.quickLaneCheckedAt=new Date().toISOString();
+    state.quickLaneErrors=errors.slice(0,8);
+    const handoff=makeFastHandoff_(index,state,changes,remaining,applied,errors);
+    state.quickLaneHandoffId=writeFastHandoff_(root,state.quickLaneHandoffId,
+      cfg.fastHandoffName,handoff);
+    saveState_(manifestFile,state);
+    props.setProperty('megaQuickCommit',index.sourceCommit);
+    props.setProperty('megaQuickHasPending',remaining.length?'1':'0');
+    const stillDrivePending=changes.some(function(p) {
+      const e=filesByPath[p],v=state.files[p];
+      return Boolean(e && !(v && v.status==='CURRENT' && v.blobSha===e.sha));
+    });
+    return {status:errors.length?'PARTIAL_WITH_ERRORS':remaining.length?'PARTIAL':
+      stillDrivePending?'HANDOFF_READY_SOME_DRIVE_PENDING':'CURRENT_CHANGES_READY',
+      sourceCommit:index.sourceCommit,changed:changes.length,updated:applied.length,
+      pending:remaining.length,handoffId:state.quickLaneHandoffId,errors:errors};
+  } finally {
+    lock.releaseLock();
+  }
+}
+function uniquePaths_(arr) {
+  const seen={};
+  return arr.filter(function(p) {
+    if (typeof p!=='string' || !p || seen[p]) return false;
+    seen[p]=true; return true;
+  });
+}
+function readSourceIndex_() {
+  const cfg=MIRROR_CONFIG;
+  const url='https://raw.githubusercontent.com/'+cfg.owner+'/'+cfg.repository+'/'+cfg.branch+
+    '/'+cfg.sourceIndexPath+'?nocache='+Math.floor(Date.now()/60000);
+  const index=getJson_(url);
+  if (index.schema!==1 || index.repository!==cfg.owner+'/'+cfg.repository ||
+      index.branch!==cfg.branch || index.sourcePrefix!==cfg.prefix ||
+      !Array.isArray(index.files) || !index.files.length ||
+      !/^[0-9a-f]{40}$/.test(index.sourceCommit||'') ||
+      !/^[0-9a-f]{40}$/.test(index.sourceTreeSha||'')) {
+    throw Error('Public source index invalid; cannot fast-sync uncertain content');
+  }
+  index.files.forEach(function(e) {
+    if (!e.path || !e.path.startsWith(cfg.prefix) ||
+        !/^[0-9a-f]{40}$/.test(e.sha||'') ||
+        typeof e.size!=='number') throw Error('Source index entry invalid');
+  });
+  return index;
+}
+function gitPinnedUrl_(path,commit) {
+  return 'https://github.com/'+MIRROR_CONFIG.owner+'/'+MIRROR_CONFIG.repository+
+    '/blob/'+commit+'/'+path.split('/').map(encodeURIComponent).join('/');
+}
+function makeFastHandoff_(index,state,changes,remaining,applied,errors) {
+  const cfg=MIRROR_CONFIG, known={};
+  index.files.forEach(function(e) { known[e.path.slice(cfg.prefix.length)]=e; });
+  const lines=[
+    '[GITHUB FAST HANDOFF | AUTO-GENERATED | NON-CANON]',
+    'Generated at: '+new Date().toISOString(),
+    'Source index commit: '+index.sourceCommit,
+    'Source tree SHA: '+index.sourceTreeSha,
+    'GitHub public source index: https://github.com/'+cfg.owner+'/'+cfg.repository+
+       '/blob/main/'+cfg.sourceIndexPath,
+    'Changed files in the last source-index publication: '+changes.length,
+    'Fast lane pending: '+remaining.length,
+    'Fast lane updated this run: '+applied.length,
+    'Mirror status is per file. CURRENT means only SHA-match, NOT author Canon.',
+    'Gemini: for any DRIVE_PENDING/STALE source use the PINNED GitHub link below;',
+    'do not infer source text or claim it was read unless opened in this session.',
+    'IMPORTANT: this notice is only a transport index; author-confirmed/CANDIDATE,',
+    'PREWRITE HOLD and original information boundaries remain separate.',
+    '----- RECENT CHANGED SOURCES -----'
+  ];
+  changes.slice(0,40).forEach(function(p) {
+    const e=known[p], v=state.files[p];
+    if (!e) return;
+    const current=Boolean(v && v.status==='CURRENT' && v.blobSha===e.sha);
+    lines.push((current?'DRIVE_CURRENT ':'DRIVE_PENDING_OR_STALE ')+p);
+    lines.push('Source Git blob SHA: '+e.sha);
+    lines.push('Pinned source URL: '+gitPinnedUrl_(e.path,index.sourceCommit));
+  });
+  if (changes.length>40) lines.push('... plus '+(changes.length-40)+
+    ' changed entries; read full source-index.json for all source SHAs.');
+  if (errors.length) lines.push('Fast lane errors (not marked CURRENT): '+errors.join(' | '));
+  return lines.join('\n')+'\n';
+}
+function writeFastHandoff_(root,savedId,name,content) {
+  let file=null;
+  if (savedId) {
+    try {
+      const candidate=DriveApp.getFileById(savedId);
+      if (candidate.getName()===name &&
+          candidate.getMimeType()===MimeType.PLAIN_TEXT &&
+          candidate.getBlob().getDataAsString('UTF-8').startsWith('[GITHUB FAST HANDOFF')) {
+        file=candidate;
+      }
+    } catch(e) { /* Recreate if the recorded file disappeared. */ }
+  }
+  if (!file) {
+    const it=root.getFilesByName(name);
+    while (it.hasNext()) {
+      const candidate=it.next();
+      if (candidate.getMimeType()!==MimeType.PLAIN_TEXT) continue;
+      try {
+        if (candidate.getBlob().getDataAsString('UTF-8').startsWith('[GITHUB FAST HANDOFF')) {
+          file=candidate; break;
+        }
+      } catch(e) { /* Do not overwrite unrelated user content. */ }
+    }
+  }
+  if (!file) file=root.createFile(name,content,MimeType.PLAIN_TEXT);
+  else file.setContent(content);
+  return file.getId();
+}
+/**
+ * Update an existing mirrored Google Doc or plain text file in place.
+ * If a new mirror is needed, create PLAIN TEXT, never DocumentApp.create().
+ * This is also the quota-safe fallback for the slow full-mirror loop.
+ */
+function writeMirrorFileFast_(prev,folder,name,text) {
+  let file=null;
+  if (prev.driveId) {
+    try {
+      const candidate=DriveApp.getFileById(prev.driveId);
+      if (candidate.getName()===name) file=candidate;
+    } catch(e) { /* Existing ID missing; recover by exact mirror marker. */ }
+  }
+  if (!file) {
+    const it=folder.getFilesByName(name);
+    while (it.hasNext()) {
+      const candidate=it.next(), mime=candidate.getMimeType();
+      if (mime!==MimeType.PLAIN_TEXT && mime!==MimeType.GOOGLE_DOCS) continue;
+      try {
+        const existing=mime===MimeType.GOOGLE_DOCS ?
+          DocumentApp.openById(candidate.getId()).getBody().getText() :
+          candidate.getBlob().getDataAsString('UTF-8');
+        if (existing.startsWith('[GITHUB MIRROR｜AUTO-GENERATED｜DO NOT EDIT HERE]')) {
+          file=candidate; break;
+        }
+      } catch(e) { /* Never adopt an unrelated or unreadable file. */ }
+    }
+  }
+  if (!file) {
+    file=folder.createFile(name,text,MimeType.PLAIN_TEXT);
+    return {id:file.getId(),mime:MimeType.PLAIN_TEXT};
+  }
+  const mime=file.getMimeType();
+  if (mime===MimeType.GOOGLE_DOCS) {
+    const doc=DocumentApp.openById(file.getId());
+    doc.getBody().setText(text);
+    doc.saveAndClose();
+  } else if (mime===MimeType.PLAIN_TEXT) {
+    file.setContent(text);
+  } else {
+    throw Error('Unsupported existing mirror MIME: '+mime);
+  }
+  return {id:file.getId(),mime:mime};
+}
+
 function syncCore_() {
   const lock = LockService.getScriptLock();
   if (!lock.tryLock(10000)) return { status: 'SKIPPED_LOCK_BUSY' };
@@ -92,9 +360,9 @@ function syncCore_() {
     // eight identical failures every run. No manifest entry is marked CURRENT.
     const pauseUntilMs = Date.parse(state.docsCreateQuotaPauseUntil || '');
     const coolingDown = Number.isFinite(pauseUntilMs) && Date.now() < pauseUntilMs;
+    let docsCreationPaused = coolingDown;
     let pausedForDocsQuotaThisRun = false;
     for (const entry of pending) {
-      if (coolingDown) break;
       if (updated + failed >= cfg.maxFilesPerRun || Date.now() - started > cfg.maxTimeMs) break;
       const rel = entry.path.slice(cfg.prefix.length);
       try {
@@ -107,7 +375,20 @@ function syncCore_() {
         const dest = getOrCreateSubfolder_(root, dir, folderCache);
         const prev = state.files[rel] || {};
         const wrapped = makeMirrorText_(entry, head.sha, raw);
-        const saved = writeMirrorFile_(prev, dest, name, wrapped, cfg.maxDocsChars);
+        let saved;
+        if (docsCreationPaused) saved = writeMirrorFileFast_(prev,dest,name,wrapped);
+        else {
+          try { saved = writeMirrorFile_(prev,dest,name,wrapped,cfg.maxDocsChars); }
+          catch(writeErr) {
+            if (!isDailyDocsCreateQuotaError_(writeErr)) throw writeErr;
+            docsCreationPaused=true;
+            pausedForDocsQuotaThisRun=true;
+            state.docsCreateQuotaPauseUntil = new Date(Date.now()+25*60*60*1000).toISOString();
+            // Under Docs daily CREATE quota, do not retry create; mirror this
+            // source as plain text or update an existing document instead.
+            saved = writeMirrorFileFast_(prev,dest,name,wrapped);
+          }
+        }
         state.files[rel] = {
           driveId: saved.id,
           blobSha: entry.sha,
@@ -134,7 +415,6 @@ function syncCore_() {
       }
       // Resumable progress: survive a provider timeout after each attempted file.
       if ((updated + failed) % 2 === 0) saveState_(manifestFile,state);
-      if (pausedForDocsQuotaThisRun) break;
     }
     // Preserve deleted sources as explicitly archived historical data; never erase.
     let archived = 0;
@@ -176,7 +456,7 @@ function syncCore_() {
     if (unfinished===0) removeTrigger_('syncDrain');
     else ensureTrigger_('syncDrain',5);
     return {status: unfinished===0 ? 'COMPLETE' :
-      (coolingDown || pausedForDocsQuotaThisRun ? 'DOCS_CREATE_QUOTA_COOLDOWN' : 'PARTIAL'), head:head.sha,
+      (coolingDown || pausedForDocsQuotaThisRun ? 'PARTIAL_PLAIN_TEXT_FALLBACK' : 'PARTIAL'), head:head.sha,
       total: matching.length, current:matching.length-unfinished, pending:unfinished,
       updated, failed, archived, bytes, errors:errors.slice(0,8),
       docsCreateQuotaPauseUntil:state.docsCreateQuotaPauseUntil || null};
