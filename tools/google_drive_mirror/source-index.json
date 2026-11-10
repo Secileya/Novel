@@ -3,8 +3,8 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "8609f12654f0e2ff2a3ea991c25d3ebd3ef6cd33",
-  "sourceTreeSha": "ce21e41832aa37aebd0598d0d9a6c85dbee16e51",
+  "sourceCommit": "a53c4fb6940474c89325e984f8b310724761413a",
+  "sourceTreeSha": "0f3312679a92ee4764f32203f21626bbb9188a90",
   "files": [
     {
       "path": "小說/巨構世界（法月懷造物）/000_專案交接.md",
@@ -390,6 +390,16 @@
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_來源覆蓋率與完成度口徑.md",
       "sha": "d26849e6fd0c2dc082ba70aaf9dcdc2cd81bb822",
       "size": 6759
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_分片讀取.mjs",
+      "sha": "c4666f103103ca90ea582614f830390673705c75",
+      "size": 4324
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
+      "sha": "b41f78adf005dff2b965988737aba45f87c92edd",
+      "size": 255
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
