@@ -13,6 +13,17 @@
       "claim_count": 72,
       "graph_relations": 144,
       "note": "New source data stored in independent Git Blob; legacy monolithic JSON ledgers immutable."
+    },
+    {
+      "path": "20261110_第二十三批3份_021_022_023_全文語義v2.json",
+      "git_blob_sha": "9304f4943f18bdece45f8fb277154d0a697d093b",
+      "batch": "BATCH23",
+      "source_count": 3,
+      "original_lines": 380,
+      "semantic_sections": 37,
+      "claim_count": 39,
+      "graph_relations": 78,
+      "note": "Three sources cross-file-authority checked; old giant ledgers remain immutable."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."

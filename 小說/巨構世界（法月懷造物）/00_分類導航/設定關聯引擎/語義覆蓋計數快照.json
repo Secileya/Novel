@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "全庫335份之中105份已記錄編輯性整檔語義審核並通過CI，230份待審。證據來自唯讀舊台帳＋SHA分片，不是作者Canon批准；原圖片若未保存，不冒稱實讀。",
+  "warning": "108/335為已登記並等待第23批CI的編輯性整檔審核，其中新增加3份歷史164來源；227待審。外部參考創作方向非正史。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,17 +170,17 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 3202,
-    "audited_original_quote_anchors": 3393,
+    "audited_batched_claims": 3241,
+    "audited_original_quote_anchors": 3432,
     "original_archive_09_files": 5,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第22批4份以獨立SHA分片驗證成功；105/335、待230。舊總帳JSON保留未改，2026-11-10 GitHub CI https://github.com/Secileya/Novel/actions/runs/42759972095。正式0章PREWRITE HOLD。",
+    "limitations": "第23批3份380行、37段與39條SHA行錨已提交分片；CI尚待核實。總計108/335、待227；歷史171仍49/171，正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
-    "all_source_full_file_editorial_accepted_pending_ci": 105,
-    "all_source_full_file_editorial_pending": 230
+    "all_source_full_file_editorial_accepted_pending_ci": 108,
+    "all_source_full_file_editorial_pending": 227
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
