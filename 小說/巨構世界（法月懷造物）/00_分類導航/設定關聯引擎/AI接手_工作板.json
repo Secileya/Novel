@@ -25,16 +25,16 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第20批10份已經GitHub CI 42752714779驗證成功；累積91/335、尚餘244；Gemini第一二章仍候選、正式0章PREWRITE HOLD。",
-    "targeted_audit_records": 2859,
-    "targeted_audit_verified_quotes": 3050,
-    "full_file_editorial_accepted": 37,
-    "full_file_editorial_remaining": 134,
+    "important": "第21批10份新增證據已登記101/335、待234；本批CI仍待成功。原第20批91份CI已成功，正式0章PREWRITE HOLD。",
+    "targeted_audit_records": 3130,
+    "targeted_audit_verified_quotes": 3321,
+    "full_file_editorial_accepted": 46,
+    "full_file_editorial_remaining": 125,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 91,
-    "all_source_full_file_editorial_remaining": 244,
-    "historical_164_full_file_acceptance": 54,
-    "historical_171_full_file_acceptance": 37,
+    "all_source_full_file_editorial_accepted": 101,
+    "all_source_full_file_editorial_remaining": 234,
+    "historical_164_full_file_acceptance": 55,
+    "historical_171_full_file_acceptance": 46,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -80,8 +80,8 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 91,
-        "pending": 244,
+        "verified_complete": 101,
+        "pending": 234,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -89,7 +89,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
-        "stage": "BATCH20_10_CI_VERIFIED",
+        "stage": "BATCH21_10_COMMITTED_PENDING_CI",
         "last_verified_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42752714779",
         "cross_source_next_batch": [
@@ -98,25 +98,30 @@
           "03_人物關係與語感/104_使用者轉貼研究_莉雅多情境語體與艾莉維亞自然對話移植.md",
           "03_人物關係與語感/106_參考研究_方九莉雅雙向情緒先行_身體本能_死亡復歸與共同承擔.md"
         ],
-        "historical_164_accepted": 54,
-        "historical_171_accepted": 37,
+        "historical_164_accepted": 55,
+        "historical_171_accepted": 46,
         "last_batch_files": [
-          "02_地圖拓撲與交通/128_T交通可達性證據層V01_三套候選路網與去返核驗.md",
-          "02_地圖拓撲與交通/130_V05主升程功能分層_真正最高層目標與起點以下深構.md",
-          "待定正文/Gemini排版全文/153_G1_懸艙開箱日_設定與第一章_完整排版.md",
-          "待定正文/Gemini排版全文/154_G2_懸艙開箱日_世界層地圖與第一章_完整排版.md",
-          "待定正文/Gemini排版全文/155_G3_十噸重的帳單_地圖與第二章_完整排版.md",
-          "02_地圖拓撲與交通/157_Gemini宏觀地圖全版本鏈_W01十二區_W02至頂層_終焉獨立性.md",
-          "06_敘事規劃與工作流/159_Gemini下一階段八十題與創作優先級_研究任務清單.md",
-          "08_交接勘誤與決議/160_Gemini整合後全庫對照稽核_矛盾過時與修正待辦.md",
-          "08_交接勘誤與決議/167_Gemini早期原話回補驗收_來源覆蓋_仍不可宣稱逐字備份範圍.md",
-          "06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md"
+          "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+          "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+          "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+          "00_分類導航/2026-11-05_巨構GitHub完整接手_最新狀態稽核_非正史.md",
+          "00_分類導航/2026-11-05_晚間接手增量_3b8fe7_非正史.md",
+          "00_分類導航/2026-11-08_GitHub即時接手核對_8005072_非正史.md",
+          "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+          "00_分類導航/GitHub提交與PR合併_作者指定工作規則_2026-11-05.md",
+          "00_分類導航/README.md",
+          "01_世界本體與文明/20261108_不思議迴廊由Celeste親自創造_作者明確確認.md"
         ],
-        "last_batch_full_lines": 1489,
-        "last_batch_sections": 82,
-        "last_batch_new_claims": 367,
-        "last_batch_new_anchors": 367,
-        "next_batch": [],
+        "last_batch_full_lines": 717,
+        "last_batch_sections": 62,
+        "last_batch_new_claims": 271,
+        "last_batch_new_anchors": 271,
+        "next_batch": [
+          "01_世界本體與文明/001_世界尺度與空間.md",
+          "01_世界本體與文明/002_視覺美學與龐克.md",
+          "01_世界本體與文明/004_群落社會與知識.md",
+          "01_世界本體與文明/005_生存敵人與裝備.md"
+        ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
           "target_batch_files": "up to 12 guided by approx 2600 lines, adjust for risk",
@@ -324,6 +329,35 @@
           "skipped_already_accepted": [],
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42752714779",
           "batch_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb"
+        },
+        "acceleration_batch_21": {
+          "stage": "COMMITTED_PENDING_CI",
+          "source_count": 10,
+          "source_names": [
+            "05_場景視覺與參考/007_參考作品與圖片沿革.md",
+            "05_場景視覺與參考/047_外部研究_相似作品架構比較與巨構世界轉化候選.md",
+            "05_場景視覺與參考/052_候選實作_作品戰鬥事件研究_懸潮港外部路網與社會生態.md",
+            "00_分類導航/2026-11-05_巨構GitHub完整接手_最新狀態稽核_非正史.md",
+            "00_分類導航/2026-11-05_晚間接手增量_3b8fe7_非正史.md",
+            "00_分類導航/2026-11-08_GitHub即時接手核對_8005072_非正史.md",
+            "00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+            "00_分類導航/GitHub提交與PR合併_作者指定工作規則_2026-11-05.md",
+            "00_分類導航/README.md",
+            "01_世界本體與文明/20261108_不思議迴廊由Celeste親自創造_作者明確確認.md"
+          ],
+          "source_lines": 717,
+          "sections": 62,
+          "claims": 271,
+          "source_anchors": 271,
+          "nonCanon_graph_links": 542,
+          "upgraded_prior_targeted": [
+            7,
+            47,
+            52
+          ],
+          "accepted_total_registered": 101,
+          "pending_total_registered": 234,
+          "ci_run_url": null
         }
       }
     },
@@ -594,17 +628,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch20",
+    "task": "NEXT-009 batch21",
     "source_files_attested_this_turn": 10,
-    "original_lines_reviewed": 1489,
-    "review_sections": 82,
-    "atomic_findings": 367,
-    "original_line_anchors": 367,
-    "nonCanon_graph_links": 734,
-    "all_source_accepted": 91,
-    "all_source_pending": 244,
-    "state": "COMPLETE__COMMIT_CI_VERIFIED",
-    "notes": "第20批10份GitHub CI驗證成功，既有81份保留，累積91/335。Gemini候選正文非正式章、原始TXT G1-G3與後出來源分層。",
+    "original_lines_reviewed": 717,
+    "review_sections": 62,
+    "atomic_findings": 271,
+    "original_line_anchors": 271,
+    "nonCanon_graph_links": 542,
+    "all_source_accepted": 101,
+    "all_source_pending": 234,
+    "state": "COMMITTED_PENDING_CI",
+    "notes": "先前第20批91份已CI成功；本批檔案不重複，007/047/052保留先前SRC-171原命題，不擅升Canon。",
     "most_recent_verified_commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
     "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42752714779"
   },
@@ -625,13 +659,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH20_10_CI_VERIFIED",
-    "scope": "第20批10份來源、原文1489行、82段、367條SHA行錨、734條非Canon檢索關聯；GitHub CI驗證成功。",
-    "commit": "504e7edde69d38045e47d075b4d8ab1bb55ee6cb",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42752714779",
-    "not_finished": "其餘244份仍待完整編輯性語義審核。Gemini G1-G3原始TXT保存在Gemini原稿，正式0章PREWRITE HOLD；CI只驗證既定結構與可追溯性。",
-    "next_step": "第21批重新由全量來源待審來源挑選，注意176後出稽核與原始G系列，不能重做已登記文件。"
+    "stage": "BATCH21_10_COMMITTED_PENDING_CI",
+    "scope": "第21批10份來源717行、62段、271筆SHA原文錨與542條非Canon圖關聯；007/047/052局部紀錄無損升級，CI待完成。",
+    "commit": "GIT_COMMIT_PENDING",
+    "ci_result": "pending",
+    "ci_run_url": null,
+    "not_finished": "本批新提交待CI，尚有234份未整檔審核；正式0章，PREWRITE HOLD。",
+    "next_step": "驗證新提交CI成功後將工作板轉為VERIFIED；下一批001/002/004/005依後出來源核查。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -650,6 +684,7 @@
     "00_分類導航/設定關聯引擎/20261110_第十七批十份_初章舊路復歸小生物混居與外貌_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第十八批四份_109_110_112_113開篇與節點路網_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第十九批11份_115至126不含118_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第二十批10份_128至169_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第二十批10份_128至169_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261110_第二十一批10份_007047052與交接_全文語義v2.json"
   ]
 }
