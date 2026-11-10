@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "B29重審6份721行221條原文命題、CI 42792369866成功；B30新重審6份713行249條具體原文命題提交待CI，147/335僅為待核登記，正式成功仍141。",
+    "important": "本對話受污染B29/30已撤回。重新編輯性整檔審讀兩批12份1434行470命題，B29設定CI 42792369866成功、B30設定CI 42794800399成功；147/335實際通過機械CI，188待審。未經作者Canon採案。",
     "targeted_audit_records": 4008,
     "targeted_audit_verified_quotes": 4199,
     "full_file_editorial_accepted": 49,
@@ -91,9 +91,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "B25/26的12份舊來源已補強48四類具體反問、43具體後出影響並CI成功；B27/28新增兩批12個未審來源1519行131命題262非Canon邊CI成功，135/335、200待審。",
-        "stage": "BATCH30_REDO_6_SUBMITTED_PENDING_CI",
-        "last_verified_commit": "bb45c1125c85a64344a5dbb54c554bc6688748ec",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42781284588",
+        "stage": "BATCH30_REDO_6_CI_VERIFIED",
+        "last_verified_commit": "69033523eee67b09a93d9a4ba37e1d9faecda136",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42794800399",
         "cross_source_next_batch": [],
         "historical_164_accepted": 86,
         "historical_171_accepted": 49,
@@ -503,7 +503,7 @@
           "accepted_registered": 141
         },
         "acceleration_batch_30": {
-          "stage": "SUBMITTED_PENDING_CI__REDONE_FROM_PRIMARY_SOURCES",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 6,
           "source_lines": 713,
           "sections": 74,
@@ -514,7 +514,11 @@
           "pending_registered": 188,
           "shard_sha": "8c84cfb31af9ea5ecbf989720bc7fe9b513a2449",
           "qa_method": "full source reading, individual material points and source-specific reverse QA, 011/055 corrections explicit",
-          "previous_unverified_shard": "WITHDRAWN_NOT_COUNTED"
+          "previous_unverified_shard": "WITHDRAWN_NOT_COUNTED",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42794800399",
+          "index_ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42794800641",
+          "commit": "69033523eee67b09a93d9a4ba37e1d9faecda136",
+          "accepted_registered": 147
         }
       }
     },
@@ -794,8 +798,8 @@
     "nonCanon_graph_links": 470,
     "all_source_accepted": 147,
     "all_source_pending": 188,
-    "state": "B29_CI_VERIFIED__B30_REGISTERED_PENDING_CI__NON_CANON",
-    "notes": "舊批29/30污染分片從main移除，本輪以原文獨立新做B29/B30。B29遠端CI已通過，B30提交待CI。"
+    "state": "BATCH29_AND_B30_REDO_CI_VERIFIED__NON_CANON",
+    "notes": "第29與30批共12份均從原文重做，兩批設定CI與Drive索引CI成功，原受污染157條模板命題/314關聯已從有效Manifest撤出。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -815,13 +819,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH30_REDO_6_SUBMITTED_PENDING_CI",
-    "scope": "本輪撤銷受污染B29/30；重讀B29六份721行221筆證據已CI成功，B30六份713行249筆證據重新提交待CI。合計12份1434行470筆原文材料和470筆非Canon可檢索關聯。",
-    "commit": "e1f4eab46f11222a561bea3b5ae829d74afcfa91",
-    "ci_result": "pending",
-    "ci_run_url": "",
-    "not_finished": "第30批CI尚未核實成功，工作板147/335僅為待驗登記；真正已CI成功141/335。正式小說0章PREWRITE HOLD。",
-    "next_step": "先讀B30遠端CI；如果失敗取job log修復；成功後寫回verified狀態，再下一批073/076/095/097/098/099。"
+    "stage": "BATCH30_REDO_6_CI_VERIFIED",
+    "scope": "撤回前輪失格B29/30後，本輪從原文重做B29六份721行221命題、B30六份713行249命題，兩批共12份1434行470個材料證據與470限域非Canon圖邊；各自設置CI及Drive索引CI成功。",
+    "commit": "69033523eee67b09a93d9a4ba37e1d9faecda136",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42794800399",
+    "not_finished": "仍有188份全庫來源未完成整檔審核，正式小說0章 PREWRITE HOLD；CI只核機械一致性，不等於作者正式Canon採案。",
+    "next_step": "第31批先完整歷史防重預檢、獨立逐檔閱讀073/076/095/097/098/099，再按S0-S4與每批CI驗收，不再啟動大量瀏覽器代理。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
