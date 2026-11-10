@@ -79,6 +79,17 @@
       "claim_count": 58,
       "graph_relations": 116,
       "note": "Second consecutive six unique sources; environment/transport and external reference authority separated; awaiting CI."
+    },
+    {
+      "path": "20261110_第二十九批_原文重審6份_001_002_004_005_011_072_全文語義v2.json",
+      "git_blob_sha": "41d9c3d12c56d3af1b082ebbc8e4e00bdbf75a04",
+      "batch": "BATCH29_REDO",
+      "source_count": 6,
+      "original_lines": 721,
+      "semantic_sections": 83,
+      "claim_count": 221,
+      "graph_relations": 221,
+      "note": "All 6 source files independently reread and 221 specific source-anchored material judgments; previously contaminated shard removed, new CI pending."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."

@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "B25/26 QA補強及B27/28兩批12份新全文都經Actions成功；累計135/335、待200，正式0章PREWRITE HOLD。",
+  "warning": "B29重做待CI，141/335為未核實登記，194待審；PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,17 +170,18 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 3538,
-    "audited_original_quote_anchors": 3729,
+    "audited_batched_claims": 3759,
+    "audited_original_quote_anchors": 3950,
     "original_archive_09_files": 5,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "B27/28原子提交bb45c112與CI 42781284588成功，來源由123升至135、剩200；B25/26舊12份QA修補另經CI成功且不重複計數；圖關聯僅非Canon相關性。",
+    "limitations": "先前第29/30批不合格資料已撤回；第29批完全重新審稿六份721行，221條實質命題等CI。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
-    "all_source_full_file_editorial_accepted_pending_ci": 135,
-    "all_source_full_file_editorial_pending": 200
+    "all_source_full_file_editorial_accepted_pending_ci": 141,
+    "all_source_full_file_editorial_pending": 194,
+    "historical_164_accepted": 92
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
