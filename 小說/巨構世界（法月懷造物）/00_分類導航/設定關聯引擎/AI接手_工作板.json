@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第21批10份101/335已取得CI成功，剩234份；原始檔保留，正式0章PREWRITE HOLD；CI只驗證機械結構與可追溯性，不表示作者Canon。",
+    "important": "第21批101/335已經CI核實。第22批093/085/086/108共1,797行、72段的來源行錨預審卡已入庫，但尚未列入FULL_FILE_EDITORIAL_ATTESTED，待審仍234。正式0章PREWRITE HOLD。",
     "targeted_audit_records": 3130,
     "targeted_audit_verified_quotes": 3321,
     "full_file_editorial_accepted": 46,
@@ -359,6 +359,27 @@
           "pending_total_registered": 234,
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42755107686",
           "ci_repair_commit": "2a813b665208a6f45c8cca26f10ff1e719491701"
+        },
+        "acceleration_batch_22": {
+          "stage": "SOURCE_ANCHOR_CARDS_RECORDED__NOT_FULL_FILE_ACCEPTED",
+          "source_count": 4,
+          "source_names": [
+            93,
+            85,
+            86,
+            108
+          ],
+          "source_lines": 1797,
+          "contiguous_sections_with_grounded_quotes": 72,
+          "pre_attestation_cards": [
+            "00_分類導航/設定關聯引擎/20261110_B22_93_原文行錨與語義復核待簽.json",
+            "00_分類導航/設定關聯引擎/20261110_B22_85_原文行錨與語義復核待簽.json",
+            "00_分類導航/設定關聯引擎/20261110_B22_86_原文行錨與語義復核待簽.json",
+            "00_分類導航/設定關聯引擎/20261110_B22_108_原文行錨與語義復核待簽.json"
+          ],
+          "verified_complete_unchanged": 101,
+          "pending_unchanged": 234,
+          "what_remains": "整檔語義證書、後修依賴SHA、命題索引及雙向圖、CI後再計數"
         }
       }
     },
@@ -629,19 +650,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch21",
-    "source_files_attested_this_turn": 10,
-    "original_lines_reviewed": 717,
-    "review_sections": 62,
-    "atomic_findings": 271,
-    "original_line_anchors": 271,
-    "nonCanon_graph_links": 542,
+    "task": "NEXT-009 batch22 intake",
+    "source_files_attested_this_turn": 0,
+    "original_lines_reviewed": 1797,
+    "review_sections": 72,
+    "atomic_findings": 0,
+    "original_line_anchors": 72,
+    "nonCanon_graph_links": 0,
     "all_source_accepted": 101,
     "all_source_pending": 234,
-    "state": "COMPLETE__COMMIT_CI_VERIFIED",
-    "notes": "第21批10份101/335驗收，修復語義QA負向樣本順序依賴後成功通過CI。其他234份未審；093/085/086/108已有非Canon檢查點但未全文簽證。",
-    "most_recent_verified_commit": "2a813b665208a6f45c8cca26f10ff1e719491701",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42755107686"
+    "state": "SOURCE_ANCHORED_REVIEW_CARDS_COMMITTED__NOT_ATTESTED",
+    "notes": "4份來源各自建立Git SHA行號語義復核卡，正式全文驗收台帳仍101/335，未升Canonical。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -660,13 +679,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH21_10_CI_VERIFIED",
-    "scope": "第21批10份來源717行、62段、271筆原文SHA錨及542條非Canon圖關聯，CI修復後通過。",
-    "commit": "2a813b665208a6f45c8cca26f10ff1e719491701",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42755107686",
-    "not_finished": "仍有234份來源等待整檔審核；第093/085/086/108目前只完成初步仲裁，尚未登記FULL_FILE_EDITORIAL_ATTESTED。正式小說0章 PREWRITE HOLD。",
-    "next_step": "以新增第21批原有工作成果為準，從未驗收來源組建第22批；093、085、086、108可優先續審並補全證據，避免重複計數。"
+    "stage": "BATCH22_4_SOURCE_CARDS_RECORDED_NOT_ATTESTED",
+    "scope": "第22批4份來源總1,797行、72段；原文SHA、行號及版本界線審查卡已入GitHub，正式台帳未新增驗收。",
+    "commit": "37bd29a及097e430、e1d16bf、df4d585、baa6b5d為分段檢查點",
+    "ci_result": "pending",
+    "ci_run_url": null,
+    "not_finished": "四份尚待整檔正式簽證、命題到既有圖譜雙向連結、後出依賴SHA驗證；其餘未驗收234份。",
+    "next_step": "讀4張B22_093/085/086/108審核卡接續正式整檔語義驗收，不重複原始閱讀；來源或後修SHA變動先撤回。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
