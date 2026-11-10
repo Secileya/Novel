@@ -3,14 +3,39 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "d52daf73dc06d945ecfdd3a103c7db4156e15fc0",
-  "sourceTreeSha": "ba3ad753dd7eab7678d8398e016ff4114c14e0f5",
-  "previousSourceCommit": "534b44cdc1cee6b434bb5eca0aefed4bf5d54dda",
+  "sourceCommit": "c8650ee6458d6c66cd626f4d0e1c79689c6edab6",
+  "sourceTreeSha": "804bc9b4b2b2b6558bd0ee4fce46bca651e4bee3",
+  "previousSourceCommit": "d52daf73dc06d945ecfdd3a103c7db4156e15fc0",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md",
-      "sha": "ea1f586fb3df2b48946c836784c9baad543d7440",
-      "change": "added"
+      "path": "小說/巨構世界（法月懷造物）/000_導覽與狀態.md",
+      "sha": "37e0be0a077735093d205f5bb8e470744f4e9797",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/000_現行決策與主題索引.md",
+      "sha": "196cf77bba5c17fab1f1ce2c49c6e7256035ae82",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI_每輪檢索操作與限制.md",
+      "sha": "f147b79f502508d0c752663d6d18228d0ab12fa4",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/README.md",
+      "sha": "9879a378c9109c3e533a0c22304fe8b253438419",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
+      "sha": "d70e089998b79e168d30eade9f28e9d17fe55a30",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
+      "sha": "bf2babfa7382823ad97fda68ff9895d56fe3c113",
+      "change": "modified"
     }
   ],
   "removedFiles": [],
@@ -22,13 +47,13 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/000_導覽與狀態.md",
-      "sha": "e4059b5528d8d51b78def375a2f12d5948a72e40",
-      "size": 134257
+      "sha": "37e0be0a077735093d205f5bb8e470744f4e9797",
+      "size": 135224
     },
     {
       "path": "小說/巨構世界（法月懷造物）/000_現行決策與主題索引.md",
-      "sha": "38046eb30d006c454135a973640634ec550b846f",
-      "size": 162455
+      "sha": "196cf77bba5c17fab1f1ce2c49c6e7256035ae82",
+      "size": 163238
     },
     {
       "path": "小說/巨構世界（法月懷造物）/000_舊設定寶庫_接手必讀_20261108.md",
@@ -482,8 +507,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI_每輪檢索操作與限制.md",
-      "sha": "15ecd7289e15c271884f612f1461d721342d7487",
-      "size": 11378
+      "sha": "f147b79f502508d0c752663d6d18228d0ab12fa4",
+      "size": 12066
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_來源覆蓋率與完成度口徑.md",
@@ -1947,18 +1972,18 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/README.md",
-      "sha": "829b78c4324205cfc99e96e1e4f242c4cb1b030a",
-      "size": 21002
+      "sha": "9879a378c9109c3e533a0c22304fe8b253438419",
+      "size": 22092
     },
     {
       "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
-      "sha": "7b24c97588738ef7d2987d203459e91208411f4f",
-      "size": 14681
+      "sha": "d70e089998b79e168d30eade9f28e9d17fe55a30",
+      "size": 15615
     },
     {
       "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
-      "sha": "303fb7a121d47bfe8f82d283e4c6b65ed6146954",
-      "size": 7543
+      "sha": "bf2babfa7382823ad97fda68ff9895d56fe3c113",
+      "size": 8385
     },
     {
       "path": "小說/巨構世界（法月懷造物）/README.md",
