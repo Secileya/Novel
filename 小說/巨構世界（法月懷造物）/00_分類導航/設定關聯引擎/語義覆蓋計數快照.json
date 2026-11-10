@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第25批成功；第26批去重（088換013）後登記123/335、待212，修復CI待驗。正式0章PREWRITE HOLD。",
+  "warning": "第25、26批皆經Actions成功驗證，123/335、212待審；B26來源088重複已替換013，正式0章PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,7 +176,7 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "B26已重新調整原文來源，013替換已驗收088；六份837行、123/335待CI，正式0章；不改大總帳。",
+    "limitations": "B26去重修復提交f4530919與CI42774871239成功；全部123/335已審、212待審；非Canon、舊大總帳唯讀。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
     "all_source_full_file_editorial_accepted_pending_ci": 123,
