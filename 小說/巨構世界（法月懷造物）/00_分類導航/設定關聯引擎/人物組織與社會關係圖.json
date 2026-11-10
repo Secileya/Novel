@@ -363,6 +363,237 @@
         "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md"
       ],
       "note": "居民政府與智慧龜宿主本人可能為兩個不同主權／自主性主體"
+    },
+    {
+      "id": "person:gesang",
+      "name": "葛桑",
+      "kind": "person_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "折索集市調度，退休種菜的丈夫、墊薪與設備磨耗是候選背景；不強制見Celeste。",
+      "aliases": [
+        "葛桑"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "git_blob_sha": "4dc3efb708643fd3cda8c85d67e52427e9936780",
+          "line": 237,
+          "quote": "第63份葛桑是折索集市的老貨索調度商，丈夫退休種菜，曾替失業工人墊薪，同時可能隱瞞設備磨耗。她與 Celeste 的交集可以只是**某位客人留下的一張古老旅行單據**，也可以一點都沒有。"
+        }
+      ]
+    },
+    {
+      "id": "person:mudong",
+      "name": "牧冬",
+      "kind": "person_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "懸潮港票據與驗收專才候選，有外航線姐姐；不定已發生的保險爭議。",
+      "aliases": [
+        "牧冬"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "git_blob_sha": "4dc3efb708643fd3cda8c85d67e52427e9936780",
+          "line": 243,
+          "quote": "第63份喬芮想讓晴紋城步道真正好用，女兒要到外地求學；牧冬在懸潮港懂合約、票據與船期，姐姐在外航線工作。假設兩人分別處理「前往祭壇的新旅客」造成的地方難題：喬芮要重設供不同生理居民使用的坡道，卻不能強拆住了三代人的舊樓；牧冬得處理遠征隊失約、虛假祭壇船票和真受傷旅客的保險爭議。"
+        }
+      ]
+    },
+    {
+      "id": "person:fuying",
+      "name": "芙纓",
+      "kind": "person_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "水生下弦應力維修師候選，護具磨肩與專業倫理不可縮成種族裝飾。",
+      "aliases": [
+        "芙纓"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "git_blob_sha": "4dc3efb708643fd3cda8c85d67e52427e9936780",
+          "line": 231,
+          "quote": "第63份芙纓是水生族群的下弦應力維修師，穿不合身的乾地護具會磨肩，仍想讓自己的實際專業被承認。假設她曾與遠征隊一起在巨大植物垂根間進行濕壓修復，遇到 Celeste 對某種稀有水生點心感到好奇。她們談的是水道和食物，Celeste 也許真的記住了她討厭不合身護具的小習慣。"
+        }
+      ]
+    },
+    {
+      "id": "person:qiaorui",
+      "name": "喬芮",
+      "kind": "person_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "晴紋城步道技師與女兒外學候選，不是女主能力原理導師。",
+      "aliases": [
+        "喬芮"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "git_blob_sha": "4dc3efb708643fd3cda8c85d67e52427e9936780",
+          "line": 243,
+          "quote": "第63份喬芮想讓晴紋城步道真正好用，女兒要到外地求學；牧冬在懸潮港懂合約、票據與船期，姐姐在外航線工作。假設兩人分別處理「前往祭壇的新旅客」造成的地方難題：喬芮要重設供不同生理居民使用的坡道，卻不能強拆住了三代人的舊樓；牧冬得處理遠征隊失約、虛假祭壇船票和真受傷旅客的保險爭議。"
+        }
+      ]
+    },
+    {
+      "id": "person:sangyu",
+      "name": "桑雨",
+      "kind": "person_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "孢羽風季測線與家人生計候選，地圖公開與繁殖地利益有張力。",
+      "aliases": [
+        "桑雨"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "git_blob_sha": "4dc3efb708643fd3cda8c85d67e52427e9936780",
+          "line": 225,
+          "quote": "第63份桑雨掌握孢羽風季與行路資訊，會寄錢給遠方家人；她不願把所有安全路線無條件公開。假設她找到一份古碑抄本，傳說曾有人在某段風季的空心巨根見過「引路少女」。一支外地大型商團願出高價購買那條線路。"
+        }
+      ]
+    },
+    {
+      "id": "person:liudeng",
+      "name": "留燈",
+      "kind": "person_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "遠路郵運綽號候選，真名性別族群年齡未決；職業責任不因見神消失。",
+      "aliases": [
+        "留燈"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "git_blob_sha": "4dc3efb708643fd3cda8c85d67e52427e9936780",
+          "line": 217,
+          "quote": "第63份設定留燈是可能不願永遠加入主角團的遠路郵運者。他／她對每封必須送達的信有自己的職業規則。假設某次與雙主角分別後，留燈走進一條只通偏遠居地的廢棄維修支路，在一個小站遇到正在讀舊明信片的 Celeste。"
+        }
+      ]
+    },
+    {
+      "id": "person:wenqiao",
+      "name": "聞橋",
+      "kind": "person_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "遠征測線領隊候選，隊員工資、路圖轉售死傷與商業利益；非固定主角隊友或終局Boss。",
+      "aliases": [
+        "聞橋"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "git_blob_sha": "4dc3efb708643fd3cda8c85d67e52427e9936780",
+          "line": 249,
+          "quote": "第69份聞橋是成熟遠路測線領隊，有隊員、工資、協力城邦、商業利益和過去公開草圖被改寫轉售導致死亡的傷痛。她可能接受某個古碑測線委託，因為古碑真保存了一段別人遺失的地形資訊；同時反對沒有實測依據的神話圖廣泛流通。"
+        }
+      ]
+    },
+    {
+      "id": "species:curtain_root_spider",
+      "name": "垂幕根蛛",
+      "kind": "species_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "多足伏擊、耐震絲、飽食護卵等均候選；名字尺寸材料起源未定。",
+      "aliases": [
+        "垂幕根蛛"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+          "git_blob_sha": "93ea19cdeaa8276aa2b954f9a89bc42407cabb5e",
+          "line": 64,
+          "quote": "**候選A「垂幕根蛛」**：以十數至數十公尺量級的多足節肢形態作視覺示例，會在垂葉與根莖交接處結耐震纖絲，等較大型獵物踏進觸發區後，從斷根外緣翻到路面。牠的絲可能先被某位老嚮導看到不是因為老嚮導全知，而是當地生態經驗；牠不見人就無限衝刺、也可能因飽食或護卵避戰。**名字、尺寸、絲的材料性質與物種起源未定**。"
+        }
+      ]
+    },
+    {
+      "id": "species:stem_cavity_hunter",
+      "name": "莖腔獵行獸",
+      "kind": "species_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "振動溫差獵行與幾何限制候選，未指派正式世界層。",
+      "aliases": [
+        "莖腔獵行獸"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+          "git_blob_sha": "93ea19cdeaa8276aa2b954f9a89bc42407cabb5e",
+          "line": 66,
+          "quote": "**候選B「莖腔獵行獸」**：在巨大內腔的支隧道長年巡獵，靠振動與溫差判斷目標。狹窄路段可能令大個體轉身困難，牠會等人進更寬的腔室，而不是無視身體幾何瞬間穿牆。路過商旅可以先聽到內壁傳出的撞擊、嗅到前次獵食殘渣，或注意到某段壁菌忽然全都閉合。"
+        }
+      ]
+    },
+    {
+      "id": "species:leaf_gap_wing",
+      "name": "葉隙襲翼",
+      "kind": "species_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "季節滑翔捕食候選，不是永久封路的固定敵人。",
+      "aliases": [
+        "葉隙襲翼"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+          "git_blob_sha": "93ea19cdeaa8276aa2b954f9a89bc42407cabb5e",
+          "line": 68,
+          "quote": "**候選C「葉隙襲翼」**：由樹冠或巨大葉面滑翔俯衝，主要獵食群棲小獸及中等採食者；某季因幼獸不足轉而襲擊暴露的纜橋工人。牠可能會隨季節遠離，不是永久封鎖一條道路的劇情怪物。"
+        }
+      ]
+    },
+    {
+      "id": "species:hook_branch_beast",
+      "name": "長鉤裂枝獸",
+      "kind": "species_candidate",
+      "authority": "ASSISTANT_CANDIDATE_NOT_CANON",
+      "note": "攀爬伏擊與深勾痕候選；不因命名而確立正式物種。",
+      "aliases": [
+        "長鉤裂枝獸"
+      ],
+      "source_paths": [
+        "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md"
+      ],
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+          "git_blob_sha": "93ea19cdeaa8276aa2b954f9a89bc42407cabb5e",
+          "line": 70,
+          "quote": "**候選D「長鉤裂枝獸」**：重型攀爬／伏擊生物，以前肢卡入裂枝夾角，等待大型食葉動物；牠在巨根表面留下深勾痕。地方孩童可能知道「有深痕的地方別走」，但外來探險者未必知道那是食性還是交通損傷。"
+        }
+      ]
     }
   ],
   "edges": [

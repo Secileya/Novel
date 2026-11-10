@@ -101,6 +101,17 @@
       "claim_count": 249,
       "graph_relations": 249,
       "note": "Redone from full original source and later corrections: 249 individually authored line-anchored material findings, no reuse of invalid former batch; awaiting CI."
+    },
+    {
+      "path": "20261110_第三十一批6份_073_076_095_097_098_099_全文語義v2.json",
+      "git_blob_sha": "a09bbbab48ccb35cb9e6db6db8c50db1d1968994",
+      "batch": "BATCH31",
+      "source_count": 6,
+      "original_lines": 916,
+      "semantic_sections": 79,
+      "claim_count": 223,
+      "graph_relations": 344,
+      "note": "六份全文及內容特定第二遍查漏、32項具體SHA依賴影響；051後出已選未發生狀態已仲裁，11個候選實體有原文證據；原稿與巨大總帳唯讀。待當批CI。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."

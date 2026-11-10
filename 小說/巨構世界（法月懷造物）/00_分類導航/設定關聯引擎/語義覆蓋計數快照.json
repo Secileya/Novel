@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第29、30批獨立重做並經GitHub Actions成功，147/335、188待審，0正式章。",
+  "warning": "第31批登記153／335，182待審；當批CI待核，不將登記數宣稱成功。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -123,7 +123,7 @@
   "legacy_barrier_records": 10,
   "gemini_barrier_records": 9,
   "transport_evidence_route_count": 12,
-  "people_and_institution_nodes": 26,
+  "people_and_institution_nodes": 37,
   "people_and_institution_relationships": 24,
   "cross_world_dependency_edges": 22,
   "notice_2026_11_09": "歷史 2026-11-09 來源第一至三批快照：335原始可查，156個歷史原子與41連結，164份有細粒度引用，171份已有用途卡但仍待全文語義審定。第四至六批定向核對55項147錨點，版本圖13節點；後續以當輪動態檢查為準。",
@@ -170,18 +170,18 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 4008,
-    "audited_original_quote_anchors": 4199,
+    "audited_batched_claims": 4231,
+    "audited_original_quote_anchors": 4422,
     "original_archive_09_files": 5,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "撤回舊受污染B29/30後自原文重做；B29兩項CI成功（42792369866/42792369992），B30兩項CI成功（42794800399/42794800641）。總147/335（AI編輯性驗收，非Canon），仍188待審。",
+    "limitations": "第31批本機待驗，新增六份916行；當批CI尚未成功，上次已核147／335。225個實際引文，其中主證據計數223，另2個版本仲裁補充錨點。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
-    "all_source_full_file_editorial_accepted_pending_ci": 147,
-    "all_source_full_file_editorial_pending": 188,
-    "historical_164_accepted": 98
+    "all_source_full_file_editorial_accepted_pending_ci": 153,
+    "all_source_full_file_editorial_pending": 182,
+    "historical_164_accepted": 104
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
