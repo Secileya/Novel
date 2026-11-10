@@ -1,5 +1,5 @@
-import {loadLedger} from './AI接手_分片讀取.mjs';
 #!/usr/bin/env node
+import {loadLedger} from './AI接手_分片讀取.mjs';
 /**
  * 巨構下一任AI的狀態入口：只讀；--status / --task NEXT / --task ID / --check。
  * 靜態工作板不會在程式執行時自動驗證遠端CI。必須依最新HEAD查Actions。

@@ -1,5 +1,5 @@
-import {loadLedger} from './AI接手_分片讀取.mjs';
 #!/usr/bin/env node
+import {loadLedger} from './AI接手_分片讀取.mjs';
 /** Full-file semantic editorial acceptance: mechanical proof, not author Canon. */
 import fs from 'node:fs';
 import {validateBatchQuality} from './批量審核_語義缺口與跨批影響.mjs';

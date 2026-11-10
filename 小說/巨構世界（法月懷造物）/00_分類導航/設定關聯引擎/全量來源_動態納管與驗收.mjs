@@ -1,5 +1,5 @@
-import {loadLedger,loadBridge} from './AI接手_分片讀取.mjs';
 #!/usr/bin/env node
+import {loadLedger,loadBridge} from './AI接手_分片讀取.mjs';
 /**
  * One evolving source universe, not a permanent 171-only backlog.
  * All current Git-committed source files are placed in the same editorial
