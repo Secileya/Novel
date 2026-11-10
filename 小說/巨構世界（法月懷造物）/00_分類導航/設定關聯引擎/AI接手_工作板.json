@@ -14,7 +14,7 @@
     "warning": "結構證據驗證不是作者Canon批准或語義絕對正確證明。"
   },
   "fact_snapshot": {
-    "raw_source_files": 343,
+    "raw_source_files": 344,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,17 +22,17 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 8,
+    "nine_folder_files": 9,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第34批新增12份，既有18份來源後修重驗不新增份數，183/343待當批CI；第33批歷史CI已成功。正式0章/PREWRITE HOLD。",
+    "important": "第34批新增12份，既有18份來源後修重驗不新增份數，183/344待當批CI；第33批歷史CI已成功。正式0章/PREWRITE HOLD。",
     "targeted_audit_records": 4848,
     "targeted_audit_verified_quotes": 5039,
     "full_file_editorial_accepted": 58,
     "full_file_editorial_remaining": 113,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 183,
-    "all_source_full_file_editorial_remaining": 160,
+    "all_source_full_file_editorial_remaining": 161,
     "historical_164_full_file_acceptance": 125,
     "historical_171_full_file_acceptance": 58,
     "all_source_progress_is_dynamic": true
@@ -83,7 +83,7 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 183,
-        "pending": 160,
+        "pending": 161,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -853,7 +853,7 @@
     "commit": null,
     "ci_result": "pending",
     "ci_run_url": null,
-    "not_finished": "183/343份已具現行驗收證據，待本次CI；160份待審，含第35批未登記暫存。正式0章/PREWRITE HOLD。",
+    "not_finished": "183/344份已具現行驗收證據，待本次CI；161份待審，含第35批未登記暫存。正式0章/PREWRITE HOLD。",
     "next_step": "當批CI成功後回寫，直接對下一批12份做最新HEAD防重與全文，不等待逐批指令。"
   },
   "audited_batch_paths": [
