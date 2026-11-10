@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第23批3份來源已於GitHub CI驗證成功，累計108/335、剩227；舊大檔總帳保留唯讀，增量分片有SHA校驗。正式小說0章PREWRITE HOLD；並非作者Canon採案。",
+    "important": "第23批CI已驗證108/335、尚227。第24批024/025/028共462行僅來源SHA與版本檢查點已提交，未增加整檔驗收；正式0章PREWRITE HOLD。",
     "targeted_audit_records": 3241,
     "targeted_audit_verified_quotes": 3432,
     "full_file_editorial_accepted": 49,
@@ -91,7 +91,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
-        "stage": "BATCH23_3_CI_VERIFIED",
+        "stage": "BATCH24_3_SOURCE_CHECKPOINT_NOT_ATTESTED",
         "last_verified_commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42760762656",
         "cross_source_next_batch": [],
@@ -388,6 +388,20 @@
           "shard_blob_sha": "9304f4943f18bdece45f8fb277154d0a697d093b",
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42760762656",
           "batch_commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e"
+        },
+        "acceleration_batch_24": {
+          "stage": "SOURCE_CHECKPOINT_NOT_ATTESTED",
+          "source_count": 3,
+          "source_names": [
+            24,
+            25,
+            28
+          ],
+          "source_lines": 462,
+          "accepted_this_batch": 0,
+          "accepted_total_unchanged": 108,
+          "pending_unchanged": 227,
+          "checkpoint": "00_分類導航/設定關聯引擎/20261110_第24批_024025028_原文來源與後出仲裁_待驗收.md"
         }
       }
     },
@@ -658,19 +672,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch23",
-    "source_files_attested_this_turn": 3,
-    "original_lines_reviewed": 380,
-    "review_sections": 37,
-    "atomic_findings": 39,
-    "original_line_anchors": 39,
-    "nonCanon_graph_links": 78,
+    "task": "NEXT-009 batch24 intake",
+    "source_files_attested_this_turn": 0,
+    "original_lines_reviewed": 462,
+    "review_sections": 0,
+    "atomic_findings": 0,
+    "original_line_anchors": 0,
+    "nonCanon_graph_links": 0,
     "all_source_accepted": 108,
     "all_source_pending": 227,
-    "state": "COMPLETE__COMMIT_CI_VERIFIED",
-    "notes": "第23批021/022/023以SHA分片完成3份整檔編輯性驗收，已核GitHub Actions；累計108/335，剩227。原始來源未改，0正式章 PREWRITE HOLD。",
-    "most_recent_verified_commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42760762656"
+    "state": "SOURCE_CHECKPOINT_COMMITTED__NOT_ATTESTED",
+    "notes": "本輪另有SyntaxError before commit；且來源索引Bot並行更新HEAD，已重新基於最新HEAD提交，不作強制覆寫。來源原稿不改。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -690,13 +702,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH23_3_CI_VERIFIED",
-    "scope": "第23批3份來源（021/022/023）380行、37連續段、39SHA行錨與78非Canon關聯，以獨立Git Blob SHA分片讀入。",
-    "commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42760762656",
-    "not_finished": "第23批正式編輯性驗收已通過GitHub CI。仍有227份來源待審；正式小說0章 PREWRITE HOLD；語義驗收不等於作者Canon。",
-    "next_step": "第24批先核查04_024、04_025、04_028的原文Git Blob SHA與最新後出修正；逐段建立來源引文和權威分層，成功才增加完成數。"
+    "stage": "BATCH24_3_SOURCE_CHECKPOINT_NOT_ATTESTED",
+    "scope": "第24批024/025/028來源462行，已核Git Blob SHA與後出修正，保存非正史預審檢查點；未完成整檔驗收。",
+    "commit": "4db896679e7f9d2d2391162186252473727b8a0b",
+    "ci_result": "pending",
+    "ci_run_url": null,
+    "not_finished": "仍有227份來源未通過整檔編輯性驗收；第24批3份尚缺逐段命題、非Canon雙向關聯與CI；正式0章 PREWRITE HOLD。",
+    "next_step": "依第24批檢查點完成024/025/028全行語義、後出SHA、四類反查和增量Blob/Manifest；成功CI後才計數。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
