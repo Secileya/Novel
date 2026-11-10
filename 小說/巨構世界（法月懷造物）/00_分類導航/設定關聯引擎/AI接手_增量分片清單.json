@@ -189,6 +189,17 @@
       "claim_count": 65,
       "graph_relations": 130,
       "note": "逐份原文＋後出181/183更正，48條第二遍反問；保留版本分線，候選不升正史。GitHub CI待查。；第38批後續修正第二條圖鏈為非Canon EVIDENCE_SCOPED，避免驗收失敗。；全圖65摘要對齊審核標題，避免重複端點。"
+    },
+    {
+      "path": "20261111_第三十九批12份_第五七章候選分線與主鐘擺_全文語義v2.json",
+      "git_blob_sha": "e9fa01ebb846e9f078abff51e62e882624287c75",
+      "batch": "BATCH39",
+      "source_count": 12,
+      "original_lines": 2317,
+      "semantic_sections": 89,
+      "claim_count": 89,
+      "graph_relations": 178,
+      "note": "G7R/G7R1、G8B/C/D/E、G9/A/B/C 12份全文、89條SHA行號與48條二遍反問，分支CI待驗證，候選不升Canon。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
