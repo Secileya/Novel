@@ -97,14 +97,17 @@ function syncQuick() {
       // The index builder records an SHA-based delta relative to its previous
       // published source index. On first upgrade, fall back only to SOURCES
       // ALREADY mirrored but outdated, not all 106+ historical backlog items.
-      const publishedDelta = Array.isArray(index.changedFiles) ? index.changedFiles :
-        index.files.filter(function(e) {
-          const p=e.path.slice(cfg.prefix.length), old=state.files[p];
-          return old && old.driveId && old.blobSha !== e.sha;
-        });
-      const newPaths = publishedDelta.map(function(e) {
+      const publishedDelta = Array.isArray(index.changedFiles) ? index.changedFiles : [];
+      // A skipped polling window can cover multiple index publications. Also
+      // compare previously CURRENT files with live hashes so no intervening
+      // change can vanish; do not add the historical SYNC_FAILED backlog.
+      const staleExisting = index.files.filter(function(e) {
+        const p=e.path.slice(cfg.prefix.length), old=state.files[p];
+        return old && old.status==='CURRENT' && old.driveId && old.blobSha!==e.sha;
+      });
+      const newPaths = uniquePaths_(publishedDelta.concat(staleExisting).map(function(e) {
         return e.path.slice(cfg.prefix.length);
-      }).filter(function(p) { return Boolean(filesByPath[p]); });
+      })).filter(function(p) { return Boolean(filesByPath[p]); });
       changes = newPaths;
       pending = uniquePaths_(newPaths.concat(pending));
       state.quickLaneIndexCommit = index.sourceCommit;
