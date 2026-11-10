@@ -23,7 +23,7 @@ const lines=[
  "",
  "- 工作板更新時間："+(board.updated_at||"未記錄"),
  "- 全庫整檔驗收登記："+accepted+"／"+total+"；待審："+pending+"。來源新增或版本失效時需重新掃描，不能永遠固定335。",
- "- 第"+String(delivered.task||"NEXT-009").replace(/[^0-9]/g,"")+"批／最新進度："+(last.stage||p.stage||"未知"),
+ "- 第"+(String(delivered.task||"NEXT-009").match(/batch\s*(\d+)/i)?.[1]||String(delivered.task||"NEXT-009").replace(/[^0-9]/g,""))+"批／最新進度："+(last.stage||p.stage||"未知"),
  "- CI："+(isVerified?"已由工作板記錄成功":"尚未完成當前批次成功確認；數字只能視為待核對提交狀態"),
  "- 最近一次驗證 URL："+(last.ci_run_url||p.last_ci||"未記錄"),
  "- 最新批次提交："+(last.commit||p.last_verified_commit||"未記錄"),

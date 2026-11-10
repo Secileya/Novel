@@ -36,6 +36,10 @@ jobs:
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九章封存五檔遷移.mjs'
       - name: Five-file limit, unchanged original source SHA, and linked audits
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九章封存五檔遷移.mjs'
+      - name: Sharded legacy ledger overlay syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_分片讀取.mjs'
+      - name: Sharded source and graph SHA integrity
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_分片讀取.mjs' --check --negative-test
       - name: Next AI handoff verifier syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs'
       - name: Machine-readable handoff board and source invariants
@@ -45,7 +49,8 @@ jobs:
       - name: Dynamic report separates coverage dimensions
         run: |
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --report > "$RUNNER_TEMP/mega-coverage.json"
-          node -e "const r=require(process.argv[1]), l=require(require('path').resolve(process.argv[2])), c=r.dynamic_coverage;if(c.raw_source_files!==c.direct_fine_grained_source_paths+c.source_role_backlog+c.new_auto_queued_source_files||c.targeted_reviewed_claims!==r.targeted_reviewed_findings||c.verified_source_quotes!==r.verified_exact_quotes||c.full_file_editorial_accepted!==l.accepted_editorial_file_count||c.full_file_editorial_remaining!==l.remaining_for_full_file_semantic_acceptance||c.all_sources_full_file_accepted+c.all_sources_full_file_pending!==c.raw_source_files||!String(c.full_file_semantic_review_completed).startsWith('EDITORIAL_ATTESTED'))process.exit(2)" "$RUNNER_TEMP/mega-coverage.json" '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json'
+          node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_分片讀取.mjs' --metrics > "$RUNNER_TEMP/mega-merged-ledger-metrics.json"
+          node -e "const r=require(process.argv[1]), l=require(require('path').resolve(process.argv[2])), c=r.dynamic_coverage;if(c.raw_source_files!==c.direct_fine_grained_source_paths+c.source_role_backlog+c.new_auto_queued_source_files||c.targeted_reviewed_claims!==r.targeted_reviewed_findings||c.verified_source_quotes!==r.verified_exact_quotes||c.full_file_editorial_accepted!==l.accepted_editorial_file_count||c.full_file_editorial_remaining!==l.remaining_for_full_file_semantic_acceptance||c.all_sources_full_file_accepted+c.all_sources_full_file_pending!==c.raw_source_files||!String(c.full_file_semantic_review_completed).startsWith('EDITORIAL_ATTESTED'))process.exit(2)" "$RUNNER_TEMP/mega-coverage.json" "$RUNNER_TEMP/mega-merged-ledger-metrics.json"
       - name: All current source files dynamic intake syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs'
       - name: All 335 plus future new source files are included in uniform full-file QA
