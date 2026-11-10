@@ -145,6 +145,17 @@
       "claim_count": 198,
       "graph_relations": 215,
       "note": "逐檔全文與四類內容特定二遍；作者/助手及後修逐項仲裁，具體SHA依賴與原生圖回接；原文、舊巨大總帳不改。待當批CI。"
+    },
+    {
+      "path": "20261111_第三十五批12份_交接勘誤與版本QA_暫存續接複核_全文語義v2.json",
+      "git_blob_sha": "3dca6b40b7035b6f8b4e11de88e146fc8ff59dbf",
+      "batch": "BATCH35",
+      "source_count": 12,
+      "original_lines": 791,
+      "semantic_sections": 68,
+      "claim_count": 267,
+      "graph_relations": 267,
+      "note": "逐檔全文與四類內容特定二遍；作者/助手及後修逐項仲裁，具體SHA依賴與原生圖回接；原文、舊巨大總帳不改。待當批CI。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
