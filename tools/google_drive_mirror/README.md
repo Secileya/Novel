@@ -1,3 +1,5 @@
+> **2026-11-10｜作者後出每輪來源刷新／跨 AI 交接規則**：鏡像只負責**同步變動檔案**，不會自動把它們注入 Gemini 對話。ChatGPT／Gemini 需要按[跨 AI 每輪讀取、候選正文前置與完整 Gemini 回貼保存 SOP](../../小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md)判斷要查哪些檔案。GPT 每次修改 GitHub 要附本題變更清單（路徑＋SHA＋相關正文／語氣／物件證據）；Gemini 新對話先看 `00_最新GitHub變更交接.txt` 和 manifest，再讀與本題相關的鏡像原文，不能只看一份列表就宣稱讀過。提交後還需等待／驗證鏡像同 SHA，`syncQuick` 不等於保證即時送達。作者 PO Gemini 原文先歸檔，QA／Canon 另層保存。
+
 # 《巨構世界》GitHub main → Stingray Google Drive 原文鏡像
 > **2026-11-10｜Gemini 隔日完整接手**：請優先閱讀 [HANDOFF_GEMINI_DRIVE_20261110.md](HANDOFF_GEMINI_DRIVE_20261110.md)，其中含 Apps Script v3 執行／鎖定／逾時處理、明天可直接傳給 Gemini 更新 Skill 的完整指令、跨對話讀檔測試及 NON-CANON 候選小說測試。GitHub 的修補**不會自動寫入使用者 Apps Script 編輯區**。
 
