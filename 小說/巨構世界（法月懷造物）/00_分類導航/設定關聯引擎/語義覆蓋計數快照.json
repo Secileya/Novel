@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "全庫108/335整檔編輯性驗收已成功通過第23批CI，227待審。作者確定的創作方向與已採納正史仍須區分。",
+  "warning": "第24批111/335僅登記待CI，尚224；正式小說0章PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,17 +170,17 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 3241,
-    "audited_original_quote_anchors": 3432,
+    "audited_batched_claims": 3280,
+    "audited_original_quote_anchors": 3471,
     "original_archive_09_files": 5,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第23批021/022/023新增3份SHA分片並通過GitHub CI，累計108/335、剩227；1.8MB與2.45MB舊總帳仍唯讀。正式0章PREWRITE HOLD。",
+    "limitations": "第24批SHA分片待Actions驗證；1.8MB語義大總帳及2.45MB圖橋仍唯讀，正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 49,
     "full_file_editorial_pending": 122,
-    "all_source_full_file_editorial_accepted_pending_ci": 108,
-    "all_source_full_file_editorial_pending": 227
+    "all_source_full_file_editorial_accepted_pending_ci": 111,
+    "all_source_full_file_editorial_pending": 224
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,

@@ -24,6 +24,17 @@
       "claim_count": 39,
       "graph_relations": 78,
       "note": "Three sources cross-file-authority checked; old giant ledgers remain immutable."
+    },
+    {
+      "path": "20261110_第二十四批3份_024_025_028_全文語義v2.json",
+      "git_blob_sha": "9b46070d3da7104e360352bdecff9892fcf60f11",
+      "batch": "BATCH24",
+      "source_count": 3,
+      "original_lines": 462,
+      "semantic_sections": 39,
+      "claim_count": 39,
+      "graph_relations": 81,
+      "note": "New v2 standalone SHA source/graph shard; immutable historical ledgers; awaiting CI"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."

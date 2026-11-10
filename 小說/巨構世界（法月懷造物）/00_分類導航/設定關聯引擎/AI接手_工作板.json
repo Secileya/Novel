@@ -25,15 +25,15 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第23批CI已驗證108/335、尚227。第24批024/025/028共462行僅來源SHA與版本檢查點已提交，未增加整檔驗收；正式0章PREWRITE HOLD。",
-    "targeted_audit_records": 3241,
-    "targeted_audit_verified_quotes": 3432,
+    "important": "B24：024、025、028共462行、39個分段、39來源命題與81條非Canon圖關聯已登記，待GitHub CI證實後才能稱111/335已驗收；正式0章PREWRITE HOLD。",
+    "targeted_audit_records": 3280,
+    "targeted_audit_verified_quotes": 3471,
     "full_file_editorial_accepted": 49,
     "full_file_editorial_remaining": 122,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 108,
-    "all_source_full_file_editorial_remaining": 227,
-    "historical_164_full_file_acceptance": 59,
+    "all_source_full_file_editorial_accepted": 111,
+    "all_source_full_file_editorial_remaining": 224,
+    "historical_164_full_file_acceptance": 62,
     "historical_171_full_file_acceptance": 49,
     "all_source_progress_is_dynamic": true
   },
@@ -82,34 +82,34 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 108,
-        "pending": 227,
+        "verified_complete": 111,
+        "pending": 224,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
-        "stage": "BATCH24_3_SOURCE_CHECKPOINT_NOT_ATTESTED",
+        "note": "B24 3份來源已登記SHA分片，CI未驗證。原檔與Canon未改。",
+        "stage": "BATCH24_3_COMMITTED_AWAITING_CI",
         "last_verified_commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42760762656",
         "cross_source_next_batch": [],
-        "historical_164_accepted": 59,
+        "historical_164_accepted": 62,
         "historical_171_accepted": 49,
         "last_batch_files": [
-          "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
-          "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
-          "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md"
-        ],
-        "last_batch_full_lines": 380,
-        "last_batch_sections": 37,
-        "last_batch_new_claims": 39,
-        "last_batch_new_anchors": 39,
-        "next_batch": [
           "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
           "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
           "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md"
+        ],
+        "last_batch_full_lines": 462,
+        "last_batch_sections": 39,
+        "last_batch_new_claims": 39,
+        "last_batch_new_anchors": 39,
+        "next_batch": [
+          "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -390,18 +390,16 @@
           "batch_commit": "31ba77287c9100361ed2413eaa0be36d1aee8e5e"
         },
         "acceleration_batch_24": {
-          "stage": "SOURCE_CHECKPOINT_NOT_ATTESTED",
+          "stage": "COMMITTED_AWAITING_CI",
           "source_count": 3,
-          "source_names": [
-            24,
-            25,
-            28
-          ],
           "source_lines": 462,
-          "accepted_this_batch": 0,
-          "accepted_total_unchanged": 108,
-          "pending_unchanged": 227,
-          "checkpoint": "00_分類導航/設定關聯引擎/20261110_第24批_024025028_原文來源與後出仲裁_待驗收.md"
+          "sections": 39,
+          "claims": 39,
+          "source_anchors": 39,
+          "nonCanon_graph_links": 81,
+          "registered_accepted": 111,
+          "registered_pending": 224,
+          "shard_sha": "9b46070d3da7104e360352bdecff9892fcf60f11"
         }
       }
     },
@@ -672,17 +670,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch24 intake",
-    "source_files_attested_this_turn": 0,
+    "task": "NEXT-009 batch24",
+    "source_files_attested_this_turn": 3,
     "original_lines_reviewed": 462,
-    "review_sections": 0,
-    "atomic_findings": 0,
-    "original_line_anchors": 0,
-    "nonCanon_graph_links": 0,
-    "all_source_accepted": 108,
-    "all_source_pending": 227,
-    "state": "SOURCE_CHECKPOINT_COMMITTED__NOT_ATTESTED",
-    "notes": "本輪另有SyntaxError before commit；且來源索引Bot並行更新HEAD，已重新基於最新HEAD提交，不作強制覆寫。來源原稿不改。"
+    "review_sections": 39,
+    "atomic_findings": 39,
+    "original_line_anchors": 39,
+    "nonCanon_graph_links": 81,
+    "all_source_accepted": 111,
+    "all_source_pending": 224,
+    "state": "REGISTERED_AWAITING_CI__NOT_CANON",
+    "notes": "B24只完成稽核及工作板登記，原稿與舊總帳不變，CI待查。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -702,13 +700,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH24_3_SOURCE_CHECKPOINT_NOT_ATTESTED",
-    "scope": "第24批024/025/028來源462行，已核Git Blob SHA與後出修正，保存非正史預審檢查點；未完成整檔驗收。",
-    "commit": "4db896679e7f9d2d2391162186252473727b8a0b",
+    "stage": "BATCH24_3_COMMITTED_AWAITING_CI",
+    "scope": "第24批024/025/028共462行、39段、39條Git SHA行號證據、81條非Canon圖關聯，已建立SHA分片等待CI。",
+    "commit": "1084440f0a95fea5b6f604e9089b23e09a0f7f68",
     "ci_result": "pending",
     "ci_run_url": null,
-    "not_finished": "仍有227份來源未通過整檔編輯性驗收；第24批3份尚缺逐段命題、非Canon雙向關聯與CI；正式0章 PREWRITE HOLD。",
-    "next_step": "依第24批檢查點完成024/025/028全行語義、後出SHA、四類反查和增量Blob/Manifest；成功CI後才計數。"
+    "not_finished": "CI仍待核證；尚224份整檔語義待審，正式小說0章PREWRITE HOLD。",
+    "next_step": "驗證B24的Actions後，依035／036／037去重並精讀後出復歸裝備與雙錨規則。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -730,6 +728,7 @@
     "00_分類導航/設定關聯引擎/20261110_第二十批10份_128至169_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十一批10份_007047052與交接_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十二批4份_093_085_086_108_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第二十三批3份_021_022_023_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第二十三批3份_021_022_023_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261110_第二十四批3份_024_025_028_全文語義v2.json"
   ]
 }

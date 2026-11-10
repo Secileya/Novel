@@ -1,0 +1,2995 @@
+{
+  "schema": "mega-batch24-full-file-v2-sharded",
+  "date": "2026-11-10",
+  "source_file_count": 3,
+  "source_line_count": 462,
+  "source_sections": 39,
+  "evidence_count": 39,
+  "source_file_manifest": [
+    {
+      "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+      "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+      "source_line_count": 147,
+      "section_count": 12,
+      "claim_count": 12
+    },
+    {
+      "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+      "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+      "source_line_count": 134,
+      "section_count": 12,
+      "claim_count": 12
+    },
+    {
+      "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+      "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+      "source_line_count": 181,
+      "section_count": 15,
+      "claim_count": 15
+    }
+  ],
+  "authority_boundary": "026等前後版本的作者選擇與助手原創草案分離；完整原槍和外部幾何未定；正式小說0章 PREWRITE HOLD；非作者Canon。",
+  "records": [
+    {
+      "id": "SRC-ALL-3242",
+      "title": "024｜早期武器與外部幾何被後修限縮｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "025明示初期《終端》三式非完整頂端槍，外部球殼與宇宙位置皆未定",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 3,
+          "quote": "> **【後出使用者修正／2026-10-18 23:59 後】** 本檔《終端》之「終端貫穿／跨參照／大尺度收束」等三項**最多適用於男主開場受限的槍，並不能代表超十級、升維前夕前文明頂端特殊武器的完整潛力**；使用者要求重建更驚人的核心原理和模組／能源系統，並允許首次碰撞前文明時男主被輾壓、死去數次。**女主明確沒"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3243",
+      "title": "024｜使用者核心前提｜L13",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞獲不死但不倒轉世界；原槍是原文明最頂端特殊成果；艾莉維亞可獨立高階攻防",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 13,
+          "quote": "1. 【使用者已明確】男主由 Celeste 賜予**不死**：可被殺、受傷、墜落死亡；復歸不代表回溯整個世界。死亡後可能被送回非常遠處，須重走路程、機關與旅途。稀少錨點與某種復歸位置選擇機制曾被討論，但具體形式未定，不能硬寫成隨處存檔。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3244",
+      "title": "024｜雙主角技能組只是v1｜L23",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "《終端》與規則偏衡的名詞及分工只是助手草案，不得作正史技能列表",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 23,
+          "quote": "**男主：不死歸還 ×《終端》特殊槍；女主：規則偏衡 × 個人高階科技。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3245",
+      "title": "024｜不死歸還的物件與風險｜L34",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "死後世界仍正常流動；連續存在解釋未決，復歸不能保證破解所有高階封鎖；無免費存檔",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 34,
+          "quote": "- 身體死去後仍會以某種特殊機制復歸，世界上其他人、商路、政治局面、戀人所處環境與死亡當下結果**不回溯**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3246",
+      "title": "024｜原槍的三射擊模式與相容條件｜L50",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "高階破壞、跨參照和尺度收束都不是最終原理；須原文明能源模組且開火有真實後果",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 50,
+          "quote": "- 不把它寫成「功率加大一千倍」的普通光束槍，而是某種前文明高階終端投射武裝：**以原文明超高等能量、感測、投射與作用收束機制，使被精確指定的目標物理結構遭到從根本層次的破壞**。命中不只是表面炸裂，也可對多層防禦、特殊工程造成災難級影響。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3247",
+      "title": "024｜女主統一規則尚未確認｜L68",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作用優先權的單一原理與攻防空間工程四應用仍是待驗方案，不是任意通解",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 68,
+          "quote": "**某個系統內存在多種真實的作用關係時，女主可以干涉某些作用的權重、優先次序及其有效成立方式。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3248",
+      "title": "024｜女主個人科技與力量上限｜L81",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "個人高階科技及獨立殺傷不能降低為槍械輔助；起步強度未選定，成熟頂端下限確立",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 81,
+          "quote": "- 她可以發展一套個人技術系統，包含觀測、感測、修理、工程、特殊防禦、個人武器與旅行工具；**不是 Celeste 給了能力就成為無學識的萬能法師**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3249",
+      "title": "024｜雙主角不需對稱的戰力｜L96",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "男主不具世界回溯、女主不具Celeste不死；不需固定一人救援一人射擊",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 96,
+          "quote": "| 角色獨特性 | 真死亡後仍能復歸；特殊高階武器 | 特殊存在方式與規則干涉，個人技術成熟 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3250",
+      "title": "024｜商店與制度性暴力候選｜L108",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "貨櫃保全與人工日光海灣懲戒是助手人物風格試案，不能當作已存在的世界制度",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 108,
+          "quote": "兩人找一枚可能與男主武器能源有關的高階零件，商人報出離譜價格。女主不是發現價格太貴就立即盜取或變成道德教師，而是對貨櫃的防護科技非常感興趣；男主笑她嘴上說只看看、手裡已掏出測量工具。商店提出「付費就能研究我們的防護系統」，兩人竟花掉一下午研究保全，原本零件仍在櫃中。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3251",
+      "title": "024｜前文明壓迫與Celeste介入例子｜L118",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "高級設備可造成真實威脅，Celeste促成相遇但不直接寫入好感；示範事件未發生",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 118,
+          "quote": "完整前文明的區域安全系統不需要每次先派穿亮白盔甲的衛兵和女主公平格鬥。普通程序就可能讓**空間、時間、物質狀態、感測與可達性**改變，普通科技連事故是怎麼發生的都看不懂。女主的規則可以真實保護部分區域或建立有效反制；男主的槍也能在找到真正目標與合法原裝條件後打開局部缺口。但兩人**不應在第一次遭遇時輕易宣布整個前文明已"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3252",
+      "title": "024｜禁止廉價平衡與錯誤升級｜L127",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "不得以簡易低技零件修復頂端原槍，死亡不倒帶，女主不降格導航，故事不固定RPG冷卻",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 127,
+          "quote": "- 不讓男主死後每次重置世界，或永久殺死他來剝奪已確認的不死來源。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3253",
+      "title": "024｜結尾未決清單受後修制約｜L138",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "完整槍原理、艾莉維亞規則、世界幾何未選；142早期女主不死未定被025明確無Celeste復活覆蓋",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+          "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+          "line": 138,
+          "quote": "1. 男主特殊槍究竟是高維能量武器、物理狀態終止器、某種相位／結構投射器，還是完全不同的前文明頂尖原理；《終端》僅暫名。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3254",
+      "title": "025｜B+C方向優先但未定外部形貌｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者偏向不規則實體與非普通拓撲；模組可真實增加武器輸出，未固定全宇宙幾何",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 3,
+          "quote": "> **【2026-10-19 更進一步使用者修正】** 使用者**明確偏向 B＋C** 外部不規則巨構＋非普通空間拓撲，而非三方案同樣優先；但最外部幾何仍未定。模組與能源不只是改變功能，也**當然可以真的增加男主武器的攻擊力、輸出與破壞尺度**；武器可考慮原裝刀刃、鉤鎖等多形態。前文明人不一定認識這件稀有頂尖武器；知"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3255",
+      "title": "025｜原話與四項確定修正｜L9",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "舊三模式太淺，首次遇前文明可以慘敗，艾莉維亞沒有Celeste給的不死，世界外殼問題未決",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 9,
+          "quote": "> 你說的槍能力只適合故事開始時的槍，功能也太少，描述的相對於前文明頂尖特殊的來說像是用鉛筆隨便畫出來的一樣，後續要蒐集模塊或其他東西能源等，如果跟前文明第一次碰撞我甚至傾向於被輾壓，男主可以死幾次，不過女主沒有復活能力(Celeste的，常規復活不知道有沒有)，像你說的男主的槍，還需要一個真正令人印象深刻的核心作用。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3256",
+      "title": "025｜原槍功能需原文明配套｜L22",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "頂端槍本體非年久失修的普通光砲；缺少能源、模組、控制及目標定義條件",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 22,
+          "quote": "【使用者基準】男主持有的原槍在原初超十級文明中也屬**非常特殊的頂尖成果**；其核心不因歲月損壞而被普通技術修好。現在可用性能與完整潛能差異大，是因為缺少原裝能源、部分模組、相容配套、控制與專業知識等。部分模組可能完整無損但不在男主身上；某些本來就是完整系統的外部組件／協同設備，不等於本體年久失修。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3257",
+      "title": "025｜A/B/C核心武器候選｜L31",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "A存在索引、B結果收束、C個體戰略終端均是未定助手方向；A+C只是助手偏好",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 31,
+          "quote": "**A｜存在索引與終局處理。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3258",
+      "title": "025｜模組類型不是固定道具清單｜L50",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "索引、作用執行、供能、演算、操作權限等是可選的系統構成，並無固定數量",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 50,
+          "quote": "- **目標索引與辨識模組**：如何辨認多層現實、備援本體、作用連續性及真正威脅。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3259",
+      "title": "025｜首次前文明戰役可多次敗亡｜L59",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞可能被擊殺而重走真實路程，艾莉維亞可自主逃生與行動；具體三次戰役非已發生",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 59,
+          "quote": "- 第一次：男主的槍或許對某個子系統造成超越普通文明極限的干涉，但敵方識別了槍目前的模式，迅速令男主死亡。這**不表示槍本體低階，只是持有者當前配置與戰術不夠**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3260",
+      "title": "025｜女主統一權能尚未落槌｜L70",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "權重、界側與其他模式仍未定；無Celeste不死不能推出世界其他醫療復活一定不存在",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 70,
+          "quote": "- 一種助手候選原理：「在同一個真實系統裡，有數種合法的作用／路徑／關係時，她可以改變哪些作用佔較大權重、哪一條成為優先成立的有效現實。」這與 Franiya 原創角色「作用份量」可有親緣性，但**不直接複製其全部世界外權限、因果與多宇宙尺度**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3261",
+      "title": "025｜整體外形仍是正式未決問題｜L78",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "局部人工天幕不是整座巨構外殼；總長寬高、人口和宇宙位置並未敲定",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 78,
+          "quote": "重新核對正式 01《世界尺度與空間》**第十二節**原來就明寫："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3262",
+      "title": "025｜球殼與B/C兩條幾何模型｜L89",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "A球殼、B不規則互聯、C非普通內部拓撲均為候選；高維不可抹掉交通與維生成本",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 89,
+          "quote": "- 整體是大量超巨大實體結構互相連接、向多方向延伸：支架、殼體、人工海盆、居住空腔、環面、柱群、跨度巨大的道路，局部完全封閉、局部可能暴露於真正宇宙真空。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3263",
+      "title": "025｜B+C融合偏好不可冒稱定案｜L103",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "可能為實體巨構結合拓撲工程；外部是否正常宇宙或獨立時空未知",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 103,
+          "quote": "**整體具有某種存在於宇宙／外部時空的實體巨構或網絡，局部以殼、柱、環、巨型平面、人工海盆／草原等具體物質形態呈現；其部分內部結構經 Celeste／更高等工程擴展，空間拓撲不必與外部一套普通三維座標一一對應**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3264",
+      "title": "025｜生態物流與居民認知需要因果｜L108",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "氣壓、重力、照明、物資、交通和建造史需具體成立，Celeste非必須站在物理頂層",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 108,
+          "quote": "1. **外殼與天空**：某片巨大人工平頂天幕可遮住草原／海洋，卻不必是整個世界真正最外殼；另一處可能真能看到星空。居民有的知道其人工性、有的不知道。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3265",
+      "title": "025｜結尾六組根本問題仍未決｜L127",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "槍終極原理、宇宙外殼、女主規則、首遇安排、通常復活、外部可達性都尚未核准",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+          "line": 127,
+          "quote": "2. **頂尖槍**：存在索引與終局 A、結果收束 B、個體戰略武裝 C，或 A＋C／其他完全不同原理？原裝槍本身是否能獨立操作完整核心、或是否依賴宏大配套？"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3266",
+      "title": "028｜靜謐迴廊與姓名的後出校正｜L5",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "公開高危與秘密Path of Pain不同，已定名靜謐迴廊；主角姓名諾亞艾莉維亞、買票嘴硬另有確切場景",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 5,
+          "quote": "> **【後出使用者修正｜2026-10-19】** 本檔部分「以地域高難度惡名昭彰／公眾普遍知道」的措辭不宜當現行設定：使用者強調原作 Path of Pain 的**隱藏入口、最深處秘密與氛圍感**；外界即便少數人聞名也不等於知道位置和核心。Celeste **可以在入口為諾亞設立特殊復歸點**，反覆失敗與回訪仍可"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3267",
+      "title": "028｜作者主線與外作轉貼區分｜L15",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者明示模組登頂方向、反對感情破裂大吵；方九莉雅長篇分析未獨立核對原著",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 15,
+          "quote": "> 在作者層的話以大綱來看確實是蒐集模組打敗最終敵人(不一定是打完敵人就沒了)，登上最高層，而且不一定要作者層，主角可以意識到這把槍不完整，至於最上層本來就是目標，女主的動機至少也有登上最高層看看的想法，然後真相/知識是散落在這個世界的，Celeste設計的path of pain那邊確實可以放東西，放回憶或其他甚麼的"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3268",
+      "title": "028｜真正最高層和模組決戰是作者方向｜L31",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "男女主均有登頂欲望，原槍模組能真增強，真相散在世界，最終敵人落敗不等於故事結束",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 31,
+          "quote": "- **主線可以很明確**：作者整體大綱就是前文明特殊武裝配套／模組逐步取得、真正增強攻擊力與可用能力、歷經重要敵人／最終敵人、逐漸抵達真正最高層。**這不是使用者想避免的俗套本身**；真正需要避免的是每章都變成打怪掉模組、角色為了升級沒有生活。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3269",
+      "title": "028｜六階段只是作者可用草案｜L42",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第一次死亡、初遇、模組擴展與決戰的六段屬助手排序，不能固定章號或已發生事件",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 42,
+          "quote": "2. **第一次真正死亡與復歸**：可以很早發生；男主**在第一次死去之前完全不知道自己具有復活**，因此絕不能讓他一開局靠「反正會復活」跳下去測地圖。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3270",
+      "title": "028｜公開危險地域與秘密迴廊區別｜L56",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "高難原生地域不是遊樂競賽；隱藏道路獎勵、入口與高階地形風險不得外推",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 56,
+          "quote": "- 可在外部以地方危險名聲流傳，許多旅人、團隊、專業攀爬者和不同科技水平的探索者知道它甚至恐懼它；有紀錄、死亡者、成功者、交易與救援市場。**不是只有男女主到場才第一次開啟**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3271",
+      "title": "028｜情感硬禁則不是不許爭論｜L64",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者拒絕故意翻舊帳、分手冷戰和傷害感情的大吵；互損、短暫生氣可存在",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 64,
+          "quote": "【使用者明確要求】**「大吵架我不要有」**。對照所貼方九×莉雅材料："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3272",
+      "title": "028｜真正分歧與故事張力另有來源｜L82",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "技術危險、外界勢力、交通時間與能力落差足以產生衝突，不必靠情感誤會",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 82,
+          "quote": "- 一方想作極危險實驗時，另一方並非質疑感情，而是要求可驗證的返回條件；可以真生氣，仍尊重對方完整人格。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3273",
+      "title": "028｜首死前不知道自己可復歸｜L88",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞曾獲不死能力但初死前不知，具體事故時間地點與復歸位置仍未定",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 88,
+          "quote": "【使用者新明確】**男主在故事開始時不知道自己能復活**。Celeste 已賜此能力，但早中期不向其報身分；不需要誰出面給他解說系統。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3274",
+      "title": "028｜死亡復歸不是時間回溯｜L101",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "受轉貼外作影響的讀檔模型不可挪用，巨構他人死亡、物流及時間繼續",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 101,
+          "quote": "方九死歸（依使用者貼的二手分析）具有**時間回溯**情境，因此在某些已知條件下可以當作暴力讀檔；而巨構男主的復歸**世界不倒流**，所有其他生命和現實後果都延續。對他與女主而言，「死一次」可以是情報／探險工具，**不是免費悔棋或整個隊伍存檔重置**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3275",
+      "title": "028｜成熟後的死亡試探有科技與代價｜L110",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "女主可研究或支援反覆試探，但遠端資料、物件留存和重返成本必須被實證",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 110,
+          "quote": "- 她可以**興致勃勃地研究不同死亡後的復歸、提出探路測試、和男主一同計算「死回原點要重新走三天」的成本**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3276",
+      "title": "028｜極端存在干涉的風險是主觀未知｜L116",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "高級文明是否能破Celeste不死不能先判；兩人不知不等於客觀權柄必能被破",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 116,
+          "quote": "- 若對方不是一般「打死肉體」，而是有可能干涉男主連續自我、Celeste 賦予的復歸或跨層存在條件，**他們並不因過去成功復歸就知道這次一定沒事**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3277",
+      "title": "028｜廢豎井三天返程是助手場景示意｜L131",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "跳井、三天重走與研究貨梯並非已發生；使用者指定買票嘴硬為不同情境",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 131,
+          "quote": "男主：「要不我跳一次？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3278",
+      "title": "028｜戀愛成長是非強制時間線｜L157",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "同行、親吻、同居與成熟並肩屬可用階段建議，不可固定實際發生章數",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 157,
+          "quote": "- **中期**：不需長期曖昧吊胃口，感情可以確認、主動親吻、同住、一起旅行與真正以戀人互認；玩鬧反而變得更熟。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3279",
+      "title": "028｜後出明確推翻第二十七份舊主線優先｜L163",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "前27不採模組登頂是舊助手意見；第一次死亡前未知不死，原槍模組可提升真實輸出",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 163,
+          "quote": "- **第 27 檔**把《沒有終點的返程線》當最推薦的主線，強調「不應是蒐集模組打敗最終敵人登上最高層」，如今**此部分被使用者明確推翻**；路網可以作為重要事件引擎，但**終極旅程本來就是登上真正最高層**，作者大綱亦可有蒐集模組、決戰後仍有故事。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3280",
+      "title": "028｜最高層敵人和模組未定案｜L171",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "頂層實際幾何、終敵、武器件數、女主力量、首次復歸、迴廊收穫尚未由作者決定",
+      "guardrail": "後出作者決議優先但不改Canon；原槍、迴廊和復歸各自保留未決性。",
+      "next_action": "用SHA與後修回查，保持候選與已選方向分離。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+          "line": 171,
+          "quote": "1. 登頂具體要通過什麼條件；B＋C 拓撲中「真正最高層」的幾何含義、可否從外部繞進去、是否有不止一個入口；**登頂是目標，但最高層物理細節待定**。"
+        }
+      ]
+    }
+  ],
+  "staged_attestations": [
+    {
+      "source_path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+      "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+      "source_role_id": "FULL-B24-024",
+      "related_claim_ids": [
+        "SRC-ALL-3242",
+        "SRC-ALL-3243",
+        "SRC-ALL-3244",
+        "SRC-ALL-3245",
+        "SRC-ALL-3246",
+        "SRC-ALL-3247",
+        "SRC-ALL-3248",
+        "SRC-ALL-3249",
+        "SRC-ALL-3250",
+        "SRC-ALL-3251",
+        "SRC-ALL-3252",
+        "SRC-ALL-3253"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B24逐檔147行、12個連續完整區塊和12個原文行錨；待CI核證且非作者Canon。",
+      "source_line_count": 147,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 10,
+          "anchor_line": 3,
+          "quote": "> **【後出使用者修正／2026-10-18 23:59 後】** 本檔《終端》之「終端貫穿／跨參照／大尺度收束」等三項**最多適用於男主開場受限的槍，並不能代表超十級、升維前夕前文明頂端特殊武器的完整潛力**；使用者要求重建更驚人的核心原理和模組／能源系統，並允許首次碰撞前文明時男主被輾壓、死去數次。**女主明確沒",
+          "meaning": "早期武器與外部幾何被後修限縮：025明示初期《終端》三式非完整頂端槍，外部球殼與宇宙位置皆未定"
+        },
+        {
+          "from": 11,
+          "to": 20,
+          "anchor_line": 13,
+          "quote": "1. 【使用者已明確】男主由 Celeste 賜予**不死**：可被殺、受傷、墜落死亡；復歸不代表回溯整個世界。死亡後可能被送回非常遠處，須重走路程、機關與旅途。稀少錨點與某種復歸位置選擇機制曾被討論，但具體形式未定，不能硬寫成隨處存檔。",
+          "meaning": "使用者核心前提：諾亞獲不死但不倒轉世界；原槍是原文明最頂端特殊成果；艾莉維亞可獨立高階攻防"
+        },
+        {
+          "from": 21,
+          "to": 29,
+          "anchor_line": 23,
+          "quote": "**男主：不死歸還 ×《終端》特殊槍；女主：規則偏衡 × 個人高階科技。**",
+          "meaning": "雙主角技能組只是v1：《終端》與規則偏衡的名詞及分工只是助手草案，不得作正史技能列表"
+        },
+        {
+          "from": 30,
+          "to": 46,
+          "anchor_line": 34,
+          "quote": "- 身體死去後仍會以某種特殊機制復歸，世界上其他人、商路、政治局面、戀人所處環境與死亡當下結果**不回溯**。",
+          "meaning": "不死歸還的物件與風險：死後世界仍正常流動；連續存在解釋未決，復歸不能保證破解所有高階封鎖；無免費存檔"
+        },
+        {
+          "from": 47,
+          "to": 64,
+          "anchor_line": 50,
+          "quote": "- 不把它寫成「功率加大一千倍」的普通光束槍，而是某種前文明高階終端投射武裝：**以原文明超高等能量、感測、投射與作用收束機制，使被精確指定的目標物理結構遭到從根本層次的破壞**。命中不只是表面炸裂，也可對多層防禦、特殊工程造成災難級影響。",
+          "meaning": "原槍的三射擊模式與相容條件：高階破壞、跨參照和尺度收束都不是最終原理；須原文明能源模組且開火有真實後果"
+        },
+        {
+          "from": 65,
+          "to": 79,
+          "anchor_line": 68,
+          "quote": "**某個系統內存在多種真實的作用關係時，女主可以干涉某些作用的權重、優先次序及其有效成立方式。**",
+          "meaning": "女主統一規則尚未確認：作用優先權的單一原理與攻防空間工程四應用仍是待驗方案，不是任意通解"
+        },
+        {
+          "from": 80,
+          "to": 91,
+          "anchor_line": 81,
+          "quote": "- 她可以發展一套個人技術系統，包含觀測、感測、修理、工程、特殊防禦、個人武器與旅行工具；**不是 Celeste 給了能力就成為無學識的萬能法師**。",
+          "meaning": "女主個人科技與力量上限：個人高階科技及獨立殺傷不能降低為槍械輔助；起步強度未選定，成熟頂端下限確立"
+        },
+        {
+          "from": 92,
+          "to": 103,
+          "anchor_line": 96,
+          "quote": "| 角色獨特性 | 真死亡後仍能復歸；特殊高階武器 | 特殊存在方式與規則干涉，個人技術成熟 |",
+          "meaning": "雙主角不需對稱的戰力：男主不具世界回溯、女主不具Celeste不死；不需固定一人救援一人射擊"
+        },
+        {
+          "from": 104,
+          "to": 115,
+          "anchor_line": 108,
+          "quote": "兩人找一枚可能與男主武器能源有關的高階零件，商人報出離譜價格。女主不是發現價格太貴就立即盜取或變成道德教師，而是對貨櫃的防護科技非常感興趣；男主笑她嘴上說只看看、手裡已掏出測量工具。商店提出「付費就能研究我們的防護系統」，兩人竟花掉一下午研究保全，原本零件仍在櫃中。",
+          "meaning": "商店與制度性暴力候選：貨櫃保全與人工日光海灣懲戒是助手人物風格試案，不能當作已存在的世界制度"
+        },
+        {
+          "from": 116,
+          "to": 123,
+          "anchor_line": 118,
+          "quote": "完整前文明的區域安全系統不需要每次先派穿亮白盔甲的衛兵和女主公平格鬥。普通程序就可能讓**空間、時間、物質狀態、感測與可達性**改變，普通科技連事故是怎麼發生的都看不懂。女主的規則可以真實保護部分區域或建立有效反制；男主的槍也能在找到真正目標與合法原裝條件後打開局部缺口。但兩人**不應在第一次遭遇時輕易宣布整個前文明已",
+          "meaning": "前文明壓迫與Celeste介入例子：高級設備可造成真實威脅，Celeste促成相遇但不直接寫入好感；示範事件未發生"
+        },
+        {
+          "from": 124,
+          "to": 134,
+          "anchor_line": 127,
+          "quote": "- 不讓男主死後每次重置世界，或永久殺死他來剝奪已確認的不死來源。",
+          "meaning": "禁止廉價平衡與錯誤升級：不得以簡易低技零件修復頂端原槍，死亡不倒帶，女主不降格導航，故事不固定RPG冷卻"
+        },
+        {
+          "from": 135,
+          "to": 147,
+          "anchor_line": 138,
+          "quote": "1. 男主特殊槍究竟是高維能量武器、物理狀態終止器、某種相位／結構投射器，還是完全不同的前文明頂尖原理；《終端》僅暫名。",
+          "meaning": "結尾未決清單受後修制約：完整槍原理、艾莉維亞規則、世界幾何未選；142早期女主不死未定被025明確無Celeste復活覆蓋"
+        }
+      ],
+      "latest_revisions_checked": [
+        "04_能力武器與試煉/013_討論續錄_主角_復歸_頂尖武器_上行動機.md",
+        "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "04_能力武器與試煉/013_討論續錄_主角_復歸_頂尖武器_上行動機.md",
+          "git_blob_sha": "d6aadc0d91a7b9b1796f5195b8a39929c6b29869"
+        },
+        {
+          "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+          "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860"
+        },
+        {
+          "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+          "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096"
+        },
+        {
+          "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "全篇連續段落、逐段實質命題、四類二遍檢查、後修SHA與限域圖回查。",
+        "revocation": "原始或依賴SHA變更及CI不通過須撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【後出使用者修正／2026-10-18 23:59 後】** 本檔《終端》之「終端貫穿／跨參照／大尺度收束」等三項**最多適用於男主開場受限的槍，並不能代表超十級、升維前夕前文明頂端特殊武器的完整潛力**；使用者要求重建更驚人的核心原理和模組／能源系統，並允許首次碰撞前文明時男主被輾壓、死去數次。**女主明確沒",
+            "topic": "早期武器與外部幾何被後修限縮",
+            "finding": "025明示初期《終端》三式非完整頂端槍，外部球殼與宇宙位置皆未定",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3242"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 13,
+            "quote": "1. 【使用者已明確】男主由 Celeste 賜予**不死**：可被殺、受傷、墜落死亡；復歸不代表回溯整個世界。死亡後可能被送回非常遠處，須重走路程、機關與旅途。稀少錨點與某種復歸位置選擇機制曾被討論，但具體形式未定，不能硬寫成隨處存檔。",
+            "topic": "使用者核心前提",
+            "finding": "諾亞獲不死但不倒轉世界；原槍是原文明最頂端特殊成果；艾莉維亞可獨立高階攻防",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3243"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 23,
+            "quote": "**男主：不死歸還 ×《終端》特殊槍；女主：規則偏衡 × 個人高階科技。**",
+            "topic": "雙主角技能組只是v1",
+            "finding": "《終端》與規則偏衡的名詞及分工只是助手草案，不得作正史技能列表",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3244"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 34,
+            "quote": "- 身體死去後仍會以某種特殊機制復歸，世界上其他人、商路、政治局面、戀人所處環境與死亡當下結果**不回溯**。",
+            "topic": "不死歸還的物件與風險",
+            "finding": "死後世界仍正常流動；連續存在解釋未決，復歸不能保證破解所有高階封鎖；無免費存檔",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3245"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 50,
+            "quote": "- 不把它寫成「功率加大一千倍」的普通光束槍，而是某種前文明高階終端投射武裝：**以原文明超高等能量、感測、投射與作用收束機制，使被精確指定的目標物理結構遭到從根本層次的破壞**。命中不只是表面炸裂，也可對多層防禦、特殊工程造成災難級影響。",
+            "topic": "原槍的三射擊模式與相容條件",
+            "finding": "高階破壞、跨參照和尺度收束都不是最終原理；須原文明能源模組且開火有真實後果",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3246"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 68,
+            "quote": "**某個系統內存在多種真實的作用關係時，女主可以干涉某些作用的權重、優先次序及其有效成立方式。**",
+            "topic": "女主統一規則尚未確認",
+            "finding": "作用優先權的單一原理與攻防空間工程四應用仍是待驗方案，不是任意通解",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3247"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 81,
+            "quote": "- 她可以發展一套個人技術系統，包含觀測、感測、修理、工程、特殊防禦、個人武器與旅行工具；**不是 Celeste 給了能力就成為無學識的萬能法師**。",
+            "topic": "女主個人科技與力量上限",
+            "finding": "個人高階科技及獨立殺傷不能降低為槍械輔助；起步強度未選定，成熟頂端下限確立",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3248"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 96,
+            "quote": "| 角色獨特性 | 真死亡後仍能復歸；特殊高階武器 | 特殊存在方式與規則干涉，個人技術成熟 |",
+            "topic": "雙主角不需對稱的戰力",
+            "finding": "男主不具世界回溯、女主不具Celeste不死；不需固定一人救援一人射擊",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3249"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 108,
+            "quote": "兩人找一枚可能與男主武器能源有關的高階零件，商人報出離譜價格。女主不是發現價格太貴就立即盜取或變成道德教師，而是對貨櫃的防護科技非常感興趣；男主笑她嘴上說只看看、手裡已掏出測量工具。商店提出「付費就能研究我們的防護系統」，兩人竟花掉一下午研究保全，原本零件仍在櫃中。",
+            "topic": "商店與制度性暴力候選",
+            "finding": "貨櫃保全與人工日光海灣懲戒是助手人物風格試案，不能當作已存在的世界制度",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3250"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 118,
+            "quote": "完整前文明的區域安全系統不需要每次先派穿亮白盔甲的衛兵和女主公平格鬥。普通程序就可能讓**空間、時間、物質狀態、感測與可達性**改變，普通科技連事故是怎麼發生的都看不懂。女主的規則可以真實保護部分區域或建立有效反制；男主的槍也能在找到真正目標與合法原裝條件後打開局部缺口。但兩人**不應在第一次遭遇時輕易宣布整個前文明已",
+            "topic": "前文明壓迫與Celeste介入例子",
+            "finding": "高級設備可造成真實威脅，Celeste促成相遇但不直接寫入好感；示範事件未發生",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3251"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 127,
+            "quote": "- 不讓男主死後每次重置世界，或永久殺死他來剝奪已確認的不死來源。",
+            "topic": "禁止廉價平衡與錯誤升級",
+            "finding": "不得以簡易低技零件修復頂端原槍，死亡不倒帶，女主不降格導航，故事不固定RPG冷卻",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3252"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 138,
+            "quote": "1. 男主特殊槍究竟是高維能量武器、物理狀態終止器、某種相位／結構投射器，還是完全不同的前文明頂尖原理；《終端》僅暫名。",
+            "topic": "結尾未決清單受後修制約",
+            "finding": "完整槍原理、艾莉維亞規則、世界幾何未選；142早期女主不死未定被025明確無Celeste復活覆蓋",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3253"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【後出使用者修正／2026-10-18 23:59 後】** 本檔《終端》之「終端貫穿／跨參照／大尺度收束」等三項**最多適用於男主開場受限的槍，並不能代表超十級、升維前夕前文明頂端特殊武器的完整潛力**；使用者要求重建更驚人的核心原理和模組／能源系統，並允許首次碰撞前文明時男主被輾壓、死去數次。**女主明確沒",
+            "question": "這是作者確定還是助手候選？",
+            "finding": "依原文作者指令、助手創作、後出修正分層，決不按文件年份直接升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 34,
+            "quote": "- 身體死去後仍會以某種特殊機制復歸，世界上其他人、商路、政治局面、戀人所處環境與死亡當下結果**不回溯**。",
+            "question": "較晚修正是否已改變此句的適用性？",
+            "finding": "025修024舊三式；028修027非模組主線；036深層同化B；058命名靜謐迴廊。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 81,
+            "quote": "- 她可以發展一套個人技術系統，包含觀測、感測、修理、工程、特殊防禦、個人武器與旅行工具；**不是 Celeste 給了能力就成為無學識的萬能法師**。",
+            "question": "是否遺漏死亡復歸、角色能力和物流的限定？",
+            "finding": "復歸不回溯世界；無Celeste復活不代表所有復活不存在；高階槍與拓撲有真實條件。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 138,
+            "quote": "1. 男主特殊槍究竟是高維能量武器、物理狀態終止器、某種相位／結構投射器，還是完全不同的前文明頂尖原理；《終端》僅暫名。",
+            "question": "是否會錯把候選劇情與世界形狀當Canon？",
+            "finding": "僅連到已存在的原槍、角色、文明、世界層、故事與迴廊節點，無新增硬Canon邊。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "04_能力武器與試煉/013_討論續錄_主角_復歸_頂尖武器_上行動機.md",
+            "git_blob_sha": "d6aadc0d91a7b9b1796f5195b8a39929c6b29869",
+            "impact": "來源為後出比對必要上下游，僅適用其有證據的個別命題，不作全局Canon升格。"
+          },
+          {
+            "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+            "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+            "impact": "025把024三射擊方式限縮為初期受限樣態且明示女主無Celeste不死。"
+          },
+          {
+            "path": "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
+            "git_blob_sha": "18dfa9e8759edefe4002e3bb8cb724625f3dc096",
+            "impact": "來源為後出比對必要上下游，僅適用其有證據的個別命題，不作全局Canon升格。"
+          },
+          {
+            "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+            "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+            "impact": "2026-11-08作者後出選B深層同化／外掛扣合分離；原槍跟回但可拆模組不自動跟隨。"
+          }
+        ],
+        "second_pass_method": "實讀024、025、028全文、按連續語義段核原文行錨、二遍以作者權威、後出版本、未涵蓋實質命題及跨檔影響反查，同時用36和58驗證最新修正，保留非Canon界線。",
+        "unresolved_risks": [
+          "武器最高核心原理、外界幾何與女主統一規則未由作者正式敲定。",
+          "劇情初死場景、迴廊獎勵、最終敵人等不因檢索或CI成為已發生。"
+        ]
+      }
+    },
+    {
+      "source_path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+      "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+      "source_role_id": "FULL-B24-025",
+      "related_claim_ids": [
+        "SRC-ALL-3254",
+        "SRC-ALL-3255",
+        "SRC-ALL-3256",
+        "SRC-ALL-3257",
+        "SRC-ALL-3258",
+        "SRC-ALL-3259",
+        "SRC-ALL-3260",
+        "SRC-ALL-3261",
+        "SRC-ALL-3262",
+        "SRC-ALL-3263",
+        "SRC-ALL-3264",
+        "SRC-ALL-3265"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B24逐檔134行、12個連續完整區塊和12個原文行錨；待CI核證且非作者Canon。",
+      "source_line_count": 134,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "anchor_line": 3,
+          "quote": "> **【2026-10-19 更進一步使用者修正】** 使用者**明確偏向 B＋C** 外部不規則巨構＋非普通空間拓撲，而非三方案同樣優先；但最外部幾何仍未定。模組與能源不只是改變功能，也**當然可以真的增加男主武器的攻擊力、輸出與破壞尺度**；武器可考慮原裝刀刃、鉤鎖等多形態。前文明人不一定認識這件稀有頂尖武器；知",
+          "meaning": "B+C方向優先但未定外部形貌：作者偏向不規則實體與非普通拓撲；模組可真實增加武器輸出，未固定全宇宙幾何"
+        },
+        {
+          "from": 7,
+          "to": 19,
+          "anchor_line": 9,
+          "quote": "> 你說的槍能力只適合故事開始時的槍，功能也太少，描述的相對於前文明頂尖特殊的來說像是用鉛筆隨便畫出來的一樣，後續要蒐集模塊或其他東西能源等，如果跟前文明第一次碰撞我甚至傾向於被輾壓，男主可以死幾次，不過女主沒有復活能力(Celeste的，常規復活不知道有沒有)，像你說的男主的槍，還需要一個真正令人印象深刻的核心作用。",
+          "meaning": "原話與四項確定修正：舊三模式太淺，首次遇前文明可以慘敗，艾莉維亞沒有Celeste給的不死，世界外殼問題未決"
+        },
+        {
+          "from": 20,
+          "to": 28,
+          "anchor_line": 22,
+          "quote": "【使用者基準】男主持有的原槍在原初超十級文明中也屬**非常特殊的頂尖成果**；其核心不因歲月損壞而被普通技術修好。現在可用性能與完整潛能差異大，是因為缺少原裝能源、部分模組、相容配套、控制與專業知識等。部分模組可能完整無損但不在男主身上；某些本來就是完整系統的外部組件／協同設備，不等於本體年久失修。",
+          "meaning": "原槍功能需原文明配套：頂端槍本體非年久失修的普通光砲；缺少能源、模組、控制及目標定義條件"
+        },
+        {
+          "from": 29,
+          "to": 48,
+          "anchor_line": 31,
+          "quote": "**A｜存在索引與終局處理。**",
+          "meaning": "A/B/C核心武器候選：A存在索引、B結果收束、C個體戰略終端均是未定助手方向；A+C只是助手偏好"
+        },
+        {
+          "from": 49,
+          "to": 55,
+          "anchor_line": 50,
+          "quote": "- **目標索引與辨識模組**：如何辨認多層現實、備援本體、作用連續性及真正威脅。",
+          "meaning": "模組類型不是固定道具清單：索引、作用執行、供能、演算、操作權限等是可選的系統構成，並無固定數量"
+        },
+        {
+          "from": 56,
+          "to": 65,
+          "anchor_line": 59,
+          "quote": "- 第一次：男主的槍或許對某個子系統造成超越普通文明極限的干涉，但敵方識別了槍目前的模式，迅速令男主死亡。這**不表示槍本體低階，只是持有者當前配置與戰術不夠**。",
+          "meaning": "首次前文明戰役可多次敗亡：諾亞可能被擊殺而重走真實路程，艾莉維亞可自主逃生與行動；具體三次戰役非已發生"
+        },
+        {
+          "from": 66,
+          "to": 75,
+          "anchor_line": 70,
+          "quote": "- 一種助手候選原理：「在同一個真實系統裡，有數種合法的作用／路徑／關係時，她可以改變哪些作用佔較大權重、哪一條成為優先成立的有效現實。」這與 Franiya 原創角色「作用份量」可有親緣性，但**不直接複製其全部世界外權限、因果與多宇宙尺度**。",
+          "meaning": "女主統一權能尚未落槌：權重、界側與其他模式仍未定；無Celeste不死不能推出世界其他醫療復活一定不存在"
+        },
+        {
+          "from": 76,
+          "to": 82,
+          "anchor_line": 78,
+          "quote": "重新核對正式 01《世界尺度與空間》**第十二節**原來就明寫：",
+          "meaning": "整體外形仍是正式未決問題：局部人工天幕不是整座巨構外殼；總長寬高、人口和宇宙位置並未敲定"
+        },
+        {
+          "from": 83,
+          "to": 99,
+          "anchor_line": 89,
+          "quote": "- 整體是大量超巨大實體結構互相連接、向多方向延伸：支架、殼體、人工海盆、居住空腔、環面、柱群、跨度巨大的道路，局部完全封閉、局部可能暴露於真正宇宙真空。",
+          "meaning": "球殼與B/C兩條幾何模型：A球殼、B不規則互聯、C非普通內部拓撲均為候選；高維不可抹掉交通與維生成本"
+        },
+        {
+          "from": 100,
+          "to": 106,
+          "anchor_line": 103,
+          "quote": "**整體具有某種存在於宇宙／外部時空的實體巨構或網絡，局部以殼、柱、環、巨型平面、人工海盆／草原等具體物質形態呈現；其部分內部結構經 Celeste／更高等工程擴展，空間拓撲不必與外部一套普通三維座標一一對應**。",
+          "meaning": "B+C融合偏好不可冒稱定案：可能為實體巨構結合拓撲工程；外部是否正常宇宙或獨立時空未知"
+        },
+        {
+          "from": 107,
+          "to": 115,
+          "anchor_line": 108,
+          "quote": "1. **外殼與天空**：某片巨大人工平頂天幕可遮住草原／海洋，卻不必是整個世界真正最外殼；另一處可能真能看到星空。居民有的知道其人工性、有的不知道。",
+          "meaning": "生態物流與居民認知需要因果：氣壓、重力、照明、物資、交通和建造史需具體成立，Celeste非必須站在物理頂層"
+        },
+        {
+          "from": 116,
+          "to": 134,
+          "anchor_line": 127,
+          "quote": "2. **頂尖槍**：存在索引與終局 A、結果收束 B、個體戰略武裝 C，或 A＋C／其他完全不同原理？原裝槍本身是否能獨立操作完整核心、或是否依賴宏大配套？",
+          "meaning": "結尾六組根本問題仍未決：槍終極原理、宇宙外殼、女主規則、首遇安排、通常復活、外部可達性都尚未核准"
+        }
+      ],
+      "latest_revisions_checked": [
+        "04_能力武器與試煉/018_討論續錄_女主前文明頂端規則戰力與成長.md",
+        "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "02_地圖拓撲與交通/026_討論續錄_BC巨構_開篇雙主角_模組貨幣_空洞騎士路網與痛苦之路.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "04_能力武器與試煉/018_討論續錄_女主前文明頂端規則戰力與成長.md",
+          "git_blob_sha": "a86405a7a4382a76658022b5a1c282f5f56fc518"
+        },
+        {
+          "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+          "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409"
+        },
+        {
+          "path": "02_地圖拓撲與交通/026_討論續錄_BC巨構_開篇雙主角_模組貨幣_空洞騎士路網與痛苦之路.md",
+          "git_blob_sha": "b4b08f5859507129ced83673c67876b8ef89b385"
+        },
+        {
+          "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "全篇連續段落、逐段實質命題、四類二遍檢查、後修SHA與限域圖回查。",
+        "revocation": "原始或依賴SHA變更及CI不通過須撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【2026-10-19 更進一步使用者修正】** 使用者**明確偏向 B＋C** 外部不規則巨構＋非普通空間拓撲，而非三方案同樣優先；但最外部幾何仍未定。模組與能源不只是改變功能，也**當然可以真的增加男主武器的攻擊力、輸出與破壞尺度**；武器可考慮原裝刀刃、鉤鎖等多形態。前文明人不一定認識這件稀有頂尖武器；知",
+            "topic": "B+C方向優先但未定外部形貌",
+            "finding": "作者偏向不規則實體與非普通拓撲；模組可真實增加武器輸出，未固定全宇宙幾何",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3254"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 9,
+            "quote": "> 你說的槍能力只適合故事開始時的槍，功能也太少，描述的相對於前文明頂尖特殊的來說像是用鉛筆隨便畫出來的一樣，後續要蒐集模塊或其他東西能源等，如果跟前文明第一次碰撞我甚至傾向於被輾壓，男主可以死幾次，不過女主沒有復活能力(Celeste的，常規復活不知道有沒有)，像你說的男主的槍，還需要一個真正令人印象深刻的核心作用。",
+            "topic": "原話與四項確定修正",
+            "finding": "舊三模式太淺，首次遇前文明可以慘敗，艾莉維亞沒有Celeste給的不死，世界外殼問題未決",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3255"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 22,
+            "quote": "【使用者基準】男主持有的原槍在原初超十級文明中也屬**非常特殊的頂尖成果**；其核心不因歲月損壞而被普通技術修好。現在可用性能與完整潛能差異大，是因為缺少原裝能源、部分模組、相容配套、控制與專業知識等。部分模組可能完整無損但不在男主身上；某些本來就是完整系統的外部組件／協同設備，不等於本體年久失修。",
+            "topic": "原槍功能需原文明配套",
+            "finding": "頂端槍本體非年久失修的普通光砲；缺少能源、模組、控制及目標定義條件",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3256"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 31,
+            "quote": "**A｜存在索引與終局處理。**",
+            "topic": "A/B/C核心武器候選",
+            "finding": "A存在索引、B結果收束、C個體戰略終端均是未定助手方向；A+C只是助手偏好",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3257"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 50,
+            "quote": "- **目標索引與辨識模組**：如何辨認多層現實、備援本體、作用連續性及真正威脅。",
+            "topic": "模組類型不是固定道具清單",
+            "finding": "索引、作用執行、供能、演算、操作權限等是可選的系統構成，並無固定數量",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3258"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 59,
+            "quote": "- 第一次：男主的槍或許對某個子系統造成超越普通文明極限的干涉，但敵方識別了槍目前的模式，迅速令男主死亡。這**不表示槍本體低階，只是持有者當前配置與戰術不夠**。",
+            "topic": "首次前文明戰役可多次敗亡",
+            "finding": "諾亞可能被擊殺而重走真實路程，艾莉維亞可自主逃生與行動；具體三次戰役非已發生",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3259"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 70,
+            "quote": "- 一種助手候選原理：「在同一個真實系統裡，有數種合法的作用／路徑／關係時，她可以改變哪些作用佔較大權重、哪一條成為優先成立的有效現實。」這與 Franiya 原創角色「作用份量」可有親緣性，但**不直接複製其全部世界外權限、因果與多宇宙尺度**。",
+            "topic": "女主統一權能尚未落槌",
+            "finding": "權重、界側與其他模式仍未定；無Celeste不死不能推出世界其他醫療復活一定不存在",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3260"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 78,
+            "quote": "重新核對正式 01《世界尺度與空間》**第十二節**原來就明寫：",
+            "topic": "整體外形仍是正式未決問題",
+            "finding": "局部人工天幕不是整座巨構外殼；總長寬高、人口和宇宙位置並未敲定",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-3261"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 89,
+            "quote": "- 整體是大量超巨大實體結構互相連接、向多方向延伸：支架、殼體、人工海盆、居住空腔、環面、柱群、跨度巨大的道路，局部完全封閉、局部可能暴露於真正宇宙真空。",
+            "topic": "球殼與B/C兩條幾何模型",
+            "finding": "A球殼、B不規則互聯、C非普通內部拓撲均為候選；高維不可抹掉交通與維生成本",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3262"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 103,
+            "quote": "**整體具有某種存在於宇宙／外部時空的實體巨構或網絡，局部以殼、柱、環、巨型平面、人工海盆／草原等具體物質形態呈現；其部分內部結構經 Celeste／更高等工程擴展，空間拓撲不必與外部一套普通三維座標一一對應**。",
+            "topic": "B+C融合偏好不可冒稱定案",
+            "finding": "可能為實體巨構結合拓撲工程；外部是否正常宇宙或獨立時空未知",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3263"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 108,
+            "quote": "1. **外殼與天空**：某片巨大人工平頂天幕可遮住草原／海洋，卻不必是整個世界真正最外殼；另一處可能真能看到星空。居民有的知道其人工性、有的不知道。",
+            "topic": "生態物流與居民認知需要因果",
+            "finding": "氣壓、重力、照明、物資、交通和建造史需具體成立，Celeste非必須站在物理頂層",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3264"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 127,
+            "quote": "2. **頂尖槍**：存在索引與終局 A、結果收束 B、個體戰略武裝 C，或 A＋C／其他完全不同原理？原裝槍本身是否能獨立操作完整核心、或是否依賴宏大配套？",
+            "topic": "結尾六組根本問題仍未決",
+            "finding": "槍終極原理、宇宙外殼、女主規則、首遇安排、通常復活、外部可達性都尚未核准",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-3265"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【2026-10-19 更進一步使用者修正】** 使用者**明確偏向 B＋C** 外部不規則巨構＋非普通空間拓撲，而非三方案同樣優先；但最外部幾何仍未定。模組與能源不只是改變功能，也**當然可以真的增加男主武器的攻擊力、輸出與破壞尺度**；武器可考慮原裝刀刃、鉤鎖等多形態。前文明人不一定認識這件稀有頂尖武器；知",
+            "question": "這是作者確定還是助手候選？",
+            "finding": "依原文作者指令、助手創作、後出修正分層，決不按文件年份直接升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 31,
+            "quote": "**A｜存在索引與終局處理。**",
+            "question": "較晚修正是否已改變此句的適用性？",
+            "finding": "025修024舊三式；028修027非模組主線；036深層同化B；058命名靜謐迴廊。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 70,
+            "quote": "- 一種助手候選原理：「在同一個真實系統裡，有數種合法的作用／路徑／關係時，她可以改變哪些作用佔較大權重、哪一條成為優先成立的有效現實。」這與 Franiya 原創角色「作用份量」可有親緣性，但**不直接複製其全部世界外權限、因果與多宇宙尺度**。",
+            "question": "是否遺漏死亡復歸、角色能力和物流的限定？",
+            "finding": "復歸不回溯世界；無Celeste復活不代表所有復活不存在；高階槍與拓撲有真實條件。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 127,
+            "quote": "2. **頂尖槍**：存在索引與終局 A、結果收束 B、個體戰略武裝 C，或 A＋C／其他完全不同原理？原裝槍本身是否能獨立操作完整核心、或是否依賴宏大配套？",
+            "question": "是否會錯把候選劇情與世界形狀當Canon？",
+            "finding": "僅連到已存在的原槍、角色、文明、世界層、故事與迴廊節點，無新增硬Canon邊。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "04_能力武器與試煉/018_討論續錄_女主前文明頂端規則戰力與成長.md",
+            "git_blob_sha": "a86405a7a4382a76658022b5a1c282f5f56fc518",
+            "impact": "來源為後出比對必要上下游，僅適用其有證據的個別命題，不作全局Canon升格。"
+          },
+          {
+            "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+            "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+            "impact": "028明示首次死亡前不知復歸、主線登頂與不靠破裂感情的大吵。"
+          },
+          {
+            "path": "02_地圖拓撲與交通/026_討論續錄_BC巨構_開篇雙主角_模組貨幣_空洞騎士路網與痛苦之路.md",
+            "git_blob_sha": "b4b08f5859507129ced83673c67876b8ef89b385",
+            "impact": "來源為後出比對必要上下游，僅適用其有證據的個別命題，不作全局Canon升格。"
+          },
+          {
+            "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+            "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+            "impact": "2026-11-08作者後出選B深層同化／外掛扣合分離；原槍跟回但可拆模組不自動跟隨。"
+          }
+        ],
+        "second_pass_method": "實讀024、025、028全文、按連續語義段核原文行錨、二遍以作者權威、後出版本、未涵蓋實質命題及跨檔影響反查，同時用36和58驗證最新修正，保留非Canon界線。",
+        "unresolved_risks": [
+          "武器最高核心原理、外界幾何與女主統一規則未由作者正式敲定。",
+          "劇情初死場景、迴廊獎勵、最終敵人等不因檢索或CI成為已發生。"
+        ]
+      }
+    },
+    {
+      "source_path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+      "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+      "source_role_id": "FULL-B24-028",
+      "related_claim_ids": [
+        "SRC-ALL-3266",
+        "SRC-ALL-3267",
+        "SRC-ALL-3268",
+        "SRC-ALL-3269",
+        "SRC-ALL-3270",
+        "SRC-ALL-3271",
+        "SRC-ALL-3272",
+        "SRC-ALL-3273",
+        "SRC-ALL-3274",
+        "SRC-ALL-3275",
+        "SRC-ALL-3276",
+        "SRC-ALL-3277",
+        "SRC-ALL-3278",
+        "SRC-ALL-3279",
+        "SRC-ALL-3280"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "B24逐檔181行、15個連續完整區塊和15個原文行錨；待CI核證且非作者Canon。",
+      "source_line_count": 181,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 12,
+          "anchor_line": 5,
+          "quote": "> **【後出使用者修正｜2026-10-19】** 本檔部分「以地域高難度惡名昭彰／公眾普遍知道」的措辭不宜當現行設定：使用者強調原作 Path of Pain 的**隱藏入口、最深處秘密與氛圍感**；外界即便少數人聞名也不等於知道位置和核心。Celeste **可以在入口為諾亞設立特殊復歸點**，反覆失敗與回訪仍可",
+          "meaning": "靜謐迴廊與姓名的後出校正：公開高危與秘密Path of Pain不同，已定名靜謐迴廊；主角姓名諾亞艾莉維亞、買票嘴硬另有確切場景"
+        },
+        {
+          "from": 13,
+          "to": 26,
+          "anchor_line": 15,
+          "quote": "> 在作者層的話以大綱來看確實是蒐集模組打敗最終敵人(不一定是打完敵人就沒了)，登上最高層，而且不一定要作者層，主角可以意識到這把槍不完整，至於最上層本來就是目標，女主的動機至少也有登上最高層看看的想法，然後真相/知識是散落在這個世界的，Celeste設計的path of pain那邊確實可以放東西，放回憶或其他甚麼的",
+          "meaning": "作者主線與外作轉貼區分：作者明示模組登頂方向、反對感情破裂大吵；方九莉雅長篇分析未獨立核對原著"
+        },
+        {
+          "from": 27,
+          "to": 38,
+          "anchor_line": 31,
+          "quote": "- **主線可以很明確**：作者整體大綱就是前文明特殊武裝配套／模組逐步取得、真正增強攻擊力與可用能力、歷經重要敵人／最終敵人、逐漸抵達真正最高層。**這不是使用者想避免的俗套本身**；真正需要避免的是每章都變成打怪掉模組、角色為了升級沒有生活。",
+          "meaning": "真正最高層和模組決戰是作者方向：男女主均有登頂欲望，原槍模組能真增強，真相散在世界，最終敵人落敗不等於故事結束"
+        },
+        {
+          "from": 39,
+          "to": 49,
+          "anchor_line": 42,
+          "quote": "2. **第一次真正死亡與復歸**：可以很早發生；男主**在第一次死去之前完全不知道自己具有復活**，因此絕不能讓他一開局靠「反正會復活」跳下去測地圖。",
+          "meaning": "六階段只是作者可用草案：第一次死亡、初遇、模組擴展與決戰的六段屬助手排序，不能固定章號或已發生事件"
+        },
+        {
+          "from": 50,
+          "to": 61,
+          "anchor_line": 56,
+          "quote": "- 可在外部以地方危險名聲流傳，許多旅人、團隊、專業攀爬者和不同科技水平的探索者知道它甚至恐懼它；有紀錄、死亡者、成功者、交易與救援市場。**不是只有男女主到場才第一次開啟**。",
+          "meaning": "公開危險地域與秘密迴廊區別：高難原生地域不是遊樂競賽；隱藏道路獎勵、入口與高階地形風險不得外推"
+        },
+        {
+          "from": 62,
+          "to": 77,
+          "anchor_line": 64,
+          "quote": "【使用者明確要求】**「大吵架我不要有」**。對照所貼方九×莉雅材料：",
+          "meaning": "情感硬禁則不是不許爭論：作者拒絕故意翻舊帳、分手冷戰和傷害感情的大吵；互損、短暫生氣可存在"
+        },
+        {
+          "from": 78,
+          "to": 85,
+          "anchor_line": 82,
+          "quote": "- 一方想作極危險實驗時，另一方並非質疑感情，而是要求可驗證的返回條件；可以真生氣，仍尊重對方完整人格。",
+          "meaning": "真正分歧與故事張力另有來源：技術危險、外界勢力、交通時間與能力落差足以產生衝突，不必靠情感誤會"
+        },
+        {
+          "from": 86,
+          "to": 96,
+          "anchor_line": 88,
+          "quote": "【使用者新明確】**男主在故事開始時不知道自己能復活**。Celeste 已賜此能力，但早中期不向其報身分；不需要誰出面給他解說系統。",
+          "meaning": "首死前不知道自己可復歸：諾亞曾獲不死能力但初死前不知，具體事故時間地點與復歸位置仍未定"
+        },
+        {
+          "from": 97,
+          "to": 102,
+          "anchor_line": 101,
+          "quote": "方九死歸（依使用者貼的二手分析）具有**時間回溯**情境，因此在某些已知條件下可以當作暴力讀檔；而巨構男主的復歸**世界不倒流**，所有其他生命和現實後果都延續。對他與女主而言，「死一次」可以是情報／探險工具，**不是免費悔棋或整個隊伍存檔重置**。",
+          "meaning": "死亡復歸不是時間回溯：受轉貼外作影響的讀檔模型不可挪用，巨構他人死亡、物流及時間繼續"
+        },
+        {
+          "from": 103,
+          "to": 114,
+          "anchor_line": 110,
+          "quote": "- 她可以**興致勃勃地研究不同死亡後的復歸、提出探路測試、和男主一同計算「死回原點要重新走三天」的成本**。",
+          "meaning": "成熟後的死亡試探有科技與代價：女主可研究或支援反覆試探，但遠端資料、物件留存和重返成本必須被實證"
+        },
+        {
+          "from": 115,
+          "to": 124,
+          "anchor_line": 116,
+          "quote": "- 若對方不是一般「打死肉體」，而是有可能干涉男主連續自我、Celeste 賦予的復歸或跨層存在條件，**他們並不因過去成功復歸就知道這次一定沒事**。",
+          "meaning": "極端存在干涉的風險是主觀未知：高級文明是否能破Celeste不死不能先判；兩人不知不等於客觀權柄必能被破"
+        },
+        {
+          "from": 125,
+          "to": 153,
+          "anchor_line": 131,
+          "quote": "男主：「要不我跳一次？」",
+          "meaning": "廢豎井三天返程是助手場景示意：跳井、三天重走與研究貨梯並非已發生；使用者指定買票嘴硬為不同情境"
+        },
+        {
+          "from": 154,
+          "to": 160,
+          "anchor_line": 157,
+          "quote": "- **中期**：不需長期曖昧吊胃口，感情可以確認、主動親吻、同住、一起旅行與真正以戀人互認；玩鬧反而變得更熟。",
+          "meaning": "戀愛成長是非強制時間線：同行、親吻、同居與成熟並肩屬可用階段建議，不可固定實際發生章數"
+        },
+        {
+          "from": 161,
+          "to": 168,
+          "anchor_line": 163,
+          "quote": "- **第 27 檔**把《沒有終點的返程線》當最推薦的主線，強調「不應是蒐集模組打敗最終敵人登上最高層」，如今**此部分被使用者明確推翻**；路網可以作為重要事件引擎，但**終極旅程本來就是登上真正最高層**，作者大綱亦可有蒐集模組、決戰後仍有故事。",
+          "meaning": "後出明確推翻第二十七份舊主線優先：前27不採模組登頂是舊助手意見；第一次死亡前未知不死，原槍模組可提升真實輸出"
+        },
+        {
+          "from": 169,
+          "to": 181,
+          "anchor_line": 171,
+          "quote": "1. 登頂具體要通過什麼條件；B＋C 拓撲中「真正最高層」的幾何含義、可否從外部繞進去、是否有不止一個入口；**登頂是目標，但最高層物理細節待定**。",
+          "meaning": "最高層敵人和模組未定案：頂層實際幾何、終敵、武器件數、女主力量、首次復歸、迴廊收穫尚未由作者決定"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/027_討論續錄_早中期Celeste不揭露_主線路網_作品事件_戀愛發展.md",
+        "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
+        "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+        "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+        "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/027_討論續錄_早中期Celeste不揭露_主線路網_作品事件_戀愛發展.md",
+          "git_blob_sha": "b6153633f90a053abda61f2a73ca8534aab520b1"
+        },
+        {
+          "path": "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
+          "git_blob_sha": "6f799686b2e1bf0add37b2a26d7a9cfe8301fffc"
+        },
+        {
+          "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+          "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c"
+        },
+        {
+          "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+          "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f"
+        },
+        {
+          "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+          "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854"
+        },
+        {
+          "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "全篇連續段落、逐段實質命題、四類二遍檢查、後修SHA與限域圖回查。",
+        "revocation": "原始或依賴SHA變更及CI不通過須撤回重審。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 5,
+            "quote": "> **【後出使用者修正｜2026-10-19】** 本檔部分「以地域高難度惡名昭彰／公眾普遍知道」的措辭不宜當現行設定：使用者強調原作 Path of Pain 的**隱藏入口、最深處秘密與氛圍感**；外界即便少數人聞名也不等於知道位置和核心。Celeste **可以在入口為諾亞設立特殊復歸點**，反覆失敗與回訪仍可",
+            "topic": "靜謐迴廊與姓名的後出校正",
+            "finding": "公開高危與秘密Path of Pain不同，已定名靜謐迴廊；主角姓名諾亞艾莉維亞、買票嘴硬另有確切場景",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3266"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 15,
+            "quote": "> 在作者層的話以大綱來看確實是蒐集模組打敗最終敵人(不一定是打完敵人就沒了)，登上最高層，而且不一定要作者層，主角可以意識到這把槍不完整，至於最上層本來就是目標，女主的動機至少也有登上最高層看看的想法，然後真相/知識是散落在這個世界的，Celeste設計的path of pain那邊確實可以放東西，放回憶或其他甚麼的",
+            "topic": "作者主線與外作轉貼區分",
+            "finding": "作者明示模組登頂方向、反對感情破裂大吵；方九莉雅長篇分析未獨立核對原著",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3267"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 31,
+            "quote": "- **主線可以很明確**：作者整體大綱就是前文明特殊武裝配套／模組逐步取得、真正增強攻擊力與可用能力、歷經重要敵人／最終敵人、逐漸抵達真正最高層。**這不是使用者想避免的俗套本身**；真正需要避免的是每章都變成打怪掉模組、角色為了升級沒有生活。",
+            "topic": "真正最高層和模組決戰是作者方向",
+            "finding": "男女主均有登頂欲望，原槍模組能真增強，真相散在世界，最終敵人落敗不等於故事結束",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3268"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 42,
+            "quote": "2. **第一次真正死亡與復歸**：可以很早發生；男主**在第一次死去之前完全不知道自己具有復活**，因此絕不能讓他一開局靠「反正會復活」跳下去測地圖。",
+            "topic": "六階段只是作者可用草案",
+            "finding": "第一次死亡、初遇、模組擴展與決戰的六段屬助手排序，不能固定章號或已發生事件",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3269"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 56,
+            "quote": "- 可在外部以地方危險名聲流傳，許多旅人、團隊、專業攀爬者和不同科技水平的探索者知道它甚至恐懼它；有紀錄、死亡者、成功者、交易與救援市場。**不是只有男女主到場才第一次開啟**。",
+            "topic": "公開危險地域與秘密迴廊區別",
+            "finding": "高難原生地域不是遊樂競賽；隱藏道路獎勵、入口與高階地形風險不得外推",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3270"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 64,
+            "quote": "【使用者明確要求】**「大吵架我不要有」**。對照所貼方九×莉雅材料：",
+            "topic": "情感硬禁則不是不許爭論",
+            "finding": "作者拒絕故意翻舊帳、分手冷戰和傷害感情的大吵；互損、短暫生氣可存在",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3271"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 82,
+            "quote": "- 一方想作極危險實驗時，另一方並非質疑感情，而是要求可驗證的返回條件；可以真生氣，仍尊重對方完整人格。",
+            "topic": "真正分歧與故事張力另有來源",
+            "finding": "技術危險、外界勢力、交通時間與能力落差足以產生衝突，不必靠情感誤會",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3272"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 88,
+            "quote": "【使用者新明確】**男主在故事開始時不知道自己能復活**。Celeste 已賜此能力，但早中期不向其報身分；不需要誰出面給他解說系統。",
+            "topic": "首死前不知道自己可復歸",
+            "finding": "諾亞曾獲不死能力但初死前不知，具體事故時間地點與復歸位置仍未定",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3273"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 101,
+            "quote": "方九死歸（依使用者貼的二手分析）具有**時間回溯**情境，因此在某些已知條件下可以當作暴力讀檔；而巨構男主的復歸**世界不倒流**，所有其他生命和現實後果都延續。對他與女主而言，「死一次」可以是情報／探險工具，**不是免費悔棋或整個隊伍存檔重置**。",
+            "topic": "死亡復歸不是時間回溯",
+            "finding": "受轉貼外作影響的讀檔模型不可挪用，巨構他人死亡、物流及時間繼續",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3274"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 110,
+            "quote": "- 她可以**興致勃勃地研究不同死亡後的復歸、提出探路測試、和男主一同計算「死回原點要重新走三天」的成本**。",
+            "topic": "成熟後的死亡試探有科技與代價",
+            "finding": "女主可研究或支援反覆試探，但遠端資料、物件留存和重返成本必須被實證",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3275"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 116,
+            "quote": "- 若對方不是一般「打死肉體」，而是有可能干涉男主連續自我、Celeste 賦予的復歸或跨層存在條件，**他們並不因過去成功復歸就知道這次一定沒事**。",
+            "topic": "極端存在干涉的風險是主觀未知",
+            "finding": "高級文明是否能破Celeste不死不能先判；兩人不知不等於客觀權柄必能被破",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3276"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 131,
+            "quote": "男主：「要不我跳一次？」",
+            "topic": "廢豎井三天返程是助手場景示意",
+            "finding": "跳井、三天重走與研究貨梯並非已發生；使用者指定買票嘴硬為不同情境",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3277"
+            ]
+          },
+          {
+            "section_index": 13,
+            "line": 157,
+            "quote": "- **中期**：不需長期曖昧吊胃口，感情可以確認、主動親吻、同住、一起旅行與真正以戀人互認；玩鬧反而變得更熟。",
+            "topic": "戀愛成長是非強制時間線",
+            "finding": "同行、親吻、同居與成熟並肩屬可用階段建議，不可固定實際發生章數",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3278"
+            ]
+          },
+          {
+            "section_index": 14,
+            "line": 163,
+            "quote": "- **第 27 檔**把《沒有終點的返程線》當最推薦的主線，強調「不應是蒐集模組打敗最終敵人登上最高層」，如今**此部分被使用者明確推翻**；路網可以作為重要事件引擎，但**終極旅程本來就是登上真正最高層**，作者大綱亦可有蒐集模組、決戰後仍有故事。",
+            "topic": "後出明確推翻第二十七份舊主線優先",
+            "finding": "前27不採模組登頂是舊助手意見；第一次死亡前未知不死，原槍模組可提升真實輸出",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3279"
+            ]
+          },
+          {
+            "section_index": 15,
+            "line": 171,
+            "quote": "1. 登頂具體要通過什麼條件；B＋C 拓撲中「真正最高層」的幾何含義、可否從外部繞進去、是否有不止一個入口；**登頂是目標，但最高層物理細節待定**。",
+            "topic": "最高層敵人和模組未定案",
+            "finding": "頂層實際幾何、終敵、武器件數、女主力量、首次復歸、迴廊收穫尚未由作者決定",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-3280"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 5,
+            "quote": "> **【後出使用者修正｜2026-10-19】** 本檔部分「以地域高難度惡名昭彰／公眾普遍知道」的措辭不宜當現行設定：使用者強調原作 Path of Pain 的**隱藏入口、最深處秘密與氛圍感**；外界即便少數人聞名也不等於知道位置和核心。Celeste **可以在入口為諾亞設立特殊復歸點**，反覆失敗與回訪仍可",
+            "question": "這是作者確定還是助手候選？",
+            "finding": "依原文作者指令、助手創作、後出修正分層，決不按文件年份直接升格。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 42,
+            "quote": "2. **第一次真正死亡與復歸**：可以很早發生；男主**在第一次死去之前完全不知道自己具有復活**，因此絕不能讓他一開局靠「反正會復活」跳下去測地圖。",
+            "question": "較晚修正是否已改變此句的適用性？",
+            "finding": "025修024舊三式；028修027非模組主線；036深層同化B；058命名靜謐迴廊。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 88,
+            "quote": "【使用者新明確】**男主在故事開始時不知道自己能復活**。Celeste 已賜此能力，但早中期不向其報身分；不需要誰出面給他解說系統。",
+            "question": "是否遺漏死亡復歸、角色能力和物流的限定？",
+            "finding": "復歸不回溯世界；無Celeste復活不代表所有復活不存在；高階槍與拓撲有真實條件。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 171,
+            "quote": "1. 登頂具體要通過什麼條件；B＋C 拓撲中「真正最高層」的幾何含義、可否從外部繞進去、是否有不止一個入口；**登頂是目標，但最高層物理細節待定**。",
+            "question": "是否會錯把候選劇情與世界形狀當Canon？",
+            "finding": "僅連到已存在的原槍、角色、文明、世界層、故事與迴廊節點，無新增硬Canon邊。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "03_人物關係與語感/027_討論續錄_早中期Celeste不揭露_主線路網_作品事件_戀愛發展.md",
+            "git_blob_sha": "b6153633f90a053abda61f2a73ca8534aab520b1",
+            "impact": "028作者改為登頂模組主線，不以失蹤返程線取代。"
+          },
+          {
+            "path": "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
+            "git_blob_sha": "6f799686b2e1bf0add37b2a26d7a9cfe8301fffc",
+            "impact": "來源為後出比對必要上下游，僅適用其有證據的個別命題，不作全局Canon升格。"
+          },
+          {
+            "path": "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
+            "git_blob_sha": "c4d42c4aadec9dc9344a318a9b3fda7ec8203a9c",
+            "impact": "2026-11-08作者後出選B深層同化／外掛扣合分離；原槍跟回但可拆模組不自動跟隨。"
+          },
+          {
+            "path": "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
+            "git_blob_sha": "9474ef87a14e4d5017d1cfc86d305d3753f9f47f",
+            "impact": "來源為後出比對必要上下游，僅適用其有證據的個別命題，不作全局Canon升格。"
+          },
+          {
+            "path": "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
+            "git_blob_sha": "5b502b16d4e3f06cb4cb014d1037c8dcd4dd7854",
+            "impact": "來源為後出比對必要上下游，僅適用其有證據的個別命題，不作全局Canon升格。"
+          },
+          {
+            "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+            "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+            "impact": "靜謐迴廊正式命名，與終焉迴廊分離，隱藏入口知情限制仍存在。"
+          }
+        ],
+        "second_pass_method": "實讀024、025、028全文、按連續語義段核原文行錨、二遍以作者權威、後出版本、未涵蓋實質命題及跨檔影響反查，同時用36和58驗證最新修正，保留非Canon界線。",
+        "unresolved_risks": [
+          "武器最高核心原理、外界幾何與女主統一規則未由作者正式敲定。",
+          "劇情初死場景、迴廊獎勵、最終敵人等不因檢索或CI成為已發生。"
+        ]
+      }
+    }
+  ],
+  "staged_graph_records": [
+    {
+      "audit_id": "SRC-ALL-3242",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜早期武器與外部幾何被後修限縮｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3242-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3242-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3243",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜使用者核心前提｜L13",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 13
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3243-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3243-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3243-3",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3244",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜雙主角技能組只是v1｜L23",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 23
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3244-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3244-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3245",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜不死歸還的物件與風險｜L34",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 34
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3245-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3245-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3246",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜原槍的三射擊模式與相容條件｜L50",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 50
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3246-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3246-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3247",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜女主統一規則尚未確認｜L68",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 68
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3247-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3248",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜女主個人科技與力量上限｜L81",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 81
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3248-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3248-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3249",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜雙主角不需對稱的戰力｜L96",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 96
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3249-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3249-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3250",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜商店與制度性暴力候選｜L108",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 108
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3250-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3250-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3251",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜前文明壓迫與Celeste介入例子｜L118",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 118
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3251-1",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3251-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3252",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜禁止廉價平衡與錯誤升級｜L127",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 127
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3252-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3252-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3253",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "024｜結尾未決清單受後修制約｜L138",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/024_候選設計_雙主角不死終端之槍與規則偏衡.md",
+        "git_blob_sha": "5ce7a203010b6f4eae12ece2c518d28c09c3356e",
+        "line": 138
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3253-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3253-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3254",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜B+C方向優先但未定外部形貌｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3254-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3254-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3255",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜原話與四項確定修正｜L9",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 9
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3255-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3255-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3255-3",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3256",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜原槍功能需原文明配套｜L22",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 22
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3256-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3256-2",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3257",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜A/B/C核心武器候選｜L31",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 31
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3257-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3258",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜模組類型不是固定道具清單｜L50",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 50
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3258-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3259",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜首次前文明戰役可多次敗亡｜L59",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 59
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3259-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3259-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3259-3",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3260",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜女主統一權能尚未落槌｜L70",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 70
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3260-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3260-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3261",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜整體外形仍是正式未決問題｜L78",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 78
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3261-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3262",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜球殼與B/C兩條幾何模型｜L89",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 89
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3262-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3262-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3263",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜B+C融合偏好不可冒稱定案｜L103",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 103
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3263-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3264",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜生態物流與居民認知需要因果｜L108",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 108
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3264-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3264-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3264-3",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3265",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "025｜結尾六組根本問題仍未決｜L127",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/025_討論續錄_頂尖武器重構_首次輾壓_女主不可復活_巨構外殼.md",
+        "git_blob_sha": "df33e2735f8c0bc0df9934e8999e4d8654e71860",
+        "line": 127
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3265-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3265-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3265-3",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3266",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜靜謐迴廊與姓名的後出校正｜L5",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 5
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3266-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3266-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3266-3",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3267",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜作者主線與外作轉貼區分｜L15",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 15
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3267-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3267-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3268",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜真正最高層和模組決戰是作者方向｜L31",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 31
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3268-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3268-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3268-3",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3269",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜六階段只是作者可用草案｜L42",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 42
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3269-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3270",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜公開危險地域與秘密迴廊區別｜L56",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 56
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3270-1",
+          "target_type": "entity",
+          "target_id": "quiet_corridor",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3270-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3271",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜情感硬禁則不是不許爭論｜L64",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 64
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3271-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3271-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3272",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜真正分歧與故事張力另有來源｜L82",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 82
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3272-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3272-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3273",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜首死前不知道自己可復歸｜L88",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 88
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3273-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3273-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3274",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜死亡復歸不是時間回溯｜L101",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 101
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3274-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3274-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3275",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜成熟後的死亡試探有科技與代價｜L110",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 110
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3275-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3275-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3276",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜極端存在干涉的風險是主觀未知｜L116",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 116
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3276-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3276-2",
+          "target_type": "entity",
+          "target_id": "celeste",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3276-3",
+          "target_type": "entity",
+          "target_id": "civilization",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3277",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜廢豎井三天返程是助手場景示意｜L131",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 131
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3277-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3277-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3277-3",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3278",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜戀愛成長是非強制時間線｜L157",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 157
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3278-1",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3278-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3279",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜後出明確推翻第二十七份舊主線優先｜L163",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 163
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3279-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3279-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    },
+    {
+      "audit_id": "SRC-ALL-3280",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "028｜最高層敵人和模組未定案｜L171",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "04_能力武器與試煉/028_討論續錄_登頂主線_模組決戰_不裂痕戀愛_初次死亡與復歸探路.md",
+        "git_blob_sha": "f1ac698425a15a777297e6e0ce68908a7e4c3409",
+        "line": 171
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3280-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3280-2",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅為舊節點檢索關聯，非正式設定提升。"
+    }
+  ]
+}
