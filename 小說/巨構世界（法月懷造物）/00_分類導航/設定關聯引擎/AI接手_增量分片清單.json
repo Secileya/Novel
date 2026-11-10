@@ -112,6 +112,17 @@
       "claim_count": 223,
       "graph_relations": 344,
       "note": "六份全文及內容特定第二遍查漏、32項具體SHA依賴影響；051後出已選未發生狀態已仲裁，11個候選實體有原文證據；原稿與巨大總帳唯讀。待當批CI。"
+    },
+    {
+      "path": "20261110_第三十二批6份_102_痕跡_006_017_027_045_全文語義v2.json",
+      "git_blob_sha": "2ca44e85d182df22d5f134add02a61e995723a3a",
+      "batch": "BATCH32",
+      "source_count": 6,
+      "original_lines": 838,
+      "semantic_sections": 76,
+      "claim_count": 233,
+      "graph_relations": 233,
+      "note": "完整原文、24條內容特定二遍反問及逐依賴SHA影響；028主線後修、文明量尺與影子知情勘誤已仲裁，未改原文與舊總帳。待當批CI。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."
