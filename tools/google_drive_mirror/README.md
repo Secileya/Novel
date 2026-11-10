@@ -2,6 +2,38 @@
 > **2026-11-10｜Gemini 隔日完整接手**：請優先閱讀 [HANDOFF_GEMINI_DRIVE_20261110.md](HANDOFF_GEMINI_DRIVE_20261110.md)，其中含 Apps Script v3 執行／鎖定／逾時處理、明天可直接傳給 Gemini 更新 Skill 的完整指令、跨對話讀檔測試及 NON-CANON 候選小說測試。GitHub 的修補**不會自動寫入使用者 Apps Script 編輯區**。
 
 **性質**：資料鏡像與工具，不是小說 Canon，亦非新故事設定。預設僅讀取 GitHub 公開倉庫，僅寫入 Stingray Drive 的專用鏡像資料夾。
+## 新增：GPT／Gemini 近即時同步（快速通道，2026-11-10）
+
+**不是只能每 5 分鐘同步。** 現行完整鏡像保留 `syncDrain`（每五分鐘補漏）與 `syncHourly`（每小時巡查）；新增可選 `syncQuick`（每一分鐘輕量查詢 GitHub SHA 差異）。觸發器由 Google 排程，**不是保證每分鐘準點執行的 webhook**。在新 GitHub commit 推送之後，Actions 仍須先成功更新 `source-index.json`，Drive 與 Google Workspace 的搜尋也可能有自然延遲。
+
+### 已有 Apps Script 專案的最短啟用步驟
+
+1. 開啟**原本已授權的** Apps Script 專案：<https://script.google.com/home/projects/1DPDrliDG1EXJVNfzunHmD7j_G9pVAHqHvI2rABnSHZRQrVvbCI4dXZUm/edit>，登入 Stingray 帳號。**不要另建新腳本，不要重跑 `installSync`**。
+2. 從 [Code.gs（GitHub main）](https://github.com/Secileya/Novel/blob/main/tools/google_drive_mirror/Code.gs) 複製完整內容覆蓋 Apps Script 的 `程式碼.gs` 並儲存。**GitHub 更新不會自動部署到這個專案**。
+3. 在 Apps Script 的函式下拉選擇 `installFastSync`，執行**一次**（同意新增授權提示，如有）。程式會新增唯一一個每分鐘 `syncQuick` 觸發器，立即做一輪輕量同步；原本 `syncDrain`／`syncHourly` 保留。
+4. 檢查 Apps Script「觸發條件」確實存在 `syncQuick` 的時間觸發器，再看「執行項目」是否成功，Drive 鏡像根目錄應出現 `00_最新GitHub變更交接.txt`。也可手動執行 `quickSyncNow`。如要停用快速通道，執行 `stopFastSync`，不影響舊鏡像。
+
+### 快速通道如何運作
+
+- GitHub Action 對每次原始來源變動產生 `changedFiles`（新增／修改）、`removedFiles` 和釘選的 `sourceCommit`／Git Blob SHA；只根據**來源實際變動**更新，不反覆搬運整個檔案庫。
+- `syncQuick` 每輪最多更新 **2 份、每份最多 64 KB** 的改動來源；已存在的鏡像原地更新，新鏡像建立為普通 `text/plain`，**不新增 Google Docs**。超大的檔案留給完整鏡像，同時在快速交接中提供釘選原文 URL。
+- 鏡像根目錄的一份固定檔案 `00_最新GitHub變更交接.txt` 記錄 GitHub commit、變動路徑、原始 SHA、`DRIVE_CURRENT` 或 `DRIVE_PENDING_OR_STALE`，以及該次 commit 的原文固定連結。Gemini 不需要猜「五分鐘何時到」。
+- 原本 `syncDrain` 遇到 Google Docs 的 `docs create` 每日額度時，改試**純文字鏡像**，成功才記為 `CURRENT`；遇到來源下載或 SHA 錯誤仍記 `SYNC_FAILED`，不掩蓋失敗。Google Workspace 對純文字鏡像的搜尋可能晚於 Drive 檔案寫入。
+- `00_最新GitHub變更交接.txt` 不是完整設定摘要，不代表 Gemini 已讀到原文，更不是 Canon 權威來源；真正的內容、後出修訂和作者決議仍須到對應原檔核對。
+
+### 可直接貼給現有 Gemini Skill 的規則
+
+> 每次 GPT 說「已更新設定」或我要你研究最新內容時，先讀 Stingray 鏡像根目錄的 `00_最新GitHub變更交接.txt`。核對 `Source index commit` 和被修改檔的 `Source Git blob SHA`。若對應鏡像標示 `DRIVE_CURRENT`，請實際讀取該 Drive 文件的原文；若標示 `DRIVE_PENDING_OR_STALE`，優先嘗試打開交接內的 **Pinned source URL** 取得 GitHub 該版本全文。若沒有權限讀 GitHub 或檢索不到 Drive 原文，就明確回報 `MIRROR_PENDING`，不要拿舊快照當新版本，更不要自行猜新決議內容。永遠區分作者已確認、AI 候選、舊版本與正式0章 PREWRITE HOLD。
+
+### 故障與配額
+
+- 若五分鐘和每小時排程仍存在但看不到 `syncQuick`：說明**尚未在使用者的 Apps Script 專案執行 `installFastSync`**。
+- `SKIPPED_LOCK_BUSY`：另一個同步正在使用 ScriptLock，本輪跳過，非成功。
+- `NO_SOURCE_CHANGE`：公開 GitHub source index 還沒有變（或已處理），不能據此假稱剛提交的資料已經進 Drive。
+- `HANDOFF_READY_SOME_DRIVE_PENDING`：快速交接已更新，但部分來源過大或待背景鏡像，Gemini 可用固定來源 URL。
+- `docs create` 額度不足：快速通道不新建 Docs；背景通道會優先建立純文字副本，仍可能受 Drive、Apps Script 執行時間與查詢額度限制，不能承諾每次在固定秒數內完成。
+- 快速通道的上次來源提交、已處理檔、待處理檔與錯誤另記於 `_GITHUB_SYNC_STATE.json` 的 `quickLane*` 欄位。不要擅自清除原始同步紀錄或人工原文。
+
 ## 目的與配置
 - **GitHub**：`https://github.com/Secileya/Novel`，`main` 分支，`小說/巨構世界（法月懷造物）/` 路徑。
 - **鏡像 Drive**：`https://drive.google.com/drive/folders/1-8xXZ98taJKK_Zpj65RjZtA4J5MzIXBY`。

@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '小說/巨構世界（法月懷造物）/**'
+      - 'tools/google_drive_mirror/build_source_index.py'
   workflow_dispatch:
   schedule:
     - cron: '37 3 * * *'
