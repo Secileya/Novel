@@ -170,15 +170,17 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 1965,
-    "audited_original_quote_anchors": 2156,
+    "audited_batched_claims": 2492,
+    "audited_original_quote_anchors": 2683,
     "original_archive_09_files": 5,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第18批四份AI整檔語義驗收已經GitHub CI核證，累計70/335、265待審；Canon正式0章 PREWRITE HOLD；CI不保證人類語義判斷完全無漏。",
+    "limitations": "第19批11份新驗收登記待CI；所有原圖缺失者僅憑既有文字觀察，不當作原圖重新鑑定；81/335、待254；正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 32,
-    "full_file_editorial_pending": 139
+    "full_file_editorial_pending": 139,
+    "all_source_full_file_editorial_accepted_pending_ci": 81,
+    "all_source_full_file_editorial_pending": 254
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
