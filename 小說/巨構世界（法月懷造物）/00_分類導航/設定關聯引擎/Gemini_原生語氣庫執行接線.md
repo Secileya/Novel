@@ -1,3 +1,5 @@
+> **2026-11-10｜Gemini Skill／Gem 每輪新增接線規範**：除了本文件的第059／105語氣庫程序，**務必把[每輪來源刷新＋回貼完整原文保存＋寫作前置 SOP](跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md)放入原有 Gemini Gem／Skill 的長期指令**。每次新對話／收到 GPT 檔案變更卡時，先由 Stingray Drive 的 `00_最新GitHub變更交接.txt` 判斷變更，再讀**本題相關設定原文、前章候選全文、關聯資料與105／059語氣來源**；以 Google Drive 同 SHA 為鏡像驗收，不以記憶或檔名充當全文讀取。ChatGPT 實際 GitHub 提交不會自動更新 Gemini 網頁版 Skill；須有權限的 Gemini／使用者在 Skill 內納入本段並新對話實測。使用者貼 Gemini 回覆時，GPT 依 SOP 保存獨立可見全文、另存 QA、作者決議；Gemini 當次不能直接寫 GitHub 時也不能自稱已歸檔。
+
 # Gemini 直接執行巨構語庫｜網頁版 Gem／專用 Skills／Gemini CLI
 
 ## 決定與邊界
