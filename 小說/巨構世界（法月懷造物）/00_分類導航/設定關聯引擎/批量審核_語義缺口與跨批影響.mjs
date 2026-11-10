@@ -80,7 +80,7 @@ async function main(){
  const errors=ledger.records.flatMap(r=>validateBatchQuality(r).map(e=>r.source_path+": "+e));
  if(a.includes("--negative-test")){
   const base=ledger.records.find(r=>r.status==="FULL_FILE_EDITORIAL_ATTESTED");
-  const pretend={...base,git_blob_sha:"0".repeat(40)};
+  const pretend={...base,git_blob_sha:"0".repeat(40),semantic_quality_v2:undefined};
   if(!validateBatchQuality(pretend).some(x=>x.includes("missing semantic_quality_v2")))errors.push("bad new certificate was accepted");
   const changed=base.latest_revisions_checked[0];
   const impacts=impactClosure(changed,ledger.records);
