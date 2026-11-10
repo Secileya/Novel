@@ -8,10 +8,10 @@
   "last_checked_head_before_handoff": "0437691488964557e81065a2195e25878e611e79",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42721040411",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42733294901",
     "conclusion": "success",
-    "head_sha": "4e7c855e02f541534ba9f141dc699289fc565bb1",
-    "warning": "Certifies batch17 audit source graph and board before this final small workboard handoff commit."
+    "head_sha": "9e28599f3e304faa251326ff6459dafe51051459",
+    "warning": "第18批修復後通過 CI；本次小幅交接提交仍須驗證自己的 CI，機械通過不等於作者 Canon 採案。"
   },
   "fact_snapshot": {
     "raw_source_files": 335,
@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第18批四份原文1669行、29段、114錨；暫登70/335，待CI成功。正式0章PREWRITE HOLD。",
+    "important": "第18批4份1669行、29段、114處原文錨點、228條非Canon關聯，GitHub CI 42733294901 成功；累計70/335、265待審，正式0章 PREWRITE HOLD。",
     "targeted_audit_records": 1965,
     "targeted_audit_verified_quotes": 2156,
     "full_file_editorial_accepted": 32,
@@ -88,10 +88,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第18批4份資料完整驗收暫登，尚待GitHub CI核證",
-        "stage": "BATCH18_PENDING_CI",
-        "last_verified_commit": "4e7c855e02f541534ba9f141dc699289fc565bb1",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42721040411",
+        "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
+        "stage": "BATCH18_FULL_SOURCE_CI_VERIFIED",
+        "last_verified_commit": "9e28599f3e304faa251326ff6459dafe51051459",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42733294901",
         "cross_source_next_batch": [
           "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
           "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
@@ -248,7 +248,7 @@
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42721040411"
         },
         "acceleration_batch_18": {
-          "stage": "PENDING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 4,
           "source_lines": 1669,
           "sections": 29,
@@ -262,7 +262,10 @@
             110,
             112,
             113
-          ]
+          ],
+          "batch_commit": "65b44b51a550429dbfe0ece23caaa768884af75f",
+          "ci_repair_commit": "9e28599f3e304faa251326ff6459dafe51051459",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42733294901"
         }
       }
     },
@@ -542,10 +545,10 @@
     "nonCanon_graph_links": 228,
     "all_source_accepted": 70,
     "all_source_pending": 265,
-    "state": "PENDING_CI",
+    "state": "COMPLETE__COMMIT_CI_VERIFIED",
     "notes": "109/110兩套互斥開篇、112節點系統、113P1，未升Canon；待CI。",
-    "most_recent_verified_commit": "4e7c855e02f541534ba9f141dc699289fc565bb1",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42721040411"
+    "most_recent_verified_commit": "9e28599f3e304faa251326ff6459dafe51051459",
+    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42733294901"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -564,13 +567,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH18_PENDING_CI",
-    "scope": "第18批四份共1669行、29段、114份細粒度錨點、228非Canon圖邊；CI尚待驗證。",
-    "commit": null,
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "265份仍待審，後出依賴需持續回查；正式0章PREWRITE HOLD。",
-    "next_step": "CI成功後回填成功提交；下一批114/115/116/117並沿相同品質門檻進行。"
+    "stage": "BATCH18_CI_VERIFIED",
+    "scope": "第18批四份原文1669行、29個審核段、114筆原文行號與 SHA 證據及228條非Canon圖連結；GitHub CI完成且成功。",
+    "commit": "9e28599f3e304faa251326ff6459dafe51051459",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42733294901",
+    "not_finished": "全庫仍有265份待完整語義審核；任何新的後修或新來源須重新計算與回查；正式0章PREWRITE HOLD。",
+    "next_step": "第19批依 NEXT-009.next_batch 優先處理114、115、116、117，須逐份完整閱讀與驗收。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
