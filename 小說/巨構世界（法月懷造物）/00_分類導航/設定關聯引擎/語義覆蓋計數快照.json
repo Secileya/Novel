@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "統計快照只代表CI交叉核驗之當前Git原始清冊與第四至七批定向原文錨點；完整逐檔語義驗收依另冊，定向判讀不等於全文通過。",
+  "warning": "統計需區分全庫335份來源、編輯性整檔驗收81份、非Canon行錨與圖譜鏈結；CI只證明已設檢查通過，不等於作者核准Canon或重新檢視未保存的原圖。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,7 +176,7 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第19批11份新驗收登記待CI；所有原圖缺失者僅憑既有文字觀察，不當作原圖重新鑑定；81/335、待254；正式0章PREWRITE HOLD。",
+    "limitations": "第19批11份AI編輯性驗收已通過GitHub CI 42748730438；累計81/335、剩餘254；圖片原檔未存GitHub者只依既有文字視覺紀錄查核；正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 32,
     "full_file_editorial_pending": 139,
     "all_source_full_file_editorial_accepted_pending_ci": 81,

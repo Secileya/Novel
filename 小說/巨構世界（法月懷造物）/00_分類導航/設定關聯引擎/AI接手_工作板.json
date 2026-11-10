@@ -25,7 +25,7 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第19批11份文字來源的編輯性審核已登記81/335，原圖缺失者僅核對Git既有文字觀察，待新提交CI驗證；正式0章PREWRITE HOLD。",
+    "important": "第19批11份已通過GitHub CI 42748730438：累計81/335、待254。原有70完整保留；正式0章PREWRITE HOLD。",
     "targeted_audit_records": 2492,
     "targeted_audit_verified_quotes": 2683,
     "full_file_editorial_accepted": 32,
@@ -89,9 +89,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第18批4份逐檔AI編輯性驗收完成；正式0章，來源與後出依賴若變更須撤回重審。",
-        "stage": "BATCH19_11_COMMITTED_PENDING_CI",
-        "last_verified_commit": "9e28599f3e304faa251326ff6459dafe51051459",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42733294901",
+        "stage": "BATCH19_11_CI_VERIFIED",
+        "last_verified_commit": "5b6c72e55906ee89865ab881c6280b6e692155dc",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42748730438",
         "cross_source_next_batch": [
           "05_場景視覺與參考/083_原文保存_方九莉雅初遇_能力互識_第2至26章修正_使用者轉貼.md",
           "06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
@@ -270,7 +270,7 @@
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42733294901"
         },
         "acceleration_batch_19": {
-          "stage": "COMMITTED_PENDING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 11,
           "source_names": [
             115,
@@ -297,7 +297,8 @@
             118,
             127
           ],
-          "ci_run_url": null
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42748730438",
+          "batch_commit": "5b6c72e55906ee89865ab881c6280b6e692155dc"
         }
       }
     },
@@ -577,10 +578,10 @@
     "nonCanon_graph_links": 1054,
     "all_source_accepted": 81,
     "all_source_pending": 254,
-    "state": "COMMITTED_PENDING_CI",
-    "notes": "去重114、118、127，11份完整文字語義證據入庫；待GitHub CI，原圖缺失者未假裝本輪逐張重新檢視。",
-    "most_recent_verified_commit": "9e28599f3e304faa251326ff6459dafe51051459",
-    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42733294901"
+    "state": "COMPLETE__COMMIT_CI_VERIFIED",
+    "notes": "第19批11份AI編輯性整檔審核、所有來源/依賴SHA/交叉關聯/CI已通過。已保留70份；本批無原圖位元的來源僅驗其文字觀察檔。",
+    "most_recent_verified_commit": "5b6c72e55906ee89865ab881c6280b6e692155dc",
+    "most_recent_verified_actions": "https://github.com/Secileya/Novel/actions/runs/42748730438"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -599,13 +600,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH19_11_COMMITTED_PENDING_CI",
-    "scope": "第19批11份已保存全文語義核對：1835行、113段、527行錨及1054條非Canon圖連結。",
-    "commit": "尚待GitHub Commit",
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "新一輪GitHub CI尚未完成；台帳81/335登記待驗證。正式0章PREWRITE HOLD。",
-    "next_step": "確認本批CI與HEAD回讀結果；其餘254份重新由動態來源待辦挑選，不能把已通過114/118/127重複派發。"
+    "stage": "BATCH19_11_CI_VERIFIED",
+    "scope": "第19批11份來源、原文1835行、113段、527條SHA行錨、1054條非Canon檢索連結；GitHub CI驗證成功。",
+    "commit": "5b6c72e55906ee89865ab881c6280b6e692155dc",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42748730438",
+    "not_finished": "其餘254份仍待完整語義審核。原圖未保存於GitHub者，本批只依原有文字圖像觀察檔查核，並非原圖重讀；正式0章PREWRITE HOLD。",
+    "next_step": "本批去重114/118/127已完成，下批用全量來源_動態納管與驗收.mjs --next 產生未完成清單，勿重做已驗收來源。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
