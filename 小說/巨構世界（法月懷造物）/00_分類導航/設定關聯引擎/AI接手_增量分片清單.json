@@ -48,15 +48,15 @@
       "note": "Six original files read in full; 2026-11-08 weapon assimilation B overrides earlier installed-ever inclination; pending CI."
     },
     {
-      "path": "20261110_第二十六批6份_054_056_057_060_063_088_全文語義v2.json",
-      "git_blob_sha": "6ed6e53b1a1d98e6f609652bbea915cf15de2063",
+      "path": "20261110_第二十六批6份_013_054_056_057_060_063_全文語義v2.json",
+      "git_blob_sha": "8ab855194c0c2aec23b1cae33978044ea93289cf",
       "batch": "BATCH26",
       "source_count": 6,
-      "original_lines": 876,
+      "original_lines": 837,
       "semantic_sections": 76,
       "claim_count": 76,
       "graph_relations": 152,
-      "note": "Six sources audited in full with author-versus-candidate boundary, dual corridor separation and later SHA verification; awaiting CI."
+      "note": "Corrected CI duplicate: 088 was pre-attested in historical base ledger, replaced with independently audited 013. All source count six, full 837 lines, 76 claims, 152 scoped links."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."
