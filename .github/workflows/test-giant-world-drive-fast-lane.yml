@@ -5,6 +5,10 @@ on:
     paths:
       - 'tools/google_drive_mirror/**'
       - '.github/workflows/test-giant-world-drive-fast-lane.yml'
+  pull_request:
+    paths:
+      - 'tools/google_drive_mirror/**'
+      - '.github/workflows/test-giant-world-drive-fast-lane.yml'
   workflow_dispatch:
 permissions:
   contents: read
