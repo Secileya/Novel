@@ -5,13 +5,13 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "fbf993be1f018b95dba1866bd02f971714226f72",
+  "last_checked_head_before_handoff": "83bfcec15a8c58e477098f6280a46d3bf71d5e01",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42768579404",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42772022165",
     "conclusion": "success",
-    "head_sha": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384",
-    "warning": "CI檢查程序與證據，不是作者Canon決定或所有語義已知。"
+    "head_sha": "22c20ac39554ab247cfc2a5b6d85ac4464ece0b1",
+    "warning": "這是第25批CI，CI不作作者Canon裁決。"
   },
   "fact_snapshot": {
     "raw_source_files": 335,
@@ -25,15 +25,15 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "B25來源6份488行51段51錨與102非Canon關聯待CI；登記117/335、其餘218，正式0章PREWRITE HOLD。",
-    "targeted_audit_records": 3331,
-    "targeted_audit_verified_quotes": 3522,
+    "important": "B25六份CI核實完成，B26六份登記待CI，123/335、另有212份待審；正式0章PREWRITE HOLD。",
+    "targeted_audit_records": 3407,
+    "targeted_audit_verified_quotes": 3598,
     "full_file_editorial_accepted": 49,
     "full_file_editorial_remaining": 122,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 117,
-    "all_source_full_file_editorial_remaining": 218,
-    "historical_164_full_file_acceptance": 68,
+    "all_source_full_file_editorial_accepted": 123,
+    "all_source_full_file_editorial_remaining": 212,
+    "historical_164_full_file_acceptance": 74,
     "historical_171_full_file_acceptance": 49,
     "all_source_progress_is_dynamic": true
   },
@@ -82,40 +82,40 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 117,
-        "pending": 218,
+        "verified_complete": 123,
+        "pending": 212,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第25批6份488行、51段51錨與102條非Canon關聯已組裝並登記待CI；不把待CI冒稱完成。",
-        "stage": "BATCH25_6_COMMITTED_AWAITING_CI",
+        "note": "第25批六份CI成功；第26批六份876行76段76原文SHA錨152非Canon關聯已登記待CI，正式小說0章。",
+        "stage": "BATCH26_6_COMMITTED_AWAITING_CI",
         "last_verified_commit": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42768579404",
         "cross_source_next_batch": [],
-        "historical_164_accepted": 68,
+        "historical_164_accepted": 74,
         "historical_171_accepted": 49,
         "last_batch_files": [
-          "04_能力武器與試煉/035_候選設計_諾亞續斷武器_艾莉維亞作用配重_首次復歸裝備.md",
-          "04_能力武器與試煉/036_討論續錄_諾亞選B武器隨復歸_錨點與落點候選.md",
-          "04_能力武器與試煉/037_討論續錄_雙錨點與痛苦之路回訪.md",
-          "04_能力武器與試煉/038_討論續錄_公開高難挑戰與隱藏苦痛之路雙版本.md",
-          "04_能力武器與試煉/049_討論續錄_Celeste絕界行向上_出口未定_完整深淵獨立保留.md",
-          "04_能力武器與試煉/050_討論續錄_Celeste隱晦提示痛苦之路_終焉迴廊名聲與啟動條件.md"
-        ],
-        "last_batch_full_lines": 488,
-        "last_batch_sections": 51,
-        "last_batch_new_claims": 51,
-        "last_batch_new_anchors": 51,
-        "next_batch": [
           "04_能力武器與試煉/054_討論續錄_終焉迴廊全生命感受_諾亞武器來歷與BLAME借鑑.md",
           "04_能力武器與試煉/056_討論續錄_Celeste靜謐迴廊結尾_艾莉維亞實質升級與名稱待核.md",
           "04_能力武器與試煉/057_候選設計_諾亞續斷武器_原裝模組_輸出成長_取得路線.md",
           "04_能力武器與試煉/060_候選設計_靜謐迴廊終點_諾亞巨大模組_艾莉維亞巨大升級與其他收穫.md",
           "04_能力武器與試煉/063_候選實作_雙主角初期能力_成長追尋_活人物群像與互動.md",
           "04_能力武器與試煉/088_研究與試寫_諾亞首次真正死亡_意識中斷_復歸初醒的主觀感受.md"
+        ],
+        "last_batch_full_lines": 876,
+        "last_batch_sections": 76,
+        "last_batch_new_claims": 76,
+        "last_batch_new_anchors": 76,
+        "next_batch": [
+          "04_能力武器與試煉/137_靜謐迴廊雙主角重大質變_白髮與原槍三種巨幅模組完整比選.md",
+          "04_能力武器與試煉/138_後出修訂全錄_白髮質變_四項迴廊收穫_母女記憶_反制與語氣.md",
+          "04_能力武器與試煉/140_候選_雙主角旅程成長與靜謐對照_V01.md",
+          "04_能力武器與試煉/141_能力驗證候選_同一場景常態白髮與原槍質變三類測試.md",
+          "04_能力武器與試煉/142_白髮機制突破候選_自身原界_作用新述與反例.md",
+          "04_能力武器與試煉/143_原槍主執行樞核候選_單擊到持續系統施行.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -410,7 +410,7 @@
           "commit": "9e7aa6f9222d98e2fcc7d7a7b0cb1ae7a864a384"
         },
         "acceleration_batch_25": {
-          "stage": "PENDING_CI",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 6,
           "source_lines": 488,
           "sections": 51,
@@ -420,6 +420,20 @@
           "accepted_registered": 117,
           "pending_registered": 218,
           "shard_sha": "fbc1dab4031886a84988bf8788433278bde313e4",
+          "commit": "22c20ac39554ab247cfc2a5b6d85ac4464ece0b1",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42772022165"
+        },
+        "acceleration_batch_26": {
+          "stage": "PENDING_CI",
+          "source_count": 6,
+          "source_lines": 876,
+          "sections": 76,
+          "claims": 76,
+          "source_anchors": 76,
+          "nonCanon_graph_links": 152,
+          "accepted_registered": 123,
+          "pending_registered": 212,
+          "shard_sha": "6ed6e53b1a1d98e6f609652bbea915cf15de2063",
           "commit": "PENDING_IN_THIS_TRANSACTION"
         }
       }
@@ -691,17 +705,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch25",
+    "task": "NEXT-009 batch26",
     "source_files_attested_this_turn": 6,
-    "original_lines_reviewed": 488,
-    "review_sections": 51,
-    "atomic_findings": 51,
-    "original_line_anchors": 51,
-    "nonCanon_graph_links": 102,
-    "all_source_accepted": 117,
-    "all_source_pending": 218,
+    "original_lines_reviewed": 876,
+    "review_sections": 76,
+    "atomic_findings": 76,
+    "original_line_anchors": 76,
+    "nonCanon_graph_links": 152,
+    "all_source_accepted": 123,
+    "all_source_pending": 212,
     "state": "REGISTERED_AWAITING_CI__NON_CANON",
-    "notes": "六份來源審核資料與分片登記；待本批CI確認，原檔未改，正式0章PREWRITE HOLD。"
+    "notes": "原稿不改，深層同化B、靜謐/終焉不同規則和黑霧真正不復歸已分層，正式0章PREWRITE HOLD。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -721,13 +735,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH25_6_COMMITTED_AWAITING_CI",
-    "scope": "第25批035/036/037/038/049/050共488行51語義段51SHA錨及102條非Canon關聯，原文未動；本次原子提交待CI。",
-    "commit": "BATCH25_IN_THIS_COMMIT_CHECK_GIT_HEAD",
+    "stage": "BATCH26_6_COMMITTED_AWAITING_CI",
+    "scope": "第26批054/056/057/060/063/088六份876行76語義段76SHA錨與152非Canon關聯已提交待CI；前一第25批CI成功。",
+    "commit": "BATCH26_IN_THIS_COMMIT_CHECK_GIT_HEAD",
     "ci_result": "pending",
     "ci_run_url": "本批尚未取得成功Actions網址",
-    "not_finished": "本批6份仍待CI核證；全庫另外尚有218份待審；正式0章PREWRITE HOLD。",
-    "next_step": "本批CI成功後連續處理第26批054/056/057/060/063/088，勿重複預審Checkpoint。"
+    "not_finished": "B26六份待CI核證；全庫另有212份待審；正式0章PREWRITE HOLD。",
+    "next_step": "本批CI核實後繼續第27批137/138/140/141/142/143，不以預審Checkpoint拖慢。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -751,6 +765,7 @@
     "00_分類導航/設定關聯引擎/20261110_第二十二批4份_093_085_086_108_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十三批3份_021_022_023_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十四批3份_024_025_028_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第二十五批6份_035_036_037_038_049_050_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第二十五批6份_035_036_037_038_049_050_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261110_第二十六批6份_054_056_057_060_063_088_全文語義v2.json"
   ]
 }
