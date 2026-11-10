@@ -1,3 +1,5 @@
+> **2026-11-10｜每批選檔前必須執行防重門禁**：不要只憑 `AI接手_工作板.json` 的下一批清單。先讀 [AI接手_排批防重預檢.mjs](00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs)，在專案根執行 `node '00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs' --check`，再用 `--select` 驗證本次來源；提交前用 `--candidate` 核新分片。防重集合必含**舊完整驗收總帳＋全部Manifest SHA分片**，已完成的088與137～143不得重算。只有GitHub連接器時做等效Blob集合核對，不能聲稱跑過Node。CI會再次強制檢查下一批與紀錄一致性。進度以最新工作板＋CI為準；舊快照不視為當前值。正式0章／PREWRITE HOLD。
+
 > **2026-11-10｜Google Drive 鏡像及 Gemini Skill 新接手入口**：GitHub `main` 到 Stingray Drive 的來源鏡像、v3 逾時修補、Google Apps Script 部署界線、明天 Gemini Skill 更新及全新對話測試，詳見[跨 AI 同步與 Gemini 驗收交接](../../tools/google_drive_mirror/HANDOFF_GEMINI_DRIVE_20261110.md)。同一專案的 `syncDrain/syncHourly` 觸發器已建立過；GitHub 本身不能替使用者更新 Apps Script 程式或 Gemini Skill。Drive 的鏡像完成與來源335份語義驗收是不同事。正式0章／PREWRITE HOLD。
 
 > **全庫最新CI提示｜2026-11-09**：第13批完成後為34／335份已驗收、301待審；第1～12章的語庫回溯檢查已設CI，但不強迫任何嘆詞，過往寫作是否查過105仍未驗證。正式0章PREWRITE HOLD。舊第8批6／335屬歷史快照，勿當當前值。詳見[工作板](00_分類導航/設定關聯引擎/AI接手_工作板.json)。
