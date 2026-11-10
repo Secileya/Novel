@@ -1,0 +1,7 @@
+{
+  "schema": "mega-ledger-shard-manifest-v1",
+  "date": "2026-11-10",
+  "mode": "legacy-monolith-readonly-plus-append-shards",
+  "shards": [],
+  "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."
+}
