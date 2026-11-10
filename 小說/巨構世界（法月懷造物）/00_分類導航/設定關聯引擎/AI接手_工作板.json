@@ -25,7 +25,7 @@
     "nine_folder_files": 10,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第38批12份登記待當批CI；最近成功第37批219/345。正式0章 PREWRITE HOLD。",
+    "important": "第38批12份提交待CI；另入3份第13章新來源，全庫348份；目前登記231/348，尚餘117；正式0章 PREWRITE HOLD。",
     "targeted_audit_records": 5632,
     "targeted_audit_verified_quotes": 5823,
     "full_file_editorial_accepted": 86,
@@ -83,14 +83,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 231,
-        "pending": 114,
+        "pending": 117,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第38批12份2050行65段暫存登記，最後成功219/345；12份待CI；正式0章PREWRITE HOLD。",
+        "note": "第38批12份2050行65段暫存登記，最後成功219/345（當時快照）；12份待CI；正式0章PREWRITE HOLD。；另新增3份第13章來源，共348份待核。",
         "stage": "BATCH38_12_SUBMITTED_PENDING_CI",
         "last_verified_commit": "8ea2dc035371804ed56144c000875c6bbff53147",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42914872412",
@@ -560,7 +560,8 @@
           "dependent_sha_checks": 36,
           "countercheck_questions": 48,
           "unverified_ci": true,
-          "unmodified_originals": true
+          "unmodified_originals": true,
+          "dynamic_sources_added_during_batch": 3
         }
       }
     },
@@ -866,7 +867,7 @@
     "commit": "6f6c98b22ab29f59d893465eacce5055e454ef12",
     "ci_result": "pending",
     "ci_run_url": "未取得第38批CI",
-    "not_finished": "114份仍待驗收，本批CI待查；最後成功219/345，正式0章PREWRITE HOLD。",
+    "not_finished": "另有3份新來源進入動態清冊；當前登記231／348，待審117；第38批CI重驗中。正式0章，PREWRITE HOLD。",
     "next_step": "核第38批實際GitHub CI成功，再轉入第39批G7R至G9C候選版本。"
   },
   "audited_batch_paths": [
