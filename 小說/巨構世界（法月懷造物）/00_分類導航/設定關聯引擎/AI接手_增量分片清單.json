@@ -90,6 +90,17 @@
       "claim_count": 83,
       "graph_relations": 166,
       "note": "Six full-file source attestations, pending CI; no Canon promotion."
+    },
+    {
+      "path": "20261110_第三十批6份_012_043_044_046_055_061_全文語義v2.json",
+      "git_blob_sha": "52de5182e4b79c63b123c94e8e8641d55627a519",
+      "batch": "BATCH30",
+      "source_count": 6,
+      "original_lines": 713,
+      "semantic_sections": 74,
+      "claim_count": 74,
+      "graph_relations": 148,
+      "note": "Second consecutive six-source shard; CI pending."
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers."

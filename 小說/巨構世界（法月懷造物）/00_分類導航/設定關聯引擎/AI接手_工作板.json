@@ -25,15 +25,15 @@
     "nine_folder_files": 5,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "B29六份721行83命題已提交待CI；141/335是待驗證登記，不是已成功驗收；正式0章。",
-    "targeted_audit_records": 3621,
-    "targeted_audit_verified_quotes": 3812,
+    "important": "B29+B30共12份1434行157命題待CI；147/335為未驗證登記，正式0章。",
+    "targeted_audit_records": 3695,
+    "targeted_audit_verified_quotes": 3886,
     "full_file_editorial_accepted": 49,
     "full_file_editorial_remaining": 122,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 141,
-    "all_source_full_file_editorial_remaining": 194,
-    "historical_164_full_file_acceptance": 92,
+    "all_source_full_file_editorial_accepted": 147,
+    "all_source_full_file_editorial_remaining": 188,
+    "historical_164_full_file_acceptance": 98,
     "historical_171_full_file_acceptance": 49,
     "all_source_progress_is_dynamic": true
   },
@@ -82,8 +82,8 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 141,
-        "pending": 194,
+        "verified_complete": 147,
+        "pending": 188,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -91,31 +91,31 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "B25/26的12份舊來源已補強48四類具體反問、43具體後出影響並CI成功；B27/28新增兩批12個未審來源1519行131命題262非Canon邊CI成功，135/335、200待審。",
-        "stage": "BATCH29_6_SUBMITTED_PENDING_CI",
+        "stage": "BATCH30_6_SUBMITTED_PENDING_CI",
         "last_verified_commit": "bb45c1125c85a64344a5dbb54c554bc6688748ec",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42781284588",
         "cross_source_next_batch": [],
         "historical_164_accepted": 86,
         "historical_171_accepted": 49,
         "last_batch_files": [
-          "01_世界本體與文明/001_世界尺度與空間.md",
-          "01_世界本體與文明/002_視覺美學與龐克.md",
-          "01_世界本體與文明/004_群落社會與知識.md",
-          "01_世界本體與文明/005_生存敵人與裝備.md",
-          "01_世界本體與文明/011_前文明殞落與跨層科技規則_新版.md",
-          "02_地圖拓撲與交通/072_研究候選_整座巨構三維母骨架_非普通拓撲與世界層分域統一模型.md"
-        ],
-        "last_batch_full_lines": 721,
-        "last_batch_sections": 83,
-        "last_batch_new_claims": 83,
-        "last_batch_new_anchors": 83,
-        "next_batch": [
           "01_世界本體與文明/012_討論續錄_科技能源_異質社會_光照地景.md",
           "01_世界本體與文明/043_候選框架_戰力帶_肉身技藝_武器裝備_遺物科技尺度.md",
           "01_世界本體與文明/044_討論續錄_豎向深淵階梯_墜落者_下方食物與地方習俗.md",
           "01_世界本體與文明/046_討論續錄_特殊技藝傳承_政府政治_黑市盜團與跨群落勢力.md",
           "01_世界本體與文明/055_討論續錄_前文明超十級尺度校正_禁止強敵濫用前文明.md",
           "01_世界本體與文明/061_討論續錄_風景巨構城市地貌集市_短描寫意境與下一步構建.md"
+        ],
+        "last_batch_full_lines": 713,
+        "last_batch_sections": 74,
+        "last_batch_new_claims": 74,
+        "last_batch_new_anchors": 74,
+        "next_batch": [
+          "01_世界本體與文明/073_研究候選_身分權力背書_地方承認_勢力反應與跨篇後果.md",
+          "01_世界本體與文明/076_研究續錄_世界層尺寸彈性_Celeste偉力_真實與科技星象_S01.md",
+          "01_世界本體與文明/095_研究續錄_Celeste多地傳說_前文明神科技爭議_祭壇願望_旅團與重逢網絡.md",
+          "01_世界本體與文明/097_完整研究候選_植物巨構生態_根橋巨樹捕食者巨龜聚落跨域遷徙.md",
+          "01_世界本體與文明/098_完整研究候選_冒險者遠征者等級_跨群落認證委託通緝.md",
+          "01_世界本體與文明/099_完整研究候選_跨群落帝國世界層霸權聯盟_管轄與社會重量.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -495,6 +495,15 @@
           "registered_pending_ci": 141,
           "pending_remaining": 194,
           "shard_sha": "49261b4ec2674de85da8f344b37b5fc4dd216728"
+        },
+        "acceleration_batch_30": {
+          "stage": "SUBMITTED_PENDING_CI",
+          "source_count": 6,
+          "source_lines": 713,
+          "sections": 74,
+          "claims": 74,
+          "graph_links": 148,
+          "shard_sha": "52de5182e4b79c63b123c94e8e8641d55627a519"
         }
       }
     },
@@ -765,17 +774,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-10",
-    "task": "NEXT-009 batch29",
-    "source_files_attested_this_turn": 6,
-    "original_lines_reviewed": 721,
-    "review_sections": 83,
-    "atomic_findings": 83,
-    "original_line_anchors": 83,
-    "nonCanon_graph_links": 166,
-    "all_source_accepted": 141,
-    "all_source_pending": 194,
+    "task": "NEXT-009 batch30",
+    "source_files_attested_this_turn": 12,
+    "original_lines_reviewed": 1434,
+    "review_sections": 157,
+    "atomic_findings": 157,
+    "original_line_anchors": 157,
+    "nonCanon_graph_links": 314,
+    "all_source_accepted": 147,
+    "all_source_pending": 188,
     "state": "SUBMITTED_PENDING_CI__NON_CANON",
-    "notes": "第29批分片待CI，六份來源未經作者Canon採案。"
+    "notes": "兩批CI待確認，無Canon升格。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -795,13 +804,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH29_6_SUBMITTED_PENDING_CI",
-    "scope": "第29批六份原文721行、83節命題及166限域非Canon圖連線，已產生來源SHA驗收分片，尚待遠端CI。",
-    "commit": "201c7de97562d76861e0976cbbcdf1abb87d5081",
+    "stage": "BATCH30_6_SUBMITTED_PENDING_CI",
+    "scope": "第29、30批連續12份1434行、157命題314限域非Canon關聯已提交，CI尚待確認。",
+    "commit": "afeb96eb4310bc63cce2fc43cb44c8b506576a8a",
     "ci_result": "pending",
     "ci_run_url": "",
-    "not_finished": "第29批CI尚未核實，另有194份待審；正式小說0章PREWRITE HOLD。",
-    "next_step": "核實B29 CI，接續第30批六份012、043、044、046、055、061；不可將候選升Canon。"
+    "not_finished": "兩批CI待確認；188份來源未審，正式0章PREWRITE HOLD。",
+    "next_step": "核實B29/B30 CI，失敗修復；下一批073、076、095、097、098、099。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -829,6 +838,7 @@
     "00_分類導航/設定關聯引擎/20261110_第二十六批6份_013_054_056_057_060_063_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十七批6份_015_018_003_026_039_040_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第二十八批6份_048_062_068_070_071_075_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第二十九批6份_001_002_004_005_011_072_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第二十九批6份_001_002_004_005_011_072_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261110_第三十批6份_012_043_044_046_055_061_全文語義v2.json"
   ]
 }
