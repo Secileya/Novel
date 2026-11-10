@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import {loadBridge} from './AI接手_分片讀取.mjs';
+import {readEffectiveJson} from './來源後修_證據覆核.mjs';
 /** Verify scoped source-audit ↔ existing domain graph references. No Canon write. */
 import fs from "node:fs";
 import path from "node:path";
@@ -18,7 +19,7 @@ const eco=read("生態產業與制度因果網.json");
 const cross=read("跨層文明生態依賴網.json");
 const allAudits=board.audited_batch_paths.map(ref=>{
  if(!ref.startsWith("00_分類導航/設定關聯引擎/")||ref.split("/").includes(".."))throw Error("unsafe audit path");
- return JSON.parse(fs.readFileSync(path.join(PROJECT,ref),"utf8"));
+ return readEffectiveJson(path.basename(ref),HOME);
 });
 const actual=new Map(allAudits.flatMap(a=>a.records).map(a=>[a.id,a]));
 const targets={

@@ -1,0 +1,31 @@
+{
+  "schema": "mega-source-revalidation-v1",
+  "date": "2026-11-11",
+  "editorial_not_canon": true,
+  "newly_accepted_source_count": 0,
+  "method": "僅覆核兩份導航新增前綴與機器索引位置，原文其餘行逐行相同；沒有給兩檔新增整檔驗收證書。",
+  "anchor_migrations": [
+    {
+      "path": "000_導覽與狀態.md",
+      "from_sha": "42608c569b96494d1f49bbb58b06f9332d6a68eb",
+      "to_sha": "37e0be0a077735093d205f5bb8e470744f4e9797",
+      "insert_before": 1,
+      "insert_count": 12,
+      "decision_line": 3,
+      "decision_quote": "完整長期 SOP",
+      "meaning": "只覆核新增導覽：正常死亡客觀近即時與原槍深同化B獨立；三批Gemini來源各自保存，QA/原文/Drive/當輪實讀分層；作者完整回貼與每輪來源刷新流程優先。其餘舊文完全相同，移動歷史機器索引錨點，不算整檔語義驗收。"
+    },
+    {
+      "path": "000_現行決策與主題索引.md",
+      "from_sha": "6143f08d9dde43484a7ff78dcfa733570e241b10",
+      "to_sha": "196cf77bba5c17fab1f1ce2c49c6e7256035ae82",
+      "insert_before": 1,
+      "insert_count": 27,
+      "decision_line": 3,
+      "decision_quote": "工作流程確認",
+      "meaning": "只覆核新增導覽：正常死亡客觀近即時與原槍深同化B獨立；三批Gemini來源各自保存，QA/原文/Drive/當輪實讀分層；作者完整回貼與每輪來源刷新流程優先。其餘舊文完全相同，移動歷史機器索引錨點，不算整檔語義驗收。"
+    }
+  ],
+  "attestation_replacements": [],
+  "claim_interpretations": {}
+}

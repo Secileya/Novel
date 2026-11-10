@@ -46,6 +46,10 @@ jobs:
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_分片讀取.mjs'
       - name: Sharded source and graph SHA integrity
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_分片讀取.mjs' --check --negative-test
+      - name: Source revalidation overlay syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/來源後修_證據覆核.mjs'
+      - name: Reject stale, forged and duplicate revalidation proofs without recounting sources
+        run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證來源後修覆核.mjs' --negative-test
       - name: Next AI handoff verifier syntax
         run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs'
       - name: Machine-readable handoff board and source invariants

@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 /** 第七批171來源：逐條驗證真正Git blob SHA、原始行號與逐字引文。 */
 import fs from 'node:fs';
+import {readEffectiveJson} from './來源後修_證據覆核.mjs';
 import {createHash} from 'node:crypto';
 import {resolve,dirname,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 const HERE=dirname(fileURLToPath(import.meta.url)),ROOT=resolve(HERE,'../..');
-const ledger=JSON.parse(fs.readFileSync(resolve(HERE,'20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json'),'utf8'));
+const ledger=readEffectiveJson('20261109_171待深審_第七批稱呼物權因果與復歸知情仲裁.json',HERE);
 const bad=[],seen=new Set(),cached=new Map();let anchors=0;
 function source(path){
  if(typeof path!=='string'||!path||path.startsWith('/')||path.includes('\\')||path.split('/').includes('..'))throw Error('unsafe path');

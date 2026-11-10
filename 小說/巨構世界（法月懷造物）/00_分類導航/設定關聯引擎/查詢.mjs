@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import {loadBridge} from './AI接手_分片讀取.mjs';
+import {readEffectiveJson} from './來源後修_證據覆核.mjs';
 // 巨構設定查詢 v1 — Node.js 20+ standard library only.
 // Runs from a checked-out GitHub repository. Never modifies Canon.
 import fs from "node:fs";
@@ -11,34 +12,34 @@ import {buildPassageInventory,searchPassages} from "./全庫段落回收.mjs";
 
 const HOME = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT = path.resolve(HOME, "..", "..");
-const inventory = JSON.parse(fs.readFileSync(path.join(HOME, "全庫物理清冊.json"), "utf8"));
-const graph = JSON.parse(fs.readFileSync(path.join(HOME, "高優先規則與關聯.json"), "utf8"));
-const creativity = JSON.parse(fs.readFileSync(path.join(HOME, "創意相容性台帳.json"), "utf8"));
-const temporal = JSON.parse(fs.readFileSync(path.join(HOME, "人物時期與知情矩陣.json"), "utf8"));
-const ecoLinks = JSON.parse(fs.readFileSync(path.join(HOME, "生態產業與制度因果網.json"), "utf8"));
-const versionLedger = JSON.parse(fs.readFileSync(path.join(HOME, "版本取代與相容決策鏈.json"), "utf8"));
-const containerRegistry = JSON.parse(fs.readFileSync(path.join(HOME, "容器與子單元登記.json"), "utf8"));
-const macroMap = JSON.parse(fs.readFileSync(path.join(HOME, "跨世界層與厚界多版本拓撲.json"), "utf8"));
-const travelEvidence = JSON.parse(fs.readFileSync(path.join(HOME, "跨區交通去返與法權證據帳.json"), "utf8"));
-const peopleNetwork = JSON.parse(fs.readFileSync(path.join(HOME, "人物組織與社會關係圖.json"), "utf8"));
-const crossWorldLinks = JSON.parse(fs.readFileSync(path.join(HOME, "跨層文明生態依賴網.json"), "utf8"));
-const recoveredHistory = JSON.parse(fs.readFileSync(path.join(HOME, "歷史素材原子化回收_首批.json"), "utf8"));
-const recoveredBatch2 = JSON.parse(fs.readFileSync(path.join(HOME, "歷史素材原子化回收_第二批.json"), "utf8"));
-const thirdRecovered = JSON.parse(fs.readFileSync(path.join(HOME,"歷史素材原子化回收_第三批_精讀.json"),"utf8"));
-const sceneContinuity = JSON.parse(fs.readFileSync(path.join(HOME,"候選01至12章逐場事件與道具連續性證據帳.json"),"utf8"));
-const crossAIProvenance = JSON.parse(fs.readFileSync(path.join(HOME,"跨AI原始討論來源與版本替代證據鏈.json"),"utf8"));
-const worldEvidence = JSON.parse(fs.readFileSync(path.join(HOME,"W02以上文明生態與跨界路權_原文證據矩陣.json"),"utf8"));
-const sourceRole94 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔語義用途回收_非候選94份.json"),"utf8"));
-const sourceRole77 = JSON.parse(fs.readFileSync(path.join(HOME,"舊來源逐檔語義用途回收_候選77份.json"),"utf8"));
-const versionLineDiffs = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本37組_逐行文字差異證據.json"),"utf8"));
-const importantVersionQA = JSON.parse(fs.readFileSync(path.join(HOME,"候選版本差異_14項重要語義核對.json"),"utf8"));
-const fourthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第四批跨源語義衝突與審核門檻.json"),"utf8"));
-const fifthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第五批首篇版本與敘事權威仲裁.json"),"utf8"));
-const sixthAudit = JSON.parse(fs.readFileSync(path.join(HOME,"20261109_171待深審_第六批視覺與敘事研究仲裁.json"),"utf8"));
-const auditManifest=JSON.parse(fs.readFileSync(path.join(HOME,"AI接手_工作板.json"),"utf8")).audited_batch_paths;
+const inventory = readEffectiveJson("全庫物理清冊.json",HOME);
+const graph = readEffectiveJson("高優先規則與關聯.json",HOME);
+const creativity = readEffectiveJson("創意相容性台帳.json",HOME);
+const temporal = readEffectiveJson("人物時期與知情矩陣.json",HOME);
+const ecoLinks = readEffectiveJson("生態產業與制度因果網.json",HOME);
+const versionLedger = readEffectiveJson("版本取代與相容決策鏈.json",HOME);
+const containerRegistry = readEffectiveJson("容器與子單元登記.json",HOME);
+const macroMap = readEffectiveJson("跨世界層與厚界多版本拓撲.json",HOME);
+const travelEvidence = readEffectiveJson("跨區交通去返與法權證據帳.json",HOME);
+const peopleNetwork = readEffectiveJson("人物組織與社會關係圖.json",HOME);
+const crossWorldLinks = readEffectiveJson("跨層文明生態依賴網.json",HOME);
+const recoveredHistory = readEffectiveJson("歷史素材原子化回收_首批.json",HOME);
+const recoveredBatch2 = readEffectiveJson("歷史素材原子化回收_第二批.json",HOME);
+const thirdRecovered = readEffectiveJson("歷史素材原子化回收_第三批_精讀.json",HOME);
+const sceneContinuity = readEffectiveJson("候選01至12章逐場事件與道具連續性證據帳.json",HOME);
+const crossAIProvenance = readEffectiveJson("跨AI原始討論來源與版本替代證據鏈.json",HOME);
+const worldEvidence = readEffectiveJson("W02以上文明生態與跨界路權_原文證據矩陣.json",HOME);
+const sourceRole94 = readEffectiveJson("舊來源逐檔語義用途回收_非候選94份.json",HOME);
+const sourceRole77 = readEffectiveJson("舊來源逐檔語義用途回收_候選77份.json",HOME);
+const versionLineDiffs = readEffectiveJson("候選版本37組_逐行文字差異證據.json",HOME);
+const importantVersionQA = readEffectiveJson("候選版本差異_14項重要語義核對.json",HOME);
+const fourthAudit = readEffectiveJson("20261109_171待深審_第四批跨源語義衝突與審核門檻.json",HOME);
+const fifthAudit = readEffectiveJson("20261109_171待深審_第五批首篇版本與敘事權威仲裁.json",HOME);
+const sixthAudit = readEffectiveJson("20261109_171待深審_第六批視覺與敘事研究仲裁.json",HOME);
+const auditManifest=readEffectiveJson("AI接手_工作板.json",HOME).audited_batch_paths;
 const extraAudits=auditManifest.slice(3).map(p=>{
   if(!p.startsWith("00_分類導航/設定關聯引擎/")||p.includes(".."))throw Error("unsafe audit path "+p);
-  return JSON.parse(fs.readFileSync(path.join(PROJECT,p),"utf8"));
+  return readEffectiveJson(path.basename(p),HOME);
 });
 const allAudits=[fourthAudit,fifthAudit,sixthAudit,...extraAudits];
 const allAuditRecords=allAudits.flatMap(x=>x.records||[]);
@@ -52,9 +53,8 @@ const allRecoveredRecords = [...recoveredHistory.records,...recoveredBatch2.reco
 const allRecoveryLinks = [...(recoveredBatch2.links||[]),...(thirdRecovered.links||[])];
 function recordEvidencePaths(r){return r.evidence?[r.evidence.path]:(r.source_anchors||[]).map(a=>a.path);}
 function recordEvidenceAnchors(r){return r.evidence?[{path:r.evidence.path,anchor:r.evidence.exact_anchor}]:(r.source_anchors||[]);}
-const sourceScreenManifest = JSON.parse(fs.readFileSync(path.join(HOME,"213份來源索引分卷清單.json"),"utf8"));
-const sourceDossiers = sourceScreenManifest.batches.flatMap(b=>JSON.parse(
-  fs.readFileSync(path.join(HOME,b.file),"utf8")).dossiers);
+const sourceScreenManifest = readEffectiveJson("213份來源索引分卷清單.json",HOME);
+const sourceDossiers = sourceScreenManifest.batches.flatMap(b=>readEffectiveJson(b.file,HOME).dossiers);
 const sourceDossierByPath = new Map(sourceDossiers.map(d=>[d.source_path,d]));
 const passageCache = new WeakMap();
 function getPassages(corpus){if(!passageCache.has(corpus))passageCache.set(corpus,buildPassageInventory(corpus.read));return passageCache.get(corpus);}
@@ -455,7 +455,7 @@ function validateVersionLineDiffs(corpus) {
 
 function validateSourceRoleCards(corpus){
   const byPath=new Map(corpus.read.map(x=>[x.path,x.body.split(/\r?\n/)]));
-  const originalBacklog=new Set(JSON.parse(fs.readFileSync(path.join(HOME,"全庫待原子化缺口清冊.json"),"utf8")).sources.map(x=>x.path));
+  const originalBacklog=new Set(readEffectiveJson("全庫待原子化缺口清冊.json",HOME).sources.map(x=>x.path));
   const seen=new Set(),missing=new Set(originalBacklog),badLineQuotes=[],shaConflicts=[],duplicates=[];
   for(const c of allSourceRoles){
     const p=c.path||c.source_path;
@@ -1020,7 +1020,7 @@ function integrity(corpus) {
     ...allSourceRoles.map(x=>x.path||x.source_path),
     ...versionLineDiffs.comparisons.flatMap(x=>[x.from_source,x.to_source])
   ]);
-  const missingDossiers=JSON.parse(fs.readFileSync(path.join(HOME,"全庫待原子化缺口清冊.json"),"utf8")).sources
+  const missingDossiers=readEffectiveJson("全庫待原子化缺口清冊.json",HOME).sources
     .filter(row=>!sourceDossierByPath.has(row.path)||sourceDossierByPath.get(row.path).git_blob_sha_verified!==row.git_blob_sha)
     .map(x=>x.path);
   const dossierAnchorFailures=sourceDossiers.flatMap(d=>{
@@ -1242,7 +1242,7 @@ function selfTest(corpus) {
   assert(recoveredRoot.historical_ideas_recovered.records.some(x=>x.id==="REC-013"));
   assert(recoveredRoot.full_corpus_passage_recovery.files_with_passages>=335);
   assert(recoveredRoot.full_corpus_passage_recovery.matched_passages.length>0);
-  const fixture=JSON.parse(fs.readFileSync(path.join(HOME,"合成檢索測例.json"),"utf8"));
+  const fixture=readEffectiveJson("合成檢索測例.json",HOME);
   const roomCase=fixture.cases.find(x=>x.name.includes("十個"));
   const fakeContainer={id:"TEST-TEN-ROOM-HOUSE",name:"測試房屋",aliases:["測試房屋"],expected_children:10,
     children:roomCase.given.contains.map((v,i)=>({id:"SYNTHETIC-"+String(i+1),name:v,aliases:[v],ecology:[v]}))};

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import {loadLedger} from './AI接手_分片讀取.mjs';
+import {readEffectiveJson} from './來源後修_證據覆核.mjs';
 /**
  * 巨構下一任AI的狀態入口：只讀；--status / --task NEXT / --task ID / --check。
  * 靜態工作板不會在程式執行時自動驗證遠端CI。必須依最新HEAD查Actions。
@@ -15,7 +16,7 @@ const B=JSON.parse(fs.readFileSync(path.join(HOME,'AI接手_工作板.json'),'ut
 const auditFiles=B.audited_batch_paths||[];
 const audits=auditFiles.map(p=>{
   if(!p.startsWith('00_分類導航/設定關聯引擎/')||p.includes('..'))throw Error('unsafe audit path: '+p);
-  return JSON.parse(fs.readFileSync(path.join(PROJECT,p),'utf8'));
+  return readEffectiveJson(path.basename(p),HOME);
 });
 const auditedRecords=audits.flatMap(a=>a.records||[]);
 const auditedAnchorsCount=audits.reduce((n,a)=>n+Number(a.evidence_count??a.original_anchors_count??0),0);
@@ -49,7 +50,7 @@ for(const f of INV.files){
   else row.referenced++;
 }
 const latestDerivedMetrics={
-  raw_original_sources:INV.files.length,
+  raw_original_sources:GLOBAL?.source_total??INV.files.length,
   with_fine_grained_reference:BACK.referenced,
   with_source_role_card_pending_full_semantic_review:BACK.sources.length,
   machine_screened_source_dossiers:DOS.sources.length,
@@ -99,8 +100,8 @@ if(auditedRecords.length!==new Set(auditedRecords.map(x=>x.id)).size)
   faults.push('duplicated reviewed finding ID');
 const historyIsNotCurrent='舊版文檔的251／213／182、41條／111錨點等都是歷史快照；以本報表實際讀取的來源清冊與審核檔為準。';
 function check(label,actual,expected){if(actual!==expected)faults.push(label+': actual='+actual+', board='+expected)}
-check('raw_source_files',INV.files.length,snapshot.raw_source_files);
-check('inventory_count',INV.files_count,snapshot.raw_source_files);
+check('raw_source_files',GLOBAL?.source_total??INV.files.length,snapshot.raw_source_files);
+check('historical_inventory_count',INV.files.length,INV.files_count);
 check('source_paths_with_prior_fine_grained_references',BACK.referenced,snapshot.source_paths_with_prior_fine_grained_references);
 check('source_role_cards_awaiting_full_claim_arbitration',BACK.sources.length,snapshot.source_role_cards_awaiting_full_claim_arbitration);
 check('source_dossiers_machine_screened',DOS.sources.length,snapshot.source_dossiers_machine_screened);

@@ -1,0 +1,106 @@
+/** Append-only, SHA-pinned source revalidation. Historical ledgers stay immutable. */
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+const HOME=path.dirname(fileURLToPath(import.meta.url));
+const sha=b=>createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');
+const cache=new Map();
+export function readRevalidations(home=HOME){
+ if(cache.has(home))return cache.get(home);
+ const manifest=JSON.parse(fs.readFileSync(path.join(home,'AI接手_增量分片清單.json'),'utf8'));
+ const patches=[],seen=new Set();
+ for(const e of manifest.revalidations||[]){
+  if(!/^202\d{5}_[^/\\]+\.json$/.test(e.path)||e.path.includes('..')||seen.has(e.path))throw Error('unsafe/duplicate revalidation path');
+  seen.add(e.path);const b=fs.readFileSync(path.join(home,e.path));
+  if(sha(b)!==e.git_blob_sha)throw Error('revalidation SHA drift '+e.path);
+  const p=JSON.parse(b);
+  if(p.schema!=='mega-source-revalidation-v1'||p.newly_accepted_source_count!==0||!p.editorial_not_canon)throw Error('invalid revalidation scope');
+  patches.push(p);
+ }
+ const allMigrations=patches.flatMap(p=>p.anchor_migrations),migrationKeys=new Set();
+ for(const p of patches){
+  for(const m of p.anchor_migrations){
+   if(!m.path||m.path.includes('..')||m.path.includes('\\')||path.isAbsolute(m.path)||!Number.isInteger(m.insert_before)||!Number.isInteger(m.insert_count)||m.insert_count<1)throw Error('invalid anchor migration');
+   if(!/^[a-f0-9]{40}$/.test(m.from_sha)||!/^[a-f0-9]{40}$/.test(m.to_sha))throw Error('invalid migration SHA');
+   const key=m.path+'@'+m.from_sha;if(migrationKeys.has(key))throw Error('duplicate/forked source revision');migrationKeys.add(key);
+   let current=fs.readFileSync(path.resolve(home,'../..',m.path));
+   if(sha(current)!==m.to_sha){
+    const next=allMigrations.find(n=>n.path===m.path&&n.from_sha===m.to_sha);
+    if(!next||allMigrations.indexOf(next)<=allMigrations.indexOf(m))throw Error('revalidated source changed again '+m.path);
+    current=execFileSync('git',['cat-file','blob',m.to_sha],{cwd:home,maxBuffer:8e6});
+   }
+   const old=execFileSync('git',['cat-file','blob',m.from_sha],{cwd:home,maxBuffer:8e6});
+   const oldLines=old.toString('utf8').split(/\r?\n/),newLines=current.toString('utf8').split(/\r?\n/);
+   const restored=newLines.slice();restored.splice(m.insert_before-1,m.insert_count);
+   if(JSON.stringify(oldLines)!==JSON.stringify(restored))throw Error('migration is not the reviewed exact insertion '+m.path);
+   if(m.decision_line<m.insert_before||m.decision_line>=m.insert_before+m.insert_count||!newLines[m.decision_line-1]?.includes(m.decision_quote)||m.meaning.length<30)throw Error('missing substantive revision evidence');
+  }
+  const seenSources=new Set();
+  for(const r of p.attestation_replacements){
+   const kinds=['AUTHORITY_BOUNDARY','VERSION_OR_LATER_REVISION','MISSED_MATERIAL_CLAIM','CROSS_FILE_IMPACT'];
+   if(!r.previous_sha||r.record?.source_path!==r.path||r.semantic_impact.length<25||r.counterchecks?.length!==4||!kinds.every(k=>r.counterchecks.some(c=>c.kind===k&&c.question?.length>=8&&c.finding?.length>=15))||seenSources.has(r.path))throw Error('incomplete/duplicate individual revalidation '+r.path);
+   seenSources.add(r.path);
+   if(r.record.status!=='FULL_FILE_EDITORIAL_ATTESTED')throw Error('revalidation cannot invent a new acceptance');
+  }
+ }
+ cache.set(home,patches);return patches;
+}
+export function applyEvidenceRevalidations(data,home=HOME){
+ const patches=readRevalidations(home),migrations=patches.flatMap(p=>p.anchor_migrations);
+ function walk(x){
+  if(!x||typeof x!=='object')return;
+  if(Array.isArray(x)){for(const y of x)walk(y);return;}
+  const loc=x.source_path||x.path;
+  for(const m of migrations)if(m.path===loc&&m.from_sha===x.git_blob_sha){
+   x.git_blob_sha=m.to_sha;
+   if(Number.isInteger(x.line)&&x.line>=m.insert_before)x.line+=m.insert_count;
+  }
+  for(const m of migrations)if(m.path===loc&&m.from_sha===x.git_blob_sha_verified){
+   x.git_blob_sha_verified=m.to_sha;
+   if(Number.isInteger(x.source_lines))x.source_lines+=m.insert_count;
+   for(const a of x.source_outline||[]){
+    if(a.heading_line>=m.insert_before)a.heading_line+=m.insert_count;
+    if(a.excerpt_line>=m.insert_before)a.excerpt_line+=m.insert_count;
+   }
+  }
+  for(const m of migrations)if(m.path===loc&&m.from_sha===x.source_git_blob_sha){
+   x.source_git_blob_sha=m.to_sha;x.current_source_role_revision=m.meaning;
+   for(const a of x.evidence||[])if(a.line>=m.insert_before)a.line+=m.insert_count;
+  }
+  for(const y of Object.values(x))walk(y);
+ }
+ walk(data);
+ for(const p of patches)for(const a of Array.isArray(data.records)?data.records:[]){
+  const note=p.claim_interpretations?.[a.id];
+  if(note){a.current_revision_interpretation=note;a.analysis=(a.analysis||'')+'【後出覆核】'+note;}
+ }
+ return data;
+}
+export function applyAttestationRevalidations(data,home=HOME){
+ for(const p of readRevalidations(home))for(const replacement of p.attestation_replacements){
+  const ix=data.records.findIndex(r=>r.source_path===replacement.path);
+  if(ix<0)continue;
+  const r=data.records[ix];
+  if(r.git_blob_sha!==replacement.previous_sha||r.status!=='FULL_FILE_EDITORIAL_ATTESTED'||r.source_role_id!==replacement.record.source_role_id||JSON.stringify(r.related_claim_ids)!==JSON.stringify(replacement.record.related_claim_ids))throw Error('revalidation base does not match '+replacement.path);
+  data.records[ix]=applyEvidenceRevalidations(structuredClone(replacement.record),home);
+ }
+ return data;
+}
+export function readEffectiveJson(filename,home=HOME){
+ const full=path.resolve(home,filename);
+ if(!full.startsWith(path.resolve(home)+path.sep))throw Error('effective JSON escapes engine');
+ const data=applyEvidenceRevalidations(JSON.parse(fs.readFileSync(full,'utf8')),home);
+ for(const p of readRevalidations(home))for(const a of p.specific_legacy_anchors||[]){
+  if(path.basename(full)!==a.file)continue;
+  const e=data.records?.find(r=>r.id===a.record_id)?.evidence;
+  const m=p.anchor_migrations.find(m=>m.path===a.source_path);
+  if(!e||!m||e.source_path!==a.source_path||e.line!==a.from_line||e.excerpt!==a.quote)throw Error('legacy anchor base mismatch');
+  const old=execFileSync('git',['cat-file','blob',m.from_sha],{cwd:home,encoding:'utf8'}).split(/\r?\n/);
+  const now=fs.readFileSync(path.resolve(home,'../..',a.source_path),'utf8').split(/\r?\n/);
+  if(!old[a.from_line-1]?.startsWith(a.quote)||!now[a.to_line-1]?.startsWith(a.quote))throw Error('legacy anchor quote drift');
+  e.line=a.to_line;e.git_blob_sha=m.to_sha;applyEvidenceRevalidations(e,home);
+ }
+ return data;
+}

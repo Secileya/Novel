@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import {loadLedger,loadBridge} from './AI接手_分片讀取.mjs';
+import {readEffectiveJson} from './來源後修_證據覆核.mjs';
 /**
  * One evolving source universe, not a permanent 171-only backlog.
  * All current Git-committed source files are placed in the same editorial
@@ -49,7 +50,7 @@ const oldBacklogPaths=new Set(historical.sources.map(f=>f.path));
 const acceptanceByPath=new Map(ledger.records.map(x=>[x.source_path,x]));
 const sourceAudits=board.audited_batch_paths.flatMap(p=>{
  if(!p.startsWith("00_分類導航/設定關聯引擎/")||p.split("/").includes(".."))throw Error("unsafe audited_batch_paths entry "+p);
- return JSON.parse(fs.readFileSync(path.join(PROJECT,p),"utf8")).records;
+ return readEffectiveJson(path.basename(p),HOME).records;
 });
 const claimByID=new Map(sourceAudits.map(x=>[x.id,x]));
 const mappingByClaim=new Map(bridge.records.map(x=>[x.audit_id,x]));

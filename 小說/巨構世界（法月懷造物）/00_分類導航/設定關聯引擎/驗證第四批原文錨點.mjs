@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /** 第四批來源交叉語義台帳：精確原文行號與 Git blob SHA 驗證。只讀取，不改寫任何來源。 */
 import { readFileSync } from 'node:fs';
+import {readEffectiveJson} from './來源後修_證據覆核.mjs';
 import { createHash } from 'node:crypto';
 import { dirname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 const here = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(here, '../..');
 const ledgerPath = resolve(here, '20261109_171待深審_第四批跨源語義衝突與審核門檻.json');
-const ledger = JSON.parse(readFileSync(ledgerPath, 'utf8'));
+const ledger = readEffectiveJson('20261109_171待深審_第四批跨源語義衝突與審核門檻.json',here);
 const errors = [];
 const readCache = new Map();
 const seenIds = new Set();

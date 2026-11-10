@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // 09五檔與原始第九章同blob SHA的自動回驗；不修改任何小說或設定。
 import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import {dirname,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -13,7 +14,13 @@ const should=['README.md','195_A_對話與核心決議_含031與189全文_2026-1
 '195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md',
 '195_D_第三至六章QA_第七章保全與PR核驗_2026-11-05.md'].sort();
 const existing=fs.readdirSync(resolve(PROJECT,'09_跨AI原始來源')).sort();
-if(JSON.stringify(existing)!==JSON.stringify(should))err.push('09資料夾不是原規定五檔');
+if(should.some(n=>!existing.includes(n)))err.push('09缺少原五檔封存來源');
+for(const n of existing.filter(n=>!should.includes(n))){
+ if(!/^202\d{5}_.*\.md$/.test(n))err.push('09未識別新增原文 '+n);
+ const p='09_跨AI原始來源/'+n;
+ const result=execFileSync('git',['ls-tree','HEAD','--',p],{cwd:PROJECT,encoding:'utf8'});
+ if(!result.includes('blob'))err.push('09新增來源未納Git '+p);
+}
 if(fs.existsSync(resolve(PROJECT,oldPath)))err.push('舊09第九章路徑仍存在');
 const original=fs.readFileSync(resolve(PROJECT,newPath));
 const actual=createHash('sha1').update(Buffer.from('blob '+original.length+'\0')).update(original).digest('hex');

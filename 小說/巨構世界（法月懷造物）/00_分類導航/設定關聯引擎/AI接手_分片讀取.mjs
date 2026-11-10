@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {applyEvidenceRevalidations,applyAttestationRevalidations} from './來源後修_證據覆核.mjs';
 const HOME=path.dirname(fileURLToPath(import.meta.url));
 const read=(n)=>JSON.parse(fs.readFileSync(path.join(HOME,n),'utf8'));
 const sha=buf=>createHash('sha1').update(Buffer.from('blob '+buf.length+'\0')).update(buf).digest('hex');
@@ -41,7 +42,7 @@ export function loadLedger(home=HOME){
  }
  base.accepted_editorial_file_count+=roleDelta;
  base.remaining_for_full_file_semantic_acceptance-=roleDelta;
- return base;
+ return applyAttestationRevalidations(base,home);
 }
 export function loadBridge(home=HOME){
  const base=JSON.parse(fs.readFileSync(path.join(home,'審核命題至既有關係圖_雙向證據橋.json'),'utf8'));
@@ -51,7 +52,7 @@ export function loadBridge(home=HOME){
   oldIds.add(r.audit_id);base.records.push(r);
   base.audit_record_count++;base.mapped_review_count++;base.links_count+=r.relations.length;
  }
- return base;
+ return applyEvidenceRevalidations(base,home);
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  const ledger=loadLedger(),bridge=loadBridge(),shards=readShards();

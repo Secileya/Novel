@@ -5,7 +5,7 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "29b8c83c378c3410e548d1c03aedb73ced99126e",
+  "last_checked_head_before_handoff": "90baa4e845cf3a227d38d78aa3f345a14be3d9fd",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
     "run_url": "https://github.com/Secileya/Novel/actions/runs/42811816504",
@@ -14,7 +14,7 @@
     "warning": "結構證據驗證不是作者Canon批准或語義絕對正確證明。"
   },
   "fact_snapshot": {
-    "raw_source_files": 335,
+    "raw_source_files": 343,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,19 +22,19 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 5,
+    "nine_folder_files": 8,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第33批新登記12份待當批CI；最後成功159／335。正式0章／PREWRITE HOLD。",
-    "targeted_audit_records": 4650,
-    "targeted_audit_verified_quotes": 4841,
-    "full_file_editorial_accepted": 52,
-    "full_file_editorial_remaining": 119,
+    "important": "第34批新增12份，既有18份來源後修重驗不新增份數，183/343待當批CI；第33批歷史CI已成功。正式0章/PREWRITE HOLD。",
+    "targeted_audit_records": 4848,
+    "targeted_audit_verified_quotes": 5039,
+    "full_file_editorial_accepted": 58,
+    "full_file_editorial_remaining": 113,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 171,
-    "all_source_full_file_editorial_remaining": 164,
-    "historical_164_full_file_acceptance": 119,
-    "historical_171_full_file_acceptance": 52,
+    "all_source_full_file_editorial_accepted": 183,
+    "all_source_full_file_editorial_remaining": 160,
+    "historical_164_full_file_acceptance": 125,
+    "historical_171_full_file_acceptance": 58,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -82,40 +82,22 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 171,
-        "pending": 164,
+        "verified_complete": 183,
+        "pending": 160,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第33批完成編輯性驗收並登記，待對應CI；已成功仍159，不把登記當通過。使用者已明確恢復執行。",
-        "stage": "BATCH33_12_SUBMITTED_PENDING_CI",
+        "note": "第34批新12份與既有18份來源後修重驗待本次CI；最後歷史已成功171/335，當前有效版本以本輪CI確認。重驗不新增份數。第35批暫存12份未登記，接續核對。",
+        "stage": "BATCH34_12_SUBMITTED_PENDING_CI",
         "last_verified_commit": "d5c3dbce367dac915d1b3699abe59ff5126fe873",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42811816504",
         "cross_source_next_batch": [],
-        "historical_164_accepted": 119,
-        "historical_171_accepted": 52,
+        "historical_164_accepted": 125,
+        "historical_171_accepted": 58,
         "last_batch_files": [
-          "03_人物關係與語感/042_討論續錄_跨場景本能反應與雙向互動.md",
-          "03_人物關係與語感/053_討論續錄_人物驅動_長期目標_自由探索與首篇候選.md",
-          "07_候選故事與場景/064_候選實作_地方事件兩案_開篇旅行與完整人物場景.md",
-          "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
-          "07_候選故事與場景/066_候選長篇試寫_尚未拆下的那一段_第一章完整場景.md",
-          "06_敘事規劃與工作流/069_長篇主幹候選_遷巒遠征_人物競逐_第一大高潮到登頂.md",
-          "03_人物關係與語感/020_討論續錄_女主低配Franiya與故事優先.md",
-          "03_人物關係與語感/029_討論續錄_諾亞艾莉維亞命名_買票嘴硬與雙向調戲.md",
-          "03_人物關係與語感/016_逐輪補查_莉可到男女主及Celeste嗑CP.md",
-          "03_人物關係與語感/030_討論續錄_諾亞艾莉維亞雙向臉紅與暱稱.md",
-          "03_人物關係與語感/041_討論續錄_終橋本能恐懼_諾亞懷疑自己無法復歸_完整對話保留.md",
-          "06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md"
-        ],
-        "last_batch_full_lines": 1948,
-        "last_batch_sections": 100,
-        "last_batch_new_claims": 186,
-        "last_batch_new_anchors": 631,
-        "next_batch": [
           "03_人物關係與語感/014_逐輪稽查_戰力科技至莉可式探索.md",
           "05_場景視覺與參考/074_研究續錄_多批視覺參考_巨構尺度_生活與閾限空間.md",
           "06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
@@ -128,6 +110,24 @@
           "06_敘事規劃與工作流/20261108_Gemini80題_題目與回覆逐題來源核對.md",
           "06_敘事規劃與工作流/20261108_Gemini八十題_逐題來源覆蓋與原文保存等級核對.md",
           "06_敘事規劃與工作流/20261108_全庫舊設定回收_血腥生態遷徙Gemini創意與深層異常訊號.md"
+        ],
+        "last_batch_full_lines": 1842,
+        "last_batch_sections": 120,
+        "last_batch_new_claims": 198,
+        "last_batch_new_anchors": 663,
+        "next_batch": [
+          "08_交接勘誤與決議/008_候選示例與未決台帳.md",
+          "08_交接勘誤與決議/181_Gemini萬公里尺度復歸黑霧第六章_來源優先與工程獨立稽核.md",
+          "08_交接勘誤與決議/186_Gemini新版第六章最終QA_280米誤引_橋跨角色認知與G8D修訂.md",
+          "08_交接勘誤與決議/187_Gemini瑟莉思媞三重氣質_二次相遇展力與身份猜測_權威QA.md",
+          "08_交接勘誤與決議/194_第三至第六章正文逐章對照_Roblox旅行巨構研究QA與第七章保全_非正史.md",
+          "08_交接勘誤與決議/197_Gemini真貨誤導_殞落殘篇_抽薪B案及G9B三補丁QA_非正史.md",
+          "08_交接勘誤與決議/198_階段同行_終焉雙人候選_巧合無固定比例_鐘擺工程QA.md",
+          "08_交接勘誤與決議/199_Gemini停擺石托架_黑銷下掛桿_休伊告別與G10寫作門檻QA_非正史.md",
+          "08_交接勘誤與決議/200_G9B對G10第八章候選_直接續接_連續性工程時間與證據QA_非正史.md",
+          "08_交接勘誤與決議/20261108_不思議迴廊繪本翻頁與破頁者_Celeste管理者倫理_深度QA_非正史.md",
+          "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+          "08_交接勘誤與決議/20261108_Gemini第二輪四線盤點_權威完成度與正文時序_核對QA_非正史.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -817,18 +817,18 @@
     }
   ],
   "last_delivered_work": {
-    "date": "2026-11-10",
-    "task": "NEXT-009 batch33",
+    "date": "2026-11-11",
+    "task": "NEXT-009 batch34",
     "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 1948,
-    "review_sections": 100,
-    "atomic_findings": 186,
-    "original_line_anchors": 631,
-    "nonCanon_graph_links": 240,
-    "all_source_accepted": 171,
-    "all_source_pending": 164,
-    "state": "BATCH33_PENDING_CI__NON_CANON",
-    "notes": "只以CI成功份數和批次數衡量產能；命題、引文和圖邊是追溯材料。"
+    "original_lines_reviewed": 1842,
+    "review_sections": 120,
+    "atomic_findings": 198,
+    "original_line_anchors": 663,
+    "nonCanon_graph_links": 215,
+    "all_source_accepted": 183,
+    "all_source_pending": 160,
+    "state": "BATCH34_PENDING_CI__NON_CANON",
+    "notes": "新增12份與18份既有來源後修重驗分開計數；保留舊巨大總帳與歷史SHA分片。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -848,12 +848,12 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH33_12_SUBMITTED_PENDING_CI",
-    "scope": "第33批12份1948行，逐檔全文、48條個別二遍問題及46項具體SHA依賴影響；原稿未改。",
+    "stage": "BATCH34_12_SUBMITTED_PENDING_CI",
+    "scope": "第34批12份1842行，逐檔全文、48條個別二遍問題及49項具體SHA依賴影響；原稿未改。 013/036/088/181作者近即時及09README原文保存政策造成的18份既有證據已分片重驗，不重計檔案。",
     "commit": null,
     "ci_result": "pending",
     "ci_run_url": null,
-    "not_finished": "已登記171／335待CI，最後成功159；另164份待審。正式0章，候選不採Canon。",
+    "not_finished": "183/343份已具現行驗收證據，待本次CI；160份待審，含第35批未登記暫存。正式0章/PREWRITE HOLD。",
     "next_step": "當批CI成功後回寫，直接對下一批12份做最新HEAD防重與全文，不等待逐批指令。"
   },
   "audited_batch_paths": [
@@ -886,6 +886,7 @@
     "00_分類導航/設定關聯引擎/20261110_第三十批_原文重審6份_012_043_044_046_055_061_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第三十一批6份_073_076_095_097_098_099_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261110_第三十二批6份_102_痕跡_006_017_027_045_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261110_第三十三批12份_人物敘事初遇與候選長篇_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261110_第三十三批12份_人物敘事初遇與候選長篇_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第三十四批12份_創作流程跨媒介研究八十題與舊設定回收_全文語義v2.json"
   ]
 }
