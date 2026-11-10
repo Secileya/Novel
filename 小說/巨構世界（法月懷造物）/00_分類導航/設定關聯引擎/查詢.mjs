@@ -200,7 +200,8 @@ function getZones(q, ids) {
   const old = expandChildren(creativity.map_versions.legacy);
   const zoneNamed = w.some(z => (z.aliases || []).some(a => a.length > 2 && contains(q,a)));
   const legacyNamed = old.some(z => contains(q,z.name));
-  const w01 = /w[\s-]?0?1\b/i.test(q) || /十二[大個]?區|12[大個]?區|九[大個]?區|9[大個]?區/.test(q);
+  const w01 = /w[\s-]?0?1\b/i.test(q) || /十二[大個]?區|12[大個]?區|九[大個]?區|9[大個]?區/.test(q) ||
+    /(?:第)?(?:十[一二]?|[一二三四五六七八九])(?:區|區域)/.test(q);
   // A parent or any known child triggers full expansion, never just most-similar children.
   const expand = w01 || zoneNamed || legacyNamed || ids.direct.includes("w01");
   return expand ? {mode:"W01_FULL_CONTAINER_EXPANSION",count:w.length,active_design_children:w,
@@ -236,9 +237,27 @@ function zoneIDsFromQuery(q, zones) {
     const n=String(Number(z.number));
     const numPattern=new RegExp("(?:第)?0?"+n+"(?:區|區域)");
     const strongNames=(z.aliases||[]).filter(x=>String(x).length>=3);
-    if(strongNames.some(x=>contains(q,x)) || numPattern.test(q) || contains(q,z.id)) hits.push(z.id);
+    const zhNumbers=["","一","二","三","四","五","六","七","八","九","十","十一","十二"];
+    const zhNumber=zhNumbers[Number(z.number)];
+    const isExplicitOldNine=/(?:舊|舊版|原版)九(?:大)?區/.test(q);
+    const zhZoneMatch=zhNumber && !(isExplicitOldNine && zhNumber==="九") &&
+      new RegExp("(?:第)?"+zhNumber+"(?:區|區域)").test(q);
+    if(strongNames.some(x=>contains(q,x)) || numPattern.test(q) || zhZoneMatch || contains(q,z.id)) hits.push(z.id);
   }
   return unique(hits);
+}
+function findFocusedZoneContext(q, zones) {
+  const matchedIds=zoneIDsFromQuery(q,zones);
+  const matched=zones.active_design_children.filter(z=>matchedIds.includes(z.id));
+  return {matched_zone_ids:matchedIds,
+    zones:matched.map(z=>{
+      const matchedIdeas=creativity.idea_pool.filter(idea=>(idea.possible_placement||[]).includes(z.id));
+      return {id:z.id,name:z.name,ecology:z.ecology,functions:z.functions,authority:z.authority,
+        candidate_ideas:matchedIdeas.map(idea=>({id:idea.id,label:idea.label,summary:idea.summary,
+          status:idea.compatibility,source_paths:idea.source_paths||[]})),
+        source_paths:unique([...(z.source_paths||[]),...matchedIdeas.flatMap(idea=>idea.source_paths||[])])};
+    }),
+    warning:"這是宏觀區域與候選創意的專題展開；命中不等於全部設定已仲裁或已成正式章節／Canon。"};
 }
 function findCausal(q, zones) {
   const selectedIDs=zoneIDsFromQuery(q,zones);
@@ -864,6 +883,7 @@ function query(q, corpus) {
   if (!q || !q.trim()) throw Error("Need --query or positional query text");
   const ids = identify(q);
   const zones = getZones(q,ids);
+  const focusedZones = findFocusedZoneContext(q,zones);
   const containers = matchContainers(q);
   const ideas = findIdeas(q,zones);
   const phaseMatches = findTemporal(q,ids);
@@ -907,6 +927,7 @@ function query(q, corpus) {
   const ranked = corpus.read.map(d=>scoreDocument(d,terms)).filter(d=>d.score>0).sort((a,b)=>b.score-a.score);
   const byPath = new Map(corpus.read.map(d=>[d.path,d]));
   const needed = unique([
+    ...focusedZones.zones.flatMap(z=>z.source_paths||[]),
     ...claims.flatMap(r=>r.sources||[]),
     ...ideas.flatMap(i=>i.source_paths||[]),
     ...phaseMatches.flatMap(p=>p.source_paths||[]),
@@ -959,7 +980,8 @@ function query(q, corpus) {
     git_head:getHead(), source_inventory_commit:inventory.baseline_commit,
     files_in_inventory:inventory.files_count, files_actually_read:corpus.read.length,
     files_missing:corpus.missing, newly_added_unindexed_source_files:corpus.extras,
-    entities:ids, container_expansion:zones, registered_container_expansion:containers,
+    entities:ids, container_expansion:zones, focused_zone_retrieval:focusedZones,
+    registered_container_expansion:containers,
     relevant_claims:claims, creative_candidate_ideas:ideas,
     character_timeline:phaseMatches, ecology_industry_network:causal, version_compatibility_ledger:versions,
     macro_world_layer_graph:macro, travel_direction_and_rights:travel,
@@ -1171,6 +1193,19 @@ function selfTest(corpus) {
   const mixed106=query("SRC-ALL-087 諾亞 復歸",corpus);
   assert(mixed106.audited_domain_graph_bidirectional_links.matched_audits_and_existing_nodes.some(x=>
     x.audit_id==="SRC-ALL-087"&&x.related_existing_nodes.some(e=>e.target_id==="P-NOAH-01")));
+  const nine=query("W01第九區霜脈散熱嶺在第十三章有什麼產業、生態與長線故事來源",corpus);
+  assert(nine.focused_zone_retrieval.matched_zone_ids.includes("W01-Z09"));
+  assert(nine.focused_zone_retrieval.zones.some(z=>z.id==="W01-Z09" &&
+    z.ecology.includes("冰脈線蟲") && z.functions.includes("義體醫療") &&
+    z.candidate_ideas.some(i=>i.id==="IDEA-ECO-006")));
+  assert(nine.selected_sources.some(x=>x.path===
+    "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md" && x.available));
+  assert(nine.selected_sources.some(x=>x.path===
+    "06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md" && x.available));
+  const nineShort=query("九區有哪些生活和醫療設定",corpus);
+  assert(nineShort.focused_zone_retrieval.matched_zone_ids.includes("W01-Z09"));
+  const oldNine=query("舊九區設定與舊九大區",corpus);
+  assert(!oldNine.focused_zone_retrieval.matched_zone_ids.includes("W01-Z09"));
   const fish=query("W01第06區漁業受到第11區污染有什麼後果",corpus);
   assert(fish.ecology_industry_network.direct_edges.some(x=>x.id==="ECO-001"));
   assert(fish.ecology_industry_network.matched_zone_ids.includes("W01-Z06"));
