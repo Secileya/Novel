@@ -1,0 +1,2913 @@
+{
+  "schema": "mega-batch23-full-file-v2-sharded",
+  "date": "2026-11-10",
+  "source_file_count": 3,
+  "source_line_count": 380,
+  "source_sections": 37,
+  "evidence_count": 39,
+  "source_file_manifest": [
+    {
+      "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+      "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+      "source_line_count": 104,
+      "section_count": 11,
+      "claim_count": 12
+    },
+    {
+      "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+      "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+      "source_line_count": 155,
+      "section_count": 14,
+      "claim_count": 15
+    },
+    {
+      "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+      "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+      "source_line_count": 121,
+      "section_count": 12,
+      "claim_count": 12
+    }
+  ],
+  "authority_boundary": "021允許低道德與自主奪物但非強制殘酷；022明確三級血腥與觀察者反應差異；023接受Project Moon式制度結構，但不擅自引入正史組織事件。均仍非正式小說情節。",
+  "records": [
+    {
+      "id": "SRC-ALL-3203",
+      "title": "021｜後出作者低道德與自主奪物修正｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "後出作者低道德與自主奪物修正：第3行原文說明「> **【第58份後出語言方向】** 使用者希望方九×莉雅式鮮明神經質不只停留在抽象設定：諾亞和艾莉維亞皆能自然互罵「傻逼」「大傻逼」「神經病」、使用粗口、網感反應、高概念低俗日常比喻與各自的句式習慣，互換主導和吐槽位置；認真時也能真實簡短」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 3,
+          "quote": "> **【第58份後出語言方向】** 使用者希望方九×莉雅式鮮明神經質不只停留在抽象設定：諾亞和艾莉維亞皆能自然互罵「傻逼」「大傻逼」「神經病」、使用粗口、網感反應、高概念低俗日常比喻與各自的句式習慣，互換主導和吐槽位置；認真時也能真實簡短。舊有曖昧暱稱均保留，避免照抄原作標誌性"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3204",
+      "title": "021｜使用者要保留方九莉雅式活潑失序互動｜L13",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "使用者要保留方九莉雅式活潑失序互動：第13行原文說明「> 男主根女主的道德如何? 另外其實我特別想保留方久莉雅那種神經質」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 13,
+          "quote": "> 男主根女主的道德如何? 另外其實我特別想保留方久莉雅那種神經質"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3205",
+      "title": "021｜不是標準英雄但各有私人底線｜L19",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "不是標準英雄但各有私人底線：第19行原文說明「【助手候選】男主與女主都可有自身道德、原則、偏愛、私心，也可在日常不太符合常見的現代「善良正派主角」標準。**不等於兩個沒有良心的施虐者**；真有無辜者承受後果時，不可讓劇情只把傷害當作笑料。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 19,
+          "quote": "【助手候選】男主與女主都可有自身道德、原則、偏愛、私心，也可在日常不太符合常見的現代「善良正派主角」標準。**不等於兩個沒有良心的施虐者**；真有無辜者承受後果時，不可讓劇情只把傷害當作笑料。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3206",
+      "title": "021｜諾亞好奇心與不死風險候選｜L27",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞好奇心與不死風險候選：第27行原文說明「- 男主探索欲可參考《來自深淵》的莉可，他可以為未知物種、古代機關、奇特景色或陌生城市非常興奮，不是只為提升戰力、接受任務而前進。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 27,
+          "quote": "- 男主探索欲可參考《來自深淵》的莉可，他可以為未知物種、古代機關、奇特景色或陌生城市非常興奮，不是只為提升戰力、接受任務而前進。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3207",
+      "title": "021｜艾莉維亞不是道德煞車的候選｜L37",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞不是道德煞車的候選：第37行原文說明「- 她可具真實強大的規則性能力、獨立高階科技和完整自己的生活，甚至可能由 Celeste 加賦；最終至少與男主完整前文明頂尖槍具有相稱的高度，並可初登場就很強而持續深化。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 37,
+          "quote": "- 她可具真實強大的規則性能力、獨立高階科技和完整自己的生活，甚至可能由 Celeste 加賦；最終至少與男主完整前文明頂尖槍具有相稱的高度，並可初登場就很強而持續深化。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3208",
+      "title": "021｜神經質互動不等於永遠對罵｜L47",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "神經質互動不等於永遠對罵：第47行原文說明「使用者想保留方九×莉雅那種神經質，應重點吸收：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 47,
+          "quote": "使用者想保留方九×莉雅那種神經質，應重點吸收："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3209",
+      "title": "021｜不同道德觀產生可回收的事件｜L59",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "不同道德觀產生可回收的事件：第59行原文說明「【助手候選一】某座群落使用失去活動力的人工生命零件作回收材料，當地認為天經地義；另一文明認為其中仍有持續意識。男主可能先問：「它會不會痛？拆之前問過嗎？」女主可能先找資料確定真相；但下一次情境完全可反過來，由她先在意當事人的意願、他先打算採」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 59,
+          "quote": "【助手候選一】某座群落使用失去活動力的人工生命零件作回收材料，當地認為天經地義；另一文明認為其中仍有持續意識。男主可能先問：「它會不會痛？拆之前問過嗎？」女主可能先找資料確定真相；但下一次情境完全可反過來，由她先在意當事人的意願、他先打算採取工程解法。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3210",
+      "title": "021｜輪流缺德的可撤回短場景｜L69",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "輪流缺德的可撤回短場景：第69行原文說明「一名商人在路邊掛起招牌，保證自己的儀器「能識別一切金屬」。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 69,
+          "quote": "一名商人在路邊掛起招牌，保證自己的儀器「能識別一切金屬」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3211",
+      "title": "021｜輪流缺德的可撤回短場景｜L76",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "輪流缺德的可撤回短場景：第76行原文說明「「我們把那塊連高階掃描器都判不出構造的材料拿去讓他測。」」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 76,
+          "quote": "「我們把那塊連高階掃描器都判不出構造的材料拿去讓他測。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3212",
+      "title": "021｜Celeste促成相遇不控制喜愛｜L88",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "Celeste促成相遇不控制喜愛：第88行原文說明「Celeste 已**有意讓男女主相遇、期待他們成為戀人**，但不直接寫入感情、不安排所有事情，希望看故事自己生長；她可嗑 CP、來訪、偶然解決兩人暫時無法解決的大事件，或親自與兩人相處。這不代表兩位的道德是被她灌輸的，更不應因此把所有「神」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 88,
+          "quote": "Celeste 已**有意讓男女主相遇、期待他們成為戀人**，但不直接寫入感情、不安排所有事情，希望看故事自己生長；她可嗑 CP、來訪、偶然解決兩人暫時無法解決的大事件，或親自與兩人相處。這不代表兩位的道德是被她灌輸的，更不應因此把所有「神經質」行為解釋為 Celeste 提前寫"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3213",
+      "title": "021｜未決心理底線與人生史｜L92",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "未決心理底線與人生史：第92行原文說明「- 男主是否本質自我輕視、自毀，或僅因不死而扭曲風險計算；此前方九參考材料不能照抄全部。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 92,
+          "quote": "- 男主是否本質自我輕視、自毀，或僅因不死而扭曲風險計算；此前方九參考材料不能照抄全部。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3214",
+      "title": "021｜第59後修粗口平常低頻｜L103",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第59後修粗口平常低頻：第103行原文說明「本檔原本已說「不要每行塞粗口、每句吐槽」，此正確方向繼續有效。使用者最新確認：**兩人既有溫柔、日常、羞澀、親近、成熟、偶爾缺德及真正嚴肅等全部保留；「傻逼」「大傻逼」「神經病」平常低頻，只有特定激烈玩鬧互罵時才可密集**。不把反應詞、網感」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "guardrail": "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+          "line": 103,
+          "quote": "本檔原本已說「不要每行塞粗口、每句吐槽」，此正確方向繼續有效。使用者最新確認：**兩人既有溫柔、日常、羞澀、親近、成熟、偶爾缺德及真正嚴肅等全部保留；「傻逼」「大傻逼」「神經病」平常低頻，只有特定激烈玩鬧互罵時才可密集**。不把反應詞、網感語氣、方九／莉雅參考加工成固定口癖配額。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3215",
+      "title": "022｜血腥描寫強度的作者後出方向｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "血腥描寫強度的作者後出方向：第3行原文說明「> **【後出使用者明確補充｜2026-10-18】** 先前「陽光青草巨大人工海洋的居住區遭駭人襲擊」「黑暗鏽蝕、異形居民的地下聚落也有真溫暖」受肯定；但**不只是明暗善惡反轉**：同一溫暖之地亦可有真正黑暗、同一黑暗之地亦可有真正溫柔；」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 3,
+          "quote": "> **【後出使用者明確補充｜2026-10-18】** 先前「陽光青草巨大人工海洋的居住區遭駭人襲擊」「黑暗鏽蝕、異形居民的地下聚落也有真溫暖」受肯定；但**不只是明暗善惡反轉**：同一溫暖之地亦可有真正黑暗、同一黑暗之地亦可有真正溫柔；有人生長在溫暖地方卻渴望鮮血，有人身處黑"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3216",
+      "title": "022｜血腥觀察者沒有統一心理反射｜L11",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "血腥觀察者沒有統一心理反射：第11行原文說明「> **作者明確補充；優先於早期將血腥視為人人必驚恐的機械寫法。** 「血腥描寫可以較普遍」只定義世界與敘事可能出現的傷害強度，**不決定所有看見它的人的反應**。熟悉、習慣、支持、認同、喜歡、麻木、害怕、排斥、出手、袖手旁觀是彼此獨立的向」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 11,
+          "quote": "> **作者明確補充；優先於早期將血腥視為人人必驚恐的機械寫法。** 「血腥描寫可以較普遍」只定義世界與敘事可能出現的傷害強度，**不決定所有看見它的人的反應**。熟悉、習慣、支持、認同、喜歡、麻木、害怕、排斥、出手、袖手旁觀是彼此獨立的向度。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3217",
+      "title": "022｜核心提問與未確定場所列表｜L26",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "核心提問與未確定場所列表：第26行原文說明「【使用者提問／方向】希望深入討論此巨構世界的**血腥、殘酷、肉體危險與暴力美學**。使用者這四字尚未指定全世界統一的血腥強度、具體尺度、哪些禁忌必須出現，所以不要擅自把「血腥色彩」寫成「每個城市必定殘酷」「必須有特定人體實驗」「無論如何都重」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 26,
+          "quote": "【使用者提問／方向】希望深入討論此巨構世界的**血腥、殘酷、肉體危險與暴力美學**。使用者這四字尚未指定全世界統一的血腥強度、具體尺度、哪些禁忌必須出現，所以不要擅自把「血腥色彩」寫成「每個城市必定殘酷」「必須有特定人體實驗」「無論如何都重度血漿」的既定規則。下述具體類型是**可"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3218",
+      "title": "022｜明亮與黑暗地區皆可多重生命面貌｜L37",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "明亮與黑暗地區皆可多重生命面貌：第37行原文說明「**建議基調：局部可極端血腥與重口，整體同時有豐富多樣的生態、文明與生活。** 沒必要限定每隔幾章必見幾具屍體，也不需要每座城都血流成河。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 37,
+          "quote": "**建議基調：局部可極端血腥與重口，整體同時有豐富多樣的生態、文明與生活。** 沒必要限定每隔幾章必見幾具屍體，也不需要每座城都血流成河。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3219",
+      "title": "022｜血腥傷害須有物理／異種生理因果｜L49",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "血腥傷害須有物理／異種生理因果：第49行原文說明「可以真正描寫受傷方式、血液、器官、斷肢、屍體、機械破碎、捕食過程及其觸覺、聲響、氣味和救治現場；必要時對重要場景可以有明顯的身體恐怖，而非每次「光點消失、毫無痛感」。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 49,
+          "quote": "可以真正描寫受傷方式、血液、器官、斷肢、屍體、機械破碎、捕食過程及其觸覺、聲響、氣味和救治現場；必要時對重要場景可以有明顯的身體恐怖，而非每次「光點消失、毫無痛感」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3220",
+      "title": "022｜諾亞不死不使他人傷亡重置｜L61",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞不死不使他人傷亡重置：第61行原文說明「男主可以受傷、失血、肢體受創、被斬殺、墜入深處，之後根據尚未確定的復歸規則返回。其復活不代表當下痛苦不成立，也不能導出所有場景任意免代價。他死亡後走回來可能耗時數日甚至更久；途中商隊離開、朋友永久死傷、局勢改變、物資被奪都不會倒帶。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 61,
+          "quote": "男主可以受傷、失血、肢體受創、被斬殺、墜入深處，之後根據尚未確定的復歸規則返回。其復活不代表當下痛苦不成立，也不能導出所有場景任意免代價。他死亡後走回來可能耗時數日甚至更久；途中商隊離開、朋友永久死傷、局勢改變、物資被奪都不會倒帶。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3221",
+      "title": "022｜暴力制度要有經濟醫療日常｜L70",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "暴力制度要有經濟醫療日常：第70行原文說明「- 旅團知道哪些路有「無法送醫的風險」，會自行製作救援制度，購買護具、支付護衛費、避開危險時段。有人因風險拒絕冒險，不等於膽小道具。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 70,
+          "quote": "- 旅團知道哪些路有「無法送醫的風險」，會自行製作救援制度，購買護具、支付護衛費、避開危險時段。有人因風險拒絕冒險，不等於膽小道具。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3222",
+      "title": "022｜角色灰度和神經質在事件裡自然變化｜L78",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "角色灰度和神經質在事件裡自然變化：第78行原文說明「**不要把兩人做成絕對不殺人、不得作惡的道德英雄，也不能把每次見血都當喜劇**。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 78,
+          "quote": "**不要把兩人做成絕對不殺人、不得作惡的道德英雄，也不能把每次見血都當喜劇**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3223",
+      "title": "022｜四個血腥場景鉤子皆是候選｜L88",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "四個血腥場景鉤子皆是候選：第88行原文說明「晴朗人工日照下，一個正常興旺的碼頭突然發生後起設備失效，重型貨梯墜落。讀者先見原本的吆喝買賣和食物香氣，接著見真實傷亡、失蹤者、急救和有人趁亂偷貨；兩位主角即使解決核心危險，也不自動治癒所有傷者、消除商人的損失與追責。**重點**：血腥與光」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 88,
+          "quote": "晴朗人工日照下，一個正常興旺的碼頭突然發生後起設備失效，重型貨梯墜落。讀者先見原本的吆喝買賣和食物香氣，接著見真實傷亡、失蹤者、急救和有人趁亂偷貨；兩位主角即使解決核心危險，也不自動治癒所有傷者、消除商人的損失與追責。**重點**：血腥與光照可同框，地方城市仍是真實社會。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3224",
+      "title": "022｜四個血腥場景鉤子皆是候選｜L96",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "四個血腥場景鉤子皆是候選：第96行原文說明「他們進入仍有完整原裝核心技術的某個運作區。一次不針對個人的自動程序，便使地形和測量關係產生普通文明無法理解的變化。隊伍某人失去通訊、物流路線被整段切斷，甚至生命存在的條件被修改。**重點**：女主規則類能力可能真正抵抗一部分高階作用，但不應」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 96,
+          "quote": "他們進入仍有完整原裝核心技術的某個運作區。一次不針對個人的自動程序，便使地形和測量關係產生普通文明無法理解的變化。隊伍某人失去通訊、物流路線被整段切斷，甚至生命存在的條件被修改。**重點**：女主規則類能力可能真正抵抗一部分高階作用，但不應像既有第 19 份測試般讓第一次完整前文"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3225",
+      "title": "022｜最初待選的描寫力度屬歷史版本｜L104",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "最初待選的描寫力度屬歷史版本：第104行原文說明「- **直觀描寫強度**：偏好「血腥可真寫、重要傷亡刻畫清楚，非每章噴血」，還是經常「強烈身體恐怖、肢解、殘酷生存景象」？目前四字沒有明確圈定，待下輪討論。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 104,
+          "quote": "- **直觀描寫強度**：偏好「血腥可真寫、重要傷亡刻畫清楚，非每章噴血」，還是經常「強烈身體恐怖、肢解、殘酷生存景象」？目前四字沒有明確圈定，待下輪討論。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3226",
+      "title": "022｜使用者明確允許重血腥較普遍極端殘酷少數｜L117",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "使用者明確允許重血腥較普遍極端殘酷少數：第117行原文說明「使用者提供三檔程度選項的截圖，截圖中勾選的是：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 117,
+          "quote": "使用者提供三檔程度選項的截圖，截圖中勾選的是："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3227",
+      "title": "022｜最新三級血腥分布與強度權威｜L127",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "最新三級血腥分布與強度權威：第127行原文說明「| 層次 | 預期分布 | 可以如何呈現 |」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 127,
+          "quote": "| 層次 | 預期分布 | 可以如何呈現 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3228",
+      "title": "022｜正文執行建議非新增硬世界觀｜L139",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "正文執行建議非新增硬世界觀：第139行原文說明「- **日常事件有真傷害**：普通衝突可以直接見血，嚴重事故或敵對生物出沒時可進入重度；不能把所有死亡處理成乾淨倒下或畫面切黑。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 139,
+          "quote": "- **日常事件有真傷害**：普通衝突可以直接見血，嚴重事故或敵對生物出沒時可進入重度；不能把所有死亡處理成乾淨倒下或畫面切黑。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3229",
+      "title": "022｜禁將未定刑罰法律生理與主角底線寫死｜L149",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "禁將未定刑罰法律生理與主角底線寫死：第149行原文說明「1. 各文明具體的法律、刑罰、醫療、黑市與暴力犯罪比例，仍需跟其組織、技術及歷史因果一起建立。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "guardrail": "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+          "line": 149,
+          "quote": "1. 各文明具體的法律、刑罰、醫療、黑市與暴力犯罪比例，仍需跟其組織、技術及歷史因果一起建立。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3230",
+      "title": "023｜後修來源與作者／助手候選界線｜L3",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "後修來源與作者／助手候選界線：第3行原文說明「> 2026-10-18。這是**使用者最新修正＋助手開放討論紀錄**，不改 01–11 主設定、正式人物 DNA 或家庭總檔。接續 21（主角神經質及道德）、22（重度可常見／極端少量的血腥尺度）。依使用者要求「討論先存，說改再改正式」。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 3,
+          "quote": "> 2026-10-18。這是**使用者最新修正＋助手開放討論紀錄**，不改 01–11 主設定、正式人物 DNA 或家庭總檔。接續 21（主角神經質及道德）、22（重度可常見／極端少量的血腥尺度）。依使用者要求「討論先存，說改再改正式」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3231",
+      "title": "023｜作者明確喜歡Project Moon式都市結構｜L9",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者明確喜歡Project Moon式都市結構：第9行原文說明「> **這是對先前助手評判方向的更正，優先於本文較早的「不直接複製翼／五指／收尾人／後巷制度」等模糊限制性語句。** 作者明確表示：**「我提出一个参考，我要的不就是喜欢那样的架构想要看吗？」** 因此**與《Project Moon》都市」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 9,
+          "quote": "> **這是對先前助手評判方向的更正，優先於本文較早的「不直接複製翼／五指／收尾人／後巷制度」等模糊限制性語句。** 作者明確表示：**「我提出一个参考，我要的不就是喜欢那样的架构想要看吗？」** 因此**與《Project Moon》都市在組織層級、統治秩序、技術壟斷與都市社會"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3232",
+      "title": "023｜暴力習慣不等於支持亦非所有人失態｜L22",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "暴力習慣不等於支持亦非所有人失態：第22行原文說明「> **作者補充優先項**：同一血腥場景中，當地人、外來旅客、專業工作者和曾受害者會有完全不同且隨時間變化的反應。**習慣看見暴力，不等於贊同暴力；沒有尖叫、沒有救人，也不等於默認其正當。**」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 22,
+          "quote": "> **作者補充優先項**：同一血腥場景中，當地人、外來旅客、專業工作者和曾受害者會有完全不同且隨時間變化的反應。**習慣看見暴力，不等於贊同暴力；沒有尖叫、沒有救人，也不等於默認其正當。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3233",
+      "title": "023｜使用者原話確立光暗可同地混生｜L33",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "使用者原話確立光暗可同地混生：第33行原文說明「> 如一片有陽光、有青草、有巨大人工海洋的居住區，突然遭到真正可怕的襲擊。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 33,
+          "quote": "> 如一片有陽光、有青草、有巨大人工海洋的居住區，突然遭到真正可怕的襲擊。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3234",
+      "title": "023｜作者更正雙主角不需自動救援主持正義｜L38",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者更正雙主角不需自動救援主持正義：第38行原文說明「1. **明亮／陰暗只是可見環境，不能推出居民道德**。陽光草地、巨大人工海洋中可以有日常幸福、也可以有陰暗行為、暴力利益網；黑暗鏽鋼、異質生命地下聚落中也可能有真實照料、家庭、愛與溫暖。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_CONFIRMED",
+      "authority_axis": "AUTHOR_CONFIRMED",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 38,
+          "quote": "1. **明亮／陰暗只是可見環境，不能推出居民道德**。陽光草地、巨大人工海洋中可以有日常幸福、也可以有陰暗行為、暴力利益網；黑暗鏽鋼、異質生命地下聚落中也可能有真實照料、家庭、愛與溫暖。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3235",
+      "title": "023｜光照與道德、權力、個體願望三維獨立｜L48",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "光照與道德、權力、個體願望三維獨立：第48行原文說明「**地理視覺**：人工日光、青草、潔淨建築、巨型海岸／昏暗蒸汽、鏽蝕高架、異種肢體、窄巷。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 48,
+          "quote": "**地理視覺**：人工日光、青草、潔淨建築、巨型海岸／昏暗蒸汽、鏽蝕高架、異種肢體、窄巷。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3236",
+      "title": "023｜暴力制度必有職業經濟與地方因果｜L58",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "暴力制度必有職業經濟與地方因果：第58行原文說明「可探索的制度性情況（**各是候選，不固定所有地方採用**）：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 58,
+          "quote": "可探索的制度性情況（**各是候選，不固定所有地方採用**）："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3237",
+      "title": "023｜主角可有善意但道德不應被編成英雄｜L70",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "主角可有善意但道德不應被編成英雄：第70行原文說明「早前 21 檔助手提過「不傷害無辜」「不刻意折磨」「一看有人被害就沉下臉」等**較偏正派預設**；後出使用者明確希望**不必看到有人受傷就去做**，故應調整為：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 70,
+          "quote": "早前 21 檔助手提過「不傷害無辜」「不刻意折磨」「一看有人被害就沉下臉」等**較偏正派預設**；後出使用者明確希望**不必看到有人受傷就去做**，故應調整為："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3238",
+      "title": "023｜黑暗中愛和平者可極強、明亮地有嗜血者｜L83",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "黑暗中愛和平者可極強、明亮地有嗜血者：第83行原文說明「【助手候選個體甲】人工日光海灣的一名衣著得體的男子，真心喜歡自己的伴侶和孩子，每天照常與鄰居打招呼，然而也有真實的嗜血樂趣。他不是偽裝好人的反派卡，也不需要把殺戮都歸咎童年創傷；他的平和家庭面貌與喜好暴力兩者皆真。可能在合法的殘酷產業、私人」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 83,
+          "quote": "【助手候選個體甲】人工日光海灣的一名衣著得體的男子，真心喜歡自己的伴侶和孩子，每天照常與鄰居打招呼，然而也有真實的嗜血樂趣。他不是偽裝好人的反派卡，也不需要把殺戮都歸咎童年創傷；他的平和家庭面貌與喜好暴力兩者皆真。可能在合法的殘酷產業、私人戰鬥或地下獵殺裡行動；是否為主線敵人待後"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3239",
+      "title": "023｜社會事件可由旁觀、交易、私利等驅動｜L93",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "社會事件可由旁觀、交易、私利等驅動：第93行原文說明「**舞台候選：晴朗人工海灣城，一場已按地方契約登記的血腥懲戒。**」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 93,
+          "quote": "**舞台候選：晴朗人工海灣城，一場已按地方契約登記的血腥懲戒。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3240",
+      "title": "023｜保留既定血腥強度與Celeste作用界線｜L107",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "保留既定血腥強度與Celeste作用界線：第107行原文說明「本輪沒有推翻先前選定的強度分布：普通明確血腥／重度血腥可普遍；極端殘酷僅在部分場景。不是每座城都血腥，只是長篇允許具體描寫。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 107,
+          "quote": "本輪沒有推翻先前選定的強度分布：普通明確血腥／重度血腥可普遍；極端殘酷僅在部分場景。不是每座城都血腥，只是長篇允許具體描寫。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-3241",
+      "title": "023｜舊21/22及相似都市候選的後修仲裁｜L115",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "舊21/22及相似都市候選的後修仲裁：第115行原文說明「- [21｜男女主道德灰度與神經質](../03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md) 若讀起來仍像「男主女主有個正派主角底線，一看街頭有人受傷就會轉認真救援」，**以這輪『道德不要太高，沒有自動出手義務』為」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "guardrail": "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+      "next_action": "依照後出來源SHA與作者／助手邊界重審，不憑主題相關性創造制度史。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SHA_LINE_SCOPED_ASSERTION",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+          "line": 115,
+          "quote": "- [21｜男女主道德灰度與神經質](../03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md) 若讀起來仍像「男主女主有個正派主角底線，一看街頭有人受傷就會轉認真救援」，**以這輪『道德不要太高，沒有自動出手義務』為較新的使用者要求修正**。"
+        }
+      ]
+    }
+  ],
+  "staged_attestations": [
+    {
+      "source_path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+      "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+      "source_role_id": "FULL-B23-021",
+      "related_claim_ids": [
+        "SRC-ALL-3203",
+        "SRC-ALL-3204",
+        "SRC-ALL-3205",
+        "SRC-ALL-3206",
+        "SRC-ALL-3207",
+        "SRC-ALL-3208",
+        "SRC-ALL-3209",
+        "SRC-ALL-3210",
+        "SRC-ALL-3211",
+        "SRC-ALL-3212",
+        "SRC-ALL-3213",
+        "SRC-ALL-3214"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第23批021來源全文104行、11段、12個SHA錨；不因審核將創作方向提升成正式世界觀。",
+      "source_line_count": 104,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 10,
+          "anchor_line": 3,
+          "quote": "> **【第58份後出語言方向】** 使用者希望方九×莉雅式鮮明神經質不只停留在抽象設定：諾亞和艾莉維亞皆能自然互罵「傻逼」「大傻逼」「神經病」、使用粗口、網感反應、高概念低俗日常比喻與各自的句式習慣，互換主導和吐槽位置；認真時也能真實簡短。舊有曖昧暱稱均保留，避免照抄原作標誌性台詞。見 [58](058_後",
+          "meaning": "後出作者低道德與自主奪物修正；原文第1至10行以第3行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 11,
+          "to": 16,
+          "anchor_line": 13,
+          "quote": "> 男主根女主的道德如何? 另外其實我特別想保留方久莉雅那種神經質",
+          "meaning": "使用者要保留方九莉雅式活潑失序互動；原文第11至16行以第13行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 17,
+          "to": 24,
+          "anchor_line": 19,
+          "quote": "【助手候選】男主與女主都可有自身道德、原則、偏愛、私心，也可在日常不太符合常見的現代「善良正派主角」標準。**不等於兩個沒有良心的施虐者**；真有無辜者承受後果時，不可讓劇情只把傷害當作笑料。",
+          "meaning": "不是標準英雄但各有私人底線；原文第17至24行以第19行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 25,
+          "to": 34,
+          "anchor_line": 27,
+          "quote": "- 男主探索欲可參考《來自深淵》的莉可，他可以為未知物種、古代機關、奇特景色或陌生城市非常興奮，不是只為提升戰力、接受任務而前進。",
+          "meaning": "諾亞好奇心與不死風險候選；原文第25至34行以第27行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 35,
+          "to": 44,
+          "anchor_line": 37,
+          "quote": "- 她可具真實強大的規則性能力、獨立高階科技和完整自己的生活，甚至可能由 Celeste 加賦；最終至少與男主完整前文明頂尖槍具有相稱的高度，並可初登場就很強而持續深化。",
+          "meaning": "艾莉維亞不是道德煞車的候選；原文第35至44行以第37行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 45,
+          "to": 56,
+          "anchor_line": 47,
+          "quote": "使用者想保留方九×莉雅那種神經質，應重點吸收：",
+          "meaning": "神經質互動不等於永遠對罵；原文第45至56行以第47行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 57,
+          "to": 66,
+          "anchor_line": 59,
+          "quote": "【助手候選一】某座群落使用失去活動力的人工生命零件作回收材料，當地認為天經地義；另一文明認為其中仍有持續意識。男主可能先問：「它會不會痛？拆之前問過嗎？」女主可能先找資料確定真相；但下一次情境完全可反過來，由她先在意當事人的意願、他先打算採取工程解法。",
+          "meaning": "不同道德觀產生可回收的事件；原文第57至66行以第59行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 67,
+          "to": 85,
+          "anchor_line": 69,
+          "quote": "一名商人在路邊掛起招牌，保證自己的儀器「能識別一切金屬」。",
+          "meaning": "輪流缺德的可撤回短場景；原文第67至85行以第69行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 86,
+          "to": 89,
+          "anchor_line": 88,
+          "quote": "Celeste 已**有意讓男女主相遇、期待他們成為戀人**，但不直接寫入感情、不安排所有事情，希望看故事自己生長；她可嗑 CP、來訪、偶然解決兩人暫時無法解決的大事件，或親自與兩人相處。這不代表兩位的道德是被她灌輸的，更不應因此把所有「神經質」行為解釋為 Celeste 提前寫好的台詞。**她安排機緣，他們",
+          "meaning": "Celeste促成相遇不控制喜愛；原文第86至89行以第88行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 90,
+          "to": 100,
+          "anchor_line": 92,
+          "quote": "- 男主是否本質自我輕視、自毀，或僅因不死而扭曲風險計算；此前方九參考材料不能照抄全部。",
+          "meaning": "未決心理底線與人生史；原文第90至100行以第92行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        },
+        {
+          "from": 101,
+          "to": 104,
+          "anchor_line": 103,
+          "quote": "本檔原本已說「不要每行塞粗口、每句吐槽」，此正確方向繼續有效。使用者最新確認：**兩人既有溫柔、日常、羞澀、親近、成熟、偶爾缺德及真正嚴肅等全部保留；「傻逼」「大傻逼」「神經病」平常低頻，只有特定激烈玩鬧互罵時才可密集**。不把反應詞、網感語氣、方九／莉雅參考加工成固定口癖配額。參見 [59](059_最新確",
+          "meaning": "第59後修粗口平常低頻；原文第101至104行以第103行的明確證據定位，須按後出使用者決定與助手候選分層。作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/045_討論續錄_雙主角可搶奪他人裝備與自主殺人奪物.md",
+        "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+        "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+        "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/045_討論續錄_雙主角可搶奪他人裝備與自主殺人奪物.md",
+          "git_blob_sha": "3206afa635e78776d799352ec943890eceec9fb5"
+        },
+        {
+          "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+          "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89"
+        },
+        {
+          "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+          "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18"
+        },
+        {
+          "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原始104行完整覆蓋11段及12材料行號錨，四類二遍反查；非作者採用Canon。",
+        "revocation": "本檔或全部後出依賴SHA變更時重新審查。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【第58份後出語言方向】** 使用者希望方九×莉雅式鮮明神經質不只停留在抽象設定：諾亞和艾莉維亞皆能自然互罵「傻逼」「大傻逼」「神經病」、使用粗口、網感反應、高概念低俗日常比喻與各自的句式習慣，互換主導和吐槽位置；認真時也能真實簡短。舊有曖昧暱稱均保留，避免照抄原作標誌性",
+            "topic": "後出作者低道德與自主奪物修正",
+            "finding": "後出作者低道德與自主奪物修正：第3行原文說明「> **【第58份後出語言方向】** 使用者希望方九×莉雅式鮮明神經質不只停留在抽象設定：諾亞和艾莉維亞皆能自然互罵「傻逼」「大傻逼」「神經病」、使用粗口、網感反應、高概念低俗日常比喻與各自的句式習慣，互換主導和吐槽位置；認真時也能真實簡短」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3203"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 13,
+            "quote": "> 男主根女主的道德如何? 另外其實我特別想保留方久莉雅那種神經質",
+            "topic": "使用者要保留方九莉雅式活潑失序互動",
+            "finding": "使用者要保留方九莉雅式活潑失序互動：第13行原文說明「> 男主根女主的道德如何? 另外其實我特別想保留方久莉雅那種神經質」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3204"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 19,
+            "quote": "【助手候選】男主與女主都可有自身道德、原則、偏愛、私心，也可在日常不太符合常見的現代「善良正派主角」標準。**不等於兩個沒有良心的施虐者**；真有無辜者承受後果時，不可讓劇情只把傷害當作笑料。",
+            "topic": "不是標準英雄但各有私人底線",
+            "finding": "不是標準英雄但各有私人底線：第19行原文說明「【助手候選】男主與女主都可有自身道德、原則、偏愛、私心，也可在日常不太符合常見的現代「善良正派主角」標準。**不等於兩個沒有良心的施虐者**；真有無辜者承受後果時，不可讓劇情只把傷害當作笑料。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3205"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 27,
+            "quote": "- 男主探索欲可參考《來自深淵》的莉可，他可以為未知物種、古代機關、奇特景色或陌生城市非常興奮，不是只為提升戰力、接受任務而前進。",
+            "topic": "諾亞好奇心與不死風險候選",
+            "finding": "諾亞好奇心與不死風險候選：第27行原文說明「- 男主探索欲可參考《來自深淵》的莉可，他可以為未知物種、古代機關、奇特景色或陌生城市非常興奮，不是只為提升戰力、接受任務而前進。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3206"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 37,
+            "quote": "- 她可具真實強大的規則性能力、獨立高階科技和完整自己的生活，甚至可能由 Celeste 加賦；最終至少與男主完整前文明頂尖槍具有相稱的高度，並可初登場就很強而持續深化。",
+            "topic": "艾莉維亞不是道德煞車的候選",
+            "finding": "艾莉維亞不是道德煞車的候選：第37行原文說明「- 她可具真實強大的規則性能力、獨立高階科技和完整自己的生活，甚至可能由 Celeste 加賦；最終至少與男主完整前文明頂尖槍具有相稱的高度，並可初登場就很強而持續深化。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3207"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 47,
+            "quote": "使用者想保留方九×莉雅那種神經質，應重點吸收：",
+            "topic": "神經質互動不等於永遠對罵",
+            "finding": "神經質互動不等於永遠對罵：第47行原文說明「使用者想保留方九×莉雅那種神經質，應重點吸收：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3208"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 59,
+            "quote": "【助手候選一】某座群落使用失去活動力的人工生命零件作回收材料，當地認為天經地義；另一文明認為其中仍有持續意識。男主可能先問：「它會不會痛？拆之前問過嗎？」女主可能先找資料確定真相；但下一次情境完全可反過來，由她先在意當事人的意願、他先打算採取工程解法。",
+            "topic": "不同道德觀產生可回收的事件",
+            "finding": "不同道德觀產生可回收的事件：第59行原文說明「【助手候選一】某座群落使用失去活動力的人工生命零件作回收材料，當地認為天經地義；另一文明認為其中仍有持續意識。男主可能先問：「它會不會痛？拆之前問過嗎？」女主可能先找資料確定真相；但下一次情境完全可反過來，由她先在意當事人的意願、他先打算採」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3209"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 69,
+            "quote": "一名商人在路邊掛起招牌，保證自己的儀器「能識別一切金屬」。",
+            "topic": "輪流缺德的可撤回短場景",
+            "finding": "輪流缺德的可撤回短場景：第69行原文說明「一名商人在路邊掛起招牌，保證自己的儀器「能識別一切金屬」。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3210"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 76,
+            "quote": "「我們把那塊連高階掃描器都判不出構造的材料拿去讓他測。」",
+            "topic": "輪流缺德的可撤回短場景",
+            "finding": "輪流缺德的可撤回短場景：第76行原文說明「「我們把那塊連高階掃描器都判不出構造的材料拿去讓他測。」」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3211"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 88,
+            "quote": "Celeste 已**有意讓男女主相遇、期待他們成為戀人**，但不直接寫入感情、不安排所有事情，希望看故事自己生長；她可嗑 CP、來訪、偶然解決兩人暫時無法解決的大事件，或親自與兩人相處。這不代表兩位的道德是被她灌輸的，更不應因此把所有「神經質」行為解釋為 Celeste 提前寫",
+            "topic": "Celeste促成相遇不控制喜愛",
+            "finding": "Celeste促成相遇不控制喜愛：第88行原文說明「Celeste 已**有意讓男女主相遇、期待他們成為戀人**，但不直接寫入感情、不安排所有事情，希望看故事自己生長；她可嗑 CP、來訪、偶然解決兩人暫時無法解決的大事件，或親自與兩人相處。這不代表兩位的道德是被她灌輸的，更不應因此把所有「神」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3212"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 92,
+            "quote": "- 男主是否本質自我輕視、自毀，或僅因不死而扭曲風險計算；此前方九參考材料不能照抄全部。",
+            "topic": "未決心理底線與人生史",
+            "finding": "未決心理底線與人生史：第92行原文說明「- 男主是否本質自我輕視、自毀，或僅因不死而扭曲風險計算；此前方九參考材料不能照抄全部。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3213"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 103,
+            "quote": "本檔原本已說「不要每行塞粗口、每句吐槽」，此正確方向繼續有效。使用者最新確認：**兩人既有溫柔、日常、羞澀、親近、成熟、偶爾缺德及真正嚴肅等全部保留；「傻逼」「大傻逼」「神經病」平常低頻，只有特定激烈玩鬧互罵時才可密集**。不把反應詞、網感語氣、方九／莉雅參考加工成固定口癖配額。",
+            "topic": "第59後修粗口平常低頻",
+            "finding": "第59後修粗口平常低頻：第103行原文說明「本檔原本已說「不要每行塞粗口、每句吐槽」，此正確方向繼續有效。使用者最新確認：**兩人既有溫柔、日常、羞澀、親近、成熟、偶爾缺德及真正嚴肅等全部保留；「傻逼」「大傻逼」「神經病」平常低頻，只有特定激烈玩鬧互罵時才可密集**。不把反應詞、網感」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3214"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【第58份後出語言方向】** 使用者希望方九×莉雅式鮮明神經質不只停留在抽象設定：諾亞和艾莉維亞皆能自然互罵「傻逼」「大傻逼」「神經病」、使用粗口、網感反應、高概念低俗日常比喻與各自的句式習慣，互換主導和吐槽位置；認真時也能真實簡短。舊有曖昧暱稱均保留，避免照抄原作標誌性台詞。見 [58](058_後",
+            "question": "此處是作者新決議還是助手的道德／社會候選？",
+            "finding": "021第1-10行反查：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 27,
+            "quote": "- 男主探索欲可參考《來自深淵》的莉可，他可以為未知物種、古代機關、奇特景色或陌生城市非常興奮，不是只為提升戰力、接受任務而前進。",
+            "question": "是否被2026-11-08或其他後出作者原話修正？",
+            "finding": "021第25-34行反查：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 59,
+            "quote": "【助手候選一】某座群落使用失去活動力的人工生命零件作回收材料，當地認為天經地義；另一文明認為其中仍有持續意識。男主可能先問：「它會不會痛？拆之前問過嗎？」女主可能先找資料確定真相；但下一次情境完全可反過來，由她先在意當事人的意願、他先打算採取工程解法。",
+            "question": "是否忽略不強制救援不等於一律拒絕、習慣不等於認同？",
+            "finding": "021第57-66行反查：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 92,
+            "quote": "- 男主是否本質自我輕視、自毀，或僅因不死而扭曲風險計算；此前方九參考材料不能照抄全部。",
+            "question": "會不會錯誤把Project Moon正史搬入巨構，或把候選變既成城市？",
+            "finding": "021第90-100行反查：作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。使用者描寫方向與具體地方制度成立必須分開。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "03_人物關係與語感/045_討論續錄_雙主角可搶奪他人裝備與自主殺人奪物.md",
+            "git_blob_sha": "3206afa635e78776d799352ec943890eceec9fb5",
+            "impact": "021來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。"
+          },
+          {
+            "path": "03_人物關係與語感/058_後出確認_靜謐迴廊正式名稱_雙主角粗口與語言辨識度.md",
+            "git_blob_sha": "b8c6047cec32b0e69ad9f6aedb2d19b1d7958a89",
+            "impact": "021來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。"
+          },
+          {
+            "path": "03_人物關係與語感/059_最新確認_雙主角語氣頻率_靜謐迴廊巨幅雙提升_全庫稽核要求.md",
+            "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18",
+            "impact": "021來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。"
+          },
+          {
+            "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+            "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+            "impact": "021來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。。"
+          }
+        ],
+        "second_pass_method": "先閱讀021全文，再沿11個連續段及12條來源SHA行錨回查未決與反例、暴力反應光譜、角色干預界線和後出權威，並進行四類查漏。",
+        "unresolved_risks": [
+          "作者後出允許雙主角不因陌生人受傷自動救援，也可以主動取物乃至殺人，但並非必然殘酷；神經質與粗口隨情境，候選事件不升正史。",
+          "任何具體都市、酷刑、懲戒制度、角色行動或借鑑作品史實仍需獨立來源與作者採案。"
+        ]
+      }
+    },
+    {
+      "source_path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+      "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+      "source_role_id": "FULL-B23-022",
+      "related_claim_ids": [
+        "SRC-ALL-3215",
+        "SRC-ALL-3216",
+        "SRC-ALL-3217",
+        "SRC-ALL-3218",
+        "SRC-ALL-3219",
+        "SRC-ALL-3220",
+        "SRC-ALL-3221",
+        "SRC-ALL-3222",
+        "SRC-ALL-3223",
+        "SRC-ALL-3224",
+        "SRC-ALL-3225",
+        "SRC-ALL-3226",
+        "SRC-ALL-3227",
+        "SRC-ALL-3228",
+        "SRC-ALL-3229"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第23批022來源全文155行、14段、15個SHA錨；不因審核將創作方向提升成正式世界觀。",
+      "source_line_count": 155,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 8,
+          "anchor_line": 3,
+          "quote": "> **【後出使用者明確補充｜2026-10-18】** 先前「陽光青草巨大人工海洋的居住區遭駭人襲擊」「黑暗鏽蝕、異形居民的地下聚落也有真溫暖」受肯定；但**不只是明暗善惡反轉**：同一溫暖之地亦可有真正黑暗、同一黑暗之地亦可有真正溫柔；有人生長在溫暖地方卻渴望鮮血，有人身處黑暗只想求平靜，而後者**未必沒",
+          "meaning": "血腥描寫強度的作者後出方向；原文第1至8行以第3行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 9,
+          "to": 21,
+          "anchor_line": 11,
+          "quote": "> **作者明確補充；優先於早期將血腥視為人人必驚恐的機械寫法。** 「血腥描寫可以較普遍」只定義世界與敘事可能出現的傷害強度，**不決定所有看見它的人的反應**。熟悉、習慣、支持、認同、喜歡、麻木、害怕、排斥、出手、袖手旁觀是彼此獨立的向度。",
+          "meaning": "血腥觀察者沒有統一心理反射；原文第9至21行以第11行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 22,
+          "to": 34,
+          "anchor_line": 26,
+          "quote": "【使用者提問／方向】希望深入討論此巨構世界的**血腥、殘酷、肉體危險與暴力美學**。使用者這四字尚未指定全世界統一的血腥強度、具體尺度、哪些禁忌必須出現，所以不要擅自把「血腥色彩」寫成「每個城市必定殘酷」「必須有特定人體實驗」「無論如何都重度血漿」的既定規則。下述具體類型是**可採用候選，不是已存在地理清單*",
+          "meaning": "核心提問與未確定場所列表；原文第22至34行以第26行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 35,
+          "to": 46,
+          "anchor_line": 37,
+          "quote": "**建議基調：局部可極端血腥與重口，整體同時有豐富多樣的生態、文明與生活。** 沒必要限定每隔幾章必見幾具屍體，也不需要每座城都血流成河。",
+          "meaning": "明亮與黑暗地區皆可多重生命面貌；原文第35至46行以第37行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 47,
+          "to": 58,
+          "anchor_line": 49,
+          "quote": "可以真正描寫受傷方式、血液、器官、斷肢、屍體、機械破碎、捕食過程及其觸覺、聲響、氣味和救治現場；必要時對重要場景可以有明顯的身體恐怖，而非每次「光點消失、毫無痛感」。",
+          "meaning": "血腥傷害須有物理／異種生理因果；原文第47至58行以第49行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 59,
+          "to": 66,
+          "anchor_line": 61,
+          "quote": "男主可以受傷、失血、肢體受創、被斬殺、墜入深處，之後根據尚未確定的復歸規則返回。其復活不代表當下痛苦不成立，也不能導出所有場景任意免代價。他死亡後走回來可能耗時數日甚至更久；途中商隊離開、朋友永久死傷、局勢改變、物資被奪都不會倒帶。",
+          "meaning": "諾亞不死不使他人傷亡重置；原文第59至66行以第61行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 67,
+          "to": 75,
+          "anchor_line": 70,
+          "quote": "- 旅團知道哪些路有「無法送醫的風險」，會自行製作救援制度，購買護具、支付護衛費、避開危險時段。有人因風險拒絕冒險，不等於膽小道具。",
+          "meaning": "暴力制度要有經濟醫療日常；原文第67至75行以第70行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 76,
+          "to": 83,
+          "anchor_line": 78,
+          "quote": "**不要把兩人做成絕對不殺人、不得作惡的道德英雄，也不能把每次見血都當喜劇**。",
+          "meaning": "角色灰度和神經質在事件裡自然變化；原文第76至83行以第78行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 84,
+          "to": 101,
+          "anchor_line": 88,
+          "quote": "晴朗人工日照下，一個正常興旺的碼頭突然發生後起設備失效，重型貨梯墜落。讀者先見原本的吆喝買賣和食物香氣，接著見真實傷亡、失蹤者、急救和有人趁亂偷貨；兩位主角即使解決核心危險，也不自動治癒所有傷者、消除商人的損失與追責。**重點**：血腥與光照可同框，地方城市仍是真實社會。",
+          "meaning": "四個血腥場景鉤子皆是候選；原文第84至101行以第88行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 102,
+          "to": 112,
+          "anchor_line": 104,
+          "quote": "- **直觀描寫強度**：偏好「血腥可真寫、重要傷亡刻畫清楚，非每章噴血」，還是經常「強烈身體恐怖、肢解、殘酷生存景象」？目前四字沒有明確圈定，待下輪討論。",
+          "meaning": "最初待選的描寫力度屬歷史版本；原文第102至112行以第104行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 113,
+          "to": 124,
+          "anchor_line": 117,
+          "quote": "使用者提供三檔程度選項的截圖，截圖中勾選的是：",
+          "meaning": "使用者明確允許重血腥較普遍極端殘酷少數；原文第113至124行以第117行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 125,
+          "to": 136,
+          "anchor_line": 127,
+          "quote": "| 層次 | 預期分布 | 可以如何呈現 |",
+          "meaning": "最新三級血腥分布與強度權威；原文第125至136行以第127行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 137,
+          "to": 146,
+          "anchor_line": 139,
+          "quote": "- **日常事件有真傷害**：普通衝突可以直接見血，嚴重事故或敵對生物出沒時可進入重度；不能把所有死亡處理成乾淨倒下或畫面切黑。",
+          "meaning": "正文執行建議非新增硬世界觀；原文第137至146行以第139行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        },
+        {
+          "from": 147,
+          "to": 155,
+          "anchor_line": 149,
+          "quote": "1. 各文明具體的法律、刑罰、醫療、黑市與暴力犯罪比例，仍需跟其組織、技術及歷史因果一起建立。",
+          "meaning": "禁將未定刑罰法律生理與主角底線寫死；原文第147至155行以第149行的明確證據定位，須按後出使用者決定與助手候選分層。使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+          "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d"
+        },
+        {
+          "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原始155行完整覆蓋14段及15材料行號錨，四類二遍反查；非作者採用Canon。",
+        "revocation": "本檔或全部後出依賴SHA變更時重新審查。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【後出使用者明確補充｜2026-10-18】** 先前「陽光青草巨大人工海洋的居住區遭駭人襲擊」「黑暗鏽蝕、異形居民的地下聚落也有真溫暖」受肯定；但**不只是明暗善惡反轉**：同一溫暖之地亦可有真正黑暗、同一黑暗之地亦可有真正溫柔；有人生長在溫暖地方卻渴望鮮血，有人身處黑",
+            "topic": "血腥描寫強度的作者後出方向",
+            "finding": "血腥描寫強度的作者後出方向：第3行原文說明「> **【後出使用者明確補充｜2026-10-18】** 先前「陽光青草巨大人工海洋的居住區遭駭人襲擊」「黑暗鏽蝕、異形居民的地下聚落也有真溫暖」受肯定；但**不只是明暗善惡反轉**：同一溫暖之地亦可有真正黑暗、同一黑暗之地亦可有真正溫柔；」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3215"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 11,
+            "quote": "> **作者明確補充；優先於早期將血腥視為人人必驚恐的機械寫法。** 「血腥描寫可以較普遍」只定義世界與敘事可能出現的傷害強度，**不決定所有看見它的人的反應**。熟悉、習慣、支持、認同、喜歡、麻木、害怕、排斥、出手、袖手旁觀是彼此獨立的向度。",
+            "topic": "血腥觀察者沒有統一心理反射",
+            "finding": "血腥觀察者沒有統一心理反射：第11行原文說明「> **作者明確補充；優先於早期將血腥視為人人必驚恐的機械寫法。** 「血腥描寫可以較普遍」只定義世界與敘事可能出現的傷害強度，**不決定所有看見它的人的反應**。熟悉、習慣、支持、認同、喜歡、麻木、害怕、排斥、出手、袖手旁觀是彼此獨立的向」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3216"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 26,
+            "quote": "【使用者提問／方向】希望深入討論此巨構世界的**血腥、殘酷、肉體危險與暴力美學**。使用者這四字尚未指定全世界統一的血腥強度、具體尺度、哪些禁忌必須出現，所以不要擅自把「血腥色彩」寫成「每個城市必定殘酷」「必須有特定人體實驗」「無論如何都重度血漿」的既定規則。下述具體類型是**可",
+            "topic": "核心提問與未確定場所列表",
+            "finding": "核心提問與未確定場所列表：第26行原文說明「【使用者提問／方向】希望深入討論此巨構世界的**血腥、殘酷、肉體危險與暴力美學**。使用者這四字尚未指定全世界統一的血腥強度、具體尺度、哪些禁忌必須出現，所以不要擅自把「血腥色彩」寫成「每個城市必定殘酷」「必須有特定人體實驗」「無論如何都重」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3217"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 37,
+            "quote": "**建議基調：局部可極端血腥與重口，整體同時有豐富多樣的生態、文明與生活。** 沒必要限定每隔幾章必見幾具屍體，也不需要每座城都血流成河。",
+            "topic": "明亮與黑暗地區皆可多重生命面貌",
+            "finding": "明亮與黑暗地區皆可多重生命面貌：第37行原文說明「**建議基調：局部可極端血腥與重口，整體同時有豐富多樣的生態、文明與生活。** 沒必要限定每隔幾章必見幾具屍體，也不需要每座城都血流成河。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3218"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 49,
+            "quote": "可以真正描寫受傷方式、血液、器官、斷肢、屍體、機械破碎、捕食過程及其觸覺、聲響、氣味和救治現場；必要時對重要場景可以有明顯的身體恐怖，而非每次「光點消失、毫無痛感」。",
+            "topic": "血腥傷害須有物理／異種生理因果",
+            "finding": "血腥傷害須有物理／異種生理因果：第49行原文說明「可以真正描寫受傷方式、血液、器官、斷肢、屍體、機械破碎、捕食過程及其觸覺、聲響、氣味和救治現場；必要時對重要場景可以有明顯的身體恐怖，而非每次「光點消失、毫無痛感」。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3219"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 61,
+            "quote": "男主可以受傷、失血、肢體受創、被斬殺、墜入深處，之後根據尚未確定的復歸規則返回。其復活不代表當下痛苦不成立，也不能導出所有場景任意免代價。他死亡後走回來可能耗時數日甚至更久；途中商隊離開、朋友永久死傷、局勢改變、物資被奪都不會倒帶。",
+            "topic": "諾亞不死不使他人傷亡重置",
+            "finding": "諾亞不死不使他人傷亡重置：第61行原文說明「男主可以受傷、失血、肢體受創、被斬殺、墜入深處，之後根據尚未確定的復歸規則返回。其復活不代表當下痛苦不成立，也不能導出所有場景任意免代價。他死亡後走回來可能耗時數日甚至更久；途中商隊離開、朋友永久死傷、局勢改變、物資被奪都不會倒帶。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3220"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 70,
+            "quote": "- 旅團知道哪些路有「無法送醫的風險」，會自行製作救援制度，購買護具、支付護衛費、避開危險時段。有人因風險拒絕冒險，不等於膽小道具。",
+            "topic": "暴力制度要有經濟醫療日常",
+            "finding": "暴力制度要有經濟醫療日常：第70行原文說明「- 旅團知道哪些路有「無法送醫的風險」，會自行製作救援制度，購買護具、支付護衛費、避開危險時段。有人因風險拒絕冒險，不等於膽小道具。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3221"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 78,
+            "quote": "**不要把兩人做成絕對不殺人、不得作惡的道德英雄，也不能把每次見血都當喜劇**。",
+            "topic": "角色灰度和神經質在事件裡自然變化",
+            "finding": "角色灰度和神經質在事件裡自然變化：第78行原文說明「**不要把兩人做成絕對不殺人、不得作惡的道德英雄，也不能把每次見血都當喜劇**。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3222"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 88,
+            "quote": "晴朗人工日照下，一個正常興旺的碼頭突然發生後起設備失效，重型貨梯墜落。讀者先見原本的吆喝買賣和食物香氣，接著見真實傷亡、失蹤者、急救和有人趁亂偷貨；兩位主角即使解決核心危險，也不自動治癒所有傷者、消除商人的損失與追責。**重點**：血腥與光照可同框，地方城市仍是真實社會。",
+            "topic": "四個血腥場景鉤子皆是候選",
+            "finding": "四個血腥場景鉤子皆是候選：第88行原文說明「晴朗人工日照下，一個正常興旺的碼頭突然發生後起設備失效，重型貨梯墜落。讀者先見原本的吆喝買賣和食物香氣，接著見真實傷亡、失蹤者、急救和有人趁亂偷貨；兩位主角即使解決核心危險，也不自動治癒所有傷者、消除商人的損失與追責。**重點**：血腥與光」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3223"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 96,
+            "quote": "他們進入仍有完整原裝核心技術的某個運作區。一次不針對個人的自動程序，便使地形和測量關係產生普通文明無法理解的變化。隊伍某人失去通訊、物流路線被整段切斷，甚至生命存在的條件被修改。**重點**：女主規則類能力可能真正抵抗一部分高階作用，但不應像既有第 19 份測試般讓第一次完整前文",
+            "topic": "四個血腥場景鉤子皆是候選",
+            "finding": "四個血腥場景鉤子皆是候選：第96行原文說明「他們進入仍有完整原裝核心技術的某個運作區。一次不針對個人的自動程序，便使地形和測量關係產生普通文明無法理解的變化。隊伍某人失去通訊、物流路線被整段切斷，甚至生命存在的條件被修改。**重點**：女主規則類能力可能真正抵抗一部分高階作用，但不應」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3224"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 104,
+            "quote": "- **直觀描寫強度**：偏好「血腥可真寫、重要傷亡刻畫清楚，非每章噴血」，還是經常「強烈身體恐怖、肢解、殘酷生存景象」？目前四字沒有明確圈定，待下輪討論。",
+            "topic": "最初待選的描寫力度屬歷史版本",
+            "finding": "最初待選的描寫力度屬歷史版本：第104行原文說明「- **直觀描寫強度**：偏好「血腥可真寫、重要傷亡刻畫清楚，非每章噴血」，還是經常「強烈身體恐怖、肢解、殘酷生存景象」？目前四字沒有明確圈定，待下輪討論。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3225"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 117,
+            "quote": "使用者提供三檔程度選項的截圖，截圖中勾選的是：",
+            "topic": "使用者明確允許重血腥較普遍極端殘酷少數",
+            "finding": "使用者明確允許重血腥較普遍極端殘酷少數：第117行原文說明「使用者提供三檔程度選項的截圖，截圖中勾選的是：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3226"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 127,
+            "quote": "| 層次 | 預期分布 | 可以如何呈現 |",
+            "topic": "最新三級血腥分布與強度權威",
+            "finding": "最新三級血腥分布與強度權威：第127行原文說明「| 層次 | 預期分布 | 可以如何呈現 |」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3227"
+            ]
+          },
+          {
+            "section_index": 13,
+            "line": 139,
+            "quote": "- **日常事件有真傷害**：普通衝突可以直接見血，嚴重事故或敵對生物出沒時可進入重度；不能把所有死亡處理成乾淨倒下或畫面切黑。",
+            "topic": "正文執行建議非新增硬世界觀",
+            "finding": "正文執行建議非新增硬世界觀：第139行原文說明「- **日常事件有真傷害**：普通衝突可以直接見血，嚴重事故或敵對生物出沒時可進入重度；不能把所有死亡處理成乾淨倒下或畫面切黑。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3228"
+            ]
+          },
+          {
+            "section_index": 14,
+            "line": 149,
+            "quote": "1. 各文明具體的法律、刑罰、醫療、黑市與暴力犯罪比例，仍需跟其組織、技術及歷史因果一起建立。",
+            "topic": "禁將未定刑罰法律生理與主角底線寫死",
+            "finding": "禁將未定刑罰法律生理與主角底線寫死：第149行原文說明「1. 各文明具體的法律、刑罰、醫療、黑市與暴力犯罪比例，仍需跟其組織、技術及歷史因果一起建立。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3229"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【後出使用者明確補充｜2026-10-18】** 先前「陽光青草巨大人工海洋的居住區遭駭人襲擊」「黑暗鏽蝕、異形居民的地下聚落也有真溫暖」受肯定；但**不只是明暗善惡反轉**：同一溫暖之地亦可有真正黑暗、同一黑暗之地亦可有真正溫柔；有人生長在溫暖地方卻渴望鮮血，有人身處黑暗只想求平靜，而後者**未必沒",
+            "question": "此處是作者新決議還是助手的道德／社會候選？",
+            "finding": "022第1-8行反查：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 37,
+            "quote": "**建議基調：局部可極端血腥與重口，整體同時有豐富多樣的生態、文明與生活。** 沒必要限定每隔幾章必見幾具屍體，也不需要每座城都血流成河。",
+            "question": "是否被2026-11-08或其他後出作者原話修正？",
+            "finding": "022第35-46行反查：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 70,
+            "quote": "- 旅團知道哪些路有「無法送醫的風險」，會自行製作救援制度，購買護具、支付護衛費、避開危險時段。有人因風險拒絕冒險，不等於膽小道具。",
+            "question": "是否忽略不強制救援不等於一律拒絕、習慣不等於認同？",
+            "finding": "022第67-75行反查：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 104,
+            "quote": "- **直觀描寫強度**：偏好「血腥可真寫、重要傷亡刻畫清楚，非每章噴血」，還是經常「強烈身體恐怖、肢解、殘酷生存景象」？目前四字沒有明確圈定，待下輪討論。",
+            "question": "會不會錯誤把Project Moon正史搬入巨構，或把候選變既成城市？",
+            "finding": "022第102-112行反查：使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。。使用者描寫方向與具體地方制度成立必須分開。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+            "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+            "impact": "022來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。。"
+          },
+          {
+            "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+            "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+            "impact": "022來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。。"
+          }
+        ],
+        "second_pass_method": "先閱讀022全文，再沿14個連續段及15條來源SHA行錨回查未決與反例、暴力反應光譜、角色干預界線和後出權威，並進行四類查漏。",
+        "unresolved_risks": [
+          "使用者允許普通與重度明確血腥較常見、極端殘酷在少數情景；觀察者反應隨文化個體而變；血腥是世界一面非唯一主題，具體制度與場景候選未採案。",
+          "任何具體都市、酷刑、懲戒制度、角色行動或借鑑作品史實仍需獨立來源與作者採案。"
+        ]
+      }
+    },
+    {
+      "source_path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+      "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+      "source_role_id": "FULL-B23-023",
+      "related_claim_ids": [
+        "SRC-ALL-3230",
+        "SRC-ALL-3231",
+        "SRC-ALL-3232",
+        "SRC-ALL-3233",
+        "SRC-ALL-3234",
+        "SRC-ALL-3235",
+        "SRC-ALL-3236",
+        "SRC-ALL-3237",
+        "SRC-ALL-3238",
+        "SRC-ALL-3239",
+        "SRC-ALL-3240",
+        "SRC-ALL-3241"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "第23批023來源全文121行、12段、12個SHA錨；不因審核將創作方向提升成正式世界觀。",
+      "source_line_count": 121,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "anchor_line": 3,
+          "quote": "> 2026-10-18。這是**使用者最新修正＋助手開放討論紀錄**，不改 01–11 主設定、正式人物 DNA 或家庭總檔。接續 21（主角神經質及道德）、22（重度可常見／極端少量的血腥尺度）。依使用者要求「討論先存，說改再改正式」。",
+          "meaning": "後修來源與作者／助手候選界線；原文第1至6行以第3行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 7,
+          "to": 19,
+          "anchor_line": 9,
+          "quote": "> **這是對先前助手評判方向的更正，優先於本文較早的「不直接複製翼／五指／收尾人／後巷制度」等模糊限制性語句。** 作者明確表示：**「我提出一个参考，我要的不就是喜欢那样的架构想要看吗？」** 因此**與《Project Moon》都市在組織層級、統治秩序、技術壟斷與都市社會生態方面相似，本身不是 bug",
+          "meaning": "作者明確喜歡Project Moon式都市結構；原文第7至19行以第9行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 20,
+          "to": 30,
+          "anchor_line": 22,
+          "quote": "> **作者補充優先項**：同一血腥場景中，當地人、外來旅客、專業工作者和曾受害者會有完全不同且隨時間變化的反應。**習慣看見暴力，不等於贊同暴力；沒有尖叫、沒有救人，也不等於默認其正當。**",
+          "meaning": "暴力習慣不等於支持亦非所有人失態；原文第20至30行以第22行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 31,
+          "to": 35,
+          "anchor_line": 33,
+          "quote": "> 如一片有陽光、有青草、有巨大人工海洋的居住區，突然遭到真正可怕的襲擊。",
+          "meaning": "使用者原話確立光暗可同地混生；原文第31至35行以第33行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 36,
+          "to": 45,
+          "anchor_line": 38,
+          "quote": "1. **明亮／陰暗只是可見環境，不能推出居民道德**。陽光草地、巨大人工海洋中可以有日常幸福、也可以有陰暗行為、暴力利益網；黑暗鏽鋼、異質生命地下聚落中也可能有真實照料、家庭、愛與溫暖。",
+          "meaning": "作者更正雙主角不需自動救援主持正義；原文第36至45行以第38行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 46,
+          "to": 55,
+          "anchor_line": 48,
+          "quote": "**地理視覺**：人工日光、青草、潔淨建築、巨型海岸／昏暗蒸汽、鏽蝕高架、異種肢體、窄巷。",
+          "meaning": "光照與道德、權力、個體願望三維獨立；原文第46至55行以第48行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 56,
+          "to": 67,
+          "anchor_line": 58,
+          "quote": "可探索的制度性情況（**各是候選，不固定所有地方採用**）：",
+          "meaning": "暴力制度必有職業經濟與地方因果；原文第56至67行以第58行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 68,
+          "to": 80,
+          "anchor_line": 70,
+          "quote": "早前 21 檔助手提過「不傷害無辜」「不刻意折磨」「一看有人被害就沉下臉」等**較偏正派預設**；後出使用者明確希望**不必看到有人受傷就去做**，故應調整為：",
+          "meaning": "主角可有善意但道德不應被編成英雄；原文第68至80行以第70行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 81,
+          "to": 90,
+          "anchor_line": 83,
+          "quote": "【助手候選個體甲】人工日光海灣的一名衣著得體的男子，真心喜歡自己的伴侶和孩子，每天照常與鄰居打招呼，然而也有真實的嗜血樂趣。他不是偽裝好人的反派卡，也不需要把殺戮都歸咎童年創傷；他的平和家庭面貌與喜好暴力兩者皆真。可能在合法的殘酷產業、私人戰鬥或地下獵殺裡行動；是否為主線敵人待後續。",
+          "meaning": "黑暗中愛和平者可極強、明亮地有嗜血者；原文第81至90行以第83行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 91,
+          "to": 104,
+          "anchor_line": 93,
+          "quote": "**舞台候選：晴朗人工海灣城，一場已按地方契約登記的血腥懲戒。**",
+          "meaning": "社會事件可由旁觀、交易、私利等驅動；原文第91至104行以第93行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 105,
+          "to": 112,
+          "anchor_line": 107,
+          "quote": "本輪沒有推翻先前選定的強度分布：普通明確血腥／重度血腥可普遍；極端殘酷僅在部分場景。不是每座城都血腥，只是長篇允許具體描寫。",
+          "meaning": "保留既定血腥強度與Celeste作用界線；原文第105至112行以第107行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        },
+        {
+          "from": 113,
+          "to": 121,
+          "anchor_line": 115,
+          "quote": "- [21｜男女主道德灰度與神經質](../03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md) 若讀起來仍像「男主女主有個正派主角底線，一看街頭有人受傷就會轉認真救援」，**以這輪『道德不要太高，沒有自動出手義務』為較新的使用者要求修正**。",
+          "meaning": "舊21/22及相似都市候選的後修仲裁；原文第113至121行以第115行的明確證據定位，須按後出使用者決定與助手候選分層。作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+          "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2"
+        },
+        {
+          "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+          "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f"
+        },
+        {
+          "path": "06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md",
+          "git_blob_sha": "44c5305bc8f7e64e46053a55f03f7277eb818656"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-10",
+        "review_scope": "原始121行完整覆蓋12段及12材料行號錨，四類二遍反查；非作者採用Canon。",
+        "revocation": "本檔或全部後出依賴SHA變更時重新審查。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 2026-10-18。這是**使用者最新修正＋助手開放討論紀錄**，不改 01–11 主設定、正式人物 DNA 或家庭總檔。接續 21（主角神經質及道德）、22（重度可常見／極端少量的血腥尺度）。依使用者要求「討論先存，說改再改正式」。",
+            "topic": "後修來源與作者／助手候選界線",
+            "finding": "後修來源與作者／助手候選界線：第3行原文說明「> 2026-10-18。這是**使用者最新修正＋助手開放討論紀錄**，不改 01–11 主設定、正式人物 DNA 或家庭總檔。接續 21（主角神經質及道德）、22（重度可常見／極端少量的血腥尺度）。依使用者要求「討論先存，說改再改正式」。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3230"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 9,
+            "quote": "> **這是對先前助手評判方向的更正，優先於本文較早的「不直接複製翼／五指／收尾人／後巷制度」等模糊限制性語句。** 作者明確表示：**「我提出一个参考，我要的不就是喜欢那样的架构想要看吗？」** 因此**與《Project Moon》都市在組織層級、統治秩序、技術壟斷與都市社會",
+            "topic": "作者明確喜歡Project Moon式都市結構",
+            "finding": "作者明確喜歡Project Moon式都市結構：第9行原文說明「> **這是對先前助手評判方向的更正，優先於本文較早的「不直接複製翼／五指／收尾人／後巷制度」等模糊限制性語句。** 作者明確表示：**「我提出一个参考，我要的不就是喜欢那样的架构想要看吗？」** 因此**與《Project Moon》都市」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3231"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 22,
+            "quote": "> **作者補充優先項**：同一血腥場景中，當地人、外來旅客、專業工作者和曾受害者會有完全不同且隨時間變化的反應。**習慣看見暴力，不等於贊同暴力；沒有尖叫、沒有救人，也不等於默認其正當。**",
+            "topic": "暴力習慣不等於支持亦非所有人失態",
+            "finding": "暴力習慣不等於支持亦非所有人失態：第22行原文說明「> **作者補充優先項**：同一血腥場景中，當地人、外來旅客、專業工作者和曾受害者會有完全不同且隨時間變化的反應。**習慣看見暴力，不等於贊同暴力；沒有尖叫、沒有救人，也不等於默認其正當。**」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3232"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 33,
+            "quote": "> 如一片有陽光、有青草、有巨大人工海洋的居住區，突然遭到真正可怕的襲擊。",
+            "topic": "使用者原話確立光暗可同地混生",
+            "finding": "使用者原話確立光暗可同地混生：第33行原文說明「> 如一片有陽光、有青草、有巨大人工海洋的居住區，突然遭到真正可怕的襲擊。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3233"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 38,
+            "quote": "1. **明亮／陰暗只是可見環境，不能推出居民道德**。陽光草地、巨大人工海洋中可以有日常幸福、也可以有陰暗行為、暴力利益網；黑暗鏽鋼、異質生命地下聚落中也可能有真實照料、家庭、愛與溫暖。",
+            "topic": "作者更正雙主角不需自動救援主持正義",
+            "finding": "作者更正雙主角不需自動救援主持正義：第38行原文說明「1. **明亮／陰暗只是可見環境，不能推出居民道德**。陽光草地、巨大人工海洋中可以有日常幸福、也可以有陰暗行為、暴力利益網；黑暗鏽鋼、異質生命地下聚落中也可能有真實照料、家庭、愛與溫暖。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_CONFIRMED",
+            "claim_ids": [
+              "SRC-ALL-3234"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 48,
+            "quote": "**地理視覺**：人工日光、青草、潔淨建築、巨型海岸／昏暗蒸汽、鏽蝕高架、異種肢體、窄巷。",
+            "topic": "光照與道德、權力、個體願望三維獨立",
+            "finding": "光照與道德、權力、個體願望三維獨立：第48行原文說明「**地理視覺**：人工日光、青草、潔淨建築、巨型海岸／昏暗蒸汽、鏽蝕高架、異種肢體、窄巷。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3235"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 58,
+            "quote": "可探索的制度性情況（**各是候選，不固定所有地方採用**）：",
+            "topic": "暴力制度必有職業經濟與地方因果",
+            "finding": "暴力制度必有職業經濟與地方因果：第58行原文說明「可探索的制度性情況（**各是候選，不固定所有地方採用**）：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3236"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 70,
+            "quote": "早前 21 檔助手提過「不傷害無辜」「不刻意折磨」「一看有人被害就沉下臉」等**較偏正派預設**；後出使用者明確希望**不必看到有人受傷就去做**，故應調整為：",
+            "topic": "主角可有善意但道德不應被編成英雄",
+            "finding": "主角可有善意但道德不應被編成英雄：第70行原文說明「早前 21 檔助手提過「不傷害無辜」「不刻意折磨」「一看有人被害就沉下臉」等**較偏正派預設**；後出使用者明確希望**不必看到有人受傷就去做**，故應調整為：」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3237"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 83,
+            "quote": "【助手候選個體甲】人工日光海灣的一名衣著得體的男子，真心喜歡自己的伴侶和孩子，每天照常與鄰居打招呼，然而也有真實的嗜血樂趣。他不是偽裝好人的反派卡，也不需要把殺戮都歸咎童年創傷；他的平和家庭面貌與喜好暴力兩者皆真。可能在合法的殘酷產業、私人戰鬥或地下獵殺裡行動；是否為主線敵人待後",
+            "topic": "黑暗中愛和平者可極強、明亮地有嗜血者",
+            "finding": "黑暗中愛和平者可極強、明亮地有嗜血者：第83行原文說明「【助手候選個體甲】人工日光海灣的一名衣著得體的男子，真心喜歡自己的伴侶和孩子，每天照常與鄰居打招呼，然而也有真實的嗜血樂趣。他不是偽裝好人的反派卡，也不需要把殺戮都歸咎童年創傷；他的平和家庭面貌與喜好暴力兩者皆真。可能在合法的殘酷產業、私人」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-3238"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 93,
+            "quote": "**舞台候選：晴朗人工海灣城，一場已按地方契約登記的血腥懲戒。**",
+            "topic": "社會事件可由旁觀、交易、私利等驅動",
+            "finding": "社會事件可由旁觀、交易、私利等驅動：第93行原文說明「**舞台候選：晴朗人工海灣城，一場已按地方契約登記的血腥懲戒。**」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3239"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 107,
+            "quote": "本輪沒有推翻先前選定的強度分布：普通明確血腥／重度血腥可普遍；極端殘酷僅在部分場景。不是每座城都血腥，只是長篇允許具體描寫。",
+            "topic": "保留既定血腥強度與Celeste作用界線",
+            "finding": "保留既定血腥強度與Celeste作用界線：第107行原文說明「本輪沒有推翻先前選定的強度分布：普通明確血腥／重度血腥可普遍；極端殘酷僅在部分場景。不是每座城都血腥，只是長篇允許具體描寫。」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-3240"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 115,
+            "quote": "- [21｜男女主道德灰度與神經質](../03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md) 若讀起來仍像「男主女主有個正派主角底線，一看街頭有人受傷就會轉認真救援」，**以這輪『道德不要太高，沒有自動出手義務』為較新的使用者要求修正**。",
+            "topic": "舊21/22及相似都市候選的後修仲裁",
+            "finding": "舊21/22及相似都市候選的後修仲裁：第115行原文說明「- [21｜男女主道德灰度與神經質](../03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md) 若讀起來仍像「男主女主有個正派主角底線，一看街頭有人受傷就會轉認真救援」，**以這輪『道德不要太高，沒有自動出手義務』為」。按此處人物／社會制度或版本背景須保留後出決議和未決例外：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-3241"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 2026-10-18。這是**使用者最新修正＋助手開放討論紀錄**，不改 01–11 主設定、正式人物 DNA 或家庭總檔。接續 21（主角神經質及道德）、22（重度可常見／極端少量的血腥尺度）。依使用者要求「討論先存，說改再改正式」。",
+            "question": "此處是作者新決議還是助手的道德／社會候選？",
+            "finding": "023第1-6行反查：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 33,
+            "quote": "> 如一片有陽光、有青草、有巨大人工海洋的居住區，突然遭到真正可怕的襲擊。",
+            "question": "是否被2026-11-08或其他後出作者原話修正？",
+            "finding": "023第31-35行反查：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 58,
+            "quote": "可探索的制度性情況（**各是候選，不固定所有地方採用**）：",
+            "question": "是否忽略不強制救援不等於一律拒絕、習慣不等於認同？",
+            "finding": "023第56-67行反查：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。。使用者描寫方向與具體地方制度成立必須分開。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 93,
+            "quote": "**舞台候選：晴朗人工海灣城，一場已按地方契約登記的血腥懲戒。**",
+            "question": "會不會錯誤把Project Moon正史搬入巨構，或把候選變既成城市？",
+            "finding": "023第91-104行反查：作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。。使用者描寫方向與具體地方制度成立必須分開。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+            "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+            "impact": "023來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。。"
+          },
+          {
+            "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+            "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+            "impact": "023來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。。"
+          },
+          {
+            "path": "06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md",
+            "git_blob_sha": "44c5305bc8f7e64e46053a55f03f7277eb818656",
+            "impact": "023來源的作者與助手界線、暴力社會制度和地圖候選皆須與此後修核對；作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。。"
+          }
+        ],
+        "second_pass_method": "先閱讀023全文，再沿12個連續段及12條來源SHA行錨回查未決與反例、暴力反應光譜、角色干預界線和後出權威，並進行四類查漏。",
+        "unresolved_risks": [
+          "作者允許並希望Project Moon式都市制度結構，不能為『不像原作』移除好候選；但原作史實未自動進本世界。明暗非善惡，救援不是義務；地方暴力制度尚未全部核准。",
+          "任何具體都市、酷刑、懲戒制度、角色行動或借鑑作品史實仍需獨立來源與作者採案。"
+        ]
+      }
+    }
+  ],
+  "staged_graph_records": [
+    {
+      "audit_id": "SRC-ALL-3203",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜後出作者低道德與自主奪物修正｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3203-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3203-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3204",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜使用者要保留方九莉雅式活潑失序互動｜L13",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 13
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3204-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3204-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3205",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜不是標準英雄但各有私人底線｜L19",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 19
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3205-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3205-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3206",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜諾亞好奇心與不死風險候選｜L27",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 27
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3206-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3206-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3207",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜艾莉維亞不是道德煞車的候選｜L37",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 37
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3207-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3207-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3208",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜神經質互動不等於永遠對罵｜L47",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 47
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3208-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3208-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3209",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜不同道德觀產生可回收的事件｜L59",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 59
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3209-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3209-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3210",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜輪流缺德的可撤回短場景｜L69",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 69
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3210-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3210-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3211",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜輪流缺德的可撤回短場景｜L76",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 76
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3211-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3211-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3212",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜Celeste促成相遇不控制喜愛｜L88",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 88
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3212-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3212-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3213",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜未決心理底線與人生史｜L92",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 92
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3213-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3213-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3214",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "021｜第59後修粗口平常低頻｜L103",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "03_人物關係與語感/021_討論續錄_男女主道德灰度與神經質互動.md",
+        "git_blob_sha": "eba0aa437cd6e86272bfbe946948e8e23dbd83b2",
+        "line": 103
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3214-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3214-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3215",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜血腥描寫強度的作者後出方向｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3215-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3215-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3216",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜血腥觀察者沒有統一心理反射｜L11",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 11
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3216-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3216-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3217",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜核心提問與未確定場所列表｜L26",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 26
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3217-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3217-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3218",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜明亮與黑暗地區皆可多重生命面貌｜L37",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 37
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3218-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3218-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3219",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜血腥傷害須有物理／異種生理因果｜L49",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 49
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3219-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3219-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3220",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜諾亞不死不使他人傷亡重置｜L61",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 61
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3220-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3220-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3221",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜暴力制度要有經濟醫療日常｜L70",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 70
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3221-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3221-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3222",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜角色灰度和神經質在事件裡自然變化｜L78",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 78
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3222-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3222-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3223",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜四個血腥場景鉤子皆是候選｜L88",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 88
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3223-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3223-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3224",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜四個血腥場景鉤子皆是候選｜L96",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 96
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3224-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3224-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3225",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜最初待選的描寫力度屬歷史版本｜L104",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 104
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3225-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3225-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3226",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜使用者明確允許重血腥較普遍極端殘酷少數｜L117",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 117
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3226-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3226-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3227",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜最新三級血腥分布與強度權威｜L127",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 127
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3227-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3227-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3228",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜正文執行建議非新增硬世界觀｜L139",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 139
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3228-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3228-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3229",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "022｜禁將未定刑罰法律生理與主角底線寫死｜L149",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/022_討論續錄_世界血腥色彩_殘酷生活與高階災厄.md",
+        "git_blob_sha": "e2a23bae26ac80426f4148e3aaec1b1fc3f81b0f",
+        "line": 149
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3229-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3229-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3230",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜後修來源與作者／助手候選界線｜L3",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3230-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3230-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3231",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜作者明確喜歡Project Moon式都市結構｜L9",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 9
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3231-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3231-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3232",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜暴力習慣不等於支持亦非所有人失態｜L22",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 22
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3232-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3232-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3233",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜使用者原話確立光暗可同地混生｜L33",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 33
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3233-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3233-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3234",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜作者更正雙主角不需自動救援主持正義｜L38",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 38
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3234-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3234-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3235",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜光照與道德、權力、個體願望三維獨立｜L48",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 48
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3235-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3235-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3236",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜暴力制度必有職業經濟與地方因果｜L58",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 58
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3236-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3236-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3237",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜主角可有善意但道德不應被編成英雄｜L70",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 70
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3237-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3237-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3238",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜黑暗中愛和平者可極強、明亮地有嗜血者｜L83",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 83
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3238-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3238-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3239",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜社會事件可由旁觀、交易、私利等驅動｜L93",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 93
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3239-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3239-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3240",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜保留既定血腥強度與Celeste作用界線｜L107",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 107
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3240-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3240-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-3241",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "023｜舊21/22及相似都市候選的後修仲裁｜L115",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "01_世界本體與文明/023_討論續錄_明暗混生_暴力秩序與雙主角低道德.md",
+        "git_blob_sha": "a49f1e5234b5d59f95fb3659f35ff30405ae1f0d",
+        "line": 115
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-3241-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-3241-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立既有圖節點的範圍性索引，不能把暴力制度候選或原作事件升格Canon。"
+    }
+  ]
+}
