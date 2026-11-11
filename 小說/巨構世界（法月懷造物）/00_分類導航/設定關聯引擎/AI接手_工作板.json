@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 366,
+    "raw_source_files": 383,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -24,19 +24,19 @@
     "nine_folder_files": 18,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "截至2026-11-11第52批最新來源366／366已完成SHA錨定整檔編輯性驗收，主CI42989171348及Drive索引42989171326成功；非作者Canon，正式0章PREWRITE HOLD，未來來源增/修會動態重驗。",
+    "important": "2026-11-11主CI此前已驗收366/366；新增完整候選順讀14章、索引、合輯與回執共17份原始Git文字來源後，現有動態383份中仍只有原366份已完成來源整檔驗收，新17份按NEXT-009/010待審。正式0章PREWRITE HOLD。",
     "targeted_audit_records": 7162,
     "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 366,
-    "all_source_full_file_editorial_remaining": 0,
+    "all_source_full_file_editorial_remaining": 17,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 0
+    "all_source_full_file_editorial_pending": 17
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -85,7 +85,7 @@
       "blocked_on": null,
       "complete_evidence": [],
       "progress": {
-        "stage": "QA01_DERIVED_RECONCILED_THREE_EXACT_PATCHES_READY_NONCANON",
+        "stage": "QA01_14CH_PATCHED_READER_PUBLISHED_17_NEW_SOURCES_PENDING",
         "registered_at": "2026-11-11",
         "baseline_sources": 366,
         "baseline_full_file_accepted": 366,
@@ -113,14 +113,18 @@
           "WATCH": 2
         },
         "derived_currency_qa_corrected": true,
-        "manuscript_changes_this_turn": 0,
+        "manuscript_changes_this_turn": 3,
         "derived_reconciliations": 2,
         "exact_patches_ready": 3,
-        "actual_manuscript_edits": 0,
+        "actual_manuscript_edits": 3,
         "audit_checker": "00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs",
         "corrected_finance_report": "00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
         "patch_manifest": "00_分類導航/設定關聯引擎/正文待修_精確修訂補丁候選.json",
-        "result_note": "已更正衍生帳本，不更改原稿；精確補丁可生成兩章新非Canon候選，但尚未套用亦未正式Canon採案。"
+        "result_note": "三處小補丁已實際套入新版非Canon章03/11；章13用R1b、章14用R1a，合輯與索引已生成；原始Gemini及舊順讀保持原SHA；17新來源尚未v2驗收與作者採案。",
+        "new_reader_chapters": 14,
+        "new_reading_sources_pending": 17,
+        "latest_reading_index": "待定正文/順讀_最新補丁候選_01至14章/README.md",
+        "latest_complete_reading": "待定正文/00_第01至14章_最新已套補丁候選_完整順讀合輯.md"
       }
     },
     {
@@ -150,14 +154,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 366,
-        "pending": 0,
+        "pending": 17,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第52批3份474行13段33個SHA命題與66條非Canon圖關聯已在main CI42989171348成功驗證、Drive index42989171326成功，動態366/366待審0。來源後增/變更仍重新排入驗收，正式0章PREWRITE HOLD。",
+        "note": "截至本輪新讀本提交，實際Git來源383：原366沿有效SHA已驗收，新衍生讀本14章+目錄+合輯+修補回執共17份尚待v2驗收。上一第52批366/366成功是歷史CI，不等於新HEAD已成功。",
         "stage": "BATCH52_3_MAIN_CI_VERIFIED",
         "last_verified_commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42989171348",
@@ -173,7 +177,12 @@
         "last_batch_sections": 13,
         "last_batch_new_claims": 33,
         "last_batch_new_anchors": 33,
-        "next_batch": [],
+        "next_batch": [
+          "待定正文/順讀_最新補丁候選_01至14章/03_過風鐘與多餘的凹槽.md",
+          "待定正文/順讀_最新補丁候選_01至14章/11_撈風底的人.md",
+          "待定正文/順讀_最新補丁候選_01至14章/13_風車搖柄、狐毛內襯與除冰廳的白雨.md",
+          "待定正文/順讀_最新補丁候選_01至14章/14_懸柱荒林、暖磚棧與零下風槽的沉銀錘.md"
+        ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
           "target_batch_files": "up to 12 guided by approx 2600 lines, adjust for risk",
@@ -1186,14 +1195,14 @@
     "current_head_warning": "This is the verified install baseline. Fetch latest main HEAD and CI before further edits."
   },
   "latest_progress": {
-    "task_id": "NEXT-009",
-    "stage": "BATCH52_3_MAIN_CI_VERIFIED",
-    "scope": "第52批3份474行13連續段33條原文SHA命題66條非Canon圖邊已通過主CI；Gemini第14章C與D歷史轉貼／版本回執及第13章R1b全文均已登記，原稿未改，當前全庫366／366。",
-    "commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42989171348",
-    "not_finished": "9項問題：RESOLVED_DERIVED 2（原QA金錢與房型已修在獨立衍生帳）、OPEN_REVIEW 4（其中3處精確補丁已備）、PATCHED_CANDIDATE 1、WATCH 2；第3/11章原始候選未修改、補丁未經作者採用；來源366份依舊，正式0章PREWRITE HOLD。",
-    "next_step": "NEXT-011：先跑正文待修自動驗證及負測，讀更正後獨立對帳，輸出第3與第11章精確補丁的非Canon候選全文，之後以來源新增CI驗收並處理作者採用；新檔或SHA改動先走NEXT-009/010，不重計歷史批次。"
+    "task_id": "NEXT-011",
+    "stage": "QA01_14CH_PATCHED_READER_PUBLISHED_17_NEW_SOURCES_PENDING",
+    "scope": "完成第01～14章非Canon新版純正文、三處精確補丁及125179字元連讀合輯，來源全部不覆寫；新產生17份Git來源進入NEXT-009/010動態待審，不宣稱383/383。",
+    "commit": "f81095586498f04f4b1e48c5071e11725ed80943",
+    "ci_result": "pending",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43006980090",
+    "not_finished": "當前來源383份，舊366份沿原SHA仍有編輯性驗收，新17份（14單章、1索引、1合輯、1回執）尚未完成整檔語義v2納管。2026-11-11新提交主CI因來源數快照落後與誤改歷史導航SHA曾失敗，已還原歷史SHA；新批CI仍待驗。作者未採稿，Canon0章PREWRITE HOLD。",
+    "next_step": "先對下一批03、11、13、14新閱讀章逐檔按NEXT-009/010做新來源整檔驗收與圖關聯，保留新舊兩套來源；其餘13份保持NEW_SOURCE_AUTO_QUEUED，禁止跳過或虛報合格。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",

@@ -164,7 +164,7 @@
   "note": "335來源有某種可追蹤結構化入口；164份至少有既有細粒度命題，171份有獨立來源用途卡、370原文錨點與部分修訂語義，但未完成全文設定命題逐一仲裁。37組文字關係含互斥／補篇對照，不全是同章修訂。",
   "current_operational_metrics": {
     "source": "derived by matching 全庫物理清冊.json and 全庫待原子化缺口清冊.json paths, version ledger, audited batches",
-    "raw_original_sources": 366,
+    "raw_original_sources": 383,
     "with_fine_grained_reference": 164,
     "with_source_role_card_pending_full_semantic_review": 171,
     "machine_screened_source_dossiers": 213,
@@ -176,11 +176,11 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第52批3份整檔驗收主CI42989171348 success，Drive42989171326 success；當前366／366，未審0。此為AI編輯性語義來源覆蓋，不是作者Canon批准；原始候選照舊。",
+    "limitations": "2026-11-11已知第52批此前366/366合格，但本輪生成新14章順讀+索引+合輯+回執共新增17來源；最新來源383份中已驗366、待審17。不能以舊成功CI證明新HEAD，亦不是作者Canon採用。",
     "full_file_editorial_accepted": 171,
     "full_file_editorial_pending": 0,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 0,
+    "all_source_full_file_editorial_pending": 17,
     "historical_164_accepted": 153,
     "all_source_full_file_editorial_accepted": 366
   },
