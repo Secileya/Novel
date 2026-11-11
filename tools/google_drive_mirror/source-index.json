@@ -3,13 +3,28 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "2290022cc5a094d8f15d800720a0f570f0796fff",
-  "sourceTreeSha": "82ae4eaa0cb88c31c2894d40a7714e7ada7f8706",
-  "previousSourceCommit": "ce643fe5c9ac947511909deb294462743fbaa210",
+  "sourceCommit": "1216d1138ba6bcd9c1b12a3fc85a61f9237be8ec",
+  "sourceTreeSha": "1e8a4b049a014761d9ff0e590c68ef4c16b5f9e1",
+  "previousSourceCommit": "2290022cc5a094d8f15d800720a0f570f0796fff",
   "changedFiles": [
     {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_第五十三批4份_歷史對帳作者提示十五章QA_全文語義v2.json",
+      "sha": "0a49f60aea109ed8d69225d5245367a39667592c",
+      "change": "added"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
+      "sha": "87f75b0990ad4fa5ab6d5b9692c8ba598ac4bc89",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
+      "sha": "caea42db23bf2977f5aeddf1db521cfdedd82101",
+      "change": "modified"
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "5ca2744d69df4b3a2d33914a52b740b00bcea038",
+      "sha": "8a80cf6dea1624488dfbe7762e3c17ee308ad62a",
       "change": "modified"
     }
   ],
@@ -531,6 +546,11 @@
       "size": 28801
     },
     {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_第五十三批4份_歷史對帳作者提示十五章QA_全文語義v2.json",
+      "sha": "0a49f60aea109ed8d69225d5245367a39667592c",
+      "size": 272209
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_第十五章R2_GPT16處整行修補證據_非正史.json",
       "sha": "e3d782be708005a4f98174b9687b7597a42172b7",
       "size": 13316
@@ -642,8 +662,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
-      "sha": "dd327a417452976b315b6d9f3601e4b4b44fec8c",
-      "size": 19809
+      "sha": "87f75b0990ad4fa5ab6d5b9692c8ba598ac4bc89",
+      "size": 20423
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
@@ -652,8 +672,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "72b876bb82476419c1caca1f57cf7c1503aee66d",
-      "size": 74142
+      "sha": "caea42db23bf2977f5aeddf1db521cfdedd82101",
+      "size": 74923
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
@@ -847,8 +867,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "5ca2744d69df4b3a2d33914a52b740b00bcea038",
-      "size": 7205
+      "sha": "8a80cf6dea1624488dfbe7762e3c17ee308ad62a",
+      "size": 6402
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
