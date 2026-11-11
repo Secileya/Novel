@@ -277,9 +277,20 @@
       "claim_count": 99,
       "graph_relations": 198,
       "note": "第46批12份／3507行／99段各具SHA原文命題／198條非Canon雙向證據關聯；候選開篇、作者已選未發生第三個座位、五版情緒摘要、W01及T交通／V0.5.1骨架；來源SHA與後出依賴核對。"
+    },
+    {
+      "path": "20261111_第四十七批12份_巨構導航WKT地圖與版本權威_全文語義v2.json",
+      "git_blob_sha": "3043126c99ce1b05705b7d612f0d0319dd2acf68",
+      "batch": "BATCH47",
+      "source_count": 12,
+      "original_lines": 2729,
+      "semantic_sections": 103,
+      "claim_count": 103,
+      "graph_relations": 206,
+      "note": "第47批12份2729行103段103條來源SHA命題206非Canon關聯；3份導航及9份SVG/JSON地圖；來源與跨檔依賴核對；主CI待驗。"
     }
   ],
-  "notice": "第46批十二份另行SHA分片登記，尚待main CI證實；來源候選及地圖線路均不因圖譜索引升格為正史。先前分片未改。",
+  "notice": "第47批十二份SHA分片已建立，主CI未確認前僅為待驗登記；W01舊九區、七W十K圖、K01/T路況、P導航均不因索引升為正式Canon。",
   "revalidations": [
     {
       "path": "20261110_來源後修重驗_客觀近即時_16份不重計.json",

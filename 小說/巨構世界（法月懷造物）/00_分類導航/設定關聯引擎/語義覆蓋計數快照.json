@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第46批12份3507行99段99條SHA命題198非Canon關聯已由main CI 42962468148驗證完成；正式303/360、57待審；0章PREWRITE HOLD。",
+  "warning": "第47批12份／2729行／103段／103原文SHA錨點／206非Canon圖邊已建立待驗證；前批303/360曾CI成功，本批315/360須待新CI。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 6540,
-    "audited_original_quote_anchors": 6731,
+    "audited_batched_claims": 6643,
+    "audited_original_quote_anchors": 6834,
     "original_archive_09_files": 15,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第46批main GitHub Actions 42962468148及Drive來源索引42962468177已成功；正式303/360、尚餘57份。第三個座位已選未發生，W01與T交通仍候選，小說正式0章PREWRITE HOLD。",
-    "full_file_editorial_accepted": 139,
-    "full_file_editorial_pending": 32,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 57,
-    "historical_164_accepted": 140,
-    "all_source_full_file_editorial_accepted": 303
+    "limitations": "第47批12份來源與審核分片待main CI，暫登記315/360、剩45；零條證實跨K公共交通，正式0章PREWRITE HOLD。",
+    "full_file_editorial_accepted": 149,
+    "full_file_editorial_pending": 22,
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 45,
+    "historical_164_accepted": 142,
+    "all_source_full_file_editorial_accepted": 315
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第46批主CI與Drive來源索引成功。第一次失敗是next_batch空清單而非已完成來源錯誤；第47批12份已逐一防重選案，正式303/360。"
+  "notice_2026_11_11": "第47批12份先完成等效歷史＋25分片防重並建立待驗SHA分片，尚待新main CI成功；候選地圖不升級正史。"
 }
