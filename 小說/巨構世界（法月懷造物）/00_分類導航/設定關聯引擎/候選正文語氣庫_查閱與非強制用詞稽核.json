@@ -1,6 +1,6 @@
 {
   "schema": "mega-voice-library-usage-receipt-v1",
-  "checked_date": "2026-11-09",
+  "checked_date": "2026-11-11",
   "reference_corpus": [
     {
       "path": "03_人物關係與語感/105_對話語庫_莉雅口語素材_標點節奏咬字與情境演出.md",
@@ -11,7 +11,7 @@
       "git_blob_sha": "4d7ae0938cbb058c311a614176908d79b238fe18"
     }
   ],
-  "scope": "待定正文/順讀_最新補丁候選/ numbered chapters 01-12 only; original stories are NON-CANON, not historical generation receipts.",
+  "scope": "待定正文/順讀_最新補丁候選/ numbered chapters 01-14; exactly one latest nonCanon reading directory; original prose sources unchanged; the 2026-11-09 voice review's authoring claims remain retrospective.",
   "source_files": [
     {
       "path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
@@ -34,14 +34,15 @@
     },
     {
       "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
-      "git_blob_sha": "c994954ce871b5ed108b1aaac661a2baab14c12b",
+      "git_blob_sha": "ccc6e046bfc9256ed6336a6a4ef643671f956fe3",
       "source_lines": 260,
       "dialogue_term_counts": {
         "你小子": 1,
         "等一下": 1,
         "等會": 1,
         "——": 5
-      }
+      },
+      "review_note_20261111": "已用SHA鎖定的整行編輯補丁複核；新版正文對話語氣檢索詞計數與舊版相同。"
     },
     {
       "path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
@@ -106,11 +107,12 @@
     },
     {
       "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
-      "git_blob_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+      "git_blob_sha": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3",
       "source_lines": 228,
       "dialogue_term_counts": {
         "——": 3
-      }
+      },
+      "review_note_20261111": "已用SHA鎖定的整行編輯補丁複核；新版正文對話語氣檢索詞計數與舊版相同。"
     },
     {
       "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
@@ -120,6 +122,25 @@
         "我去": 1,
         "你小子": 1,
         "——": 12
+      }
+    },
+    {
+      "path": "待定正文/順讀_最新補丁候選/13_風車搖柄、狐毛內襯與除冰廳的白雨.md",
+      "git_blob_sha": "24a90e7937641d863926cd9a8b7993928b9ac34f",
+      "source_lines": 372,
+      "dialogue_term_counts": {
+        "我去": 1,
+        "——": 11,
+        "等會": 1
+      }
+    },
+    {
+      "path": "待定正文/順讀_最新補丁候選/14_懸柱荒林、暖磚棧與零下風槽的沉銀錘.md",
+      "git_blob_sha": "aec2feba9bbd4e5d3666b760509550e68bf9246d",
+      "source_lines": 414,
+      "dialogue_term_counts": {
+        "我去": 1,
+        "——": 10
       }
     }
   ],
@@ -161,5 +182,5 @@
     "retrospective_library_review_performed_this_session": true,
     "mandatory_phrases": false
   },
-  "interpretation": "No hit is acceptable. A hit is not proof that authoring AI opened the library. No fixed quota, no automatic insertion, no rewrites. New candidate text needs new evidence receipt after contextual human/AI voice review."
+  "interpretation": "No hit is acceptable. A hit is not proof that authoring AI opened the library. No fixed quota, no automatic insertion, no rewrites. New candidate text needs new evidence receipt after contextual human/AI voice review. 2026-11-11: 03/11 latest SHA reviewed for literal line-repair impact; 13/14 appended to the retrospective voice term count. This does not prove the authorship process consulted voice references."
 }
