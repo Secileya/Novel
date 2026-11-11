@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第45批待CI！已核實第44批279/360成功，另12份驗收材料待新CI才可計入完成。",
+  "warning": "第45批main CI Run 42958539434成功；全庫360來源已完整編輯驗收291份、未審69份。作者Canon仍0章 PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,10 +176,10 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第44批已成功279／360；第45批分片提報增加12份至291／360但新CI未過之前只視為待驗，不宣稱完成；第14章作者保留艾莉維亞豪語，0章PREWRITE HOLD。",
+    "limitations": "第45批12份已由main CI 42958539434驗證成功；正式291/360、69未審；第14章作者保留艾莉維亞自信台詞，其他工程與資訊邊界仍待候選修訂。正式0章 PREWRITE HOLD。",
     "full_file_editorial_accepted": 130,
     "full_file_editorial_pending": 41,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 69,
     "historical_164_accepted": 137,
     "all_source_full_file_editorial_accepted": 291
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第45批12份507行95段95 SHA原文命題及190圖邊，作者裁定第14章自信台詞原樣保留；尚待main CI。"
+  "notice_2026_11_11": "第45批十二來源507行95段95條SHA命題190圖連結，main CI 42958539434 verified；Drive索引42958539541 success，下一批先全庫雙重查重。"
 }
