@@ -1,0 +1,30 @@
+{
+  "schema": "mega-source-revalidation-v1",
+  "date": "2026-11-11",
+  "editorial_not_canon": true,
+  "newly_accepted_source_count": 0,
+  "method": "AUTHOR_REQUESTED_NONCANON_BATTLE_WORDING_TWO_EXACT_LINES",
+  "anchor_migrations": [],
+  "line_replacements": [
+    {
+      "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+      "from_sha": "ccc6e046bfc9256ed6336a6a4ef643671f956fe3",
+      "to_sha": "8ee5d3bde92839a10a1e5a158c94fc7ceb2a689e",
+      "changes": [
+        {
+          "line": 153,
+          "old_line": "如果換成已經配合過十幾場的老搭檔，這兩頭中型野獸連三秒都撐不過。",
+          "new_line": "兩人幾乎同時有了應對的主意。"
+        },
+        {
+          "line": 155,
+          "old_line": "但偏偏，這是兩個認識還不到半天、且同樣極有主見的傢伙，第一次在沒有事先商量的情況下遭遇突襲！",
+          "new_line": "偏偏，這兩個認識還不到半天、又同樣極有主見的傢伙，還是第一次在沒有事先商量的情況下遭遇突襲。"
+        }
+      ],
+      "meaning": "使用者明確要求取消兩獸三秒內必敗的無據比較，保留諾亞與艾莉維亞認識不足半天、各有判斷且第一次未事先商量就被突襲的核心意思；保留之後「配合車禍」幽默而不誇大野獸的戰力層級。"
+    }
+  ],
+  "attestation_replacements": [],
+  "claim_interpretations": {}
+}

@@ -5,7 +5,7 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "caf83949160d6163c820fdd94acaa3fcf0aa83cd",
+  "last_checked_head_before_handoff": "ea34786f17170a288aee207770b49c9b37a17a5d",
   "last_checked_successful_ci": {
     "head_sha": "1a82d5c28a6ef3441574f6e07a62627af5277eb5",
     "run_id": 42962468148,
@@ -24,7 +24,7 @@
     "nine_folder_files": 18,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-11 唯一順讀入口已歸位：第01～14章集中在原順讀資料夾，第03/11章三處SHA精確補丁與README前綴已有原文重驗覆核；舊366來源驗收仍保留，新13/14章、合輯、編輯回執4份待語義v2新來源驗收，動態366/370、待審4。正式Canon0章PREWRITE HOLD。",
+    "important": "2026-11-11 單一第01～14章順讀鏈不變；作者要求修正第三章初次荒野合作配合車禍旁白及臉癢方向暗號，第三章沿原SHA重驗並同步完整合輯與語氣詞頻引文。舊正式原稿及其餘章不動，無重新計算已驗來源；動態366／370、待4份新來源，正式Canon0章 PREWRITE HOLD。",
     "targeted_audit_records": 7162,
     "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
@@ -120,11 +120,12 @@
         "audit_checker": "00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs",
         "corrected_finance_report": "00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
         "patch_manifest": "00_分類導航/設定關聯引擎/正文待修_精確修訂補丁候選.json",
-        "result_note": "已按作者要求取消第二套順讀資料夾，回到單一固定順讀路徑；03/11章三處最小補丁，13R1b及14R1a，合輯指向統一目錄，歷史原文Git可追。新增4份仍待語義v2驗收。",
+        "result_note": "2026-11-11第三章使用者指定橋段修訂：不再假定老搭檔三秒內擊敗殼木裂枝獸，首次合作的陌生感保留，新增臉癢手勢笑點；01～14合輯字句同步，章節SHA重驗鏈新增2個不重計收據。舊三處金流補丁仍在，Canon0章PREWRITE HOLD。",
         "new_reader_chapters": 14,
         "new_reading_sources_pending": 4,
         "latest_reading_index": "待定正文/順讀_最新補丁候選/README.md",
-        "latest_complete_reading": "待定正文/00_第01至14章_最新已套補丁候選_完整順讀合輯.md"
+        "latest_complete_reading": "待定正文/00_第01至14章_最新已套補丁候選_完整順讀合輯.md",
+        "last_chapter03_patch_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a"
       }
     },
     {
@@ -1197,7 +1198,7 @@
   "latest_progress": {
     "task_id": "NEXT-011",
     "stage": "QA01_SINGLE_READER_CONSOLIDATED_370_TOTAL_4_PENDING",
-    "scope": "統一最新候選閱讀入口回原資料夾（01～14章）；舊未變章仍原SHA，03／11章三行小修及README新增37行均用可逆Git SHA證據覆核，不抹除歷史。",
+    "scope": "第三章作者指示局部修稿：移除兩獸必定三秒內被老搭檔打敗的無據旁白，保留兩名初識不足半天的陌生搭檔與教科書級配合車禍；在安全門後納入摸耳垂/額頭方向訊號、臉癢吐槽與共同笑場。已規劃第三章單章與01～14合輯同步SHA一致，新增可逆2行替換＋18行插入之舊來源重驗；其他章原稿未改。",
     "commit": "9ddd3d2c7cc599e342a38911ad5f08d74070c023",
     "ci_result": "pending",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43007874350",

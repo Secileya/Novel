@@ -378,6 +378,20 @@
       "reviewed_existing_sources": 3,
       "new_source_count": 0,
       "scope": "SHA_PINNED_SAME_LINE_03_11_AND_README_ONLY_37_LINE_INSERTION_NOT_CANON"
+    },
+    {
+      "path": "20261111_03荒野磨合_戰力旁白逐行修正_SHA重驗_不重計.json",
+      "git_blob_sha": "ecb85ef343f635df6eaaabfc7c43625be50b02de",
+      "reviewed_existing_sources": 0,
+      "new_source_count": 0,
+      "scope": "EXACT_TWO_LINE_REPLACEMENTS_NONCANON"
+    },
+    {
+      "path": "20261111_03荒野磨合_臉癢暗號段落插入_SHA重驗_不重計.json",
+      "git_blob_sha": "d92f09c0a692d455d6df59613e5158357b82259c",
+      "reviewed_existing_sources": 1,
+      "new_source_count": 0,
+      "scope": "ONE_EXISTING_SOURCE_SHA_REVALIDATED_WITH_18_LINE_INSERTION"
     }
   ]
 }

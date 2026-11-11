@@ -34,13 +34,13 @@
     },
     {
       "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
-      "git_blob_sha": "ccc6e046bfc9256ed6336a6a4ef643671f956fe3",
-      "source_lines": 260,
+      "git_blob_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a",
+      "source_lines": 278,
       "dialogue_term_counts": {
         "你小子": 1,
+        "——": 5,
         "等一下": 1,
-        "等會": 1,
-        "——": 5
+        "等會": 1
       },
       "review_note_20261111": "已用SHA鎖定的整行編輯補丁複核；新版正文對話語氣檢索詞計數與舊版相同。"
     },
@@ -182,5 +182,5 @@
     "retrospective_library_review_performed_this_session": true,
     "mandatory_phrases": false
   },
-  "interpretation": "No hit is acceptable. A hit is not proof that authoring AI opened the library. No fixed quota, no automatic insertion, no rewrites. New candidate text needs new evidence receipt after contextual human/AI voice review. 2026-11-11: 03/11 latest SHA reviewed for literal line-repair impact; 13/14 appended to the retrospective voice term count. This does not prove the authorship process consulted voice references."
+  "interpretation": "No hit is acceptable. A hit is not proof that authoring AI opened the library. No fixed quota, no automatic insertion, no rewrites. New candidate text needs new evidence receipt after contextual human/AI voice review. 2026-11-11: 03/11 latest SHA reviewed for literal line-repair impact; 13/14 appended to the retrospective voice term count. This does not prove the authorship process consulted voice references. 2026-11-11: 第03章依作者明確指示修訂初次荒野協作段與雙人手勢玩笑；逐字對話檢索計數需匹配新版SHA；不升Canon。"
 }

@@ -1,0 +1,302 @@
+{
+  "schema": "mega-source-revalidation-v1",
+  "date": "2026-11-11",
+  "editorial_not_canon": true,
+  "newly_accepted_source_count": 0,
+  "method": "SHA_PINNED_18_LINE_INSERTION_WITH_7_SECTION_SUBSTANTIVE_REVIEW",
+  "anchor_migrations": [
+    {
+      "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+      "from_sha": "8ee5d3bde92839a10a1e5a158c94fc7ceb2a689e",
+      "to_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a",
+      "insert_before": 204,
+      "insert_count": 18,
+      "decision_line": 213,
+      "decision_quote": "「萬一妳只是臉癢呢？」",
+      "meaning": "作者要求在兩人「成交」後接入摸耳垂向左、摸額頭向右、諾亞吐槽臉癢及艾莉維亞自求多福的互動；插入十八個實際含空行的完整正文行，其後所有舊原文和後續章回皆保持、引用行號確實順移。"
+    }
+  ],
+  "line_replacements": [],
+  "attestation_replacements": [
+    {
+      "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+      "previous_sha": "ccc6e046bfc9256ed6336a6a4ef643671f956fe3",
+      "record": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "git_blob_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a",
+        "source_role_id": "FULL-B51-03",
+        "source_kind": "TEXT_SOURCE",
+        "related_claim_ids": [
+          "SRC-ALL-7065",
+          "SRC-ALL-7066",
+          "SRC-ALL-7067",
+          "SRC-ALL-7068",
+          "SRC-ALL-7069",
+          "SRC-ALL-7070"
+        ],
+        "status": "FULL_FILE_EDITORIAL_ATTESTED",
+        "source_progress_note": "全文連續區間、原文SHA、當時事件與後出結果分開核對；符合編輯核查、不代表作者批准。；已依2026-11-11最新正文台帳三處整行補丁審閱新版SHA，仍非Canon。；2026-11-11使用者要求刪除無證據的三秒戰力斷言，保留陌生搭檔臨場配合車禍，同段增添耳垂/額頭手勢與臉癢玩笑；逐字SHA回復可核；正式Canon仍0章。",
+        "source_line_count": 278,
+        "reviewed_sections": [
+          {
+            "from": 1,
+            "to": 43,
+            "anchor_line": 27,
+            "quote": "一名穿著鐵索工聯學徒背心、滿頭大汗的年輕小子連滾帶爬地衝下台階，手裡還拎著一只沾著黑灰與乾涸血跡的帆布袋。",
+            "meaning": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。"
+          },
+          {
+            "from": 44,
+            "to": 86,
+            "anchor_line": 69,
+            "quote": "「喂，諾亞。」她轉過身，一手叉腰，頭頂的呆毛困惑地歪向一邊，「你幹嘛坐門口地上吃啊？搞得像我虐待童工似的。」",
+            "meaning": "三百賞金平分各一百五十，諾亞保留催款皮夾與照片；艾莉維亞研究人工壓扁的舊維修通道介質。"
+          },
+          {
+            "from": 87,
+            "to": 129,
+            "anchor_line": 109,
+            "quote": "在那塊暗銀碎件自行融入槍身之後，他的視野並沒有變成全知全能的透視眼；但在槍口指向的五公尺範圍內，鐵牆背後那根正在運轉的高壓蒸氣管、以及管線接口處最脆弱的三顆應力鉚釘，竟在他的直覺裡呈現出一種無比清晰的「線條感」——彷彿只要他願意，隨時可以一槍剪斷那條線。",
+            "meaning": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限。"
+          },
+          {
+            "from": 130,
+            "to": 172,
+            "anchor_line": 147,
+            "quote": "「上面有東西，兩頭！」諾亞在瞬間提醒，「別往右邊的電纜井退，那邊全是蟲子！」",
+            "meaning": "離城荒野噬電螢和殼木裂枝獸接連出現，測距儀受電蟲影響，兩人不可能無限制精確測距。"
+          },
+          {
+            "from": 173,
+            "to": 203,
+            "anchor_line": 195,
+            "quote": "艾莉維亞抬起手，把幾縷在狂奔中糊在臉上、還帶著一點靜電微微炸毛的深青藍長髮撥到耳後，轉頭瞪了旁邊的青年一眼；諾亞也正轉過頭看她，風衣肩頭被剛才飛濺的電火花燎出了一道黑印。",
+            "meaning": "裂枝獸偷襲；雙方不是戰力弱或缺乏經驗，而是各有應對與彼此未磨合，互相錯開落點引爆蟲潮後合作逃入氣密門。"
+          },
+          {
+            "from": 204,
+            "to": 233,
+            "anchor_line": 213,
+            "quote": "「萬一妳只是臉癢呢？」",
+            "meaning": "兩人脫險後檢討先喊方向，再由艾莉維亞提議摸耳垂/摸額頭表示左右，諾亞吐槽臉癢漏洞並共同笑場；這是當次喜劇磨合，不擅自鎖為未來軍規。"
+          },
+          {
+            "from": 234,
+            "to": 278,
+            "anchor_line": 255,
+            "quote": "凹槽果然擋住了高空九成的寒風，連耳邊呼嘯的氣流聲都在這裡變得格外輕柔。",
+            "meaning": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。"
+          }
+        ],
+        "latest_revisions_checked": [
+          "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+          "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+          "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md"
+        ],
+        "latest_revision_source_sha_manifest": [
+          {
+            "path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+            "git_blob_sha": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+            "git_blob_sha": "cda72e376ebebd6db22807144989f94f00ae5994"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+            "git_blob_sha": "b67b80c05adb50f75d0a07e0ff132463ba0df501"
+          }
+        ],
+        "checklist": {
+          "all_source_lines_accounted_for": true,
+          "all_sections_have_semantic_classification": true,
+          "author_vs_assistant_boundary_checked": true,
+          "latest_known_revisions_checked": true,
+          "candidate_and_canon_separated": true,
+          "no_source_content_rewritten": true,
+          "claims_to_current_version_reconciled": true,
+          "all_relevant_atomic_claims_are_source_anchored": true,
+          "existing_graph_edges_not_canon_upgraded": true
+        },
+        "attestation": {
+          "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+          "checked_on": "2026-11-11",
+          "review_scope": "逐段讀取候選原文及轉貼歷史、比對近前後修訂，用四類反向問題複核；非第三方盲審。；對使用者點名之第3章戰鬥旁白與暗號微喜劇做指定片段完整敘事核對，其他場景SHA可逆保持原文。",
+          "revocation": "原文SHA或相關依賴、重要材料有變動，退回重驗；當批CI未過不可算驗收完成。"
+        },
+        "semantic_quality_v2": {
+          "protocol": "FULL_FILE_SEMANTIC_V2",
+          "material_units": [
+            {
+              "section_index": 1,
+              "line": 27,
+              "quote": "一名穿著鐵索工聯學徒背心、滿頭大汗的年輕小子連滾帶爬地衝下台階，手裡還拎著一只沾著黑灰與乾涸血跡的帆布袋。",
+              "topic": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。",
+              "finding": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7065"
+              ]
+            },
+            {
+              "section_index": 2,
+              "line": 69,
+              "quote": "「喂，諾亞。」她轉過身，一手叉腰，頭頂的呆毛困惑地歪向一邊，「你幹嘛坐門口地上吃啊？搞得像我虐待童工似的。」",
+              "topic": "三百賞金平分各一百五十，諾亞保留催款皮夾與照片；艾莉維亞研究人工壓扁的舊維修通道介質。",
+              "finding": "三百賞金平分各一百五十，諾亞保留催款皮夾與照片；艾莉維亞研究人工壓扁的舊維修通道介質。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7066"
+              ]
+            },
+            {
+              "section_index": 2,
+              "line": 71,
+              "quote": "「妳桌上那些瓶瓶罐罐，隨便碰倒一瓶，我剛分到的那份賞金大概就不夠賠了。」諾亞用筷子挑起一筷子加了辣油的鹼水麵，「而且妳那瓶藍色洗劑揮發的味道，聞起來像能直接把人的鼻毛燒掉。」",
+              "topic": "局部現金交易編輯性修補",
+              "finding": "已逐行比對原稿與新稿SHA，僅修正原文金額口誤、實際退款或零券交付，原始作者採案狀態仍為非Canon候選。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [],
+              "no_claim_reason": "此局部正文更正已有問題台帳與原文證據，不新增無來源世界觀命題、也不虛構原本無關的圖譜端點。"
+            },
+            {
+              "section_index": 3,
+              "line": 109,
+              "quote": "在那塊暗銀碎件自行融入槍身之後，他的視野並沒有變成全知全能的透視眼；但在槍口指向的五公尺範圍內，鐵牆背後那根正在運轉的高壓蒸氣管、以及管線接口處最脆弱的三顆應力鉚釘，竟在他的直覺裡呈現出一種無比清晰的「線條感」——彷彿只要他願意，隨時可以一槍剪斷那條線。",
+              "topic": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限",
+              "finding": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7067"
+              ]
+            },
+            {
+              "section_index": 4,
+              "line": 147,
+              "quote": "「上面有東西，兩頭！」諾亞在瞬間提醒，「別往右邊的電纜井退，那邊全是蟲子！」",
+              "topic": "離城荒野噬電螢和殼木裂枝獸接連出現，測距儀受電蟲影響，兩人不可能無限制精確測距。",
+              "finding": "離城荒野噬電螢和殼木裂枝獸接連出現，測距儀受電蟲影響，兩人不可能無限制精確測距。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7068"
+              ]
+            },
+            {
+              "section_index": 5,
+              "line": 195,
+              "quote": "艾莉維亞抬起手，把幾縷在狂奔中糊在臉上、還帶著一點靜電微微炸毛的深青藍長髮撥到耳後，轉頭瞪了旁邊的青年一眼；諾亞也正轉過頭看她，風衣肩頭被剛才飛濺的電火花燎出了一道黑印。",
+              "topic": "裂枝獸突襲及配合衝突",
+              "finding": "雙方各有合理戰術，沒有足夠證據讓旁白斷言換熟練搭檔便能三秒內擊殺；左側鋼板切落與右上配重把裂枝獸送入噬電螢巢，兩人隨後協同逃生。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7069"
+              ]
+            },
+            {
+              "section_index": 6,
+              "line": 213,
+              "quote": "「萬一妳只是臉癢呢？」",
+              "topic": "非Canon新版磨合後暗號與熟稔玩笑",
+              "finding": "作者直接要求把早期G4試寫中的臉癢吐槽自然接入第三章；喊方向之外新增摸耳垂/摸額頭表示左/右的臨時構想，但因日常摸臉歧義被諾亞吐槽；兩人互相笑場，不成為後續強制無漏洞戰術規範。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [],
+              "no_claim_reason": "使用者授權編輯當前候選章，不等於正式Canon，也不新造獨立世界觀硬規則。"
+            },
+            {
+              "section_index": 7,
+              "line": 255,
+              "quote": "凹槽果然擋住了高空九成的寒風，連耳邊呼嘯的氣流聲都在這裡變得格外輕柔。",
+              "topic": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。",
+              "finding": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7070"
+              ]
+            }
+          ],
+          "countercheck_questions": [
+            {
+              "kind": "AUTHORITY_BOUNDARY",
+              "line": 27,
+              "quote": "一名穿著鐵索工聯學徒背心、滿頭大汗的年輕小子連滾帶爬地衝下台階，手裡還拎著一只沾著黑灰與乾涸血跡的帆布袋。",
+              "question": "哪些資料只屬AI自述、順讀候選或轉貼而非作者正式批准？",
+              "finding": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "VERSION_OR_LATER_REVISION",
+              "line": 109,
+              "quote": "在那塊暗銀碎件自行融入槍身之後，他的視野並沒有變成全知全能的透視眼；但在槍口指向的五公尺範圍內，鐵牆背後那根正在運轉的高壓蒸氣管、以及管線接口處最脆弱的三顆應力鉚釘，竟在他的直覺裡呈現出一種無比清晰的「線條感」——彷彿只要他願意，隨時可以一槍剪斷那條線。",
+              "question": "有哪一條後出作者修補會推翻早期角色的推測、時間和道具狀態？",
+              "finding": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "MISSED_MATERIAL_CLAIM",
+              "line": 195,
+              "quote": "艾莉維亞抬起手，把幾縷在狂奔中糊在臉上、還帶著一點靜電微微炸毛的深青藍長髮撥到耳後，轉頭瞪了旁邊的青年一眼；諾亞也正轉過頭看她，風衣肩頭被剛才飛濺的電火花燎出了一道黑印。",
+              "question": "哪些具體戰鬥限制、金額、交通或角色演技不能在回查時遺漏？",
+              "finding": "根獸驚動蟲群引發藍色電光風暴，兩人靠合作躲避並見到彼此狼狽狀態。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "CROSS_FILE_IMPACT",
+              "line": 255,
+              "quote": "凹槽果然擋住了高空九成的寒風，連耳邊呼嘯的氣流聲都在這裡變得格外輕柔。",
+              "question": "與相鄰章接合時容易發生何種越權、提前得知或物件重複的問題？",
+              "finding": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。；第3章新增手勢/臉癢玩笑只承接當前互動，合輯要逐字同步；不用假定後章人物已固定遵行。"
+            }
+          ],
+          "dependency_impact_review": [
+            {
+              "path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+              "git_blob_sha": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            },
+            {
+              "path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+              "git_blob_sha": "cda72e376ebebd6db22807144989f94f00ae5994",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            },
+            {
+              "path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+              "git_blob_sha": "b67b80c05adb50f75d0a07e0ff132463ba0df501",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            }
+          ],
+          "second_pass_method": "第一遍取原文時間、道具、事件及人物選擇；第二遍逐章反查版本權威、早期猜測和實證、金額與物件遞移、與左右章的人物資訊界線，並比對合輯和R1a後修。；重查第3及11章SHA復原與三處金流／票據實物來源。；本次再逐字核對第153/155行無據戰力比較已去除，原第203行後共18行場景插入，不干涉第4章行程、既有武器機制或貨幣；整段反查第1～14章合輯與G4原素材權威。",
+          "unresolved_risks": [
+            "順讀最新候選不可當作者Canon；角色誤判或未發生情節不能寫成客觀已發生。",
+            "候選新修訂並非作者正式Canon，銀券面值與期初銅幣均未核定。"
+          ]
+        }
+      },
+      "semantic_impact": "在同一路徑的已驗收第三章編輯候選中完成作者指示的兩處無據戰力旁白調整與18行臉癢暗號喜劇；全檔原有劇情、金額、裝備與下一章銜接不變，按SHA、七段實質語義及跨章反問核對，不等同正式Canon採案。",
+      "counterchecks": [
+        {
+          "kind": "AUTHORITY_BOUNDARY",
+          "question": "改稿授權與正式正史批准是否不同？",
+          "finding": "使用者准許本次編輯順讀候選，不等於宣布第三章或十四章全體正式Canon；歷史G4素材仍是提案來源。"
+        },
+        {
+          "kind": "VERSION_OR_LATER_REVISION",
+          "question": "修訂是否只變更指定橋段並保全既有先後版本？",
+          "finding": "第153、155行兩句SHA鎖定替換；第203行後精確新增18行；原先第三章賞金口誤補丁、G4歷史來源及其餘情節保留。"
+        },
+        {
+          "kind": "MISSED_MATERIAL_CLAIM",
+          "question": "戰力斷言、手勢笑點與人物關係是否準確？",
+          "finding": "刪除兩頭裂枝獸三秒內必敗的無據論斷，保留兩人未磨合的因果；新暗號有臉癢歧義，屬互動笑點並非必須遵守的永久規則。"
+        },
+        {
+          "kind": "CROSS_FILE_IMPACT",
+          "question": "第三章與合輯及相鄰章是否保持同一套故事？",
+          "finding": "同步第01至14章合輯同一章文字，第四章從兩人離開凹槽續接未變，後續不憑空得知正式戰術規則，資料源仍是非Canon。"
+        }
+      ]
+    }
+  ],
+  "claim_interpretations": {
+    "SRC-ALL-7069": "後出作者明確選擇：兩人初次荒野遭突襲不應比較其他老搭檔擊殺速度；脫險後的方向暗號與臉癢吐槽屬雙向互動，是G4試寫笑點的當次採入非Canon候選，沒有宣告固定戰術規則。"
+  }
+}
