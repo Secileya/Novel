@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 382,
+    "raw_source_files": 381,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -24,19 +24,19 @@
     "nine_folder_files": 23,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-12 已收第15章Gemini R1八補丁，B九處唯一替換生成新版；第14章R1b/唯一14順讀/01～14合輯六點工單已同步（其他章不改）。新增5份未驗，全庫366／382、待16，GPT二次QA仍留測氧呼吸安全及防墜繩問題；正式Canon0章PREWRITE HOLD。",
+    "important": "2026-11-12 第15章R1八補丁9處唯一匹配已保存、第14章R1b六點工單及唯一順讀同步。新增4份可納管來源（R1回貼、15章R1、14章R1b、二次QA），另1份引擎內SHA回執不重計。實際來源366／381、待15；R1測氧、半面罩、防墜繩與情報QA仍未完，正式Canon0章PREWRITE HOLD。",
     "targeted_audit_records": 7162,
     "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 366,
-    "all_source_full_file_editorial_remaining": 16,
+    "all_source_full_file_editorial_remaining": 15,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 16
+    "all_source_full_file_editorial_pending": 15
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -85,7 +85,7 @@
       "blocked_on": null,
       "complete_evidence": [],
       "progress": {
-        "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_382_TOTAL_16_PENDING",
+        "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_381_TOTAL_15_PENDING",
         "registered_at": "2026-11-11",
         "baseline_sources": 366,
         "baseline_full_file_accepted": 366,
@@ -159,14 +159,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 366,
-        "pending": 16,
+        "pending": 15,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "2026-11-12 新增第15章R1原補丁、15章R1合成稿、14章R1b、GPT二次安全QA、14章同位SHA收據5份；總382，先前366份已驗維持，新增待審5份，現共16份待審。不將精確字串命中當成編輯性完整驗收。",
+        "note": "2026-11-12：第15章R1回貼、完整R1候選、第14章R1b及GPT二次QA共新增4份真正非引擎來源；同位SHA覆核JSON放在引擎內，不納入來源總數及待審隊列。總381／已驗366／待15。",
         "stage": "BATCH52_3_MAIN_CI_VERIFIED",
         "last_verified_commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42989171348",
@@ -197,8 +197,7 @@
           "09_跨AI原始來源/20261112_Gemini第十五章R1八處局部補丁_C台帳與兩批交付_使用者回貼原文_非正史.md",
           "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R1_八項補丁合成候選_20261112_非正史.md",
           "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
-          "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
-          "00_分類導航/設定關聯引擎/20261112_14章六點工單與第15章R1_同位SHA證據覆核_不重計.json"
+          "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -1213,13 +1212,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-011",
-    "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_382_TOTAL_16_PENDING",
-    "scope": "已保存Gemini第15章R1八項old→new回貼，9處逐字唯一命中並另存R1完整非Canon候選；第14章六點工單單句新存R1b、唯一順讀14與01～14合輯同步，證據、語氣庫SHA更新。獨立GPT二次QA指出藍焰風燈與半面罩不能確認/處理缺氧，以及移動滑車尾環防墜繩風險，故仍未正式批准。",
-    "commit": "7d20637f1c24f1c861b29ff7680ac7571a26b2d3",
+    "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_381_TOTAL_15_PENDING",
+    "scope": "Gemini第15章R1八項補丁已保存為R1完整新候選；第14章R1b及唯一14順讀、01～14合輯、README同位同步。新增4份原始/候選/QA來源，內部SHA回執不算來源。來源後修覆核器已依歷史先後處理插入與整行修訂，README歷史全文語義驗收SHA已後修。保留獨立QA未解的毒霧測氧/供氧/防墜風險，正式Canon仍0章。",
+    "commit": "e049a03a28a208a88fc31d825d1548871d1264e8",
     "ci_result": "pending",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43007874350",
-    "not_finished": "R1 9處候選補丁已套，但仍有3類關鍵安全/敘事問題待修：明火測氧、濾毒不供氧、移動滑車防墜繩及一盞燈持有人矛盾；新5份待審，總382份，原366已驗、現16待審。R1a/R0歷史全部保留，正式Canon0章 PREWRITE HOLD。",
-    "next_step": "第15章R1獨立補修只需處理測氧與呼吸設備安全、固定錨點以及單燈持有人／證據強度等精準old→new；不重生正文。第16章開寫之前先讀R1 SHA及跨章六點工單；新章首稿兩則完成B，A/C/D精簡。既有16待審來源依NEXT-009/010驗收。"
+    "not_finished": "第15章R1尚有測氧火苗、濾毒不供氧、滑車尾環防墜、副繩與單儀器使用者等安全漏洞待精確後修；新增4份待審來源，實際全庫381，原366已驗，現15待審。正式Canon0章／PREWRITE HOLD，Drive實際鏡像文字未逐字核對。",
+    "next_step": "第15章R1以精準old→new處理呼吸防護、客觀測氧、獨立承重錨點、單儀器動線與剩餘未證訊息；避免整章重生。第16章新章仍預設兩次完整B交付；另按來源SHA驗收15份尚待審的實際來源，不能把引擎回執算成來源。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
