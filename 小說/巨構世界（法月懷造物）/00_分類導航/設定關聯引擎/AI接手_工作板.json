@@ -5,11 +5,12 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "9d2e178215bf140d97b803e4cc17772262992776",
+  "last_checked_head_before_handoff": "48c3fc42cb258ce2e456991eb05ff1a1337f6a24",
   "last_checked_successful_ci": {
-    "head_sha": "a5049195c35d958388c5a482495d23436e397a24",
-    "run_id": 43070218212,
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/43070218212",
+    "head_sha": "35e0cb39a8951525fdef4054e5007ce758c082f8",
+    "run_id": 43119380842,
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/43119380842",
+    "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43119381455",
     "result": "success"
   },
   "fact_snapshot": {
@@ -24,7 +25,7 @@
     "nine_folder_files": 25,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第54批原12份（7,522行、73段、200命題、400非Canon邊）已提交，初次CI指出14R1b區段不足兩錨與同期新增4份第16章素材。已在分片、Manifest、來源全集快照修復，待主CI。原12份不變，新4份待審；正式Canon0章PREWRITE HOLD。",
+    "important": "第54批指定12份7,522行73段、200個Git SHA行號證據與400非Canon關聯成功通過主CI 43119380842，Drive source index發布也成功。全庫動態386份（本批處理期間新入第16章4份），382份已驗、4份第16章待審。正式Canon0章、PREWRITE HOLD；NEXT-011跨檔QA未完成。",
     "targeted_audit_records": 7432,
     "targeted_audit_verified_quotes": 7623,
     "full_file_editorial_accepted": 171,
@@ -35,7 +36,7 @@
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 4
   },
   "rules": {
@@ -168,9 +169,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "BATCH53新增4份來源獨立逐段驗收，未覆寫原稿；驗收結構待最新主CI核實，上一成功基線366/382。",
-        "stage": "BATCH54_12_REPAIRED_CI_PENDING_382_OF_386",
-        "last_verified_commit": "a5049195c35d958388c5a482495d23436e397a24",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/43070218212",
+        "stage": "BATCH54_12_MAIN_CI_VERIFIED_382_OF_386",
+        "last_verified_commit": "35e0cb39a8951525fdef4054e5007ce758c082f8",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/43119380842",
         "cross_source_next_batch": [],
         "historical_164_accepted": 153,
         "historical_171_accepted": 171,
@@ -934,7 +935,7 @@
           ]
         },
         "batch_54": {
-          "stage": "CI_REPAIR_STAGED_PENDING",
+          "stage": "MAIN_CI_VERIFIED",
           "source_count": 12,
           "source_lines": 7522,
           "sections": 73,
@@ -943,7 +944,7 @@
           "shard_path": "00_分類導航/設定關聯引擎/20261112_第五十四批12份_十三十四章順讀合輯十五章版本線_全文語義v2.json",
           "git_blob_sha": "c699b5b3f0059827368398d5e0aa2d1bee768cbb",
           "expected_parent_head": "523248e46c35e37d1ccd3eabe9e0d6a91456ac42",
-          "verification": "INITIAL_CI_43115953785_FAILED__REPAIR_STAGED_AWAIT_NEW_CI",
+          "verification": "https://github.com/Secileya/Novel/actions/runs/43119380842",
           "sources": [
             "待定正文/順讀_最新補丁候選/13_風車搖柄、狐毛內襯與除冰廳的白雨.md",
             "待定正文/順讀_最新補丁候選/14_懸柱荒林、暖磚棧與零下風槽的沉銀錘.md",
@@ -1242,8 +1243,8 @@
     "nonCanon_graph_links": 400,
     "all_source_accepted": 382,
     "all_source_pending": 4,
-    "state": "BATCH54_12_REPAIRED_CI_PENDING",
-    "notes": "初次CI 43115953785提示14章R1b第2區段語義少錨（已補L92），並行第16章新增4份另待審，未偷算在本批；分片修正版200錨400圖邊，待複驗。"
+    "state": "BATCH54_12_MAIN_CI_VERIFIED",
+    "notes": "第54批原12份已通過完整主CI 43119380842與Drive來源索引發佈43119381455；7,522行73段200 SHA引文、400非Canon關聯。新增4份第16章資料未算入驗收，原素材不覆寫。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1265,13 +1266,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH54_12_REPAIRED_CI_PENDING_382_OF_386",
-    "scope": "第54批原定一次12份7,522行、73段、200 SHA行號證據及400非Canon雙向關聯；補14章R1b多一條材料地理錨。同期新增第16章4份另排下一批，未冒充已審。",
-    "commit": "PENDING_REPAIR_COMMIT",
-    "ci_result": "pending",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43115953785",
-    "not_finished": "當前全庫386份，382筆編輯性驗收在新主CI通過後有效；4份第16章原始與QA待審；正式Canon0章、PREWRITE HOLD；NEXT-011跨檔語義QA未完成。",
-    "next_step": "讀回修復後main及主CI，通過則標記第54批12份已驗收、382/386且4份新第16章來源待第55批。"
+    "stage": "BATCH54_12_MAIN_CI_VERIFIED_382_OF_386",
+    "scope": "第54批12份來源已通過完整主CI：7,522行73語義區段，200原文SHA錨點及400非Canon關聯；合輯與14份單章交叉核，R1b及R2版本與原回貼分離。",
+    "commit": "35e0cb39a8951525fdef4054e5007ce758c082f8",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43119380842",
+    "not_finished": "當前全庫386份來源中382份已做編輯性驗收；第16章新增4份仍待完整審核。NEXT-011跨檔品質稽核未完成，Gemini/Drive位元級同步未獨立確認；正式Canon0章PREWRITE HOLD。",
+    "next_step": "第54批12份已驗收完成，不得重計；第55批由NEXT-009對新增第16章4份做完整SHA來源審讀與語義驗收，其他歷史來源可另走NEXT-011跨檔風險QA。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
