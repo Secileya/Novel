@@ -1,11 +1,11 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-11T02:00:00.000Z",
+  "updated_at": "2026-11-11T02:20:00.000Z",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "dafcdef6c2b3a88de5f570bdc315fbbb6fdd22b4",
+  "last_checked_head_before_handoff": "5f7380f25b7c682f26918e35b13dff61ed634c2e",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
     "run_url": "https://github.com/Secileya/Novel/actions/runs/42936633883",
@@ -25,16 +25,16 @@
     "nine_folder_files": 13,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第41批六份候選全文的PR CI成功，動態356來源中登記261份、95待審（新增作者規則檔1份尚未計入全文編輯驗收）；尚須合併後main CI。正式0章PREWRITE HOLD。",
-    "targeted_audit_records": 5938,
-    "targeted_audit_verified_quotes": 6129,
-    "full_file_editorial_accepted": 116,
-    "full_file_editorial_remaining": 55,
+    "important": "第42批5份分片已發布待驗GitHub CI；全庫266/356、待審90；原G1/G2/G3仍互為修訂候選、G4人工轉錄不等於位元驗證；正式0章 PREWRITE HOLD。",
+    "targeted_audit_records": 6025,
+    "targeted_audit_verified_quotes": 6216,
+    "full_file_editorial_accepted": 121,
+    "full_file_editorial_remaining": 50,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 261,
-    "all_source_full_file_editorial_remaining": 95,
+    "all_source_full_file_editorial_accepted": 266,
+    "all_source_full_file_editorial_remaining": 90,
     "historical_164_full_file_acceptance": 135,
-    "historical_171_full_file_acceptance": 116,
+    "historical_171_full_file_acceptance": 121,
     "all_source_progress_is_dynamic": true
   },
   "rules": {
@@ -82,39 +82,33 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 261,
-        "pending": 95,
+        "verified_complete": 266,
+        "pending": 90,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第41批六份原文2723行62項全檔命題、124條非Canon圖連結、24二遍反問及18依賴SHA；PR #25推送/PR雙CI成功，分支261/356、95待審（新作者規則1份待驗收；第41批已驗收261份不重計）。正式0章PREWRITE HOLD。",
-        "stage": "BATCH41_6_VERIFIED_PAUSED",
+        "note": "第42批B2增量與Gemini G1–G4五份來源共668行、33段、87命題、174非Canon圖連結、20反問、15依賴SHA。主庫已登記待驗CI；全庫266/356、待審90，正式0章PREWRITE HOLD。",
+        "stage": "BATCH42_5_PUBLISHED_PENDING_CI",
         "last_verified_commit": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42936633883",
         "cross_source_next_batch": [],
         "historical_164_accepted": 135,
-        "historical_171_accepted": 116,
+        "historical_171_accepted": 121,
         "last_batch_files": [
-          "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
-          "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
-          "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
-          "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
-          "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
-          "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md"
-        ],
-        "last_batch_full_lines": 2723,
-        "last_batch_sections": 62,
-        "last_batch_new_claims": 62,
-        "last_batch_new_anchors": 62,
-        "next_batch": [
           "待定正文/ChatGPT原稿/B2_出城增量_2026-10-23_非第152六章.md",
           "待定正文/Gemini原稿/G1_第153_懸艙開箱日_完整初版_全文含設計.txt",
           "待定正文/Gemini原稿/G2_第154_懸艙開箱日_精修版_全文含地圖.txt",
           "待定正文/Gemini原稿/G3_第155_十噸重的帳單_第二章初版_全文含地圖.txt",
-          "待定正文/Gemini原稿/G4_第168_十題人物日常復歸群像_短篇試寫與提案.md",
+          "待定正文/Gemini原稿/G4_第168_十題人物日常復歸群像_短篇試寫與提案.md"
+        ],
+        "last_batch_full_lines": 668,
+        "last_batch_sections": 33,
+        "last_batch_new_claims": 87,
+        "last_batch_new_anchors": 87,
+        "next_batch": [
           "待定正文/ChatGPT原稿/B2_第152_從上面下來的人_六章完整正文.md"
         ],
         "batch_acceleration": {
@@ -612,6 +606,28 @@
           "pr_ci": "https://github.com/Secileya/Novel/actions/runs/42936633883",
           "branch_ci": "https://github.com/Secileya/Novel/actions/runs/42936627551",
           "branch_commit": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df"
+        },
+        "acceleration_batch_42": {
+          "stage": "PUBLISHED_PENDING_CI",
+          "source_count": 5,
+          "source_lines": 668,
+          "sections": 33,
+          "claims": 87,
+          "source_anchors": 87,
+          "graph_links": 174,
+          "countercheck_questions": 20,
+          "dependency_sha_checks": 15,
+          "shard_sha": "a8a72a2c801b0eee70559235af404cb8f2a3f1ad",
+          "accepted_if_verified": 266,
+          "pending_if_verified": 90,
+          "source_total": 356,
+          "source_paths": [
+            "待定正文/ChatGPT原稿/B2_出城增量_2026-10-23_非第152六章.md",
+            "待定正文/Gemini原稿/G1_第153_懸艙開箱日_完整初版_全文含設計.txt",
+            "待定正文/Gemini原稿/G2_第154_懸艙開箱日_精修版_全文含地圖.txt",
+            "待定正文/Gemini原稿/G3_第155_十噸重的帳單_第二章初版_全文含地圖.txt",
+            "待定正文/Gemini原稿/G4_第168_十題人物日常復歸群像_短篇試寫與提案.md"
+          ]
         }
       }
     },
@@ -882,17 +898,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch41",
-    "source_files_attested_this_turn": 6,
-    "original_lines_reviewed": 2723,
-    "review_sections": 62,
-    "atomic_findings": 62,
-    "original_line_anchors": 62,
-    "nonCanon_graph_links": 124,
-    "all_source_accepted": 261,
-    "all_source_pending": 94,
-    "state": "BATCH41_PR_CI_VERIFIED__MAIN_PENDING",
-    "notes": "第41批六份候選的push與PR CI皆成功、未改原文，分支261/355、待審94；尚須合併main及驗證。"
+    "task": "NEXT-009 batch42",
+    "source_files_attested_this_turn": 5,
+    "original_lines_reviewed": 668,
+    "review_sections": 33,
+    "atomic_findings": 87,
+    "original_line_anchors": 87,
+    "nonCanon_graph_links": 174,
+    "all_source_accepted": 266,
+    "all_source_pending": 90,
+    "state": "BATCH42_COMMITTED_CI_PENDING",
+    "notes": "新增SHA分片且未覆寫原稿，CI尚待核；所有候選維持非正史且0章PREWRITE HOLD。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -912,13 +928,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH41_6_VERIFIED_PAUSED",
-    "scope": "第41批6份2723行、62原文SHA命題、124非Canon圖連結、24二遍反問、18跨來源SHA；PR #25與push CI均成功。",
-    "commit": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42936633883",
-    "not_finished": "當前356來源中261份已登記、仍有95份待審（含本輪新增規則來源1份）；正式小說0章 PREWRITE HOLD；主庫合併CI另核。",
-    "next_step": "第41批合併main後結案並暫停。下一批先B2增量與Gemini G1-4全文，超長第152六章獨立審核；如來源增加即納入待審。"
+    "stage": "BATCH42_5_PUBLISHED_PENDING_CI",
+    "scope": "第42批5份668行、33段、87原文SHA命題、174非Canon圖連結、20反向檢查、15跨來源SHA；主庫原子提交待CI。",
+    "commit": "PENDING_NEW_MAIN_COMMIT",
+    "ci_result": "pending",
+    "ci_run_url": "PENDING_GITHUB_ACTIONS",
+    "not_finished": "動態356來源中登記266、仍有90份待審；第152六章長稿獨立驗收；正式0章 PREWRITE HOLD。",
+    "next_step": "先核第42批main Actions CI並修復任何結構錯誤；接著第152份3015行六章完整原稿獨立逐章全文審核，不與本批五份混算。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -958,6 +974,7 @@
     "00_分類導航/設定關聯引擎/20261111_第三十八批12份_Gemini早期候選與版本分線_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第三十九批12份_第五七章候選分線與主鐘擺_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十批12份_第七至十二章版本與後果_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261111_第四十一批6份_初遇開篇對照與熟人版分線_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261111_第四十一批6份_初遇開篇對照與熟人版分線_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第四十二批5份_B2與Gemini初遇地圖群像_全文語義v2.json"
   ]
 }

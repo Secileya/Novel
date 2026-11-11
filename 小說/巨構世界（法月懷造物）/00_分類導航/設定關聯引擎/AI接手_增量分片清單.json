@@ -222,6 +222,17 @@
       "claim_count": 62,
       "graph_relations": 124,
       "note": "導航、66熟人舊開篇、91/92初遇連續、109A/110B互斥候選；6份2723行62命題124非Canon關聯24四類反問18依賴SHA；全部非Canon。"
+    },
+    {
+      "path": "20261111_第四十二批5份_B2與Gemini初遇地圖群像_全文語義v2.json",
+      "git_blob_sha": "a8a72a2c801b0eee70559235af404cb8f2a3f1ad",
+      "batch": "BATCH42",
+      "source_count": 5,
+      "original_lines": 668,
+      "semantic_sections": 33,
+      "claim_count": 87,
+      "graph_relations": 174,
+      "note": "B2出城增量與Gemini G1–G4五份完整語義審核；668行33段87命題、174條非Canon連結、20反問15依賴SHA。G1/G2距離修正、G3物權受力待核、G4原生轉錄未驗；正式0章。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
