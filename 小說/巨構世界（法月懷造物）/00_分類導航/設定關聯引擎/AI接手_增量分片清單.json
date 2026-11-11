@@ -266,9 +266,20 @@
       "claim_count": 95,
       "graph_relations": 190,
       "note": "第45批12份，含Gemini14章A/C與最新獨立QA、7分類README、1–12候選順讀入口及無損維護；507行95段95SHA命題190非Canon關係。後出作者裁決保留『絕不會再出暗裂』台詞，不改14章原稿。CI待驗。"
+    },
+    {
+      "path": "20261111_第四十六批12份_候選開篇第三座位與地圖交通_全文語義v2.json",
+      "git_blob_sha": "b9840e0ac4a0f6d674ed1ff3a4952f1cd4a3c261",
+      "batch": "BATCH46",
+      "source_count": 12,
+      "original_lines": 3507,
+      "semantic_sections": 99,
+      "claim_count": 99,
+      "graph_relations": 198,
+      "note": "第46批12份／3507行／99段各具SHA原文命題／198條非Canon雙向證據關聯；候選開篇、作者已選未發生第三個座位、五版情緒摘要、W01及T交通／V0.5.1骨架；來源SHA與後出依賴核對。"
     }
   ],
-  "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
+  "notice": "第46批十二份另行SHA分片登記，尚待main CI證實；來源候選及地圖線路均不因圖譜索引升格為正史。先前分片未改。",
   "revalidations": [
     {
       "path": "20261110_來源後修重驗_客觀近即時_16份不重計.json",

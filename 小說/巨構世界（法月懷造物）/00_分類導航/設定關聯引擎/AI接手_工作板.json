@@ -1,11 +1,11 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-11T04:28:00.000Z",
+  "updated_at": "2026-11-11",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "c849d7678d5d7966b5f98203b8437f823b6f1af6",
+  "last_checked_head_before_handoff": "58a2ce94151d718ae4aaa3fc0f4dc686dd94df84",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
     "run_url": "https://github.com/Secileya/Novel/actions/runs/42945417646",
@@ -25,19 +25,19 @@
     "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第45批12份已由main GitHub Actions 42958539434全部成功，Drive來源索引Run 42958539541成功；現正式291/360、69待審。第14章QA仍需局部修訂而非Canon，正式小說0章PREWRITE HOLD。",
-    "targeted_audit_records": 6441,
-    "targeted_audit_verified_quotes": 6632,
-    "full_file_editorial_accepted": 130,
-    "full_file_editorial_remaining": 41,
+    "important": "第45批 main CI 42958539434已成功；第46批新12份已建立原始SHA驗收分片，現登記303/360待本批CI驗證，仍有57份未審。第三個座位僅未來場景已選，12條交通無已驗證路線；正式0章PREWRITE HOLD。",
+    "targeted_audit_records": 6540,
+    "targeted_audit_verified_quotes": 6731,
+    "full_file_editorial_accepted": 139,
+    "full_file_editorial_remaining": 32,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 291,
-    "all_source_full_file_editorial_remaining": 69,
-    "historical_164_full_file_acceptance": 137,
-    "historical_171_full_file_acceptance": 130,
+    "all_source_full_file_editorial_accepted": 303,
+    "all_source_full_file_editorial_remaining": 57,
+    "historical_164_full_file_acceptance": 140,
+    "historical_171_full_file_acceptance": 139,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 69
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 57
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -84,40 +84,22 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 291,
-        "pending": 69,
+        "verified_complete": 303,
+        "pending": 57,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第45批12份主分支CI與Drive來源索引均於Run 42958539434／42958539541成功；已正式計數291／360，尚餘69；作者的第14章自信台詞保留，0章PREWRITE HOLD。",
-        "stage": "BATCH45_12_MAIN_CI_VERIFIED",
+        "note": "第46批12份／3507行／99段／99條來源SHA原文命題／198非Canon圖譜關聯提報，主分支CI仍待驗。來源原稿保留，已選第三個座位未正式發生；正式0章PREWRITE HOLD。",
+        "stage": "BATCH46_12_MAIN_CI_PENDING",
         "last_verified_commit": "6ce2a176939343aff60cbdf3d7910cce662d29ed",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42958539434",
         "cross_source_next_batch": [],
-        "historical_164_accepted": 137,
-        "historical_171_accepted": 130,
+        "historical_164_accepted": 140,
+        "historical_171_accepted": 139,
         "last_batch_files": [
-          "09_跨AI原始來源/20261111_Gemini第十四章A雙軌核對作者層因果規劃_聊天轉錄非正史.md",
-          "09_跨AI原始來源/20261111_Gemini第十四章C寫後QA道具現金候選台帳_聊天轉錄非正史.md",
-          "08_交接勘誤與決議/20261111_第十四章兩段合併候選_GPT獨立審稿_時間情報裝備與沉銀現金QA_非正史.md",
-          "05_場景視覺與參考/README.md",
-          "02_地圖拓撲與交通/README.md",
-          "04_能力武器與試煉/README.md",
-          "03_人物關係與語感/README.md",
-          "01_世界本體與文明/README.md",
-          "07_候選故事與場景/README.md",
-          "08_交接勘誤與決議/README.md",
-          "待定正文/順讀_最新補丁候選/README.md",
-          "舊資料_勘誤/03_增量維護與不刪改程序.md"
-        ],
-        "last_batch_full_lines": 507,
-        "last_batch_sections": 95,
-        "last_batch_new_claims": 95,
-        "last_batch_new_anchors": 95,
-        "next_batch": [
           "待定正文_總入口.md",
           "000_舊設定寶庫_接手必讀_20261108.md",
           "待定正文/純正文_ChatGPT/A_拆路之後仍有人走.md",
@@ -131,6 +113,11 @@
           "地圖/T交通證據帳_三套候選路網V0.1.json",
           "地圖/巨構主升程骨架修正版V0.5.1_候選規格.json"
         ],
+        "last_batch_full_lines": 3507,
+        "last_batch_sections": 99,
+        "last_batch_new_claims": 99,
+        "last_batch_new_anchors": 99,
+        "next_batch": [],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
           "target_batch_files": "up to 12 guided by approx 2600 lines, adjust for risk",
@@ -707,6 +694,22 @@
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42958539434",
           "commit": "6ce2a176939343aff60cbdf3d7910cce662d29ed",
           "drive_index_url": "https://github.com/Secileya/Novel/actions/runs/42958539541"
+        },
+        "batch_46": {
+          "stage": "MAIN_CI_PENDING",
+          "source_count": 12,
+          "source_lines": 3507,
+          "semantic_sections": 99,
+          "claims": 99,
+          "anchors": 99,
+          "graph_edges": 198,
+          "historical_171_sources": 9,
+          "historical_164_sources": 3,
+          "accepted_registered_pending_ci": 303,
+          "pending_registered": 57,
+          "unmodified_originals": true,
+          "shard_sha": "b9840e0ac4a0f6d674ed1ff3a4952f1cd4a3c261",
+          "ci_run_url": "PENDING"
         }
       }
     },
@@ -977,17 +980,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch45",
+    "task": "NEXT-009 batch46",
     "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 507,
-    "review_sections": 95,
-    "atomic_findings": 95,
-    "original_line_anchors": 95,
-    "nonCanon_graph_links": 190,
-    "all_source_accepted": 291,
-    "all_source_pending": 69,
-    "state": "BATCH45_MAIN_CI_VERIFIED",
-    "notes": "12份／507行／95段／95條SHA原文命題／190條非Canon圖譜；Run 42958539434 CI success，Run 42958539541 Drive索引發佈success；291／360正式完成，69待審；原稿未改。"
+    "original_lines_reviewed": 3507,
+    "review_sections": 99,
+    "atomic_findings": 99,
+    "original_line_anchors": 99,
+    "nonCanon_graph_links": 198,
+    "all_source_accepted": 303,
+    "all_source_pending": 57,
+    "state": "BATCH46_MAIN_CI_PENDING",
+    "notes": "第46批12份／3507原文行／99段99條SHA命題／198非Canon關聯，GitHub分片已建立且提交待CI；正式完成數以後續main成功run確認，原檔未改。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1007,13 +1010,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH45_12_MAIN_CI_VERIFIED",
-    "scope": "第45批12份原文507行95段95SHA命題、190非Canon圖連結；第14章Gemini A/C、最新作者裁定後GPT QA、分類README及順讀/維護入口。",
-    "commit": "6ce2a176939343aff60cbdf3d7910cce662d29ed",
-    "ci_result": "success",
+    "stage": "BATCH46_12_MAIN_CI_PENDING",
+    "scope": "第46批候選開篇與原稿導航、已選未發生第三個座位、五種白髮危機摘要、W01與T交通及主升程骨架資料，共12份3507行99段99條來源命題198條非Canon圖關聯。",
+    "commit": "PENDING_CURRENT_BATCH_COMMIT",
+    "ci_result": "pending",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42958539434",
-    "not_finished": "12份原文審核與相關圖譜已CI驗證，總進度291/360，尚餘69份未經整檔驗收；第14章A1工時、A2沉銀質量、A3角色情報與精確現金帳仍屬後續候選修文課題，艾莉維亞『絕對不會再出暗裂』原句按作者要求保留；正式0章 PREWRITE HOLD。",
-    "next_step": "下批先按歷史總帳及24份SHA分片雙重防重，從工作板next_batch選12份實際未審來源，逐檔核實SHA、原文語義、後出版本依賴及圖譜，再提交經CI後才計入進度。"
+    "not_finished": "第46批先做全庫登記303/360、57未審，但當前批次尚未取得main CI成功，不可對外宣稱已完成；歷史分組164=140、171=139。第14章仍是待定候選，正式0章 PREWRITE HOLD。",
+    "next_step": "先驗證第46批主分支GitHub CI與Drive索引；只有成功後更新工作板final、經驗日誌與自動交接，才稱已完成303/360；再依餘下57份選下一輪12份。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -1057,6 +1060,7 @@
     "00_分類導航/設定關聯引擎/20261111_第四十二批5份_B2與Gemini初遇地圖群像_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十三批1份_B2第152六章長稿_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十四批12份_B2同文_十三章版本與十四章候選_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261111_第四十五批12份_十四章A_C_QA與分類導航_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261111_第四十五批12份_十四章A_C_QA與分類導航_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第四十六批12份_候選開篇第三座位與地圖交通_全文語義v2.json"
   ]
 }

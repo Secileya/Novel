@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第45批main CI Run 42958539434成功；全庫360來源已完整編輯驗收291份、未審69份。作者Canon仍0章 PREWRITE HOLD。",
+  "warning": "第46批12份／3507行／99段／99命題／198圖關聯已登記待main CI驗證，總計303/360為尚待驗收的工作板狀態，57份待審；Canon正式0章PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 6441,
-    "audited_original_quote_anchors": 6632,
+    "audited_batched_claims": 6540,
+    "audited_original_quote_anchors": 6731,
     "original_archive_09_files": 15,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第45批12份已由main CI 42958539434驗證成功；正式291/360、69未審；第14章作者保留艾莉維亞自信台詞，其他工程與資訊邊界仍待候選修訂。正式0章 PREWRITE HOLD。",
-    "full_file_editorial_accepted": 130,
-    "full_file_editorial_pending": 41,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 69,
-    "historical_164_accepted": 137,
-    "all_source_full_file_editorial_accepted": 291
+    "limitations": "第46批12份已登記303/360但仍待主CI成功。W01及12路線只候選，第三個座位已選未發生；正式0章PREWRITE HOLD。",
+    "full_file_editorial_accepted": 139,
+    "full_file_editorial_pending": 32,
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 57,
+    "historical_164_accepted": 140,
+    "all_source_full_file_editorial_accepted": 303
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第45批十二來源507行95段95條SHA命題190圖連結，main CI 42958539434 verified；Drive索引42958539541 success，下一批先全庫雙重查重。"
+  "notice_2026_11_11": "第45批主CI和Drive索引已通過；第46批候選開篇、第三個座位與地圖交通12份SHA分片提報，待本輪主CI完成才視正式驗收。"
 }
