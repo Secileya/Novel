@@ -26,7 +26,7 @@
     "prewrite_hold": true,
     "important": "第50批12份8,406行／192來源命題／347原文引文／384條非Canon圖邊通過main CI42981898069及Drive索引42981898170，351／366已驗收、剩15；歷史171角色來源全數通過編輯性驗收，正式0章PREWRITE HOLD、未提升Canon。",
     "targeted_audit_records": 7129,
-    "targeted_audit_verified_quotes": 7391,
+    "targeted_audit_verified_quotes": 7320,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
@@ -1082,7 +1082,7 @@
     "all_source_accepted": 363,
     "all_source_pending": 3,
     "state": "BATCH51_12_SUBMITTED_PENDING_MAIN_CI",
-    "notes": "第51批內容為Gemini第14章A寫前補證與02–12順讀候選，分片SHA33e7144，原文皆未覆寫、當批GitHub Actions待執行。嚴守非Canon，正式0章。"
+    "notes": "第51批內容為Gemini第14章A寫前補證與02–12順讀候選，分片SHA33e7144，原文皆未覆寫、當批GitHub Actions待執行。嚴守非Canon，正式0章。；本批72命題主錨與143附加引文分屬不同計數，舊驗證器累計只按72主錨；已修正差額71而不刪引文。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
