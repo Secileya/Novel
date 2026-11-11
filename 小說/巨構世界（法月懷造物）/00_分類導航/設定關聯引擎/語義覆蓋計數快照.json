@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 5721,
-    "audited_original_quote_anchors": 5912,
+    "audited_batched_claims": 5876,
+    "audited_original_quote_anchors": 6067,
     "original_archive_09_files": 11,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第39批12份2317行89段、PR #23及合併後main CI均Success，全庫243/348，105待審。正式0章 PREWRITE HOLD。",
-    "full_file_editorial_accepted": 98,
-    "full_file_editorial_pending": 73,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 108,
+    "limitations": "第40批PR #24尚未合併；新來源總數351，PR暫255/351、待審96；第13章R1作者因果卡新增為待審。正式0章 PREWRITE HOLD。",
+    "full_file_editorial_accepted": 110,
+    "full_file_editorial_pending": 61,
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 96,
     "historical_164_accepted": 135,
-    "all_source_full_file_editorial_accepted": 243
+    "all_source_full_file_editorial_accepted": 255
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -190,5 +190,6 @@
     "candidate_archive_files": 90,
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
-  "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。"
+  "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
+  "notice_2026_11_11": "第40批來源12份3889行，Git當前來源總數351、其中新增13章作者因果卡待審；PR登記255/351、96待審，不是成功合併。"
 }
