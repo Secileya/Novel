@@ -68,6 +68,16 @@ jobs:
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --check --negative-test > "$RUNNER_TEMP/mega-live-universe.json"
           node -e "const r=require(process.argv[1]);if(r.source_total<335||r.accepted_full_file_count+r.pending_full_file_count!==r.source_total||r.historical_fine_grained_reference_only!==164||r.historical_role_card_set!==171||r.faults.length)process.exit(2)" "$RUNNER_TEMP/mega-live-universe.json"
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --next > "$RUNNER_TEMP/mega-next-batch-queue.json"
+      - name: Generate current per-source Git SHA and editorial acceptance receipts
+        run: |
+          node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --report > "$RUNNER_TEMP/mega-all-source-receipts.json"
+      - name: Upload per-source Git SHA and review status receipts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mega-all-source-receipts
+          path: ${{ runner.temp }}/mega-all-source-receipts.json
+          if-no-files-found: error
+          retention-days: 90
       - name: Handoff next-task route and safe task selection
         run: node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_狀態檢查.mjs' --task NEXT > "$RUNNER_TEMP/next-agent-task.json"
       - name: Full-file editorial acceptance validator syntax

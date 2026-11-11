@@ -217,6 +217,11 @@ function main(){
    if(revoked.accepted_full_file_count>=report.accepted_full_file_count||
       !revoked.all_file_records.some(x=>x.source_path===proof.source_path&&x.review_status==="REVOKED_RECHECK_REQUIRED"))
      report.faults.push("negative original-blob change failed to revoke full-file acceptance");
+   const withoutAccepted=current.filter(x=>x.path!==proof.source_path);
+   const removed=buildLiveReviewReport({sourceOverride:withoutAccepted});
+   if(removed.source_total!==report.source_total-1||
+      !removed.faults.some(x=>x.includes("accepted original no longer tracked: "+proof.source_path)))
+     report.faults.push("negative accepted-source deletion failed to block");
    const upstream=proof.latest_revision_source_sha_manifest?.[0]?.path;
    if(upstream){
     const revisionCorrupted=current.map(x=>x.path===upstream?{...x,git_blob_sha:"0".repeat(40)}:x);
