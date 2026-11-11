@@ -73,6 +73,20 @@ jobs:
       - name: Body repair original SHA quotes statuses and safe patch negative regressions
         run: |
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs' --check --negative-test > "$RUNNER_TEMP/mega-body-repair-report.json"
+      - name: Render complete nonCanon chapter 03 and 11 revisions without editing tracked sources
+        run: |
+          node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs' --render-source '待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md' > "$RUNNER_TEMP/CH03_exact_patch_noncanon_preview.md"
+          node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs' --render-source '待定正文/順讀_最新補丁候選/11_撈風底的人.md' > "$RUNNER_TEMP/CH11_exact_patch_noncanon_preview.md"
+          node --input-type=module -e 'import fs from "node:fs";for(const f of process.argv.slice(1)){const x=fs.readFileSync(f,"utf8");if(x.length<4000||!x.includes("# ")||!x.includes("諾亞"))process.exit(2)}' "$RUNNER_TEMP/CH03_exact_patch_noncanon_preview.md" "$RUNNER_TEMP/CH11_exact_patch_noncanon_preview.md"
+      - name: Upload two complete repaired manuscript previews for editorial review
+        uses: actions/upload-artifact@v4
+        with:
+          name: mega-body-noncanon-revision-previews
+          path: |
+            ${{ runner.temp }}/CH03_exact_patch_noncanon_preview.md
+            ${{ runner.temp }}/CH11_exact_patch_noncanon_preview.md
+          if-no-files-found: error
+          retention-days: 90
       - name: Upload body repair status and source receipt report
         uses: actions/upload-artifact@v4
         with:
