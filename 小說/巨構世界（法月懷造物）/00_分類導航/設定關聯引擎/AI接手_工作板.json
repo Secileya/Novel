@@ -8,10 +8,10 @@
   "last_checked_head_before_handoff": "dafcdef6c2b3a88de5f570bdc315fbbb6fdd22b4",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42933521295",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42936633883",
     "conclusion": "success",
-    "head_sha": "bc3daeaf6394a14524cae2f7f32eb3edfd16c214",
-    "warning": "PR CI success，main合併後仍需查證；編輯驗收非作者Canon。"
+    "head_sha": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df",
+    "warning": "PR CI success，合併後main CI尚需實查；編輯性驗收不等於正式Canon批准。"
   },
   "fact_snapshot": {
     "raw_source_files": 355,
@@ -25,7 +25,7 @@
     "nine_folder_files": 13,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第41批6份候選版本PR分支暫登261／355，待審94；仍須當次CI/main成功才算通過。正式小說0章 PREWRITE HOLD。",
+    "important": "第41批六份候選全文的PR CI成功，動態355來源中登記261份、94待審；尚須合併後main CI。正式0章PREWRITE HOLD。",
     "targeted_audit_records": 5938,
     "targeted_audit_verified_quotes": 6129,
     "full_file_editorial_accepted": 116,
@@ -90,10 +90,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第41批6份2723行、62全文段落/命題、124非Canon圖連結、24二遍反問與18跨源SHA依賴。66熟人版與作者初遇確認相衝突，91/92連續、109A/110B互斥；此為PR分支暫登，CI成功與合併前main仍255/355。",
-        "stage": "BATCH41_6_STAGED_PENDING_CI",
-        "last_verified_commit": "bc3daeaf6394a14524cae2f7f32eb3edfd16c214",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42933521295",
+        "note": "第41批六份原文2723行62項全檔命題、124條非Canon圖連結、24二遍反問及18依賴SHA；PR #25推送/PR雙CI成功，分支261/355、94待審。正式0章PREWRITE HOLD。",
+        "stage": "BATCH41_6_VERIFIED_PAUSED",
+        "last_verified_commit": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42936633883",
         "cross_source_next_batch": [],
         "historical_164_accepted": 135,
         "historical_171_accepted": 116,
@@ -596,7 +596,7 @@
           "pr_ci": "https://github.com/Secileya/Novel/actions/runs/42933521295"
         },
         "acceleration_batch_41": {
-          "stage": "STAGED_PR_CI_PENDING",
+          "stage": "PR_AND_PUSH_CI_VERIFIED__MAIN_PENDING",
           "source_count": 6,
           "source_lines": 2723,
           "sections": 62,
@@ -607,7 +607,11 @@
           "source_total": 355,
           "accepted_if_ci_success": 261,
           "pending_if_ci_success": 94,
-          "shard_sha": "6025de8b03d4808b92845131a8e36b09e9278dc3"
+          "shard_sha": "6025de8b03d4808b92845131a8e36b09e9278dc3",
+          "pr": "https://github.com/Secileya/Novel/pull/25",
+          "pr_ci": "https://github.com/Secileya/Novel/actions/runs/42936633883",
+          "branch_ci": "https://github.com/Secileya/Novel/actions/runs/42936627551",
+          "branch_commit": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df"
         }
       }
     },
@@ -887,8 +891,8 @@
     "nonCanon_graph_links": 124,
     "all_source_accepted": 261,
     "all_source_pending": 94,
-    "state": "BATCH41_PR_STAGED__NOT_MAIN_VERIFIED",
-    "notes": "分支暫登六個全文來源驗收，主庫仍為255已驗收；第13章R1a新四份納入355全集且100待審的舊主庫基線，正式0章。"
+    "state": "BATCH41_PR_CI_VERIFIED__MAIN_PENDING",
+    "notes": "第41批六份候選的push與PR CI皆成功、未改原文，分支261/355、待審94；尚須合併main及驗證。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -908,13 +912,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH41_6_STAGED_PENDING_CI",
-    "scope": "第41批6份2723行、62語義段及命題、124非Canon圖連結、24四類反問、18跨來源SHA依賴；最新355來源、全部原稿不動。",
-    "commit": "dafcdef6c2b3a88de5f570bdc315fbbb6fdd22b4",
-    "ci_result": "pending",
-    "ci_run_url": "未驗證",
-    "not_finished": "本PR登記261／355、94待審，尚未獲得CI及合併確認；main仍以255／355、100待審為準。正式正文0章 PREWRITE HOLD。",
-    "next_step": "第41批經CI/合併驗證後停止；下一批依工作板尚餘6項，將第152六章3015行長稿獨立處理，遇新增來源重新計分母。"
+    "stage": "BATCH41_6_VERIFIED_PAUSED",
+    "scope": "第41批6份2723行、62原文SHA命題、124非Canon圖連結、24二遍反問、18跨來源SHA；PR #25與push CI均成功。",
+    "commit": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42936633883",
+    "not_finished": "當前355來源中261份已登記、仍有94份待審；正式小說0章 PREWRITE HOLD；主庫合併CI另核。",
+    "next_step": "第41批合併main後結案並暫停。下一批先B2增量與Gemini G1-4全文，超長第152六章獨立審核；如來源增加即納入待審。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
