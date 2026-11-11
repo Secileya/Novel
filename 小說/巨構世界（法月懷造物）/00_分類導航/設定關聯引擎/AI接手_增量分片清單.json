@@ -233,6 +233,17 @@
       "claim_count": 87,
       "graph_relations": 174,
       "note": "B2出城增量與Gemini G1–G4五份完整語義審核；668行33段87命題、174條非Canon連結、20反問15依賴SHA。G1/G2距離修正、G3物權受力待核、G4原生轉錄未驗；正式0章。"
+    },
+    {
+      "path": "20261111_第四十三批1份_B2第152六章長稿_全文語義v2.json",
+      "git_blob_sha": "1fe37d22eae67511c8ea2fb179fdcdb50f008029",
+      "batch": "BATCH43",
+      "source_count": 1,
+      "original_lines": 3015,
+      "semantic_sections": 49,
+      "claim_count": 98,
+      "graph_relations": 196,
+      "note": "B2第152六章非正史從頭重寫，3,015行49段98條SHA命題196非Canon關係、24次反向檢查9個依賴SHA；與第110和B2短增量互斥，同SHA候選封存與純正文屬來源別名，不升Canon。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
