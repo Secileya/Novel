@@ -42,7 +42,9 @@ export function loadLedger(home=HOME){
  }
  base.accepted_editorial_file_count+=roleDelta;
  base.remaining_for_full_file_semantic_acceptance-=roleDelta;
- return applyAttestationRevalidations(base,home);
+ // Normalize all other accepted source records too: their tracked later-revision
+ // SHA manifests may reference one of the just-revalidated handoff sources.
+ return applyEvidenceRevalidations(applyAttestationRevalidations(base,home),home);
 }
 export function loadBridge(home=HOME){
  const base=JSON.parse(fs.readFileSync(path.join(home,'審核命題至既有關係圖_雙向證據橋.json'),'utf8'));
