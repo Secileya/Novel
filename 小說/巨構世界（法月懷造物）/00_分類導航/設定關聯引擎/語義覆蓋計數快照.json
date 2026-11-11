@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第44批12份待main CI驗證；360份來源中279份已提交審核、81待審，正式0章PREWRITE HOLD。",
+  "warning": "第44批源文分片與工作台已提交；CI首次在歷史171子組別計數發現1份增量，現修正為123/171，待重新跑CI。全庫279/360、待審81；正式0章PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -177,8 +177,8 @@
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
     "limitations": "第44批12份main待CI；279/360已提交審核證據、81待審；B2同文、13/14章皆非Canon；正式0章PREWRITE HOLD。",
-    "full_file_editorial_accepted": 122,
-    "full_file_editorial_pending": 49,
+    "full_file_editorial_accepted": 123,
+    "full_file_editorial_pending": 48,
     "all_source_full_file_editorial_accepted_pending_ci": 12,
     "all_source_full_file_editorial_pending": 81,
     "historical_164_accepted": 135,
