@@ -3,14 +3,24 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "fc77b7c6b75d0e66b5462b5eb9e9ff579c8cb912",
-  "sourceTreeSha": "7e3b47c4977a4a6c3d929a1bde547f9a022cdeda",
-  "previousSourceCommit": "95c7a16c84b4620c378a58e4fdd622ae6d8b4490",
+  "sourceCommit": "41b525a1ff0d6b2f2aac29d98296b24cbdf7b8ad",
+  "sourceTreeSha": "b7460537e9f0be67242c1c8284307d2070702bbf",
+  "previousSourceCommit": "fc77b7c6b75d0e66b5462b5eb9e9ff579c8cb912",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/08_交接勘誤與決議/20261111_第十三章R1a_GPT獨立驗收_時間線物權九區伏筆與交付收束_非正史.md",
-      "sha": "76f97ce010d481dfe2ff3e08a56a7758f856cf37",
-      "change": "added"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
+      "sha": "5199b539c2cd8617d3264b1bea7f2f6d2aafa942",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
+      "sha": "8a883dcae4fbfa38a0f3c36d560f0ee3346150b8",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
+      "sha": "22b7dce5eba3e459687605e872ad788f596a8910",
+      "change": "modified"
     }
   ],
   "removedFiles": [],
@@ -557,8 +567,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "44d483c449db97d415fbc35fc72865bcafd1ae8c",
-      "size": 52320
+      "sha": "5199b539c2cd8617d3264b1bea7f2f6d2aafa942",
+      "size": 52323
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
@@ -747,8 +757,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "e4c48bcd405cf476de8698ea03b031dc2aad641f",
-      "size": 4145
+      "sha": "8a883dcae4fbfa38a0f3c36d560f0ee3346150b8",
+      "size": 4146
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
@@ -812,8 +822,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "d6e19dded3a3f8f0b4752cb1845fedd6edf23d6d",
-      "size": 7628
+      "sha": "22b7dce5eba3e459687605e872ad788f596a8910",
+      "size": 7629
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI原始討論來源與版本替代證據鏈.json",
