@@ -324,14 +324,14 @@
     },
     {
       "path": "20261111_第五十一批12份_14章A補證與02至12章順讀候選_全文語義v2.json",
-      "git_blob_sha": "33e714401a625b82e43fa30837855dd9cd70370c",
+      "git_blob_sha": "ae41251d1a4d6f0ae2d44a43752cfc7f5212c8e9",
       "batch": "BATCH51",
       "source_count": 12,
       "original_lines": 2833,
       "semantic_sections": 72,
       "claim_count": 72,
       "graph_relations": 144,
-      "note": "第51批12份，2833原文行72語義段72條SHA命題143逐行引文144非Canon關聯；來源未改、當批主CI待核。"
+      "note": "第51批12份，2833原文行72語義段72條SHA命題143逐行引文144非Canon關聯；修復72條graph summary完全等於audit title；原文未改、CI待核。"
     }
   ],
   "notice": "第51批12份已生成SHA分片並提交主CI待核；預登錄363／366、剩3；第50批351／366此前已經主CI成功，正式0章PREWRITE HOLD。",
