@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "B49 的audit加111、另存原文引文222；兩種統計口徑不可相加。主CI首輪42979097023因工作板以222增加legacy evidence_count而失敗，已調整為7056，339/364待核。",
+  "warning": "第49批main CI42979445965與Drive索引42979445940驗證成功；全庫339/364剩25。111條audit累計與另存222個逐行材料錨是分開口徑，正式0章。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,10 +176,10 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第49批main CI未驗證，339/364為暫登記，另第14章新增候選仍排未審；正式0章PREWRITE HOLD。",
+    "limitations": "第49批12份已通過主CI與Drive索引；339/364已驗收、25待審，候選不升Canon、正式0章 PREWRITE HOLD。",
     "full_file_editorial_accepted": 163,
     "full_file_editorial_pending": 8,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 25,
     "historical_164_accepted": 151,
     "all_source_full_file_editorial_accepted": 339
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "來源總364，B49 12份暫登記（待CI），339/364剩25；原稿未改、Canon未提升。"
+  "notice_2026_11_11": "第49批12份已驗收，339/364剩25；原稿、Canon不變，下一批12份已排。"
 }
