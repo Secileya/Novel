@@ -3,44 +3,24 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "10b64af5e94c07b352559c206fa7d960fdcde06a",
-  "sourceTreeSha": "32b829abbd5b63e0645642dc0fc3015811d111c5",
-  "previousSourceCommit": "ba56b5f06cf5f7e2c0125010746c9e36f57c62ad",
+  "sourceCommit": "692126330218288d3e958bdccb1b6b85b983d533",
+  "sourceTreeSha": "d6cd050e7be92fdb4fa045bdf3d0796998c818d3",
+  "previousSourceCommit": "10b64af5e94c07b352559c206fa7d960fdcde06a",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "7f87b7ab2210ffbb7ea32291255e3b606ce1d42a",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/Gemini_Gem語氣庫_可複製指示.md",
+      "sha": "096f194c1c6dc6e79eabf38d3a3b0021976fa028",
       "change": "modified"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "84289a0c35cb68db1baabed35b06d30115d576f7",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md",
+      "sha": "edbcdf88f134eb0775f2dd82bc50c2f02735d557",
       "change": "modified"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "fbf11784cea045664582ebcf1b6c1cbed4113d02",
+      "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
+      "sha": "3e08fa652e99d3300e1d1bee908e4c679616cc85",
       "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十五章第一批_A與B前段_使用者回貼原文_非正史.md",
-      "sha": "7e6091b9a676122f1283b8b02332c9ece8bc3edb",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十五章第二批_B五百公尺停點_使用者回貼原文_非正史.md",
-      "sha": "3e0d259655f537f731e8edb06248f4f46cb23ccc",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
-      "sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_前兩批未完候選_20261111_非正史.md",
-      "sha": "a34be614bc10cbaccce227c75debecd452d6b000",
-      "change": "added"
     }
   ],
   "removedFiles": [],
@@ -722,8 +702,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/Gemini_Gem語氣庫_可複製指示.md",
-      "sha": "a67451da3045f5ff6bf6dece9c94e6385aebeb4e",
-      "size": 3315
+      "sha": "096f194c1c6dc6e79eabf38d3a3b0021976fa028",
+      "size": 4067
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/Gemini_原生語氣庫執行接線.md",
@@ -967,8 +947,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md",
-      "sha": "8a9f75e7ccdc533d3384c312816efae172c2a26a",
-      "size": 21600
+      "sha": "edbcdf88f134eb0775f2dd82bc50c2f02735d557",
+      "size": 22994
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨世界層與厚界多版本拓撲.json",
@@ -2277,8 +2257,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
-      "sha": "3d033662402d69b9f24c40511cfba11d3ac94525",
-      "size": 24281
+      "sha": "3e08fa652e99d3300e1d1bee908e4c679616cc85",
+      "size": 25675
     },
     {
       "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
