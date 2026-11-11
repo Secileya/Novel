@@ -24,7 +24,7 @@
     "nine_folder_files": 18,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第51批主CI42986481381與Drive CI42986481469成功；第52批最後3份474行13段33命題66非Canon圖邊已提交待主CI。來源暫登錄366／366，Canon仍0章/PREWRITE HOLD；後續新增來源仍入待辦。",
+    "important": "截至2026-11-11第52批最新來源366／366已完成SHA錨定整檔編輯性驗收，主CI42989171348及Drive索引42989171326成功；非作者Canon，正式0章PREWRITE HOLD，未來來源增/修會動態重驗。",
     "targeted_audit_records": 7162,
     "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
@@ -35,7 +35,7 @@
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 3,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 0
   },
   "rules": {
@@ -91,10 +91,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第52批3份已製作內容特定整檔語義分片、版本SHA和四類反問，待GitHub主CI。動態來源目前366，零待審，尚未作者定案。",
-        "stage": "BATCH52_3_SUBMITTED_PENDING_MAIN_CI",
-        "last_verified_commit": "5dbd38efa76606d72a8f39352c65e546fc5503e3",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42986481381",
+        "note": "第52批3份474行13段33個SHA命題與66條非Canon圖關聯已在main CI42989171348成功驗證、Drive index42989171326成功，動態366/366待審0。來源後增/變更仍重新排入驗收，正式0章PREWRITE HOLD。",
+        "stage": "BATCH52_3_MAIN_CI_VERIFIED",
+        "last_verified_commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42989171348",
         "cross_source_next_batch": [],
         "historical_164_accepted": 153,
         "historical_171_accepted": 171,
@@ -791,7 +791,7 @@
           "unverified_ci": false
         },
         "batch_52": {
-          "stage": "SUBMITTED_PENDING_MAIN_CI",
+          "stage": "COMPLETE__MAIN_CI_VERIFIED",
           "source_count": 3,
           "source_lines": 474,
           "sections": 13,
@@ -814,7 +814,11 @@
           "first_ci_reason": "NEXT_BATCH EMPTY_SELECTION from unconditional checkSelected([]) despite pending 0",
           "second_main_ci": "https://github.com/Secileya/Novel/actions/runs/42988959306",
           "second_main_ci_status": "failure",
-          "second_main_ci_reason": "33 material-topic meaning/authority swapped; CI incomplete material-topic meaning/authority"
+          "second_main_ci_reason": "33 material-topic meaning/authority swapped; CI incomplete material-topic meaning/authority",
+          "verification_status": "success",
+          "main_ci": "https://github.com/Secileya/Novel/actions/runs/42989171348",
+          "drive_index_ci": "https://github.com/Secileya/Novel/actions/runs/42989171326",
+          "verified_commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8"
         }
       }
     },
@@ -1094,8 +1098,8 @@
     "nonCanon_graph_links": 66,
     "all_source_accepted": 366,
     "all_source_pending": 0,
-    "state": "BATCH52_3_SUBMITTED_PENDING_MAIN_CI",
-    "notes": "來源原稿及R0/R1a/R1b候選皆未改動，僅增量語義分片並修正零待審時排批檢驗。CI尚待驗證。"
+    "state": "BATCH52_3_MAIN_CI_VERIFIED",
+    "notes": "第52批最後3份原稿/候選未覆寫，完成474行13段33命題66非Canon雙向關聯；主CI42989171348與Drive42989171326均成功。至此當前動態來源366／366，下一輪新增來源才開新批。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1115,13 +1119,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH52_3_SUBMITTED_PENDING_MAIN_CI",
-    "scope": "第52批3份474行、13連續段33命題、66條非Canon圖譜：Gemini第14章C差異與金錢道具帳、D存檔能力回執、第13章R1b候選全文。來源未改。",
-    "commit": "PENDING_MAIN_PUSH",
-    "ci_result": "pending",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42986481381",
-    "not_finished": "當批主CI與Drive索引待核；正式小說0章/PREWRITE HOLD；新來源/後修版本仍需動態重驗。",
-    "next_step": "檢查第52批main Actions兩種CI；成功則完成當前366來源的編輯性整檔驗收登記，改為增量來源與語義品質抽查，不重計已有來源。"
+    "stage": "BATCH52_3_MAIN_CI_VERIFIED",
+    "scope": "第52批3份474行13連續段33條原文SHA命題66條非Canon圖邊已通過主CI；Gemini第14章C與D歷史轉貼／版本回執及第13章R1b全文均已登記，原稿未改，當前全庫366／366。",
+    "commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42989171348",
+    "not_finished": "當前待審來源0；未來Git新增或既有來源SHA變更仍需重驗；歷史AI語義驗收不等於作者採案。正式正文0章PREWRITE HOLD。",
+    "next_step": "下次先核Git HEAD/動態來源數與主CI；若來源仍366份且SHA未變，改為已驗收材料的高風險語義品質抽查，不重計原來源；新增或改版才排下一批。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",

@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第52批已登記候選366／366但當批CI待確認；Gemini歷史自述不作原生平台證據。",
+  "warning": "當前366／366份來源編輯性整檔驗收通過主CI；後續新來源/來源SHA變動須動態回查，小說正式0章。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,10 +176,10 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第52批3份來源已登記、尚未經當批主CI核定；暫列366／366，零待審。原稿與候選皆非正式Canon，後續Git新增/版本更動需自動重驗。",
+    "limitations": "第52批3份整檔驗收主CI42989171348 success，Drive42989171326 success；當前366／366，未審0。此為AI編輯性語義來源覆蓋，不是作者Canon批准；原始候選照舊。",
     "full_file_editorial_accepted": 171,
     "full_file_editorial_pending": 0,
-    "all_source_full_file_editorial_accepted_pending_ci": 3,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 0,
     "historical_164_accepted": 153,
     "all_source_full_file_editorial_accepted": 366
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第51批CI42986481381已通過；第52批3份474行暫登記366／366，主CI與Drive同步仍待檢核。"
+  "notice_2026_11_11": "第52批主CI及Drive索引成功，當前動態366份全部完成AI編輯性驗收，正式0章/PREWRITE HOLD。"
 }
