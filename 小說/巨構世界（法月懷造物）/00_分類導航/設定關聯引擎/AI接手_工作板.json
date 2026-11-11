@@ -14,7 +14,7 @@
     "warning": "合併後main GitHub CI已success，編輯語義驗收不等於作者Canon批准。"
   },
   "fact_snapshot": {
-    "raw_source_files": 350,
+    "raw_source_files": 351,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,7 +22,7 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 10,
+    "nine_folder_files": 11,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
     "important": "第39批12份已通過PR與合併後main CI。全庫243／348、待審105份；正式小說0章 PREWRITE HOLD。",
@@ -32,7 +32,7 @@
     "full_file_editorial_remaining": 73,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 243,
-    "all_source_full_file_editorial_remaining": 107,
+    "all_source_full_file_editorial_remaining": 108,
     "historical_164_full_file_acceptance": 135,
     "historical_171_full_file_acceptance": 98,
     "all_source_progress_is_dynamic": true
@@ -83,7 +83,7 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 243,
-        "pending": 107,
+        "pending": 108,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -869,7 +869,7 @@
     "original_line_anchors": 89,
     "nonCanon_graph_links": 178,
     "all_source_accepted": 243,
-    "all_source_pending": 107,
+    "all_source_pending": 108,
     "state": "BATCH39_COMMIT_AND_MAIN_CI_VERIFIED__NON_CANON",
     "notes": "PR #23 完成；main 合併提交 f65e308，main驗證及索引發布CI success。全庫243/348，105待審。正式0章 PREWRITE HOLD。"
   },
