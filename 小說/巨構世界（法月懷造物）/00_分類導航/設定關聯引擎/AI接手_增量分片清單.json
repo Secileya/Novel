@@ -280,17 +280,17 @@
     },
     {
       "path": "20261111_第四十七批12份_巨構導航WKT地圖與版本權威_全文語義v2.json",
-      "git_blob_sha": "3043126c99ce1b05705b7d612f0d0319dd2acf68",
+      "git_blob_sha": "e52bf4904ebd89631491a3b290497314ff62246f",
       "batch": "BATCH47",
       "source_count": 12,
       "original_lines": 2729,
       "semantic_sections": 103,
       "claim_count": 103,
       "graph_relations": 206,
-      "note": "第47批12份2729行103段103條來源SHA命題206非Canon關聯；3份導航及9份SVG/JSON地圖；來源與跨檔依賴核對；主CI待驗。"
+      "note": "第47批12份2729行103段103條來源SHA命題206非Canon關聯；3份導航及9份SVG/JSON地圖；來源與跨檔依賴核對；主CI待驗。 修正圖譜summary須與來源審核title精確一致（初次CI未通過，證據橋格式修復後待CI）。"
     }
   ],
-  "notice": "第47批十二份SHA分片已建立，主CI未確認前僅為待驗登記；W01舊九區、七W十K圖、K01/T路況、P導航均不因索引升為正式Canon。",
+  "notice": "第47批來源驗收分片圖譜摘要在初次CI因與對應原子命題標題不相同而失敗；現已修正並待新CI，禁止提前計完成。",
   "revalidations": [
     {
       "path": "20261110_來源後修重驗_客觀近即時_16份不重計.json",
