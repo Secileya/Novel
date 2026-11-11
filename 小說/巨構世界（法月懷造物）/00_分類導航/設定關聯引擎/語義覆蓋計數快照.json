@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第31批兩項GitHub CI成功，153／335、182待審；正式0章／PREWRITE HOLD。",
+  "warning": "第44批12份待main CI驗證；360份來源中279份已提交審核、81待審，正式0章PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 6123,
-    "audited_original_quote_anchors": 6314,
+    "audited_batched_claims": 6346,
+    "audited_original_quote_anchors": 6537,
     "original_archive_09_files": 15,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第43批B2第152非正史六章3,015行已由main CI確認，267／360待審93（第十四章新存4份未整檔驗收）；同SHA候選別名歷史已驗收，純正文抽出未驗；正式0章PREWRITE HOLD。",
+    "limitations": "第44批12份main待CI；279/360已提交審核證據、81待審；B2同文、13/14章皆非Canon；正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 122,
     "full_file_editorial_pending": 49,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 93,
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 81,
     "historical_164_accepted": 135,
-    "all_source_full_file_editorial_accepted": 267
+    "all_source_full_file_editorial_accepted": 279
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第41批PR #25已完成兩條CI檢查：66熟人舊版、91/92初遇連續、109A/110B互斥以及順讀導航；全庫261／355、94待審；main驗收尚待合併後核對。"
+  "notice_2026_11_11": "本輪BATCH44：12份4,857行174段223條SHA證據、446非Canon原生圖連接；第14章仍需定向修訂，候選不得升Canon。"
 }

@@ -244,6 +244,17 @@
       "claim_count": 98,
       "graph_relations": 196,
       "note": "B2第152六章非正史從頭重寫，3,015行49段98條SHA命題196非Canon關係、24次反向檢查9個依賴SHA；與第110和B2短增量互斥，同SHA候選封存與純正文屬來源別名，不升Canon。；CI材料檢查發現7條findings過短，補全文義，所有行號與圖連結不變。；98條圖譜摘要與審核標題同步修補，內容及原始行號不變。"
+    },
+    {
+      "path": "20261111_第四十四批12份_B2同文_十三章版本與十四章候選_全文語義v2.json",
+      "git_blob_sha": "43cdb2e8f0112f0ba2b8082820eaef209507db5a",
+      "batch": "BATCH44",
+      "source_count": 12,
+      "original_lines": 4857,
+      "semantic_sections": 174,
+      "claim_count": 223,
+      "graph_relations": 446,
+      "note": "十二份來源全文及權威範圍：B2純正文與第152故事同文、世界層不打卡規則、第13章R0/R1/R1a、作者A卡、Gemini C、GPT獨立QA與第14章B。4,857行174段223條SHA命題446條非Canon圖邊；第14章仍需局部修改。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
