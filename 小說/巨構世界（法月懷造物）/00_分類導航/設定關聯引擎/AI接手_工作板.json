@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 364,
+    "raw_source_files": 365,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -21,22 +21,22 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 17,
+    "nine_folder_files": 18,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第49批12份 10648行111命題111項audit、222獨立來源引文及222非Canon圖邊已經主CI42979445965成功驗證，Drive索引42979445940成功；339/364，待審25；正式0章PREWRITE HOLD。",
+    "important": "第49批前12份整檔驗收通過既有主CI；另新增第14章R1a Gemini D 歷史保存回執1份，動態來源365、339份已驗收、26份待審。新增D尚未做整檔語義驗收，正式0章 PREWRITE HOLD。",
     "targeted_audit_records": 6865,
     "targeted_audit_verified_quotes": 7056,
     "full_file_editorial_accepted": 163,
     "full_file_editorial_remaining": 8,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 339,
-    "all_source_full_file_editorial_remaining": 25,
+    "all_source_full_file_editorial_remaining": 26,
     "historical_164_full_file_acceptance": 151,
     "historical_171_full_file_acceptance": 163,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 25
+    "all_source_full_file_editorial_pending": 26
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -84,7 +84,7 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 339,
-        "pending": 25,
+        "pending": 26,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -1069,7 +1069,7 @@
     "original_line_anchors": 222,
     "nonCanon_graph_links": 222,
     "all_source_accepted": 339,
-    "all_source_pending": 25,
+    "all_source_pending": 26,
     "state": "BATCH49_12_MAIN_CI_VERIFIED",
     "notes": "第49批12份已通過主CI42979445965與Drive索引42979445940。第一次主CI因把222額外引文誤加到111個audit計數而失敗，已於修復提交aa8cfed修正並成功。原稿與0章Canon不動。"
   },
@@ -1096,8 +1096,8 @@
     "commit": "aa8cfedc83895a6c07aad59a4e1263f44e8a257d",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42979445965",
-    "not_finished": "尚有25份來源未做整檔語義驗收，現來源364；第50批預排12份已去重，不得把候選升Canon；正式0章 PREWRITE HOLD。",
-    "next_step": "先讀當前main最新HEAD和第49批CI修復閉環，再按NEXT-009.next_batch確認第50批12份SHA及後出修正，提交前重跑防重。"
+    "not_finished": "第49批先前CI成功339/364；新歸檔D後動態339/365，剩26份未審。D是使用者回貼之歷史能力／保存說明，不是最新GitHub寫入能力聲明。正式0章PREWRITE HOLD。",
+    "next_step": "核新 D 歷史來源與最新索引、CI，並按下一批工作隊列繼續全文驗收；第14章R1a尚需獨立全篇最終QA。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
