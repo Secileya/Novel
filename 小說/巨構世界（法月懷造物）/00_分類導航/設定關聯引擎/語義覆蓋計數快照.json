@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第48批12份/4742行/111段/111SHA命題/191錨點/222非Canon關係已建立待main CI；動態全庫361來源，327/361暫計，成功前保持待驗。",
+  "warning": "第48批成功主CI42975137185，12份4742行111原子SHA命題191來源引文222非Canon圖連線；新第14章R1a候選使來源總362，327驗收35待審。現行CI audit anchor本批111，不是191引文。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -164,7 +164,7 @@
   "note": "335來源有某種可追蹤結構化入口；164份至少有既有細粒度命題，171份有獨立來源用途卡、370原文錨點與部分修訂語義，但未完成全文設定命題逐一仲裁。37組文字關係含互斥／補篇對照，不全是同章修訂。",
   "current_operational_metrics": {
     "source": "derived by matching 全庫物理清冊.json and 全庫待原子化缺口清冊.json paths, version ledger, audited batches",
-    "raw_original_sources": 361,
+    "raw_original_sources": 362,
     "with_fine_grained_reference": 164,
     "with_source_role_card_pending_full_semantic_review": 171,
     "machine_screened_source_dossiers": 213,
@@ -176,11 +176,11 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第48批12份SHA全文審核分片已登記待main CI；327/361暫驗收、34份未審；原始正文0章PREWRITE HOLD。",
+    "limitations": "第48批12份主CI驗證成功；全庫增1份第14章R1a候選後327/362已驗收、35未審。正式小說0章 PREWRITE HOLD；候選未升Canon。",
     "full_file_editorial_accepted": 157,
     "full_file_editorial_pending": 14,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 34,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
+    "all_source_full_file_editorial_pending": 35,
     "historical_164_accepted": 146,
     "all_source_full_file_editorial_accepted": 327
   },
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第48批十二份、舊資料勘誤與跨AI原文；第47批已成功。分母361，另新增08_第十二至十四章...稽核仍待審；候選未升Canon，0章PREWRITE HOLD。"
+  "notice_2026_11_11": "第48批全文驗收主CI已成功，工作板327/362、35未審。11/11新第14章R1a候選受GitHub動態掃描自動納入待審，不按舊總量361固定。"
 }

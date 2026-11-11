@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 361,
+    "raw_source_files": 362,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -24,19 +24,19 @@
     "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第48批12份4742行111段111命題191錨點222非Canon關聯已提交待main CI；來源361總檔，暫登記327/361剩34（CI成功前不得宣稱正式完成）；正式0章PREWRITE HOLD，原文未覆寫。 累計全庫CI錨點以每條審核命題1項計=6945；本批另存具體來源引文191處，不應直接相加到舊計數。",
+    "important": "第48批12份4742行111語義區已於main修正後通過CI；327/362驗收、35份待審。另1份11/11第14章R1a候選新增而分母從361增362，已納入未審動態來源。正式小說章數0 PREWRITE HOLD；B48 191處原文引文與111條audit累計口徑分開。",
     "targeted_audit_records": 6754,
     "targeted_audit_verified_quotes": 6945,
     "full_file_editorial_accepted": 157,
     "full_file_editorial_remaining": 14,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 327,
-    "all_source_full_file_editorial_remaining": 34,
+    "all_source_full_file_editorial_remaining": 35,
     "historical_164_full_file_acceptance": 146,
     "historical_171_full_file_acceptance": 157,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 34
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
+    "all_source_full_file_editorial_pending": 35
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -84,17 +84,17 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 327,
-        "pending": 34,
+        "pending": 35,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第48批12份原始來源SHA逐段編輯性驗收：4742行111段111命題191證據錨點222非Canon圖連線；主CI尚待。累計327/361暫登記，34待審；正式0章PREWRITE HOLD。",
-        "stage": "BATCH48_12_PENDING_MAIN_CI",
-        "last_verified_commit": "1e88e86af56fd949f5ad63943c73b73f1b80957b",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42968929867",
+        "note": "第48批12份4742行111語義區、111條SHA命題、191處來源行錨、222條非Canon圖關聯，主CI與Drive索引成功；另有新第14章R1a候選源在本批後入main，來源361→362，327/362已驗收、35待審；正式0章PREWRITE HOLD。",
+        "stage": "BATCH48_12_MAIN_CI_VERIFIED",
+        "last_verified_commit": "72a38830d530544de2fdbc7ca719f66ea6aa07fe",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42975137185",
         "cross_source_next_batch": [],
         "historical_164_accepted": 146,
         "historical_171_accepted": 157,
@@ -749,7 +749,7 @@
           "unmodified_originals": true
         },
         "batch_48": {
-          "stage": "BATCH48_12_PENDING_MAIN_CI",
+          "stage": "COMPLETE__MAIN_CI_VERIFIED",
           "source_count": 12,
           "source_lines": 4742,
           "semantic_sections": 111,
@@ -763,7 +763,14 @@
           "audit_path": "20261111_第四十八批12份_舊勘誤首篇與歷史分冊_全文語義v2.json",
           "precheck_sha": "ba4552b8ce728c59c68429106bc6342f49bb3dcb",
           "next_batch_count": 12,
-          "main_ci_result": "pending"
+          "main_ci_result": "success",
+          "source_total": 362,
+          "accepted_total": 327,
+          "pending_total": 35,
+          "verified_commit": "72a38830d530544de2fdbc7ca719f66ea6aa07fe",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42975137185",
+          "drive_index_url": "https://github.com/Secileya/Novel/actions/runs/42975137188",
+          "failed_ci_url": "https://github.com/Secileya/Novel/actions/runs/42974956029"
         }
       }
     },
@@ -1042,9 +1049,9 @@
     "original_line_anchors": 191,
     "nonCanon_graph_links": 222,
     "all_source_accepted": 327,
-    "all_source_pending": 34,
-    "state": "BATCH48_12_PENDING_MAIN_CI",
-    "notes": "第48批B48正式分片已上傳，仍待main CI。最新新增08來源入動態361分母，第49批12份SHA路徑去重預排；Canon0章未改。 累計audit錨點採shard.evidence_count=111，分片另有191處逐字來源引文。"
+    "all_source_pending": 35,
+    "state": "BATCH48_12_MAIN_CI_VERIFIED",
+    "notes": "第48批分片111命題、191來源引文已經成功核驗：主CI42975137185、Drive索引42975137188。隨後另一寫作歸檔新增第14章R1a候選源，使動態總量362、待審35，並非原B48驗收失效。全庫327/362，正式0章。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1064,13 +1071,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH48_12_PENDING_MAIN_CI",
-    "scope": "第48批12份全文原文實讀與版本權威仲裁：4742行111段111條SHA原子命題191行錨與222非Canon既有領域關聯。019後出55降權、051作者114選定未發生、195_A混合來源的作者原話與助手候選切分；來源不變。",
-    "commit": "PENDING_NEW_COMMIT",
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "第48批主CI未驗證；327/361僅待核對登記、34份未審。已從歷史全帳和26分片去重排定第49批12份；正式0章PREWRITE HOLD。",
-    "next_step": "先驗第48批main CI和Drive索引；成功才轉正式結案。然後依NEXT-009.next_batch核對第49批12份真實SHA、逐段語義後修和圖連線。"
+    "stage": "BATCH48_12_MAIN_CI_VERIFIED",
+    "scope": "第48批12份4742行111段111條SHA命題、191原文引文與222條非Canon圖連結成功驗證；19/55、51/87/114、195A/031/189已做權威隔離；另新增1份第14章R1a候選，動態來源總數362。",
+    "commit": "72a38830d530544de2fdbc7ca719f66ea6aa07fe",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42975137185",
+    "not_finished": "第48批12份主CI成功，累計327/362；尚有35份待整檔語義驗收，其中新增第14章R1a候選1份。第49批已選12份來源但尚未實際審定。正式0章PREWRITE HOLD。",
+    "next_step": "依NEXT-009.next_batch 12份進行第49批逐檔原文SHA、後出版本、四類查漏及非Canon圖連線，成功CI後才增計；新增第14章R1a仍保留在動態待驗清單，不可漏掃。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
