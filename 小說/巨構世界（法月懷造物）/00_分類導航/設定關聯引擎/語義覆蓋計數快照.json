@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 5876,
-    "audited_original_quote_anchors": 6067,
+    "audited_batched_claims": 5938,
+    "audited_original_quote_anchors": 6129,
     "original_archive_09_files": 13,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第40批12份PR #24 CI success、全庫255/351、96待審；正式小說0章 PREWRITE HOLD，不等於作者採納候選劇情。",
-    "full_file_editorial_accepted": 110,
-    "full_file_editorial_pending": 61,
+    "limitations": "第41批6份2,723行PR與push CI已成功，全庫261／355、待審94；正式0章PREWRITE HOLD，任何候選仍非Canon。",
+    "full_file_editorial_accepted": 116,
+    "full_file_editorial_pending": 55,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 100,
+    "all_source_full_file_editorial_pending": 94,
     "historical_164_accepted": 135,
-    "all_source_full_file_editorial_accepted": 255
+    "all_source_full_file_editorial_accepted": 261
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第40批PR驗證12份3889行，155命題310非Canon圖邊，351總來源255份編輯性已驗收，尚餘96；正式0章PREWRITE HOLD。"
+  "notice_2026_11_11": "第41批PR #25已完成兩條CI檢查：66熟人舊版、91/92初遇連續、109A/110B互斥以及順讀導航；全庫261／355、94待審；main驗收尚待合併後核對。"
 }
