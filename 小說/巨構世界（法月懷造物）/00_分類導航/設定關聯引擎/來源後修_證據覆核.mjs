@@ -77,35 +77,43 @@ export function pinnedSourceVersion(loc,target,home=HOME){
  return revisionBytes(loc,target,patches.flatMap(p=>[...(p.anchor_migrations||[]),...(p.line_replacements||[])]),home);
 }
 export function applyEvidenceRevalidations(data,home=HOME){
- const patches=readRevalidations(home),migrations=patches.flatMap(p=>p.anchor_migrations),lineReplacements=patches.flatMap(p=>p.line_replacements||[]);
+ const patches=readRevalidations(home);
+ // Replay the append-only SHA chain in manifest order. Historical insertions
+ // can precede later same-line replacements on the very same source.
+ const revisions=patches.flatMap(p=>[...(p.anchor_migrations||[]),...(p.line_replacements||[])]);
  function walk(x){
   if(!x||typeof x!=='object')return;
   if(Array.isArray(x)){for(const y of x)walk(y);return;}
   const loc=x.source_path||x.path;
-  for(const m of lineReplacements)if(m.path===loc){
-   if(x.git_blob_sha===m.from_sha){
-    const c=m.changes.find(c=>c.line===x.line);
-    if(c&&typeof x.quote==='string'&&c.old_line.includes(x.quote)&&!c.new_line.includes(x.quote))x.quote=c.new_line;
-    x.git_blob_sha=m.to_sha;
+  for(const m of revisions)if(m.path===loc){
+   if(Number.isInteger(m.insert_before)){
+    if(x.git_blob_sha===m.from_sha){
+     x.git_blob_sha=m.to_sha;
+     if(Number.isInteger(x.line)&&x.line>=m.insert_before)x.line+=m.insert_count;
+    }
+    if(x.git_blob_sha_verified===m.from_sha){
+     x.git_blob_sha_verified=m.to_sha;
+     if(Number.isInteger(x.source_lines))x.source_lines+=m.insert_count;
+     for(const a of x.source_outline||[]){
+      if(a.heading_line>=m.insert_before)a.heading_line+=m.insert_count;
+      if(a.excerpt_line>=m.insert_before)a.excerpt_line+=m.insert_count;
+     }
+    }
+    if(x.source_git_blob_sha===m.from_sha){
+     x.source_git_blob_sha=m.to_sha;x.current_source_role_revision=m.meaning;
+     for(const a of x.evidence||[])if(a.line>=m.insert_before)a.line+=m.insert_count;
+    }
+   }else{
+    if(x.git_blob_sha===m.from_sha){
+     const c=m.changes.find(c=>c.line===x.line);
+     if(c&&typeof x.quote==='string'&&c.old_line.includes(x.quote)&&!c.new_line.includes(x.quote))x.quote=c.new_line;
+     x.git_blob_sha=m.to_sha;
+    }
+    if(x.git_blob_sha_verified===m.from_sha)x.git_blob_sha_verified=m.to_sha;
+    if(x.source_git_blob_sha===m.from_sha){
+     x.source_git_blob_sha=m.to_sha;x.current_source_role_revision=m.meaning;
+    }
    }
-   if(x.git_blob_sha_verified===m.from_sha)x.git_blob_sha_verified=m.to_sha;
-   if(x.source_git_blob_sha===m.from_sha){x.source_git_blob_sha=m.to_sha;x.current_source_role_revision=m.meaning;}
-  }
-  for(const m of migrations)if(m.path===loc&&m.from_sha===x.git_blob_sha){
-   x.git_blob_sha=m.to_sha;
-   if(Number.isInteger(x.line)&&x.line>=m.insert_before)x.line+=m.insert_count;
-  }
-  for(const m of migrations)if(m.path===loc&&m.from_sha===x.git_blob_sha_verified){
-   x.git_blob_sha_verified=m.to_sha;
-   if(Number.isInteger(x.source_lines))x.source_lines+=m.insert_count;
-   for(const a of x.source_outline||[]){
-    if(a.heading_line>=m.insert_before)a.heading_line+=m.insert_count;
-    if(a.excerpt_line>=m.insert_before)a.excerpt_line+=m.insert_count;
-   }
-  }
-  for(const m of migrations)if(m.path===loc&&m.from_sha===x.source_git_blob_sha){
-   x.source_git_blob_sha=m.to_sha;x.current_source_role_revision=m.meaning;
-   for(const a of x.evidence||[])if(a.line>=m.insert_before)a.line+=m.insert_count;
   }
   for(const y of Object.values(x))walk(y);
  }
