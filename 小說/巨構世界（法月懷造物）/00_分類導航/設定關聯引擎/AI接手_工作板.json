@@ -801,7 +801,7 @@
           "source_total": 366,
           "registered_total_pending_ci": 366,
           "pending_total": 0,
-          "shard_sha": "e415f556319cd2149694b37343b5b8650553f1fa",
+          "shard_sha": "b56779321f4012f6f7fbe5f25c962c59ab14495f",
           "unmodified_originals": true,
           "source_paths": [
             "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
@@ -811,7 +811,10 @@
           "previous_batch_main_ci": "https://github.com/Secileya/Novel/actions/runs/42986481381",
           "first_ci_run": "https://github.com/Secileya/Novel/actions/runs/42988684614",
           "first_ci_status": "failure",
-          "first_ci_reason": "NEXT_BATCH EMPTY_SELECTION from unconditional checkSelected([]) despite pending 0"
+          "first_ci_reason": "NEXT_BATCH EMPTY_SELECTION from unconditional checkSelected([]) despite pending 0",
+          "second_main_ci": "https://github.com/Secileya/Novel/actions/runs/42988959306",
+          "second_main_ci_status": "failure",
+          "second_main_ci_reason": "33 material-topic meaning/authority swapped; CI incomplete material-topic meaning/authority"
         }
       }
     },
