@@ -56,7 +56,311 @@
     }
   ],
   "anchor_migrations": [],
-  "attestation_replacements": [],
+  "attestation_replacements": [
+    {
+      "path": "待定正文/順讀_最新補丁候選/README.md",
+      "previous_sha": "6f480b88d9ba491b0429c584a622a994d317da07",
+      "record": {
+        "source_path": "待定正文/順讀_最新補丁候選/README.md",
+        "git_blob_sha": "aeca91a433a09616f2203581eda106286ac2038a",
+        "source_role_id": "FULL-B45-11",
+        "source_kind": "TEXT_SOURCE",
+        "related_claim_ids": [
+          "SRC-ALL-6421",
+          "SRC-ALL-6422",
+          "SRC-ALL-6423",
+          "SRC-ALL-6424",
+          "SRC-ALL-6425",
+          "SRC-ALL-6426",
+          "SRC-ALL-6427",
+          "SRC-ALL-6428",
+          "SRC-ALL-6429"
+        ],
+        "status": "FULL_FILE_EDITORIAL_ATTESTED",
+        "source_progress_note": "全檔50行逐段閱讀，9段具原文SHA錨點及第二遍權威／後修／漏檢／依賴核對，不改源文。【2026-11-11】插入非正史現況提示5行，原文其餘部分照原樣保留、行號平移。；前置37行唯一最新十四章順讀與補丁狀態，其餘55行仍完整保留歷史。；2026-11-12第十四章六點工單由R1a微修成R1b，唯一順讀README第24/26/38行同位更新，原Canon0章不變。",
+        "source_line_count": 92,
+        "reviewed_sections": [
+          {
+            "from": 1,
+            "to": 37,
+            "anchor_line": 1,
+            "quote": "# 《巨構世界》｜唯一最新順讀入口（01～14章）",
+            "meaning": "固定一套順讀區的新十四章閱讀目錄與補丁狀態；舊內容已清楚轉為歷史快照，未改作者正式Canon。；現時第14章目錄及說明更新為R1b六點工單微修，第15章R1候選仍待科技安全QA。"
+          },
+          {
+            "from": 38,
+            "to": 44,
+            "anchor_line": 43,
+            "quote": "# 《巨構世界》｜第01～12章最新補丁候選・順序閱讀入口",
+            "meaning": "1至12章最新版候選閱讀入口；前置加入現況提醒，保留其後所有歷史內容。"
+          },
+          {
+            "from": 45,
+            "to": 48,
+            "anchor_line": 45,
+            "quote": "> **這是目前 GitHub `main` 上可接續閱讀的最新補丁候選鏈，不是正式採用的小說正文。** 作者目前正式正文 **0章／PREWRITE HOLD**。本目錄的「最新有效」只代表**以目前實際已套進",
+            "meaning": "順讀已套補丁不等於正式Canon"
+          },
+          {
+            "from": 49,
+            "to": 57,
+            "anchor_line": 51,
+            "quote": "**最新 QA 精修已實際套入**：第03章古斯塔私物結賞依據、第05章相位研究交代、第06章被動濾霧鏡、第08～09章母匙雙重用途、第10／12章時間線共九處修補。細節見 [第01～12章實際補丁清單](../",
+            "meaning": "第三五六及八九十十二章有實際精修"
+          },
+          {
+            "from": 58,
+            "to": 67,
+            "anchor_line": 63,
+            "quote": "| **07** | [底錨塔裡的無聲客](07_底錨塔裡的無聲客.md) | G9E＋G10R4（11/08） | A/B/C補丁＋塞拉極簡D已套 |",
+            "meaning": "七八章極簡D已套入現候選"
+          },
+          {
+            "from": 68,
+            "to": 73,
+            "anchor_line": 72,
+            "quote": "- 現行閱讀基準：**11/08 `G9E＋G10R4：A/B/C 已套＋極簡 D 已套`**，本目錄拆成第07、08章。其來源為 [最新補丁兩章全文](../純正文_Gemini/第七八章_G9E_G10R4_",
+            "meaning": "舊四補丁危險半秒方案不可混入"
+          },
+          {
+            "from": 74,
+            "to": 77,
+            "anchor_line": 74,
+            "quote": "- 現行極簡 D 是：**先修吊籠、登頂待命，主軸承未卸載前不能開啟；不得把「換向瞬間零速」視為已證安全的半秒退針窗口。** 第09章由獨立完整結案候選接續。",
+            "meaning": "主軸承未卸載前不能按零速窗口開啟"
+          },
+          {
+            "from": 78,
+            "to": 84,
+            "anchor_line": 80,
+            "quote": "- **正式採用 Canon**：**沒有，至今正式正文0章**。既有第01～12章是可讀完整候選，不是出版社定稿，也不自動指定下一章。",
+            "meaning": "來源閱讀鏈不等於作者正式採案"
+          },
+          {
+            "from": 85,
+            "to": 89,
+            "anchor_line": 88,
+            "quote": "- 後續若再修改，應**先更新這十二個順讀檔中的相應一章並完成文字／因果檢驗，再更新本表**；不能只在 README 最上面寫一條新消息，讓舊入口誤稱最新。",
+            "meaning": "未來先改實際章節驗證後再更新README"
+          },
+          {
+            "from": 90,
+            "to": 92,
+            "anchor_line": 91,
+            "quote": "**目前故事最後可讀至第12章〈齒背後的二十二年盲盒〉，第13章未寫。**",
+            "meaning": "第13章未寫是本入口當時狀態已過時"
+          }
+        ],
+        "latest_revisions_checked": [
+          "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md"
+        ],
+        "latest_revision_source_sha_manifest": [
+          {
+            "path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "git_blob_sha": "de6e5923dbc428d303ea1dfd033c0436d5a0a764"
+          }
+        ],
+        "checklist": {
+          "all_source_lines_accounted_for": true,
+          "all_sections_have_semantic_classification": true,
+          "author_vs_assistant_boundary_checked": true,
+          "latest_known_revisions_checked": true,
+          "candidate_and_canon_separated": true,
+          "no_source_content_rewritten": true,
+          "claims_to_current_version_reconciled": true,
+          "all_relevant_atomic_claims_are_source_anchored": true,
+          "existing_graph_edges_not_canon_upgraded": true
+        },
+        "attestation": {
+          "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+          "checked_on": "2026-11-12",
+          "review_scope": "依來源原文逐段辨別歷史快照／模型回執／獨立QA／作者正式判定及相關上下游版本。",
+          "revocation": "來源或相依SHA、作者明示修訂改變時須重新審查。"
+        },
+        "semantic_quality_v2": {
+          "protocol": "FULL_FILE_SEMANTIC_V2",
+          "material_units": [
+            {
+              "section_index": 1,
+              "line": 1,
+              "quote": "# 《巨構世界》｜唯一最新順讀入口（01～14章）",
+              "topic": "最新十四章唯一順讀入口",
+              "finding": "唯一最新順讀入口已列出十四份實際正文檔案及三處補丁和來源；原先十二章記錄仍被清楚標記為歷史，正式Canon仍是0章。；2026-11-12最新表格指向14章R1b並同步第15章R1候選尚未安全完審，歷史第14章R1a仍保留。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [],
+              "no_claim_reason": "本次新增是導航與版本管理資訊，沒有可憑空建立的小說世界觀圖譜命題。"
+            },
+            {
+              "section_index": 2,
+              "line": 43,
+              "quote": "# 《巨構世界》｜第01～12章最新補丁候選・順序閱讀入口",
+              "topic": "1至12章最新版候選閱讀入口與來源級別",
+              "finding": "1至12章最新版候選閱讀入口，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6421"
+              ]
+            },
+            {
+              "section_index": 3,
+              "line": 45,
+              "quote": "> **這是目前 GitHub `main` 上可接續閱讀的最新補丁候選鏈，不是正式採用的小說正文。** 作者目前正式正文 **0章／PREWRITE HOLD**。本目錄的「最新有效」只代表**以目前實際已套進",
+              "topic": "順讀已套補丁不等於正式Canon與來源級別",
+              "finding": "順讀已套補丁不等於正式Canon，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6422"
+              ]
+            },
+            {
+              "section_index": 4,
+              "line": 51,
+              "quote": "**最新 QA 精修已實際套入**：第03章古斯塔私物結賞依據、第05章相位研究交代、第06章被動濾霧鏡、第08～09章母匙雙重用途、第10／12章時間線共九處修補。細節見 [第01～12章實際補丁清單](../",
+              "topic": "第三五六及八九十十二章有實際精修與來源級別",
+              "finding": "第三五六及八九十十二章有實際精修，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6423"
+              ]
+            },
+            {
+              "section_index": 5,
+              "line": 63,
+              "quote": "| **07** | [底錨塔裡的無聲客](07_底錨塔裡的無聲客.md) | G9E＋G10R4（11/08） | A/B/C補丁＋塞拉極簡D已套 |",
+              "topic": "七八章極簡D已套入現候選與來源級別",
+              "finding": "七八章極簡D已套入現候選，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6424"
+              ]
+            },
+            {
+              "section_index": 6,
+              "line": 72,
+              "quote": "- 現行閱讀基準：**11/08 `G9E＋G10R4：A/B/C 已套＋極簡 D 已套`**，本目錄拆成第07、08章。其來源為 [最新補丁兩章全文](../純正文_Gemini/第七八章_G9E_G10R4_",
+              "topic": "舊四補丁危險半秒方案不可混入與來源級別",
+              "finding": "舊四補丁危險半秒方案不可混入，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6425"
+              ]
+            },
+            {
+              "section_index": 7,
+              "line": 74,
+              "quote": "- 現行極簡 D 是：**先修吊籠、登頂待命，主軸承未卸載前不能開啟；不得把「換向瞬間零速」視為已證安全的半秒退針窗口。** 第09章由獨立完整結案候選接續。",
+              "topic": "主軸承未卸載前不能按零速窗口開啟與來源級別",
+              "finding": "主軸承未卸載前不能按零速窗口開啟，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6426"
+              ]
+            },
+            {
+              "section_index": 8,
+              "line": 80,
+              "quote": "- **正式採用 Canon**：**沒有，至今正式正文0章**。既有第01～12章是可讀完整候選，不是出版社定稿，也不自動指定下一章。",
+              "topic": "來源閱讀鏈不等於作者正式採案與來源級別",
+              "finding": "來源閱讀鏈不等於作者正式採案，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6427"
+              ]
+            },
+            {
+              "section_index": 9,
+              "line": 88,
+              "quote": "- 後續若再修改，應**先更新這十二個順讀檔中的相應一章並完成文字／因果檢驗，再更新本表**；不能只在 README 最上面寫一條新消息，讓舊入口誤稱最新。",
+              "topic": "未來先改實際章節驗證後再更新README與來源級別",
+              "finding": "未來先改實際章節驗證後再更新README，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6428"
+              ]
+            },
+            {
+              "section_index": 10,
+              "line": 91,
+              "quote": "**目前故事最後可讀至第12章〈齒背後的二十二年盲盒〉，第13章未寫。**",
+              "topic": "第13章未寫是本入口當時狀態已過時與來源級別",
+              "finding": "第13章未寫是本入口當時狀態已過時，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6429"
+              ]
+            }
+          ],
+          "countercheck_questions": [
+            {
+              "kind": "AUTHORITY_BOUNDARY",
+              "line": 43,
+              "quote": "# 《巨構世界》｜第01～12章最新補丁候選・順序閱讀入口",
+              "question": "該來源是作者決策還是Gemini自評、GPT QA或目錄？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            },
+            {
+              "kind": "VERSION_OR_LATER_REVISION",
+              "line": 63,
+              "quote": "| **07** | [底錨塔裡的無聲客](07_底錨塔裡的無聲客.md) | G9E＋G10R4（11/08） | A/B/C補丁＋塞拉極簡D已套 |",
+              "question": "本段哪些內容已被後出作者決議或版本更新？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            },
+            {
+              "kind": "MISSED_MATERIAL_CLAIM",
+              "line": 80,
+              "quote": "- **正式採用 Canon**：**沒有，至今正式正文0章**。既有第01～12章是可讀完整候選，不是出版社定稿，也不自動指定下一章。",
+              "question": "有無漏掉時序、物權、地理路權或候選來源條件？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            },
+            {
+              "kind": "CROSS_FILE_IMPACT",
+              "line": 91,
+              "quote": "**目前故事最後可讀至第12章〈齒背後的二十二年盲盒〉，第13章未寫。**",
+              "question": "本段內容會對哪些已有原檔或未定因果產生影響？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            }
+          ],
+          "dependency_impact_review": [
+            {
+              "path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+              "git_blob_sha": "de6e5923dbc428d303ea1dfd033c0436d5a0a764",
+              "impact": "需對照上游原文與後出修正，避免把單一導航條目、模型自評或作者層劇透視為正式世界已發生之事件。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            }
+          ],
+          "second_pass_method": "第一遍核對全檔按行連續分段及文字錨，第二遍針對每份來源另問權威、版本、跨檔及漏證，逐段檢查最新作者裁定和候選隔離。；新37行的14章實體路徑已逐一確認，舊55行 SHA 逆運算完整一致。；後出精確核對README第24/26/38行三行變更與第14章、01～14合輯同步，完整SHA可逆、沒有變動其餘89行或Canon狀態。",
+          "unresolved_risks": [
+            "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。",
+            "原十二章的舊目錄僅歷史證據；不可閱讀舊章節狀態作為目前新章總數。"
+          ]
+        },
+        "source_revision_revalidation": "[object Object]；2026-11-12又完成README單章標籤/最新版本備註的整行SHA證據覆核，來源由6f480b→aeca91，保持新版本非Canon。"
+      },
+      "semantic_impact": "第14章六點送達／起運微修後，README第24、26、38行由R1a更新為R1b且明示第15章R1仍有安全QA未解；歷史內容及正式Canon0章維持；核對舊SHA、行號、詞條及下游閱讀入口。",
+      "counterchecks": [
+        {
+          "kind": "AUTHORITY_BOUNDARY",
+          "question": "R1b是否只是順讀候選而非正式作者採案？",
+          "finding": "第14章R1b與第15章R1僅為候選，README版本更新不宣布正式正文採用，Canon仍0章。"
+        },
+        {
+          "kind": "VERSION_OR_LATER_REVISION",
+          "question": "是否保留前一版README與原第14章歷史來源？",
+          "finding": "README三處整行更新有前後Git blob SHA可逆核驗，第14章R1a原檔及原三批候選均保持不變。"
+        },
+        {
+          "kind": "MISSED_MATERIAL_CLAIM",
+          "question": "是否確實覆核新舊工單與十五章狀態？",
+          "finding": "README讀本第14章從R1a改R1b標籤，六點掛車與六點一刻送抵符合第15章R1；第15章仍明確標示防毒技術QA待修。"
+        },
+        {
+          "kind": "CROSS_FILE_IMPACT",
+          "question": "唯一順讀目錄與十四章合輯是否同步一致？",
+          "finding": "第14章單章R1b與合輯同位原句已同步，README指向同一版本；沒有建立第二套順讀目錄或把15章塞入01～14合輯。"
+        }
+      ]
+    }
+  ],
   "direct_source_revisions": [
     {
       "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
