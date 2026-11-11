@@ -1,9 +1,9 @@
 {
   "schema": "mega-body-repair-exact-patches/v1",
   "updated_at": "2026-11-11",
-  "status": "READY_FOR_DERIVED_NONCANON_PREVIEW__NOT_APPLIED",
-  "default_policy": "READ_ONLY_SOURCE_FILES; NO_CANON_PROMOTION; patch generated output is a new candidate that needs provenance/author review",
-  "source_counts_unchanged": 366,
+  "status": "APPLIED_IN_SINGLE_CURRENT_NONCANON_READER__ORIGINAL_BLOBS_RECOVERABLE",
+  "default_policy": "New noncanon reader now contains reviewed exact patches; older original Git blob SHA must be recoverable by source revalidation. Historical source and author Canon remain distinct.",
+  "source_counts_unchanged": 370,
   "patches": [
     {
       "id": "BODY-PATCH-03-REWARD",
@@ -41,5 +41,9 @@
       "rationale": "補足後文『從裡面抽一張五銅幣零券』的實物來源，仍以付5銅值計，不捏造5枚硬幣。",
       "author_approved": false
     }
+  ],
+  "latest_reader_paths": [
+    "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+    "待定正文/順讀_最新補丁候選/11_撈風底的人.md"
   ]
 }

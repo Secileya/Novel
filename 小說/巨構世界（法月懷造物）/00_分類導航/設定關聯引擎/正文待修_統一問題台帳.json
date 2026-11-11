@@ -7,19 +7,21 @@
   "stats": {
     "total": 9,
     "RESOLVED_DERIVED": 2,
-    "OPEN_REVIEW": 4,
-    "PATCHED_CANDIDATE": 1,
+    "PATCHED_CANDIDATE": 4,
+    "OPEN_REVIEW": 1,
     "WATCH": 2
   },
   "currency": {
     "copper_value_out": 30,
-    "copper_value_in": 4,
-    "copper_value_net": -26,
+    "copper_value_in": 9,
+    "copper_value_net": -21,
     "opening_balance": null,
     "chapter11_five_copper_is_note": true,
-    "chapter10_refund": null,
+    "chapter10_refund": 5,
     "silver_753_is_conditional": true,
-    "post_patch_conditional_net_copper": -21
+    "post_patch_conditional_net_copper": -21,
+    "original_unpatched_net": -26,
+    "note": "30銅值已見流出，4銅找零及第11章實退熱水費5銅合計9入，淨-21；只適用目前非Canon新版，期初未知，銀券不得重複扣。"
   },
   "issues": [
     {
@@ -85,7 +87,7 @@
     {
       "id": "BODY-QA-002",
       "severity": "P0",
-      "status": "OPEN_REVIEW",
+      "status": "PATCHED_CANDIDATE",
       "title": "第3章賞金150枚與對話十五張銀券不一致",
       "fact": "同章把300銀賞金分出150枚給艾莉維亞，諾亞後來卻說自己剛分到十五張銀券；枚／張的具體面額未證實。",
       "fix": "核銀券面額、其他版本與人物台詞後才改；若是單純口誤，新建非Canon補丁將『十五張』更正為150的恰當單位，再重查第3–14章帳本。",
@@ -111,12 +113,23 @@
       ],
       "proposed_patch_ids": [
         "BODY-PATCH-03-REWARD"
-      ]
+      ],
+      "resolution": {
+        "kind": "PATCHED_SINGLE_READER_NONCANON",
+        "candidate_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "candidate_blob_sha": "ccc6e046bfc9256ed6336a6a4ef643671f956fe3",
+        "applied_at": "2026-11-11",
+        "author_approved": false,
+        "canon_approved": false,
+        "source_histories_preserved_in_git": true,
+        "source_sha_pin_revalidation": "20261111_唯一順讀區同位替換與入口前綴_SHA重驗_不重計.json",
+        "note": "只在唯一固定順讀區實套局部補丁；歷史原SHA由證據覆核器精確重建，仍非正式Canon。"
+      }
     },
     {
       "id": "BODY-QA-003",
       "severity": "P1",
-      "status": "OPEN_REVIEW",
+      "status": "PATCHED_CANDIDATE",
       "title": "第10章已付的熱水5銅，第11章又宣布免收",
       "fact": "第10章實交20（套房15＋熱水5），第11章賀老太太因救援說免收那5銅，未見退款／抵帳動作。",
       "fix": "接手新候選正文須選：明確退還5銅、抵下次房費，或把台詞改為未來熱水免費。未補前不得帳記+5退款。",
@@ -142,12 +155,23 @@
       ],
       "proposed_patch_ids": [
         "BODY-PATCH-11-REFUND"
-      ]
+      ],
+      "resolution": {
+        "kind": "PATCHED_SINGLE_READER_NONCANON",
+        "candidate_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "candidate_blob_sha": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3",
+        "applied_at": "2026-11-11",
+        "author_approved": false,
+        "canon_approved": false,
+        "source_histories_preserved_in_git": true,
+        "source_sha_pin_revalidation": "20261111_唯一順讀區同位替換與入口前綴_SHA重驗_不重計.json",
+        "note": "只在唯一固定順讀區實套局部補丁；歷史原SHA由證據覆核器精確重建，仍非正式Canon。"
+      }
     },
     {
       "id": "BODY-QA-004",
       "severity": "P1",
-      "status": "OPEN_REVIEW",
+      "status": "PATCHED_CANDIDATE",
       "title": "第11章只攤兩張銀券，卻被抽走一張五銅零券",
       "fact": "諾亞先放兩張銀鉚券；塔里『從裡面』抽出五銅幣零券又退回兩張銀券，零券從哪裡取出有歧義。",
       "fix": "若諾亞有額外拿出零券，補寫取出動作；否則依貨幣制度改成真實付款流程。零券張數與銅幣枚數不可混用。",
@@ -167,7 +191,18 @@
       ],
       "proposed_patch_ids": [
         "BODY-PATCH-11-NOTE"
-      ]
+      ],
+      "resolution": {
+        "kind": "PATCHED_SINGLE_READER_NONCANON",
+        "candidate_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "candidate_blob_sha": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3",
+        "applied_at": "2026-11-11",
+        "author_approved": false,
+        "canon_approved": false,
+        "source_histories_preserved_in_git": true,
+        "source_sha_pin_revalidation": "20261111_唯一順讀區同位替換與入口前綴_SHA重驗_不重計.json",
+        "note": "只在唯一固定順讀區實套局部補丁；歷史原SHA由證據覆核器精確重建，仍非正式Canon。"
+      }
     },
     {
       "id": "BODY-QA-005",

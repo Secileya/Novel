@@ -1,0 +1,898 @@
+{
+  "schema": "mega-source-revalidation-v1",
+  "date": "2026-11-11",
+  "editorial_not_canon": true,
+  "newly_accepted_source_count": 0,
+  "method": "SHA_PINNED_EXACT_SAME_LINE_REPLACEMENT_PLUS_37_LINE_PREPEND__SINGLE_READER",
+  "anchor_migrations": [
+    {
+      "path": "待定正文/順讀_最新補丁候選/README.md",
+      "from_sha": "69a1f66387357c18f329645acbb3ed27ad6d3312",
+      "to_sha": "6f480b88d9ba491b0429c584a622a994d317da07",
+      "insert_before": 1,
+      "insert_count": 37,
+      "decision_line": 1,
+      "decision_quote": "# 《巨構世界》｜唯一最新順讀入口（01～14章）",
+      "meaning": "作者要求唯一順讀區，前置37行全新14章目錄，後方55行舊資訊逐字保留並明示僅為歷史；來源引文順移且不重新計數。"
+    }
+  ],
+  "line_replacements": [
+    {
+      "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+      "from_sha": "c994954ce871b5ed108b1aaac661a2baab14c12b",
+      "to_sha": "ccc6e046bfc9256ed6336a6a4ef643671f956fe3",
+      "changes": [
+        {
+          "line": 71,
+          "old_line": "「妳桌上那些瓶瓶罐罐，隨便碰倒一瓶，我剛分到的十五張銀券大概就不夠賠了。」諾亞用筷子挑起一筷子加了辣油的鹼水麵，「而且妳那瓶藍色洗劑揮發的味道，聞起來像能直接把人的鼻毛燒掉。」",
+          "new_line": "「妳桌上那些瓶瓶罐罐，隨便碰倒一瓶，我剛分到的那份賞金大概就不夠賠了。」諾亞用筷子挑起一筷子加了辣油的鹼水麵，「而且妳那瓶藍色洗劑揮發的味道，聞起來像能直接把人的鼻毛燒掉。」"
+        }
+      ],
+      "meaning": "僅將已核對的一至兩行正文內容依SHA復原的方式轉換；第3章賞金口誤與第11章熱水退款、五銅零券完整實物動作有編輯審稿證據。"
+    },
+    {
+      "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+      "from_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+      "to_sha": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3",
+      "changes": [
+        {
+          "line": 151,
+          "old_line": "剛才還一臉嫌棄的賀老太太一把抱住那隻滿是綠鏽的銅公雞，用袖口使勁擦了擦雞冠上的灰，嘴角怎麼壓都壓不下來。她轉過頭，衝著諾亞和艾莉維亞大手一揮：「行了！你們兩個今天那五個銅板的熱水錢免了！晚上老太婆我再給你們燉一鍋鹹肉白菜湯！」",
+          "new_line": "剛才還一臉嫌棄的賀老太太一把抱住那隻滿是綠鏽的銅公雞，用袖口使勁擦了擦雞冠上的灰，嘴角怎麼壓都壓不下來。她轉過頭，從腰間舊錢袋裡數出五枚銅索幣，往諾亞攤開的掌心一放，這才大手一揮：「行了！你們兩個今天那五個銅板的熱水錢免了！晚上老太婆我再給你們燉一鍋鹹肉白菜湯！」"
+        },
+        {
+          "line": 195,
+          "old_line": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券放在工作台上：",
+          "new_line": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券，連同一張五銅幣面額的零券，一起放在工作台上："
+        }
+      ],
+      "meaning": "僅將已核對的一至兩行正文內容依SHA復原的方式轉換；第3章賞金口誤與第11章熱水退款、五銅零券完整實物動作有編輯審稿證據。"
+    }
+  ],
+  "attestation_replacements": [
+    {
+      "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+      "previous_sha": "c994954ce871b5ed108b1aaac661a2baab14c12b",
+      "record": {
+        "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "git_blob_sha": "ccc6e046bfc9256ed6336a6a4ef643671f956fe3",
+        "source_role_id": "FULL-B51-03",
+        "source_kind": "TEXT_SOURCE",
+        "related_claim_ids": [
+          "SRC-ALL-7065",
+          "SRC-ALL-7066",
+          "SRC-ALL-7067",
+          "SRC-ALL-7068",
+          "SRC-ALL-7069",
+          "SRC-ALL-7070"
+        ],
+        "status": "FULL_FILE_EDITORIAL_ATTESTED",
+        "source_progress_note": "全文連續區間、原文SHA、當時事件與後出結果分開核對；符合編輯核查、不代表作者批准。；已依2026-11-11最新正文台帳三處整行補丁審閱新版SHA，仍非Canon。",
+        "source_line_count": 260,
+        "reviewed_sections": [
+          {
+            "from": 1,
+            "to": 43,
+            "anchor_line": 27,
+            "quote": "一名穿著鐵索工聯學徒背心、滿頭大汗的年輕小子連滾帶爬地衝下台階，手裡還拎著一只沾著黑灰與乾涸血跡的帆布袋。",
+            "meaning": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。"
+          },
+          {
+            "from": 44,
+            "to": 86,
+            "anchor_line": 69,
+            "quote": "「喂，諾亞。」她轉過身，一手叉腰，頭頂的呆毛困惑地歪向一邊，「你幹嘛坐門口地上吃啊？搞得像我虐待童工似的。」",
+            "meaning": "三百賞金平分各一百五十，諾亞保留催款皮夾與照片；艾莉維亞研究人工壓扁的舊維修通道介質。"
+          },
+          {
+            "from": 87,
+            "to": 129,
+            "anchor_line": 109,
+            "quote": "在那塊暗銀碎件自行融入槍身之後，他的視野並沒有變成全知全能的透視眼；但在槍口指向的五公尺範圍內，鐵牆背後那根正在運轉的高壓蒸氣管、以及管線接口處最脆弱的三顆應力鉚釘，竟在他的直覺裡呈現出一種無比清晰的「線條感」——彷彿只要他願意，隨時可以一槍剪斷那條線。",
+            "meaning": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限。"
+          },
+          {
+            "from": 130,
+            "to": 172,
+            "anchor_line": 147,
+            "quote": "「上面有東西，兩頭！」諾亞在瞬間提醒，「別往右邊的電纜井退，那邊全是蟲子！」",
+            "meaning": "離城荒野噬電螢和殼木裂枝獸接連出現，測距儀受電蟲影響，兩人不可能無限制精確測距。"
+          },
+          {
+            "from": 173,
+            "to": 215,
+            "anchor_line": 195,
+            "quote": "艾莉維亞抬起手，把幾縷在狂奔中糊在臉上、還帶著一點靜電微微炸毛的深青藍長髮撥到耳後，轉頭瞪了旁邊的青年一眼；諾亞也正轉過頭看她，風衣肩頭被剛才飛濺的電火花燎出了一道黑印。",
+            "meaning": "根獸驚動蟲群引發藍色電光風暴，兩人靠合作躲避並見到彼此狼狽狀態。"
+          },
+          {
+            "from": 216,
+            "to": 260,
+            "anchor_line": 237,
+            "quote": "凹槽果然擋住了高空九成的寒風，連耳邊呼嘯的氣流聲都在這裡變得格外輕柔。",
+            "meaning": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。"
+          }
+        ],
+        "latest_revisions_checked": [
+          "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+          "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+          "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md"
+        ],
+        "latest_revision_source_sha_manifest": [
+          {
+            "path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+            "git_blob_sha": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+            "git_blob_sha": "cda72e376ebebd6db22807144989f94f00ae5994"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+            "git_blob_sha": "b67b80c05adb50f75d0a07e0ff132463ba0df501"
+          }
+        ],
+        "checklist": {
+          "all_source_lines_accounted_for": true,
+          "all_sections_have_semantic_classification": true,
+          "author_vs_assistant_boundary_checked": true,
+          "latest_known_revisions_checked": true,
+          "candidate_and_canon_separated": true,
+          "no_source_content_rewritten": true,
+          "claims_to_current_version_reconciled": true,
+          "all_relevant_atomic_claims_are_source_anchored": true,
+          "existing_graph_edges_not_canon_upgraded": true
+        },
+        "attestation": {
+          "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+          "checked_on": "2026-11-11",
+          "review_scope": "逐段讀取候選原文及轉貼歷史、比對近前後修訂，用四類反向問題複核；非第三方盲審。",
+          "revocation": "原文SHA或相關依賴、重要材料有變動，退回重驗；當批CI未過不可算驗收完成。"
+        },
+        "semantic_quality_v2": {
+          "protocol": "FULL_FILE_SEMANTIC_V2",
+          "material_units": [
+            {
+              "section_index": 1,
+              "line": 27,
+              "quote": "一名穿著鐵索工聯學徒背心、滿頭大汗的年輕小子連滾帶爬地衝下台階，手裡還拎著一只沾著黑灰與乾涸血跡的帆布袋。",
+              "topic": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。",
+              "finding": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7065"
+              ]
+            },
+            {
+              "section_index": 2,
+              "line": 69,
+              "quote": "「喂，諾亞。」她轉過身，一手叉腰，頭頂的呆毛困惑地歪向一邊，「你幹嘛坐門口地上吃啊？搞得像我虐待童工似的。」",
+              "topic": "三百賞金平分各一百五十，諾亞保留催款皮夾與照片；艾莉維亞研究人工壓扁的舊維修通道介質。",
+              "finding": "三百賞金平分各一百五十，諾亞保留催款皮夾與照片；艾莉維亞研究人工壓扁的舊維修通道介質。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7066"
+              ]
+            },
+            {
+              "section_index": 2,
+              "line": 71,
+              "quote": "「妳桌上那些瓶瓶罐罐，隨便碰倒一瓶，我剛分到的那份賞金大概就不夠賠了。」諾亞用筷子挑起一筷子加了辣油的鹼水麵，「而且妳那瓶藍色洗劑揮發的味道，聞起來像能直接把人的鼻毛燒掉。」",
+              "topic": "局部現金交易編輯性修補",
+              "finding": "已逐行比對原稿與新稿SHA，僅修正原文金額口誤、實際退款或零券交付，原始作者採案狀態仍為非Canon候選。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [],
+              "no_claim_reason": "此局部正文更正已有問題台帳與原文證據，不新增無來源世界觀命題、也不虛構原本無關的圖譜端點。"
+            },
+            {
+              "section_index": 3,
+              "line": 109,
+              "quote": "在那塊暗銀碎件自行融入槍身之後，他的視野並沒有變成全知全能的透視眼；但在槍口指向的五公尺範圍內，鐵牆背後那根正在運轉的高壓蒸氣管、以及管線接口處最脆弱的三顆應力鉚釘，竟在他的直覺裡呈現出一種無比清晰的「線條感」——彷彿只要他願意，隨時可以一槍剪斷那條線。",
+              "topic": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限",
+              "finding": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7067"
+              ]
+            },
+            {
+              "section_index": 4,
+              "line": 147,
+              "quote": "「上面有東西，兩頭！」諾亞在瞬間提醒，「別往右邊的電纜井退，那邊全是蟲子！」",
+              "topic": "離城荒野噬電螢和殼木裂枝獸接連出現，測距儀受電蟲影響，兩人不可能無限制精確測距。",
+              "finding": "離城荒野噬電螢和殼木裂枝獸接連出現，測距儀受電蟲影響，兩人不可能無限制精確測距。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7068"
+              ]
+            },
+            {
+              "section_index": 5,
+              "line": 195,
+              "quote": "艾莉維亞抬起手，把幾縷在狂奔中糊在臉上、還帶著一點靜電微微炸毛的深青藍長髮撥到耳後，轉頭瞪了旁邊的青年一眼；諾亞也正轉過頭看她，風衣肩頭被剛才飛濺的電火花燎出了一道黑印。",
+              "topic": "根獸驚動蟲群引發藍色電光風暴，兩人靠合作躲避並見到彼此狼狽狀態。",
+              "finding": "根獸驚動蟲群引發藍色電光風暴，兩人靠合作躲避並見到彼此狼狽狀態。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7069"
+              ]
+            },
+            {
+              "section_index": 6,
+              "line": 237,
+              "quote": "凹槽果然擋住了高空九成的寒風，連耳邊呼嘯的氣流聲都在這裡變得格外輕柔。",
+              "topic": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。",
+              "finding": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7070"
+              ]
+            }
+          ],
+          "countercheck_questions": [
+            {
+              "kind": "AUTHORITY_BOUNDARY",
+              "line": 27,
+              "quote": "一名穿著鐵索工聯學徒背心、滿頭大汗的年輕小子連滾帶爬地衝下台階，手裡還拎著一只沾著黑灰與乾涸血跡的帆布袋。",
+              "question": "哪些資料只屬AI自述、順讀候選或轉貼而非作者正式批准？",
+              "finding": "傍晚六點過風鐘敲響，鐵索工聯送古斯塔遺留催款證明，戰勝賞金附帶他人現實人生後果。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "VERSION_OR_LATER_REVISION",
+              "line": 109,
+              "quote": "在那塊暗銀碎件自行融入槍身之後，他的視野並沒有變成全知全能的透視眼；但在槍口指向的五公尺範圍內，鐵牆背後那根正在運轉的高壓蒸氣管、以及管線接口處最脆弱的三顆應力鉚釘，竟在他的直覺裡呈現出一種無比清晰的「線條感」——彷彿只要他願意，隨時可以一槍剪斷那條線。",
+              "question": "有哪一條後出作者修補會推翻早期角色的推測、時間和道具狀態？",
+              "finding": "黑銃吸收暗銀微型卡槽後初始只能在槍口附近五公尺感知隔障結構線條，非全知視野或五公尺射程上限。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "MISSED_MATERIAL_CLAIM",
+              "line": 195,
+              "quote": "艾莉維亞抬起手，把幾縷在狂奔中糊在臉上、還帶著一點靜電微微炸毛的深青藍長髮撥到耳後，轉頭瞪了旁邊的青年一眼；諾亞也正轉過頭看她，風衣肩頭被剛才飛濺的電火花燎出了一道黑印。",
+              "question": "哪些具體戰鬥限制、金額、交通或角色演技不能在回查時遺漏？",
+              "finding": "根獸驚動蟲群引發藍色電光風暴，兩人靠合作躲避並見到彼此狼狽狀態。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "CROSS_FILE_IMPACT",
+              "line": 237,
+              "quote": "凹槽果然擋住了高空九成的寒風，連耳邊呼嘯的氣流聲都在這裡變得格外輕柔。",
+              "question": "與相鄰章接合時容易發生何種越權、提前得知或物件重複的問題？",
+              "finding": "檢修軌往內壁轉，巨構肋骨凹槽可避風；共分酸果糖與舊錶細節是旅行情感節點非已確立正式關係。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            }
+          ],
+          "dependency_impact_review": [
+            {
+              "path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+              "git_blob_sha": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            },
+            {
+              "path": "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+              "git_blob_sha": "cda72e376ebebd6db22807144989f94f00ae5994",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            },
+            {
+              "path": "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+              "git_blob_sha": "b67b80c05adb50f75d0a07e0ff132463ba0df501",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            }
+          ],
+          "second_pass_method": "第一遍取原文時間、道具、事件及人物選擇；第二遍逐章反查版本權威、早期猜測和實證、金額與物件遞移、與左右章的人物資訊界線，並比對合輯和R1a後修。；重查第3及11章SHA復原與三處金流／票據實物來源。",
+          "unresolved_risks": [
+            "順讀最新候選不可當作者Canon；角色誤判或未發生情節不能寫成客觀已發生。",
+            "候選新修訂並非作者正式Canon，銀券面值與期初銅幣均未核定。"
+          ]
+        }
+      },
+      "semantic_impact": "原章已經全文審閱，本次只在原SHA已釘住的三處行文進行逐行替換，完整復原原文，核對票據、退款與前後章影響，維持原作者權威邊界。",
+      "counterchecks": [
+        {
+          "kind": "AUTHORITY_BOUNDARY",
+          "question": "候選稿是否仍非正式Canon？",
+          "finding": "三處小修為新非Canon候選，不虛構作者採案紀錄。"
+        },
+        {
+          "kind": "VERSION_OR_LATER_REVISION",
+          "question": "是否以可復原SHA驗證新舊差異？",
+          "finding": "依原文SHA精準復原，再逐行檢查三個唯一替換。"
+        },
+        {
+          "kind": "MISSED_MATERIAL_CLAIM",
+          "question": "是否遺漏其他金額和道具問題？",
+          "finding": "第三章口誤、十一章實退五銅與零券來源均修正。"
+        },
+        {
+          "kind": "CROSS_FILE_IMPACT",
+          "question": "變動是否影響相鄰章與版本引用？",
+          "finding": "其他章原字句不變，第13／14章只取最新R1b/R1a。"
+        }
+      ]
+    },
+    {
+      "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+      "previous_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+      "record": {
+        "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "git_blob_sha": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3",
+        "source_role_id": "FULL-B51-11",
+        "source_kind": "TEXT_SOURCE",
+        "related_claim_ids": [
+          "SRC-ALL-7116",
+          "SRC-ALL-7117",
+          "SRC-ALL-7118",
+          "SRC-ALL-7119",
+          "SRC-ALL-7120",
+          "SRC-ALL-7121"
+        ],
+        "status": "FULL_FILE_EDITORIAL_ATTESTED",
+        "source_progress_note": "全文連續區間、原文SHA、當時事件與後出結果分開核對；符合編輯核查、不代表作者批准。；已依2026-11-11最新正文台帳三處整行補丁審閱新版SHA，仍非Canon。",
+        "source_line_count": 228,
+        "reviewed_sections": [
+          {
+            "from": 1,
+            "to": 43,
+            "anchor_line": 29,
+            "quote": "「下午四點半。樓下老太太剛才送了一壺熱水和兩塊烤紅薯上來，在桌上的銅盆裡溫著。」",
+            "meaning": "雙人於第十章清晨入眠後到下午四點半才醒，黑銷裝上使原槍套短四寸而須改製。"
+          },
+          {
+            "from": 44,
+            "to": 86,
+            "anchor_line": 71,
+            "quote": "走出院門的艾莉維亞好奇地湊到石欄杆邊，低頭往三十公尺下的「迴風渦槽」望去。",
+            "meaning": "停擺解禁廢棄迴風渦槽的撈風底活動，居民為風帶走的舊物與產權爭執。"
+          },
+          {
+            "from": 87,
+            "to": 129,
+            "anchor_line": 111,
+            "quote": "「第一，你右手邊三尺外的管子根部，卡著一隻老太太二十年前掉下去的黃銅試風雞，順手幫她拿上來。」諾亞伸出一根手指，隨即又拍了拍自己風衣內袋裡那把因為多了一尺黑桿而無處安放的短銃，「第二，我看你腰上掛著皮具定製的樣板。上去之後，去你的工坊幫我改一個加長的內襯皮套，再幫她這枚六角古鏡片做個防撞的翻蓋保護殼——手工費照算，怎麼樣？」",
+            "meaning": "塔里恐被金簧堂同業發現卡腿，救援交易含取回賀老太太銅風雞和替兩人改皮具。"
+          },
+          {
+            "from": 130,
+            "to": 172,
+            "anchor_line": 153,
+            "quote": "半個鐘頭後，在塔里的熱情引路下，諾亞與艾莉維亞穿過了三環主街背後的拱門，走進了一片與外頭粗獷重工截然不同的街區——「織銅弄」。",
+            "meaning": "艾莉維亞界楔移走岩縫擠壓，諾亞低噪抓鉤救出塔里；織銅弄空中絲路與平地石路呈不同族群生活。"
+          },
+          {
+            "from": 173,
+            "to": 215,
+            "anchor_line": 195,
+            "quote": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券，連同一張五銅幣面額的零券，一起放在工作台上：",
+            "meaning": "塔里不問黑銃來歷卻替槍套、古殘鏡做深水泥鰻皮和六瓣防塵蓋；拒收兩銀券只收五銅幣。"
+          },
+          {
+            "from": 216,
+            "to": 228,
+            "anchor_line": 221,
+            "quote": "「剛才在百足軒的時候，我看見牆上貼著一張五環『舊鐘市集』的傳單。」",
+            "meaning": "椒麻核桃酥與雙人分享點心、次日五環舊鐘市集邀約銜接十二章清晨。"
+          }
+        ],
+        "latest_revisions_checked": [
+          "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+          "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md"
+        ],
+        "latest_revision_source_sha_manifest": [
+          {
+            "path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+            "git_blob_sha": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+            "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30"
+          }
+        ],
+        "checklist": {
+          "all_source_lines_accounted_for": true,
+          "all_sections_have_semantic_classification": true,
+          "author_vs_assistant_boundary_checked": true,
+          "latest_known_revisions_checked": true,
+          "candidate_and_canon_separated": true,
+          "no_source_content_rewritten": true,
+          "claims_to_current_version_reconciled": true,
+          "all_relevant_atomic_claims_are_source_anchored": true,
+          "existing_graph_edges_not_canon_upgraded": true
+        },
+        "attestation": {
+          "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+          "checked_on": "2026-11-11",
+          "review_scope": "逐段讀取候選原文及轉貼歷史、比對近前後修訂，用四類反向問題複核；非第三方盲審。",
+          "revocation": "原文SHA或相關依賴、重要材料有變動，退回重驗；當批CI未過不可算驗收完成。"
+        },
+        "semantic_quality_v2": {
+          "protocol": "FULL_FILE_SEMANTIC_V2",
+          "material_units": [
+            {
+              "section_index": 1,
+              "line": 29,
+              "quote": "「下午四點半。樓下老太太剛才送了一壺熱水和兩塊烤紅薯上來，在桌上的銅盆裡溫著。」",
+              "topic": "雙人於第十章清晨入眠後到下午四點半才醒，黑銷裝上使原槍套短四寸而須改製。",
+              "finding": "雙人於第十章清晨入眠後到下午四點半才醒，黑銷裝上使原槍套短四寸而須改製。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7116"
+              ]
+            },
+            {
+              "section_index": 2,
+              "line": 71,
+              "quote": "走出院門的艾莉維亞好奇地湊到石欄杆邊，低頭往三十公尺下的「迴風渦槽」望去。",
+              "topic": "停擺解禁廢棄迴風渦槽的撈風底活動，居民為風帶走的舊物與產權爭執。",
+              "finding": "停擺解禁廢棄迴風渦槽的撈風底活動，居民為風帶走的舊物與產權爭執。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7117"
+              ]
+            },
+            {
+              "section_index": 3,
+              "line": 111,
+              "quote": "「第一，你右手邊三尺外的管子根部，卡著一隻老太太二十年前掉下去的黃銅試風雞，順手幫她拿上來。」諾亞伸出一根手指，隨即又拍了拍自己風衣內袋裡那把因為多了一尺黑桿而無處安放的短銃，「第二，我看你腰上掛著皮具定製的樣板。上去之後，去你的工坊幫我改一個加長的內襯皮套，再幫她這枚六角古鏡片做個防撞的翻蓋保護殼——手工費照算，怎麼樣？」",
+              "topic": "塔里恐被金簧堂同業發現卡腿，救援交易含取回賀老太太銅風雞和替兩人改皮具。",
+              "finding": "塔里恐被金簧堂同業發現卡腿，救援交易含取回賀老太太銅風雞和替兩人改皮具。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7118"
+              ]
+            },
+            {
+              "section_index": 4,
+              "line": 151,
+              "quote": "剛才還一臉嫌棄的賀老太太一把抱住那隻滿是綠鏽的銅公雞，用袖口使勁擦了擦雞冠上的灰，嘴角怎麼壓都壓不下來。她轉過頭，從腰間舊錢袋裡數出五枚銅索幣，往諾亞攤開的掌心一放，這才大手一揮：「行了！你們兩個今天那五個銅板的熱水錢免了！晚上老太婆我再給你們燉一鍋鹹肉白菜湯！」",
+              "topic": "局部現金交易編輯性修補",
+              "finding": "已逐行比對原稿與新稿SHA，僅修正原文金額口誤、實際退款或零券交付，原始作者採案狀態仍為非Canon候選。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [],
+              "no_claim_reason": "此局部正文更正已有問題台帳與原文證據，不新增無來源世界觀命題、也不虛構原本無關的圖譜端點。"
+            },
+            {
+              "section_index": 4,
+              "line": 153,
+              "quote": "半個鐘頭後，在塔里的熱情引路下，諾亞與艾莉維亞穿過了三環主街背後的拱門，走進了一片與外頭粗獷重工截然不同的街區——「織銅弄」。",
+              "topic": "艾莉維亞界楔移走岩縫擠壓，諾亞低噪抓鉤救出塔里；織銅弄空中絲路與平地石路呈不同族群生活。",
+              "finding": "艾莉維亞界楔移走岩縫擠壓，諾亞低噪抓鉤救出塔里；織銅弄空中絲路與平地石路呈不同族群生活。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7119"
+              ]
+            },
+            {
+              "section_index": 5,
+              "line": 195,
+              "quote": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券，連同一張五銅幣面額的零券，一起放在工作台上：",
+              "topic": "塔里不問黑銃來歷卻替槍套、古殘鏡做深水泥鰻皮和六瓣防塵蓋；拒收兩銀券只收五銅幣。",
+              "finding": "塔里不問黑銃來歷卻替槍套、古殘鏡做深水泥鰻皮和六瓣防塵蓋；拒收兩銀券只收五銅幣。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7120"
+              ]
+            },
+            {
+              "section_index": 5,
+              "line": 195,
+              "quote": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券，連同一張五銅幣面額的零券，一起放在工作台上：",
+              "topic": "局部現金交易編輯性修補",
+              "finding": "已逐行比對原稿與新稿SHA，僅修正原文金額口誤、實際退款或零券交付，原始作者採案狀態仍為非Canon候選。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [],
+              "no_claim_reason": "此局部正文更正已有問題台帳與原文證據，不新增無來源世界觀命題、也不虛構原本無關的圖譜端點。"
+            },
+            {
+              "section_index": 6,
+              "line": 221,
+              "quote": "「剛才在百足軒的時候，我看見牆上貼著一張五環『舊鐘市集』的傳單。」",
+              "topic": "椒麻核桃酥與雙人分享點心、次日五環舊鐘市集邀約銜接十二章清晨。",
+              "finding": "椒麻核桃酥與雙人分享點心、次日五環舊鐘市集邀約銜接十二章清晨。",
+              "authority": "ASSISTANT_CANDIDATE",
+              "claim_ids": [
+                "SRC-ALL-7121"
+              ]
+            }
+          ],
+          "countercheck_questions": [
+            {
+              "kind": "AUTHORITY_BOUNDARY",
+              "line": 29,
+              "quote": "「下午四點半。樓下老太太剛才送了一壺熱水和兩塊烤紅薯上來，在桌上的銅盆裡溫著。」",
+              "question": "哪些資料只屬AI自述、順讀候選或轉貼而非作者正式批准？",
+              "finding": "雙人於第十章清晨入眠後到下午四點半才醒，黑銷裝上使原槍套短四寸而須改製。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "VERSION_OR_LATER_REVISION",
+              "line": 111,
+              "quote": "「第一，你右手邊三尺外的管子根部，卡著一隻老太太二十年前掉下去的黃銅試風雞，順手幫她拿上來。」諾亞伸出一根手指，隨即又拍了拍自己風衣內袋裡那把因為多了一尺黑桿而無處安放的短銃，「第二，我看你腰上掛著皮具定製的樣板。上去之後，去你的工坊幫我改一個加長的內襯皮套，再幫她這枚六角古鏡片做個防撞的翻蓋保護殼——手工費照算，怎麼樣？」",
+              "question": "有哪一條後出作者修補會推翻早期角色的推測、時間和道具狀態？",
+              "finding": "塔里恐被金簧堂同業發現卡腿，救援交易含取回賀老太太銅風雞和替兩人改皮具。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "MISSED_MATERIAL_CLAIM",
+              "line": 195,
+              "quote": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券，連同一張五銅幣面額的零券，一起放在工作台上：",
+              "question": "哪些具體戰鬥限制、金額、交通或角色演技不能在回查時遺漏？",
+              "finding": "塔里不問黑銃來歷卻替槍套、古殘鏡做深水泥鰻皮和六瓣防塵蓋；拒收兩銀券只收五銅幣。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            },
+            {
+              "kind": "CROSS_FILE_IMPACT",
+              "line": 221,
+              "quote": "「剛才在百足軒的時候，我看見牆上貼著一張五環『舊鐘市集』的傳單。」",
+              "question": "與相鄰章接合時容易發生何種越權、提前得知或物件重複的問題？",
+              "finding": "椒麻核桃酥與雙人分享點心、次日五環舊鐘市集邀約銜接十二章清晨。；保持來源權威、候選位置及前後章交叉核對，不從文字推導作者已採案。"
+            }
+          ],
+          "dependency_impact_review": [
+            {
+              "path": "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+              "git_blob_sha": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            },
+            {
+              "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+              "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            },
+            {
+              "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+              "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30",
+              "impact": "本份同完整合輯及相鄰候選章的角色知情、道具物權、技術負荷和時間必須一致；正文尚未成Canon。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            }
+          ],
+          "second_pass_method": "第一遍取原文時間、道具、事件及人物選擇；第二遍逐章反查版本權威、早期猜測和實證、金額與物件遞移、與左右章的人物資訊界線，並比對合輯和R1a後修。；重查第3及11章SHA復原與三處金流／票據實物來源。",
+          "unresolved_risks": [
+            "順讀最新候選不可當作者Canon；角色誤判或未發生情節不能寫成客觀已發生。",
+            "候選新修訂並非作者正式Canon，銀券面值與期初銅幣均未核定。"
+          ]
+        }
+      },
+      "semantic_impact": "原章已經全文審閱，本次只在原SHA已釘住的三處行文進行逐行替換，完整復原原文，核對票據、退款與前後章影響，維持原作者權威邊界。",
+      "counterchecks": [
+        {
+          "kind": "AUTHORITY_BOUNDARY",
+          "question": "候選稿是否仍非正式Canon？",
+          "finding": "三處小修為新非Canon候選，不虛構作者採案紀錄。"
+        },
+        {
+          "kind": "VERSION_OR_LATER_REVISION",
+          "question": "是否以可復原SHA驗證新舊差異？",
+          "finding": "依原文SHA精準復原，再逐行檢查三個唯一替換。"
+        },
+        {
+          "kind": "MISSED_MATERIAL_CLAIM",
+          "question": "是否遺漏其他金額和道具問題？",
+          "finding": "第三章口誤、十一章實退五銅與零券來源均修正。"
+        },
+        {
+          "kind": "CROSS_FILE_IMPACT",
+          "question": "變動是否影響相鄰章與版本引用？",
+          "finding": "其他章原字句不變，第13／14章只取最新R1b/R1a。"
+        }
+      ]
+    },
+    {
+      "path": "待定正文/順讀_最新補丁候選/README.md",
+      "previous_sha": "69a1f66387357c18f329645acbb3ed27ad6d3312",
+      "record": {
+        "source_path": "待定正文/順讀_最新補丁候選/README.md",
+        "git_blob_sha": "6f480b88d9ba491b0429c584a622a994d317da07",
+        "source_role_id": "FULL-B45-11",
+        "source_kind": "TEXT_SOURCE",
+        "related_claim_ids": [
+          "SRC-ALL-6421",
+          "SRC-ALL-6422",
+          "SRC-ALL-6423",
+          "SRC-ALL-6424",
+          "SRC-ALL-6425",
+          "SRC-ALL-6426",
+          "SRC-ALL-6427",
+          "SRC-ALL-6428",
+          "SRC-ALL-6429"
+        ],
+        "status": "FULL_FILE_EDITORIAL_ATTESTED",
+        "source_progress_note": "全檔50行逐段閱讀，9段具原文SHA錨點及第二遍權威／後修／漏檢／依賴核對，不改源文。【2026-11-11】插入非正史現況提示5行，原文其餘部分照原樣保留、行號平移。；前置37行唯一最新十四章順讀與補丁狀態，其餘55行仍完整保留歷史。",
+        "source_line_count": 92,
+        "reviewed_sections": [
+          {
+            "from": 1,
+            "to": 37,
+            "anchor_line": 1,
+            "quote": "# 《巨構世界》｜唯一最新順讀入口（01～14章）",
+            "meaning": "固定一套順讀區的新十四章閱讀目錄與補丁狀態；舊內容已清楚轉為歷史快照，未改作者正式Canon。"
+          },
+          {
+            "from": 38,
+            "to": 44,
+            "anchor_line": 43,
+            "quote": "# 《巨構世界》｜第01～12章最新補丁候選・順序閱讀入口",
+            "meaning": "1至12章最新版候選閱讀入口；前置加入現況提醒，保留其後所有歷史內容。"
+          },
+          {
+            "from": 45,
+            "to": 48,
+            "anchor_line": 45,
+            "quote": "> **這是目前 GitHub `main` 上可接續閱讀的最新補丁候選鏈，不是正式採用的小說正文。** 作者目前正式正文 **0章／PREWRITE HOLD**。本目錄的「最新有效」只代表**以目前實際已套進",
+            "meaning": "順讀已套補丁不等於正式Canon"
+          },
+          {
+            "from": 49,
+            "to": 57,
+            "anchor_line": 51,
+            "quote": "**最新 QA 精修已實際套入**：第03章古斯塔私物結賞依據、第05章相位研究交代、第06章被動濾霧鏡、第08～09章母匙雙重用途、第10／12章時間線共九處修補。細節見 [第01～12章實際補丁清單](../",
+            "meaning": "第三五六及八九十十二章有實際精修"
+          },
+          {
+            "from": 58,
+            "to": 67,
+            "anchor_line": 63,
+            "quote": "| **07** | [底錨塔裡的無聲客](07_底錨塔裡的無聲客.md) | G9E＋G10R4（11/08） | A/B/C補丁＋塞拉極簡D已套 |",
+            "meaning": "七八章極簡D已套入現候選"
+          },
+          {
+            "from": 68,
+            "to": 73,
+            "anchor_line": 72,
+            "quote": "- 現行閱讀基準：**11/08 `G9E＋G10R4：A/B/C 已套＋極簡 D 已套`**，本目錄拆成第07、08章。其來源為 [最新補丁兩章全文](../純正文_Gemini/第七八章_G9E_G10R4_",
+            "meaning": "舊四補丁危險半秒方案不可混入"
+          },
+          {
+            "from": 74,
+            "to": 77,
+            "anchor_line": 74,
+            "quote": "- 現行極簡 D 是：**先修吊籠、登頂待命，主軸承未卸載前不能開啟；不得把「換向瞬間零速」視為已證安全的半秒退針窗口。** 第09章由獨立完整結案候選接續。",
+            "meaning": "主軸承未卸載前不能按零速窗口開啟"
+          },
+          {
+            "from": 78,
+            "to": 84,
+            "anchor_line": 80,
+            "quote": "- **正式採用 Canon**：**沒有，至今正式正文0章**。既有第01～12章是可讀完整候選，不是出版社定稿，也不自動指定下一章。",
+            "meaning": "來源閱讀鏈不等於作者正式採案"
+          },
+          {
+            "from": 85,
+            "to": 89,
+            "anchor_line": 88,
+            "quote": "- 後續若再修改，應**先更新這十二個順讀檔中的相應一章並完成文字／因果檢驗，再更新本表**；不能只在 README 最上面寫一條新消息，讓舊入口誤稱最新。",
+            "meaning": "未來先改實際章節驗證後再更新README"
+          },
+          {
+            "from": 90,
+            "to": 92,
+            "anchor_line": 91,
+            "quote": "**目前故事最後可讀至第12章〈齒背後的二十二年盲盒〉，第13章未寫。**",
+            "meaning": "第13章未寫是本入口當時狀態已過時"
+          }
+        ],
+        "latest_revisions_checked": [
+          "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md"
+        ],
+        "latest_revision_source_sha_manifest": [
+          {
+            "path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "git_blob_sha": "de6e5923dbc428d303ea1dfd033c0436d5a0a764"
+          }
+        ],
+        "checklist": {
+          "all_source_lines_accounted_for": true,
+          "all_sections_have_semantic_classification": true,
+          "author_vs_assistant_boundary_checked": true,
+          "latest_known_revisions_checked": true,
+          "candidate_and_canon_separated": true,
+          "no_source_content_rewritten": true,
+          "claims_to_current_version_reconciled": true,
+          "all_relevant_atomic_claims_are_source_anchored": true,
+          "existing_graph_edges_not_canon_upgraded": true
+        },
+        "attestation": {
+          "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+          "checked_on": "2026-11-11",
+          "review_scope": "依來源原文逐段辨別歷史快照／模型回執／獨立QA／作者正式判定及相關上下游版本。",
+          "revocation": "來源或相依SHA、作者明示修訂改變時須重新審查。"
+        },
+        "semantic_quality_v2": {
+          "protocol": "FULL_FILE_SEMANTIC_V2",
+          "material_units": [
+            {
+              "section_index": 1,
+              "line": 1,
+              "quote": "# 《巨構世界》｜唯一最新順讀入口（01～14章）",
+              "topic": "最新十四章唯一順讀入口",
+              "finding": "唯一最新順讀入口已列出十四份實際正文檔案及三處補丁和來源；原先十二章記錄仍被清楚標記為歷史，正式Canon仍是0章。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [],
+              "no_claim_reason": "本次新增是導航與版本管理資訊，沒有可憑空建立的小說世界觀圖譜命題。"
+            },
+            {
+              "section_index": 2,
+              "line": 43,
+              "quote": "# 《巨構世界》｜第01～12章最新補丁候選・順序閱讀入口",
+              "topic": "1至12章最新版候選閱讀入口與來源級別",
+              "finding": "1至12章最新版候選閱讀入口，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6421"
+              ]
+            },
+            {
+              "section_index": 3,
+              "line": 45,
+              "quote": "> **這是目前 GitHub `main` 上可接續閱讀的最新補丁候選鏈，不是正式採用的小說正文。** 作者目前正式正文 **0章／PREWRITE HOLD**。本目錄的「最新有效」只代表**以目前實際已套進",
+              "topic": "順讀已套補丁不等於正式Canon與來源級別",
+              "finding": "順讀已套補丁不等於正式Canon，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6422"
+              ]
+            },
+            {
+              "section_index": 4,
+              "line": 51,
+              "quote": "**最新 QA 精修已實際套入**：第03章古斯塔私物結賞依據、第05章相位研究交代、第06章被動濾霧鏡、第08～09章母匙雙重用途、第10／12章時間線共九處修補。細節見 [第01～12章實際補丁清單](../",
+              "topic": "第三五六及八九十十二章有實際精修與來源級別",
+              "finding": "第三五六及八九十十二章有實際精修，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6423"
+              ]
+            },
+            {
+              "section_index": 5,
+              "line": 63,
+              "quote": "| **07** | [底錨塔裡的無聲客](07_底錨塔裡的無聲客.md) | G9E＋G10R4（11/08） | A/B/C補丁＋塞拉極簡D已套 |",
+              "topic": "七八章極簡D已套入現候選與來源級別",
+              "finding": "七八章極簡D已套入現候選，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6424"
+              ]
+            },
+            {
+              "section_index": 6,
+              "line": 72,
+              "quote": "- 現行閱讀基準：**11/08 `G9E＋G10R4：A/B/C 已套＋極簡 D 已套`**，本目錄拆成第07、08章。其來源為 [最新補丁兩章全文](../純正文_Gemini/第七八章_G9E_G10R4_",
+              "topic": "舊四補丁危險半秒方案不可混入與來源級別",
+              "finding": "舊四補丁危險半秒方案不可混入，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6425"
+              ]
+            },
+            {
+              "section_index": 7,
+              "line": 74,
+              "quote": "- 現行極簡 D 是：**先修吊籠、登頂待命，主軸承未卸載前不能開啟；不得把「換向瞬間零速」視為已證安全的半秒退針窗口。** 第09章由獨立完整結案候選接續。",
+              "topic": "主軸承未卸載前不能按零速窗口開啟與來源級別",
+              "finding": "主軸承未卸載前不能按零速窗口開啟，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6426"
+              ]
+            },
+            {
+              "section_index": 8,
+              "line": 80,
+              "quote": "- **正式採用 Canon**：**沒有，至今正式正文0章**。既有第01～12章是可讀完整候選，不是出版社定稿，也不自動指定下一章。",
+              "topic": "來源閱讀鏈不等於作者正式採案與來源級別",
+              "finding": "來源閱讀鏈不等於作者正式採案，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6427"
+              ]
+            },
+            {
+              "section_index": 9,
+              "line": 88,
+              "quote": "- 後續若再修改，應**先更新這十二個順讀檔中的相應一章並完成文字／因果檢驗，再更新本表**；不能只在 README 最上面寫一條新消息，讓舊入口誤稱最新。",
+              "topic": "未來先改實際章節驗證後再更新README與來源級別",
+              "finding": "未來先改實際章節驗證後再更新README，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6428"
+              ]
+            },
+            {
+              "section_index": 10,
+              "line": 91,
+              "quote": "**目前故事最後可讀至第12章〈齒背後的二十二年盲盒〉，第13章未寫。**",
+              "topic": "第13章未寫是本入口當時狀態已過時與來源級別",
+              "finding": "第13章未寫是本入口當時狀態已過時，已保留本段的歷史條件、版本差異和實際來源，不能因模型自評或索引存在即提升為已證正史。",
+              "authority": "PROCEDURAL_NON_CANON",
+              "claim_ids": [
+                "SRC-ALL-6429"
+              ]
+            }
+          ],
+          "countercheck_questions": [
+            {
+              "kind": "AUTHORITY_BOUNDARY",
+              "line": 43,
+              "quote": "# 《巨構世界》｜第01～12章最新補丁候選・順序閱讀入口",
+              "question": "該來源是作者決策還是Gemini自評、GPT QA或目錄？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            },
+            {
+              "kind": "VERSION_OR_LATER_REVISION",
+              "line": 63,
+              "quote": "| **07** | [底錨塔裡的無聲客](07_底錨塔裡的無聲客.md) | G9E＋G10R4（11/08） | A/B/C補丁＋塞拉極簡D已套 |",
+              "question": "本段哪些內容已被後出作者決議或版本更新？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            },
+            {
+              "kind": "MISSED_MATERIAL_CLAIM",
+              "line": 80,
+              "quote": "- **正式採用 Canon**：**沒有，至今正式正文0章**。既有第01～12章是可讀完整候選，不是出版社定稿，也不自動指定下一章。",
+              "question": "有無漏掉時序、物權、地理路權或候選來源條件？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            },
+            {
+              "kind": "CROSS_FILE_IMPACT",
+              "line": 91,
+              "quote": "**目前故事最後可讀至第12章〈齒背後的二十二年盲盒〉，第13章未寫。**",
+              "question": "本段內容會對哪些已有原檔或未定因果產生影響？",
+              "finding": "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。本反查只確認來源可見部分與其特定依賴。"
+            }
+          ],
+          "dependency_impact_review": [
+            {
+              "path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+              "git_blob_sha": "de6e5923dbc428d303ea1dfd033c0436d5a0a764",
+              "impact": "需對照上游原文與後出修正，避免把單一導航條目、模型自評或作者層劇透視為正式世界已發生之事件。",
+              "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+            }
+          ],
+          "second_pass_method": "第一遍核對全檔按行連續分段及文字錨，第二遍針對每份來源另問權威、版本、跨檔及漏證，逐段檢查最新作者裁定和候選隔離。；新37行的14章實體路徑已逐一確認，舊55行 SHA 逆運算完整一致。",
+          "unresolved_risks": [
+            "01–12順讀README最後稱13章未寫只屬本文件舊閱讀快照，13/14後續候選另存而未變正式Canon。",
+            "原十二章的舊目錄僅歷史證據；不可閱讀舊章節狀態作為目前新章總數。"
+          ]
+        },
+        "source_revision_revalidation": {
+          "previous_sha": "d0eebce56ca0f91633cdadd4da7ee88ececaa7b6",
+          "current_sha": "69a1f66387357c18f329645acbb3ed27ad6d3312",
+          "inserted_lines": 5,
+          "method": "PURE_PREFIX_INSERTION",
+          "editorial_not_canon": true
+        }
+      },
+      "semantic_impact": "在SHA已釘住的既有README前方精確增加37行最新十四章清單，不改原55行一字，原所有行錨順移37行，將舊12章導覽清楚分隔成歷史快照。",
+      "counterchecks": [
+        {
+          "kind": "AUTHORITY_BOUNDARY",
+          "question": "候選稿是否仍非正式Canon？",
+          "finding": "讀本只是非Canon整理，正式仍0章PREWRITE HOLD。"
+        },
+        {
+          "kind": "VERSION_OR_LATER_REVISION",
+          "question": "是否以可復原SHA驗證新舊差異？",
+          "finding": "原55行被保留且全部行號順延37行，新章節指向原路徑。"
+        },
+        {
+          "kind": "MISSED_MATERIAL_CLAIM",
+          "question": "是否遺漏其他金額和道具問題？",
+          "finding": "第3／11章三處修正且13R1b與14R1a均有實體檔案。"
+        },
+        {
+          "kind": "CROSS_FILE_IMPACT",
+          "question": "變動是否影響相鄰章與版本引用？",
+          "finding": "未改已認證歷史段落，新增章只作候選與現行版本引導。"
+        }
+      ]
+    }
+  ],
+  "claim_interpretations": {
+    "SRC-ALL-7066": "第03章對話口誤已改為『那份賞金』，不推定張枚換算。",
+    "SRC-ALL-7120": "第11章付款已有五銅零券交出動作與實際退還熱水費五枚銅幣。",
+    "SRC-ALL-6429": "唯一順讀區已補到14章；原『13章未寫』是歷史日期快照。"
+  }
+}

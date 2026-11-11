@@ -3,11 +3,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
+import {pinnedSourceVersion} from './來源後修_證據覆核.mjs';
 import {fileURLToPath} from 'node:url';
 const here=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(here,'../..');
 const sha=b=>createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');
 const safe=(loc)=>{if(typeof loc!=='string'||!loc||path.isAbsolute(loc)||loc.includes('\\')||loc.split('/').includes('..'))throw Error('unsafe path: '+loc);const f=path.resolve(root,loc);if(!f.startsWith(root+path.sep))throw Error('path escapes project: '+loc);return f;};
 const read=loc=>fs.readFileSync(safe(loc));
+const readPinned=(loc,expected)=>{const bytes=read(loc);return sha(bytes)===expected?bytes:pinnedSourceVersion(loc,expected,here);};
 const load=()=>({board:JSON.parse(fs.readFileSync(path.join(here,'正文待修_統一問題台帳.json'),'utf8')),patchset:JSON.parse(fs.readFileSync(path.join(here,'正文待修_精確修訂補丁候選.json'),'utf8'))});
 function verify(board,patchset){
  if(board.schema!=='mega-body-repair-issues/v1'||patchset.schema!=='mega-body-repair-exact-patches/v1'||board.authority!=='EDITORIAL_NON_CANON_NOT_AUTHOR_ADOPTION')throw Error('schema or authority mismatch');
@@ -25,35 +27,37 @@ function verify(board,patchset){
   }
   for(const ev of issue.sources){
    if(!Number.isInteger(ev.line)||ev.line<1||!ev.quote||ev.quote.length<3||!/^([a-f0-9]{40})$/.test(ev.git_blob_sha))throw Error('malformed evidence '+issue.id);
-   const k=ev.path,bytes=read(k),current=sha(bytes);if(current!==ev.git_blob_sha)throw Error('STALE_SOURCE_SHA: '+issue.id+' '+k);
+   const k=ev.path,bytes=readPinned(k,ev.git_blob_sha),current=sha(bytes);if(current!==ev.git_blob_sha)throw Error('STALE_SOURCE_SHA: '+issue.id+' '+k);
    const lines=bytes.toString('utf8').split(/\r?\n/);
    if(!lines[ev.line-1]?.includes(ev.quote))throw Error('STALE_QUOTE_OR_LINE: '+issue.id+' '+k+':'+ev.line);
    sourceVersions.set(k,current);evidence++;
   }
  }
  if(board.stats.total!==board.issues.length||Object.keys(count).some(k=>board.stats[k]!==count[k])||Object.keys(board.stats).some(k=>k!=='total'&&!count[k]))throw Error('issue count/status snapshot drift');
- if(board.currency?.copper_value_out!==30||board.currency?.copper_value_in!==4||board.currency?.copper_value_net!==-26||board.currency?.post_patch_conditional_net_copper!==-21||board.currency?.opening_balance!==null||board.currency?.chapter10_refund!==null)throw Error('currency facts or conditional refund changed without actual accepted patch');
+ if(board.currency?.copper_value_out!==30||board.currency?.copper_value_in!==9||board.currency?.copper_value_net!==-21||board.currency?.original_unpatched_net!==-26||board.currency?.post_patch_conditional_net_copper!==-21||board.currency?.opening_balance!==null||board.currency?.chapter10_refund!==5)throw Error('candidate currency facts drift from three SHA-pinned repairs');
  const patchIds=new Set(),editsByFile=new Map();
  for(const patch of patchset.patches){
   if(patchIds.has(patch.id)||!ids.has(patch.issue_id)||patch.author_approved!==false||patch.scope!=='FULL_LINE_REPLACEMENT_IN_NONCANON_REVIEW_COPY_ONLY')throw Error('invalid patch identity/authority');
   patchIds.add(patch.id);
   if(!Number.isInteger(patch.line)||patch.line<1||!patch.original_line||!patch.replacement_line||patch.original_line===patch.replacement_line)throw Error('empty/bad patch '+patch.id);
   if(!patch.source_path.startsWith('待定正文/')||patch.source_path.includes('Gemini原稿')||patch.source_path.includes('ChatGPT原稿'))throw Error('cannot modify archived original '+patch.id);
-  const bytes=read(patch.source_path),current=sha(bytes);
+  const bytes=readPinned(patch.source_path,patch.source_blob_sha),current=sha(bytes);
   if(current!==patch.source_blob_sha)throw Error('STALE_PATCH_SOURCE_SHA: '+patch.id);
   const lines=bytes.toString('utf8').split(/\r?\n/);
   if(lines[patch.line-1]!==patch.original_line)throw Error('STALE_PATCH_LINE: '+patch.id);
+  const live=read(patch.source_path);
+  if(sha(live)!==patch.source_blob_sha&&live.toString('utf8').split(/\r?\n/)[patch.line-1]!==patch.replacement_line)throw Error('LIVE_PATCH_MISMATCH: '+patch.id);
   const key=patch.source_path+':'+patch.line;
   if(editsByFile.has(key))throw Error('patch conflict '+key);
   editsByFile.set(key,patch);
  }
  for(const x of board.issues)for(const p of x.proposed_patch_ids||[])if(!patchIds.has(p)||!patchset.patches.some(z=>z.id===p&&z.issue_id===x.id))throw Error('dangling patch reference: '+x.id);
- return {schema:'mega-body-repair-report/v1',current_source_count:JSON.parse(fs.readFileSync(path.join(here,'AI接手_工作板.json'),'utf8')).fact_snapshot.raw_source_files,issue_count:board.issues.length,status_counts:count,evidence_count:evidence,exact_patches:patchset.patches.length,verified_source_versions:sourceVersions.size,derived_corrections_count:count.RESOLVED_DERIVED||0,source_files_modified:0,canon_approved:0,base_copper_out:30,base_copper_in:4,base_copper_net:-26,conditional_net_if_refund_patch_adopted:-21};
+ return {schema:'mega-body-repair-report/v1',current_source_count:JSON.parse(fs.readFileSync(path.join(here,'AI接手_工作板.json'),'utf8')).fact_snapshot.raw_source_files,issue_count:board.issues.length,status_counts:count,evidence_count:evidence,exact_patches:patchset.patches.length,verified_source_versions:sourceVersions.size,derived_corrections_count:count.RESOLVED_DERIVED||0,source_files_modified:new Set(patchset.patches.filter(p=>sha(read(p.source_path))!==p.source_blob_sha).map(p=>p.source_path)).size,canon_approved:0,base_copper_out:30,base_copper_in:4,base_copper_net:-26,conditional_net_if_refund_patch_adopted:-21};
 }
 function render(patchset,loc){
  const ops=patchset.patches.filter(p=>p.source_path===loc).sort((a,b)=>a.line-b.line);
  if(!ops.length)throw Error('no patches for requested source');
- const lines=read(loc).toString('utf8').split(/\r?\n/);
+ const lines=readPinned(loc,ops[0].source_blob_sha).toString('utf8').split(/\r?\n/);
  for(const p of ops){if(lines[p.line-1]!==p.original_line)throw Error('patch mismatch at '+p.line);lines[p.line-1]=p.replacement_line;}
  return lines.join('\n');
 }

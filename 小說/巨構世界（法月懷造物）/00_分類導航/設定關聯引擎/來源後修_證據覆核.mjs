@@ -13,8 +13,15 @@ function revisionBytes(loc,target,migrations,home){
  let b=fs.readFileSync(path.resolve(home,'../..',loc));
  if(sha(b)===target)return b;
  for(const m of migrations.slice().reverse())if(m.path===loc&&sha(b)===m.to_sha){
-  const lines=b.toString('utf8').split('\n');lines.splice(m.insert_before-1,m.insert_count);b=Buffer.from(lines.join('\n'));
-  if(sha(b)!==m.from_sha)throw Error('migration is not the reviewed exact insertion '+loc);
+  const lines=b.toString('utf8').split('\n');
+  if(Array.isArray(m.changes)){
+   for(const c of m.changes){
+    if(!Number.isInteger(c.line)||lines[c.line-1]!==c.new_line)throw Error('line replacement does not match reviewed current line '+loc+':'+c.line);
+    lines[c.line-1]=c.old_line;
+   }
+  }else lines.splice(m.insert_before-1,m.insert_count);
+  b=Buffer.from(lines.join('\n'));
+  if(sha(b)!==m.from_sha)throw Error('migration/replacement is not the reviewed exact change '+loc);
   if(sha(b)===target)return b;
  }
  throw Error('revalidated source changed again '+loc);
@@ -31,7 +38,7 @@ export function readRevalidations(home=HOME){
   if(p.schema!=='mega-source-revalidation-v1'||p.newly_accepted_source_count!==0||!p.editorial_not_canon)throw Error('invalid revalidation scope');
   patches.push(p);
  }
- const allMigrations=patches.flatMap(p=>p.anchor_migrations),migrationKeys=new Set();
+ const allMigrations=patches.flatMap(p=>[...(p.anchor_migrations||[]),...(p.line_replacements||[])]),migrationKeys=new Set();
  for(const p of patches){
   for(const m of p.anchor_migrations){
    if(!m.path||m.path.includes('..')||m.path.includes('\\')||path.isAbsolute(m.path)||!Number.isInteger(m.insert_before)||!Number.isInteger(m.insert_count)||m.insert_count<1)throw Error('invalid anchor migration');
@@ -41,6 +48,18 @@ export function readRevalidations(home=HOME){
    const restored=current.toString('utf8').split('\n');restored.splice(m.insert_before-1,m.insert_count);
    if(sha(Buffer.from(restored.join('\n')))!==m.from_sha)throw Error('migration is not the reviewed exact insertion '+m.path);
    if(m.decision_line<m.insert_before||m.decision_line>=m.insert_before+m.insert_count||!newLines[m.decision_line-1]?.includes(m.decision_quote)||m.meaning.length<30)throw Error('missing substantive revision evidence');
+  }
+  for(const m of p.line_replacements||[]){
+   if(!m.path||m.path.includes('..')||m.path.includes('\\')||path.isAbsolute(m.path)||!/^[a-f0-9]{40}$/.test(m.from_sha)||!/^[a-f0-9]{40}$/.test(m.to_sha)||m.meaning?.length<30||!Array.isArray(m.changes)||m.changes.length<1)throw Error('invalid SHA-pinned same-line replacement');
+   const key=m.path+'@'+m.from_sha;if(migrationKeys.has(key))throw Error('duplicate/forked source revision');migrationKeys.add(key);
+   const current=revisionBytes(m.path,m.to_sha,allMigrations,home);
+   const lines=current.toString('utf8').split('\n'),used=new Set();
+   for(const c of m.changes){
+    if(!Number.isInteger(c.line)||c.line<1||c.line>lines.length||used.has(c.line)||typeof c.old_line!=='string'||typeof c.new_line!=='string'||c.old_line===c.new_line||lines[c.line-1]!==c.new_line)throw Error('same-line replacement mismatch '+m.path+':'+c.line);
+    used.add(c.line);
+   }
+   const restored=lines.slice();for(const c of m.changes)restored[c.line-1]=c.old_line;
+   if(sha(Buffer.from(restored.join('\n')))!==m.from_sha)throw Error('same-line replacement does not restore source SHA '+m.path);
   }
   const seenSources=new Set();
   for(const r of p.attestation_replacements){
@@ -52,12 +71,26 @@ export function readRevalidations(home=HOME){
  }
  cache.set(home,patches);return patches;
 }
+export function pinnedSourceVersion(loc,target,home=HOME){
+ if(!loc||loc.includes('..')||loc.includes('\\')||path.isAbsolute(loc)||!/^[0-9a-f]{40}$/.test(target))throw Error('unsafe pinned source request');
+ const patches=readRevalidations(home);
+ return revisionBytes(loc,target,patches.flatMap(p=>[...(p.anchor_migrations||[]),...(p.line_replacements||[])]),home);
+}
 export function applyEvidenceRevalidations(data,home=HOME){
- const patches=readRevalidations(home),migrations=patches.flatMap(p=>p.anchor_migrations);
+ const patches=readRevalidations(home),migrations=patches.flatMap(p=>p.anchor_migrations),lineReplacements=patches.flatMap(p=>p.line_replacements||[]);
  function walk(x){
   if(!x||typeof x!=='object')return;
   if(Array.isArray(x)){for(const y of x)walk(y);return;}
   const loc=x.source_path||x.path;
+  for(const m of lineReplacements)if(m.path===loc){
+   if(x.git_blob_sha===m.from_sha){
+    const c=m.changes.find(c=>c.line===x.line);
+    if(c&&typeof x.quote==='string'&&c.old_line.includes(x.quote)&&!c.new_line.includes(x.quote))x.quote=c.new_line;
+    x.git_blob_sha=m.to_sha;
+   }
+   if(x.git_blob_sha_verified===m.from_sha)x.git_blob_sha_verified=m.to_sha;
+   if(x.source_git_blob_sha===m.from_sha){x.source_git_blob_sha=m.to_sha;x.current_source_role_revision=m.meaning;}
+  }
   for(const m of migrations)if(m.path===loc&&m.from_sha===x.git_blob_sha){
    x.git_blob_sha=m.to_sha;
    if(Number.isInteger(x.line)&&x.line>=m.insert_before)x.line+=m.insert_count;
@@ -89,7 +122,7 @@ export function applyAttestationRevalidations(data,home=HOME){
   if(ix<0)continue;
   const r=data.records[ix];
   if(r.git_blob_sha!==replacement.previous_sha||r.status!=='FULL_FILE_EDITORIAL_ATTESTED'||r.source_role_id!==replacement.record.source_role_id||JSON.stringify(r.related_claim_ids)!==JSON.stringify(replacement.record.related_claim_ids))throw Error('revalidation base does not match '+replacement.path);
-  data.records[ix]=applyEvidenceRevalidations(structuredClone(replacement.record),home);
+  data.records[ix]=structuredClone(replacement.record); // defer all SHA forward-migrations until the entire ordered replacement chain has applied
  }
  return data;
 }
