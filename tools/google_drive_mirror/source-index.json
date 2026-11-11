@@ -3,13 +3,18 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "6cb6d5ae371a15f9023fdda10313faefe8479357",
-  "sourceTreeSha": "39cefc35de0e10e140e205ba8cf532c0b2f70d9b",
-  "previousSourceCommit": "133394c5a91760a9323d0c983e3646910060ddea",
+  "sourceCommit": "ee15cc3e67f2a6d26318211666d4caee8cccd7e3",
+  "sourceTreeSha": "07c6d89178e55d1745de84818d05f403954b8782",
+  "previousSourceCommit": "6cb6d5ae371a15f9023fdda10313faefe8479357",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/容器與子單元登記.json",
-      "sha": "00eecf703559c1317b36a3c549ba0fabfb0bb99b",
+      "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
+      "sha": "827b3e614803f8fc3d7b6b28b4c24c0f08a107e0",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
+      "sha": "093871c0477384609acb032db775c51bc15a3764",
       "change": "modified"
     }
   ],
@@ -2082,13 +2087,13 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
-      "sha": "ccd22167e20a53e7af011c1d533ee7c057c094b8",
-      "size": 17847
+      "sha": "827b3e614803f8fc3d7b6b28b4c24c0f08a107e0",
+      "size": 18976
     },
     {
       "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
-      "sha": "db73bfec09666716119bda5da56c1503f926f9ba",
-      "size": 10255
+      "sha": "093871c0477384609acb032db775c51bc15a3764",
+      "size": 11384
     },
     {
       "path": "小說/巨構世界（法月懷造物）/README.md",
