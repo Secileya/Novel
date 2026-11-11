@@ -4,7 +4,7 @@
   "source_file_count": 12,
   "source_line_count": 7522,
   "source_sections": 73,
-  "evidence_count": 199,
+  "evidence_count": 200,
   "source_file_manifest": [
     {
       "path": "待定正文/順讀_最新補丁候選/13_風車搖柄、狐毛內襯與除冰廳的白雨.md",
@@ -4259,6 +4259,27 @@
           "quote": "而在諾亞與艾莉維亞斜下方不到十公尺處——轉運艙底部右側、原本被厚重萬年老冰層封擋住的一道「下部檢修氣密副門」，在艙體扭曲下沉撞擊玄武岩卡口的巨力之下，伴隨著一聲沉悶的「哐當」巨響，竟硬生生崩飛了三顆外圈鎖死螺栓，在翻湧的慘白蒸氣與冰藍寒霧交界處，豁開了一道兩尺寬的幽暗裂口！"
         }
       ]
+    },
+    {
+      "id": "SRC-ALL-7432",
+      "title": "B54/11-11｜黑脊抱柱鎮中心沿排熱巨脊由內三環醫館工坊至外六環居民街區分層分布，人口與建築密度不可均一套用整片千筒懸林。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "黑脊抱柱鎮中心沿排熱巨脊由內三環醫館工坊至外六環居民街區分層分布，人口與建築密度不可均一套用整片千筒懸林。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文Git SHA和行號證據、作者指示、跨AI自評與後出候選版次不可互相升格。",
+      "next_action": "SHA變更後重驗原文與下游證據、圖譜和版本仲裁。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+          "git_blob_sha": "daea535ae98475fa025422d619828dc300572698",
+          "line": 92,
+          "quote": "最中心是那根表面包覆著兩米厚暗紅隔熱磚層的三號排熱巨脊；緊貼著隔熱磚層外圍第一圈到第三圈的，是用厚實抗凍青石與防震鋼樑砌成的正規醫館、寒鍛工坊、市政貨棧與老字號旅店；再往外第四圈到第六圈，則是順著斜跨巨橋的支撐鋼架一層層往外延伸的木石民居、熱水澡堂、皮毛市集與懸空酒館。"
+        }
+      ]
     }
   ],
   "staged_attestations": [
@@ -7831,7 +7852,8 @@
         "SRC-ALL-7409",
         "SRC-ALL-7410",
         "SRC-ALL-7411",
-        "SRC-ALL-7412"
+        "SRC-ALL-7412",
+        "SRC-ALL-7432"
       ],
       "status": "FULL_FILE_EDITORIAL_ATTESTED",
       "source_progress_note": "逐份完整候選、原回貼、補丁和14章合輯交叉對照；防重、後出SHA、二遍反問、作者與助手權威分離。",
@@ -7848,7 +7870,7 @@
           "from": 89,
           "to": 166,
           "anchor_line": 100,
-          "meaning": "列車於09:20抵達黑脊抱柱鎮南棧一號保溫月台，後續10:30入住與下午工坊加工時序須依次發生。",
+          "meaning": "列車於09:20抵達黑脊抱柱鎮南棧一號保溫月台，後續10:30入住與下午工坊加工時序須依次發生。；黑脊抱柱鎮中心沿排熱巨脊由內三環醫館工坊至外六環居民街區分層分布，人口與建築密度不可均一套用整片千筒懸林。",
           "quote": "上午九點二十分，伴隨著長長的制動排氣聲，重軌混編列車緩緩滑入了位於斜跨巨橋腹部的【黑脊抱柱鎮・南棧一號保溫月台】。"
         },
         {
@@ -8031,6 +8053,17 @@
             "authority": "ASSISTANT_CANDIDATE",
             "claim_ids": [
               "SRC-ALL-7412"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 92,
+            "quote": "最中心是那根表面包覆著兩米厚暗紅隔熱磚層的三號排熱巨脊；緊貼著隔熱磚層外圍第一圈到第三圈的，是用厚實抗凍青石與防震鋼樑砌成的正規醫館、寒鍛工坊、市政貨棧與老字號旅店；再往外第四圈到第六圈，則是順著斜跨巨橋的支撐鋼架一層層往外延伸的木石民居、熱水澡堂、皮毛市集與懸空酒館。",
+            "topic": "黑脊抱柱鎮中心沿排熱巨脊由內三環醫館工坊至外六環居民街區分層分布，人口與建築密度不可均一套用整片千筒懸林。",
+            "finding": "黑脊抱柱鎮中心沿排熱巨脊由內三環醫館工坊至外六環居民街區分層分布，人口與建築密度不可均一套用整片千筒懸林。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-7432"
             ]
           }
         ],
@@ -13643,7 +13676,33 @@
         }
       ],
       "guardrail": "僅建立證據域相互導覽關聯，不授權將候選升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7432",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B54/11-11｜黑脊抱柱鎮中心沿排熱巨脊由內三環醫館工坊至外六環居民街區分層分布，人口與建築密度不可均一套用整片千筒懸林。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+        "git_blob_sha": "daea535ae98475fa025422d619828dc300572698",
+        "line": 92
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7432-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7432-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "僅建立證據域相互導覽關聯，不授權將候選升格Canon。"
     }
   ],
-  "source_quote_count": 199
+  "source_quote_count": 200
 }

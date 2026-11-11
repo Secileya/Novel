@@ -357,14 +357,14 @@
     },
     {
       "path": "20261112_第五十四批12份_十三十四章順讀合輯十五章版本線_全文語義v2.json",
-      "git_blob_sha": "e0883687d14d49398eff331e66b3256de2e2195d",
+      "git_blob_sha": "c699b5b3f0059827368398d5e0aa2d1bee768cbb",
       "batch": "BATCH54",
       "source_count": 12,
       "original_lines": 7522,
       "semantic_sections": 73,
-      "claim_count": 199,
-      "graph_relations": 398,
-      "note": "第54批一次12份完成：第13/14章單章、01～14章完整合輯、Gemini第15章原始三批/前兩批未完/三批初版/八處補丁/R1全文、14章R1b、15章R2。7522行73區199行錨398非Canon雙向關聯；逐章合輯比對，修正前言R1a標籤的權威解讀，不覆寫原稿；待主CI."
+      "claim_count": 200,
+      "graph_relations": 400,
+      "note": "第54批原定12份，7,522行73個語義區段、200條原文命題、400條非Canon圖邊。修正14章R1b語義區段第2個檢查點；本輪新入庫第16章4份另排待審，原12份來源與SHA不變，待主CI。"
     }
   ],
   "notice": "第52批3份與前51批累積完成當前動態366／366來源整檔編輯性驗收；2026-11-11主CI42989171348與Drive索引42989171326都success。正式Canon0章、PREWRITE HOLD；新增/修改來源再行動態重驗。",
