@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第47批通過main CI共315份；GitHub新增1份08檔使總數360→361，新增未審；第48批12份尚處SHA/版本預審，必須正式全文語義＋圖連線＋CI才能計入。",
+  "warning": "第48批12份/4742行/111段/111SHA命題/191錨點/222非Canon關係已建立待main CI；動態全庫361來源，327/361暫計，成功前保持待驗。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 6643,
-    "audited_original_quote_anchors": 6834,
+    "audited_batched_claims": 6754,
+    "audited_original_quote_anchors": 7025,
     "original_archive_09_files": 15,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "2026-11-11全庫新增1份動態排隊，來源總361；第47批成功驗收315份、第48批12份僅預審，未驗收46份；正式0章PREWRITE HOLD。",
-    "full_file_editorial_accepted": 149,
-    "full_file_editorial_pending": 22,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 46,
-    "historical_164_accepted": 142,
-    "all_source_full_file_editorial_accepted": 315
+    "limitations": "第48批12份SHA全文審核分片已登記待main CI；327/361暫驗收、34份未審；原始正文0章PREWRITE HOLD。",
+    "full_file_editorial_accepted": 157,
+    "full_file_editorial_pending": 14,
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 34,
+    "historical_164_accepted": 146,
+    "all_source_full_file_editorial_accepted": 327
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "2026-11-11新增08/20261111_第十二至十四章_Gemini遷徙007與031交接實讀稽核_非正史.md 已自動排入動態來源池；315/361、46未審。歷史335基線不變。"
+  "notice_2026_11_11": "第48批十二份、舊資料勘誤與跨AI原文；第47批已成功。分母361，另新增08_第十二至十四章...稽核仍待審；候選未升Canon，0章PREWRITE HOLD。"
 }

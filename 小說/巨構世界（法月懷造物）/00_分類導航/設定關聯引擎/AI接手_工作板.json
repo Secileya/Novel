@@ -24,19 +24,19 @@
     "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "GitHub新增08_交接勘誤與決議1份，來源360→361；第47批已CI成功315/361，46份待審；第48批12份4742行68錨點只做預審；正式0章 PREWRITE HOLD。",
-    "targeted_audit_records": 6643,
-    "targeted_audit_verified_quotes": 6834,
-    "full_file_editorial_accepted": 149,
-    "full_file_editorial_remaining": 22,
+    "important": "第48批12份4742行111段111命題191錨點222非Canon關聯已提交待main CI；來源361總檔，暫登記327/361剩34（CI成功前不得宣稱正式完成）；正式0章PREWRITE HOLD，原文未覆寫。",
+    "targeted_audit_records": 6754,
+    "targeted_audit_verified_quotes": 7025,
+    "full_file_editorial_accepted": 157,
+    "full_file_editorial_remaining": 14,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 315,
-    "all_source_full_file_editorial_remaining": 46,
-    "historical_164_full_file_acceptance": 142,
-    "historical_171_full_file_acceptance": 149,
+    "all_source_full_file_editorial_accepted": 327,
+    "all_source_full_file_editorial_remaining": 34,
+    "historical_164_full_file_acceptance": 146,
+    "historical_171_full_file_acceptance": 157,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 46
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 34
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -83,40 +83,22 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 315,
-        "pending": 46,
+        "verified_complete": 327,
+        "pending": 34,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "全庫新增08_交接勘誤與決議/20261111_第十二至十四章_Gemini遷徙007與031交接實讀稽核_非正史.md，動態分母361；第48批12份預審4742行/68處錨點但全文語義未完成。正式驗收315/361剩46。",
-        "stage": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
+        "note": "第48批12份原始來源SHA逐段編輯性驗收：4742行111段111命題191證據錨點222非Canon圖連線；主CI尚待。累計327/361暫登記，34待審；正式0章PREWRITE HOLD。",
+        "stage": "BATCH48_12_PENDING_MAIN_CI",
         "last_verified_commit": "1e88e86af56fd949f5ad63943c73b73f1b80957b",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42968929867",
         "cross_source_next_batch": [],
-        "historical_164_accepted": 142,
-        "historical_171_accepted": 149,
+        "historical_164_accepted": 146,
+        "historical_171_accepted": 157,
         "last_batch_files": [
-          "000_專案交接.md",
-          "000_現行決策與主題索引.md",
-          "000_導覽與狀態.md",
-          "地圖/巨構世界層與厚重隔界_總圖V0.3.svg",
-          "地圖/巨構主升程地圖V0.5_頂端目標與下方深構_非正史.svg",
-          "地圖/巨構主升程骨架修正版V0.5.1_非對稱多代交錯_非正史.svg",
-          "地圖/巨構宏觀立體空域剖視V0.4_候選.svg",
-          "地圖/巨構導航資料_宏觀V0.3.json",
-          "地圖/K01折返厚殼帶_局部放大剖面V0.3.svg",
-          "地圖/R04高懸械林_內部構造圖V0.2重建.svg",
-          "地圖/T交通可達證據分層_三套候選路線V0.1.svg",
-          "地圖/W01肋海廣域_R01至R09大區圖V0.2重建.svg"
-        ],
-        "last_batch_full_lines": 2729,
-        "last_batch_sections": 103,
-        "last_batch_new_claims": 103,
-        "last_batch_new_anchors": 103,
-        "next_batch": [
           "README.md",
           "舊資料_勘誤/00_全檔清冊與版本狀態.md",
           "舊資料_勘誤/01_後出取代與明確錯誤.md",
@@ -129,6 +111,24 @@
           "07_候選故事與場景/首篇A_B2_C_最新原文閱讀包_2026-10-23.md",
           "07_候選故事與場景/首篇B2_出城連續場景試寫_非正史增量_2026-10-23.md",
           "09_跨AI原始來源/195_A_對話與核心決議_含031與189全文_2026-11-05.md"
+        ],
+        "last_batch_full_lines": 4742,
+        "last_batch_sections": 111,
+        "last_batch_new_claims": 111,
+        "last_batch_new_anchors": 191,
+        "next_batch": [
+          "07_候選故事與場景/096_候選場景_空心古根商旅_紫瞳少女_殘碑與重逢.md",
+          "07_候選故事與場景/100_非正史場景實驗_根橋上的二十公尺捕食者_商旅龜背城與跨群落制度.md",
+          "08_交接勘誤與決議/20261111_第十二至十四章_Gemini遷徙007與031交接實讀稽核_非正史.md",
+          "09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md",
+          "09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+          "09_跨AI原始來源/195_D_第三至六章QA_第七章保全與PR核驗_2026-11-05.md",
+          "待定正文/其他場景/ChatGPT_第064_還有兩張票_開場片段及地方事件.md",
+          "待定正文/其他場景/ChatGPT_第088_首次死亡與復歸短篇.md",
+          "待定正文/其他場景/ChatGPT_第096_空心古根商旅與紫瞳少女.md",
+          "待定正文/其他場景/ChatGPT_第100_根橋與捕食者_巨龜城.md",
+          "待定正文/其他場景/ChatGPT_第117_五組巨構荒野場景樣稿.md",
+          "待定正文/其他場景/ChatGPT_第121_三段景觀與人物短場景.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -749,19 +749,21 @@
           "unmodified_originals": true
         },
         "batch_48": {
-          "stage": "SHA_AND_SECTION_PRECHECK_ONLY__NOT_FULL_FILE_ACCEPTED",
+          "stage": "BATCH48_12_PENDING_MAIN_CI",
           "source_count": 12,
-          "source_lines_retrieved": 4742,
-          "preliminary_line_anchors": 68,
-          "source_blob_sha_verified": 12,
-          "precheck_blob_sha": "ba4552b8ce728c59c68429106bc6342f49bb3dcb",
-          "precheck_path": "00_分類導航/設定關聯引擎/20261111_第四十八批12份_來源SHA及候選權威預審_未驗收.json",
-          "full_file_editorial_attested": 0,
-          "accepted_count_unchanged": 315,
-          "pending_count_unchanged": 45,
+          "source_lines": 4742,
+          "semantic_sections": 111,
+          "claims": 111,
+          "source_anchors": 191,
+          "graph_edges": 222,
+          "accepted_registered_pending_ci": 327,
+          "pending_registered": 34,
           "unmodified_originals": true,
-          "requires_full_reading": true,
-          "first_action": "逐份進行完整語義/後修/四類漏檢，依合法原文行號建正式驗收分片並原子更新Manifest/圖連線/工作板，取得本批main CI成功後才加12。"
+          "shard_sha": "2e4eef43a2bad11b87fde21f78b59887b06eccff",
+          "audit_path": "20261111_第四十八批12份_舊勘誤首篇與歷史分冊_全文語義v2.json",
+          "precheck_sha": "ba4552b8ce728c59c68429106bc6342f49bb3dcb",
+          "next_batch_count": 12,
+          "main_ci_result": "pending"
         }
       }
     },
@@ -1032,16 +1034,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch48 precheck",
-    "source_files_attested_this_turn": 0,
-    "source_files_sha_checked_this_turn": 12,
-    "source_lines_preflight_retrieved": 4742,
-    "preliminary_anchors": 68,
-    "original_lines_reviewed_for_full_semantic_acceptance": 0,
-    "all_source_accepted": 315,
-    "all_source_pending": 46,
-    "state": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
-    "notes": "第47批經成功CI正式關閉；第48批12份原檔SHA/版本風險初審已保存於非Canon引擎預檢json。無新驗收分片與Canonical修改；不得標記完整12份完成。"
+    "task": "NEXT-009 batch48",
+    "source_files_attested_this_turn": 12,
+    "original_lines_reviewed": 4742,
+    "review_sections": 111,
+    "atomic_findings": 111,
+    "original_line_anchors": 191,
+    "nonCanon_graph_links": 222,
+    "all_source_accepted": 327,
+    "all_source_pending": 34,
+    "state": "BATCH48_12_PENDING_MAIN_CI",
+    "notes": "第48批B48正式分片已上傳，仍待main CI。最新新增08來源入動態361分母，第49批12份SHA路徑去重預排；Canon0章未改。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1061,13 +1064,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
-    "scope": "第48批12份來源實際取回4742行與68個初步錨點；期間另有08專題新增1份，已動態排隊且修正覆蓋統計。",
-    "commit": "PRECHECK_BLOB_ba4552b8ce728c59c68429106bc6342f49bb3dcb",
+    "stage": "BATCH48_12_PENDING_MAIN_CI",
+    "scope": "第48批12份全文原文實讀與版本權威仲裁：4742行111段111條SHA原子命題191行錨與222非Canon既有領域關聯。019後出55降權、051作者114選定未發生、195_A混合來源的作者原話與助手候選切分；來源不變。",
+    "commit": "PENDING_NEW_COMMIT",
     "ci_result": "pending",
     "ci_run_url": null,
-    "not_finished": "第48批12份仍須完成實際全文語義驗收；新增08資料1份使總數361，現315/361、未審46，不能用舊分母360；正式0章PREWRITE HOLD。",
-    "next_step": "從第48批12份初審檔讀每份原始SHA和版本風險；優先01勘誤、051/114採案邊界、195_A 1632行對話原始權威；完成v2每段實質命題和四類逆向查漏、跨來源SHA/非Canon圖連結；經CI成功才計入。"
+    "not_finished": "第48批主CI未驗證；327/361僅待核對登記、34份未審。已從歷史全帳和26分片去重排定第49批12份；正式0章PREWRITE HOLD。",
+    "next_step": "先驗第48批main CI和Drive索引；成功才轉正式結案。然後依NEXT-009.next_batch核對第49批12份真實SHA、逐段語義後修和圖連線。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -1113,6 +1116,7 @@
     "00_分類導航/設定關聯引擎/20261111_第四十四批12份_B2同文_十三章版本與十四章候選_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十五批12份_十四章A_C_QA與分類導航_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十六批12份_候選開篇第三座位與地圖交通_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261111_第四十七批12份_巨構導航WKT地圖與版本權威_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261111_第四十七批12份_巨構導航WKT地圖與版本權威_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第四十八批12份_舊勘誤首篇與歷史分冊_全文語義v2.json"
   ]
 }

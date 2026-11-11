@@ -288,9 +288,20 @@
       "claim_count": 103,
       "graph_relations": 206,
       "note": "第47批12份2729行103段103條來源SHA命題206非Canon關聯；3份導航及9份SVG/JSON地圖；來源與跨檔依賴核對；主CI待驗。 修正圖譜summary須與來源審核title精確一致（初次CI未通過，證據橋格式修復後待CI）。"
+    },
+    {
+      "path": "20261111_第四十八批12份_舊勘誤首篇與歷史分冊_全文語義v2.json",
+      "git_blob_sha": "2e4eef43a2bad11b87fde21f78b59887b06eccff",
+      "batch": "BATCH48",
+      "source_count": 12,
+      "original_lines": 4742,
+      "semantic_sections": 111,
+      "claim_count": 111,
+      "graph_relations": 222,
+      "note": "第48批12份4742行111連續語義區111條SHA原子命題191處源句錨點／222非Canon關聯；著重第019前文明尺度後修、第051作者已選未發生、第195 A原話/助手權威分層，原稿與Canon不改，待main CI。"
     }
   ],
-  "notice": "第47批來源驗收分片圖譜摘要在初次CI因與對應原子命題標題不相同而失敗；現已修正並待新CI，禁止提前計完成。",
+  "notice": "第48批十二份原稿已建立全文SHA v2分片；原文、候選版本與Canon未改。總來源361、新增08_交接稽核1份；本批提交時主CI待確認。",
   "revalidations": [
     {
       "path": "20261110_來源後修重驗_客觀近即時_16份不重計.json",
