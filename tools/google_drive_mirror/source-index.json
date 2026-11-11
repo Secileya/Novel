@@ -3,13 +3,18 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "3cc7f28ff37a3b562291c26ff8a4c1109fc1d441",
-  "sourceTreeSha": "aed40f62b7dcf27424ccd0ee33609d25def9b88a",
-  "previousSourceCommit": "4f4938d883030ea010c32c02f27f942411a06be6",
+  "sourceCommit": "e049a03a28a208a88fc31d825d1548871d1264e8",
+  "sourceTreeSha": "a416b08e93dcd968ff319f4419ca142244286769",
+  "previousSourceCommit": "3cc7f28ff37a3b562291c26ff8a4c1109fc1d441",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/來源後修_證據覆核.mjs",
-      "sha": "fbc535d61f180bcc85f703fe95df061d413d7290",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_14章六點工單與第15章R1_同位SHA證據覆核_不重計.json",
+      "sha": "de21ecf2d541b6c423c516a56902cfab759749f2",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
+      "sha": "dd327a417452976b315b6d9f3601e4b4b44fec8c",
       "change": "modified"
     }
   ],
@@ -527,8 +532,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_14章六點工單與第15章R1_同位SHA證據覆核_不重計.json",
-      "sha": "a421ebdffebfd3bb4f300898c75d46169187bdbb",
-      "size": 10073
+      "sha": "de21ecf2d541b6c423c516a56902cfab759749f2",
+      "size": 28801
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份來源索引分卷清單.json",
@@ -637,8 +642,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
-      "sha": "d29d7976919de7ab650d1068d0b5314937ac1bd5",
-      "size": 19765
+      "sha": "dd327a417452976b315b6d9f3601e4b4b44fec8c",
+      "size": 19809
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
