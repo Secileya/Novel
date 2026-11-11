@@ -1,6 +1,6 @@
 {
   "schema": "mega-ledger-shard-manifest-v1",
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "mode": "legacy-monolith-readonly-plus-append-shards",
   "shards": [
     {
@@ -200,6 +200,17 @@
       "claim_count": 89,
       "graph_relations": 178,
       "note": "G7R/G7R1、G8B/C/D/E、G9/A/B/C 12份全文、89條SHA行號與48條二遍反問，分支CI待驗證，候選不升Canon。"
+    },
+    {
+      "path": "20261111_第四十批12份_第七至十二章版本與後果_全文語義v2.json",
+      "git_blob_sha": "c6b5910f8a66c7e5e44e26535fdfa78644bffd85",
+      "batch": "BATCH40",
+      "source_count": 12,
+      "original_lines": 3889,
+      "semantic_sections": 155,
+      "claim_count": 155,
+      "graph_relations": 310,
+      "note": "第7-12章12份共3889行（含來源尾空行）、155語義命題310圖連結、48反問36跨來源SHA；動態351來源其中新增第13章R1作者因果卡待審。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
