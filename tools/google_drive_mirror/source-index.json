@@ -3,13 +3,23 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "a5049195c35d958388c5a482495d23436e397a24",
-  "sourceTreeSha": "7b0e1abbbb84df5e63b9669a81d2a8be093ffa62",
-  "previousSourceCommit": "1216d1138ba6bcd9c1b12a3fc85a61f9237be8ec",
+  "sourceCommit": "5dcddbc7bc138ab392008f01530d9b3c3c20f7e1",
+  "sourceTreeSha": "e16e5e16e0cd37935c1a8b3a564bd11fdb3862c7",
+  "previousSourceCommit": "a5049195c35d958388c5a482495d23436e397a24",
   "changedFiles": [
     {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
+      "sha": "d1584da16ca0144b778f48dea8683ba6985c6fc9",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
+      "sha": "a38d561fd58831da5fc11760c9e76409ed3c6601",
+      "change": "modified"
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "99ef142236d6702126cbd9ff166a1332fcfb2907",
+      "sha": "be8e473f67c8d9a41d61a3da5550567671adf171",
       "change": "modified"
     }
   ],
@@ -657,8 +667,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "caea42db23bf2977f5aeddf1db521cfdedd82101",
-      "size": 74923
+      "sha": "d1584da16ca0144b778f48dea8683ba6985c6fc9",
+      "size": 74754
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
@@ -852,8 +862,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "8a80cf6dea1624488dfbe7762e3c17ee308ad62a",
-      "size": 6402
+      "sha": "a38d561fd58831da5fc11760c9e76409ed3c6601",
+      "size": 6233
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
@@ -942,8 +952,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "99ef142236d6702126cbd9ff166a1332fcfb2907",
-      "size": 7962
+      "sha": "be8e473f67c8d9a41d61a3da5550567671adf171",
+      "size": 8008
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI原始討論來源與版本替代證據鏈.json",
