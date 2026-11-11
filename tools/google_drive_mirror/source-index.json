@@ -3,13 +3,18 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "4d584b491a2bb7edac3ed647556f043a6677e543",
-  "sourceTreeSha": "004276ab8ee8725d82f80b36e18084991760209e",
-  "previousSourceCommit": "1017401bcef20d7eb9d9b7e2d15c2ffb2f714d8f",
+  "sourceCommit": "c690d64fcf9157a8499c2d0804bce6ce1d043ca8",
+  "sourceTreeSha": "6c5634ee689a2b0295aa965f401a4c0a42ba6872",
+  "previousSourceCommit": "4d584b491a2bb7edac3ed647556f043a6677e543",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證來源後修覆核.mjs",
-      "sha": "425dbd3b35a9d34174825eb6e8af3025419f09be",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/候選正文語氣庫_查閱與非強制用詞稽核.json",
+      "sha": "f4e34c58a75a6b336df8b83ed882341eb8d5f7a0",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/檢查候選正文語氣庫參考.mjs",
+      "sha": "b2f122e44da4c338addc2439fe8940225d03a26b",
       "change": "modified"
     }
   ],
@@ -737,8 +742,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/候選正文語氣庫_查閱與非強制用詞稽核.json",
-      "sha": "b791ef1cb28f51dd3e7396e9e07babca95dfd022",
-      "size": 5290
+      "sha": "f4e34c58a75a6b336df8b83ed882341eb8d5f7a0",
+      "size": 6456
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/候選版本37組_差異生成.mjs",
@@ -837,7 +842,7 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/檢查候選正文語氣庫參考.mjs",
-      "sha": "77bfcf9b466343cd952ce1bf29c4b94473be13ff",
+      "sha": "b2f122e44da4c338addc2439fe8940225d03a26b",
       "size": 2670
     },
     {
