@@ -164,7 +164,7 @@
   "note": "335來源有某種可追蹤結構化入口；164份至少有既有細粒度命題，171份有獨立來源用途卡、370原文錨點與部分修訂語義，但未完成全文設定命題逐一仲裁。37組文字關係含互斥／補篇對照，不全是同章修訂。",
   "current_operational_metrics": {
     "source": "derived by matching 全庫物理清冊.json and 全庫待原子化缺口清冊.json paths, version ledger, audited batches",
-    "raw_original_sources": 351,
+    "raw_original_sources": 355,
     "with_fine_grained_reference": 164,
     "with_source_role_card_pending_full_semantic_review": 171,
     "machine_screened_source_dossiers": 213,
@@ -172,7 +172,7 @@
     "version_nodes": 16,
     "audited_batched_claims": 5876,
     "audited_original_quote_anchors": 6067,
-    "original_archive_09_files": 11,
+    "original_archive_09_files": 13,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
@@ -180,7 +180,7 @@
     "full_file_editorial_accepted": 110,
     "full_file_editorial_pending": 61,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 96,
+    "all_source_full_file_editorial_pending": 100,
     "historical_164_accepted": 135,
     "all_source_full_file_editorial_accepted": 255
   },
