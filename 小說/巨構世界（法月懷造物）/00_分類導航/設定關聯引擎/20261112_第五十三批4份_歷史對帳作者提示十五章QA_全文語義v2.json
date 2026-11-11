@@ -1,0 +1,4741 @@
+{
+  "schema": "mega-batch53-full-file-v2-sharded",
+  "date": "2026-11-12",
+  "source_file_count": 4,
+  "source_line_count": 363,
+  "source_sections": 21,
+  "evidence_count": 70,
+  "source_file_manifest": [
+    {
+      "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+      "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+      "source_line_count": 44,
+      "reviewed_sections": 4
+    },
+    {
+      "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+      "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+      "source_line_count": 211,
+      "reviewed_sections": 8
+    },
+    {
+      "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+      "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+      "source_line_count": 84,
+      "reviewed_sections": 6
+    },
+    {
+      "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+      "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+      "source_line_count": 24,
+      "reviewed_sections": 3
+    }
+  ],
+  "authority_boundary": "當次聊天可見來源、Git持續版本、作者原指示、Gemini歷史自評、GPT編輯建議均獨立分類；R2與14R1b為後出候選，正式Canon0章/PREWRITE HOLD。",
+  "records": [
+    {
+      "id": "SRC-ALL-7163",
+      "title": "B53/1-0｜本次回執的『最新順讀』被後出唯一資料夾取代；原跨目錄說法僅是歷史，不可復活第二個順讀入口。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "本次回執的『最新順讀』被後出唯一資料夾取代；原跨目錄說法僅是歷史，不可復活第二個順讀入口。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 1,
+          "quote": "> **2026-11-11 後續整理決議（本段優先）**：依作者要求，最新順讀改回唯一資料夾 `待定正文/順讀_最新補丁候選/`，原先額外建立的 `順讀_最新補丁候選_01至14章/` 已撤離現行樹；歷史仍保存在 Git commit。第03／11章修訂直接套在固定順讀路徑，其他既有章保留，新增1"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7164",
+      "title": "B53/1-1｜第01至14章只屬已修閱讀候選，原始回貼與舊候選留存，PREWRITE HOLD仍有效。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第01至14章只屬已修閱讀候選，原始回貼與舊候選留存，PREWRITE HOLD仍有效。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 7,
+          "quote": "> **本次實際產出**：建立14份最新候選純正文與1份完整連讀合輯；在新衍生候選第03、11章套用3條 SHA＋指定行核對的精確補丁。**既有Gemini原始回貼、原候選與11/08舊12章順讀全部保留未覆寫。正式小說 Canon 0章、PREWRITE HOLD；修補候選不等於作者已採用。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7165",
+      "title": "B53/1-2｜第13章沿用R1b、第14章此時沿用R1a；後出第14章R1b更新後，須以後出入口為準。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第13章沿用R1b、第14章此時沿用R1a；後出第14章R1b更新後，須以後出入口為準。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 14,
+          "quote": "這14章均是小說閱讀稿，不把前置版本註記、A作者劇透卡與C寫後QA混入正文。第01～12章沿用原11/08已套補丁候選，第13章使用Gemini R1b（原始SHA `70210e387bbbfdf35375ac7c8e34ab5c0305f8ad`），第14章使用Gemini R1a（原始SHA "
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7166",
+      "title": "B53/1-3｜第03章『十五張銀券』改為未指定面額的『那份賞金』，不引入臆測貨幣換算。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第03章『十五張銀券』改為未指定面額的『那份賞金』，不引入臆測貨幣換算。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 20,
+          "quote": "| BODY-QA-002 / BODY-PATCH-03-REWARD | `c994954ce871b5ed108b1aaac661a2baab14c12b` | 第03章L71原句「我剛分到的十五張銀券」→「我剛分到的那份賞金」；不發明銀券枚／張匯率 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7167",
+      "title": "B53/1-4｜第11章五銅熱水費已付款後，候選修補明確退還五枚銅幣；既有付款不能憑空作廢。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第11章五銅熱水費已付款後，候選修補明確退還五枚銅幣；既有付款不能憑空作廢。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 21,
+          "quote": "| BODY-QA-003 / BODY-PATCH-11-REFUND | `0b414e767adb6d0bee2deaf45230675c0235875c` | 第11章L151賀老太太說熱水5銅免收時，明寫從錢袋拿出五枚銅索幣退還諾亞 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7168",
+      "title": "B53/1-5｜第11章兩張銀券與五銅值零券為不同實物，付款出示與取回需分離追蹤。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第11章兩張銀券與五銅值零券為不同實物，付款出示與取回需分離追蹤。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 22,
+          "quote": "| BODY-QA-004 / BODY-PATCH-11-NOTE | `0b414e767adb6d0bee2deaf45230675c0235875c` | 第11章L195諾亞把兩張銀鉚券與一張五銅值零券一併放上台面，接續塔里抽走零券並退回大銀券 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7169",
+      "title": "B53/1-6｜回執表示精準補丁已套讀本，但原始問題台帳不能僅因此無條件改成作者Canon已修復。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "回執表示精準補丁已套讀本，但原始問題台帳不能僅因此無條件改成作者Canon已修復。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 24,
+          "quote": "上述精確替換已在生成前比對原Git blob SHA與指定整行，並在新版單章和合輯內逐項驗證存在。最初的 `正文待修_統一問題台帳.json` 仍保留原始問題與未經作者採用狀態，不能因衍生候選已修就把歷史原來源誤標為 DONE_VERIFIED。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7170",
+      "title": "B53/1-7｜可見銅值流出30、找零4與退款5為候選可見流量；淨負21不是期初或現金餘額，紙券與銅幣不可混算。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "可見銅值流出30、找零4與退款5為候選可見流量；淨負21不是期初或現金餘額，紙券與銅幣不可混算。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 28,
+          "quote": "- Gemini C 早前把已見銅值流出算成25，漏掉支出；實際已見支出 2＋2＋1＋20＋5＝**30銅值**，第13章有4銅找零，舊候選淨變動**−26銅值**。本次新版第11章**實際退5銅**，故新情境已見淨變動**−21銅值**。這**不是目前口袋存款或初始硬幣數**；第11章付款的「一張"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7171",
+      "title": "B53/1-8｜第11章歇風棧是一間套房兩張床；不得與第14章暖磚棧的兩間房混同。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第11章歇風棧是一間套房兩張床；不得與第14章暖磚棧的兩間房混同。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 29,
+          "quote": "- 歇風棧是**一間套房，裡外兩張床**，房價15銅＋額外熱水5銅。Gemini C 所稱「兩間房」是衍生報告誤述，不改原劇情。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7172",
+      "title": "B53/1-9｜753銀券只是在特定情境的條件記帳，不證明現存753張同面額紙鈔。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "753銀券只是在特定情境的條件記帳，不證明現存753張同面額紙鈔。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 30,
+          "quote": "- 銀鉚券753只屬特定候選情境的記帳推算，不強迫視為持有753張等額紙券；第03章原稿的枚／張面額規則仍未核定。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7173",
+      "title": "B53/1-10｜第02章蘇珊娜找零欠缺已核原文支持，仍維持OPEN不能補造收入。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第02章蘇珊娜找零欠缺已核原文支持，仍維持OPEN不能補造收入。",
+      "authority": "OPEN_UNVERIFIED",
+      "authority_axis": "OPEN_UNVERIFIED",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 31,
+          "quote": "- 第02章所謂「蘇珊娜找零」仍缺當前候選及已查四版歷史原文支持，保持OPEN，不虛構收入。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7174",
+      "title": "B53/1-11｜沉銀贈1鍛3、兩罐淬火脂第一罐轉交小禾與第二罐餘半、六界楔質量提升仍屬候選物權WATCH。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "沉銀贈1鍛3、兩罐淬火脂第一罐轉交小禾與第二罐餘半、六界楔質量提升仍屬候選物權WATCH。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 32,
+          "quote": "- 第12至14章沉銀四根（贈1、鍛用3、原條0）、淬火脂兩罐（首罐交小禾，第二罐用半餘半）、六枚界楔修復增重，持續WATCH；均非世界Canon。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7175",
+      "title": "B53/1-12｜四筆Git提交是第01至14章閱讀候選衍生版歷史，不能拿提交存在直接宣布小說已正式採用。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "四筆Git提交是第01至14章閱讀候選衍生版歷史，不能拿提交存在直接宣布小說已正式採用。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 36,
+          "quote": "1. `3331367a9c28aeb656002ebd36a49a5d535dbff6`：建立第01～05章修補閱讀複本。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7176",
+      "title": "B53/1-13｜交接責任是讓續寫者讀最新順讀與台帳，而非根據舊Gemini C報告重建錯誤銀銅及物權。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "交接責任是讓續寫者讀最新順讀與台帳，而非根據舊Gemini C報告重建錯誤銀銅及物權。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+          "line": 43,
+          "quote": "這次是局部計算／物件交付敘事修補，**不需專門向Gemini另發訊息**。若Gemini接下來寫第15章或核貨幣／物權，請先讀新順讀索引、統一台帳及本回執；不能只參照歷史 Gemini C 錯誤數值。當前作者尚未明示採案，正式0章／PREWRITE HOLD保留。新建立的閱讀複本與原已納管366份來"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7177",
+      "title": "B53/2-0｜完整作者提示詞按聊天可見轉錄，非平台位元備份；同文件舊輸出契約須以後出兩批與精簡A/C/D規則限定。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "完整作者提示詞按聊天可見轉錄，非平台位元備份；同文件舊輸出契約須以後出兩批與精簡A/C/D規則限定。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 3,
+          "quote": "> 歸檔說明：本檔保留使用者於本對話先前提供的**完整原始第十五章寫作指令**，包含全部八節及最後的 D 保存要求。依聊天可見文字轉錄，非聊天平台位元級匯出。為方便閱讀只加入本註記；以下是原提示詞。與後來「完整查證、精簡回報」的節省額度補充並存；後出作者補充優先。非小說 Canon。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7178",
+      "title": "B53/2-1｜第15章所有寫作要求與後續正文都處NON-CANON；作者未解除PREWRITE HOLD。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第15章所有寫作要求與後續正文都處NON-CANON；作者未解除PREWRITE HOLD。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 13,
+          "quote": "所有內容維持 \"CANDIDATE／NON-CANON／PREWRITE HOLD\"。正式 Canon 仍為 0 章；不得擅自解除 HOLD、覆寫歷史候選或把尚未採案的設定當成正式世界事實。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7179",
+      "title": "B53/2-2｜提示指定14章R1a為當時前章基準，但後出R1b修六點運輸，不能永久鎖定R1a。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "提示指定14章R1a為當時前章基準，但後出R1b修六點運輸，不能永久鎖定R1a。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 29,
+          "quote": "這是已合入 R1 主要修訂、B-1／B-2 旁白補丁及「同一個鏡頭裡」用語修正的最新第十四章候選。它是從聊天可見文字重建的版本，不是 Gemini 平台原始位元快照。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7180",
+      "title": "B53/2-3｜Drive鏡像CURRENT標籤不等於Github最新blob內容；同步須逐份核SHA。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "Drive鏡像CURRENT標籤不等於Github最新blob內容；同步須逐份核SHA。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 45,
+          "quote": "新章寫作前必須核對 GitHub 最新 blob SHA。Google Drive 鏡像可以作為實際閱讀入口，但必須與 GitHub 內容核對，不能僅憑 \"CURRENT\" 標籤聲稱最新版已讀。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7181",
+      "title": "B53/2-4｜14章暖磚棧兩間單人房是其候選住宿安排；不可挪用11章歇風棧一間套房的勘誤否定它。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "14章暖磚棧兩間單人房是其候選住宿安排；不可挪用11章歇風棧一間套房的勘誤否定它。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 51,
+          "quote": "諾亞與艾莉維亞已抵達第九區【黑脊抱柱鎮】，在內三環【暖磚棧】付費入住兩間單人房，預定住兩天。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7182",
+      "title": "B53/2-5｜三根沉銀已用於六界楔冷鍛加固、增重約三成，不能於後續再把三條當未耗材。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "三根沉銀已用於六界楔冷鍛加固、增重約三成，不能於後續再把三條當未耗材。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 53,
+          "quote": "兩人到【斷風砧寒鍛坊】找到喬鐵手與鏽梭，耗用全部剩餘三根老純度冷鍛沉銀條，讓艾莉維亞的六枚界楔完成冷鍛外脊與微米應力網加固。界楔重量實際增加約三成，但已經配平，操控習慣與效能獲得改善。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7183",
+      "title": "B53/2-6｜老喬的礦工二手傳聞與工程推測不是角色所見確證；半噸母核與冰震成因需保持待證。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "老喬的礦工二手傳聞與工程推測不是角色所見確證；半噸母核與冰震成因需保持待證。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 63,
+          "quote": "上述推論仍未由主角現場證實。 半噸母核與舊艙是否直接相關、真實受損機制、礦業聯會的實際責任、冰淵深處是否還有其他危險，都不能直接從作者專用因果卡搬進角色認知。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7184",
+      "title": "B53/2-7｜六點工單涉及真實通行與載運過程，主角不能無路權、裝備或交通瞬間抵達深井。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "六點工單涉及真實通行與載運過程，主角不能無路權、裝備或交通瞬間抵達深井。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 71,
+          "quote": "注意：老喬接到的急件是明早六點把修好的備用絞盤送往西側巡檢旁道。主角的動線、起床時間、路途、運輸作業及抵達可能性都必須合理。不能讓他們沒有取得通行權限、裝備或必要情報，就瞬間進入受限制的一千公尺深井。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7185",
+      "title": "B53/2-8｜每輪必須手動實讀與引擎關聯展開雙軌核對，不是把幾個檔名填入A就完成。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "每輪必須手動實讀與引擎關聯展開雙軌核對，不是把幾個檔名填入A就完成。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 75,
+          "quote": "按專案現行 \"AGENTS.md\"、跨 AI SOP，以及設定關聯引擎的規則，完成兩條互相獨立的來源檢查："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7186",
+      "title": "B53/2-9｜W01第09區旁道查詢應展開父容器、全部子區、職業、生態與道路權限及後修。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "W01第09區旁道查詢應展開父容器、全部子區、職業、生態與道路權限及後修。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 83,
+          "quote": "查詢 \"W01 第09區／霜脈散熱嶺／黑脊抱柱鎮／三號排熱冰淵／西側舊冷凝巡檢旁道\"，展開世界層父容器、相關子區、設施、交通、人物、組織、生態、產業、版本修正及上下游依賴。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7187",
+      "title": "B53/2-10｜異常生物地理的外部作品類比是創意研究，不可直接複製原作具名物種或當真實入侵證據。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "異常生物地理的外部作品類比是創意研究，不可直接複製原作具名物種或當真實入侵證據。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 100,
+          "quote": "特別留意《來自深淵》中低層來源生物異常出現在較上層的案例，其可借鑑的不是直接複製第六層、第四層或寄生蟲名稱，而是異常生物地理、原有生態平衡改變、地方專家察覺不正常分布，以及隨之產生的生活、醫療、交通與社會後果。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7188",
+      "title": "B53/2-11｜居民遷徙、物種入侵與跨世界層交通是不同現象；本章無需硬塞蟲災或巨龜遷徙。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "居民遷徙、物種入侵與跨世界層交通是不同現象；本章無需硬塞蟲災或巨龜遷徙。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 102,
+          "quote": "但這是創意與因果研究，不是命令第十五章必須寫蟲災、巨龜遷徙或跨世界層入侵。居民移居、自然生態遷徙、物種入侵與跨世界層移動是不同現象，不能混成單一機制。請先讀原文，再判斷本章是否真的有自然使用機會；不適合便保留到未來。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7189",
+      "title": "B53/2-12｜深井現場的作業次序應同時滿足通風、壓力、技術維修、人員安全與准入權。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "深井現場的作業次序應同時滿足通風、壓力、技術維修、人員安全與准入權。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 110,
+          "quote": "冰淵調查應有相稱的地形、低溫、機械、壓力、通風、吊運、維修、人員安全與路權條件。若有人阻擋、隱瞞、協助或誤解，也必須有實際原因。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7190",
+      "title": "B53/2-13｜近景鋼鐵桁架密集與遠方極空曠的巨構視覺可以並存，不強迫每處都有常住人口。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "近景鋼鐵桁架密集與遠方極空曠的巨構視覺可以並存，不強迫每處都有常住人口。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 116,
+          "quote": "保留巨構世界兩種可同時存在的景觀：近處管線、桁架、懸柱、鐵橋及工業結構極端密集；遠處仍可能是大到失去尺度的空曠無人區。生活聚落與危險荒野、活躍設備與失修遺構可以並存。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7191",
+      "title": "B53/2-14｜諾亞與艾莉維亞須維持有情感與行動的自然對話；場景節奏不應被設定解說取代。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞與艾莉維亞須維持有情感與行動的自然對話；場景節奏不應被設定解說取代。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 118,
+          "quote": "維持諾亞與艾莉維亞的個性、互動與對話密度；對白自然、有情緒與動作，不要只讓角色輪流說明設定。章節篇幅應承載完整場景，不要因節省輸出而將重要行動壓成幾段摘要。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7192",
+      "title": "B53/2-15｜B正文禁止『第N章』等作者章號與內部版本代碼滲入世界內旁白。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "B正文禁止『第N章』等作者章號與內部版本代碼滲入世界內旁白。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 126,
+          "quote": "- 「第五章」「第十二章」「上一章」「下章」等作者章節定位；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7193",
+      "title": "B53/2-16｜世界內合法的第九區地名和真技術詞可自然保留，禁止項不能機械按字面一刀切。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "世界內合法的第九區地名和真技術詞可自然保留，禁止項不能機械按字面一刀切。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 131,
+          "quote": "合法的世界內名稱如「第九區」、居民真正使用的技術術語，以及符合敘事文風的自然譬喻，不能因字面相似而被誤刪。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7194",
+      "title": "B53/2-17｜六枚已修界楔、沉銀耗盡、淬火脂餘半和寒鐵匣重要物都須承接具體物權。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "六枚已修界楔、沉銀耗盡、淬火脂餘半和寒鐵匣重要物都須承接具體物權。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 139,
+          "quote": "- 艾莉維亞持有六枚已修復並升級、物理質量增加約三成的界楔；三根用於鍛造的老純度沉銀已全部耗盡。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7195",
+      "title": "B53/2-18｜作者提示列135/618/753張是當時Gemini候選結算口徑；後出獨立對帳將753限為條件等值，非已證紙鈔張數。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者提示列135/618/753張是當時Gemini候選結算口徑；後出獨立對帳將753限為條件等值，非已證紙鈔張數。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 145,
+          "quote": "- 已列明的銀鉚券紙鈔為：艾莉維亞 135 張、諾亞隨身與同行公帳 618 張，兩人合計 753 張。銅索幣須獨立計算，不能把已用銅幣再次從銀券紙鈔扣除；匯率仍有候選性。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7196",
+      "title": "B53/2-19｜暖磚棧兩間房支付兩晚房資是14章候選獨立旅店事實，不等於11章歇風棧套房。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "暖磚棧兩間房支付兩晚房資是14章候選獨立旅店事實，不等於11章歇風棧套房。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 146,
+          "quote": "- 暖磚棧兩間房已支付兩天房資，不能隔天再當作尚未付款。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7197",
+      "title": "B53/2-20｜當輪要求完整A的歷史輸出契約已受後出低額度精簡回報修訂，不能機械重印長台帳。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "當輪要求完整A的歷史輸出契約已受後出低額度精簡回報修訂，不能機械重印長台帳。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 164,
+          "quote": "不得僅交一段簡短摘要冒充完整 A。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7198",
+      "title": "B53/2-21｜作者要求新章B有完整人物、行動與篇幅，不可為壓成兩則而快速收束。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者要求新章B有完整人物、行動與篇幅，不可為壓成兩則而快速收束。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 170,
+          "quote": "請以正式可閱讀的長篇小說方式，寫出完整、連續、有細節的第十五章。保留場景密度、環境運作、人物細微反應、必要行動與對話。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7199",
+      "title": "B53/2-22｜寫後C須查實際人物語氣來源而非塞口頭禪，且檢查情報與物權、禁第四面牆。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "寫後C須查實際人物語氣來源而非塞口頭禪，且檢查情報與物權、禁第四面牆。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 185,
+          "quote": "6. 第 059／104／105 份語氣資料的實際查閱回執，至少兩句本章真實對白與非強制語氣檢查；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7200",
+      "title": "B53/2-23｜D的GitHub/Drive保存自述須有可查回執，不能把輸出聊天或計畫存檔稱為已推送。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "D的GitHub/Drive保存自述須有可查回執，不能把輸出聊天或計畫存檔稱為已推送。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 188,
+          "quote": "9. 實際保存狀態：有無 GitHub commit、blob SHA、Drive 鏡像及讀回驗證，未做到的明確說未做到。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7201",
+      "title": "B53/2-24｜後續局部修訂應使用帶唯一錨點、原SHA、old→new差異，不讓Gemini整章重生。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "後續局部修訂應使用帶唯一錨點、原SHA、old→new差異，不讓Gemini整章重生。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 196,
+          "quote": "局部修正只提交精確、唯一命中的 \"old → new\" 差異，附來源 SHA、修改理由及不得變動的原句。後續由 GPT／補丁工具建立新候選檔並驗證。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7202",
+      "title": "B53/2-25｜要求單輪連續A/B/C與D完整輸出的提示是歷史作者當時要求；後出兩次新章交付規則改變輸出節奏。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "要求單輪連續A/B/C與D完整輸出的提示是歷史作者當時要求；後出兩次新章交付規則改變輸出節奏。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 200,
+          "quote": "請直接開始執行這一輪工作，先輸出完整 A，然後接續第十五章完整 B，最後完整 C；不需要再詢問作者是否要開始，也不要用下一輪 Gemini 額度處理舊章勘誤。D｜實際保存能力與版本回執（完整輸出）"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7203",
+      "title": "B53/2-26｜若無GitHub實際寫入能力，保存狀態只能標待執行，不能自稱跨AI同步完成。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "若無GitHub實際寫入能力，保存狀態只能標待執行，不能自稱跨AI同步完成。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+          "line": 206,
+          "quote": "如果無法直接寫入 GitHub，就完整交付 A／B／C 供 GPT 後續保存，D 必須明確記錄待執行的保存工作；不得把「計畫保存」「已輸出文字」宣稱為「已提交並同步」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7204",
+      "title": "B53/3-0｜第15章三批接合的GPT審稿是非正史獨立編輯建議，不是Gemini平台原始備份或作者採案。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第15章三批接合的GPT審稿是非正史獨立編輯建議，不是Gemini平台原始備份或作者採案。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 3,
+          "quote": "> 2026-11-11。來源是使用者於聊天回貼的 Gemini 第15章第一批（A＋B）、第二批（B）、第三批（B＋C＋D），非 Gemini 平台位元驗證。原始三批分別保存。作者正式 Canon 仍0章／PREWRITE HOLD。本報告是 GPT 的**獨立編輯建議**，並非直接修改已保存的 "
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7205",
+      "title": "B53/3-1｜原三批B接合先按原稿順序存為完整初稿，僅空行整理；必須保留與後出R1/R2的版本差異。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原三批B接合先按原稿順序存為完整初稿，僅空行整理；必須保留與後出R1/R2的版本差異。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 8,
+          "quote": "- B 三批純正文合併 SHA：`b21479f30c2cf95e3eb1c40a3d72758dda9d2a53`。僅接合原文、整理空行，無內容補寫與未經授權修辭。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7206",
+      "title": "B53/3-2｜三批字數約2901、4775、3644合計11320，問題是交付變三次而非全章篇幅不足。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "三批字數約2901、4775、3644合計11320，問題是交付變三次而非全章篇幅不足。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 9,
+          "quote": "- 實際 B 中文漢字：第一批約2,901、第二批約4,775、第三批約3,644，合計11,320；前兩批7,676字只及第13章11,423字、第14章12,277字約67%／63%。所以最終篇幅正常，問題是 Gemini 沒有事先安排兩次完整交付，而自行切成三次。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7207",
+      "title": "B53/3-3｜舊旁白百分百證明母核打撈與錨栓人禍超出在場證據，不可作角色確證。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "舊旁白百分百證明母核打撈與錨栓人禍超出在場證據，不可作角色確證。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 18,
+          "quote": "「到這一刻為止，老喬昨天在工坊裡的工程推論，終於得到了百分之百的實物證實——"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7208",
+      "title": "B53/3-4｜空槽、封存殘印、錨栓切痕只能支持高度相符的假說，不能直接斷取走物與責任人。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "空槽、封存殘印、錨栓切痕只能支持高度相符的假說，不能直接斷取走物與責任人。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 26,
+          "quote": "至少有幾件事對上了：這座舊艙的外側確實曾被開挖、取走過一件重物；留下的封存標記，與他們手裡的打撈拓印高度吻合。而那兩根帶著切割痕跡的錨栓，也讓老喬的猜測有了實物依據。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7209",
+      "title": "B53/3-5｜老葛懷疑一號採掘班合理，但施工時間與肇事者不能單靠斷口知道。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "老葛懷疑一號採掘班合理，但施工時間與肇事者不能單靠斷口知道。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 30,
+          "quote": "老葛可以合理憤怒、懷疑一號採掘班，但不能因看到斷口就合法知道施工時間及行為者。另有「正如老喬在工坊裡憑著破絞盤所推斷的那樣——」「兩道極其新鮮」和「兩個月前被人鑿開」等作者確定語氣，宜在不改事件結果前提下收斂為「看上去」「帶著切割熔痕」「開鑿痕跡的新舊仍待確認」，保留對後續解釋的空間。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7210",
+      "title": "B53/3-6｜原稿的活性碳防寒面巾由老胡頭贈予缺可靠前章物權錨點，不能倒填道具。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原稿的活性碳防寒面巾由老胡頭贈予缺可靠前章物權錨點，不能倒填道具。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 36,
+          "quote": "「艾莉維亞站在平板車邊緣，伸手從風衣內側口袋裡摸出了兩枚在北坡老貨棧街買內襯時，順帶向老胡頭討來的『浸油活性碳防寒面巾』……」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7211",
+      "title": "B53/3-7｜活性碳面巾不是缺氧及未知毒氣供氣設備，下井應有具體借用與監測/撤退程序。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "活性碳面巾不是缺氧及未知毒氣供氣設備，下井應有具體借用與監測/撤退程序。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 38,
+          "quote": "前章第13章 R1b 未核實向老胡頭取得面巾；舊金流/物權表也無這兩件。活性碳面巾不等於適用酸霧、高溫及可能缺氧深井的呼吸裝備。第三批「諾亞……摘下臉上已經被水氣浸濕的活性碳防寒面巾」讓問題加重。**NEW 方向**：讓守卡的老葛在當下按工務流程提供/借用來源清楚的合規深井呼吸防護及必要偵測、補給；"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7212",
+      "title": "B53/3-8｜原稿踏板額定最多三人；老葛、小六、艾莉維亞已滿額，不得再讓焊工突然上車。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原稿踏板額定最多三人；老葛、小六、艾莉維亞已滿額，不得再讓焊工突然上車。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 42,
+          "quote": "第二批老葛親口說「兩邊的踏板最多只能站三個人跟車壓閘」；當時老葛、小六、艾莉維亞已是三人，第三名年輕焊工走爬梯。第三批 **OLD**："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7213",
+      "title": "B53/3-9｜修正候選讓焊工沿獨立防墜爬梯後行，仍由原三人控制鐵爬犁。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "修正候選讓焊工沿獨立防墜爬梯後行，仍由原三人控制鐵爬犁。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 48,
+          "quote": "「老葛沒有逞強，當即讓那名驚魂未定的年輕焊工改走車後方已檢過的爬梯，重新扣好獨立防墜繩，別再獨自探前路；鐵爬犁上仍由老葛、小六與艾莉維亞三人照原定載員控制下行。前方開路的位置，則交給諾亞。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7214",
+      "title": "B53/3-10｜第14章老喬六點送達與第15章五時五十分才到工坊不合時序；後出R1b改六點起運。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第14章老喬六點送達與第15章五時五十分才到工坊不合時序；後出R1b改六點起運。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 54,
+          "quote": "第14章 R1a 老喬說隔天6:00「直接送到」旁道；第15章5:50兩人才抵工坊，隨後等待工務機車、掛車、行駛、守卡、卸貨。絕無根據說6:00已送達。第15章可交代六點是工務發車／交貨窗口，或將會合時間提前並補實際路程；若需動第14章一句話，交由 GPT 後續精確補丁，Gemini勿自行回頭整章重"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7215",
+      "title": "B53/3-11｜黑銷共鳴與艙內未知物只能表現觀察/推測，不能推成已知齒輪、母核或密封真相。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "黑銷共鳴與艙內未知物只能表現觀察/推測，不能推成已知齒輪、母核或密封真相。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 58,
+          "quote": "- 黑銷確實「嗡」了一下是合法觀察；但第三批「這一次，絕對不是……」「另一個同規格齒輪」「礦業聯會連主艙外層都沒鑽透」「真正運送的東西還鎖在內」依然都是推測或修辭，不該由旁白／角色變成無根據已驗定律。可保留異常寒源與共鳴，讓角色明確說「可能」「不能確定」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7216",
+      "title": "B53/3-12｜高壓熱蒸氣與坍塌現場需要可站立位置、作業先後和安全監視，不能全員突然忘記危險。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "高壓熱蒸氣與坍塌現場需要可站立位置、作業先後和安全監視，不能全員突然忘記危險。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 59,
+          "quote": "- 千公尺高壓蒸氣、近崩塌冰棚與焊工搶修現場，若突然全員顧不上危險搬千斤頂／主角輕易穿過棧道到洞口，須補充有效立足點、迴避途徑、作業先後與誰在擔任安全監視的短動作；不必工程手冊化。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7217",
+      "title": "B53/3-13｜艙門破裂後應先評估焊工與隊伍求生及撤退加固，不可把開門等同強制入艙主線。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艙門破裂後應先評估焊工與隊伍求生及撤退加固，不可把開門等同強制入艙主線。",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 60,
+          "quote": "- 章末數百噸艙體下沉兩公尺、開裂氣密門，下一章應優先處理現場的焊工與隊伍求生、撤退/加固及其他人的獨立反應，不要把「門開了＝立刻入艙」寫成自動主線任務。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7218",
+      "title": "B53/3-14｜銀券753和銅值30出9入、淨負21都僅是條件式編輯對帳，不是已證實的錢包餘額。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "銀券753和銅值30出9入、淨負21都僅是條件式編輯對帳，不是已證實的錢包餘額。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 67,
+          "quote": "- C 舊紙鈔 135／618／753 只是**條件式非Canon計算**，不能升成已確認的現存紙鈔。最新台帳銅值30流出、9流入、淨−21，期初仍未知；本章若未支出可以不重印舊流水。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7219",
+      "title": "B53/3-15｜Gemini C宣稱情報無矛盾未通過獨立QA，至少有防護、載員、時間、確證語氣等缺口。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "Gemini C宣稱情報無矛盾未通過獨立QA，至少有防護、載員、時間、確證語氣等缺口。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 72,
+          "quote": "- Gemini 的 C 宣稱「情報邊界嚴格」「未發現新增矛盾」**不通過獨立 QA**：至少有五項需修（證據全知化、防毒設備與來源、超載、六點送達時序、深井動作環境合理性）。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7220",
+      "title": "B53/3-16｜後續修訂只用唯一命中的精準old→new，不整章重印、不覆寫原三批。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "後續修訂只用唯一命中的精準old→new，不整章重印、不覆寫原三批。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 78,
+          "quote": "1. 請依上方 P0/P1 順序只交精確 old→new 的局部修訂，逐一標示唯一命中舊句、理由與可承接後文的位置；不要重印第15章全部 B，不要回到第1～14章大修。對暫無權限寫 GitHub 的狀況如實說明。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7221",
+      "title": "B53/3-17｜作者後出原則新章B預設兩則完成但須保留正常約一萬字完整場景，不為湊兩則縮水。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後出原則新章B預設兩則完成但須保留正常約一萬字完整場景，不為湊兩則縮水。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+          "line": 80,
+          "quote": "3. **以後新章首稿預設只分兩次完整交付**：第一次簡短 A 後交 B 約半章；使用者回覆「繼續」後，第二次務必交 B 完整後半、自然章末及精簡 C/D。第15章首批僅2,901字、第二批4,775字，兩批尚未完整是輸出節奏規劃不足，不是讓第15章草率收尾的理由。第15章最終合計11,320中文字"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7222",
+      "title": "B53/4-0｜本檔是2026-11-12的GPT二次QA，非正史，不能自行宣告Canon解鎖。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "本檔是2026-11-12的GPT二次QA，非正史，不能自行宣告Canon解鎖。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 3,
+          "quote": "日期 2026-11-12，正式 Canon 0 章／PREWRITE HOLD。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7223",
+      "title": "B53/4-1｜Gemini八處補丁合成的R1版本源自三批初稿，九段唯一命中，未覆寫原稿；此後另有R2。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "Gemini八處補丁合成的R1版本源自三批初稿，九段唯一命中，未覆寫原稿；此後另有R2。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 7,
+          "quote": "Gemini 八項補丁的完整作者回貼已存為 Git blob 80b63a1f9f19479753700dcb12bc8c3f22efb986。以原初三批 B 接合稿 b21479f30c2cf95e3eb1c40a3d72758dda9d2a53 為底，只統一段落空行、移除補丁中的加粗/斜體 Ma"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7224",
+      "title": "B53/4-2｜14章R1b及順讀14與合輯同步修六點掛車起運/一刻前抵達，不是改寫14章整篇。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "14章R1b及順讀14與合輯同步修六點掛車起運/一刻前抵達，不是改寫14章整篇。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 9,
+          "quote": "第十四章 R1a 81b72a6f41f7778c8c3d075a462dca7ae1d72c2a 仍保留；另新建 R1b SHA daea535ae98475fa025422d619828dc300572698，僅將六點「直接送到」修正為六點掛車起運、六點一刻前抵達。唯一14章順讀單章新版 SHA"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7225",
+      "title": "B53/4-3｜R1藍焰測氧風燈不可當氧濃度安全證據，在未知可燃氣體中明火亦危險。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "R1藍焰測氧風燈不可當氧濃度安全證據，在未知可燃氣體中明火亦危險。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 13,
+          "quote": "1. 「藍焰測氧風燈」不可把火焰變綠當作氧氣安全的可靠指標；未知可燃氣體環境持明火還會引燃。若想保留有世界特色的發光設備，需另定**封閉式氣體檢測**原理和警報邊界，或直接改成可測氧、可燃氣與目標毒氣濃度的攜帶式氣體檢測計，不能用火苗替代。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7226",
+      "title": "B53/4-4｜R1鹼石濾毒半面罩不能供氧，對缺氧或未知深井氣體不安全；R2改供氣描寫。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "R1鹼石濾毒半面罩不能供氧，對缺氧或未知深井氣體不安全；R2改供氣描寫。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 14,
+          "quote": "2. 「雙罐式鹼石濾毒半面罩」即使能吸附特定酸氣也不能供氧；未知、缺氧或立即危險的井底氣氛不能靠濾毒罐進入。先測安全範圍，測不到或不合格即退回、通風或使用正確供氣式呼吸防護。NIOSH官方：https://www.cdc.gov/niosh/docs/2018-176/default.html；OS"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7227",
+      "title": "B53/4-5｜R1把防墜繩扣移動鐵爬犁尾環仍不合固定錨點要求，R2改岩壁錨點分段換掛。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "R1把防墜繩扣移動鐵爬犁尾環仍不合固定錨點要求，R2改岩壁錨點分段換掛。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 15,
+          "quote": "3. 年輕焊工防墜副繩扣在移動鐵爬犁尾環，可能在急停或失軌時拖落人員；應改**獨立固定承重錨點、分段換掛**，不把滑車視為固定防墜錨。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7228",
+      "title": "B53/4-6｜R1一盞測氧風燈卻在兩人腰上重複出現，造成道具數量矛盾；R2配置兩具監測器。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "R1一盞測氧風燈卻在兩人腰上重複出現，造成道具數量矛盾；R2配置兩具監測器。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 16,
+          "quote": "4. 補丁2只發給兩人**一盞**測氧風燈；補丁3艾莉維亞腰間有燈，補丁4與7又描述諾亞腰間也有燈，出現物權／使用位置矛盾。改用檢測計也需說明儀器由誰持有，或明確另行配發。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7229",
+      "title": "B53/4-7｜R1仍讓諾亞認定兩個月前某人取走母核為事實，證據不足；R2收斂為尚待核對。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "R1仍讓諾亞認定兩個月前某人取走母核為事實，證據不足；R2收斂為尚待核對。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 17,
+          "quote": "5. 補丁8雖取消旁白「百分之百證實」，諾亞仍說「兩個月前的人從外頭的配重槽撬走了那顆半噸重的鐵球」，比已確認的空槽與封存殘印證據更肯定。建議改成「來過的人可能從那裡取走重物，是否就是母核還待核對」，保留未知。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7230",
+      "title": "B53/4-8｜原R1說守卡能力強十倍無證明倍率，R2應以可見身手與老喬判斷取代。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "原R1說守卡能力強十倍無證明倍率，R2應以可見身手與老喬判斷取代。",
+      "authority": "HISTORICAL_CORRECTION",
+      "authority_axis": "HISTORICAL_CORRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 19,
+          "quote": "7. 原正文守卡「手底下的硬功夫比你小子強十倍」仍是無根據戰力倍率；後續宜以具體身手與老喬認識兩人的理由取代。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7231",
+      "title": "B53/4-9｜R1雖保存八處補丁但安全與知情QA未通過，不能將部分修訂冒稱全面驗收。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "R1雖保存八處補丁但安全與知情QA未通過，不能將部分修訂冒稱全面驗收。",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 21,
+          "quote": "上述屬 GPT 後修建議，**R1 原文仍忠實按 Gemini 補丁保存**，沒有偷換成未經作者確認的科學再設計；不得宣稱整章工務安全 QA 全部通過。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7232",
+      "title": "B53/4-10｜後出第16章新章B預設兩次交付、不可縮字或提前揭謎，屬工作節奏非故事Canon。",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "後出第16章新章B預設兩次交付、不可縮字或提前揭謎，屬工作節奏非故事Canon。",
+      "authority": "AUTHOR_DIRECTION",
+      "authority_axis": "AUTHOR_DIRECTION",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "以原文Git Blob與行號回查；版本、作者指示、編輯自評與正式Canon嚴格分離。",
+      "next_action": "來源或後出版本SHA變動時，重審對應區間、下游候選與非Canon圖譜。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+          "line": 23,
+          "quote": "第十六章起新章首稿仍遵循作者最新的兩次完整交付：首則精簡 A＋B 前半，次則 B 後半完成＋精簡 C/D；如真有模型容量限制才額外分批，不能透過縮水或提前揭曉來假裝完成。"
+        }
+      ]
+    }
+  ],
+  "staged_attestations": [
+    {
+      "source_path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+      "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+      "source_role_id": "FULL-B53-01",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-7163",
+        "SRC-ALL-7164",
+        "SRC-ALL-7165",
+        "SRC-ALL-7166",
+        "SRC-ALL-7167",
+        "SRC-ALL-7168",
+        "SRC-ALL-7169",
+        "SRC-ALL-7170",
+        "SRC-ALL-7171",
+        "SRC-ALL-7172",
+        "SRC-ALL-7173",
+        "SRC-ALL-7174",
+        "SRC-ALL-7175",
+        "SRC-ALL-7176"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全文逐段實讀、後出版本及作者權威核對；來源本身與候選Canon分離，質量待CI結構驗證。",
+      "source_line_count": 44,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 15,
+          "anchor_line": 1,
+          "meaning": "本次回執的『最新順讀』被後出唯一資料夾取代；原跨目錄說法僅是歷史，不可復活第二個順讀入口。；第01至14章只屬已修閱讀候選，原始回貼與舊候選留存，PREWRITE HOLD仍有效。；第13章沿用R1b、第14章此時沿用R1a；後出第14章R1b更新後，須以後出入口為準。",
+          "quote": "> **2026-11-11 後續整理決議（本段優先）**：依作者要求，最新順讀改回唯一資料夾 `待定正文/順讀_最新補丁候選/`，原先額外建立的 `順讀_最新補丁候選_01至14章/` 已撤離現行樹；歷史仍保存在 Git commit。第03／11章修訂直接套在固定順讀路徑，其他既有章保留，新增1"
+        },
+        {
+          "from": 16,
+          "to": 25,
+          "anchor_line": 20,
+          "meaning": "第03章『十五張銀券』改為未指定面額的『那份賞金』，不引入臆測貨幣換算。；第11章五銅熱水費已付款後，候選修補明確退還五枚銅幣；既有付款不能憑空作廢。；第11章兩張銀券與五銅值零券為不同實物，付款出示與取回需分離追蹤。；回執表示精準補丁已套讀本，但原始問題台帳不能僅因此無條件改成作者Canon已修復。",
+          "quote": "| BODY-QA-002 / BODY-PATCH-03-REWARD | `c994954ce871b5ed108b1aaac661a2baab14c12b` | 第03章L71原句「我剛分到的十五張銀券」→「我剛分到的那份賞金」；不發明銀券枚／張匯率 |"
+        },
+        {
+          "from": 26,
+          "to": 33,
+          "anchor_line": 28,
+          "meaning": "可見銅值流出30、找零4與退款5為候選可見流量；淨負21不是期初或現金餘額，紙券與銅幣不可混算。；第11章歇風棧是一間套房兩張床；不得與第14章暖磚棧的兩間房混同。；753銀券只是在特定情境的條件記帳，不證明現存753張同面額紙鈔。；第02章蘇珊娜找零欠缺已核原文支持，仍維持OPEN不能補造收入。；沉銀贈1鍛3、兩罐淬火脂第一罐轉交小禾與第二罐餘半、六界楔質量提升仍屬候選物權WATCH。",
+          "quote": "- Gemini C 早前把已見銅值流出算成25，漏掉支出；實際已見支出 2＋2＋1＋20＋5＝**30銅值**，第13章有4銅找零，舊候選淨變動**−26銅值**。本次新版第11章**實際退5銅**，故新情境已見淨變動**−21銅值**。這**不是目前口袋存款或初始硬幣數**；第11章付款的「一張"
+        },
+        {
+          "from": 34,
+          "to": 44,
+          "anchor_line": 36,
+          "meaning": "四筆Git提交是第01至14章閱讀候選衍生版歷史，不能拿提交存在直接宣布小說已正式採用。；交接責任是讓續寫者讀最新順讀與台帳，而非根據舊Gemini C報告重建錯誤銀銅及物權。",
+          "quote": "1. `3331367a9c28aeb656002ebd36a49a5d535dbff6`：建立第01～05章修補閱讀複本。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/順讀_最新補丁候選/README.md",
+        "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/README.md",
+          "git_blob_sha": "aeca91a433a09616f2203581eda106286ac2038a"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+          "git_blob_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+          "git_blob_sha": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+          "git_blob_sha": "daea535ae98475fa025422d619828dc300572698"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-12",
+        "review_scope": "逐段完整審閱、原文位置與後修版本交叉對照、四類具體二遍反問；非作者採案或原生Gemini執行證明。",
+        "revocation": "來源/後修依賴SHA變更或有漏檢時撤銷重驗；必須CI成功才可列正式已驗。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 1,
+            "quote": "> **2026-11-11 後續整理決議（本段優先）**：依作者要求，最新順讀改回唯一資料夾 `待定正文/順讀_最新補丁候選/`，原先額外建立的 `順讀_最新補丁候選_01至14章/` 已撤離現行樹；歷史仍保存在 Git commit。第03／11章修訂直接套在固定順讀路徑，其他既有章保留，新增1",
+            "topic": "本次回執的『最新順讀』被後出唯一資料夾取代；原跨目錄說法僅是歷史，不可復活第二個順讀入口。",
+            "finding": "本次回執的『最新順讀』被後出唯一資料夾取代；原跨目錄說法僅是歷史，不可復活第二個順讀入口。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7163"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 7,
+            "quote": "> **本次實際產出**：建立14份最新候選純正文與1份完整連讀合輯；在新衍生候選第03、11章套用3條 SHA＋指定行核對的精確補丁。**既有Gemini原始回貼、原候選與11/08舊12章順讀全部保留未覆寫。正式小說 Canon 0章、PREWRITE HOLD；修補候選不等於作者已採用。**",
+            "topic": "第01至14章只屬已修閱讀候選，原始回貼與舊候選留存，PREWRITE HOLD仍有效。",
+            "finding": "第01至14章只屬已修閱讀候選，原始回貼與舊候選留存，PREWRITE HOLD仍有效。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7164"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 14,
+            "quote": "這14章均是小說閱讀稿，不把前置版本註記、A作者劇透卡與C寫後QA混入正文。第01～12章沿用原11/08已套補丁候選，第13章使用Gemini R1b（原始SHA `70210e387bbbfdf35375ac7c8e34ab5c0305f8ad`），第14章使用Gemini R1a（原始SHA ",
+            "topic": "第13章沿用R1b、第14章此時沿用R1a；後出第14章R1b更新後，須以後出入口為準。",
+            "finding": "第13章沿用R1b、第14章此時沿用R1a；後出第14章R1b更新後，須以後出入口為準。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7165"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 20,
+            "quote": "| BODY-QA-002 / BODY-PATCH-03-REWARD | `c994954ce871b5ed108b1aaac661a2baab14c12b` | 第03章L71原句「我剛分到的十五張銀券」→「我剛分到的那份賞金」；不發明銀券枚／張匯率 |",
+            "topic": "第03章『十五張銀券』改為未指定面額的『那份賞金』，不引入臆測貨幣換算。",
+            "finding": "第03章『十五張銀券』改為未指定面額的『那份賞金』，不引入臆測貨幣換算。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7166"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 21,
+            "quote": "| BODY-QA-003 / BODY-PATCH-11-REFUND | `0b414e767adb6d0bee2deaf45230675c0235875c` | 第11章L151賀老太太說熱水5銅免收時，明寫從錢袋拿出五枚銅索幣退還諾亞 |",
+            "topic": "第11章五銅熱水費已付款後，候選修補明確退還五枚銅幣；既有付款不能憑空作廢。",
+            "finding": "第11章五銅熱水費已付款後，候選修補明確退還五枚銅幣；既有付款不能憑空作廢。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7167"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 22,
+            "quote": "| BODY-QA-004 / BODY-PATCH-11-NOTE | `0b414e767adb6d0bee2deaf45230675c0235875c` | 第11章L195諾亞把兩張銀鉚券與一張五銅值零券一併放上台面，接續塔里抽走零券並退回大銀券 |",
+            "topic": "第11章兩張銀券與五銅值零券為不同實物，付款出示與取回需分離追蹤。",
+            "finding": "第11章兩張銀券與五銅值零券為不同實物，付款出示與取回需分離追蹤。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7168"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 24,
+            "quote": "上述精確替換已在生成前比對原Git blob SHA與指定整行，並在新版單章和合輯內逐項驗證存在。最初的 `正文待修_統一問題台帳.json` 仍保留原始問題與未經作者採用狀態，不能因衍生候選已修就把歷史原來源誤標為 DONE_VERIFIED。",
+            "topic": "回執表示精準補丁已套讀本，但原始問題台帳不能僅因此無條件改成作者Canon已修復。",
+            "finding": "回執表示精準補丁已套讀本，但原始問題台帳不能僅因此無條件改成作者Canon已修復。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7169"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 28,
+            "quote": "- Gemini C 早前把已見銅值流出算成25，漏掉支出；實際已見支出 2＋2＋1＋20＋5＝**30銅值**，第13章有4銅找零，舊候選淨變動**−26銅值**。本次新版第11章**實際退5銅**，故新情境已見淨變動**−21銅值**。這**不是目前口袋存款或初始硬幣數**；第11章付款的「一張",
+            "topic": "可見銅值流出30、找零4與退款5為候選可見流量；淨負21不是期初或現金餘額，紙券與銅幣不可混算。",
+            "finding": "可見銅值流出30、找零4與退款5為候選可見流量；淨負21不是期初或現金餘額，紙券與銅幣不可混算。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7170"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 29,
+            "quote": "- 歇風棧是**一間套房，裡外兩張床**，房價15銅＋額外熱水5銅。Gemini C 所稱「兩間房」是衍生報告誤述，不改原劇情。",
+            "topic": "第11章歇風棧是一間套房兩張床；不得與第14章暖磚棧的兩間房混同。",
+            "finding": "第11章歇風棧是一間套房兩張床；不得與第14章暖磚棧的兩間房混同。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7171"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 30,
+            "quote": "- 銀鉚券753只屬特定候選情境的記帳推算，不強迫視為持有753張等額紙券；第03章原稿的枚／張面額規則仍未核定。",
+            "topic": "753銀券只是在特定情境的條件記帳，不證明現存753張同面額紙鈔。",
+            "finding": "753銀券只是在特定情境的條件記帳，不證明現存753張同面額紙鈔。",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-7172"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 31,
+            "quote": "- 第02章所謂「蘇珊娜找零」仍缺當前候選及已查四版歷史原文支持，保持OPEN，不虛構收入。",
+            "topic": "第02章蘇珊娜找零欠缺已核原文支持，仍維持OPEN不能補造收入。",
+            "finding": "第02章蘇珊娜找零欠缺已核原文支持，仍維持OPEN不能補造收入。",
+            "authority": "OPEN_UNVERIFIED",
+            "claim_ids": [
+              "SRC-ALL-7173"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 32,
+            "quote": "- 第12至14章沉銀四根（贈1、鍛用3、原條0）、淬火脂兩罐（首罐交小禾，第二罐用半餘半）、六枚界楔修復增重，持續WATCH；均非世界Canon。",
+            "topic": "沉銀贈1鍛3、兩罐淬火脂第一罐轉交小禾與第二罐餘半、六界楔質量提升仍屬候選物權WATCH。",
+            "finding": "沉銀贈1鍛3、兩罐淬火脂第一罐轉交小禾與第二罐餘半、六界楔質量提升仍屬候選物權WATCH。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-7174"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 36,
+            "quote": "1. `3331367a9c28aeb656002ebd36a49a5d535dbff6`：建立第01～05章修補閱讀複本。",
+            "topic": "四筆Git提交是第01至14章閱讀候選衍生版歷史，不能拿提交存在直接宣布小說已正式採用。",
+            "finding": "四筆Git提交是第01至14章閱讀候選衍生版歷史，不能拿提交存在直接宣布小說已正式採用。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7175"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 43,
+            "quote": "這次是局部計算／物件交付敘事修補，**不需專門向Gemini另發訊息**。若Gemini接下來寫第15章或核貨幣／物權，請先讀新順讀索引、統一台帳及本回執；不能只參照歷史 Gemini C 錯誤數值。當前作者尚未明示採案，正式0章／PREWRITE HOLD保留。新建立的閱讀複本與原已納管366份來",
+            "topic": "交接責任是讓續寫者讀最新順讀與台帳，而非根據舊Gemini C報告重建錯誤銀銅及物權。",
+            "finding": "交接責任是讓續寫者讀最新順讀與台帳，而非根據舊Gemini C報告重建錯誤銀銅及物權。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7176"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 7,
+            "quote": "> **本次實際產出**：建立14份最新候選純正文與1份完整連讀合輯；在新衍生候選第03、11章套用3條 SHA＋指定行核對的精確補丁。**既有Gemini原始回貼、原候選與11/08舊12章順讀全部保留未覆寫。正式小說 Canon 0章、PREWRITE HOLD；修補候選不等於作者已採用。**",
+            "question": "三筆局部補丁已寫閱讀候選，是否等於作者選為正式小說？",
+            "finding": "不等於。這是維護回執與非正史閱讀稿；原稿、作者批准及正式章數三者仍明確分離。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 14,
+            "quote": "這14章均是小說閱讀稿，不把前置版本註記、A作者劇透卡與C寫後QA混入正文。第01～12章沿用原11/08已套補丁候選，第13章使用Gemini R1b（原始SHA `70210e387bbbfdf35375ac7c8e34ab5c0305f8ad`），第14章使用Gemini R1a（原始SHA ",
+            "question": "這份回執認定14章R1a最新的說法，在後來R1b與索引更新後還成立嗎？",
+            "finding": "只對2026-11-11當時有效；現行14章R1b及單一順讀README更後出，須以其文本為最新版候選。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 28,
+            "quote": "- Gemini C 早前把已見銅值流出算成25，漏掉支出；實際已見支出 2＋2＋1＋20＋5＝**30銅值**，第13章有4銅找零，舊候選淨變動**−26銅值**。本次新版第11章**實際退5銅**，故新情境已見淨變動**−21銅值**。這**不是目前口袋存款或初始硬幣數**；第11章付款的「一張",
+            "question": "退五銅與找零四銅能不能推定角色現存銅幣餘額，或把753當紙鈔現存張數？",
+            "finding": "不能。流量淨負21不提供期初餘額；五銅面值零券也不等於五枚實體銅幣。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 29,
+            "quote": "- 歇風棧是**一間套房，裡外兩張床**，房價15銅＋額外熱水5銅。Gemini C 所稱「兩間房」是衍生報告誤述，不改原劇情。",
+            "question": "歇風棧一間套房是否推翻14章暖磚棧兩間房？",
+            "finding": "不推翻；那是不同旅店、不同章節，對應不同住宿條件，應在章際物權與帳目分開登記。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/順讀_最新補丁候選/README.md",
+            "git_blob_sha": "aeca91a433a09616f2203581eda106286ac2038a",
+            "impact": "唯一順讀入口包含更新到14章R1b；本回執舊『第14章R1a最新』失效，須保留為歷史。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+            "git_blob_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a",
+            "impact": "現行第03章L71已是『那份賞金』，確定舊十五張銀券說法不再作最新版。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+            "git_blob_sha": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3",
+            "impact": "現行第11章L151直接退五枚銅索幣；只核已支付與已退，不推期初錢包。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+            "git_blob_sha": "daea535ae98475fa025422d619828dc300572698",
+            "impact": "後出R1b已將六點工單改成掛車起運且確認暖磚棧兩間房，不能混用歇風棧。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          }
+        ],
+        "second_pass_method": "先逐行核對此來源原文、時序與逐段主張；第二遍獨立反查同名旅店、金額實體、Gemini與GPT權威界線、R1/R2後出影響與對後續章節連續性的實際改動；材料皆保留SHA及行錨。",
+        "unresolved_risks": [
+          "第02章未經來源證明的找零仍為OPEN；候選幣種換算與期初餘額未知。"
+        ]
+      }
+    },
+    {
+      "source_path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+      "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+      "source_role_id": "FULL-B53-02",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-7177",
+        "SRC-ALL-7178",
+        "SRC-ALL-7179",
+        "SRC-ALL-7180",
+        "SRC-ALL-7181",
+        "SRC-ALL-7182",
+        "SRC-ALL-7183",
+        "SRC-ALL-7184",
+        "SRC-ALL-7185",
+        "SRC-ALL-7186",
+        "SRC-ALL-7187",
+        "SRC-ALL-7188",
+        "SRC-ALL-7189",
+        "SRC-ALL-7190",
+        "SRC-ALL-7191",
+        "SRC-ALL-7192",
+        "SRC-ALL-7193",
+        "SRC-ALL-7194",
+        "SRC-ALL-7195",
+        "SRC-ALL-7196",
+        "SRC-ALL-7197",
+        "SRC-ALL-7198",
+        "SRC-ALL-7199",
+        "SRC-ALL-7200",
+        "SRC-ALL-7201",
+        "SRC-ALL-7202",
+        "SRC-ALL-7203"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全文逐段實讀、後出版本及作者權威核對；來源本身與候選Canon分離，質量待CI結構驗證。",
+      "source_line_count": 211,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 45,
+          "anchor_line": 3,
+          "meaning": "完整作者提示詞按聊天可見轉錄，非平台位元備份；同文件舊輸出契約須以後出兩批與精簡A/C/D規則限定。；第15章所有寫作要求與後續正文都處NON-CANON；作者未解除PREWRITE HOLD。；提示指定14章R1a為當時前章基準，但後出R1b修六點運輸，不能永久鎖定R1a。；Drive鏡像CURRENT標籤不等於Github最新blob內容；同步須逐份核SHA。",
+          "quote": "> 歸檔說明：本檔保留使用者於本對話先前提供的**完整原始第十五章寫作指令**，包含全部八節及最後的 D 保存要求。依聊天可見文字轉錄，非聊天平台位元級匯出。為方便閱讀只加入本註記；以下是原提示詞。與後來「完整查證、精簡回報」的節省額度補充並存；後出作者補充優先。非小說 Canon。"
+        },
+        {
+          "from": 46,
+          "to": 72,
+          "anchor_line": 51,
+          "meaning": "14章暖磚棧兩間單人房是其候選住宿安排；不可挪用11章歇風棧一間套房的勘誤否定它。；三根沉銀已用於六界楔冷鍛加固、增重約三成，不能於後續再把三條當未耗材。；老喬的礦工二手傳聞與工程推測不是角色所見確證；半噸母核與冰震成因需保持待證。；六點工單涉及真實通行與載運過程，主角不能無路權、裝備或交通瞬間抵達深井。",
+          "quote": "諾亞與艾莉維亞已抵達第九區【黑脊抱柱鎮】，在內三環【暖磚棧】付費入住兩間單人房，預定住兩天。"
+        },
+        {
+          "from": 73,
+          "to": 103,
+          "anchor_line": 75,
+          "meaning": "每輪必須手動實讀與引擎關聯展開雙軌核對，不是把幾個檔名填入A就完成。；W01第09區旁道查詢應展開父容器、全部子區、職業、生態與道路權限及後修。；異常生物地理的外部作品類比是創意研究，不可直接複製原作具名物種或當真實入侵證據。；居民遷徙、物種入侵與跨世界層交通是不同現象；本章無需硬塞蟲災或巨龜遷徙。",
+          "quote": "按專案現行 \"AGENTS.md\"、跨 AI SOP，以及設定關聯引擎的規則，完成兩條互相獨立的來源檢查："
+        },
+        {
+          "from": 104,
+          "to": 119,
+          "anchor_line": 110,
+          "meaning": "深井現場的作業次序應同時滿足通風、壓力、技術維修、人員安全與准入權。；近景鋼鐵桁架密集與遠方極空曠的巨構視覺可以並存，不強迫每處都有常住人口。；諾亞與艾莉維亞須維持有情感與行動的自然對話；場景節奏不應被設定解說取代。",
+          "quote": "冰淵調查應有相稱的地形、低溫、機械、壓力、通風、吊運、維修、人員安全與路權條件。若有人阻擋、隱瞞、協助或誤解，也必須有實際原因。"
+        },
+        {
+          "from": 120,
+          "to": 134,
+          "anchor_line": 126,
+          "meaning": "B正文禁止『第N章』等作者章號與內部版本代碼滲入世界內旁白。；世界內合法的第九區地名和真技術詞可自然保留，禁止項不能機械按字面一刀切。",
+          "quote": "- 「第五章」「第十二章」「上一章」「下章」等作者章節定位；"
+        },
+        {
+          "from": 135,
+          "to": 149,
+          "anchor_line": 139,
+          "meaning": "六枚已修界楔、沉銀耗盡、淬火脂餘半和寒鐵匣重要物都須承接具體物權。；作者提示列135/618/753張是當時Gemini候選結算口徑；後出獨立對帳將753限為條件等值，非已證紙鈔張數。；暖磚棧兩間房支付兩晚房資是14章候選獨立旅店事實，不等於11章歇風棧套房。",
+          "quote": "- 艾莉維亞持有六枚已修復並升級、物理質量增加約三成的界楔；三根用於鍛造的老純度沉銀已全部耗盡。"
+        },
+        {
+          "from": 150,
+          "to": 191,
+          "anchor_line": 164,
+          "meaning": "當輪要求完整A的歷史輸出契約已受後出低額度精簡回報修訂，不能機械重印長台帳。；作者要求新章B有完整人物、行動與篇幅，不可為壓成兩則而快速收束。；寫後C須查實際人物語氣來源而非塞口頭禪，且檢查情報與物權、禁第四面牆。；D的GitHub/Drive保存自述須有可查回執，不能把輸出聊天或計畫存檔稱為已推送。",
+          "quote": "不得僅交一段簡短摘要冒充完整 A。"
+        },
+        {
+          "from": 192,
+          "to": 211,
+          "anchor_line": 196,
+          "meaning": "後續局部修訂應使用帶唯一錨點、原SHA、old→new差異，不讓Gemini整章重生。；要求單輪連續A/B/C與D完整輸出的提示是歷史作者當時要求；後出兩次新章交付規則改變輸出節奏。；若無GitHub實際寫入能力，保存狀態只能標待執行，不能自稱跨AI同步完成。",
+          "quote": "局部修正只提交精確、唯一命中的 \"old → new\" 差異，附來源 SHA、修改理由及不得變動的原句。後續由 GPT／補丁工具建立新候選檔並驗證。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+        "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+        "待定正文/順讀_最新補丁候選/README.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+          "git_blob_sha": "daea535ae98475fa025422d619828dc300572698"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+          "git_blob_sha": "711144383da1ee29b499184b2dc8af77a6bf00a1"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/README.md",
+          "git_blob_sha": "aeca91a433a09616f2203581eda106286ac2038a"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-12",
+        "review_scope": "逐段完整審閱、原文位置與後修版本交叉對照、四類具體二遍反問；非作者採案或原生Gemini執行證明。",
+        "revocation": "來源/後修依賴SHA變更或有漏檢時撤銷重驗；必須CI成功才可列正式已驗。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 歸檔說明：本檔保留使用者於本對話先前提供的**完整原始第十五章寫作指令**，包含全部八節及最後的 D 保存要求。依聊天可見文字轉錄，非聊天平台位元級匯出。為方便閱讀只加入本註記；以下是原提示詞。與後來「完整查證、精簡回報」的節省額度補充並存；後出作者補充優先。非小說 Canon。",
+            "topic": "完整作者提示詞按聊天可見轉錄，非平台位元備份；同文件舊輸出契約須以後出兩批與精簡A/C/D規則限定。",
+            "finding": "完整作者提示詞按聊天可見轉錄，非平台位元備份；同文件舊輸出契約須以後出兩批與精簡A/C/D規則限定。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7177"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 13,
+            "quote": "所有內容維持 \"CANDIDATE／NON-CANON／PREWRITE HOLD\"。正式 Canon 仍為 0 章；不得擅自解除 HOLD、覆寫歷史候選或把尚未採案的設定當成正式世界事實。",
+            "topic": "第15章所有寫作要求與後續正文都處NON-CANON；作者未解除PREWRITE HOLD。",
+            "finding": "第15章所有寫作要求與後續正文都處NON-CANON；作者未解除PREWRITE HOLD。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7178"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 29,
+            "quote": "這是已合入 R1 主要修訂、B-1／B-2 旁白補丁及「同一個鏡頭裡」用語修正的最新第十四章候選。它是從聊天可見文字重建的版本，不是 Gemini 平台原始位元快照。",
+            "topic": "提示指定14章R1a為當時前章基準，但後出R1b修六點運輸，不能永久鎖定R1a。",
+            "finding": "提示指定14章R1a為當時前章基準，但後出R1b修六點運輸，不能永久鎖定R1a。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7179"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 45,
+            "quote": "新章寫作前必須核對 GitHub 最新 blob SHA。Google Drive 鏡像可以作為實際閱讀入口，但必須與 GitHub 內容核對，不能僅憑 \"CURRENT\" 標籤聲稱最新版已讀。",
+            "topic": "Drive鏡像CURRENT標籤不等於Github最新blob內容；同步須逐份核SHA。",
+            "finding": "Drive鏡像CURRENT標籤不等於Github最新blob內容；同步須逐份核SHA。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7180"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 51,
+            "quote": "諾亞與艾莉維亞已抵達第九區【黑脊抱柱鎮】，在內三環【暖磚棧】付費入住兩間單人房，預定住兩天。",
+            "topic": "14章暖磚棧兩間單人房是其候選住宿安排；不可挪用11章歇風棧一間套房的勘誤否定它。",
+            "finding": "14章暖磚棧兩間單人房是其候選住宿安排；不可挪用11章歇風棧一間套房的勘誤否定它。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7181"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 53,
+            "quote": "兩人到【斷風砧寒鍛坊】找到喬鐵手與鏽梭，耗用全部剩餘三根老純度冷鍛沉銀條，讓艾莉維亞的六枚界楔完成冷鍛外脊與微米應力網加固。界楔重量實際增加約三成，但已經配平，操控習慣與效能獲得改善。",
+            "topic": "三根沉銀已用於六界楔冷鍛加固、增重約三成，不能於後續再把三條當未耗材。",
+            "finding": "三根沉銀已用於六界楔冷鍛加固、增重約三成，不能於後續再把三條當未耗材。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7182"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 63,
+            "quote": "上述推論仍未由主角現場證實。 半噸母核與舊艙是否直接相關、真實受損機制、礦業聯會的實際責任、冰淵深處是否還有其他危險，都不能直接從作者專用因果卡搬進角色認知。",
+            "topic": "老喬的礦工二手傳聞與工程推測不是角色所見確證；半噸母核與冰震成因需保持待證。",
+            "finding": "老喬的礦工二手傳聞與工程推測不是角色所見確證；半噸母核與冰震成因需保持待證。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7183"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 71,
+            "quote": "注意：老喬接到的急件是明早六點把修好的備用絞盤送往西側巡檢旁道。主角的動線、起床時間、路途、運輸作業及抵達可能性都必須合理。不能讓他們沒有取得通行權限、裝備或必要情報，就瞬間進入受限制的一千公尺深井。",
+            "topic": "六點工單涉及真實通行與載運過程，主角不能無路權、裝備或交通瞬間抵達深井。",
+            "finding": "六點工單涉及真實通行與載運過程，主角不能無路權、裝備或交通瞬間抵達深井。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7184"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 75,
+            "quote": "按專案現行 \"AGENTS.md\"、跨 AI SOP，以及設定關聯引擎的規則，完成兩條互相獨立的來源檢查：",
+            "topic": "每輪必須手動實讀與引擎關聯展開雙軌核對，不是把幾個檔名填入A就完成。",
+            "finding": "每輪必須手動實讀與引擎關聯展開雙軌核對，不是把幾個檔名填入A就完成。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7185"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 83,
+            "quote": "查詢 \"W01 第09區／霜脈散熱嶺／黑脊抱柱鎮／三號排熱冰淵／西側舊冷凝巡檢旁道\"，展開世界層父容器、相關子區、設施、交通、人物、組織、生態、產業、版本修正及上下游依賴。",
+            "topic": "W01第09區旁道查詢應展開父容器、全部子區、職業、生態與道路權限及後修。",
+            "finding": "W01第09區旁道查詢應展開父容器、全部子區、職業、生態與道路權限及後修。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7186"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 100,
+            "quote": "特別留意《來自深淵》中低層來源生物異常出現在較上層的案例，其可借鑑的不是直接複製第六層、第四層或寄生蟲名稱，而是異常生物地理、原有生態平衡改變、地方專家察覺不正常分布，以及隨之產生的生活、醫療、交通與社會後果。",
+            "topic": "異常生物地理的外部作品類比是創意研究，不可直接複製原作具名物種或當真實入侵證據。",
+            "finding": "異常生物地理的外部作品類比是創意研究，不可直接複製原作具名物種或當真實入侵證據。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7187"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 102,
+            "quote": "但這是創意與因果研究，不是命令第十五章必須寫蟲災、巨龜遷徙或跨世界層入侵。居民移居、自然生態遷徙、物種入侵與跨世界層移動是不同現象，不能混成單一機制。請先讀原文，再判斷本章是否真的有自然使用機會；不適合便保留到未來。",
+            "topic": "居民遷徙、物種入侵與跨世界層交通是不同現象；本章無需硬塞蟲災或巨龜遷徙。",
+            "finding": "居民遷徙、物種入侵與跨世界層交通是不同現象；本章無需硬塞蟲災或巨龜遷徙。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7188"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 110,
+            "quote": "冰淵調查應有相稱的地形、低溫、機械、壓力、通風、吊運、維修、人員安全與路權條件。若有人阻擋、隱瞞、協助或誤解，也必須有實際原因。",
+            "topic": "深井現場的作業次序應同時滿足通風、壓力、技術維修、人員安全與准入權。",
+            "finding": "深井現場的作業次序應同時滿足通風、壓力、技術維修、人員安全與准入權。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7189"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 116,
+            "quote": "保留巨構世界兩種可同時存在的景觀：近處管線、桁架、懸柱、鐵橋及工業結構極端密集；遠處仍可能是大到失去尺度的空曠無人區。生活聚落與危險荒野、活躍設備與失修遺構可以並存。",
+            "topic": "近景鋼鐵桁架密集與遠方極空曠的巨構視覺可以並存，不強迫每處都有常住人口。",
+            "finding": "近景鋼鐵桁架密集與遠方極空曠的巨構視覺可以並存，不強迫每處都有常住人口。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7190"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 118,
+            "quote": "維持諾亞與艾莉維亞的個性、互動與對話密度；對白自然、有情緒與動作，不要只讓角色輪流說明設定。章節篇幅應承載完整場景，不要因節省輸出而將重要行動壓成幾段摘要。",
+            "topic": "諾亞與艾莉維亞須維持有情感與行動的自然對話；場景節奏不應被設定解說取代。",
+            "finding": "諾亞與艾莉維亞須維持有情感與行動的自然對話；場景節奏不應被設定解說取代。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7191"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 126,
+            "quote": "- 「第五章」「第十二章」「上一章」「下章」等作者章節定位；",
+            "topic": "B正文禁止『第N章』等作者章號與內部版本代碼滲入世界內旁白。",
+            "finding": "B正文禁止『第N章』等作者章號與內部版本代碼滲入世界內旁白。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7192"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 131,
+            "quote": "合法的世界內名稱如「第九區」、居民真正使用的技術術語，以及符合敘事文風的自然譬喻，不能因字面相似而被誤刪。",
+            "topic": "世界內合法的第九區地名和真技術詞可自然保留，禁止項不能機械按字面一刀切。",
+            "finding": "世界內合法的第九區地名和真技術詞可自然保留，禁止項不能機械按字面一刀切。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7193"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 139,
+            "quote": "- 艾莉維亞持有六枚已修復並升級、物理質量增加約三成的界楔；三根用於鍛造的老純度沉銀已全部耗盡。",
+            "topic": "六枚已修界楔、沉銀耗盡、淬火脂餘半和寒鐵匣重要物都須承接具體物權。",
+            "finding": "六枚已修界楔、沉銀耗盡、淬火脂餘半和寒鐵匣重要物都須承接具體物權。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7194"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 145,
+            "quote": "- 已列明的銀鉚券紙鈔為：艾莉維亞 135 張、諾亞隨身與同行公帳 618 張，兩人合計 753 張。銅索幣須獨立計算，不能把已用銅幣再次從銀券紙鈔扣除；匯率仍有候選性。",
+            "topic": "作者提示列135/618/753張是當時Gemini候選結算口徑；後出獨立對帳將753限為條件等值，非已證紙鈔張數。",
+            "finding": "作者提示列135/618/753張是當時Gemini候選結算口徑；後出獨立對帳將753限為條件等值，非已證紙鈔張數。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7195"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 146,
+            "quote": "- 暖磚棧兩間房已支付兩天房資，不能隔天再當作尚未付款。",
+            "topic": "暖磚棧兩間房支付兩晚房資是14章候選獨立旅店事實，不等於11章歇風棧套房。",
+            "finding": "暖磚棧兩間房支付兩晚房資是14章候選獨立旅店事實，不等於11章歇風棧套房。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7196"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 164,
+            "quote": "不得僅交一段簡短摘要冒充完整 A。",
+            "topic": "當輪要求完整A的歷史輸出契約已受後出低額度精簡回報修訂，不能機械重印長台帳。",
+            "finding": "當輪要求完整A的歷史輸出契約已受後出低額度精簡回報修訂，不能機械重印長台帳。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7197"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 170,
+            "quote": "請以正式可閱讀的長篇小說方式，寫出完整、連續、有細節的第十五章。保留場景密度、環境運作、人物細微反應、必要行動與對話。",
+            "topic": "作者要求新章B有完整人物、行動與篇幅，不可為壓成兩則而快速收束。",
+            "finding": "作者要求新章B有完整人物、行動與篇幅，不可為壓成兩則而快速收束。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7198"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 185,
+            "quote": "6. 第 059／104／105 份語氣資料的實際查閱回執，至少兩句本章真實對白與非強制語氣檢查；",
+            "topic": "寫後C須查實際人物語氣來源而非塞口頭禪，且檢查情報與物權、禁第四面牆。",
+            "finding": "寫後C須查實際人物語氣來源而非塞口頭禪，且檢查情報與物權、禁第四面牆。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7199"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 188,
+            "quote": "9. 實際保存狀態：有無 GitHub commit、blob SHA、Drive 鏡像及讀回驗證，未做到的明確說未做到。",
+            "topic": "D的GitHub/Drive保存自述須有可查回執，不能把輸出聊天或計畫存檔稱為已推送。",
+            "finding": "D的GitHub/Drive保存自述須有可查回執，不能把輸出聊天或計畫存檔稱為已推送。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7200"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 196,
+            "quote": "局部修正只提交精確、唯一命中的 \"old → new\" 差異，附來源 SHA、修改理由及不得變動的原句。後續由 GPT／補丁工具建立新候選檔並驗證。",
+            "topic": "後續局部修訂應使用帶唯一錨點、原SHA、old→new差異，不讓Gemini整章重生。",
+            "finding": "後續局部修訂應使用帶唯一錨點、原SHA、old→new差異，不讓Gemini整章重生。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7201"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 200,
+            "quote": "請直接開始執行這一輪工作，先輸出完整 A，然後接續第十五章完整 B，最後完整 C；不需要再詢問作者是否要開始，也不要用下一輪 Gemini 額度處理舊章勘誤。D｜實際保存能力與版本回執（完整輸出）",
+            "topic": "要求單輪連續A/B/C與D完整輸出的提示是歷史作者當時要求；後出兩次新章交付規則改變輸出節奏。",
+            "finding": "要求單輪連續A/B/C與D完整輸出的提示是歷史作者當時要求；後出兩次新章交付規則改變輸出節奏。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7202"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 206,
+            "quote": "如果無法直接寫入 GitHub，就完整交付 A／B／C 供 GPT 後續保存，D 必須明確記錄待執行的保存工作；不得把「計畫保存」「已輸出文字」宣稱為「已提交並同步」。",
+            "topic": "若無GitHub實際寫入能力，保存狀態只能標待執行，不能自稱跨AI同步完成。",
+            "finding": "若無GitHub實際寫入能力，保存狀態只能標待執行，不能自稱跨AI同步完成。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7203"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 歸檔說明：本檔保留使用者於本對話先前提供的**完整原始第十五章寫作指令**，包含全部八節及最後的 D 保存要求。依聊天可見文字轉錄，非聊天平台位元級匯出。為方便閱讀只加入本註記；以下是原提示詞。與後來「完整查證、精簡回報」的節省額度補充並存；後出作者補充優先。非小說 Canon。",
+            "question": "使用者轉貼提示詞能否作作者創作指示，是否也能保證所有引述來源由Gemini真的實讀？",
+            "finding": "可視作當時作者交付指示；其中對其他AI已讀或平台版本的敘述不能代替Git Blob與外部工具取證。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 29,
+            "quote": "這是已合入 R1 主要修訂、B-1／B-2 旁白補丁及「同一個鏡頭裡」用語修正的最新第十四章候選。它是從聊天可見文字重建的版本，不是 Gemini 平台原始位元快照。",
+            "question": "第十四章R1a仍是唯一最新接續基準嗎？",
+            "finding": "否。六點工單後出R1b已保存且現行順讀14章使用R1b；15章後出R2也必須優先於舊寫作提示。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 145,
+            "quote": "- 已列明的銀鉚券紙鈔為：艾莉維亞 135 張、諾亞隨身與同行公帳 618 張，兩人合計 753 張。銅索幣須獨立計算，不能把已用銅幣再次從銀券紙鈔扣除；匯率仍有候選性。",
+            "question": "第十五章提示中753張銀券能否作出當前背包內鈔票精確張數？",
+            "finding": "不能。後出獨立對帳限制為條件性記帳等值，紙券面額與初始銅幣餘額尚未證明。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 51,
+            "quote": "諾亞與艾莉維亞已抵達第九區【黑脊抱柱鎮】，在內三環【暖磚棧】付費入住兩間單人房，預定住兩天。",
+            "question": "第11章歇風棧套房和14章暖磚棧兩間單人房是否互相否定？",
+            "finding": "不同地點、不同旅店、不同時序；各自成立於當時候選文字，禁止混為一筆住宿交易。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+            "git_blob_sha": "daea535ae98475fa025422d619828dc300572698",
+            "impact": "14章R1b實際把六點改為掛車起運；兩間暖磚棧房間仍保留。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+            "git_blob_sha": "711144383da1ee29b499184b2dc8af77a6bf00a1",
+            "impact": "15章R2已取代R1作下一章最新版候選；深井供氣、檢測、母核知情已做後續補丁。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/README.md",
+            "git_blob_sha": "aeca91a433a09616f2203581eda106286ac2038a",
+            "impact": "第03、11章及第14章後出順讀修補已於單一README標示，不能依早期版本繼續規劃。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          }
+        ],
+        "second_pass_method": "先逐行核對此來源原文、時序與逐段主張；第二遍獨立反查同名旅店、金額實體、Gemini與GPT權威界線、R1/R2後出影響與對後續章節連續性的實際改動；材料皆保留SHA及行錨。",
+        "unresolved_risks": [
+          "作者原提示的A/C/D長篇輸出規則已被後出精簡回報修訂；內容仍需真實查證。",
+          "來源中對外部《來自深淵》提及只是借鑑方向，不屬於本世界已發生物種事件。"
+        ]
+      }
+    },
+    {
+      "source_path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+      "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+      "source_role_id": "FULL-B53-03",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-7204",
+        "SRC-ALL-7205",
+        "SRC-ALL-7206",
+        "SRC-ALL-7207",
+        "SRC-ALL-7208",
+        "SRC-ALL-7209",
+        "SRC-ALL-7210",
+        "SRC-ALL-7211",
+        "SRC-ALL-7212",
+        "SRC-ALL-7213",
+        "SRC-ALL-7214",
+        "SRC-ALL-7215",
+        "SRC-ALL-7216",
+        "SRC-ALL-7217",
+        "SRC-ALL-7218",
+        "SRC-ALL-7219",
+        "SRC-ALL-7220",
+        "SRC-ALL-7221"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全文逐段實讀、後出版本及作者權威核對；來源本身與候選Canon分離，質量待CI結構驗證。",
+      "source_line_count": 84,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 12,
+          "anchor_line": 3,
+          "meaning": "第15章三批接合的GPT審稿是非正史獨立編輯建議，不是Gemini平台原始備份或作者採案。；原三批B接合先按原稿順序存為完整初稿，僅空行整理；必須保留與後出R1/R2的版本差異。；三批字數約2901、4775、3644合計11320，問題是交付變三次而非全章篇幅不足。",
+          "quote": "> 2026-11-11。來源是使用者於聊天回貼的 Gemini 第15章第一批（A＋B）、第二批（B）、第三批（B＋C＋D），非 Gemini 平台位元驗證。原始三批分別保存。作者正式 Canon 仍0章／PREWRITE HOLD。本報告是 GPT 的**獨立編輯建議**，並非直接修改已保存的 "
+        },
+        {
+          "from": 13,
+          "to": 31,
+          "anchor_line": 18,
+          "meaning": "舊旁白百分百證明母核打撈與錨栓人禍超出在場證據，不可作角色確證。；空槽、封存殘印、錨栓切痕只能支持高度相符的假說，不能直接斷取走物與責任人。；老葛懷疑一號採掘班合理，但施工時間與肇事者不能單靠斷口知道。",
+          "quote": "「到這一刻為止，老喬昨天在工坊裡的工程推論，終於得到了百分之百的實物證實——"
+        },
+        {
+          "from": 32,
+          "to": 39,
+          "anchor_line": 36,
+          "meaning": "原稿的活性碳防寒面巾由老胡頭贈予缺可靠前章物權錨點，不能倒填道具。；活性碳面巾不是缺氧及未知毒氣供氣設備，下井應有具體借用與監測/撤退程序。",
+          "quote": "「艾莉維亞站在平板車邊緣，伸手從風衣內側口袋裡摸出了兩枚在北坡老貨棧街買內襯時，順帶向老胡頭討來的『浸油活性碳防寒面巾』……」"
+        },
+        {
+          "from": 40,
+          "to": 55,
+          "anchor_line": 42,
+          "meaning": "原稿踏板額定最多三人；老葛、小六、艾莉維亞已滿額，不得再讓焊工突然上車。；修正候選讓焊工沿獨立防墜爬梯後行，仍由原三人控制鐵爬犁。；第14章老喬六點送達與第15章五時五十分才到工坊不合時序；後出R1b改六點起運。",
+          "quote": "第二批老葛親口說「兩邊的踏板最多只能站三個人跟車壓閘」；當時老葛、小六、艾莉維亞已是三人，第三名年輕焊工走爬梯。第三批 **OLD**："
+        },
+        {
+          "from": 56,
+          "to": 68,
+          "anchor_line": 58,
+          "meaning": "黑銷共鳴與艙內未知物只能表現觀察/推測，不能推成已知齒輪、母核或密封真相。；高壓熱蒸氣與坍塌現場需要可站立位置、作業先後和安全監視，不能全員突然忘記危險。；艙門破裂後應先評估焊工與隊伍求生及撤退加固，不可把開門等同強制入艙主線。；銀券753和銅值30出9入、淨負21都僅是條件式編輯對帳，不是已證實的錢包餘額。",
+          "quote": "- 黑銷確實「嗡」了一下是合法觀察；但第三批「這一次，絕對不是……」「另一個同規格齒輪」「礦業聯會連主艙外層都沒鑽透」「真正運送的東西還鎖在內」依然都是推測或修辭，不該由旁白／角色變成無根據已驗定律。可保留異常寒源與共鳴，讓角色明確說「可能」「不能確定」。"
+        },
+        {
+          "from": 69,
+          "to": 84,
+          "anchor_line": 72,
+          "meaning": "Gemini C宣稱情報無矛盾未通過獨立QA，至少有防護、載員、時間、確證語氣等缺口。；後續修訂只用唯一命中的精準old→new，不整章重印、不覆寫原三批。；作者後出原則新章B預設兩則完成但須保留正常約一萬字完整場景，不為湊兩則縮水。",
+          "quote": "- Gemini 的 C 宣稱「情報邊界嚴格」「未發現新增矛盾」**不通過獨立 QA**：至少有五項需修（證據全知化、防毒設備與來源、超載、六點送達時序、深井動作環境合理性）。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+          "git_blob_sha": "711144383da1ee29b499184b2dc8af77a6bf00a1"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+          "git_blob_sha": "daea535ae98475fa025422d619828dc300572698"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-12",
+        "review_scope": "逐段完整審閱、原文位置與後修版本交叉對照、四類具體二遍反問；非作者採案或原生Gemini執行證明。",
+        "revocation": "來源/後修依賴SHA變更或有漏檢時撤銷重驗；必須CI成功才可列正式已驗。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 2026-11-11。來源是使用者於聊天回貼的 Gemini 第15章第一批（A＋B）、第二批（B）、第三批（B＋C＋D），非 Gemini 平台位元驗證。原始三批分別保存。作者正式 Canon 仍0章／PREWRITE HOLD。本報告是 GPT 的**獨立編輯建議**，並非直接修改已保存的 ",
+            "topic": "第15章三批接合的GPT審稿是非正史獨立編輯建議，不是Gemini平台原始備份或作者採案。",
+            "finding": "第15章三批接合的GPT審稿是非正史獨立編輯建議，不是Gemini平台原始備份或作者採案。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7204"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 8,
+            "quote": "- B 三批純正文合併 SHA：`b21479f30c2cf95e3eb1c40a3d72758dda9d2a53`。僅接合原文、整理空行，無內容補寫與未經授權修辭。",
+            "topic": "原三批B接合先按原稿順序存為完整初稿，僅空行整理；必須保留與後出R1/R2的版本差異。",
+            "finding": "原三批B接合先按原稿順序存為完整初稿，僅空行整理；必須保留與後出R1/R2的版本差異。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7205"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 9,
+            "quote": "- 實際 B 中文漢字：第一批約2,901、第二批約4,775、第三批約3,644，合計11,320；前兩批7,676字只及第13章11,423字、第14章12,277字約67%／63%。所以最終篇幅正常，問題是 Gemini 沒有事先安排兩次完整交付，而自行切成三次。",
+            "topic": "三批字數約2901、4775、3644合計11320，問題是交付變三次而非全章篇幅不足。",
+            "finding": "三批字數約2901、4775、3644合計11320，問題是交付變三次而非全章篇幅不足。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7206"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 18,
+            "quote": "「到這一刻為止，老喬昨天在工坊裡的工程推論，終於得到了百分之百的實物證實——",
+            "topic": "舊旁白百分百證明母核打撈與錨栓人禍超出在場證據，不可作角色確證。",
+            "finding": "舊旁白百分百證明母核打撈與錨栓人禍超出在場證據，不可作角色確證。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7207"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 26,
+            "quote": "至少有幾件事對上了：這座舊艙的外側確實曾被開挖、取走過一件重物；留下的封存標記，與他們手裡的打撈拓印高度吻合。而那兩根帶著切割痕跡的錨栓，也讓老喬的猜測有了實物依據。",
+            "topic": "空槽、封存殘印、錨栓切痕只能支持高度相符的假說，不能直接斷取走物與責任人。",
+            "finding": "空槽、封存殘印、錨栓切痕只能支持高度相符的假說，不能直接斷取走物與責任人。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7208"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 30,
+            "quote": "老葛可以合理憤怒、懷疑一號採掘班，但不能因看到斷口就合法知道施工時間及行為者。另有「正如老喬在工坊裡憑著破絞盤所推斷的那樣——」「兩道極其新鮮」和「兩個月前被人鑿開」等作者確定語氣，宜在不改事件結果前提下收斂為「看上去」「帶著切割熔痕」「開鑿痕跡的新舊仍待確認」，保留對後續解釋的空間。",
+            "topic": "老葛懷疑一號採掘班合理，但施工時間與肇事者不能單靠斷口知道。",
+            "finding": "老葛懷疑一號採掘班合理，但施工時間與肇事者不能單靠斷口知道。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7209"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 36,
+            "quote": "「艾莉維亞站在平板車邊緣，伸手從風衣內側口袋裡摸出了兩枚在北坡老貨棧街買內襯時，順帶向老胡頭討來的『浸油活性碳防寒面巾』……」",
+            "topic": "原稿的活性碳防寒面巾由老胡頭贈予缺可靠前章物權錨點，不能倒填道具。",
+            "finding": "原稿的活性碳防寒面巾由老胡頭贈予缺可靠前章物權錨點，不能倒填道具。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7210"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 38,
+            "quote": "前章第13章 R1b 未核實向老胡頭取得面巾；舊金流/物權表也無這兩件。活性碳面巾不等於適用酸霧、高溫及可能缺氧深井的呼吸裝備。第三批「諾亞……摘下臉上已經被水氣浸濕的活性碳防寒面巾」讓問題加重。**NEW 方向**：讓守卡的老葛在當下按工務流程提供/借用來源清楚的合規深井呼吸防護及必要偵測、補給；",
+            "topic": "活性碳面巾不是缺氧及未知毒氣供氣設備，下井應有具體借用與監測/撤退程序。",
+            "finding": "活性碳面巾不是缺氧及未知毒氣供氣設備，下井應有具體借用與監測/撤退程序。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7211"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 42,
+            "quote": "第二批老葛親口說「兩邊的踏板最多只能站三個人跟車壓閘」；當時老葛、小六、艾莉維亞已是三人，第三名年輕焊工走爬梯。第三批 **OLD**：",
+            "topic": "原稿踏板額定最多三人；老葛、小六、艾莉維亞已滿額，不得再讓焊工突然上車。",
+            "finding": "原稿踏板額定最多三人；老葛、小六、艾莉維亞已滿額，不得再讓焊工突然上車。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7212"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 48,
+            "quote": "「老葛沒有逞強，當即讓那名驚魂未定的年輕焊工改走車後方已檢過的爬梯，重新扣好獨立防墜繩，別再獨自探前路；鐵爬犁上仍由老葛、小六與艾莉維亞三人照原定載員控制下行。前方開路的位置，則交給諾亞。」",
+            "topic": "修正候選讓焊工沿獨立防墜爬梯後行，仍由原三人控制鐵爬犁。",
+            "finding": "修正候選讓焊工沿獨立防墜爬梯後行，仍由原三人控制鐵爬犁。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-7213"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 54,
+            "quote": "第14章 R1a 老喬說隔天6:00「直接送到」旁道；第15章5:50兩人才抵工坊，隨後等待工務機車、掛車、行駛、守卡、卸貨。絕無根據說6:00已送達。第15章可交代六點是工務發車／交貨窗口，或將會合時間提前並補實際路程；若需動第14章一句話，交由 GPT 後續精確補丁，Gemini勿自行回頭整章重",
+            "topic": "第14章老喬六點送達與第15章五時五十分才到工坊不合時序；後出R1b改六點起運。",
+            "finding": "第14章老喬六點送達與第15章五時五十分才到工坊不合時序；後出R1b改六點起運。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7214"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 58,
+            "quote": "- 黑銷確實「嗡」了一下是合法觀察；但第三批「這一次，絕對不是……」「另一個同規格齒輪」「礦業聯會連主艙外層都沒鑽透」「真正運送的東西還鎖在內」依然都是推測或修辭，不該由旁白／角色變成無根據已驗定律。可保留異常寒源與共鳴，讓角色明確說「可能」「不能確定」。",
+            "topic": "黑銷共鳴與艙內未知物只能表現觀察/推測，不能推成已知齒輪、母核或密封真相。",
+            "finding": "黑銷共鳴與艙內未知物只能表現觀察/推測，不能推成已知齒輪、母核或密封真相。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7215"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 59,
+            "quote": "- 千公尺高壓蒸氣、近崩塌冰棚與焊工搶修現場，若突然全員顧不上危險搬千斤頂／主角輕易穿過棧道到洞口，須補充有效立足點、迴避途徑、作業先後與誰在擔任安全監視的短動作；不必工程手冊化。",
+            "topic": "高壓熱蒸氣與坍塌現場需要可站立位置、作業先後和安全監視，不能全員突然忘記危險。",
+            "finding": "高壓熱蒸氣與坍塌現場需要可站立位置、作業先後和安全監視，不能全員突然忘記危險。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7216"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 60,
+            "quote": "- 章末數百噸艙體下沉兩公尺、開裂氣密門，下一章應優先處理現場的焊工與隊伍求生、撤退/加固及其他人的獨立反應，不要把「門開了＝立刻入艙」寫成自動主線任務。",
+            "topic": "艙門破裂後應先評估焊工與隊伍求生及撤退加固，不可把開門等同強制入艙主線。",
+            "finding": "艙門破裂後應先評估焊工與隊伍求生及撤退加固，不可把開門等同強制入艙主線。",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-7217"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 67,
+            "quote": "- C 舊紙鈔 135／618／753 只是**條件式非Canon計算**，不能升成已確認的現存紙鈔。最新台帳銅值30流出、9流入、淨−21，期初仍未知；本章若未支出可以不重印舊流水。",
+            "topic": "銀券753和銅值30出9入、淨負21都僅是條件式編輯對帳，不是已證實的錢包餘額。",
+            "finding": "銀券753和銅值30出9入、淨負21都僅是條件式編輯對帳，不是已證實的錢包餘額。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7218"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 72,
+            "quote": "- Gemini 的 C 宣稱「情報邊界嚴格」「未發現新增矛盾」**不通過獨立 QA**：至少有五項需修（證據全知化、防毒設備與來源、超載、六點送達時序、深井動作環境合理性）。",
+            "topic": "Gemini C宣稱情報無矛盾未通過獨立QA，至少有防護、載員、時間、確證語氣等缺口。",
+            "finding": "Gemini C宣稱情報無矛盾未通過獨立QA，至少有防護、載員、時間、確證語氣等缺口。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7219"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 78,
+            "quote": "1. 請依上方 P0/P1 順序只交精確 old→new 的局部修訂，逐一標示唯一命中舊句、理由與可承接後文的位置；不要重印第15章全部 B，不要回到第1～14章大修。對暫無權限寫 GitHub 的狀況如實說明。",
+            "topic": "後續修訂只用唯一命中的精準old→new，不整章重印、不覆寫原三批。",
+            "finding": "後續修訂只用唯一命中的精準old→new，不整章重印、不覆寫原三批。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7220"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 80,
+            "quote": "3. **以後新章首稿預設只分兩次完整交付**：第一次簡短 A 後交 B 約半章；使用者回覆「繼續」後，第二次務必交 B 完整後半、自然章末及精簡 C/D。第15章首批僅2,901字、第二批4,775字，兩批尚未完整是輸出節奏規劃不足，不是讓第15章草率收尾的理由。第15章最終合計11,320中文字",
+            "topic": "作者後出原則新章B預設兩則完成但須保留正常約一萬字完整場景，不為湊兩則縮水。",
+            "finding": "作者後出原則新章B預設兩則完成但須保留正常約一萬字完整場景，不為湊兩則縮水。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7221"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 2026-11-11。來源是使用者於聊天回貼的 Gemini 第15章第一批（A＋B）、第二批（B）、第三批（B＋C＋D），非 Gemini 平台位元驗證。原始三批分別保存。作者正式 Canon 仍0章／PREWRITE HOLD。本報告是 GPT 的**獨立編輯建議**，並非直接修改已保存的 ",
+            "question": "GPT的P0/P1補丁表是否表示Gemini原三批已變動或作者批准？",
+            "finding": "不表示。這是獨立QA及改稿建議；須查實際後出R1/R2 Blob辨識哪些已真正套用。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 54,
+            "quote": "第14章 R1a 老喬說隔天6:00「直接送到」旁道；第15章5:50兩人才抵工坊，隨後等待工務機車、掛車、行駛、守卡、卸貨。絕無根據說6:00已送達。第15章可交代六點是工務發車／交貨窗口，或將會合時間提前並補實際路程；若需動第14章一句話，交由 GPT 後續精確補丁，Gemini勿自行回頭整章重",
+            "question": "六點到站的矛盾現在仍應由本報告原先的未修說法呈現嗎？",
+            "finding": "後來14章R1b已修為六點掛車起運並於六點一刻前送到，原報告只作歷史問題來源。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 42,
+            "quote": "第二批老葛親口說「兩邊的踏板最多只能站三個人跟車壓閘」；當時老葛、小六、艾莉維亞已是三人，第三名年輕焊工走爬梯。第三批 **OLD**：",
+            "question": "第四名焊工臨時上爬犁能否以人物技術熟練忽略載員上限？",
+            "finding": "不能。額定三人是原場內已明示規則；R2採固定岩壁錨點、焊工爬梯後行，需維持安全行動鏈。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 38,
+            "quote": "前章第13章 R1b 未核實向老胡頭取得面巾；舊金流/物權表也無這兩件。活性碳面巾不等於適用酸霧、高溫及可能缺氧深井的呼吸裝備。第三批「諾亞……摘下臉上已經被水氣浸濕的活性碳防寒面巾」讓問題加重。**NEW 方向**：讓守卡的老葛在當下按工務流程提供/借用來源清楚的合規深井呼吸防護及必要偵測、補給；",
+            "question": "後續R1給濾毒面罩與火焰測氧是否就滿足本報告提出的深井安全疑慮？",
+            "finding": "不滿足；R1二次QA已指出缺氧供氣與火焰風險，R2才後出改閉式供氣及多氣體監測，但設備性能仍非真實安全認證。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+            "git_blob_sha": "711144383da1ee29b499184b2dc8af77a6bf00a1",
+            "impact": "後出R2修供氣、兩具檢測器、錨點與知情過度確證，不能誤把此先前GPT報告當成最新正文。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+            "git_blob_sha": "daea535ae98475fa025422d619828dc300572698",
+            "impact": "第14章R1b修正六點起運，解決歷史第一版『送達』時序差。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          }
+        ],
+        "second_pass_method": "先逐行核對此來源原文、時序與逐段主張；第二遍獨立反查同名旅店、金額實體、Gemini與GPT權威界線、R1/R2後出影響與對後續章節連續性的實際改動；材料皆保留SHA及行錨。",
+        "unresolved_risks": [
+          "原P0/P1缺陷大部分在R2後出修正，不應沿用歷史報告認定現行R2仍原樣有錯。"
+        ]
+      }
+    },
+    {
+      "source_path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+      "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+      "source_role_id": "FULL-B53-04",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-7222",
+        "SRC-ALL-7223",
+        "SRC-ALL-7224",
+        "SRC-ALL-7225",
+        "SRC-ALL-7226",
+        "SRC-ALL-7227",
+        "SRC-ALL-7228",
+        "SRC-ALL-7229",
+        "SRC-ALL-7230",
+        "SRC-ALL-7231",
+        "SRC-ALL-7232"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全文逐段實讀、後出版本及作者權威核對；來源本身與候選Canon分離，質量待CI結構驗證。",
+      "source_line_count": 24,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 10,
+          "anchor_line": 3,
+          "meaning": "本檔是2026-11-12的GPT二次QA，非正史，不能自行宣告Canon解鎖。；Gemini八處補丁合成的R1版本源自三批初稿，九段唯一命中，未覆寫原稿；此後另有R2。；14章R1b及順讀14與合輯同步修六點掛車起運/一刻前抵達，不是改寫14章整篇。",
+          "quote": "日期 2026-11-12，正式 Canon 0 章／PREWRITE HOLD。"
+        },
+        {
+          "from": 11,
+          "to": 21,
+          "anchor_line": 13,
+          "meaning": "R1藍焰測氧風燈不可當氧濃度安全證據，在未知可燃氣體中明火亦危險。；R1鹼石濾毒半面罩不能供氧，對缺氧或未知深井氣體不安全；R2改供氣描寫。；R1把防墜繩扣移動鐵爬犁尾環仍不合固定錨點要求，R2改岩壁錨點分段換掛。；R1一盞測氧風燈卻在兩人腰上重複出現，造成道具數量矛盾；R2配置兩具監測器。；R1仍讓諾亞認定兩個月前某人取走母核為事實，證據不足；R2收斂為尚待核對。；原R1說守卡能力強十倍無證明倍率，R2應以可見身手與老喬判斷取代。；R1雖保存八處補丁但安全與知情QA未通過，不能將部分修訂冒稱全面驗收。",
+          "quote": "1. 「藍焰測氧風燈」不可把火焰變綠當作氧氣安全的可靠指標；未知可燃氣體環境持明火還會引燃。若想保留有世界特色的發光設備，需另定**封閉式氣體檢測**原理和警報邊界，或直接改成可測氧、可燃氣與目標毒氣濃度的攜帶式氣體檢測計，不能用火苗替代。"
+        },
+        {
+          "from": 22,
+          "to": 24,
+          "anchor_line": 23,
+          "meaning": "後出第16章新章B預設兩次交付、不可縮字或提前揭謎，屬工作節奏非故事Canon。",
+          "quote": "第十六章起新章首稿仍遵循作者最新的兩次完整交付：首則精簡 A＋B 前半，次則 B 後半完成＋精簡 C/D；如真有模型容量限制才額外分批，不能透過縮水或提前揭曉來假裝完成。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+          "git_blob_sha": "711144383da1ee29b499184b2dc8af77a6bf00a1"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+          "git_blob_sha": "daea535ae98475fa025422d619828dc300572698"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-12",
+        "review_scope": "逐段完整審閱、原文位置與後修版本交叉對照、四類具體二遍反問；非作者採案或原生Gemini執行證明。",
+        "revocation": "來源/後修依賴SHA變更或有漏檢時撤銷重驗；必須CI成功才可列正式已驗。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "日期 2026-11-12，正式 Canon 0 章／PREWRITE HOLD。",
+            "topic": "本檔是2026-11-12的GPT二次QA，非正史，不能自行宣告Canon解鎖。",
+            "finding": "本檔是2026-11-12的GPT二次QA，非正史，不能自行宣告Canon解鎖。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7222"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 7,
+            "quote": "Gemini 八項補丁的完整作者回貼已存為 Git blob 80b63a1f9f19479753700dcb12bc8c3f22efb986。以原初三批 B 接合稿 b21479f30c2cf95e3eb1c40a3d72758dda9d2a53 為底，只統一段落空行、移除補丁中的加粗/斜體 Ma",
+            "topic": "Gemini八處補丁合成的R1版本源自三批初稿，九段唯一命中，未覆寫原稿；此後另有R2。",
+            "finding": "Gemini八處補丁合成的R1版本源自三批初稿，九段唯一命中，未覆寫原稿；此後另有R2。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7223"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 9,
+            "quote": "第十四章 R1a 81b72a6f41f7778c8c3d075a462dca7ae1d72c2a 仍保留；另新建 R1b SHA daea535ae98475fa025422d619828dc300572698，僅將六點「直接送到」修正為六點掛車起運、六點一刻前抵達。唯一14章順讀單章新版 SHA",
+            "topic": "14章R1b及順讀14與合輯同步修六點掛車起運/一刻前抵達，不是改寫14章整篇。",
+            "finding": "14章R1b及順讀14與合輯同步修六點掛車起運/一刻前抵達，不是改寫14章整篇。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7224"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 13,
+            "quote": "1. 「藍焰測氧風燈」不可把火焰變綠當作氧氣安全的可靠指標；未知可燃氣體環境持明火還會引燃。若想保留有世界特色的發光設備，需另定**封閉式氣體檢測**原理和警報邊界，或直接改成可測氧、可燃氣與目標毒氣濃度的攜帶式氣體檢測計，不能用火苗替代。",
+            "topic": "R1藍焰測氧風燈不可當氧濃度安全證據，在未知可燃氣體中明火亦危險。",
+            "finding": "R1藍焰測氧風燈不可當氧濃度安全證據，在未知可燃氣體中明火亦危險。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7225"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 14,
+            "quote": "2. 「雙罐式鹼石濾毒半面罩」即使能吸附特定酸氣也不能供氧；未知、缺氧或立即危險的井底氣氛不能靠濾毒罐進入。先測安全範圍，測不到或不合格即退回、通風或使用正確供氣式呼吸防護。NIOSH官方：https://www.cdc.gov/niosh/docs/2018-176/default.html；OS",
+            "topic": "R1鹼石濾毒半面罩不能供氧，對缺氧或未知深井氣體不安全；R2改供氣描寫。",
+            "finding": "R1鹼石濾毒半面罩不能供氧，對缺氧或未知深井氣體不安全；R2改供氣描寫。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7226"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 15,
+            "quote": "3. 年輕焊工防墜副繩扣在移動鐵爬犁尾環，可能在急停或失軌時拖落人員；應改**獨立固定承重錨點、分段換掛**，不把滑車視為固定防墜錨。",
+            "topic": "R1把防墜繩扣移動鐵爬犁尾環仍不合固定錨點要求，R2改岩壁錨點分段換掛。",
+            "finding": "R1把防墜繩扣移動鐵爬犁尾環仍不合固定錨點要求，R2改岩壁錨點分段換掛。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7227"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 16,
+            "quote": "4. 補丁2只發給兩人**一盞**測氧風燈；補丁3艾莉維亞腰間有燈，補丁4與7又描述諾亞腰間也有燈，出現物權／使用位置矛盾。改用檢測計也需說明儀器由誰持有，或明確另行配發。",
+            "topic": "R1一盞測氧風燈卻在兩人腰上重複出現，造成道具數量矛盾；R2配置兩具監測器。",
+            "finding": "R1一盞測氧風燈卻在兩人腰上重複出現，造成道具數量矛盾；R2配置兩具監測器。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7228"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 17,
+            "quote": "5. 補丁8雖取消旁白「百分之百證實」，諾亞仍說「兩個月前的人從外頭的配重槽撬走了那顆半噸重的鐵球」，比已確認的空槽與封存殘印證據更肯定。建議改成「來過的人可能從那裡取走重物，是否就是母核還待核對」，保留未知。",
+            "topic": "R1仍讓諾亞認定兩個月前某人取走母核為事實，證據不足；R2收斂為尚待核對。",
+            "finding": "R1仍讓諾亞認定兩個月前某人取走母核為事實，證據不足；R2收斂為尚待核對。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7229"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 19,
+            "quote": "7. 原正文守卡「手底下的硬功夫比你小子強十倍」仍是無根據戰力倍率；後續宜以具體身手與老喬認識兩人的理由取代。",
+            "topic": "原R1說守卡能力強十倍無證明倍率，R2應以可見身手與老喬判斷取代。",
+            "finding": "原R1說守卡能力強十倍無證明倍率，R2應以可見身手與老喬判斷取代。",
+            "authority": "HISTORICAL_CORRECTION",
+            "claim_ids": [
+              "SRC-ALL-7230"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 21,
+            "quote": "上述屬 GPT 後修建議，**R1 原文仍忠實按 Gemini 補丁保存**，沒有偷換成未經作者確認的科學再設計；不得宣稱整章工務安全 QA 全部通過。",
+            "topic": "R1雖保存八處補丁但安全與知情QA未通過，不能將部分修訂冒稱全面驗收。",
+            "finding": "R1雖保存八處補丁但安全與知情QA未通過，不能將部分修訂冒稱全面驗收。",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-7231"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 23,
+            "quote": "第十六章起新章首稿仍遵循作者最新的兩次完整交付：首則精簡 A＋B 前半，次則 B 後半完成＋精簡 C/D；如真有模型容量限制才額外分批，不能透過縮水或提前揭曉來假裝完成。",
+            "topic": "後出第16章新章B預設兩次交付、不可縮字或提前揭謎，屬工作節奏非故事Canon。",
+            "finding": "後出第16章新章B預設兩次交付、不可縮字或提前揭謎，屬工作節奏非故事Canon。",
+            "authority": "AUTHOR_DIRECTION",
+            "claim_ids": [
+              "SRC-ALL-7232"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 7,
+            "quote": "Gemini 八項補丁的完整作者回貼已存為 Git blob 80b63a1f9f19479753700dcb12bc8c3f22efb986。以原初三批 B 接合稿 b21479f30c2cf95e3eb1c40a3d72758dda9d2a53 為底，只統一段落空行、移除補丁中的加粗/斜體 Ma",
+            "question": "八項Gemini R1補丁套進GitHub，是否意味R1已是正式Canon且整體安全通過？",
+            "finding": "否。版本實際存在，但作者未採案；二次QA在下列行明列漏檢問題，後來R2另作精準修補。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 13,
+            "quote": "1. 「藍焰測氧風燈」不可把火焰變綠當作氧氣安全的可靠指標；未知可燃氣體環境持明火還會引燃。若想保留有世界特色的發光設備，需另定**封閉式氣體檢測**原理和警報邊界，或直接改成可測氧、可燃氣與目標毒氣濃度的攜帶式氣體檢測計，不能用火苗替代。",
+            "question": "藍焰風燈問題在最新R2正文是否仍原文存在？",
+            "finding": "否。第15章R2在工坊和井底改用供氣背具及獨立多氣體監測器；本檔保留的是R1問題歷史。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 16,
+            "quote": "4. 補丁2只發給兩人**一盞**測氧風燈；補丁3艾莉維亞腰間有燈，補丁4與7又描述諾亞腰間也有燈，出現物權／使用位置矛盾。改用檢測計也需說明儀器由誰持有，或明確另行配發。",
+            "question": "一盞檢測燈在兩個角色腰上反覆出現應如何核？",
+            "finding": "按物權逐件數量與配發主體核查；R2兩具監測器分別使用，不能只靠改裝備名稱而不核數量。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 9,
+            "quote": "第十四章 R1a 81b72a6f41f7778c8c3d075a462dca7ae1d72c2a 仍保留；另新建 R1b SHA daea535ae98475fa025422d619828dc300572698，僅將六點「直接送到」修正為六點掛車起運、六點一刻前抵達。唯一14章順讀單章新版 SHA",
+            "question": "14章六點起運與15章六點後進入旁道能否被當成兩人六點已到井底？",
+            "finding": "不可。十四章修的是發車與預估抵達巡檢道口，守卡、下井仍在十五章後續有自己的時間與路權條件。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+            "git_blob_sha": "711144383da1ee29b499184b2dc8af77a6bf00a1",
+            "impact": "R2後出改火焰風燈、半面罩、固定錨、物權與母核未證語氣；本檔對R1缺陷不能反向批評已修R2。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+            "git_blob_sha": "daea535ae98475fa025422d619828dc300572698",
+            "impact": "R1b正文與第14順讀實際保留六點掛車、六點一刻前抵達；本檔該修訂已有後出文本對應。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          }
+        ],
+        "second_pass_method": "先逐行核對此來源原文、時序與逐段主張；第二遍獨立反查同名旅店、金額實體、Gemini與GPT權威界線、R1/R2後出影響與對後續章節連續性的實際改動；材料皆保留SHA及行錨。",
+        "unresolved_risks": [
+          "R2虛構閉式循環背具的能力屬世界候選技術，未證在現實環境合規或適用所有酸霧。"
+        ]
+      }
+    }
+  ],
+  "staged_graph_records": [
+    {
+      "audit_id": "SRC-ALL-7163",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-0｜本次回執的『最新順讀』被後出唯一資料夾取代；原跨目錄說法僅是歷史，不可復活第二個順讀入口。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 1
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7163-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7163-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7164",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-1｜第01至14章只屬已修閱讀候選，原始回貼與舊候選留存，PREWRITE HOLD仍有效。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 7
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7164-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7164-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7165",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-2｜第13章沿用R1b、第14章此時沿用R1a；後出第14章R1b更新後，須以後出入口為準。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 14
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7165-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7165-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7166",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-3｜第03章『十五張銀券』改為未指定面額的『那份賞金』，不引入臆測貨幣換算。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 20
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7166-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7166-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7167",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-4｜第11章五銅熱水費已付款後，候選修補明確退還五枚銅幣；既有付款不能憑空作廢。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 21
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7167-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7167-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7168",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-5｜第11章兩張銀券與五銅值零券為不同實物，付款出示與取回需分離追蹤。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 22
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7168-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7168-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7169",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-6｜回執表示精準補丁已套讀本，但原始問題台帳不能僅因此無條件改成作者Canon已修復。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 24
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7169-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7169-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7170",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-7｜可見銅值流出30、找零4與退款5為候選可見流量；淨負21不是期初或現金餘額，紙券與銅幣不可混算。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 28
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7170-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7170-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7171",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-8｜第11章歇風棧是一間套房兩張床；不得與第14章暖磚棧的兩間房混同。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 29
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7171-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7171-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7172",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-9｜753銀券只是在特定情境的條件記帳，不證明現存753張同面額紙鈔。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 30
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7172-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7172-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7173",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-10｜第02章蘇珊娜找零欠缺已核原文支持，仍維持OPEN不能補造收入。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 31
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7173-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7173-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7174",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-11｜沉銀贈1鍛3、兩罐淬火脂第一罐轉交小禾與第二罐餘半、六界楔質量提升仍屬候選物權WATCH。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 32
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7174-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7174-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7175",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-12｜四筆Git提交是第01至14章閱讀候選衍生版歷史，不能拿提交存在直接宣布小說已正式採用。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 36
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7175-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7175-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7176",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/1-13｜交接責任是讓續寫者讀最新順讀與台帳，而非根據舊Gemini C報告重建錯誤銀銅及物權。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+        "git_blob_sha": "3edf341fd6974f8ea833ee15caa9a54415b4bfc2",
+        "line": 43
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7176-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7176-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7177",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-0｜完整作者提示詞按聊天可見轉錄，非平台位元備份；同文件舊輸出契約須以後出兩批與精簡A/C/D規則限定。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7177-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7177-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7178",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-1｜第15章所有寫作要求與後續正文都處NON-CANON；作者未解除PREWRITE HOLD。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 13
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7178-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7178-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7179",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-2｜提示指定14章R1a為當時前章基準，但後出R1b修六點運輸，不能永久鎖定R1a。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 29
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7179-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7179-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7180",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-3｜Drive鏡像CURRENT標籤不等於Github最新blob內容；同步須逐份核SHA。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 45
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7180-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7180-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7181",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-4｜14章暖磚棧兩間單人房是其候選住宿安排；不可挪用11章歇風棧一間套房的勘誤否定它。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 51
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7181-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7181-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7182",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-5｜三根沉銀已用於六界楔冷鍛加固、增重約三成，不能於後續再把三條當未耗材。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 53
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7182-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7182-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7183",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-6｜老喬的礦工二手傳聞與工程推測不是角色所見確證；半噸母核與冰震成因需保持待證。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 63
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7183-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7183-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7184",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-7｜六點工單涉及真實通行與載運過程，主角不能無路權、裝備或交通瞬間抵達深井。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 71
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7184-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7184-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7185",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-8｜每輪必須手動實讀與引擎關聯展開雙軌核對，不是把幾個檔名填入A就完成。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 75
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7185-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7185-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7186",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-9｜W01第09區旁道查詢應展開父容器、全部子區、職業、生態與道路權限及後修。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 83
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7186-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7186-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7187",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-10｜異常生物地理的外部作品類比是創意研究，不可直接複製原作具名物種或當真實入侵證據。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 100
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7187-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7187-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7188",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-11｜居民遷徙、物種入侵與跨世界層交通是不同現象；本章無需硬塞蟲災或巨龜遷徙。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 102
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7188-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7188-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7189",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-12｜深井現場的作業次序應同時滿足通風、壓力、技術維修、人員安全與准入權。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 110
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7189-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7189-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7190",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-13｜近景鋼鐵桁架密集與遠方極空曠的巨構視覺可以並存，不強迫每處都有常住人口。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 116
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7190-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7190-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7191",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-14｜諾亞與艾莉維亞須維持有情感與行動的自然對話；場景節奏不應被設定解說取代。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 118
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7191-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7191-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7192",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-15｜B正文禁止『第N章』等作者章號與內部版本代碼滲入世界內旁白。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 126
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7192-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7192-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7193",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-16｜世界內合法的第九區地名和真技術詞可自然保留，禁止項不能機械按字面一刀切。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 131
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7193-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7193-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7194",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-17｜六枚已修界楔、沉銀耗盡、淬火脂餘半和寒鐵匣重要物都須承接具體物權。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 139
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7194-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7194-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7195",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-18｜作者提示列135/618/753張是當時Gemini候選結算口徑；後出獨立對帳將753限為條件等值，非已證紙鈔張數。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 145
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7195-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7195-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7196",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-19｜暖磚棧兩間房支付兩晚房資是14章候選獨立旅店事實，不等於11章歇風棧套房。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 146
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7196-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7196-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7197",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-20｜當輪要求完整A的歷史輸出契約已受後出低額度精簡回報修訂，不能機械重印長台帳。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 164
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7197-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7197-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7198",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-21｜作者要求新章B有完整人物、行動與篇幅，不可為壓成兩則而快速收束。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 170
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7198-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7198-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7199",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-22｜寫後C須查實際人物語氣來源而非塞口頭禪，且檢查情報與物權、禁第四面牆。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 185
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7199-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7199-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7200",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-23｜D的GitHub/Drive保存自述須有可查回執，不能把輸出聊天或計畫存檔稱為已推送。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 188
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7200-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7200-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7201",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-24｜後續局部修訂應使用帶唯一錨點、原SHA、old→new差異，不讓Gemini整章重生。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 196
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7201-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7201-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7202",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-25｜要求單輪連續A/B/C與D完整輸出的提示是歷史作者當時要求；後出兩次新章交付規則改變輸出節奏。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 200
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7202-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7202-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7203",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/2-26｜若無GitHub實際寫入能力，保存狀態只能標待執行，不能自稱跨AI同步完成。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+        "git_blob_sha": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+        "line": 206
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7203-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7203-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7204",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-0｜第15章三批接合的GPT審稿是非正史獨立編輯建議，不是Gemini平台原始備份或作者採案。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7204-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7204-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7205",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-1｜原三批B接合先按原稿順序存為完整初稿，僅空行整理；必須保留與後出R1/R2的版本差異。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 8
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7205-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7205-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7206",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-2｜三批字數約2901、4775、3644合計11320，問題是交付變三次而非全章篇幅不足。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 9
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7206-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7206-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7207",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-3｜舊旁白百分百證明母核打撈與錨栓人禍超出在場證據，不可作角色確證。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 18
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7207-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7207-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7208",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-4｜空槽、封存殘印、錨栓切痕只能支持高度相符的假說，不能直接斷取走物與責任人。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 26
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7208-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7208-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7209",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-5｜老葛懷疑一號採掘班合理，但施工時間與肇事者不能單靠斷口知道。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 30
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7209-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7209-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7210",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-6｜原稿的活性碳防寒面巾由老胡頭贈予缺可靠前章物權錨點，不能倒填道具。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 36
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7210-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7210-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7211",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-7｜活性碳面巾不是缺氧及未知毒氣供氣設備，下井應有具體借用與監測/撤退程序。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 38
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7211-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7211-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7212",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-8｜原稿踏板額定最多三人；老葛、小六、艾莉維亞已滿額，不得再讓焊工突然上車。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 42
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7212-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7212-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7213",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-9｜修正候選讓焊工沿獨立防墜爬梯後行，仍由原三人控制鐵爬犁。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 48
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7213-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7213-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7214",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-10｜第14章老喬六點送達與第15章五時五十分才到工坊不合時序；後出R1b改六點起運。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 54
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7214-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7214-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7215",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-11｜黑銷共鳴與艙內未知物只能表現觀察/推測，不能推成已知齒輪、母核或密封真相。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 58
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7215-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7215-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7216",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-12｜高壓熱蒸氣與坍塌現場需要可站立位置、作業先後和安全監視，不能全員突然忘記危險。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 59
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7216-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7216-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7217",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-13｜艙門破裂後應先評估焊工與隊伍求生及撤退加固，不可把開門等同強制入艙主線。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 60
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7217-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7217-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7218",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-14｜銀券753和銅值30出9入、淨負21都僅是條件式編輯對帳，不是已證實的錢包餘額。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 67
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7218-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7218-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7219",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-15｜Gemini C宣稱情報無矛盾未通過獨立QA，至少有防護、載員、時間、確證語氣等缺口。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 72
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7219-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7219-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7220",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-16｜後續修訂只用唯一命中的精準old→new，不整章重印、不覆寫原三批。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 78
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7220-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7220-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7221",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/3-17｜作者後出原則新章B預設兩則完成但須保留正常約一萬字完整場景，不為湊兩則縮水。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+        "git_blob_sha": "7a4c6dd97c6ebdc94a0d84c0c2da00ab85b2ca1b",
+        "line": 80
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7221-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7221-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7222",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-0｜本檔是2026-11-12的GPT二次QA，非正史，不能自行宣告Canon解鎖。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7222-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7222-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7223",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-1｜Gemini八處補丁合成的R1版本源自三批初稿，九段唯一命中，未覆寫原稿；此後另有R2。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 7
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7223-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7223-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7224",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-2｜14章R1b及順讀14與合輯同步修六點掛車起運/一刻前抵達，不是改寫14章整篇。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 9
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7224-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7224-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7225",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-3｜R1藍焰測氧風燈不可當氧濃度安全證據，在未知可燃氣體中明火亦危險。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 13
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7225-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7225-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7226",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-4｜R1鹼石濾毒半面罩不能供氧，對缺氧或未知深井氣體不安全；R2改供氣描寫。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 14
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7226-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7226-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7227",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-5｜R1把防墜繩扣移動鐵爬犁尾環仍不合固定錨點要求，R2改岩壁錨點分段換掛。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 15
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7227-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7227-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7228",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-6｜R1一盞測氧風燈卻在兩人腰上重複出現，造成道具數量矛盾；R2配置兩具監測器。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 16
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7228-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7228-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7229",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-7｜R1仍讓諾亞認定兩個月前某人取走母核為事實，證據不足；R2收斂為尚待核對。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 17
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7229-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7229-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7230",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-8｜原R1說守卡能力強十倍無證明倍率，R2應以可見身手與老喬判斷取代。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 19
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7230-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7230-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7231",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-9｜R1雖保存八處補丁但安全與知情QA未通過，不能將部分修訂冒稱全面驗收。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 21
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7231-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7231-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    },
+    {
+      "audit_id": "SRC-ALL-7232",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B53/4-10｜後出第16章新章B預設兩次交付、不可縮字或提前揭謎，屬工作節奏非故事Canon。",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+        "git_blob_sha": "6c5b80a757880beca033c30f27bfc6e5131b198d",
+        "line": 23
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7232-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7232-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "資料回查關聯，不製造已證因果、不升格Canon。"
+    }
+  ],
+  "source_quote_count": 70
+}
