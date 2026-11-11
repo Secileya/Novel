@@ -1,6 +1,6 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-11T03:05:00.000Z",
+  "updated_at": "2026-11-11T03:15:00.000Z",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
@@ -25,7 +25,7 @@
     "nine_folder_files": 13,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第43批第152六章的整檔語義分片已登記待main CI；全庫267/356待審89。第152同SHA別名及純正文尚待路徑層驗收；正式小說0章 PREWRITE HOLD。",
+    "important": "第43批第152六章資料已登記待main CI；267／356份、待審89；07同SHA候選別名已在歷史總帳驗收不可重排，純正文尚待審；正式0章PREWRITE HOLD。",
     "targeted_audit_records": 6123,
     "targeted_audit_verified_quotes": 6314,
     "full_file_editorial_accepted": 122,
@@ -105,7 +105,6 @@
         "last_batch_new_claims": 98,
         "last_batch_new_anchors": 98,
         "next_batch": [
-          "07_候選故事與場景/152_B2完整非正史小說試寫_從上面下來的人_六章.md",
           "待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md"
         ],
         "batch_acceleration": {
@@ -646,9 +645,9 @@
             "待定正文/ChatGPT原稿/B2_第152_從上面下來的人_六章完整正文.md"
           ],
           "next_alias_sha_review": [
-            "07_候選故事與場景/152_B2完整非正史小說試寫_從上面下來的人_六章.md",
             "待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md"
-          ]
+          ],
+          "preflight_repair": "歷史總帳已驗收07_候選/152同SHA來源，從下批移除防重；第43批原稿證據不變。"
         }
       }
     },
@@ -929,7 +928,7 @@
     "all_source_accepted": 267,
     "all_source_pending": 89,
     "state": "BATCH43_COMMITTED_CI_PENDING",
-    "notes": "第152完整六章逐章審讀與SHA證據已寫入main待CI；另有相同文本封存與純正文路徑仍未被本批計入。"
+    "notes": "第43批原稿3015行SHA證據已入main待CI；歷史總帳早已接受07同SHA封存，因此修正下一批僅純正文抽出，不重計。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -954,8 +953,8 @@
     "commit": "PENDING_NEW_MAIN_COMMIT",
     "ci_result": "pending",
     "ci_run_url": "PENDING_GITHUB_ACTIONS",
-    "not_finished": "目前356份來源中267份已登記待CI、89待審；同SHA第152別名與純正文尚須另外驗收，正式0章PREWRITE HOLD。",
-    "next_step": "先核本批main Actions CI，若成功再回寫成功證據；下一批先核相同SHA候選封存及純正文抽出，避免把相同故事誤當成新內容。"
+    "not_finished": "動態356份來源中第43批267份已登記待CI、89份待審；07_候選/152同SHA別名已屬歷史驗收，不重計，純正文抽出版尚待審；正式0章PREWRITE HOLD。",
+    "next_step": "修正下一批已驗收SHA別名誤排；本批main CI成功後回寫結果，下一批只驗待審純正文抽出版及其與第152六章之差異。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
