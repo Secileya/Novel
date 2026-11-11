@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第48批已通過先前主CI；新增第14章R1a候選B及A/C兩份聊天整理稿，使來源總364、327已登記整檔驗收、37待審。新增來源不作已驗收或Canon；B48原子命題111與191引文兩種計數口徑分離。",
+  "warning": "第49批12份10,648行、111 SHA命題、222證據引用與222非Canon圖關聯提交待CI；新增第14章R1a A/B/C使來源364，339暫登記25待審；正式0章PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 6754,
-    "audited_original_quote_anchors": 6945,
+    "audited_batched_claims": 6865,
+    "audited_original_quote_anchors": 7167,
     "original_archive_09_files": 17,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第48批12份主CI已在早期提交驗證；R1a新增候選B、A、C合計3份後動態327/364已登記、37待審，新增來源仍未完整語義驗收。正式0章PREWRITE HOLD。",
-    "full_file_editorial_accepted": 157,
-    "full_file_editorial_pending": 14,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 37,
-    "historical_164_accepted": 146,
-    "all_source_full_file_editorial_accepted": 327
+    "limitations": "第49批main CI未驗證，339/364為暫登記，另第14章新增候選仍排未審；正式0章PREWRITE HOLD。",
+    "full_file_editorial_accepted": 163,
+    "full_file_editorial_pending": 8,
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 25,
+    "historical_164_accepted": 151,
+    "all_source_full_file_editorial_accepted": 339
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第48批先前主CI成功；11/11新增第十四章R1a B、A、C三份非Canon來源，動態327/364、37未審；跨AI原始來源資料夾現17檔。"
+  "notice_2026_11_11": "來源總364，B49 12份暫登記（待CI），339/364剩25；原稿未改、Canon未提升。"
 }
