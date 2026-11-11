@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 365,
+    "raw_source_files": 366,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -24,19 +24,19 @@
     "nine_folder_files": 18,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第49批前12份整檔驗收通過既有主CI；另新增第14章R1a Gemini D 歷史保存回執1份，動態來源365、339份已驗收、26份待審。新增D尚未做整檔語義驗收，正式0章 PREWRITE HOLD。",
+    "important": "第49批此前主CI驗證完成；新歸檔的第14章 R1a D、以及第13章 R1b『前夜→先前』微補丁候選都只進待審隊列，現行動態來源366、已驗收339、待審27，正式0章PREWRITE HOLD。",
     "targeted_audit_records": 6865,
     "targeted_audit_verified_quotes": 7056,
     "full_file_editorial_accepted": 163,
     "full_file_editorial_remaining": 8,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 339,
-    "all_source_full_file_editorial_remaining": 26,
+    "all_source_full_file_editorial_remaining": 27,
     "historical_164_full_file_acceptance": 151,
     "historical_171_full_file_acceptance": 163,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 26
+    "all_source_full_file_editorial_pending": 27
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -84,7 +84,7 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 339,
-        "pending": 26,
+        "pending": 27,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -1069,7 +1069,7 @@
     "original_line_anchors": 222,
     "nonCanon_graph_links": 222,
     "all_source_accepted": 339,
-    "all_source_pending": 26,
+    "all_source_pending": 27,
     "state": "BATCH49_12_MAIN_CI_VERIFIED",
     "notes": "第49批12份已通過主CI42979445965與Drive索引42979445940。第一次主CI因把222額外引文誤加到111個audit計數而失敗，已於修復提交aa8cfed修正並成功。原稿與0章Canon不動。"
   },
@@ -1096,8 +1096,8 @@
     "commit": "aa8cfedc83895a6c07aad59a4e1263f44e8a257d",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42979445965",
-    "not_finished": "第49批先前CI成功339/364；新歸檔D後動態339/365，剩26份未審。D是使用者回貼之歷史能力／保存說明，不是最新GitHub寫入能力聲明。正式0章PREWRITE HOLD。",
-    "next_step": "核新 D 歷史來源與最新索引、CI，並按下一批工作隊列繼續全文驗收；第14章R1a尚需獨立全篇最終QA。"
+    "not_finished": "第49批先前主CI成功；本次另存第十三章 R1b 時間指稱局部修正候選，原 R1a 保留；動態339/366、剩27份待整檔驗收。第十四章R1a亦仍需最終全篇QA；正式0章PREWRITE HOLD。",
+    "next_step": "確認新增第13章R1b候選的Git SHA、工作板及索引/CI；持續第49批後的來源驗收，並維持第15章以第14章R1a章末為直接敘事停點。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
