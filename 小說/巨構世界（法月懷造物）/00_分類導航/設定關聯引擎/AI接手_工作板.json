@@ -1,17 +1,17 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-11T03:15:00.000Z",
+  "updated_at": "2026-11-11T03:25:00.000Z",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "a27d1bd7ac1809f0e05047a2b3db492769ddd626",
+  "last_checked_head_before_handoff": "b275e76c4608673f681e97ad862436ee78880352",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/42942238923",
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/42945417646",
     "conclusion": "success",
-    "head_sha": "8c2bb1e20aee479067b1448dc1eef2df43423e32",
-    "warning": "第42批資料提交8c2bb1e已通過main CI；後續索引發布commit是其子提交，正式Canon仍為0。"
+    "head_sha": "b7c93deb312dad3317d9d96eefc08a917f99d2b9",
+    "warning": "第43批SHA分片經main CI成功，後續索引發佈不授予非正史內容Canon地位。"
   },
   "fact_snapshot": {
     "raw_source_files": 356,
@@ -25,7 +25,7 @@
     "nine_folder_files": 13,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第43批267／356待審89；歷史防重、7條命題描述長度、98條圖譜摘要格式已修復，main CI待最後驗證；正式0章PREWRITE HOLD。",
+    "important": "第43批第152六章3015行已由main GitHub CI驗證成功；整檔來源267／356、待審89；07同SHA候選別名早已歷史驗收，純正文抽出待下批檢查；正式0章PREWRITE HOLD。",
     "targeted_audit_records": 6123,
     "targeted_audit_verified_quotes": 6314,
     "full_file_editorial_accepted": 122,
@@ -90,10 +90,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第43批已登記第152六章3,015行49段98項候選證據、196非Canon圖鏈、24反問與9依賴SHA；圖譜摘要與語義描述均修補完成，等待最新main CI，全庫267/356、待審89，正式0章PREWRITE HOLD。",
-        "stage": "BATCH43_1_PUBLISHED_PENDING_CI",
-        "last_verified_commit": "8c2bb1e20aee479067b1448dc1eef2df43423e32",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42942238923",
+        "note": "第43批第152完整六章3015行49段98命題196條圖關聯、24反問9依賴SHA；main CI已成功。防重、短摘要及圖譜摘要修復保留日誌；267／356、待審89，0章PREWRITE HOLD。",
+        "stage": "BATCH43_1_VERIFIED_PAUSED",
+        "last_verified_commit": "b7c93deb312dad3317d9d96eefc08a917f99d2b9",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42945417646",
         "cross_source_next_batch": [],
         "historical_164_accepted": 135,
         "historical_171_accepted": 122,
@@ -628,7 +628,7 @@
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42942238923"
         },
         "acceleration_batch_43": {
-          "stage": "PUBLISHED_PENDING_CI",
+          "stage": "COMPLETE__MAIN_CI_VERIFIED",
           "source_count": 1,
           "source_lines": 3015,
           "sections": 49,
@@ -649,7 +649,9 @@
           ],
           "preflight_repair": "歷史總帳已驗收07_候選/152同SHA來源，從下批移除防重；第43批原稿證據不變。",
           "qa_repair": "CI 42944790372語義品質門檻指出7條中文命題摘要少於12字，已擴充而無變更原文錨點、id及圖譜。",
-          "graph_summary_repair": "98個圖譜summary已一一對齊原命題title；CI 42945140287回報的stale audit summary已修補。"
+          "graph_summary_repair": "98個圖譜summary已一一對齊原命題title；CI 42945140287回報的stale audit summary已修補。",
+          "verified_commit": "b7c93deb312dad3317d9d96eefc08a917f99d2b9",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42945417646"
         }
       }
     },
@@ -929,8 +931,8 @@
     "nonCanon_graph_links": 196,
     "all_source_accepted": 267,
     "all_source_pending": 89,
-    "state": "BATCH43_COMMITTED_CI_PENDING",
-    "notes": "第43批3015行來源未修改；已修復排批防重、7條材料finding太短、98條圖譜摘要不一致；等待最新main CI。"
+    "state": "BATCH43_MAIN_CI_VERIFIED",
+    "notes": "第43批第152六章主庫SHA分片及工作台經GitHub main CI成功（42945417646），來源3015行未改，歷史同SHA封存不重複排批。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -950,13 +952,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH43_1_PUBLISHED_PENDING_CI",
-    "scope": "第43批獨立核對B2第152六章3015行、49段、98 SHA命題、196非Canon圖關聯、24項二遍反問、9個跨來源依賴；主庫提交待CI。",
-    "commit": "PENDING_NEW_MAIN_COMMIT",
-    "ci_result": "pending",
-    "ci_run_url": "PENDING_GITHUB_ACTIONS",
-    "not_finished": "動態356份來源中第43批267份已登記待CI、89份待審；07_候選/152同SHA別名已屬歷史驗收，不重計，純正文抽出版尚待審；正式0章PREWRITE HOLD。",
-    "next_step": "修正下一批已驗收SHA別名誤排；本批main CI成功後回寫結果，下一批只驗待審純正文抽出版及其與第152六章之差異。"
+    "stage": "BATCH43_1_VERIFIED_PAUSED",
+    "scope": "第43批B2第152六章3,015行49段、98 SHA原文命題196條非Canon圖連結、24項反向檢查9個依賴SHA；main CI完成成功。",
+    "commit": "b7c93deb312dad3317d9d96eefc08a917f99d2b9",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42945417646",
+    "not_finished": "第43批已完成，動態356份來源中267份已驗、89份待審；07同SHA封存先前已驗收，純正文抽出版仍待檢查；正式0章PREWRITE HOLD。",
+    "next_step": "第43批已核實main CI成功；下批只對尚未驗收的純正文抽出版作正文對齊與來源路徑核對，不重複創造B2事件。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
