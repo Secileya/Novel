@@ -1,0 +1,4798 @@
+{
+  "schema": "mega-batch41-full-file-v2-sharded",
+  "date": "2026-11-11",
+  "source_file_count": 6,
+  "source_line_count": 2723,
+  "source_sections": 62,
+  "evidence_count": 62,
+  "source_file_manifest": [
+    {
+      "path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+      "git_blob_sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+      "source_line_count": 14,
+      "reviewed_sections": 2
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+      "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+      "source_line_count": 526,
+      "reviewed_sections": 12
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+      "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+      "source_line_count": 534,
+      "reviewed_sections": 12
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+      "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+      "source_line_count": 526,
+      "reviewed_sections": 12
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+      "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+      "source_line_count": 478,
+      "reviewed_sections": 11
+    },
+    {
+      "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+      "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+      "source_line_count": 645,
+      "reviewed_sections": 13
+    }
+  ],
+  "authority_boundary": "第41批含最新順讀候選導航、66已熟人舊開篇、91/92初遇連續場景與109A/110B互斥開篇；『正式第一章須初遇』是67作者後出確認，實際開篇場景依然候選。正式正文0章 PREWRITE HOLD。",
+  "records": [
+    {
+      "id": "SRC-ALL-5877",
+      "title": "B41/1/1｜此檔只是最新補丁順讀的導航，說明11/08已對03、05、06、08、09、10、12章的時間、物權、動機及道具作局部修正；不是小說正文",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "此檔只是最新補丁順讀的導航，說明11/08已對03、05、06、08、09、10、12章的時間、物權、動機及道具作局部修正；不是小說正文",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+          "git_blob_sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+          "line": 3,
+          "quote": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gem"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5878",
+      "title": "B41/1/2｜現行候選順讀從G2、G3R、G5R、G6、G7R1、G8E、G9E/G10R4、09結案、10-12後修；舊G9/G9A/B、G10R3和待核D保持歷史而非當前順讀",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "現行候選順讀從G2、G3R、G5R、G6、G7R1、G8E、G9E/G10R4、09結案、10-12後修；舊G9/G9A/B、G10R3和待核D保持歷史而非當前順讀",
+      "authority": "PROCEDURAL_NON_CANON",
+      "authority_axis": "PROCEDURAL_NON_CANON",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+          "git_blob_sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+          "line": 7,
+          "quote": "**[第01～12章按順序的最新已套補丁閱讀索引](../順讀_最新補丁候選/README.md)**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5879",
+      "title": "B41/2/1｜第66熟人版原先假設第一章諾亞與艾莉維亞已熟識並互稱維亞、牽手，與10/19作者後出『第一次』初見時序衝突，保留作後期場景素材",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第66熟人版原先假設第一章諾亞與艾莉維亞已熟識並互稱維亞、牽手，與10/19作者後出『第一次』初見時序衝突，保留作後期場景素材",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 3,
+          "quote": "> **【2026-10-19 使用者後出確定：正式第一章諾亞與艾莉維亞第一次相遇】**** 本檔原先採「已熟識、自然叫維亞、短暫牽手」的**助手假設**，已不符合使用者最新指定的正式第一章關係時序。**保留原試寫全文，不抹掉本稿場景價值；只能當兩人認識後的場景素材，或作正式初遇版重寫時參考的環境／其他人物描寫，不能直接當正式第1章。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5880",
+      "title": "B41/2/2｜折索集市的巨型舊路正被工人吊拆而居民照常買餅；諾亞想在完全消失前知道高處去向，已熟識艾莉維亞陪同討論",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "折索集市的巨型舊路正被工人吊拆而居民照常買餅；諾亞想在完全消失前知道高處去向，已熟識艾莉維亞陪同討論",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 14,
+          "quote": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5881",
+      "title": "B41/2/3｜修鞋的席蘿在社區有普通生活關係，記得舊路；艾莉維亞見明顯斷口後仍有隱性承力參照，注意到局部異常",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "修鞋的席蘿在社區有普通生活關係，記得舊路；艾莉維亞見明顯斷口後仍有隱性承力參照，注意到局部異常",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 110,
+          "quote": "「照拆除進度，」艾莉維亞繼續說，「最外頭的連接梁已經卸掉了。可是它後面那座平台，還在承受另一段的作用。不是靠這兩根看得到的吊索。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5882",
+      "title": "B41/2/4｜席蘿指舊站最後支架在第三日夜前拆卸；攀行鞋補釘、乾糧使艾莉與諾亞推測她自己也準備上去，但不是全知者",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "席蘿指舊站最後支架在第三日夜前拆卸；攀行鞋補釘、乾糧使艾莉與諾亞推測她自己也準備上去，但不是全知者",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 144,
+          "quote": "席蘿說：「第三天晚上以前，舊上行站最後的支架也要卸。再晚就什麼都沒有。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5883",
+      "title": "B41/2/5｜諾亞向席蘿詢問可走入口，席蘿不願擔任嚮導而指向拆除隊，對話中有其自主判斷",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞向席蘿詢問可走入口，席蘿不願擔任嚮導而指向拆除隊，對話中有其自主判斷",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 174,
+          "quote": "「我沒說要妳帶。」諾亞站起身，「妳告訴我們哪裡還有能走的入口，我們各走各的。要不然，我們自己找。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5884",
+      "title": "B41/2/6｜閻白依現場安全及審批職責拒絕進入工地，正常審批五日超過拆除剩三日；他並非壞人或純阻礙工具",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "閻白依現場安全及審批職責拒絕進入工地，正常審批五日超過拆除剩三日；他並非壞人或純阻礙工具",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 254,
+          "quote": "「你們如果有正式承包資格，可以向上層檢修局遞交。正常審批要五天。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5885",
+      "title": "B41/2/7｜下層居民夜市、鹹魚物流與吊梁仍正常運作；艾莉維亞對斷而承力的連接有研究興趣，諾亞更關心仍未見的上方視野",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "下層居民夜市、鹹魚物流與吊梁仍正常運作；艾莉維亞對斷而承力的連接有研究興趣，諾亞更關心仍未見的上方視野",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 306,
+          "quote": "折索集市的下層開始擺晚攤。有人把海盆送來的鹹魚掛在風口，貨運索道放下最後一籠當日貨物，幾個孩子蹲在邊緣數著對面巨大支架上忽明忽暗的工作燈。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5886",
+      "title": "B41/2/8｜兩位主角原本私下交談後注意巨大吊梁拆離，決定另找席蘿；此段已熟識語氣不合正式初遇時序",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩位主角原本私下交談後注意巨大吊梁拆離，決定另找席蘿；此段已熟識語氣不合正式初遇時序",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 352,
+          "quote": "遠處另一座吊機正在緩緩抬起，那根橫過空腔的巨型梁架終於從舊路上離開。原本像一條完整線條的高架，露出很大一截空白。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5887",
+      "title": "B41/2/9｜席蘿帶已備索具出發但聲明不等人、不保證舊路今日仍安全；三人依私人目標短暫同路",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "席蘿帶已備索具出發但聲明不等人、不保證舊路今日仍安全；三人依私人目標短暫同路",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 416,
+          "quote": "「還有，別以為跟著我就一定安全。我知道以前哪塊板能踩，不知道今天還能不能踩。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5888",
+      "title": "B41/2/10｜舊側站有近期清灰、油燈與真實維護痕跡，席蘿舊鑰開門，外面是斷開的巨大垂直空腔及最後工作平台",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "舊側站有近期清灰、油燈與真實維護痕跡，席蘿舊鑰開門，外面是斷開的巨大垂直空腔及最後工作平台",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 446,
+          "quote": "席蘿拿出一枚磨得發亮的舊鑰匙，插進門邊看上去再普通不過的鎖孔。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5889",
+      "title": "B41/2/11｜艾莉維亞令下墜標記片沿非常規弧線返回遠端鋼面，是候選能力有效展示，諾亞和席蘿都看見而不等同正式能力上限",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞令下墜標記片沿非常規弧線返回遠端鋼面，是候選能力有效展示，諾亞和席蘿都看見而不等同正式能力上限",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 482,
+          "quote": "下一瞬間，平臺外側一枚快要落下的舊標記片，竟然輕輕改變了下落方向，沿一條肉眼難以預料的弧線，落回離它很遠的另一段鋼面上。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5890",
+      "title": "B41/2/12｜作者後記特別限制首次死亡和復歸未發生、席蘿舊事故只是候選、閻白合法安全拒絕仍有後果；66可再用但不作首章",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後記特別限制首次死亡和復歸未發生、席蘿舊事故只是候選、閻白合法安全拒絕仍有後果；66可再用但不作首章",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+          "line": 519,
+          "quote": "- **女主能力有正面結果**：最後標記片確實在她操作下轉移下落的作用路徑；她不是臨危突然失效，也不是只能驚嘆。**這只是初期演出候選，不鎖死其正式規則名稱／範圍／是否需動手**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5891",
+      "title": "B41/3/1｜第91是依第67『第一章首次相遇』重新試寫的非正史P0，不是66熟人版的正式覆寫；席蘿閻白與地圖仍可撤回",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第91是依第67『第一章首次相遇』重新試寫的非正史P0，不是66熟人版的正式覆寫；席蘿閻白與地圖仍可撤回",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 3,
+          "quote": "> **注意：全篇是可撤回的第一章候選，而非正式正文。**本次依第89全庫盤點和第90開篇P0工作卡，借用第53／65已有的地景與人物因果，**完整改寫成第67要求的「諾亞×艾莉維亞第一次見面」**。所示地方、姓名（席蘿、閻白）、道路、時間與能力演出仍是候選；不覆寫第66熟人版原稿。所有人的私下想法與臺詞只是此版本的合理推演，尚待讀者評估"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5892",
+      "title": "B41/3/2｜施工隊六索緩吊高架而非直接砸街，當地貨運與早餐仍運行；諾亞昨晚才抵達並詢問上方舊上行站",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "施工隊六索緩吊高架而非直接砸街，當地貨運與早餐仍運行；諾亞昨晚才抵達並詢問上方舊上行站",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 13,
+          "quote": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5893",
+      "title": "B41/3/3｜工務負責人閻白指吊梁下還有人，拒絕諾亞闖工地是正當安全責任，諾亞沒有為看景妨礙員工",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "工務負責人閻白指吊梁下還有人，拒絕諾亞闖工地是正當安全責任，諾亞沒有為看景妨礙員工",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 105,
+          "quote": "「那就從別處走。這裡是工地，裡面還有人。」他指向高處，「上面那截梁今天中午就要切下來。你現在走進去，出了事不是你一個人的事。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5894",
+      "title": "B41/3/4｜艾莉維亞先於諾亞獨立測量連接次序及固定件拆除許可，閻白回答需查設計；兩主角還不認識",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞先於諾亞獨立測量連接次序及固定件拆除許可，閻白回答需查設計；兩主角還不認識",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 141,
+          "quote": "圍欄的另一側站著一名年輕女子。她沒有看他，而是正低頭整理一組薄薄的測量片。她面前的工作臺上攤著一張局部結構圖，圖紙一角被風掀起，她伸手壓住，另一隻手仍在指著遠處已被吊離的路架。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5895",
+      "title": "B41/3/5｜兩主角首次直接交談，諾亞為遠方風景、艾莉維亞為不合理接續，各自想去卻尚不了解對方",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩主角首次直接交談，諾亞為遠方風景、艾莉維亞為不合理接續，各自想去卻尚不了解對方",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 201,
+          "quote": "「我只想知道，從上面看這座城市會不會很漂亮。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5896",
+      "title": "B41/3/6｜艾莉維亞使墊圈半途改向落回測量圖，工人接受技能但諾亞仍不理解其原理；兩人開始互報姓名",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞使墊圈半途改向落回測量圖，工人接受技能但諾亞仍不理解其原理；兩人開始互報姓名",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 247,
+          "quote": "它在半途消失了一瞬，下一刻已經落在她手邊的圖紙上，發出清脆的一聲響。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5897",
+      "title": "B41/3/7｜席蘿在場修攀行鞋，認為閻白工地管制正當；她自己則準備走避開工地的另一條舊路",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "席蘿在場修攀行鞋，認為閻白工地管制正當；她自己則準備走避開工地的另一條舊路",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 313,
+          "quote": "那是一個坐在矮凳上的女人，身旁擺著一雙正在修補的攀行鞋。她將針線收好，熟練地拽緊靴側的扣帶，像是完全沒打算理會面前那道熱鬧的工地圍欄。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5898",
+      "title": "B41/3/8｜席蘿不強迫兩名陌生人跟隨，三人在市場買賣與小路上鬥嘴；此時只有局部互識，尚無默契",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "席蘿不強迫兩名陌生人跟隨，三人在市場買賣與小路上鬥嘴；此時只有局部互識，尚無默契",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 347,
+          "quote": "「工地那邊不能走。他說得沒錯。上去看一眼風景，犯不著從人家頭頂正在拆的地方鑽。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5899",
+      "title": "B41/3/9｜舊側站旁有人澆植物及清掃，說明非廢棄世界空洞；席蘿知道道路但不假稱全知",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "舊側站旁有人澆植物及清掃，說明非廢棄世界空洞；席蘿知道道路但不假稱全知",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 433,
+          "quote": "只有一座被雜草遮住半邊的舊側站，門旁的燈壞了，臺階卻很乾淨。牆角放著一盆剛澆過水的植物。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5900",
+      "title": "B41/3/10｜艾莉維亞觀察門內距離與外部位置不相稱、席蘿決定開鎖；地理異常是候選可觀測資訊",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞觀察門內距離與外部位置不相稱、席蘿決定開鎖；地理異常是候選可觀測資訊",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 473,
+          "quote": "「外面這座站沒什麼問題。」她說，「但門後的距離，和這扇門所在的位置不太相稱。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5901",
+      "title": "B41/3/11｜諾亞和艾莉走上樓梯仍有不同目的，市場工務時鐘照常推進，三人未瞬間形成固定團隊",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞和艾莉走上樓梯仍有不同目的，市場工務時鐘照常推進，三人未瞬間形成固定團隊",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 517,
+          "quote": "身後的市場仍然吵鬧。有人趕著交貨，有人在議價，遠處的吊車按原定時刻再一次響起了工作鐘。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5902",
+      "title": "B41/3/12｜作者後記標明第一章初識但不等於必採，能力演出與席蘿私人背景皆未定案，初死與Celeste未發生",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後記標明第一章初識但不等於必採，能力演出與席蘿私人背景皆未定案，初死與Celeste未發生",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+          "line": 529,
+          "quote": "- **首章實際行動**：諾亞因舊路即將消失而想上去，艾莉維亞本已在獨立測量並真的展現有效操作，席蘿為自己的私人目的率先走舊側路；閻白合理拒絕工地入場，三人改選另一條尚能使用的舊路。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5903",
+      "title": "B41/4/1｜第92只接第91初遇方案的第二章，不可接66熟人版、109 A或110 B；仍非正史",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第92只接第91初遇方案的第二章，不可接66熟人版、109 A或110 B；仍非正史",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 3,
+          "quote": "> 與 [第91第一章](../../07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md) 連續的**第二章候選**。兩位主角剛剛第一次認識，只知道彼此姓名、局部行動和願望；席蘿與閻白是具有獨立職責／過去的地方候選人物。此稿不代表正式正文、不鎖定女主規則或地理、不能自動承諾此段一定作為小說開頭。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5904",
+      "title": "B41/4/2｜側站樓梯行走距離異常，諾亞與艾莉在逐步了解彼此時仍會互相追問，而非對所有機制早有共識",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "側站樓梯行走距離異常，諾亞與艾莉在逐步了解彼此時仍會互相追問，而非對所有機制早有共識",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 11,
+          "quote": "市場的聲音還能從下方傳來，只是越走越遠。階邊長著薄薄的草，有些地方被腳踩平了，有些則從鏽蝕的金屬接縫裡冒出來。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5905",
+      "title": "B41/4/3｜舊編號牌與影子方向和燈不符；艾莉的局部操作不是整個空間系統已被兩人解釋",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "舊編號牌與影子方向和燈不符；艾莉的局部操作不是整個空間系統已被兩人解釋",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 85,
+          "quote": "諾亞順著她的視線，看到階邊一小塊褪色的編號牌。牌上寫的並非本站樓層，而是一個比他們從入口讀到的更遠的側區代號。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5906",
+      "title": "B41/4/4｜第二側台有高處居住地、仍運作貨運線與海風氣味；諾亞看到橋後仍有城市而非單一謎題空間",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "第二側台有高處居住地、仍運作貨運線與海風氣味；諾亞看到橋後仍有城市而非單一謎題空間",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 137,
+          "quote": "在更高處，一條極細的鐵路懸在巨大的空腔裡，末端彷彿直接穿進了另一片雲。幾輛運貨的車從裡面出來，沿著向下彎曲的路軌緩慢前進。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5907",
+      "title": "B41/4/5｜諾亞想看遠景、艾莉維亞想研究接續，席蘿對風景不再駐足；三人的旅程動機獨立",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞想看遠景、艾莉維亞想研究接續，席蘿對風景不再駐足；三人的旅程動機獨立",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 175,
+          "quote": "「我有我想看的東西。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5908",
+      "title": "B41/4/6｜舊站停運卻有人照顧：熱水壺、整潔票窗、近期登記；席蘿走向私人物證匣且遲疑",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "舊站停運卻有人照顧：熱水壺、整潔票窗、近期登記；席蘿走向私人物證匣且遲疑",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 237,
+          "quote": "匣上掛著一枚磨損的鎖，旁邊貼著已經泛黃的標籤。她把手伸過去，卻停在半途。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5909",
+      "title": "B41/4/7｜席蘿發現匣中薄紙被動過，艾莉在普通施工登記簿找到『存檔匣清點移交拆卸方暫存』，不應預設有人惡意偷竊",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "席蘿發現匣中薄紙被動過，艾莉在普通施工登記簿找到『存檔匣清點移交拆卸方暫存』，不應預設有人惡意偷竊",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 261,
+          "quote": "但諾亞注意到，她的手指一直按著其中一張紙的角落，始終沒有放開。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5910",
+      "title": "B41/4/8｜席蘿暫留舊站思考、想回去問閻白，艾莉尊重她不願揭露細節；其生平選擇不由兩主角代做",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "席蘿暫留舊站思考、想回去問閻白，艾莉尊重她不願揭露細節；其生平選擇不由兩主角代做",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 331,
+          "quote": "艾莉維亞問：「那份東西，妳會回去找？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5911",
+      "title": "B41/4/9｜外側站台顯示歷代人改接舊路與高方山脊，諾亞由眼前可見景觀形成未來遠行願望",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "外側站台顯示歷代人改接舊路與高方山脊，諾亞由眼前可見景觀形成未來遠行願望",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 375,
+          "quote": "曾經的人在不同年代把它延長、改接、加固，又放棄過其中許多部分；斷裂的鋼軌、仍在運作的貨運支線與後來居民沿邊緣搭起的小街區，交錯成一條彎曲的上行帶。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5912",
+      "title": "B41/4/10｜兩人第一次交換終端聯絡資料，尚無『維亞』私稱或伴侶關係；艾莉還有自己的次段研究",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩人第一次交換終端聯絡資料，尚無『維亞』私稱或伴侶關係；艾莉還有自己的次段研究",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 437,
+          "quote": "「那要不要交換聯絡方式？至少下次如果有人又把路拆了，我能問問妳是不是也在附近。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5913",
+      "title": "B41/4/11｜兩人暫探另一條側廊而席蘿準備下去找閻白核原始資料，離鏡人物仍能行動",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩人暫探另一條側廊而席蘿準備下去找閻白核原始資料，離鏡人物仍能行動",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 511,
+          "quote": "她也知道，自己如果現在回去，就得當面問他一件已經拖了很久的事。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5914",
+      "title": "B41/4/12｜作者後記承認第二章尚未結案、席蘿事故與改圖只是第65方案候選，未取得作者正式採案",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後記承認第二章尚未結案、席蘿事故與改圖只是第65方案候選，未取得作者正式採案",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+          "line": 522,
+          "quote": "2. **人物關係前進而未跨級**：兩人交換聯絡方式，開始知道對方說話和行動的一些規律；尚未稱「維亞」、沒有戀愛或肢體慣例，仍可隨時分道揚鑣。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5915",
+      "title": "B41/5/1｜109 A是獨立候選開篇，既非91覆寫也非110前章；首次相遇與深青藍髮為測試表演，正式正文仍0章",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "109 A是獨立候選開篇，既非91覆寫也非110前章；首次相遇與深青藍髮為測試表演，正式正文仍0章",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女主高階能力、人物生活感與資訊邊界有效；具體城市、道路、人物台詞、景色、髮色在此僅是試驗素材。第一章官方正史仍為0章。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5916",
+      "title": "B41/5/2｜橋梁大吊拆揭露斷梯、補梯與上方仍運送貨物的小車；送貨員與早餐店老板的勞作是城市日常",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "橋梁大吊拆揭露斷梯、補梯與上方仍運送貨物的小車；送貨員與早餐店老板的勞作是城市日常",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 27,
+          "quote": "不是一條整整齊齊的路。石階貼著遙遠的斜壁攀升，到半途斷成幾段；斷口旁被後來的人焊上一條很窄的鐵梯，鐵梯盡頭又接著另一代人鋪的灰白色廊板。再往上，一列滿載貨箱的小車正沿曲軌慢慢行駛。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5917",
+      "title": "B41/5/3｜閻白因工人安全封閉施工區，仍提示正規觀景升降軌；同城道路與勞工責任不因諾亞想冒險而消失",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "閻白因工人安全封閉施工區，仍提示正規觀景升降軌；同城道路與勞工責任不因諾亞想冒險而消失",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 111,
+          "quote": "「你能爬，能跳，能飛，都跟我沒關係。吊梁下面有人，出了事不是你自己摔一下就算了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5918",
+      "title": "B41/5/4｜諾亞發現可由居民日常側道另行上去，不用偷闖施工地或以武力取得許可",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞發現可由居民日常側道另行上去，不用偷闖施工地或以武力取得許可",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 145,
+          "quote": "就在那時，他看見工人剛剛放下的橋，與遠處一段歪歪斜斜的老階梯之間，竟然還接著一條極細的步道。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5919",
+      "title": "B41/5/5｜艾莉維亞獨立攜帶半透明測量板、深青藍髮暫用視覺；她詢問拆橋前的連接次序而非隨男主移動",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞獨立攜帶半透明測量板、深青藍髮暫用視覺；她詢問拆橋前的連接次序而非隨男主移動",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 165,
+          "quote": "風掀起她深青藍色的長髮，髮梢掃過肩頭，頭頂有一小撮不太聽話的髮絲翹著，彎出一個柔軟的弧。她把圖紙一角壓在掌下，抬眼看向高處時，原本還帶著一點笑的神情忽然認真起來。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5920",
+      "title": "B41/5/6｜兩人因諾亞想看不同風景、艾莉懷疑斷口仍有關聯初次交談；彼此目的接近但不相同",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩人因諾亞想看不同風景、艾莉懷疑斷口仍有關聯初次交談；彼此目的接近但不相同",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 241,
+          "quote": "「那更巧了。」諾亞說，「我通常就是對不一樣的地方比較有興趣。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5921",
+      "title": "B41/5/7｜公用側道有『居民通行，施工區不得跨入』的清楚界線，諾亞選合法替代路",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "公用側道有『居民通行，施工區不得跨入』的清楚界線，諾亞選合法替代路",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 283,
+          "quote": "入口旁甚至釘著一塊小牌子：**居民通行，前段施工區不得跨入。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5922",
+      "title": "B41/5/8｜兩人僅同路並無約定組隊，沿多年代補接石階與貨坡到達艾莉研究的原始接縫",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "兩人僅同路並無約定組隊，沿多年代補接石階與貨坡到達艾莉研究的原始接縫",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 335,
+          "quote": "路走得不算難，卻能清楚看出不同年代的人怎麼勉強讓它繼續使用。最老的臺階表面已被踩凹；一個斷口被鋼網接起，旁邊還留著原先失去作用的欄杆。再往上，一處為小貨車加裝的斜坡從側面繞出，到了某個角度，竟與一條完全不同的街道平行。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5923",
+      "title": "B41/5/9｜吊橋移開露出另一片弧殼居住城市；諾亞真看到了新的地理視野，艾莉也測得未預期的繞接方向",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "吊橋移開露出另一片弧殼居住城市；諾亞真看到了新的地理視野，艾莉也測得未預期的繞接方向",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 377,
+          "quote": "它不是建在他們這道巨壁上的，而是沿著對面一塊看似懸空的巨大曲殼展開。明亮的屋頂像細碎的鱗片，從曲殼下側一路連到上側；兩城之間沒有一座完整的直橋，只有幾段不同年代的舊梁懸在雲間。某一處斷梁頂端，竟還亮著一小片生活街區的燈。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5924",
+      "title": "B41/5/10｜艾莉往另一個測點繼續研究而諾亞留下觀景，兩人首次短遇並未立刻互託人生",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉往另一個測點繼續研究而諾亞留下觀景，兩人首次短遇並未立刻互託人生",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 449,
+          "quote": "不是往諾亞盯著的那片城市，而是朝側階盡頭另一個更靠近舊接縫的觀測點。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5925",
+      "title": "B41/5/11｜作者後記指出A案衝突較弱、重景觀與小發現，不因章幅或視覺完整就比B案更具正史優先",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後記指出A案衝突較弱、重景觀與小發現，不因章幅或視覺完整就比B案更具正史優先",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+          "line": 477,
+          "quote": "- **仍可能失敗的地方**：整篇偏觀景與微發現，外部人際衝突偏輕；雙主角只是偶然一起上坡，未必讓讀者強烈渴望下一章看他們重逢。**即使描寫較充分，也不代表A案已過使用者的吸引力門檻。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5926",
+      "title": "B41/6/1｜110 B與109 A互斥，不是前後章；唐榆、游洵名字、深青藍視覺皆候選，禁Celeste現身及提早熟人關係",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "110 B與109 A互斥，不是前後章；唐榆、游洵名字、深青藍視覺皆候選，禁Celeste現身及提早熟人關係",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫面、選擇與後果的整合測試。所有本篇新出現的地名、私人稱呼、遠征隊名稱、歸來者名字與過去均是**助手本輪新增可撤回候選**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5927",
+      "title": "B41/6/2｜方形巨井有層級道路、倒懸舊梯與照常運作貨運；諾亞想往上但還沒登記，旅人窗口有明確截止",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "方形巨井有層級道路、倒懸舊梯與照常運作貨運；諾亞想往上但還沒登記，旅人窗口有明確截止",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 17,
+          "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5928",
+      "title": "B41/6/3｜艾莉維亞原已在告示牆記測線，告知陌生人不要壓她的定位標，主角因小摩擦第一次交談",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉維亞原已在告示牆記測線，告知陌生人不要壓她的定位標，主角因小摩擦第一次交談",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 101,
+          "quote": "她的深青藍長髮垂過肩膀，頭頂有一縷柔軟的翹髮往側邊彎起；明明五官帶著些安靜漂亮的冷色調，說話卻直接得毫不繞彎。她一手扶著一組半透明的測線板，另一手指著諾亞指尖前的紙角。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5929",
+      "title": "B41/6/4｜諾亞發現公圖路標箭頭與臺階朝向相反，艾莉不武斷否認，轉動測線板開始重新核實",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "諾亞發現公圖路標箭頭與臺階朝向相反，艾莉不武斷否認，轉動測線板開始重新核實",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 169,
+          "quote": "「我說錯了？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5930",
+      "title": "B41/6/5｜多年未返的唐榆乘升降籠歸來，先辦貨物交接與吃餅，不只是帶來驚人真相的工具人",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "多年未返的唐榆乘升降籠歸來，先辦貨物交接與吃餅，不只是帶來驚人真相的工具人",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 181,
+          "quote": "一架狹窄的升降籠沿南壁滑下，速度不快。鐵籠裡擠著幾袋包裹、一輛折好的小車，還有一個背包幾乎比自己寬的旅人。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5931",
+      "title": "B41/6/6｜唐榆聞游洵明日依她舊圖帶隊才變色，舊圖已被路線宣傳重印，關係緊張未必是犯罪",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "唐榆聞游洵明日依她舊圖帶隊才變色，舊圖已被路線宣傳重印，關係緊張未必是犯罪",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 269,
+          "quote": "「對啊。聽說這次準備很久，連你的舊圖都弄到了。你們以前不是走過？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5932",
+      "title": "B41/6/7｜唐榆稱她原來的圖只含出發路、不是來回都走同段；當前報名者真的付旅費，有現實後果",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "唐榆稱她原來的圖只含出發路、不是來回都走同段；當前報名者真的付旅費，有現實後果",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 335,
+          "quote": "窗口前有個青年正拿著自己全部旅費的一部分做押金登記，兩個同伴在旁邊替他提著行李。工作人員確認了日期，將證明壓上印章。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5933",
+      "title": "B41/6/8｜艾莉先以當天實測與唐榆舊經驗交叉核對，確定部分返程連接變更而未聲稱掌握完整圖",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉先以當天實測與唐榆舊經驗交叉核對，確定部分返程連接變更而未聲稱掌握完整圖",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 363,
+          "quote": "「妳沒拿十幾年前的記憶假裝現在全知道。」少女說，「那我可以告訴妳我今天量到什麼。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5934",
+      "title": "B41/6/9｜艾莉自選公開附時間的局部更正圖，諾亞幫分析與隊伍溝通的門檻；她也承認對陌生人有少量關切",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉自選公開附時間的局部更正圖，諾亞幫分析與隊伍溝通的門檻；她也承認對陌生人有少量關切",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 419,
+          "quote": "「現在能確定這個箭頭不能照原樣標。我可以出一張附實測時間的更正圖。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5935",
+      "title": "B41/6/10｜公務窗口依法附錄而不能代隊伍取消；諾亞暫不交名冊，可能損失明日正式上行資格",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "公務窗口依法附錄而不能代隊伍取消；諾亞暫不交名冊，可能損失明日正式上行資格",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 505,
+          "quote": "但現在手裡這一張真正能改變別人選擇的圖，比原先的漂亮宣傳頁有趣多了。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5936",
+      "title": "B41/6/11｜唐榆提醒諾亞別把他人路當故事，隨即帶舊記錄找游洵；游洵的表情不代表已證背叛",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "唐榆提醒諾亞別把他人路當故事，隨即帶舊記錄找游洵；游洵的表情不代表已證背叛",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 547,
+          "quote": "「那最好先別把別人的路當故事。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5937",
+      "title": "B41/6/12｜艾莉持續研究回程連接、諾亞仍想上行卻不被綁成團隊；地方各人物仍自行行動",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "艾莉持續研究回程連接、諾亞仍想上行卻不被綁成團隊；地方各人物仍自行行動",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 619,
+          "quote": "「那就等有空再去。」她轉身往自己原先的測點走，聲音十分隨意，「我先忙我的。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-5938",
+      "title": "B41/6/13｜作者後記標明B案事件鉤子較強但唐榆游洵可能搶主角鏡頭，非正史、未保證採用",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "作者後記標明B案事件鉤子較強但唐榆游洵可能搶主角鏡頭，非正史、未保證採用",
+      "authority": "ASSISTANT_CANDIDATE",
+      "authority_axis": "ASSISTANT_CANDIDATE",
+      "strength_axis": "DIRECTION_CANDIDATE_OR_EDITORIAL_SCOPE",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "來源只是導航或非正史文本；第67作者已確認初遇的角色時間狀態，並未正式採用第91/92或第109A/110B任何場景。禁止合併互斥版本、提升候選地理權限或改寫原稿。",
+      "next_action": "後出作者決議、原文或依賴來源Git SHA異動、章際連續性變動時撤銷重新核對。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+          "line": 644,
+          "quote": "- **此案也有真風險**：唐榆與游洵很容易比兩主角更搶眼；場景若再拉長一倍工程、地圖和許可對話，節奏又會變沉。**B案不因事件鉤子較強就自動成為正式首章**。"
+        }
+      ]
+    }
+  ],
+  "staged_attestations": [
+    {
+      "source_path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+      "git_blob_sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+      "source_role_id": "FULL-B41-01",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-5877",
+        "SRC-ALL-5878"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "依GitHub來源原文及既有後出作者初遇決議，逐檔全行與候選間關係查核；各候選具體場景不升格Canon，AI編輯性驗收不等於獨立盲審。",
+      "source_line_count": 14,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "anchor_line": 3,
+          "quote": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gem",
+          "meaning": "此檔只是最新補丁順讀的導航，說明11/08已對03、05、06、08、09、10、12章的時間、物權、動機及道具作局部修正；不是小說正文"
+        },
+        {
+          "from": 6,
+          "to": 14,
+          "anchor_line": 7,
+          "quote": "**[第01～12章按順序的最新已套補丁閱讀索引](../順讀_最新補丁候選/README.md)**",
+          "meaning": "現行候選順讀從G2、G3R、G5R、G6、G7R1、G8E、G9E/G10R4、09結案、10-12後修；舊G9/G9A/B、G10R3和待核D保持歷史而非當前順讀"
+        }
+      ],
+      "latest_revisions_checked": [
+        "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+        "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+          "git_blob_sha": "6cd239f1275b7fcbb6ce5430b7d47e60f14f54dc"
+        },
+        {
+          "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888"
+        },
+        {
+          "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "全文分段、作者初遇決議、候選版本互斥、原始SHA行號與二遍漏查；沒有重新驗證聊天平台原始位元。",
+        "revocation": "任一原文SHA、直接依賴SHA或後出作者定案改變時撤回驗收再核。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gem",
+            "topic": "此檔只是最新補丁順讀的導航，說明11/08已對03、05、06、08、09、10、12章的時間、物權、動機及",
+            "finding": "此檔只是最新補丁順讀的導航，說明11/08已對03、05、06、08、09、10、12章的時間、物權、動機及道具作局部修正；不是小說正文",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-5877"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 7,
+            "quote": "**[第01～12章按順序的最新已套補丁閱讀索引](../順讀_最新補丁候選/README.md)**",
+            "topic": "現行候選順讀從G2、G3R、G5R、G6、G7R1、G8E、G9E/G10R4、09結案、10-12後修；舊",
+            "finding": "現行候選順讀從G2、G3R、G5R、G6、G7R1、G8E、G9E/G10R4、09結案、10-12後修；舊G9/G9A/B、G10R3和待核D保持歷史而非當前順讀",
+            "authority": "PROCEDURAL_NON_CANON",
+            "claim_ids": [
+              "SRC-ALL-5878"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "**最新已套入的 11/08 QA 正文修補：**第03、05、06、08、09、10、12章的時間、遺物歸屬、研究動機與道具用途已精確修訂；[查看實際替換紀錄](../../08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md)。**以順讀區與完整合輯為現行候選入口，原 `純正文_Gem",
+            "question": "此檔屬作者已採用的正式章，還是作者明確初遇原則下的候選／導航？",
+            "finding": "純導航，指向11/08局部補丁後順讀；未採正式正文。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 7,
+            "quote": "**[第01～12章按順序的最新已套補丁閱讀索引](../順讀_最新補丁候選/README.md)**",
+            "question": "舊熟人版與初遇版、91/92連續及109A/110B互斥，是否被錯誤視為同一條故事？",
+            "finding": "順讀候選另有G9E/G10R4及後修，舊純正文檔不當作現行補丁版。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 7,
+            "quote": "**[第01～12章按順序的最新已套補丁閱讀索引](../順讀_最新補丁候選/README.md)**",
+            "question": "是否漏掉有效行動、獨立人物／制度、裝備與限知層級？",
+            "finding": "導航明確限制正式0章，補丁只適用指定11/08順讀稿。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 7,
+            "quote": "**[第01～12章按順序的最新已套補丁閱讀索引](../順讀_最新補丁候選/README.md)**",
+            "question": "若後續沿不同章線繼續寫，何種原始來源或角色認知會被覆寫？",
+            "finding": "新順讀合輯與11/08微補丁為候選高優先入口，不能誤用老G9B/G10R3作最新。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "08_交接勘誤與決議/20261108_最新候選正文01至12_時間線道具與物權_實際套補丁紀錄.md",
+            "git_blob_sha": "6cd239f1275b7fcbb6ce5430b7d47e60f14f54dc",
+            "impact": "第一優先核對作者明確後出初遇決議／最新11月8日候選來源的權威界線。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+            "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+            "impact": "核對此檔與前一／相鄰替代稿的互斥版本、時間停點與主角既有關係。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+            "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+            "impact": "核對後續不同開篇方案的情報與章際依賴，避免混同已發生事件。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          }
+        ],
+        "second_pass_method": "第一遍逐段讀候選實際事件與角色知情，第二遍按作者權威、版本互斥、重大遺漏、跨章依賴四類反證；原文逐行校SHA與引用。",
+        "unresolved_risks": [
+          "最新順讀候選與原始多版本具有明確優先差別，但不代表作者採Canon。"
+        ]
+      }
+    },
+    {
+      "source_path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+      "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+      "source_role_id": "FULL-B41-02",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-5879",
+        "SRC-ALL-5880",
+        "SRC-ALL-5881",
+        "SRC-ALL-5882",
+        "SRC-ALL-5883",
+        "SRC-ALL-5884",
+        "SRC-ALL-5885",
+        "SRC-ALL-5886",
+        "SRC-ALL-5887",
+        "SRC-ALL-5888",
+        "SRC-ALL-5889",
+        "SRC-ALL-5890"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "依GitHub來源原文及既有後出作者初遇決議，逐檔全行與候選間關係查核；各候選具體場景不升格Canon，AI編輯性驗收不等於獨立盲審。",
+      "source_line_count": 526,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 11,
+          "anchor_line": 3,
+          "quote": "> **【2026-10-19 使用者後出確定：正式第一章諾亞與艾莉維亞第一次相遇】**** 本檔原先採「已熟識、自然叫維亞、短暫牽手」的**助手假設**，已不符合使用者最新指定的正式第一章關係時序。**保留原試寫全文，不抹掉本稿場景價值；只能當兩人認識後的場景素材，或作正式初遇版重寫時參考的環境／其他人物描寫，不能直接當正式第1章。**",
+          "meaning": "第66熟人版原先假設第一章諾亞與艾莉維亞已熟識並互稱維亞、牽手，與10/19作者後出『第一次』初見時序衝突，保留作後期場景素材"
+        },
+        {
+          "from": 12,
+          "to": 63,
+          "anchor_line": 14,
+          "quote": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。",
+          "meaning": "折索集市的巨型舊路正被工人吊拆而居民照常買餅；諾亞想在完全消失前知道高處去向，已熟識艾莉維亞陪同討論"
+        },
+        {
+          "from": 64,
+          "to": 115,
+          "anchor_line": 110,
+          "quote": "「照拆除進度，」艾莉維亞繼續說，「最外頭的連接梁已經卸掉了。可是它後面那座平台，還在承受另一段的作用。不是靠這兩根看得到的吊索。」",
+          "meaning": "修鞋的席蘿在社區有普通生活關係，記得舊路；艾莉維亞見明顯斷口後仍有隱性承力參照，注意到局部異常"
+        },
+        {
+          "from": 116,
+          "to": 169,
+          "anchor_line": 144,
+          "quote": "席蘿說：「第三天晚上以前，舊上行站最後的支架也要卸。再晚就什麼都沒有。」",
+          "meaning": "席蘿指舊站最後支架在第三日夜前拆卸；攀行鞋補釘、乾糧使艾莉與諾亞推測她自己也準備上去，但不是全知者"
+        },
+        {
+          "from": 170,
+          "to": 221,
+          "anchor_line": 174,
+          "quote": "「我沒說要妳帶。」諾亞站起身，「妳告訴我們哪裡還有能走的入口，我們各走各的。要不然，我們自己找。」",
+          "meaning": "諾亞向席蘿詢問可走入口，席蘿不願擔任嚮導而指向拆除隊，對話中有其自主判斷"
+        },
+        {
+          "from": 222,
+          "to": 273,
+          "anchor_line": 254,
+          "quote": "「你們如果有正式承包資格，可以向上層檢修局遞交。正常審批要五天。」",
+          "meaning": "閻白依現場安全及審批職責拒絕進入工地，正常審批五日超過拆除剩三日；他並非壞人或純阻礙工具"
+        },
+        {
+          "from": 274,
+          "to": 325,
+          "anchor_line": 306,
+          "quote": "折索集市的下層開始擺晚攤。有人把海盆送來的鹹魚掛在風口，貨運索道放下最後一籠當日貨物，幾個孩子蹲在邊緣數著對面巨大支架上忽明忽暗的工作燈。",
+          "meaning": "下層居民夜市、鹹魚物流與吊梁仍正常運作；艾莉維亞對斷而承力的連接有研究興趣，諾亞更關心仍未見的上方視野"
+        },
+        {
+          "from": 326,
+          "to": 377,
+          "anchor_line": 352,
+          "quote": "遠處另一座吊機正在緩緩抬起，那根橫過空腔的巨型梁架終於從舊路上離開。原本像一條完整線條的高架，露出很大一截空白。",
+          "meaning": "兩位主角原本私下交談後注意巨大吊梁拆離，決定另找席蘿；此段已熟識語氣不合正式初遇時序"
+        },
+        {
+          "from": 378,
+          "to": 429,
+          "anchor_line": 416,
+          "quote": "「還有，別以為跟著我就一定安全。我知道以前哪塊板能踩，不知道今天還能不能踩。」",
+          "meaning": "席蘿帶已備索具出發但聲明不等人、不保證舊路今日仍安全；三人依私人目標短暫同路"
+        },
+        {
+          "from": 430,
+          "to": 479,
+          "anchor_line": 446,
+          "quote": "席蘿拿出一枚磨得發亮的舊鑰匙，插進門邊看上去再普通不過的鎖孔。",
+          "meaning": "舊側站有近期清灰、油燈與真實維護痕跡，席蘿舊鑰開門，外面是斷開的巨大垂直空腔及最後工作平台"
+        },
+        {
+          "from": 480,
+          "to": 515,
+          "anchor_line": 482,
+          "quote": "下一瞬間，平臺外側一枚快要落下的舊標記片，竟然輕輕改變了下落方向，沿一條肉眼難以預料的弧線，落回離它很遠的另一段鋼面上。",
+          "meaning": "艾莉維亞令下墜標記片沿非常規弧線返回遠端鋼面，是候選能力有效展示，諾亞和席蘿都看見而不等同正式能力上限"
+        },
+        {
+          "from": 516,
+          "to": 526,
+          "anchor_line": 519,
+          "quote": "- **女主能力有正面結果**：最後標記片確實在她操作下轉移下落的作用路徑；她不是臨危突然失效，也不是只能驚嘆。**這只是初期演出候選，不鎖死其正式規則名稱／範圍／是否需動手**。",
+          "meaning": "作者後記特別限制首次死亡和復歸未發生、席蘿舊事故只是候選、閻白合法安全拒絕仍有後果；66可再用但不作首章"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+        "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        },
+        {
+          "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+          "git_blob_sha": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5"
+        },
+        {
+          "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "全文分段、作者初遇決議、候選版本互斥、原始SHA行號與二遍漏查；沒有重新驗證聊天平台原始位元。",
+        "revocation": "任一原文SHA、直接依賴SHA或後出作者定案改變時撤回驗收再核。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **【2026-10-19 使用者後出確定：正式第一章諾亞與艾莉維亞第一次相遇】**** 本檔原先採「已熟識、自然叫維亞、短暫牽手」的**助手假設**，已不符合使用者最新指定的正式第一章關係時序。**保留原試寫全文，不抹掉本稿場景價值；只能當兩人認識後的場景素材，或作正式初遇版重寫時參考的環境／其他人物描寫，不能直接當正式第1章。**",
+            "topic": "第66熟人版原先假設第一章諾亞與艾莉維亞已熟識並互稱維亞、牽手，與10/19作者後出『第一次』初見時序衝突，",
+            "finding": "第66熟人版原先假設第一章諾亞與艾莉維亞已熟識並互稱維亞、牽手，與10/19作者後出『第一次』初見時序衝突，保留作後期場景素材",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5879"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 14,
+            "quote": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。",
+            "topic": "折索集市的巨型舊路正被工人吊拆而居民照常買餅；諾亞想在完全消失前知道高處去向，已熟識艾莉維亞陪同討論",
+            "finding": "折索集市的巨型舊路正被工人吊拆而居民照常買餅；諾亞想在完全消失前知道高處去向，已熟識艾莉維亞陪同討論",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5880"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 110,
+            "quote": "「照拆除進度，」艾莉維亞繼續說，「最外頭的連接梁已經卸掉了。可是它後面那座平台，還在承受另一段的作用。不是靠這兩根看得到的吊索。」",
+            "topic": "修鞋的席蘿在社區有普通生活關係，記得舊路；艾莉維亞見明顯斷口後仍有隱性承力參照，注意到局部異常",
+            "finding": "修鞋的席蘿在社區有普通生活關係，記得舊路；艾莉維亞見明顯斷口後仍有隱性承力參照，注意到局部異常",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5881"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 144,
+            "quote": "席蘿說：「第三天晚上以前，舊上行站最後的支架也要卸。再晚就什麼都沒有。」",
+            "topic": "席蘿指舊站最後支架在第三日夜前拆卸；攀行鞋補釘、乾糧使艾莉與諾亞推測她自己也準備上去，但不是全知者",
+            "finding": "席蘿指舊站最後支架在第三日夜前拆卸；攀行鞋補釘、乾糧使艾莉與諾亞推測她自己也準備上去，但不是全知者",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5882"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 174,
+            "quote": "「我沒說要妳帶。」諾亞站起身，「妳告訴我們哪裡還有能走的入口，我們各走各的。要不然，我們自己找。」",
+            "topic": "諾亞向席蘿詢問可走入口，席蘿不願擔任嚮導而指向拆除隊，對話中有其自主判斷",
+            "finding": "諾亞向席蘿詢問可走入口，席蘿不願擔任嚮導而指向拆除隊，對話中有其自主判斷",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5883"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 254,
+            "quote": "「你們如果有正式承包資格，可以向上層檢修局遞交。正常審批要五天。」",
+            "topic": "閻白依現場安全及審批職責拒絕進入工地，正常審批五日超過拆除剩三日；他並非壞人或純阻礙工具",
+            "finding": "閻白依現場安全及審批職責拒絕進入工地，正常審批五日超過拆除剩三日；他並非壞人或純阻礙工具",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5884"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 306,
+            "quote": "折索集市的下層開始擺晚攤。有人把海盆送來的鹹魚掛在風口，貨運索道放下最後一籠當日貨物，幾個孩子蹲在邊緣數著對面巨大支架上忽明忽暗的工作燈。",
+            "topic": "下層居民夜市、鹹魚物流與吊梁仍正常運作；艾莉維亞對斷而承力的連接有研究興趣，諾亞更關心仍未見的上方視野",
+            "finding": "下層居民夜市、鹹魚物流與吊梁仍正常運作；艾莉維亞對斷而承力的連接有研究興趣，諾亞更關心仍未見的上方視野",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5885"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 352,
+            "quote": "遠處另一座吊機正在緩緩抬起，那根橫過空腔的巨型梁架終於從舊路上離開。原本像一條完整線條的高架，露出很大一截空白。",
+            "topic": "兩位主角原本私下交談後注意巨大吊梁拆離，決定另找席蘿；此段已熟識語氣不合正式初遇時序",
+            "finding": "兩位主角原本私下交談後注意巨大吊梁拆離，決定另找席蘿；此段已熟識語氣不合正式初遇時序",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5886"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 416,
+            "quote": "「還有，別以為跟著我就一定安全。我知道以前哪塊板能踩，不知道今天還能不能踩。」",
+            "topic": "席蘿帶已備索具出發但聲明不等人、不保證舊路今日仍安全；三人依私人目標短暫同路",
+            "finding": "席蘿帶已備索具出發但聲明不等人、不保證舊路今日仍安全；三人依私人目標短暫同路",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5887"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 446,
+            "quote": "席蘿拿出一枚磨得發亮的舊鑰匙，插進門邊看上去再普通不過的鎖孔。",
+            "topic": "舊側站有近期清灰、油燈與真實維護痕跡，席蘿舊鑰開門，外面是斷開的巨大垂直空腔及最後工作平台",
+            "finding": "舊側站有近期清灰、油燈與真實維護痕跡，席蘿舊鑰開門，外面是斷開的巨大垂直空腔及最後工作平台",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5888"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 482,
+            "quote": "下一瞬間，平臺外側一枚快要落下的舊標記片，竟然輕輕改變了下落方向，沿一條肉眼難以預料的弧線，落回離它很遠的另一段鋼面上。",
+            "topic": "艾莉維亞令下墜標記片沿非常規弧線返回遠端鋼面，是候選能力有效展示，諾亞和席蘿都看見而不等同正式能力上限",
+            "finding": "艾莉維亞令下墜標記片沿非常規弧線返回遠端鋼面，是候選能力有效展示，諾亞和席蘿都看見而不等同正式能力上限",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5889"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 519,
+            "quote": "- **女主能力有正面結果**：最後標記片確實在她操作下轉移下落的作用路徑；她不是臨危突然失效，也不是只能驚嘆。**這只是初期演出候選，不鎖死其正式規則名稱／範圍／是否需動手**。",
+            "topic": "作者後記特別限制首次死亡和復歸未發生、席蘿舊事故只是候選、閻白合法安全拒絕仍有後果；66可再用但不作首章",
+            "finding": "作者後記特別限制首次死亡和復歸未發生、席蘿舊事故只是候選、閻白合法安全拒絕仍有後果；66可再用但不作首章",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5890"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **【2026-10-19 使用者後出確定：正式第一章諾亞與艾莉維亞第一次相遇】**** 本檔原先採「已熟識、自然叫維亞、短暫牽手」的**助手假設**，已不符合使用者最新指定的正式第一章關係時序。**保留原試寫全文，不抹掉本稿場景價值；只能當兩人認識後的場景素材，或作正式初遇版重寫時參考的環境／其他人物描寫，不能直接當正式第1章。**",
+            "question": "此檔屬作者已採用的正式章，還是作者明確初遇原則下的候選／導航？",
+            "finding": "本檔只是ChatGPT試寫：第67確認『第一章首次相遇』但並未確認任何具體開篇稿成為Canon。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 14,
+            "quote": "油花噼啪作響，幾個等早餐的客人順著巨響望向外側高空。那裡掛著一條彎彎曲曲的舊上行路，兩端連著遙遠得看不清盡頭的巨大構架。現在，一群穿橘色工衣的人正沿著它，把生鏽的連接架逐節切開。",
+            "question": "舊熟人版與初遇版、91/92連續及109A/110B互斥，是否被錯誤視為同一條故事？",
+            "finding": "66的維亞私稱及短暫牽手和正式初遇時序衝突，不與91/92接續。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 306,
+            "quote": "折索集市的下層開始擺晚攤。有人把海盆送來的鹹魚掛在風口，貨運索道放下最後一籠當日貨物，幾個孩子蹲在邊緣數著對面巨大支架上忽明忽暗的工作燈。",
+            "question": "是否漏掉有效行動、獨立人物／制度、裝備與限知層級？",
+            "finding": "席蘿備糧修鞋不是全知、閻白保護工人的職責有效、艾莉作用落點僅候選，無首次死亡。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 519,
+            "quote": "- **女主能力有正面結果**：最後標記片確實在她操作下轉移下落的作用路徑；她不是臨危突然失效，也不是只能驚嘆。**這只是初期演出候選，不鎖死其正式規則名稱／範圍／是否需動手**。",
+            "question": "若後續沿不同章線繼續寫，何種原始來源或角色認知會被覆寫？",
+            "finding": "66不能作正式首章；若借用場景，需重新設計兩人初識與何時形成暱稱及牽手。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+            "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c",
+            "impact": "第一優先核對作者明確後出初遇決議／最新11月8日候選來源的權威界線。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+            "git_blob_sha": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5",
+            "impact": "核對此檔與前一／相鄰替代稿的互斥版本、時間停點與主角既有關係。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+            "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+            "impact": "核對後續不同開篇方案的情報與章際依賴，避免混同已發生事件。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          }
+        ],
+        "second_pass_method": "第一遍逐段讀候選實際事件與角色知情，第二遍按作者權威、版本互斥、重大遺漏、跨章依賴四類反證；原文逐行校SHA與引用。",
+        "unresolved_risks": [
+          "本檔文內的地方人名、空間技術數值、私人關係演出均不因AI驗收轉為作者正式設定。",
+          "早期P0與109/110是不同事件方案，人物歷史及交通許可不能跨稿拼合。"
+        ]
+      }
+    },
+    {
+      "source_path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+      "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+      "source_role_id": "FULL-B41-03",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-5891",
+        "SRC-ALL-5892",
+        "SRC-ALL-5893",
+        "SRC-ALL-5894",
+        "SRC-ALL-5895",
+        "SRC-ALL-5896",
+        "SRC-ALL-5897",
+        "SRC-ALL-5898",
+        "SRC-ALL-5899",
+        "SRC-ALL-5900",
+        "SRC-ALL-5901",
+        "SRC-ALL-5902"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "依GitHub來源原文及既有後出作者初遇決議，逐檔全行與候選間關係查核；各候選具體場景不升格Canon，AI編輯性驗收不等於獨立盲審。",
+      "source_line_count": 534,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 8,
+          "anchor_line": 3,
+          "quote": "> **注意：全篇是可撤回的第一章候選，而非正式正文。**本次依第89全庫盤點和第90開篇P0工作卡，借用第53／65已有的地景與人物因果，**完整改寫成第67要求的「諾亞×艾莉維亞第一次見面」**。所示地方、姓名（席蘿、閻白）、道路、時間與能力演出仍是候選；不覆寫第66熟人版原稿。所有人的私下想法與臺詞只是此版本的合理推演，尚待讀者評估",
+          "meaning": "第91是依第67『第一章首次相遇』重新試寫的非正史P0，不是66熟人版的正式覆寫；席蘿閻白與地圖仍可撤回"
+        },
+        {
+          "from": 9,
+          "to": 72,
+          "anchor_line": 13,
+          "quote": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。",
+          "meaning": "施工隊六索緩吊高架而非直接砸街，當地貨運與早餐仍運行；諾亞昨晚才抵達並詢問上方舊上行站"
+        },
+        {
+          "from": 73,
+          "to": 124,
+          "anchor_line": 105,
+          "quote": "「那就從別處走。這裡是工地，裡面還有人。」他指向高處，「上面那截梁今天中午就要切下來。你現在走進去，出了事不是你一個人的事。」",
+          "meaning": "工務負責人閻白指吊梁下還有人，拒絕諾亞闖工地是正當安全責任，諾亞沒有為看景妨礙員工"
+        },
+        {
+          "from": 125,
+          "to": 178,
+          "anchor_line": 141,
+          "quote": "圍欄的另一側站著一名年輕女子。她沒有看他，而是正低頭整理一組薄薄的測量片。她面前的工作臺上攤著一張局部結構圖，圖紙一角被風掀起，她伸手壓住，另一隻手仍在指著遠處已被吊離的路架。",
+          "meaning": "艾莉維亞先於諾亞獨立測量連接次序及固定件拆除許可，閻白回答需查設計；兩主角還不認識"
+        },
+        {
+          "from": 179,
+          "to": 232,
+          "anchor_line": 201,
+          "quote": "「我只想知道，從上面看這座城市會不會很漂亮。」",
+          "meaning": "兩主角首次直接交談，諾亞為遠方風景、艾莉維亞為不合理接續，各自想去卻尚不了解對方"
+        },
+        {
+          "from": 233,
+          "to": 284,
+          "anchor_line": 247,
+          "quote": "它在半途消失了一瞬，下一刻已經落在她手邊的圖紙上，發出清脆的一聲響。",
+          "meaning": "艾莉維亞使墊圈半途改向落回測量圖，工人接受技能但諾亞仍不理解其原理；兩人開始互報姓名"
+        },
+        {
+          "from": 285,
+          "to": 336,
+          "anchor_line": 313,
+          "quote": "那是一個坐在矮凳上的女人，身旁擺著一雙正在修補的攀行鞋。她將針線收好，熟練地拽緊靴側的扣帶，像是完全沒打算理會面前那道熱鬧的工地圍欄。",
+          "meaning": "席蘿在場修攀行鞋，認為閻白工地管制正當；她自己則準備走避開工地的另一條舊路"
+        },
+        {
+          "from": 337,
+          "to": 388,
+          "anchor_line": 347,
+          "quote": "「工地那邊不能走。他說得沒錯。上去看一眼風景，犯不著從人家頭頂正在拆的地方鑽。」",
+          "meaning": "席蘿不強迫兩名陌生人跟隨，三人在市場買賣與小路上鬥嘴；此時只有局部互識，尚無默契"
+        },
+        {
+          "from": 389,
+          "to": 440,
+          "anchor_line": 433,
+          "quote": "只有一座被雜草遮住半邊的舊側站，門旁的燈壞了，臺階卻很乾淨。牆角放著一盆剛澆過水的植物。",
+          "meaning": "舊側站旁有人澆植物及清掃，說明非廢棄世界空洞；席蘿知道道路但不假稱全知"
+        },
+        {
+          "from": 441,
+          "to": 492,
+          "anchor_line": 473,
+          "quote": "「外面這座站沒什麼問題。」她說，「但門後的距離，和這扇門所在的位置不太相稱。」",
+          "meaning": "艾莉維亞觀察門內距離與外部位置不相稱、席蘿決定開鎖；地理異常是候選可觀測資訊"
+        },
+        {
+          "from": 493,
+          "to": 526,
+          "anchor_line": 517,
+          "quote": "身後的市場仍然吵鬧。有人趕著交貨，有人在議價，遠處的吊車按原定時刻再一次響起了工作鐘。",
+          "meaning": "諾亞和艾莉走上樓梯仍有不同目的，市場工務時鐘照常推進，三人未瞬間形成固定團隊"
+        },
+        {
+          "from": 527,
+          "to": 534,
+          "anchor_line": 529,
+          "quote": "- **首章實際行動**：諾亞因舊路即將消失而想上去，艾莉維亞本已在獨立測量並真的展現有效操作，席蘿為自己的私人目的率先走舊側路；閻白合理拒絕工地入場，三人改選另一條尚能使用的舊路。",
+          "meaning": "作者後記標明第一章初識但不等於必採，能力演出與席蘿私人背景皆未定案，初死與Celeste未發生"
+        }
+      ],
+      "latest_revisions_checked": [
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        },
+        {
+          "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+          "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888"
+        },
+        {
+          "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+          "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "全文分段、作者初遇決議、候選版本互斥、原始SHA行號與二遍漏查；沒有重新驗證聊天平台原始位元。",
+        "revocation": "任一原文SHA、直接依賴SHA或後出作者定案改變時撤回驗收再核。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **注意：全篇是可撤回的第一章候選，而非正式正文。**本次依第89全庫盤點和第90開篇P0工作卡，借用第53／65已有的地景與人物因果，**完整改寫成第67要求的「諾亞×艾莉維亞第一次見面」**。所示地方、姓名（席蘿、閻白）、道路、時間與能力演出仍是候選；不覆寫第66熟人版原稿。所有人的私下想法與臺詞只是此版本的合理推演，尚待讀者評估",
+            "topic": "第91是依第67『第一章首次相遇』重新試寫的非正史P0，不是66熟人版的正式覆寫；席蘿閻白與地圖仍可撤回",
+            "finding": "第91是依第67『第一章首次相遇』重新試寫的非正史P0，不是66熟人版的正式覆寫；席蘿閻白與地圖仍可撤回",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5891"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 13,
+            "quote": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。",
+            "topic": "施工隊六索緩吊高架而非直接砸街，當地貨運與早餐仍運行；諾亞昨晚才抵達並詢問上方舊上行站",
+            "finding": "施工隊六索緩吊高架而非直接砸街，當地貨運與早餐仍運行；諾亞昨晚才抵達並詢問上方舊上行站",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5892"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 105,
+            "quote": "「那就從別處走。這裡是工地，裡面還有人。」他指向高處，「上面那截梁今天中午就要切下來。你現在走進去，出了事不是你一個人的事。」",
+            "topic": "工務負責人閻白指吊梁下還有人，拒絕諾亞闖工地是正當安全責任，諾亞沒有為看景妨礙員工",
+            "finding": "工務負責人閻白指吊梁下還有人，拒絕諾亞闖工地是正當安全責任，諾亞沒有為看景妨礙員工",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5893"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 141,
+            "quote": "圍欄的另一側站著一名年輕女子。她沒有看他，而是正低頭整理一組薄薄的測量片。她面前的工作臺上攤著一張局部結構圖，圖紙一角被風掀起，她伸手壓住，另一隻手仍在指著遠處已被吊離的路架。",
+            "topic": "艾莉維亞先於諾亞獨立測量連接次序及固定件拆除許可，閻白回答需查設計；兩主角還不認識",
+            "finding": "艾莉維亞先於諾亞獨立測量連接次序及固定件拆除許可，閻白回答需查設計；兩主角還不認識",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5894"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 201,
+            "quote": "「我只想知道，從上面看這座城市會不會很漂亮。」",
+            "topic": "兩主角首次直接交談，諾亞為遠方風景、艾莉維亞為不合理接續，各自想去卻尚不了解對方",
+            "finding": "兩主角首次直接交談，諾亞為遠方風景、艾莉維亞為不合理接續，各自想去卻尚不了解對方",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5895"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 247,
+            "quote": "它在半途消失了一瞬，下一刻已經落在她手邊的圖紙上，發出清脆的一聲響。",
+            "topic": "艾莉維亞使墊圈半途改向落回測量圖，工人接受技能但諾亞仍不理解其原理；兩人開始互報姓名",
+            "finding": "艾莉維亞使墊圈半途改向落回測量圖，工人接受技能但諾亞仍不理解其原理；兩人開始互報姓名",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5896"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 313,
+            "quote": "那是一個坐在矮凳上的女人，身旁擺著一雙正在修補的攀行鞋。她將針線收好，熟練地拽緊靴側的扣帶，像是完全沒打算理會面前那道熱鬧的工地圍欄。",
+            "topic": "席蘿在場修攀行鞋，認為閻白工地管制正當；她自己則準備走避開工地的另一條舊路",
+            "finding": "席蘿在場修攀行鞋，認為閻白工地管制正當；她自己則準備走避開工地的另一條舊路",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5897"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 347,
+            "quote": "「工地那邊不能走。他說得沒錯。上去看一眼風景，犯不著從人家頭頂正在拆的地方鑽。」",
+            "topic": "席蘿不強迫兩名陌生人跟隨，三人在市場買賣與小路上鬥嘴；此時只有局部互識，尚無默契",
+            "finding": "席蘿不強迫兩名陌生人跟隨，三人在市場買賣與小路上鬥嘴；此時只有局部互識，尚無默契",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5898"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 433,
+            "quote": "只有一座被雜草遮住半邊的舊側站，門旁的燈壞了，臺階卻很乾淨。牆角放著一盆剛澆過水的植物。",
+            "topic": "舊側站旁有人澆植物及清掃，說明非廢棄世界空洞；席蘿知道道路但不假稱全知",
+            "finding": "舊側站旁有人澆植物及清掃，說明非廢棄世界空洞；席蘿知道道路但不假稱全知",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5899"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 473,
+            "quote": "「外面這座站沒什麼問題。」她說，「但門後的距離，和這扇門所在的位置不太相稱。」",
+            "topic": "艾莉維亞觀察門內距離與外部位置不相稱、席蘿決定開鎖；地理異常是候選可觀測資訊",
+            "finding": "艾莉維亞觀察門內距離與外部位置不相稱、席蘿決定開鎖；地理異常是候選可觀測資訊",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5900"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 517,
+            "quote": "身後的市場仍然吵鬧。有人趕著交貨，有人在議價，遠處的吊車按原定時刻再一次響起了工作鐘。",
+            "topic": "諾亞和艾莉走上樓梯仍有不同目的，市場工務時鐘照常推進，三人未瞬間形成固定團隊",
+            "finding": "諾亞和艾莉走上樓梯仍有不同目的，市場工務時鐘照常推進，三人未瞬間形成固定團隊",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5901"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 529,
+            "quote": "- **首章實際行動**：諾亞因舊路即將消失而想上去，艾莉維亞本已在獨立測量並真的展現有效操作，席蘿為自己的私人目的率先走舊側路；閻白合理拒絕工地入場，三人改選另一條尚能使用的舊路。",
+            "topic": "作者後記標明第一章初識但不等於必採，能力演出與席蘿私人背景皆未定案，初死與Celeste未發生",
+            "finding": "作者後記標明第一章初識但不等於必採，能力演出與席蘿私人背景皆未定案，初死與Celeste未發生",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5902"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **注意：全篇是可撤回的第一章候選，而非正式正文。**本次依第89全庫盤點和第90開篇P0工作卡，借用第53／65已有的地景與人物因果，**完整改寫成第67要求的「諾亞×艾莉維亞第一次見面」**。所示地方、姓名（席蘿、閻白）、道路、時間與能力演出仍是候選；不覆寫第66熟人版原稿。所有人的私下想法與臺詞只是此版本的合理推演，尚待讀者評估",
+            "question": "此檔屬作者已採用的正式章，還是作者明確初遇原則下的候選／導航？",
+            "finding": "本檔只是ChatGPT試寫：第67確認『第一章首次相遇』但並未確認任何具體開篇稿成為Canon。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 13,
+            "quote": "那段足有半條街長的鋼架被六根吊纜慢慢放下，從高處的霧裡浮出來，緩緩轉過一個角度，露出底下密密麻麻的舊階梯。直到它被吊走，諾亞才發現原來那些階梯後面還藏著一座更高的站臺。",
+            "question": "舊熟人版與初遇版、91/92連續及109A/110B互斥，是否被錯誤視為同一條故事？",
+            "finding": "91/92為連續一套P0試寫，與109A、110B兩種首章另案互斥。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 313,
+            "quote": "那是一個坐在矮凳上的女人，身旁擺著一雙正在修補的攀行鞋。她將針線收好，熟練地拽緊靴側的扣帶，像是完全沒打算理會面前那道熱鬧的工地圍欄。",
+            "question": "是否漏掉有效行動、獨立人物／制度、裝備與限知層級？",
+            "finding": "艾莉在初遇前已有測量工作，墊圈操作真有效；閻白拒絕安全事故不是惡意陰謀。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 529,
+            "quote": "- **首章實際行動**：諾亞因舊路即將消失而想上去，艾莉維亞本已在獨立測量並真的展現有效操作，席蘿為自己的私人目的率先走舊側路；閻白合理拒絕工地入場，三人改選另一條尚能使用的舊路。",
+            "question": "若後續沿不同章線繼續寫，何種原始來源或角色認知會被覆寫？",
+            "finding": "只有91→92可以直接連接；第65席蘿舊責任候選在內文仍未客觀證實。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+            "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c",
+            "impact": "第一優先核對作者明確後出初遇決議／最新11月8日候選來源的權威界線。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+            "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+            "impact": "核對此檔與前一／相鄰替代稿的互斥版本、時間停點與主角既有關係。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+            "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+            "impact": "核對後續不同開篇方案的情報與章際依賴，避免混同已發生事件。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          }
+        ],
+        "second_pass_method": "第一遍逐段讀候選實際事件與角色知情，第二遍按作者權威、版本互斥、重大遺漏、跨章依賴四類反證；原文逐行校SHA與引用。",
+        "unresolved_risks": [
+          "本檔文內的地方人名、空間技術數值、私人關係演出均不因AI驗收轉為作者正式設定。",
+          "早期P0與109/110是不同事件方案，人物歷史及交通許可不能跨稿拼合。"
+        ]
+      }
+    },
+    {
+      "source_path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+      "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+      "source_role_id": "FULL-B41-04",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-5903",
+        "SRC-ALL-5904",
+        "SRC-ALL-5905",
+        "SRC-ALL-5906",
+        "SRC-ALL-5907",
+        "SRC-ALL-5908",
+        "SRC-ALL-5909",
+        "SRC-ALL-5910",
+        "SRC-ALL-5911",
+        "SRC-ALL-5912",
+        "SRC-ALL-5913",
+        "SRC-ALL-5914"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "依GitHub來源原文及既有後出作者初遇決議，逐檔全行與候選間關係查核；各候選具體場景不升格Canon，AI編輯性驗收不等於獨立盲審。",
+      "source_line_count": 526,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 8,
+          "anchor_line": 3,
+          "quote": "> 與 [第91第一章](../../07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md) 連續的**第二章候選**。兩位主角剛剛第一次認識，只知道彼此姓名、局部行動和願望；席蘿與閻白是具有獨立職責／過去的地方候選人物。此稿不代表正式正文、不鎖定女主規則或地理、不能自動承諾此段一定作為小說開頭。",
+          "meaning": "第92只接第91初遇方案的第二章，不可接66熟人版、109 A或110 B；仍非正史"
+        },
+        {
+          "from": 9,
+          "to": 64,
+          "anchor_line": 11,
+          "quote": "市場的聲音還能從下方傳來，只是越走越遠。階邊長著薄薄的草，有些地方被腳踩平了，有些則從鏽蝕的金屬接縫裡冒出來。",
+          "meaning": "側站樓梯行走距離異常，諾亞與艾莉在逐步了解彼此時仍會互相追問，而非對所有機制早有共識"
+        },
+        {
+          "from": 65,
+          "to": 124,
+          "anchor_line": 85,
+          "quote": "諾亞順著她的視線，看到階邊一小塊褪色的編號牌。牌上寫的並非本站樓層，而是一個比他們從入口讀到的更遠的側區代號。",
+          "meaning": "舊編號牌與影子方向和燈不符；艾莉的局部操作不是整個空間系統已被兩人解釋"
+        },
+        {
+          "from": 125,
+          "to": 164,
+          "anchor_line": 137,
+          "quote": "在更高處，一條極細的鐵路懸在巨大的空腔裡，末端彷彿直接穿進了另一片雲。幾輛運貨的車從裡面出來，沿著向下彎曲的路軌緩慢前進。",
+          "meaning": "第二側台有高處居住地、仍運作貨運線與海風氣味；諾亞看到橋後仍有城市而非單一謎題空間"
+        },
+        {
+          "from": 165,
+          "to": 206,
+          "anchor_line": 175,
+          "quote": "「我有我想看的東西。」",
+          "meaning": "諾亞想看遠景、艾莉維亞想研究接續，席蘿對風景不再駐足；三人的旅程動機獨立"
+        },
+        {
+          "from": 207,
+          "to": 258,
+          "anchor_line": 237,
+          "quote": "匣上掛著一枚磨損的鎖，旁邊貼著已經泛黃的標籤。她把手伸過去，卻停在半途。",
+          "meaning": "舊站停運卻有人照顧：熱水壺、整潔票窗、近期登記；席蘿走向私人物證匣且遲疑"
+        },
+        {
+          "from": 259,
+          "to": 310,
+          "anchor_line": 261,
+          "quote": "但諾亞注意到，她的手指一直按著其中一張紙的角落，始終沒有放開。",
+          "meaning": "席蘿發現匣中薄紙被動過，艾莉在普通施工登記簿找到『存檔匣清點移交拆卸方暫存』，不應預設有人惡意偷竊"
+        },
+        {
+          "from": 311,
+          "to": 364,
+          "anchor_line": 331,
+          "quote": "艾莉維亞問：「那份東西，妳會回去找？」",
+          "meaning": "席蘿暫留舊站思考、想回去問閻白，艾莉尊重她不願揭露細節；其生平選擇不由兩主角代做"
+        },
+        {
+          "from": 365,
+          "to": 412,
+          "anchor_line": 375,
+          "quote": "曾經的人在不同年代把它延長、改接、加固，又放棄過其中許多部分；斷裂的鋼軌、仍在運作的貨運支線與後來居民沿邊緣搭起的小街區，交錯成一條彎曲的上行帶。",
+          "meaning": "外側站台顯示歷代人改接舊路與高方山脊，諾亞由眼前可見景觀形成未來遠行願望"
+        },
+        {
+          "from": 413,
+          "to": 464,
+          "anchor_line": 437,
+          "quote": "「那要不要交換聯絡方式？至少下次如果有人又把路拆了，我能問問妳是不是也在附近。」",
+          "meaning": "兩人第一次交換終端聯絡資料，尚無『維亞』私稱或伴侶關係；艾莉還有自己的次段研究"
+        },
+        {
+          "from": 465,
+          "to": 518,
+          "anchor_line": 511,
+          "quote": "她也知道，自己如果現在回去，就得當面問他一件已經拖了很久的事。",
+          "meaning": "兩人暫探另一條側廊而席蘿準備下去找閻白核原始資料，離鏡人物仍能行動"
+        },
+        {
+          "from": 519,
+          "to": 526,
+          "anchor_line": 522,
+          "quote": "2. **人物關係前進而未跨級**：兩人交換聯絡方式，開始知道對方說話和行動的一些規律；尚未稱「維亞」、沒有戀愛或肢體慣例，仍可隨時分道揚鑣。",
+          "meaning": "作者後記承認第二章尚未結案、席蘿事故與改圖只是第65方案候選，未取得作者正式採案"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423"
+        },
+        {
+          "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+          "git_blob_sha": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "全文分段、作者初遇決議、候選版本互斥、原始SHA行號與二遍漏查；沒有重新驗證聊天平台原始位元。",
+        "revocation": "任一原文SHA、直接依賴SHA或後出作者定案改變時撤回驗收再核。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 與 [第91第一章](../../07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md) 連續的**第二章候選**。兩位主角剛剛第一次認識，只知道彼此姓名、局部行動和願望；席蘿與閻白是具有獨立職責／過去的地方候選人物。此稿不代表正式正文、不鎖定女主規則或地理、不能自動承諾此段一定作為小說開頭。",
+            "topic": "第92只接第91初遇方案的第二章，不可接66熟人版、109 A或110 B；仍非正史",
+            "finding": "第92只接第91初遇方案的第二章，不可接66熟人版、109 A或110 B；仍非正史",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5903"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 11,
+            "quote": "市場的聲音還能從下方傳來，只是越走越遠。階邊長著薄薄的草，有些地方被腳踩平了，有些則從鏽蝕的金屬接縫裡冒出來。",
+            "topic": "側站樓梯行走距離異常，諾亞與艾莉在逐步了解彼此時仍會互相追問，而非對所有機制早有共識",
+            "finding": "側站樓梯行走距離異常，諾亞與艾莉在逐步了解彼此時仍會互相追問，而非對所有機制早有共識",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5904"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 85,
+            "quote": "諾亞順著她的視線，看到階邊一小塊褪色的編號牌。牌上寫的並非本站樓層，而是一個比他們從入口讀到的更遠的側區代號。",
+            "topic": "舊編號牌與影子方向和燈不符；艾莉的局部操作不是整個空間系統已被兩人解釋",
+            "finding": "舊編號牌與影子方向和燈不符；艾莉的局部操作不是整個空間系統已被兩人解釋",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5905"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 137,
+            "quote": "在更高處，一條極細的鐵路懸在巨大的空腔裡，末端彷彿直接穿進了另一片雲。幾輛運貨的車從裡面出來，沿著向下彎曲的路軌緩慢前進。",
+            "topic": "第二側台有高處居住地、仍運作貨運線與海風氣味；諾亞看到橋後仍有城市而非單一謎題空間",
+            "finding": "第二側台有高處居住地、仍運作貨運線與海風氣味；諾亞看到橋後仍有城市而非單一謎題空間",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5906"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 175,
+            "quote": "「我有我想看的東西。」",
+            "topic": "諾亞想看遠景、艾莉維亞想研究接續，席蘿對風景不再駐足；三人的旅程動機獨立",
+            "finding": "諾亞想看遠景、艾莉維亞想研究接續，席蘿對風景不再駐足；三人的旅程動機獨立",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5907"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 237,
+            "quote": "匣上掛著一枚磨損的鎖，旁邊貼著已經泛黃的標籤。她把手伸過去，卻停在半途。",
+            "topic": "舊站停運卻有人照顧：熱水壺、整潔票窗、近期登記；席蘿走向私人物證匣且遲疑",
+            "finding": "舊站停運卻有人照顧：熱水壺、整潔票窗、近期登記；席蘿走向私人物證匣且遲疑",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5908"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 261,
+            "quote": "但諾亞注意到，她的手指一直按著其中一張紙的角落，始終沒有放開。",
+            "topic": "席蘿發現匣中薄紙被動過，艾莉在普通施工登記簿找到『存檔匣清點移交拆卸方暫存』，不應預設有人惡意偷竊",
+            "finding": "席蘿發現匣中薄紙被動過，艾莉在普通施工登記簿找到『存檔匣清點移交拆卸方暫存』，不應預設有人惡意偷竊",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5909"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 331,
+            "quote": "艾莉維亞問：「那份東西，妳會回去找？」",
+            "topic": "席蘿暫留舊站思考、想回去問閻白，艾莉尊重她不願揭露細節；其生平選擇不由兩主角代做",
+            "finding": "席蘿暫留舊站思考、想回去問閻白，艾莉尊重她不願揭露細節；其生平選擇不由兩主角代做",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5910"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 375,
+            "quote": "曾經的人在不同年代把它延長、改接、加固，又放棄過其中許多部分；斷裂的鋼軌、仍在運作的貨運支線與後來居民沿邊緣搭起的小街區，交錯成一條彎曲的上行帶。",
+            "topic": "外側站台顯示歷代人改接舊路與高方山脊，諾亞由眼前可見景觀形成未來遠行願望",
+            "finding": "外側站台顯示歷代人改接舊路與高方山脊，諾亞由眼前可見景觀形成未來遠行願望",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5911"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 437,
+            "quote": "「那要不要交換聯絡方式？至少下次如果有人又把路拆了，我能問問妳是不是也在附近。」",
+            "topic": "兩人第一次交換終端聯絡資料，尚無『維亞』私稱或伴侶關係；艾莉還有自己的次段研究",
+            "finding": "兩人第一次交換終端聯絡資料，尚無『維亞』私稱或伴侶關係；艾莉還有自己的次段研究",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5912"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 511,
+            "quote": "她也知道，自己如果現在回去，就得當面問他一件已經拖了很久的事。",
+            "topic": "兩人暫探另一條側廊而席蘿準備下去找閻白核原始資料，離鏡人物仍能行動",
+            "finding": "兩人暫探另一條側廊而席蘿準備下去找閻白核原始資料，離鏡人物仍能行動",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5913"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 522,
+            "quote": "2. **人物關係前進而未跨級**：兩人交換聯絡方式，開始知道對方說話和行動的一些規律；尚未稱「維亞」、沒有戀愛或肢體慣例，仍可隨時分道揚鑣。",
+            "topic": "作者後記承認第二章尚未結案、席蘿事故與改圖只是第65方案候選，未取得作者正式採案",
+            "finding": "作者後記承認第二章尚未結案、席蘿事故與改圖只是第65方案候選，未取得作者正式採案",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5914"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 與 [第91第一章](../../07_候選故事與場景/091_非正史連續試寫_第一章_那條路正在被拆走.md) 連續的**第二章候選**。兩位主角剛剛第一次認識，只知道彼此姓名、局部行動和願望；席蘿與閻白是具有獨立職責／過去的地方候選人物。此稿不代表正式正文、不鎖定女主規則或地理、不能自動承諾此段一定作為小說開頭。",
+            "question": "此檔屬作者已採用的正式章，還是作者明確初遇原則下的候選／導航？",
+            "finding": "本檔只是ChatGPT試寫：第67確認『第一章首次相遇』但並未確認任何具體開篇稿成為Canon。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 11,
+            "quote": "市場的聲音還能從下方傳來，只是越走越遠。階邊長著薄薄的草，有些地方被腳踩平了，有些則從鏽蝕的金屬接縫裡冒出來。",
+            "question": "舊熟人版與初遇版、91/92連續及109A/110B互斥，是否被錯誤視為同一條故事？",
+            "finding": "91/92為連續一套P0試寫，與109A、110B兩種首章另案互斥。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 261,
+            "quote": "但諾亞注意到，她的手指一直按著其中一張紙的角落，始終沒有放開。",
+            "question": "是否漏掉有效行動、獨立人物／制度、裝備與限知層級？",
+            "finding": "資料匣被正常清點移交而非必定失竊，席蘿仍有自己的責任，雙主角尚未親密。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 522,
+            "quote": "2. **人物關係前進而未跨級**：兩人交換聯絡方式，開始知道對方說話和行動的一些規律；尚未稱「維亞」、沒有戀愛或肢體慣例，仍可隨時分道揚鑣。",
+            "question": "若後續沿不同章線繼續寫，何種原始來源或角色認知會被覆寫？",
+            "finding": "只有91→92可以直接連接；第65席蘿舊責任候選在內文仍未客觀證實。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+            "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+            "impact": "第一優先核對作者明確後出初遇決議／最新11月8日候選來源的權威界線。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+            "git_blob_sha": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5",
+            "impact": "核對此檔與前一／相鄰替代稿的互斥版本、時間停點與主角既有關係。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+            "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c",
+            "impact": "核對後續不同開篇方案的情報與章際依賴，避免混同已發生事件。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          }
+        ],
+        "second_pass_method": "第一遍逐段讀候選實際事件與角色知情，第二遍按作者權威、版本互斥、重大遺漏、跨章依賴四類反證；原文逐行校SHA與引用。",
+        "unresolved_risks": [
+          "本檔文內的地方人名、空間技術數值、私人關係演出均不因AI驗收轉為作者正式設定。",
+          "早期P0與109/110是不同事件方案，人物歷史及交通許可不能跨稿拼合。"
+        ]
+      }
+    },
+    {
+      "source_path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+      "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+      "source_role_id": "FULL-B41-05",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-5915",
+        "SRC-ALL-5916",
+        "SRC-ALL-5917",
+        "SRC-ALL-5918",
+        "SRC-ALL-5919",
+        "SRC-ALL-5920",
+        "SRC-ALL-5921",
+        "SRC-ALL-5922",
+        "SRC-ALL-5923",
+        "SRC-ALL-5924",
+        "SRC-ALL-5925"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "依GitHub來源原文及既有後出作者初遇決議，逐檔全行與候選間關係查核；各候選具體場景不升格Canon，AI編輯性驗收不等於獨立盲審。",
+      "source_line_count": 478,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 12,
+          "anchor_line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女主高階能力、人物生活感與資訊邊界有效；具體城市、道路、人物台詞、景色、髮色在此僅是試驗素材。第一章官方正史仍為0章。",
+          "meaning": "109 A是獨立候選開篇，既非91覆寫也非110前章；首次相遇與深青藍髮為測試表演，正式正文仍0章"
+        },
+        {
+          "from": 13,
+          "to": 68,
+          "anchor_line": 27,
+          "quote": "不是一條整整齊齊的路。石階貼著遙遠的斜壁攀升，到半途斷成幾段；斷口旁被後來的人焊上一條很窄的鐵梯，鐵梯盡頭又接著另一代人鋪的灰白色廊板。再往上，一列滿載貨箱的小車正沿曲軌慢慢行駛。",
+          "meaning": "橋梁大吊拆揭露斷梯、補梯與上方仍運送貨物的小車；送貨員與早餐店老板的勞作是城市日常"
+        },
+        {
+          "from": 69,
+          "to": 119,
+          "anchor_line": 111,
+          "quote": "「你能爬，能跳，能飛，都跟我沒關係。吊梁下面有人，出了事不是你自己摔一下就算了。」",
+          "meaning": "閻白因工人安全封閉施工區，仍提示正規觀景升降軌；同城道路與勞工責任不因諾亞想冒險而消失"
+        },
+        {
+          "from": 120,
+          "to": 160,
+          "anchor_line": 145,
+          "quote": "就在那時，他看見工人剛剛放下的橋，與遠處一段歪歪斜斜的老階梯之間，竟然還接著一條極細的步道。",
+          "meaning": "諾亞發現可由居民日常側道另行上去，不用偷闖施工地或以武力取得許可"
+        },
+        {
+          "from": 161,
+          "to": 212,
+          "anchor_line": 165,
+          "quote": "風掀起她深青藍色的長髮，髮梢掃過肩頭，頭頂有一小撮不太聽話的髮絲翹著，彎出一個柔軟的弧。她把圖紙一角壓在掌下，抬眼看向高處時，原本還帶著一點笑的神情忽然認真起來。",
+          "meaning": "艾莉維亞獨立攜帶半透明測量板、深青藍髮暫用視覺；她詢問拆橋前的連接次序而非隨男主移動"
+        },
+        {
+          "from": 213,
+          "to": 262,
+          "anchor_line": 241,
+          "quote": "「那更巧了。」諾亞說，「我通常就是對不一樣的地方比較有興趣。」",
+          "meaning": "兩人因諾亞想看不同風景、艾莉懷疑斷口仍有關聯初次交談；彼此目的接近但不相同"
+        },
+        {
+          "from": 263,
+          "to": 310,
+          "anchor_line": 283,
+          "quote": "入口旁甚至釘著一塊小牌子：**居民通行，前段施工區不得跨入。**",
+          "meaning": "公用側道有『居民通行，施工區不得跨入』的清楚界線，諾亞選合法替代路"
+        },
+        {
+          "from": 311,
+          "to": 364,
+          "anchor_line": 335,
+          "quote": "路走得不算難，卻能清楚看出不同年代的人怎麼勉強讓它繼續使用。最老的臺階表面已被踩凹；一個斷口被鋼網接起，旁邊還留著原先失去作用的欄杆。再往上，一處為小貨車加裝的斜坡從側面繞出，到了某個角度，竟與一條完全不同的街道平行。",
+          "meaning": "兩人僅同路並無約定組隊，沿多年代補接石階與貨坡到達艾莉研究的原始接縫"
+        },
+        {
+          "from": 365,
+          "to": 416,
+          "anchor_line": 377,
+          "quote": "它不是建在他們這道巨壁上的，而是沿著對面一塊看似懸空的巨大曲殼展開。明亮的屋頂像細碎的鱗片，從曲殼下側一路連到上側；兩城之間沒有一座完整的直橋，只有幾段不同年代的舊梁懸在雲間。某一處斷梁頂端，竟還亮著一小片生活街區的燈。",
+          "meaning": "吊橋移開露出另一片弧殼居住城市；諾亞真看到了新的地理視野，艾莉也測得未預期的繞接方向"
+        },
+        {
+          "from": 417,
+          "to": 468,
+          "anchor_line": 449,
+          "quote": "不是往諾亞盯著的那片城市，而是朝側階盡頭另一個更靠近舊接縫的觀測點。",
+          "meaning": "艾莉往另一個測點繼續研究而諾亞留下觀景，兩人首次短遇並未立刻互託人生"
+        },
+        {
+          "from": 469,
+          "to": 478,
+          "anchor_line": 477,
+          "quote": "- **仍可能失敗的地方**：整篇偏觀景與微發現，外部人際衝突偏輕；雙主角只是偶然一起上坡，未必讓讀者強烈渴望下一章看他們重逢。**即使描寫較充分，也不代表A案已過使用者的吸引力門檻。**",
+          "meaning": "作者後記指出A案衝突較弱、重景觀與小發現，不因章幅或視覺完整就比B案更具正史優先"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+          "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161"
+        },
+        {
+          "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+          "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "全文分段、作者初遇決議、候選版本互斥、原始SHA行號與二遍漏查；沒有重新驗證聊天平台原始位元。",
+        "revocation": "任一原文SHA、直接依賴SHA或後出作者定案改變時撤回驗收再核。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女主高階能力、人物生活感與資訊邊界有效；具體城市、道路、人物台詞、景色、髮色在此僅是試驗素材。第一章官方正史仍為0章。",
+            "topic": "109 A是獨立候選開篇，既非91覆寫也非110前章；首次相遇與深青藍髮為測試表演，正式正文仍0章",
+            "finding": "109 A是獨立候選開篇，既非91覆寫也非110前章；首次相遇與深青藍髮為測試表演，正式正文仍0章",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5915"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 27,
+            "quote": "不是一條整整齊齊的路。石階貼著遙遠的斜壁攀升，到半途斷成幾段；斷口旁被後來的人焊上一條很窄的鐵梯，鐵梯盡頭又接著另一代人鋪的灰白色廊板。再往上，一列滿載貨箱的小車正沿曲軌慢慢行駛。",
+            "topic": "橋梁大吊拆揭露斷梯、補梯與上方仍運送貨物的小車；送貨員與早餐店老板的勞作是城市日常",
+            "finding": "橋梁大吊拆揭露斷梯、補梯與上方仍運送貨物的小車；送貨員與早餐店老板的勞作是城市日常",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5916"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 111,
+            "quote": "「你能爬，能跳，能飛，都跟我沒關係。吊梁下面有人，出了事不是你自己摔一下就算了。」",
+            "topic": "閻白因工人安全封閉施工區，仍提示正規觀景升降軌；同城道路與勞工責任不因諾亞想冒險而消失",
+            "finding": "閻白因工人安全封閉施工區，仍提示正規觀景升降軌；同城道路與勞工責任不因諾亞想冒險而消失",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5917"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 145,
+            "quote": "就在那時，他看見工人剛剛放下的橋，與遠處一段歪歪斜斜的老階梯之間，竟然還接著一條極細的步道。",
+            "topic": "諾亞發現可由居民日常側道另行上去，不用偷闖施工地或以武力取得許可",
+            "finding": "諾亞發現可由居民日常側道另行上去，不用偷闖施工地或以武力取得許可",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5918"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 165,
+            "quote": "風掀起她深青藍色的長髮，髮梢掃過肩頭，頭頂有一小撮不太聽話的髮絲翹著，彎出一個柔軟的弧。她把圖紙一角壓在掌下，抬眼看向高處時，原本還帶著一點笑的神情忽然認真起來。",
+            "topic": "艾莉維亞獨立攜帶半透明測量板、深青藍髮暫用視覺；她詢問拆橋前的連接次序而非隨男主移動",
+            "finding": "艾莉維亞獨立攜帶半透明測量板、深青藍髮暫用視覺；她詢問拆橋前的連接次序而非隨男主移動",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5919"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 241,
+            "quote": "「那更巧了。」諾亞說，「我通常就是對不一樣的地方比較有興趣。」",
+            "topic": "兩人因諾亞想看不同風景、艾莉懷疑斷口仍有關聯初次交談；彼此目的接近但不相同",
+            "finding": "兩人因諾亞想看不同風景、艾莉懷疑斷口仍有關聯初次交談；彼此目的接近但不相同",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5920"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 283,
+            "quote": "入口旁甚至釘著一塊小牌子：**居民通行，前段施工區不得跨入。**",
+            "topic": "公用側道有『居民通行，施工區不得跨入』的清楚界線，諾亞選合法替代路",
+            "finding": "公用側道有『居民通行，施工區不得跨入』的清楚界線，諾亞選合法替代路",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5921"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 335,
+            "quote": "路走得不算難，卻能清楚看出不同年代的人怎麼勉強讓它繼續使用。最老的臺階表面已被踩凹；一個斷口被鋼網接起，旁邊還留著原先失去作用的欄杆。再往上，一處為小貨車加裝的斜坡從側面繞出，到了某個角度，竟與一條完全不同的街道平行。",
+            "topic": "兩人僅同路並無約定組隊，沿多年代補接石階與貨坡到達艾莉研究的原始接縫",
+            "finding": "兩人僅同路並無約定組隊，沿多年代補接石階與貨坡到達艾莉研究的原始接縫",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5922"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 377,
+            "quote": "它不是建在他們這道巨壁上的，而是沿著對面一塊看似懸空的巨大曲殼展開。明亮的屋頂像細碎的鱗片，從曲殼下側一路連到上側；兩城之間沒有一座完整的直橋，只有幾段不同年代的舊梁懸在雲間。某一處斷梁頂端，竟還亮著一小片生活街區的燈。",
+            "topic": "吊橋移開露出另一片弧殼居住城市；諾亞真看到了新的地理視野，艾莉也測得未預期的繞接方向",
+            "finding": "吊橋移開露出另一片弧殼居住城市；諾亞真看到了新的地理視野，艾莉也測得未預期的繞接方向",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5923"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 449,
+            "quote": "不是往諾亞盯著的那片城市，而是朝側階盡頭另一個更靠近舊接縫的觀測點。",
+            "topic": "艾莉往另一個測點繼續研究而諾亞留下觀景，兩人首次短遇並未立刻互託人生",
+            "finding": "艾莉往另一個測點繼續研究而諾亞留下觀景，兩人首次短遇並未立刻互託人生",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5924"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 477,
+            "quote": "- **仍可能失敗的地方**：整篇偏觀景與微發現，外部人際衝突偏輕；雙主角只是偶然一起上坡，未必讓讀者強烈渴望下一章看他們重逢。**即使描寫較充分，也不代表A案已過使用者的吸引力門檻。**",
+            "topic": "作者後記指出A案衝突較弱、重景觀與小發現，不因章幅或視覺完整就比B案更具正史優先",
+            "finding": "作者後記指出A案衝突較弱、重景觀與小發現，不因章幅或視覺完整就比B案更具正史優先",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5925"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **性質：新的連續小說場景試演，不是正式第一章，不是第091的直接覆寫。** 日期：2026-10-20。與第110份「從上面下來的人」採同一比較要求：兩主角在此**第一次互相見面**；既有巨構、真社會、女主高階能力、人物生活感與資訊邊界有效；具體城市、道路、人物台詞、景色、髮色在此僅是試驗素材。第一章官方正史仍為0章。",
+            "question": "此檔屬作者已採用的正式章，還是作者明確初遇原則下的候選／導航？",
+            "finding": "本檔只是ChatGPT試寫：第67確認『第一章首次相遇』但並未確認任何具體開篇稿成為Canon。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 27,
+            "quote": "不是一條整整齊齊的路。石階貼著遙遠的斜壁攀升，到半途斷成幾段；斷口旁被後來的人焊上一條很窄的鐵梯，鐵梯盡頭又接著另一代人鋪的灰白色廊板。再往上，一列滿載貨箱的小車正沿曲軌慢慢行駛。",
+            "question": "舊熟人版與初遇版、91/92連續及109A/110B互斥，是否被錯誤視為同一條故事？",
+            "finding": "109A和110B只是兩個不同開篇選項，不能前後接成章節。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 241,
+            "quote": "「那更巧了。」諾亞說，「我通常就是對不一樣的地方比較有興趣。」",
+            "question": "是否漏掉有效行動、獨立人物／制度、裝備與限知層級？",
+            "finding": "居民通道合法、有不同年代的補梯和對面真住人的城市；各自主角動機沒有合一。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 477,
+            "quote": "- **仍可能失敗的地方**：整篇偏觀景與微發現，外部人際衝突偏輕；雙主角只是偶然一起上坡，未必讓讀者強烈渴望下一章看他們重逢。**即使描寫較充分，也不代表A案已過使用者的吸引力門檻。**",
+            "question": "若後續沿不同章線繼續寫，何種原始來源或角色認知會被覆寫？",
+            "finding": "A的合法居民側道與B的遠征報名兩套制度並未被作者採案或能自然並置。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+            "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+            "impact": "第一優先核對作者明確後出初遇決議／最新11月8日候選來源的權威界線。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+            "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+            "impact": "核對此檔與前一／相鄰替代稿的互斥版本、時間停點與主角既有關係。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+            "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c",
+            "impact": "核對後續不同開篇方案的情報與章際依賴，避免混同已發生事件。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          }
+        ],
+        "second_pass_method": "第一遍逐段讀候選實際事件與角色知情，第二遍按作者權威、版本互斥、重大遺漏、跨章依賴四類反證；原文逐行校SHA與引用。",
+        "unresolved_risks": [
+          "本檔文內的地方人名、空間技術數值、私人關係演出均不因AI驗收轉為作者正式設定。",
+          "早期P0與109/110是不同事件方案，人物歷史及交通許可不能跨稿拼合。"
+        ]
+      }
+    },
+    {
+      "source_path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+      "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+      "source_role_id": "FULL-B41-06",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-5926",
+        "SRC-ALL-5927",
+        "SRC-ALL-5928",
+        "SRC-ALL-5929",
+        "SRC-ALL-5930",
+        "SRC-ALL-5931",
+        "SRC-ALL-5932",
+        "SRC-ALL-5933",
+        "SRC-ALL-5934",
+        "SRC-ALL-5935",
+        "SRC-ALL-5936",
+        "SRC-ALL-5937",
+        "SRC-ALL-5938"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "依GitHub來源原文及既有後出作者初遇決議，逐檔全行與候選間關係查核；各候選具體場景不升格Canon，AI編輯性驗收不等於獨立盲審。",
+      "source_line_count": 645,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 12,
+          "anchor_line": 3,
+          "quote": "> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫面、選擇與後果的整合測試。所有本篇新出現的地名、私人稱呼、遠征隊名稱、歸來者名字與過去均是**助手本輪新增可撤回候選**。",
+          "meaning": "110 B與109 A互斥，不是前後章；唐榆、游洵名字、深青藍視覺皆候選，禁Celeste現身及提早熟人關係"
+        },
+        {
+          "from": 13,
+          "to": 72,
+          "anchor_line": 17,
+          "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。",
+          "meaning": "方形巨井有層級道路、倒懸舊梯與照常運作貨運；諾亞想往上但還沒登記，旅人窗口有明確截止"
+        },
+        {
+          "from": 73,
+          "to": 124,
+          "anchor_line": 101,
+          "quote": "她的深青藍長髮垂過肩膀，頭頂有一縷柔軟的翹髮往側邊彎起；明明五官帶著些安靜漂亮的冷色調，說話卻直接得毫不繞彎。她一手扶著一組半透明的測線板，另一手指著諾亞指尖前的紙角。",
+          "meaning": "艾莉維亞原已在告示牆記測線，告知陌生人不要壓她的定位標，主角因小摩擦第一次交談"
+        },
+        {
+          "from": 125,
+          "to": 172,
+          "anchor_line": 169,
+          "quote": "「我說錯了？」",
+          "meaning": "諾亞發現公圖路標箭頭與臺階朝向相反，艾莉不武斷否認，轉動測線板開始重新核實"
+        },
+        {
+          "from": 173,
+          "to": 236,
+          "anchor_line": 181,
+          "quote": "一架狹窄的升降籠沿南壁滑下，速度不快。鐵籠裡擠著幾袋包裹、一輛折好的小車，還有一個背包幾乎比自己寬的旅人。",
+          "meaning": "多年未返的唐榆乘升降籠歸來，先辦貨物交接與吃餅，不只是帶來驚人真相的工具人"
+        },
+        {
+          "from": 237,
+          "to": 292,
+          "anchor_line": 269,
+          "quote": "「對啊。聽說這次準備很久，連你的舊圖都弄到了。你們以前不是走過？」",
+          "meaning": "唐榆聞游洵明日依她舊圖帶隊才變色，舊圖已被路線宣傳重印，關係緊張未必是犯罪"
+        },
+        {
+          "from": 293,
+          "to": 348,
+          "anchor_line": 335,
+          "quote": "窗口前有個青年正拿著自己全部旅費的一部分做押金登記，兩個同伴在旁邊替他提著行李。工作人員確認了日期，將證明壓上印章。",
+          "meaning": "唐榆稱她原來的圖只含出發路、不是來回都走同段；當前報名者真的付旅費，有現實後果"
+        },
+        {
+          "from": 349,
+          "to": 404,
+          "anchor_line": 363,
+          "quote": "「妳沒拿十幾年前的記憶假裝現在全知道。」少女說，「那我可以告訴妳我今天量到什麼。」",
+          "meaning": "艾莉先以當天實測與唐榆舊經驗交叉核對，確定部分返程連接變更而未聲稱掌握完整圖"
+        },
+        {
+          "from": 405,
+          "to": 460,
+          "anchor_line": 419,
+          "quote": "「現在能確定這個箭頭不能照原樣標。我可以出一張附實測時間的更正圖。」",
+          "meaning": "艾莉自選公開附時間的局部更正圖，諾亞幫分析與隊伍溝通的門檻；她也承認對陌生人有少量關切"
+        },
+        {
+          "from": 461,
+          "to": 514,
+          "anchor_line": 505,
+          "quote": "但現在手裡這一張真正能改變別人選擇的圖，比原先的漂亮宣傳頁有趣多了。",
+          "meaning": "公務窗口依法附錄而不能代隊伍取消；諾亞暫不交名冊，可能損失明日正式上行資格"
+        },
+        {
+          "from": 515,
+          "to": 568,
+          "anchor_line": 547,
+          "quote": "「那最好先別把別人的路當故事。」",
+          "meaning": "唐榆提醒諾亞別把他人路當故事，隨即帶舊記錄找游洵；游洵的表情不代表已證背叛"
+        },
+        {
+          "from": 569,
+          "to": 634,
+          "anchor_line": 619,
+          "quote": "「那就等有空再去。」她轉身往自己原先的測點走，聲音十分隨意，「我先忙我的。」",
+          "meaning": "艾莉持續研究回程連接、諾亞仍想上行卻不被綁成團隊；地方各人物仍自行行動"
+        },
+        {
+          "from": 635,
+          "to": 645,
+          "anchor_line": 644,
+          "quote": "- **此案也有真風險**：唐榆與游洵很容易比兩主角更搶眼；場景若再拉長一倍工程、地圖和許可對話，節奏又會變沉。**B案不因事件鉤子較強就自動成為正式首章**。",
+          "meaning": "作者後記標明B案事件鉤子較強但唐榆游洵可能搶主角鏡頭，非正史、未保證採用"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+        "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+          "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102"
+        },
+        {
+          "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+          "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c"
+        },
+        {
+          "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+          "git_blob_sha": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "全文分段、作者初遇決議、候選版本互斥、原始SHA行號與二遍漏查；沒有重新驗證聊天平台原始位元。",
+        "revocation": "任一原文SHA、直接依賴SHA或後出作者定案改變時撤回驗收再核。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫面、選擇與後果的整合測試。所有本篇新出現的地名、私人稱呼、遠征隊名稱、歸來者名字與過去均是**助手本輪新增可撤回候選**。",
+            "topic": "110 B與109 A互斥，不是前後章；唐榆、游洵名字、深青藍視覺皆候選，禁Celeste現身及提早熟人關係",
+            "finding": "110 B與109 A互斥，不是前後章；唐榆、游洵名字、深青藍視覺皆候選，禁Celeste現身及提早熟人關係",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5926"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 17,
+            "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。",
+            "topic": "方形巨井有層級道路、倒懸舊梯與照常運作貨運；諾亞想往上但還沒登記，旅人窗口有明確截止",
+            "finding": "方形巨井有層級道路、倒懸舊梯與照常運作貨運；諾亞想往上但還沒登記，旅人窗口有明確截止",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5927"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 101,
+            "quote": "她的深青藍長髮垂過肩膀，頭頂有一縷柔軟的翹髮往側邊彎起；明明五官帶著些安靜漂亮的冷色調，說話卻直接得毫不繞彎。她一手扶著一組半透明的測線板，另一手指著諾亞指尖前的紙角。",
+            "topic": "艾莉維亞原已在告示牆記測線，告知陌生人不要壓她的定位標，主角因小摩擦第一次交談",
+            "finding": "艾莉維亞原已在告示牆記測線，告知陌生人不要壓她的定位標，主角因小摩擦第一次交談",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5928"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 169,
+            "quote": "「我說錯了？」",
+            "topic": "諾亞發現公圖路標箭頭與臺階朝向相反，艾莉不武斷否認，轉動測線板開始重新核實",
+            "finding": "諾亞發現公圖路標箭頭與臺階朝向相反，艾莉不武斷否認，轉動測線板開始重新核實",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5929"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 181,
+            "quote": "一架狹窄的升降籠沿南壁滑下，速度不快。鐵籠裡擠著幾袋包裹、一輛折好的小車，還有一個背包幾乎比自己寬的旅人。",
+            "topic": "多年未返的唐榆乘升降籠歸來，先辦貨物交接與吃餅，不只是帶來驚人真相的工具人",
+            "finding": "多年未返的唐榆乘升降籠歸來，先辦貨物交接與吃餅，不只是帶來驚人真相的工具人",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5930"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 269,
+            "quote": "「對啊。聽說這次準備很久，連你的舊圖都弄到了。你們以前不是走過？」",
+            "topic": "唐榆聞游洵明日依她舊圖帶隊才變色，舊圖已被路線宣傳重印，關係緊張未必是犯罪",
+            "finding": "唐榆聞游洵明日依她舊圖帶隊才變色，舊圖已被路線宣傳重印，關係緊張未必是犯罪",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5931"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 335,
+            "quote": "窗口前有個青年正拿著自己全部旅費的一部分做押金登記，兩個同伴在旁邊替他提著行李。工作人員確認了日期，將證明壓上印章。",
+            "topic": "唐榆稱她原來的圖只含出發路、不是來回都走同段；當前報名者真的付旅費，有現實後果",
+            "finding": "唐榆稱她原來的圖只含出發路、不是來回都走同段；當前報名者真的付旅費，有現實後果",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5932"
+            ]
+          },
+          {
+            "section_index": 8,
+            "line": 363,
+            "quote": "「妳沒拿十幾年前的記憶假裝現在全知道。」少女說，「那我可以告訴妳我今天量到什麼。」",
+            "topic": "艾莉先以當天實測與唐榆舊經驗交叉核對，確定部分返程連接變更而未聲稱掌握完整圖",
+            "finding": "艾莉先以當天實測與唐榆舊經驗交叉核對，確定部分返程連接變更而未聲稱掌握完整圖",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5933"
+            ]
+          },
+          {
+            "section_index": 9,
+            "line": 419,
+            "quote": "「現在能確定這個箭頭不能照原樣標。我可以出一張附實測時間的更正圖。」",
+            "topic": "艾莉自選公開附時間的局部更正圖，諾亞幫分析與隊伍溝通的門檻；她也承認對陌生人有少量關切",
+            "finding": "艾莉自選公開附時間的局部更正圖，諾亞幫分析與隊伍溝通的門檻；她也承認對陌生人有少量關切",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5934"
+            ]
+          },
+          {
+            "section_index": 10,
+            "line": 505,
+            "quote": "但現在手裡這一張真正能改變別人選擇的圖，比原先的漂亮宣傳頁有趣多了。",
+            "topic": "公務窗口依法附錄而不能代隊伍取消；諾亞暫不交名冊，可能損失明日正式上行資格",
+            "finding": "公務窗口依法附錄而不能代隊伍取消；諾亞暫不交名冊，可能損失明日正式上行資格",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5935"
+            ]
+          },
+          {
+            "section_index": 11,
+            "line": 547,
+            "quote": "「那最好先別把別人的路當故事。」",
+            "topic": "唐榆提醒諾亞別把他人路當故事，隨即帶舊記錄找游洵；游洵的表情不代表已證背叛",
+            "finding": "唐榆提醒諾亞別把他人路當故事，隨即帶舊記錄找游洵；游洵的表情不代表已證背叛",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5936"
+            ]
+          },
+          {
+            "section_index": 12,
+            "line": 619,
+            "quote": "「那就等有空再去。」她轉身往自己原先的測點走，聲音十分隨意，「我先忙我的。」",
+            "topic": "艾莉持續研究回程連接、諾亞仍想上行卻不被綁成團隊；地方各人物仍自行行動",
+            "finding": "艾莉持續研究回程連接、諾亞仍想上行卻不被綁成團隊；地方各人物仍自行行動",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5937"
+            ]
+          },
+          {
+            "section_index": 13,
+            "line": 644,
+            "quote": "- **此案也有真風險**：唐榆與游洵很容易比兩主角更搶眼；場景若再拉長一倍工程、地圖和許可對話，節奏又會變沉。**B案不因事件鉤子較強就自動成為正式首章**。",
+            "topic": "作者後記標明B案事件鉤子較強但唐榆游洵可能搶主角鏡頭，非正史、未保證採用",
+            "finding": "作者後記標明B案事件鉤子較強但唐榆游洵可能搶主角鏡頭，非正史、未保證採用",
+            "authority": "ASSISTANT_CANDIDATE",
+            "claim_ids": [
+              "SRC-ALL-5938"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **性質：新的連續小說場景試演，不是正式第一章**。與第109份A案是**互斥的不同首篇方案**，不是「A後面接B」的兩章。以第078《從上面下來的人》九問候選與第067真正初次相遇為來源，再做人物動作、畫面、選擇與後果的整合測試。所有本篇新出現的地名、私人稱呼、遠征隊名稱、歸來者名字與過去均是**助手本輪新增可撤回候選**。",
+            "question": "此檔屬作者已採用的正式章，還是作者明確初遇原則下的候選／導航？",
+            "finding": "本檔只是ChatGPT試寫：第67確認『第一章首次相遇』但並未確認任何具體開篇稿成為Canon。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 17,
+            "quote": "四面巨壁並不是平整的牆。道路沿不同高度嵌進其中，有些寬到能跑一整列貨車，有些只夠兩個人錯身；老石梯在高處斷開，後來的居民又從斷口接出鋼製平臺，讓下面的市集一路生長到光線變薄的地方。",
+            "question": "舊熟人版與初遇版、91/92連續及109A/110B互斥，是否被錯誤視為同一條故事？",
+            "finding": "109A和110B只是兩個不同開篇選項，不能前後接成章節。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 335,
+            "quote": "窗口前有個青年正拿著自己全部旅費的一部分做押金登記，兩個同伴在旁邊替他提著行李。工作人員確認了日期，將證明壓上印章。",
+            "question": "是否漏掉有效行動、獨立人物／制度、裝備與限知層級？",
+            "finding": "唐榆舊圖不是雙向全圖、艾莉只核當日局部、游洵是否有惡意未確認，諾亞沒交名冊有真代價。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 644,
+            "quote": "- **此案也有真風險**：唐榆與游洵很容易比兩主角更搶眼；場景若再拉長一倍工程、地圖和許可對話，節奏又會變沉。**B案不因事件鉤子較強就自動成為正式首章**。",
+            "question": "若後續沿不同章線繼續寫，何種原始來源或角色認知會被覆寫？",
+            "finding": "B公開更正圖、名冊資格、唐榆游洵舊識為本方案事件，不得倒灌到A或91/92。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+            "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+            "impact": "第一優先核對作者明確後出初遇決議／最新11月8日候選來源的權威界線。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "03_人物關係與語感/067_最新確認_第一章諾亞與艾莉維亞首次相遇_舊試寫時序修正.md",
+            "git_blob_sha": "1ceb88eb3d0676857ca37ce84bfde0787d71333c",
+            "impact": "核對此檔與前一／相鄰替代稿的互斥版本、時間停點與主角既有關係。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          },
+          {
+            "path": "06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+            "git_blob_sha": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5",
+            "impact": "核對後續不同開篇方案的情報與章際依賴，避免混同已發生事件。",
+            "review_status": "SOURCE_SHA_CHECKED__NO_AUTHOR_CANON_PROMOTION"
+          }
+        ],
+        "second_pass_method": "第一遍逐段讀候選實際事件與角色知情，第二遍按作者權威、版本互斥、重大遺漏、跨章依賴四類反證；原文逐行校SHA與引用。",
+        "unresolved_risks": [
+          "本檔文內的地方人名、空間技術數值、私人關係演出均不因AI驗收轉為作者正式設定。",
+          "早期P0與109/110是不同事件方案，人物歷史及交通許可不能跨稿拼合。"
+        ]
+      }
+    }
+  ],
+  "staged_graph_records": [
+    {
+      "audit_id": "SRC-ALL-5877",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/1/1｜此檔只是最新補丁順讀的導航，說明11/08已對03、05、06、08、09、10、12章的時間、物權、動機及道具作局部修正；不是小說正文",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+        "git_blob_sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5877-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5877-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5878",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/1/2｜現行候選順讀從G2、G3R、G5R、G6、G7R1、G8E、G9E/G10R4、09結案、10-12後修；舊G9/G9A/B、G10R3和待核D保持歷史而非當前順讀",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+        "git_blob_sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
+        "line": 7
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5878-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5878-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5879",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/1｜第66熟人版原先假設第一章諾亞與艾莉維亞已熟識並互稱維亞、牽手，與10/19作者後出『第一次』初見時序衝突，保留作後期場景素材",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5879-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5879-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5880",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/2｜折索集市的巨型舊路正被工人吊拆而居民照常買餅；諾亞想在完全消失前知道高處去向，已熟識艾莉維亞陪同討論",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 14
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5880-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5880-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5881",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/3｜修鞋的席蘿在社區有普通生活關係，記得舊路；艾莉維亞見明顯斷口後仍有隱性承力參照，注意到局部異常",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 110
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5881-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5881-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5882",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/4｜席蘿指舊站最後支架在第三日夜前拆卸；攀行鞋補釘、乾糧使艾莉與諾亞推測她自己也準備上去，但不是全知者",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 144
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5882-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5882-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5883",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/5｜諾亞向席蘿詢問可走入口，席蘿不願擔任嚮導而指向拆除隊，對話中有其自主判斷",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 174
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5883-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5883-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5884",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/6｜閻白依現場安全及審批職責拒絕進入工地，正常審批五日超過拆除剩三日；他並非壞人或純阻礙工具",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 254
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5884-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5884-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5885",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/7｜下層居民夜市、鹹魚物流與吊梁仍正常運作；艾莉維亞對斷而承力的連接有研究興趣，諾亞更關心仍未見的上方視野",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 306
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5885-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5885-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5886",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/8｜兩位主角原本私下交談後注意巨大吊梁拆離，決定另找席蘿；此段已熟識語氣不合正式初遇時序",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 352
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5886-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5886-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5887",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/9｜席蘿帶已備索具出發但聲明不等人、不保證舊路今日仍安全；三人依私人目標短暫同路",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 416
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5887-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5887-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5888",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/10｜舊側站有近期清灰、油燈與真實維護痕跡，席蘿舊鑰開門，外面是斷開的巨大垂直空腔及最後工作平台",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 446
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5888-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5888-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5889",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/11｜艾莉維亞令下墜標記片沿非常規弧線返回遠端鋼面，是候選能力有效展示，諾亞和席蘿都看見而不等同正式能力上限",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 482
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5889-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5889-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5890",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/2/12｜作者後記特別限制首次死亡和復歸未發生、席蘿舊事故只是候選、閻白合法安全拒絕仍有後果；66可再用但不作首章",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+        "git_blob_sha": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+        "line": 519
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5890-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5890-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5891",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/1｜第91是依第67『第一章首次相遇』重新試寫的非正史P0，不是66熟人版的正式覆寫；席蘿閻白與地圖仍可撤回",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5891-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5891-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5892",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/2｜施工隊六索緩吊高架而非直接砸街，當地貨運與早餐仍運行；諾亞昨晚才抵達並詢問上方舊上行站",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 13
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5892-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5892-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5893",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/3｜工務負責人閻白指吊梁下還有人，拒絕諾亞闖工地是正當安全責任，諾亞沒有為看景妨礙員工",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 105
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5893-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5893-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5894",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/4｜艾莉維亞先於諾亞獨立測量連接次序及固定件拆除許可，閻白回答需查設計；兩主角還不認識",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 141
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5894-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5894-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5895",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/5｜兩主角首次直接交談，諾亞為遠方風景、艾莉維亞為不合理接續，各自想去卻尚不了解對方",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 201
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5895-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5895-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5896",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/6｜艾莉維亞使墊圈半途改向落回測量圖，工人接受技能但諾亞仍不理解其原理；兩人開始互報姓名",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 247
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5896-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5896-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5897",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/7｜席蘿在場修攀行鞋，認為閻白工地管制正當；她自己則準備走避開工地的另一條舊路",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 313
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5897-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5897-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5898",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/8｜席蘿不強迫兩名陌生人跟隨，三人在市場買賣與小路上鬥嘴；此時只有局部互識，尚無默契",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 347
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5898-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5898-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5899",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/9｜舊側站旁有人澆植物及清掃，說明非廢棄世界空洞；席蘿知道道路但不假稱全知",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 433
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5899-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5899-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5900",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/10｜艾莉維亞觀察門內距離與外部位置不相稱、席蘿決定開鎖；地理異常是候選可觀測資訊",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 473
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5900-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5900-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5901",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/11｜諾亞和艾莉走上樓梯仍有不同目的，市場工務時鐘照常推進，三人未瞬間形成固定團隊",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 517
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5901-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5901-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5902",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/3/12｜作者後記標明第一章初識但不等於必採，能力演出與席蘿私人背景皆未定案，初死與Celeste未發生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+        "git_blob_sha": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+        "line": 529
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5902-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5902-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5903",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/1｜第92只接第91初遇方案的第二章，不可接66熟人版、109 A或110 B；仍非正史",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5903-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5903-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5904",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/2｜側站樓梯行走距離異常，諾亞與艾莉在逐步了解彼此時仍會互相追問，而非對所有機制早有共識",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 11
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5904-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5904-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5905",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/3｜舊編號牌與影子方向和燈不符；艾莉的局部操作不是整個空間系統已被兩人解釋",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 85
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5905-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5905-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5906",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/4｜第二側台有高處居住地、仍運作貨運線與海風氣味；諾亞看到橋後仍有城市而非單一謎題空間",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 137
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5906-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5906-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5907",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/5｜諾亞想看遠景、艾莉維亞想研究接續，席蘿對風景不再駐足；三人的旅程動機獨立",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 175
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5907-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5907-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5908",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/6｜舊站停運卻有人照顧：熱水壺、整潔票窗、近期登記；席蘿走向私人物證匣且遲疑",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 237
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5908-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5908-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5909",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/7｜席蘿發現匣中薄紙被動過，艾莉在普通施工登記簿找到『存檔匣清點移交拆卸方暫存』，不應預設有人惡意偷竊",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 261
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5909-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5909-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5910",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/8｜席蘿暫留舊站思考、想回去問閻白，艾莉尊重她不願揭露細節；其生平選擇不由兩主角代做",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 331
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5910-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5910-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5911",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/9｜外側站台顯示歷代人改接舊路與高方山脊，諾亞由眼前可見景觀形成未來遠行願望",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 375
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5911-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5911-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5912",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/10｜兩人第一次交換終端聯絡資料，尚無『維亞』私稱或伴侶關係；艾莉還有自己的次段研究",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 437
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5912-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5912-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5913",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/11｜兩人暫探另一條側廊而席蘿準備下去找閻白核原始資料，離鏡人物仍能行動",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 511
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5913-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5913-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5914",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/4/12｜作者後記承認第二章尚未結案、席蘿事故與改圖只是第65方案候選，未取得作者正式採案",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+        "git_blob_sha": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+        "line": 522
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5914-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5914-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5915",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/1｜109 A是獨立候選開篇，既非91覆寫也非110前章；首次相遇與深青藍髮為測試表演，正式正文仍0章",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5915-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5915-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5916",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/2｜橋梁大吊拆揭露斷梯、補梯與上方仍運送貨物的小車；送貨員與早餐店老板的勞作是城市日常",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 27
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5916-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5916-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5917",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/3｜閻白因工人安全封閉施工區，仍提示正規觀景升降軌；同城道路與勞工責任不因諾亞想冒險而消失",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 111
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5917-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5917-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5918",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/4｜諾亞發現可由居民日常側道另行上去，不用偷闖施工地或以武力取得許可",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 145
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5918-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5918-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5919",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/5｜艾莉維亞獨立攜帶半透明測量板、深青藍髮暫用視覺；她詢問拆橋前的連接次序而非隨男主移動",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 165
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5919-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5919-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5920",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/6｜兩人因諾亞想看不同風景、艾莉懷疑斷口仍有關聯初次交談；彼此目的接近但不相同",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 241
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5920-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5920-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5921",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/7｜公用側道有『居民通行，施工區不得跨入』的清楚界線，諾亞選合法替代路",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 283
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5921-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5921-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5922",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/8｜兩人僅同路並無約定組隊，沿多年代補接石階與貨坡到達艾莉研究的原始接縫",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 335
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5922-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5922-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5923",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/9｜吊橋移開露出另一片弧殼居住城市；諾亞真看到了新的地理視野，艾莉也測得未預期的繞接方向",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 377
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5923-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5923-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5924",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/10｜艾莉往另一個測點繼續研究而諾亞留下觀景，兩人首次短遇並未立刻互託人生",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 449
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5924-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5924-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5925",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/5/11｜作者後記指出A案衝突較弱、重景觀與小發現，不因章幅或視覺完整就比B案更具正史優先",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+        "git_blob_sha": "b35bf25f5a6319f2281142072efff68b76ca2102",
+        "line": 477
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5925-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5925-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5926",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/1｜110 B與109 A互斥，不是前後章；唐榆、游洵名字、深青藍視覺皆候選，禁Celeste現身及提早熟人關係",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5926-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5926-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5927",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/2｜方形巨井有層級道路、倒懸舊梯與照常運作貨運；諾亞想往上但還沒登記，旅人窗口有明確截止",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 17
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5927-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5927-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5928",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/3｜艾莉維亞原已在告示牆記測線，告知陌生人不要壓她的定位標，主角因小摩擦第一次交談",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 101
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5928-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5928-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5929",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/4｜諾亞發現公圖路標箭頭與臺階朝向相反，艾莉不武斷否認，轉動測線板開始重新核實",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 169
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5929-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5929-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5930",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/5｜多年未返的唐榆乘升降籠歸來，先辦貨物交接與吃餅，不只是帶來驚人真相的工具人",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 181
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5930-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5930-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5931",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/6｜唐榆聞游洵明日依她舊圖帶隊才變色，舊圖已被路線宣傳重印，關係緊張未必是犯罪",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 269
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5931-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5931-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5932",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/7｜唐榆稱她原來的圖只含出發路、不是來回都走同段；當前報名者真的付旅費，有現實後果",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 335
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5932-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5932-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5933",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/8｜艾莉先以當天實測與唐榆舊經驗交叉核對，確定部分返程連接變更而未聲稱掌握完整圖",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 363
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5933-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5933-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5934",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/9｜艾莉自選公開附時間的局部更正圖，諾亞幫分析與隊伍溝通的門檻；她也承認對陌生人有少量關切",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 419
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5934-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5934-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5935",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/10｜公務窗口依法附錄而不能代隊伍取消；諾亞暫不交名冊，可能損失明日正式上行資格",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 505
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5935-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5935-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5936",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/11｜唐榆提醒諾亞別把他人路當故事，隨即帶舊記錄找游洵；游洵的表情不代表已證背叛",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 547
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5936-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5936-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5937",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/12｜艾莉持續研究回程連接、諾亞仍想上行卻不被綁成團隊；地方各人物仍自行行動",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 619
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5937-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5937-2",
+          "target_type": "entity",
+          "target_id": "w01",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    },
+    {
+      "audit_id": "SRC-ALL-5938",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B41/6/13｜作者後記標明B案事件鉤子較強但唐榆游洵可能搶主角鏡頭，非正史、未保證採用",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+        "git_blob_sha": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+        "line": 644
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-5938-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-5938-2",
+          "target_type": "entity",
+          "target_id": "noah",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "既有劇情／人物／世界圖譜的索引關聯，不授予角色事實或作者正史地位。"
+    }
+  ]
+}

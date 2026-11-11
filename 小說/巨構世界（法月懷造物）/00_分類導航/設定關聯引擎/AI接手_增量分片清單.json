@@ -211,6 +211,17 @@
       "claim_count": 155,
       "graph_relations": 310,
       "note": "第7-12章12份共3889行（含來源尾空行）、155語義命題310圖連結、48反問36跨來源SHA；動態351來源其中新增第13章R1作者因果卡待審。"
+    },
+    {
+      "path": "20261111_第四十一批6份_初遇開篇對照與熟人版分線_全文語義v2.json",
+      "git_blob_sha": "6025de8b03d4808b92845131a8e36b09e9278dc3",
+      "batch": "BATCH41",
+      "source_count": 6,
+      "original_lines": 2723,
+      "semantic_sections": 62,
+      "claim_count": 62,
+      "graph_relations": 124,
+      "note": "導航、66熟人舊開篇、91/92初遇連續、109A/110B互斥候選；6份2723行62命題124非Canon關聯24四類反問18依賴SHA；全部非Canon。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
