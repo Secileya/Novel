@@ -7,8 +7,8 @@
 在 `小說/巨構世界（法月懷造物）` 根目錄執行：
 
 ```bash
-node ../../../tools/novel_patch/apply.mjs /path/to/ch15_patch.json --check
-node ../../../tools/novel_patch/apply.mjs /path/to/ch15_patch.json --apply
+node ../../tools/novel_patch/apply.mjs /path/to/ch15_patch.json --check
+node ../../tools/novel_patch/apply.mjs /path/to/ch15_patch.json --apply
 ```
 
 或在儲存庫根目錄執行：
