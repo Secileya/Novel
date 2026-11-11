@@ -24,7 +24,7 @@
     "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第47批12份／2729行／103段已於main修正後通過CI；315/360成功驗收、剩45；第48批12份預排尚未驗收。未證實任何K跨界營運，舊九區不凌駕十二區；正式0章PREWRITE HOLD。",
+    "important": "第47批315/360已CI成功；第48批十二份共4742行已取得原檔並做68處SHA行錨預審，但零份整檔語義驗收，不重算，剩45。正式0章PREWRITE HOLD。",
     "targeted_audit_records": 6643,
     "targeted_audit_verified_quotes": 6834,
     "full_file_editorial_accepted": 149,
@@ -91,8 +91,8 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第47批12份/2729行/103條SHA命題/206非Canon關聯，main後修CI正式成功；315/360驗收，剩45；第48批預排12份仍待實作。原稿與正式Canon均未改。",
-        "stage": "BATCH47_12_MAIN_CI_VERIFIED",
+        "note": "第47批已由1e88e86/5c466ea雙層CI核定315/360；第48批預排十二份均已取回原始SHA與68處行錨、共4742行，但未完成全文語義/後修仲裁/圖譜雙向關聯，尚未新增任何整檔驗收，仍315/360待45。",
+        "stage": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
         "last_verified_commit": "1e88e86af56fd949f5ad63943c73b73f1b80957b",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42968929867",
         "cross_source_next_batch": [],
@@ -747,6 +747,21 @@
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42968929867",
           "drive_index_url": "https://github.com/Secileya/Novel/actions/runs/42968929857",
           "unmodified_originals": true
+        },
+        "batch_48": {
+          "stage": "SHA_AND_SECTION_PRECHECK_ONLY__NOT_FULL_FILE_ACCEPTED",
+          "source_count": 12,
+          "source_lines_retrieved": 4742,
+          "preliminary_line_anchors": 68,
+          "source_blob_sha_verified": 12,
+          "precheck_blob_sha": "ba4552b8ce728c59c68429106bc6342f49bb3dcb",
+          "precheck_path": "00_分類導航/設定關聯引擎/20261111_第四十八批12份_來源SHA及候選權威預審_未驗收.json",
+          "full_file_editorial_attested": 0,
+          "accepted_count_unchanged": 315,
+          "pending_count_unchanged": 45,
+          "unmodified_originals": true,
+          "requires_full_reading": true,
+          "first_action": "逐份進行完整語義/後修/四類漏檢，依合法原文行號建正式驗收分片並原子更新Manifest/圖連線/工作板，取得本批main CI成功後才加12。"
         }
       }
     },
@@ -1017,17 +1032,16 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch47",
-    "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 2729,
-    "review_sections": 103,
-    "atomic_findings": 103,
-    "original_line_anchors": 103,
-    "nonCanon_graph_links": 206,
+    "task": "NEXT-009 batch48 precheck",
+    "source_files_attested_this_turn": 0,
+    "source_files_sha_checked_this_turn": 12,
+    "source_lines_preflight_retrieved": 4742,
+    "preliminary_anchors": 68,
+    "original_lines_reviewed_for_full_semantic_acceptance": 0,
     "all_source_accepted": 315,
     "all_source_pending": 45,
-    "state": "BATCH47_12_MAIN_CI_VERIFIED",
-    "notes": "第47批實際main CI 42968929867與索引42968929857 success；先前42968633262失敗因圖譜summary≠title，修正提交1e88e86；315/360正式驗收，第48批未計。"
+    "state": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
+    "notes": "第47批經成功CI正式關閉；第48批12份原檔SHA/版本風險初審已保存於非Canon引擎預檢json。無新驗收分片與Canonical修改；不得標記完整12份完成。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1047,13 +1061,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH47_12_MAIN_CI_VERIFIED",
-    "scope": "第47批12份：專案三份總導航與W/K/P地圖九份，共2729行103段103條SHA原文命題與206條非Canon關聯；K01/R04/T候選路線、V0.5.1骨架、W01舊九區皆保留權威隔離，正式0章PREWRITE HOLD。",
-    "commit": "1e88e86af56fd949f5ad63943c73b73f1b80957b",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42968929867",
-    "not_finished": "第47批main修正後CI成功，315/360正式計入；仍有45份未審。第48批預排12份尚未逐檔全文驗收；正式0章PREWRITE HOLD。",
-    "next_step": "依NEXT-009.next_batch 12份原稿，核對全歷史SHA去重與後出版本，完成全文/行錨/非Canon雙向圖/CI後才能計新進度。"
+    "stage": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
+    "scope": "第48批預排12份原檔已取得完整UTF-8內容、SHA核對與68處初步行錨；總4742行。已寫非Canon/已選未發生邊界預審，尚未完成逐檔正式語義驗收。",
+    "commit": "PRECHECK_BLOB_ba4552b8ce728c59c68429106bc6342f49bb3dcb",
+    "ci_result": "pending",
+    "ci_run_url": null,
+    "not_finished": "第48批仍有12份等待逐段正式仲裁，現階段驗收新增0份；全庫仍315/360、剩45。正式0章PREWRITE HOLD。",
+    "next_step": "從第48批12份初審檔讀每份原始SHA和版本風險；優先01勘誤、051/114採案邊界、195_A 1632行對話原始權威；完成v2每段實質命題和四類逆向查漏、跨來源SHA/非Canon圖連結；經CI成功才計入。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
