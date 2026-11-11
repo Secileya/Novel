@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第51批12份2833行72命題143引文已提交候選，當批CI待核；暫列363／366，仍有3份未審、正式0章。",
+  "warning": "第52批已登記候選366／366但當批CI待確認；Gemini歷史自述不作原生平台證據。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 7129,
-    "audited_original_quote_anchors": 7320,
+    "audited_batched_claims": 7162,
+    "audited_original_quote_anchors": 7353,
     "original_archive_09_files": 18,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第51批SHA分片已入帳但當批CI待核；暫列363／366、剩3，前50批351／366主CI已成功；正式0章PREWRITE HOLD。",
+    "limitations": "第52批3份來源已登記、尚未經當批主CI核定；暫列366／366，零待審。原稿與候選皆非正式Canon，後續Git新增/版本更動需自動重驗。",
     "full_file_editorial_accepted": 171,
     "full_file_editorial_pending": 0,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 3,
+    "all_source_full_file_editorial_accepted_pending_ci": 3,
+    "all_source_full_file_editorial_pending": 0,
     "historical_164_accepted": 153,
-    "all_source_full_file_editorial_accepted": 363
+    "all_source_full_file_editorial_accepted": 366
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第51批SHA分片待主CI核實，預登錄363／366，剩3；不把AI候選文本當作者Canon。"
+  "notice_2026_11_11": "第51批CI42986481381已通過；第52批3份474行暫登記366／366，主CI與Drive同步仍待檢核。"
 }

@@ -332,9 +332,20 @@
       "claim_count": 72,
       "graph_relations": 144,
       "note": "第51批12份，2833原文行72語義段72條SHA命題143逐行引文144非Canon關聯；修復72條graph summary完全等於audit title；原文未改、CI待核。"
+    },
+    {
+      "path": "20261111_第五十二批3份_十四章C_D回執與十三章R1b_全文語義v2.json",
+      "git_blob_sha": "e415f556319cd2149694b37343b5b8650553f1fa",
+      "batch": "BATCH52",
+      "source_count": 3,
+      "original_lines": 474,
+      "semantic_sections": 13,
+      "claim_count": 33,
+      "graph_relations": 66,
+      "note": "第52批最後三份共474原文行、13段33個實質原文SHA命題、33行錨與66條非Canon圖邊；C/D和13章R1b，原始檔唯讀。修正零待審時防重門禁；待主CI。"
     }
   ],
-  "notice": "第51批12份已生成SHA分片並提交主CI待核；預登錄363／366、剩3；第50批351／366此前已經主CI成功，正式0章PREWRITE HOLD。",
+  "notice": "第51批主CI42986481381和Drive索引42986481469已success；第52批3份已提交候選，暫登記366／366，待當批主CI；新來源和來源SHA變動仍動態納管。正式0章PREWRITE HOLD。",
   "revalidations": [
     {
       "path": "20261110_來源後修重驗_客觀近即時_16份不重計.json",

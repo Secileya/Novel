@@ -79,7 +79,7 @@ function checkCurrentBoard(){
  const total=board.fact_snapshot?.raw_source_files;
  if(!Number.isInteger(total)||!Number.isInteger(p.verified_complete)||!Number.isInteger(p.pending)||p.verified_complete!==accepted.size||p.verified_complete+p.pending!==total)
   faults.push('WORKBOARD_ACCEPTED_MISMATCH computed='+accepted.size+' board='+p.verified_complete+' total='+total+' pending='+p.pending);
- if(!Array.isArray(p.next_batch)||!p.next_batch.length)faults.push('NEXT_BATCH_EMPTY');
+ if(!Array.isArray(p.next_batch)||(p.pending>0&&!p.next_batch.length))faults.push('NEXT_BATCH_EMPTY_WHILE_PENDING');
  const next=checkSelected(p.next_batch||[]);
  faults.push(...next.problems.map(s=>'NEXT_BATCH: '+s));
  const paths=board.audited_batch_paths||[];
@@ -115,8 +115,9 @@ function negativeTest(){
   faults.push('NEGATIVE_TEST_FAILED historical accepted not blocked');
  if(!shard||checkSelected([shard[0]]).ok)
   faults.push('NEGATIVE_TEST_FAILED incremental shard accepted not blocked');
- const available=task?.progress?.next_batch?.[0];
- if(!available||checkSelected([available,available]).ok)
+ const available=task?.progress?.next_batch?.[0]||[...accepted.keys()][0];
+ const replay=available?checkSelected([available,available]):{ok:true,problems:[]};
+ if(!available||replay.ok||!replay.problems.some(x=>x.startsWith('DUPLICATE_SELECTION ')))
   faults.push('NEGATIVE_TEST_FAILED repeated selection not blocked');
  if(checkSelected(['../outside.md']).ok)faults.push('NEGATIVE_TEST_FAILED traversal not blocked');
  if(checkSelected(['04_能力武器與試煉/this-file-never-existed.md']).ok)

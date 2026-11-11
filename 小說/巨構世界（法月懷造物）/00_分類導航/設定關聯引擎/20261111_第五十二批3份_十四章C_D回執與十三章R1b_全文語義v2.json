@@ -1,0 +1,2398 @@
+{
+  "schema": "mega-batch52-full-file-v2-sharded",
+  "date": "2026-11-11",
+  "source_file_count": 3,
+  "source_line_count": 474,
+  "source_sections": 13,
+  "evidence_count": 33,
+  "source_file_manifest": [
+    {
+      "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+      "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+      "source_line_count": 71,
+      "reviewed_sections": 4
+    },
+    {
+      "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+      "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+      "source_line_count": 24,
+      "reviewed_sections": 2
+    },
+    {
+      "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+      "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+      "source_line_count": 379,
+      "reviewed_sections": 7
+    }
+  ],
+  "authority_boundary": "所有轉貼/重建/歷史權限與原生Git存檔分開；作者裁定/候選/未知分開；正式0章、PREWRITE HOLD。",
+  "records": [
+    {
+      "id": "SRC-ALL-7130",
+      "title": "B52/1-1｜HISTORICAL_CORRECTION",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "HISTORICAL_CORRECTION",
+      "authority": "C是Gemini寫後轉貼重建，不是原生平台資料或獨立GPT全篇簽核。",
+      "authority_axis": "C是Gemini寫後轉貼重建，不是原生平台資料或獨立GPT全篇簽核。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 3,
+          "quote": "> 歸檔來源：使用者在本對話轉貼之 Gemini C 寫後報告；依可見文字重建，不是 Gemini 原生平台位元級快照。歷史自評，不替代 GPT 獨立 QA；全部 CANDIDATE／NON-CANON／PREWRITE HOLD，正式 Canon 0 章。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7131",
+      "title": "B52/1-2｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "第十四章R1候選補足九時二十分至十七時三十分工坊與住宿時序。",
+      "authority_axis": "第十四章R1候選補足九時二十分至十七時三十分工坊與住宿時序。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 9,
+          "quote": "| 1. 工坊時間線銜接（A1 必修） | 09:20 到站後直接去住店、去工坊，鏽梭說「三個鐘頭交活」，結果直接跳到傍晚 17:00 出槽，緊接著又是 17:30 排氣，中間缺了約三四個小時的流逝與 17:00～17:30 的半小時銜接。 | 完整閉合 09:20～17:30 時間軸：09:20～10:30 南棧下車與石鐵栓父女道別，沿盤旋寬階街走訪外環藥鋪至內三環，約十點半後入住【暖磚棧】；10:30～12:30 於客房安頓行囊、洗去煤灰，並在一樓大堂吃過客棧供應的午間白"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7132",
+      "title": "B52/1-3｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "沉銀外脊與應力絲使界楔實際增重約三成，不能保留重量不變說法。",
+      "authority_axis": "沉銀外脊與應力絲使界楔實際增重約三成，不能保留重量不變說法。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 10,
+          "quote": "| 2. 三根沉銀條與界楔物理質量（A2 必修） | 三根料子全鍛進去，卻寫「不僅重量分毫未增」，違反物理質量守恆。 | 移除「重量分毫未增」。老喬先刮除舊襯皮，再將三根滿純度老沉銀全數鍛入（2.5 根外脊＋0.5 根微米應力絲）；「每一枚界楔入手還是比從前明顯沉實了將近三成，帶著高密度冷鍛重金屬特有的壓手感」；老喬與鏽梭將新增質量精準分佈在導力軸線上並逐枚配平，使重心與發力習慣契合，傳導效率提升而無滯澀。 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7133",
+      "title": "B52/1-4｜AUTHOR_CONFIRMED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "AUTHOR_CONFIRMED",
+      "authority": "作者後出指定六枚界楔絕不再出暗裂的自信台詞維持原樣。",
+      "authority_axis": "作者後出指定六枚界楔絕不再出暗裂的自信台詞維持原樣。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 14,
+          "quote": "| 6. 作者最新裁定原句保留（#6 禁誤修） | 艾莉維亞試楔後台詞「現在就算再讓我去釘一回主鐘擺的配重軌，這六枚楔子也絕對不會再出暗裂！」 | 一字不改原樣保留，不加保守退縮詞，無旁人糾正，保留角色興奮與自信。 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7134",
+      "title": "B52/1-5｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "第十二章十五銀券沉銀款是艾莉維亞個人支付而非諾亞付款。",
+      "authority_axis": "第十二章十五銀券沉銀款是艾莉維亞個人支付而非諾亞付款。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 27,
+          "quote": "| 第12章：五環齒背舊市購買沉銀與淬火脂 | －15 張 | 0 枚 | 艾莉維亞個人支付 | 第12章第109、117行：攤主原始開價32張，艾莉維亞還價並實際掏出15張銀鉚券成交。 |"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7135",
+      "title": "B52/1-6｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "截至第十四章候選諾亞有六百一十八、艾莉維亞一百三十五，合計七百五十三銀券。",
+      "authority_axis": "截至第十四章候選諾亞有六百一十八、艾莉維亞一百三十五，合計七百五十三銀券。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 38,
+          "quote": "  - 兩人銀券紙鈔合計：**135＋618＝753張**。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7136",
+      "title": "B52/1-7｜OPEN_UNVERIFIED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "OPEN_UNVERIFIED",
+      "authority": "十枚銅索幣換一張銀鉚券只是車票找零推算，尚未確定正式匯率。",
+      "authority_axis": "十枚銅索幣換一張銀鉚券只是車票找零推算，尚未確定正式匯率。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 43,
+          "quote": "  - 候選匯率：「1張銀鉚券＝10枚銅索幣」仍僅為第13章購票找零推算之候選匯率（CH13_NEW_CANDIDATE），不得升格為正式世界貨幣硬規則。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7137",
+      "title": "B52/1-8｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "四根沉銀一根贈人三根冷鍛；兩罐淬火脂第一罐送小禾，第二罐剩半罐。",
+      "authority_axis": "四根沉銀一根贈人三根冷鍛；兩罐淬火脂第一罐送小禾，第二罐剩半罐。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 49,
+          "quote": "- **極寒淬火脂：**第12章獲贈2罐 → 第13章 R1a 拆封1罐挑出黃豆大小一點應急後，將該罐（幾乎滿罐）贈予石鐵栓之女小禾 → 本章拆封第2罐，寒鍛與封脊耗用半罐 → 現存半罐（收於霜脈寒鐵匣）。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7138",
+      "title": "B52/1-9｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "千筒懸林與黑脊抱柱鎮等是第十四章區域候選，尚非作者永久地圖。",
+      "authority_axis": "千筒懸林與黑脊抱柱鎮等是第十四章區域候選，尚非作者永久地圖。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 57,
+          "quote": "  - 地點與交通：無縫接續第13章 R1a 結尾「百米斷崖咽喉坡」三十五度齒軌爬升，登頂後左見千筒懸林（F04 無人密集鋼鐵森林），右見斜跨巨橋與黑脊抱柱鎮（F09 立體抱管城鎮）；09:20 停靠南棧，傍晚17:30 定時排氣後返回暖磚棧，全程W01第09區內部，遵守 MG-C022／MG-C023。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7139",
+      "title": "B52/1-10｜HISTORICAL_CORRECTION",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "HISTORICAL_CORRECTION",
+      "authority": "GPT後出鏡頭用語補丁與R1a B另存，不能倒稱為Gemini原有六項修訂。",
+      "authority_axis": "GPT後出鏡頭用語補丁與R1a B另存，不能倒稱為Gemini原有六項修訂。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 70,
+          "quote": "> **更新回執（由 GPT 追加，非 Gemini C 原文）：**目前已另存 R1a B 新候選；另有一處「同一個鏡頭裡」改為旅人眼前的自然敘事；此修改未收進上方 Gemini 原生六項表格中。B 的目前 Git blob 以新檔實際讀回為準，不得以 R0 SHA 或過時 R1 待存路徑冒充。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7140",
+      "title": "B52/2-1｜HISTORICAL_CORRECTION",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "HISTORICAL_CORRECTION",
+      "authority": "D段只保留Gemini歷史環境權限聲明，不是當前ChatGPT連接器說明。",
+      "authority_axis": "D段只保留Gemini歷史環境權限聲明，不是當前ChatGPT連接器說明。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+          "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+          "line": 3,
+          "quote": "> **來源及時點**：以下為使用者於本輪對話轉貼之 Gemini 第十四章 R1a 回覆的 D 段，保留當時 Gemini 對**自身環境**的能力說明。這不是對目前 ChatGPT／GitHub 連接器能力的描述，亦不是最新歸檔狀態。非正史工作歷史，不替代實際 GitHub 驗證。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7141",
+      "title": "B52/2-2｜PROCEDURAL_NON_CANON",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "PROCEDURAL_NON_CANON",
+      "authority": "昔日Gemini未能寫GitHub或本機執行Node，不能宣稱其自行提交了檔案。",
+      "authority_axis": "昔日Gemini未能寫GitHub或本機執行Node，不能宣稱其自行提交了檔案。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+          "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+          "line": 7,
+          "quote": "- 我當前的對話環境僅具備 Google Drive 讀取工具（以及在明確要求新建雲端檔案時的基礎建立工具），不具備直接存取或寫入 GitHub 遠端儲存庫（Secileya/Novel）的權限，也無法在本機終端執行 `node tools/novel_patch/apply.mjs --check` / `--apply` 命令或觸發 GitHub Actions 同步腳本。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7142",
+      "title": "B52/2-3｜HISTORICAL_CORRECTION",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "HISTORICAL_CORRECTION",
+      "authority": "第十四章R0兩段原稿必保留獨立blob，不應被後續R1a候選覆蓋。",
+      "authority_axis": "第十四章R0兩段原稿必保留獨立blob，不應被後續R1a候選覆蓋。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+          "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+          "line": 12,
+          "quote": "- **R0 原始接合候選正文 SHA（不可覆寫）：** `dadc63e5365273fbce3ce788ae003ef9ca671777`（路徑：`待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md`）。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7143",
+      "title": "B52/2-4｜HISTORICAL_CORRECTION",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "HISTORICAL_CORRECTION",
+      "authority": "後續GPT另存第十四章R1a B並有額外鏡頭字句修補，非Gemini逐位元原始檔。",
+      "authority_axis": "後續GPT另存第十四章R1a B並有額外鏡頭字句修補，非Gemini逐位元原始檔。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+          "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+          "line": 20,
+          "quote": "- 第十四章 R1a B 完整候選，已存 GitHub：`待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md`，blob `81b72a6f41f7778c8c3d075a462dca7ae1d72c2a`。B 已包含 B-1／B-2，以及額外「同一個鏡頭裡」敘事用語修正。此 B 由聊天可見 R1 版本重建，不是 Gemini 原生逐位元快照。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7144",
+      "title": "B52/2-5｜OPEN_UNVERIFIED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "OPEN_UNVERIFIED",
+      "authority": "保存R1a B的回執不等於整篇第十四章通過獨立GPT最終QA。",
+      "authority_axis": "保存R1a B的回執不等於整篇第十四章通過獨立GPT最終QA。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+          "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+          "line": 23,
+          "quote": "- **此回執只能證明指定修改已保存；尚未有針對整篇 R1a 的最終全量 GPT QA 簽核。**"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7145",
+      "title": "B52/3-1｜HISTORICAL_CORRECTION",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "HISTORICAL_CORRECTION",
+      "authority": "第十三章R1b由R1a候選把前夜改為先前，非Gemini原生逐位元版本。",
+      "authority_axis": "第十三章R1b由R1a候選把前夜改為先前，非Gemini原生逐位元版本。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 1,
+          "quote": "> **R1b 版本紀錄**：衍生自保留不變的第十三章 R1a（原 Git blob `a869be5233f9b1bd570f7149ad488b876cc172bb`）。僅局部修正檢票場景的「前夜」指時為「先前」，避免把第一天清晨結案誤稱為第三天搭車前夜。其餘正文保留，這是 CANDIDATE／NON-CANON／PREWRITE HOLD，不是正式 Canon。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7146",
+      "title": "B52/3-2｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "諾亞調整抽水風車的減速飛輪使賀老太太不必用沉重力量手搖。",
+      "authority_axis": "諾亞調整抽水風車的減速飛輪使賀老太太不必用沉重力量手搖。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 29,
+          "quote": "「原本的齒輪比是給六級大擺風設計的，直接加搖柄，提一桶水得使出三十斤的臂力。把後面這組三級減速飛輪倒過來接在主動軸上，雖然從井底提滿一整桶水得多搖十二圈，但哪怕單手也能搖得動。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7147",
+      "title": "B52/3-3｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "岩狐絨襯兩套十六銀券附贈手套護耳是北上寒區的生活開支。",
+      "authority_axis": "岩狐絨襯兩套十六銀券附贈手套護耳是北上寒區的生活開支。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 79,
+          "quote": "「外地生客來買，一套少說得要十二張銀鉚券；既然是賀大娘開的口，兩套加起來收你們十六張銀券，另外再白送你們兩雙防凍裂的『鯨油鹿皮手套』和兩副護耳！」老胡頭爽快地把兩雙塗過防水油脂的軟皮手套拍在衣服上。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7148",
+      "title": "B52/3-4｜OPEN_UNVERIFIED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "OPEN_UNVERIFIED",
+      "authority": "九區冰淵震動與封井由押車領隊轉述，非主角確證破壞起因。",
+      "authority_axis": "九區冰淵震動與封井由押車領隊轉述，非主角確證破壞起因。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 93,
+          "quote": "「從上個禮拜開始，九區深處『三號排熱冰淵』底下的老冰層也不知道怎麼回事，接連震了好幾回！剛起頭那幾天還只是掉冰渣子，結果到了三天前，管理三號冰淵北口的『寒泉礦業聯會』突然發了通告，說底下有條高壓蒸氣副管給震裂了，直接把通往三號冰淵底部的兩條採掘斜井全封了檢修，連帶著把霧凇坡那邊一半的貨運車皮都調去拉加固鋼樑和防爆水泥了，我們這才活生生在站上乾等了三天！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7149",
+      "title": "B52/3-5｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "當夜在賀老太太家用餐後翌日清晨五點半北上出發。",
+      "authority_axis": "當夜在賀老太太家用餐後翌日清晨五點半北上出發。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 113,
+          "quote": "隔天清晨五點半。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7150",
+      "title": "B52/3-6｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "塞拉正式重軌通行證解決通關資格，兩張車票仍須另付兩張銀券。",
+      "authority_axis": "塞拉正式重軌通行證解決通關資格，兩張車票仍須另付兩張銀券。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 145,
+          "quote": "工程僧的話還沒說完，諾亞已經從風衣口袋裡抽出了塞拉修女先前結案時交給他們的兩張塗著銀色防偽漆、正面蓋有「一號底錨塔審判官・塞拉」印章的【八區上行正式重軌通行證】，連同兩張銀鉚券一起，平平淡淡地遞到了檢查與售票合設的台面上："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7151",
+      "title": "B52/3-7｜OPEN_UNVERIFIED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "OPEN_UNVERIFIED",
+      "authority": "二號車廂票收兩銀券找四銅幣，不直接構成正式十比一貨幣制度。",
+      "authority_axis": "二號車廂票收兩銀券找四銅幣，不直接構成正式十比一貨幣制度。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 153,
+          "quote": "工程僧麻利地在兩張通行證背面的檢查站欄蓋下放行鋼印；身旁的工聯售票員看了一眼座位表，見二號車廂中段剛好還空著兩處四人卡座，便收下諾亞遞來的兩張銀鉚券，飛快地用打孔鉗剪好兩張二號車廂的車票，連同找零的四枚銅索幣與通行證一併雙手奉還：「兩位請進！二號車廂中段剛好還有空位，車上有常規供應的防寒薑糖茶！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7152",
+      "title": "B52/3-8｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "六時十五分北站發車後經跨區高架及主排熱巨管往九區。",
+      "authority_axis": "六時十五分北站發車後經跨區高架及主排熱巨管往九區。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 173,
+          "quote": "六點十五分，隨著車頭傳來一聲撕裂晨霧的高亢汽笛長鳴，雙聯高壓蒸氣車頭底部的四組巨型連桿同時發力，沉重的鋼輪在鐵軌上擦出一連串橘紅色的火星，整列兩百公尺長的重軌混編列車緩緩駛出了萬鈞北站！"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7153",
+      "title": "B52/3-9｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "七號除冰風閘廳臨停換掛齒軌車頭並提醒旅客遠離安全黃線外。",
+      "authority_axis": "七號除冰風閘廳臨停換掛齒軌車頭並提醒旅客遠離安全黃線外。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 201,
+          "quote": "「列車現在已經駛入八區與九區交界的『白毛風切變帶』！再過十五分鐘，我們將在交界樞紐【七號除冰風閘廳】臨時停靠二十分鐘，進行車殼高壓除冰，並換掛九區專用的『貼管齒軌爬坡車頭』！停靠期間需要下車透氣或買熱食的旅客，請千萬不要走出除冰廳的一號月台黃線外——外頭現在是零下三十八度的白毛風，凍掉了耳朵工聯概不負責！」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7154",
+      "title": "B52/3-10｜OPEN_UNVERIFIED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "OPEN_UNVERIFIED",
+      "authority": "艾莉維亞詢問半噸母核來源只表示尚未查明，不可當作既知真相。",
+      "authority_axis": "艾莉維亞詢問半噸母核來源只表示尚未查明，不可當作既知真相。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 217,
+          "quote": "「泥縮……那個三號排熱冰淵底下，兩個月前到底素誰把那麼大一顆母核挖出來的呀？足有半噸重的鐵疙瘩，總不能是自己長腿爬上來的吧？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7155",
+      "title": "B52/3-11｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "巨大的廢棄月台和仍在營運的一號站台構成巨構空間人口尺度對比。",
+      "authority_axis": "巨大的廢棄月台和仍在營運的一號站台構成巨構空間人口尺度對比。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 247,
+          "quote": "呈現在兩人眼前的，是一座足以塞進整條銅釘街的超級室內巨構空腔。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7156",
+      "title": "B52/3-12｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "高壓蒸汽由高處三層折流傘引至主排熱沉降溝，形成可追的工程熱路。",
+      "authority_axis": "高壓蒸汽由高處三層折流傘引至主排熱沉降溝，形成可追的工程熱路。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 267,
+          "quote": "十幾道粗如水桶的高壓蒸氣柱，順著百公尺高空的洩壓噴口猛烈噴出，第一時間撞上了懸掛在噴口下方三十公尺處的「三層多孔青銅散熱折流傘」！"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7157",
+      "title": "B52/3-13｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "洗衣婦利用分流降至四十度的溫水而非主溝高溫水從事日常洗衣。",
+      "authority_axis": "洗衣婦利用分流降至四十度的溫水而非主溝高溫水從事日常洗衣。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 287,
+          "quote": "「主溝裡的水太燙，直接排進暗渠化雪了；但側邊那條溢流支渠經過石槽冷卻和測溫擋板分流，流到防濺欄後頭剛好四十來度。與其讓支渠的溫水白白流走凍成冰坨子，不如讓老葛婆她們三個在安全欄裡頭接水洗洗礦工服，每個月還能幫老頭子我把二號月台外圍的冰渣子鏟乾淨呢！——喲，兩位小哥和姑娘穿的是老胡頭店裡的岩狐絨襯吧？頭一回上我們九區？」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7158",
+      "title": "B52/3-14｜OPEN_UNVERIFIED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "OPEN_UNVERIFIED",
+      "authority": "八十銀券線蟲手術費來自商販對話，不是核實的全區正式公定價格。",
+      "authority_axis": "八十銀券線蟲手術費來自商販對話，不是核實的全區正式公定價格。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 307,
+          "quote": "那個同伴也習以為常地搖了搖頭：「沒辦法，今年冰脈線蟲減產，第三醫館把活蟲手術費漲到了八十張銀券，普通工人哪湊得齊？能買上兩支稀釋的線蟲髓鞘膏塗塗就不錯了。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7159",
+      "title": "B52/3-15｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "艾莉維亞以第一罐淬火脂做老鉚工機械卸壓，並非治好神經病灶。",
+      "authority_axis": "艾莉維亞以第一罐淬火脂做老鉚工機械卸壓，並非治好神經病灶。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 317,
+          "quote": "她只是抬起右手，用大拇指撥開右眼單眼測距儀上的六瓣黃銅防塵蓋，隔著幾步距離快速掃了一眼老鉚工左肩義肢外側的船塢鋼印與卡死結構，隨後低下頭，單手打開自己身後那只「霜脈寒鐵匣」的卡扣，取出了昨天在五環齒背舊市買沉銀條時掌櫃白送的那兩罐黑鐵添頭之一——那罐一直緊貼著匣內「天然寒晶內襯」存放、罐身凍得結了一層白霜的「極寒淬火脂」。"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7160",
+      "title": "B52/3-16｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "諾亞以機械抓鉤轉六角洩壓栓四分之一圈，解除卡阻而非醫療治癒。",
+      "authority_axis": "諾亞以機械抓鉤轉六角洩壓栓四分之一圈，解除卡阻而非醫療治癒。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 333,
+          "quote": "「這是剛從寒晶匣裡拿出來的高導冷淬火脂。點在黃銅內軸的導熱尾巴上，能把內環的虛熱迅速抽出來，讓這根黃銅導熱銷產生極微量的冷縮，剛好退開咬死在死點上的那一點定位齒尖——諾亞，用你的抓鉤卡鉗幫個忙，趁現在把側面的六角洩壓栓往左轉四分之一圈，讓裡頭的預載彈簧自己彈回來。」"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7161",
+      "title": "B52/3-17｜ASSISTANT_CANDIDATE",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "ASSISTANT_CANDIDATE",
+      "authority": "已使用一點的淬火脂第一罐送給小禾，不能在十四章再算庫存。",
+      "authority_axis": "已使用一點的淬火脂第一罐送給小禾，不能在十四章再算庫存。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 349,
+          "quote": "艾莉維亞只挑出了剛才那黃豆大小的一點，隨手把蓋子重新扣緊，將這罐幾乎還是滿的整罐淬火脂直接塞進了那年輕姑娘手裡，拍了拍手站起身，神色認真地叮囑了一句："
+        }
+      ]
+    },
+    {
+      "id": "SRC-ALL-7162",
+      "title": "B52/3-18｜OPEN_UNVERIFIED",
+      "status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "analysis": "OPEN_UNVERIFIED",
+      "authority": "黑銷只見外部熱負荷減少，深層後效仍未知，不能升格內部同化。",
+      "authority_axis": "黑銷只見外部熱負荷減少，深層後效仍未知，不能升格內部同化。",
+      "strength_axis": "SOURCE_SCOPED_EDITORIAL_EVIDENCE__NOT_AUTOMATIC_CANON",
+      "story_progress_axis": "PREWRITE_HOLD_NO_FORMAL_STORY",
+      "guardrail": "原文錨點僅支持所述候選或版本分級，未經作者核定之內容不轉正史。",
+      "next_action": "來源或後出版本SHA變更時重新核對完整段落和圖關聯。",
+      "priority": "HIGH",
+      "evidence": [
+        {
+          "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 373,
+          "quote": "諾亞靠在紅絨布椅背上，右手隔著風衣按了按槍套底部——在進入九區高空極寒沉降帶與那片霜脈天然寒晶內襯的雙重低溫包覆下，槍管下方那根一尺長的五百年黑銷，自頂層超載以來表層殘留的外部熱負荷已經進一步收斂平息；至於被那顆半噸母核強行激發三天之後，它內在深層的狀態究竟如何、是否還留有其他未知的後效，眼下還無法單憑環境降溫做出斷定。"
+        }
+      ]
+    }
+  ],
+  "staged_attestations": [
+    {
+      "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+      "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+      "source_role_id": "FULL-B52-01",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-7130",
+        "SRC-ALL-7131",
+        "SRC-ALL-7132",
+        "SRC-ALL-7133",
+        "SRC-ALL-7134",
+        "SRC-ALL-7135",
+        "SRC-ALL-7136",
+        "SRC-ALL-7137",
+        "SRC-ALL-7138",
+        "SRC-ALL-7139"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全篇連續分段及材料命題採原文SHA行錨，與作者後修/候選時序對照。",
+      "source_line_count": 71,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 15,
+          "anchor_line": 3,
+          "quote": "> 歸檔來源：使用者在本對話轉貼之 Gemini C 寫後報告；依可見文字重建，不是 Gemini 原生平台位元級快照。歷史自評，不替代 GPT 獨立 QA；全部 CANDIDATE／NON-CANON／PREWRITE HOLD，正式 Canon 0 章。",
+          "meaning": "C是Gemini寫後轉貼重建，不是原生平台資料或獨立GPT全篇簽核。；第十四章R1候選補足九時二十分至十七時三十分工坊與住宿時序。；沉銀外脊與應力絲使界楔實際增重約三成，不能保留重量不變說法。；作者後出指定六枚界楔絕不再出暗裂的自信台詞維持原樣。"
+        },
+        {
+          "from": 16,
+          "to": 44,
+          "anchor_line": 27,
+          "quote": "| 第12章：五環齒背舊市購買沉銀與淬火脂 | －15 張 | 0 枚 | 艾莉維亞個人支付 | 第12章第109、117行：攤主原始開價32張，艾莉維亞還價並實際掏出15張銀鉚券成交。 |",
+          "meaning": "第十二章十五銀券沉銀款是艾莉維亞個人支付而非諾亞付款。；截至第十四章候選諾亞有六百一十八、艾莉維亞一百三十五，合計七百五十三銀券。；十枚銅索幣換一張銀鉚券只是車票找零推算，尚未確定正式匯率。"
+        },
+        {
+          "from": 45,
+          "to": 53,
+          "anchor_line": 49,
+          "quote": "- **極寒淬火脂：**第12章獲贈2罐 → 第13章 R1a 拆封1罐挑出黃豆大小一點應急後，將該罐（幾乎滿罐）贈予石鐵栓之女小禾 → 本章拆封第2罐，寒鍛與封脊耗用半罐 → 現存半罐（收於霜脈寒鐵匣）。",
+          "meaning": "四根沉銀一根贈人三根冷鍛；兩罐淬火脂第一罐送小禾，第二罐剩半罐。"
+        },
+        {
+          "from": 54,
+          "to": 71,
+          "anchor_line": 57,
+          "quote": "  - 地點與交通：無縫接續第13章 R1a 結尾「百米斷崖咽喉坡」三十五度齒軌爬升，登頂後左見千筒懸林（F04 無人密集鋼鐵森林），右見斜跨巨橋與黑脊抱柱鎮（F09 立體抱管城鎮）；09:20 停靠南棧，傍晚17:30 定時排氣後返回暖磚棧，全程W01第09區內部，遵守 MG-C022／MG-C023。",
+          "meaning": "千筒懸林與黑脊抱柱鎮等是第十四章區域候選，尚非作者永久地圖。；GPT後出鏡頭用語補丁與R1a B另存，不能倒稱為Gemini原有六項修訂。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+        "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+        "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+          "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+          "git_blob_sha": "a869be5233f9b1bd570f7149ad488b876cc172bb"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+          "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "逐檔原文完整連續檢核並第二遍針對權威、版本、漏項、跨檔因果問答；不具作者定案效力。",
+        "revocation": "來源、依賴SHA或重要遺漏變更即撤銷與重驗，CI尚未完成不能聲稱成功。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> 歸檔來源：使用者在本對話轉貼之 Gemini C 寫後報告；依可見文字重建，不是 Gemini 原生平台位元級快照。歷史自評，不替代 GPT 獨立 QA；全部 CANDIDATE／NON-CANON／PREWRITE HOLD，正式 Canon 0 章。",
+            "topic": "HISTORICAL_CORRECTION",
+            "finding": "HISTORICAL_CORRECTION",
+            "authority": "C是Gemini寫後轉貼重建，不是原生平台資料或獨立GPT全篇簽核。",
+            "claim_ids": [
+              "SRC-ALL-7130"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 9,
+            "quote": "| 1. 工坊時間線銜接（A1 必修） | 09:20 到站後直接去住店、去工坊，鏽梭說「三個鐘頭交活」，結果直接跳到傍晚 17:00 出槽，緊接著又是 17:30 排氣，中間缺了約三四個小時的流逝與 17:00～17:30 的半小時銜接。 | 完整閉合 09:20～17:30 時間軸：09:20～10:30 南棧下車與石鐵栓父女道別，沿盤旋寬階街走訪外環藥鋪至內三環，約十點半後入住【暖磚棧】；10:30～12:30 於客房安頓行囊、洗去煤灰，並在一樓大堂吃過客棧供應的午間白",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "第十四章R1候選補足九時二十分至十七時三十分工坊與住宿時序。",
+            "claim_ids": [
+              "SRC-ALL-7131"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 10,
+            "quote": "| 2. 三根沉銀條與界楔物理質量（A2 必修） | 三根料子全鍛進去，卻寫「不僅重量分毫未增」，違反物理質量守恆。 | 移除「重量分毫未增」。老喬先刮除舊襯皮，再將三根滿純度老沉銀全數鍛入（2.5 根外脊＋0.5 根微米應力絲）；「每一枚界楔入手還是比從前明顯沉實了將近三成，帶著高密度冷鍛重金屬特有的壓手感」；老喬與鏽梭將新增質量精準分佈在導力軸線上並逐枚配平，使重心與發力習慣契合，傳導效率提升而無滯澀。 |",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "沉銀外脊與應力絲使界楔實際增重約三成，不能保留重量不變說法。",
+            "claim_ids": [
+              "SRC-ALL-7132"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 14,
+            "quote": "| 6. 作者最新裁定原句保留（#6 禁誤修） | 艾莉維亞試楔後台詞「現在就算再讓我去釘一回主鐘擺的配重軌，這六枚楔子也絕對不會再出暗裂！」 | 一字不改原樣保留，不加保守退縮詞，無旁人糾正，保留角色興奮與自信。 |",
+            "topic": "AUTHOR_CONFIRMED",
+            "finding": "AUTHOR_CONFIRMED",
+            "authority": "作者後出指定六枚界楔絕不再出暗裂的自信台詞維持原樣。",
+            "claim_ids": [
+              "SRC-ALL-7133"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 27,
+            "quote": "| 第12章：五環齒背舊市購買沉銀與淬火脂 | －15 張 | 0 枚 | 艾莉維亞個人支付 | 第12章第109、117行：攤主原始開價32張，艾莉維亞還價並實際掏出15張銀鉚券成交。 |",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "第十二章十五銀券沉銀款是艾莉維亞個人支付而非諾亞付款。",
+            "claim_ids": [
+              "SRC-ALL-7134"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 38,
+            "quote": "  - 兩人銀券紙鈔合計：**135＋618＝753張**。",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "截至第十四章候選諾亞有六百一十八、艾莉維亞一百三十五，合計七百五十三銀券。",
+            "claim_ids": [
+              "SRC-ALL-7135"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 43,
+            "quote": "  - 候選匯率：「1張銀鉚券＝10枚銅索幣」仍僅為第13章購票找零推算之候選匯率（CH13_NEW_CANDIDATE），不得升格為正式世界貨幣硬規則。",
+            "topic": "OPEN_UNVERIFIED",
+            "finding": "OPEN_UNVERIFIED",
+            "authority": "十枚銅索幣換一張銀鉚券只是車票找零推算，尚未確定正式匯率。",
+            "claim_ids": [
+              "SRC-ALL-7136"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 49,
+            "quote": "- **極寒淬火脂：**第12章獲贈2罐 → 第13章 R1a 拆封1罐挑出黃豆大小一點應急後，將該罐（幾乎滿罐）贈予石鐵栓之女小禾 → 本章拆封第2罐，寒鍛與封脊耗用半罐 → 現存半罐（收於霜脈寒鐵匣）。",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "四根沉銀一根贈人三根冷鍛；兩罐淬火脂第一罐送小禾，第二罐剩半罐。",
+            "claim_ids": [
+              "SRC-ALL-7137"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 57,
+            "quote": "  - 地點與交通：無縫接續第13章 R1a 結尾「百米斷崖咽喉坡」三十五度齒軌爬升，登頂後左見千筒懸林（F04 無人密集鋼鐵森林），右見斜跨巨橋與黑脊抱柱鎮（F09 立體抱管城鎮）；09:20 停靠南棧，傍晚17:30 定時排氣後返回暖磚棧，全程W01第09區內部，遵守 MG-C022／MG-C023。",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "千筒懸林與黑脊抱柱鎮等是第十四章區域候選，尚非作者永久地圖。",
+            "claim_ids": [
+              "SRC-ALL-7138"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 70,
+            "quote": "> **更新回執（由 GPT 追加，非 Gemini C 原文）：**目前已另存 R1a B 新候選；另有一處「同一個鏡頭裡」改為旅人眼前的自然敘事；此修改未收進上方 Gemini 原生六項表格中。B 的目前 Git blob 以新檔實際讀回為準，不得以 R0 SHA 或過時 R1 待存路徑冒充。",
+            "topic": "HISTORICAL_CORRECTION",
+            "finding": "HISTORICAL_CORRECTION",
+            "authority": "GPT後出鏡頭用語補丁與R1a B另存，不能倒稱為Gemini原有六項修訂。",
+            "claim_ids": [
+              "SRC-ALL-7139"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> 歸檔來源：使用者在本對話轉貼之 Gemini C 寫後報告；依可見文字重建，不是 Gemini 原生平台位元級快照。歷史自評，不替代 GPT 獨立 QA；全部 CANDIDATE／NON-CANON／PREWRITE HOLD，正式 Canon 0 章。",
+            "question": "Gemini轉貼的自評等於GPT全篇QA嗎？",
+            "finding": "此C僅可見轉貼重建，未證明全篇獨立GPT完成簽核。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 14,
+            "quote": "| 6. 作者最新裁定原句保留（#6 禁誤修） | 艾莉維亞試楔後台詞「現在就算再讓我去釘一回主鐘擺的配重軌，這六枚楔子也絕對不會再出暗裂！」 | 一字不改原樣保留，不加保守退縮詞，無旁人糾正，保留角色興奮與自信。 |",
+            "question": "原文作者指定台詞可否被審稿改掉？",
+            "finding": "台詞有明確作者後出指定，保留原句優先於保守修辭。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 43,
+            "quote": "  - 候選匯率：「1張銀鉚券＝10枚銅索幣」仍僅為第13章購票找零推算之候選匯率（CH13_NEW_CANDIDATE），不得升格為正式世界貨幣硬規則。",
+            "question": "車票找零是否足以訂全域匯率？",
+            "finding": "銀鉚券與銅索幣分帳；十比一僅是候選比價。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 49,
+            "quote": "- **極寒淬火脂：**第12章獲贈2罐 → 第13章 R1a 拆封1罐挑出黃豆大小一點應急後，將該罐（幾乎滿罐）贈予石鐵栓之女小禾 → 本章拆封第2罐，寒鍛與封脊耗用半罐 → 現存半罐（收於霜脈寒鐵匣）。",
+            "question": "冷鍛材料和醫療應急用脂是否重複算？",
+            "finding": "第一罐脂贈小禾，第二罐耗半罐；四根沉銀已分流。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+            "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a",
+            "impact": "第十四章R1a與十二、十三章物件、時間及情報邊界比對，不能拿Gemini寫後自評當全篇GPT QA。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+            "git_blob_sha": "a869be5233f9b1bd570f7149ad488b876cc172bb",
+            "impact": "第十四章R1a與十二、十三章物件、時間及情報邊界比對，不能拿Gemini寫後自評當全篇GPT QA。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30",
+            "impact": "第十四章R1a與十二、十三章物件、時間及情報邊界比對，不能拿Gemini寫後自評當全篇GPT QA。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          }
+        ],
+        "second_pass_method": "逐行核R0/R1差異表、銀券銅幣分帳、淬火脂沉銀、台詞與讀取證據，再從十三十四章後修反查。",
+        "unresolved_risks": [
+          "Gemini可見轉貼不是平台原生快照，不足取代全稿GPT QA。"
+        ]
+      }
+    },
+    {
+      "source_path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+      "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+      "source_role_id": "FULL-B52-02",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-7140",
+        "SRC-ALL-7141",
+        "SRC-ALL-7142",
+        "SRC-ALL-7143",
+        "SRC-ALL-7144"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全篇連續分段及材料命題採原文SHA行錨，與作者後修/候選時序對照。",
+      "source_line_count": 24,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 9,
+          "anchor_line": 3,
+          "quote": "> **來源及時點**：以下為使用者於本輪對話轉貼之 Gemini 第十四章 R1a 回覆的 D 段，保留當時 Gemini 對**自身環境**的能力說明。這不是對目前 ChatGPT／GitHub 連接器能力的描述，亦不是最新歸檔狀態。非正史工作歷史，不替代實際 GitHub 驗證。",
+          "meaning": "D段只保留Gemini歷史環境權限聲明，不是當前ChatGPT連接器說明。；昔日Gemini未能寫GitHub或本機執行Node，不能宣稱其自行提交了檔案。"
+        },
+        {
+          "from": 10,
+          "to": 24,
+          "anchor_line": 12,
+          "quote": "- **R0 原始接合候選正文 SHA（不可覆寫）：** `dadc63e5365273fbce3ce788ae003ef9ca671777`（路徑：`待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md`）。",
+          "meaning": "第十四章R0兩段原稿必保留獨立blob，不應被後續R1a候選覆蓋。；後續GPT另存第十四章R1a B並有額外鏡頭字句修補，非Gemini逐位元原始檔。；保存R1a B的回執不等於整篇第十四章通過獨立GPT最終QA。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md",
+        "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+          "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md",
+          "git_blob_sha": "dadc63e5365273fbce3ce788ae003ef9ca671777"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+          "git_blob_sha": "a869be5233f9b1bd570f7149ad488b876cc172bb"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "逐檔原文完整連續檢核並第二遍針對權威、版本、漏項、跨檔因果問答；不具作者定案效力。",
+        "revocation": "來源、依賴SHA或重要遺漏變更即撤銷與重驗，CI尚未完成不能聲稱成功。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 3,
+            "quote": "> **來源及時點**：以下為使用者於本輪對話轉貼之 Gemini 第十四章 R1a 回覆的 D 段，保留當時 Gemini 對**自身環境**的能力說明。這不是對目前 ChatGPT／GitHub 連接器能力的描述，亦不是最新歸檔狀態。非正史工作歷史，不替代實際 GitHub 驗證。",
+            "topic": "HISTORICAL_CORRECTION",
+            "finding": "HISTORICAL_CORRECTION",
+            "authority": "D段只保留Gemini歷史環境權限聲明，不是當前ChatGPT連接器說明。",
+            "claim_ids": [
+              "SRC-ALL-7140"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 7,
+            "quote": "- 我當前的對話環境僅具備 Google Drive 讀取工具（以及在明確要求新建雲端檔案時的基礎建立工具），不具備直接存取或寫入 GitHub 遠端儲存庫（Secileya/Novel）的權限，也無法在本機終端執行 `node tools/novel_patch/apply.mjs --check` / `--apply` 命令或觸發 GitHub Actions 同步腳本。",
+            "topic": "PROCEDURAL_NON_CANON",
+            "finding": "PROCEDURAL_NON_CANON",
+            "authority": "昔日Gemini未能寫GitHub或本機執行Node，不能宣稱其自行提交了檔案。",
+            "claim_ids": [
+              "SRC-ALL-7141"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 12,
+            "quote": "- **R0 原始接合候選正文 SHA（不可覆寫）：** `dadc63e5365273fbce3ce788ae003ef9ca671777`（路徑：`待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md`）。",
+            "topic": "HISTORICAL_CORRECTION",
+            "finding": "HISTORICAL_CORRECTION",
+            "authority": "第十四章R0兩段原稿必保留獨立blob，不應被後續R1a候選覆蓋。",
+            "claim_ids": [
+              "SRC-ALL-7142"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 20,
+            "quote": "- 第十四章 R1a B 完整候選，已存 GitHub：`待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md`，blob `81b72a6f41f7778c8c3d075a462dca7ae1d72c2a`。B 已包含 B-1／B-2，以及額外「同一個鏡頭裡」敘事用語修正。此 B 由聊天可見 R1 版本重建，不是 Gemini 原生逐位元快照。",
+            "topic": "HISTORICAL_CORRECTION",
+            "finding": "HISTORICAL_CORRECTION",
+            "authority": "後續GPT另存第十四章R1a B並有額外鏡頭字句修補，非Gemini逐位元原始檔。",
+            "claim_ids": [
+              "SRC-ALL-7143"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 23,
+            "quote": "- **此回執只能證明指定修改已保存；尚未有針對整篇 R1a 的最終全量 GPT QA 簽核。**",
+            "topic": "OPEN_UNVERIFIED",
+            "finding": "OPEN_UNVERIFIED",
+            "authority": "保存R1a B的回執不等於整篇第十四章通過獨立GPT最終QA。",
+            "claim_ids": [
+              "SRC-ALL-7144"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 3,
+            "quote": "> **來源及時點**：以下為使用者於本輪對話轉貼之 Gemini 第十四章 R1a 回覆的 D 段，保留當時 Gemini 對**自身環境**的能力說明。這不是對目前 ChatGPT／GitHub 連接器能力的描述，亦不是最新歸檔狀態。非正史工作歷史，不替代實際 GitHub 驗證。",
+            "question": "過去Gemini權限能否推定現在GPT權限？",
+            "finding": "歷史Gemini自身限制不代表目前GPT連接器能力。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 12,
+            "quote": "- **R0 原始接合候選正文 SHA（不可覆寫）：** `dadc63e5365273fbce3ce788ae003ef9ca671777`（路徑：`待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md`）。",
+            "question": "R0歷史稿與R1a是否同一份？",
+            "finding": "R0必保留，R1a B有另一個SHA和獨立檔名。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 20,
+            "quote": "- 第十四章 R1a B 完整候選，已存 GitHub：`待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md`，blob `81b72a6f41f7778c8c3d075a462dca7ae1d72c2a`。B 已包含 B-1／B-2，以及額外「同一個鏡頭裡」敘事用語修正。此 B 由聊天可見 R1 版本重建，不是 Gemini 原生逐位元快照。",
+            "question": "已存B是否有Gemini平台原生字節？",
+            "finding": "B由可見對話文本重建，並非原生Gemini字節快照。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 23,
+            "quote": "- **此回執只能證明指定修改已保存；尚未有針對整篇 R1a 的最終全量 GPT QA 簽核。**",
+            "question": "提交版本是否可推定QA已完成？",
+            "finding": "回執只證明存檔，不能當成全篇QA或作者核定。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+            "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a",
+            "impact": "對照第十四章R0、已存R1a及第十三章R1a，精確區分昔日無權說明與後出實存回執。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md",
+            "git_blob_sha": "dadc63e5365273fbce3ce788ae003ef9ca671777",
+            "impact": "對照第十四章R0、已存R1a及第十三章R1a，精確區分昔日無權說明與後出實存回執。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+            "git_blob_sha": "a869be5233f9b1bd570f7149ad488b876cc172bb",
+            "impact": "對照第十四章R0、已存R1a及第十三章R1a，精確區分昔日無權說明與後出實存回執。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          }
+        ],
+        "second_pass_method": "區分歷史Gemini無法Git寫入的權限聲明、原R0保存要求與實際R1a補丁回執，對照實存Git SHA。",
+        "unresolved_risks": [
+          "R1a B有重建性質，沒有全篇最終GPT QA。"
+        ]
+      }
+    },
+    {
+      "source_path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+      "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+      "source_role_id": "FULL-B52-03",
+      "source_kind": "TEXT_SOURCE",
+      "related_claim_ids": [
+        "SRC-ALL-7145",
+        "SRC-ALL-7146",
+        "SRC-ALL-7147",
+        "SRC-ALL-7148",
+        "SRC-ALL-7149",
+        "SRC-ALL-7150",
+        "SRC-ALL-7151",
+        "SRC-ALL-7152",
+        "SRC-ALL-7153",
+        "SRC-ALL-7154",
+        "SRC-ALL-7155",
+        "SRC-ALL-7156",
+        "SRC-ALL-7157",
+        "SRC-ALL-7158",
+        "SRC-ALL-7159",
+        "SRC-ALL-7160",
+        "SRC-ALL-7161",
+        "SRC-ALL-7162"
+      ],
+      "status": "FULL_FILE_EDITORIAL_ATTESTED",
+      "source_progress_note": "全篇連續分段及材料命題採原文SHA行錨，與作者後修/候選時序對照。",
+      "source_line_count": 379,
+      "reviewed_sections": [
+        {
+          "from": 1,
+          "to": 47,
+          "anchor_line": 1,
+          "quote": "> **R1b 版本紀錄**：衍生自保留不變的第十三章 R1a（原 Git blob `a869be5233f9b1bd570f7149ad488b876cc172bb`）。僅局部修正檢票場景的「前夜」指時為「先前」，避免把第一天清晨結案誤稱為第三天搭車前夜。其餘正文保留，這是 CANDIDATE／NON-CANON／PREWRITE HOLD，不是正式 Canon。",
+          "meaning": "第十三章R1b由R1a候選把前夜改為先前，非Gemini原生逐位元版本。；諾亞調整抽水風車的減速飛輪使賀老太太不必用沉重力量手搖。"
+        },
+        {
+          "from": 48,
+          "to": 108,
+          "anchor_line": 79,
+          "quote": "「外地生客來買，一套少說得要十二張銀鉚券；既然是賀大娘開的口，兩套加起來收你們十六張銀券，另外再白送你們兩雙防凍裂的『鯨油鹿皮手套』和兩副護耳！」老胡頭爽快地把兩雙塗過防水油脂的軟皮手套拍在衣服上。",
+          "meaning": "岩狐絨襯兩套十六銀券附贈手套護耳是北上寒區的生活開支。；九區冰淵震動與封井由押車領隊轉述，非主角確證破壞起因。"
+        },
+        {
+          "from": 109,
+          "to": 163,
+          "anchor_line": 113,
+          "quote": "隔天清晨五點半。",
+          "meaning": "當夜在賀老太太家用餐後翌日清晨五點半北上出發。；塞拉正式重軌通行證解決通關資格，兩張車票仍須另付兩張銀券。；二號車廂票收兩銀券找四銅幣，不直接構成正式十比一貨幣制度。"
+        },
+        {
+          "from": 164,
+          "to": 220,
+          "anchor_line": 173,
+          "quote": "六點十五分，隨著車頭傳來一聲撕裂晨霧的高亢汽笛長鳴，雙聯高壓蒸氣車頭底部的四組巨型連桿同時發力，沉重的鋼輪在鐵軌上擦出一連串橘紅色的火星，整列兩百公尺長的重軌混編列車緩緩駛出了萬鈞北站！",
+          "meaning": "六時十五分北站發車後經跨區高架及主排熱巨管往九區。；七號除冰風閘廳臨停換掛齒軌車頭並提醒旅客遠離安全黃線外。；艾莉維亞詢問半噸母核來源只表示尚未查明，不可當作既知真相。"
+        },
+        {
+          "from": 221,
+          "to": 278,
+          "anchor_line": 247,
+          "quote": "呈現在兩人眼前的，是一座足以塞進整條銅釘街的超級室內巨構空腔。",
+          "meaning": "巨大的廢棄月台和仍在營運的一號站台構成巨構空間人口尺度對比。；高壓蒸汽由高處三層折流傘引至主排熱沉降溝，形成可追的工程熱路。"
+        },
+        {
+          "from": 279,
+          "to": 330,
+          "anchor_line": 287,
+          "quote": "「主溝裡的水太燙，直接排進暗渠化雪了；但側邊那條溢流支渠經過石槽冷卻和測溫擋板分流，流到防濺欄後頭剛好四十來度。與其讓支渠的溫水白白流走凍成冰坨子，不如讓老葛婆她們三個在安全欄裡頭接水洗洗礦工服，每個月還能幫老頭子我把二號月台外圍的冰渣子鏟乾淨呢！——喲，兩位小哥和姑娘穿的是老胡頭店裡的岩狐絨襯吧？頭一回上我們九區？」",
+          "meaning": "洗衣婦利用分流降至四十度的溫水而非主溝高溫水從事日常洗衣。；八十銀券線蟲手術費來自商販對話，不是核實的全區正式公定價格。；艾莉維亞以第一罐淬火脂做老鉚工機械卸壓，並非治好神經病灶。"
+        },
+        {
+          "from": 331,
+          "to": 379,
+          "anchor_line": 333,
+          "quote": "「這是剛從寒晶匣裡拿出來的高導冷淬火脂。點在黃銅內軸的導熱尾巴上，能把內環的虛熱迅速抽出來，讓這根黃銅導熱銷產生極微量的冷縮，剛好退開咬死在死點上的那一點定位齒尖——諾亞，用你的抓鉤卡鉗幫個忙，趁現在把側面的六角洩壓栓往左轉四分之一圈，讓裡頭的預載彈簧自己彈回來。」",
+          "meaning": "諾亞以機械抓鉤轉六角洩壓栓四分之一圈，解除卡阻而非醫療治癒。；已使用一點的淬火脂第一罐送給小禾，不能在十四章再算庫存。；黑銷只見外部熱負荷減少，深層後效仍未知，不能升格內部同化。"
+        }
+      ],
+      "latest_revisions_checked": [
+        "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+        "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+        "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md"
+      ],
+      "latest_revision_source_sha_manifest": [
+        {
+          "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+          "git_blob_sha": "a869be5233f9b1bd570f7149ad488b876cc172bb"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+          "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+          "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a"
+        }
+      ],
+      "checklist": {
+        "all_source_lines_accounted_for": true,
+        "all_sections_have_semantic_classification": true,
+        "author_vs_assistant_boundary_checked": true,
+        "latest_known_revisions_checked": true,
+        "candidate_and_canon_separated": true,
+        "no_source_content_rewritten": true,
+        "claims_to_current_version_reconciled": true,
+        "all_relevant_atomic_claims_are_source_anchored": true,
+        "existing_graph_edges_not_canon_upgraded": true
+      },
+      "attestation": {
+        "actor": "AI_EDITORIAL_REVIEW_NOT_AUTHOR_SIGNOFF",
+        "checked_on": "2026-11-11",
+        "review_scope": "逐檔原文完整連續檢核並第二遍針對權威、版本、漏項、跨檔因果問答；不具作者定案效力。",
+        "revocation": "來源、依賴SHA或重要遺漏變更即撤銷與重驗，CI尚未完成不能聲稱成功。"
+      },
+      "semantic_quality_v2": {
+        "protocol": "FULL_FILE_SEMANTIC_V2",
+        "material_units": [
+          {
+            "section_index": 1,
+            "line": 1,
+            "quote": "> **R1b 版本紀錄**：衍生自保留不變的第十三章 R1a（原 Git blob `a869be5233f9b1bd570f7149ad488b876cc172bb`）。僅局部修正檢票場景的「前夜」指時為「先前」，避免把第一天清晨結案誤稱為第三天搭車前夜。其餘正文保留，這是 CANDIDATE／NON-CANON／PREWRITE HOLD，不是正式 Canon。",
+            "topic": "HISTORICAL_CORRECTION",
+            "finding": "HISTORICAL_CORRECTION",
+            "authority": "第十三章R1b由R1a候選把前夜改為先前，非Gemini原生逐位元版本。",
+            "claim_ids": [
+              "SRC-ALL-7145"
+            ]
+          },
+          {
+            "section_index": 1,
+            "line": 29,
+            "quote": "「原本的齒輪比是給六級大擺風設計的，直接加搖柄，提一桶水得使出三十斤的臂力。把後面這組三級減速飛輪倒過來接在主動軸上，雖然從井底提滿一整桶水得多搖十二圈，但哪怕單手也能搖得動。」",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "諾亞調整抽水風車的減速飛輪使賀老太太不必用沉重力量手搖。",
+            "claim_ids": [
+              "SRC-ALL-7146"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 79,
+            "quote": "「外地生客來買，一套少說得要十二張銀鉚券；既然是賀大娘開的口，兩套加起來收你們十六張銀券，另外再白送你們兩雙防凍裂的『鯨油鹿皮手套』和兩副護耳！」老胡頭爽快地把兩雙塗過防水油脂的軟皮手套拍在衣服上。",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "岩狐絨襯兩套十六銀券附贈手套護耳是北上寒區的生活開支。",
+            "claim_ids": [
+              "SRC-ALL-7147"
+            ]
+          },
+          {
+            "section_index": 2,
+            "line": 93,
+            "quote": "「從上個禮拜開始，九區深處『三號排熱冰淵』底下的老冰層也不知道怎麼回事，接連震了好幾回！剛起頭那幾天還只是掉冰渣子，結果到了三天前，管理三號冰淵北口的『寒泉礦業聯會』突然發了通告，說底下有條高壓蒸氣副管給震裂了，直接把通往三號冰淵底部的兩條採掘斜井全封了檢修，連帶著把霧凇坡那邊一半的貨運車皮都調去拉加固鋼樑和防爆水泥了，我們這才活生生在站上乾等了三天！」",
+            "topic": "OPEN_UNVERIFIED",
+            "finding": "OPEN_UNVERIFIED",
+            "authority": "九區冰淵震動與封井由押車領隊轉述，非主角確證破壞起因。",
+            "claim_ids": [
+              "SRC-ALL-7148"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 113,
+            "quote": "隔天清晨五點半。",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "當夜在賀老太太家用餐後翌日清晨五點半北上出發。",
+            "claim_ids": [
+              "SRC-ALL-7149"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 145,
+            "quote": "工程僧的話還沒說完，諾亞已經從風衣口袋裡抽出了塞拉修女先前結案時交給他們的兩張塗著銀色防偽漆、正面蓋有「一號底錨塔審判官・塞拉」印章的【八區上行正式重軌通行證】，連同兩張銀鉚券一起，平平淡淡地遞到了檢查與售票合設的台面上：",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "塞拉正式重軌通行證解決通關資格，兩張車票仍須另付兩張銀券。",
+            "claim_ids": [
+              "SRC-ALL-7150"
+            ]
+          },
+          {
+            "section_index": 3,
+            "line": 153,
+            "quote": "工程僧麻利地在兩張通行證背面的檢查站欄蓋下放行鋼印；身旁的工聯售票員看了一眼座位表，見二號車廂中段剛好還空著兩處四人卡座，便收下諾亞遞來的兩張銀鉚券，飛快地用打孔鉗剪好兩張二號車廂的車票，連同找零的四枚銅索幣與通行證一併雙手奉還：「兩位請進！二號車廂中段剛好還有空位，車上有常規供應的防寒薑糖茶！」",
+            "topic": "OPEN_UNVERIFIED",
+            "finding": "OPEN_UNVERIFIED",
+            "authority": "二號車廂票收兩銀券找四銅幣，不直接構成正式十比一貨幣制度。",
+            "claim_ids": [
+              "SRC-ALL-7151"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 173,
+            "quote": "六點十五分，隨著車頭傳來一聲撕裂晨霧的高亢汽笛長鳴，雙聯高壓蒸氣車頭底部的四組巨型連桿同時發力，沉重的鋼輪在鐵軌上擦出一連串橘紅色的火星，整列兩百公尺長的重軌混編列車緩緩駛出了萬鈞北站！",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "六時十五分北站發車後經跨區高架及主排熱巨管往九區。",
+            "claim_ids": [
+              "SRC-ALL-7152"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 201,
+            "quote": "「列車現在已經駛入八區與九區交界的『白毛風切變帶』！再過十五分鐘，我們將在交界樞紐【七號除冰風閘廳】臨時停靠二十分鐘，進行車殼高壓除冰，並換掛九區專用的『貼管齒軌爬坡車頭』！停靠期間需要下車透氣或買熱食的旅客，請千萬不要走出除冰廳的一號月台黃線外——外頭現在是零下三十八度的白毛風，凍掉了耳朵工聯概不負責！」",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "七號除冰風閘廳臨停換掛齒軌車頭並提醒旅客遠離安全黃線外。",
+            "claim_ids": [
+              "SRC-ALL-7153"
+            ]
+          },
+          {
+            "section_index": 4,
+            "line": 217,
+            "quote": "「泥縮……那個三號排熱冰淵底下，兩個月前到底素誰把那麼大一顆母核挖出來的呀？足有半噸重的鐵疙瘩，總不能是自己長腿爬上來的吧？」",
+            "topic": "OPEN_UNVERIFIED",
+            "finding": "OPEN_UNVERIFIED",
+            "authority": "艾莉維亞詢問半噸母核來源只表示尚未查明，不可當作既知真相。",
+            "claim_ids": [
+              "SRC-ALL-7154"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 247,
+            "quote": "呈現在兩人眼前的，是一座足以塞進整條銅釘街的超級室內巨構空腔。",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "巨大的廢棄月台和仍在營運的一號站台構成巨構空間人口尺度對比。",
+            "claim_ids": [
+              "SRC-ALL-7155"
+            ]
+          },
+          {
+            "section_index": 5,
+            "line": 267,
+            "quote": "十幾道粗如水桶的高壓蒸氣柱，順著百公尺高空的洩壓噴口猛烈噴出，第一時間撞上了懸掛在噴口下方三十公尺處的「三層多孔青銅散熱折流傘」！",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "高壓蒸汽由高處三層折流傘引至主排熱沉降溝，形成可追的工程熱路。",
+            "claim_ids": [
+              "SRC-ALL-7156"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 287,
+            "quote": "「主溝裡的水太燙，直接排進暗渠化雪了；但側邊那條溢流支渠經過石槽冷卻和測溫擋板分流，流到防濺欄後頭剛好四十來度。與其讓支渠的溫水白白流走凍成冰坨子，不如讓老葛婆她們三個在安全欄裡頭接水洗洗礦工服，每個月還能幫老頭子我把二號月台外圍的冰渣子鏟乾淨呢！——喲，兩位小哥和姑娘穿的是老胡頭店裡的岩狐絨襯吧？頭一回上我們九區？」",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "洗衣婦利用分流降至四十度的溫水而非主溝高溫水從事日常洗衣。",
+            "claim_ids": [
+              "SRC-ALL-7157"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 307,
+            "quote": "那個同伴也習以為常地搖了搖頭：「沒辦法，今年冰脈線蟲減產，第三醫館把活蟲手術費漲到了八十張銀券，普通工人哪湊得齊？能買上兩支稀釋的線蟲髓鞘膏塗塗就不錯了。」",
+            "topic": "OPEN_UNVERIFIED",
+            "finding": "OPEN_UNVERIFIED",
+            "authority": "八十銀券線蟲手術費來自商販對話，不是核實的全區正式公定價格。",
+            "claim_ids": [
+              "SRC-ALL-7158"
+            ]
+          },
+          {
+            "section_index": 6,
+            "line": 317,
+            "quote": "她只是抬起右手，用大拇指撥開右眼單眼測距儀上的六瓣黃銅防塵蓋，隔著幾步距離快速掃了一眼老鉚工左肩義肢外側的船塢鋼印與卡死結構，隨後低下頭，單手打開自己身後那只「霜脈寒鐵匣」的卡扣，取出了昨天在五環齒背舊市買沉銀條時掌櫃白送的那兩罐黑鐵添頭之一——那罐一直緊貼著匣內「天然寒晶內襯」存放、罐身凍得結了一層白霜的「極寒淬火脂」。",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "艾莉維亞以第一罐淬火脂做老鉚工機械卸壓，並非治好神經病灶。",
+            "claim_ids": [
+              "SRC-ALL-7159"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 333,
+            "quote": "「這是剛從寒晶匣裡拿出來的高導冷淬火脂。點在黃銅內軸的導熱尾巴上，能把內環的虛熱迅速抽出來，讓這根黃銅導熱銷產生極微量的冷縮，剛好退開咬死在死點上的那一點定位齒尖——諾亞，用你的抓鉤卡鉗幫個忙，趁現在把側面的六角洩壓栓往左轉四分之一圈，讓裡頭的預載彈簧自己彈回來。」",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "諾亞以機械抓鉤轉六角洩壓栓四分之一圈，解除卡阻而非醫療治癒。",
+            "claim_ids": [
+              "SRC-ALL-7160"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 349,
+            "quote": "艾莉維亞只挑出了剛才那黃豆大小的一點，隨手把蓋子重新扣緊，將這罐幾乎還是滿的整罐淬火脂直接塞進了那年輕姑娘手裡，拍了拍手站起身，神色認真地叮囑了一句：",
+            "topic": "ASSISTANT_CANDIDATE",
+            "finding": "ASSISTANT_CANDIDATE",
+            "authority": "已使用一點的淬火脂第一罐送給小禾，不能在十四章再算庫存。",
+            "claim_ids": [
+              "SRC-ALL-7161"
+            ]
+          },
+          {
+            "section_index": 7,
+            "line": 373,
+            "quote": "諾亞靠在紅絨布椅背上，右手隔著風衣按了按槍套底部——在進入九區高空極寒沉降帶與那片霜脈天然寒晶內襯的雙重低溫包覆下，槍管下方那根一尺長的五百年黑銷，自頂層超載以來表層殘留的外部熱負荷已經進一步收斂平息；至於被那顆半噸母核強行激發三天之後，它內在深層的狀態究竟如何、是否還留有其他未知的後效，眼下還無法單憑環境降溫做出斷定。",
+            "topic": "OPEN_UNVERIFIED",
+            "finding": "OPEN_UNVERIFIED",
+            "authority": "黑銷只見外部熱負荷減少，深層後效仍未知，不能升格內部同化。",
+            "claim_ids": [
+              "SRC-ALL-7162"
+            ]
+          }
+        ],
+        "countercheck_questions": [
+          {
+            "kind": "AUTHORITY_BOUNDARY",
+            "line": 1,
+            "quote": "> **R1b 版本紀錄**：衍生自保留不變的第十三章 R1a（原 Git blob `a869be5233f9b1bd570f7149ad488b876cc172bb`）。僅局部修正檢票場景的「前夜」指時為「先前」，避免把第一天清晨結案誤稱為第三天搭車前夜。其餘正文保留，這是 CANDIDATE／NON-CANON／PREWRITE HOLD，不是正式 Canon。",
+            "question": "R1b是否已是作者採案的正式新正文？",
+            "finding": "R1b是可見R1a重建後的單點修訂候選，正式零章。"
+          },
+          {
+            "kind": "VERSION_OR_LATER_REVISION",
+            "line": 93,
+            "quote": "「從上個禮拜開始，九區深處『三號排熱冰淵』底下的老冰層也不知道怎麼回事，接連震了好幾回！剛起頭那幾天還只是掉冰渣子，結果到了三天前，管理三號冰淵北口的『寒泉礦業聯會』突然發了通告，說底下有條高壓蒸氣副管給震裂了，直接把通往三號冰淵底部的兩條採掘斜井全封了檢修，連帶著把霧凇坡那邊一半的貨運車皮都調去拉加固鋼樑和防爆水泥了，我們這才活生生在站上乾等了三天！」",
+            "question": "冰淵母核真相是否已被實地驗證？",
+            "finding": "押車消息與母核拓印僅形成假說，尚未親訪確認。"
+          },
+          {
+            "kind": "MISSED_MATERIAL_CLAIM",
+            "line": 317,
+            "quote": "她只是抬起右手，用大拇指撥開右眼單眼測距儀上的六瓣黃銅防塵蓋，隔著幾步距離快速掃了一眼老鉚工左肩義肢外側的船塢鋼印與卡死結構，隨後低下頭，單手打開自己身後那只「霜脈寒鐵匣」的卡扣，取出了昨天在五環齒背舊市買沉銀條時掌櫃白送的那兩罐黑鐵添頭之一——那罐一直緊貼著匣內「天然寒晶內襯」存放、罐身凍得結了一層白霜的「極寒淬火脂」。",
+            "question": "首罐淬火脂是否仍在主角物品箱？",
+            "finding": "第一罐已送給老鉚工女兒，下一章只能用第二罐。"
+          },
+          {
+            "kind": "CROSS_FILE_IMPACT",
+            "line": 373,
+            "quote": "諾亞靠在紅絨布椅背上，右手隔著風衣按了按槍套底部——在進入九區高空極寒沉降帶與那片霜脈天然寒晶內襯的雙重低溫包覆下，槍管下方那根一尺長的五百年黑銷，自頂層超載以來表層殘留的外部熱負荷已經進一步收斂平息；至於被那顆半噸母核強行激發三天之後，它內在深層的狀態究竟如何、是否還留有其他未知的後效，眼下還無法單憑環境降溫做出斷定。",
+            "question": "外部降溫是否證明黑銷深層復原？",
+            "finding": "深層同化與三日激發後效不明，不能以溫度代替證據。"
+          }
+        ],
+        "dependency_impact_review": [
+          {
+            "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+            "git_blob_sha": "a869be5233f9b1bd570f7149ad488b876cc172bb",
+            "impact": "R1b和前一版R1a、十二章原料及十四章R1a道具後續相互影響，保留候選與未知。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+            "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30",
+            "impact": "R1b和前一版R1a、十二章原料及十四章R1a道具後續相互影響，保留候選與未知。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          },
+          {
+            "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+            "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a",
+            "impact": "R1b和前一版R1a、十二章原料及十四章R1a道具後續相互影響，保留候選與未知。",
+            "review_status": "VERIFIED_FOR_DESCRIBED_IMPACT__NOT_FULL_FILE_ACCEPTANCE"
+          }
+        ],
+        "second_pass_method": "順序檢查十三章候選機械修理、採購、北站檢票、跨區火車、洗衣與醫療，以及半噸母核和黑銷未知，回看十四章物件後果。",
+        "unresolved_risks": [
+          "R1b未核定Canon，母核出處仍未證實。"
+        ]
+      }
+    }
+  ],
+  "staged_graph_records": [
+    {
+      "audit_id": "SRC-ALL-7130",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-1｜HISTORICAL_CORRECTION",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7130-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7130-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7131",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-2｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 9
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7131-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7131-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7132",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-3｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 10
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7132-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7132-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7133",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-4｜AUTHOR_CONFIRMED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 14
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7133-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7133-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7134",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-5｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 27
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7134-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7134-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7135",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-6｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 38
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7135-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7135-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7136",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-7｜OPEN_UNVERIFIED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 43
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7136-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7136-2",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7137",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-8｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 49
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7137-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7137-2",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7138",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-9｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 57
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7138-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7138-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7139",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/1-10｜HISTORICAL_CORRECTION",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+        "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+        "line": 70
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7139-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7139-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7140",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/2-1｜HISTORICAL_CORRECTION",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+        "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+        "line": 3
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7140-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7140-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7141",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/2-2｜PROCEDURAL_NON_CANON",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+        "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+        "line": 7
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7141-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7141-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7142",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/2-3｜HISTORICAL_CORRECTION",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+        "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+        "line": 12
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7142-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7142-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7143",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/2-4｜HISTORICAL_CORRECTION",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+        "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+        "line": 20
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7143-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7143-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7144",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/2-5｜OPEN_UNVERIFIED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+        "git_blob_sha": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+        "line": 23
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7144-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7144-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7145",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-1｜HISTORICAL_CORRECTION",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 1
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7145-1",
+          "target_type": "entity",
+          "target_id": "author_process",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7145-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7146",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-2｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 29
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7146-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7146-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7147",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-3｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 79
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7147-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7147-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7148",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-4｜OPEN_UNVERIFIED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 93
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7148-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7148-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7149",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-5｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 113
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7149-1",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7149-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7150",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-6｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 145
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7150-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7150-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7151",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-7｜OPEN_UNVERIFIED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 153
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7151-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7151-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7152",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-8｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 173
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7152-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7152-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7153",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-9｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 201
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7153-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7153-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7154",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-10｜OPEN_UNVERIFIED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 217
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7154-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7154-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7155",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-11｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 247
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7155-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7155-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7156",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-12｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 267
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7156-1",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7156-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7157",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-13｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 287
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7157-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7157-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7158",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-14｜OPEN_UNVERIFIED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 307
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7158-1",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7158-2",
+          "target_type": "entity",
+          "target_id": "world_layers",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7159",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-15｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 317
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7159-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7159-2",
+          "target_type": "entity",
+          "target_id": "society",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7160",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-16｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 333
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7160-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7160-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7161",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-17｜ASSISTANT_CANDIDATE",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 349
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7161-1",
+          "target_type": "entity",
+          "target_id": "alivia",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7161-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    },
+    {
+      "audit_id": "SRC-ALL-7162",
+      "reviewed_status": "CANDIDATE_OR_EDITORIAL_BOUNDARY",
+      "summary": "B52/3-18｜OPEN_UNVERIFIED",
+      "authority": "SCOPE_LIMITED_CROSS_REFERENCE_ONLY__SEE_ORIGINAL_AUDIT_FOR_ACTUAL_AUTHORITY",
+      "primary_source_anchor": {
+        "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+        "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+        "line": 373
+      },
+      "relations": [
+        {
+          "link_id": "A2G-SRC-ALL-7162-1",
+          "target_type": "entity",
+          "target_id": "original_gun",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        },
+        {
+          "link_id": "A2G-SRC-ALL-7162-2",
+          "target_type": "entity",
+          "target_id": "narrative",
+          "connection": "EVIDENCE_SCOPED_DOMAIN_RELEVANCE__NOT_CANON_PROMOTION"
+        }
+      ],
+      "guardrail": "圖邊僅資料回查，非已證世界因果或作者定案。"
+    }
+  ],
+  "source_quote_count": 33
+}

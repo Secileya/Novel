@@ -24,19 +24,19 @@
     "nine_folder_files": 18,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第50批12份8,406行／192來源命題／347原文引文／384條非Canon圖邊通過main CI42981898069及Drive索引42981898170，351／366已驗收、剩15；歷史171角色來源全數通過編輯性驗收，正式0章PREWRITE HOLD、未提升Canon。",
-    "targeted_audit_records": 7129,
-    "targeted_audit_verified_quotes": 7320,
+    "important": "第51批主CI42986481381與Drive CI42986481469成功；第52批最後3份474行13段33命題66非Canon圖邊已提交待主CI。來源暫登錄366／366，Canon仍0章/PREWRITE HOLD；後續新增來源仍入待辦。",
+    "targeted_audit_records": 7162,
+    "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 363,
-    "all_source_full_file_editorial_remaining": 3,
+    "all_source_full_file_editorial_accepted": 366,
+    "all_source_full_file_editorial_remaining": 0,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 3
+    "all_source_full_file_editorial_accepted_pending_ci": 3,
+    "all_source_full_file_editorial_pending": 0
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -71,7 +71,7 @@
         "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
         "00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json"
       ],
-      "first_action": "第45批CI完成前只承認第44批279/360成功；確認第45批SHA分片、來源與依賴，並等待Actions全部通過，失敗要定位修正。下一批仍以12份防重後執行。",
+      "first_action": "第52批已送最後3份整檔語義驗收；核main CI與Drive索引。若366／366成功，對後續新增來源採動態納管、其他改版依賴重驗，不能虛構第53批。",
       "acceptance": [
         "每個Git提交樹中的來源都有唯一、動態可計數的狀態；原335及未來新增均涵蓋，accepted+pending=live total。",
         "每份達成相同實質完整標準：所有段落、原始來源/轉貼分界、作者後修、權威/強度/發生進度、所有有效版本與未決事項。",
@@ -83,44 +83,31 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 363,
-        "pending": 3,
+        "verified_complete": 366,
+        "pending": 0,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第51批12份2833行、72審核段、72條SHA命題、143引文及144條非Canon圖關聯已建立Git資料候選並在GitHub提交待主CI確認；全庫預登錄363／366，3待審，正式Canon0章。",
-        "stage": "BATCH51_12_SUBMITTED_PENDING_MAIN_CI",
-        "last_verified_commit": "40c522169c89794e90e3416fc785ac8b762e03a0",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42981898069",
+        "note": "第52批3份已製作內容特定整檔語義分片、版本SHA和四類反問，待GitHub主CI。動態來源目前366，零待審，尚未作者定案。",
+        "stage": "BATCH52_3_SUBMITTED_PENDING_MAIN_CI",
+        "last_verified_commit": "5dbd38efa76606d72a8f39352c65e546fc5503e3",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42986481381",
         "cross_source_next_batch": [],
         "historical_164_accepted": 153,
         "historical_171_accepted": 171,
         "last_batch_files": [
-          "09_跨AI原始來源/20261111_Gemini第十四章R1a_A寫前雙軌補證與修訂決策_使用者完整回貼_非正史.md",
-          "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
-          "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
-          "待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
-          "待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
-          "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
-          "待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
-          "待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
-          "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
-          "待定正文/順讀_最新補丁候選/10_風停以後.md",
-          "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
-          "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md"
-        ],
-        "last_batch_full_lines": 2833,
-        "last_batch_sections": 72,
-        "last_batch_new_claims": 72,
-        "last_batch_new_anchors": 143,
-        "next_batch": [
           "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
           "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
           "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md"
         ],
+        "last_batch_full_lines": 474,
+        "last_batch_sections": 13,
+        "last_batch_new_claims": 33,
+        "last_batch_new_anchors": 33,
+        "next_batch": [],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
           "target_batch_files": "up to 12 guided by approx 2600 lines, adjust for risk",
@@ -802,6 +789,26 @@
           "drive_index_url": "https://github.com/Secileya/Novel/actions/runs/42981898170",
           "verified_commit": "40c522169c89794e90e3416fc785ac8b762e03a0",
           "unverified_ci": false
+        },
+        "batch_52": {
+          "stage": "SUBMITTED_PENDING_MAIN_CI",
+          "source_count": 3,
+          "source_lines": 474,
+          "sections": 13,
+          "claims": 33,
+          "source_anchors": 33,
+          "graph_edges": 66,
+          "source_total": 366,
+          "registered_total_pending_ci": 366,
+          "pending_total": 0,
+          "shard_sha": "e415f556319cd2149694b37343b5b8650553f1fa",
+          "unmodified_originals": true,
+          "source_paths": [
+            "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+            "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+            "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md"
+          ],
+          "previous_batch_main_ci": "https://github.com/Secileya/Novel/actions/runs/42986481381"
         }
       }
     },
@@ -1072,17 +1079,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch51",
-    "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 2833,
-    "review_sections": 72,
-    "atomic_findings": 72,
-    "original_line_anchors": 143,
-    "nonCanon_graph_links": 144,
-    "all_source_accepted": 363,
-    "all_source_pending": 3,
-    "state": "BATCH51_12_SUBMITTED_PENDING_MAIN_CI",
-    "notes": "第51批內容為Gemini第14章A寫前補證與02–12順讀候選，分片SHA33e7144，原文皆未覆寫、當批GitHub Actions待執行。嚴守非Canon，正式0章。；本批72命題主錨與143附加引文分屬不同計數，舊驗證器累計只按72主錨；已修正差額71而不刪引文。"
+    "task": "NEXT-009 batch52",
+    "source_files_attested_this_turn": 3,
+    "original_lines_reviewed": 474,
+    "review_sections": 13,
+    "atomic_findings": 33,
+    "original_line_anchors": 33,
+    "nonCanon_graph_links": 66,
+    "all_source_accepted": 366,
+    "all_source_pending": 0,
+    "state": "BATCH52_3_SUBMITTED_PENDING_MAIN_CI",
+    "notes": "來源原稿及R0/R1a/R1b候選皆未改動，僅增量語義分片並修正零待審時排批檢驗。CI尚待驗證。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1102,13 +1109,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH51_12_SUBMITTED_PENDING_MAIN_CI",
-    "scope": "第51批12份原文2,833行、72段、72條SHA命題、143逐行引文、144條非Canon圖關聯已建立並提交待CI，保持第05章錯誤猜測到第09章工程實證及第14章轉錄邊界。",
+    "stage": "BATCH52_3_SUBMITTED_PENDING_MAIN_CI",
+    "scope": "第52批3份474行、13連續段33命題、66條非Canon圖譜：Gemini第14章C差異與金錢道具帳、D存檔能力回執、第13章R1b候選全文。來源未改。",
     "commit": "PENDING_MAIN_PUSH",
     "ci_result": "pending",
-    "ci_run_url": "本批尚未回報 CI",
-    "not_finished": "仍有3份來源待整檔驗收；本批12份待main CI確認，不可提前視為成功。正式正文0章PREWRITE HOLD。",
-    "next_step": "先核第51批main CI及Drive索引；成功後更新驗證狀態，再排09_C、09_D、13_R1b三份。"
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42986481381",
+    "not_finished": "當批主CI與Drive索引待核；正式小說0章/PREWRITE HOLD；新來源/後修版本仍需動態重驗。",
+    "next_step": "檢查第52批main Actions兩種CI；成功則完成當前366來源的編輯性整檔驗收登記，改為增量來源與語義品質抽查，不重計已有來源。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -1158,6 +1165,7 @@
     "00_分類導航/設定關聯引擎/20261111_第四十八批12份_舊勘誤首篇與歷史分冊_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十九批12份_巨根商旅歷史合冊與場景來源_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第五十批12份_13章原文12章合輯靜謐記憶與14章R1a_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261111_第五十一批12份_14章A補證與02至12章順讀候選_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261111_第五十一批12份_14章A補證與02至12章順讀候選_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第五十二批3份_十四章C_D回執與十三章R1b_全文語義v2.json"
   ]
 }
