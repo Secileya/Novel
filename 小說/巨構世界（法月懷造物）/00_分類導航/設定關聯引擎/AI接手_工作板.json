@@ -14,7 +14,7 @@
     "warning": "PR CI success，main合併後仍需查證；編輯驗收非作者Canon。"
   },
   "fact_snapshot": {
-    "raw_source_files": 351,
+    "raw_source_files": 355,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,7 +22,7 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 11,
+    "nine_folder_files": 13,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
     "important": "第40批已於PR驗證12份全文語義分片，動態351來源中登記255份、待審96份；正式小說0章 PREWRITE HOLD。",
@@ -32,7 +32,7 @@
     "full_file_editorial_remaining": 61,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 255,
-    "all_source_full_file_editorial_remaining": 96,
+    "all_source_full_file_editorial_remaining": 100,
     "historical_164_full_file_acceptance": 135,
     "historical_171_full_file_acceptance": 110,
     "all_source_progress_is_dynamic": true
@@ -83,7 +83,7 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 255,
-        "pending": 96,
+        "pending": 100,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -884,7 +884,7 @@
     "original_line_anchors": 155,
     "nonCanon_graph_links": 310,
     "all_source_accepted": 255,
-    "all_source_pending": 96,
+    "all_source_pending": 100,
     "state": "BATCH40_PR_CI_VERIFIED__MAIN_PENDING",
     "notes": "第40批12份3889行經push與PR兩條CI成功，分支255/351；原文與舊稿完全未改，待合併main及確認main CI。"
   },
