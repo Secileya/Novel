@@ -9,6 +9,7 @@ const board=JSON.parse(fs.readFileSync(path.join(here,"AI接手_工作板.json")
 const task=board.tasks.find(t=>t.id==="NEXT-009");
 if(!task||!task.progress)throw Error("NEXT-009 progress missing");
 const p=task.progress, f=board.fact_snapshot||{}, last=board.latest_progress||{}, delivered=board.last_delivered_work||{};
+const qa=board.tasks.find(t=>t.id==="NEXT-011");
 const total=f.raw_source_files, accepted=p.verified_complete, pending=p.pending;
 if(!Number.isInteger(total)||!Number.isInteger(accepted)||!Number.isInteger(pending)||accepted+pending!==total)throw Error("handoff counts inconsistent");
 if(f.all_source_full_file_editorial_accepted!==accepted||f.all_source_full_file_editorial_remaining!==pending)throw Error("workboard snapshot is stale");
@@ -35,9 +36,16 @@ const lines=[
  "- 其他限制："+(last.not_finished||"全部未驗收來源仍需逐份實際閱讀"),
  "- 下步："+(last.next_step||"依 NEXT-009.next_batch 查核"),
  "",
+ "## 下一個主目標（已登記，與整檔驗收數量分開）",
+ "",
+ "- "+(qa?qa.id+"｜"+qa.name:"未登記；先更新工作板"),
+ "- 狀態："+(qa?.status||"未登記")+"；QA進度："+(qa?.progress?.stage||"未知"),
+ "- 首個實際工作："+(qa?.first_action||"未設定"),
+ "- 新增/改版的優先路線：NEXT-009／NEXT-010；[完整SOP](來源新增與既有檔案更新_CI與歷史批次處理SOP_20261111.md)。",
+ "",
  "## 下一批具體來源",
  "",
- ...(next.length?next.map((x,i)=>String(i+1)+". "+x):["（待工作板填入 next_batch，禁止猜測）」"]),
+ ...(next.length?next.map((x,i)=>String(i+1)+". "+x):pending===0?["（目前來源待審0；改依NEXT-011進行跨檔語義QA。新來源或SHA改版才另開來源驗收批。）"]:["（待工作板填入 next_batch，禁止猜測）」"]),
  "",
  "## 接手故障經驗與每批必回寫",
  "",

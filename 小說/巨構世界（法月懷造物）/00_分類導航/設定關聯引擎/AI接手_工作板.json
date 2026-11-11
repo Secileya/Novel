@@ -54,9 +54,58 @@
     "goal_not_fixed_335": "335 historical baseline, total grows; 164/171 historic provenance, not mutually exclusive completion levels. Report accepted_all/total and remaining_all first.",
     "batch_full_semantic_v2": "Use workload/risk-based batch planning; newly attested files require semantic_quality_v2. Existing six v1 proofs kept at historical provenance level, not automatically upgraded. CI checks section materiality and cross-batch reverse dependencies; no semantic omniscience claim.",
     "handoff_knowledge_base": "Every assistant MUST read AI接手_經驗回寫與Git交易規範.md and append an issue/solution entry to AI接手_經驗更新日誌.jsonl after updating latest batch progress; CI validates journal against workboard.",
-    "shard_overlay": "Legacy 1.8MB ledger / 2.45MB bridge are read-only baselines; append small verified Git blob shards in AI接手_增量分片清單.json, with scripts using AI接手_分片讀取.mjs. Never overwrite legacy in routine batches."
+    "shard_overlay": "Legacy 1.8MB ledger / 2.45MB bridge are read-only baselines; append small verified Git blob shards in AI接手_增量分片清單.json, with scripts using AI接手_分片讀取.mjs. Never overwrite legacy in routine batches.",
+    "post_full_coverage_goal": "當有效來源待審為0且最新全庫主CI成功，下一主要交付應為NEXT-011高風險語義QA而非虛構新BATCH；當新檔、SHA更新、刪除/遷移或依賴失效，先處理NEXT-009/NEXT-010並讓受影響驗收重驗，保留歷史CI。"
   },
   "tasks": [
+    {
+      "id": "NEXT-011",
+      "priority": 1,
+      "status": "READY",
+      "name": "全庫366份CI驗收後：跨文件高風險語義品質稽核、勘誤與持續回歸（非新增驗收批）",
+      "purpose": "在366／366來源具備來源SHA、全文編輯性證據及GitHub全庫CI成功的基礎上，持續查出「結構驗收通過但故事內容可能錯」的跨章、跨AI、跨版本問題，核對金錢、道具物權、人物知情、時間線、地理、能力及作者權威；形成可追溯的非Canon QA勘誤與必要回歸測試。新來源與既有檔案SHA改動的動態納管／撤銷仍由NEXT-009和NEXT-010協同處理；不人工虛構BATCH53，不能只為增加計數重複驗收來源。",
+      "required_read_files": [
+        "00_分類導航/設定關聯引擎/來源新增與既有檔案更新_CI與歷史批次處理SOP_20261111.md",
+        "00_分類導航/設定關聯引擎/AI接手_工作板.json",
+        "00_分類導航/設定關聯引擎/全量來源_完整標準與新增來源流程.md",
+        "00_分類導航/設定關聯引擎/AI接手_經驗回寫與Git交易規範.md",
+        "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+        "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md"
+      ],
+      "first_action": "先核main HEAD、逐檔收據 artifact 與366/366最新主CI；建立QA01第01～14章跨文件現金／道具／版本／知情證據表，以Git blob SHA及行號逐條標記「已證實／疑似矛盾／另一版本／未決」。優先覆核銅索幣漏記、第三章150對15、十一章五銅免收是否退款、第十三章R1a/R1b唯一正文變更；回寫QA勘誤與引用，不覆寫歷史Gemini回貼或未採納正文。",
+      "acceptance": [
+        "QA01必須分別讀取相關候選章及Gemini歷史資料，記下精確Git原文SHA/行號、引用當時是哪個候選版本、角色可知範圍與作者/AI權威；不能把C轉貼誤當平台原始位元備份或作者Canon。",
+        "建立可審查、可持續回歸的第01～14章現金流與道具狀態稽核：已看到的銅索幣支付（第01章2、第06章2、第10章21、第11章5，共30枚）、第13章找回4枚、銀鉚券753張候選計算與150/15疑點分開記帳；初始銅幣數、十一章熱水費五銅是否實際退款、第02章『蘇珊娜找零』來源及未證實匯率必須保持OPEN不得猜測。",
+        "交叉核對第12～14章四根沉銀（一根贈與、三根消耗）、兩罐淬火脂（首罐交小禾、次罐剩半）、六枚界楔狀態、母核與舊艙來源不確定性、老鉚工緊急卸壓非醫療治癒、角色不能讀取作者全知訊息；非Canon候選不得升正式版本。",
+        "對R1a/R1b等版本做有SHA依據的實際差異核對，保留原稿與作者指定台詞；需要修正文稿時僅建立新補丁候選並註明所屬版本、影響鏈及需作者確認的事項。",
+        "QA發現須新增獨立非Canon勘誤/回歸紀錄與可核原文引文，對已連圖譜／下游候選提出影響清單；必要時加入CI測試。不能將CI結構PASS當作語義零錯。",
+        "每輪先核Git tree總數與最新版主CI/逐檔收據；若新增或修改來源，交由NEXT-009/NEXT-010優先撤銷/初次驗收，保留歷史批次CI與分片，不重計已驗來源；對遷移、刪除或任意大幅改寫，未證實支持前保持待審。",
+        "每次實際完成交付都寫入工作板、來源SHA與CI連結、經驗日誌及自動交接，必要時擴充非Canon品質QA回歸；正式小說仍0章PREWRITE HOLD。"
+      ],
+      "blocked_on": null,
+      "complete_evidence": [],
+      "progress": {
+        "stage": "REGISTERED_READY__QA_NOT_YET_SIGNED",
+        "registered_at": "2026-11-11",
+        "baseline_sources": 366,
+        "baseline_full_file_accepted": 366,
+        "baseline_pending": 0,
+        "last_full_universe_ci": "https://github.com/Secileya/Novel/actions/runs/42992043778",
+        "per_file_ci_receipts": "https://github.com/Secileya/Novel/actions/runs/42992043778",
+        "audit_priority": "QA01_CH01_TO_CH14_CASH_PROPS_VERSION_KNOWLEDGE",
+        "actual_QA01_evidence_file": "NOT_YET_COMMITTED",
+        "qa_conclusions_signed_off": 0,
+        "discovered_questions": [
+          "候選Gemini C：銅幣合計25漏列第1章2、第6章2、第10章額外小費1；可見支付30、13章找零4，未定期初現金",
+          "第3章300分兩份150，諾亞卻說十五張銀券；面額單位待釐清",
+          "第11章原已付款的5銅熱水費後來宣告免收，原文無明確退款",
+          "第2章蘇珊娜找零來源在當前順讀候選未核實",
+          "13章R1a/R1b扣除標頭只有前夜→先前一處正文差異",
+          "12→14章沉銀、淬火脂、六枚界楔及角色知情邊界"
+        ],
+        "unresolved": "所有上述均為非Canon編輯性核對；需先建立原文SHA勘誤卡與跨檔回查，才能判定具體修訂。"
+      }
+    },
     {
       "id": "NEXT-009",
       "priority": 1,
@@ -1108,7 +1157,8 @@
     "Update workboard and preserve candidate/non-Canon and PREWRITE HOLD",
     "Do not claim 171 pending full semantic reviews are done from 41 targeted audit findings",
     "Every assistant handoff/reply must report completed work, unfinished tasks, exact next step and verification status; consult --report.",
-    "For every batch or materially changed handoff, update append-only AI接手_經驗更新日誌.jsonl with actual problems, root causes, fixes, verified CI and next action; run AI接手_經驗回寫驗證.mjs."
+    "For every batch or materially changed handoff, update append-only AI接手_經驗更新日誌.jsonl with actual problems, root causes, fixes, verified CI and next action; run AI接手_經驗回寫驗證.mjs.",
+    "來源0待審時，NEXT-011是最新可執行品質目標；新檔/來源變更優先NEXT-009/NEXT-010，舊歷史CI留存且逐檔SHA重審。交接應展示NEXT-011首個QA問題與責任，不以366/366冒充內容完全無誤。"
   ],
   "last_verified_handoff_install": {
     "baseline_commit": "67be4a1407314bcab8699bfbfab0ccb79240dbfb",
@@ -1124,8 +1174,8 @@
     "commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42989171348",
-    "not_finished": "當前待審來源0；未來Git新增或既有來源SHA變更仍需重驗；歷史AI語義驗收不等於作者採案。正式正文0章PREWRITE HOLD。",
-    "next_step": "下次先核Git HEAD/動態來源數與主CI；若來源仍366份且SHA未變，改為已驗收材料的高風險語義品質抽查，不重計原來源；新增或改版才排下一批。"
+    "not_finished": "目前Git來源366/366已通過全庫CI但深層故事語義品質尚須NEXT-011跨檔稽核；已發現候選貨幣與文字疑點尚未正式判案。未來新增/變更原檔會動態失效重審；AI編輯性驗收非作者Canon，正式0章PREWRITE HOLD。",
+    "next_step": "優先NEXT-011：QA01第01–14章跨候選現金流／道具／角色知情與版本來源SHA勘誤；每輪先核全庫Git HEAD、最新CI與逐檔收據。若新檔／舊檔改版，先由NEXT-009/NEXT-010動態納管與撤銷，不重算歷史批次。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
