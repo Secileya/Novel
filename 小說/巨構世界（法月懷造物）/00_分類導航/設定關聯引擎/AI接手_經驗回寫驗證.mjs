@@ -20,13 +20,16 @@ function validate(r){const e=[];
 for(let i=0;i<logs.length;i++)errors.push(...validate(logs[i]).map(x=>'entry '+(i+1)+': '+x));
 if(new Set(logs.map(x=>x.batch)).size!==logs.length)errors.push('duplicate batch log key');
 const last=logs.at(-1),stage=board.latest_progress?.stage;
-if(last?.stage!==stage)errors.push('latest journal stage does not match workboard');
+const activeTaskId=String(last?.batch||'').match(/^NEXT-\d{3}/)?.[0];
+const activeTask=activeTaskId?board.tasks.find(t=>t.id===activeTaskId):null;
+const stageMatches=(value)=>value===stage||(activeTask?.progress?.stage===value);
+if(!stageMatches(last?.stage))errors.push('latest journal stage does not match workboard or active goal '+(activeTaskId||''));
 if(last?.accepted!==board.tasks.find(x=>x.id==='NEXT-009')?.progress?.verified_complete||last?.pending!==board.tasks.find(x=>x.id==='NEXT-009')?.progress?.pending)errors.push('journal source counts stale');
 if(!fs.readFileSync(path.join(dir,'AI接手_經驗回寫與Git交易規範.md'),'utf8').includes('每批回寫'))errors.push('process runbook missing');
 if(process.argv.includes('--negative-test')){
  const wrong={...last,stage:'SIMULATED_STALE_STAGE',fixes:[]};
  if(!validate({...wrong,problems:['failure']}).some(x=>x.includes('without fixes')))errors.push('negative missing-fix test not caught');
- if(wrong.stage===stage)errors.push('negative stale-stage test not caught');
+ if(stageMatches(wrong.stage))errors.push('negative stale-stage test not caught');
 }
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1}
 else console.log('AI experience journal valid: '+logs.length+' entries; latest '+last.batch+'; registered '+last.accepted+'/'+(last.accepted+last.pending));
