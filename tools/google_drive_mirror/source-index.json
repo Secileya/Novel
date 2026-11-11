@@ -3,14 +3,19 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "20b9f1958dd4a0cd6a41c645e22b5ababc4069cb",
-  "sourceTreeSha": "c900ad15f0a1171263a4c4ab00b1fe95b930fc32",
-  "previousSourceCommit": "deefdb2f80c8bfa213563e3dba477331c830db34",
+  "sourceCommit": "03d924098ee230f092a0e3c43ad079c88a4005f5",
+  "sourceTreeSha": "e9673150ea44e2dbdb1efac30534ddb79e3630d7",
+  "previousSourceCommit": "20b9f1958dd4a0cd6a41c645e22b5ababc4069cb",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
-      "sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
-      "change": "added"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
+      "sha": "889092938178dba11b06201dd931e7b0f9e00533",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
+      "sha": "bab28c114d41f8d622fbd9cd0fb5e4552dabf003",
+      "change": "modified"
     }
   ],
   "removedFiles": [],
@@ -607,8 +612,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "84f3f5f9a7a31928c2916feaab779944d7ee502a",
-      "size": 62298
+      "sha": "889092938178dba11b06201dd931e7b0f9e00533",
+      "size": 62349
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
@@ -862,8 +867,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "aea2f9b7708d65be53d432071962edda95a458df",
-      "size": 7669
+      "sha": "bab28c114d41f8d622fbd9cd0fb5e4552dabf003",
+      "size": 7650
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI原始討論來源與版本替代證據鏈.json",
