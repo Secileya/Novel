@@ -5,14 +5,21 @@
   "r0_path": "待定正文/純正文_Gemini/第十六章_斜拉鋼纜驗收鉛牌與零下七十八度氣密前室_R0_Gemini兩批接合初稿_20261112_非正史.md",
   "r0_git_blob_sha": "edce7baaca2bd50d596c4a2585a9b46670a4cf36",
   "r1_path": "待定正文/純正文_Gemini/第十六章_斜拉鋼纜驗收鉛牌與零下七十八度氣密前室_R1_GPT工務因果知情精修候選_20261112_非正史.md",
-  "patch_count": 102,
+  "patch_count": 103,
   "old_chinese_characters": 12500,
-  "new_chinese_characters": 12476,
+  "new_chinese_characters": 12478,
   "verification": {
     "r0_sha_guard": true,
     "one_patch_per_original_line": true,
     "unchanged_original_lines_identical": true,
-    "total_lines_same": true
+    "total_lines_same": true,
+    "all_patch_new_lines_readback_expected": true,
+    "additional_final_review_patches": [
+      138,
+      187,
+      188,
+      209
+    ]
   },
   "patches": [
     {
@@ -369,7 +376,7 @@
       "line": 138,
       "tag": "objects",
       "old": "「那敢情好！我們爺們三個就在西台新風口幫你們守著絞盤和滑車，把防墜主繩給你們放過去！一旦滿一刻鐘、或者張力表有半點不對勁，我就敲三下鋼軌，你們二位千萬別往死門裡鑽，聽見響兒就立刻撤回來！」",
-      "new": "「我們三個先在西台記下最後一組錶針，再往上方中繼籠撤。這面檢查焊縫的小折鏡你們拿著，別湊到門口去！我到時間敲三下鋼軌，一旦錶針突然變了，不用等三下，我先打撤離燈語！你們看見就立刻回來！」",
+      "new": "「我們三個把最後一組錶針記下，馬上就要撤。這面檢查焊縫的小折鏡你們拿著，別湊到門口去！我臨走前會敲三下鋼軌當撤離訊號；一旦錶針突然變了，不用等三下，我先打燈語！你們看見就立刻回來！」",
       "original_occurrences": 1
     },
     {
@@ -579,14 +586,14 @@
       "line": 187,
       "tag": "knowledge",
       "old": " * 左側的一號基座與中間的二號基座，頂部的透明防爆罩早已在不知多少年前被正式開啟過，裡面空空如也，基座正面的銘牌上蓋著舊時代高空工程樞紐的「常規樣本已移交」註銷鋼印。",
-      "new": " * 左側的一號基座與中間的二號基座，罩內看上去空空如也，銘牌似乎蓋著「常規樣本已移交」一類的註銷鋼印；隔著結霜的窗面，仍不敢斷言字字都看清了。",
+      "new": "左側的一號基座與中間的二號基座，罩內看上去空空如也，銘牌似乎蓋著「常規樣本已移交」一類的註銷鋼印；隔著結霜的窗面，仍不敢斷言字字都看清了。",
       "original_occurrences": 1
     },
     {
       "line": 188,
       "tag": "knowledge",
       "old": " * 唯獨最右側的「三號深冷封存基座」，此刻依然處於全封閉的運轉狀態！",
-      "new": " * 唯獨最右側的三號基座，罩殼仍合攏著，旁邊還有一點模糊的指示光亮著，似乎尚未完全失去作用。",
+      "new": "唯獨最右側的三號基座，罩殼仍合攏著，旁邊還有一點模糊的指示光亮著，似乎尚未完全失去作用。",
       "original_occurrences": 1
     },
     {
@@ -657,6 +664,13 @@
       "tag": "engineering",
       "old": "原本正往外狂瀉的淡青白色超低溫重霧瞬間被截斷了九成以上，緩衝前室內的壓差嘶鳴聲也隨之平息了下來。",
       "new": "原本不斷往外傾瀉的極寒重霧明顯減弱了，卻沒有完全消失；兩人也無法從這一點判斷內部壓差是否真正下降。",
+      "original_occurrences": 1
+    },
+    {
+      "line": 209,
+      "tag": "QA-final-continuity",
+      "old": "一刻鐘到了。",
+      "new": "老葛的撤離訊號到了。",
       "original_occurrences": 1
     },
     {
