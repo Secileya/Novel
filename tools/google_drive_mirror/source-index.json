@@ -3,13 +3,53 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "e21c29b30dfec5e24a120f6cd29e8408471c199f",
-  "sourceTreeSha": "ce013cda01a535fa282af3ed1b6b9d0203026852",
-  "previousSourceCommit": "7b033818aec45bbd30ef1102165f9825da996b32",
+  "sourceCommit": "6780f3436dbbc4395a42f4c591ee66b7af257d4c",
+  "sourceTreeSha": "8550db8e9c84ca92046476e386ee50c71851abf9",
+  "previousSourceCommit": "e21c29b30dfec5e24a120f6cd29e8408471c199f",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/000_專案交接.md",
-      "sha": "ac1a920587659e9003019aed57532024c916e00c",
+      "path": "小說/巨構世界（法月懷造物）/000_導覽與狀態.md",
+      "sha": "97dc041de6970e64cbd685f75e232d4aa629abf7",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/000_現行決策與主題索引.md",
+      "sha": "7d911b9b8bb8d1ac68bd5298d173ed48339a4a91",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/README.md",
+      "sha": "15ae7a50e081b9006c8c72beede440fe111c1b82",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
+      "sha": "aac084e9836f69c015337db665817f28b73e1527",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/README.md",
+      "sha": "c64b5546c0cae93b6a3f9cd71207cd7078eaa0ad",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/README.md",
+      "sha": "d104565c7e1af1d6da96bbcd9617d299f54d3775",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+      "sha": "e67e76e8643847ce0455bd672aada146bb793675",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/README.md",
+      "sha": "69a1f66387357c18f329645acbb3ed27ad6d3312",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文_總入口.md",
+      "sha": "0f307e1ed589bb181ebd4f2ced4fd8366449a144",
       "change": "modified"
     }
   ],
@@ -22,13 +62,13 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/000_導覽與狀態.md",
-      "sha": "37e0be0a077735093d205f5bb8e470744f4e9797",
-      "size": 135224
+      "sha": "97dc041de6970e64cbd685f75e232d4aa629abf7",
+      "size": 136651
     },
     {
       "path": "小說/巨構世界（法月懷造物）/000_現行決策與主題索引.md",
-      "sha": "196cf77bba5c17fab1f1ce2c49c6e7256035ae82",
-      "size": 163238
+      "sha": "7d911b9b8bb8d1ac68bd5298d173ed48339a4a91",
+      "size": 164665
     },
     {
       "path": "小說/巨構世界（法月懷造物）/000_舊設定寶庫_接手必讀_20261108.md",
@@ -57,8 +97,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/README.md",
-      "sha": "4cf87b2c5fa841e3b65fcf4829befa476bd73535",
-      "size": 1549
+      "sha": "15ae7a50e081b9006c8c72beede440fe111c1b82",
+      "size": 2994
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/原路徑對照表.json",
@@ -2187,13 +2227,13 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
-      "sha": "093871c0477384609acb032db775c51bc15a3764",
-      "size": 11384
+      "sha": "aac084e9836f69c015337db665817f28b73e1527",
+      "size": 12811
     },
     {
       "path": "小說/巨構世界（法月懷造物）/README.md",
-      "sha": "a81ac485a1632d172e71378b95bbffa43acb1e30",
-      "size": 22484
+      "sha": "c64b5546c0cae93b6a3f9cd71207cd7078eaa0ad",
+      "size": 23911
     },
     {
       "path": "小說/巨構世界（法月懷造物）/交接稽核/2026-11-04_巨構GitHub接手稽核_非正史.md",
@@ -2357,8 +2397,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/待定正文/README.md",
-      "sha": "5a56d76e2950f3b2dc72a42a6150d99efffaad2e",
-      "size": 31111
+      "sha": "d104565c7e1af1d6da96bbcd9617d299f54d3775",
+      "size": 32556
     },
     {
       "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第019_女主兩場獨立能力場景.md",
@@ -2507,8 +2547,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
-      "sha": "7137a2723d072bb5a8bfce86dd6b5927107c4079",
-      "size": 1115
+      "sha": "e67e76e8643847ce0455bd672aada146bb793675",
+      "size": 2578
     },
     {
       "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第一章_G0_懸艙開箱日_初稿短片段_非全章.md",
@@ -2747,13 +2787,13 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/README.md",
-      "sha": "d0eebce56ca0f91633cdadd4da7ee88ececaa7b6",
-      "size": 5792
+      "sha": "69a1f66387357c18f329645acbb3ed27ad6d3312",
+      "size": 7255
     },
     {
       "path": "小說/巨構世界（法月懷造物）/待定正文_總入口.md",
-      "sha": "cf8ac3a49dc81bfc46ad8db13bf28f9e5003879c",
-      "size": 13193
+      "sha": "0f307e1ed589bb181ebd4f2ced4fd8366449a144",
+      "size": 14620
     },
     {
       "path": "小說/巨構世界（法月懷造物）/舊資料_勘誤/00_全檔清冊與版本狀態.md",
