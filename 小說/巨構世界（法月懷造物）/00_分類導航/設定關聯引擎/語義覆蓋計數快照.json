@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "新增第十三章 R1b 僅修正『前夜』為『先前』的時間指稱，原R1a保留；動態來源366、339已驗收、27待審。",
+  "warning": "第50批12份8,406行、192 audit條目及347獨立引文已提交待CI；351/366暫登記、15待審。audit計數與material_quotes不可混用。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 6865,
-    "audited_original_quote_anchors": 7056,
+    "audited_batched_claims": 7057,
+    "audited_original_quote_anchors": 7248,
     "original_archive_09_files": 18,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第49批既有CI驗證成功；新增第13章R1b一處指時微修候選後動態339/366、待審27；正式Canon0章 PREWRITE HOLD。",
-    "full_file_editorial_accepted": 163,
-    "full_file_editorial_pending": 8,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 27,
-    "historical_164_accepted": 151,
-    "all_source_full_file_editorial_accepted": 339
+    "limitations": "第50批CI待驗；351/366暫登記，15來源待審；正式0章PREWRITE HOLD。",
+    "full_file_editorial_accepted": 171,
+    "full_file_editorial_pending": 0,
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 15,
+    "historical_164_accepted": 153,
+    "all_source_full_file_editorial_accepted": 351
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第13章 R1b 新候選由R1a單處差異建立；來源增1，動態339/366、27待審，不升Canon。"
+  "notice_2026_11_11": "第50批12份增量SHA待CI，351/366、剩15。"
 }
