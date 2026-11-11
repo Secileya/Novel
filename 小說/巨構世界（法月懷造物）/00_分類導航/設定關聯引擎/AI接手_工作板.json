@@ -25,7 +25,7 @@
     "nine_folder_files": 13,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第43批第152六章資料已登記待main CI；267／356份、待審89；07同SHA候選別名已在歷史總帳驗收不可重排，純正文尚待審；正式0章PREWRITE HOLD。",
+    "important": "第43批第152六章已登記267／356、待審89；防重名單已修、7條過短語義命題已補足，main CI重驗中；正式0章PREWRITE HOLD。",
     "targeted_audit_records": 6123,
     "targeted_audit_verified_quotes": 6314,
     "full_file_editorial_accepted": 122,
@@ -90,7 +90,7 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第43批已登記第152六章3,015行49段98項候選證據、196非Canon圖鏈、24反問與9依賴SHA；main CI未完成前暫記待驗，全庫267/356、待審89，正式0章PREWRITE HOLD。",
+        "note": "第43批已登記第152六章3,015行49段98項候選證據、196非Canon圖鏈、24反問與9依賴SHA；首輪CI修補後重新驗收待確認，全庫267/356、待審89，正式0章PREWRITE HOLD。",
         "stage": "BATCH43_1_PUBLISHED_PENDING_CI",
         "last_verified_commit": "8c2bb1e20aee479067b1448dc1eef2df43423e32",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42942238923",
@@ -637,7 +637,7 @@
           "graph_links": 196,
           "countercheck_questions": 24,
           "dependency_sha_checks": 9,
-          "shard_sha": "1fe37d22eae67511c8ea2fb179fdcdb50f008029",
+          "shard_sha": "7bf7195c35679ce7aa07cf66a88554742fb5c7e1",
           "accepted_if_verified": 267,
           "pending_if_verified": 89,
           "source_total": 356,
@@ -647,7 +647,8 @@
           "next_alias_sha_review": [
             "待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md"
           ],
-          "preflight_repair": "歷史總帳已驗收07_候選/152同SHA來源，從下批移除防重；第43批原稿證據不變。"
+          "preflight_repair": "歷史總帳已驗收07_候選/152同SHA來源，從下批移除防重；第43批原稿證據不變。",
+          "qa_repair": "CI 42944790372語義品質門檻指出7條中文命題摘要少於12字，已擴充而無變更原文錨點、id及圖譜。"
         }
       }
     },
@@ -928,7 +929,7 @@
     "all_source_accepted": 267,
     "all_source_pending": 89,
     "state": "BATCH43_COMMITTED_CI_PENDING",
-    "notes": "第43批原稿3015行SHA證據已入main待CI；歷史總帳早已接受07同SHA封存，因此修正下一批僅純正文抽出，不重計。"
+    "notes": "第43批六章3,015行來源不變，排批防重與7條語義描述不足已分次修正，main CI重驗中。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",

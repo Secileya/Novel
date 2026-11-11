@@ -236,14 +236,14 @@
     },
     {
       "path": "20261111_第四十三批1份_B2第152六章長稿_全文語義v2.json",
-      "git_blob_sha": "1fe37d22eae67511c8ea2fb179fdcdb50f008029",
+      "git_blob_sha": "7bf7195c35679ce7aa07cf66a88554742fb5c7e1",
       "batch": "BATCH43",
       "source_count": 1,
       "original_lines": 3015,
       "semantic_sections": 49,
       "claim_count": 98,
       "graph_relations": 196,
-      "note": "B2第152六章非正史從頭重寫，3,015行49段98條SHA命題196非Canon關係、24次反向檢查9個依賴SHA；與第110和B2短增量互斥，同SHA候選封存與純正文屬來源別名，不升Canon。"
+      "note": "B2第152六章非正史從頭重寫，3,015行49段98條SHA命題196非Canon關係、24次反向檢查9個依賴SHA；與第110和B2短增量互斥，同SHA候選封存與純正文屬來源別名，不升Canon。；CI材料檢查發現7條findings過短，補全文義，所有行號與圖連結不變。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",
