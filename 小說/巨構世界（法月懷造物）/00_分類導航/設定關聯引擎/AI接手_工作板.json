@@ -117,7 +117,20 @@
         "last_batch_sections": 99,
         "last_batch_new_claims": 99,
         "last_batch_new_anchors": 99,
-        "next_batch": [],
+        "next_batch": [
+          "000_專案交接.md",
+          "000_現行決策與主題索引.md",
+          "000_導覽與狀態.md",
+          "地圖/巨構世界層與厚重隔界_總圖V0.3.svg",
+          "地圖/巨構主升程地圖V0.5_頂端目標與下方深構_非正史.svg",
+          "地圖/巨構主升程骨架修正版V0.5.1_非對稱多代交錯_非正史.svg",
+          "地圖/巨構宏觀立體空域剖視V0.4_候選.svg",
+          "地圖/巨構導航資料_宏觀V0.3.json",
+          "地圖/K01折返厚殼帶_局部放大剖面V0.3.svg",
+          "地圖/R04高懸械林_內部構造圖V0.2重建.svg",
+          "地圖/T交通可達證據分層_三套候選路線V0.1.svg",
+          "地圖/W01肋海廣域_R01至R09大區圖V0.2重建.svg"
+        ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
           "target_batch_files": "up to 12 guided by approx 2600 lines, adjust for risk",
@@ -709,7 +722,9 @@
           "pending_registered": 57,
           "unmodified_originals": true,
           "shard_sha": "b9840e0ac4a0f6d674ed1ff3a4952f1cd4a3c261",
-          "ci_run_url": "PENDING"
+          "ci_run_url": "PENDING",
+          "preflight_repair": "第一次主CI 42962076994 FAIL 是NEXT_BATCH_EMPTY；重新用歷史總帳加25份SHA分片核實12份下一輪尚未驗收來源，僅更新工作板與交接、日誌，原分片不變。",
+          "failed_ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42962076994"
         }
       }
     },
