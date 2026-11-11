@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 370,
+    "raw_source_files": 374,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -21,22 +21,22 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 18,
+    "nine_folder_files": 21,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-11 單一第01～14章順讀鏈不變；作者要求修正第三章初次荒野合作配合車禍旁白及臉癢方向暗號，第三章沿原SHA重驗並同步完整合輯與語氣詞頻引文。舊正式原稿及其餘章不動，無重新計算已驗來源；動態366／370、待4份新來源，正式Canon0章 PREWRITE HOLD。",
+    "important": "2026-11-11 新存第十五章作者原始完整提示詞＋Gemini兩批可見原文＋純正文未完拼接，維持四來源全屬非Canon未驗收；第十五章止於500公尺平台，尚無後半章、C或D。第1至14章不改，366/374已驗（8待審），Canon0章 PREWRITE HOLD。",
     "targeted_audit_records": 7162,
     "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 366,
-    "all_source_full_file_editorial_remaining": 4,
+    "all_source_full_file_editorial_remaining": 8,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 4
+    "all_source_full_file_editorial_pending": 8
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -85,7 +85,7 @@
       "blocked_on": null,
       "complete_evidence": [],
       "progress": {
-        "stage": "QA01_SINGLE_READER_CONSOLIDATED_370_TOTAL_4_PENDING",
+        "stage": "QA02_CH15_PARTIAL_2_OF_UNKNOWN_BATCHES_PRESERVED_374_TOTAL_8_PENDING",
         "registered_at": "2026-11-11",
         "baseline_sources": 366,
         "baseline_full_file_accepted": 366,
@@ -125,7 +125,9 @@
         "new_reading_sources_pending": 4,
         "latest_reading_index": "待定正文/順讀_最新補丁候選/README.md",
         "latest_complete_reading": "待定正文/00_第01至14章_最新已套補丁候選_完整順讀合輯.md",
-        "last_chapter03_patch_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a"
+        "last_chapter03_patch_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a",
+        "latest_chapter15_partial": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_前兩批未完候選_20261111_非正史.md",
+        "status_note_20261111": "第15章兩批已接收、原始回貼先存，暫止五百公尺平台；尚未審成完成稿，舊14章仍為最後完整閱讀章。"
       }
     },
     {
@@ -155,14 +157,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 366,
-        "pending": 4,
+        "pending": 8,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "原366來源沒有憑空增加驗收；唯一最新順讀目錄保留舊完整來源的Git路徑，03/11/README做同SHA根據精確覆核；13/14章、14章合輯與回執共4新增待審來源。370總，366已驗，4待審。",
+        "note": "原366份已驗來源保留；原有4份待審，加上2026-11-11第15章作者完整提示詞、Gemini第一批A+B、第二批B、B兩批純正文未完合併，共4新增待審。現373? 不，應為374來源，366已驗/8待審。",
         "stage": "BATCH52_3_MAIN_CI_VERIFIED",
         "last_verified_commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42989171348",
@@ -182,7 +184,11 @@
           "待定正文/順讀_最新補丁候選/13_風車搖柄、狐毛內襯與除冰廳的白雨.md",
           "待定正文/順讀_最新補丁候選/14_懸柱荒林、暖磚棧與零下風槽的沉銀錘.md",
           "待定正文/00_第01至14章_最新已套補丁候選_完整順讀合輯.md",
-          "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md"
+          "08_交接勘誤與決議/20261111_正文台帳三補丁_順讀01至14生成回執_非正史.md",
+          "09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+          "09_跨AI原始來源/20261111_Gemini第十五章第一批_A與B前段_使用者回貼原文_非正史.md",
+          "09_跨AI原始來源/20261111_Gemini第十五章第二批_B五百公尺停點_使用者回貼原文_非正史.md",
+          "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_前兩批未完候選_20261111_非正史.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -1197,13 +1203,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-011",
-    "stage": "QA01_SINGLE_READER_CONSOLIDATED_370_TOTAL_4_PENDING",
-    "scope": "第三章作者指示局部修稿：移除兩獸必定三秒內被老搭檔打敗的無據旁白，保留兩名初識不足半天的陌生搭檔與教科書級配合車禍；在安全門後納入摸耳垂/額頭方向訊號、臉癢吐槽與共同笑場。已規劃第三章單章與01～14合輯同步SHA一致，新增可逆2行替換＋18行插入之舊來源重驗；其他章原稿未改。",
-    "commit": "9ddd3d2c7cc599e342a38911ad5f08d74070c023",
+    "stage": "QA02_CH15_PARTIAL_2_OF_UNKNOWN_BATCHES_PRESERVED_374_TOTAL_8_PENDING",
+    "scope": "依作者原有跨AI制度先存原文：保存第15章作者完整A/B/C/D寫作提示詞、Gemini第一批A+B前段、第二批B接續至約500公尺停點及純正文兩批合併未完候選。未收到第三批或C/D；不改第01至14章、不升Canon、不把Gemini自評視為GPT獨立實讀。",
+    "commit": "e1d3da036c7f26f0c05325a8991202b1ed90f8e5",
     "ci_result": "pending",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43007874350",
-    "not_finished": "新來源共4份（第13/14章、14章合輯、修訂回執）尚待完整語義v2審核，原366份已登記整檔證據；本輪當前main CI尚需重跑核定。正式0章PREWRITE HOLD。",
-    "next_step": "NEXT-009/010先完成最新待審4份整檔來源驗收，勿重計已驗366；完成前只稱可閱讀候選，不稱全庫370/370或正式採案。"
+    "not_finished": "第15章B尚未完成，尚未收到後半章、寫後C與保存D；既有4份待審＋新存4份共8份待編輯性全文驗收。原366份舊驗收不重計；正式Canon0章PREWRITE HOLD。",
+    "next_step": "收到Gemini第15章後半批次時，先原樣保存為新來源，核對拼接與連續性；完整章修訂前先做跨批QA。NEXT-009/010對既有4+新增4份按來源SHA進行正式語義v2覆核，不預報全部驗收通過。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
