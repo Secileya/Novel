@@ -14,7 +14,7 @@
     "warning": "第43批SHA分片經main CI成功，後續索引發佈不授予非正史內容Canon地位。"
   },
   "fact_snapshot": {
-    "raw_source_files": 356,
+    "raw_source_files": 360,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,17 +22,17 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 13,
+    "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第43批第152六章3015行已由main GitHub CI驗證成功；整檔來源267／356、待審89；07同SHA候選別名早已歷史驗收，純正文抽出待下批檢查；正式0章PREWRITE HOLD。",
+    "important": "第43批第152六章3015行已由main GitHub CI驗證成功；整檔來源267／360、待審93（新增第14章B、Gemini A／C、GPT獨立QA四份新來源未整檔驗收）；07同SHA候選別名早已歷史驗收，純正文抽出待下批檢查；正式0章PREWRITE HOLD。",
     "targeted_audit_records": 6123,
     "targeted_audit_verified_quotes": 6314,
     "full_file_editorial_accepted": 122,
     "full_file_editorial_remaining": 49,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 267,
-    "all_source_full_file_editorial_remaining": 89,
+    "all_source_full_file_editorial_remaining": 93,
     "historical_164_full_file_acceptance": 135,
     "historical_171_full_file_acceptance": 122,
     "all_source_progress_is_dynamic": true
@@ -83,14 +83,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 267,
-        "pending": 89,
+        "pending": 93,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第43批第152完整六章3015行49段98命題196條圖關聯、24反問9依賴SHA；main CI已成功。防重、短摘要及圖譜摘要修復保留日誌；267／356、待審89，0章PREWRITE HOLD。",
+        "note": "第43批第152完整六章3015行49段98命題196條圖關聯、24反問9依賴SHA；main CI已成功。防重、短摘要及圖譜摘要修復保留日誌；267／360、待審93（第十四章新封存4份尚待整檔驗收），0章PREWRITE HOLD。",
         "stage": "BATCH43_1_VERIFIED_PAUSED",
         "last_verified_commit": "b7c93deb312dad3317d9d96eefc08a917f99d2b9",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42945417646",
@@ -957,7 +957,7 @@
     "commit": "b7c93deb312dad3317d9d96eefc08a917f99d2b9",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42945417646",
-    "not_finished": "第43批已完成，動態356份來源中267份已驗、89份待審；07同SHA封存先前已驗收，純正文抽出版仍待檢查；正式0章PREWRITE HOLD。",
+    "not_finished": "第43批已完成，動態356份來源中267份已驗、93份待審（本輪新增第14章4份非正史來源，尚未整檔驗收）；07同SHA封存先前已驗收，純正文抽出版仍待檢查；正式0章PREWRITE HOLD。",
     "next_step": "第43批已核實main CI成功；下批只對尚未驗收的純正文抽出版作正文對齊與來源路徑核對，不重複創造B2事件。"
   },
   "audited_batch_paths": [
