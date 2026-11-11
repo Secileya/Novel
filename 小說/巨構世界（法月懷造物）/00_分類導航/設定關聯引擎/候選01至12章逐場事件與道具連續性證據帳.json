@@ -1,7 +1,7 @@
 {
   "schema": "mega-scenario-12-chapter-event-object-evidence-v1",
   "report_date": "2026-11-09",
-  "source_boundary": "2026-11-08 patched sequential candidate chapters 1–12; not adopted Canon",
+  "source_boundary": "2026-11-08 patched sequential candidate chapters 1–12; not adopted Canon；2026-11-11 補充第09章第353行塞拉收回兩道具之明確證據，保留舊章事實不提升為正式Canon。",
   "chapters": 12,
   "scenes": 78,
   "tracked_objects": 14,
@@ -1694,10 +1694,21 @@
             "quote": "「聯席工務處有人想滅你的口，不代表塞拉修女也知情。那個老太婆脾氣臭歸臭，剛才在底下可是為了主鐘擺的怪聲急得跳腳——她要是想封死消息，何必把這塊臨時檢修牌扔給我們兩個外人進來查病灶？」",
             "match_count": 1
           }
+        },
+        {
+          "chapter": 9,
+          "change": "塞拉於結案時明確收回（第353行，與另兩張正式重軌通行證分開）",
+          "custody": "塞拉修女／底錨塔",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "line": 353,
+            "quote": "塞拉修女沒好氣地瞪了艾莉維亞一眼，先伸手從諾亞腰間把那塊青銅臨時檢修牌與十字母匙一把拽了回來，然後從懷裡摸出一本蓋著承光贖罪庭鋼印的《緊急搶險結算單》與兩張塗著銀色防偽漆的硬卡，刷刷幾筆簽上自己的大名，直接拍進諾亞懷裡：",
+            "match_count": 1
+          }
         }
       ],
-      "uncertainty": "有限路權；未找到正式歸還或永久通行證據",
-      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "uncertainty": "第09章第353行已明確收回；不是仍在諾亞身上。後續持有與再次轉交尚無證據；另新發的正式重軌通行證為不同物品。",
+      "actual_owned_at_end": "RETURNED_TO_SELA_IN_CH09__NOT_NOAH",
       "version_scope": "CANDIDATE"
     },
     {
@@ -1725,10 +1736,21 @@
             "quote": "諾亞取出塞拉交給他的十字母匙，解開吊籠出口那道厚重安全門的十字門禁鎖，三人這才踏入軸承大廳。",
             "match_count": 4
           }
+        },
+        {
+          "chapter": 9,
+          "change": "塞拉於結案時明確收回（第353行，與另兩張正式重軌通行證分開）",
+          "custody": "塞拉修女／底錨塔",
+          "evidence": {
+            "source_path": "待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+            "line": 353,
+            "quote": "塞拉修女沒好氣地瞪了艾莉維亞一眼，先伸手從諾亞腰間把那塊青銅臨時檢修牌與十字母匙一把拽了回來，然後從懷裡摸出一本蓋著承光贖罪庭鋼印的《緊急搶險結算單》與兩張塗著銀色防偽漆的硬卡，刷刷幾筆簽上自己的大名，直接拍進諾亞懷裡：",
+            "match_count": 1
+          }
         }
       ],
-      "uncertainty": "後續是否歸還需要另查，不推斷持有終身",
-      "actual_owned_at_end": "DERIVE_FROM_STATES_ONLY__DO_NOT_ASSUME",
+      "uncertainty": "第09章第353行已明確收回；不是仍在諾亞身上。後續持有與再次轉交尚無證據；另新發的正式重軌通行證為不同物品。",
+      "actual_owned_at_end": "RETURNED_TO_SELA_IN_CH09__NOT_NOAH",
       "version_scope": "CANDIDATE"
     },
     {
