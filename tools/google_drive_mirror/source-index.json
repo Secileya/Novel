@@ -3,18 +3,23 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "5c466eaba0cf65b09a58c8ce8d31523be907e5b1",
-  "sourceTreeSha": "6e4eb3cbba3e7a0a80c80b4882a037d0868263af",
-  "previousSourceCommit": "1e88e86af56fd949f5ad63943c73b73f1b80957b",
+  "sourceCommit": "99a5ba06b98045e06a90a754b02122f586107d3d",
+  "sourceTreeSha": "4d19152d6e69239450b750c7ec15686ddcbc7df3",
+  "previousSourceCommit": "5c466eaba0cf65b09a58c8ce8d31523be907e5b1",
   "changedFiles": [
     {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261111_第四十八批12份_來源SHA及候選權威預審_未驗收.json",
+      "sha": "ba4552b8ce728c59c68429106bc6342f49bb3dcb",
+      "change": "added"
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "cf37b5b703528749509f22ae97a78644c5b70115",
+      "sha": "e72a47413d4d3e0c2ec125878dc6f9e954cb619e",
       "change": "modified"
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "155e6c21b1e9477d042b2de8192881bdc6bd7bb9",
+      "sha": "0066b313ed7d6a9f2b77cea7ec2a31c647077a04",
       "change": "modified"
     }
   ],
@@ -466,6 +471,11 @@
       "size": 395273
     },
     {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261111_第四十八批12份_來源SHA及候選權威預審_未驗收.json",
+      "sha": "ba4552b8ce728c59c68429106bc6342f49bb3dcb",
+      "size": 58697
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261111_第四十六批12份_候選開篇第三座位與地圖交通_全文語義v2.json",
       "sha": "b9840e0ac4a0f6d674ed1ff3a4952f1cd4a3c261",
       "size": 405629
@@ -597,8 +607,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "cf37b5b703528749509f22ae97a78644c5b70115",
-      "size": 59287
+      "sha": "e72a47413d4d3e0c2ec125878dc6f9e954cb619e",
+      "size": 60317
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
@@ -787,8 +797,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "155e6c21b1e9477d042b2de8192881bdc6bd7bb9",
-      "size": 4076
+      "sha": "0066b313ed7d6a9f2b77cea7ec2a31c647077a04",
+      "size": 4202
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
