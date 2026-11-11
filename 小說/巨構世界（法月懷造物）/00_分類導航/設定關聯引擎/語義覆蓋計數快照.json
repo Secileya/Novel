@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第46批12份／3507行／99段／99命題／198圖關聯已登記待main CI驗證，總計303/360為尚待驗收的工作板狀態，57份待審；Canon正式0章PREWRITE HOLD。",
+  "warning": "第46批12份3507行99段99條SHA命題198非Canon關聯已由main CI 42962468148驗證完成；正式303/360、57待審；0章PREWRITE HOLD。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,10 +176,10 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第46批12份已登記303/360但仍待主CI成功。W01及12路線只候選，第三個座位已選未發生；正式0章PREWRITE HOLD。",
+    "limitations": "第46批main GitHub Actions 42962468148及Drive來源索引42962468177已成功；正式303/360、尚餘57份。第三個座位已選未發生，W01與T交通仍候選，小說正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 139,
     "full_file_editorial_pending": 32,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 57,
     "historical_164_accepted": 140,
     "all_source_full_file_editorial_accepted": 303
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第45批主CI和Drive索引已通過；第46批候選開篇、第三個座位與地圖交通12份SHA分片提報，待本輪主CI完成才視正式驗收。"
+  "notice_2026_11_11": "第46批主CI與Drive來源索引成功。第一次失敗是next_batch空清單而非已完成來源錯誤；第47批12份已逐一防重選案，正式303/360。"
 }
