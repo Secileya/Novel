@@ -72,7 +72,7 @@
         "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
         "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md"
       ],
-      "first_action": "先核main HEAD、逐檔收據 artifact 與366/366最新主CI；建立QA01第01～14章跨文件現金／道具／版本／知情證據表，以Git blob SHA及行號逐條標記「已證實／疑似矛盾／另一版本／未決」。優先覆核銅索幣漏記、第三章150對15、十一章五銅免收是否退款、第十三章R1a/R1b唯一正文變更；回寫QA勘誤與引用，不覆寫歷史Gemini回貼或未採納正文。",
+      "first_action": "**先讀正文待修_接手必讀.md與正文待修_統一問題台帳.json**。優先處理BODY-QA-001銅值帳及BODY-QA-002第3章150／15，再處理熱水退款、零券流向、房型與蘇珊娜來源；只用新候選補丁修稿，不覆寫歷史轉貼或原始正文，CI回歸並記錄resolution。",
       "acceptance": [
         "QA01必須分別讀取相關候選章及Gemini歷史資料，記下精確Git原文SHA/行號、引用當時是哪個候選版本、角色可知範圍與作者/AI權威；不能把C轉貼誤當平台原始位元備份或作者Canon。",
         "建立可審查、可持續回歸的第01～14章現金流與道具狀態稽核：已看到的銅索幣支付（第01章2、第06章2、第10章21、第11章5，共30枚）、第13章找回4枚、銀鉚券753張候選計算與150/15疑點分開記帳；初始銅幣數、十一章熱水費五銅是否實際退款、第02章『蘇珊娜找零』來源及未證實匯率必須保持OPEN不得猜測。",
@@ -85,7 +85,7 @@
       "blocked_on": null,
       "complete_evidence": [],
       "progress": {
-        "stage": "REGISTERED_READY__QA_NOT_YET_SIGNED",
+        "stage": "QA01_UNIFIED_ISSUE_LEDGER_REGISTERED_FIXES_PENDING",
         "registered_at": "2026-11-11",
         "baseline_sources": 366,
         "baseline_full_file_accepted": 366,
@@ -93,7 +93,7 @@
         "last_full_universe_ci": "https://github.com/Secileya/Novel/actions/runs/42992043778",
         "per_file_ci_receipts": "https://github.com/Secileya/Novel/actions/runs/42992043778",
         "audit_priority": "QA01_CH01_TO_CH14_CASH_PROPS_VERSION_KNOWLEDGE",
-        "actual_QA01_evidence_file": "NOT_YET_COMMITTED",
+        "actual_QA01_evidence_file": "00_分類導航/設定關聯引擎/正文待修_統一問題台帳.json",
         "qa_conclusions_signed_off": 0,
         "discovered_questions": [
           "候選Gemini C：銅幣合計25漏列第1章2、第6章2、第10章額外小費1；可見支付30、13章找零4，未定期初現金",
@@ -103,7 +103,17 @@
           "13章R1a/R1b扣除標頭只有前夜→先前一處正文差異",
           "12→14章沉銀、淬火脂、六枚界楔及角色知情邊界"
         ],
-        "unresolved": "所有上述均為非Canon編輯性核對；需先建立原文SHA勘誤卡與跨檔回查，才能判定具體修訂。"
+        "unresolved": "所有上述均為非Canon編輯性核對；需先建立原文SHA勘誤卡與跨檔回查，才能判定具體修訂。",
+        "body_handoff_entry": "00_分類導航/設定關聯引擎/正文待修_接手必讀.md",
+        "issue_total": 9,
+        "issue_status_counts": {
+          "OPEN_FIX": 2,
+          "OPEN_REVIEW": 4,
+          "PATCHED_CANDIDATE": 1,
+          "WATCH": 2
+        },
+        "derived_currency_qa_corrected": true,
+        "manuscript_changes_this_turn": 0
       }
     },
     {
@@ -1174,8 +1184,8 @@
     "commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42989171348",
-    "not_finished": "目前Git來源366/366已通過全庫CI但深層故事語義品質尚須NEXT-011跨檔稽核；已發現候選貨幣與文字疑點尚未正式判案。未來新增/變更原檔會動態失效重審；AI編輯性驗收非作者Canon，正式0章PREWRITE HOLD。",
-    "next_step": "優先NEXT-011：QA01第01–14章跨候選現金流／道具／角色知情與版本來源SHA勘誤；每輪先核全庫Git HEAD、最新CI與逐檔收據。若新檔／舊檔改版，先由NEXT-009/NEXT-010動態納管與撤銷，不重算歷史批次。"
+    "not_finished": "統一待修台帳已有9項：OPEN_FIX 2、OPEN_REVIEW 4、PATCHED_CANDIDATE 1、WATCH 2。已更正衍生核算30銅值支出與4找零，但原始候選未改、正文修訂尚待實際提交；正式0章 PREWRITE HOLD。",
+    "next_step": "NEXT-011：正文接手先讀正文待修_接手必讀.md及正文待修_統一問題台帳.json；9項問題各有原文SHA/行號及修法，先解P0錢流和150／15，再解P1。來源新增或SHA變動優先NEXT-009/010重驗。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",

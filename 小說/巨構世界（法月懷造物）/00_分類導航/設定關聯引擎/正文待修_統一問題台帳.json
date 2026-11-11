@@ -1,0 +1,289 @@
+{
+  "schema": "mega-body-repair-issues/v1",
+  "updated_at": "2026-11-11",
+  "authority": "EDITORIAL_NON_CANON_NOT_AUTHOR_ADOPTION",
+  "description": "正文修稿接手唯一現行問題入口。歷史文獻與候選正文只讀，修法需以新候選/勘誤版及SHA佐證。",
+  "source_commit": "9021c4a415ed7ffb98bede9c54ff7cc3d458731d",
+  "stats": {
+    "total": 9,
+    "OPEN_FIX": 2,
+    "OPEN_REVIEW": 4,
+    "PATCHED_CANDIDATE": 1,
+    "WATCH": 2
+  },
+  "currency": {
+    "copper_value_out": 30,
+    "copper_value_in": 4,
+    "copper_value_net": -26,
+    "opening_balance": null,
+    "chapter11_five_copper_is_note": true,
+    "chapter10_refund": null,
+    "silver_753_is_conditional": true
+  },
+  "issues": [
+    {
+      "id": "BODY-QA-001",
+      "severity": "P0",
+      "status": "OPEN_FIX",
+      "title": "歷史Gemini C少算銅值與誤認付款實體",
+      "fact": "第1章付2銅、第6章付2銅、第10章問路1銅及住店20銅、第11章五銅面值零券合計已見30銅值支出；第13章找零4銅，已見淨變動-26銅值。期初額未知。第11章不是已驗證的五枚實體硬幣。C的支出25銅為漏列。",
+      "fix": "修正衍生現金表為已見交易30出、4入，不把-26當現有餘額；原始Gemini轉貼唯讀，切勿再次從銀券753扣銅值。",
+      "sources": [
+        {
+          "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 40,
+          "quote": "合計支出25枚"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+          "git_blob_sha": "4d7037b17985cd8d6ddd741657c8fdca34fd4056",
+          "line": 17,
+          "quote": "數出兩枚"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+          "git_blob_sha": "456453818aecf56edddc3da44dab068a3d12aa9f",
+          "line": 229,
+          "quote": "兩枚銅索幣遞過去"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc",
+          "line": 99,
+          "quote": "一枚銅索幣扔進"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc",
+          "line": 195,
+          "quote": "數出二十枚銅索幣"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+          "git_blob_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+          "line": 199,
+          "quote": "一張最小面額的五銅幣零券"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 153,
+          "quote": "找零的四枚銅索幣"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-002",
+      "severity": "P0",
+      "status": "OPEN_REVIEW",
+      "title": "第3章賞金150枚與對話十五張銀券不一致",
+      "fact": "同章把300銀賞金分出150枚給艾莉維亞，諾亞後來卻說自己剛分到十五張銀券；枚／張的具體面額未證實。",
+      "fix": "核銀券面額、其他版本與人物台詞後才改；若是單純口誤，新建非Canon補丁將『十五張』更正為150的恰當單位，再重查第3–14章帳本。",
+      "sources": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+          "git_blob_sha": "c994954ce871b5ed108b1aaac661a2baab14c12b",
+          "line": 47,
+          "quote": "分了一百五十枚"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+          "git_blob_sha": "c994954ce871b5ed108b1aaac661a2baab14c12b",
+          "line": 71,
+          "quote": "我剛分到的十五張銀券"
+        },
+        {
+          "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 23,
+          "quote": "各分150張"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-003",
+      "severity": "P1",
+      "status": "OPEN_REVIEW",
+      "title": "第10章已付的熱水5銅，第11章又宣布免收",
+      "fact": "第10章實交20（套房15＋熱水5），第11章賀老太太因救援說免收那5銅，未見退款／抵帳動作。",
+      "fix": "接手新候選正文須選：明確退還5銅、抵下次房費，或把台詞改為未來熱水免費。未補前不得帳記+5退款。",
+      "sources": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc",
+          "line": 191,
+          "quote": "一間大套房"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc",
+          "line": 195,
+          "quote": "多出來的五個銅板"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+          "git_blob_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+          "line": 151,
+          "quote": "那五個銅板的熱水錢免了"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-004",
+      "severity": "P1",
+      "status": "OPEN_REVIEW",
+      "title": "第11章只攤兩張銀券，卻被抽走一張五銅零券",
+      "fact": "諾亞先放兩張銀鉚券；塔里『從裡面』抽出五銅幣零券又退回兩張銀券，零券從哪裡取出有歧義。",
+      "fix": "若諾亞有額外拿出零券，補寫取出動作；否則依貨幣制度改成真實付款流程。零券張數與銅幣枚數不可混用。",
+      "sources": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+          "git_blob_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+          "line": 195,
+          "quote": "兩張銀鉚券放在工作台上"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+          "git_blob_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+          "line": 199,
+          "quote": "只從裡面抽了一張最小面額的五銅幣零券"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-005",
+      "severity": "P1",
+      "status": "OPEN_FIX",
+      "title": "Gemini C把第10章一間套房誤稱兩間房",
+      "fact": "第10章明確『一間大套房，裡外兩張床』，而非兩間房；15銅房費＋5銅額外熱水。",
+      "fix": "在所有衍生住宿摘要／錢流表修為一間套房兩張床，避免改壞第11章兩人住宿動線。",
+      "sources": [
+        {
+          "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 25,
+          "quote": "入住兩間房預付房資"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc",
+          "line": 191,
+          "quote": "一間大套房，裡外兩張床"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/10_風停以後.md",
+          "git_blob_sha": "c358c90f79f57906f566f5a48324c90debbe02fc",
+          "line": 195,
+          "quote": "數出二十枚銅索幣"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-006",
+      "severity": "P1",
+      "status": "OPEN_REVIEW",
+      "title": "歷史Gemini C所說第2章蘇珊娜找零缺當前候選證據",
+      "fact": "第2章現行順讀候選逐行查『蘇珊娜／找零／找回』未找到相應敘述；可能出自別的舊版，尚未查完所有版本。",
+      "fix": "追溯不同第2章歷史版本，找到原文SHA行號才納入期初錢數；否則把它註明未證實。",
+      "sources": [
+        {
+          "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 22,
+          "quote": "第02章蘇珊娜找零數枚銅幣"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-007",
+      "severity": "P1",
+      "status": "PATCHED_CANDIDATE",
+      "title": "第13章『前夜結案』時間錯置已有R1b精確候選補丁",
+      "fact": "R1a使用『前夜結案』，R1b使用『先前結案』；兩版都仍是非Canon候選，不得抹去原R1a。",
+      "fix": "若接續第13章，優先核對R1b時間修補並由作者決定何版可用。",
+      "sources": [
+        {
+          "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+          "git_blob_sha": "a869be5233f9b1bd570f7149ad488b876cc172bb",
+          "line": 143,
+          "quote": "塞拉修女在前夜結案時"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 145,
+          "quote": "塞拉修女先前結案時"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-008",
+      "severity": "P2",
+      "status": "WATCH",
+      "title": "沉銀、淬火脂與界楔後續物權守門",
+      "fact": "第12章沉銀4根、贈老克里普1根；第14章用餘下3根修六枚界楔，原條剩0。淬火脂2罐：第13章第一罐給小禾，第14章第二罐用半剩半。六枚界楔已有增重與修復。",
+      "fix": "第15章起必查帳；不可無緣故重生材料、讓角色已知母核／舊艙真相，或把老鉚工緊急卸壓當成完全治癒。",
+      "sources": [
+        {
+          "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+          "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30",
+          "line": 57,
+          "quote": "四根尺許長"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+          "git_blob_sha": "8f47da61e7073ce59007bbcaba48bee39b12be30",
+          "line": 277,
+          "quote": "抽出一根"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+          "git_blob_sha": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+          "line": 317,
+          "quote": "那兩罐黑鐵添頭之一"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+          "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a",
+          "line": 222,
+          "quote": "三根半尺長"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+          "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a",
+          "line": 360,
+          "quote": "兩根半二十二年前"
+        },
+        {
+          "path": "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+          "git_blob_sha": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a",
+          "line": 384,
+          "quote": "淬火脂用了半罐"
+        }
+      ]
+    },
+    {
+      "id": "BODY-QA-009",
+      "severity": "P2",
+      "status": "WATCH",
+      "title": "753張銀券僅限選定候選情境的算式",
+      "fact": "依Gemini C表格，收入300+500，支出15+16+2+4+10，共800-47=753；但第三章分帳的『枚／張』及十五/一百五十仍須先解。",
+      "fix": "不推定初始銅值和銀銅匯率，不把未採案候選帳本當世界Canon。",
+      "sources": [
+        {
+          "path": "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "git_blob_sha": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+          "line": 38,
+          "quote": "135＋618＝753張"
+        },
+        {
+          "path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+          "git_blob_sha": "c994954ce871b5ed108b1aaac661a2baab14c12b",
+          "line": 71,
+          "quote": "十五張銀券"
+        }
+      ]
+    }
+  ]
+}
