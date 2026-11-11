@@ -24,9 +24,9 @@
     "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第48批12份4742行111段111命題191錨點222非Canon關聯已提交待main CI；來源361總檔，暫登記327/361剩34（CI成功前不得宣稱正式完成）；正式0章PREWRITE HOLD，原文未覆寫。",
+    "important": "第48批12份4742行111段111命題191錨點222非Canon關聯已提交待main CI；來源361總檔，暫登記327/361剩34（CI成功前不得宣稱正式完成）；正式0章PREWRITE HOLD，原文未覆寫。 累計全庫CI錨點以每條審核命題1項計=6945；本批另存具體來源引文191處，不應直接相加到舊計數。",
     "targeted_audit_records": 6754,
-    "targeted_audit_verified_quotes": 7025,
+    "targeted_audit_verified_quotes": 6945,
     "full_file_editorial_accepted": 157,
     "full_file_editorial_remaining": 14,
     "all_source_historical_baseline": 335,
@@ -1044,7 +1044,7 @@
     "all_source_accepted": 327,
     "all_source_pending": 34,
     "state": "BATCH48_12_PENDING_MAIN_CI",
-    "notes": "第48批B48正式分片已上傳，仍待main CI。最新新增08來源入動態361分母，第49批12份SHA路徑去重預排；Canon0章未改。"
+    "notes": "第48批B48正式分片已上傳，仍待main CI。最新新增08來源入動態361分母，第49批12份SHA路徑去重預排；Canon0章未改。 累計audit錨點採shard.evidence_count=111，分片另有191處逐字來源引文。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
