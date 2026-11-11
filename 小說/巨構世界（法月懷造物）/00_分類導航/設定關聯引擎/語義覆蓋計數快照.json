@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第50批12份8,406行、192 audit條目及347獨立引文已提交待CI；351/366暫登記、15待審。audit計數與material_quotes不可混用。",
+  "warning": "第50批12份main CI42981898069及Drive index42981898170成功；351／366已驗收剩15。audit 192條與347處材料引文分開計數，正式0章。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -176,10 +176,10 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第50批CI待驗；351/366暫登記，15來源待審；正式0章PREWRITE HOLD。",
+    "limitations": "第50批12份主CI成功，351／366已驗收；尚15份動態原始來源待審，正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 171,
     "full_file_editorial_pending": 0,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 15,
     "historical_164_accepted": 153,
     "all_source_full_file_editorial_accepted": 351
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第50批12份增量SHA待CI，351/366、剩15。"
+  "notice_2026_11_11": "第50批驗證成功；現351／366剩15、171歷史角色來源全部編輯驗收；不等於作者Canon。"
 }

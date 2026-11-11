@@ -24,7 +24,7 @@
     "nine_folder_files": 18,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第50批12份8,406行、192命題、347原文引文與384條非Canon關係已提交待主CI，351/366暫登記、15待審；正式0章PREWRITE HOLD；每份原文保留。",
+    "important": "第50批12份8,406行／192來源命題／347原文引文／384條非Canon圖邊通過main CI42981898069及Drive索引42981898170，351／366已驗收、剩15；歷史171角色來源全數通過編輯性驗收，正式0章PREWRITE HOLD、未提升Canon。",
     "targeted_audit_records": 7057,
     "targeted_audit_verified_quotes": 7248,
     "full_file_editorial_accepted": 171,
@@ -35,7 +35,7 @@
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 15
   },
   "rules": {
@@ -91,10 +91,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第50批12份8,406行、192命題、347原文引文與384條非Canon關係已提交待主CI，351/366暫登記、15待審；正式0章PREWRITE HOLD；每份原文保留。",
-        "stage": "BATCH50_12_SUBMITTED_PENDING_MAIN_CI",
-        "last_verified_commit": "aa8cfedc83895a6c07aad59a4e1263f44e8a257d",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42979445965",
+        "note": "第50批12份8406行192區192命題、347逐行引文、384非Canon關係主CI42981898069成功且Drive索引42981898170成功。351／366整檔驗收，15待審；171歷史Role Card已覆蓋，正式0章。",
+        "stage": "BATCH50_12_MAIN_CI_VERIFIED",
+        "last_verified_commit": "40c522169c89794e90e3416fc785ac8b762e03a0",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42981898069",
         "cross_source_next_batch": [],
         "historical_164_accepted": 153,
         "historical_171_accepted": 171,
@@ -793,7 +793,7 @@
           "unverified_ci": false
         },
         "acceleration_batch_50": {
-          "stage": "BATCH50_12_SUBMITTED_PENDING_MAIN_CI",
+          "stage": "BATCH50_12_MAIN_CI_VERIFIED",
           "source_count": 12,
           "source_lines": 8406,
           "sections": 192,
@@ -805,7 +805,12 @@
           "source_total": 366,
           "shard_sha": "c4c87f1e86162ef544d8ce47f9c4636191b91dc2",
           "unmodified_originals": true,
-          "ci_run_url": null
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42981898069",
+          "accepted_total": 351,
+          "pending_total": 15,
+          "drive_index_url": "https://github.com/Secileya/Novel/actions/runs/42981898170",
+          "verified_commit": "40c522169c89794e90e3416fc785ac8b762e03a0",
+          "unverified_ci": false
         }
       }
     },
@@ -1085,8 +1090,8 @@
     "nonCanon_graph_links": 384,
     "all_source_accepted": 351,
     "all_source_pending": 15,
-    "state": "BATCH50_12_SUBMITTED_PENDING_MAIN_CI",
-    "notes": "來源證據已寫入但主CI待驗；13章A/C為Gemini自述非平台log、B候選，14章R1a非逐位元重建，原稿未改、Canon仍0。"
+    "state": "BATCH50_12_MAIN_CI_VERIFIED",
+    "notes": "第50批原文與非Canon語義證據已通過main CI42981898069及Drive index42981898170；首次提交2f5e69因最新交接文字未對齊產生器而CI失敗，精確修40c522已成功。原稿未改，正式0章。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1106,13 +1111,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH50_12_SUBMITTED_PENDING_MAIN_CI",
-    "scope": "第50批12份8,406行，192連續語義區、192來源SHA命題、347原文引文、384非Canon圖連結；互斥候選與原始歸檔權威分離。",
-    "commit": "PENDING_NEW_COMMIT",
-    "ci_result": "pending",
-    "ci_run_url": null,
-    "not_finished": "第50批主CI尚未完成；另有15份待全文編輯性驗收，現來源366；正式0章PREWRITE HOLD。",
-    "next_step": "先確認第50批主CI及Drive Index成功再結案；第51批12份候選已列NEXT-009.next_batch，重新防重核SHA。"
+    "stage": "BATCH50_12_MAIN_CI_VERIFIED",
+    "scope": "第50批12份8,406行、192連續審核區、192SHA命題、347原文引文、384條非Canon圖連結已通過main CI，保留13A/B/C與14R1a重建來源權威差異。",
+    "commit": "40c522169c89794e90e3416fc785ac8b762e03a0",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42981898069",
+    "not_finished": "還有15份來源未整檔語義驗收，其中第51批12份已預排並待重新SHA去重；正式正文0章PREWRITE HOLD。",
+    "next_step": "依NEXT-009.next_batch進行第51批12份，優先原文SHA、後出依賴、版本保真核對；新來源進庫若改變分母，先重新同步。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
