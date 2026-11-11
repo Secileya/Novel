@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 377,
+    "raw_source_files": 382,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -21,22 +21,22 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 22,
+    "nine_folder_files": 23,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-11 第15章Gemini三批B完整原文＋第三批C/D歸檔，三批B合計11,320漢字，GPT獨立QA及雙批交付回饋已存；第15章尚待P0/P1精確修補、源審未驗。新3份，總377；舊366驗收不重算，待審11，Canon0 PREWRITE HOLD。",
+    "important": "2026-11-12 已收第15章Gemini R1八補丁，B九處唯一替換生成新版；第14章R1b/唯一14順讀/01～14合輯六點工單已同步（其他章不改）。新增5份未驗，全庫366／382、待16，GPT二次QA仍留測氧呼吸安全及防墜繩問題；正式Canon0章PREWRITE HOLD。",
     "targeted_audit_records": 7162,
     "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 366,
-    "all_source_full_file_editorial_remaining": 11,
+    "all_source_full_file_editorial_remaining": 16,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 11
+    "all_source_full_file_editorial_pending": 16
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -85,7 +85,7 @@
       "blocked_on": null,
       "complete_evidence": [],
       "progress": {
-        "stage": "QA03_CH15_FULL_3_PARTS_PRESERVED_QA_OPEN_377_TOTAL_11_PENDING",
+        "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_382_TOTAL_16_PENDING",
         "registered_at": "2026-11-11",
         "baseline_sources": 366,
         "baseline_full_file_accepted": 366,
@@ -120,7 +120,7 @@
         "audit_checker": "00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs",
         "corrected_finance_report": "00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
         "patch_manifest": "00_分類導航/設定關聯引擎/正文待修_精確修訂補丁候選.json",
-        "result_note": "第15章B三批完整已歸檔，GPT獨立QA開列P0/P1待補丁；本次沒有覆寫原版或將Gemini C的『全部通過』當成事實。保留Canon0/PREWRITE HOLD。",
+        "result_note": "R1已按Gemini八項九處精準套用，保存R0三批與R1補丁原文；第14章六點工單同步，GPT二次QA保留測氧/濾毒/繩索安全與知情過度確定問題，不能宣稱整章全通過。",
         "new_reader_chapters": 14,
         "new_reading_sources_pending": 4,
         "latest_reading_index": "待定正文/順讀_最新補丁候選/README.md",
@@ -128,7 +128,8 @@
         "last_chapter03_patch_sha": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a",
         "latest_chapter15_partial": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_前兩批未完候選_20261111_非正史.md",
         "status_note_20261111": "三批已齊B+C/D；整章接合B已存、但P0/P1待審稿修訂，下一章不可直接引用未採案事件作既定Canon。",
-        "latest_chapter15_complete": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_三批接合初版_20261111_非正史.md"
+        "latest_chapter15_complete": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_三批接合初版_20261111_非正史.md",
+        "latest_chapter15_r1": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R1_八項補丁合成候選_20261112_非正史.md"
       }
     },
     {
@@ -158,14 +159,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 366,
-        "pending": 11,
+        "pending": 16,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "作者第15章三批回貼與獨立審稿後，新增第三批Gemini原始文、三批完整B候選、08 GPT QA回饋共3來源；現377，原366已驗，待審11。不將新創作／GPT QA當成自動完成驗收。",
+        "note": "2026-11-12 新增第15章R1原補丁、15章R1合成稿、14章R1b、GPT二次安全QA、14章同位SHA收據5份；總382，先前366份已驗維持，新增待審5份，現共16份待審。不將精確字串命中當成編輯性完整驗收。",
         "stage": "BATCH52_3_MAIN_CI_VERIFIED",
         "last_verified_commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42989171348",
@@ -192,7 +193,12 @@
           "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_前兩批未完候選_20261111_非正史.md",
           "09_跨AI原始來源/20261111_Gemini第十五章第三批_B結尾_C寫後QA_D回執_使用者回貼原文_非正史.md",
           "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_三批接合初版_20261111_非正史.md",
-          "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md"
+          "08_交接勘誤與決議/20261111_第十五章三批接合_GPT獨立審稿_情報防護載員與雙批交付回饋_非正史.md",
+          "09_跨AI原始來源/20261112_Gemini第十五章R1八處局部補丁_C台帳與兩批交付_使用者回貼原文_非正史.md",
+          "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R1_八項補丁合成候選_20261112_非正史.md",
+          "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+          "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "00_分類導航/設定關聯引擎/20261112_14章六點工單與第15章R1_同位SHA證據覆核_不重計.json"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -1207,13 +1213,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-011",
-    "stage": "QA03_CH15_FULL_3_PARTS_PRESERVED_QA_OPEN_377_TOTAL_11_PENDING",
-    "scope": "第15章Gemini第三批（B後半＋C寫後QA＋D）已依聊天可見原文完整保存；B三批實際完整正文共11,320漢字已只做排版合輯，保留前兩批未完版及三份歷史原文。GPT獨立審稿存入08交接，提出證據確證、毒霧防護、滑車額定載員、06:00送達、行動安全等精準候選修法，並整合未來新章兩則交付規則。不改原始正文、不假裝已批准或完成語義來源驗收。",
-    "commit": "bc7b8dd4e02194f50dc92a3e70e7f3580b85e089",
+    "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_382_TOTAL_16_PENDING",
+    "scope": "已保存Gemini第15章R1八項old→new回貼，9處逐字唯一命中並另存R1完整非Canon候選；第14章六點工單單句新存R1b、唯一順讀14與01～14合輯同步，證據、語氣庫SHA更新。獨立GPT二次QA指出藍焰風燈與半面罩不能確認/處理缺氧，以及移動滑車尾環防墜繩風險，故仍未正式批准。",
+    "commit": "7d20637f1c24f1c861b29ff7680ac7571a26b2d3",
     "ci_result": "pending",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43007874350",
-    "not_finished": "第15章B三批已收到，但GPT P0/P1編輯問題尚未修補，來源377份中原366已驗、待審11份（舊8＋新3）。作者未採案，正式Canon0章PREWRITE HOLD；Drive內容鏡像未獨立逐字驗證。",
-    "next_step": "先用08交接中同一份合併回饋要求Gemini只回精準 old→new 修補（不重印正文）；完成後由GPT以已保存三批純正文合成新版非Canon。下一個新章首稿預設兩則：A+半章B，再完成B+C/D，只有真正超出容量才多批。既有11份待審來源按NEXT-009/010另行語義v2驗收。"
+    "not_finished": "R1 9處候選補丁已套，但仍有3類關鍵安全/敘事問題待修：明火測氧、濾毒不供氧、移動滑車防墜繩及一盞燈持有人矛盾；新5份待審，總382份，原366已驗、現16待審。R1a/R0歷史全部保留，正式Canon0章 PREWRITE HOLD。",
+    "next_step": "第15章R1獨立補修只需處理測氧與呼吸設備安全、固定錨點以及單燈持有人／證據強度等精準old→new；不重生正文。第16章開寫之前先讀R1 SHA及跨章六點工單；新章首稿兩則完成B，A/C/D精簡。既有16待審來源依NEXT-009/010驗收。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
