@@ -3,54 +3,34 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "6780f3436dbbc4395a42f4c591ee66b7af257d4c",
-  "sourceTreeSha": "8550db8e9c84ca92046476e386ee50c71851abf9",
-  "previousSourceCommit": "e21c29b30dfec5e24a120f6cd29e8408471c199f",
+  "sourceCommit": "bfab557520e37407c2865e99546b91867017a12b",
+  "sourceTreeSha": "9e1f6a15a9b5766ab68f37a00f3e8b9ac17b15ca",
+  "previousSourceCommit": "6780f3436dbbc4395a42f4c591ee66b7af257d4c",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/000_導覽與狀態.md",
-      "sha": "97dc041de6970e64cbd685f75e232d4aa629abf7",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
+      "sha": "995923fe789ddb3254e7c6ee0adebc0b82f00e1d",
       "change": "modified"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/000_現行決策與主題索引.md",
-      "sha": "7d911b9b8bb8d1ac68bd5298d173ed48339a4a91",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_最新交接產生器.mjs",
+      "sha": "b2c8c29bfd00ab084cf8cc14ef0c23e5a85683af",
       "change": "modified"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/README.md",
-      "sha": "15ae7a50e081b9006c8c72beede440fe111c1b82",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
+      "sha": "a7950a8ed136a6f4fbc3eafc32666cb39462d0b6",
       "change": "modified"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
-      "sha": "aac084e9836f69c015337db665817f28b73e1527",
-      "change": "modified"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_接手必讀.md",
+      "sha": "8f1a2d19df388d766f2b086e29f8cf555242f887",
+      "change": "added"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/README.md",
-      "sha": "c64b5546c0cae93b6a3f9cd71207cd7078eaa0ad",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/待定正文/README.md",
-      "sha": "d104565c7e1af1d6da96bbcd9617d299f54d3775",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
-      "sha": "e67e76e8643847ce0455bd672aada146bb793675",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/README.md",
-      "sha": "69a1f66387357c18f329645acbb3ed27ad6d3312",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/待定正文_總入口.md",
-      "sha": "0f307e1ed589bb181ebd4f2ced4fd8366449a144",
-      "change": "modified"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_統一問題台帳.json",
+      "sha": "9fb923027674f428db0040ce6d464d6e7723ab3e",
+      "change": "added"
     }
   ],
   "removedFiles": [],
@@ -662,8 +642,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "4eb567283a1d4eec3c9bb0ae62808607de07e058",
-      "size": 69327
+      "sha": "995923fe789ddb3254e7c6ee0adebc0b82f00e1d",
+      "size": 69576
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
@@ -682,8 +662,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_最新交接產生器.mjs",
-      "sha": "7624d9c7939527fa64495dbdba86bd0ad976e333",
-      "size": 5772
+      "sha": "b2c8c29bfd00ab084cf8cc14ef0c23e5a85683af",
+      "size": 6198
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_本輪交棒實績_20261109.md",
@@ -857,8 +837,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "f29604ed16eca52683147289493e8c5f891abe5b",
-      "size": 4504
+      "sha": "a7950a8ed136a6f4fbc3eafc32666cb39462d0b6",
+      "size": 4721
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
@@ -869,6 +849,16 @@
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/檢查候選正文語氣庫參考.mjs",
       "sha": "77bfcf9b466343cd952ce1bf29c4b94473be13ff",
       "size": 2670
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_接手必讀.md",
+      "sha": "8f1a2d19df388d766f2b086e29f8cf555242f887",
+      "size": 3233
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_統一問題台帳.json",
+      "sha": "9fb923027674f428db0040ce6d464d6e7723ab3e",
+      "size": 13184
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/歷史素材原子化回收_第三批_精讀.json",
