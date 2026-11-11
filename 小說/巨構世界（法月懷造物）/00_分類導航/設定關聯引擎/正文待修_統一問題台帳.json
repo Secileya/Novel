@@ -6,7 +6,7 @@
   "source_commit": "9021c4a415ed7ffb98bede9c54ff7cc3d458731d",
   "stats": {
     "total": 9,
-    "OPEN_FIX": 2,
+    "RESOLVED_DERIVED": 2,
     "OPEN_REVIEW": 4,
     "PATCHED_CANDIDATE": 1,
     "WATCH": 2
@@ -18,13 +18,14 @@
     "opening_balance": null,
     "chapter11_five_copper_is_note": true,
     "chapter10_refund": null,
-    "silver_753_is_conditional": true
+    "silver_753_is_conditional": true,
+    "post_patch_conditional_net_copper": -21
   },
   "issues": [
     {
       "id": "BODY-QA-001",
       "severity": "P0",
-      "status": "OPEN_FIX",
+      "status": "RESOLVED_DERIVED",
       "title": "歷史Gemini C少算銅值與誤認付款實體",
       "fact": "第1章付2銅、第6章付2銅、第10章問路1銅及住店20銅、第11章五銅面值零券合計已見30銅值支出；第13章找零4銅，已見淨變動-26銅值。期初額未知。第11章不是已驗證的五枚實體硬幣。C的支出25銅為漏列。",
       "fix": "修正衍生現金表為已見交易30出、4入，不把-26當現有餘額；原始Gemini轉貼唯讀，切勿再次從銀券753扣銅值。",
@@ -71,7 +72,15 @@
           "line": 153,
           "quote": "找零的四枚銅索幣"
         }
-      ]
+      ],
+      "resolution": {
+        "kind": "EDITORIAL_DERIVED_CORRECTION_ONLY",
+        "artifact_path": "00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
+        "artifact_blob_sha": "0def2882beb390aa1d72fe9b0838ccf39e1ccae8",
+        "original_source_changed": false,
+        "canon_approved": false,
+        "description": "已核對30銅值流出、4銅找零、−26條件式淨變動，明確區分五銅面值零券和五枚硬幣。"
+      }
     },
     {
       "id": "BODY-QA-002",
@@ -99,6 +108,9 @@
           "line": 23,
           "quote": "各分150張"
         }
+      ],
+      "proposed_patch_ids": [
+        "BODY-PATCH-03-REWARD"
       ]
     },
     {
@@ -127,6 +139,9 @@
           "line": 151,
           "quote": "那五個銅板的熱水錢免了"
         }
+      ],
+      "proposed_patch_ids": [
+        "BODY-PATCH-11-REFUND"
       ]
     },
     {
@@ -149,12 +164,15 @@
           "line": 199,
           "quote": "只從裡面抽了一張最小面額的五銅幣零券"
         }
+      ],
+      "proposed_patch_ids": [
+        "BODY-PATCH-11-NOTE"
       ]
     },
     {
       "id": "BODY-QA-005",
       "severity": "P1",
-      "status": "OPEN_FIX",
+      "status": "RESOLVED_DERIVED",
       "title": "Gemini C把第10章一間套房誤稱兩間房",
       "fact": "第10章明確『一間大套房，裡外兩張床』，而非兩間房；15銅房費＋5銅額外熱水。",
       "fix": "在所有衍生住宿摘要／錢流表修為一間套房兩張床，避免改壞第11章兩人住宿動線。",
@@ -177,7 +195,15 @@
           "line": 195,
           "quote": "數出二十枚銅索幣"
         }
-      ]
+      ],
+      "resolution": {
+        "kind": "EDITORIAL_DERIVED_CORRECTION_ONLY",
+        "artifact_path": "00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
+        "artifact_blob_sha": "0def2882beb390aa1d72fe9b0838ccf39e1ccae8",
+        "original_source_changed": false,
+        "canon_approved": false,
+        "description": "已改獨立房型摘要為一間套房兩張床（15銅房費＋5銅熱水），歷史原文保持不動。"
+      }
     },
     {
       "id": "BODY-QA-006",
@@ -193,7 +219,17 @@
           "line": 22,
           "quote": "第02章蘇珊娜找零數枚銅幣"
         }
-      ]
+      ],
+      "investigation": {
+        "checked_current_ch2_sha": "cda72e376ebebd6db22807144989f94f00ae5994",
+        "checked_historical_ch2_shas": [
+          "c341cfe25bab32e833654546ab4e883e0ca2f000",
+          "c52e5e9f959b1bad83fc9ac6462a4675eb0f9f7a",
+          "825f34766bb44784bb1ecb21f1d52155c1508ce5",
+          "98c1a545723cb7c39b23a1c5e6ffabbc835f38b5"
+        ],
+        "result": "上述五版均無蘇珊娜找零段落。仍可檢不同世界線／舊對話，但無原文前不得入帳。"
+      }
     },
     {
       "id": "BODY-QA-007",
@@ -285,5 +321,12 @@
         }
       ]
     }
-  ]
+  ],
+  "derivation_revision": {
+    "artifact_path": "00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
+    "artifact_blob_sha": "0def2882beb390aa1d72fe9b0838ccf39e1ccae8",
+    "patch_file": "00_分類導航/設定關聯引擎/正文待修_精確修訂補丁候選.json",
+    "source_still_unchanged": true,
+    "author_approval_required": true
+  }
 }

@@ -10,6 +10,7 @@ const task=board.tasks.find(t=>t.id==="NEXT-009");
 if(!task||!task.progress)throw Error("NEXT-009 progress missing");
 const p=task.progress, f=board.fact_snapshot||{}, last=board.latest_progress||{}, delivered=board.last_delivered_work||{};
 const qa=board.tasks.find(t=>t.id==="NEXT-011");
+const issueBoard=JSON.parse(fs.readFileSync(path.join(here,"正文待修_統一問題台帳.json"),"utf8"));
 const total=f.raw_source_files, accepted=p.verified_complete, pending=p.pending;
 if(!Number.isInteger(total)||!Number.isInteger(accepted)||!Number.isInteger(pending)||accepted+pending!==total)throw Error("handoff counts inconsistent");
 if(f.all_source_full_file_editorial_accepted!==accepted||f.all_source_full_file_editorial_remaining!==pending)throw Error("workboard snapshot is stale");
@@ -39,8 +40,8 @@ const lines=[
  "## 正文接手｜統一待修問題（必讀）",
  "",
  "- [正文接手必讀](正文待修_接手必讀.md)｜[逐項證據與修法 JSON](正文待修_統一問題台帳.json)。",
- "- 共9項：OPEN_FIX 2、OPEN_REVIEW 4、PATCHED_CANDIDATE 1、WATCH 2；原稿未覆寫、作者未採案。",
- "- 先修銅值帳與第3章150／15；其他熱水退款、五銅零券、房型與第13章版本在台帳追蹤。",
+ "- 共"+issueBoard.stats.total+"項：衍生勘誤已更正 "+(issueBoard.stats.RESOLVED_DERIVED||0)+"、仍待審 "+(issueBoard.stats.OPEN_REVIEW||0)+"、已有其他候選補丁 "+(issueBoard.stats.PATCHED_CANDIDATE||0)+"、後續守門 "+(issueBoard.stats.WATCH||0)+"；原始候選未改，非Canon。",
+ "- [獨立更正對帳](正文待修_01至14章_勘誤後獨立對帳_20261111.md)｜[三條精確非Canon修稿補丁](正文待修_精確修訂補丁候選.json)｜[SHA與負測驗證器](正文待修_問題證據與補丁驗證.mjs)。",
  "",
  "## 下一個主目標（已登記，與整檔驗收數量分開）",
  "",

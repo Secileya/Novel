@@ -68,6 +68,18 @@ jobs:
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --check --negative-test > "$RUNNER_TEMP/mega-live-universe.json"
           node -e "const r=require(process.argv[1]);if(r.source_total<335||r.accepted_full_file_count+r.pending_full_file_count!==r.source_total||r.historical_fine_grained_reference_only!==164||r.historical_role_card_set!==171||r.faults.length)process.exit(2)" "$RUNNER_TEMP/mega-live-universe.json"
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --next > "$RUNNER_TEMP/mega-next-batch-queue.json"
+      - name: Body repair ledger and patch checker syntax
+        run: node --check '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs'
+      - name: Body repair original SHA quotes statuses and safe patch negative regressions
+        run: |
+          node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs' --check --negative-test > "$RUNNER_TEMP/mega-body-repair-report.json"
+      - name: Upload body repair status and source receipt report
+        uses: actions/upload-artifact@v4
+        with:
+          name: mega-body-repair-report
+          path: ${{ runner.temp }}/mega-body-repair-report.json
+          if-no-files-found: error
+          retention-days: 90
       - name: Generate current per-source Git SHA and editorial acceptance receipts
         run: |
           node '小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/全量來源_動態納管與驗收.mjs' --report > "$RUNNER_TEMP/mega-all-source-receipts.json"

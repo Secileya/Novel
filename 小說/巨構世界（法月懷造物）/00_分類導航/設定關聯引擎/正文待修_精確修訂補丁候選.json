@@ -1,0 +1,45 @@
+{
+  "schema": "mega-body-repair-exact-patches/v1",
+  "updated_at": "2026-11-11",
+  "status": "READY_FOR_DERIVED_NONCANON_PREVIEW__NOT_APPLIED",
+  "default_policy": "READ_ONLY_SOURCE_FILES; NO_CANON_PROMOTION; patch generated output is a new candidate that needs provenance/author review",
+  "source_counts_unchanged": 366,
+  "patches": [
+    {
+      "id": "BODY-PATCH-03-REWARD",
+      "issue_id": "BODY-QA-002",
+      "source_path": "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+      "source_blob_sha": "c994954ce871b5ed108b1aaac661a2baab14c12b",
+      "line": 71,
+      "original_line": "「妳桌上那些瓶瓶罐罐，隨便碰倒一瓶，我剛分到的十五張銀券大概就不夠賠了。」諾亞用筷子挑起一筷子加了辣油的鹼水麵，「而且妳那瓶藍色洗劑揮發的味道，聞起來像能直接把人的鼻毛燒掉。」",
+      "replacement_line": "「妳桌上那些瓶瓶罐罐，隨便碰倒一瓶，我剛分到的那份賞金大概就不夠賠了。」諾亞用筷子挑起一筷子加了辣油的鹼水麵，「而且妳那瓶藍色洗劑揮發的味道，聞起來像能直接把人的鼻毛燒掉。」",
+      "scope": "FULL_LINE_REPLACEMENT_IN_NONCANON_REVIEW_COPY_ONLY",
+      "rationale": "不猜每張銀券票面，保留諾亞調侃的語氣，消除與同章平分150枚直接衝突的台詞。",
+      "author_approved": false
+    },
+    {
+      "id": "BODY-PATCH-11-REFUND",
+      "issue_id": "BODY-QA-003",
+      "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+      "source_blob_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+      "line": 151,
+      "original_line": "剛才還一臉嫌棄的賀老太太一把抱住那隻滿是綠鏽的銅公雞，用袖口使勁擦了擦雞冠上的灰，嘴角怎麼壓都壓不下來。她轉過頭，衝著諾亞和艾莉維亞大手一揮：「行了！你們兩個今天那五個銅板的熱水錢免了！晚上老太婆我再給你們燉一鍋鹹肉白菜湯！」",
+      "replacement_line": "剛才還一臉嫌棄的賀老太太一把抱住那隻滿是綠鏽的銅公雞，用袖口使勁擦了擦雞冠上的灰，嘴角怎麼壓都壓不下來。她轉過頭，從腰間舊錢袋裡數出五枚銅索幣，往諾亞攤開的掌心一放，這才大手一揮：「行了！你們兩個今天那五個銅板的熱水錢免了！晚上老太婆我再給你們燉一鍋鹹肉白菜湯！」",
+      "scope": "FULL_LINE_REPLACEMENT_IN_NONCANON_REVIEW_COPY_ONLY",
+      "rationale": "在原本已預付20銅的基礎上，實際明示退還熱水費5銅；採用後錢流淨變動需更新為−21銅值。",
+      "author_approved": false
+    },
+    {
+      "id": "BODY-PATCH-11-NOTE",
+      "issue_id": "BODY-QA-004",
+      "source_path": "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+      "source_blob_sha": "0b414e767adb6d0bee2deaf45230675c0235875c",
+      "line": 195,
+      "original_line": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券放在工作台上：",
+      "replacement_line": "諾亞試著拔槍、歸套了一次，滿意地點了點頭，從口袋裡摸出兩張銀鉚券，連同一張五銅幣面額的零券，一起放在工作台上：",
+      "scope": "FULL_LINE_REPLACEMENT_IN_NONCANON_REVIEW_COPY_ONLY",
+      "rationale": "補足後文『從裡面抽一張五銅幣零券』的實物來源，仍以付5銅值計，不捏造5枚硬幣。",
+      "author_approved": false
+    }
+  ]
+}
