@@ -80,7 +80,9 @@ function checkCurrentBoard(){
  if(!Number.isInteger(total)||!Number.isInteger(p.verified_complete)||!Number.isInteger(p.pending)||p.verified_complete!==accepted.size||p.verified_complete+p.pending!==total)
   faults.push('WORKBOARD_ACCEPTED_MISMATCH computed='+accepted.size+' board='+p.verified_complete+' total='+total+' pending='+p.pending);
  if(!Array.isArray(p.next_batch)||(p.pending>0&&!p.next_batch.length))faults.push('NEXT_BATCH_EMPTY_WHILE_PENDING');
- const next=checkSelected(p.next_batch||[]);
+ const next=p.pending===0&&Array.isArray(p.next_batch)&&p.next_batch.length===0
+  ? {ok:true,problems:[],eligible:[]}
+  : checkSelected(p.next_batch||[]);
  faults.push(...next.problems.map(s=>'NEXT_BATCH: '+s));
  const paths=board.audited_batch_paths||[];
  for(const s of manifest.shards){

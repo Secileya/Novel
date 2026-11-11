@@ -808,7 +808,10 @@
             "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
             "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md"
           ],
-          "previous_batch_main_ci": "https://github.com/Secileya/Novel/actions/runs/42986481381"
+          "previous_batch_main_ci": "https://github.com/Secileya/Novel/actions/runs/42986481381",
+          "first_ci_run": "https://github.com/Secileya/Novel/actions/runs/42988684614",
+          "first_ci_status": "failure",
+          "first_ci_reason": "NEXT_BATCH EMPTY_SELECTION from unconditional checkSelected([]) despite pending 0"
         }
       }
     },
