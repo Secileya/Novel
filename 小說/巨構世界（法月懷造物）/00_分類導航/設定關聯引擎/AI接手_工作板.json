@@ -25,7 +25,7 @@
     "nine_folder_files": 13,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第41批六份候選全文的PR CI成功，動態355來源中登記261份、94待審；尚須合併後main CI。正式0章PREWRITE HOLD。",
+    "important": "第41批六份候選全文的PR CI成功，動態356來源中登記261份、95待審（新增作者規則檔1份尚未計入全文編輯驗收）；尚須合併後main CI。正式0章PREWRITE HOLD。",
     "targeted_audit_records": 5938,
     "targeted_audit_verified_quotes": 6129,
     "full_file_editorial_accepted": 116,
@@ -917,7 +917,7 @@
     "commit": "323c0e1d7ffd931b01a665f09b8a9c75e750c4df",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42936633883",
-    "not_finished": "當前355來源中261份已登記、仍有94份待審；正式小說0章 PREWRITE HOLD；主庫合併CI另核。",
+    "not_finished": "當前356來源中261份已登記、仍有95份待審（含本輪新增規則來源1份）；正式小說0章 PREWRITE HOLD；主庫合併CI另核。",
     "next_step": "第41批合併main後結案並暫停。下一批先B2增量與Gemini G1-4全文，超長第152六章獨立審核；如來源增加即納入待審。"
   },
   "audited_batch_paths": [
