@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 360,
+    "raw_source_files": 361,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -24,19 +24,19 @@
     "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第47批315/360已CI成功；第48批十二份共4742行已取得原檔並做68處SHA行錨預審，但零份整檔語義驗收，不重算，剩45。正式0章PREWRITE HOLD。",
+    "important": "GitHub新增08_交接勘誤與決議1份，來源360→361；第47批已CI成功315/361，46份待審；第48批12份4742行68錨點只做預審；正式0章 PREWRITE HOLD。",
     "targeted_audit_records": 6643,
     "targeted_audit_verified_quotes": 6834,
     "full_file_editorial_accepted": 149,
     "full_file_editorial_remaining": 22,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 315,
-    "all_source_full_file_editorial_remaining": 45,
+    "all_source_full_file_editorial_remaining": 46,
     "historical_164_full_file_acceptance": 142,
     "historical_171_full_file_acceptance": 149,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 45
+    "all_source_full_file_editorial_pending": 46
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -84,14 +84,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 315,
-        "pending": 45,
+        "pending": 46,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第47批已由1e88e86/5c466ea雙層CI核定315/360；第48批預排十二份均已取回原始SHA與68處行錨、共4742行，但未完成全文語義/後修仲裁/圖譜雙向關聯，尚未新增任何整檔驗收，仍315/360待45。",
+        "note": "全庫新增08_交接勘誤與決議/20261111_第十二至十四章_Gemini遷徙007與031交接實讀稽核_非正史.md，動態分母361；第48批12份預審4742行/68處錨點但全文語義未完成。正式驗收315/361剩46。",
         "stage": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
         "last_verified_commit": "1e88e86af56fd949f5ad63943c73b73f1b80957b",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42968929867",
@@ -1039,7 +1039,7 @@
     "preliminary_anchors": 68,
     "original_lines_reviewed_for_full_semantic_acceptance": 0,
     "all_source_accepted": 315,
-    "all_source_pending": 45,
+    "all_source_pending": 46,
     "state": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
     "notes": "第47批經成功CI正式關閉；第48批12份原檔SHA/版本風險初審已保存於非Canon引擎預檢json。無新驗收分片與Canonical修改；不得標記完整12份完成。"
   },
@@ -1062,11 +1062,11 @@
   "latest_progress": {
     "task_id": "NEXT-009",
     "stage": "BATCH48_12_SHA_SOURCE_PRECHECK__FULL_REVIEW_PENDING",
-    "scope": "第48批預排12份原檔已取得完整UTF-8內容、SHA核對與68處初步行錨；總4742行。已寫非Canon/已選未發生邊界預審，尚未完成逐檔正式語義驗收。",
+    "scope": "第48批12份來源實際取回4742行與68個初步錨點；期間另有08專題新增1份，已動態排隊且修正覆蓋統計。",
     "commit": "PRECHECK_BLOB_ba4552b8ce728c59c68429106bc6342f49bb3dcb",
     "ci_result": "pending",
     "ci_run_url": null,
-    "not_finished": "第48批仍有12份等待逐段正式仲裁，現階段驗收新增0份；全庫仍315/360、剩45。正式0章PREWRITE HOLD。",
+    "not_finished": "第48批12份仍須完成實際全文語義驗收；新增08資料1份使總數361，現315/361、未審46，不能用舊分母360；正式0章PREWRITE HOLD。",
     "next_step": "從第48批12份初審檔讀每份原始SHA和版本風險；優先01勘誤、051/114採案邊界、195_A 1632行對話原始權威；完成v2每段實質命題和四類逆向查漏、跨來源SHA/非Canon圖連結；經CI成功才計入。"
   },
   "audited_batch_paths": [

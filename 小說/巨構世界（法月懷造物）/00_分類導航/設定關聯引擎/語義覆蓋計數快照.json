@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第47批12份／2729行／103段／103原文SHA錨點／206非Canon圖邊已建立待驗證；前批303/360曾CI成功，本批315/360須待新CI。",
+  "warning": "第47批通過main CI共315份；GitHub新增1份08檔使總數360→361，新增未審；第48批12份尚處SHA/版本預審，必須正式全文語義＋圖連線＋CI才能計入。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -164,7 +164,7 @@
   "note": "335來源有某種可追蹤結構化入口；164份至少有既有細粒度命題，171份有獨立來源用途卡、370原文錨點與部分修訂語義，但未完成全文設定命題逐一仲裁。37組文字關係含互斥／補篇對照，不全是同章修訂。",
   "current_operational_metrics": {
     "source": "derived by matching 全庫物理清冊.json and 全庫待原子化缺口清冊.json paths, version ledger, audited batches",
-    "raw_original_sources": 360,
+    "raw_original_sources": 361,
     "with_fine_grained_reference": 164,
     "with_source_role_card_pending_full_semantic_review": 171,
     "machine_screened_source_dossiers": 213,
@@ -176,11 +176,11 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第47批12份來源與審核分片待main CI，暫登記315/360、剩45；零條證實跨K公共交通，正式0章PREWRITE HOLD。",
+    "limitations": "2026-11-11全庫新增1份動態排隊，來源總361；第47批成功驗收315份、第48批12份僅預審，未驗收46份；正式0章PREWRITE HOLD。",
     "full_file_editorial_accepted": 149,
     "full_file_editorial_pending": 22,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 45,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
+    "all_source_full_file_editorial_pending": 46,
     "historical_164_accepted": 142,
     "all_source_full_file_editorial_accepted": 315
   },
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "第47批12份先完成等效歷史＋25分片防重並建立待驗SHA分片，尚待新main CI成功；候選地圖不升級正史。"
+  "notice_2026_11_11": "2026-11-11新增08/20261111_第十二至十四章_Gemini遷徙007與031交接實讀稽核_非正史.md 已自動排入動態來源池；315/361、46未審。歷史335基線不變。"
 }
