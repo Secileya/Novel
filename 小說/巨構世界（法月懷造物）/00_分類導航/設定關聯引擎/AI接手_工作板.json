@@ -13,7 +13,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 381,
+    "raw_source_files": 382,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -24,19 +24,19 @@
     "nine_folder_files": 23,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-12 第15章R1八補丁9處唯一匹配已保存、第14章R1b六點工單及唯一順讀同步。新增4份可納管來源（R1回貼、15章R1、14章R1b、二次QA），另1份引擎內SHA回執不重計。實際來源366／381、待15；R1測氧、半面罩、防墜繩與情報QA仍未完，正式Canon0章PREWRITE HOLD。",
+    "important": "2026-11-12 第15章GPT R2十六處單行精確修補新建，R1原文不改，最新對第16章寫前參考改R2(7111443)，仍NON-CANON/PREWRITE HOLD，新增1真實候選正文源。動態366/382已驗、16待審。",
     "targeted_audit_records": 7162,
     "targeted_audit_verified_quotes": 7353,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 366,
-    "all_source_full_file_editorial_remaining": 15,
+    "all_source_full_file_editorial_remaining": 16,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 15
+    "all_source_full_file_editorial_pending": 16
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -85,7 +85,7 @@
       "blocked_on": null,
       "complete_evidence": [],
       "progress": {
-        "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_381_TOTAL_15_PENDING",
+        "stage": "QA05_CH15_R2_GPT_16_LINE_FOCUSED_FIXES_382_TOTAL_16_PENDING",
         "registered_at": "2026-11-11",
         "baseline_sources": 366,
         "baseline_full_file_accepted": 366,
@@ -120,7 +120,7 @@
         "audit_checker": "00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs",
         "corrected_finance_report": "00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
         "patch_manifest": "00_分類導航/設定關聯引擎/正文待修_精確修訂補丁候選.json",
-        "result_note": "R1已按Gemini八項九處精準套用，保存R0三批與R1補丁原文；第14章六點工單同步，GPT二次QA保留測氧/濾毒/繩索安全與知情過度確定問題，不能宣稱整章全通過。",
+        "result_note": "R2由GPT實際微修R1的16個唯一行並保持三批及Gemini R1歷史；深井氣體、繩索與無據倍率/母核確證已改為更合理的候選描寫；未成Canon。",
         "new_reader_chapters": 14,
         "new_reading_sources_pending": 4,
         "latest_reading_index": "待定正文/順讀_最新補丁候選/README.md",
@@ -129,7 +129,8 @@
         "latest_chapter15_partial": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_前兩批未完候選_20261111_非正史.md",
         "status_note_20261111": "三批已齊B+C/D；整章接合B已存、但P0/P1待審稿修訂，下一章不可直接引用未採案事件作既定Canon。",
         "latest_chapter15_complete": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_三批接合初版_20261111_非正史.md",
-        "latest_chapter15_r1": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R1_八項補丁合成候選_20261112_非正史.md"
+        "latest_chapter15_r1": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R1_八項補丁合成候選_20261112_非正史.md",
+        "latest_chapter15_r2": "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md"
       }
     },
     {
@@ -159,14 +160,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 366,
-        "pending": 15,
+        "pending": 16,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "2026-11-12：第15章R1回貼、完整R1候選、第14章R1b及GPT二次QA共新增4份真正非引擎來源；同位SHA覆核JSON放在引擎內，不納入來源總數及待審隊列。總381／已驗366／待15。",
+        "note": "新增第15章R2純正文候選一份；源計數381→382，舊366保留，15→16待審；內部R2精準整行回執不算來源。",
         "stage": "BATCH52_3_MAIN_CI_VERIFIED",
         "last_verified_commit": "3385ab4adcf5d08622ceb1813d57d9f8be31d3d8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42989171348",
@@ -197,7 +198,8 @@
           "09_跨AI原始來源/20261112_Gemini第十五章R1八處局部補丁_C台帳與兩批交付_使用者回貼原文_非正史.md",
           "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R1_八項補丁合成候選_20261112_非正史.md",
           "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
-          "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md"
+          "08_交接勘誤與決議/20261112_第十五章R1補丁合成_GPT二次QA_深井防護載員與情報界線_非正史.md",
+          "待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -1212,13 +1214,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-011",
-    "stage": "QA04_CH15_R1_8_PATCHES_9_UNIQUE_BLOCKS_APPLIED_381_TOTAL_15_PENDING",
-    "scope": "Gemini第15章R1八項補丁已保存為R1完整新候選；第14章R1b及唯一14順讀、01～14合輯、README同位同步。新增4份原始/候選/QA來源，內部SHA回執不算來源。來源後修覆核器已依歷史先後處理插入與整行修訂，README歷史全文語義驗收SHA已後修。保留獨立QA未解的毒霧測氧/供氧/防墜風險，正式Canon仍0章。",
-    "commit": "e049a03a28a208a88fc31d825d1548871d1264e8",
+    "stage": "QA05_CH15_R2_GPT_16_LINE_FOCUSED_FIXES_382_TOTAL_16_PENDING",
+    "scope": "2026-11-12 GPT在GitHub第15章R1（a12a68e）上精準修16處整行，生成第15章R2候選（7111443）：閉式循環供氣背具＋兩具獨立多氣體監測器、以岩壁固定錨點替代移動鐵爬犁尾環、防毒裝備數量與說詞一致、母核來源不當全知與十倍戰力旁白收斂。R1原始及Gemini三批不改，第14章R1b持續有效。Google Drive鏡像須在新CI同步後依來源Git SHA讀回確認，Gemini第16章寫前應優先讀R2而非R1。",
+    "commit": "1fdac05dffa10f619ae997482627f5003b145cb1",
     "ci_result": "pending",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43007874350",
-    "not_finished": "第15章R1尚有測氧火苗、濾毒不供氧、滑車尾環防墜、副繩與單儀器使用者等安全漏洞待精確後修；新增4份待審來源，實際全庫381，原366已驗，現15待審。正式Canon0章／PREWRITE HOLD，Drive實際鏡像文字未逐字核對。",
-    "next_step": "第15章R1以精準old→new處理呼吸防護、客觀測氧、獨立承重錨點、單儀器動線與剩餘未證訊息；避免整章重生。第16章新章仍預設兩次完整B交付；另按來源SHA驗收15份尚待審的實際來源，不能把引擎回執算成來源。"
+    "not_finished": "第15章R2已為完整新候選但不是Canon；供氣背具與監測器具體性能屬尚待作者採案的科幻世界技術，不等於實地安規認證。原366/382已完成既有編輯性審稿，16份新增待審；Drive R2鏡像同步及內容讀回尚待確認。",
+    "next_step": "核對GitHub提交與主CI、Drive鏡像R2檔案的來源SHA及全文，再給作者可直接轉貼Gemini的最新R2 Drive連結。Gemini新章A先讀第15章R2與14章R1b、既有SOP及跨章QA；第16章仍預設兩次完整交付B。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
