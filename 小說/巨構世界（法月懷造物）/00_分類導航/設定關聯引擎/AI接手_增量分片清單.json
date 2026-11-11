@@ -321,9 +321,20 @@
       "claim_count": 192,
       "graph_relations": 384,
       "note": "第50批12份8406行、192連續語義段、192 SHA命題、347原文引文與384非Canon關聯；主CI42981898069驗證通過，候選/歷史/讀本未升Canon。"
+    },
+    {
+      "path": "20261111_第五十一批12份_14章A補證與02至12章順讀候選_全文語義v2.json",
+      "git_blob_sha": "33e714401a625b82e43fa30837855dd9cd70370c",
+      "batch": "BATCH51",
+      "source_count": 12,
+      "original_lines": 2833,
+      "semantic_sections": 72,
+      "claim_count": 72,
+      "graph_relations": 144,
+      "note": "第51批12份，2833原文行72語義段72條SHA命題143逐行引文144非Canon關聯；來源未改、當批主CI待核。"
     }
   ],
-  "notice": "第50批12份8,406行及192條SHA命題已由main CI42981898069確認成功，Drive索引42981898170成功；來源366，351／366已驗收、15待審；正式0章PREWRITE HOLD。",
+  "notice": "第51批12份已生成SHA分片並提交主CI待核；預登錄363／366、剩3；第50批351／366此前已經主CI成功，正式0章PREWRITE HOLD。",
   "revalidations": [
     {
       "path": "20261110_來源後修重驗_客觀近即時_16份不重計.json",

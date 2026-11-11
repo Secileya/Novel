@@ -25,18 +25,18 @@
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
     "important": "第50批12份8,406行／192來源命題／347原文引文／384條非Canon圖邊通過main CI42981898069及Drive索引42981898170，351／366已驗收、剩15；歷史171角色來源全數通過編輯性驗收，正式0章PREWRITE HOLD、未提升Canon。",
-    "targeted_audit_records": 7057,
-    "targeted_audit_verified_quotes": 7248,
+    "targeted_audit_records": 7129,
+    "targeted_audit_verified_quotes": 7391,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 351,
-    "all_source_full_file_editorial_remaining": 15,
+    "all_source_full_file_editorial_accepted": 363,
+    "all_source_full_file_editorial_remaining": 3,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 15
+    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_pending": 3
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -83,40 +83,22 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 351,
-        "pending": 15,
+        "verified_complete": 363,
+        "pending": 3,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第50批12份8406行192區192命題、347逐行引文、384非Canon關係主CI42981898069成功且Drive索引42981898170成功。351／366整檔驗收，15待審；171歷史Role Card已覆蓋，正式0章。",
-        "stage": "BATCH50_12_MAIN_CI_VERIFIED",
+        "note": "第51批12份2833行、72審核段、72條SHA命題、143引文及144條非Canon圖關聯已建立Git資料候選並在GitHub提交待主CI確認；全庫預登錄363／366，3待審，正式Canon0章。",
+        "stage": "BATCH51_12_SUBMITTED_PENDING_MAIN_CI",
         "last_verified_commit": "40c522169c89794e90e3416fc785ac8b762e03a0",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/42981898069",
         "cross_source_next_batch": [],
         "historical_164_accepted": 153,
         "historical_171_accepted": 171,
         "last_batch_files": [
-          "09_跨AI原始來源/20261111_Gemini第十三章_A寫前_B正文_C寫後_兩段接續合併可見回貼_非位元原樣.md",
-          "待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
-          "待定正文/README.md",
-          "待定正文/其他場景/ChatGPT_第019_女主兩場獨立能力場景.md",
-          "待定正文/其他場景/ChatGPT_第139_無名母女記憶_整合試寫.md",
-          "待定正文/其他場景/ChatGPT_第150_走到這裡的人_靜謐迴廊.md",
-          "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
-          "待定正文/提綱非正文/ChatGPT_C_B2_第134_完整篇章設計_非小說正文.md",
-          "待定正文/提綱非正文/ChatGPT_第034_倒行潮_舊首篇大綱非完整正文.md",
-          "待定正文/純正文_ChatGPT/B_從上面下來的人.md",
-          "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
-          "待定正文/順讀_最新補丁候選/01_懸艙開箱日.md"
-        ],
-        "last_batch_full_lines": 8406,
-        "last_batch_sections": 192,
-        "last_batch_new_claims": 192,
-        "last_batch_new_anchors": 347,
-        "next_batch": [
           "09_跨AI原始來源/20261111_Gemini第十四章R1a_A寫前雙軌補證與修訂決策_使用者完整回貼_非正史.md",
           "待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
           "待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
@@ -129,6 +111,15 @@
           "待定正文/順讀_最新補丁候選/10_風停以後.md",
           "待定正文/順讀_最新補丁候選/11_撈風底的人.md",
           "待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md"
+        ],
+        "last_batch_full_lines": 2833,
+        "last_batch_sections": 72,
+        "last_batch_new_claims": 72,
+        "last_batch_new_anchors": 143,
+        "next_batch": [
+          "09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+          "09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+          "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -1081,17 +1072,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch50",
+    "task": "NEXT-009 batch51",
     "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 8406,
-    "review_sections": 192,
-    "atomic_findings": 192,
-    "original_line_anchors": 347,
-    "nonCanon_graph_links": 384,
-    "all_source_accepted": 351,
-    "all_source_pending": 15,
-    "state": "BATCH50_12_MAIN_CI_VERIFIED",
-    "notes": "第50批原文與非Canon語義證據已通過main CI42981898069及Drive index42981898170；首次提交2f5e69因最新交接文字未對齊產生器而CI失敗，精確修40c522已成功。原稿未改，正式0章。"
+    "original_lines_reviewed": 2833,
+    "review_sections": 72,
+    "atomic_findings": 72,
+    "original_line_anchors": 143,
+    "nonCanon_graph_links": 144,
+    "all_source_accepted": 363,
+    "all_source_pending": 3,
+    "state": "BATCH51_12_SUBMITTED_PENDING_MAIN_CI",
+    "notes": "第51批內容為Gemini第14章A寫前補證與02–12順讀候選，分片SHA33e7144，原文皆未覆寫、當批GitHub Actions待執行。嚴守非Canon，正式0章。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1111,13 +1102,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH50_12_MAIN_CI_VERIFIED",
-    "scope": "第50批12份8,406行、192連續審核區、192SHA命題、347原文引文、384條非Canon圖連結已通過main CI，保留13A/B/C與14R1a重建來源權威差異。",
-    "commit": "40c522169c89794e90e3416fc785ac8b762e03a0",
-    "ci_result": "success",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42981898069",
-    "not_finished": "還有15份來源未整檔語義驗收，其中第51批12份已預排並待重新SHA去重；正式正文0章PREWRITE HOLD。",
-    "next_step": "依NEXT-009.next_batch進行第51批12份，優先原文SHA、後出依賴、版本保真核對；新來源進庫若改變分母，先重新同步。"
+    "stage": "BATCH51_12_SUBMITTED_PENDING_MAIN_CI",
+    "scope": "第51批12份原文2,833行、72段、72條SHA命題、143逐行引文、144條非Canon圖關聯已建立並提交待CI，保持第05章錯誤猜測到第09章工程實證及第14章轉錄邊界。",
+    "commit": "PENDING_MAIN_PUSH",
+    "ci_result": "pending",
+    "ci_run_url": "本批尚未回報 CI",
+    "not_finished": "仍有3份來源待整檔驗收；本批12份待main CI確認，不可提前視為成功。正式正文0章PREWRITE HOLD。",
+    "next_step": "先核第51批main CI及Drive索引；成功後更新驗證狀態，再排09_C、09_D、13_R1b三份。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -1166,6 +1157,7 @@
     "00_分類導航/設定關聯引擎/20261111_第四十七批12份_巨構導航WKT地圖與版本權威_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十八批12份_舊勘誤首篇與歷史分冊_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十九批12份_巨根商旅歷史合冊與場景來源_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261111_第五十批12份_13章原文12章合輯靜謐記憶與14章R1a_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261111_第五十批12份_13章原文12章合輯靜謐記憶與14章R1a_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第五十一批12份_14章A補證與02至12章順讀候選_全文語義v2.json"
   ]
 }
