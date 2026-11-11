@@ -1,11 +1,11 @@
 {
   "schema": "mega-next-agent-workboard-v1",
-  "updated_at": "2026-11-11T03:53:00.000Z",
+  "updated_at": "2026-11-11T04:20:00.000Z",
   "repository": "Secileya/Novel",
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "724aecde960aa9a19dbe75011106315b83ce43d4",
+  "last_checked_head_before_handoff": "6349562ad0db78adf1dfbec2b689a035f22af1f5",
   "last_checked_successful_ci": {
     "name": "巨構設定索引查詢器驗證",
     "run_url": "https://github.com/Secileya/Novel/actions/runs/42945417646",
@@ -25,19 +25,19 @@
     "nine_folder_files": 15,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "第44批12份SHA分片待新main CI驗證，提交後279/360、81待審。B2與第152六章同文、R0/R1/R1a與第14章僅非正史，正式0章PREWRITE HOLD。",
-    "targeted_audit_records": 6346,
-    "targeted_audit_verified_quotes": 6537,
-    "full_file_editorial_accepted": 123,
-    "full_file_editorial_remaining": 48,
+    "important": "第44批在main CI 42951363496成功；第45批另12份目前只提交待CI。若45 CI未成功，完成數仍為第44批279/360，69待審為提報審核後暫時計數。正式0章PREWRITE HOLD。",
+    "targeted_audit_records": 6441,
+    "targeted_audit_verified_quotes": 6632,
+    "full_file_editorial_accepted": 130,
+    "full_file_editorial_remaining": 41,
     "all_source_historical_baseline": 335,
-    "all_source_full_file_editorial_accepted": 279,
-    "all_source_full_file_editorial_remaining": 81,
+    "all_source_full_file_editorial_accepted": 291,
+    "all_source_full_file_editorial_remaining": 69,
     "historical_164_full_file_acceptance": 135,
     "historical_171_full_file_acceptance": 122,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 81
+    "all_source_full_file_editorial_pending": 69
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -72,7 +72,7 @@
         "00_分類導航/設定關聯引擎/AI接手_整檔語義驗收台帳.json",
         "00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json"
       ],
-      "first_action": "先對第14章A/C與GPT獨立QA三份與歷史總帳及全SHA分片防重，再補足下一批12份，不要把候選章的工時、沉銀質量與劇透問題視作解決。",
+      "first_action": "第45批CI完成前只承認第44批279/360成功；確認第45批SHA分片、來源與依賴，並等待Actions全部通過，失敗要定位修正。下一批仍以12份防重後執行。",
       "acceptance": [
         "每個Git提交樹中的來源都有唯一、動態可計數的狀態；原335及未來新增均涵蓋，accepted+pending=live total。",
         "每份達成相同實質完整標準：所有段落、原始來源/轉貼分界、作者後修、權威/強度/發生進度、所有有效版本與未決事項。",
@@ -84,43 +84,52 @@
       "complete_evidence": [],
       "progress": {
         "baseline_total": 335,
-        "verified_complete": 279,
-        "pending": 81,
+        "verified_complete": 291,
+        "pending": 69,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第44批12份4,857行174段223細粒度命題446條非Canon回查關係；CI待驗，正式0章PREWRITE HOLD。 已按CI動態來源集合修正歷史171組：123已審、48待審，B2純正文是這1份。",
-        "stage": "BATCH44_12_MAIN_CI_PENDING",
-        "last_verified_commit": "b7c93deb312dad3317d9d96eefc08a917f99d2b9",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42945417646",
+        "note": "第44批279/360在 CI42951363496 已成功；第45批12份分片待新CI確認，帳面提報291/360不能宣稱完成。第14章豪語經作者明確保留且不升Canon。",
+        "stage": "BATCH45_12_MAIN_CI_PENDING",
+        "last_verified_commit": "48fcb3780ac745f744ea161722fd843e9b7b2441",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/42951363496",
         "cross_source_next_batch": [],
-        "historical_164_accepted": 135,
-        "historical_171_accepted": 123,
+        "historical_164_accepted": 137,
+        "historical_171_accepted": 130,
         "last_batch_files": [
-          "待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md",
-          "06_敘事規劃與工作流/20261111_作者確認_世界層不必全區走遍_巨構空曠結構密布與人口分離_正式規則.md",
-          "08_交接勘誤與決議/20261111_第十三章兩段合併候選_GPT獨立審稿與跨章道具醫療交通伏筆QA_非正史.md",
-          "08_交接勘誤與決議/20261111_第十三章R1_GPT獨立複核_義體冷縮交通票務醫療伏筆與數值_非正史.md",
-          "08_交接勘誤與決議/20261111_第十三章R1a_GPT獨立驗收_時間線物權九區伏筆與交付收束_非正史.md",
-          "09_跨AI原始來源/20261111_Gemini第十三章R1_A作者專用劇透因果卡_使用者回貼可見內容_非正史.md",
-          "09_跨AI原始來源/20261111_Gemini第十三章R1a_A作者因果更新與十項修訂摘要_回貼轉錄_非正史.md",
-          "09_跨AI原始來源/20261111_Gemini第十三章R1a_C修訂對照_候選台帳與語庫QA_回貼轉錄_非正史.md",
-          "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_兩段合併候選_20261111.md",
-          "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1_兩段接合重建_非正史.md",
-          "待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
-          "待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md"
-        ],
-        "last_batch_full_lines": 4857,
-        "last_batch_sections": 174,
-        "last_batch_new_claims": 223,
-        "last_batch_new_anchors": 223,
-        "next_batch": [
           "09_跨AI原始來源/20261111_Gemini第十四章A雙軌核對作者層因果規劃_聊天轉錄非正史.md",
           "09_跨AI原始來源/20261111_Gemini第十四章C寫後QA道具現金候選台帳_聊天轉錄非正史.md",
-          "08_交接勘誤與決議/20261111_第十四章兩段合併候選_GPT獨立審稿_時間情報裝備與沉銀現金QA_非正史.md"
+          "08_交接勘誤與決議/20261111_第十四章兩段合併候選_GPT獨立審稿_時間情報裝備與沉銀現金QA_非正史.md",
+          "05_場景視覺與參考/README.md",
+          "02_地圖拓撲與交通/README.md",
+          "04_能力武器與試煉/README.md",
+          "03_人物關係與語感/README.md",
+          "01_世界本體與文明/README.md",
+          "07_候選故事與場景/README.md",
+          "08_交接勘誤與決議/README.md",
+          "待定正文/順讀_最新補丁候選/README.md",
+          "舊資料_勘誤/03_增量維護與不刪改程序.md"
+        ],
+        "last_batch_full_lines": 507,
+        "last_batch_sections": 95,
+        "last_batch_new_claims": 95,
+        "last_batch_new_anchors": 95,
+        "next_batch": [
+          "待定正文_總入口.md",
+          "000_舊設定寶庫_接手必讀_20261108.md",
+          "待定正文/純正文_ChatGPT/A_拆路之後仍有人走.md",
+          "待定正文/純正文_ChatGPT/早期熟人版_尚未拆下的那一段.md",
+          "待定正文/純正文_ChatGPT/拆路P0_第一章_那條路正在被拆走.md",
+          "待定正文/純正文_ChatGPT/拆路P0_第二章_舊站仍有人來過.md",
+          "待定正文/已選未發生/ChatGPT_第051_第三個座位_已選未正式發生.md",
+          "待定正文/提綱非正文/ChatGPT_第148_白髮與雙向危機_五版摘要非完整原文.md",
+          "地圖/W01大區R01至R09與R04局部_重建資料V0.2.json",
+          "地圖/巨構主升程功能分層V0.5_非正史.json",
+          "地圖/T交通證據帳_三套候選路網V0.1.json",
+          "地圖/巨構主升程骨架修正版V0.5.1_候選規格.json"
         ],
         "batch_acceleration": {
           "stage": "QA_V2_PROCESS_INSTALLED_PENDING_FIRST_BATCH",
@@ -669,7 +678,7 @@
           "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42945417646"
         },
         "batch_44": {
-          "stage": "COMMITTED_PENDING_CI",
+          "stage": "COMPLETE__MAIN_CI_VERIFIED",
           "source_count": 12,
           "source_lines": 4857,
           "semantic_sections": 174,
@@ -679,7 +688,22 @@
           "accepted_total": 279,
           "pending_total": 81,
           "unmodified_originals": true,
-          "shard_sha": "43cdb2e8f0112f0ba2b8082820eaef209507db5a"
+          "shard_sha": "43cdb2e8f0112f0ba2b8082820eaef209507db5a",
+          "verified_commit": "48fcb3780ac745f744ea161722fd843e9b7b2441",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/42951363496"
+        },
+        "batch_45": {
+          "stage": "COMMITTED_PENDING_CI",
+          "source_count": 12,
+          "source_lines": 507,
+          "semantic_sections": 95,
+          "claims": 95,
+          "anchors": 95,
+          "graph_edges": 190,
+          "accepted_total_submitted": 291,
+          "pending_total_submitted": 69,
+          "unmodified_originals": true,
+          "shard_sha": "eda3cbd51afeb9173cc67626053a89f8a7fa05f1"
         }
       }
     },
@@ -950,17 +974,17 @@
   ],
   "last_delivered_work": {
     "date": "2026-11-11",
-    "task": "NEXT-009 batch44",
+    "task": "NEXT-009 batch45",
     "source_files_attested_this_turn": 12,
-    "original_lines_reviewed": 4857,
-    "review_sections": 174,
-    "atomic_findings": 223,
-    "original_line_anchors": 223,
-    "nonCanon_graph_links": 446,
-    "all_source_accepted": 279,
-    "all_source_pending": 81,
-    "state": "BATCH44_MAIN_CI_PENDING",
-    "notes": "Git Blob分片43cdb2e8已準備提交，原始小說及歷史大帳不覆寫；須核新main CI。"
+    "original_lines_reviewed": 507,
+    "review_sections": 95,
+    "atomic_findings": 95,
+    "original_line_anchors": 95,
+    "nonCanon_graph_links": 190,
+    "all_source_accepted": 291,
+    "all_source_pending": 69,
+    "state": "BATCH45_MAIN_CI_PENDING",
+    "notes": "暫時計數待新CI，不符合使用者『未過CI不算進度』的完成定義；第44批已驗收成功，正式0章。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -980,13 +1004,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH44_12_MAIN_CI_PENDING",
-    "scope": "第44批12份4,857行174段223原文SHA命題及446非Canon圖關係，含B2同文驗收、W世界層作者旅行規則、第13章各版與第14章候選。",
-    "commit": "PENDING_MAIN_COMMIT",
+    "stage": "BATCH45_12_MAIN_CI_PENDING",
+    "scope": "第45批12份原文507行95段95SHA命題、190非Canon圖連結；第14章Gemini A/C、最新作者修正後GPT QA、七分類README及順讀/維護入口。",
+    "commit": "PENDING_ATOMIC_MAIN_COMMIT",
     "ci_result": "pending",
     "ci_run_url": "PENDING_NEW_GITHUB_ACTIONS",
-    "not_finished": "本批main CI仍待驗；第14章還需修工時、沉銀質量、工匠情報與現金帳。提交後全庫279/360已登記，81待審，正式0章PREWRITE HOLD。",
-    "next_step": "核第44批GitHub Actions和讀回；再由第14章A/C與GPT獨立QA開始下一批並重新全源防重。"
+    "not_finished": "第44批已經CI成功279/360、待審81；第45批12份剛提交為待驗狀態，不可算291完成，只有其main CI成功後才能將正式進度更新成291/360、待審69。正式0章PREWRITE HOLD。",
+    "next_step": "查第45批main CI及Drive索引；若成功正式結案291/360，再按下一批12個候選排程防重與實讀。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
@@ -1029,6 +1053,7 @@
     "00_分類導航/設定關聯引擎/20261111_第四十一批6份_初遇開篇對照與熟人版分線_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十二批5份_B2與Gemini初遇地圖群像_全文語義v2.json",
     "00_分類導航/設定關聯引擎/20261111_第四十三批1份_B2第152六章長稿_全文語義v2.json",
-    "00_分類導航/設定關聯引擎/20261111_第四十四批12份_B2同文_十三章版本與十四章候選_全文語義v2.json"
+    "00_分類導航/設定關聯引擎/20261111_第四十四批12份_B2同文_十三章版本與十四章候選_全文語義v2.json",
+    "00_分類導航/設定關聯引擎/20261111_第四十五批12份_十四章A_C_QA與分類導航_全文語義v2.json"
   ]
 }

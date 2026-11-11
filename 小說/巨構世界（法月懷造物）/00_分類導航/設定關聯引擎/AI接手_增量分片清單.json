@@ -255,6 +255,17 @@
       "claim_count": 223,
       "graph_relations": 446,
       "note": "十二份來源全文及權威範圍：B2純正文與第152故事同文、世界層不打卡規則、第13章R0/R1/R1a、作者A卡、Gemini C、GPT獨立QA與第14章B。4,857行174段223條SHA命題446條非Canon圖邊；第14章仍需局部修改。"
+    },
+    {
+      "path": "20261111_第四十五批12份_十四章A_C_QA與分類導航_全文語義v2.json",
+      "git_blob_sha": "eda3cbd51afeb9173cc67626053a89f8a7fa05f1",
+      "batch": "BATCH45",
+      "source_count": 12,
+      "original_lines": 507,
+      "semantic_sections": 95,
+      "claim_count": 95,
+      "graph_relations": 190,
+      "note": "第45批12份，含Gemini14章A/C與最新獨立QA、7分類README、1–12候選順讀入口及無損維護；507行95段95SHA命題190非Canon關係。後出作者裁決保留『絕不會再出暗裂』台詞，不改14章原稿。CI待驗。"
     }
   ],
   "notice": "Append small batches with Git blob sha and atomic tree; do not rewrite giant baseline ledgers.",

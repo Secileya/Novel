@@ -10,7 +10,7 @@
   "version_decision_count": 16,
   "registered_container_count": 6,
   "distinct_original_source_paths_with_some_structured_reference": 164,
-  "warning": "第44批源文分片與工作台已提交；CI首次在歷史171子組別計數發現1份增量，現修正為123/171，待重新跑CI。全庫279/360、待審81；正式0章PREWRITE HOLD。",
+  "warning": "第45批待CI！已核實第44批279/360成功，另12份驗收材料待新CI才可計入完成。",
   "source_categories": {
     "00_分類導航": {
       "physical": 8,
@@ -170,19 +170,19 @@
     "machine_screened_source_dossiers": 213,
     "source_excerpt_sections": 1597,
     "version_nodes": 16,
-    "audited_batched_claims": 6346,
-    "audited_original_quote_anchors": 6537,
+    "audited_batched_claims": 6441,
+    "audited_original_quote_anchors": 6632,
     "original_archive_09_files": 15,
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第44批12份main待CI；279/360已提交審核證據、81待審；B2同文、13/14章皆非Canon；正式0章PREWRITE HOLD。",
-    "full_file_editorial_accepted": 123,
-    "full_file_editorial_pending": 48,
+    "limitations": "第44批已成功279／360；第45批分片提報增加12份至291／360但新CI未過之前只視為待驗，不宣稱完成；第14章作者保留艾莉維亞豪語，0章PREWRITE HOLD。",
+    "full_file_editorial_accepted": 130,
+    "full_file_editorial_pending": 41,
     "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 81,
-    "historical_164_accepted": 135,
-    "all_source_full_file_editorial_accepted": 279
+    "all_source_full_file_editorial_pending": 69,
+    "historical_164_accepted": 137,
+    "all_source_full_file_editorial_accepted": 291
   },
   "legacy_metrics_before_2026_11_09_reconciliation": {
     "version_decision_count": 10,
@@ -191,5 +191,5 @@
     "reason": "Previous stored values were a snapshot before the sixth targeted audit and before source archive 09 five-file restoration; preserve for provenance, not as current operational counts."
   },
   "full_file_semantic_review_caveat": "1/171是來源009共57行的有條件AI編輯性整檔驗收，非作者採Canon，後出改版須退回；其餘170未完成。",
-  "notice_2026_11_11": "本輪BATCH44：12份4,857行174段223條SHA證據、446非Canon原生圖連接；第14章仍需定向修訂，候選不得升Canon。"
+  "notice_2026_11_11": "第45批12份507行95段95 SHA原文命題及190圖邊，作者裁定第14章自信台詞原樣保留；尚待main CI。"
 }
