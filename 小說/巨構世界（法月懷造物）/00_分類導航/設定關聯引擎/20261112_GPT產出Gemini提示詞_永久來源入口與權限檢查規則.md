@@ -10,10 +10,19 @@
 - **版本／來源**：Gemini 可以引用 Drive 鏡像內**實際讀到**的 Source Git blob SHA／文件版本標頭，但不能憑檔名、聊天、猜測或虛構來源生成 SHA。Drive 找不到／檔案舊版／鏡像尚未同步時：**列出缺失與待核，交 GPT 查 GitHub 修復或提供可用 Drive 鏡像**；Gemini 不得自行假設擁有 GitHub fallback。
 - **以後功能變動**：其他 Gemini 產品或版本可能存在手動 GitHub 快照匯入，但**作者未親自確認且未在現有 Gemini 工作流完成實測前，不得推定已接通或用它取代 Drive**。GitHub 靜態快照匯入 ≠ GitHub 實時連接、更新、歷史或寫入能力。
 
+## 2026-11-12 補充｜Google Drive 兩端讀取不能混稱（作者當次反映的真實失敗案例）
+
+**必須分開記錄四個狀態：** (1) GitHub 原始來源是否存在、SHA 是否正確；(2) Drive Stingray 鏡像是否存在、GPT 連接器能否以完整連結實讀；(3) **Gemini 當次對話是否真的搜尋或開啟同一個鏡像、讀到可辨識的正文與來源 SHA**；(4) Gemini 是否依實讀材料正確研究／回答。
+
+- **GPT 可讀到 Drive ≠ Gemini 可讀到 Drive**。先前 GPT 實測兩份「首輪12題／全域128題」在 Drive 存在且 SHA 相符，但另一 Gemini 回覆自述當次雲端工具「搜尋回傳空值」。此現象不證明檔案不存在或沒有同步，也不能在欠缺 Gemini 連接器原始錯誤紀錄時，宣稱是索引、授權、帳戶或 UI 的哪一項問題。
+- 給 Gemini 的提示詞，**優先附已由 GPT 實讀成功的直接 Drive 連結與檔名**，例如 12題 `https://docs.google.com/document/d/1RYAEbheBSIVKVnjnp8HRgBHIGSIISUTG-U6unPXZIEY/edit` 及128題 `https://drive.google.com/file/d/18mVLGZdTv6LusEjkWrOrHmGI6f0D4hcq/view`；並要求 Gemini 在**自己的工作環境**實際開啟／檢索，回報題庫標題、指定一題原文關鍵句及來源 SHA，不能只複製 GPT 交給它的 SHA 裝作驗證。
+- Gemini 當次查不到時，先分清「搜尋找不到」「直連無權限」「檔案內容為空」「連線失敗」等類型；**不要求作者重新上傳或從 GitHub 手動轉貼**。由 GPT 驗證當前鏡像與連結，必要時協助確認 Gemini 的 Google 帳戶／可用 Drive 連接方式；Gemini 不能實讀就標 `NOT_READ_THIS_SESSION`，不做假引用，並可在不依賴該原文的範圍繼續創意任務。
+- 2026-11-12 作者曾把 Gemini 同主題 A～E 的不同斷線／重生成版本貼在**不同 ChatGPT 對話**；原文封存與衍生 QA 必須以具體起始文字／內容／來源區分，**不能因標題都叫 A～E 就宣稱逐字相同或當成兩次不同作者採案**。
+
 ## GPT 每次按下「送給 Gemini」之前的四項檢查
 
 1. **來源入口**：提示詞是否寫的是「在已連接的 Google Drive 專案鏡像搜尋／閱讀」？不能寫「在 GitHub 找檔」「先去 GitHub 讀」「Drive 不能用就去 GitHub」。
-2. **交付依賴**：若有已知 Drive 文件連結，優先提供；只有 GitHub 路徑時，要明說那是**來源相對路徑，供 Drive 內檢索定位**，不暗示 Gemini 有 GitHub 權限。
+2. **交付依賴與兩端實讀**：若有已知且 GPT 已實讀的 Drive 文件連結，優先提供；只有 GitHub 路徑時，要明說只是**來源相對路徑，供 Drive 內檢索定位**。**GPT 讀到不代表 Gemini 讀到**，提示詞需要求 Gemini 在當次對話實際確認文件內容與 SHA，不能憑先前 GPT 的回報直接自稱已讀。
 3. **無權限降級**：無法實讀時應回報「未讀取」，交 GPT 補充；無寫入時應 `SAVE_PENDING`，交 GPT 保存。不能任意生成 Git SHA、commit 或 Drive 讀取成功聲明。
 4. **對話消耗**：不為提示詞格式要求使用者重新講述已明確確認的限制；不要浪費 Gemini 額度讓它嘗試已知不可用的 GitHub 讀寫工作。
 
