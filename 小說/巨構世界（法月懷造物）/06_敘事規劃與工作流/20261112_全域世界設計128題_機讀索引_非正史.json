@@ -1,0 +1,2416 @@
+{
+  "schema": "mega-world-open-question-bank/v1",
+  "date": "2026-11-12",
+  "title": "《巨構世界》全域世界設計128題機讀索引",
+  "status": "NON_CANON_PREWRITE_HOLD",
+  "canon_chapters": 0,
+  "notes": [
+    "保留既有159/166原80題及168/171/173回答，不是替換也不是宣稱未曾作答。",
+    "過時不代表淘汰。舊案分類須區分版本、作者權威、重用適配、實際出場。",
+    "題目本身是GPT新增的創意探索問題而非世界已定客觀設定。",
+    "每次選1–3題自由回答、繼續拓展，不用硬配額、硬綁區域或固定章節。"
+  ],
+  "markdown_source_path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_全域世界設計128題_宏觀宇宙文明生態人物故事與歷史候選再生_V1_非正史.md",
+  "markdown_source_git_blob_sha": "b92e81cc51649316f66c66b6e16f1d328bda41a4",
+  "counts": {
+    "domains": 16,
+    "questions": 128
+  },
+  "domains": [
+    {
+      "code": "A",
+      "title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "from": 1,
+      "to": 8,
+      "sources": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ]
+    },
+    {
+      "code": "B",
+      "title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "from": 9,
+      "to": 16,
+      "sources": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ]
+    },
+    {
+      "code": "C",
+      "title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "from": 17,
+      "to": 24,
+      "sources": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ]
+    },
+    {
+      "code": "D",
+      "title": "多代歷史、前文明、遺產與活著的舊世界",
+      "from": 25,
+      "to": 32,
+      "sources": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ]
+    },
+    {
+      "code": "E",
+      "title": "科技、科學、能源與超常力量的社會功能",
+      "from": 33,
+      "to": 40,
+      "sources": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ]
+    },
+    {
+      "code": "F",
+      "title": "城市工程、物資循環、居住與日常基礎設施",
+      "from": 41,
+      "to": 48,
+      "sources": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ]
+    },
+    {
+      "code": "G",
+      "title": "智慧物種、感官、文化與非人社會",
+      "from": 49,
+      "to": 56,
+      "sources": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ]
+    },
+    {
+      "code": "H",
+      "title": "國家、政權、法域、階級與社會組織",
+      "from": 57,
+      "to": 64,
+      "sources": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ]
+    },
+    {
+      "code": "I",
+      "title": "金錢、交易、契約、物權與產業競爭",
+      "from": 65,
+      "to": 72,
+      "sources": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ]
+    },
+    {
+      "code": "J",
+      "title": "旅行、信息、學術、語言和未知世界的認知",
+      "from": 73,
+      "to": 80,
+      "sources": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ]
+    },
+    {
+      "code": "K",
+      "title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "from": 81,
+      "to": 88,
+      "sources": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ]
+    },
+    {
+      "code": "L",
+      "title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "from": 89,
+      "to": 96,
+      "sources": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ]
+    },
+    {
+      "code": "M",
+      "title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "from": 97,
+      "to": 104,
+      "sources": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ]
+    },
+    {
+      "code": "N",
+      "title": "人物、職業怪人、敵人與獨立群像",
+      "from": 105,
+      "to": 112,
+      "sources": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ]
+    },
+    {
+      "code": "O",
+      "title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "from": 113,
+      "to": 120,
+      "sources": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ]
+    },
+    {
+      "code": "P",
+      "title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "from": 121,
+      "to": 128,
+      "sources": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "001",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "一名橫越多個世界層的測繪者，會在什麼客觀證據下第一次承認：巨構的某處不是普通三維結構？如果另有一名技師能提出完全不同的解釋，兩人如何驗證？",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "002",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "巨構能否出現完全不像『城市、森林、海、沙漠或遺跡』的宏觀地方？請先發明三種無法靠換皮地貌概括的空間，再說明其中一種如何供生命或機械長期運作。",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "003",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "在本作可能同時存在真實星辰、人工天幕、異常支撐的光照時，哪一種居民會從小誤以為自己看到的是同一片天？哪種普通職業卻能分辨？",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "004",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "某種真實天體若在巨構內部可見，『看得到、能測量、能抵達、會受到它的引力』這四種關係是否全部成立？能否設計兩個截然不同且自洽的答案？",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "005",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "巨構世界有沒有因局部形制極端不同、根本無法使用普通方位或測量法的地帶？當地居民要如何建立不會害死人、可代代傳承的導航系統？",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "006",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "若一處看似『世界盡頭』的邊緣其實只是測繪精度的盲區，探險隊、政府和普通居民的認知會如何分歧，而不是人人都喊宇宙祕密？",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "007",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "巨構本身之外，是否允許多種客觀宇宙背景或高階自然存在同時成立？若允許，什麼問題應讓作者永遠不提前定死、只給局部可查的規律？",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "008",
+      "domain_code": "A",
+      "domain_title": "巨構本體、宇宙與無法預先分類的奇異事物",
+      "question": "如果完全不使用鋼鐵、樹根、巨龜、霓虹或高科技城市這些已熟悉素材，還能提出什麼一眼就有《巨構世界》尺度感的原創場景？其驚奇依靠什麼？",
+      "source_ref_numbers": [
+        "001",
+        "011",
+        "076",
+        "115"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "009",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "同一個宏觀世界層裡，如何讓兩座城市的技術、語言、氣候、歷史都截然不同，卻仍明確處於同一層而不是被硬拆成兩個關卡？",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "010",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "一個層間隔界若厚到容納數代文明，哪個邊界居民會認為『我們住在兩個世界之間』是荒唐說法，因為這裡本來就是故鄉？",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "011",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "什麼樣的宏觀分域會讓人誤以為『向上』就是靠近最高層，後來才發現自己走的是側向或折返路？如何不靠作者強行扭轉地圖？",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "012",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "同一片主骨架穿過多個世界層，沿骨架旅行為何可能比視覺距離遠得多？能不能創造真正的往返路權、季節窗和道路維護史？",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "013",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "除了公營鐵道、遠征者舊路和極高階載具，還可能有哪些互不相容的跨界方式？例如生態遷徙、城市搬遷、非人感官導航或罕見物理接合。",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "014",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "如果 W01 十二大區只是其中一個宏觀分域的主體，W02 或其外更遠地區能否完全不用『十二區地圖』作創作模板？提出兩種差異大到難以沿用原有分類的案例。",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "015",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "起點下方還有極深巨構時，為何有人以『往下』為一生的志業？若下方擁有完整高等文明，它怎樣看待上方居民的登頂夢？",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "016",
+      "domain_code": "B",
+      "domain_title": "世界層、厚重隔界、拓撲與真正的探索空間",
+      "question": "一張很久以前正確、今天卻錯誤的地圖，究竟因地形移動、政治封鎖、語義變化、空間量測方法不同還是測繪員偏見失效？哪一種最能衍生獨立故事？",
+      "source_ref_numbers": [
+        "070",
+        "115",
+        "125",
+        "130",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "017",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "某片世界層的『日落』是巨大工程設備的正常收班，另一片是遠方真恆星，第三片則有非普通環境規律。居民各會形成什麼真實的工作與文化節奏？",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "018",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "巨構內真正的海洋、水文循環、地下水與人工冷卻如何共存？請想像一條河流跨三種文明，沿途名字、權利與水質都被改寫的故事。",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "019",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "一個極端氣候地帶能否有令人嚮往的美景、可養家的正常產業，以及讓外地人無法長住的客觀風險，而不落入『冰屬性關卡』？",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "020",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "若某處會週期性發生巨大結構位移，當地的生日、契約、播種、婚禮與城市工程日曆會如何調整？也可能有根本不受影響的居民嗎？",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "021",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "巨構中會不會存在『不是往下落』的雨或河流？請區分毛細、局部力場、氣流、導管與未知物理等不同機制，不把整個世界重力當場反轉。",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "022",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "如果某片天空看似永遠晴朗，但雨實際來自上方另一個完整生態系，哪類學者能理解，哪類農民早就憑經驗利用，兩者誰更有用？",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "023",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "除了冷熱風暴與地震，設計兩種真實但不以殺人為目的的巨構自然循環，並描寫它們如何催生美食、節慶、手藝或都市傳說。",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "024",
+      "domain_code": "C",
+      "domain_title": "天空、氣象、海洋、生態循環與未知自然規律",
+      "question": "某個生態災害沒有反派、沒有古代陰謀、沒有神祇指示，卻同時讓三座城市做出彼此矛盾的合理選擇。災前徵兆、衝突與災後一年各是什麼？",
+      "source_ref_numbers": [
+        "012",
+        "076",
+        "097",
+        "101",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "025",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "既然前文明在升維前夕曾有宇宙霸權，今天還有哪些真實存活的後裔社會並沒有失去高科技，而是繼續過普通生活？他們的孩子會煩惱什麼？",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "026",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "如何不直接揭露前文明全部真相，也讓讀者從不同年代的街名、材料、墓碑和技術誤用讀出三個時代的疊加？",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "027",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "某段今天被當作山脈的古建築，是否可能是兩個後來的文明一起維修才維持至今？哪一方擁有繼承權，哪一方只是付錢維護？",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "028",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "當一種失傳科技被重新發明，研究者會希望申請專利、公開救人、交給政府，還是毀掉？哪種選擇對其家人最重要？",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "029",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "某個文明的崩潰可能完全與 Celeste、升維和大陰謀無關：是慢性財政、遷徙、疾病、文化選擇或戰爭。寫出兩種同樣有歷史分量的地方衰落史。",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "030",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "如果同一場遠古事件分別被三個民族記成勝利、撤退與毫不起眼的年度工作記錄，哪一份最接近事實？為什麼仍可能各自影響當代人？",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "031",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "『有些舊版設計已被新主地圖取代』是否能解釋為古地名、歷史測繪版本、已失落地區，或仍存在但遠在他方的空域？哪一種最值得重新取出來？",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "032",
+      "domain_code": "D",
+      "domain_title": "多代歷史、前文明、遺產與活著的舊世界",
+      "question": "前文明留下的普通用品可能被誤認成最珍貴的神器；如果一名尚存前文明居民看到後人為它發動戰爭，他會哭、笑、鄙夷還是出於利益保持沉默？",
+      "source_ref_numbers": [
+        "011",
+        "070",
+        "076",
+        "157"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "033",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "若文明級數表允許重新定義，除了武器破壞力，應用哪些獨立維度評估真正文明能力——物流、能源、生命科學、資訊、建造、探索或物理掌握？",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "034",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "一座賽博巨城與一座使用耐久蒸氣系統的山城，在各自環境裡為何可能同樣理性？讓兩者交換一件技術，實際會遇到什麼維修和文化障礙？",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "035",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "創造出令人驚奇但不適合打仗的三種高科技：其中一種徹底改變普通老人的晚年，一種改變菜市場，一種則引起令人爆笑的法規爭議。",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "036",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "當某項非普通物理現象由 Celeste 的偉力客觀支撐，居民仍能測出哪些穩定局部規律？哪個研究者不必知道創世者存在，也可以做出真正突破？",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "037",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "如果高等文明能長期維持人工天空與氣候，它是否必然控制供電與生活？有哪些分散、自治、合作或失敗的基礎設施治理方式？",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "038",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "一件前文明殘存日用品為何可能在工業村比在高科技城市更昂貴？考慮零件來源、可修性、專利、心理價值、運輸風險與贗品。",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "039",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "科技分層能否表現在『誰有權關掉一盞燈』而非數字裝備等級？一名值班員、一座醫院、一個貧民和一位官員如何理解同一個能源限額？",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "040",
+      "domain_code": "E",
+      "domain_title": "科技、科學、能源與超常力量的社會功能",
+      "question": "當兩種科技都能完成同一件事，哪一種因使用者身體不同而成為唯一可用方案？避免把異種文明的技術寫成高低級排名。",
+      "source_ref_numbers": [
+        "011",
+        "012",
+        "076",
+        "098",
+        "099"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "041",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "選一座真正有人住的巨構城市，從一份早餐追查食材、水、熱、垃圾和工資的完整路徑。這條路徑哪個環節最脆弱，又如何讓居民早已習慣？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "042",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "巨構城市可能依附吊索、根部、殼壁、浮具、巨獸、普通地面或難以描述的空間。請為一種目前還沒出現過的居住型態設計真正的產權與維修規則。",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "043",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "一場大修工程如何影響學校放假、商家營業、夜班薪水、婚禮路線與外地人住宿？哪些配角沒有把它看成重大主線事件？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "044",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "居民若不住普通平面住宅，哪些『樓層、面積、鄰里、噪音、廁所、電梯』概念必須重新設計？以紡鋼族立體住宅候選作對比，但不用照搬。",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "045",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "城市的歷史如何從一次未完成的排水工程演變為新街區、危險地形、藝術景觀與後世傳說？誰一直在為當年的決策付錢？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "046",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "能否創造一個沒有戰士守護、卻被當地人尊重數代的基建職業？當那群人罷工，城市會不會先出現荒誕小問題而不是立刻末日？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "047",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "一座幾乎完全不使用已熟悉鋼架／鐘擺／根橋視覺的城市，如何讓建築、美食、交通、氣味、階級與歷史形成同一套地方性？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "048",
+      "domain_code": "F",
+      "domain_title": "城市工程、物資循環、居住與日常基礎設施",
+      "question": "對當地居民是漂亮公共藝術、對遠方工程師卻是安全問題的巨大構造，社會要如何選擇保留、加固、搬遷或拆除？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "191",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "049",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "如果某智慧族群不以雙手操作、不靠聲音溝通，學校、法律簽名與遺囑會怎麼設計？讓內部也有不同階級與性格，而非人人同種想法。",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "050",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "目前紡鋼族、潮腮人、機械共同體等是具體候選；還能創造哪種完全不靠『多手腳／水陸適應／換身體』辨識的新生命？請先設計其感官再設計文明。",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "051",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "兩個不同身體構造的智慧者建立家庭、互相照護甚至共同育兒時，什麼日常規矩會比宗教衝突還困難？什麼小習慣卻能讓人感到親密？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "052",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "某個群落中看似『異族』者其實在此定居四代，本地人反而是移入不到半年的同種族。誰能合法繼承房屋、土地和地方身份？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "053",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "一個智慧文明對死亡、成長、記憶或個體邊界的理解與人類不同，如何讓其人物既異質又可被讀者理解，而非只會說神秘哲學台詞？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "054",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "某種族把人體不可能感受到的振動當作音樂，另一種族把色彩的時間變化當作姓名。雙方如何互相翻譯藝術，能不能產生非常好笑的誤會？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "055",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "某大型智慧生物能否不是坐騎、神、土地或終極Boss，而是一名有財務、朋友、懶惰與退休計畫的普通市民？他的日常規模會怎麼改變城市？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "056",
+      "domain_code": "G",
+      "domain_title": "智慧物種、感官、文化與非人社會",
+      "question": "如果兩個文明的科技一樣發達，但一方以交換技藝維持身分、一方以沉默保護私人知識，它們之間最真實、最小的一次衝突會是什麼？",
+      "source_ref_numbers": [
+        "004",
+        "012",
+        "094",
+        "097",
+        "171"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "057",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "一個真正統治數片世界層的帝國，如何傳遞命令、收稅、處理距離與地方反抗？它統治得到哪些事，卻可能控制不了一個偏遠村莊的晚餐？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "058",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "若跨層帝國的法律與行會規矩發生衝突，軍人、遠征者、醫師與地方居民各自認為誰有權發令？寫出不需要戰爭也會爆發的具體事件。",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "059",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "不同社會如何給『同一個人』不同身份？例如他同時是帝國公務員、異種家族親屬、地方黑市債主與遠征團可靠醫護。",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "060",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "假設某座高科技富裕城邦並不邪惡，還能如何出現可怕卻合法的歧視、資源分配困境或政治角力？也允許它真有令人喜歡的制度。",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "061",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "某個跨地區公會若有公開資格等級，它能證明履歷、工作能力與風險承擔，但不等於戰力。違反這個邏輯會造成什麼真實事故或法律案件？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "062",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "在真的無政府之地，什麼替代制度能維持貿易與保護？如果這些制度很好用，為何居民仍有人想建立政府？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "063",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "一場跨物種政治選舉怎樣處理壽命差幾百倍、不同出生率與集體人格的公民？能否同時存在合理的贊成和反對立場？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "064",
+      "domain_code": "H",
+      "domain_title": "國家、政權、法域、階級與社會組織",
+      "question": "除了帝國、議會、宗教、黑幫與商會，還有哪三種真正不同的權力形式能跨越世界層？設計其獲得權威的實際方式，不靠超能力神諭。",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "065",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "一張在 W01 常用的銀鉚券，到了陌生世界層究竟可兌換什麼？如何出現可信的交易所、非官方匯價、債務和法幣拒收，而不硬設全世界通貨？",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "066",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "巨構世界有哪些比金幣更重要的交換媒介，例如路權、淨水、冷鏈時間、氧氣、翻譯服務、情報校驗或可用的吊籠班次？何者適合地方，何者可跨層？",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "067",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "同一件稀有物能被學者視為文物、工匠視為零件、醫師視為污染物，誰對它有處分權？若有人搶走，法律是否因所在地改變？",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "068",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "設計一個盈利能力極強、完全不靠殺人或寶物的行業；讓它真正養活二十名不同職業者，並影響附近生態。",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "069",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "如果某生物的絲材、油脂或排泄物是跨區工業原料，誰有權捕獵、採集、飼育與訂價格？禁獵不一定善良，濫捕也不一定只出於邪惡。",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "070",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "一條可靠交通線消失三個月時，什麼東西首先漲價、什麼店反而發財、誰可能失業，哪種社群會發明替代品？",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "071",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "一個高風險產業如何設計真正可信的保險、工傷、撫恤和欺詐？若一名世界頂級強者路過，是否有權替受害者抹除所有契約？",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "072",
+      "domain_code": "I",
+      "domain_title": "金錢、交易、契約、物權與產業競爭",
+      "question": "當跨層貿易商只認一份幾十年前的舊地圖，三個世代的價格與產業如何被錯誤路線養活？真正發現短路的人可能為何不公開？",
+      "source_ref_numbers": [
+        "012",
+        "046",
+        "098",
+        "099",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "073",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "如何讓同一條遠方道路對郵差、逃亡者、學者、原住民和大國軍隊有五種不同的『可到達性』，而不是把距離寫成固定遊戲時間？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "074",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "某位送信人走過比主角更多的地區，但他知道的是收件人情緒、住宿和路線，不是古代宇宙真理。他的職業會創造什麼令人難忘的故事？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "075",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "如果一座城市出售真確、過時、故意模糊、具有不同路權限制的多版本地圖，誰會買哪種地圖？錯誤地圖如何比陰謀更有戲劇性？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "076",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "世界上一些學校知道天體是真的，一些知道人工天幕，一些根本不用天空定位。不同學術體系如何交換觀察成果而不強迫統一一切名詞？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "077",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "一位外地旅人被居民當作稀有物種，但在原鄉其實只是普通店員；如何透過旅行寫出知識差，而不把當地人當成愚蠢NPC？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "078",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "當一名學者對技術原理理解正確，卻缺少設備；另一名技師能操作設備，卻對原理誤解。兩人如何共同解決問題又互不服氣？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "079",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "除了書信、廣播、管路與高科技網絡，巨構還可能透過什麼方式傳遞遠方社會資訊？設計一種傳播快速但難驗真，一種緩慢卻可信。",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "080",
+      "domain_code": "J",
+      "domain_title": "旅行、信息、學術、語言和未知世界的認知",
+      "question": "一場遠征最後什麼重大秘密都沒找到，卻因此建立一條真正可行的普通客運線，讓兩個群落的人第一次可以定期探親。這個故事能不能不靠大Boss收尾？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "125",
+        "157",
+        "190",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "081",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "請設計一條真正完整的食物鏈，從肉眼不可見的微生物到巨型捕食者，交代物質和能量來源；其中哪個最不起眼的生物對社會最重要？",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "082",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "某種外表極可愛的生物，其實會讓城市維修員氣瘋；它不是邪惡怪獸，卻連續十年引發真實保險理賠。居民為何仍不肯消滅它？",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "083",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "一座在巨獸背上的城市遇到巨獸自己生病、想改道或不願被開採，居民政府、醫師、商人和巨獸本人有什麼不同的權利？",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "084",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "同樣外形的兩頭巨蛛，一頭是農業合作社多年依賴的採絲對象，一頭是野生捕食者；當地人如何辨識和處理，能不能不把兩者都寫成Boss？",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "085",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "某種生物原本只住在很深處，如今出現在不應存在的環境。這可能是自然遷徙、違法放生、貨物攜帶、棲地改變或學者分類錯誤，哪種最有趣？",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "086",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "兩種智慧程度不同的大型生物爭奪領地，周圍居民是否有權協助其中一方？研究者、獵團、移居者的利益如何真正衝突？",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "087",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "一種完全無害卻能讓人驚嘆的生物大遷徙，會如何改變夜間天空、漁村商機和孩子的童年？不要把每場群聚都變成災難預警。",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "088",
+      "domain_code": "K",
+      "domain_title": "小型到山岳級生命、食物鏈、共生與生態倫理",
+      "question": "如果一種曾被當成唯一病原的微生物其實有多個無害近親，醫師、商人和居民會如何改變此前一視同仁的檢疫與捕殺政策？",
+      "source_ref_numbers": [
+        "097",
+        "101",
+        "102",
+        "156",
+        "171",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "089",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "設計一名非常強但完全不想稱霸的人：他有哪些真實謀生需要、家人責任和社會關係，使其不會每次事件都變成主角的外掛救援？",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "090",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "在某些極端地形裡，危險主要來自視野、氣體、海壓或路權，而不是怪獸。為何最強的戰士也可能選擇撤退，卻不等於實力被削弱？",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "091",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "一場地方性的武裝衝突可如何同時包含真正見血的殘酷、普通居民上班、商店的損失與隔天收拾戰場的工作，不流於血腥模板？",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "092",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "同一名罪犯在甲國被通緝、在乙國合法、在丙地是地方英雄。當他進入一座與主角毫無關係的小城，會發生什麼社會選擇？",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "093",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "如果一名追捕者因僱傭契約、差旅預算或合法工時受到限制，這些限制何時真能影響追殺，何時會被更高級命令、私人情緒或危急情況改變？既有伊戈爾是候選，不預設必出。",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "094",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "一名非戰鬥技師擁有能解除橋樑崩壞的獨家知識，但他不願幫人，因為自己曾受害；可以如何談判、付代價、失敗或請其他人接手？",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "095",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "高階武器留下的公共破壞如何傳播到賠償、司法、保險、運輸與地方政治？最強者離開後哪些人還會受影響？",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "096",
+      "domain_code": "L",
+      "domain_title": "戰力、戰鬥、犯罪、極端危險與非戰鬥解法",
+      "question": "一場高潮完全沒有戰鬥，卻能讓讀者感到比決鬥還緊張：例如搶救過期前的藥物、對一份錯誤判決上訴、修復陌生文明的儀式。要如何演出而不靠倒數模式？",
+      "source_ref_numbers": [
+        "005",
+        "022",
+        "023",
+        "043",
+        "098",
+        "102"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "097",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "某地居民最喜歡的休閒活動與當地巨構環境有什麼關係？可以是看風、聽機械回聲、收集雨、夜市、球賽，也可以完全出乎意料，且不只出現在節日。",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "098",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "如果一個地方幾乎沒有自然日夜，但人們仍需要睡覺、約會和養孩子，誰來決定作息？不同職業會因此產生什麼溫柔或好笑的事情？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "099",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "異種家庭的飯桌如何安排不同感官、食物、體溫與禮貌？某個孩子在兩種文化中長大，會創造什麼家庭新習慣？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "100",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "在巨構中，兩名普通戀人的最大障礙可能不是敵人，而是彼此工作班次、長途票價、生命週期或身體環境。怎樣演出不煽情卻真的動人的故事？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "101",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "一個古老宗教如果沒接近創世真相，為何仍能擁有真正有意義的道德實踐、學校、醫療及藝術？如何呈現真誠信仰者與持不同意見者？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "102",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "同樣是死亡與喪葬，不同身體種族和世界層的物理限制會如何產生儀式？如何避免把所有異族喪禮都寫得神祕恐怖？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "103",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "一場某地孩子期待一年之久的比賽／節慶，在遊客眼中看似荒誕，對居民卻有實際技能或團體記憶的意義；沒拿獎的人怎麼過日子？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "104",
+      "domain_code": "M",
+      "domain_title": "普通人生、家庭、宗教、娛樂、飲食與藝術",
+      "question": "一個全世界最普通的東西（碗、椅子、圍巾、收據或手寫食譜），在不同文明可以有幾種截然不同的私人價值？",
+      "source_ref_numbers": [
+        "004",
+        "094",
+        "171",
+        "191"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "105",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "除了既有伊戈爾，設計三名完全不同的『強敵也有工作和生活』類型：其中一人可怕，一人滑稽，一人平靜，且都不必直接對上諾亞與艾莉維亞。",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "106",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "給一位看似背景板的普通職員完整的一天：他為誰工作、討厭什麼、下班去哪裡、曾因一項選擇改變哪個陌生人的人生？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "107",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "當一名人物外界評價很差，在某個小鎮卻非常受尊敬，是因為什麼多年累積的具體行為？這種敬重能否與他真正犯過的惡同時成立？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "108",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "世界上有哪些完全不靠殺人、戰力與上古寶物出名的頂尖人物？如最厲害的製琴師、路權仲裁人、特技醫師、說故事者、養獸人，給他們自己的競爭與失敗。",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "109",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "一名旅行數十年的人如何和一位從沒離開過家門、卻熟知當地幾代人歷史的老人互相尊重？哪件小事能讓彼此承認對方真的厲害？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "110",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "如果某個地方組織有十多名重要成員，如何讓他們的職業、婚姻、恩怨、利益和私人選擇形成網絡，而不是十個待主角解鎖的名片？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "111",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "原80題未深入展開的留燈、老巴爾、赫連・鴉與雙主角分開活動等候選，哪些可以不靠當前第九區事件獨立發展？可以改名字、拆分或只保留情緒核心嗎？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "112",
+      "domain_code": "N",
+      "domain_title": "人物、職業怪人、敵人與獨立群像",
+      "question": "某人原本只在一章出場，二十章後讀者才發現他在沒有主角參與的歲月裡完成了一生最重要的事。如何用三次不直接相連的場景做到？",
+      "source_ref_numbers": [
+        "046",
+        "094",
+        "159",
+        "168",
+        "173"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "113",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "提出五種彼此不同的喜劇引擎，其中至少兩種與『上班時間』或『巨構大機械故障』無關；喜劇對當事人可以完全嚴肅。",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "114",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "創作一則沒有反派、沒有上古秘密、沒有巨大伏筆的旅行奇遇，仍要有開始、意外選擇、代價與帶著餘韻的結尾。",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "115",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "如果某個看似笑點的習慣在很多年後改變情感意義，如何保證它第一次登場時是真的好笑，而不是讀者一眼看出『作者在埋伏筆』？",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "116",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "一名非人生命第一次模仿陌生文明的禮貌用語，可能讓人爆笑、恐懼或心碎。哪些不同情境可以演出同一行為的三種重量？",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "117",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "設計一段真正殘酷但不把全城人物寫成麻木或惡人的事件；一位旁觀者不出手、另一位出手，兩者都有真實情境與後果。",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "118",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "一個人物在完全沒有敵人追殺時，仍可能遭遇生命中最艱難的一天。這天可以是婚姻、失業、搬家、道別、疾病、創作失敗，哪個最適合巨構尺度？",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "119",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "一場極度壯觀的跨世界層戰爭能否在讀者眼前只呈現為一間旅館的缺貨、一次失聯和一張寄不到的信？後續何時才看見真正規模？",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "120",
+      "domain_code": "O",
+      "domain_title": "喜劇、愛情、恐怖、殘酷、奇遇與各種獨立故事",
+      "question": "如果長篇刻意不把每次事件回收到主線，可以安排哪些完全不會改變主角命運、卻仍讓讀者捨不得忘記的插曲？",
+      "source_ref_numbers": [
+        "159",
+        "168",
+        "171",
+        "173",
+        "191",
+        "193"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "121",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "對不同居民而言，『最高的地方』可以是宗教、地理、職涯與心靈目標；但作者層真正最高世界層仍存在。如何讓這些不同理解互不相同，卻都合理？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "122",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "Celeste 本身創造並管理巨構，不代表各地每件事件都是她的試驗。如何用三種完全與她當前意圖無關的社會歷史展現居民的自主性？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "123",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "如果有人真的見過 Celeste，卻不知道她的真實身份，這次偶遇如何保有普通人情感或喜劇，而非自動變成宇宙真相倒數？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "124",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "靜謐迴廊與終焉迴廊已有重要既定區分，還能有多少與它們完全無關、沒有超高位意義的地方奇境？怎樣避免所有奇景都像前往終局的提示？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "125",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "真正頂層對雙主角的吸引力可維持，但一段數十章的支線如果只是在某城生活、交朋友與做工，能不能仍讓人期待？哪種人物代價可以支持？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "126",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "一則舊版地理候選與目前主地圖不相容，至少設計『別層新地區』『歷史舊地名』『鄰近未測區』『拆分成兩種素材』四種復用方式，哪種傷害原案最小？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "127",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "如果某個舊版反派或事件因新因果不再成立，究竟該保留他的性格、職業、行為悖論、視覺還是情感結局？重新設計後要怎樣避免同名同史混亂？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    },
+    {
+      "id": "128",
+      "domain_code": "P",
+      "domain_title": "Celeste、真正最高層、長篇探索倫理與舊版復用",
+      "question": "假設本次設計的128題未來全部有候選答案，世界仍然可能缺哪些完全未被命名的範疇？應設計怎樣的創意檢索機制，讓新想法永遠不受既有分類限制？",
+      "source_ref_numbers": [
+        "011",
+        "076",
+        "130",
+        "157",
+        "159",
+        "189"
+      ],
+      "classification": "NEW_EXPLORATION_PROMPT",
+      "status": "OPEN_CANDIDATE",
+      "answer_state": "NOT_ANSWERED_IN_THIS_DOCUMENT",
+      "requires_author_confirmation_to_set_canon": true
+    }
+  ]
+}
