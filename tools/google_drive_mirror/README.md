@@ -1,3 +1,5 @@
+> **2026-11-12｜快速同步補漏 v2（GitHub 程式修復，待使用者 Apps Script 部署）**：`Code.gs` 的 `syncQuick` 改成在來源索引變更（或首次安裝修補）時，**以整份 source-index 的 SHA 清單對照 Drive manifest**，找出連續提交時已不在最後一批 `changedFiles` 裡的漏同步檔案。只比較索引/manifest metadata，不重新下載已 `CURRENT` 的來源；原有 `SYNC_FAILED` 歷史欠帳仍交完整同步。快速單檔容量從 **64,000 Bytes 提升至 128,000 Bytes**（因此本次 67–88 KB 的第十九章正文和128題 JSON 索引可走快速通道）；更大的來源保留在待處理清單，且自動啟動 `syncDrain`，不再靜默丟棄。新增一次性的 `megaQuickRevision` 記號，**即使 GitHub source commit 沒再改**，首次換新版也會重新檢查遺漏來源。新增 [離線回歸測試](test_quick_sync.mjs) 和 [GitHub Actions 測試](../../.github/workflows/check-drive-mirror-quick.yml)。**GitHub 修改不會自動部署到既有 Apps Script 專案。** 要讓線上每分鐘任務使用新版：開啟[既有 Apps Script 專案](https://script.google.com/home/projects/1DPDrliDG1EXJVNfzunHmD7j_G9pVAHqHvI2rABnSHZRQrVvbCI4dXZUm/edit)，將最新版 [Code.gs](Code.gs) **完整貼到原有 `程式碼.gs` 並儲存**（不可只複製新增的函式），手動執行一次 `quickSyncNow`；既有觸發器可沿用，不必重建專案或重跑 `installSync`。看執行回傳 `updated`／`pending` 與 [Drive 同步狀態](https://drive.google.com/file/d/1s9GM0w-zHkhwlQAy3hopKPy-0sDdOzN0/view) 再比對 SHA；若資料量大，`quickSyncNow` 可在每分鐘排程繼續處理。切記 `pending=0` 只代表快通道當前隊列清空；全庫完成要以最新 `sourceCommit` 下逐檔 SHA 和完整同步 manifest 驗收。
+
 > **2026-11-10｜作者後出每輪來源刷新／跨 AI 交接規則**：鏡像只負責**同步變動檔案**，不會自動把它們注入 Gemini 對話。ChatGPT／Gemini 需要按[跨 AI 每輪讀取、候選正文前置與完整 Gemini 回貼保存 SOP](../../小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md)判斷要查哪些檔案。GPT 每次修改 GitHub 要附本題變更清單（路徑＋SHA＋相關正文／語氣／物件證據）；Gemini 新對話先看 `00_最新GitHub變更交接.txt` 和 manifest，再讀與本題相關的鏡像原文，不能只看一份列表就宣稱讀過。提交後還需等待／驗證鏡像同 SHA，`syncQuick` 不等於保證即時送達。作者 PO Gemini 原文先歸檔，QA／Canon 另層保存。
 
 # 《巨構世界》GitHub main → Stingray Google Drive 原文鏡像
@@ -18,7 +20,7 @@
 ### 快速通道如何運作
 
 - GitHub Action 對每次原始來源變動產生 `changedFiles`（新增／修改）、`removedFiles` 和釘選的 `sourceCommit`／Git Blob SHA；只根據**來源實際變動**更新，不反覆搬運整個檔案庫。
-- `syncQuick` 每輪最多更新 **2 份、每份最多 64 KB** 的改動來源；已存在的鏡像原地更新，新鏡像建立為普通 `text/plain`，**不新增 Google Docs**。超大的檔案留給完整鏡像，同時在快速交接中提供釘選原文 URL。
+- `syncQuick` 每輪最多更新 **2 份、每份最多 128,000 Bytes（2026-11-12 v2；先前版本 64,000 Bytes）** 的改動來源；已存在的鏡像原地更新，新鏡像建立為普通 `text/plain`，**不新增 Google Docs**。超過快速上限的大檔會保留於 `quickLanePendingPaths`、列入 `quickLaneDeferredLargePaths` 並啟動 `syncDrain` 完整鏡像，同時在快速交接中提供釘選原文 URL；連續來源提交造成的先前漏同步檔，也會由整份來源索引與 manifest 的 SHA 差異補回。
 - 鏡像根目錄的一份固定檔案 `00_最新GitHub變更交接.txt` 記錄 GitHub commit、變動路徑、原始 SHA、`DRIVE_CURRENT` 或 `DRIVE_PENDING_OR_STALE`，以及該次 commit 的原文固定連結。Gemini 不需要猜「五分鐘何時到」。
 - 原本 `syncDrain` 遇到 Google Docs 的 `docs create` 每日額度時，改試**純文字鏡像**，成功才記為 `CURRENT`；遇到來源下載或 SHA 錯誤仍記 `SYNC_FAILED`，不掩蓋失敗。Google Workspace 對純文字鏡像的搜尋可能晚於 Drive 檔案寫入。
 - `00_最新GitHub變更交接.txt` 不是完整設定摘要，不代表 Gemini 已讀到原文，更不是 Canon 權威來源；真正的內容、後出修訂和作者決議仍須到對應原檔核對。
