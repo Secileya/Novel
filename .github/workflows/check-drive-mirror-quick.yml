@@ -1,0 +1,18 @@
+name: Check 巨構世界 Drive mirror quick sync
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/google_drive_mirror/Code.gs'
+      - 'tools/google_drive_mirror/test_quick_sync.mjs'
+      - '.github/workflows/check-drive-mirror-quick.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quick-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run fast-sync regression against actual Apps Script source
+        run: node tools/google_drive_mirror/test_quick_sync.mjs
