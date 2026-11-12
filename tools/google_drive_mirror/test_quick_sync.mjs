@@ -33,6 +33,7 @@ function setup({index, state, props={}, failPath=null}) {
     setProperty:(k,v)=>cache.set(k,String(v))
   })};
   ctx.DriveApp={getFolderById:()=>({})};
+  ctx.Utilities={newBlob:()=>({getDataAsString:()=>''})};
   ctx.readSourceIndex_=()=>index;
   ctx.getOrCreateManifest_=()=>({});
   ctx.parseState_=()=>state;
