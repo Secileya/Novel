@@ -3,24 +3,14 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "edde2f8c90163776f24e13be14f85a0c70876f90",
-  "sourceTreeSha": "09946e9ed0044c4d38b6ccc301b8e1333025e480",
-  "previousSourceCommit": "dbcf690b82da0f680ba68bdb252563431bb036cf",
+  "sourceCommit": "3b84af00acba9986b3a4f70f3abe1a44467647dd",
+  "sourceTreeSha": "528164eab31f079577cd902a49d0e2757405f200",
+  "previousSourceCommit": "edde2f8c90163776f24e13be14f85a0c70876f90",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md",
-      "sha": "4572cbab52b13f0ec08d356caa56782f96dddd5d",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
-      "sha": "041e7676569ddab5c7e0fb321a39e4c7e5f49503",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
-      "sha": "395d0f6fd43fe359a5cb42cf00688122c50feefb",
-      "change": "modified"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_GPT產出Gemini提示詞_永久來源入口與權限檢查規則.md",
+      "sha": "cbaef458c9ba35e24b5eb22e2115520ce016ec1b",
+      "change": "added"
     }
   ],
   "removedFiles": [],
@@ -539,6 +529,11 @@
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_14章六點工單與第15章R1_同位SHA證據覆核_不重計.json",
       "sha": "de21ecf2d541b6c423c516a56902cfab759749f2",
       "size": 28801
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_GPT產出Gemini提示詞_永久來源入口與權限檢查規則.md",
+      "sha": "cbaef458c9ba35e24b5eb22e2115520ce016ec1b",
+      "size": 3887
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261112_第五十三批4份_歷史對帳作者提示十五章QA_全文語義v2.json",
