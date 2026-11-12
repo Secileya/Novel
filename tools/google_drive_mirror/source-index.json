@@ -3,22 +3,32 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "79fdb8b6775acb73884ca71926ab82ef0b1e8f53",
-  "sourceTreeSha": "9372436e67d5d1f612443b06f342d932fe9c38e8",
-  "previousSourceCommit": "4c553f6cfbe2fb3402a88d0148ead971739adabe",
+  "sourceCommit": "8bc03056b24d8a46c6dadd9b52b51ada1b8af782",
+  "sourceTreeSha": "54d8f7a1721f3f70380aef6c905d4179b652a18d",
+  "previousSourceCommit": "79fdb8b6775acb73884ca71926ab82ef0b1e8f53",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/08_交接勘誤與決議/20261112_Gemini世界缺口探索A至E_來源核對與十新增題重疊QA_非正史.md",
-      "sha": "4c2fa1c1e82d2cbaadb37b345dddd18c4681246e",
-      "change": "added"
+      "path": "小說/巨構世界（法月懷造物）/000_專案交接.md",
+      "sha": "4d761bce7b5969c081d3338ae507e57ff228b173",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/README.md",
+      "sha": "95b83ea2d7d12c3fa9ebbff47ef062db4e974d4f",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/README.md",
+      "sha": "87ec79abc6ec00938c35ba882659da32cf1a834f",
+      "change": "modified"
     }
   ],
   "removedFiles": [],
   "files": [
     {
       "path": "小說/巨構世界（法月懷造物）/000_專案交接.md",
-      "sha": "ac1a920587659e9003019aed57532024c916e00c",
-      "size": 132549
+      "sha": "4d761bce7b5969c081d3338ae507e57ff228b173",
+      "size": 133731
     },
     {
       "path": "小說/巨構世界（法月懷造物）/000_導覽與狀態.md",
@@ -1877,8 +1887,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/README.md",
-      "sha": "31763eb144527e0c66a1c762b6b17679cf363717",
-      "size": 15206
+      "sha": "95b83ea2d7d12c3fa9ebbff47ef062db4e974d4f",
+      "size": 16310
     },
     {
       "path": "小說/巨構世界（法月懷造物）/07_候選故事與場景/019_討論候選_女主兩場完整場景測試_前文明交鋒與海盆救援.md",
@@ -2427,8 +2437,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/README.md",
-      "sha": "9879a378c9109c3e533a0c22304fe8b253438419",
-      "size": 22092
+      "sha": "87ec79abc6ec00938c35ba882659da32cf1a834f",
+      "size": 22985
     },
     {
       "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
