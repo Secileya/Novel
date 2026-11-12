@@ -3,14 +3,24 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "b8ad943ac97817c2ad73875e90366b4597344864",
-  "sourceTreeSha": "cbe791c63cfb664a6528b71200e6443d8f33f7b1",
-  "previousSourceCommit": "17a7e5a3b7f31d7ff2f85002f03aa1cd9917e212",
+  "sourceCommit": "54ddcad381ef766d56c27f0a8f056bdea718c9bb",
+  "sourceTreeSha": "be93ef0e06536d2133dc2957f1d9faed84193c78",
+  "previousSourceCommit": "b8ad943ac97817c2ad73875e90366b4597344864",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_全域開放創意候選召回_不綁地區與自然落位_跨AI寫作前置規則.md",
-      "sha": "0e42dca69756fb340aeeba63050ddf0c5b0d531d",
-      "change": "added"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md",
+      "sha": "980c75118b9bf4e3e3b96e7d255314d8b9675257",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
+      "sha": "ee7d631945914f716bd6188e2b3d6c34ae69ec4b",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
+      "sha": "377b1566cce7b114ef844b9229d0c82b70113435",
+      "change": "modified"
     }
   ],
   "removedFiles": [],
@@ -957,8 +967,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md",
-      "sha": "edbcdf88f134eb0775f2dd82bc50c2f02735d557",
-      "size": 22994
+      "sha": "980c75118b9bf4e3e3b96e7d255314d8b9675257",
+      "size": 24222
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨世界層與厚界多版本拓撲.json",
@@ -2382,13 +2392,13 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/AGENTS.md",
-      "sha": "3e08fa652e99d3300e1d1bee908e4c679616cc85",
-      "size": 25675
+      "sha": "ee7d631945914f716bd6188e2b3d6c34ae69ec4b",
+      "size": 26903
     },
     {
       "path": "小說/巨構世界（法月懷造物）/GEMINI.md",
-      "sha": "aac084e9836f69c015337db665817f28b73e1527",
-      "size": 12811
+      "sha": "377b1566cce7b114ef844b9229d0c82b70113435",
+      "size": 14039
     },
     {
       "path": "小說/巨構世界（法月懷造物）/README.md",
