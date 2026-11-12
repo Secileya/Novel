@@ -19,7 +19,7 @@ const MIRROR_CONFIG = Object.freeze({
   statusDocName: '00_鏡像同步狀態與使用說明',
   fastHandoffName: '00_最新GitHub變更交接.txt',
   maxQuickFilesPerRun: 2,
-  maxQuickBytes: 64000,
+  maxQuickBytes: 128000,
   maxQuickTimeMs: 45000,
   quickErrorRetryMs: 10 * 60 * 1000,
   maxFilesPerRun: 8,
@@ -66,8 +66,9 @@ function quickSyncNow() { return syncQuick(); }
 
 /**
  * One-minute lightweight fast lane: reads the pinned GitHub Actions source
- * index, updates a stable plain-text handoff, and syncs only the new delta.
- * The heavy full-mirror queue is left to syncDrain/syncHourly.
+ * index, reconciles missing/stale per-file Drive SHA state (including source
+ * commits skipped during fast polling), then updates the stable handoff.
+ * Files above maxQuickBytes remain pending and wake syncDrain/syncHourly.
  */
 function syncQuick() {
   const lock = LockService.getScriptLock();
@@ -78,7 +79,10 @@ function syncQuick() {
     const index = readSourceIndex_();
     const previouslySeen = props.getProperty('megaQuickCommit');
     const previousPending = props.getProperty('megaQuickHasPending');
-    if (previouslySeen === index.sourceCommit && previousPending === '0') {
+    // One-time reconciliation after deploying new code, even at the same source commit.
+    const quickRevision='2026-11-12-reconcile-v2';
+    const revisionChanged=props.getProperty('megaQuickRevision')!==quickRevision;
+    if (previouslySeen===index.sourceCommit && previousPending==='0' && !revisionChanged) {
       return {status:'NO_SOURCE_CHANGE',sourceCommit:index.sourceCommit};
     }
     const root = DriveApp.getFolderById(cfg.mirrorFolderId);
@@ -93,22 +97,24 @@ function syncQuick() {
     let pending = (state.quickLanePendingPaths || []).filter(function(p) {
       return Boolean(filesByPath[p]);
     });
-    if (isNewIndex) {
-      // The index builder records an SHA-based delta relative to its previous
-      // published source index. On first upgrade, fall back only to SOURCES
-      // ALREADY mirrored but outdated, not all 106+ historical backlog items.
-      const publishedDelta = Array.isArray(index.changedFiles) ? index.changedFiles : [];
-      // A skipped polling window can cover multiple index publications. Also
-      // compare previously CURRENT files with live hashes so no intervening
-      // change can vanish; do not add the historical SYNC_FAILED backlog.
-      const staleExisting = index.files.filter(function(e) {
+    if (isNewIndex || revisionChanged) {
+      // A GitHub Actions delta covers only ONE index publication. Several main
+      // commits can land before the next minute poll, leaving earlier added files
+      // absent from the last delta. Compare the *complete index metadata* with
+      // Drive's manifest; do not re-download already matching files.
+      const publishedDelta = isNewIndex && Array.isArray(index.changedFiles) ?
+        index.changedFiles : [];
+      const missedOrStale = index.files.filter(function(e) {
         const p=e.path.slice(cfg.prefix.length), old=state.files[p];
-        return old && old.status==='CURRENT' && old.driveId && old.blobSha!==e.sha;
+        if (!old) return true; // Never mirrored, even if absent from this delta.
+        if (old.status==='CURRENT') return !old.driveId || old.blobSha!==e.sha;
+        // Historical SYNC_FAILED and ARCHIVED items stay on full sync's queue.
+        return false;
       });
-      const newPaths = uniquePaths_(publishedDelta.concat(staleExisting).map(function(e) {
+      const newPaths = uniquePaths_(publishedDelta.concat(missedOrStale).map(function(e) {
         return e.path.slice(cfg.prefix.length);
       })).filter(function(p) { return Boolean(filesByPath[p]); });
-      changes = newPaths;
+      changes = isNewIndex ? newPaths : uniquePaths_(changes.concat(newPaths));
       pending = uniquePaths_(newPaths.concat(pending));
       state.quickLaneIndexCommit = index.sourceCommit;
       state.quickLaneChangedPaths = changes;
@@ -117,7 +123,7 @@ function syncQuick() {
       const e=filesByPath[p], old=state.files[p];
       return e && !(old && old.status==='CURRENT' && old.blobSha===e.sha && old.driveId);
     });
-    const started=Date.now(), errors=[], applied=[];
+    const started=Date.now(), errors=[], applied=[], deferredLarge=[];
     const retryAt=Date.parse(state.quickLaneRetryAfter || '');
     const retryBlocked=Number.isFinite(retryAt) && Date.now()<retryAt;
     let attempted=0;
@@ -125,9 +131,13 @@ function syncQuick() {
     const folderCache={'':root};
     for (const p of pending) {
       const entry=filesByPath[p];
-      // Oversized changes are linked in the handoff, not retried every minute.
-      // syncDrain/syncHourly still owns the full-size original mirror.
-      if (entry.size>cfg.maxQuickBytes) continue;
+      // Huge files stay pending (visible in the handoff) and activate the
+      // full-mirror drain; do not silently drop them from the quick queue.
+      if (entry.size>cfg.maxQuickBytes) {
+        deferredLarge.push(p);
+        remaining.push(p);
+        continue;
+      }
       if (retryBlocked || attempted>=cfg.maxQuickFilesPerRun ||
           Date.now()-started>cfg.maxQuickTimeMs) {
         remaining.push(p);
@@ -152,6 +162,8 @@ function syncQuick() {
       }
     }
     state.quickLanePendingPaths=remaining;
+    state.quickLaneDeferredLargePaths=deferredLarge;
+    if (deferredLarge.length) ensureTrigger_('syncDrain',5);
     state.quickLaneCheckedAt=new Date().toISOString();
     state.quickLaneErrors=errors.slice(0,8);
     const handoff=makeFastHandoff_(index,state,changes,remaining,applied,errors);
@@ -160,6 +172,7 @@ function syncQuick() {
     saveState_(manifestFile,state);
     props.setProperty('megaQuickCommit',index.sourceCommit);
     props.setProperty('megaQuickHasPending',remaining.length?'1':'0');
+    props.setProperty('megaQuickRevision',quickRevision);
     const stillDrivePending=changes.some(function(p) {
       const e=filesByPath[p],v=state.files[p];
       return Boolean(e && !(v && v.status==='CURRENT' && v.blobSha===e.sha));
@@ -167,7 +180,8 @@ function syncQuick() {
     return {status:errors.length?'PARTIAL_WITH_ERRORS':remaining.length?'PARTIAL':
       stillDrivePending?'HANDOFF_READY_SOME_DRIVE_PENDING':'CURRENT_CHANGES_READY',
       sourceCommit:index.sourceCommit,changed:changes.length,updated:applied.length,
-      pending:remaining.length,handoffId:state.quickLaneHandoffId,errors:errors};
+      pending:remaining.length,deferredLarge:deferredLarge.length,
+      handoffId:state.quickLaneHandoffId,errors:errors};
   } finally {
     lock.releaseLock();
   }
@@ -212,8 +226,9 @@ function makeFastHandoff_(index,state,changes,remaining,applied,errors) {
     'Source tree SHA: '+index.sourceTreeSha,
     'GitHub public source index: https://github.com/'+cfg.owner+'/'+cfg.repository+
        '/blob/main/'+cfg.sourceIndexPath,
-    'Changed files in the last source-index publication: '+changes.length,
+    'Changed/unmirrored sources reconciled: '+changes.length,
     'Fast lane pending: '+remaining.length,
+    'Large files deferred to full drain: '+(state.quickLaneDeferredLargePaths||[]).length,
     'Fast lane updated this run: '+applied.length,
     'Mirror status is per file. CURRENT means only SHA-match, NOT author Canon.',
     'Gemini: for any DRIVE_PENDING/STALE source use the PINNED GitHub link below;',
