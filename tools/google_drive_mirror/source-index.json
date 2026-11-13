@@ -3,14 +3,19 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "ff955efd8e223839fdcd841b8132bec9ceb6f75f",
-  "sourceTreeSha": "b73fdc728dd30caef362a7e53b999204c9c311f2",
-  "previousSourceCommit": "04c8a092aadcec7b50c1dfba0bc3726edbfe93c8",
+  "sourceCommit": "666f29fcf986db7cf4aa8ca249e6d4eb77f07b09",
+  "sourceTreeSha": "3ba1dc3ccdf18e0eed59beadf2f45e2d98f70d6f",
+  "previousSourceCommit": "ff955efd8e223839fdcd841b8132bec9ceb6f75f",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_世界缺口探索與跨域創意再生_第六輪未知巨構世界級遠征探索文明與陌生地貌_非正史.md",
-      "sha": "e1ed9ba9e96655add94988548b72dddc50c34a28",
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261113_09來源索引前綴新增九行_SHA後修覆核_不重計.json",
+      "sha": "6a797373c1df8b7927f5d5d4210588fcebfabf43",
       "change": "added"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
+      "sha": "951a99f2e08ada81a8f6b21d8e3387490c15d089",
+      "change": "modified"
     }
   ],
   "removedFiles": [],
@@ -551,6 +556,11 @@
       "size": 13316
     },
     {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261113_09來源索引前綴新增九行_SHA後修覆核_不重計.json",
+      "sha": "6a797373c1df8b7927f5d5d4210588fcebfabf43",
+      "size": 1098
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份來源索引分卷清單.json",
       "sha": "d6eb208663d5e5ce644864b9c9aafbf0e27a070f",
       "size": 2222
@@ -657,8 +667,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
-      "sha": "ac8489fe923a83588bdc425500b6b3ceec35539a",
-      "size": 21022
+      "sha": "951a99f2e08ada81a8f6b21d8e3387490c15d089",
+      "size": 21349
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
