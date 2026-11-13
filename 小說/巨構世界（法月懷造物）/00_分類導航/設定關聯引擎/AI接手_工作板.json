@@ -7,10 +7,10 @@
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
   "last_checked_head_before_handoff": "4ac4fa28a85ecaecc312b22e89dd0a6cb502fb68",
   "last_checked_successful_ci": {
-    "head_sha": "badc4bc72bffc7fa381199812af9101a2f0bac61",
-    "run_id": 43478993215,
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/43478993215",
-    "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43478993276",
+    "head_sha": "e7d0a82c88ac867c923737c2100f24a77dfc5d36",
+    "run_id": 43484555191,
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/43484555191",
+    "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555161",
     "result": "success"
   },
   "fact_snapshot": {
@@ -25,7 +25,7 @@
     "nine_folder_files": 47,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-13八輪黏接原文USER_PASTED_VISIBLE_TEXT完整29,642字元入09 SHA cd01b87b 已讀回兩版第三個座位及末尾完整段；08獨立辨識作者8輪和助手8輪+防禦性措辭/10項QA SHA92991473；06可直接貼Gemini第十輪提示詞SHA a52a4a6b。第039/038公開高危非賣票副本，第115W/K修正，K01可含社會及危區，隱藏靜謐更難但不自動這次找到。當前動態459來源、382舊驗收、77待審，09共45份、正式Canon0章PREWRITE HOLD。；2026-11-13 BATCH55第16/17章12份全文語義驗收源SHA已分片建檔，1,861行57段171命題342非Canon關聯，待Git主CI；目前動態459來源，預定394已審／65待審，正式Canon0章PREWRITE HOLD。；BATCH55第16/17章12份1,861行、57段171原文錨點342非Canon關聯通過完整主CI 43426127956，動態394/459已驗，65待審。這是非Canon編輯性驗收，未得作者採案。；2026-11-13 第十輪Gemini A～G USER_PASTED_VISIBLE_TEXT原文12,258字元完整入09 (blob e7ccbd2b) 並Git讀回；06三案接口比較 (blob043d27af)、08獨立D08-01～10閉環表與新增N10-01～12 QA (blob3c01fea1)。新增3份來源不等於編輯性驗收；動態462來源、394既有已驗、68待審，09原文46份。正式Canon0章PREWRITE HOLD。；第十輪新增3份來源已經GitHub主CI43430188000 Success，三份Drive鏡像與Git文字完整一致(比對Git blob e7ccbd2b/043d27af/3c01fea1)；來源462/394已驗/68待審保持不變。；2026-11-13 無聲鐵林的回音R1 GPT新07正文 blob cc36db2d1240d9ae3f454e33b4498d6c6956292c 4,437字元＋08 R0→R1獨立差異與7項餘缺 blob 52333854264c2a27d726fbe60d181ef971e58bbc，均已GitHub全文讀回。前第十輪Gemini完整09 blob e7ccbd2b原文未改；R1還是OPEN候選非Canon，非正式第20章。全庫464來源、394份先前已整檔驗收、70待審；09仍46。；2026-11-14 BATCH57十二份19章23處R0/R1差分與Gemini各輪獨立QA，824行56段56原文錨112非Canon關聯通過主CI 43469995956，動態418/464已驗、46待審，正式Canon0章PREWRITE HOLD。；2026-11-14 第十一輪Gemini使用者上傳247行／12,804字元可見全文，09 Git原始位元組SHA c7a952b91775f62611d78f5d00112eeff46e7b24，另存06研究摘要與08獨立QA；來源由464增467，待審46增49，既有418份驗收不變、Canon0章 PREWRITE HOLD；新增非Canon不自動升格。；2026-11-14 第58/59批新增24來源3379行303段/303 SHA錨/606非Canon關聯，預計442/467，主CI待核，正式Canon0章。；第58/59批24份主CI43478993215 success、Drive索引43478993276 success；已驗442/467、尚待25份、Canon0章。；2026-11-14第60/61/62批最後25份，5737行/625段/625原文SHA錨/1250非Canon關聯，16/17/19章103/55/23逐行差分及128題雙格式逐條一致，工作板登錄467/467待主CI。",
+    "important": "2026-11-13八輪黏接原文USER_PASTED_VISIBLE_TEXT完整29,642字元入09 SHA cd01b87b 已讀回兩版第三個座位及末尾完整段；08獨立辨識作者8輪和助手8輪+防禦性措辭/10項QA SHA92991473；06可直接貼Gemini第十輪提示詞SHA a52a4a6b。第039/038公開高危非賣票副本，第115W/K修正，K01可含社會及危區，隱藏靜謐更難但不自動這次找到。當前動態459來源、382舊驗收、77待審，09共45份、正式Canon0章PREWRITE HOLD。；2026-11-13 BATCH55第16/17章12份全文語義驗收源SHA已分片建檔，1,861行57段171命題342非Canon關聯，待Git主CI；目前動態459來源，預定394已審／65待審，正式Canon0章PREWRITE HOLD。；BATCH55第16/17章12份1,861行、57段171原文錨點342非Canon關聯通過完整主CI 43426127956，動態394/459已驗，65待審。這是非Canon編輯性驗收，未得作者採案。；2026-11-13 第十輪Gemini A～G USER_PASTED_VISIBLE_TEXT原文12,258字元完整入09 (blob e7ccbd2b) 並Git讀回；06三案接口比較 (blob043d27af)、08獨立D08-01～10閉環表與新增N10-01～12 QA (blob3c01fea1)。新增3份來源不等於編輯性驗收；動態462來源、394既有已驗、68待審，09原文46份。正式Canon0章PREWRITE HOLD。；第十輪新增3份來源已經GitHub主CI43430188000 Success，三份Drive鏡像與Git文字完整一致(比對Git blob e7ccbd2b/043d27af/3c01fea1)；來源462/394已驗/68待審保持不變。；2026-11-13 無聲鐵林的回音R1 GPT新07正文 blob cc36db2d1240d9ae3f454e33b4498d6c6956292c 4,437字元＋08 R0→R1獨立差異與7項餘缺 blob 52333854264c2a27d726fbe60d181ef971e58bbc，均已GitHub全文讀回。前第十輪Gemini完整09 blob e7ccbd2b原文未改；R1還是OPEN候選非Canon，非正式第20章。全庫464來源、394份先前已整檔驗收、70待審；09仍46。；2026-11-14 BATCH57十二份19章23處R0/R1差分與Gemini各輪獨立QA，824行56段56原文錨112非Canon關聯通過主CI 43469995956，動態418/464已驗、46待審，正式Canon0章PREWRITE HOLD。；2026-11-14 第十一輪Gemini使用者上傳247行／12,804字元可見全文，09 Git原始位元組SHA c7a952b91775f62611d78f5d00112eeff46e7b24，另存06研究摘要與08獨立QA；來源由464增467，待審46增49，既有418份驗收不變、Canon0章 PREWRITE HOLD；新增非Canon不自動升格。；2026-11-14 第58/59批新增24來源3379行303段/303 SHA錨/606非Canon關聯，預計442/467，主CI待核，正式Canon0章。；第58/59批24份主CI43478993215 success、Drive索引43478993276 success；已驗442/467、尚待25份、Canon0章。；2026-11-14第60/61/62批最後25份，5737行/625段/625原文SHA錨/1250非Canon關聯，16/17/19章103/55/23逐行差分及128題雙格式逐條一致，工作板登錄467/467待主CI。；第60～62批最後25份原文與128題雙格式、16/17/19章差分完成本次Git主CI43484555191 success與Drive索引43484555161 success；現行467/467待審0/待CI0。",
     "targeted_audit_records": 8675,
     "targeted_audit_verified_quotes": 8866,
     "full_file_editorial_accepted": 171,
@@ -36,7 +36,7 @@
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 25,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 0
   },
   "rules": {
@@ -168,10 +168,10 @@
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第57批12份跨Gemini獨立QA與19章23行差分原文824行、56語義段56來源SHA錨112非Canon圖邊已登記，待主CI；剩餘46份來源未驗，舊來源不覆寫、Canon0章。；主CI43469995956驗證成功，56條圖摘要已在修復提交869994a86依命題title一致，當前待主CI數量清零。；2026-11-14第十一輪09原文、06摘要、08獨立QA新增3份來源，動態總數467，先前418份驗收不重計，尚待審49；當前新增資料只完成專題QA與保存，非全量逐檔編輯性驗收。；2026-11-14 第58、59批24份3379行303段303原文行錨與606非Canon圖關聯已準備登記；442/467已登錄待主CI驗證。；第58/59批主CI43478993215與Drive索引43478993276均success；需在成功後以此回執消除CI_PENDING，鏡像逐檔未測。；2026-11-14第60～62批最後25來源5737行、625段/625原文SHA錨、1250非Canon圖關聯；16/17/19章差分103/55/23精確驗證，兩版128題完全一致；當前467/467登記待CI，動態待審0。；CI43483766607在語義topic字數驗證攔截B60兩短標題，已補充內容語境，不改625筆命題/來源行錨。",
-        "stage": "BATCH62_ALL25_REGISTERED_MAIN_CI_PENDING_467_OF_467",
-        "last_verified_commit": "badc4bc72bffc7fa381199812af9101a2f0bac61",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/43478993215",
+        "note": "第57批12份跨Gemini獨立QA與19章23行差分原文824行、56語義段56來源SHA錨112非Canon圖邊已登記，待主CI；剩餘46份來源未驗，舊來源不覆寫、Canon0章。；主CI43469995956驗證成功，56條圖摘要已在修復提交869994a86依命題title一致，當前待主CI數量清零。；2026-11-14第十一輪09原文、06摘要、08獨立QA新增3份來源，動態總數467，先前418份驗收不重計，尚待審49；當前新增資料只完成專題QA與保存，非全量逐檔編輯性驗收。；2026-11-14 第58、59批24份3379行303段303原文行錨與606非Canon圖關聯已準備登記；442/467已登錄待主CI驗證。；第58/59批主CI43478993215與Drive索引43478993276均success；需在成功後以此回執消除CI_PENDING，鏡像逐檔未測。；2026-11-14第60～62批最後25來源5737行、625段/625原文SHA錨、1250非Canon圖關聯；16/17/19章差分103/55/23精確驗證，兩版128題完全一致；當前467/467登記待CI，動態待審0。；CI43483766607在語義topic字數驗證攔截B60兩短標題，已補充內容語境，不改625筆命題/來源行錨。；第60～62批主CI43484555191與Drive索引43484555161均success，current 467/467全量驗收，待審0、待CI0，未來新來源動態重新納管。",
+        "stage": "BATCH62_ALL25_MAIN_CI_VERIFIED_467_OF_467",
+        "last_verified_commit": "e7d0a82c88ac867c923737c2100f24a77dfc5d36",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/43484555191",
         "cross_source_next_batch": [],
         "historical_164_accepted": 153,
         "historical_171_accepted": 171,
@@ -1092,7 +1092,7 @@
           "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43478993276"
         },
         "batch_60": {
-          "stage": "REGISTERED_MAIN_CI_PENDING",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 12,
           "source_lines": 930,
           "sections": 86,
@@ -1115,10 +1115,13 @@
             "06_敘事規劃與工作流/20261112_世界缺口探索與跨域創意再生_第一輪成果_琉璃林海鹽原帆船紡鋼風琴與止步崖_非正史.md"
           ],
           "accepted_after": 454,
-          "pending_after": 13
+          "pending_after": 13,
+          "verified_commit": "e7d0a82c88ac867c923737c2100f24a77dfc5d36",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555191",
+          "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555161"
         },
         "batch_61": {
-          "stage": "REGISTERED_MAIN_CI_PENDING",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 7,
           "source_lines": 2883,
           "sections": 321,
@@ -1136,10 +1139,13 @@
             "08_交接勘誤與決議/20261112_Gemini第二輪全域創意A至E_來源確認創意審稿與第三輪研究接口_非正史.md"
           ],
           "accepted_after": 461,
-          "pending_after": 6
+          "pending_after": 6,
+          "verified_commit": "e7d0a82c88ac867c923737c2100f24a77dfc5d36",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555191",
+          "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555161"
         },
         "batch_62": {
-          "stage": "REGISTERED_MAIN_CI_PENDING",
+          "stage": "COMPLETE__COMMIT_CI_VERIFIED",
           "source_count": 6,
           "source_lines": 1924,
           "sections": 218,
@@ -1156,7 +1162,10 @@
             "待定正文/純正文_Gemini/第十九章_續房木牌脆裂膜瓣與不准開工的晨間表_R1_GPT證據工程權限微修候選_20261112_非正史.md"
           ],
           "accepted_after": 467,
-          "pending_after": 0
+          "pending_after": 0,
+          "verified_commit": "e7d0a82c88ac867c923737c2100f24a77dfc5d36",
+          "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555191",
+          "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555161"
         }
       }
     },
@@ -1436,8 +1445,8 @@
     "nonCanon_graph_links": 1250,
     "all_source_accepted": 467,
     "all_source_pending": 0,
-    "state": "BATCH62_ALL25_REGISTERED_MAIN_CI_PENDING_467_OF_467",
-    "notes": "最後25份已分成B60 12、B61 7、B62 6；創意來源、128題雙格式及章節差分精確驗證並保存SHA行錨；尚待本次主CI。原始來源未改、正式Canon0章。；主CI初次失敗僅兩個B60材質單元topic長度不足，已修復分片。"
+    "state": "BATCH62_ALL25_MAIN_CI_VERIFIED_467_OF_467",
+    "notes": "最後25份已分成B60 12、B61 7、B62 6；創意來源、128題雙格式及章節差分精確驗證並保存SHA行錨；尚待本次主CI。原始來源未改、正式Canon0章。；主CI初次失敗僅兩個B60材質單元topic長度不足，已修復分片。；經兩處短topic及全形括號格式修復後，主CI43484555191成功，Drive索引43484555161成功。467/467待審0、待CI0，仍非作者Canon採稿。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1459,13 +1468,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH62_ALL25_REGISTERED_MAIN_CI_PENDING_467_OF_467",
+    "stage": "BATCH62_ALL25_MAIN_CI_VERIFIED_467_OF_467",
     "scope": "第60至62批全庫剩餘25份5737原文行625語義段/625來源SHA錨與1250非Canon圖關聯；128題MD/JSON逐題同文、16域各8題；16/17/19章103/55/23筆精確差分；作者雙主角視角權威和Gemini可見來源層級分開。",
-    "commit": "4de0468514de3101caa67a304bd209dc31cd6bca",
-    "ci_result": "pending",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43478993215",
-    "not_finished": "目前467/467為待主CI驗收登記，尚非本次驗證完成；NEXT-011高風險跨文QA、Drive逐檔位元鏡像、原生Gemini平台匯出未核；Canon0章PREWRITE HOLD。",
-    "next_step": "核第60～62批主CI/Drive發布，成功後更新成功回執並使pending_ci歸零；此後轉NEXT-011跨文件高風險QA。"
+    "commit": "e7d0a82c88ac867c923737c2100f24a77dfc5d36",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43484555191",
+    "not_finished": "截至GitHub目前來源清冊，467／467份整檔編輯性驗收及本批主CI/Drive索引工作流程均成功，待審0、待CI0；NEXT-011跨檔高風險QA尚未執行，Drive逐檔位元鏡像與Gemini平台原生匯出未核；正式Canon0章PREWRITE HOLD。",
+    "next_step": "現行來源全數完成，停止為同一467份重複排NEXT-009批次；下一步啟動NEXT-011跨文件高風險QA與已有待修問題。未來新增或改版來源再動態重開驗收。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
