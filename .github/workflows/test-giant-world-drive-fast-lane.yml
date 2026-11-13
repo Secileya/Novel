@@ -26,3 +26,7 @@ jobs:
         run: node tools/google_drive_mirror/test_fast_sync.js
       - name: Source index change-delta tests
         run: python3 tools/google_drive_mirror/test_drive_source_index.py
+      - name: Family source index change-delta tests
+        run: python3 tools/google_drive_mirror/test_family_source_index.py
+      - name: Multi-source isolation and per-file commit validation
+        run: node tools/google_drive_mirror/test_multi_source_index.js
