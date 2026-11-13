@@ -3,19 +3,24 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "4c5bee5ae4f573c5fe9227ec9a22f2e066e65dce",
-  "sourceTreeSha": "62ed01f07a921c0d7743249036c9e2bec7aa58a8",
-  "previousSourceCommit": "07a87251734895331b5048c81d61891c07442734",
+  "sourceCommit": "7bd93ee6d85bbfa4d99bd3eac766f844cc802ea3",
+  "sourceTreeSha": "d1a94d1309833e7a2cc17d046f879f1a2f3a3c92",
+  "previousSourceCommit": "4c5bee5ae4f573c5fe9227ec9a22f2e066e65dce",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_公開高危地域三方案與無聲鐵林探索介面整理_非正史.md",
-      "sha": "043d27af2fa47f6332a0074df2aff20687c7c71e",
-      "change": "added"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
+      "sha": "6b6b5e650320a44ea1e186530099f49d103d57ba",
+      "change": "modified"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/08_交接勘誤與決議/20261113_Gemini第十輪高危探索試演_獨立QA與第八輪硬傷閉環核驗_非正史.md",
-      "sha": "3c01fea1de5ca175f53da715e80a4104d8825a65",
-      "change": "added"
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
+      "sha": "89cb5bea96ceeebc065ce6f152091bbe437e9ba6",
+      "change": "modified"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
+      "sha": "36490b63b90a49f3dd09cd3cc5a7ef158566d439",
+      "change": "modified"
     }
   ],
   "removedFiles": [],
@@ -692,8 +697,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "1dd26def99635657acb0d2db85414cf6c032bc0c",
-      "size": 82571
+      "sha": "6b6b5e650320a44ea1e186530099f49d103d57ba",
+      "size": 83747
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
@@ -887,8 +892,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "e1f573d23614a2698baa71eeb7f14cbed16531ee",
-      "size": 6299
+      "sha": "89cb5bea96ceeebc065ce6f152091bbe437e9ba6",
+      "size": 6719
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
@@ -977,8 +982,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "58c50c8d01e16ee53e0810c9db201a520171b839",
-      "size": 8025
+      "sha": "36490b63b90a49f3dd09cd3cc5a7ef158566d439",
+      "size": 8081
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI原始討論來源與版本替代證據鏈.json",
