@@ -7,7 +7,11 @@ assert.equal(new Set(ledger.records.map(r=>r.source_path)).size,ledger.records.l
 for(const p of patches)for(const x of p.attestation_replacements){
  const actual=ledger.records.find(r=>r.source_path===x.path);assert(actual);
  const latest=patches.flatMap(p=>p.attestation_replacements).filter(r=>r.path===x.path).at(-1);
- assert.equal(actual.git_blob_sha,latest.record.git_blob_sha); // earlier attestations are historical steps of the same SHA chain
+ let expected=latest.record.git_blob_sha;
+ for(const migration of patches.flatMap(q=>[...(q.anchor_migrations||[]),...(q.line_replacements||[])])){
+  if(migration.path===x.path&&migration.from_sha===expected)expected=migration.to_sha;
+ }
+ assert.equal(actual.git_blob_sha,expected); // allow later exact source SHA/line migrations after historical attestation, not arbitrary drift
  for(const dep of actual.semantic_quality_v2?.dependency_impact_review||[])for(const e of dep.evidence||[]){
   const b=fs.readFileSync(path.join(project,e.source_path)),hash=createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');
   assert.equal(hash,e.git_blob_sha);assert(b.toString('utf8').split(/\r?\n/)[e.line-1]?.includes(e.quote));
