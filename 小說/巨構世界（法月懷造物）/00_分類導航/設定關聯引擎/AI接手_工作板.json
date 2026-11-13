@@ -14,7 +14,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 464,
+    "raw_source_files": 467,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,22 +22,22 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 46,
+    "nine_folder_files": 47,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-13八輪黏接原文USER_PASTED_VISIBLE_TEXT完整29,642字元入09 SHA cd01b87b 已讀回兩版第三個座位及末尾完整段；08獨立辨識作者8輪和助手8輪+防禦性措辭/10項QA SHA92991473；06可直接貼Gemini第十輪提示詞SHA a52a4a6b。第039/038公開高危非賣票副本，第115W/K修正，K01可含社會及危區，隱藏靜謐更難但不自動這次找到。當前動態459來源、382舊驗收、77待審，09共45份、正式Canon0章PREWRITE HOLD。；2026-11-13 BATCH55第16/17章12份全文語義驗收源SHA已分片建檔，1,861行57段171命題342非Canon關聯，待Git主CI；目前動態459來源，預定394已審／65待審，正式Canon0章PREWRITE HOLD。；BATCH55第16/17章12份1,861行、57段171原文錨點342非Canon關聯通過完整主CI 43426127956，動態394/459已驗，65待審。這是非Canon編輯性驗收，未得作者採案。；2026-11-13 第十輪Gemini A～G USER_PASTED_VISIBLE_TEXT原文12,258字元完整入09 (blob e7ccbd2b) 並Git讀回；06三案接口比較 (blob043d27af)、08獨立D08-01～10閉環表與新增N10-01～12 QA (blob3c01fea1)。新增3份來源不等於編輯性驗收；動態462來源、394既有已驗、68待審，09原文46份。正式Canon0章PREWRITE HOLD。；第十輪新增3份來源已經GitHub主CI43430188000 Success，三份Drive鏡像與Git文字完整一致(比對Git blob e7ccbd2b/043d27af/3c01fea1)；來源462/394已驗/68待審保持不變。；2026-11-13 無聲鐵林的回音R1 GPT新07正文 blob cc36db2d1240d9ae3f454e33b4498d6c6956292c 4,437字元＋08 R0→R1獨立差異與7項餘缺 blob 52333854264c2a27d726fbe60d181ef971e58bbc，均已GitHub全文讀回。前第十輪Gemini完整09 blob e7ccbd2b原文未改；R1還是OPEN候選非Canon，非正式第20章。全庫464來源、394份先前已整檔驗收、70待審；09仍46。；2026-11-14 BATCH57十二份19章23處R0/R1差分與Gemini各輪獨立QA，824行56段56原文錨112非Canon關聯通過主CI 43469995956，動態418/464已驗、46待審，正式Canon0章PREWRITE HOLD。",
+    "important": "2026-11-13八輪黏接原文USER_PASTED_VISIBLE_TEXT完整29,642字元入09 SHA cd01b87b 已讀回兩版第三個座位及末尾完整段；08獨立辨識作者8輪和助手8輪+防禦性措辭/10項QA SHA92991473；06可直接貼Gemini第十輪提示詞SHA a52a4a6b。第039/038公開高危非賣票副本，第115W/K修正，K01可含社會及危區，隱藏靜謐更難但不自動這次找到。當前動態459來源、382舊驗收、77待審，09共45份、正式Canon0章PREWRITE HOLD。；2026-11-13 BATCH55第16/17章12份全文語義驗收源SHA已分片建檔，1,861行57段171命題342非Canon關聯，待Git主CI；目前動態459來源，預定394已審／65待審，正式Canon0章PREWRITE HOLD。；BATCH55第16/17章12份1,861行、57段171原文錨點342非Canon關聯通過完整主CI 43426127956，動態394/459已驗，65待審。這是非Canon編輯性驗收，未得作者採案。；2026-11-13 第十輪Gemini A～G USER_PASTED_VISIBLE_TEXT原文12,258字元完整入09 (blob e7ccbd2b) 並Git讀回；06三案接口比較 (blob043d27af)、08獨立D08-01～10閉環表與新增N10-01～12 QA (blob3c01fea1)。新增3份來源不等於編輯性驗收；動態462來源、394既有已驗、68待審，09原文46份。正式Canon0章PREWRITE HOLD。；第十輪新增3份來源已經GitHub主CI43430188000 Success，三份Drive鏡像與Git文字完整一致(比對Git blob e7ccbd2b/043d27af/3c01fea1)；來源462/394已驗/68待審保持不變。；2026-11-13 無聲鐵林的回音R1 GPT新07正文 blob cc36db2d1240d9ae3f454e33b4498d6c6956292c 4,437字元＋08 R0→R1獨立差異與7項餘缺 blob 52333854264c2a27d726fbe60d181ef971e58bbc，均已GitHub全文讀回。前第十輪Gemini完整09 blob e7ccbd2b原文未改；R1還是OPEN候選非Canon，非正式第20章。全庫464來源、394份先前已整檔驗收、70待審；09仍46。；2026-11-14 BATCH57十二份19章23處R0/R1差分與Gemini各輪獨立QA，824行56段56原文錨112非Canon關聯通過主CI 43469995956，動態418/464已驗、46待審，正式Canon0章PREWRITE HOLD。；2026-11-14 第十一輪Gemini使用者上傳247行／12,804字元可見全文，09 Git原始位元組SHA c7a952b91775f62611d78f5d00112eeff46e7b24，另存06研究摘要與08獨立QA；來源由464增467，待審46增49，既有418份驗收不變、Canon0章 PREWRITE HOLD；新增非Canon不自動升格。",
     "targeted_audit_records": 7747,
     "targeted_audit_verified_quotes": 7938,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 418,
-    "all_source_full_file_editorial_remaining": 46,
+    "all_source_full_file_editorial_remaining": 49,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 46
+    "all_source_full_file_editorial_pending": 49
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -161,14 +161,14 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 418,
-        "pending": 46,
+        "pending": 49,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
         },
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
-        "note": "第57批12份跨Gemini獨立QA與19章23行差分原文824行、56語義段56來源SHA錨112非Canon圖邊已登記，待主CI；剩餘46份來源未驗，舊來源不覆寫、Canon0章。；主CI43469995956驗證成功，56條圖摘要已在修復提交869994a86依命題title一致，當前待主CI數量清零。",
+        "note": "第57批12份跨Gemini獨立QA與19章23行差分原文824行、56語義段56來源SHA錨112非Canon圖邊已登記，待主CI；剩餘46份來源未驗，舊來源不覆寫、Canon0章。；主CI43469995956驗證成功，56條圖摘要已在修復提交869994a86依命題title一致，當前待主CI數量清零。；2026-11-14第十一輪09原文、06摘要、08獨立QA新增3份來源，動態總數467，先前418份驗收不重計，尚待審49；當前新增資料只完成專題QA與保存，非全量逐檔編輯性驗收。",
         "stage": "BATCH57_12_MAIN_CI_VERIFIED_418_OF_464",
         "last_verified_commit": "869994a86cb28b09cbf199806f6e537cd4dc0b9a",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/43469995956",
@@ -1358,7 +1358,7 @@
     "commit": "869994a86cb28b09cbf199806f6e537cd4dc0b9a",
     "ci_result": "success",
     "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43469995956",
-    "not_finished": "第57批12來源及824行/56段/56原文SHA行錨/112非Canon圖邊已通過main CI與Drive索引發布流程；全庫464、已驗418、待審46。NEXT-011、Drive實際逐檔鏡像文字一致性與原Gemini平台位元匯出仍未實測；正式Canon0章PREWRITE HOLD。",
+    "not_finished": "第57批12來源及824行/56段/56原文SHA行錨/112非Canon圖邊已通過main CI與Drive索引發布流程；全庫467、已驗418、待審49（第十一輪新增3來源待整檔驗收）。NEXT-011、Drive實際逐檔鏡像文字一致性與原Gemini平台位元匯出仍未實測；正式Canon0章PREWRITE HOLD。",
     "next_step": "依NEXT-009第58批清單先查重與讀取Git原始SHA，逐檔做語義證據、來源/作者權威與版本QA；NEXT-011另待啟動。"
   },
   "audited_batch_paths": [
