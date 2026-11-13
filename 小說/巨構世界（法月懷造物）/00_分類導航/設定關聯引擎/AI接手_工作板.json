@@ -5,7 +5,7 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "e09f1b4d4bee73118b70d1d835c14934abbcd3b8",
+  "last_checked_head_before_handoff": "c40ebf36f91eb94913c996c180d9dc55843fa848",
   "last_checked_successful_ci": {
     "head_sha": "35e0cb39a8951525fdef4054e5007ce758c082f8",
     "run_id": 43119380842,
@@ -14,7 +14,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 450,
+    "raw_source_files": 453,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,22 +22,22 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 42,
+    "nine_folder_files": 43,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-13 Gemini第八輪A-J完整19,645字元使用者可見文本已先獨立封存09原文Git blob 1da8aefd7341384bea5615e67bca3316c2271808並讀回；隨後建立06完整工作整理及08獨立QA；新來源未接受整檔編輯性驗收，保留382驗收登記/450動態來源、68待審。常態作用配重「已確認」是權威誤升，35/58僅成熟候選；作者已選復歸核心武器方案B與錨點細節仍待定不能混淆；原稿不覆寫，Canon0章PREWRITE HOLD。",
+    "important": "第九輪Gemini全文09(10565字元)已先行封存原文SHA 657c39048ab2bf9df6cdda5cc4664832549585ef，並讀回五節；再07純小說抽取SHA 4b726845與08獨立17項QA SHA 4b3ef008，7關鍵P0含驗損官翌日下午與翌日上午法務審決衝突、保稅貨棧進入權限、210斤偏心鐵塊、聲學/物證跳躍、石灰腳印/重量誤合、商會副會長單方裁決。三份新增來源待完全語義編輯驗收；全庫382/453，71待審；Canon0章PREWRITE HOLD。",
     "targeted_audit_records": 7432,
     "targeted_audit_verified_quotes": 7623,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 382,
-    "all_source_full_file_editorial_remaining": 68,
+    "all_source_full_file_editorial_remaining": 71,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 68
+    "all_source_full_file_editorial_pending": 71
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -161,7 +161,7 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 382,
-        "pending": 68,
+        "pending": 71,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -169,7 +169,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "BATCH53新增4份來源獨立逐段驗收，未覆寫原稿；驗收結構待最新主CI核實，上一成功基線366/382。",
-        "stage": "DYNAMIC_SOURCES_450_ACCEPTED_382_PENDING_68__ROUND8_CI_RECHECK",
+        "stage": "DYNAMIC_SOURCES_453_ACCEPTED_382_PENDING_71__ROUND9_CI_RECHECK",
         "last_verified_commit": "35e0cb39a8951525fdef4054e5007ce758c082f8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/43119380842",
         "cross_source_next_batch": [],
@@ -1244,7 +1244,7 @@
     "all_source_accepted": 382,
     "all_source_pending": 4,
     "state": "BATCH54_12_MAIN_CI_VERIFIED",
-    "notes": "第54批原12份已通過完整主CI 43119380842與Drive來源索引發佈43119381455；7,522行73段200 SHA引文、400非Canon關聯。新增4份第16章資料未算入驗收，原素材不覆寫。【2026-11-13接手後更新】原第54批382/386僅歷史成功基準；當前新增來源已提高至438，另有56份尚未完整驗收，編輯性成果不等於Canon。【本輪新入庫】2026-11-13 最新Gemini可見回貼原文及作者雙主角視角、第八輪提示與獨立QA四份入庫，來源442、已驗收登記382、待審60，兩份較早長報告逐字原文未取得。【2026-11-13追加糾正】前一輪錯未09存第七輪與宏觀專項全文，本輪在作者重新貼出後已分別完整回貼封存，新增阿爾方索試寫。原遺漏記錄留歷史，現補救來源447/382已驗登記/65待審；來源不升Canon。【2026-11-13第八輪直接封存】第八輪Gemini A～J使用者可見回貼19,645字元先完整入09，Git blob 1da8aefd，讀回十章；再建立06整理、08獨立QA，三新來源待審，382/450/68；已選與候選權威分開，未改任何歷史候選。"
+    "notes": "第54批原12份已通過完整主CI 43119380842與Drive來源索引發佈43119381455；7,522行73段200 SHA引文、400非Canon關聯。新增4份第16章資料未算入驗收，原素材不覆寫。【2026-11-13接手後更新】原第54批382/386僅歷史成功基準；當前新增來源已提高至438，另有56份尚未完整驗收，編輯性成果不等於Canon。【本輪新入庫】2026-11-13 最新Gemini可見回貼原文及作者雙主角視角、第八輪提示與獨立QA四份入庫，來源442、已驗收登記382、待審60，兩份較早長報告逐字原文未取得。【2026-11-13追加糾正】前一輪錯未09存第七輪與宏觀專項全文，本輪在作者重新貼出後已分別完整回貼封存，新增阿爾方索試寫。原遺漏記錄留歷史，現補救來源447/382已驗登記/65待審；來源不升Canon。【2026-11-13第八輪直接封存】第八輪Gemini A～J使用者可見回貼19,645字元先完整入09，Git blob 1da8aefd，讀回十章；再建立06整理、08獨立QA，三新來源待審，382/450/68；已選與候選權威分開，未改任何歷史候選。【2026-11-13第九輪】使用者完整Gemini回貼第九輪一至五節先入09原文10565字元GitSHA657c3904，讀回確認；07純場景5294字元、08獨立QA17項（7關鍵P0）另存，3源新增未驗收；統計382/453已驗／71待審，未改正式Canon與第1～19章候選。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1266,13 +1266,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "ROUND8_A_TO_J_RAW_FIRST_ARCHIVED_GIT_READBACK__382_OF_450__QA_PENDING_CI",
-    "scope": "先09第八輪Gemini A～J共19,645字元原文blob1da8aefd並Git讀回十節與末端保存回執；再06敘事工作整理、08作者權威/角色物理/因果獨立QA共21條問題；不刪改A～J、不代替現有開篇A/B2/C、不動第1～19章。",
-    "commit": "e09f1b4d4bee73118b70d1d835c14934abbcd3b8",
+    "stage": "ROUND9_GEMINI_A_TO_E_09_VERBATIM_07_SCENE_08_QA_382_OF_453_PENDING_CI",
+    "scope": "2026-11-13第九輪Gemini《千絲懸庭》外圍轉運港：先09逐字完整原文10,565字元（blob657c3904）並讀回五節；從第三節抽出07純小說試演《懸索渡口的夜半音叉》5294字元（blob4b726845），另08獨立17項QA（7關鍵P0，blob4b3ef008），核對第19章R1 SHA 643e1726；保留既有開篇與第一至十九章候選，未動Canon。",
+    "commit": "c40ebf36f91eb94913c996c180d9dc55843fa848",
     "ci_result": "pending",
     "ci_run_url": "https://github.com/Secileya/Novel/actions",
-    "not_finished": "源450份其中382份保留此前完整編輯性驗收登記、68份待審。新09/06/08三源仍待真正全檔語義驗收，新HEAD主CI及Drive三檔鏡像尚需核實；第八輪技術數值、三迴廊候選、復歸錨點與新劇情全部非Canon。正式0章/PREWRITE HOLD。",
-    "next_step": "驗證新Git HEAD主CI與Drive來源鏡像實際SHA/全文；第八輪重要P0 QA檢查常態與白髮權威、復歸方案B、趙老三與商會股東因果、超音速無聲風刃、巨車動能守恆。新增來源不冒算為語義驗收，NEXT-011長線待續。"
+    "not_finished": "目前動態來源453份、舊有382份全檔編輯性驗收登記、71份待審；第九輪09/07/08新三份並未計成驗收。07/08新Blob與全量工作板提交及新HEAD GitHub Actions/Drive鏡像待核。與第19章R1的W01位置路權尚未建立，原文數據與港務法理/物理仍為非Canon候選；正式0章PREWRITE HOLD。",
+    "next_step": "先核 main CI 與 Drive 三檔逐檔原始Git SHA及內容；若後續修第九輪，優先證實 N09-01～07：行會技術官抵達時間、保稅夜間入場權限、210斤配重承載、撞窗力學、聲學與過磅真證據、粉末足印、周萬里私章能否合法解押。完整修稿另存07 R1，不修改09逐字原文；NEXT-009/011照動態台帳續行。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
