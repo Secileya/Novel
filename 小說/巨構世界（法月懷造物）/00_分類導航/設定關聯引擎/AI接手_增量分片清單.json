@@ -420,6 +420,39 @@
       "claim_count": 175,
       "graph_relations": 350,
       "note": "2026-11-14新增BATCH59原文SHA錨點與四類反向QA；12份1915行175段/同數命題，非Canon，主CI待確認。；主CI43478993215及Drive索引43478993276成功，正式0章非Canon。"
+    },
+    {
+      "path": "20261114_第六十批12份_高危地域三迴廊研究與獨立試演_全文語義v2.json",
+      "git_blob_sha": "f2af0201657d383dbbd9aba987c997d54661bfde",
+      "batch": "BATCH60",
+      "source_count": 12,
+      "original_lines": 930,
+      "semantic_sections": 86,
+      "claim_count": 86,
+      "graph_relations": 172,
+      "note": "2026-11-14 BATCH60來源12份，930原文行、86語義段和SHA錨/命題、172非Canon雙關聯；主CI待確認。"
+    },
+    {
+      "path": "20261114_第六十一批7份_作者雙主角方向與128題雙格式逐題核對_全文語義v2.json",
+      "git_blob_sha": "b15f96c53aa7ee2d7401997e5086a3e95c85157c",
+      "batch": "BATCH61",
+      "source_count": 7,
+      "original_lines": 2883,
+      "semantic_sections": 321,
+      "claim_count": 321,
+      "graph_relations": 642,
+      "note": "2026-11-14 BATCH61來源7份，2883原文行、321語義段和SHA錨/命題、642非Canon雙關聯；主CI待確認。"
+    },
+    {
+      "path": "20261114_第六十二批6份_十六十七十九章差分與初輪Gemini原文_全文語義v2.json",
+      "git_blob_sha": "00c18123f03de8bf01daf101153478a20b2f857a",
+      "batch": "BATCH62",
+      "source_count": 6,
+      "original_lines": 1924,
+      "semantic_sections": 218,
+      "claim_count": 218,
+      "graph_relations": 436,
+      "note": "2026-11-14 BATCH62來源6份，1924原文行、218語義段和SHA錨/命題、436非Canon雙關聯；主CI待確認。"
     }
   ],
   "notice": "第52批3份與前51批累積完成當前動態366／366來源整檔編輯性驗收；2026-11-11主CI42989171348與Drive索引42989171326都success。正式Canon0章、PREWRITE HOLD；新增/修改來源再行動態重驗。",
