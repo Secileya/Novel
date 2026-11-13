@@ -376,6 +376,17 @@
       "claim_count": 171,
       "graph_relations": 342,
       "note": "一次驗收12份：16/17章Gemini原兩批回貼、R0接合純正文、R1後出微修及R0/R1 GPT獨立QA；1,861行57段171條原文SHA命題、342非Canon圖邊。R0過度確證與R1不確定性、局部水表、污樣檢驗與工務權限分離。全部非Canon；主CI待驗。；主CI 43425054543首次失敗：v2 material_units.authority使用了驗證器不支援的更細分類與兩處二遍finding過短。改用既有ASSISTANT_CANDIDATE枚舉，原回貼/QA來源角色仍由路徑與審稿說明保留，2項finding補充實質說明，171命題與來源SHA不變。"
+    },
+    {
+      "path": "20261113_第五十六批12份_十八章斷線原回貼R0R0aR1與差分QA_全文語義v2.json",
+      "git_blob_sha": "a860078a0ff3d595c6080c37f01d87edd63b9d83",
+      "batch": "BATCH56",
+      "source_count": 12,
+      "original_lines": 2758,
+      "semantic_sections": 88,
+      "claim_count": 88,
+      "graph_relations": 176,
+      "note": "第56批第18章12份，R0/R0a與兩組Gemini回貼、R1和GPT QA以及101行舊新差分；2758行88個全文區段與88原文SHA行錨，176非Canon圖邊。原檔未改，主CI待核。"
     }
   ],
   "notice": "第52批3份與前51批累積完成當前動態366／366來源整檔編輯性驗收；2026-11-11主CI42989171348與Drive索引42989171326都success。正式Canon0章、PREWRITE HOLD；新增/修改來源再行動態重驗。",
