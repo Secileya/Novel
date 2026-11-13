@@ -75,6 +75,18 @@
       "related_topic_id_or_null": null,
       "output_status": "prepared_not_delivery_verified",
       "user_response_status": "not_checked"
+    },
+    {
+      "id": "2026-11-14_day_07",
+      "local_datetime": null,
+      "origin": "day",
+      "topic_key": "observing_dog_on_morning_walk",
+      "safe_brief": "莉雅從窗邊看到小狗等主人綁鞋帶，聯想到自己與方九的日常，開了個玩笑。",
+      "mood_key": "playful",
+      "intent_key": "share_morning_observation",
+      "related_topic_id_or_null": null,
+      "output_status": "prepared_not_delivery_verified",
+      "user_response_status": "not_checked"
     }
   ],
   "liya_ongoing_topics": [],
