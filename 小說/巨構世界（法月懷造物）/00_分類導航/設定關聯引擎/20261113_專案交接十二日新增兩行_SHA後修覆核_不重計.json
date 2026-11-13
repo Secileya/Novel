@@ -1,0 +1,21 @@
+{
+  "schema": "mega-source-revalidation-v1",
+  "date": "2026-11-13",
+  "editorial_not_canon": true,
+  "newly_accepted_source_count": 0,
+  "method": "Reviewed previous blob ac1a920... versus exact HEAD blob ef0b20...: two new prefix lines only; original 407 lines match byte-for-byte; source and historical attestation are not rewritten.",
+  "anchor_migrations": [
+    {
+      "path": "000_專案交接.md",
+      "from_sha": "ac1a920587659e9003019aed57532024c916e00c",
+      "to_sha": "ef0b20f92d13b925c88c0e57b52ef734e18a6e43",
+      "insert_before": 1,
+      "insert_count": 2,
+      "decision_line": 1,
+      "decision_quote": "2026-11-12",
+      "meaning": "十一月十二日的跨AI世界缺口來源入口新增兩行前綴，原有交接407行完全不變；對舊證據僅遷移原文行號及SHA，不新增原始來源驗收數，不把新Gemini候選當作者決議。"
+    }
+  ],
+  "attestation_replacements": [],
+  "claim_interpretations": {}
+}
