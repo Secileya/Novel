@@ -176,10 +176,10 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "BATCH55第16/17章12份全文非Canon編輯驗收分片已建，1,861行57區171命題342圖關聯，待main CI。動態459份，原382成功基線、加12待CI；65未審。Gemini聊天重建不代表平台原生位元一致，作者仍未採案。",
+    "limitations": "BATCH55第16/17章12份已通過GitHub主CI 43426127956；動態459份、394份來源有非Canon編輯性驗收、65待審。Gemini重建非原生位元備份，作者未批准Canon，PREWRITE HOLD仍有效；跨檔整體QA另需NEXT-011。",
     "full_file_editorial_accepted": 171,
     "full_file_editorial_pending": 0,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 65,
     "historical_164_accepted": 153,
     "all_source_full_file_editorial_accepted": 394

@@ -5,12 +5,12 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "23d07e3b708150e0e6f4178cd0696e38fa272bb0",
+  "last_checked_head_before_handoff": "db002ebe84c6b601cd360fd4ca906230669ad9f1",
   "last_checked_successful_ci": {
-    "head_sha": "35e0cb39a8951525fdef4054e5007ce758c082f8",
-    "run_id": 43119380842,
-    "run_url": "https://github.com/Secileya/Novel/actions/runs/43119380842",
-    "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43119381455",
+    "head_sha": "66b3b0d3c7bc7b763406aa813cdc8bc2937d9e79",
+    "run_id": 43426127956,
+    "run_url": "https://github.com/Secileya/Novel/actions/runs/43426127956",
+    "drive_index_run_url": "https://github.com/Secileya/Novel/actions/runs/43425745320",
     "result": "success"
   },
   "fact_snapshot": {
@@ -25,7 +25,7 @@
     "nine_folder_files": 45,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-13八輪黏接原文USER_PASTED_VISIBLE_TEXT完整29,642字元入09 SHA cd01b87b 已讀回兩版第三個座位及末尾完整段；08獨立辨識作者8輪和助手8輪+防禦性措辭/10項QA SHA92991473；06可直接貼Gemini第十輪提示詞SHA a52a4a6b。第039/038公開高危非賣票副本，第115W/K修正，K01可含社會及危區，隱藏靜謐更難但不自動這次找到。當前動態459來源、382舊驗收、77待審，09共45份、正式Canon0章PREWRITE HOLD。；2026-11-13 BATCH55第16/17章12份全文語義驗收源SHA已分片建檔，1,861行57段171命題342非Canon關聯，待Git主CI；目前動態459來源，預定394已審／65待審，正式Canon0章PREWRITE HOLD。",
+    "important": "2026-11-13八輪黏接原文USER_PASTED_VISIBLE_TEXT完整29,642字元入09 SHA cd01b87b 已讀回兩版第三個座位及末尾完整段；08獨立辨識作者8輪和助手8輪+防禦性措辭/10項QA SHA92991473；06可直接貼Gemini第十輪提示詞SHA a52a4a6b。第039/038公開高危非賣票副本，第115W/K修正，K01可含社會及危區，隱藏靜謐更難但不自動這次找到。當前動態459來源、382舊驗收、77待審，09共45份、正式Canon0章PREWRITE HOLD。；2026-11-13 BATCH55第16/17章12份全文語義驗收源SHA已分片建檔，1,861行57段171命題342非Canon關聯，待Git主CI；目前動態459來源，預定394已審／65待審，正式Canon0章PREWRITE HOLD。；BATCH55第16/17章12份1,861行、57段171原文錨點342非Canon關聯通過完整主CI 43426127956，動態394/459已驗，65待審。這是非Canon編輯性驗收，未得作者採案。",
     "targeted_audit_records": 7603,
     "targeted_audit_verified_quotes": 7794,
     "full_file_editorial_accepted": 171,
@@ -36,7 +36,7 @@
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
-    "all_source_full_file_editorial_accepted_pending_ci": 12,
+    "all_source_full_file_editorial_accepted_pending_ci": 0,
     "all_source_full_file_editorial_pending": 65
   },
   "rules": {
@@ -169,9 +169,9 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第55批一次12份均非Canon：16/17章原始重建、R0/R1與QA；完整原文區段與四類二遍反問已建Git Blob，待main CI核查。",
-        "stage": "BATCH55_12_CI_REPAIR_PENDING_394_OF_459",
-        "last_verified_commit": "35e0cb39a8951525fdef4054e5007ce758c082f8",
-        "last_ci": "https://github.com/Secileya/Novel/actions/runs/43119380842",
+        "stage": "BATCH55_12_MAIN_CI_VERIFIED_394_OF_459",
+        "last_verified_commit": "66b3b0d3c7bc7b763406aa813cdc8bc2937d9e79",
+        "last_ci": "https://github.com/Secileya/Novel/actions/runs/43426127956",
         "cross_source_next_batch": [],
         "historical_164_accepted": 153,
         "historical_171_accepted": 171,
@@ -974,7 +974,7 @@
           ]
         },
         "batch_55": {
-          "stage": "CI_SCHEMA_REPAIR_STAGED_PENDING",
+          "stage": "MAIN_CI_VERIFIED",
           "source_count": 12,
           "source_lines": 1861,
           "sections": 57,
@@ -983,7 +983,7 @@
           "shard_path": "00_分類導航/設定關聯引擎/20261113_第五十五批12份_十六十七章原回貼R0R1獨立QA_全文語義v2.json",
           "git_blob_sha": "c67b5e1fc5123e0d39b8c3ea6cc6c53a16cd0bbc",
           "expected_parent_head": "23d07e3b708150e0e6f4178cd0696e38fa272bb0",
-          "verification": "INITIAL_CI_43425054543_FAILED__FIXED_SCHEMA_RERUN_PENDING",
+          "verification": "https://github.com/Secileya/Novel/actions/runs/43426127956",
           "sources": [
             "08_交接勘誤與決議/20261112_第十六章R0_GPT獨立QA_工務承載深冷情報與角色知情界線_非正史.md",
             "09_跨AI原始來源/20261112_Gemini第十六章第一批_A與B前半_使用者回貼重建_非正史.md",
@@ -1282,8 +1282,8 @@
     "nonCanon_graph_links": 342,
     "all_source_accepted": 394,
     "all_source_pending": 65,
-    "state": "BATCH55_12_CI_REPAIR_PENDING_394_OF_459",
-    "notes": "12份第16/17章原稿與後修QA全文語義證據已建分片；待Git原子提交與main CI核實，Canon0章、原素材未覆寫。"
+    "state": "BATCH55_12_MAIN_CI_VERIFIED_394_OF_459",
+    "notes": "第55批12份已通過主CI 43426127956，記錄SHA c67b5e1fc5123e0d39b8c3ea6cc6c53a16cd0bbc。解決8份權威枚舉及兩條簡短finding/經驗日誌欄位問題；原來源未修改。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1305,13 +1305,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH55_12_CI_REPAIR_PENDING_394_OF_459",
-    "scope": "第55批一次12份、1,861行57區段171證據、342非Canon關聯，已修復首次主CI指出的8份語義權威枚舉及2個過短二遍finding，待再次CI。素材與原文SHA完全未改。",
-    "commit": "PENDING_GIT_TRANSACTION",
-    "ci_result": "pending",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43425054543",
-    "not_finished": "首次主CI 43425054543失敗，批次已按驗證器修權威enum及兩條finding，新分片等待CI。實際主CI成功前不可宣稱394份均已驗收；剩65份動態來源。正式Canon0章PREWRITE HOLD。",
-    "next_step": "驗證第55批修復main SHA與重跑主CI；成功再記已驗394/459與65待審，下一批從18章新增來源開始。"
+    "stage": "BATCH55_12_MAIN_CI_VERIFIED_394_OF_459",
+    "scope": "第55批12份第16/17章原回貼/R0/R1與GPT QA全文驗收：1,861行、57區段、171條SHA原文證據和342條非Canon關聯；完成權威enum、2項二遍反問及日誌格式修復後通過GitHub主CI。",
+    "commit": "66b3b0d3c7bc7b763406aa813cdc8bc2937d9e79",
+    "ci_result": "success",
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43426127956",
+    "not_finished": "全庫動態459份，394份已有編輯性驗收；65份仍待審。下一批待審章18版本線已排入工作板。正式Canon0章PREWRITE HOLD；NEXT-011跨檔品質QA與Gemini原生/Drive完整鏡像並未由此核定。",
+    "next_step": "下一批NEXT-009處理第18章原始兩批、R0/R0a/R1與相關QA，依SHA防重，需另通過主CI；原第55批12份不可重計。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
