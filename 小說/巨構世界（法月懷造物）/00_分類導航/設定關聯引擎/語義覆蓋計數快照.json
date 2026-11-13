@@ -164,7 +164,7 @@
   "note": "335來源有某種可追蹤結構化入口；164份至少有既有細粒度命題，171份有獨立來源用途卡、370原文錨點與部分修訂語義，但未完成全文設定命題逐一仲裁。37組文字關係含互斥／補篇對照，不全是同章修訂。",
   "current_operational_metrics": {
     "source": "derived by matching 全庫物理清冊.json and 全庫待原子化缺口清冊.json paths, version ledger, audited batches",
-    "raw_original_sources": 462,
+    "raw_original_sources": 464,
     "with_fine_grained_reference": 164,
     "with_source_role_card_pending_full_semantic_review": 171,
     "machine_screened_source_dossiers": 213,
@@ -176,11 +176,11 @@
     "original_source_relocated_to_candidate_archive": "待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
     "formal_novel_chapters": 0,
     "prewrite_hold": true,
-    "limitations": "第55批第16/17章12份主CI已過394/459（歷史已驗）；本輪新增Gemini第十輪09原始A～G、06三地理介面、08 12項獨立QA共3份來源後，全庫462份、394已整檔編輯驗收、68未驗收，09檔46份；本輪CI/Drive仍待最新檢查，正式Canon0章PREWRITE HOLD。",
+    "limitations": "第十輪原文09＋06＋08三檔Drive全文SHA一致；新增非Canon R1場景07和修訂QA08兩檔後，全庫來源464、394份已有CI驗證的編輯性審核、70未驗收；09原文總數46。當前R1批次主CI與Drive待確認。正式Canon0章PREWRITE HOLD不變。",
     "full_file_editorial_accepted": 171,
     "full_file_editorial_pending": 0,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 68,
+    "all_source_full_file_editorial_pending": 70,
     "historical_164_accepted": 153,
     "all_source_full_file_editorial_accepted": 394
   },
