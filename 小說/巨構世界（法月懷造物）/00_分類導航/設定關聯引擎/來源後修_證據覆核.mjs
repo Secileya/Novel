@@ -87,6 +87,20 @@ export function applyEvidenceRevalidations(data,home=HOME){
   const loc=x.source_path||x.path;
   for(const m of revisions)if(m.path===loc){
    if(Number.isInteger(m.insert_before)){
+    // Full-file attestations are section- and line-pinned. A verified prefix
+    // insertion shifts the original anchors, while the FIRST reviewed section
+    // must also account for the newly added lines (not silently drop them).
+    if(x.status==='FULL_FILE_EDITORIAL_ATTESTED'&&x.source_path===m.path&&x.git_blob_sha===m.from_sha){
+     x.source_line_count+=m.insert_count;
+     for(const [i,s] of (x.reviewed_sections||[]).entries()){
+      if(i>0)s.from+=m.insert_count;
+      s.to+=m.insert_count;
+      s.anchor_line+=m.insert_count;
+      if(i===0)s.meaning=(s.meaning||'')+'【後出前綴】'+m.meaning;
+     }
+     for(const u of x.semantic_quality_v2?.material_units||[])u.line+=m.insert_count;
+     for(const c of x.semantic_quality_v2?.counterchecks||[])c.line+=m.insert_count;
+    }
     if(x.git_blob_sha===m.from_sha){
      x.git_blob_sha=m.to_sha;
      if(Number.isInteger(x.line)&&x.line>=m.insert_before)x.line+=m.insert_count;
