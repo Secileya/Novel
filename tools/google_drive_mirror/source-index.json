@@ -3,43 +3,23 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "0b61b45baefce72e65d970bfebc89abe89fae9c4",
-  "sourceTreeSha": "8a22a0631aa009ad4dbf7842ff67d3f24422d27c",
-  "previousSourceCommit": "b1512b539d8b3db8c6410d99309ce9b2376e90f2",
+  "sourceCommit": "8dea82319d1c25842f268552bde19b6217495df0",
+  "sourceTreeSha": "2c7e8cd622e7aff37197bc7a92239732963d97bb",
+  "previousSourceCommit": "0b61b45baefce72e65d970bfebc89abe89fae9c4",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261114_第六十一批7份_作者雙主角方向與128題雙格式逐題核對_全文語義v2.json",
-      "sha": "b15f96c53aa7ee2d7401997e5086a3e95c85157c",
-      "change": "added"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261114_第六十二批6份_十六十七十九章差分與初輪Gemini原文_全文語義v2.json",
-      "sha": "00c18123f03de8bf01daf101153478a20b2f857a",
-      "change": "added"
-    },
-    {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261114_第六十批12份_高危地域三迴廊研究與獨立試演_全文語義v2.json",
-      "sha": "f2af0201657d383dbbd9aba987c997d54661bfde",
-      "change": "added"
+      "sha": "2518895a3835e46c1106641977c12581e959d0d0",
+      "change": "modified"
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
-      "sha": "d1c1e54d9064d645249a77ab0fd568c17d8d4b74",
+      "sha": "433516e2c1d3e29a79f73b420bc4b8141af9e634",
       "change": "modified"
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "5cef1e826ec2c0c0d5a9a991b54ccc32512f3c63",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "8bc596bd8d6bfde45aedd621419ae66619c1899a",
-      "change": "modified"
-    },
-    {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "7152c4f8afc5723b52265f4fd97091377ce66b9a",
+      "sha": "d55ad332aa91b157c33a19a5814d91fde9ded54b",
       "change": "modified"
     }
   ],
@@ -632,8 +612,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/20261114_第六十批12份_高危地域三迴廊研究與獨立試演_全文語義v2.json",
-      "sha": "f2af0201657d383dbbd9aba987c997d54661bfde",
-      "size": 606884
+      "sha": "2518895a3835e46c1106641977c12581e959d0d0",
+      "size": 606932
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/213份來源索引分卷清單.json",
@@ -742,8 +722,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_增量分片清單.json",
-      "sha": "d1c1e54d9064d645249a77ab0fd568c17d8d4b74",
-      "size": 26779
+      "sha": "433516e2c1d3e29a79f73b420bc4b8141af9e634",
+      "size": 26894
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
@@ -752,8 +732,8 @@
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "5cef1e826ec2c0c0d5a9a991b54ccc32512f3c63",
-      "size": 97045
+      "sha": "d55ad332aa91b157c33a19a5814d91fde9ded54b",
+      "size": 97251
     },
     {
       "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_排批防重預檢.mjs",
