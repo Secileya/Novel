@@ -398,6 +398,28 @@
       "claim_count": 56,
       "graph_relations": 112,
       "note": "第57批第19章精確23處R0→R1變更(342行)與11份跨Gemini各輪獨立QA，原文824行56全文段、56來源SHA錨、112非Canon圖邊，保存候選與作者/助手權威分界。主CI待驗。；主CI43469664906攔截56條摘要/標題不一致，已逐條等值修復，原文/命題內容未變。"
+    },
+    {
+      "path": "20261114_第五十八批12份_第三至十輪Gemini來源與QA_全文語義v2.json",
+      "git_blob_sha": "51352fc69558dfb2c9e05af9b9e0444d182ba267",
+      "batch": "BATCH58",
+      "source_count": 12,
+      "original_lines": 1464,
+      "semantic_sections": 128,
+      "claim_count": 128,
+      "graph_relations": 256,
+      "note": "2026-11-14新增BATCH58原文SHA錨點與四類反向QA；12份1464行128段/同數命題，非Canon，主CI待確認。"
+    },
+    {
+      "path": "20261114_第五十九批12份_第六至十一輪長篇世界與人物試演_全文語義v2.json",
+      "git_blob_sha": "60b7a859758dbd2e62f1324d030d8816c3b3683f",
+      "batch": "BATCH59",
+      "source_count": 12,
+      "original_lines": 1915,
+      "semantic_sections": 175,
+      "claim_count": 175,
+      "graph_relations": 350,
+      "note": "2026-11-14新增BATCH59原文SHA錨點與四類反向QA；12份1915行175段/同數命題，非Canon，主CI待確認。"
     }
   ],
   "notice": "第52批3份與前51批累積完成當前動態366／366來源整檔編輯性驗收；2026-11-11主CI42989171348與Drive索引42989171326都success。正式Canon0章、PREWRITE HOLD；新增/修改來源再行動態重驗。",
