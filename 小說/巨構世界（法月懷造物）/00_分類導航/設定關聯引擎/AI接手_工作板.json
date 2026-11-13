@@ -26,8 +26,8 @@
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
     "important": "2026-11-13八輪黏接原文USER_PASTED_VISIBLE_TEXT完整29,642字元入09 SHA cd01b87b 已讀回兩版第三個座位及末尾完整段；08獨立辨識作者8輪和助手8輪+防禦性措辭/10項QA SHA92991473；06可直接貼Gemini第十輪提示詞SHA a52a4a6b。第039/038公開高危非賣票副本，第115W/K修正，K01可含社會及危區，隱藏靜謐更難但不自動這次找到。當前動態459來源、382舊驗收、77待審，09共45份、正式Canon0章PREWRITE HOLD。；2026-11-13 BATCH55第16/17章12份全文語義驗收源SHA已分片建檔，1,861行57段171命題342非Canon關聯，待Git主CI；目前動態459來源，預定394已審／65待審，正式Canon0章PREWRITE HOLD。；BATCH55第16/17章12份1,861行、57段171原文錨點342非Canon關聯通過完整主CI 43426127956，動態394/459已驗，65待審。這是非Canon編輯性驗收，未得作者採案。；2026-11-13 第十輪Gemini A～G USER_PASTED_VISIBLE_TEXT原文12,258字元完整入09 (blob e7ccbd2b) 並Git讀回；06三案接口比較 (blob043d27af)、08獨立D08-01～10閉環表與新增N10-01～12 QA (blob3c01fea1)。新增3份來源不等於編輯性驗收；動態462來源、394既有已驗、68待審，09原文46份。正式Canon0章PREWRITE HOLD。；第十輪新增3份來源已經GitHub主CI43430188000 Success，三份Drive鏡像與Git文字完整一致(比對Git blob e7ccbd2b/043d27af/3c01fea1)；來源462/394已驗/68待審保持不變。；2026-11-13 無聲鐵林的回音R1 GPT新07正文 blob cc36db2d1240d9ae3f454e33b4498d6c6956292c 4,437字元＋08 R0→R1獨立差異與7項餘缺 blob 52333854264c2a27d726fbe60d181ef971e58bbc，均已GitHub全文讀回。前第十輪Gemini完整09 blob e7ccbd2b原文未改；R1還是OPEN候選非Canon，非正式第20章。全庫464來源、394份先前已整檔驗收、70待審；09仍46。",
-    "targeted_audit_records": 7603,
-    "targeted_audit_verified_quotes": 7794,
+    "targeted_audit_records": 7691,
+    "targeted_audit_verified_quotes": 7882,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
@@ -37,7 +37,7 @@
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 12,
-    "all_source_full_file_editorial_pending": 70
+    "all_source_full_file_editorial_pending": 58
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -1017,7 +1017,8 @@
           "shard_sha": "a860078a0ff3d595c6080c37f01d87edd63b9d83",
           "submitted_accepted": 406,
           "submitted_pending": 58,
-          "canon_chapters": 0
+          "canon_chapters": 0,
+          "first_ci_failure": "43435954019 跨批次稽核紀錄與工作板累計不一致：records及quotes漏加88；已修正並回歸。"
         }
       }
     },
@@ -1298,7 +1299,7 @@
     "all_source_accepted": 406,
     "all_source_pending": 58,
     "state": "BATCH56_12_REGISTERED_MAIN_CI_PENDING_406_OF_464",
-    "notes": "第18章十二份來源SHA、R0→R1差分101處已核對，主CI成功前只有登記並不能對外宣稱驗收完成；同時保留本日新增07及08兩份待審來源，Canon0章。"
+    "notes": "第18章十二份來源SHA、R0→R1差分101處已核對，主CI成功前只有登記並不能對外宣稱驗收完成；同時保留本日新增07及08兩份待審來源，Canon0章。；主CI43435954019首輪失敗因B56累計稽核數與錨點各漏加88，已補正重新跑CI。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
