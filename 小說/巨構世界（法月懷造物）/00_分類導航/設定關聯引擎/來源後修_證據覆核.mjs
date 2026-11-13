@@ -99,7 +99,7 @@ export function applyEvidenceRevalidations(data,home=HOME){
       if(i===0)s.meaning=(s.meaning||'')+'【後出前綴】'+m.meaning;
      }
      for(const u of x.semantic_quality_v2?.material_units||[])u.line+=m.insert_count;
-     for(const c of x.semantic_quality_v2?.counterchecks||[])c.line+=m.insert_count;
+     for(const c of x.semantic_quality_v2?.countercheck_questions||[])c.line+=m.insert_count;
     }
     if(x.git_blob_sha===m.from_sha){
      x.git_blob_sha=m.to_sha;
