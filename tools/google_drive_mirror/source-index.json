@@ -3,24 +3,24 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "d3a827c63c687d5f972358fcb967e3afc171c88c",
-  "sourceTreeSha": "7a7e8927c2e663295e0987622a6942aa219d6f49",
-  "previousSourceCommit": "869994a86cb28b09cbf199806f6e537cd4dc0b9a",
+  "sourceCommit": "9e922ec75149f2ca498c0b26295ed10760dae6a4",
+  "sourceTreeSha": "9d15296fa0e33d0615b0eb457e6a51de6b5f761b",
+  "previousSourceCommit": "d3a827c63c687d5f972358fcb967e3afc171c88c",
   "changedFiles": [
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_工作板.json",
-      "sha": "3c82cdf9c881f4810130f84e836ce4e4338c27bb",
-      "change": "modified"
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261114_第十一輪長篇旅行接口三路徑與長期回收整理_非正史.md",
+      "sha": "39ee1073677a78819b18fac04a44d28ae59ca6b5",
+      "change": "added"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
-      "sha": "e1027803b8f2e018e2b7ac6258488db4ca6af2d8",
-      "change": "modified"
+      "path": "小說/巨構世界（法月懷造物）/08_交接勘誤與決議/20261114_Gemini第十一輪研究_來源核對與設定邊界獨立QA_非正史.md",
+      "sha": "bb7a4d97886c585ab0588f0ce858afdb37769c60",
+      "change": "added"
     },
     {
-      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
-      "sha": "853c19601be29a86ae7f7d15703c15f9d15ef758",
-      "change": "modified"
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261114_Gemini第十一輪長篇旅行活世界與雙主角故事深化_使用者可見回貼全錄_非正史.md",
+      "sha": "c7a952b91775f62611d78f5d00112eeff46e7b24",
+      "change": "added"
     }
   ],
   "removedFiles": [],
@@ -1981,6 +1981,11 @@
       "size": 7356
     },
     {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261114_第十一輪長篇旅行接口三路徑與長期回收整理_非正史.md",
+      "sha": "39ee1073677a78819b18fac04a44d28ae59ca6b5",
+      "size": 8257
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/README.md",
       "sha": "4b8658258f5637ec526e682f1992ade03853e4c6",
       "size": 16454
@@ -2426,6 +2431,11 @@
       "size": 6758
     },
     {
+      "path": "小說/巨構世界（法月懷造物）/08_交接勘誤與決議/20261114_Gemini第十一輪研究_來源核對與設定邊界獨立QA_非正史.md",
+      "sha": "bb7a4d97886c585ab0588f0ce858afdb37769c60",
+      "size": 11547
+    },
+    {
       "path": "小說/巨構世界（法月懷造物）/08_交接勘誤與決議/202_Gemini新版第七八章全章對讀_仍存第五章臨時銷與制動聯鎖QA_非正史.md",
       "sha": "ee4bf250f58c9c7d00f090c1fa90fcf9b3247110",
       "size": 9059
@@ -2684,6 +2694,11 @@
       "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_韓默無形靜止第三個座位二次偶遇與公開高危地域_八輪黏接問答逐字全錄_非正史.md",
       "sha": "cd01b87b9f1409b6277ed4218cfcb79197f618ea",
       "size": 84836
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261114_Gemini第十一輪長篇旅行活世界與雙主角故事深化_使用者可見回貼全錄_非正史.md",
+      "sha": "c7a952b91775f62611d78f5d00112eeff46e7b24",
+      "size": 33847
     },
     {
       "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/README.md",
