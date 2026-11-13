@@ -390,14 +390,14 @@
     },
     {
       "path": "20261114_第五十七批12份_第十九章差分與跨Gemini獨立QA_全文語義v2.json",
-      "git_blob_sha": "cae67201b22317b476bbd47c039468ae6977b693",
+      "git_blob_sha": "e8462c2f7690e161b109967f5444bf0ace4604d6",
       "batch": "BATCH57",
       "source_count": 12,
       "original_lines": 824,
       "semantic_sections": 56,
       "claim_count": 56,
       "graph_relations": 112,
-      "note": "第57批第19章精確23處R0→R1變更(342行)與11份跨Gemini各輪獨立QA，原文824行56全文段、56來源SHA錨、112非Canon圖邊，保存候選與作者/助手權威分界。主CI待驗。"
+      "note": "第57批第19章精確23處R0→R1變更(342行)與11份跨Gemini各輪獨立QA，原文824行56全文段、56來源SHA錨、112非Canon圖邊，保存候選與作者/助手權威分界。主CI待驗。；主CI43469664906攔截56條摘要/標題不一致，已逐條等值修復，原文/命題內容未變。"
     }
   ],
   "notice": "第52批3份與前51批累積完成當前動態366／366來源整檔編輯性驗收；2026-11-11主CI42989171348與Drive索引42989171326都success。正式Canon0章、PREWRITE HOLD；新增/修改來源再行動態重驗。",
