@@ -368,14 +368,14 @@
     },
     {
       "path": "20261113_第五十五批12份_十六十七章原回貼R0R1獨立QA_全文語義v2.json",
-      "git_blob_sha": "0440f8b4fdbf9b662f7258d1eab445872f8ca09e",
+      "git_blob_sha": "c67b5e1fc5123e0d39b8c3ea6cc6c53a16cd0bbc",
       "batch": "BATCH55",
       "source_count": 12,
       "original_lines": 1861,
       "semantic_sections": 57,
       "claim_count": 171,
       "graph_relations": 342,
-      "note": "一次驗收12份：16/17章Gemini原兩批回貼、R0接合純正文、R1後出微修及R0/R1 GPT獨立QA；1,861行57段171條原文SHA命題、342非Canon圖邊。R0過度確證與R1不確定性、局部水表、污樣檢驗與工務權限分離。全部非Canon；主CI待驗。"
+      "note": "一次驗收12份：16/17章Gemini原兩批回貼、R0接合純正文、R1後出微修及R0/R1 GPT獨立QA；1,861行57段171條原文SHA命題、342非Canon圖邊。R0過度確證與R1不確定性、局部水表、污樣檢驗與工務權限分離。全部非Canon；主CI待驗。；主CI 43425054543首次失敗：v2 material_units.authority使用了驗證器不支援的更細分類與兩處二遍finding過短。改用既有ASSISTANT_CANDIDATE枚舉，原回貼/QA來源角色仍由路徑與審稿說明保留，2項finding補充實質說明，171命題與來源SHA不變。"
     }
   ],
   "notice": "第52批3份與前51批累積完成當前動態366／366來源整檔編輯性驗收；2026-11-11主CI42989171348與Drive索引42989171326都success。正式Canon0章、PREWRITE HOLD；新增/修改來源再行動態重驗。",

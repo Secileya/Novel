@@ -169,7 +169,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "第55批一次12份均非Canon：16/17章原始重建、R0/R1與QA；完整原文區段與四類二遍反問已建Git Blob，待main CI核查。",
-        "stage": "BATCH55_12_STAGED_CI_PENDING_394_OF_459",
+        "stage": "BATCH55_12_CI_REPAIR_PENDING_394_OF_459",
         "last_verified_commit": "35e0cb39a8951525fdef4054e5007ce758c082f8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/43119380842",
         "cross_source_next_batch": [],
@@ -974,16 +974,16 @@
           ]
         },
         "batch_55": {
-          "stage": "STAGED_WAITING_GITHUB_CI",
+          "stage": "CI_SCHEMA_REPAIR_STAGED_PENDING",
           "source_count": 12,
           "source_lines": 1861,
           "sections": 57,
           "claims": 171,
           "graph_relations": 342,
           "shard_path": "00_分類導航/設定關聯引擎/20261113_第五十五批12份_十六十七章原回貼R0R1獨立QA_全文語義v2.json",
-          "git_blob_sha": "0440f8b4fdbf9b662f7258d1eab445872f8ca09e",
+          "git_blob_sha": "c67b5e1fc5123e0d39b8c3ea6cc6c53a16cd0bbc",
           "expected_parent_head": "23d07e3b708150e0e6f4178cd0696e38fa272bb0",
-          "verification": "CI_NOT_YET_RUN__DO_NOT_CLAIM_PASSED",
+          "verification": "INITIAL_CI_43425054543_FAILED__FIXED_SCHEMA_RERUN_PENDING",
           "sources": [
             "08_交接勘誤與決議/20261112_第十六章R0_GPT獨立QA_工務承載深冷情報與角色知情界線_非正史.md",
             "09_跨AI原始來源/20261112_Gemini第十六章第一批_A與B前半_使用者回貼重建_非正史.md",
@@ -1282,7 +1282,7 @@
     "nonCanon_graph_links": 342,
     "all_source_accepted": 394,
     "all_source_pending": 65,
-    "state": "BATCH55_12_STAGED_CI_PENDING",
+    "state": "BATCH55_12_CI_REPAIR_PENDING_394_OF_459",
     "notes": "12份第16/17章原稿與後修QA全文語義證據已建分片；待Git原子提交與main CI核實，Canon0章、原素材未覆寫。"
   },
   "handoff_requirements": [
@@ -1305,13 +1305,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "BATCH55_12_STAGED_CI_PENDING_394_OF_459",
-    "scope": "第55批一次12份第16/17章原始兩批、R0/R1和獨立QA；1,861行、57段、171條來源SHA行號證據、342非Canon圖關聯。原文不修改、作者/助手權威分層。",
+    "stage": "BATCH55_12_CI_REPAIR_PENDING_394_OF_459",
+    "scope": "第55批一次12份、1,861行57區段171證據、342非Canon關聯，已修復首次主CI指出的8份語義權威枚舉及2個過短二遍finding，待再次CI。素材與原文SHA完全未改。",
     "commit": "PENDING_GIT_TRANSACTION",
     "ci_result": "pending",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions",
-    "not_finished": "當前來源全集459份，原382成功基線；第55批12份提交後待CI才能算394份已驗收，餘65份。NEXT-011跨檔高風險QA與Gemini原生位元/Drive鏡像未證；正式Canon0章PREWRITE HOLD。先前第10輪對話的權威結論仍存於來源與先前工作紀錄。",
-    "next_step": "核main BATCH55 shard與Manifest及CI成功後轉為394/459；再從第18章版本線選最多12份未審來源，勿重計本批。"
+    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43425054543",
+    "not_finished": "首次主CI 43425054543失敗，批次已按驗證器修權威enum及兩條finding，新分片等待CI。實際主CI成功前不可宣稱394份均已驗收；剩65份動態來源。正式Canon0章PREWRITE HOLD。",
+    "next_step": "驗證第55批修復main SHA與重跑主CI；成功再記已驗394/459與65待審，下一批從18章新增來源開始。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
