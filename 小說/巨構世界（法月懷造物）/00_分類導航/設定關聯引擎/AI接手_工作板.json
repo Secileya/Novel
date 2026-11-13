@@ -5,7 +5,7 @@
   "project_root": "小說/巨構世界（法月懷造物）",
   "manual_path": "00_分類導航/設定關聯引擎/AI接手_完整作業流程.md",
   "scope": "ALL_CURRENT_AND_FUTURE_SOURCE_FILES__FULL_FILE_SEMANTIC_ACCEPTANCE_AND_ALL_DOMAIN_GRAPH_INTEGRATION. Historical 164 vs 171 are only provenance cohorts; neither constitutes complete acceptance; first 335 has 2 attested, 333 pending. PREWRITE HOLD remains.",
-  "last_checked_head_before_handoff": "2f3527a189da1d11d787b26e2f20e20fd364b7a2",
+  "last_checked_head_before_handoff": "842b51f8b4e978ea752b6e0597ea7abd377e5007",
   "last_checked_successful_ci": {
     "head_sha": "35e0cb39a8951525fdef4054e5007ce758c082f8",
     "run_id": 43119380842,
@@ -14,7 +14,7 @@
     "result": "success"
   },
   "fact_snapshot": {
-    "raw_source_files": 442,
+    "raw_source_files": 447,
     "source_paths_with_prior_fine_grained_references": 164,
     "source_role_cards_awaiting_full_claim_arbitration": 171,
     "source_dossiers_machine_screened": 213,
@@ -22,22 +22,22 @@
     "candidate_version_text_diff_pairs": 37,
     "candidate_version_human_semantic_reviews": 14,
     "version_decision_nodes": 16,
-    "nine_folder_files": 38,
+    "nine_folder_files": 41,
     "canon_formal_chapters": 0,
     "prewrite_hold": true,
-    "important": "2026-11-13 動態來源已增至442，原有382份保留編輯性驗收登記，60份為新入庫或待審；此次新增09可見完整Gemini回貼、03作者雙主角視角指示、06第八輪提示詞與08獨立QA。第七輪A–N及宏觀A–M仍缺真正逐字原文，不能視為已封存。正式Canon0章／PREWRITE HOLD，當前新HEAD CI待驗證。",
+    "important": "2026-11-13 源清單447份（382舊版整檔編輯性驗收登記、65新增或待審）。已修復前輪GPT違反逐字封存規範：第七輪A～N、獨立世界層／三大迴廊A～M使用者重新回貼完整可見原文分別寫入09，新增瑟莉思媞複合笑容及破頁者阿爾方索試寫亦寫入09，另建07候選索引、08獨立QA，已更新06第八輪提示詞錯誤的『原文缺失』語句。Git提交/回讀不代表新來源全文語義驗收；Canon 0章 PREWRITE HOLD。",
     "targeted_audit_records": 7432,
     "targeted_audit_verified_quotes": 7623,
     "full_file_editorial_accepted": 171,
     "full_file_editorial_remaining": 0,
     "all_source_historical_baseline": 335,
     "all_source_full_file_editorial_accepted": 382,
-    "all_source_full_file_editorial_remaining": 60,
+    "all_source_full_file_editorial_remaining": 65,
     "historical_164_full_file_acceptance": 153,
     "historical_171_full_file_acceptance": 171,
     "all_source_progress_is_dynamic": true,
     "all_source_full_file_editorial_accepted_pending_ci": 0,
-    "all_source_full_file_editorial_pending": 60
+    "all_source_full_file_editorial_pending": 65
   },
   "rules": {
     "priority": "Explicit current user task > real verified breakage > lowest numeric priority, then listed order",
@@ -161,7 +161,7 @@
       "progress": {
         "baseline_total": 335,
         "verified_complete": 382,
-        "pending": 60,
+        "pending": 65,
         "source_cohorts": {
           "historic_fine_grained_reference_only": 164,
           "historic_role_card": 171
@@ -169,7 +169,7 @@
         "last_goal_definition": "2026-11-09 ALL_SOURCES_NOT_171",
         "live_count_approach": "git ls-tree at HEAD, excluding engine and AI instruction files",
         "note": "BATCH53新增4份來源獨立逐段驗收，未覆寫原稿；驗收結構待最新主CI核實，上一成功基線366/382。",
-        "stage": "DYNAMIC_SOURCES_442_ACCEPTED_382_PENDING_60__MAIN_CI_RECHECK",
+        "stage": "DYNAMIC_SOURCES_447_ACCEPTED_382_PENDING_65__MAIN_CI_RECHECK",
         "last_verified_commit": "35e0cb39a8951525fdef4054e5007ce758c082f8",
         "last_ci": "https://github.com/Secileya/Novel/actions/runs/43119380842",
         "cross_source_next_batch": [],
@@ -1244,7 +1244,7 @@
     "all_source_accepted": 382,
     "all_source_pending": 4,
     "state": "BATCH54_12_MAIN_CI_VERIFIED",
-    "notes": "第54批原12份已通過完整主CI 43119380842與Drive來源索引發佈43119381455；7,522行73段200 SHA引文、400非Canon關聯。新增4份第16章資料未算入驗收，原素材不覆寫。【2026-11-13接手後更新】原第54批382/386僅歷史成功基準；當前新增來源已提高至438，另有56份尚未完整驗收，編輯性成果不等於Canon。【本輪新入庫】2026-11-13 最新Gemini可見回貼原文及作者雙主角視角、第八輪提示與獨立QA四份入庫，來源442、已驗收登記382、待審60，兩份較早長報告逐字原文未取得。"
+    "notes": "第54批原12份已通過完整主CI 43119380842與Drive來源索引發佈43119381455；7,522行73段200 SHA引文、400非Canon關聯。新增4份第16章資料未算入驗收，原素材不覆寫。【2026-11-13接手後更新】原第54批382/386僅歷史成功基準；當前新增來源已提高至438，另有56份尚未完整驗收，編輯性成果不等於Canon。【本輪新入庫】2026-11-13 最新Gemini可見回貼原文及作者雙主角視角、第八輪提示與獨立QA四份入庫，來源442、已驗收登記382、待審60，兩份較早長報告逐字原文未取得。【2026-11-13追加糾正】前一輪錯未09存第七輪與宏觀專項全文，本輪在作者重新貼出後已分別完整回貼封存，新增阿爾方索試寫。原遺漏記錄留歷史，現補救來源447/382已驗登記/65待審；來源不升Canon。"
   },
   "handoff_requirements": [
     "Run status/check and inspect current HEAD and CI",
@@ -1266,13 +1266,13 @@
   },
   "latest_progress": {
     "task_id": "NEXT-009",
-    "stage": "SOURCE_INTAKE_382_OF_442__NEW_VISIBLE_GEMINI_RAW_AND_PROTAGONIST_RULE_PENDING_CI",
-    "scope": "2026-11-13 已提交1份新Gemini可見回貼09原文、作者雙主角主視角後出規則03、第八輪A-J提示詞06及逐字缺件/神情勘誤QA08；只建立新來源，未改前1–19章候選。",
-    "commit": "60071879648de0e16f1d6f906b15d9e5f499eb25",
+    "stage": "VISIBLE_RAW_FULL_ARCHIVE_REPAIRED_382_OF_447_PENDING_CI",
+    "scope": "第七輪A～N(09 blob a47e7174)＋宏觀三迴廊A～M(09 blob 1fdb2030)＋瑟莉思媞/阿爾方索完整試寫(09 blob 24c07822)三篇使用者可見原文全部分檔封存；07候選場景索引、08獨立原創/權威/因果QA建立，06第八輪提示詞修正來源保存狀態；原始來源未刪改，更新作者雙主角視角仍沿03。",
+    "commit": "842b51f8b4e978ea752b6e0597ea7abd377e5007",
     "ci_result": "pending",
-    "ci_run_url": "https://github.com/Secileya/Novel/actions/runs/43359156920",
-    "not_finished": "442來源382份保留既有整檔編輯性登記、60份仍待審；前述第七輪A–N及世界層三迴廊A–M的完整逐字回貼仍未可得。此輪新09只保留本對話可見Gemini回覆與作者糾正，Drive同步與最新主CI另查，Canon0章PREWRITE HOLD。",
-    "next_step": "確認本輪新HEAD主CI及Drive來源鏡像；待第七輪A–N及獨立宏觀A–M完整原文可再次取得時各建09獨立原文。第八輪先依06主角推進提示詞研究，未經作者確認不升Canon、不寫正式第20章。"
+    "ci_run_url": "https://github.com/Secileya/Novel/actions",
+    "not_finished": "447份來源中382保留舊版整檔編輯性驗收登記、65份新來源／舊待審未驗；原回貼是當前可見文字封存，不保證Gemini原生平台位元匯出；三篇新09檔獨立保存，第七輪/宏觀兩篇不再列RAW_FULL_TEXT_MISSING。新HEAD主CI/Drive各檔讀回待核、NEXT-011未完、正式Canon0章PREWRITE HOLD。",
+    "next_step": "先查新增09三份與07/08/06及工作板/日誌的main Actions結果與Drive鏡像；確認兩篇完整09而非06摘要被鏡像。第八輪研究如執行，遵守09原文第一時間封存，不修改第1–19章候選。"
   },
   "audited_batch_paths": [
     "00_分類導航/設定關聯引擎/20261109_171待深審_第四批跨源語義衝突與審核門檻.json",
