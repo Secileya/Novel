@@ -1,0 +1,21 @@
+{
+  "schema": "mega-source-revalidation-v1",
+  "date": "2026-11-13",
+  "editorial_not_canon": true,
+  "newly_accepted_source_count": 0,
+  "method": "Exact old Git blob 31763eb versus current 4b865825: current adds only four lines before the original 85 lines, which are byte-identical; maintain original attested evidence and migrate anchors forward.",
+  "anchor_migrations": [
+    {
+      "path": "06_敘事規劃與工作流/README.md",
+      "from_sha": "31763eb144527e0c66a1c762b6b17679cf363717",
+      "to_sha": "4b8658258f5637ec526e682f1992ade03853e4c6",
+      "insert_before": 1,
+      "insert_count": 4,
+      "decision_line": 1,
+      "decision_quote": "世界缺口探索",
+      "meaning": "在原六分類工作流 README 加入2026年11月12日的 Gemini 第一輪世界缺口候選導航四行，舊有85行完全不變；本次只更正舊原文證據的行號與 SHA，不更動作者權威或正文狀態。"
+    }
+  ],
+  "attestation_replacements": [],
+  "claim_interpretations": {}
+}

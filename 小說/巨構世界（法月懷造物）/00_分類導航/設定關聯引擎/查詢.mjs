@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import {loadBridge} from './AI接手_分片讀取.mjs';
-import {readEffectiveJson} from './來源後修_證據覆核.mjs';
+import {readEffectiveJson,readRevalidations} from './來源後修_證據覆核.mjs';
 // 巨構設定查詢 v1 — Node.js 20+ standard library only.
 // Runs from a checked-out GitHub repository. Never modifies Canon.
 import fs from "node:fs";
@@ -134,13 +134,20 @@ function sourceDrift() {
       current.set(p,data[2]);
     }
     const prior=new Map(inventory.files.map(f=>[f.path,f.git_blob_sha]));
-    const changed=[], added=[], removed=[];
+    // A source can differ from the historical inventory yet be explicitly reviewed
+    // through an exact SHA-pinned migration, with old quotes/line anchors preserved.
+    const latestReviewed=new Map();
+    for(const patch of readRevalidations(HOME))for(const migration of [...(patch.anchor_migrations||[]),...(patch.line_replacements||[])])latestReviewed.set(migration.path,migration.to_sha);
+    const changed=[], added=[], removed=[], revalidated=[];
     for(const [p,sha] of current) {
       if(!prior.has(p))added.push(p);
-      else if(prior.get(p)!==sha)changed.push(p);
+      else if(prior.get(p)!==sha){
+        if(latestReviewed.get(p)===sha)revalidated.push(p);
+        else changed.push(p);
+      }
     }
     for(const p of prior.keys())if(!current.has(p))removed.push(p);
-    return {available:true,changed,added,removed,
+    return {available:true,changed,added,removed,revalidated,
       auto_discovered_new_source_files:added.length,
       caution:"New Git-committed files enter the dynamic all-source review queue automatically; original source changes/removals still require explicit revalidation.",
       stale:changed.length>0||removed.length>0};
