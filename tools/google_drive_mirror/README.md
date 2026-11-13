@@ -73,3 +73,12 @@
 將 `00_鏡像同步狀態與使用說明` 和鏡像根資料夾網址加入 `structural-world-novel-management` 技能指示；需要某個角色、設定或章節時，先依原始相對路徑找對應原文，再核對最新 Git blob SHA、後出版本與作者權威。鏡像檔首段的 GitHub SHA 只代表來源版本，**不代表作者批准為 Canon**。沒有讀到原文時標記 `SOURCE_NOT_FULLY_READ`，不得憑舊快照或僅憑檔名推定。
 ## GitHub Actions 自動更新來源索引\n\n- 發佈工作流程：`.github/workflows/publish-giant-world-drive-index.yml`。當 `main` 的 `小說/巨構世界（法月懷造物）/**` 有更新時自動執行；此外提供每日一次校正與手動 `workflow_dispatch`。\n- 產生器：`tools/google_drive_mirror/build_source_index.py`，從 Git 追蹤的原始檔案與 Git blob SHA 產生靜態索引。若來源子樹未改變，不會產生不必要的索引提交。\n- `source-index.json` 已先建立 450 筆來源；此索引**不是 Drive 450 份已同步**的證明，實際進度以 Drive 鏡像的 `_GITHUB_SYNC_STATE.json` 為準。\n- 不需要建立 GitHub Personal Access Token，也不應把任何 GitHub 密碼加入 Apps Script。\n\n## 目前狀態
 此 README 和 `Code.gs` 是可執行的安裝包；是否已授權與啟動觸發器，需要看使用者實際 Apps Script 執行結果及鏡像狀態檔，**不能只因檔案存在就宣稱 450 份都已同步。**
+ 
+## 2026-11-14｜同一鏡像增加《家庭總檔》（需部署 Apps Script）
+
+- 來源依然是 **GitHub main → Stingray Drive**，不是 Drive → GitHub 雙向覆寫。家庭總檔權威仍是 `小說/家庭總檔/` 的 GitHub 現行版本；Drive 01A～01E 為另外的來源／快照，不能不經版本比對就反向取代它。
+- **隔離索引**：原 `source-index.json` 及其現有 Apps Script 舊版完全不動；新增 `family-source-index.json` 由 [Publish 家庭總檔 Drive source index](../../.github/workflows/publish-family-drive-index.yml) 發佈。這避免 GitHub 先上線時，舊 Apps Script 因索引混入家庭路徑而中斷巨構同步。
+- 部署新 `Code.gs` 後，同一套每分鐘快通道／五分鐘補漏／每小時巡查會同時讀取兩份釘選 SHA 索引，逐檔使用各自的 commit，寫入同一 Stingray 鏡像根目錄。既有巨構鏡像路徑、`_GITHUB_SYNC_STATE.json` 的巨構相對路徑及既有 Drive ID 均保持不變；家庭來源使用 `家庭總檔/` 前綴分類，避免同名檔案覆蓋。
+- 超過 128,000 Bytes 的家庭主檔由完整同步通道分批處理，不視為失敗也不承諾當分鐘完成；圖片等二進位內容仍不在原有文字鏡像範圍。
+- **啟用前置**：先確認 GitHub Actions 已成功建立 `family-source-index.json`；再開啟[原有 Apps Script 專案](https://script.google.com/home/projects/1DPDrliDG1EXJVNfzunHmD7j_G9pVAHqHvI2rABnSHZRQrVvbCI4dXZUm/edit)，把本專案最新完整 `Code.gs` 覆蓋至 `程式碼.gs` 並儲存；不要重新 `installSync`，既有觸發器沿用。手動執行 `quickSyncNow` 和 `syncNow`，確認家庭相對路徑的 SHA／`CURRENT`，才算線上實際啟用。
+- 兩份索引只要其中一份缺失／無法驗證，新版會拒絕啟動本輪同步，避免錯誤封存既有鏡像；原版 Apps Script 仍可讀原本巨構索引維持運作。

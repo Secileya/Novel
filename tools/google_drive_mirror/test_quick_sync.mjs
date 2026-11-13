@@ -12,7 +12,8 @@ const PREFIX='小說/巨構世界（法月懷造物）/';
 const sha = char => char.repeat(40);
 const makeEntry = (name,size,hash) => ({path:PREFIX+name,size,sha:hash});
 const mkIndex = (entries,commit,changedFiles=[]) => ({
-  sourceCommit:commit,sourceTreeSha:sha('f'),files:entries,
+  sourceCommit:commit,sourceRevision:commit,sourceTreeSha:sha('f'),
+  familySourceCommit:commit,familySourceTreeSha:sha('f'),files:entries,
   changedFiles:changedFiles.map(e=>({path:e.path,sha:e.sha,change:'added'}))
 });
 const four = [
@@ -133,3 +134,17 @@ function setup({index, state, props={}, failPath=null}) {
 }
 
 console.log('PASS: fast index catch-up, 128KB originals, large-file draining, state and failed writes');
+
+ 
+// Family source paths must be namespaced, while existing giant-world keys stay unchanged.
+{
+  const family={path:'小說/家庭總檔/00_總檔交接.md',sha:sha('9'),size:2000};
+  const giant=makeEntry('00_總檔交接.md',2000,sha('a'));
+  const index=mkIndex([giant,family],sha('d'),[giant,family]);
+  const state={schema:1,files:{}};
+  const test=setup({index,state});
+  assert.equal(test.run().updated,2);
+  assert.equal(state.files['00_總檔交接.md'].blobSha,giant.sha);
+  assert.equal(state.files['家庭總檔/00_總檔交接.md'].blobSha,family.sha);
+  assert.equal(test.writes.length,2);
+}

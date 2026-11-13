@@ -1,0 +1,40 @@
+name: Publish 家庭總檔 Drive source index
+on:
+  push:
+    branches: [main]
+    paths:
+      - '小說/家庭總檔/**'
+      - 'tools/google_drive_mirror/build_family_source_index.py'
+      - '.github/workflows/publish-family-drive-index.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: drive-source-index-main
+  cancel-in-progress: false
+jobs:
+  refresh:
+    name: Refresh family SHA source index
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build family source index
+        run: python3 tools/google_drive_mirror/build_family_source_index.py
+      - name: Publish if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add tools/google_drive_mirror/family-source-index.json
+          if git diff --cached --quiet; then
+            echo 'Family source tree unchanged; no commit required.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'index: refresh 家庭總檔 Drive source blobs'
+          git push origin HEAD:main
