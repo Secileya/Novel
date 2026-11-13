@@ -47,7 +47,9 @@ function setup() {
   const contents=new Map([[first,one],[second,two]]);
   let index={
     schema:1,repository:'Secileya/Novel',branch:'main',sourcePrefix:prefix,
-    sourceCommit:'a'.repeat(40),sourceTreeSha:'b'.repeat(40),
+    sourceCommit:'a'.repeat(40),sourceRevision:'a'.repeat(40),
+    familySourceCommit:'a'.repeat(40),familySourceTreeSha:'b'.repeat(40),
+    sourceTreeSha:'b'.repeat(40),
     changedFiles:[{path:first,sha:hash(one),change:'modified'},
       {path:second,sha:hash(two),change:'added'}],
     removedFiles:[],
@@ -127,8 +129,10 @@ function setup() {
     }
   };
   vm.runInNewContext(source,ctx,{filename:'Code.gs'});
+  // This regression exercises fast-lane writes, not the two HTTP index fetches.
+  ctx.readSourceIndex_=()=>index;
   return {ctx,root,manifest,contents,props,hash,first,second,one,two,
-    getIndex:()=>index,setIndex:v=>{index=v;},getCreates:()=>creates};
+    getIndex:()=>index,setIndex:v=>{index=Object.assign({},v,{sourceRevision:v.sourceCommit,files:v.files.map(e=>Object.assign({},e,{sourceCommit:v.sourceCommit}))});},getCreates:()=>creates};
 }
 const s=setup();
 const first=s.ctx.syncQuick();
