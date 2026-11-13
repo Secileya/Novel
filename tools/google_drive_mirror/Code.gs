@@ -13,6 +13,9 @@ const MIRROR_CONFIG = Object.freeze({
   repository: 'Novel',
   branch: 'main',
   sourceIndexPath: 'tools/google_drive_mirror/source-index.json',
+  familySourceIndexPath: 'tools/google_drive_mirror/family-source-index.json',
+  familyPrefix: '小說/家庭總檔/',
+  familyMirrorPrefix: '家庭總檔/',
   prefix: '小說/巨構世界（法月懷造物）/',
   mirrorFolderId: '1-8xXZ98taJKK_Zpj65RjZtA4J5MzIXBY',
   manifestFileName: '_GITHUB_SYNC_STATE.json',
@@ -82,15 +85,15 @@ function syncQuick() {
     // One-time reconciliation after deploying new code, even at the same source commit.
     const quickRevision='2026-11-12-reconcile-v2';
     const revisionChanged=props.getProperty('megaQuickRevision')!==quickRevision;
-    if (previouslySeen===index.sourceCommit && previousPending==='0' && !revisionChanged) {
+    if (previouslySeen===index.sourceRevision && previousPending==='0' && !revisionChanged) {
       return {status:'NO_SOURCE_CHANGE',sourceCommit:index.sourceCommit};
     }
     const root = DriveApp.getFolderById(cfg.mirrorFolderId);
     const manifestFile = getOrCreateManifest_(root);
     const state = parseState_(manifestFile);
     const filesByPath = {};
-    index.files.forEach(function(e) { filesByPath[e.path.slice(cfg.prefix.length)] = e; });
-    const isNewIndex = state.quickLaneIndexCommit !== index.sourceCommit;
+    index.files.forEach(function(e) { filesByPath[sourceMirrorKey_(e.path)] = e; });
+    const isNewIndex = state.quickLaneIndexCommit !== index.sourceRevision;
     let changes = (state.quickLaneChangedPaths || []).filter(function(p) {
       return Boolean(filesByPath[p]);
     });
@@ -105,18 +108,18 @@ function syncQuick() {
       const publishedDelta = isNewIndex && Array.isArray(index.changedFiles) ?
         index.changedFiles : [];
       const missedOrStale = index.files.filter(function(e) {
-        const p=e.path.slice(cfg.prefix.length), old=state.files[p];
+        const p=sourceMirrorKey_(e.path), old=state.files[p];
         if (!old) return true; // Never mirrored, even if absent from this delta.
         if (old.status==='CURRENT') return !old.driveId || old.blobSha!==e.sha;
         // Historical SYNC_FAILED and ARCHIVED items stay on full sync's queue.
         return false;
       });
       const newPaths = uniquePaths_(publishedDelta.concat(missedOrStale).map(function(e) {
-        return e.path.slice(cfg.prefix.length);
+        return sourceMirrorKey_(e.path);
       })).filter(function(p) { return Boolean(filesByPath[p]); });
       changes = isNewIndex ? newPaths : uniquePaths_(changes.concat(newPaths));
       pending = uniquePaths_(newPaths.concat(pending));
-      state.quickLaneIndexCommit = index.sourceCommit;
+      state.quickLaneIndexCommit = index.sourceRevision;
       state.quickLaneChangedPaths = changes;
     }
     pending = uniquePaths_(pending).filter(function(p) {
@@ -145,14 +148,14 @@ function syncQuick() {
       }
       attempted++;
       try {
-        const bytes=fetchPinnedBytes_(entry.path,index.sourceCommit);
+        const bytes=fetchPinnedBytes_(entry.path,entry.sourceCommit||index.sourceCommit);
         if (gitBlobSha_(bytes)!==entry.sha) throw Error('Fast-lane Git blob SHA mismatch: '+p);
         const raw=Utilities.newBlob(bytes).getDataAsString('UTF-8');
         const name=p.split('/').pop(), relative=p.slice(0,-name.length).replace(/\/$/,'');
         const folder=getOrCreateSubfolder_(root,relative,folderCache);
-        const wrapped=makeMirrorText_(entry,index.sourceCommit,raw);
+        const wrapped=makeMirrorText_(entry,entry.sourceCommit||index.sourceCommit,raw);
         const saved=writeMirrorFileFast_(state.files[p]||{},folder,name,wrapped);
-        state.files[p]={driveId:saved.id,blobSha:entry.sha,commitSha:index.sourceCommit,
+        state.files[p]={driveId:saved.id,blobSha:entry.sha,commitSha:entry.sourceCommit||index.sourceCommit,
           bytes:bytes.length,mime:saved.mime,status:'CURRENT',updatedAt:new Date().toISOString()};
         applied.push(p);
       } catch(err) {
@@ -170,7 +173,7 @@ function syncQuick() {
     state.quickLaneHandoffId=writeFastHandoff_(root,state.quickLaneHandoffId,
       cfg.fastHandoffName,handoff);
     saveState_(manifestFile,state);
-    props.setProperty('megaQuickCommit',index.sourceCommit);
+    props.setProperty('megaQuickCommit',index.sourceRevision);
     props.setProperty('megaQuickHasPending',remaining.length?'1':'0');
     props.setProperty('megaQuickRevision',quickRevision);
     const stillDrivePending=changes.some(function(p) {
@@ -179,7 +182,7 @@ function syncQuick() {
     });
     return {status:errors.length?'PARTIAL_WITH_ERRORS':remaining.length?'PARTIAL':
       stillDrivePending?'HANDOFF_READY_SOME_DRIVE_PENDING':'CURRENT_CHANGES_READY',
-      sourceCommit:index.sourceCommit,changed:changes.length,updated:applied.length,
+      sourceCommit:index.sourceRevision,changed:changes.length,updated:applied.length,
       pending:remaining.length,deferredLarge:deferredLarge.length,
       handoffId:state.quickLaneHandoffId,errors:errors};
   } finally {
@@ -193,24 +196,59 @@ function uniquePaths_(arr) {
     seen[p]=true; return true;
   });
 }
-function readSourceIndex_() {
+/** Stable manifest paths: giant-world keys stay byte-for-byte unchanged. */
+function sourceMirrorKey_(path) {
+  if (typeof path!=='string') return null;
+  const cfg=MIRROR_CONFIG;
+  if (path.startsWith(cfg.prefix)) return path.slice(cfg.prefix.length)||null;
+  if (path.startsWith(cfg.familyPrefix)) {
+    const rel=path.slice(cfg.familyPrefix.length);
+    return rel ? cfg.familyMirrorPrefix+rel : null;
+  }
+  return null;
+}
+/** Separate indexes keep the deployed legacy giant-world mirror compatible. */
+function readPublishedIndex_(indexPath,expectedPrefix) {
   const cfg=MIRROR_CONFIG;
   const url='https://raw.githubusercontent.com/'+cfg.owner+'/'+cfg.repository+'/'+cfg.branch+
-    '/'+cfg.sourceIndexPath+'?nocache='+Math.floor(Date.now()/60000);
+    '/'+indexPath+'?nocache='+Math.floor(Date.now()/60000);
   const index=getJson_(url);
   if (index.schema!==1 || index.repository!==cfg.owner+'/'+cfg.repository ||
-      index.branch!==cfg.branch || index.sourcePrefix!==cfg.prefix ||
+      index.branch!==cfg.branch || index.sourcePrefix!==expectedPrefix ||
       !Array.isArray(index.files) || !index.files.length ||
       !/^[0-9a-f]{40}$/.test(index.sourceCommit||'') ||
       !/^[0-9a-f]{40}$/.test(index.sourceTreeSha||'')) {
-    throw Error('Public source index invalid; cannot fast-sync uncertain content');
+    throw Error('Public source index missing or invalid: '+indexPath);
   }
   index.files.forEach(function(e) {
-    if (!e.path || !e.path.startsWith(cfg.prefix) ||
+    if (!e.path || !e.path.startsWith(expectedPrefix) ||
         !/^[0-9a-f]{40}$/.test(e.sha||'') ||
-        typeof e.size!=='number') throw Error('Source index entry invalid');
+        typeof e.size!=='number') throw Error('Source index entry invalid: '+indexPath);
   });
   return index;
+}
+function readSourceIndex_() {
+  const cfg=MIRROR_CONFIG;
+  const giant=readPublishedIndex_(cfg.sourceIndexPath,cfg.prefix);
+  const family=readPublishedIndex_(cfg.familySourceIndexPath,cfg.familyPrefix);
+  const files=giant.files.map(function(e) {
+    return Object.assign({},e,{sourceCommit:giant.sourceCommit});
+  }).concat(family.files.map(function(e) {
+    return Object.assign({},e,{sourceCommit:family.sourceCommit});
+  }));
+  const keys=Object.create(null);
+  files.forEach(function(e) {
+    const key=sourceMirrorKey_(e.path);
+    if (!key || keys[key]) throw Error('Duplicate/unknown mirror key: '+e.path);
+    keys[key]=true;
+  });
+  return Object.assign({},giant,{
+    files:files,
+    changedFiles:(giant.changedFiles||[]).concat(family.changedFiles||[]),
+    sourceRevision:giant.sourceCommit+'|'+family.sourceCommit,
+    familySourceCommit:family.sourceCommit,
+    familySourceTreeSha:family.sourceTreeSha
+  });
 }
 function gitPinnedUrl_(path,commit) {
   return 'https://github.com/'+MIRROR_CONFIG.owner+'/'+MIRROR_CONFIG.repository+
@@ -218,12 +256,12 @@ function gitPinnedUrl_(path,commit) {
 }
 function makeFastHandoff_(index,state,changes,remaining,applied,errors) {
   const cfg=MIRROR_CONFIG, known={};
-  index.files.forEach(function(e) { known[e.path.slice(cfg.prefix.length)]=e; });
+  index.files.forEach(function(e) { known[sourceMirrorKey_(e.path)]=e; });
   const lines=[
     '[GITHUB FAST HANDOFF | AUTO-GENERATED | NON-CANON]',
     'Generated at: '+new Date().toISOString(),
-    'Source index commit: '+index.sourceCommit,
-    'Source tree SHA: '+index.sourceTreeSha,
+    'Source index commits: 巨構 '+index.sourceCommit+' | 家庭 '+index.familySourceCommit,
+    'Source tree SHA: 巨構 '+index.sourceTreeSha+' | 家庭 '+index.familySourceTreeSha,
     'GitHub public source index: https://github.com/'+cfg.owner+'/'+cfg.repository+
        '/blob/main/'+cfg.sourceIndexPath,
     'Changed/unmirrored sources reconciled: '+changes.length,
@@ -243,7 +281,7 @@ function makeFastHandoff_(index,state,changes,remaining,applied,errors) {
     const current=Boolean(v && v.status==='CURRENT' && v.blobSha===e.sha);
     lines.push((current?'DRIVE_CURRENT ':'DRIVE_PENDING_OR_STALE ')+p);
     lines.push('Source Git blob SHA: '+e.sha);
-    lines.push('Pinned source URL: '+gitPinnedUrl_(e.path,index.sourceCommit));
+    lines.push('Pinned source URL: '+gitPinnedUrl_(e.path,e.sourceCommit||index.sourceCommit));
   });
   if (changes.length>40) lines.push('... plus '+(changes.length-40)+
     ' changed entries; read full source-index.json for all source SHAs.');
@@ -332,38 +370,29 @@ function syncCore_() {
     const root = DriveApp.getFolderById(cfg.mirrorFolderId);
     const manifestFile = getOrCreateManifest_(root);
     const state = parseState_(manifestFile);
-    // Public SHA index is generated by GitHub Actions, not the rate-limited REST API.
-    // Google Apps Script uses shared IPs and can exhaust GitHub's 60/h unauthenticated limit.
-    const indexUrl = 'https://raw.githubusercontent.com/' + cfg.owner + '/' + cfg.repository +
-      '/' + cfg.branch + '/' + cfg.sourceIndexPath + '?nocache=' + Math.floor(Date.now() / 60000);
-    const index = getJson_(indexUrl);
-    if (index.schema !== 1 || index.repository !== cfg.owner + '/' + cfg.repository ||
-        index.branch !== cfg.branch || index.sourcePrefix !== cfg.prefix ||
-        !Array.isArray(index.files) || index.files.length === 0 ||
-        !/^[0-9a-f]{40}$/.test(index.sourceCommit || '') ||
-        !/^[0-9a-f]{40}$/.test(index.sourceTreeSha || '')) {
-      throw Error('GitHub public source index missing or invalid; check Actions index publication.');
-    }
-    const head = {sha:index.sourceCommit};
+    // Two independently-published GitHub SHA indexes; each entry pins its own commit.
+    // If either index is missing, fail closed instead of archiving any mirror files.
+    const index = readSourceIndex_();
+    const head = {sha:index.sourceRevision};
     const tree = {sha:index.sourceTreeSha, truncated:false, tree:index.files.map(function(e) {
-      if (!e.path || !e.path.startsWith(cfg.prefix) || !/^[0-9a-f]{40}$/.test(e.sha || '') ||
+      if (!sourceMirrorKey_(e.path) || !/^[0-9a-f]{40}$/.test(e.sha || '') ||
           typeof e.size !== 'number') throw Error('GitHub source index entry invalid');
-      return {type:'blob', path:e.path, sha:e.sha, size:e.size};
+      return {type:'blob', path:e.path, sha:e.sha, size:e.size, sourceCommit:e.sourceCommit};
     })};
     const matching = tree.tree.filter(function(entry) {
-      return entry.type === 'blob' && entry.path.startsWith(cfg.prefix) &&
+      return entry.type === 'blob' && Boolean(sourceMirrorKey_(entry.path)) &&
         cfg.allowedExtensions.some(function(ext) { return entry.path.toLowerCase().endsWith(ext); });
     }).sort(function(a,b) { return a.path.localeCompare(b.path); });
-    const pathsNow = new Set(matching.map(function(entry) { return entry.path.slice(cfg.prefix.length); }));
+    const pathsNow = new Set(matching.map(function(entry) { return sourceMirrorKey_(entry.path); }));
     const folderCache = { '': root };
     const pending = matching.filter(function(entry) {
-      const rel = entry.path.slice(cfg.prefix.length);
+      const rel = sourceMirrorKey_(entry.path);
       const prev = state.files[rel];
       return !(prev && prev.blobSha === entry.sha && prev.driveId && prev.status === 'CURRENT');
     }).sort(function(a,b) {
       // Never let one repeatedly failing source block all untried files.
-      const av=state.files[a.path.slice(cfg.prefix.length)];
-      const bv=state.files[b.path.slice(cfg.prefix.length)];
+      const av=state.files[sourceMirrorKey_(a.path)];
+      const bv=state.files[sourceMirrorKey_(b.path)];
       return Number(Boolean(av && av.status==='SYNC_FAILED')) - Number(Boolean(bv && bv.status==='SYNC_FAILED')) || a.path.localeCompare(b.path);
     });
     let updated = 0;
@@ -379,9 +408,9 @@ function syncCore_() {
     let pausedForDocsQuotaThisRun = false;
     for (const entry of pending) {
       if (updated + failed >= cfg.maxFilesPerRun || Date.now() - started > cfg.maxTimeMs) break;
-      const rel = entry.path.slice(cfg.prefix.length);
+      const rel = sourceMirrorKey_(entry.path);
       try {
-        const contentBytes = fetchPinnedBytes_(entry.path, head.sha);
+        const contentBytes = fetchPinnedBytes_(entry.path, entry.sourceCommit);
         const observedSha = gitBlobSha_(contentBytes);
         if (observedSha !== entry.sha) throw Error('Blob SHA mismatch; expected '+entry.sha+' got '+observedSha);
         const raw = Utilities.newBlob(contentBytes).getDataAsString('UTF-8');
@@ -389,7 +418,7 @@ function syncCore_() {
         const name = rel.slice(dir ? dir.length + 1 : 0);
         const dest = getOrCreateSubfolder_(root, dir, folderCache);
         const prev = state.files[rel] || {};
-        const wrapped = makeMirrorText_(entry, head.sha, raw);
+        const wrapped = makeMirrorText_(entry, entry.sourceCommit, raw);
         let saved;
         if (docsCreationPaused) saved = writeMirrorFileFast_(prev,dest,name,wrapped);
         else {
@@ -407,7 +436,7 @@ function syncCore_() {
         state.files[rel] = {
           driveId: saved.id,
           blobSha: entry.sha,
-          commitSha: head.sha,
+          commitSha: entry.sourceCommit,
           bytes: contentBytes.length,
           mime: saved.mime,
           status: 'CURRENT',
@@ -435,7 +464,7 @@ function syncCore_() {
     let archived = 0;
     let unfinished = 0;
     for (const entry of matching) {
-      const p = entry.path.slice(cfg.prefix.length);
+      const p = sourceMirrorKey_(entry.path);
       const v = state.files[p];
       if (!(v && v.status === 'CURRENT' && v.blobSha === entry.sha)) unfinished++;
     }
@@ -457,6 +486,8 @@ function syncCore_() {
     state.repo = `${cfg.owner}/${cfg.repository}`;
     state.branch = cfg.branch;
     state.sourcePrefix = cfg.prefix;
+    state.additionalSourcePrefix = cfg.familyPrefix;
+    state.familySourceTreeSha = index.familySourceTreeSha;
     state.latestCheckedCommit = head.sha;
     state.latestTreeSha = tree.sha || '';
     state.latestCheckedAt = new Date().toISOString();
@@ -605,7 +636,7 @@ function updateStatusDoc_(root,state) {
   const body=[
     'GitHub MAIN → Stingray Drive｜自動同步狀態',
     '來源：'+state.repo+' @ '+state.branch,
-    '原始路徑：'+state.sourcePrefix,
+    '原始路徑：'+state.sourcePrefix+'；'+(state.additionalSourcePrefix||'家庭總檔未啟用'),
     '最後檢查：'+state.latestCheckedAt,
     '最新檢查 HEAD：'+state.latestCheckedCommit,
     '已完整同步 HEAD：'+(state.completeCommit||'尚未完成首次完整同步'),
