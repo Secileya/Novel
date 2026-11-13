@@ -1,0 +1,21 @@
+{
+  "schema": "mega-source-revalidation-v1",
+  "date": "2026-11-13",
+  "editorial_not_canon": true,
+  "newly_accepted_source_count": 0,
+  "method": "Reviewed exact insertion: current Git blob 216dba7... adds exactly nine prefix lines to the earlier already-attested 9879a...; trailing 145 lines match byte-for-byte. Preserve old Git proof rather than mutate source or overwrite historical ledger.",
+  "anchor_migrations": [
+    {
+      "path": "09_跨AI原始來源/README.md",
+      "from_sha": "9879a378c9109c3e533a0c22304fe8b253438419",
+      "to_sha": "216dba7b38ff1a1ab0cea25d44bcbaf4aa738808",
+      "insert_before": 1,
+      "insert_count": 9,
+      "decision_line": 4,
+      "decision_quote": "作者明確確認",
+      "meaning": "後出新增十一月十二日 Gemini 第一輪 A～E 的先後版本鑑別與來源保全九行；僅調整歷史索引的 SHA/行號，舊檔正文完全不改，沒有將外來 Gemini 回貼提升為作者 Canon，也不能把 Drive 新鏡像視為原生逐字位元備份。"
+    }
+  ],
+  "attestation_replacements": [],
+  "claim_interpretations": {}
+}
