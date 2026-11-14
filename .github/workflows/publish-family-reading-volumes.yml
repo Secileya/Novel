@@ -1,0 +1,58 @@
+name: Publish 家庭主總檔 Gemini 最新閱讀分卷
+on:
+  push:
+    branches: [main]
+    paths:
+      - '小說/家庭總檔/01_家庭完整角色設定總檔.md'
+      - 'tools/google_drive_mirror/build_family_reading_volumes.py'
+      - 'tools/google_drive_mirror/test_family_reading_volumes.py'
+      - '.github/workflows/publish-family-reading-volumes.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3 * * *'
+permissions:
+  contents: write
+# Serialize with both existing source-index publishers. Bot pushes do not trigger
+# other workflows; therefore publish the generated files AND updated family index here.
+concurrency:
+  group: drive-source-index-main
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Verify exact UTF-8 reconstruction and size limits
+        run: python3 tools/google_drive_mirror/test_family_reading_volumes.py
+      - name: Generate latest Gemini reading volumes from the authoritative main file
+        run: python3 tools/google_drive_mirror/build_family_reading_volumes.py
+      - name: Commit generated reading volumes if different
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A '小說/家庭總檔/05_Gemini_最新版閱讀分卷/'
+          if git diff --cached --quiet; then
+            echo 'Gemini reading volumes already current.'
+          else
+            git commit -m 'docs(family): generate lossless current Gemini reading volumes'
+          fi
+      - name: Rebuild family mirror index at committed source SHA
+        run: python3 tools/google_drive_mirror/build_family_source_index.py
+      - name: Commit updated family mirror index and push both changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add tools/google_drive_mirror/family-source-index.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'index: include current family Gemini reading volumes'
+          fi
+          if [ "$(git rev-list --count origin/main..HEAD)" -gt 0 ]; then
+            git push origin HEAD:main
+          else
+            echo 'All reading volumes and family source index are up to date.'
+          fi
