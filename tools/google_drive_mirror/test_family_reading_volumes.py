@@ -44,7 +44,8 @@ class ReadingVolumeTests(unittest.TestCase):
 
     def test_short_source_and_empty_source(self):
         self.assert_lossless('## 一、簡短一章\n內容。\n'.encode())
-        self.assert_lossless(b'')
+        with self.assertRaises(ValueError):
+            mod.render(b'')
 
     def test_changed_source_produces_different_sha(self):
         a = self.assert_lossless('## 一、正文\n不同版本A\n'.encode())
