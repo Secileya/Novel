@@ -28,5 +28,7 @@ jobs:
         run: python3 tools/google_drive_mirror/test_drive_source_index.py
       - name: Family source index change-delta tests
         run: python3 tools/google_drive_mirror/test_family_source_index.py
+      - name: Family Gemini reading volumes are exact and bounded
+        run: python3 tools/google_drive_mirror/test_family_reading_volumes.py
       - name: Multi-source isolation and per-file commit validation
         run: node tools/google_drive_mirror/test_multi_source_index.js
