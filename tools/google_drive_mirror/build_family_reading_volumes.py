@@ -105,6 +105,8 @@ def chapter_at(headings, byte_offset):
 
 
 def render(source_bytes):
+    if not source_bytes:
+        raise ValueError('Empty master is not a valid authoritative source')
     original = source_bytes.decode('utf-8')
     pieces = cut_source(original)
     whole_sha = git_blob_sha(source_bytes)
