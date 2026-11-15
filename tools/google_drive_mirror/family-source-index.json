@@ -3,18 +3,108 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/家庭總檔/",
-  "sourceCommit": "7af2dccfb43541a31a2c88ce05ebeebadfaf4a00",
-  "sourceTreeSha": "733cf0c000a3f1223dd12fe03277dbabe308fc5e",
-  "previousSourceCommit": "216d742910311fda48a7a7c89c9bbe9dfb1bddcc",
+  "sourceCommit": "2decab4572a4dd3b1ceb850d654d73f32f0e7d9f",
+  "sourceTreeSha": "a5d8108611cdff68751e76e645c46f96bc5dbbef",
+  "previousSourceCommit": "7af2dccfb43541a31a2c88ce05ebeebadfaf4a00",
   "changedFiles": [
     {
-      "path": "小說/家庭總檔/00_寫作參考_論外尺度用詞與芙蘭妮雅事件視界敘事句例.md",
-      "sha": "d05b3355963be1edc927102554954c1e481fc8c1",
+      "path": "小說/家庭總檔/01_家庭完整角色設定總檔.md",
+      "sha": "6b4da2b679de542934baefbf6e3d8093d2e429f6",
       "change": "modified"
     },
     {
-      "path": "小說/家庭總檔/00_請先讀_正式主檔與歷史五冊使用說明.md",
-      "sha": "69151c23cb5147d81488404da1b65ff259742079",
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/00_最新版閱讀導航.md",
+      "sha": "82faf4e8bd521f877f8548d34ac4534c2c2d7d28",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_001.md",
+      "sha": "b4913126c441b15c0f12a86aa57fb1d6c220e900",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_002.md",
+      "sha": "4c9d6584dad271dcd022fe1d92b095b13c0ae7f8",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_003.md",
+      "sha": "401e6487e4868467aefb0e3c02366469aabda340",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_004.md",
+      "sha": "8304911bdce37b5640536ef40108e555f6d61a6a",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_005.md",
+      "sha": "328aabd9a9e0fef61980357d76f7ec65137ee046",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_006.md",
+      "sha": "19de5e08fbe8b69171ce6efb425c381c83f99f8b",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_007.md",
+      "sha": "ab8b411af7b841e84ff804ce5c1363d97d598fd8",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_008.md",
+      "sha": "736509add90071db0229e8de105f17558ca4d6ed",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_009.md",
+      "sha": "4f9309e12797c36690b330d1f8591e2234175c43",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_010.md",
+      "sha": "1b49a344dbe001beca30448b796afd866e6a3a8e",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_011.md",
+      "sha": "9a74a630fd7fc7c8d79bd59210d592429f9d2896",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_012.md",
+      "sha": "71f7ada74a6514b335f28f115efa6ee179b4e2c0",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_013.md",
+      "sha": "06607a1f9dfb6c8a682b6e291b067e0943ba28a2",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_014.md",
+      "sha": "bca7f1f8f900c1d51aded1271b64289ad6ca4d9f",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_015.md",
+      "sha": "8bafeca0ab18aebead248fafc28f7c103b09d104",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_016.md",
+      "sha": "d647da9421bc1e1d9fec8e38fe21a5490ed00016",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_017.md",
+      "sha": "efa6940fc2be279c359b252e00a230fea2053b0b",
+      "change": "modified"
+    },
+    {
+      "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_018.md",
+      "sha": "b0d93e572f08b5eee8c645ac5b347ee084f44e05",
       "change": "modified"
     }
   ],
@@ -42,8 +132,8 @@
     },
     {
       "path": "小說/家庭總檔/01_家庭完整角色設定總檔.md",
-      "sha": "ddf64666a58b3bf79af6263ff61e78828e21fa9f",
-      "size": 996628
+      "sha": "6b4da2b679de542934baefbf6e3d8093d2e429f6",
+      "size": 997791
     },
     {
       "path": "小說/家庭總檔/02_圖像參考/00_圖像參考索引.md",
@@ -862,97 +952,97 @@
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/00_最新版閱讀導航.md",
-      "sha": "91c8ee16e72f3178847f57c4009cf15974da2aa3",
+      "sha": "82faf4e8bd521f877f8548d34ac4534c2c2d7d28",
       "size": 4706
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_001.md",
-      "sha": "fda22b2bcca1106ca7a173af43bce3766ac3bbce",
+      "sha": "b4913126c441b15c0f12a86aa57fb1d6c220e900",
       "size": 55960
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_002.md",
-      "sha": "57e25f03321e29a6fb2a7770f20f80a1fb539ee5",
+      "sha": "4c9d6584dad271dcd022fe1d92b095b13c0ae7f8",
       "size": 55629
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_003.md",
-      "sha": "7df4c98bcef58bdfcf24abd32f4895083f2c3452",
+      "sha": "401e6487e4868467aefb0e3c02366469aabda340",
       "size": 62167
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_004.md",
-      "sha": "7e8ab8dd5c94f79b391ca18930a64c237b2c076c",
+      "sha": "8304911bdce37b5640536ef40108e555f6d61a6a",
       "size": 51279
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_005.md",
-      "sha": "57d754886aa58fb8a6b831706488479295c92849",
+      "sha": "328aabd9a9e0fef61980357d76f7ec65137ee046",
       "size": 56811
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_006.md",
-      "sha": "9654de4edaa96df3db81646334d60396247e92bf",
+      "sha": "19de5e08fbe8b69171ce6efb425c381c83f99f8b",
       "size": 56435
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_007.md",
-      "sha": "335ed4fefed1508b55393f4a9b614b071b7d7adc",
-      "size": 44106
+      "sha": "ab8b411af7b841e84ff804ce5c1363d97d598fd8",
+      "size": 45269
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_008.md",
-      "sha": "c88031559bdef5d525418b8cb1541ca46729b5d4",
+      "sha": "736509add90071db0229e8de105f17558ca4d6ed",
       "size": 64881
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_009.md",
-      "sha": "614435aa35a06ac9962592a6aa94e2c05613a964",
+      "sha": "4f9309e12797c36690b330d1f8591e2234175c43",
       "size": 65351
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_010.md",
-      "sha": "9f8ca05c9ef1f816ebd1bca389a12c330e6a2aa3",
+      "sha": "1b49a344dbe001beca30448b796afd866e6a3a8e",
       "size": 56802
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_011.md",
-      "sha": "9d4c1c2bda1b020575f3d1142426f83dbf672cfb",
+      "sha": "9a74a630fd7fc7c8d79bd59210d592429f9d2896",
       "size": 57222
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_012.md",
-      "sha": "b0787619a7d4b7f945331826fd0969979fa07461",
+      "sha": "71f7ada74a6514b335f28f115efa6ee179b4e2c0",
       "size": 58552
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_013.md",
-      "sha": "d852fbab23a4a5c464eeb2a277a45a6a92b59198",
+      "sha": "06607a1f9dfb6c8a682b6e291b067e0943ba28a2",
       "size": 61152
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_014.md",
-      "sha": "dc4881f0c69b6aed4cece2f5c0e9896070594d0b",
+      "sha": "bca7f1f8f900c1d51aded1271b64289ad6ca4d9f",
       "size": 57114
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_015.md",
-      "sha": "26815a2aecbd060fcae7d3e992b0e8f95ff1ddaf",
+      "sha": "8bafeca0ab18aebead248fafc28f7c103b09d104",
       "size": 38337
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_016.md",
-      "sha": "52a501ed9a426f0dac316fff00880bcd72019c59",
+      "sha": "d647da9421bc1e1d9fec8e38fe21a5490ed00016",
       "size": 49263
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_017.md",
-      "sha": "609689f006bb1fb37eaec6652d26a285501e87f3",
+      "sha": "efa6940fc2be279c359b252e00a230fea2053b0b",
       "size": 55695
     },
     {
       "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_018.md",
-      "sha": "a5fc976699e72f6f43cc5e54e94b44514379ef97",
+      "sha": "b0d93e572f08b5eee8c645ac5b347ee084f44e05",
       "size": 64542
     },
     {
