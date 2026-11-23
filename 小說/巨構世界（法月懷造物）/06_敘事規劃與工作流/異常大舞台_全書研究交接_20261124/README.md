@@ -4,6 +4,8 @@
 
 ## 開始使用
 
+**Google Drive 原生可篩選表格**：[696 條研究索引 v0.15（Stingray 雲端硬碟）](https://docs.google.com/spreadsheets/d/1NNgYUN5GW7c3wDBo6yAU3rduTCOZmY7vCikhHPO1AF8/edit)；已放入同名研究交接資料夾。這是 TSV 的雲端檢索副本，含 696 筆與正式來源網址，非取代正式 Google Docs 素材正文。
+
 | 檔案 | 用途 | 操作 |
 | --- | --- | --- |
 | [素材檢索離線 HTML](./素材檢索_離線版.html) | 696 條的關鍵字、Q/J、卷數、研究軸 A–F、T 技法、批次、情境標籤等互動篩選 | 在 GitHub 下載 HTML 原始檔，使用瀏覽器開啟；GitHub 的程式碼預覽本身不是互動頁 |
