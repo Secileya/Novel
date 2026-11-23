@@ -2,6 +2,14 @@
 
 > **OPEN_CREATIVE_CANDIDATE / NON-CANON / PREWRITE HOLD**。本目錄只做外部小說寫作方法研究與索引，不更新《巨構世界》正式設定；目前正式 Canon 0 章，任何候選正文亦不因 GitHub main 存在而升格。
 
+## 新增：70 卷完整研究文庫（2026-11-24 實際同步）
+
+**[70 卷／1030 章逐卷研究與全書分析總導航](./70卷完整研究文庫/README.md)**
+
+包含 70 份逐卷研究、14 份五卷整合、7 份十卷總報告、6 份全書／技法文件、70卷與1030章分卷結構索引；正式 Q/J v0.15 研究總庫亦有九段可還原備份。[詳見讀回驗收](./70卷完整研究文庫/完整鏡像_驗收記錄_20261124.md)。
+
+GitHub 保存的是研究與章節 metadata，**不是第三方原著的70卷 TXT 全文**；分析均為 OPEN_CREATIVE_CANDIDATE／NON-CANON，不自動升《巨構世界》Canon。
+
 ## 開始使用
 
 **Google Drive 原生可篩選表格**：[696 條研究索引 v0.15（Stingray 雲端硬碟）](https://docs.google.com/spreadsheets/d/1NNgYUN5GW7c3wDBo6yAU3rduTCOZmY7vCikhHPO1AF8/edit)；已放入同名研究交接資料夾。這是 TSV 的雲端檢索副本，含 696 筆與正式來源網址，非取代正式 Google Docs 素材正文。
