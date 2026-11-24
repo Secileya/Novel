@@ -3,10 +3,16 @@
   "repository": "Secileya/Novel",
   "branch": "main",
   "sourcePrefix": "小說/巨構世界（法月懷造物）/",
-  "sourceCommit": "ab9fed15a65781cf27e3c956471e8aec10ae1617",
-  "sourceTreeSha": "0c6f0dcedb73c2fccf43b84451d84c18ad84b6a7",
-  "previousSourceCommit": "c79abe8dcabe70aa4799515030662ea049f543d8",
-  "changedFiles": [],
+  "sourceCommit": "1432815fa14c5027e2b731bb16ff522a3668d207",
+  "sourceTreeSha": "ce11f21fcb01ccd1ef80e7c92ff85bcfe457ea20",
+  "previousSourceCommit": "ab9fed15a65781cf27e3c956471e8aec10ae1617",
+  "changedFiles": [
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/正式T01至42與GPT五層_語義對照及限制_非正史.md",
+      "sha": "2fd6e481855ec44489e2bf285ad1af614ca3ea51",
+      "change": "added"
+    }
+  ],
   "removedFiles": [],
   "files": [
     {
@@ -2613,6 +2619,11 @@
       "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
       "sha": "4b51d2d6ed5c1cbf82065162ed50dc31c86fbece",
       "size": 7589
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/正式T01至42與GPT五層_語義對照及限制_非正史.md",
+      "sha": "2fd6e481855ec44489e2bf285ad1af614ca3ea51",
+      "size": 10086
     },
     {
       "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第01輪_VOL001至005_CH0001-0066_跨卷獨立研究_非正史.md",
