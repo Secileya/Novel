@@ -1,0 +1,55 @@
+name: Stingray verified incremental archive
+on:
+  push:
+    branches: [repair/stingray-byte-exact-20261124]
+    paths: [.github/workflows/stingray-final-delta.yml]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify and package changed blobs
+        run: |
+          python - <<'PY'
+          import subprocess,hashlib,json,zipfile
+          from pathlib import Path
+          pairs=[('f02ec2058d42a198f3a00283184fada7a37bdc1b','14a38e10bb7aa2f6b63566d9d8169c12f4010ede'),('b1ee6d2879154d70ea229ebdae2e3cc5bd67ef05','c8af483edbb79fcb927111d1ad0017638fe27edb')]
+          def tree(ref):
+              d={}
+              for row in subprocess.check_output(['git','ls-tree','-r','-l','-z',ref]).split(b'\0'):
+                  if not row:continue
+                  h,p=row.split(b'\t',1);mode,kind,sha,size=h.split()
+                  if kind==b'blob':d[p.decode()]=(sha.decode(),int(size))
+              return d
+          out=Path('verified_delta');out.mkdir()
+          for base,head in pairs:
+              old,new=tree(base),tree(head);entries=[]
+              dest=out/('DELTA-'+base[:7]+'-'+head[:7]+'.zip')
+              with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED) as z:
+                  for p in sorted(set(old)|set(new)):
+                      a,b=old.get(p),new.get(p)
+                      if a==b:continue
+                      e=dict(path=p,status='added' if a is None else 'removed' if b is None else 'modified',old_sha=a[0] if a else None,new_sha=b[0] if b else None)
+                      if b:
+                          data=subprocess.check_output(['git','cat-file','blob',b[0]])
+                          assert len(data)==b[1] and hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==b[0]
+                          z.writestr('source/'+p,data);e.update(bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+                      entries.append(e)
+                  z.writestr('DELTA_MANIFEST.json',json.dumps(dict(base=base,head=head,entries=entries),ensure_ascii=False,indent=2))
+              with zipfile.ZipFile(dest) as z:
+                  assert z.testzip() is None
+                  for e in entries:
+                      if e['new_sha']:assert hashlib.sha256(z.read('source/'+e['path'])).hexdigest()==e['sha256']
+              print('VERIFIED',dest.name,len(entries),json.dumps(entries,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-deltas
+          path: verified_delta/*.zip
+          retention-days: 3
