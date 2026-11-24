@@ -19,7 +19,7 @@ jobs:
           python - <<'PY'
           import subprocess,hashlib,json,zipfile
           from pathlib import Path
-          pairs=[('f02ec2058d42a198f3a00283184fada7a37bdc1b','14a38e10bb7aa2f6b63566d9d8169c12f4010ede'),('b1ee6d2879154d70ea229ebdae2e3cc5bd67ef05','c8af483edbb79fcb927111d1ad0017638fe27edb')]
+          pairs=[('c8af483edbb79fcb927111d1ad0017638fe27edb','04474db91ce20f6eba68ee146c52528828569e69')]
           def tree(ref):
               d={}
               for row in subprocess.check_output(['git','ls-tree','-r','-l','-z',ref]).split(b'\0'):
