@@ -148,7 +148,7 @@ function syncQuick() {
       }
       attempted++;
       try {
-        const bytes=fetchPinnedBytes_(entry.path,entry.sourceCommit||index.sourceCommit);
+        const bytes=fetchPinnedBytes_(entry.path,entry.sourceCommit||index.sourceCommit,entry.sha);
         if (gitBlobSha_(bytes)!==entry.sha) throw Error('Fast-lane Git blob SHA mismatch: '+p);
         const raw=Utilities.newBlob(bytes).getDataAsString('UTF-8');
         const name=p.split('/').pop(), relative=p.slice(0,-name.length).replace(/\/$/,'');
@@ -410,7 +410,7 @@ function syncCore_() {
       if (updated + failed >= cfg.maxFilesPerRun || Date.now() - started > cfg.maxTimeMs) break;
       const rel = sourceMirrorKey_(entry.path);
       try {
-        const contentBytes = fetchPinnedBytes_(entry.path, entry.sourceCommit);
+        const contentBytes = fetchPinnedBytes_(entry.path, entry.sourceCommit,entry.sha);
         const observedSha = gitBlobSha_(contentBytes);
         if (observedSha !== entry.sha) throw Error('Blob SHA mismatch; expected '+entry.sha+' got '+observedSha);
         const raw = Utilities.newBlob(contentBytes).getDataAsString('UTF-8');
@@ -521,12 +521,24 @@ function getJson_(url) {
   if (res.getResponseCode() !== 200) throw Error('GitHub public index HTTP '+res.getResponseCode()+' '+res.getContentText().slice(0,200));
   return JSON.parse(res.getContentText('UTF-8'));
 }
-function fetchPinnedBytes_(path,commit) {
+function fetchPinnedBytes_(path,commit,expectedSha) {
   const pieces = path.split('/').map(encodeURIComponent).join('/');
   const url = 'https://raw.githubusercontent.com/'+MIRROR_CONFIG.owner+'/'+MIRROR_CONFIG.repository+'/'+commit+'/'+pieces;
   const res = UrlFetchApp.fetch(url,{muteHttpExceptions:true,headers:{'User-Agent':'StingrayNovelDriveMirror/1.0'}});
   if (res.getResponseCode() !== 200) throw Error('GitHub raw HTTP '+res.getResponseCode());
-  return res.getContent();
+  const bytes = Array.from(res.getContent());
+  if (!expectedSha || gitBlobSha_(bytes)===expectedSha) return bytes;
+  // Some download paths drop a leading UTF-8 BOM. Restore only if the
+  // entire reconstructed Git blob matches the authoritative expected SHA.
+  const withBom = [-17,-69,-65].concat(bytes);
+  if (gitBlobSha_(withBom)===expectedSha) return withBom;
+  // For any other mismatch, use the immutable Git blob API, preserving bytes.
+  const blobUrl='https://api.github.com/repos/'+MIRROR_CONFIG.owner+'/'+MIRROR_CONFIG.repository+'/git/blobs/'+expectedSha;
+  const blob=getJson_(blobUrl);
+  if (blob.sha!==expectedSha || blob.encoding!=='base64') throw Error('Unexpected Git blob response '+expectedSha);
+  const recovered=Array.from(Utilities.base64Decode(blob.content.replace(/\s/g,'')));
+  if (gitBlobSha_(recovered)!==expectedSha) throw Error('Git blob fallback SHA mismatch '+expectedSha);
+  return recovered;
 }
 function gitBlobSha_(bytes) {
   const hdr = Utilities.newBlob('blob '+bytes.length+'\0').getBytes();
