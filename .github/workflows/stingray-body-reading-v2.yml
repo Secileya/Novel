@@ -1,0 +1,97 @@
+name: Stingray version-separated reading body v2
+on:
+  push:
+    branches: [repair/stingray-byte-exact-20261124]
+    paths: [.github/workflows/stingray-body-reading-v2.yml]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: b7450c6850e2ef3e3cc9c2ffcee8a62a86fa3f02
+          persist-credentials: false
+      - name: Generate byte-verified version-separated volumes
+        run: |
+          python - <<'PY'
+          import subprocess,hashlib,json,re,zipfile
+          from pathlib import Path
+          ref='b7450c6850e2ef3e3cc9c2ffcee8a62a86fa3f02'
+          files={}
+          for row in subprocess.check_output(['git','ls-tree','-r','-l','-z',ref]).split(b'\0'):
+              if not row:continue
+              h,p=row.split(b'\t',1);mode,kind,sha,size=h.split()
+              if kind==b'blob':files[p.decode()]=(sha.decode(),int(size))
+          def get(p):
+              sha,n=files[p];b=subprocess.check_output(['git','cat-file','blob',sha])
+              assert len(b)==n and hashlib.sha1(b'blob '+str(n).encode()+b'\0'+b).hexdigest()==sha,p
+              return b
+          def numbered(prefix,pattern,expected):
+              a=sorted((int(re.match(pattern,p[len(prefix):]).group(1)),p) for p in files if p.startswith(prefix) and re.fullmatch(pattern,p[len(prefix):]))
+              assert [i for i,p in a]==list(expected),(prefix,a)
+              return [p for i,p in a]
+          shop='小說/末世開店玩家線/01_章節/'
+          equip='小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/01_章節/'
+          giant='小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/'
+          grave='小說/Grave-Digger（地下戰爭同人世界線）/待定正文/01_目前主線候選/'
+          br='小說/Backrooms：無盡層級（沈耀重寫版）/'
+          rie='小說/理惠/正文/'
+          shop_all=numbered(shop,r'(\d{3})_[^/]+\.md',range(1,120))
+          giant_all=sorted(p for p in files if p.startswith(giant) and re.fullmatch(r'\d{2}_[^/]+\.md',p[len(giant):]))
+          assert [int(p[len(giant):len(giant)+2]) for p in giant_all][:14]==list(range(1,15))
+          rie_index=json.loads(get(rie+'事件閱讀順序.json').decode('utf-8-sig'))
+          assert len(rie_index)==50
+          rie_paths=[rie+x['path'] for x in rie_index]
+          assert len(set(rie_paths))==50 and all(p in files for p in rie_paths)
+          groups=[
+          ('01_晨曦_CH001-118_正式原文_待回修',shop_all[:118],'現有正式正文，CH099–118尚待來源密度修復；舊PASS不等於新MIN3通過；不新增CH120。'),
+          ('02_晨曦_CH119_待重審',shop_all[118:],'現有第119章；最新交接要求前文修復完成前不可信賴，不作續寫基準。'),
+          ('03_賣掉裝備_CH001-004_正式原文',numbered(equip,r'(\d{3})_[^/]+\.md',range(1,5)),'正式正文1至4章，第5章尚未寫作。'),
+          ('04_巨構_CH001-014_歷史順讀候選',giant_all[:14],'11/11至11/12已套補丁的14章順讀快照；後續15至19及11/23新第1章另有候選，非當前唯一新版；正式Canon零章、PREWRITE HOLD。'),
+          ('05_Grave-Digger_CH01-05_主線候選',numbered(grave,r'(\d{2})_[^/]+\.md',range(1,6)),'5份目前主線候選，非正式Canon；替代版及獨立試寫不混入。'),
+          ('06_Backrooms_CH001-040_歷史正文',numbered(br+'01_章節/',r'第(\d{3})章_[^/]+\.md',range(1,41)),'2026-10-30全面重寫後，舊40章不再是新版Canon。'),
+          ('07_理惠_50事件_依正式事件索引',rie_paths,'以事件閱讀順序.json為唯一排序來源；不依檔名重排、不重複插入回補或備選。原文保留 Markdown 配圖路徑，純文字閱讀不保證圖片能顯示。')]
+          out=Path('reading_body_v2');out.mkdir()
+          rows=[]
+          with zipfile.ZipFile(out/'BODY_V2.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for label,paths,note in groups:
+                  volumes=[];parts=[];length=0;entries=[]
+                  for i,p in enumerate(paths,1):
+                      b=get(p);head=('\n\n===== SOURCE '+str(i)+' | '+p+' | Git SHA '+files[p][0]+' =====\n').encode()
+                      if parts and length+len(head)+len(b)>180000:
+                          volumes.append(parts);parts=[];length=0
+                      parts.append((i,p,head,b));length+=len(head)+len(b)
+                  if parts:volumes.append(parts)
+                  for vi,vol in enumerate(volumes,1):
+                      name=f'{label}/VOL_{vi:02d}.txt'
+                      data=bytearray((label+'\n'+note+'\n來源commit: '+ref+'\n').encode())
+                      for i,p,h,b in vol:
+                          data.extend(h);offset=len(data);data.extend(b)
+                          entries.append(dict(seq=i,path=p,volume=name,offset=offset,bytes=len(b),git_sha=files[p][0],sha256=hashlib.sha256(b).hexdigest()))
+                          assert bytes(data[offset:offset+len(b)])==b
+                      z.writestr(name,data)
+                  z.writestr(label+'/00_原文索引.json',json.dumps(dict(commit=ref,status=note,entries=entries),ensure_ascii=False,indent=2).encode())
+                  rows.append(dict(group=label,files=len(paths),volumes=len(volumes),status=note))
+              notes='版本分流，非Canon裁決。巨構新候選、Backrooms新版各版本及Grave-Digger獨立試寫留原庫，不拼成虛構順序。所有正文保留原始byte，卷內來源標記不是小說正文。\n'
+              z.writestr('00_閱讀總入口.txt',(notes+'\n'.join(f"{x['group']} | {x['files']}份 | {x['volumes']}卷 | {x['status']}" for x in rows)).encode())
+              z.writestr('00_合冊清冊.json',json.dumps(dict(commit=ref,groups=rows),ensure_ascii=False,indent=2).encode())
+              for group in groups:
+                  pass
+          with zipfile.ZipFile(out/'BODY_V2.zip') as z:
+              assert z.testzip() is None
+              for n in z.namelist():
+                  if n.endswith('/00_原文索引.json'):
+                      for e in json.loads(z.read(n))['entries']:
+                          b=z.read(e['volume'])[e['offset']:e['offset']+e['bytes']]
+                          assert hashlib.sha256(b).hexdigest()==e['sha256'] and b==get(e['path'])
+          print('BODY_RESULT',json.dumps(rows,ensure_ascii=False))
+          
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BODY_V2
+          path: reading_body_v2/BODY_V2.zip
+          retention-days: 3
