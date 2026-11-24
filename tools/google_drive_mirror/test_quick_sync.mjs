@@ -112,7 +112,7 @@ function setup({index, state, props={}, failPath=null}) {
   assert.equal(result.deferredLarge,1);
   assert.equal(result.pending,1);
   assert.ok(test.enabled.some(x=>x.fn==='syncDrain'&&x.minutes===5));
-  assert.deepEqual(test.state.quickLaneDeferredLargePaths,['huge.md']);
+  assert.deepEqual(Array.from(test.state.quickLaneDeferredLargePaths),['huge.md']);
   assert.equal(test.writes.length,0,'no over-limit fast download');
   state.files['huge.md']={blobSha:huge.sha,status:'CURRENT',driveId:'full-mirror-id'};
   result=test.run();
