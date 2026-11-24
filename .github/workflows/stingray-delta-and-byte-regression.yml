@@ -54,8 +54,8 @@ jobs:
           python - <<'PY'
           import subprocess, hashlib, json, zipfile
           from pathlib import Path
-          base='14a38e10bb7aa2f6b63566d9d8169c12f4010ede'
-          head='b84d99a3eec18e28383b9d274b0537efd778a618'
+          base='b84d99a3eec18e28383b9d274b0537efd778a618'
+          head='ac42f26136771f315bfc8fc225cc8a5045334929'
           def tree(ref):
               rows=subprocess.check_output(['git','ls-tree','-r','-l','-z',ref]).split(b'\0')
               result={}
@@ -88,6 +88,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: Novel-delta-b84d99a
+          name: Novel-delta-ac42f26
           path: delta/Novel-delta.zip
           retention-days: 3
