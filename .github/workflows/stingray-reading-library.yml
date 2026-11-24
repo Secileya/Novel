@@ -1,0 +1,176 @@
+name: Stingray full text reading library
+on:
+  push:
+    branches:
+      - backup/stingray-snapshot-20261124
+    paths:
+      - .github/workflows/stingray-reading-library.yml
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 14a38e10bb7aa2f6b63566d9d8169c12f4010ede
+          persist-credentials: false
+      - name: Build and reconstruct-verify full text volumes
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, subprocess, hashlib, json, re, shutil
+          from pathlib import Path
+          from collections import defaultdict
+          root=Path(os.environ['RUNNER_TEMP'])/'reading-library'
+          root.mkdir()
+          commit=subprocess.check_output(['git','rev-parse','HEAD']).decode().strip()
+          CAP=240000
+          text_ext={'.md','.txt','.json','.jsonl','.csv','.tsv','.html','.svg','.toml','.yml','.yaml','.gs','.py','.js','.mjs','.ps1','.sha256','.gitattributes'}
+          binary=[]; sources=[]; groups=defaultdict(list)
+          for item in subprocess.check_output(['git','ls-tree','-r','-l','-z','HEAD']).split(b'\0'):
+              if not item: continue
+              head,path=item.split(b'\t',1)
+              mode,typ,sha,size=head.split()
+              if typ!=b'blob': raise RuntimeError(item)
+              path=path.decode('utf-8'); sha=sha.decode(); size=int(size)
+              parts=path.split('/')
+              project=parts[1] if parts[0]=='小說' and len(parts)>2 else '00_倉庫與共通索引'
+              category=parts[2] if parts[0]=='小說' and len(parts)>3 else '00_專案根目錄'
+              entry={'path':path,'sha':sha,'bytes':size,'project':project,'category':category,'pieces':[]}
+              if Path(path).suffix.lower() not in text_ext and Path(path).name not in text_ext:
+                  binary.append(entry); continue
+              raw=subprocess.check_output(['git','cat-file','blob',sha])
+              assert len(raw)==size and hashlib.sha1(b'blob '+str(size).encode()+b'\0'+raw).hexdigest()==sha,path
+              try: raw.decode('utf-8')
+              except UnicodeDecodeError:
+                  binary.append(entry); continue
+              groups[(project,category)].append((entry,raw))
+              sources.append(entry)
+          volumes=[]
+          def safe(name):
+              return re.sub(r'[\\/:*?"<>|]', '_',name)
+          def chunks(raw):
+              if not raw: yield 0,0,b''; return
+              start=0
+              while start<len(raw):
+                  end=min(len(raw),start+CAP-3000)
+                  if end<len(raw):
+                      nl=raw.rfind(b'\n',start+int(CAP*0.65),end)
+                      if nl>=0: end=nl+1
+                      else:
+                          while (raw[end]&0xc0)==0x80: end-=1
+                  yield start,end,raw[start:end]
+                  start=end
+          for (project,category),items in sorted(groups.items()):
+              directory=root/safe(project)/safe(category)
+              directory.mkdir(parents=True,exist_ok=True)
+              content=bytearray(); records=[]; number=0
+              def flush():
+                  global content,records,number
+                  if not records: return
+                  number+=1
+                  name=directory/f'VOL_{number:04d}.txt'
+                  name.write_bytes(content)
+                  rel=name.relative_to(root).as_posix()
+                  for e,start,end,offset in records:
+                      e['pieces'].append({'volume':rel,'source_start':start,'source_end':end,'volume_offset':offset})
+                  volumes.append({'path':rel,'bytes':len(content),'sha256':hashlib.sha256(content).hexdigest(),'project':project,'category':category})
+                  content=bytearray(); records=[]
+              for entry,raw in items:
+                  for start,end,piece in chunks(raw):
+                      header=(f'\n========== 原文開始 | {entry["path"]} | Git SHA {entry["sha"]} | bytes {start}:{end}/{entry["bytes"]} ==========\n').encode()
+                      footer=b'\n========== END SOURCE PIECE ==========\n'
+                      if records and len(content)+len(header)+len(piece)+len(footer)>CAP: flush()
+                      offset=len(content)+len(header)
+                      content.extend(header); content.extend(piece); content.extend(footer)
+                      records.append((entry,start,end,offset))
+              flush()
+          # Reconstruct every original source from exact byte offsets and validate.
+          for e in sources:
+              reconstructed=b''.join((root/p['volume']).read_bytes()[p['volume_offset']:p['volume_offset']+p['source_end']-p['source_start']] for p in e['pieces'])
+              assert len(reconstructed)==e['bytes'] and hashlib.sha1(b'blob '+str(e['bytes']).encode()+b'\0'+reconstructed).hexdigest()==e['sha'],e['path']
+          index=root/'00_全域索引';index.mkdir(exist_ok=True)
+          manifest={'commit':commit,'source_files':len(sources)+len(binary),'text_files':len(sources),'nontext_files':len(binary),'volume_count':len(volumes),'text_bytes':sum(e['bytes'] for e in sources),'sources':sources,'nontext':binary,'volumes':volumes}
+          (index/'MANIFEST.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+          (index/'00_閱讀入口.txt').write_text('GitHub Secileya/Novel @ '+commit+'\n原文閱讀衍生資料庫；不是 Canon 判定。請保留來源、候選/作廢/正式版本差異。每卷最多約 240KB，來源分段按 byte range，MANIFEST.json 可重組校驗。\n原文文字檔 '+str(len(sources))+'；非文字檔 '+str(len(binary))+'；全文卷 '+str(len(volumes))+'。\n非文字檔保留在原始 ZIP 備份。\n\n'+'\n'.join(f'{p}: {sum(e["project"]==p for e in sources)} 文字原件，{sum(v["project"]==p for v in volumes)} 卷' for p in sorted({e['project'] for e in sources})),encoding='utf-8')
+          for p in sorted({e['project'] for e in sources}):
+              out=root/safe(p)/'00_原件與分卷索引.txt'
+              lines=['來源快照：'+commit,'原件路徑與分卷位置；不代表 Canon 判定。']
+              for e in sources:
+                  if e['project']==p: lines.append(e['path']+' | '+e['sha']+' | '+', '.join(q['volume'] for q in e['pieces']))
+              out.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+          (index/'非文字檔索引.txt').write_text('\n'.join(e['path']+' | '+e['sha']+' | '+str(e['bytes']) for e in binary),encoding='utf-8')
+          # Pack direct TXT files into artifact groups of <=35MiB, retaining paths.
+          packs=Path(os.environ['RUNNER_TEMP'])/'reading-packs';packs.mkdir()
+          num=1; used=0
+          for file in sorted(root.rglob('*')):
+              if not file.is_file(): continue
+              size=file.stat().st_size
+              if used and used+size>35*1024*1024: num+=1;used=0
+              dst=packs/f'PACK_{num:02d}'/file.relative_to(root);dst.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(file,dst);used+=size
+          assert num<=10,num
+          print(json.dumps({k:manifest[k] for k in ['commit','source_files','text_files','nontext_files','volume_count','text_bytes']},ensure_ascii=False), 'PACKS',num)
+          
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_01
+          path: ${{ runner.temp }}/reading-packs/PACK_01/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_02
+          path: ${{ runner.temp }}/reading-packs/PACK_02/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_03
+          path: ${{ runner.temp }}/reading-packs/PACK_03/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_04
+          path: ${{ runner.temp }}/reading-packs/PACK_04/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_05
+          path: ${{ runner.temp }}/reading-packs/PACK_05/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_06
+          path: ${{ runner.temp }}/reading-packs/PACK_06/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_07
+          path: ${{ runner.temp }}/reading-packs/PACK_07/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_08
+          path: ${{ runner.temp }}/reading-packs/PACK_08/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_09
+          path: ${{ runner.temp }}/reading-packs/PACK_09/
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-reading-14a38e1-PACK_10
+          path: ${{ runner.temp }}/reading-packs/PACK_10/
+          retention-days: 3
+          if-no-files-found: ignore
