@@ -8,7 +8,7 @@
 
 包含 70 份逐卷研究、14 份五卷整合、7 份十卷總報告、6 份全書／技法文件、70卷與1030章分卷結構索引；正式 Q/J v0.15 研究總庫亦有九段可還原備份。[詳見讀回驗收](./70卷完整研究文庫/完整鏡像_驗收記錄_20261124.md)。
 
-本次 GitHub 研究文庫新增的是分析與章節 metadata，**沒有再上傳70份原著分卷TXT**；但原來的[完整1030章TXT](https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E5%BC%82%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0%EF%BC%8C%E9%82%AA%E9%97%A8%E4%BD%A0%E5%B0%B1%E6%9D%A5%20-%20%E4%BA%94%E6%9C%88%E6%97%B6%E6%9C%9F.txt)已存在此公開倉庫其他目錄。可使用[本機SHA256無損分卷工具](./70卷完整研究文庫/00_章節分卷結構/依SHA256無損拆分70卷.py)取得可單卷閱讀的檔案；公開散布權利仍須另外確認。分析均為 OPEN_CREATIVE_CANDIDATE／NON-CANON，不自動升《巨構世界》Canon。
+研究文庫原本新增的是分析與章節 metadata；**後續已另行上傳70份原著分卷TXT至[正文分卷目錄](https://github.com/Secileya/Novel/tree/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E4%BE%86%E6%BA%90%E8%88%87%E6%A0%A1%E5%B0%8D/%E5%8E%9F%E8%91%97%E5%88%86%E5%8D%B7_%E7%95%B0%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0_1030%E7%AB%A070%E5%8D%B7)**；但原來的[完整1030章TXT](https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E5%BC%82%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0%EF%BC%8C%E9%82%AA%E9%97%A8%E4%BD%A0%E5%B0%B1%E6%9D%A5%20-%20%E4%BA%94%E6%9C%88%E6%97%B6%E6%9C%9F.txt)已存在此公開倉庫其他目錄。可使用[本機SHA256無損分卷工具](./70卷完整研究文庫/00_章節分卷結構/依SHA256無損拆分70卷.py)取得可單卷閱讀的檔案；公開散布權利仍須另外確認。分析均為 OPEN_CREATIVE_CANDIDATE／NON-CANON，不自動升《巨構世界》Canon。
 
 ## 開始使用
 
@@ -40,6 +40,6 @@
 
 ## 跨 AI 與權限
 
-Gemini 在當前工作流程**只能把已連接的 Google Drive 鏡像作為預設查檔入口**，不得要求它直接去 GitHub 讀取或修改。GitHub 新增文件是否鏡像到 Drive 必須另外實查，不能憑提交成功就假稱同步。70 卷**拆分版**原著正文仍保存在私人 Drive，研究同步沒有再複製公開；但**完整1030章原檔已存在 GitHub 其他目錄**，不能再將「研究同步未上傳」誤說成「整個公開GitHub不存在」。
+Gemini 在當前工作流程**只能把已連接的 Google Drive 鏡像作為預設查檔入口**，不得要求它直接去 GitHub 讀取或修改。GitHub 新增文件是否鏡像到 Drive 必須另外實查，不能憑提交成功就假稱同步。70 卷**拆分版**原著正文已另行複製至[GitHub正文分卷目錄](https://github.com/Secileya/Novel/tree/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E4%BE%86%E6%BA%90%E8%88%87%E6%A0%A1%E5%B0%8D/%E5%8E%9F%E8%91%97%E5%88%86%E5%8D%B7_%E7%95%B0%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0_1030%E7%AB%A070%E5%8D%B7)，同時保留私人 Drive 來源；完整1030章原檔亦保留在 GitHub。Gemini 的預設讀取入口仍為已連接的Google Drive（並未建立自動同步）。
 
 **最新交接結論**：研讀覆蓋 70/70 卷、補錄與增補 14/14 批，v0.15 = Q347 + J349 = 696 條；正式 T01～42，T43～46／C01～04 仍候選。歷史進度表內的 55/70 是早期暫停快照，不是今天的待辦。
