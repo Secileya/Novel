@@ -1,0 +1,91 @@
+name: Stingray delta and byte-exact regression
+on:
+  push:
+    branches: [repair/stingray-byte-exact-20261124]
+    paths: [.github/workflows/stingray-delta-and-byte-regression.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Run mirror regression tests
+        run: |
+          node tools/google_drive_mirror/test_fast_sync.js
+          node tools/google_drive_mirror/test_quick_sync.mjs
+          node tools/google_drive_mirror/test_multi_source_index.js
+          node <<'JS'
+          const assert=require('node:assert/strict'),crypto=require('node:crypto'),vm=require('node:vm'),fs=require('node:fs'),cp=require('node:child_process');
+          const expected='d354d31e2929243834d2f71092759fd4d3b2de23';
+          const bad='1a8a72dfeea95ef735be54d5605db0b4e5b09ef7';
+          const actual=cp.execFileSync('git',['cat-file','blob',expected]);
+          const hash=b=>crypto.createHash('sha1').update(Buffer.concat([Buffer.from('blob '+b.length+'\0'),Buffer.from(b)])).digest('hex');
+          assert.equal(hash(actual),expected);
+          assert.equal(hash(actual.subarray(3)),bad);
+          const signed=b=>Array.from(b,n=>n>127?n-256:n);
+          let raw=actual, fallback=actual, requests=0;
+          const ctx={console,Date,Utilities:{
+            newBlob:v=>({getBytes:()=>signed(Buffer.from(v))}),
+            DigestAlgorithm:{SHA_1:'SHA_1'},
+            computeDigest:(_,v)=>signed(crypto.createHash('sha1').update(Buffer.from(v)).digest()),
+            base64Decode:v=>signed(Buffer.from(v,'base64'))
+          },UrlFetchApp:{fetch:()=>({getResponseCode:()=>200,getContent:()=>signed(raw)})}};
+          vm.runInNewContext(fs.readFileSync('tools/google_drive_mirror/Code.gs','utf8'),ctx);
+          ctx.getJson_=()=>{requests++;return {sha:expected,encoding:'base64',content:fallback.toString('base64')}};
+          assert.deepEqual(Buffer.from(ctx.fetchPinnedBytes_('fixture','commit',expected)),actual);
+          raw=actual.subarray(3);
+          assert.deepEqual(Buffer.from(ctx.fetchPinnedBytes_('fixture','commit',expected)),actual);
+          assert.equal(requests,0);
+          raw=Buffer.from('bad');
+          assert.deepEqual(Buffer.from(ctx.fetchPinnedBytes_('fixture','commit',expected)),actual);
+          assert.equal(requests,1);
+          fallback=Buffer.from('bad');
+          assert.throws(()=>ctx.fetchPinnedBytes_('fixture','commit',expected),/fallback SHA mismatch/);
+          console.log('PASS actual BOM fixture, ordinary path, immutable fallback and corruption rejection');
+          JS
+      - name: Create delta from immutable source snapshots
+        run: |
+          python - <<'PY'
+          import subprocess, hashlib, json, zipfile
+          from pathlib import Path
+          base='14a38e10bb7aa2f6b63566d9d8169c12f4010ede'
+          head='b84d99a3eec18e28383b9d274b0537efd778a618'
+          def tree(ref):
+              rows=subprocess.check_output(['git','ls-tree','-r','-l','-z',ref]).split(b'\0')
+              result={}
+              for row in rows:
+                  if not row: continue
+                  header,path=row.split(b'\t',1); mode,kind,sha,size=header.split()
+                  if kind==b'blob': result[path.decode()]=(sha.decode(),int(size))
+              return result
+          old,new=tree(base),tree(head)
+          out=Path('delta');out.mkdir()
+          items=[]
+          with zipfile.ZipFile(out/'Novel-delta.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for path in sorted(set(old)|set(new)):
+                  a,b=old.get(path),new.get(path)
+                  if a==b:continue
+                  status='added' if a is None else 'removed' if b is None else 'modified'
+                  entry=dict(path=path,status=status,old_sha=a[0] if a else None,new_sha=b[0] if b else None)
+                  if b:
+                      data=subprocess.check_output(['git','cat-file','blob',b[0]])
+                      assert len(data)==b[1]
+                      assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==b[0]
+                      z.writestr('source/'+path,data)
+                      entry.update(bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+                  items.append(entry)
+              manifest=dict(base=base,head=head,entries=items,deleted_sources_preserved_in_base=True)
+              z.writestr('DELTA_MANIFEST.json',json.dumps(manifest,ensure_ascii=False,indent=2))
+          with zipfile.ZipFile(out/'Novel-delta.zip') as z:assert z.testzip() is None
+          print('DELTA',json.dumps(manifest,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-delta-b84d99a
+          path: delta/Novel-delta.zip
+          retention-days: 3
