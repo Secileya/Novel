@@ -1,0 +1,91 @@
+name: Stingray candidate archives and incremental update v3
+on:
+  push:
+    branches: [repair/stingray-byte-exact-20261124]
+    paths: [.github/workflows/stingray-candidate-archive-v3.yml]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify and collect separate candidate versions
+        run: |
+          python - <<'PY'
+          import subprocess,hashlib,json,re,zipfile
+          from pathlib import Path
+          ref='b1ee6d2879154d70ea229ebdae2e3cc5bd67ef05'
+          base='ac42f26136771f315bfc8fc225cc8a5045334929'
+          def tree(ref):
+              d={}
+              for row in subprocess.check_output(['git','ls-tree','-r','-l','-z',ref]).split(b'\0'):
+                  if not row:continue
+                  h,p=row.split(b'\t',1);mode,kind,sha,size=h.split()
+                  if kind==b'blob':d[p.decode()]=(sha.decode(),int(size))
+              return d
+          files=tree(ref)
+          def get(p):
+              sha,n=files[p];b=subprocess.check_output(['git','cat-file','blob',sha])
+              assert len(b)==n and hashlib.sha1(b'blob '+str(n).encode()+b'\0'+b).hexdigest()==sha,p
+              return b
+          gp='小說/巨構世界（法月懷造物）/'
+          bp='小說/Backrooms：無盡層級（沈耀重寫版）/09_新版正文試寫/'
+          dp='小說/Grave-Digger（地下戰爭同人世界線）/待定正文/'
+          groups=[
+          ('01_巨構15至19章各候選',sorted(p for p in files if p.startswith(gp+'待定正文/純正文_Gemini/') and re.match(r'第十[五六七八九]章_',p.split('/')[-1])),'每份保留個別版本。未完稿、重剪、原稿與精修稿皆不互相覆蓋，不是接續01至14章的已批准正文。'),
+          ('02_巨構新版第一章與審閱',sorted(p for p in files if p.startswith(gp) and re.search(r'20261123_(Gemini第01章不賣票|新第01章售票口開頭|第01章R1作者長篇|新第01章R1後首篇)',p.split('/')[-1])),'新版回貼原文與QA、故事設計獨立保存；不是舊第1章的正式替換，也不將QA當正文。'),
+          ('03_Backrooms新版試寫各版本',sorted(p for p in files if p.startswith(bp) and re.fullmatch(r'第\d{3}章_.*\.md',p[len(bp):])),'每章的多版試寫相互獨立；第1章v5為節奏對照，未核定Canon，不把各章最新檔機械拼接。'),
+          ('04_Grave-Digger歷史替代',sorted(p for p in files if p.startswith(dp+'02_歷史替代版本/') and p.endswith('.md')),'歷史替代版本，包括不完整的第五章5B後半；不是主線。'),
+          ('05_Grave-Digger獨立故事與補丁',sorted(p for p in files if p.startswith(dp+'03_獨立試寫/') and p.endswith('.md')),'獨立故事與同篇替代/補丁。31B是局部替換，33B是替代完整稿，均不計成額外已發生事件；順序只是資料索引。')]
+          assert [len(x[1]) for x in groups]==[15,4,14,10,35],[len(x[1]) for x in groups]
+          out=Path('candidate_archive');out.mkdir()
+          summary=[]
+          with zipfile.ZipFile(out/'CANDIDATES.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for name,paths,note in groups:
+                  entries=[]
+                  for i,p in enumerate(paths,1):
+                      b=get(p);fn=p.split('/')[-1]
+                      dest=name+'/'+fn
+                      z.writestr(dest,b)
+                      entries.append(dict(seq=i,filename=fn,path=p,git_sha=files[p][0],bytes=len(b),sha256=hashlib.sha256(b).hexdigest()))
+                  z.writestr(name+'/00_版本與原文索引.json',json.dumps(dict(commit=ref,status=note,entries=entries),ensure_ascii=False,indent=2).encode())
+                  summary.append(dict(group=name,count=len(entries),note=note))
+              z.writestr('00_候選與歷史版本閱讀入口.txt',('來源commit: '+ref+'\n'+ '\n'.join(x['group']+'｜'+str(x['count'])+'份｜'+x['note'] for x in summary)+'\n全部非Canon或歷史替代，不是正式正文續寫。').encode())
+              z.writestr('00_清冊.json',json.dumps(dict(commit=ref,groups=summary),ensure_ascii=False,indent=2).encode())
+          with zipfile.ZipFile(out/'CANDIDATES.zip') as z:
+              assert z.testzip() is None
+              for n in z.namelist():
+                  if n.endswith('/00_版本與原文索引.json'):
+                      for e in json.loads(z.read(n))['entries']:
+                          b=z.read(n.rsplit('/',1)[0]+'/'+e['filename'])
+                          assert b==get(e['path']) and hashlib.sha256(b).hexdigest()==e['sha256']
+          old=tree(base);delta=[]
+          with zipfile.ZipFile(out/'DELTA.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in sorted(set(old)|set(files)):
+                  a,b=old.get(p),files.get(p)
+                  if a==b:continue
+                  e=dict(path=p,status='added' if a is None else 'removed' if b is None else 'modified',old_sha=a[0] if a else None,new_sha=b[0] if b else None)
+                  if b:
+                      data=get(p);z.writestr('source/'+p,data);e.update(bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+                  delta.append(e)
+              z.writestr('DELTA_MANIFEST.json',json.dumps(dict(base=base,head=ref,entries=delta),ensure_ascii=False,indent=2))
+          with zipfile.ZipFile(out/'DELTA.zip') as z:assert z.testzip() is None
+          print('SUMMARY',json.dumps(summary,ensure_ascii=False))
+          print('DELTA',json.dumps(delta,ensure_ascii=False))
+          
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CANDIDATES-b1ee6d2
+          path: candidate_archive/CANDIDATES.zip
+          retention-days: 3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: DELTA-b1ee6d2
+          path: candidate_archive/DELTA.zip
+          retention-days: 3
