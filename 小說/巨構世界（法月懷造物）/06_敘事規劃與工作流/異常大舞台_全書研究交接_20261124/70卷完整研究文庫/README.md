@@ -2,7 +2,7 @@
 
 > **2026-11-24｜GitHub 完整研究鏡像**。這個目錄對應 Drive 的 **70 份逐卷精讀研究台帳、14 份五卷整合、7 份十卷總結、6 份現行跨卷／全書總論輔助文件**，並額外保存 **70 卷／1,030 章索引**與正式 Q/J v0.15 研究總庫的九段文字備份。
 >
-> 本目錄**本身不是原著小說正文分卷**；已核實[完整1030章原著TXT](https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E5%BC%82%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0%EF%BC%8C%E9%82%AA%E9%97%A8%E4%BD%A0%E5%B0%B1%E6%9D%A5%20-%20%E4%BA%94%E6%9C%88%E6%97%B6%E6%9C%9F.txt)早已另存於同一公開 GitHub 倉庫的「小說／方九×莉雅（改寫線）」目錄，大小 9,677,647 bytes。原著70份拆分TXT目前僅在私人 Google Drive，未重複公開上傳。此目錄保存的是 Gemini 撰寫、由 GPT 從 Drive 取回並提交到 GitHub 的研究報告、整理與索引。**研究資料不可直接寫成《巨構世界》Canon。**
+> 本目錄**本身不是原著小說正文分卷**；已核實[完整1030章原著TXT](https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E5%BC%82%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0%EF%BC%8C%E9%82%AA%E9%97%A8%E4%BD%A0%E5%B0%B1%E6%9D%A5%20-%20%E4%BA%94%E6%9C%88%E6%97%B6%E6%9C%9F.txt)早已另存於同一公開 GitHub 倉庫的「小說／方九×莉雅（改寫線）」目錄，大小 9,677,647 bytes。原著70份拆分TXT後續已另外上傳至[GitHub正文分卷目錄](https://github.com/Secileya/Novel/tree/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E4%BE%86%E6%BA%90%E8%88%87%E6%A0%A1%E5%B0%8D/%E5%8E%9F%E8%91%97%E5%88%86%E5%8D%B7_%E7%95%B0%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0_1030%E7%AB%A070%E5%8D%B7)，同時保留私人 Google Drive 原件。此目錄保存的是 Gemini 撰寫、由 GPT 從 Drive 取回並提交到 GitHub 的研究報告、整理與索引。**研究資料不可直接寫成《巨構世界》Canon。**
 
 ## 如何閱讀
 
@@ -186,7 +186,7 @@
 ## QA、來源與版權邊界
 
 1. **本輪的 GitHub 保證**：只對實際從 Drive 取回的研究筆記文本做完整寫入與結構核對；不將報告中的任何評論冒稱 GPT 已重新獨立閱讀全 1030 章。
-2. **逐章索引 ≠ 原著本體**：[完整1030章原著TXT](https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E5%BC%82%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0%EF%BC%8C%E9%82%AA%E9%97%A8%E4%BD%A0%E5%B0%B1%E6%9D%A5%20-%20%E4%BA%94%E6%9C%88%E6%97%B6%E6%9C%9F.txt)已存在於此公開 GitHub 倉庫的其他目錄（9.68MB），**不是本次研究文庫同步新增的檔案**。原著70份TXT分卷仍只在私人 Drive，不在研究文庫內重複公開轉存。作者為五月時期；既有公開原檔也應審視公開散布授權。可使用[SHA256無損分卷工具](00_章節分卷結構/依SHA256無損拆分70卷.py)本機建立分卷，驗證後才決定合規的保存位置。
+2. **逐章索引 ≠ 原著本體**：[完整1030章原著TXT](https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E5%BC%82%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0%EF%BC%8C%E9%82%AA%E9%97%A8%E4%BD%A0%E5%B0%B1%E6%9D%A5%20-%20%E4%BA%94%E6%9C%88%E6%97%B6%E6%9C%9F.txt)已存在於此公開 GitHub 倉庫的其他目錄（9.68MB），**不是本次研究文庫同步新增的檔案**。原著70份TXT分卷已全部在[正文分卷目錄](https://github.com/Secileya/Novel/tree/main/%E5%B0%8F%E8%AA%AA/%E6%96%B9%E4%B9%9D%C3%97%E8%8E%89%E9%9B%85%EF%BC%88%E6%94%B9%E5%AF%AB%E7%B7%9A%EF%BC%89/%E4%BE%86%E6%BA%90%E8%88%87%E6%A0%A1%E5%B0%8D/%E5%8E%9F%E8%91%97%E5%88%86%E5%8D%B7_%E7%95%B0%E5%B8%B8%E5%A4%A7%E8%88%9E%E5%8F%B0_1030%E7%AB%A070%E5%8D%B7)（70/70，總大小9,677,647 bytes），本研究文庫目錄仍只放分析與索引。作者為五月時期；既有公開原檔也應審視公開散布授權。可使用[SHA256無損分卷工具](00_章節分卷結構/依SHA256無損拆分70卷.py)本機建立分卷，驗證後才決定合規的保存位置。
 3. **版本**：Drive 原件是當前可讀真源；此 GitHub 文庫是 2026-11-24 的快照，未建立自動、雙向即時同步。GitHub 檔案在 Google Drive 鏡像是否立即可供 Gemini 讀取，須另行確認；Gemini 的預設入口仍為已連接 Drive。
 4. **創作不可直接移植**：僅從原著抽取可遷移的敘事技術，不將角色方九、莉雅與其故事、專屬台詞、能力或機制換名套入《巨構世界》。正式 Canon **0 章／PREWRITE HOLD** 不變。
 5. [研究來源對照與檔案命名清冊](00_來源與版本清冊.json) 包含 97 份逐卷／跨卷研究的原始 Drive URL 與本 GitHub 儲存路徑，方便重新校驗與版本升級。
