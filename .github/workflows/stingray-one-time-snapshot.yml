@@ -1,0 +1,32 @@
+name: Stingray one-time Novel snapshot
+on:
+  push:
+    branches:
+      - backup/stingray-snapshot-20261124
+    paths:
+      - .github/workflows/stingray-one-time-snapshot.yml
+permissions:
+  contents: read
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: f02ec2058d42a198f3a00283184fada7a37bdc1b
+          persist-credentials: false
+      - name: Archive exact source and inventory
+        run: |
+          mkdir -p "$RUNNER_TEMP/novel-backup"
+          git archive --format=zip -o "$RUNNER_TEMP/novel-backup/Novel-main-f02ec20.zip" HEAD
+          git ls-tree -r -l HEAD > "$RUNNER_TEMP/novel-backup/GIT-TREE.txt"
+          cd "$RUNNER_TEMP/novel-backup"
+          sha256sum Novel-main-f02ec20.zip > SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-complete
+          path: ${{ runner.temp }}/novel-backup/
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: error
