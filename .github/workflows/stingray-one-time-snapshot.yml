@@ -16,17 +16,106 @@ jobs:
         with:
           ref: f02ec2058d42a198f3a00283184fada7a37bdc1b
           persist-credentials: false
-      - name: Archive exact source and inventory
+      - name: Build standalone lossless ZIP volumes and verify every Git blob
+        shell: bash
         run: |
-          mkdir -p "$RUNNER_TEMP/novel-backup"
-          git archive --format=zip -o "$RUNNER_TEMP/novel-backup/Novel-main-f02ec20.zip" HEAD
-          git ls-tree -r -l HEAD > "$RUNNER_TEMP/novel-backup/GIT-TREE.txt"
-          cd "$RUNNER_TEMP/novel-backup"
-          sha256sum Novel-main-f02ec20.zip > SHA256SUMS.txt
+          export PACK_DIR="$RUNNER_TEMP/novel-volumes"
+          mkdir -p "$PACK_DIR"
+          python - <<'PY'
+          import os, subprocess, hashlib, zipfile, json, stat
+          from pathlib import Path
+          root=Path(os.environ['PACK_DIR'])
+          entries=[]
+          for rec in subprocess.check_output(['git','ls-tree','-r','-l','-z','HEAD']).split(b'\0'):
+              if not rec: continue
+              head,path=rec.split(b'\t',1)
+              mode,typ,sha,size=head.split()
+              if typ!=b'blob': raise RuntimeError(rec)
+              entries.append((path.decode('utf-8'),mode.decode(),sha.decode(),int(size)))
+          groups=[]; group=[]; n=0
+          for e in entries:
+              if group and n+e[3]>64*1024*1024:
+                  groups.append(group); group=[]; n=0
+              group.append(e); n+=e[3]
+          if group: groups.append(group)
+          manifest={'commit':subprocess.check_output(['git','rev-parse','HEAD']).decode().strip(),'files':len(entries),'bytes':sum(e[3] for e in entries),'volumes':[]}
+          for i,group in enumerate(groups,1):
+              name=f'Novel-main-f02ec20-VOL_{i:02d}.zip'
+              dest=root/name
+              with zipfile.ZipFile(dest,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=5) as z:
+                  for path,mode,sha,size in group:
+                      data=subprocess.check_output(['git','cat-file','blob',sha])
+                      assert len(data)==size and hashlib.sha1(b'blob '+str(size).encode()+b'\0'+data).hexdigest()==sha,path
+                      info=zipfile.ZipInfo(path)
+                      info.external_attr=int(mode,8)<<16
+                      info.compress_type=zipfile.ZIP_DEFLATED
+                      z.writestr(info,data,compresslevel=5)
+              with zipfile.ZipFile(dest) as z:
+                  assert z.testzip() is None
+              manifest['volumes'].append({'name':name,'files':len(group),'bytes':dest.stat().st_size,'sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'entries':[{'path':p,'mode':m,'git_blob_sha1':s,'bytes':n} for p,m,s,n in group]})
+          assert len(groups)<=8
+          (root/'MANIFEST.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+          print([(v['name'],v['files'],v['bytes']) for v in manifest['volumes']])
+          PY
       - uses: actions/upload-artifact@v4
         with:
-          name: Novel-main-f02ec20-complete
-          path: ${{ runner.temp }}/novel-backup/
+          name: Novel-main-f02ec20-VOL_01
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_01.zip
           compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-VOL_02
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_02.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-VOL_03
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_03.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-VOL_04
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_04.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-VOL_05
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_05.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-VOL_06
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_06.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-VOL_07
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_07.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-VOL_08
+          path: ${{ runner.temp }}/novel-volumes/Novel-main-f02ec20-VOL_08.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Novel-main-f02ec20-MANIFEST
+          path: ${{ runner.temp }}/novel-volumes/MANIFEST.json
           retention-days: 3
           if-no-files-found: error
