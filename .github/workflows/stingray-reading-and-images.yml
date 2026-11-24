@@ -1,0 +1,174 @@
+name: Stingray original reading volumes and images
+on:
+  push:
+    branches:
+      - backup/stingray-snapshot-20261124
+    paths:
+      - .github/workflows/stingray-reading-and-images.yml
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: b47478fbea6fbdd66862c1c9be5b7cc35db51715
+          persist-credentials: false
+      - name: Build and verify source-based volumes and image archives
+        shell: bash
+        run: |
+          export OUT="$RUNNER_TEMP/reading-images"
+          python - <<'PY'
+          import os, re, json, hashlib, subprocess, zipfile, collections
+          from pathlib import Path
+          root=Path(os.environ['OUT'])
+          root.mkdir(parents=True,exist_ok=True)
+          commit=subprocess.check_output(['git','rev-parse','HEAD']).decode().strip()
+          files=[]
+          for r in subprocess.check_output(['git','ls-tree','-r','-l','-z','HEAD']).split(b'\0'):
+              if not r: continue
+              h,p=r.split(b'\t',1); mode,typ,sha,n=h.split()
+              if typ==b'blob': files.append((p.decode(),sha.decode(),int(n)))
+          def raw(e):
+              b=subprocess.check_output(['git','cat-file','blob',e[1]])
+              assert len(b)==e[2] and hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()==e[1]
+              return b
+          def hash256(b):return hashlib.sha256(b).hexdigest()
+          def write(z,name,b):
+              z.writestr(name,b)
+          def txt(s):return s.encode('utf-8')
+          sources=[('BUG','网游：重生就是最大的BUG - 刘巴库.txt',1822),('EQUIPMENT','网游：卖掉装备，我就无敌了 - 盐巴半两.txt',514),('SHOP','末日求生：我有一家商店 - 山rain.txt',None)]
+          report=[]
+          for tag,name,expected in sources:
+              e=next(x for x in files if x[0].endswith('/'+name)); b=raw(e); s=b.decode('utf-8')
+              matches=list(re.finditer(r'(?m)^第[ \t]*([0-9]+)[ \t]*[章節节][^\r\n]*',s))
+              if not matches: raise RuntimeError('No chapter headers '+name)
+              nums=[int(m.group(1)) for m in matches]
+              counts=collections.Counter(nums)
+              missing=sorted(set(range(1,(expected or max(nums))+1))-set(nums))
+              duplicates={k:v for k,v in sorted(counts.items()) if v>1}
+              records=[]; start=0; off=0
+              for i,m in enumerate(matches):
+                  end=matches[i+1].start() if i+1<len(matches) else len(s)
+                  chunk=s[start:end].encode('utf-8'); start=end
+                  records.append((i+1,nums[i],m.group(0),chunk,off,off+len(chunk)));off+=len(chunk)
+              assert b''.join(r[3] for r in records)==b
+              groups=[]; grp=[]; size=0
+              for r in records:
+                  if grp and size+len(r[3])>145000:
+                      groups.append(grp);grp=[];size=0
+                  grp.append(r);size+=len(r[3])
+              if grp:groups.append(grp)
+              details={'source':e[0],'commit':commit,'git_blob_sha1':e[1],'source_bytes':len(b),'source_sha256':hash256(b),'chapter_headers':len(matches),'unique_chapter_numbers':len(counts),'max_chapter_number':max(nums),'expected_chapters_if_known':expected,'unmatched_chapter_numbers':missing,'duplicate_chapter_numbers':duplicates,'first_header':matches[0].group(0),'last_header':matches[-1].group(0),'nonconsecutive_transitions':[(i+1,nums[i],nums[i+1]) for i in range(len(nums)-1) if nums[i+1]!=nums[i]+1],'volume_count':len(groups),'byte_reconstruction_verified':True,'source_completeness':'not proven; preserve source as supplied' if missing or duplicates or expected is None else 'chapter-number coverage matches expected count; source edition not independently verified'}
+              volrows=[]; chapterrows=[]; checks=[hash256(b)+'  '+name]; reconstructed=[]
+              with zipfile.ZipFile(root/(tag+'_原著專業分卷.zip'),'w',zipfile.ZIP_DEFLATED) as z:
+                  for vi,grp in enumerate(groups,1):
+                      payload=b''.join(r[3] for r in grp); reconstructed.append(payload)
+                      fn=f'VOL_{vi:03d}_SEQ{grp[0][0]:04d}-{grp[-1][0]:04d}_CH{grp[0][1]:04d}-{grp[-1][1]:04d}.txt'
+                      write(z,fn,payload); checks.append(hash256(payload)+'  '+fn)
+                      volrows.append(f'{vi}\t{fn}\t{grp[0][0]}-{grp[-1][0]}\t{grp[0][1]}-{grp[-1][1]}\t{len(grp)}\t{len(payload)}\t{grp[0][4]}\t{grp[-1][5]}\t{hash256(payload)}')
+                      for rr in grp:chapterrows.append(f'{rr[0]}\t{rr[1]}\t{rr[2]}\t{fn}\t{rr[4]}\t{rr[5]}')
+                  assert b''.join(reconstructed)==b
+                  write(z,'00_請先讀.txt',txt('原著來源精讀專用。按實際原文順序完整保留，序號SEQ與原章號CH分開。原始前言隨第一卷保存；重號、缺號與原文問題不擅自修補。請先查完整性清單，再依章節對照讀取；分卷不等於已精讀。'))
+                  write(z,'01_分卷總索引.txt',txt('卷\t檔名\t實際序號\t原章號\t章標數\tbytes\t起始byte\t結束byte_exclusive\tSHA256\n'+'\n'.join(volrows)))
+                  write(z,'02_章節完整對照索引.txt',txt('實際序號\t原章號\t原章標\t分卷\t起始byte\t結束byte_exclusive\n'+'\n'.join(chapterrows)))
+                  write(z,'03_完整性與分卷清單.txt',txt(json.dumps(details,ensure_ascii=False,indent=2)))
+                  write(z,'04_SHA256_原文與分卷.txt',txt('\n'.join(checks)))
+                  write(z,'05_逐卷閱讀進度.txt',txt('分卷\t精讀狀態\t研究紀錄\n'+'\n'.join(row.split('\t')[1]+'\t未讀\t' for row in volrows)))
+              report.append(details)
+              print(tag,json.dumps({k:v for k,v in details.items() if k not in ('nonconsecutive_transitions','duplicate_chapter_numbers','unmatched_chapter_numbers')},ensure_ascii=False))
+          images=[e for e in files if re.search(r'\.(png|webp|jpe?g|gif|svg|bmp|tiff?|avif|ico)$',e[0],re.I)]
+          groups=[];grp=[];n=0
+          for e in images:
+              if grp and n+e[2]>60*1024*1024:groups.append(grp);grp=[];n=0
+              grp.append(e);n+=e[2]
+          if grp:groups.append(grp)
+          imageindex=[]
+          for i,grp in enumerate(groups,1):
+              fn=f'IMAGES_{i:02d}.zip'
+              with zipfile.ZipFile(root/fn,'w',zipfile.ZIP_DEFLATED) as z:
+                  for e in grp:
+                      b=raw(e);write(z,e[0],b);imageindex.append({'path':e[0],'git_blob_sha1':e[1],'bytes':len(b),'sha256':hash256(b),'pack':fn})
+              print(fn,len(grp))
+          assert len(imageindex)==len(images)
+          with zipfile.ZipFile(root/'INDEX.zip','w',zipfile.ZIP_DEFLATED) as z:
+              write(z,'原著完整性總報告.txt',txt(json.dumps(report,ensure_ascii=False,indent=2)))
+              write(z,'圖像總索引.txt',txt('來源路徑\tbytes\tGit SHA1\tSHA256\t分包\n'+'\n'.join(f"{e['path']}\t{e['bytes']}\t{e['git_blob_sha1']}\t{e['sha256']}\t{e['pack']}" for e in imageindex)))
+              write(z,'圖像總索引.json',txt(json.dumps({'commit':commit,'images':len(images),'entries':imageindex},ensure_ascii=False,indent=2)))
+          print('SUMMARY',len(images),len(groups),[(r['chapter_headers'],r['volume_count']) for r in report])
+          for p in root.glob('*.zip'):
+              with zipfile.ZipFile(p) as z:assert z.testzip() is None
+          
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-BUG_原著專業分卷
+          path: ${{ runner.temp }}/reading-images/BUG_原著專業分卷.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-EQUIPMENT_原著專業分卷
+          path: ${{ runner.temp }}/reading-images/EQUIPMENT_原著專業分卷.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-SHOP_原著專業分卷
+          path: ${{ runner.temp }}/reading-images/SHOP_原著專業分卷.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-IMAGES_01
+          path: ${{ runner.temp }}/reading-images/IMAGES_01.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-IMAGES_02
+          path: ${{ runner.temp }}/reading-images/IMAGES_02.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-IMAGES_03
+          path: ${{ runner.temp }}/reading-images/IMAGES_03.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-IMAGES_04
+          path: ${{ runner.temp }}/reading-images/IMAGES_04.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-IMAGES_05
+          path: ${{ runner.temp }}/reading-images/IMAGES_05.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-IMAGES_06
+          path: ${{ runner.temp }}/reading-images/IMAGES_06.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-images-INDEX
+          path: ${{ runner.temp }}/reading-images/INDEX.zip
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: error
