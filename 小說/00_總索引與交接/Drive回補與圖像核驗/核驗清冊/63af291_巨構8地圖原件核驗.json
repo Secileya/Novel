@@ -1,0 +1,102 @@
+{
+  "head": "63af291d3c16576774c7a183e832254952e57329",
+  "method": "complete raw file Base64 equality against fixed Git blobs; no independent SHA256 calculation in this step",
+  "results": [
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/K01折返厚殼帶_局部放大剖面V0.3.svg",
+      "driveId": "1PJyijmeynvzIX6A5Ft5kE_cKglF7YE-p",
+      "sha": "887ce134cecd93bebb114405d9597375487c628f",
+      "bytes": 4137,
+      "gitShaMatch": true,
+      "driveBytes": 4137,
+      "base64Exact": true,
+      "expectedLength": 5516,
+      "gitLength": 5516,
+      "driveLength": 5516
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/R04高懸械林_內部構造圖V0.2重建.svg",
+      "driveId": "12Zr6fS_-cx3rZxixUnIS1yWE6yMTCEOm",
+      "sha": "9723ae83606a4c5cb85257db6920c55cd0c460e6",
+      "bytes": 2554,
+      "gitShaMatch": true,
+      "driveBytes": 2554,
+      "base64Exact": true,
+      "expectedLength": 3408,
+      "gitLength": 3408,
+      "driveLength": 3408
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/T交通可達證據分層_三套候選路線V0.1.svg",
+      "driveId": "1gh4xCXl09QzWBqgPSbA0Xh5ZL89cS-bM",
+      "sha": "c11c635c319a046f289e98653d547e35c5cf64c7",
+      "bytes": 6293,
+      "gitShaMatch": true,
+      "driveBytes": 6293,
+      "base64Exact": true,
+      "expectedLength": 8392,
+      "gitLength": 8392,
+      "driveLength": 8392
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/W01肋海廣域_R01至R09大區圖V0.2重建.svg",
+      "driveId": "1dCjOXkFBJh6EnJHu347zQjVPoPZGtPli",
+      "sha": "c462c2335408b64659d7dec61d56ac9b11eecf95",
+      "bytes": 5660,
+      "gitShaMatch": true,
+      "driveBytes": 5660,
+      "base64Exact": true,
+      "expectedLength": 7548,
+      "gitLength": 7548,
+      "driveLength": 7548
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/巨構世界層與厚重隔界_總圖V0.3.svg",
+      "driveId": "1PWyCNHzCUTqIYsFR2PHSJJnQAb_ntWtO",
+      "sha": "23e51bfb4c26d3a2b76e9635de003acd65a43e46",
+      "bytes": 13783,
+      "gitShaMatch": true,
+      "driveBytes": 13783,
+      "base64Exact": true,
+      "expectedLength": 18380,
+      "gitLength": 18380,
+      "driveLength": 18380
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/巨構主升程地圖V0.5_頂端目標與下方深構_非正史.svg",
+      "driveId": "1cBvhQkbSSiwWrE22tmduJA2IRcnm0MPQ",
+      "sha": "0b5a8eb9c1675923f3428cdfe025eb4566f40ddf",
+      "bytes": 50229,
+      "gitShaMatch": true,
+      "driveBytes": 50229,
+      "base64Exact": true,
+      "expectedLength": 66972,
+      "gitLength": 66972,
+      "driveLength": 66972
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/巨構主升程骨架修正版V0.5.1_非對稱多代交錯_非正史.svg",
+      "driveId": "1SBAWNz5lUSKHTlqye1OJSuG7jCiyMDdr",
+      "sha": "62a133a3d22d5b72a6a9093a4008cd1f062f0fa2",
+      "bytes": 57459,
+      "gitShaMatch": true,
+      "driveBytes": 57459,
+      "base64Exact": true,
+      "expectedLength": 76612,
+      "gitLength": 76612,
+      "driveLength": 76612
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/地圖/巨構宏觀立體空域剖視V0.4_候選.svg",
+      "driveId": "1_CveLvgChcRqLr15QhSovc7cNjOlp0r_",
+      "sha": "6d33f7c720b8f4e7a9e14b0a9ad046ce1eafcc02",
+      "bytes": 35723,
+      "gitShaMatch": true,
+      "driveBytes": 35723,
+      "base64Exact": true,
+      "expectedLength": 47632,
+      "gitLength": 47632,
+      "driveLength": 47632
+    }
+  ]
+}
