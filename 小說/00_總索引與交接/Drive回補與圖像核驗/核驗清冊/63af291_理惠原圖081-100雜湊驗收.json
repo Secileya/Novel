@@ -1,0 +1,230 @@
+{
+  "round": 25,
+  "head": "63af291d3c16576774c7a183e832254952e57329",
+  "method": "下載Drive現行完整原始WEBP bytes至容器，獨立計算Git blob SHA1（含blob標頭）及SHA256，與固定Git tree SHA1、bytes逐一比較。未另下載Git二進位，不稱獨立雙側SHA256。",
+  "count": 20,
+  "bytes": 29374824,
+  "rawHashDriveId": "16u4ngsuJK52Aq31kv2sX9x3WxaS8yiNM",
+  "files": [
+    {
+      "name": "081_水族館約會.webp",
+      "bytes": 1374288,
+      "gitSha": "16d772164a9a3dcd5bca0bb5847e050fbd090379",
+      "sha256": "4beef85c1db1685430f1a8f4d80131411ffdb1cfe1fe31e7455e6a17036617b2",
+      "path": "小說/理惠/圖庫/原圖/081_水族館約會.webp",
+      "driveId": "148MfpH1txb2VHYOFoPYI30boCp18MynB",
+      "expectedGitSha": "16d772164a9a3dcd5bca0bb5847e050fbd090379",
+      "expectedBytes": 1374288,
+      "verified": true
+    },
+    {
+      "name": "082_動物園約會.webp",
+      "bytes": 1591368,
+      "gitSha": "2da7ad80521fdf0eaab7ebe22e3c23fc26393b11",
+      "sha256": "2c5b019a9dc0bcea9a6c25b9bf39f9e1650530c8badda221804632a83ef76e38",
+      "path": "小說/理惠/圖庫/原圖/082_動物園約會.webp",
+      "driveId": "1IJLz5qSe-OiEfPi-rUggO7F-3qTwsSuh",
+      "expectedGitSha": "2da7ad80521fdf0eaab7ebe22e3c23fc26393b11",
+      "expectedBytes": 1591368,
+      "verified": true
+    },
+    {
+      "name": "083_遊樂園約會.webp",
+      "bytes": 1535160,
+      "gitSha": "1d1fd6a3a030b974614e919dc1e931aaa060f654",
+      "sha256": "ff7e3055949831dc77270d570775adc38efd705da2b7885838b661dc16b91d84",
+      "path": "小說/理惠/圖庫/原圖/083_遊樂園約會.webp",
+      "driveId": "1k7JnJ57l2YoebKGfnBYXbUUfGvAZsfPj",
+      "expectedGitSha": "1d1fd6a3a030b974614e919dc1e931aaa060f654",
+      "expectedBytes": 1535160,
+      "verified": true
+    },
+    {
+      "name": "084_遊樂場約會.webp",
+      "bytes": 1437586,
+      "gitSha": "6dca16f818b2eaca46161352289eaf26599f32db",
+      "sha256": "3bc5b74c16a67879f7ef7fff6a9856eb7ac791a3e36492b71b16a83a0ee0ee2a",
+      "path": "小說/理惠/圖庫/原圖/084_遊樂場約會.webp",
+      "driveId": "1u1i24b_SojOM-sr2IOtf88VCfPLKad1S",
+      "expectedGitSha": "6dca16f818b2eaca46161352289eaf26599f32db",
+      "expectedBytes": 1437586,
+      "verified": true
+    },
+    {
+      "name": "085_手作工坊約會.webp",
+      "bytes": 1343336,
+      "gitSha": "3fdf152c5679d6fd3b3075eb4de681305b9bc970",
+      "sha256": "c545a075c2d587ab2cea73fb4b0a857d5bb19ac650894c675aecfe1c62dbb1d1",
+      "path": "小說/理惠/圖庫/原圖/085_手作工坊約會.webp",
+      "driveId": "1cOahzmTsZ2S_KB11UqD3ABcTuMYQtoYA",
+      "expectedGitSha": "3fdf152c5679d6fd3b3075eb4de681305b9bc970",
+      "expectedBytes": 1343336,
+      "verified": true
+    },
+    {
+      "name": "086_唱歌約會.webp",
+      "bytes": 1462008,
+      "gitSha": "e1a369b7f3b83153b178942a535a6ff84c3dd7d5",
+      "sha256": "27a8f667446f287b963a31f77ca43d6478aaf699faac514c961057331e1ee894",
+      "path": "小說/理惠/圖庫/原圖/086_唱歌約會.webp",
+      "driveId": "1xoASHYqVuuBQC9r4fclbG50yqf7-PwXx",
+      "expectedGitSha": "e1a369b7f3b83153b178942a535a6ff84c3dd7d5",
+      "expectedBytes": 1462008,
+      "verified": true
+    },
+    {
+      "name": "087_書店約會.webp",
+      "bytes": 1543910,
+      "gitSha": "db7804237486483f64da530cbe4b4c008939168d",
+      "sha256": "1d5e36b51748079d46507279d4b7d83248a8b8fbd7a3926900343b58d055d6d3",
+      "path": "小說/理惠/圖庫/原圖/087_書店約會.webp",
+      "driveId": "1tp4y94YboMb_-7YqC-0E3f85FSEuXC9P",
+      "expectedGitSha": "db7804237486483f64da530cbe4b4c008939168d",
+      "expectedBytes": 1543910,
+      "verified": true
+    },
+    {
+      "name": "088_圖書館約會.webp",
+      "bytes": 1344270,
+      "gitSha": "61440c706dc2a796ab3cd4bf5d61734030930c49",
+      "sha256": "8703b3daab488b8b3310f09e2ceffdca6d9c518153cfa1da8b70ac1b9326fd59",
+      "path": "小說/理惠/圖庫/原圖/088_圖書館約會.webp",
+      "driveId": "1Ws3TUVwLbOQi_5TL3dyZcxXnfZTv1DG5",
+      "expectedGitSha": "61440c706dc2a796ab3cd4bf5d61734030930c49",
+      "expectedBytes": 1344270,
+      "verified": true
+    },
+    {
+      "name": "089_公園約會.webp",
+      "bytes": 1478162,
+      "gitSha": "d0081576363e5cf9577adfb86a605eb589fbb179",
+      "sha256": "0a9c8defd5b41dd67691521040dc6b3d9e59c3d43f25d117bb20d917647b810c",
+      "path": "小說/理惠/圖庫/原圖/089_公園約會.webp",
+      "driveId": "1So2tfLOranaJ6W4xiFXISXOTKZOvh_EW",
+      "expectedGitSha": "d0081576363e5cf9577adfb86a605eb589fbb179",
+      "expectedBytes": 1478162,
+      "verified": true
+    },
+    {
+      "name": "090_野餐約會.webp",
+      "bytes": 1558248,
+      "gitSha": "7170b9e56b58c337690eb4473687128189d35004",
+      "sha256": "06f483ecd841356d6fb09b8a1748e3933198c0487975797cf45cda404d8ee065",
+      "path": "小說/理惠/圖庫/原圖/090_野餐約會.webp",
+      "driveId": "1SJ8kkqk8wMGl_dEN0We9E2I7xfd-zz3g",
+      "expectedGitSha": "7170b9e56b58c337690eb4473687128189d35004",
+      "expectedBytes": 1558248,
+      "verified": true
+    },
+    {
+      "name": "091_河畔約會.webp",
+      "bytes": 1500442,
+      "gitSha": "f56f20d02f6b56624687d6bba3f2e1b2cb966571",
+      "sha256": "c3ad13824f0d0112a038e0ef4970544e8f2c41255d9301ed906b9b682426f9ac",
+      "path": "小說/理惠/圖庫/原圖/091_河畔約會.webp",
+      "driveId": "1BSoJZqcyD9ALRLlWFAOtr0qRvyEGqD6J",
+      "expectedGitSha": "f56f20d02f6b56624687d6bba3f2e1b2cb966571",
+      "expectedBytes": 1500442,
+      "verified": true
+    },
+    {
+      "name": "092_海邊約會.webp",
+      "bytes": 1474230,
+      "gitSha": "f3eb71728f2cc9f98cf457bd5d994b660461b926",
+      "sha256": "bd0378c266e95ff128d045c3936d36b9fff6ba7687b81eb87d149256546b2955",
+      "path": "小說/理惠/圖庫/原圖/092_海邊約會.webp",
+      "driveId": "1Dbj7esNVE86Ft1Lbb7HmPhGKODNwqJVx",
+      "expectedGitSha": "f3eb71728f2cc9f98cf457bd5d994b660461b926",
+      "expectedBytes": 1474230,
+      "verified": true
+    },
+    {
+      "name": "093_散步道約會.webp",
+      "bytes": 1771104,
+      "gitSha": "138a978c1d021680d6a4417bd094500f968aa3e6",
+      "sha256": "0766a8fbb9cf0b964ddb573db2630731a6cfa2f838ec02fe4dffa3b45faea8f9",
+      "path": "小說/理惠/圖庫/原圖/093_散步道約會.webp",
+      "driveId": "1lPU7X3n2wc3cQK_N3EEt1Rn5VeX4nb-W",
+      "expectedGitSha": "138a978c1d021680d6a4417bd094500f968aa3e6",
+      "expectedBytes": 1771104,
+      "verified": true
+    },
+    {
+      "name": "094_夜市約會.webp",
+      "bytes": 1315294,
+      "gitSha": "dedff41db269a5c47a527bcf2228d491153c93e9",
+      "sha256": "e4b9a27551485a198a2d02ee4643db66a8e7fbcd744a182855dd4dab665c0ef6",
+      "path": "小說/理惠/圖庫/原圖/094_夜市約會.webp",
+      "driveId": "1MfeuTvJOObx16Mjh12OdEG3H16elN7Qz",
+      "expectedGitSha": "dedff41db269a5c47a527bcf2228d491153c93e9",
+      "expectedBytes": 1315294,
+      "verified": true
+    },
+    {
+      "name": "095_便利商店約會.webp",
+      "bytes": 1578860,
+      "gitSha": "b5feac9bd7afaea7205fbc429ed31a131fcb870e",
+      "sha256": "bb05ba02bad01896d303ba2dec4938b160fc94871de4acc16c8ef472a38dc88b",
+      "path": "小說/理惠/圖庫/原圖/095_便利商店約會.webp",
+      "driveId": "1BoIsmYKnbtoVwqtwDbbKrEBHGtcIzU_P",
+      "expectedGitSha": "b5feac9bd7afaea7205fbc429ed31a131fcb870e",
+      "expectedBytes": 1578860,
+      "verified": true
+    },
+    {
+      "name": "096_超市約會.webp",
+      "bytes": 1647604,
+      "gitSha": "e8dc96ae69504f8d240029d766ee4e8387b8ad0c",
+      "sha256": "2702445be727f32c087cba6bfc5a28eb488cd986d24beb8d300b131456189690",
+      "path": "小說/理惠/圖庫/原圖/096_超市約會.webp",
+      "driveId": "1_kfjANi_EgzCze8SQtU1h7P3-9_w10zB",
+      "expectedGitSha": "e8dc96ae69504f8d240029d766ee4e8387b8ad0c",
+      "expectedBytes": 1647604,
+      "verified": true
+    },
+    {
+      "name": "097_花店約會.webp",
+      "bytes": 1622266,
+      "gitSha": "cc5ddd098edd5b5d6185acb918a603e3fc6d4a6a",
+      "sha256": "b7d4e02692cb6e3d3d307bf8811010cbc5015a130afa9e2160e012ce16f4f1d3",
+      "path": "小說/理惠/圖庫/原圖/097_花店約會.webp",
+      "driveId": "1mhKzqC91UM2DyYz4h7TVR9TnAdYRns4p",
+      "expectedGitSha": "cc5ddd098edd5b5d6185acb918a603e3fc6d4a6a",
+      "expectedBytes": 1622266,
+      "verified": true
+    },
+    {
+      "name": "098_照相館約會.webp",
+      "bytes": 1129408,
+      "gitSha": "60adade49769c4e015eb8e788485fcf53f6077f0",
+      "sha256": "ea58c549259a0080e61d1ea20f3dac3c99fb60b0a4b5af87b6c12de8360b1ec6",
+      "path": "小說/理惠/圖庫/原圖/098_照相館約會.webp",
+      "driveId": "10tl10NHszEXL0zMto2R-jvvPmJ3kkV2C",
+      "expectedGitSha": "60adade49769c4e015eb8e788485fcf53f6077f0",
+      "expectedBytes": 1129408,
+      "verified": true
+    },
+    {
+      "name": "099_大頭貼約會.webp",
+      "bytes": 1455652,
+      "gitSha": "f13b35e3b40fa1f77912ed278d11119eec6c845d",
+      "sha256": "c7a299b860ecd28f66e3c37bca9dd9c8951fde05bb780601f6debb296dff3064",
+      "path": "小說/理惠/圖庫/原圖/099_大頭貼約會.webp",
+      "driveId": "1Ka_qADDjs-Syc460hzWCBDSM7BW31BKO",
+      "expectedGitSha": "f13b35e3b40fa1f77912ed278d11119eec6c845d",
+      "expectedBytes": 1455652,
+      "verified": true
+    },
+    {
+      "name": "100_美術館約會.webp",
+      "bytes": 1211628,
+      "gitSha": "4b918d65b8586e8deaf995f33dbfaae3634fd493",
+      "sha256": "1c8435694806b533c98ba46dd065fd0c79e2989e73ba9c69a1b4f9465a50bf42",
+      "path": "小說/理惠/圖庫/原圖/100_美術館約會.webp",
+      "driveId": "1X8JjIiobG5JFdAF9vhA96SK3ja5JjYrr",
+      "expectedGitSha": "4b918d65b8586e8deaf995f33dbfaae3634fd493",
+      "expectedBytes": 1211628,
+      "verified": true
+    }
+  ]
+}
