@@ -57,3 +57,6 @@
 
 ### 2026-11-25｜第06輪接續：巨構鏡像標頭及歷史版本核驗
 - D03 PARTIAL：固定e6f3b21的105份由94增至102份已建立原文來源映射（含此前歷史證據）。本輪4份現存Drive鏡像去除明示BEGIN標頭後，逐字與固定Git全文完全一致，並核對原路徑、blob SHA；4份歷史revision同樣全文一致（3 README、1 I5指引），尚未keepForever，不等於永久獨立原件。另1份上層README原生Docs revision 4的來源路徑、SHA標頭吻合，但匯出有CRLF、重複空行及尾端空白差異，僅規範化文字一致，不計入102。剩2份TSV精確舊版未找到（I3 309條、I5 1830鍵），Stingray全名搜尋只返回9d6721e新版原件。證據清冊[05](核驗清冊/e6f3b21_跨批次恢復映射第05輪.json)、[06](核驗清冊/e6f3b21_跨批次恢復映射第06輪.json)、[07](核驗清冊/e6f3b21_跨批次恢復映射第07輪.json)、[08](核驗清冊/e6f3b21_跨批次恢復映射第08輪.json)、[09](核驗清冊/e6f3b21_跨批次恢復映射第09輪.json)，均Git讀回一致。AUTO本身仍16/105未完成；未改觸發器、未刪檔、未改Canon。本輪未取得可直接跨連接器上傳的Git原始檔案參照；待補2 TSV、1 README精確原件及4歷史revision永久保存，另23 Docs現行文本核對、清冊及台帳Drive回補仍待做。
+
+### 2026-11-25｜第07輪接續：七份獨立原件實際補齊
+- [x] D03-E 固定e6f3b21剩餘3份精確原件（I3 309條TSV、I5 1830鍵TSV、上層README）及4份原僅歷史revision可讀原件（3 README、I5指引）已由固定Git base64經原生Docs中轉、匯出解碼，獨立計算Git SHA1、SHA256、大小後上傳Drive，並逐份再次下載重算7/7一致，共887746 bytes。原件 [Drive資料夾](https://drive.google.com/drive/folders/13D0AVh4v6_rQF2XNXi98JDOUEGNuUrlb)／[Drive驗收清冊](https://drive.google.com/file/d/1GQ5yGSIZJ8i2Bzu8YV7hqhOryX76nZ1R/view)／[Git驗收清冊](核驗清冊/e6f3b21_7份獨立原件驗收清冊.json)。7份是真實獨立原始bytes（檔名加SHA及.txt，原路徑見清冊）。中轉4份Docs另保留，不算原件，不刪除。舊105份來源映射由102增為105/105，含先前23份原生Docs歷史文字證據及其他先前收據，非全105份此輪逐檔重新雜湊，不代表全庫閉環。AUTO實際仍16/105；未改腳本、觸發器、Canon，未刪檔。下一步23 Docs現行完整文字驗證／必要原始bytes保存，核驗清冊及TODO的固定版本Drive回補，全庫與圖像待辦繼續。
