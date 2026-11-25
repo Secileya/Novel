@@ -1,0 +1,22 @@
+{
+  "round": 55,
+  "base": "7251e29471ecf165e94c16f352d4bcd2292062bd",
+  "head": "b1ca47e508c68e668d00ac47324a0423701b5669",
+  "base_count": 4361,
+  "target_count": 4422,
+  "base_bytes": 442860068,
+  "target_bytes": 443767970,
+  "changes": 69,
+  "added": 61,
+  "modified": 8,
+  "deleted": 0,
+  "base_tree_sha256": "6514c9467b61b5f487c10a2dadb2ef69b0b7566ae9e13aaf147d821ce51c23bd",
+  "replayed_tree_sha256": "85422df3050fddd0eb9b16668ec05260044647c8bd6b6a4f8b47068d6bd53ab5",
+  "independent_git_tree_sha256": "85422df3050fddd0eb9b16668ec05260044647c8bd6b6a4f8b47068d6bd53ab5",
+  "archive_id": "1bscm_42QHxu2p_TLVabKXx5BSsA3-WI_",
+  "archive_sha256": "2effa96c0fd7bab51b2500d41dfc5e8944906a75dd3b891506e6c78e5eed8183",
+  "receipt_commit": "25b5d3435d0b9c343eaf459f51e83a344aea2b93",
+  "receipt_sha256": "9d2b399957654d36a0e5c5ad3a147e057def0419eb87d2ff564215e98425a32f",
+  "result": "PASS",
+  "scope": "固定版本完整樹清冊重放；非將所有原始檔重新解壓的實體全量恢復。後續核驗回執不納入此固定版本。"
+}
