@@ -1,0 +1,685 @@
+{
+  "head": "c6fbe2d5371750b787f19378bf0ae67a46127c32",
+  "treeCount": 4279,
+  "groups": [
+    {
+      "prefix": "小說/巨構世界（法月懷造物）/",
+      "sourceCommit": "d246d67bf056120253f9329802de479e9cfef2e6",
+      "indexCount": 913,
+      "gitCount": 939,
+      "exact": 913,
+      "missing": [
+        {
+          "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/AI接手_經驗更新日誌.jsonl",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d019f2fbeb4130d0bc6b2fd60484b090cfc80f3a",
+          "size": 286820,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/d019f2fbeb4130d0bc6b2fd60484b090cfc80f3a"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_章節分卷結構/1030章完整對照索引.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8842b58b804ace77ee134bae9734ae2872d18c2c",
+          "size": 68065,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/8842b58b804ace77ee134bae9734ae2872d18c2c"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_章節分卷結構/70分卷完整結構.csv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "500caa6880a8aeb07f02f6cbfe84ab54f925b61d",
+          "size": 12770,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/500caa6880a8aeb07f02f6cbfe84ab54f925b61d"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_章節分卷結構/依SHA256無損拆分70卷.py",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "595c8b5754f80bdd735cdf6b8bbb62e910d3bd1c",
+          "size": 4689,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/595c8b5754f80bdd735cdf6b8bbb62e910d3bd1c"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_全庫方法家族_56條未命中人工補標_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "81266f76aca97efc1a60c4488c0470c54da4ee87",
+          "size": 3751,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/81266f76aca97efc1a60c4488c0470c54da4ee87"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_全庫方法家族_PCNA681導航_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f13488e87c19ca3f02e970e78e98618d6e9823f3",
+          "size": 69002,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/f13488e87c19ca3f02e970e78e98618d6e9823f3"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_全庫方法家族_QJ696導航_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "570245d40c818b15e4cd5de6ec3cddfc20171de8",
+          "size": 192518,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/570245d40c818b15e4cd5de6ec3cddfc20171de8"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_全庫方法家族_W453導航_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ceef191652fdbe28653fc751968bf0f8a23c28be",
+          "size": 60455,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/ceef191652fdbe28653fc751968bf0f8a23c28be"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_01至09批覆蓋及疑點候選.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a066b043f3fad32debfc00c4ba8e4fca41a132dd",
+          "size": 14271,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/a066b043f3fad32debfc00c4ba8e4fca41a132dd"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_10至18批覆蓋及疑點候選.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1413b06c2904af48417453278d56c269f09c4309",
+          "size": 16635,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/1413b06c2904af48417453278d56c269f09c4309"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_19至27批覆蓋及疑點候選.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ff6c8532acd90520b88c9cf977c29179919276cf",
+          "size": 15347,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/ff6c8532acd90520b88c9cf977c29179919276cf"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_264條待查線索人工分流_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d2ea93463f80c2148f1583bec5a00158aa30e9d0",
+          "size": 64229,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/d2ea93463f80c2148f1583bec5a00158aa30e9d0"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_28至36批覆蓋及疑點候選.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "42b5d7421f21614145fb84560e7bdf2b38fdefde",
+          "size": 12384,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/42b5d7421f21614145fb84560e7bdf2b38fdefde"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_309條統一補證狀態疊加_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "077e621f6f05ad5117862cd0a8ba18cca6745001",
+          "size": 98985,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/077e621f6f05ad5117862cd0a8ba18cca6745001"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_歷史入口45條補充追蹤_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d6d6a41f4506ee810c95c145dcfa689c9f0e4a77",
+          "size": 2394,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/d6d6a41f4506ee810c95c145dcfa689c9f0e4a77"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/QJ696_正文標頭與分片定位.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9a3e858eca82ce7e008797e1799d8c444871aa78",
+          "size": 40253,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/9a3e858eca82ce7e008797e1799d8c444871aa78"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I5_1830研究鍵統一實用導航_v0.1.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ab55e7299262185f9ed83029be312776c46e87cc",
+          "size": 790363,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/ab55e7299262185f9ed83029be312776c46e87cc"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/PCNA_01至07輪.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8cd48fd090a659a5a8eaeeea9cf119368a5b38c8",
+          "size": 70236,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/8cd48fd090a659a5a8eaeeea9cf119368a5b38c8"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/PCNA_08至14輪.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0d826ec9a7f04d0dee69c46ac0c91a78303dd6d8",
+          "size": 94528,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/0d826ec9a7f04d0dee69c46ac0c91a78303dd6d8"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/QJ696_反向同章候選索引.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "02c60ad5d644442a6cfeb741dc06811dc0105a8e",
+          "size": 65271,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/02c60ad5d644442a6cfeb741dc06811dc0105a8e"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/W_文字原證_01至07輪.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1f2dd9dd3025c8516da9896a2e32550032be69f6",
+          "size": 62104,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/1f2dd9dd3025c8516da9896a2e32550032be69f6"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/W_文字原證_08至14輪.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c74f080ca85800297d6f47f4cb7585be3eb7f4d2",
+          "size": 75425,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/c74f080ca85800297d6f47f4cb7585be3eb7f4d2"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/來源章節導航_01至07輪.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c09e1714e7ffedd3291d935ed9fc705875f6de0d",
+          "size": 12601,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/c09e1714e7ffedd3291d935ed9fc705875f6de0d"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/來源章節導航_08至14輪.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c7719856beea9d8a250e406198dde0fe6a322e91",
+          "size": 10428,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/c7719856beea9d8a250e406198dde0fe6a322e91"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/素材檢索_696條.tsv",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "86d05571e7af0808be248d61b85615d6e7b9170d",
+          "size": 259065,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/86d05571e7af0808be248d61b85615d6e7b9170d"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/素材檢索_離線版.html",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b5bf9cf9841978f5bc49031750b0883318131afb",
+          "size": 319279,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/b5bf9cf9841978f5bc49031750b0883318131afb"
+        }
+      ],
+      "changed": [],
+      "extra": []
+    },
+    {
+      "prefix": "小說/家庭總檔/",
+      "sourceCommit": "831f07538ac645b9bf7103e90982efeec8b6b5ae",
+      "indexCount": 210,
+      "gitCount": 266,
+      "exact": 210,
+      "missing": [
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Franiya_內層身形與襯衫貼合輪廓參考_2026-09-26.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8503ceb94b214dc0600e3e88d87cf814312dfde0",
+          "size": 205454,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/8503ceb94b214dc0600e3e88d87cf814312dfde0"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Franiya_居家鬆弛與自然神態參考_2026-09-26.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f6030ccdd9ba03ae26e88ced3115efee079dea17",
+          "size": 613976,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/f6030ccdd9ba03ae26e88ced3115efee079dea17"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Franiya_平時氣質與表情參考_2026-09-22.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7fa125d45d6307e9ee43c93d073db0f4be4729e5",
+          "size": 1497024,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/7fa125d45d6307e9ee43c93d073db0f4be4729e5"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Franiya_正面髮型與臉部輪廓參考_2026-09-22.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "32fa07e65651b0ebff774d4c5b4924e0bf402929",
+          "size": 502188,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/32fa07e65651b0ebff774d4c5b4924e0bf402929"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Franiya_貼身戰術服身形輪廓參考_2026-09-26.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7e74cf6f7608744760e88839943696890f7499fe",
+          "size": 3600381,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/7e74cf6f7608744760e88839943696890f7499fe"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Franiya_長短分層與動態髮束參考_2026-09-22.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "03bd30abab34d519183f54828a35b344083b9398",
+          "size": 4178368,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/03bd30abab34d519183f54828a35b344083b9398"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Franiya_黑髮質感與危險氛圍參考_2026-09-22.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f73e0577afb744867536fe74d60a5a8bb4b3a212",
+          "size": 2656205,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/f73e0577afb744867536fe74d60a5a8bb4b3a212"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Hozuki_Huai_完整黑瞳神態參考_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "72ea89dcb142a83ad5875c21bfb307b812fb6f98",
+          "size": 2142487,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/72ea89dcb142a83ad5875c21bfb307b812fb6f98"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Hozuki_Huai_髮型與臉型主參考_四圖第3張_2026-11-17.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8c44a97755136a41f4d493d56335977c3c38af74",
+          "size": 5372325,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/8c44a97755136a41f4d493d56335977c3c38af74"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Secileya_標準圓框頭像_2026-09-13.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "eb4dba5cbf8e412d8b020d818f814520608fcfcf",
+          "size": 1697455,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/eb4dba5cbf8e412d8b020d818f814520608fcfcf"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Secileya_理想圖像參考_2026-09-13.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "45be7e43f82f53e0d40082829777e70ac8152041",
+          "size": 2643101,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/45be7e43f82f53e0d40082829777e70ac8152041"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Secileya_眼型參考_2026-09-13.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "76895920e84c3fc87476f1f0aab547dfbb5a5b94",
+          "size": 25773,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/76895920e84c3fc87476f1f0aab547dfbb5a5b94"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Secileya_紫眼順睫修正版_2026-09-13.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "abf9dd121cf5d3d82260a37a829fa75a45229c8a",
+          "size": 2232172,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/abf9dd121cf5d3d82260a37a829fa75a45229c8a"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Secileya_臉部氣質氛圍參考_2026-09-13.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "972cb12057697b9500bb4cc80c9ceeca484b8742",
+          "size": 2295747,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/972cb12057697b9500bb4cc80c9ceeca484b8742"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Secileya_頸部禁飾區域參考_2026-09-13.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5be10b8b971c2f518a64844c5ad58d24f2a72107",
+          "size": 14833,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/5be10b8b971c2f518a64844c5ad58d24f2a72107"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_咖啡館逗弄構圖_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "956bdca01f360f419cc2c94c528f6423064d344f",
+          "size": 2827229,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/956bdca01f360f419cc2c94c528f6423064d344f"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_室內貼近逗弄_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9d960859ba7c81da38a9cdaa82a7b3ee83f8ea47",
+          "size": 2552841,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/9d960859ba7c81da38a9cdaa82a7b3ee83f8ea47"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_斜帽摸頭雙人圖_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "322ee91a25ace24992d4e4f9c004557aa38c8192",
+          "size": 2683681,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/322ee91a25ace24992d4e4f9c004557aa38c8192"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_既有服裝雙人參考_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "052ffd4be0f73269967dbcf252d7ff66d1ff7b03",
+          "size": 2578649,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/052ffd4be0f73269967dbcf252d7ff66d1ff7b03"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_森林正裝並立_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "69d1329b69cc460bbedf91c55f17f2d7f02180fb",
+          "size": 2689289,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/69d1329b69cc460bbedf91c55f17f2d7f02180fb"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_溫泉構圖草圖_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aa460fbdd7bcac0740c8a401dc66a2bacc475721",
+          "size": 1911812,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/aa460fbdd7bcac0740c8a401dc66a2bacc475721"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_紅藍科幻世界線造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "283b0bf58b2876416299de4479251d0062f87408",
+          "size": 2403927,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/283b0bf58b2876416299de4479251d0062f87408"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_綠色冬衣擁抱_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "26d25f44203e601cbb123c2b077a6a17492cbb02",
+          "size": 2187801,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/26d25f44203e601cbb123c2b077a6a17492cbb02"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_臥榻鐮刀雙人圖_01_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2f191a3c08785a90787dc086faf0b37fe1f8510d",
+          "size": 2806364,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/2f191a3c08785a90787dc086faf0b37fe1f8510d"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_臥榻鐮刀雙人圖_02_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8f4abfab5d928de5d66a6948230c72b0f6ddc430",
+          "size": 2835931,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/8f4abfab5d928de5d66a6948230c72b0f6ddc430"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_逆光側面並立_01_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ee09e5ecb4c66a7b4fb1be4f2262ac5e23ccf326",
+          "size": 2300488,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/ee09e5ecb4c66a7b4fb1be4f2262ac5e23ccf326"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_逆光側面並立_02_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9698665733237285fcfc8689d236ca180b62132f",
+          "size": 2384882,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/9698665733237285fcfc8689d236ca180b62132f"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_逆光側面並立_03_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7b3c9f6e7b634cfa8fd0813992dd7880d2808fbf",
+          "size": 2459738,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/7b3c9f6e7b634cfa8fd0813992dd7880d2808fbf"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_運動服抱起構圖_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c3db17449dc48b62bd601b1ce60c14ac4531436a",
+          "size": 2190766,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/c3db17449dc48b62bd601b1ce60c14ac4531436a"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_雙角色視覺卡_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d4fec4e08b7bb780e43610e84c9dd363aac311b0",
+          "size": 2657884,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/d4fec4e08b7bb780e43610e84c9dd363aac311b0"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_露台玩鬧姿勢_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0301a479e9478054b3ca65bb7c82b56ea72c28a1",
+          "size": 2470351,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/0301a479e9478054b3ca65bb7c82b56ea72c28a1"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_頭部對照裁圖_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1d54515f08f4ec816bf9f22b04531cf44345cb75",
+          "size": 629265,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/1d54515f08f4ec816bf9f22b04531cf44345cb75"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_Versiliya_黑白日常擁抱_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "949abb655bec1fdf30b8bbb8798cc996e5033fdd",
+          "size": 2198178,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/949abb655bec1fdf30b8bbb8798cc996e5033fdd"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_冰劍個人圖_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3ad91a80963780d02c902cfded8bc73efede3a95",
+          "size": 2842984,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/3ad91a80963780d02c902cfded8bc73efede3a95"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_寬鬆上衣居家造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "443bf2babde3e9234b55beea686641d841ff5eb0",
+          "size": 1769383,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/443bf2babde3e9234b55beea686641d841ff5eb0"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_戶外外套笑容造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1a84692aabe0b8ce9810fe5ad8f8ff9e27638ef4",
+          "size": 2459052,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/1a84692aabe0b8ce9810fe5ad8f8ff9e27638ef4"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_抱枕笑容居家造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "958a9b4b09119754582ce66918027347dabf07d7",
+          "size": 2219660,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/958a9b4b09119754582ce66918027347dabf07d7"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_早期既有服裝參考_01_抱膝_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7f04880bcfec37e829a19b4cc25c4e03fd5c44b5",
+          "size": 2276353,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/7f04880bcfec37e829a19b4cc25c4e03fd5c44b5"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_早期既有服裝參考_02_白色層疊裙_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c0d58d469210f595540531277f5e35bd8192f6d4",
+          "size": 2390374,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/c0d58d469210f595540531277f5e35bd8192f6d4"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_早期既有服裝參考_03_都市坐姿_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "45546e6463b6cd380a8af9745d741f591fae0acd",
+          "size": 2573352,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/45546e6463b6cd380a8af9745d741f591fae0acd"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_標準圓框頭像_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "99ed5e20807db1b382788ba4627c5e11322f6f4a",
+          "size": 1898271,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/99ed5e20807db1b382788ba4627c5e11322f6f4a"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_泳池事件白藍連身泳衣_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bfa64d88037330cce8eaa4894ea8758304096c53",
+          "size": 2895765,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/bfa64d88037330cce8eaa4894ea8758304096c53"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_黑白短裙日常造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bb99b3f11564e942f52ad7c4834dbd8d02469e3b",
+          "size": 2323992,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/bb99b3f11564e942f52ad7c4834dbd8d02469e3b"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_黑白結構服裝造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ef9f0fcb71a1897c0a6d5baf51dd69ccb27a2531",
+          "size": 2451782,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/ef9f0fcb71a1897c0a6d5baf51dd69ccb27a2531"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Stiliya_黑色旗袍造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "903806201cbe8a72e470ed7565d8b2fee1642eb1",
+          "size": 2197691,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/903806201cbe8a72e470ed7565d8b2fee1642eb1"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_冬日圍巾哥德造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "99bbf00e5fecaa86c9fbfa0e18128ab538310aef",
+          "size": 2537398,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/99bbf00e5fecaa86c9fbfa0e18128ab538310aef"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_咖啡桌側倚個人圖_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2218f5a34f9ffa9715f6fe4e13a1975d7f33401f",
+          "size": 2310363,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/2218f5a34f9ffa9715f6fe4e13a1975d7f33401f"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_小斜帽白黑哥德造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f040f2c14e7030be3faebf672c4d692c51f357ba",
+          "size": 2401573,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/f040f2c14e7030be3faebf672c4d692c51f357ba"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_斜帽雙側髮束居家造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "688e88b88fa28bcd2fb74942d34097c64b36273b",
+          "size": 2078015,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/688e88b88fa28bcd2fb74942d34097c64b36273b"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_標準圓框頭像_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "41e7a177ca2128bdf398629304bb5c4dc382ff6c",
+          "size": 2180408,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/41e7a177ca2128bdf398629304bb5c4dc382ff6c"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_藍與紅之間紅黑頭飾服裝_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fb2715c9682bcf2e5614b332c6df7fb49bc280ec",
+          "size": 2196104,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/fb2715c9682bcf2e5614b332c6df7fb49bc280ec"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_開朗笑容與拇指姿勢_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8d4bbce91de07c23f6e396497393ed606cdab7eb",
+          "size": 2705860,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/8d4bbce91de07c23f6e396497393ed606cdab7eb"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_黑紅哥德抱膝造型_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e5ba82afe90093cc6143351e9915162f3d2e951a",
+          "size": 2493539,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/e5ba82afe90093cc6143351e9915162f3d2e951a"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_黑紅哥德視覺設計卡_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "99f948df38b31817fe8379cb93d748783f8ddc5b",
+          "size": 2576775,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/99f948df38b31817fe8379cb93d748783f8ddc5b"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_黑紅哥德鐮刀個人圖_01_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "caa19b08a8984986aac35f76ade2e986f411a7f7",
+          "size": 2442056,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/caa19b08a8984986aac35f76ade2e986f411a7f7"
+        },
+        {
+          "path": "小說/家庭總檔/02_圖像參考/Versiliya_黑紅哥德鐮刀個人圖_02_2026-10-10.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "55b923d7813d3d01d3656773725a6edb5e7e3a17",
+          "size": 2576598,
+          "url": "https://api.github.com/repos/Secileya/Novel/git/blobs/55b923d7813d3d01d3656773725a6edb5e7e3a17"
+        }
+      ],
+      "changed": [],
+      "extra": []
+    }
+  ],
+  "method": "source index paths, SHA and size compared to fixed Git tree; does not verify Drive bytes"
+}
