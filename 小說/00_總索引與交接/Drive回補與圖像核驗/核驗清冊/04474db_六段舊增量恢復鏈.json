@@ -1,0 +1,366 @@
+{
+  "round": 39,
+  "base": "f02ec2058d42a198f3a00283184fada7a37bdc1b",
+  "head": "04474db91ce20f6eba68ee146c52528828569e69",
+  "count": 4057,
+  "bytes": 434604655,
+  "fingerprint": "e8d6758bc2a30180f0b79de21848efc1681e4ef47c03f6719b4377f188e8d878",
+  "deltas": [
+    {
+      "outerName": "verified-deltas-c8af483.zip",
+      "outerBytes": 131597,
+      "outerSha256": "1e77d3ac202165367cdf4b3af6ea7e2f9aaf5598eaf17c4f6cf441d604039f0f",
+      "innerName": "DELTA-f02ec20-14a38e1.zip",
+      "innerBytes": 60453,
+      "innerSha256": "a02351c41635f1709d59d12e02b428b112d86b2241effa8440e26ce45aef06bc",
+      "base": "f02ec2058d42a198f3a00283184fada7a37bdc1b",
+      "head": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+      "entries": [
+        {
+          "path": "tools/google_drive_mirror/source-index.json",
+          "status": "modified",
+          "old_sha": "f2e04b38570f2eca7559f8cd9db5377d8126b085",
+          "new_sha": "437599cde25b5ef495ca29b940c4afe3f428b9ae",
+          "bytes": 208518,
+          "sha256": "0944aee95d61b815ec352e616b7680a88198ec1dbc9a7d58d3e9c6817a802f24"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第01輪_VOL001至005_CH0001-0066_跨卷獨立研究_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "7af35f8cb431992b0691e02574027bd6b30cfaba",
+          "bytes": 14202,
+          "sha256": "10034e812620047765639e03b43965ca2d0f5ff0eef23bce5540d31c89040743"
+        }
+      ],
+      "crcAndAllHashes": true,
+      "resultCount": 4043,
+      "resultBytes": 434321142,
+      "resultFingerprint": "11c889af29840e3bb6a6c32b8757fa4dfd7aef3a0927f2d2daf644cd984597cd"
+    },
+    {
+      "outerName": "Novel-delta-14a38e1-b84d99a.zip",
+      "outerBytes": 129077,
+      "outerSha256": "f321d624f58bb3793c67e2a2b90a3c7c3ecc79882ed3449bd4b6f32788088ba6",
+      "innerName": "Novel-delta.zip",
+      "innerBytes": 132092,
+      "innerSha256": "1a7b76743c4a906fb9b45fb62ab5dcc41d48c23225bae0eac8789838d296a8ef",
+      "base": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+      "head": "b84d99a3eec18e28383b9d274b0537efd778a618",
+      "entries": [
+        {
+          "path": "tools/google_drive_mirror/source-index.json",
+          "status": "modified",
+          "old_sha": "437599cde25b5ef495ca29b940c4afe3f428b9ae",
+          "new_sha": "41cbce3028bbbd4c0d8cd80b659cdbdde84bcac9",
+          "bytes": 211224,
+          "sha256": "46e277de5e7d6e7116fb4e03144a9605d2caf48e00a75cd8587c209b6b41a397"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "dba4cc6257e1938c653e20274d1a4515716d8795",
+          "bytes": 5601,
+          "sha256": "d95689234ff6af6ecd7b40ef5a5b0645db5fe11a23f0d414b5b80a1f5e59511e"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第01輪_VOL001至005_五層深化補研_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "3c68ceb79d0142e09b7a4a86c81fa1552fc2dbbb",
+          "bytes": 9064,
+          "sha256": "c8325bd3ba9183c1e7a7b6fdc2da5a4edfcb68840d551ce8787d18403a9ee12f"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第02輪_VOL006至010_CH0067-0138_跨卷獨立研究_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "ff3966a65a392594d1d4764d98a8d25484fa2a60",
+          "bytes": 17530,
+          "sha256": "dafa722b677af604a191dc35217446fe449f6f1e9ab607341354d3ceafba8380"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第02輪_VOL006至010_五層深化補研_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "0741b7f1ea3f3ee34ca519b49e6e6e5b1f273a03",
+          "bytes": 10416,
+          "sha256": "19f4184a3680a2d18e1848ed22fb40156744ecccfea3df68699491525adec46b"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第03輪_VOL011至015_CH0139-0213_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "24410a98c698cd9232964d84806ff1d6f38d27ed",
+          "bytes": 16322,
+          "sha256": "8574ea829d95e141a0dfe51d9729203133cfb11f3d9ea8e25f574f9214753d9f"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第04輪_VOL016至020_CH0214-0290_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "26157bf18f428098d3d696e7dcffda8700d93dd8",
+          "bytes": 20734,
+          "sha256": "d8263635db0a767b12ba42ca281ac98f0ca2c312eda6217b19a0b7d31d07fb83"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第05輪_VOL021至025_CH0291-0363_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "8095e840e3c4791ad49074328dd05c095a6f5bdb",
+          "bytes": 22436,
+          "sha256": "f1e5d963b3d5c2a25820eac65f62406a4055309b7053cfab5e29e25c9301c1c9"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第06輪_VOL026至030_CH0364-0432_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "9d70544cfbfb94ec46b9de1f837e2f13fda5d92c",
+          "bytes": 22806,
+          "sha256": "ffe6656d1c8409002f096d99df7e79ec0b8261f9072b37da5f78ac53f11572c6"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/README.md",
+          "status": "modified",
+          "old_sha": "5b7ce0dd9d64d93f08c41d390955e68ef7cf1d8d",
+          "new_sha": "29b591967dfe73221853ca5a375f793a19b70edc",
+          "bytes": 7026,
+          "sha256": "f991c26c648b16ddeff39cce930e9b9a14e3ca759ca1d568bcbafd4411f5aea1"
+        }
+      ],
+      "crcAndAllHashes": true,
+      "resultCount": 4051,
+      "resultBytes": 434449236,
+      "resultFingerprint": "0aa04a0705970ba4c353da455e433b8c7d5d9bb9e34523e9bbd6ada2836b26a3"
+    },
+    {
+      "outerName": "Novel-delta-b84d99a-ac42f26.zip",
+      "outerBytes": 83045,
+      "outerSha256": "286d047be9ebb5ce5914e7737bbf028b1e0f0fd06ac8f048f5364bcdcb95cacf",
+      "innerName": "Novel-delta.zip",
+      "innerBytes": 83900,
+      "innerSha256": "a4a51725501249ab7820003c354073ee322176c22b9e233f0b0df5e27bf185f3",
+      "base": "b84d99a3eec18e28383b9d274b0537efd778a618",
+      "head": "ac42f26136771f315bfc8fc225cc8a5045334929",
+      "entries": [
+        {
+          "path": "tools/google_drive_mirror/source-index.json",
+          "status": "modified",
+          "old_sha": "41cbce3028bbbd4c0d8cd80b659cdbdde84bcac9",
+          "new_sha": "025d0edca35c25bf0909fd07f06183cc9f52ab26",
+          "bytes": 211862,
+          "sha256": "2df02db52f9c37f95ddc9600d631c5b4ecccf1613ded991b2c636fe9f42b623c"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+          "status": "modified",
+          "old_sha": "dba4cc6257e1938c653e20274d1a4515716d8795",
+          "new_sha": "104046b11cd3783552e3a10cc31d2445b0d0f67a",
+          "bytes": 5972,
+          "sha256": "5d26e9ef320edeab2866c11ba26af9f4d9120a6db9abb03c079efa376ee9d1bc"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第07輪_VOL031至035_CH0433-0509_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "6a77adf8846a6ed89a514c498e25b78be624599a",
+          "bytes": 23102,
+          "sha256": "ec01d2f1fe402247b7ef9a5079f02e093c8494f0f5ef57c4ebf0a38e70195e63"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第08輪_VOL036至040_CH0510-0586_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "11323d044eb02623d47b904381b791bfd5c24ca2",
+          "bytes": 24672,
+          "sha256": "d2e0821864fe16870f0c6910c9ddbd66f5cef2a558913ee4aeab885d3a3909aa"
+        }
+      ],
+      "crcAndAllHashes": true,
+      "resultCount": 4053,
+      "resultBytes": 434498019,
+      "resultFingerprint": "e740101a949e0ef6206ebbed4b6a75df68d0690425e219539872c9a792bde1ed"
+    },
+    {
+      "outerName": "DELTA-b1ee6d2.zip",
+      "outerBytes": 84373,
+      "outerSha256": "4129d9001d0e12f838bd096ff0390067ad28aa92857bdcf7480be294806bba71",
+      "innerName": "DELTA.zip",
+      "innerBytes": 85180,
+      "innerSha256": "e6ccb4d11e832d934231dfa811c99588993548b6d14557206e94c6e2eccf6853",
+      "base": "ac42f26136771f315bfc8fc225cc8a5045334929",
+      "head": "b1ee6d2879154d70ea229ebdae2e3cc5bd67ef05",
+      "entries": [
+        {
+          "path": "tools/google_drive_mirror/source-index.json",
+          "status": "modified",
+          "old_sha": "025d0edca35c25bf0909fd07f06183cc9f52ab26",
+          "new_sha": "c3997206d7db60f45d95db659e54bfa1a6092f18",
+          "bytes": 212500,
+          "sha256": "71cf6083559710412a5476cdc987ec514205d2b9bac8a9433fdfb5c3cfa41fea"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+          "status": "modified",
+          "old_sha": "104046b11cd3783552e3a10cc31d2445b0d0f67a",
+          "new_sha": "0bb526351226f48215c3c5db84722b9110e5a299",
+          "bytes": 6426,
+          "sha256": "cb522f82dd2192983985c40b093b933880e11883a415c624740d3bc4fe15bfa6"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第09輪_VOL041至045_CH0587-0661_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "3916731c34250eb84d29b951f60f84a91f7cea43",
+          "bytes": 23820,
+          "sha256": "12249e28f734cbaeab63e0a5f0923173296966781884bf98b8bc084b2b10d8a8"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第10輪_VOL046至050_CH0662-0743_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "0be2f830018295a1b348f1dc96eba72c947b4aef",
+          "bytes": 26600,
+          "sha256": "b883989362ef48d3d51ffae1121c1b98d35e6aa2a290c571da6295cd80474c89"
+        }
+      ],
+      "crcAndAllHashes": true,
+      "resultCount": 4055,
+      "resultBytes": 434549531,
+      "resultFingerprint": "40f14d8b93a4d8ff2b99bda9169d876b7cbc206da7a85ca754c5b8017be4ea65"
+    },
+    {
+      "outerName": "verified-deltas-c8af483.zip",
+      "outerBytes": 131597,
+      "outerSha256": "1e77d3ac202165367cdf4b3af6ea7e2f9aaf5598eaf17c4f6cf441d604039f0f",
+      "innerName": "DELTA-b1ee6d2-c8af483.zip",
+      "innerBytes": 71658,
+      "innerSha256": "6674c8a444684f90352e7f604d9ad187a40067a5cc78b3d80dc2ec8dafaa53f7",
+      "base": "b1ee6d2879154d70ea229ebdae2e3cc5bd67ef05",
+      "head": "c8af483edbb79fcb927111d1ad0017638fe27edb",
+      "entries": [
+        {
+          "path": "tools/google_drive_mirror/source-index.json",
+          "status": "modified",
+          "old_sha": "c3997206d7db60f45d95db659e54bfa1a6092f18",
+          "new_sha": "211e2df6a34aaac801fd9f67865f2900fe26d16b",
+          "bytes": 212819,
+          "sha256": "b7cee097b41209cb064a1ca45803cee5fef759b390d4b041e13b539fb4207022"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+          "status": "modified",
+          "old_sha": "0bb526351226f48215c3c5db84722b9110e5a299",
+          "new_sha": "9569a04b0d83a99c4fd8e7e97f28ede737741247",
+          "bytes": 6559,
+          "sha256": "be5e4f811b61f4ad92c6ced5a5624eee7a3b2bc01828e674d487d1248917f4a2"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第11輪_VOL051至055_CH0744-0826_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "3183c3336176e8c2009f2e359b7c2148dcef7a4c",
+          "bytes": 26894,
+          "sha256": "a1d0ebc41f1f735e888b69e1c3084ef673068a4015b27ebeeed8e821a6f62550"
+        }
+      ],
+      "crcAndAllHashes": true,
+      "resultCount": 4056,
+      "resultBytes": 434576877,
+      "resultFingerprint": "48d7a748af980d8fa60cb1f16cce4a2872c59d6cc14574387a4a19db0fe2d279"
+    },
+    {
+      "outerName": "verified-deltas-04474db.zip",
+      "outerBytes": 71594,
+      "outerSha256": "e0fa0ad1e75db0c283ba3e6cc87b5abcc621c12d3ab4311dec529c5b2765f91c",
+      "innerName": "DELTA-c8af483-04474db.zip",
+      "innerBytes": 71983,
+      "innerSha256": "d4c56b1b00dfa33dece95de2f11a0616240f8bb95ec78fc7455e51813ec3e003",
+      "base": "c8af483edbb79fcb927111d1ad0017638fe27edb",
+      "head": "04474db91ce20f6eba68ee146c52528828569e69",
+      "entries": [
+        {
+          "path": "tools/google_drive_mirror/source-index.json",
+          "status": "modified",
+          "old_sha": "211e2df6a34aaac801fd9f67865f2900fe26d16b",
+          "new_sha": "307fe827a9e48d59dd74c8c405ca06a74696a0e9",
+          "bytes": 213138,
+          "sha256": "0a140e5bcc01f2731a8aba4a4ad094ba2b2f9427ddd99968cd580a96fa88ab65"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+          "status": "modified",
+          "old_sha": "9569a04b0d83a99c4fd8e7e97f28ede737741247",
+          "new_sha": "16a38b81083a8deb263f4f2eb5a7ecaa15caef38",
+          "bytes": 6777,
+          "sha256": "1630b206c89fa1be4baffb4239cf3585caa2e893baa8a2f2617dcf7841387281"
+        },
+        {
+          "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第12輪_VOL056至060_CH0827-0910_五層跨卷獨立研究_v1.1_非正史.md",
+          "status": "added",
+          "old_sha": null,
+          "new_sha": "84eabbc94df705de0df872e3e8145b1a5ecfcfbc",
+          "bytes": 27241,
+          "sha256": "989d9e9e435f1b8c04136135aaa151eaa4f2005acbeb69b5c7832b11c130d7fa"
+        }
+      ],
+      "crcAndAllHashes": true,
+      "resultCount": 4057,
+      "resultBytes": 434604655,
+      "resultFingerprint": "e8d6758bc2a30180f0b79de21848efc1681e4ef47c03f6719b4377f188e8d878"
+    }
+  ],
+  "driveReceipt": "1lQxD4eWhEdyvkfWDYzKni6GYtBHmXEG8",
+  "gitTreeIndependent": [
+    {
+      "ref": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+      "count": 4043,
+      "bytes": 434321142,
+      "fingerprint": "11c889af29840e3bb6a6c32b8757fa4dfd7aef3a0927f2d2daf644cd984597cd",
+      "truncated": false,
+      "match": true
+    },
+    {
+      "ref": "b84d99a3eec18e28383b9d274b0537efd778a618",
+      "count": 4051,
+      "bytes": 434449236,
+      "fingerprint": "0aa04a0705970ba4c353da455e433b8c7d5d9bb9e34523e9bbd6ada2836b26a3",
+      "truncated": false,
+      "match": true
+    },
+    {
+      "ref": "ac42f26136771f315bfc8fc225cc8a5045334929",
+      "count": 4053,
+      "bytes": 434498019,
+      "fingerprint": "e740101a949e0ef6206ebbed4b6a75df68d0690425e219539872c9a792bde1ed",
+      "truncated": false,
+      "match": true
+    },
+    {
+      "ref": "b1ee6d2879154d70ea229ebdae2e3cc5bd67ef05",
+      "count": 4055,
+      "bytes": 434549531,
+      "fingerprint": "40f14d8b93a4d8ff2b99bda9169d876b7cbc206da7a85ca754c5b8017be4ea65",
+      "truncated": false,
+      "match": true
+    },
+    {
+      "ref": "c8af483edbb79fcb927111d1ad0017638fe27edb",
+      "count": 4056,
+      "bytes": 434576877,
+      "fingerprint": "48d7a748af980d8fa60cb1f16cce4a2872c59d6cc14574387a4a19db0fe2d279",
+      "truncated": false,
+      "match": true
+    },
+    {
+      "ref": "04474db91ce20f6eba68ee146c52528828569e69",
+      "count": 4057,
+      "bytes": 434604655,
+      "fingerprint": "e8d6758bc2a30180f0b79de21848efc1681e4ef47c03f6719b4377f188e8d878",
+      "truncated": false,
+      "match": true
+    }
+  ],
+  "method": "五外層Drive ZIP、六內層delta全部實讀，26筆變更逐項原件CRC/Git SHA1/SHA256/bytes與DELTA_MANIFEST相符。從第38輪基線清冊依base/head與old_sha重放，六階段各自與獨立未截斷Git樹的全量路徑+SHA+bytes+mode指紋吻合。沒有覆蓋原件或實際刪除歷史；未執行程式。只閉合至04474db。"
+}
