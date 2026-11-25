@@ -1,0 +1,230 @@
+{
+  "round": 26,
+  "head": "63af291d3c16576774c7a183e832254952e57329",
+  "method": "下載Drive現行完整原始WEBP bytes至容器，獨立計算Git blob SHA1（含blob標頭）及SHA256，與固定Git tree SHA1、bytes逐一比較。未另下載Git二進位，不稱獨立雙側SHA256。僅檔案完整性核驗，未進行圖像內容重讀。",
+  "count": 20,
+  "bytes": 24902966,
+  "rawHashDriveId": "1rMLJC2lW7vpT1GlBvTiKb_hDIaral_x4",
+  "files": [
+    {
+      "name": "101_博物館約會.webp",
+      "bytes": 1595826,
+      "gitSha": "979fef2dfdb2a65538f02fed0fb4ab40f713f69b",
+      "sha256": "9073e1ef05918d56b7d9372403b692e67ee5c9a4706b0c5953f7edcd3e404764",
+      "path": "小說/理惠/圖庫/原圖/101_博物館約會.webp",
+      "driveId": "1lqvdMVIAssgVm4TXHOjWud2FEcpK7Prh",
+      "expectedGitSha": "979fef2dfdb2a65538f02fed0fb4ab40f713f69b",
+      "expectedBytes": 1595826,
+      "verified": true
+    },
+    {
+      "name": "102_天文館約會.webp",
+      "bytes": 1519388,
+      "gitSha": "3addc9c8d3f9927c7d0ea53f308dda97c3aa47a7",
+      "sha256": "b8bd9a2d012e86af69bfe2c6873cc5f371c82b3a3db0e4402827d99b5217e24d",
+      "path": "小說/理惠/圖庫/原圖/102_天文館約會.webp",
+      "driveId": "1wRpQVPJHlVGElIlfox5ibW92_t_BKoF2",
+      "expectedGitSha": "3addc9c8d3f9927c7d0ea53f308dda97c3aa47a7",
+      "expectedBytes": 1519388,
+      "verified": true
+    },
+    {
+      "name": "103_觀景台約會.webp",
+      "bytes": 1386148,
+      "gitSha": "7401fa10eeea8a7d17ec85ae51dcb9a28b2842ac",
+      "sha256": "6e601df6dc59794431261e01d2e4c4b7897d880dfb71c615b07f98bfcd98297d",
+      "path": "小說/理惠/圖庫/原圖/103_觀景台約會.webp",
+      "driveId": "1YnQceAabwvSeMjbcuwgz1_S9kqeL8Von",
+      "expectedGitSha": "7401fa10eeea8a7d17ec85ae51dcb9a28b2842ac",
+      "expectedBytes": 1386148,
+      "verified": true
+    },
+    {
+      "name": "104_頂樓露臺約會.webp",
+      "bytes": 1468906,
+      "gitSha": "c5fe597b8078654e98aefea3c07931115e8dd8ad",
+      "sha256": "3491961d930c4ab29cc03a68d80d7edb8f3ec19d9cce9ee1a93886b2f3d71075",
+      "path": "小說/理惠/圖庫/原圖/104_頂樓露臺約會.webp",
+      "driveId": "1HiwhdC-YQdQLIODYkkd2N2LqGk3jiind",
+      "expectedGitSha": "c5fe597b8078654e98aefea3c07931115e8dd8ad",
+      "expectedBytes": 1468906,
+      "verified": true
+    },
+    {
+      "name": "105_溫泉約會.webp",
+      "bytes": 1380738,
+      "gitSha": "af882f3c1923cff1b51772a7c2a73cf584b0f203",
+      "sha256": "43d2a142eda2f4eb2abc6c97637f13a1300e3db8ef09f23013c5f6e39a577e90",
+      "path": "小說/理惠/圖庫/原圖/105_溫泉約會.webp",
+      "driveId": "1Wtq8p1NTfhxNqlH70nXidYR0XXesq_Vz",
+      "expectedGitSha": "af882f3c1923cff1b51772a7c2a73cf584b0f203",
+      "expectedBytes": 1380738,
+      "verified": true
+    },
+    {
+      "name": "106_棒球場約會.webp",
+      "bytes": 1550744,
+      "gitSha": "5e25f5cbc7acdc78daf79183f9726d22c4d12e20",
+      "sha256": "6b3611fcb0c51906d3dbc8b37bfe02d2f6d158e128abf22e850f71f9b33c7ad7",
+      "path": "小說/理惠/圖庫/原圖/106_棒球場約會.webp",
+      "driveId": "1rjHHZiIm-Oi8F7-Gh3iExfeoPce0pkka",
+      "expectedGitSha": "5e25f5cbc7acdc78daf79183f9726d22c4d12e20",
+      "expectedBytes": 1550744,
+      "verified": true
+    },
+    {
+      "name": "107_露營約會.webp",
+      "bytes": 1407856,
+      "gitSha": "ce686cfa584d410157bd33ed346ea0e1905d31fe",
+      "sha256": "59eeaf9c1bf3ee975b47549d48aa2b6021abbc5f780e7870a3eac882493899f6",
+      "path": "小說/理惠/圖庫/原圖/107_露營約會.webp",
+      "driveId": "1BmApgqXX46PRhP5hl67Uo6aYS7dgWlnX",
+      "expectedGitSha": "ce686cfa584d410157bd33ed346ea0e1905d31fe",
+      "expectedBytes": 1407856,
+      "verified": true
+    },
+    {
+      "name": "108_慶典約會.webp",
+      "bytes": 1395908,
+      "gitSha": "71bf081202573fe2cba7a2e76708540fb5d4a61d",
+      "sha256": "f4c647bef2707c5b028d56867615c19ea5e0fbddfb26dc0f2503839b48dde8be",
+      "path": "小說/理惠/圖庫/原圖/108_慶典約會.webp",
+      "driveId": "1WS23wllk7UQYvBJHbd5oftq3ek31AOT5",
+      "expectedGitSha": "71bf081202573fe2cba7a2e76708540fb5d4a61d",
+      "expectedBytes": 1395908,
+      "verified": true
+    },
+    {
+      "name": "109_室內摸胸_弱.webp",
+      "bytes": 1099682,
+      "gitSha": "422a64f0e7212d96de4c0556cd3e4eab8aeb70fe",
+      "sha256": "876f14444812dd5bfbb43cf254d9943c353a15ba72d8f1d35987afa1e21ded3a",
+      "path": "小說/理惠/圖庫/原圖/109_室內摸胸_弱.webp",
+      "driveId": "1QTt3njqpOMVND0aL07-XydRV2JwlQMmi",
+      "expectedGitSha": "422a64f0e7212d96de4c0556cd3e4eab8aeb70fe",
+      "expectedBytes": 1099682,
+      "verified": true
+    },
+    {
+      "name": "110_室內摸胸_中.webp",
+      "bytes": 1109314,
+      "gitSha": "f89f91cd6522f6cd417b76dc50a5f999632094d9",
+      "sha256": "cfa15f92026ac131cb0c520a443fede42250601dfdfde744ba4696624f6d0a35",
+      "path": "小說/理惠/圖庫/原圖/110_室內摸胸_中.webp",
+      "driveId": "1ggeDgtnetzYF8yiwrbsbQDRb8x-iKE1N",
+      "expectedGitSha": "f89f91cd6522f6cd417b76dc50a5f999632094d9",
+      "expectedBytes": 1109314,
+      "verified": true
+    },
+    {
+      "name": "111_室內摸胸_強.webp",
+      "bytes": 1073684,
+      "gitSha": "b644a683b35dde73b352dcdeb672ffd787798c96",
+      "sha256": "8fcfc2c18757289231c378a1e7efc94853285843165ec262c76dba341431efe7",
+      "path": "小說/理惠/圖庫/原圖/111_室內摸胸_強.webp",
+      "driveId": "19JcL-vQq4sRIUQC6W3MDO0hCIApMZZ4i",
+      "expectedGitSha": "b644a683b35dde73b352dcdeb672ffd787798c96",
+      "expectedBytes": 1073684,
+      "verified": true
+    },
+    {
+      "name": "112_室內摸大腿_弱.webp",
+      "bytes": 1061460,
+      "gitSha": "a349eb5d544da9c66e77009e591664bae587270b",
+      "sha256": "55fb034f36efdcac54e9edd29c2cadf7cbe0975b9342206a96712738c666dfe8",
+      "path": "小說/理惠/圖庫/原圖/112_室內摸大腿_弱.webp",
+      "driveId": "1Qq0JiieyNmh8JevHFPQkkdAO3n5khkv2",
+      "expectedGitSha": "a349eb5d544da9c66e77009e591664bae587270b",
+      "expectedBytes": 1061460,
+      "verified": true
+    },
+    {
+      "name": "113_室內摸大腿_中.webp",
+      "bytes": 1059154,
+      "gitSha": "47b8f9ef1cb192f44bb04269b1eedd4d9abc3ee0",
+      "sha256": "0f13cdcbe5b7e6f90f5a76a775fc72eaab54c35d8dab7d0106c98f447cfb9525",
+      "path": "小說/理惠/圖庫/原圖/113_室內摸大腿_中.webp",
+      "driveId": "1iIwQWPEQ5zMtIn7Xbadk0NORY4qEHQ6I",
+      "expectedGitSha": "47b8f9ef1cb192f44bb04269b1eedd4d9abc3ee0",
+      "expectedBytes": 1059154,
+      "verified": true
+    },
+    {
+      "name": "114_室內摸大腿_強.webp",
+      "bytes": 1036950,
+      "gitSha": "a979a52afd88e00c2787043bcc5aeeb4d7dc4a47",
+      "sha256": "df547372db1220edfc12e9d2297f21811ee5735817f629091e49844d56590cc8",
+      "path": "小說/理惠/圖庫/原圖/114_室內摸大腿_強.webp",
+      "driveId": "16xObWD1tvzLTWHu7zzqM6quj2Oz2evwN",
+      "expectedGitSha": "a979a52afd88e00c2787043bcc5aeeb4d7dc4a47",
+      "expectedBytes": 1036950,
+      "verified": true
+    },
+    {
+      "name": "115_室內摸臀部_弱.webp",
+      "bytes": 1079158,
+      "gitSha": "11cbae9c4dc3fc7553a0504974874464ddc13dc1",
+      "sha256": "eccf35b220feb91a052f501749df3c941171607f8535d8a1df0bfc3810c75cea",
+      "path": "小說/理惠/圖庫/原圖/115_室內摸臀部_弱.webp",
+      "driveId": "1uemyS5Eo_4-4UoSd-nT2wlVFdy0WNVHu",
+      "expectedGitSha": "11cbae9c4dc3fc7553a0504974874464ddc13dc1",
+      "expectedBytes": 1079158,
+      "verified": true
+    },
+    {
+      "name": "116_室內摸臀部_中.webp",
+      "bytes": 1003480,
+      "gitSha": "aba4ac4b665f37ff16ee4c542e75f2859355c11a",
+      "sha256": "a7cc45f10fbd42d02f717d50969d1f2e7488c3c6d01119bda0e9b252d899e5da",
+      "path": "小說/理惠/圖庫/原圖/116_室內摸臀部_中.webp",
+      "driveId": "1NArxjlf2DALUx9OhKhhjsaiivW_a5z7u",
+      "expectedGitSha": "aba4ac4b665f37ff16ee4c542e75f2859355c11a",
+      "expectedBytes": 1003480,
+      "verified": true
+    },
+    {
+      "name": "117_室內摸臀部_強.webp",
+      "bytes": 972504,
+      "gitSha": "f67c3666454aff7bcca7b993cacd7ce4222f47dd",
+      "sha256": "4452cf0bc2f865d39e251ef3955681cd41f95b4f7db07a3560349d9028268ca9",
+      "path": "小說/理惠/圖庫/原圖/117_室內摸臀部_強.webp",
+      "driveId": "1IH4uE4r0zPlVJ3uGC7tF4XXhQgC4PvPE",
+      "expectedGitSha": "f67c3666454aff7bcca7b993cacd7ce4222f47dd",
+      "expectedBytes": 972504,
+      "verified": true
+    },
+    {
+      "name": "118_室外摸胸_弱.webp",
+      "bytes": 1202538,
+      "gitSha": "644047a4595fdce03a64805e70874b88a28cec0b",
+      "sha256": "a48a3227932d5cfd52594403804289df5c7d33ee61721787cdb9c5f3c9b45cfa",
+      "path": "小說/理惠/圖庫/原圖/118_室外摸胸_弱.webp",
+      "driveId": "1zWs9JZWPMdk8l327oleQnqH_tIqI7ge8",
+      "expectedGitSha": "644047a4595fdce03a64805e70874b88a28cec0b",
+      "expectedBytes": 1202538,
+      "verified": true
+    },
+    {
+      "name": "119_室外摸胸_中.webp",
+      "bytes": 1258766,
+      "gitSha": "51cee7d40ee049ba49866dc3e6cf36728cb704b2",
+      "sha256": "a91df6fc756b999e18701603c5c14980c4a89af77a443a809b0dad2cc99bea23",
+      "path": "小說/理惠/圖庫/原圖/119_室外摸胸_中.webp",
+      "driveId": "1Kc1xErheRAQJh3AuZrTP5Eso8CkXG6Nf",
+      "expectedGitSha": "51cee7d40ee049ba49866dc3e6cf36728cb704b2",
+      "expectedBytes": 1258766,
+      "verified": true
+    },
+    {
+      "name": "120_室外摸胸_強.webp",
+      "bytes": 1240762,
+      "gitSha": "e127d8928b362f281a1a05853bc0b57c188b9e88",
+      "sha256": "be9f04ed1eb1b7c6af2f2a98c2365d146e9953aa487d12a35ef92eb7d9bd3843",
+      "path": "小說/理惠/圖庫/原圖/120_室外摸胸_強.webp",
+      "driveId": "1nsrjOE1RI409vuipHsKTeZ_joP5jb3FQ",
+      "expectedGitSha": "e127d8928b362f281a1a05853bc0b57c188b9e88",
+      "expectedBytes": 1240762,
+      "verified": true
+    }
+  ]
+}
