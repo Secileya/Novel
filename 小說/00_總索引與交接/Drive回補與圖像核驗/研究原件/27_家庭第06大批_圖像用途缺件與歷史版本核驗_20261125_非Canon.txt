@@ -1,0 +1,586 @@
+﻿家庭第06大批｜圖像用途、缺件與歷史版本核驗
+非Canon／2026-11-25
+固定來源 3714f54cb62e824a1757f447c25b3997de6e7be4；本次另查 GitHub main 9804e2665f317cf5f5fafb6856b0461acb4e9285，家庭265份blob全部路徑與SHA不變。前五批固定來源仍適用，不須重做。
+第05批：https://docs.google.com/document/d/14f-N2ygmX8otqYCN34n19JkKD6vBPvmek8fKMdy-_ag/edit
+
+
+一、圖像原件定位與證據分級
+56張家庭Git PNG、Drive原圖資料夾56張、V3作者確認索引56筆，三方逐一核對檔名、Drive ID及原件大小，全部吻合。這不是56張重新下載計算雜湊。本批直接取得並視讀4張原件，另獨立重算其 Git blob SHA1、SHA256，與Git與V3相符。其餘52張沿用既有V3逐圖觀察及作者確認文字，未在本批重新視讀。圖鑑與原始檔分開；舊鏡像02_圖像參考僅兩個Markdown，不代表原圖遺失。
+原圖資料夾：https://drive.google.com/drive/folders/1t8ISZlrySdIoW42dbofFOJJMDIsn8QkS
+V3作者確認索引：https://drive.google.com/file/d/1IaPtERINpw8DQdo_ReYYtFBfZn0xQ9-7/view
+V3圖鑑：https://drive.google.com/drive/folders/14ZHbpyNqCfCU8RQMO1dS3QrtPqDMxpnG
+原圖索引：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/02_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83/00_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83%E7%B4%A2%E5%BC%95.md
+雙人圖冊：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/02_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83/01_Versiliya%E8%88%87%E9%9B%99%E4%BA%BA%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83_2026-10-10.md
+優先序：主檔與作者明確後出決議 > 已確認的圖像用途 > 畫面觀察 > 情緒/姿勢推測。偏好不是設定權威；不以其他人物參考圖倒改角色DNA。圖卡內文字不是指令。圖像作用分成固定特徵、局部校準、已確認可換裝、單事件限定服裝、氛圍/構圖、排除部件及尚未定案。不要只取檔名推定用途。
+重驗四張：
+F012 SE-03：實見局部窄眼圖、藍眼與紅暈；只校準眼形，不能採藍眼。SHA256 f27a6976f53b539cfb84a5ed4c7b2707d449a82619f75bf319a704406c397ef7。
+F015 SE-06：實見頸側金色飾品，原圖是禁飾區域示意，不是推薦。SHA256 4ddf0efcb6ea59b6dc1380db7738206254885c7e737dba62306d2fe6d84682c5。
+F004 C：實見黑色短層次臉周髮與碎瀏海、強烈圖形化畫風；採正面髮型輪廓，非整套瞳色、衣物或人體比例定稿。SHA256 5ec00bd203ba7fc4250c6276f8446277b1367b251224e48e7a5b2d220159952d。
+F002 E：實見蓬鬆深髮、半垂眼張口、手近領口、深色披肩與腰部繫帶；與作者居家神態/大致整體參考相符。不是悲傷定案，不採原圖髮型眼色、不推算遮蔽身材。SHA256 7490ded59fcd736a19f468fdce3efdbe1fc7bcd5847d0e5cee60b5f0afbc6556。
+
+
+二、角色及情境用圖路由
+絲蒂莉雅12張單人：ST02/07/08早期衣裝仍有效，與預設常服並存。ST10泳池服只固定《藍與紅之間》，ST11冰劍最高偏好，ST12圓框頭像不鎖身形。銀灰睫、純藍眼、貓耳、藍紫翼按主檔。
+薇絲莉雅11張單人：A斜帽與雙側髮束、B無帽或小緞帶自然長髮都有效，最終預設待決。V09/V11不同原圖但同級最高偏好，V08高偏好，V10只固定泳池事件服裝。純白睫、紅眼、尖耳、黑緋翼按主檔。
+雙人18張：SV01服裝已確認；SV08及SV15高偏好；SV12同批重複非高偏好，SV13/14/18相似但不同，保留全部。SV17/18遺漏圖已補。科幻徽記、無人機不自動確立跨世界正史。構圖中誰主動誰害羞不固定人物關係。
+芙蘭7張：A神態、B黑髮質感危險氣氛、C+D髮型、E高相似整體兼生活神態、F/G身形輪廓補充；E/F/G描述同一人，排除未採服飾、瞳色和非狼耳等特徵。繃帶可拆；左眼已治癒。F/G不直接複製原人物尺寸。
+塞希莉雅6張：紫瞳色碼主色#6E00FF、陰影#4700A8、瞳孔#2A0066、高光#A65CFF。眼型局部藍瞳不能取色；頸飾示意是禁止項，不是配件。理想圖與頭像按用途分開。
+法月懷2張：HH01完整雙黑瞳非左黑右金；HH02四圖第3張已確認髮型主參考兼臉型，厚軟多層瀏海、小巧略修長臉、柔和臉頰收窄下巴；排除藍眼、花冠、珠寶衣飾，不把參考人物整套移植。純白髮與右前黑束、黑睫、三種眼狀態依文字。
+六人/七人/九人抱抱不同版本與圖片不自動對應；純家庭互動和成年伴侶互動須區分。泳池事件原圖對應F042/F051，只作該事件服裝依據，回第04批事件鏈。
+
+
+三、原件三方清冊（V3既有SHA256；本次非全部重算）
+F001｜Franiya_內層身形與襯衫貼合輪廓參考_2026-09-26.png｜205454 bytes｜Git 8503ceb94b214dc0600e3e88d87cf814312dfde0
+Drive https://drive.google.com/file/d/1GLkrmHTVqj3-ZLKHdH7vHDjLtqa0iUKD/view
+既有SHA256 666aa3bbac0cda9e8ef03646c62150e7ab8940acea8266f5e1bd5d956ee4576f
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第1頁
+作者確認用途：較少遮蔽狀態下的實際骨架、襯衫貼合、胸腰胯轉折、四肢與腿部輪廓
+使用邊界：不採用完整馬尾髮型、普通眼瞳、缺少狼耳等差異；肩／上臂環狀黑帶與吊帶結構明確排除
+
+
+F002｜Franiya_居家鬆弛與自然神態參考_2026-09-26.png｜613976 bytes｜Git f6030ccdd9ba03ae26e88ced3115efee079dea17
+Drive https://drive.google.com/file/d/1MenRaOPmDlarwHc2YLh35l5PXU1hcFnx/view
+既有SHA256 7490ded59fcd736a19f468fdce3efdbe1fc7bcd5847d0e5cee60b5f0afbc6556
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第2頁
+作者確認用途：高相似大致整體形象＋居家神態＋暗色層疊常服氣氛。除髮型與眼睛顏色外，臉型、臉部比例、眼型、皮膚質感、纖細輕盈的整體觀感都可直接參考
+使用邊界：髮型改依 C／D；眼睛改為深空藍紫色珠光銀河豎瞳。左眼繃帶可拆，因此 E 未戴繃帶不構成衝突。服裝遮蔽高，不拿 E 判定精確胸腰胯臀腿比例
+
+
+F003｜Franiya_平時氣質與表情參考_2026-09-22.png｜1497024 bytes｜Git 7fa125d45d6307e9ee43c93d073db0f4be4729e5
+Drive https://drive.google.com/file/d/105icyz4gZc0abCSvvyYrSQE98RVMF8AA/view
+既有SHA256 d2dd4b92707ea0e566c628db1195a58a62f6abf12ba9cbfc0e4461eadba2b99e
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第3頁
+作者確認用途：平時安靜、木然、低情緒幅度但清醒有焦點的表情基線
+使用邊界：不採用原圖髮色、眼色、帽子、服裝、醫療／血腥情境；不作髮型依據
+
+
+F004｜Franiya_正面髮型與臉部輪廓參考_2026-09-22.png｜502188 bytes｜Git 32fa07e65651b0ebff774d4c5b4924e0bf402929
+Drive https://drive.google.com/file/d/1YnS_H39mvvXvccnfH-wb0yI_SuHtFkP3/view
+既有SHA256 5ec00bd203ba7fc4250c6276f8446277b1367b251224e48e7a5b2d220159952d
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第4頁
+作者確認用途：髮型主基準之一：黑色臉周短層次、碎瀏海、正面輪廓
+使用邊界：與 D 合併判定，不單獨推導未顯示的側後髮束細節
+
+
+F005｜Franiya_貼身戰術服身形輪廓參考_2026-09-26.png｜3600381 bytes｜Git 7e74cf6f7608744760e88839943696890f7499fe
+Drive https://drive.google.com/file/d/1P0GnW2BOFFrKiMy2YNpnjeiAmjVmYTOP/view
+既有SHA256 38ca4712b8103b6d2f893a90c546d3c33f10d5a52125ebeb2f94416de117e115
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第5頁
+作者確認用途：貼身戰術服下的完整全身輪廓、小骨架、細腰、修長四肢與腿部比例
+使用邊界：原圖胸部、胯腿成熟感、整體尺寸與性感程度都要收斂回芙蘭妮雅既定的「成年但偏少女系、纖細輕盈」基準；不採用面罩、機甲、外骨骼與青色發光裝置
+
+
+F006｜Franiya_長短分層與動態髮束參考_2026-09-22.png｜4178368 bytes｜Git 03bd30abab34d519183f54828a35b344083b9398
+Drive https://drive.google.com/file/d/1AkibjJRXB1yGYcd4Tv2thscUlfPcrbsU/view
+既有SHA256 46c9ec50ee43e23e2a7202d665b5ca8f4d48da6a8995bfa70d0e698c713f0a78
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第6頁
+作者確認用途：髮型主基準之一：左右側後各一束較長髮束、長短分層與動態方向
+使用邊界：兩束長髮偏細但有足夠髮量與存在感；精確固定方式與尾端長度仍未鎖定
+
+
+F007｜Franiya_黑髮質感與危險氛圍參考_2026-09-22.png｜2656205 bytes｜Git f73e0577afb744867536fe74d60a5a8bb4b3a212
+Drive https://drive.google.com/file/d/1BMryNy4V_0biHO_3M54kRDOkuZO7fxNx/view
+既有SHA256 66f110eb9cfbe6fd773ff3b5e4b89061823ed324b94f5132519ace1279b38275
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第7頁
+作者確認用途：黑髮在低光下的冷藍／冷紫反光、沉靜臉部與近身刀具帶出的危險感
+使用邊界：不採用原圖紅眼、哥德服、玫瑰、血跡、完整髮型與具體刀具設計
+
+
+F008｜Hozuki_Huai_完整黑瞳神態參考_2026-10-10.png｜2142487 bytes｜Git 72ea89dcb142a83ad5875c21bfb307b812fb6f98
+Drive https://drive.google.com/file/d/1mT2D-6ggIMB3sWdyt-h2-LP3x8YrVGw7/view
+既有SHA256 d4aee6e64ef1a9c011875324214659d89697fd5ee92a2d035a8739f402f87749
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第8頁
+作者確認用途：使用者指定的完整黑瞳圖像：雙眼皆黑、天然黑睫、純白長髮與右前方黑色髮束；亦可參考半垂眼、淡笑與短暫玩心
+使用邊界：不是左黑右金的金黑交融眼；不從單張圖固定紅色耳飾、手勢、衣型或畫面左上角的局部殘片；兩種眼睛狀態仍依主總檔 4.4 判定
+
+
+F009｜Hozuki_Huai_髮型與臉型主參考_四圖第3張_2026-11-17.png｜5372325 bytes｜Git 8c44a97755136a41f4d493d56335977c3c38af74
+Drive https://drive.google.com/file/d/1RZNPn50fcugAodOw62ZPkoTPuUGYKrdA/view
+既有SHA256 0dfcfdf97a23b3adb697d16e5c647eaab4da55daad16f4e354642e489943ea8c
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第9頁
+作者確認用途：使用者確認即先前四張髮型參考中的第 3 張；以豐厚柔軟、多長短層次、具空氣感的瀏海為主要參考，本次亦確認臉型可取：小巧略修長、臉頰柔和、下巴自然收窄；臉側自然髮束及局部微彎可參考
+使用邊界：不取藍眼、藍花冠、服裝、珠寶或光影偏色作固定 DNA；不把它當整套法月懷定稿。不因避免封閉圓殼「妹妹頭」而削薄瀏海；純白長髮、角色右前方深黑髮束、細長純黑天然睫毛、三種瞳色及自然無妝規則仍依主總檔 4.4
+
+
+F010｜Secileya_標準圓框頭像_2026-09-13.png｜1697455 bytes｜Git eb4dba5cbf8e412d8b020d818f814520608fcfcf
+Drive https://drive.google.com/file/d/18RSGQTWU9mpNAfeZAbLpRq7GGMqV5hjq/view
+既有SHA256 593dc4dc504c01550ad270a53007c1cbf48415067149cdb00b46ef39c1fda211
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第10頁
+作者確認用途：穩定頭像比例、臉部與眼神校準
+使用邊界：不取代完整身形與服裝設定
+
+
+F011｜Secileya_理想圖像參考_2026-09-13.png｜2643101 bytes｜Git 45be7e43f82f53e0d40082829777e70ac8152041
+Drive https://drive.google.com/file/d/10KBI5-kiJds3hBR_YXx6CYSbTW5tmyMS/view
+既有SHA256 1a51c12ff8cb6a08333e729f41a95cc54fea409c5fdd538a480e2f9ac3f54cf3
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第11頁
+作者確認用途：整體外貌、金色超長髮、亮紫眼、精緻年輕女性氣質與代表性視覺方向
+使用邊界：仍以主總檔 4.3 與 7 章文字規則優先，不因單張圖自動新增飾品或設定
+
+
+F012｜Secileya_眼型參考_2026-09-13.png｜25773 bytes｜Git 76895920e84c3fc87476f1f0aab547dfbb5a5b94
+Drive https://drive.google.com/file/d/13mcAwTyGTpscY6ywlTUfL_jUuyVcskK8/view
+既有SHA256 f27a6976f53b539cfb84a5ed4c7b2707d449a82619f75bf319a704406c397ef7
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第12頁
+作者確認用途：眼型、睜眼幅度與視線方向的局部校準
+使用邊界：眼睛固定為高飽和亮紫／紫水晶方向，不能因參考裁切改色
+
+
+F013｜Secileya_紫眼順睫修正版_2026-09-13.png｜2232172 bytes｜Git abf9dd121cf5d3d82260a37a829fa75a45229c8a
+Drive https://drive.google.com/file/d/1X_AvdM0tTaP6P82AfdW9F_OOSUIPGI7t/view
+既有SHA256 e9bc0e0f986e2a81103a63ec2c2ec107f867048cf5589c125b3d47df580da3d4
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第13頁
+作者確認用途：紫眼與睫毛方向的修正版視覺校準
+使用邊界：睫毛與眼色仍須服從主總檔最新固定文字
+
+
+F014｜Secileya_臉部氣質氛圍參考_2026-09-13.png｜2295747 bytes｜Git 972cb12057697b9500bb4cc80c9ceeca484b8742
+Drive https://drive.google.com/file/d/1OKAHBoA-1UxLCIp0RFfIUZUs_JSOqcoY/view
+既有SHA256 46ae07f05c14e6e9a519b29b2b183fa744253a93d2fd855a07d0b1de2f43d014
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第14頁
+作者確認用途：臉部氣質、漂亮感、從容與不可捉摸感
+使用邊界：不把單張表情硬化成固定表情模板
+
+
+F015｜Secileya_頸部禁飾區域參考_2026-09-13.png｜14833 bytes｜Git 5be10b8b971c2f518a64844c5ad58d24f2a72107
+Drive https://drive.google.com/file/d/12p803FB8yRTkTgqH2LGgTlTa-qVbf3_x/view
+既有SHA256 4ddf0efcb6ea59b6dc1380db7738206254885c7e737dba62306d2fe6d84682c5
+圖鑑：01_家庭原圖與作者確認V3.pdf｜第15頁
+作者確認用途：明確標示不應加入固定頸部飾品／頸飾的位置
+使用邊界：只作禁飾與構圖校準，不新增服裝部件
+
+
+F016｜Stiliya_Versiliya_咖啡館逗弄構圖_2026-10-10.png｜2827229 bytes｜Git 956bdca01f360f419cc2c94c528f6423064d344f
+Drive https://drive.google.com/file/d/1lmSPhEmU4B3Ll6jznkNsBlkQdJy3d6Gg/view
+既有SHA256 03a58821eb929dd39f2b5ceb0e398343e6b49234cc40f84290f9d33f80bf3043
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第1頁
+作者確認用途：咖啡館、甜點、貼近逗弄與細膩夜色氛圍；菜單文字不作設定。
+
+
+F017｜Stiliya_Versiliya_室內貼近逗弄_2026-10-10.png｜2552841 bytes｜Git 9d960859ba7c81da38a9cdaa82a7b3ee83f8ea47
+Drive https://drive.google.com/file/d/1bj4fsAojsMSEORREQSmpffagEFZFmTvt/view
+既有SHA256 974a0e374de7e0a9a29cadef16650cd11d720424d31aa558d9d0eb7f1ad620bf
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第2頁
+作者確認用途：薇絲莉雅主動靠近、指尖逗弄與 Stiliya 害羞反應的雙人節奏。
+
+
+F018｜Stiliya_Versiliya_斜帽摸頭雙人圖_2026-10-10.png｜2683681 bytes｜Git 322ee91a25ace24992d4e4f9c004557aa38c8192
+Drive https://drive.google.com/file/d/1yvvJp6-2l_eitKAEb2KRs_vDgUBR5eNJ/view
+既有SHA256 afd796225fb160e16f17512975aa8f8e546ed38809fa8746e9f4f2f5f81cf37b
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第3頁
+作者確認用途：A 模式薇絲莉雅與 Stiliya 的摸頭關係構圖；可取照顧、依賴與親密姿勢。
+
+
+F019｜Stiliya_Versiliya_既有服裝雙人參考_2026-10-10.png｜2578649 bytes｜Git 052ffd4be0f73269967dbcf252d7ff66d1ff7b03
+Drive https://drive.google.com/file/d/1c1-0H25xGPo7GrW3nZ_OUW9gzGpPK-Ze/view
+既有SHA256 2b5498d7ac1ad9bd12e570e935406f78ef0528002935f5847f04645fbfb1094c
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第4頁
+作者確認用途：絲蒂莉雅白黑金與薇絲莉雅黑紅金的兩套使用者既有設計；雙人並列配色、輪廓與服裝氣質
+使用邊界：直接確認服裝，不單獨固定兩人表情、姿勢、背景文字或薇絲莉雅鐮刀的全部局部設計
+作者確認用途：薇絲莉雅黑色主體、深緋紅、克制金飾、黑色大腿襪的既有服裝，以及與絲蒂莉雅並列時的視覺對照
+
+
+F020｜Stiliya_Versiliya_森林正裝並立_2026-10-10.png｜2689289 bytes｜Git 69d1329b69cc460bbedf91c55f17f2d7f02180fb
+Drive https://drive.google.com/file/d/1jPw-fMRlwoU36LVoYMTD_U9SHWi2020W/view
+既有SHA256 b764a51c616a12b4a26d56e8a0130b53639a8ccbde26b5682ea500d72f6d9270
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第5頁
+作者確認用途：黑紅／白黑正裝並立、兩人輪廓與配色對照。第一批中同檔重複屬附件覆蓋狀況，不作高偏好判定。
+
+
+F021｜Stiliya_Versiliya_溫泉構圖草圖_2026-10-10.png｜1911812 bytes｜Git aa460fbdd7bcac0740c8a401dc66a2bacc475721
+Drive https://drive.google.com/file/d/1fzmMc3zyycm5T1efF7l7VJvV96QAOOIT/view
+既有SHA256 033cc3bdd6204b22cca00566ffdbe10b437927ea668f4fa9142cc5119ce8fa27
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第6頁
+作者確認用途：溫泉／泡澡並坐、持杯與一喜一睏的構圖草案；只取情境節奏，不作精確外貌基準。
+
+
+F022｜Stiliya_Versiliya_紅藍科幻世界線造型_2026-10-10.png｜2403927 bytes｜Git 283b0bf58b2876416299de4479251d0062f87408
+Drive https://drive.google.com/file/d/19SIXWHZAvGoXC7ozghoxJJGfTc2F86-u/view
+既有SHA256 1c97ce82363a0b69a28407317096cf58f7551d29ce57193c8cd51c36ae75bd5f
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第7頁
+作者確認用途：紅藍對照與科幻情境換裝；徽記、無人機與組織只屬畫面／候選世界線，不自動進入共用正典。
+
+
+F023｜Stiliya_Versiliya_綠色冬衣擁抱_2026-10-10.png｜2187801 bytes｜Git 26d25f44203e601cbb123c2b077a6a17492cbb02
+Drive https://drive.google.com/file/d/1AjreIi4rm49Rbn91Gfzx8FDUTj0P31CK/view
+既有SHA256 84d0814646b2c1240d8ea3f1a8c51f19e6e66f4987438073d71e3fa79b30dd85
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第8頁
+作者確認用途：厚冬衣、抱緊與摸頭的生活感；綠色外套是情境換裝。
+
+
+F024｜Stiliya_Versiliya_臥榻鐮刀雙人圖_01_2026-10-10.png｜2806364 bytes｜Git 2f191a3c08785a90787dc086faf0b37fe1f8510d
+Drive https://drive.google.com/file/d/1sHvrcWMgV1c0Kd4CwFF7pmIbJOmYzNWy/view
+既有SHA256 1939aa2b7fb7ba6b19ca29721a623cd5e8b876afc6416dc6c170579d6f5e73ca
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第9頁
+作者確認用途：臥榻、摸頭、貼近與鐮刀的雙人構圖；本輪完全相同地再次選中，屬高偏好。
+
+
+F025｜Stiliya_Versiliya_臥榻鐮刀雙人圖_02_2026-10-10.png｜2835931 bytes｜Git 8f4abfab5d928de5d66a6948230c72b0f6ddc430
+Drive https://drive.google.com/file/d/1gmCkEEwcVhLXQ-bqHHrmc-XqGVjnsziW/view
+既有SHA256 227ab1df8065e989aec2d71dea8bb0a3863deebac9c62ef05233152ef1616c8b
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第10頁
+作者確認用途：與 SV-15 相近但角色位置、姿勢與畫面重心不同；不是重複檔，獨立保留。
+
+
+F026｜Stiliya_Versiliya_逆光側面並立_01_2026-10-10.png｜2300488 bytes｜Git ee09e5ecb4c66a7b4fb1be4f2262ac5e23ccf326
+Drive https://drive.google.com/file/d/1633hoPmmTRERN825zv1xQxo9f8VrzEkz/view
+既有SHA256 89e22cf33ef9b46ac91ae6e15ac046dcb866f13aa2cbeec64e0452c00483da1e
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第11頁
+作者確認用途：柔亮逆光下的側面並立與安靜共同凝視。
+
+
+F027｜Stiliya_Versiliya_逆光側面並立_02_2026-10-10.png｜2384882 bytes｜Git 9698665733237285fcfc8689d236ca180b62132f
+Drive https://drive.google.com/file/d/1f-wZqH_YV020moGSxZ8IleJydjEPOQ8n/view
+既有SHA256 4366c1a208912e621dda9cc6df0b2d366695e4bb002ba27e9d7fe171d25df923
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第12頁
+作者確認用途：與 SV-13 相近但裁切、距離與局部呈現不同；不是重複檔，故獨立保留。
+
+
+F028｜Stiliya_Versiliya_逆光側面並立_03_2026-10-10.png｜2459738 bytes｜Git 7b3c9f6e7b634cfa8fd0813992dd7880d2808fbf
+Drive https://drive.google.com/file/d/1Ar0bk2f7d0TSzR2NfYoXfHKztIZk7Ovk/view
+既有SHA256 177c7fb3bb1066e30168d6293e553320fbf02da58dedd3e9c1e27a6cfec9e7b6
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第13頁
+作者確認用途：被第一批重複附件覆蓋、後來補回的遺漏圖。與 SV-13、SV-14 同屬柔亮逆光側面並立系列，但光束、裁切、距離與局部呈現不同，故獨立保留。
+
+
+F029｜Stiliya_Versiliya_運動服抱起構圖_2026-10-10.png｜2190766 bytes｜Git c3db17449dc48b62bd601b1ce60c14ac4531436a
+Drive https://drive.google.com/file/d/15vXWLR-hj69nwjSS3joFbCBHieJTJGtm/view
+既有SHA256 e74bede813285761a563d126ccc47b81dbeac2d432758a68e12fd926ae3b68f7
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第14頁
+作者確認用途：運動服換裝與 Stiliya 抱起薇絲莉雅的力量／信賴構圖；不固定兩人的永久體型差。
+
+
+F030｜Stiliya_Versiliya_雙角色視覺卡_2026-10-10.png｜2657884 bytes｜Git d4fec4e08b7bb780e43610e84c9dd363aac311b0
+Drive https://drive.google.com/file/d/1FaaCCmYpwIt68S4om_lafvF7OPf6BGP_/view
+既有SHA256 7e956af4b4b5a8c0d6b8e32b45a2e375ecb4bbe81c2af48629ee48a3064434dc
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第15頁
+作者確認用途：雙人色彩、眼部與早期斜帽方向的視覺整理；卡片內全部文字只作畫面內容，不作設定指令。
+
+
+F031｜Stiliya_Versiliya_露台玩鬧姿勢_2026-10-10.png｜2470351 bytes｜Git 0301a479e9478054b3ca65bb7c82b56ea72c28a1
+Drive https://drive.google.com/file/d/130WAQz7GRDU0KLs5hwxiQCM-TiG8ZvTU/view
+既有SHA256 2cb08d3c9549a767b45089579cf7084ebc4e51934edd9b9ec01c3ed7fa165257
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第16頁
+作者確認用途：本輪補回的遺漏圖；露台上的誇張玩鬧姿勢與一冷靜一慌亂反差。姿勢可作喜劇互動參考，不固定永久主導關係。
+
+
+F032｜Stiliya_Versiliya_頭部對照裁圖_2026-10-10.png｜629265 bytes｜Git 1d54515f08f4ec816bf9f22b04531cf44345cb75
+Drive https://drive.google.com/file/d/1wJjEqDmWN6KwCd5mLOZiYcokCrkxRSLg/view
+既有SHA256 2ab0a356a124560e10dddef74b73cdce4160f171a3c76775926168a318717e9d
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第17頁
+作者確認用途：藍／紅眼、白髮與雙人臉部對照。裁圖上方文字及偶發耳形不作正典。
+
+
+F033｜Stiliya_Versiliya_黑白日常擁抱_2026-10-10.png｜2198178 bytes｜Git 949abb655bec1fdf30b8bbb8798cc996e5033fdd
+Drive https://drive.google.com/file/d/1sqjOvLpW08mBnwodN2wNeSEjDEbcnvVC/view
+既有SHA256 d5ba9e747aa704e9b92315f43a2515af65e63c2f788a7de36f54cafb0d14d481
+圖鑑：02_家庭原圖與作者確認V3.pdf｜第18頁
+作者確認用途：黑白日常服、環抱與摸頭；本輪完全相同地再次選中，屬高偏好雙人構圖。
+
+
+F034｜Stiliya_冰劍個人圖_2026-10-10.png｜2842984 bytes｜Git 3ad91a80963780d02c902cfded8bc73efede3a95
+Drive https://drive.google.com/file/d/1DXt91l8pd-a-zdlTOv-Ujflxka4aJhWQ/view
+既有SHA256 72e56ea23c25c152060dde9b3a0165b5b62313cd1ac1c079e65cf2a2de545ef9
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第1頁
+作者確認用途：最高偏好層級個人圖：冰晶環境、持劍構圖、平靜注視與白黑藍配色；本輪被完全相同地選中兩次
+使用邊界：保留 Stiliya 的文字硬規則；冰劍外形不因此成為唯一太刀設計
+作者確認用途：使用者明確指出的最高偏好層級 Stiliya 個人圖，且本輪完全相同地選中兩次。取冰晶氛圍、持劍構圖、平靜注視與白黑藍配色；劍的精確造型不因此成為唯一太刀。
+
+
+F035｜Stiliya_寬鬆上衣居家造型_2026-10-10.png｜1769383 bytes｜Git 443bf2babde3e9234b55beea686641d841ff5eb0
+Drive https://drive.google.com/file/d/1xiRAIvR3zCkQ52zZ-45mcoB-ihxgwSfD/view
+既有SHA256 cedd5be00cecebc3072ee1d38cea1c0f4280f6c5641ad4768cd507e2ca5e1fc2
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第2頁
+作者確認用途：寬鬆灰色上衣、剛醒／睏倦與私人空間神態
+使用邊界：是有效居家換裝，不升格為預設睡衣或原始日常服
+
+
+F036｜Stiliya_戶外外套笑容造型_2026-10-10.png｜2459052 bytes｜Git 1a84692aabe0b8ce9810fe5ad8f8ff9e27638ef4
+Drive https://drive.google.com/file/d/1AhOqHVF2pMzFKEYXtyieQzu5IQWO1tbf/view
+既有SHA256 9e88fa5b2a92344556eb92ba1318f90cf81770d33e904c0bad17e046a5a434d6
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第3頁
+作者確認用途：白色上衣、黑色外套與戶外閉眼笑容
+使用邊界：原附件第 10 張是此圖的重複檔，未再入庫；月形項鍊不自動成為固定配件
+
+
+F037｜Stiliya_抱枕笑容居家造型_2026-10-10.png｜2219660 bytes｜Git 958a9b4b09119754582ce66918027347dabf07d7
+Drive https://drive.google.com/file/d/1Qwt5HvG1peXf0ZhK12jlGa8QxDMoNq9e/view
+既有SHA256 2c241abb783c24f118b49abf4340350d62df72e33158eece0190cbf4ac26808f
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第4頁
+作者確認用途：抱住柔軟物件、直接笑容、親近安全空間中的放鬆反應
+使用邊界：紫色抱枕、髮飾細節與畫面比例不是永久固定配件／身材數值
+
+
+F038｜Stiliya_早期既有服裝參考_01_抱膝_2026-10-10.png｜2276353 bytes｜Git 7f04880bcfec37e829a19b4cc25c4e03fd5c44b5
+Drive https://drive.google.com/file/d/1hVi0RghdwmZGkvwJ-SANBWQUh1mvIgy0/view
+既有SHA256 fcb71fa6e9e96a36c73178fd8fbc19908d561ec11173588557312d88115e8c97
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第5頁
+作者確認用途：較早既有服裝 01：白黑層疊剪裁、黑色緞帶與抱膝坐姿
+使用邊界：與目前常服並存，不是已作廢舊衣，也不單獨覆蓋其他兩張較早服裝圖
+
+
+F039｜Stiliya_早期既有服裝參考_02_白色層疊裙_2026-10-10.png｜2390374 bytes｜Git c0d58d469210f595540531277f5e35bd8192f6d4
+Drive https://drive.google.com/file/d/1qLLEMSIjRDXC8DMf3jQLKkZ6qhb2MtKT/view
+既有SHA256 46af249406fb996740fd327e8dc7f98d80505b91d42fc91c769c6b984fc03d2c
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第6頁
+作者確認用途：較早既有服裝 02：白色層疊裙、黑色束帶／緞帶與白色長襪
+使用邊界：與目前常服及 ST-02、ST-08 並存；不因畫面剪裁差異擅自合併或否定其中一張
+
+
+F040｜Stiliya_早期既有服裝參考_03_都市坐姿_2026-10-10.png｜2573352 bytes｜Git 45546e6463b6cd380a8af9745d741f591fae0acd
+Drive https://drive.google.com/file/d/1F-aIuetl9hiMlUUspCNZAd8Ixmfoj3UM/view
+既有SHA256 ea1f2a2e4f087c2a4b34bdfbead78a485258a95c607334a188946bf3dc9aaf25
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第7頁
+作者確認用途：較早既有服裝 03：黑白層疊裙裝與都市室內坐姿
+使用邊界：城市背景不自動建立正式世界線；服裝仍是有效既有服裝
+
+
+F041｜Stiliya_標準圓框頭像_2026-10-10.png｜1898271 bytes｜Git 99ed5e20807db1b382788ba4627c5e11322f6f4a
+Drive https://drive.google.com/file/d/1pLd9WIzFrppc2xFgCqHWbiHy9whw619d/view
+既有SHA256 96e23b6094381c7236f0aa31137602cb2512b07f580de42f6802590b8bb8012f
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第8頁
+作者確認用途：使用者指定的 Stiliya 頭像；Q 版臉部識別與安靜、微睏的神態
+使用邊界：簡化畫風不覆蓋完整身形、髮長與服裝細節
+作者確認用途：使用者指定的 Stiliya 頭像；用於 Q 版圓框頭像、臉部識別與安靜微睏神態。簡化畫風不覆蓋完整身形。
+
+
+F042｜Stiliya_泳池事件白藍連身泳衣_2026-10-10.png｜2895765 bytes｜Git bfa64d88037330cce8eaa4894ea8758304096c53
+Drive https://drive.google.com/file/d/1gGi3FIcFaMk-LlwzBtVzKI-OHvUGrcSc/view
+既有SHA256 5bcb461a09006898ba0d2b1f526bd687074f7aa88785a58191d6abd41db6b8d4
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第9頁
+作者確認用途：《藍與紅之間》泳池互動的直接服裝依據：白藍色連身泳衣、藍色領結、藍邊與側腰繫帶
+使用邊界：只固定該事件服裝；不自動成為所有游泳場景的唯一泳裝，也不覆蓋平時服裝
+
+
+F043｜Stiliya_黑白短裙日常造型_2026-10-10.png｜2323992 bytes｜Git bb99b3f11564e942f52ad7c4834dbd8d02469e3b
+Drive https://drive.google.com/file/d/1VYxJQ3TB_i7wgCNcTC1C45vchGt6PmQG/view
+既有SHA256 f7137497cfad1cad263c273ac559192b4261b8edf95e5c414c77d9467db112ab
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第10頁
+作者確認用途：白襯衫、黑色層疊短裙、克制金邊的日常換裝與全身站姿
+使用邊界：是另一套有效換裝，不升格為原始日常服；也不把圖中每個飾品、裙長或姿勢變成唯一規格
+
+
+F044｜Stiliya_黑白結構服裝造型_2026-10-10.png｜2451782 bytes｜Git ef9f0fcb71a1897c0a6d5baf51dd69ccb27a2531
+Drive https://drive.google.com/file/d/1QPBrQl476f6oWOJAYaZ-QiL9-pmMPRjN/view
+既有SHA256 ee56545fd97f9615faf90b531264e490750c431a4b5e576051ce905815086c01
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第11頁
+作者確認用途：黑白結構服裝、坐姿與較明亮注視
+使用邊界：是情境換裝；不帶入背景設備的世界觀或被替換人物設定
+
+
+F045｜Stiliya_黑色旗袍造型_2026-10-10.png｜2197691 bytes｜Git 903806201cbe8a72e470ed7565d8b2fee1642eb1
+Drive https://drive.google.com/file/d/1iXLrivmjSmAOpg__r5w_LMiAYEZAbWZw/view
+既有SHA256 e1a125e4b0ea4db622eafb40ddc34bbad33de50e31979fdb7415845b80735e7d
+圖鑑：03_家庭原圖與作者確認V3.pdf｜第12頁
+作者確認用途：黑色旗袍情境換裝、委屈／羞惱式表情與抓住裙擺的動作
+使用邊界：不把旗袍改成預設常服，不把畫中誇張曲線或服裝開衩幅度回寫為固定身材／固定尺度
+
+
+F046｜Versiliya_冬日圍巾哥德造型_2026-10-10.png｜2537398 bytes｜Git 99bbf00e5fecaa86c9fbfa0e18128ab538310aef
+Drive https://drive.google.com/file/d/1GJLsBSKP2ZaQOnsGD1W__ywtCP_jfKlj/view
+既有SHA256 a78980a0fa998808ae8ce4b7dde5a7e85e6ef744f7094838da514bf7760aed93
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第1頁
+作者確認用途：B 模式冬日情境：圍巾、黑紅哥德服與冷色廢墟光影；不把背景固定成世界觀。
+
+
+F047｜Versiliya_咖啡桌側倚個人圖_2026-10-10.png｜2310363 bytes｜Git 2218f5a34f9ffa9715f6fe4e13a1975d7f33401f
+Drive https://drive.google.com/file/d/1_vcVyrzMmH7HQLKTQcmmZshmXRsaz98Z/view
+既有SHA256 e320d4a6119af326731c136379b9ee70b15b8825f3a455ae8740e5ab1b5381f3
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第2頁
+作者確認用途：後期無帽／自然長髮模式與日常慵懶玩心；相同檔案本輪出現兩次
+使用邊界：高偏好；不把飲品與戶外場景固定成常設元素
+作者確認用途：B 模式個人圖；本輪被完全相同地再次選中，屬高偏好。可取慵懶貼近鏡頭、日常飲品與自然玩心。
+
+
+F048｜Versiliya_小斜帽白黑哥德造型_2026-10-10.png｜2401573 bytes｜Git f040f2c14e7030be3faebf672c4d692c51f357ba
+Drive https://drive.google.com/file/d/1hXTKS2eVc5uU42FBAOW7YXpPCwSXmiOw/view
+既有SHA256 3f69630e452c5dc221c7f5d3be294dbde8f8b848b7110606e39d1ef6330da90b
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第3頁
+作者確認用途：早期模式的小型斜帽、雙側髮束與白黑哥德換裝
+使用邊界：帽型與衣服只依對應畫面使用，不壓成唯一日常服
+作者確認用途：A 模式核心參考：小型斜帽、雙側髮束、白黑哥德換裝與手機姿勢。
+
+
+F049｜Versiliya_斜帽雙側髮束居家造型_2026-10-10.png｜2078015 bytes｜Git 688e88b88fa28bcd2fb74942d34097c64b36273b
+Drive https://drive.google.com/file/d/1NEAo-rTk_bWadjkMnwk1S-CPZGLbhmsw/view
+既有SHA256 1548723252b371e340107140143479573a53c201e85837308d066c619aac0269
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第4頁
+作者確認用途：早期斜帽＋雙側特徵髮束模式的核心證據
+使用邊界：是仍有效的設計，不因後期無帽圖增多而作廢；居家上衣不固定成睡衣
+作者確認用途：A 模式核心參考：小型斜帽、左右兩側特徵髮束與寬鬆居家上衣。服裝不升格為固定睡衣。
+
+
+F050｜Versiliya_標準圓框頭像_2026-10-10.png｜2180408 bytes｜Git 41e7a177ca2128bdf398629304bb5c4dc382ff6c
+Drive https://drive.google.com/file/d/1lttUsKUF3GI4H4H3i05yTcbFCkwBvlg_/view
+既有SHA256 c3c69aa25e56dcf1b79846fe5d139b025a252f42b2c4aaea160abd80d1251f77
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第5頁
+作者確認用途：Q 版頭像與臉部識別
+使用邊界：簡化畫風不覆蓋完整身形；尖耳、白睫與紅眼仍依文字硬規則
+作者確認用途：Q 版圓框頭像與臉部識別；簡化畫風不覆蓋完整身形。
+
+
+F051｜Versiliya_藍與紅之間紅黑頭飾服裝_2026-10-10.png｜2196104 bytes｜Git fb2715c9682bcf2e5614b332c6df7fb49bc280ec
+Drive https://drive.google.com/file/d/10OkREfBoZOQS944Hz3abAE_DB7fCdnBB/view
+既有SHA256 8fecb8a91a048d5eb90e544d4ea1c840714c0c1a08e9c1d67832009f21c442e9
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第6頁
+作者確認用途：《藍與紅之間》事件服裝直接依據：巨大非對稱紅黑頭飾／垂布與黑紅服裝
+使用邊界：只固定該事件，不等於日常 A／B 模式的最終選擇
+作者確認用途：《藍與紅之間》事件直接服裝依據：巨大非對稱紅黑頭飾／垂布與黑紅服裝。只鎖定該事件，不自動成為日常預設。
+
+
+F052｜Versiliya_開朗笑容與拇指姿勢_2026-10-10.png｜2705860 bytes｜Git 8d4bbce91de07c23f6e396497393ed606cdab7eb
+Drive https://drive.google.com/file/d/1IKi4fuFMjl39U5NUdU4LVB9cNGeI_c0d/view
+既有SHA256 35e1579de73c058d25056ed85481915559d668e65d62d4669a52aff7250a47c7
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第7頁
+作者確認用途：直接燦笑、露小尖牙與拇指姿勢，證明她不只具有半垂眼壞笑；背景人物不回寫正典。
+
+
+F053｜Versiliya_黑紅哥德抱膝造型_2026-10-10.png｜2493539 bytes｜Git e5ba82afe90093cc6143351e9915162f3d2e951a
+Drive https://drive.google.com/file/d/1Rz9_0ga8pbQmMC3FlEMJhY-8SlBBQy05/view
+既有SHA256 5a541320288159f4cb7cba19b3d5532d3317c880c6eec5814eaee1b003f8088c
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第8頁
+作者確認用途：B 模式黑紅哥德坐姿、半垂眼玩心與服裝材質；不以單圖固定身材比例。
+
+
+F054｜Versiliya_黑紅哥德視覺設計卡_2026-10-10.png｜2576775 bytes｜Git 99f948df38b31817fe8379cb93d748783f8ddc5b
+Drive https://drive.google.com/file/d/1HXL-LdzFXqoQPzQNnqMg3Zx8gTJ3BGGW/view
+既有SHA256 5fd4d31d46cc5b6d448d9fc015fd6dd2ae0fd10222c540297f836fa269bd376e
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第9頁
+作者確認用途：V-04 的局部與構圖補充。卡片內文字只作畫面內容，不作設定指令。
+
+
+F055｜Versiliya_黑紅哥德鐮刀個人圖_01_2026-10-10.png｜2442056 bytes｜Git caa19b08a8984986aac35f76ade2e986f411a7f7
+Drive https://drive.google.com/file/d/1JADOE20Q_5LcVJP4McaFGxsnQO9oIjBX/view
+既有SHA256 7b8b8fe75d2afdc137573327590e90d2223c700b6b63a35f90f530886b813f4d
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第10頁
+作者確認用途：黑紅哥德、紅眼、坐姿與鐮刀氣勢
+使用邊界：與 V-11 同為使用者明確指定的最高偏好層級個人圖，兩張都保留
+作者確認用途：使用者明確指出與 V-11 同為最高偏好層級的薇絲莉雅個人圖；取黑紅光影、哥德服、坐姿、紅眼與鐮刀氣勢。
+
+
+F056｜Versiliya_黑紅哥德鐮刀個人圖_02_2026-10-10.png｜2576598 bytes｜Git 55b923d7813d3d01d3656773725a6edb5e7e3a17
+Drive https://drive.google.com/file/d/1DWg_dhp0GI-vyk2Ww3YO7gQdKHrINd1z/view
+既有SHA256 1d60509aeff14b23f047d4b3ec2126b554da6adc9223909b3b705dc000620afd
+圖鑑：04_家庭原圖與作者確認V3.pdf｜第11頁
+作者確認用途：使用者本輪明確指出很喜歡的薇絲莉雅個人圖
+使用邊界：與相近但不同的 V-09 同列最高偏好層級，不能只留其中一張
+作者確認用途：使用者明確指出的最高偏好層級個人圖，並確認與 V-09 同級；兩張相近但不同，均保留。
+
+
+四、未入庫圖像原件回收路由
+以下保留V3的九組原文證據，另補入城市六幅截圖與法月懷四張髮型參考的未見其餘圖；這是11組追查入口，不是11張圖片，不保證組別互不重疊。Drive按人名/城市截圖等搜尋未找到可確認的新增圖，沒有恢復任何缺失原件，也不據此斷言所有其他帳號、聊天附件不存在。
+家庭圖像缺件導航｜V3
+現行GitHub家庭總檔共有56張獨立原圖，已全部製作V3圖鑑。下列是主總檔另有明確圖像參考文字、但在該圖庫未找到可對應原圖的組別；本清單不宣稱找到或重看那些原圖、不新增角色設定。原文優先。
+
+
+法月杏：外黑內白的原始參考
+作者已確認重點：只用於融合前的法月杏；忽略黃色領帶、校服、黑指甲、額外手臂與巨大髮影；冷色光不改純黑外髮。不能套到現在法月懷。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1820-L1836
+狀態：文字可讀，原圖待確認／回收。
+
+
+朔凜月：原六圖與低馬尾校正
+作者已確認重點：主檔明言六張原始參考仍需另行入庫。純白髮、低馬尾預設；漫畫陰影不等於黑挑染。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1874-L1895
+狀態：文字可讀，原圖待確認／回收。
+
+
+璃安：兩批17張姿態與神態參考
+作者已確認重點：主檔記錄視線、重心、情緒與動作；原作師父、任務、地名、拍賣數字及道具不自動成為她的跨世界履歷。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3407-L3480
+狀態：文字可讀，原圖待確認／回收。
+
+
+小曦：三張同角色圖片
+作者已確認重點：取金瞳、暖金髮、兔耳、神態等文字確認項；與法月懷同金色基準。非已入庫的原圖；勿自行補畫或猜測。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3566-L3627
+狀態：文字可讀，原圖待確認／回收。
+
+
+芙蘭妮雅：13個附件、12種有效神態
+作者已確認重點：只校準安全家庭環境的表情、情緒與肢體反應；不取貓耳、武器、服裝、飾件、眼色、髮型與原作身分。7、8張重複，不計為兩種。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3927-L3927
+狀態：文字可讀，原圖待確認／回收。
+
+
+芙蘭妮雅：動畫參考1–34
+作者已確認重點：第23–24張已特別修正為戲謔／假威脅與想同行可並存；不移植芙蘭原角色外貌、裝備、師父或劇情。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5613-L5684
+狀態：文字可讀，原圖待確認／回收。
+
+
+朔凜月：人物與道具的邊界
+作者已確認重點：掌機、耳機只是可選娛樂方式，非固定出場裝置。原始稿的cite編號不證明圖片已上傳。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L4883-L5020
+狀態：文字可讀，原圖待確認／回收。
+
+
+洛琪莉卡：五幀抽象點頭動畫
+作者已確認重點：五幀屬同一段點頭動畫，透視變形不是刻意扮鬼臉；不取原圖紫髮、黑角、紫瞳、項圈與服飾。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5073-L5073
+狀態：文字可讀，原圖待確認／回收。
+
+
+瑟莉思媞：熊玩偶圖的多次修正
+作者已確認重點：取豐盈長髮、斜分瀏海、自然大波浪、露肩與輕飄衣裝；蕾絲最多一至兩層；熊及相關道具完全忽略。霜青冰藍髮睫與亮紫眼依正式設定。
+原文：https://github.com/Secileya/Novel/blob/main/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5288-L5306
+狀態：文字可讀，原圖待確認／回收。
+新增追查10｜璃安×芙蘭妮雅六幅城市截圖（2026-10-28）
+文字證據：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/02_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83/00_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83%E7%B4%A2%E5%BC%95.md#L111-L129；https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5600
+原第四張與第三張重複；正確第四張為樹蔭深藍天空仰角。六幅分別暖橙夜燈、明亮藍光、雙人藍紫夜街、樹蔭藍天、暮色交通號誌、黑髮冷藍夜色。兩人只是類比，非圖中角色本人；只採氛圍、構圖及表情選項，不採角/貓耳、眼色、身分、衣裝及幼態比例。不能把安靜一幀固定為整段沉默。原圖未入庫。
+新增追查11｜法月懷四張髮型參考其餘三張
+文字證據：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1315-L1321；https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/02_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83/00_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83%E7%B4%A2%E5%BC%95.md#L98-L108
+第3張已入庫HH02，非第5張；其餘1/2/4沒有在現有56張對應到可確認原件。僅標記待來源確認，不宣稱三張全部遺失、不預先猜細節。回查《更新家庭总档》原對話或原上傳附件，需作者對應確認。
+追查優先：朔凜月六圖（左耳耳飾精確形狀依原圖）；璃安17張、小曦三張、芙蘭家庭神態及1–34動畫、洛琪五幀、思媞熊圖、杏原始參考、城市六幅、懷其餘參考。原件找到後先核作者、圖序、雜湊與採用邊界，再建立獨立圖檔連結；不重繪冒充。某組重複幀/附件不直接算獨立圖片。缺件與尚未建文案無關。
+
+
+五、歷史版本與逐字切片核驗
+新版18冊：實際取得全部18冊，按原文起點標記後完整內容順序與主檔逐字比較。386335 JS UTF-16字元完全相符（保留空白與換行），18/18標記同一主檔blob 752582c82e2db992d3755d80090f46d74d7f8f60。導航所列原文UTF8為1020994 bytes。不是18份不同設定。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/00_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%B0%8E%E8%88%AA.md
+歷史五冊是2026-11-06左右原文快照，既有SHA與文件不得覆蓋；本次已讀歷史聲明及清冊，未逐冊與現行全文做差分。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/00_%E6%AD%B7%E5%8F%B2%E7%89%88%E6%9C%AC%E8%81%B2%E6%98%8E_%E9%9D%9E%E7%8F%BE%E8%A1%8C%E8%AB%8B%E8%AE%80%E6%9C%80%E6%96%B0%E7%89%88.md
+三人33四版本均已取得。第4版存檔與現行全文完全一致，blob dada71029d3dc4de56140c62d3310b1aa27c94d4。V1保留同步討抱與明確喜歡；V2補生活起因與自然入睡收尾；V3重寫小說式連續對話，保留高潮；V4保留V3前段與高潮，實見V2末尾五個非空白正文段落相同，保留茶梨、牽手、母親收攏及真可愛、無人回應。不能把四稿拼成四件事。舊V2/V3標頭「現行」是當時版本，不是現在權威。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/02_%E4%B8%89%E4%BA%BA%E7%B5%84/33_%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E8%8A%99%E8%98%AD%E5%A6%AE%E9%9B%85.md#L10-L15
+三人68：首版與現行已讀標頭及正文開頭；現行明文作者修訂「不是哥們」為「不是」，保留原始來稿。此是該篇明確修訂，不必批量改寫別篇原稿。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/02_%E4%B8%89%E4%BA%BA%E7%B5%84/68_%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%9C%94%E5%87%9C%E6%9C%88%C3%97%E6%B4%9B%E7%90%AA%E8%8E%89%E5%8D%A1.md#L13-L15
+四人01木盒：舊稿開場錯稱最早四人生活，現行L712–714已修正為共同照顧年幼絲薇期間的小物；「撿回來」親暱原話保留，不成立字面收養細節。主檔唯一家史優先。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/03_%E5%9B%9B%E4%BA%BA%E7%B5%84/01_%E7%B5%B2%E8%92%82%E8%8E%89%E9%9B%85%C3%97%E8%96%87%E7%B5%B2%E8%8E%89%E9%9B%85%C3%97%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%B3%95%E6%9C%88%E6%87%B7.md#L710-L718
+98舊對話素材：早期助手擬例及演出構想，非逐句確認台詞、非已發生正史，不計135實體組合。稱呼沿現行規則，洛琪可用凜月或凜月姐，不固定切換觸發。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/98_%E6%9C%94%E5%87%9C%E6%9C%88%E8%88%87%E6%B4%9B%E7%90%AA%E8%8E%89%E5%8D%A1_%E8%88%8A%E5%B0%8D%E8%A9%B1%E6%BC%94%E5%87%BA%E7%B4%A0%E6%9D%90_2026-10-15.md#L1-L14
+金曜宮四版已於第05批建立版本路由，不重做。三份99原文匯出為歷史資料清冊，本次未全文差分。
+歷史與分卷來源清冊（不是逐份全量語義驗收）：
+03_互動文案/02_三人組/99_版本留存/33_法月懷×璃安×芙蘭妮雅_第1版_原稿_2026-11-09.md｜15328 bytes｜b0fc7f6416a12164196f603d21ea911f81d16da2｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/02_%E4%B8%89%E4%BA%BA%E7%B5%84/99_%E7%89%88%E6%9C%AC%E7%95%99%E5%AD%98/33_%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E8%8A%99%E8%98%AD%E5%A6%AE%E9%9B%85_%E7%AC%AC1%E7%89%88_%E5%8E%9F%E7%A8%BF_2026-11-09.md
+03_互動文案/02_三人組/99_版本留存/33_法月懷×璃安×芙蘭妮雅_第2版_原稿_2026-11-09.md｜11525 bytes｜da884cf990d7b35ee22366b352fee9108ebcf800｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/02_%E4%B8%89%E4%BA%BA%E7%B5%84/99_%E7%89%88%E6%9C%AC%E7%95%99%E5%AD%98/33_%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E8%8A%99%E8%98%AD%E5%A6%AE%E9%9B%85_%E7%AC%AC2%E7%89%88_%E5%8E%9F%E7%A8%BF_2026-11-09.md
+03_互動文案/02_三人組/99_版本留存/33_法月懷×璃安×芙蘭妮雅_第3版_2026-11-09.md｜16462 bytes｜abae1def188face7957765aa8d1ccf300d192cde｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/02_%E4%B8%89%E4%BA%BA%E7%B5%84/99_%E7%89%88%E6%9C%AC%E7%95%99%E5%AD%98/33_%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E8%8A%99%E8%98%AD%E5%A6%AE%E9%9B%85_%E7%AC%AC3%E7%89%88_2026-11-09.md
+03_互動文案/02_三人組/99_版本留存/33_法月懷×璃安×芙蘭妮雅_第4版_2026-11-10.md｜16849 bytes｜dada71029d3dc4de56140c62d3310b1aa27c94d4｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/02_%E4%B8%89%E4%BA%BA%E7%B5%84/99_%E7%89%88%E6%9C%AC%E7%95%99%E5%AD%98/33_%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E8%8A%99%E8%98%AD%E5%A6%AE%E9%9B%85_%E7%AC%AC4%E7%89%88_2026-11-10.md
+03_互動文案/02_三人組/99_版本留存/68_塞希莉雅×朔凜月×洛琪莉卡_首版原稿_2026-11-12.md｜3965 bytes｜62a8652c98a969a290ff8de7300e9842c75e547b｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/02_%E4%B8%89%E4%BA%BA%E7%B5%84/99_%E7%89%88%E6%9C%AC%E7%95%99%E5%AD%98/68_%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%9C%94%E5%87%9C%E6%9C%88%C3%97%E6%B4%9B%E7%90%AA%E8%8E%89%E5%8D%A1_%E9%A6%96%E7%89%88%E5%8E%9F%E7%A8%BF_2026-11-12.md
+03_互動文案/03_四人組/99_版本留存/01_舊木盒裡的羽毛與閉眼猜人_原始來稿含時間線誤寫_2026-11-12.md｜5820 bytes｜4c2284b3a5ac5fdf4335c97e280362138ca630c8｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/03_%E5%9B%9B%E4%BA%BA%E7%B5%84/99_%E7%89%88%E6%9C%AC%E7%95%99%E5%AD%98/01_%E8%88%8A%E6%9C%A8%E7%9B%92%E8%A3%A1%E7%9A%84%E7%BE%BD%E6%AF%9B%E8%88%87%E9%96%89%E7%9C%BC%E7%8C%9C%E4%BA%BA_%E5%8E%9F%E5%A7%8B%E4%BE%86%E7%A8%BF%E5%90%AB%E6%99%82%E9%96%93%E7%B7%9A%E8%AA%A4%E5%AF%AB_2026-11-12.md
+03_互動文案/98_朔凜月與洛琪莉卡_舊對話演出素材_2026-10-15.md｜22902 bytes｜0eff7ad5f8ed29b686883ec6566d89604e609029｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/98_%E6%9C%94%E5%87%9C%E6%9C%88%E8%88%87%E6%B4%9B%E7%90%AA%E8%8E%89%E5%8D%A1_%E8%88%8A%E5%B0%8D%E8%A9%B1%E6%BC%94%E5%87%BA%E7%B4%A0%E6%9D%90_2026-10-15.md
+04_Gemini_01總檔五冊_2026-11-07/00_歷史版本聲明_非現行請讀最新版.md｜1133 bytes｜082488bd6e48fea073f7a45e0356e75a97d54059｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/00_%E6%AD%B7%E5%8F%B2%E7%89%88%E6%9C%AC%E8%81%B2%E6%98%8E_%E9%9D%9E%E7%8F%BE%E8%A1%8C%E8%AB%8B%E8%AE%80%E6%9C%80%E6%96%B0%E7%89%88.md
+04_Gemini_01總檔五冊_2026-11-07/00_給Gemini_五冊索引與核對.md｜11858 bytes｜050e4b742fbdf06016b13f53a26d313ed1a97f5f｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/00_%E7%B5%A6Gemini_%E4%BA%94%E5%86%8A%E7%B4%A2%E5%BC%95%E8%88%87%E6%A0%B8%E5%B0%8D.md
+04_Gemini_01總檔五冊_2026-11-07/01A_家庭完整角色設定_索引至第八章.md｜205464 bytes｜345a392bfe344d405156ad0c31529586be063a99｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/01A_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A_%E7%B4%A2%E5%BC%95%E8%87%B3%E7%AC%AC%E5%85%AB%E7%AB%A0.md
+04_Gemini_01總檔五冊_2026-11-07/01B_家庭完整角色設定_第九至十二章.md｜235340 bytes｜ec95decd6bbbc10da73c6fc836fc9c7f336dd744｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/01B_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A_%E7%AC%AC%E4%B9%9D%E8%87%B3%E5%8D%81%E4%BA%8C%E7%AB%A0.md
+04_Gemini_01總檔五冊_2026-11-07/01C_家庭完整角色設定_第十三至十五章.md｜234724 bytes｜2b6afba11ae729bc50de92f61cff7550f5c49643｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/01C_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A_%E7%AC%AC%E5%8D%81%E4%B8%89%E8%87%B3%E5%8D%81%E4%BA%94%E7%AB%A0.md
+04_Gemini_01總檔五冊_2026-11-07/01D_家庭完整角色設定_第十六至十八章.md｜154026 bytes｜8bffcd0c4cdc87825f508a37b46d6f2fa41c220f｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/01D_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A_%E7%AC%AC%E5%8D%81%E5%85%AD%E8%87%B3%E5%8D%81%E5%85%AB%E7%AB%A0.md
+04_Gemini_01總檔五冊_2026-11-07/01E_家庭完整角色設定_第十九至二十六章.md｜167074 bytes｜98e35c3cfc3015cf1b946971bca28d65ea9eeed4｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/04_Gemini_01%E7%B8%BD%E6%AA%94%E4%BA%94%E5%86%8A_2026-11-07/01E_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A_%E7%AC%AC%E5%8D%81%E4%B9%9D%E8%87%B3%E4%BA%8C%E5%8D%81%E5%85%AD%E7%AB%A0.md
+05_Gemini_最新版閱讀分卷/00_最新版閱讀導航.md｜4666 bytes｜6ea093c6d88a8b3b3edafc263948b7e82d7c3a29｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/00_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%B0%8E%E8%88%AA.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_001.md｜55961 bytes｜00c038ce66c8dd21eee313d958a71a17d90ed989｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_001.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_002.md｜56709 bytes｜630eeb005941a0f16362b2ed221ba35ea4e533ca｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_002.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_003.md｜53822 bytes｜3c110bff503ffb14f73215b016ea74f45bdfbc8f｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_003.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_004.md｜59363 bytes｜f624ea1f5129d0f43be3bb35945fdb27b0b66e8c｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_004.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_005.md｜57618 bytes｜695f305464ae55bf52af0aa284805b53c6a6094e｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_005.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_006.md｜57875 bytes｜76507f1b219ba513331e0bf47e5b469a76e8409f｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_006.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_007.md｜59373 bytes｜961ae29215659a870f7a3c6be9f9085fa9c68f49｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_007.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_008.md｜64882 bytes｜38755a22b83e449c451eb42fa81f61a932e4ef84｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_008.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_009.md｜65384 bytes｜ed14d24da7d713814fe0bcfda40e3d1de0a24eca｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_009.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_010.md｜57156 bytes｜2e9d7735af3b0679591e5171cae42d242d5af24a｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_010.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_011.md｜56550 bytes｜e2e2c44e6a1f8156e5341d4f275ecd65e8e568f8｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_011.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_012.md｜61294 bytes｜d875db1b3373deb3863423f83ba0556e834a77c8｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_012.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_013.md｜62303 bytes｜2b30928c0e7c826da5acf6d2631fea6b53466103｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_013.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_014.md｜57351 bytes｜116e31d1195c2e1f4a833d7244c5adde7faeb7f5｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_014.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_015.md｜40494 bytes｜ed3db0849426090f6d75fd6bccceef68a9a9caba｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_015.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_016.md｜49264 bytes｜11bc5dc966037c64edda73e3e1ff90d10ec67ac1｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_016.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_017.md｜55696 bytes｜f00968ef7da899d2208a5ca3b1367b66b8f7acbe｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_017.md
+05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_018.md｜64544 bytes｜3e67b70cafd65941fb83c56c758fce17486ad772｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/01_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7_018.md
+05_Gemini_最新版閱讀分卷/README.md｜1378 bytes｜59cc49f5b2360e460baa4b595c81bb07349eb6c9｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/README.md
+99_原文匯出/上次完整統整後_全部新增與修正設定_2026-10-17_逐字.txt｜42471 bytes｜38d17fd4db0083501db9d8ba83661cee61b94a1b｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/99_%E5%8E%9F%E6%96%87%E5%8C%AF%E5%87%BA/%E4%B8%8A%E6%AC%A1%E5%AE%8C%E6%95%B4%E7%B5%B1%E6%95%B4%E5%BE%8C_%E5%85%A8%E9%83%A8%E6%96%B0%E5%A2%9E%E8%88%87%E4%BF%AE%E6%AD%A3%E8%A8%AD%E5%AE%9A_2026-10-17_%E9%80%90%E5%AD%97.txt
+99_原文匯出/原始定稿後至今_全部現行增修設定_2026-10-17_完整核對版.txt｜115920 bytes｜871fd26dce546622b0e0f403a15c6b289e50bed0｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/99_%E5%8E%9F%E6%96%87%E5%8C%AF%E5%87%BA/%E5%8E%9F%E5%A7%8B%E5%AE%9A%E7%A8%BF%E5%BE%8C%E8%87%B3%E4%BB%8A_%E5%85%A8%E9%83%A8%E7%8F%BE%E8%A1%8C%E5%A2%9E%E4%BF%AE%E8%A8%AD%E5%AE%9A_2026-10-17_%E5%AE%8C%E6%95%B4%E6%A0%B8%E5%B0%8D%E7%89%88.txt
+99_原文匯出/朔凜月洛琪莉卡完整定稿後_主總檔現行增修原文_逐字.txt｜111993 bytes｜ab615534f596baccf75ed92b13055e3add390912｜https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/99_%E5%8E%9F%E6%96%87%E5%8C%AF%E5%87%BA/%E6%9C%94%E5%87%9C%E6%9C%88%E6%B4%9B%E7%90%AA%E8%8E%89%E5%8D%A1%E5%AE%8C%E6%95%B4%E5%AE%9A%E7%A8%BF%E5%BE%8C_%E4%B8%BB%E7%B8%BD%E6%AA%94%E7%8F%BE%E8%A1%8C%E5%A2%9E%E4%BF%AE%E5%8E%9F%E6%96%87_%E9%80%90%E5%AD%97.txt
+
+
+六、完成範圍與接續
+56張原件定位、V3用途對照及4張直接原件重驗；11組缺件回收入口；18冊精確重建；6份歷史互動留存與98素材取得、3組主要版本判定。未重視讀52張、未尋回缺件、歷史五冊與原文匯出未全文差分。第07批可整合前六批，建立檢索入口及測試；不能宣稱全家庭資料逐字逐圖精讀完成。正史、GitHub、舊版文件及同步設定一律未修改。
