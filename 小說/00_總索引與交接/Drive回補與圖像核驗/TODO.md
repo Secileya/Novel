@@ -170,3 +170,6 @@
 
 ### 2026-11-26｜第42輪：9804e26歷史AUTO二十份原件獨立驗收
 - D03/M01 PARTIAL：固定9475e24→9804e26，20份原件與20收據全部實際下載，獨立Git blob SHA1/SHA256/bytes逐件匹配PLAN及receipt，20/20、403998 bytes。PLAN SHA256符合_COMPLETE，固定Git差異20筆；三份同名README先分離暫存後核驗。 [Git清冊](核驗清冊/9804e26_AUTO二十份原件驗收.json)（81f7a6251bea4bd0ad2d44c333be1f635c953579）已讀回一致。歷史AUTO累計46/62，剩5b223ad十六份。未改Canon、同步程式、游標、觸發器或刪檔。下一輪第43輪。
+
+### 2026-11-26｜第43輪：5b223ad歷史AUTO十六份原件獨立驗收
+- D03/M01 PARTIAL：固定9804e26→5b223ad，16份原件與16收據實際下載，獨立Git blob SHA1/SHA256/bytes逐件匹配PLAN及receipt，16/16、335851 bytes。PLAN SHA256符合_COMPLETE，固定Git差異16筆；同名README獨立暫存。 [Git清冊](核驗清冊/5b223ad_AUTO十六份原件驗收.json)（329e8541be1b5370599a5b14d93db1ffb5d2cb56）已讀回一致。歷史四批原件累計62/62、1813999 bytes，0不符。整鏈實際重放仍待第44輪；最新AUTO仍另計。未改Canon、同步程式、游標、觸發器或刪檔。
