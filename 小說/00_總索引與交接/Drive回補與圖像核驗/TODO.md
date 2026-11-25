@@ -60,3 +60,6 @@
 
 ### 2026-11-25｜第07輪接續：七份獨立原件實際補齊
 - [x] D03-E 固定e6f3b21剩餘3份精確原件（I3 309條TSV、I5 1830鍵TSV、上層README）及4份原僅歷史revision可讀原件（3 README、I5指引）已由固定Git base64經原生Docs中轉、匯出解碼，獨立計算Git SHA1、SHA256、大小後上傳Drive，並逐份再次下載重算7/7一致，共887746 bytes。原件 [Drive資料夾](https://drive.google.com/drive/folders/13D0AVh4v6_rQF2XNXi98JDOUEGNuUrlb)／[Drive驗收清冊](https://drive.google.com/file/d/1GQ5yGSIZJ8i2Bzu8YV7hqhOryX76nZ1R/view)／[Git驗收清冊](核驗清冊/e6f3b21_7份獨立原件驗收清冊.json)。7份是真實獨立原始bytes（檔名加SHA及.txt，原路徑見清冊）。中轉4份Docs另保留，不算原件，不刪除。舊105份來源映射由102增為105/105，含先前23份原生Docs歷史文字證據及其他先前收據，非全105份此輪逐檔重新雜湊，不代表全庫閉環。AUTO實際仍16/105；未改腳本、觸發器、Canon，未刪檔。下一步23 Docs現行完整文字驗證／必要原始bytes保存，核驗清冊及TODO的固定版本Drive回補，全庫與圖像待辦繼續。
+
+### 2026-11-25｜第08輪接續：23份原生Docs現行全文重驗
+- [x] D03-F：依e6f3b21第04輪來源映射重新讀取23份原生Google Docs與固定Git全文，23/23逐字完全一致（565651 UTF-16文字單位；Git原件818848 bytes），無需覆寫現有Docs。四批收據及[總清冊](核驗清冊/e6f3b21_Docs現行核驗_總清冊.json)已Git讀回一致，逐份記錄SHA、Drive ID與全文相等結果。屬現行可讀文字核驗，不是原生Docs格式、修訂歷史或原始bytes獨立備份。105/105來源映射保持；AUTO仍16/105；未改Canon及同步程式。下一步固定本輪台帳及清冊版本回補Drive，避免維護增量無限循環；再處理全庫差分與圖像待辦。
