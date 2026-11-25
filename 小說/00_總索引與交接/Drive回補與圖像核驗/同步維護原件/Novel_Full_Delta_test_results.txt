@@ -1,0 +1,8 @@
+PASS tree diff detects mode/add/modify/delete and duplicate path rejection
+PASS truncated tree refused with no state advance
+PASS first run 8 files, BOM and corrupt raw fallback verified; trigger installed once
+PASS resume remaining 2, complete marker and no repeated trigger
+PASS immutable conflict does not overwrite
+PASS bad blob fallback fails rather than accepting wrong bytes
+PASS old clear-state failure retains valid backup, parse recovers
+PASS real delta SHA verification

@@ -1,0 +1,216 @@
+[
+  {
+    "source": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt",
+    "commit": "b47478fbea6fbdd66862c1c9be5b7cc35db51715",
+    "git_blob_sha1": "a35ea27850fe833c8d86b76c8bba44f4228f1f19",
+    "source_bytes": 12120030,
+    "source_sha256": "28489d8f2777f8f8a0a5a83421f22659d6d092bb5aba01506db1d7327edd14e2",
+    "chapter_headers": 1822,
+    "unique_chapter_numbers": 1791,
+    "max_chapter_number": 1804,
+    "expected_chapters_if_known": 1822,
+    "unmatched_chapter_numbers": [
+      774,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      898,
+      1704,
+      1705,
+      1758,
+      1805,
+      1806,
+      1807,
+      1808,
+      1809,
+      1810,
+      1811,
+      1812,
+      1813,
+      1814,
+      1815,
+      1816,
+      1817,
+      1818,
+      1819,
+      1820,
+      1821,
+      1822
+    ],
+    "duplicate_chapter_numbers": {
+      "780": 2,
+      "781": 2,
+      "782": 3,
+      "783": 2,
+      "784": 2,
+      "785": 2,
+      "786": 2,
+      "787": 2,
+      "832": 2,
+      "1018": 2,
+      "1044": 2,
+      "1051": 2,
+      "1285": 2,
+      "1600": 2,
+      "1627": 2,
+      "1628": 3,
+      "1629": 3,
+      "1630": 2,
+      "1631": 2,
+      "1632": 2,
+      "1633": 2,
+      "1634": 2,
+      "1635": 2,
+      "1636": 2,
+      "1637": 2,
+      "1664": 2,
+      "1737": 2,
+      "1759": 2
+    },
+    "first_header": "第1章 目标：法武双修",
+    "last_header": "第1804章 不也是个杂种",
+    "nonconsecutive_transitions": [
+      [
+        773,
+        773,
+        775
+      ],
+      [
+        788,
+        789,
+        780
+      ],
+      [
+        791,
+        782,
+        782
+      ],
+      [
+        797,
+        787,
+        798
+      ],
+      [
+        832,
+        832,
+        832
+      ],
+      [
+        898,
+        897,
+        899
+      ],
+      [
+        1018,
+        1018,
+        1018
+      ],
+      [
+        1045,
+        1044,
+        1044
+      ],
+      [
+        1053,
+        1051,
+        1051
+      ],
+      [
+        1288,
+        1285,
+        1285
+      ],
+      [
+        1604,
+        1600,
+        1600
+      ],
+      [
+        1642,
+        1637,
+        1627
+      ],
+      [
+        1644,
+        1628,
+        1628
+      ],
+      [
+        1646,
+        1629,
+        1629
+      ],
+      [
+        1682,
+        1664,
+        1664
+      ],
+      [
+        1722,
+        1703,
+        1706
+      ],
+      [
+        1754,
+        1737,
+        1737
+      ],
+      [
+        1775,
+        1757,
+        1759
+      ],
+      [
+        1776,
+        1759,
+        1759
+      ]
+    ],
+    "volume_count": 87,
+    "byte_reconstruction_verified": true,
+    "source_completeness": "not proven; preserve source as supplied"
+  },
+  {
+    "source": "小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/网游：卖掉装备，我就无敌了 - 盐巴半两.txt",
+    "commit": "b47478fbea6fbdd66862c1c9be5b7cc35db51715",
+    "git_blob_sha1": "cb67f812372d445ee776723fc0fc7b8012e7870b",
+    "source_bytes": 3548467,
+    "source_sha256": "3792524c5250d97f629cfc8c7070e4a83e9a5b3adb289786fa7d9e24a32f1b35",
+    "chapter_headers": 514,
+    "unique_chapter_numbers": 514,
+    "max_chapter_number": 514,
+    "expected_chapters_if_known": 514,
+    "unmatched_chapter_numbers": [],
+    "duplicate_chapter_numbers": {},
+    "first_header": "第1章 未知品级的天赋：赏金猎人",
+    "last_header": "第514章 大结局",
+    "nonconsecutive_transitions": [],
+    "volume_count": 26,
+    "byte_reconstruction_verified": true,
+    "source_completeness": "chapter-number coverage matches expected count; source edition not independently verified"
+  },
+  {
+    "source": "小說/末世開店玩家線/05_原著參考/末日求生：我有一家商店 - 山rain.txt",
+    "commit": "b47478fbea6fbdd66862c1c9be5b7cc35db51715",
+    "git_blob_sha1": "30c6ad48fb18aac99b8e8b7d920ffc1f9b4cdb90",
+    "source_bytes": 3400761,
+    "source_sha256": "19d7cfc05e7c9e56869a65817fcbbb7dac38f65f29c6381cebfe3b6d8107eafb",
+    "chapter_headers": 538,
+    "unique_chapter_numbers": 538,
+    "max_chapter_number": 538,
+    "expected_chapters_if_known": null,
+    "unmatched_chapter_numbers": [],
+    "duplicate_chapter_numbers": {},
+    "first_header": "第1章 末日求生",
+    "last_header": "第538 章 新的篇章（全书完）",
+    "nonconsecutive_transitions": [],
+    "volume_count": 24,
+    "byte_reconstruction_verified": true,
+    "source_completeness": "not proven; preserve source as supplied"
+  }
+]

@@ -1,0 +1,24 @@
+Secileya/Novel 全庫增量 Apps Script｜安裝與驗收（2026-11-25）
+不建立第二個 Apps Script 專案；在已正常運作的舊專案新增獨立 .gs 檔案。
+原專案：https://script.google.com/home/projects/1DPDrliDG1EXJVNfzunHmD7j_G9pVAHqHvI2rABnSHZRQrVvbCI4dXZUm/edit
+基線 04474db91ce20f6eba68ee146c52528828569e69 已完成原始快照與增量鏈驗證；不重傳四千多份基礎檔案。
+
+A. 安裝全庫增量
+1. 先保留既有程式碼.gs。不刪除或改動任何原有觸發器。
+2. 在左側檔案旁「＋」→ 指令碼，命名 FullNovelSync。將 Novel_Full_Delta_Addon.txt 全部內容貼進這個新檔案（取代預設 myFunction），儲存。
+3. 上方函式下拉選單選 installFullNovelSync，執行。必要時授權。若因其他同步正在運作報 BUSY，稍後重試 install，不是清冊故障。
+4. 成功執行後建立一個每小時觸發器 fullNovelSyncNow；原 syncQuick/syncDrain/syncHourly 不動。初次同步每輪最多8份，尚未完成顯示 PARTIAL；COMPLETE 才是整批完成。可手動執行 fullNovelSyncNow 加快，但不需要一直按。
+5. fullNovelSyncStatus 可看完整commit與未完成游標。同步資料存放於增量根目錄 AUTO_<base>__<head> 資料夾，原始檔依完整GitHub路徑。_PLAN.json 是全變更清冊，核驗與閱讀導航內各檔有原始路徑、Git SHA1、SHA256、Drive連結；只有所有變更驗證才寫 _COMPLETE.json。
+
+B. 舊清冊自動保護（A驗收後再操作；本功能獨立於全庫增量）
+1. 上方函式選 initializeOldManifestProtection 並執行，確認 BACKUP_VERIFIED。此步保留原始檔不變。
+2. 先複製目前既有程式碼.gs 做本機備份。回舊程式碼.gs 搜尋 function parseState_(file) ，將該完整函式（原本4行）替換為：
+function parseState_(file) { return novelSafeParseOldState_(file); }
+3. 搜尋原本一行 function saveState_(file,state) { file.setContent(JSON.stringify(state,null,2)); } ，替換為：
+function saveState_(file,state) { novelSafeSaveOldState_(file,state); }
+4. 儲存，執行原 syncNow。正常的狀態與既有觸發器保持。若出現錯誤，不要清空清冊；先保留執行紀錄。
+原清冊每次有實質變更時，先把經校驗的不可變備援寫入，再更新舊清冊並讀回核驗。若遇空白／損壞則讀取最近有效備援，不以空白清冊重建。每個備援保留不刪，若備援也損壞則停止，不假裝成功。
+
+C. 目前已完成與限制
+已成功回填 04474db 的3份增量和ZIP；另有有效的舊清冊備份。新版程式通過本機模擬8組測試，未在真正 Apps Script 執行，未部署，安裝驗收前不可宣稱全庫自動同步已啟用。沒有重建衍生閱讀分卷及圖鑑的功能。定時觸發與GitHub/Google配額可能延遲，單檔超過45MB、Git submodule、API rate limit、Drive核驗錯誤等會停留在待處理狀態，不覆蓋原資料。LFS 如有則需另取實際媒體，不能把Git指標當實際媒體。
+舊的ChatGPT自動化仍有傳輸障礙，待新版雲端真實驗收通過再停用，避免兩套同步重疊。
