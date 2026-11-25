@@ -79,3 +79,6 @@
 
 ### 2026-11-25｜第12輪：26份巨構索引外原件交叉核驗
 - D03 PARTIAL：固定c6fbe2d的26份巨構同步索引外原件，對指定Drive根的21批完整列舉清冊交叉查找（2232子項），20份找到同名／SHA候選，18份容量吻合並實際下載完整原件，比對固定Git Base64、獨立Git SHA1、SHA256、bytes全部通過，881832 bytes；[總清冊](核驗清冊/c6fbe2d_26索引外原件驗收總清冊.json)。18份是既有Drive副本，不重複上傳。剩8份共1840036 bytes（實際總量見清冊），其中2份有舊版本但不能冒充新版本，其餘6份未在本次檔名匹配找到；不等同確認所有ZIP均缺失。下一步補足8份固定原件或找到精確既存備份，19份鏡像外候選內容分類、維護清冊回補、圖像核驗仍待。未改Canon、AUTO或刪除任何資料。本輪清冊Git讀回一致；未新增Drive副本。
+
+### 2026-11-25｜第13輪：26份巨構索引外原件精確閉合
+- [x] D03-H：固定c6fbe2d5371750b787f19378bf0ae67a46127c32的26份巨構同步索引外檔案中，前輪18份既有Drive原件已驗證881832 bytes；本輪8份剩餘原件共1840036 bytes，以固定Git Base64中轉（大型I5分3段）還原原始bytes，逐件獨立計算Git SHA1、SHA256與大小，全部獨立上傳Drive；先移開本地待上傳檔，再逐件重新下載並與原始bytes及雜湊比對，8/8通過。合計26/26，2721868 bytes，固定快照索引外原件無未映射項。[Drive原件資料夾](https://drive.google.com/drive/folders/1HOhuQjfuuIoqXo8_HWVblM_iKqMzPhqm)／[Drive清冊](https://drive.google.com/file/d/1sjB14wsECRL6HNPbzZxjaM9NSqbqmdyp/view)／[Git清冊](核驗清冊/c6fbe2d_8份獨立原件驗收清冊.json)。清冊4845 bytes、SHA256 afbcf03cb715f6ddf34cd5b4b95546b81974b7acb6fdfd0ccae57db97b75dc74，Drive下載及Git讀回一致。原件檔名加版本、SHA前綴及.txt，原路徑見清冊；7份中轉Docs保留，不算原件。未改Canon、AUTO、舊原件或刪除資料。不是最新main全部增量驗收、不是全庫AUTO實際完成。下一步19份獨立鏡像索引外候選內容分類／回補，694adcb README精確原件、維護固定快照回補、原圖雜湊及缺件等仍待辦。
