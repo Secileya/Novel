@@ -1,0 +1,102 @@
+﻿家庭第07大批｜統一檢索入口與跨來源驗收
+2026-11-25｜非Canon、原文導航與驗收，不新增或修改正式設定。
+用途：ChatGPT／Gemini／其他接手AI的家庭資料入口。此文件是可查證的路由與防誤用規則，不是縮寫版角色主檔，也不授權將研究推論升格為正史。
+
+
+一、版本閘門與正式入口
+固定研究來源 3714f54cb62e824a1757f447c25b3997de6e7be4；主檔 Git blob SHA 752582c82e2db992d3755d80090f46d74d7f8f60，6568行。第06批已核對其時 main 9804e2665f317cf5f5fafb6856b0461acb4e9285 與固定來源家庭265份路徑／SHA一致。本批獨立查 compare 9804e266…→main：10個新提交、7個最終路徑變更，均非家庭總檔（1個鏡像 source-index、6個巨構研究檔），未重抓265個blob；另直接讀 main 主檔L583–604，SHA仍為上述值。這支持既有索引繼續使用，不代表全庫新提交都已備份。Drive主檔讀回標頭Source commit 5e4523f7ad2fd86116e3a9954206a3eb405c079b、Source Git blob SHA與GitHub main主檔相符；本批未重新核對全鏡像manifest的CURRENT狀態。若源版本變更，先判斷變更的路徑及SHA，再局部重建受影響索引。
+正式Git主檔（固定來源）：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md
+現行Drive主檔：https://drive.google.com/file/d/1xUF7VBAAWbI3VIGHg1IFWbXvcfIGLMFP/view
+家庭鏡像：https://drive.google.com/drive/folders/11ui-zviN5uhgY6iGm6Og5bPUOsBWIUEM
+版本說明：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/00_%E8%AB%8B%E5%85%88%E8%AE%80_%E6%AD%A3%E5%BC%8F%E4%B8%BB%E6%AA%94%E8%88%87%E6%AD%B7%E5%8F%B2%E4%BA%94%E5%86%8A%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E.md
+Gemini 18冊導航：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/00_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%B0%8E%E8%88%AA.md
+全域接手原入口：https://drive.google.com/file/d/1ZuCFN7YLH-YU2y51kTA_0AfM33M5SV3y/view
+權威判斷：正式01主檔＋作者明確後出覆蓋決議；現行補充按實際修訂關係而非檔名排序。新閱讀分卷是逐字副本；舊01A–01E只作歷史。原文中的候選、試寫、示例、歷史與OPEN狀態不因進入Git而轉正。查詢鏡像遇PENDING／SYNC_FAILED／SHA不符時標記MIRROR_PENDING，不能拿舊五冊冒充最新版。
+
+
+二、前六批統一入口（按問題選路，不需重讀全庫）
+01｜全庫物理保存與家庭局部語義試行。查備份實際驗證範圍、法月懷／芙蘭／璃安的相處及證據層級。https://docs.google.com/document/d/15emZKSWt2avIAd-100QWorfp53MwCdJL8rGaigbod6Q/edit
+02｜十人DNA、姓名／稱呼、唯一家庭歷史、能力、無界宗求援、18份專題來源。人物或設定問題先從此批入手，再開主檔對應原文。https://docs.google.com/document/d/169sizT8pXBT_HCAzzIPzqjhUe6JdCLrmVYwkdkwHTNc/edit
+03｜雙／三人互動68份，事件鏈、分組、佔位、版本、門沒關好／藍與紅之間等。https://docs.google.com/document/d/1kKaqx05-kn9anzoRNx2jyHSv1CDaaIfT3dylI5tt6KE/edit
+04｜四／五人互動62份，從多人切片追蹤完整源頭，跨批防誤寫。https://docs.google.com/document/d/13VQbgtAdZ4IV9g9TS359DPhQ7n042VKzVVkOK0XourE/edit
+05｜六至九人及家人生活22份；完整抱抱大會、咖哩、九人長篇、現代生活、金曜宮、組合統計。尋找同一事件完整源頭優先。https://docs.google.com/document/d/14f-N2ygmX8otqYCN34n19JkKD6vBPvmek8fKMdy-_ag/edit
+06｜圖像、缺件、歷史版本；56張三方清冊、V3、18冊精確重建、歷史留存。https://docs.google.com/document/d/1kPbgVy1zR8NrMVlIACs0MPFzhdZVdhlkFq0nv98MJ0s/edit
+輔助入口21（十人原文導航）：https://drive.google.com/file/d/1ujtViMqKUa1Qnfbb7tjqdDdm27rvgxQY/view
+21B（十人跨文件關聯索引V1）：https://docs.google.com/document/d/1Tu8ydm1EpcaBet2eA0usF7i4pXrZ4XxlutpcJale8JY/edit
+本次已重新讀回六份研究文件；工具傳回文字含BOM與CRLF，標準化去首BOM及CRLF轉LF的第02–06批字元合計178114；第06批45047。與上次報告177110／44977的計數口徑未確認相同，不能以字元差直接判定文件被改寫；未取得上次逐字基準，不宣稱六份研究文件與上次存檔逐字相同。
+
+
+三、十人入口與別名映射
+絲蒂莉雅／Stiliya／莉莉：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1451-L1537
+薇絲莉雅／Versiliya／薇薇：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1538-L1616
+塞希莉雅／Secileya／希雅：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1617-L1727
+法月懷／Hozuki Huai：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1728-L1812；杏與懷的融合／歷史：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L1813-L2816
+菲璃安／璃安／Felestiya：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3346-L3543
+小曦：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3544-L3792
+芙蘭妮雅／Franiya／芙蘭：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3793-L4882
+朔凜月／Shuolyue：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L4883-L5020
+洛琪莉卡／Loqilica／洛琪：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5021-L5249
+瑟莉思媞／Celeste／思媞／小媞：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5250-L5500
+總覽、純實力：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L583-L604；稱呼總覽自L629起；固定外貌須同時回主檔第四節及後出人物校正。別名用於搜尋，不等於所有人物皆能使用所有暱稱。法月杏是相關歷史階段，不是第十一名。絲薇的雙向玩心、懷的三種眼狀態、璃安的自主性、芙蘭的家庭依賴與獨立性、凜月的可靠與搞事、洛琪的張揚與細膩，以及小曦與思媞的不同個體性，不能簡化成單一反應模板。
+
+
+四、跨批查詢規格與答覆格式
+每次查詢先辨識：角色／說話者＋對象、主題、世界線、故事時間、人物是否已相識、證據類型。未指明世界線且只問一般設定時，回答家庭共通DNA；問某章已發生什麼則查該世界線正式正文，不套用共通互動文案。
+稱呼：說話者→對象→同場人數→法月懷眼色→情緒與交談語境，回第02批與原文。
+能力：原始本體／自願受限殼、家內相對排序／當地本土力量、個人專屬權限／跨世界共通。回第02批、13專題、正式主檔；不要把一人的能力複製給所有人。
+互動：實際出場人數＋角色集合＋事件名／文案標題，查第03–05批；若標示同一事件截取，回完整源頭；若原文為佔位，返回尚無正式文案，並保留既有關係，不補假原文。
+圖像：角色＋原圖編號（兼容ST-02／ST02、HH-02／HH02、SE-03／SE03等）＋需要的特徵；先查第06批及V3用途，再回主檔，最後才取原圖。別把畫面上出現的所有東西當成正式DNA。
+歷史：查最新正式版本、後出校正、原始歷史與重製後現行歷史、同一事件的版本或截取。未定義的細節標OPEN。
+建議答案：結論；適用世界線與時間；原始來源（路徑＋行號／圖號＋版本）；已定／可用範例／候選／歷史／OPEN；有歧義時說明如何裁決。找不到原文則說無法核實，而不是從索引摘要造出原文。
+全文搜尋不可只相信單一關鍵字。先用別名與事件名，若未命中，換詞如「第4段」→「五人01」「四個拆分」「完整源頭」；不以第一個候選文件為終點。
+
+
+五、互動、圖像與歷史的跨批防重複規則
+互動總索引：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/00_%E4%BA%92%E5%8B%95%E7%B8%BD%E7%B4%A2%E5%BC%95.md#L50-L78
+135個實體組合＝原九人130＋新增含思媞5；按第03–05批清冊分為36份有文案、99份佔位（不是135篇正文），另外8個人數索引＋1個總索引。原九人502種組合＝130已建＋372未建。未建不是遺失；不要求預建全十人排列。
+《六人抱抱大會》：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/05_%E5%85%AD%E4%BA%BA%E7%B5%84/01_%E7%B5%B2%E8%92%82%E8%8E%89%E9%9B%85%C3%97%E8%96%87%E7%B5%B2%E8%8E%89%E9%9B%85%C3%97%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E5%B0%8F%E6%9B%A6.md#L10-L24
+雙人03、三人02、四人01、五人01為同一完整六人源頭的檢索片段；雙人03與三人02開頭42非空白行重疊（第05批此前核驗），不能直接拼接。四人01是第3段；五人01是第4段；第5段是L2056起後續，不是第五個截取。芙蘭未出場的舊七人誤標不補寫。九人長篇是另一個獨立版本，思媞不能追加入原事件。
+《門沒關好》《藍與紅之間》：第03、04批都有切片索引，先查事件鏈／來源關係，不重複計時。各世界線是否真的發生須另查。
+《金曜宮賭場夜》四版是同故事的四種試寫，V4為最新試寫而非正式歷史，不刪舊稿。家庭生活共同據點不等於每條世界線都同住；住宅與城市細節未鎖，不強迫所有人每章到齊。
+圖像總入口：https://drive.google.com/file/d/1IaPtERINpw8DQdo_ReYYtFBfZn0xQ9-7/view
+原始圖片56張：https://drive.google.com/drive/folders/1t8ISZlrySdIoW42dbofFOJJMDIsn8QkS
+V3圖鑑：https://drive.google.com/drive/folders/14ZHbpyNqCfCU8RQMO1dS3QrtPqDMxpnG
+圖像原文索引：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/02_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83/00_%E5%9C%96%E5%83%8F%E5%8F%83%E8%80%83%E7%B4%A2%E5%BC%95.md
+圖像用法是固定DNA、局部校準、換裝、事件限定、構圖、排除項與未決。56/56三方對應及4原圖重驗是第06批紀錄，不是本批重新看56張。11組缺件仍按第06批逐組追查，尤其凜月原六圖耳飾；不得重新生成冒充原件。
+18冊逐字重建是第06批實測結果：386335 JS UTF-16字元，原文1020994 UTF-8 bytes；本批重開導航核對相同來源SHA，未重跑18冊字元重建。舊五冊保留作歷史。
+
+
+六、檢索測試實錄（實際讀取，不是假設性測試）
+方法：把六份Drive索引實際取回，對14組固定關鍵詞做文件級全部命中查詢；命中是「候選清單包含預期批次」，不是精確排名或答案正確率。初測13/14；第8題漏掉05批，修正回退詞後14/14找到預期批次。多批命中須再依來源層級與事件鏈判斷。以下保留初測命中集合、答覆判斷及原文或索引證據。此測試由本次助理執行，非Gemini或其他模型獨立盲測。
+T01（黑金＋芙蘭妮雅＋璃安）命中01/02/04/05/06，預期01：懷不是只有黑瞳才有真情；芙蘭不是無人格的依賴者；璃安有獨立位置。查01試行與02、主檔L3798–3812；不要把三人樣本視為巨構既成事件。直接重讀主檔：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3798-L3812
+T02（純實力＋思媞＋小曦）命中02/05，預期02：法月懷＞塞希莉雅＞朔凜月≥洛琪莉卡＞絲蒂莉雅≈薇絲莉雅＞璃安≈芙蘭妮雅＞瑟莉思媞＞小曦。家內排序不是輩分、身高或本土戰力。直接重讀main L583–604，SHA吻合：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L583-L604
+T03（原始＋朔凜月＋洛琪莉卡）命中02/03/04/05/06，預期02：原始歷史凜月遇杏；重製後現行歷史遇懷；法月→凜月→希雅→洛琪，小曦早於思媞。原四人是創作組合，不能反推最早只有四人住在一起。直接重讀：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3191-L3197
+T04（無界宗＋大師姐＋求援）僅命中02：手段用盡、退路斷絕才呼喊，無須令牌（02批宗門架構記錄）；可以早叫但璃安不一定來，不替弟子處理能力範圍內之事。直接重讀世界基準與十五章：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E7%84%A1%E7%95%8C%E5%AE%97/03_%E4%B8%96%E7%95%8C%E8%A7%80%E8%A8%AD%E5%AE%9A/%E7%84%A1%E7%95%8C%E5%AE%97_%E4%B8%96%E7%95%8C%E8%88%87%E5%AE%97%E9%96%80%E5%9F%BA%E6%BA%96.md#L45-L50；https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E7%84%A1%E7%95%8C%E5%AE%97/01_%E7%AB%A0%E7%AF%80/015_%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0_%E5%A4%A7%E5%B8%AB%E5%A7%90%EF%BC%8C%E4%BE%86%E6%8E%A5%E6%88%91%E5%80%91%E4%BA%86.md#L1119-L1157
+T05（門沒關好＋事件鏈）命中03/04，預期03：雙人開場／關門收尾與三人、翌日早餐四人片段為同事件鏈，不重複計算。索引級，未在本批重讀整段正文。查03、04。
+T06（藍與紅之間＋事件鏈）命中03/04/06，預期03：泳池事件的各段依來源關係排序，同一事件不重複發生；泳池服只固定此事件，不等同常服。索引級，查03及06。
+T07（六人抱抱大會＋第3段）命中03/04，預期04：希雅加入到璃安進場以前的四人部分。直接核對四人01 L10–18和六人源頭L10–24：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/03_%E5%9B%9B%E4%BA%BA%E7%B5%84/01_%E7%B5%B2%E8%92%82%E8%8E%89%E9%9B%85%C3%97%E8%96%87%E7%B5%B2%E8%8E%89%E9%9B%85%C3%97%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%B3%95%E6%9C%88%E6%87%B7.md#L10-L18；https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/05_%E5%85%AD%E4%BA%BA%E7%B5%84/01_%E7%B5%B2%E8%92%82%E8%8E%89%E9%9B%85%C3%97%E8%96%87%E7%B5%B2%E8%8E%89%E9%9B%85%C3%97%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E5%B0%8F%E6%9B%A6.md#L10-L24
+T08（六人抱抱大會＋第4段）初測命中03/04，漏05，失敗原因：第05批以「五人01」及「四個拆分」描述，不使用相同詞。改查「六人抱抱大會＋四個拆分」，實際讀回05成功；原文完整源頭明列第4段，前兩片重疊，不能拼成四次。修正後通過候選路由。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/05_%E5%85%AD%E4%BA%BA%E7%B5%84/01_%E7%B5%B2%E8%92%82%E8%8E%89%E9%9B%85%C3%97%E8%96%87%E7%B5%B2%E8%8E%89%E9%9B%85%C3%97%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E5%B0%8F%E6%9B%A6.md#L15-L24
+T09（135份＋99份）僅命中05：實體135、正文36、佔位99。原九人502包含372未建，非失檔。直接重讀總索引證明135及130／372；36／99沿第03–05批分類，不宣稱本批重算全部檔。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/00_%E4%BA%92%E5%8B%95%E7%B8%BD%E7%B4%A2%E5%BC%95.md#L50-L78
+T10（金曜宮賭場夜＋V4）僅命中05：V4最新獨立試寫不是既成Canon；四版不能算四次。索引級，未重讀8334行四版。
+T11（SE-03＋藍眼）僅命中06：藍眼只用於局部眼型、睜眼幅度和視線；希雅虹膜仍#6E00FF亮紫，不能複製原圖藍色。另同批SE-06金頸飾為禁止位置。重新開V3 F012／F015作者用途，未重新視讀圖像。https://drive.google.com/file/d/1IaPtERINpw8DQdo_ReYYtFBfZn0xQ9-7/view
+T12（HH02＋花冠）僅命中06：四圖第3張（HH-02）只採髮型與臉型，不採藍眼、花冠、衣服、珠寶。直接重開V3 F009／HH-02作者用途。https://drive.google.com/file/d/1IaPtERINpw8DQdo_ReYYtFBfZn0xQ9-7/view
+T13（朔凜月＋缺件）命中05/06，預期06：原始6張圖與人物／道具參考缺件；耳飾精確造型按原圖，未找到不捏造，其他組別可能重疊。索引級，未再做全Drive缺件搜尋。
+T14（386335＋18/18）僅命中06：新版18冊與正式01主檔同源，不能與舊五冊混讀。直接重開最新版閱讀導航L1–18、版本說明及Drive主檔標頭；逐字重建是06批既有實測。https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/05_Gemini_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%88%86%E5%8D%B7/00_%E6%9C%80%E6%96%B0%E7%89%88%E9%96%B1%E8%AE%80%E5%B0%8E%E8%88%AA.md#L1-L18
+
+
+七、補充反證題（六組，不納入14題關鍵詞命中率）
+R01｜芙蘭可以叫璃安姐嗎？正式規則是她直接叫璃安，並不代表不尊重；小曦與思媞仍叫璃安姐。她日常姐姐式稱呼、柔軟時可用母性稱呼，非情緒等級開關。直接重讀https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3798-L3812。
+R02｜兩位母親同場，懷是黑金瞳，小曦與思媞怎麼叫？法月母親與希雅母親；若只有一位在交談場景叫母親；第二人稱使用您，不強制每句出現。直接重讀https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3560-L3566及https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5265-L5275。
+R03｜小曦金瞳所以由懷創造？錯；小曦由希雅創造，思媞由懷創造。交叉同色，不同紋理；家庭共通已熟識不等於巨構特定時間已初見。直接重讀https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L5265-L5275。
+R04｜璃安在每部修仙小說都要第一次拜師？錯。唯一家庭歷史一次正式拜師，早於無界宗建立，絲薇為師尊、懷希為師祖；具體初遇地點與年齡未定。直接重讀https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/01_%E5%AE%B6%E5%BA%AD%E5%AE%8C%E6%95%B4%E8%A7%92%E8%89%B2%E8%A8%AD%E5%AE%9A%E7%B8%BD%E6%AA%94.md#L3413-L3416。
+R05｜當地仙帝能讓原始本體受一點傷再痊癒？錯，本土力量造成零實際傷害，非再生；芙蘭自願遊戲角色殼可真實輸掉，但不能回推本體受傷；思媞巨構管理權不自動跨界移植。直接重讀13專題L1–75及其併入主檔說明：https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/13_%E8%B7%A8%E4%B8%96%E7%95%8C%E5%8A%9B%E9%87%8F%E9%AB%94%E7%B3%BB%E8%88%87%E5%AE%A2%E8%A7%80%E5%B1%A4%E7%B4%9A%E5%B7%AE_%E5%85%B1%E9%80%9A%E5%AF%AB%E4%BD%9C%E6%BA%96%E5%89%87.md#L1-L75。
+R06｜六人組02已有家庭成員芙蘭，能否直接引用該組已發生劇情？錯，實際原文寫尚無正式文案，不能由空白推導關係不存在，也不能編造舊正文。直接重讀https://github.com/Secileya/Novel/blob/3714f54cb62e824a1757f447c25b3997de6e7be4/%E5%B0%8F%E8%AA%AA/%E5%AE%B6%E5%BA%AD%E7%B8%BD%E6%AA%94/03_%E4%BA%92%E5%8B%95%E6%96%87%E6%A1%88/05_%E5%85%AD%E4%BA%BA%E7%B5%84/02_%E7%B5%B2%E8%92%82%E8%8E%89%E9%9B%85%C3%97%E8%96%87%E7%B5%B2%E8%8E%89%E9%9B%85%C3%97%E5%A1%9E%E5%B8%8C%E8%8E%89%E9%9B%85%C3%97%E6%B3%95%E6%9C%88%E6%87%B7%C3%97%E7%92%83%E5%AE%89%C3%97%E8%8A%99%E8%98%AD%E5%A6%AE%E9%9B%85.md#L1-L10。
+以上六組答案均直接重開相應原文核對；不是外部模型盲測，不代表其他未抽樣設定已逐句驗證。
+
+
+八、交接狀態、維護與剩餘工作
+第01–07大批的主要研究索引／統一入口已形成。此處的完成僅指研究與檢索建置，不是全庫完整性或全家庭逐字逐圖驗收。
+已驗證：六份前批文件可讀；main最新家庭主檔SHA與固定研究版本相同；比較結果無家庭路徑變更；Drive主檔標頭與Git主檔SHA一致；實際14題初測13/14、回退修正後14/14候選命中；六個反證題直接原文核對。源頭與兩種分類、稱呼、時間／本體邊界均有可追溯入口。
+本次沒有修改任何Canon、GitHub檔案、既有索引、同步設定或歷史稿；只新增此非Canon文件。新增時選擇延續22–27的編號及同一Drive資料夾，不重複建立原始資料庫。不要把本索引寫回自動鏡像目錄。
+未完成／不可聲稱：剩52張圖重新視讀、11組原圖尋回、歷史五冊完整差分、所有長文逐句語義簽核、全庫新提交同步實體核驗、Gemini／其他模型獨立盲測。第06批的18冊精確重建、4圖重新雜湊與56張三方清冊為既有證據，不重新計入本批。全庫第01批留下的增量實體獨立驗證缺口也未在本批補做。
+後續維護：作者改主檔或補充時按路徑與blob SHA定位受影響段落；回原文確認後出規則，更新個別索引與此入口版本。找到原圖時保留原附件及作者用途，重新計算指紋。以後若要提升可靠度，將第六、七節問題交給Gemini等模型獨立執行，要求引用原文且記錄誤答，而非提前給答案；在不一致處補索引。家庭主要7批結束後，其他小說分支仍應依各自正式章節及全域導航獨立研究。
