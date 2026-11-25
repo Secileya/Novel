@@ -1,0 +1,80 @@
+{
+  "round": 30,
+  "head": "63af291d3c16576774c7a183e832254952e57329",
+  "receiptReadRef": "0f550bb274a6cd3f9c5622354a9111ef583ffa1c",
+  "inventoryBlob": "5510b7519c0165ce97ae6683a79d8d336ee982dd",
+  "scope": "固定261個原件路徑之分批雜湊證據總驗收",
+  "count": 261,
+  "bytes": 280098259,
+  "missing": 0,
+  "duplicatePaths": 0,
+  "mismatch": 0,
+  "groups": [
+    {
+      "name": "家庭總檔",
+      "count": 56,
+      "bytes": 127243913
+    },
+    {
+      "name": "理惠",
+      "count": 197,
+      "bytes": 152678508
+    },
+    {
+      "name": "巨構世界（法月懷造物）",
+      "count": 8,
+      "bytes": 175838
+    }
+  ],
+  "sourceReceipts": [
+    {
+      "name": "63af291_家庭56原圖雜湊總驗收.json",
+      "blob": "c44986c733e37c19d3056c23298fa3c5cc634c15"
+    },
+    {
+      "name": "63af291_巨構8地圖原件核驗.json",
+      "blob": "6983c60241418239ccadfcbb3c72ca3107e2aaeb"
+    },
+    {
+      "name": "63af291_理惠原圖001-020雜湊驗收.json",
+      "blob": "85c6dc7600077b0f94a5ee14f3537a9e79071a3d"
+    },
+    {
+      "name": "63af291_理惠原圖021-040雜湊驗收.json",
+      "blob": "66b6a78d2753e26493d1b481d1d0c99690f5d60f"
+    },
+    {
+      "name": "63af291_理惠原圖041-060雜湊驗收.json",
+      "blob": "41c3d672c9b79ae2c10676175603be8b7506f247"
+    },
+    {
+      "name": "63af291_理惠原圖061-080雜湊驗收.json",
+      "blob": "58d60a073294fd300779c24d8dfb2928bca0b115"
+    },
+    {
+      "name": "63af291_理惠原圖081-100雜湊驗收.json",
+      "blob": "5725c9f8375383329b3a92d32068827434c0532e"
+    },
+    {
+      "name": "63af291_理惠原圖101-120雜湊驗收.json",
+      "blob": "f179475eba23eba7d3a4768e8d9b3639ae3793b0"
+    },
+    {
+      "name": "63af291_理惠原圖121-140雜湊驗收.json",
+      "blob": "ef4f932df2db3c1351324581d8b94ad13acdd8ba"
+    },
+    {
+      "name": "63af291_理惠原圖141-160雜湊驗收.json",
+      "blob": "65fc49a0c28593f64c8c7dc09debbe9ae5ac6dfd"
+    },
+    {
+      "name": "63af291_理惠原圖161-180雜湊驗收.json",
+      "blob": "0b3d73b496342ca877e0fc20ce612b2dfef0111d"
+    },
+    {
+      "name": "63af291_理惠原圖181-197雜湊驗收.json",
+      "blob": "74748d40ff19ea99d6e250f6a0f42a41e6af0352"
+    }
+  ],
+  "limitations": "固定版本，不是最新全庫；家庭4張沿用前次獨立驗證；家庭及理惠未另下載Git二進位獨立重算SHA256；巨構8張已雙側精確比對；未完成語義視讀、缺件、AUTO或全庫恢復。原件不變更。"
+}
