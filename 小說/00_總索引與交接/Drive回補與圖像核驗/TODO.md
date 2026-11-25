@@ -164,3 +164,6 @@
 
 ### 2026-11-26｜第40輪：四批歷史AUTO計畫核對與七份原件驗收
 - D03/M01 PARTIAL：固定04474db→9767541→9475e24→9804e26→5b223ad，四批既存AUTO均實見_COMPLETE.json且complete=true，計畫變更19/7/20/16筆（合計62筆、1813999 bytes，0刪除），與五個獨立未截斷Git樹逐項path/sha/size/mode/oldSha完整差分一致；核驗資料夾各有19/7/20/16份編號receipt。第二批9767541→9475e24七份原件實際下載，獨立Git blob SHA1、SHA256、bytes、receipt及PLAN SHA256/COMPLETE一致，7/7、284357 bytes，[Git清冊](核驗清冊/9475e24_AUTO七份原件驗收.json)（d616827da750662fbff15b09cfd04b8ca04652a2）讀回一致；其餘55份本輪未逐件原始bytes驗收。最新5b223ad→e6f3b21 AUTO資料夾仍無_COMPLETE，最新列舉receipt 38份（000000–000037，其中000037為0 bytes；37份非空不等於37份已核），先前16/105實測未變，剩餘待驗。未改同步器、游標、觸發器、Canon或刪檔。下一輪從19份早期AUTO及20/16份後續原件逐一驗收，再銜接新批次。
+
+### 2026-11-26｜第41輪：歷史AUTO首批十九份原件獨立驗收
+- D03/M01 PARTIAL：固定04474db→9767541，19份Drive原始檔及19份收據實際下載，逐件獨立Git blob SHA1、SHA256及bytes與PLAN/receipt完全吻合，19/19、789793 bytes；PLAN SHA256與_COMPLETE一致，重新查Git compare共19筆（完整Git樹比對沿用第40輪）。兩份同名README暫存覆蓋後分開重下載核算，非Drive缺件。 [Git清冊](核驗清冊/9767541_AUTO十九份原件驗收.json)（3965420ac25318474b7bcc92f16be929e0ebc86b）已讀回一致，以PLAN序號對應完整路徑。歷史AUTO累計26/62，尚餘9804e26的20份及5b223ad的16份。最新e6f3b21實查仍38份收據（37非空，000037空白）、無_COMPLETE，原件獨立驗收仍16/105；不把收據當原件。未改Canon、AUTO、觸發器、游標或刪除資料。下一輪優先9804e26二十份。
