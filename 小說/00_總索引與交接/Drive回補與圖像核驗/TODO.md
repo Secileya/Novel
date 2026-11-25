@@ -110,3 +110,6 @@
 
 ### 2026-11-25｜第22輪：家庭原圖F001–F015雜湊驗收
 - I01 PARTIAL：固定63af291d3c16576774c7a183e832254952e57329，回讀第27號家庭研究原件及V3逐圖SHA256，確認前輪已獨立核驗F002/F004/F012/F015四張，原件不重下載。其餘11張PNG完整下載Drive，獨立重算Git blob SHA1、SHA256及bytes，11/11與固定Git tree及V3 SHA256吻合，28520719 bytes。[Git逐檔清冊](核驗清冊/63af291_家庭原圖F001-F015雜湊驗收.json)已讀回一致（0120cc3d03bd325ae91007bd5c4da7b4f2940055），[Drive原始雜湊資料](https://drive.google.com/file/d/13K5puNbb10Ib95QBv5rv-2mI1KFLDRG1/view)已回讀核對。舊四張具來源證據，不重複計數；家庭累計15/56、理惠80/197、巨構8/8，共103/261，剩158張（家庭41+理惠117）。未獨立下載Git二進位重算SHA256，未新增正式視讀、未改Canon、AUTO、未刪檔。
+
+### 2026-11-25｜第23輪：家庭原圖F016–F033雙人圖18張雜湊驗收
+- I01 PARTIAL：固定63af291d3c16576774c7a183e832254952e57329，家庭F016–F033雙人PNG 18張完整下載Drive，獨立重算Git blob SHA1、SHA256及bytes，18/18與固定Git tree及V3 SHA256吻合，42769076 bytes。[Git逐檔清冊](核驗清冊/63af291_家庭原圖F016-F033雜湊驗收.json)已讀回一致（ea718604fbc09a326d3d135ed5a68430dacb411a），[Drive原始雜湊資料](https://drive.google.com/file/d/1deJ8GyqbUw_p9eqNtG00YyTODACocuuL/view)已回讀核對。家庭累計33/56、理惠80/197、巨構8/8，共121/261，剩140張（家庭23+理惠117）。未獨立下載Git二進位重算SHA256，未新增正式視讀、未改Canon、AUTO、未刪檔。
