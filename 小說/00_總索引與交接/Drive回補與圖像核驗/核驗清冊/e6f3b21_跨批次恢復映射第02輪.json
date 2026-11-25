@@ -1,0 +1,34 @@
+{
+  "base": "5b223ad0820911b48a2eeb1e970198f204683740",
+  "head": "e6f3b21cb2f666cc58ab23495fbb2ce95a63d8bd",
+  "previousCoverage": 45,
+  "verified": [
+    {
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/導航原件/00_小說資料庫總入口_20261124.txt",
+      "sha": "841148be2912a86d870571080f83490e2f0a284e",
+      "bytes": 4488,
+      "driveId": "1_WCnNn9rQ-n6krM3c2WakwQV1yU7R1RL",
+      "driveURL": "https://drive.google.com/file/d/1_WCnNn9rQ-n6krM3c2WakwQV1yU7R1RL/view",
+      "method": "current exact readable text, fixed Git SHA and listed Drive byte count; prior raw verification per TODO"
+    },
+    {
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/導航原件/00_請先讀_全域導航.txt",
+      "sha": "590a81c3ba4b7c5e4cac72be5517e61c347b71ea",
+      "bytes": 4142,
+      "driveId": "1ZuCFN7YLH-YU2y51kTA_0AfM33M5SV3y",
+      "driveURL": "https://drive.google.com/file/d/1ZuCFN7YLH-YU2y51kTA_0AfM33M5SV3y/view",
+      "method": "current exact readable text, fixed Git SHA and listed Drive byte count; prior raw verification per TODO"
+    },
+    {
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/導航原件/01_AI接手導航.txt",
+      "sha": "a2089b88f7a251bb124962b7d782d12d855357db",
+      "bytes": 8151,
+      "driveId": "1o5S_x4diJoVzwB3WJaL6VY5Y8LTW-HX3",
+      "driveURL": "https://drive.google.com/file/d/1o5S_x4diJoVzwB3WJaL6VY5Y8LTW-HX3/view",
+      "method": "current exact readable text, fixed Git SHA and listed Drive byte count; prior raw verification per TODO"
+    }
+  ],
+  "coverage": 48,
+  "remainingCount": 57,
+  "note": "Full readable text equality; no fresh raw-byte rehash."
+}
