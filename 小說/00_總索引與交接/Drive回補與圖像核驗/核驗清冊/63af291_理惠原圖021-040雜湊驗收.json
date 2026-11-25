@@ -1,0 +1,230 @@
+{
+  "round": 19,
+  "head": "63af291d3c16576774c7a183e832254952e57329",
+  "method": "下載Drive現行完整原始WEBP bytes至容器，獨立計算Git blob SHA1（含blob標頭）及SHA256，與固定Git tree SHA1、bytes逐一比較。未另下載Git二進位，不稱獨立雙側SHA256。",
+  "count": 20,
+  "bytes": 3501614,
+  "rawHashDriveId": "1V3eQ4fz7JYNhRqh7SA_v_0bUXmEnICch",
+  "files": [
+    {
+      "name": "021_在客廳等待.webp",
+      "bytes": 166084,
+      "gitSha": "4dbb4b18175e09cfeec31d22e61a25e2fa707eeb",
+      "sha256": "ff83f4cdf47aa34f8482b53ee6a25d5beec148767b97c2e502471335898fef35",
+      "path": "小說/理惠/圖庫/原圖/021_在客廳等待.webp",
+      "driveId": "121AarqucgLG1DNnRhmwK0S2H-2iclG1T",
+      "expectedGitSha": "4dbb4b18175e09cfeec31d22e61a25e2fa707eeb",
+      "expectedBytes": 166084,
+      "verified": true
+    },
+    {
+      "name": "022_房門前.webp",
+      "bytes": 178504,
+      "gitSha": "e3cc52580aad3c619ce722535a7b7f3acd6cb929",
+      "sha256": "eedfc1703565de2cb357572b15f0975b3d552e79cdf1c42caa735a4bc9a3784e",
+      "path": "小說/理惠/圖庫/原圖/022_房門前.webp",
+      "driveId": "1NgVkb4WTKC71pp9n1XZGbB2ai49s-hXR",
+      "expectedGitSha": "e3cc52580aad3c619ce722535a7b7f3acd6cb929",
+      "expectedBytes": 178504,
+      "verified": true
+    },
+    {
+      "name": "023_餐桌.webp",
+      "bytes": 190052,
+      "gitSha": "f85397161f5702e1080662e56e9c0aad50d181e5",
+      "sha256": "bdcedef4b47d4a44d0367372af3664919e84e7ab17f7484f34ad0a0d674325f1",
+      "path": "小說/理惠/圖庫/原圖/023_餐桌.webp",
+      "driveId": "1j_pNWrR0OzlGU42lP32rEvyesVXcbBrH",
+      "expectedGitSha": "f85397161f5702e1080662e56e9c0aad50d181e5",
+      "expectedBytes": 190052,
+      "verified": true
+    },
+    {
+      "name": "024_用餐.webp",
+      "bytes": 209438,
+      "gitSha": "8a9c70a0920999169a8bae548ca8b06056e3a6b6",
+      "sha256": "e398081dda02ff3f50ccb3563b53d9910822be8537917f2a3800899506e70967",
+      "path": "小說/理惠/圖庫/原圖/024_用餐.webp",
+      "driveId": "1ehZw2wvIIsBN-DrTvz_WjuelRk_24iWW",
+      "expectedGitSha": "8a9c70a0920999169a8bae548ca8b06056e3a6b6",
+      "expectedBytes": 209438,
+      "verified": true
+    },
+    {
+      "name": "025_手機.webp",
+      "bytes": 158578,
+      "gitSha": "89b00bea5df3e527008054a5e6384c1e533949d7",
+      "sha256": "2f820755f5cabe614509b77c4d38cd7608172398e2926360a21b94d7d2364131",
+      "path": "小說/理惠/圖庫/原圖/025_手機.webp",
+      "driveId": "1EAAxqu0JLWabT1tDJDOaB6MVAsoNu0QY",
+      "expectedGitSha": "89b00bea5df3e527008054a5e6384c1e533949d7",
+      "expectedBytes": 158578,
+      "verified": true
+    },
+    {
+      "name": "026_對著手機微笑.webp",
+      "bytes": 171144,
+      "gitSha": "7df353758c91517cab99f0fe144cf21d8a65cb83",
+      "sha256": "0354a6ccf26cd60c080333461f3fd4607ad2f3bb6cdacbc49097061dd0ab3012",
+      "path": "小說/理惠/圖庫/原圖/026_對著手機微笑.webp",
+      "driveId": "15bZqCL3-IVJMtt4R1MlwHuGUVpsLbFa_",
+      "expectedGitSha": "7df353758c91517cab99f0fe144cf21d8a65cb83",
+      "expectedBytes": 171144,
+      "verified": true
+    },
+    {
+      "name": "027_在床上休息.webp",
+      "bytes": 186790,
+      "gitSha": "7ddd789e1d615c87ef6faf13b57a1350d9cc954d",
+      "sha256": "40f83e74aff763fa006f4c4e1f3ae1a535d8f19e79ffd43c2e4601d8dd8c5d39",
+      "path": "小說/理惠/圖庫/原圖/027_在床上休息.webp",
+      "driveId": "1v20-7DcKUG042efLOiFKjflfqTVg2Nyr",
+      "expectedGitSha": "7ddd789e1d615c87ef6faf13b57a1350d9cc954d",
+      "expectedBytes": 186790,
+      "verified": true
+    },
+    {
+      "name": "028_睡眠中.webp",
+      "bytes": 170044,
+      "gitSha": "84934bc93cae780151f991070d9014b135361252",
+      "sha256": "2b9582c86162ee95514847bd3a24526caa63f6f06b547deccb2fe4a2b770d5e4",
+      "path": "小說/理惠/圖庫/原圖/028_睡眠中.webp",
+      "driveId": "1f86WasJ4tB3Szdh2Fc7W_6oQay6-Dn-5",
+      "expectedGitSha": "84934bc93cae780151f991070d9014b135361252",
+      "expectedBytes": 170044,
+      "verified": true
+    },
+    {
+      "name": "029_牽手.webp",
+      "bytes": 170562,
+      "gitSha": "fb4c5a7aaac505e2583cf2106255bd985f965d62",
+      "sha256": "8c6ae66a7b2008fa1b98ac06bbca4e63573727917e9fc78c4dc90252c1313c69",
+      "path": "小說/理惠/圖庫/原圖/029_牽手.webp",
+      "driveId": "1asC2zAf_ad3hZkKVwuUJr3Ez50EyY5e2",
+      "expectedGitSha": "fb4c5a7aaac505e2583cf2106255bd985f965d62",
+      "expectedBytes": 170562,
+      "verified": true
+    },
+    {
+      "name": "030_擁抱.webp",
+      "bytes": 169206,
+      "gitSha": "f63fc2cd4b5909d9a312d086731c1db84c684680",
+      "sha256": "5eb34d4c3cd134073e8a7bac65ca5e4dd47dc405ee2248db451492a917ea4927",
+      "path": "小說/理惠/圖庫/原圖/030_擁抱.webp",
+      "driveId": "16--a4HMjTpZVmlL5A2OUDGqiqYJL39BK",
+      "expectedGitSha": "f63fc2cd4b5909d9a312d086731c1db84c684680",
+      "expectedBytes": 169206,
+      "verified": true
+    },
+    {
+      "name": "031_接吻.webp",
+      "bytes": 169282,
+      "gitSha": "9c44bed377824662603998b0b917dcea8030036f",
+      "sha256": "01d8f03e5c9e3cfe841955253de8ba8a6f00b58492eaea77891e9226e00e2514",
+      "path": "小說/理惠/圖庫/原圖/031_接吻.webp",
+      "driveId": "177mJwl3XLuBEmH8Pia2JWUUGZxbOef29",
+      "expectedGitSha": "9c44bed377824662603998b0b917dcea8030036f",
+      "expectedBytes": 169282,
+      "verified": true
+    },
+    {
+      "name": "032_讀書.webp",
+      "bytes": 185096,
+      "gitSha": "1a6cd7086d3438f18d552bef4d5a10278a96c53a",
+      "sha256": "da19cdaf5a0bd4c8b1c2282d54e6d38a965b0de1f2f50e98927a0ada9a543ef5",
+      "path": "小說/理惠/圖庫/原圖/032_讀書.webp",
+      "driveId": "1rxSBhi1vDimnuovbt2pPBejUYHeaj5Ep",
+      "expectedGitSha": "1a6cd7086d3438f18d552bef4d5a10278a96c53a",
+      "expectedBytes": 185096,
+      "verified": true
+    },
+    {
+      "name": "033_倚靠.webp",
+      "bytes": 178488,
+      "gitSha": "864b6877c43dbe10977454c2e9d60fc62e1b02f8",
+      "sha256": "68820757b744a4688c957c26206e9790241556dc16ad375255edfc81ecae753a",
+      "path": "小說/理惠/圖庫/原圖/033_倚靠.webp",
+      "driveId": "1_Xk3ZU8x8WWqdgUm_AFFuz-FUpuiVeol",
+      "expectedGitSha": "864b6877c43dbe10977454c2e9d60fc62e1b02f8",
+      "expectedBytes": 178488,
+      "verified": true
+    },
+    {
+      "name": "034_撫摸.webp",
+      "bytes": 169646,
+      "gitSha": "8b4cef1c470fb352641b61042830105f7c94ad16",
+      "sha256": "5f7e0cc9c0e5f8e38d1e21188564d96e69a118452b1275d0359e628396c192ad",
+      "path": "小說/理惠/圖庫/原圖/034_撫摸.webp",
+      "driveId": "1K81xfZmzU-UNmMcVe5jzFrwshuDLnErA",
+      "expectedGitSha": "8b4cef1c470fb352641b61042830105f7c94ad16",
+      "expectedBytes": 169646,
+      "verified": true
+    },
+    {
+      "name": "035_拭去眼淚.webp",
+      "bytes": 175854,
+      "gitSha": "2bd693cec81a9f2f1c3e11a57255251b537f0057",
+      "sha256": "552b903dd0f3f86de327beb621499fb00fcb057cf71b3033113ac1191a902a2e",
+      "path": "小說/理惠/圖庫/原圖/035_拭去眼淚.webp",
+      "driveId": "1s8APzkdsYspBYd5L2gui5F67hZkecByq",
+      "expectedGitSha": "2bd693cec81a9f2f1c3e11a57255251b537f0057",
+      "expectedBytes": 175854,
+      "verified": true
+    },
+    {
+      "name": "036_禮物.webp",
+      "bytes": 197256,
+      "gitSha": "f593b0f43befae981d1b380c4f3a7229811cffc7",
+      "sha256": "e52d77a03d372696ed274a72a36d1f313af86c52c5759b6f74f9a7849c6a3e37",
+      "path": "小說/理惠/圖庫/原圖/036_禮物.webp",
+      "driveId": "11ysc6m2UD8EPq11ap276C1inKoIf0d1X",
+      "expectedGitSha": "f593b0f43befae981d1b380c4f3a7229811cffc7",
+      "expectedBytes": 197256,
+      "verified": true
+    },
+    {
+      "name": "037_爭吵.webp",
+      "bytes": 148052,
+      "gitSha": "48e9930a7656a96adccd4a1b7d401d392a41ec9b",
+      "sha256": "7b1196367f509c0c1146a099194ddbe9df46e049903a28b83cea4f51c2c9fc40",
+      "path": "小說/理惠/圖庫/原圖/037_爭吵.webp",
+      "driveId": "1RZQb4rL34F8c9bB6T8tmwiWzLk5ZJ1br",
+      "expectedGitSha": "48e9930a7656a96adccd4a1b7d401d392a41ec9b",
+      "expectedBytes": 148052,
+      "verified": true
+    },
+    {
+      "name": "038_啞口無言.webp",
+      "bytes": 150622,
+      "gitSha": "cebca70fdc9bbcc8d3ea01b52e15e250bbcfa84e",
+      "sha256": "1ec7c818ba0aea63b5569395e6830eed1bb7c60d23829f84053190b0f8731bf0",
+      "path": "小說/理惠/圖庫/原圖/038_啞口無言.webp",
+      "driveId": "13fNfGl3hI17aKRzE3gc6vr-HeXSsv6zj",
+      "expectedGitSha": "cebca70fdc9bbcc8d3ea01b52e15e250bbcfa84e",
+      "expectedBytes": 150622,
+      "verified": true
+    },
+    {
+      "name": "039_砰地關門.webp",
+      "bytes": 187754,
+      "gitSha": "a2a8ed88f45e4c4addf4455b65f56961aaa61163",
+      "sha256": "871ee134972bc1adb41a429affc349846d604bb2fab329a7f61033de0e920bac",
+      "path": "小說/理惠/圖庫/原圖/039_砰地關門.webp",
+      "driveId": "1HVLJM2BeGRcWPNYuQtEBvqmLdZWUruxk",
+      "expectedGitSha": "a2a8ed88f45e4c4addf4455b65f56961aaa61163",
+      "expectedBytes": 187754,
+      "verified": true
+    },
+    {
+      "name": "040_偷聽.webp",
+      "bytes": 169162,
+      "gitSha": "c65ce236b1f90b722fe421c2128ed0ea65d1e7dd",
+      "sha256": "48e703aa1f4a2c7de6a3893e0246029850cc4eb409cce15a8ae1792a1169d6a7",
+      "path": "小說/理惠/圖庫/原圖/040_偷聽.webp",
+      "driveId": "10OZYQnHd13JTWmoujjBPJmVA_MdkeM2M",
+      "expectedGitSha": "c65ce236b1f90b722fe421c2128ed0ea65d1e7dd",
+      "expectedBytes": 169162,
+      "verified": true
+    }
+  ]
+}
