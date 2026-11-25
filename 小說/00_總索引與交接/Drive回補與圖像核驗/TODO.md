@@ -197,3 +197,6 @@
 
 ### 2026-11-26｜第51輪：巨構33份固定原件封存
 - D03 PARTIAL：實際下載32份精確鏡像及1份原生Docs文字匯出，逐件對4e63f7e固定差異重算Git SHA1/SHA256/bytes相符，33份323766 bytes。原生Docs還原換行及尾端空白後SHA精確相符；三份已更新鏡像排除，不以新代舊。[Drive ZIP](https://drive.google.com/file/d/1gUOGWcDBHP_ssIxDaipZu8fIB5Zeom2g/view)204153 bytes，SHA256 dc1431a2f8614f2ba6c4b50f469207e1fe38716138a03a8cd7fd9034930f429b，上傳後移開本地原件重新下載，逐位元組、CRC及33項雜湊全符。[Drive清冊](https://drive.google.com/file/d/1ZmjIpglSGVY0LyIaeEPQM3MajxPx46Jz/view)及[Git清冊](核驗清冊/4e63f7e_第51輪33份原件驗收.json)（8e4bf705ad2e5d05a7ba66d1b88d0eee351ccedd）讀回一致。9d6721e→4e63f7e累計127/144，餘17份617333 bytes（7巨構、8末世、2同步索引）。保留舊版與原Docs，未改Canon、AUTO或刪除檔案。
+
+### 2026-11-26｜第52輪：接續缺口最後17份精確封存
+- [x] D03-4E-EXACT：從固定4e63f7e Git原件以Base64經3份新增專用中轉Docs（巨構7、末世開店8、同步索引2）匯出還原；17份617333 bytes，獨立重算Git blob SHA1、SHA256、bytes與固定差異完全相符，兩索引JSON可解析。[Drive ZIP](https://drive.google.com/file/d/1nZmdB4N2NHqRqL69Q8QaeocGcs8f_OdT/view)228044 bytes、SHA256 2548b54e756dc2b83dea9ca1d0cdaa1c3a59c9b0aff0f48ea9179c93b451a31f，上傳後移開本地原件、重新下載逐位元組、CRC、17項雜湊全符。[Drive清冊](https://drive.google.com/file/d/1P-aBqVIk2avj2HuDZmaKRBpnZC7uxlnh/view)及[Git清冊](核驗清冊/4e63f7e_第52輪17份原件驗收.json)（75375c8d83321ad2fd3007120732f9b845163e93）讀回一致。累計144/144固定差異原件全部精確覆蓋，尚須完整樹重放才能接續7251e29。中轉Docs移至固定快照資料夾保留，不計原件；未改原始Canon、現行同步索引、腳本、游標、觸發器或刪除資料。
