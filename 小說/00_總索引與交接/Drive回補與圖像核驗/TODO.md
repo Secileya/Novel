@@ -161,3 +161,6 @@
 
 ### 2026-11-26｜第39輪：早期六段增量恢復鏈完整驗收
 - [x] Z01-OLD-DELTA／D03-EARLY-CHAIN：五個既存Drive外層ZIP（verified-deltas-c8af483、Novel-delta-14a38e1-b84d99a、Novel-delta-b84d99a-ac42f26、DELTA-b1ee6d2、verified-deltas-04474db）實際下載、外內層CRC、26筆原件Git SHA1/SHA256/bytes與各DELTA_MANIFEST逐項核對；依f02ec20→14a38e1→b84d99a→ac42f26→b1ee6d2→c8af483→04474db逐段重放，old_sha均匹配。六個獨立未截斷Git樹全量路徑+SHA+bytes+mode指紋各自一致；終點4057 blobs、434604655 bytes，指紋e8d6758bc2a30180f0b79de21848efc1681e4ef47c03f6719b4377f188e8d878。基線至04474db恢復鏈閉合。[Git清冊](核驗清冊/04474db_六段舊增量恢復鏈.json)（1997b416632a5de943507bdb2c43c83195762eef）／[Drive驗算清冊](https://drive.google.com/file/d/1lQxD4eWhEdyvkfWDYzKni6GYtBHmXEG8/view)讀回一致。未執行程式、未刪除歷史或修改Canon、AUTO；後段恢復鏈、其他ZIP仍待查。
+
+### 2026-11-26｜第40輪：四批歷史AUTO計畫核對與七份原件驗收
+- D03/M01 PARTIAL：固定04474db→9767541→9475e24→9804e26→5b223ad，四批既存AUTO均實見_COMPLETE.json且complete=true，計畫變更19/7/20/16筆（合計62筆、1813999 bytes，0刪除），與五個獨立未截斷Git樹逐項path/sha/size/mode/oldSha完整差分一致；核驗資料夾各有19/7/20/16份編號receipt。第二批9767541→9475e24七份原件實際下載，獨立Git blob SHA1、SHA256、bytes、receipt及PLAN SHA256/COMPLETE一致，7/7、284357 bytes，[Git清冊](核驗清冊/9475e24_AUTO七份原件驗收.json)（d616827da750662fbff15b09cfd04b8ca04652a2）讀回一致；其餘55份本輪未逐件原始bytes驗收。最新5b223ad→e6f3b21 AUTO資料夾仍無_COMPLETE，最新列舉receipt 38份（000000–000037，其中000037為0 bytes；37份非空不等於37份已核），先前16/105實測未變，剩餘待驗。未改同步器、游標、觸發器、Canon或刪檔。下一輪從19份早期AUTO及20/16份後續原件逐一驗收，再銜接新批次。
