@@ -1,0 +1,55 @@
+{
+  "round": 56,
+  "status": "BLOCKED_LIVE_EXECUTION",
+  "scope": "只讀重新檢查AUTO；不修改正式程式、觸發器、游標、原始檔或既有收據",
+  "batch": {
+    "base": "5b223ad0820911b48a2eeb1e970198f204683740",
+    "head": "e6f3b21cb2f666cc58ab23495fbb2ce95a63d8bd",
+    "folder": "1F7BcnANr3SROm_kmcsBOjC-hIKkOlvGP",
+    "plan_id": "1Gc9zrXlDP1_TTowLeeT8rUrNP5NktQXg",
+    "plan_bytes": 35021,
+    "plan_sha256": "ad7d14068bab5a7b5982371116473ba39f57d73586207e7190a48b6861bf9797",
+    "planned": 105,
+    "raw_tree_folders": 9,
+    "raw_listed": 38,
+    "raw_total_bytes": 1456189,
+    "receipts_listed": 38,
+    "nonempty_receipts": 37,
+    "complete_marker": false,
+    "empty": {
+      "name": "000037.json",
+      "id": "1eAbqnd9_KoHa9NCBiqPJ5aBzFV7c_msr",
+      "bytes": 0,
+      "modified_utc": "2026-11-25T10:36:40.110Z",
+      "expected_original": "小說/00_總索引與交接/Drive回補與圖像核驗/導航原件/18_AI接手導航.txt",
+      "expected_git_sha1": "aa3233698baf0d4a85ca5a09ea706fe72bfae67c",
+      "expected_bytes": 4254
+    }
+  },
+  "evidence": {
+    "previous_independent_raw_verification": 38,
+    "previous_valid_receipts": 37,
+    "cross_batch_recovery": 105,
+    "previous_recovery_receipt": "fea015200e48268f81ccb5cebf32c8dbe64da9ec",
+    "source_commit": "b1ca47e508c68e668d00ac47324a0423701b5669",
+    "source_path": "小說/00_總索引與交接/Drive回補與圖像核驗/同步維護原件/Novel_Full_Delta_Addon.txt",
+    "source_blob": "a87ace07e3983541e6c7243c49bd55207d68fb70",
+    "source_lines": [
+      64,
+      70,
+      71,
+      72,
+      75,
+      78,
+      81,
+      132,
+      133,
+      134,
+      135,
+      136
+    ]
+  },
+  "diagnosis": "固定原碼顯示原件先建立並核驗，收據以不可變寫入後才遞增游標。若現行部署與該版一致、且pending.cursor=37，0-byte同名收據將觸發 Immutable file conflict/damage: 000037.json；重跑不會自動修復。真實部署、ScriptProperties及執行日誌未可讀，故此為有原碼和實物支持的條件式判定，不宣稱已確認實際錯誤或根因。",
+  "next": "在原Apps Script專案先執行 fullNovelSyncStatus 並查 Executions 最近 fullNovelSyncNow 失敗記錄；保留0-byte收據及其metadata，不清空指標；如確認同一不可變衝突，再由作者核准非破壞性隔離/重建收據修補。真實觸發完成須重驗全部105原件、105收據與_COMPLETE；不能拿手動封存替代。",
+  "limitations": "本輪只重新完整列舉9資料夾及收據，不重下載38份原件；前47輪有精確雜湊證據。無可用Apps Script執行/日誌介面。未修改或偽造任何AUTO紀錄。"
+}
