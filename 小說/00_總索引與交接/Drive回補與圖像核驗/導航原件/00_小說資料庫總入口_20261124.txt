@@ -1,0 +1,45 @@
+Secileya/Novel → Stingray Google Drive｜全庫總入口
+已完整備份的增量終點：04474db91ce20f6eba68ee146c52528828569e69
+更新：2026-11-25（此文件為已核對的導航，不等於即時同步狀態）
+
+【優先閱讀】
+AI小說資料庫操作指南：https://drive.google.com/file/d/1TV53GG39kQWWo80hcZh3d0G_IAwixs7h/view
+同步維護及驗收：https://drive.google.com/drive/folders/10kAkAtAcKA1mIDFGAhwSdVFJ6E4QFYwz
+家庭及理惠最新版V3圖鑑：https://drive.google.com/drive/folders/14ZHbpyNqCfCU8RQMO1dS3QrtPqDMxpnG
+家庭56張作者確認索引：https://drive.google.com/file/d/1IaPtERINpw8DQdo_ReYYtFBfZn0xQ9-7/view
+理惠77張一般情境索引：https://drive.google.com/file/d/1KLXIaWn8vhaeiWB3uQQm3YkgsYlrg8Oc/view
+家庭未入庫圖像文字證據：https://drive.google.com/file/d/1wyw8YU1lyqIKlb9iDRt5r6eoE4eFZGGy/view
+巨構8張地圖集（候選標示保留）：https://drive.google.com/file/d/1YmqnbcmU6vlPzCbIWxP85PCLhMZmxKve/view
+圖鑑不是正文；作者確認使用邊界高於圖中偶發偏差。
+
+【閱讀入口】
+全庫閱讀根目錄：https://drive.google.com/drive/folders/1AwWosO_m36QNmSqsEgLMS6VHMi8jLt6_
+AI全域導航及22份入口：https://drive.google.com/drive/folders/1MnlMGvy4W-5lfmFhUpt9P_R_U8qeZE8d
+832卷全文基礎快照（14a38e1）：https://drive.google.com/drive/folders/1xXpdjQ04JaPfu58Hdzd1_v2Ns2dR1Vvu
+四部原著：異常大舞台70卷：https://drive.google.com/drive/folders/11oZqEzqwF38M9Xx9Qpctyoh8n7BMW2m5
+其餘三部137卷：https://drive.google.com/drive/folders/1oy83ujO724aewEpoIeXJ0O_9Ho43kidh
+261份原圖：https://drive.google.com/drive/folders/1nsDQvxujChGIuAMS4ZI7DdfZAi-rKPEf
+56卷正文連續閱讀（529份來源，含已標示的歷史及候選）：https://drive.google.com/drive/folders/1AHllZ91ne5vB_D3QOdbtiVCb-fRGbSPZ
+78份候選與歷史分流原件：https://drive.google.com/drive/folders/1OaRgCN6of7owklsTk4h77knMFoU4zl8g
+家庭18冊正式閱讀分卷：https://drive.google.com/drive/folders/19YNla512cJb3mWqWgXEIuLpHCoTmP8af
+家庭十人DNA原文導航：https://drive.google.com/file/d/1ujtViMqKUa1Qnfbb7tjqdDdm27rvgxQY/view
+
+【原始備份與恢復鏈】
+原始全庫快照 f02ec20：https://drive.google.com/drive/folders/1uUKmCnitOInp3CdUnhm2kKnw3jAHorZO
+依順序應用以下差異清冊；保留舊版本，刪除項僅以清冊表示，不直接刪舊資料。
+f02ec20 → 14a38e1（2份變更）：https://drive.google.com/drive/folders/1CNyF_olBn21l1muDb9h9kCbxT2k7kafL
+14a38e1 → b84d99a（10份）：https://drive.google.com/drive/folders/1get5tr1YS7hEpNqGn01w5ue9kZCs6PbM
+b84d99a → ac42f26（4份）：https://drive.google.com/drive/folders/1A77atKBFWVe6RL1t2aSwqxqsyhGWVP4t
+ac42f26 → b1ee6d2（4份）：https://drive.google.com/drive/folders/1ZnBLSkSJ8qaXw_xE1B4qYoyszu99ocrj
+b1ee6d2 → c8af483（3份）：https://drive.google.com/drive/folders/1Rkvzw2BdLr0cPY5we5Bo7ehywCQ6jRCS
+增量根目錄：https://drive.google.com/drive/folders/1eppxXt86PrH4Xd5vNS4q3EIzc4hdBURK
+c8af483 → 04474db（3份）：https://drive.google.com/drive/folders/14xt1_lVNjq5sLSunYcAuuFSyGevMKAyj
+26份變更紀錄（包含同一檔案不同版本，不等於23個不同檔案）。每批以 DELTA_MANIFEST.json 的完整 commit SHA、原始路徑、Git SHA 與 SHA256 為準。
+閱讀庫屬於衍生快照；後續變更需查增量清冊，不得把快照當最新全文。正式設定、候選、歷史分開。不得宣稱未讀文件已閱讀。
+
+【同步狀態及限制】
+舊巨構與家庭 Apps Script 已成功修復BOM故障、恢復損壞的JSON清冊，2026-11-25 00:25台灣時間核對狀態為1047/1047，零待處理。即時狀態以此文件為準：
+https://docs.google.com/document/d/18eYp79stmjF0vhTwWwRllwTQHyVGH09ELk8wpQl4j-0/edit
+舊同步僅覆蓋兩個指定範圍；新全庫增量已製作並通過8組本機模擬測試，尚未於Google Apps Script部署驗收。安裝指南：https://drive.google.com/file/d/1i7rNQsATOzCBC-EkW8vaMl3i6vStFUQt/view
+新版完整批次使用AUTO_<base>__<head>資料夾，_PLAN.json列變更、_COMPLETE.json代表全部原始檔驗證完成；在實際安裝之前不可假定新批次已自動更新。舊自動化曾受傳輸限制；本次已手動補回04474db。之後GitHub仍有更新，待新同步驗收。
+832卷、圖鑑及衍生閱讀索引仍是有版本的快照，不會因原檔增量自動重建。未讀到原文、圖片或最新版本應明示，不猜測。GitHub正式設定未改動。
