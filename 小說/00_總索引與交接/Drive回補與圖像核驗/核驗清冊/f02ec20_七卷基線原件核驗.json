@@ -1,0 +1,114 @@
+{
+  "round": 38,
+  "commit": "f02ec2058d42a198f3a00283184fada7a37bdc1b",
+  "count": 4042,
+  "bytes": 434306633,
+  "outerManifestBytes": 220057,
+  "outerManifestSha256": "38e6c6d12bb024bc877ebe17948c0ee5cec9bdf9320b6802a7117f6ff504de41",
+  "manifestJsonSha256": "527417b47ba1dd79c44f7e81afc93cbd0795cd279a6dcdbbaf78ca0be8227ed3",
+  "volumes": [
+    {
+      "name": "Novel-main-f02ec20-VOL_01.zip",
+      "outerBytes": 58040950,
+      "outerSha256": "c285c424060e56b9e52f185291870795030fecac95076835a2095ea57c448336",
+      "innerBytes": 58040778,
+      "innerSha256": "89a2a47c4ba05a160a7f7fae69b99f4ef81059f070998c82b6b814ea7db8ecb5",
+      "files": 773,
+      "originalBytes": 66670636,
+      "modes": {
+        "100644": 773
+      },
+      "crcAndGitSha1AllMatch": true
+    },
+    {
+      "name": "Novel-main-f02ec20-VOL_02.zip",
+      "outerBytes": 64962651,
+      "outerSha256": "d799e8c7b771c77750a18d32aa2af14761d05fe0e242552837c26d811e732cd7",
+      "innerBytes": 64962479,
+      "innerSha256": "89df29b2d42effb991a34005eb4fe71475749ecc22adc2c9f3bb03d3204c332a",
+      "files": 28,
+      "originalBytes": 64936367,
+      "modes": {
+        "100644": 28
+      },
+      "crcAndGitSha1AllMatch": true
+    },
+    {
+      "name": "Novel-main-f02ec20-VOL_03.zip",
+      "outerBytes": 24239856,
+      "outerSha256": "e07d77492b1b85a3d8d5a29b118890d07dfd31fee50947507e8572cf33c4cc34",
+      "innerBytes": 24239684,
+      "innerSha256": "0101e795c29b4c2f3f8154882910da65e56ac2c6cb8449a702671560732084b9",
+      "files": 684,
+      "originalBytes": 67100475,
+      "modes": {
+        "100644": 684
+      },
+      "crcAndGitSha1AllMatch": true
+    },
+    {
+      "name": "Novel-main-f02ec20-VOL_04.zip",
+      "outerBytes": 36789444,
+      "outerSha256": "7b98ca9a8636326f5b687afdb4d45a954cd636318bd0ef603f2bc9bd03d234e0",
+      "innerBytes": 36789272,
+      "innerSha256": "74e472964a431be19303248cc1b4cd3e32c2dc2f3a07ab59aebadb74d438efc1",
+      "files": 1289,
+      "originalBytes": 66332095,
+      "modes": {
+        "100644": 1289
+      },
+      "crcAndGitSha1AllMatch": true
+    },
+    {
+      "name": "Novel-main-f02ec20-VOL_05.zip",
+      "outerBytes": 66517777,
+      "outerSha256": "b96f74e8ab76fb28b93951c3a7d702ac3659c9017f739933ddd00ab98fa01818",
+      "innerBytes": 66517605,
+      "innerSha256": "75259769199e0d584ff18b178508945a662b251e18be7bd0aab8bcc6190e8203",
+      "files": 50,
+      "originalBytes": 66859982,
+      "modes": {
+        "100644": 50
+      },
+      "crcAndGitSha1AllMatch": true
+    },
+    {
+      "name": "Novel-main-f02ec20-VOL_06.zip",
+      "outerBytes": 65766652,
+      "outerSha256": "6292838efae6f4660a3f1583c0f9b4f7bacd1910ea520ecb0012996c66e03b1e",
+      "innerBytes": 65766480,
+      "innerSha256": "33b674d1a3430e92637d8f4f27942cefab87c859e22d90d092f51f378465bd06",
+      "files": 67,
+      "originalBytes": 66216776,
+      "modes": {
+        "100644": 67
+      },
+      "crcAndGitSha1AllMatch": true
+    },
+    {
+      "name": "Novel-main-f02ec20-VOL_07.zip",
+      "outerBytes": 18687646,
+      "outerSha256": "bde22146084bf1ba1c6a85b1c6ec419c68997d5a31e67b2e9360922a84b282a3",
+      "innerBytes": 18687474,
+      "innerSha256": "a0ab479ba2df2de00df1d5c88d21832993ea1b9ddb88bd5a5888994941a1419b",
+      "files": 1151,
+      "originalBytes": 36190302,
+      "modes": {
+        "100644": 1151
+      },
+      "crcAndGitSha1AllMatch": true
+    }
+  ],
+  "canonicalEntriesSha256": "dc5cc8711913cdf6f614e84db426d5de7b1d9ceb9f5181a7d0cc4fcc74681348",
+  "allUnique": true,
+  "driveReceipt": "1bSsOMyLM4BNOJ9KmWeaTub-gTanA3vcr",
+  "gitTreeIndependent": {
+    "ref": "f02ec2058d42a198f3a00283184fada7a37bdc1b",
+    "truncated": false,
+    "count": 4042,
+    "bytes": 434306633,
+    "canonicalEntriesSha256": "dc5cc8711913cdf6f614e84db426d5de7b1d9ceb9f5181a7d0cc4fcc74681348",
+    "match": true
+  },
+  "method": "Drive八個原始ZIP實際下載；七卷各有單一外層ZIP包裝，外層CRC、內層SHA256及每原件CRC/Git blob SHA1/bytes均核對。全4042路徑+SHA+bytes+mode以Unicode code point排序、UTF8 JSON lines無末尾LF計算SHA256；Git固定未截斷樹獨立產生同一指紋。未檢視圖像內容，未修改任何來源。基線不等於最新main。"
+}
