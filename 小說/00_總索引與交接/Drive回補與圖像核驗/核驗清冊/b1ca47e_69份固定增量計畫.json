@@ -1,0 +1,649 @@
+{
+  "round": 54,
+  "base": "7251e29471ecf165e94c16f352d4bcd2292062bd",
+  "head": "b1ca47e508c68e668d00ac47324a0423701b5669",
+  "baseCount": 4361,
+  "headCount": 4422,
+  "headBytes": 443767970,
+  "count": 69,
+  "bytes": 1351207,
+  "groups": {
+    "index": {
+      "count": 1,
+      "bytes": 269397
+    },
+    "maintenance": {
+      "count": 23,
+      "bytes": 658225
+    },
+    "giant": {
+      "count": 45,
+      "bytes": 423585
+    }
+  },
+  "deleted": [],
+  "files": [
+    {
+      "index": 0,
+      "path": "tools/google_drive_mirror/source-index.json",
+      "sha": "8c698cd20fbf1963f23a639884b7e6f05b587f25",
+      "bytes": 269397,
+      "mode": "100644",
+      "oldSha": "0f7ee3432e678c0de53bb3df5d3971d1a3a282e0",
+      "group": "index"
+    },
+    {
+      "index": 1,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/TODO.md",
+      "sha": "14d222c66feab9c97f4fd25d6017ba2ad8f90dfc",
+      "bytes": 65528,
+      "mode": "100644",
+      "oldSha": "5456ea5794708bd31379fc25b96c0241e019d6aa",
+      "group": "maintenance"
+    },
+    {
+      "index": 2,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/04474db_六段舊增量恢復鏈.json",
+      "sha": "7cc9837f780d86c99b932a2b23d5d8e14acbce70",
+      "bytes": 17859,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 3,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/4e63f7e_第49輪既存ZIP與接續差異.json",
+      "sha": "16f7aa62cf945c1edcf610af32084d9575270c46",
+      "bytes": 91744,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 4,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/4e63f7e_第50輪26份原件驗收.json",
+      "sha": "467909339d86079f4345f92058215b2aac8dd984",
+      "bytes": 10573,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 5,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/4e63f7e_第51輪33份原件驗收.json",
+      "sha": "d47a2f3f14ef2e738b410e141aa3e3ff5d0b89f8",
+      "bytes": 19303,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 6,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/4e63f7e_第52輪17份原件驗收.json",
+      "sha": "690537feceec3e999c483e7f9612cce24a2db546",
+      "bytes": 8143,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 7,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/5b223ad_AUTO十六份原件驗收.json",
+      "sha": "d6c49d2ab5ae727058587fd832af1d053d15085e",
+      "bytes": 10632,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 8,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/5b223ad_四批歷史AUTO恢復鏈總驗收.json",
+      "sha": "768647bee7c6724e7583a74f7c0cf89608039512",
+      "bytes": 40607,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 9,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_4e63f7e至7251e29_Git固定差異.json",
+      "sha": "429e990e5fd86f0de4c8cc16c0f6c2c42a66d9cf",
+      "bytes": 62298,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 10,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/7251e29_192份增量完整恢復鏈總驗收.json",
+      "sha": "7bc08d5881cfa5b685b5fff1591e139a6f215444",
+      "bytes": 116058,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 11,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/7251e29_48差異獨立原件總驗收.json",
+      "sha": "00e8b8574fed3a1c727fee70269d10dfc9350788",
+      "bytes": 33421,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 12,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/7251e29_source-index及48差異總驗收.json",
+      "sha": "e7ca973dc5345beeaa48b16566be465f052ace5a",
+      "bytes": 29501,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 13,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/7251e29_家庭11組缺件搜尋與來源阻礙.json",
+      "sha": "e0c12acb0698772feb7d70877187732356f69cc4",
+      "bytes": 5058,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 14,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/7251e29_巨構30差異鏡像與歷史修訂核驗.json",
+      "sha": "77e56e6e15a99bbbc29dbc447035b8e4efbd8bcf",
+      "bytes": 18859,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 15,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/7251e29_巨構5固定原件補備驗收.json",
+      "sha": "860622f89328dc7aa43e8f1d85fde70f23ec55f7",
+      "bytes": 3394,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 16,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/7251e29_維護17固定原件補備驗收.json",
+      "sha": "2d34e24823e0758f984b22afdd17ae1b031e9ceb",
+      "bytes": 7690,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 17,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/9475e24_AUTO七份原件驗收.json",
+      "sha": "fb5ed5cc1f15b3122b7de604f54e8ec76c23d120",
+      "bytes": 4377,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 18,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/9767541_AUTO十九份原件驗收.json",
+      "sha": "50ab5c5a482ee954e20846ab435ecce72e0189a7",
+      "bytes": 7022,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 19,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/9804e26_AUTO二十份原件驗收.json",
+      "sha": "f17da643403a37cc42501a30b6a3d7fdc9f10640",
+      "bytes": 13104,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 20,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/9d6721e_十六份增量整鏈重放驗收.json",
+      "sha": "17a55d11159ae80458e7e182cacd3fe2739385bf",
+      "bytes": 12538,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 21,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_105份固定原件與完整恢復鏈總驗收.json",
+      "sha": "22b3c9028cee469cff41b91b0759cd18e7d9f172",
+      "bytes": 65446,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 22,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_AUTO第17至37份原件驗收.json",
+      "sha": "f458fc5e3f819bcbfd3a391a9bd1b5f3d2ce79d2",
+      "bytes": 10856,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 23,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/f02ec20_七卷基線原件核驗.json",
+      "sha": "c2905393580f57b31ed03ec8355261d31450d9cd",
+      "bytes": 4214,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "maintenance"
+    },
+    {
+      "index": 24,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+      "sha": "6f86c78cd562e40a30d14f056ea50ce533a86825",
+      "bytes": 27993,
+      "mode": "100644",
+      "oldSha": "c3252b0d4aa22ccb6025d6c8e713e717a0a4ee18",
+      "group": "giant"
+    },
+    {
+      "index": 25,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第三十一組_長旅途景觀日常與章末節奏_非正史.md",
+      "sha": "ce290e7817c722a970dc7d89e4b0629ca9992303",
+      "bytes": 3364,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 26,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第三十組_長篇人物語感重逢與互動變奏_非正史.md",
+      "sha": "2fa3cb6c00fe6014a03d009ead38ecbdc0ce74bf",
+      "bytes": 4690,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 27,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十七組_情緒承重內外敘述與場景留白_非正史.md",
+      "sha": "852d0dbf2adb3d7755b4bb16073ef99d9604eb67",
+      "bytes": 2708,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 28,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十九組_政治交鋒立場語感與制度結果_非正史.md",
+      "sha": "15c4e9dcc4cdb90f70eaf441c06412d2f082ca47",
+      "bytes": 3465,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 29,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十五組_高位差距文明自主與歷史延續_非正史.md",
+      "sha": "3332d966e56c734115876888afca4fbd343d4c56",
+      "bytes": 2689,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 30,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十八組_恐懼視角身體限制與長場景節奏_非正史.md",
+      "sha": "e9a99848956539dd4d40bd30e177d06ff732828c",
+      "bytes": 3577,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 31,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十六組_角色語感幽默動作與場景節奏_非正史.md",
+      "sha": "c283a1fe584c84693ae800a596c3f20926a241ac",
+      "bytes": 2425,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 32,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/README.md",
+      "sha": "6b37dce52ade6257e6ac2abc5fa898c350a2b7b3",
+      "bytes": 41139,
+      "mode": "100644",
+      "oldSha": "ac2fe2583d85064a656030450f98578447365f91",
+      "group": "giant"
+    },
+    {
+      "index": 33,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十一至三十二輪_AC雙旁線前置作者骨架_非正史.md",
+      "sha": "71791df81d3be57a1b366cc84142a8dd8048cb8e",
+      "bytes": 3597,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 34,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十一輪_AC旁線四個人的一首曲子_三章候選_非正史.md",
+      "sha": "1085f12dae94d4c04cc19b3f443f82aa4efe622d",
+      "bytes": 10694,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 35,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十七輪_AC沒有聽過的曲子_三月後重逢二章候選_非正史.md",
+      "sha": "4e3f8ac6f6e426babbb24a3fff7600ff1f0c50ed",
+      "bytes": 8973,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 36,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十三輪_AC同場雙焦點_人物辨識與視角承重_非正史.md",
+      "sha": "f83f33d102f6fe2118c164869fafce8e1b4c9740",
+      "bytes": 5653,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 37,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十九至四十輪_AD敵方人格與支持者自主_前置作者骨架_非正史.md",
+      "sha": "12dd5ed650532f25625b8ba2b38fd3c63235435e",
+      "bytes": 3486,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 38,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十九輪_AD裂紋留在裡面_敵方人格完整章候選_非正史.md",
+      "sha": "b9c75cb3d47f2907871dbd5ee5710f885896e0d5",
+      "bytes": 5191,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 39,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十二輪_AC旁線不開航的日子_三章候選_非正史.md",
+      "sha": "36d8738a8db852a89742202bea9724bff211ae4c",
+      "bytes": 9679,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 40,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十五至三十七輪_AC離鏡回歸與並行時間_前置作者骨架_非正史.md",
+      "sha": "0e161b3054d734c44f411edeeb8fef586dd9b11d",
+      "bytes": 3454,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 41,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十五輪_AC回到畫架旁_核心人物回歸二章候選_非正史.md",
+      "sha": "bd69a9e8ed58afff497d56de0fa1fa3f7c7b8377",
+      "bytes": 6699,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 42,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十八輪_AC公告重複與跨線資訊遞進_雙序列候選_非正史.md",
+      "sha": "fa7567965cb51180bcff1fe622d80b1ee6e081ee",
+      "bytes": 4308,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 43,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十六輪_AC西口的兩趟船_同時異地二章候選_非正史.md",
+      "sha": "ad74b50ef5f0f44465589506db0eb2ea61bfd0c3",
+      "bytes": 6166,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 44,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十四輪_AC非職業同場雙視角_私人趣味與去標籤辨識_非正史.md",
+      "sha": "01e13eec91e219d1f9646d3371267cd731191eca",
+      "bytes": 4992,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 45,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第三十輪_AC非主角獨立視角與職業生活三段候選_非正史.md",
+      "sha": "ba8f56eba0237b67de1bb182fa726f44c9fb2f9d",
+      "bytes": 8520,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 46,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十七輪_AD第六章雙立場深化回修_非正史.md",
+      "sha": "d746da2eafd3d139e90231d7c4930c990e7920bb",
+      "bytes": 8962,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 47,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十三輪_AF海的另一種方向_第五至八章_非正史.md",
+      "sha": "ae64e524b5e80bbca8b6d52cb3898b36d5c4f9bf",
+      "bytes": 11208,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 48,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十九輪_AC第二十一至二十三章旅行收束連續回修_非正史.md",
+      "sha": "b9555b0b65be43d906ef5dfa19cdd4f2e36a7275",
+      "bytes": 10852,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 49,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十二輪_AF海的另一種方向_八章前置作者真相_非正史.md",
+      "sha": "004de6ac11ab2690dcd45d49b7434b92e0cdf09b",
+      "bytes": 6703,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 50,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十二輪_AF海的另一種方向_第一至四章_非正史.md",
+      "sha": "675b0d9811d351beb3714bb575fd7f8ef1a5b365",
+      "bytes": 9938,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 51,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十五輪_AH把桌子往窗邊挪_三版正文與文學回修_非正史.md",
+      "sha": "cb733a0a69e3b62fccd16cd10b433a0a827ec07d",
+      "bytes": 7550,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 52,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十五輪_AH把桌子往窗邊挪_前置骨架_非正史.md",
+      "sha": "f6c280440fbc63e46b5a5ff5a5732ace56455916",
+      "bytes": 1377,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 53,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十八輪_AC第十至十一章分行重逢連續回修_非正史.md",
+      "sha": "418281288223c5e033316692c44b43b1c734d5e7",
+      "bytes": 7851,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 54,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十六輪_AE第七章雙視角深化回修_非正史.md",
+      "sha": "66536819d5ba8ccfdb4c4496a4f98d2f3e112b83",
+      "bytes": 8318,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 55,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十四輪_AG一間房_三版正文與文學回修_非正史.md",
+      "sha": "062988ad878d44b97ce654651986c6934d555b1d",
+      "bytes": 6674,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 56,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十四輪_AG一間房三種寫法_前置骨架_非正史.md",
+      "sha": "8009685f6935aa72ed58141e26f374b8f109746a",
+      "bytes": 1237,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 57,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第四十輪_AD早了半刻鐘_真心支持者完整章候選_非正史.md",
+      "sha": "3662fd32dc47535ea91b66a725fb1abdd27ec1cb",
+      "bytes": 6025,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 58,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I5_寫作檢索與研究使用指引_v0.1_非正史.md",
+      "sha": "fedeb12b4b2160bebba85dc85329bab02cd8fc24",
+      "bytes": 44249,
+      "mode": "100644",
+      "oldSha": "4ea40273004fd967d380b17f2e530981f343937f",
+      "group": "giant"
+    },
+    {
+      "index": 59,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AC_AD離鏡回歸並行時間與敵方人格_第三十五至四十輪整合驗收_非正史.md",
+      "sha": "ba111689c88c2790e44b690450f19b0ca60006b2",
+      "bytes": 8691,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 60,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AC二十三章文學耐久冷讀與五段連續深化驗收_非正史.md",
+      "sha": "724bafc65a4971dd8a6c09915db186e90ecb06aa",
+      "bytes": 5051,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 61,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AC雙旁線六章與同場雙視角_第三十一至三十四輪整合驗收_非正史.md",
+      "sha": "1034b5c384e48c4244e7efa1f01416e222fae631",
+      "bytes": 7139,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 62,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AC非主角獨立視角_第三十輪研究與驗收_非正史.md",
+      "sha": "e906f55184f69f9b41b2c0ccafe617b5188ebd54",
+      "bytes": 4647,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 63,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AE_AD既有章節雙版本文學深化_連續性與比較驗收_非正史.md",
+      "sha": "d20aa3b511d4c71225fe3f59d2b0a4df3177742d",
+      "bytes": 4268,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 64,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AF海的另一種方向_八章三千二百年文明與高位差距驗收_非正史.md",
+      "sha": "25d642ac351897a22bd7b036a52f94db7dfa6ce5",
+      "bytes": 5763,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 65,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AG_AH六版文學回修_人物語感幽默與情緒承重驗收_非正史.md",
+      "sha": "568a0c2e0019f0e195da1ed0c30753bba59f82ef",
+      "bytes": 4039,
+      "mode": "100644",
+      "oldSha": null,
+      "group": "giant"
+    },
+    {
+      "index": 66,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_跨AI創作研究快速交接_單頁路由與實測_v0.1_非正史.md",
+      "sha": "d1f8c0200c5d76b0ea51eb0bd83586dc5037c083",
+      "bytes": 16422,
+      "mode": "100644",
+      "oldSha": "1f41509229c8ba4cafa792d4499d925ff37ebb34",
+      "group": "giant"
+    },
+    {
+      "index": 67,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/README.md",
+      "sha": "eaf18d6112cc1753f8e84f607292b38ad2e5b7cb",
+      "bytes": 35311,
+      "mode": "100644",
+      "oldSha": "148ce50a2a4ef4113f87a2e0938084f02313f91f",
+      "group": "giant"
+    },
+    {
+      "index": 68,
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/README.md",
+      "sha": "d4baeced894f46b7f9e87c53c3e822ae51bfe77e",
+      "bytes": 27848,
+      "mode": "100644",
+      "oldSha": "3db437d5fb1d9e93a28cd7cc95c3fcaf88d81426",
+      "group": "giant"
+    }
+  ],
+  "note": "Frozen before this plan commit. This and later audit receipts are excluded from this fixed recovery target. No claim of source file recovery yet."
+}
