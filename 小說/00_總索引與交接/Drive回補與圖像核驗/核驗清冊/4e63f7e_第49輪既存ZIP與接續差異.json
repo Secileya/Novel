@@ -1,0 +1,1784 @@
+{
+  "round": 49,
+  "base": "9d6721e08609a14205b32250ead9eba469620165",
+  "mid": "4e63f7ea5207e080aded64684db88c2d29cd3db5",
+  "head": "7251e29471ecf165e94c16f352d4bcd2292062bd",
+  "archiveReceipt": {
+    "driveId": "1BM332M7l9pxG3Y3Oa784aDaTH1Joyxe-",
+    "sha256": "0a3736ce135607cdd67efa9a63863717922de297282551252b18be68e08559cc",
+    "archives": [
+      {
+        "name": "7251e29_r37_giant25_originals.zip",
+        "driveId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "head": "7251e29471ecf165e94c16f352d4bcd2292062bd",
+        "count": 25,
+        "bytes": 197366,
+        "zipBytes": 126178,
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322"
+      },
+      {
+        "name": "4e63f7e_維護增量_第02包_21份原件.zip",
+        "driveId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "head": "4e63f7ea5207e080aded64684db88c2d29cd3db5",
+        "count": 21,
+        "bytes": 2156563,
+        "zipBytes": 479342,
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c"
+      },
+      {
+        "name": "7251e29_r36_source_index_original.zip",
+        "driveId": "1_bC-vHO4UGwlGjh0e7bwmmV_Gbe9yPZS",
+        "head": "7251e29471ecf165e94c16f352d4bcd2292062bd",
+        "count": 1,
+        "bytes": 256293,
+        "zipBytes": 59200,
+        "zipSha256": "d484eafaf362bda4e1dfebb3e14e959a2c6299eda1c92418229a024a791796bc"
+      },
+      {
+        "name": "4e63f7e_維護增量_第01包_32份原件.zip",
+        "driveId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "head": "4e63f7ea5207e080aded64684db88c2d29cd3db5",
+        "count": 32,
+        "bytes": 397154,
+        "zipBytes": 119936,
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc"
+      },
+      {
+        "name": "7251e29_r34_giant5_originals.zip",
+        "driveId": "1usby8vM3UK8u6387-b4bSpBwgu7FHEb7",
+        "head": "7251e29471ecf165e94c16f352d4bcd2292062bd",
+        "count": 5,
+        "bytes": 136293,
+        "zipBytes": 58594,
+        "zipSha256": "78d4df804cf6025293f4030b1964b4fdd9a7a4ba9e40a73c5e55f36bbec4b133"
+      },
+      {
+        "name": "bd96663_維護快照_16份原件.zip",
+        "driveId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "head": "bd9666343f4d01405016496794436c77001bd16c",
+        "count": 16,
+        "bytes": 130803,
+        "zipBytes": 44490,
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720"
+      },
+      {
+        "name": "7251e29_r35_maintenance17_originals.zip",
+        "driveId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "head": "7251e29471ecf165e94c16f352d4bcd2292062bd",
+        "count": 17,
+        "bytes": 226681,
+        "zipBytes": 79073,
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d"
+      }
+    ]
+  },
+  "first": {
+    "count": 144,
+    "matched": 68,
+    "matchedBytes": 2668466,
+    "missing": [
+      {
+        "path": "tools/google_drive_mirror/family-source-index.json",
+        "sha": "6891ef1707c39e8d727d05a03402e8c4c3665fe9",
+        "bytes": 46300,
+        "mode": "100644",
+        "oldSha": "0b0662245bdef95caa8d767b790a1d06d87ff006"
+      },
+      {
+        "path": "tools/google_drive_mirror/source-index.json",
+        "sha": "0b9ba820bc39f603afb43d0cbad2c7f10cd58ab2",
+        "bytes": 246713,
+        "mode": "100644",
+        "oldSha": "9a5151f1ffe19d0e578cc746c7c09a03d0c9f73c"
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/9d6721e_獨立原件核驗清冊.json",
+        "sha": "65054c9dd42b385572b2d45f76bbf5ddded71cc1",
+        "bytes": 11013,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_AUTO前16份原檔核驗.json",
+        "sha": "f362b724a8c8b3958d4a893a2be84adb4cf37f60",
+        "bytes": 8131,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/家庭總檔/00_總檔交接.md",
+        "sha": "1e976967a1b7e68a44cef721ed46484eccf33b11",
+        "bytes": 126617,
+        "mode": "100644",
+        "oldSha": "f5ec78d124729035a1e900e3809305f910899661"
+      },
+      {
+        "path": "小說/家庭總檔/01_家庭完整角色設定總檔.md",
+        "sha": "9f92f0e64f0d88996b4730c835d0f612ccb7b70d",
+        "bytes": 1027856,
+        "mode": "100644",
+        "oldSha": "752582c82e2db992d3755d80090f46d74d7f8f60"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/00_最新版閱讀導航.md",
+        "sha": "66d6d882957c61f1b4e60a3e739da67fb463c1d0",
+        "bytes": 4757,
+        "mode": "100644",
+        "oldSha": "6ea093c6d88a8b3b3edafc263948b7e82d7c3a29"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_001.md",
+        "sha": "0b110dd67d86c90c8b1793bee958a671b1f71dc1",
+        "bytes": 55961,
+        "mode": "100644",
+        "oldSha": "00c038ce66c8dd21eee313d958a71a17d90ed989"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_002.md",
+        "sha": "d7d2d74c0897f21249d1b2b386ffdeaef64f47a0",
+        "bytes": 56709,
+        "mode": "100644",
+        "oldSha": "630eeb005941a0f16362b2ed221ba35ea4e533ca"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_003.md",
+        "sha": "931603abb858848fb5ecfd96bb697fb7b1099823",
+        "bytes": 53822,
+        "mode": "100644",
+        "oldSha": "3c110bff503ffb14f73215b016ea74f45bdfbc8f"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_004.md",
+        "sha": "491d4b44c807fe95c9bd0bd262e8d121c541904e",
+        "bytes": 59363,
+        "mode": "100644",
+        "oldSha": "f624ea1f5129d0f43be3bb35945fdb27b0b66e8c"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_005.md",
+        "sha": "78e43ce6ce3047413127ba899fcf4238822778e0",
+        "bytes": 56147,
+        "mode": "100644",
+        "oldSha": "695f305464ae55bf52af0aa284805b53c6a6094e"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_006.md",
+        "sha": "4bb8058d023b9d07665fc1669595f78950513367",
+        "bytes": 57403,
+        "mode": "100644",
+        "oldSha": "76507f1b219ba513331e0bf47e5b469a76e8409f"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_007.md",
+        "sha": "e889435f6dac686c1a8ea9b0d7d79cc1262beae3",
+        "bytes": 54131,
+        "mode": "100644",
+        "oldSha": "961ae29215659a870f7a3c6be9f9085fa9c68f49"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_008.md",
+        "sha": "75c866708e3bd6ea9ee03cade675c4a32bf93250",
+        "bytes": 55192,
+        "mode": "100644",
+        "oldSha": "38755a22b83e449c451eb42fa81f61a932e4ef84"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_009.md",
+        "sha": "a735b9c03bab53540aea7d7d1c2b07655aada505",
+        "bytes": 50527,
+        "mode": "100644",
+        "oldSha": "ed14d24da7d713814fe0bcfda40e3d1de0a24eca"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_010.md",
+        "sha": "a70d1ba02f28957b543feb5e556f39c96d4594f7",
+        "bytes": 36858,
+        "mode": "100644",
+        "oldSha": "2e9d7735af3b0679591e5171cae42d242d5af24a"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_011.md",
+        "sha": "ea2874a579612301944fc5bce326eb9e4ad67f53",
+        "bytes": 57156,
+        "mode": "100644",
+        "oldSha": "e2e2c44e6a1f8156e5341d4f275ecd65e8e568f8"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_012.md",
+        "sha": "3347883e22d46d637373e53ee3698fcea41cf06d",
+        "bytes": 56550,
+        "mode": "100644",
+        "oldSha": "d875db1b3373deb3863423f83ba0556e834a77c8"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_013.md",
+        "sha": "e5f39e85ca3d7a23caaf645d3db844fb4c9a6cb7",
+        "bytes": 61294,
+        "mode": "100644",
+        "oldSha": "2b30928c0e7c826da5acf6d2631fea6b53466103"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_014.md",
+        "sha": "75734f50eb326793aed6d9e877a448298416e9f7",
+        "bytes": 62888,
+        "mode": "100644",
+        "oldSha": "116e31d1195c2e1f4a833d7244c5adde7faeb7f5"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_015.md",
+        "sha": "e4e7bfc9eaca69643acab47ef8768ca3f969f492",
+        "bytes": 56420,
+        "mode": "100644",
+        "oldSha": "ed3db0849426090f6d75fd6bccceef68a9a9caba"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_016.md",
+        "sha": "22f485aec2de0761a723cc69f60561a043803cc7",
+        "bytes": 43169,
+        "mode": "100644",
+        "oldSha": "11bc5dc966037c64edda73e3e1ff90d10ec67ac1"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_017.md",
+        "sha": "89e8142f3bd758fb6eac2fcb063c8cef1a69ecb0",
+        "bytes": 49264,
+        "mode": "100644",
+        "oldSha": "f00968ef7da899d2208a5ca3b1367b66b8f7acbe"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_018.md",
+        "sha": "0a79ea9bfc861aa04042e429bda27d6a46532f11",
+        "bytes": 55696,
+        "mode": "100644",
+        "oldSha": "3e67b70cafd65941fb83c56c758fce17486ad772"
+      },
+      {
+        "path": "小說/家庭總檔/05_Gemini_最新版閱讀分卷/01_最新版閱讀分卷_019.md",
+        "sha": "741619d03a3a7e10fd08277ea54cd4d0278967f7",
+        "bytes": 64694,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+        "sha": "b1cf25fd580b8c6b226fdab09ba8db984da00d94",
+        "bytes": 15285,
+        "mode": "100644",
+        "oldSha": "d45d493c318e5dbed05d4509c2f671e527e35a8d"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第七組_舊事回聲強敵後果與認知分層_非正史.md",
+        "sha": "39085c7101c4a2acd827788434b04a50c277279d",
+        "bytes": 6332,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第九組_恐怖真實危險戰鬥與文體變化_非正史.md",
+        "sha": "04f64e778f135cd9de3dbc2d99fdb0496386a9db",
+        "bytes": 7536,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第八組_人物聲線沉默與真實分歧_非正史.md",
+        "sha": "61879690e4fa8d16075fd6464d09b4cf677969e6",
+        "bytes": 6636,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十一組_長篇人物群像伏筆與文字節奏_非正史.md",
+        "sha": "863b8e3673a7790be0aeef63c09efe53613eebfa",
+        "bytes": 7715,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十三組_多戰線生死交鋒與不可逆後果_非正史.md",
+        "sha": "cecbacb8355d1f9fd045fecaf7cbb90bd13b081b",
+        "bytes": 6288,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十二組_大型布局史詩奇觀與篇章整合_非正史.md",
+        "sha": "ab9cf615ef9bc9240f17508002f932e6fee8a7a9",
+        "bytes": 6761,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十五組_旅行樂趣人物化學反應與整合驗收_非正史.md",
+        "sha": "113fac45331e38cb30398e5a709a29818e25c311",
+        "bytes": 5001,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十六組_跨年重逢人物辨識與鏡頭外人生_非正史.md",
+        "sha": "f9e2aaf90be8526423c019cbac000dc13d33eb81",
+        "bytes": 3200,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十四組_人物魅力絕對強者與沉浸恐怖_非正史.md",
+        "sha": "baa1c7d3a6f708afed1b8953af41b6976cc9a43c",
+        "bytes": 5674,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十組_交鋒博弈文明戰爭與敵對人格_非正史.md",
+        "sha": "d5a65fb72fa23fb364cf7e84adcabe242a89b321",
+        "bytes": 8175,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_309條統一補證狀態疊加_v0.1.tsv",
+        "sha": "077e621f6f05ad5117862cd0a8ba18cca6745001",
+        "bytes": 98985,
+        "mode": "100644",
+        "oldSha": "8e03d9fb502f5ea5ba6ab0ef3323b744b5d5f98c"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第08組_非正史.md",
+        "sha": "6515e25d238b648769eeffad726de610296f808a",
+        "bytes": 12210,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第09組_非正史.md",
+        "sha": "1c0fe8872a300162e550e5a41567ca75fc7c1b53",
+        "bytes": 3762,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第10組_非正史.md",
+        "sha": "c5095ebecccecdc8d34ae49338a179e9584cd7fe",
+        "bytes": 7407,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第11組_非正史.md",
+        "sha": "8d16a3dd86936f47b4debff016c3ab6f596b9deb",
+        "bytes": 14202,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第12組_非正史.md",
+        "sha": "de737ef910a95f3fd5ab522c94fe7ca180d8c378",
+        "bytes": 9291,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第13組_非正史.md",
+        "sha": "b754d7e9112251b2e2f801c96992399baace6085",
+        "bytes": 14444,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第14組_非正史.md",
+        "sha": "015e91de588fe882559a141bd533d9675ecd1c93",
+        "bytes": 6618,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第15組_非正史.md",
+        "sha": "72e34953a7746a3e2486072c331f3652f9968471",
+        "bytes": 4930,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第16組_非正史.md",
+        "sha": "7977fefb8d003bfb8f0f49834972e31a6ea3dd71",
+        "bytes": 11088,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/I3_QA_跨章疑點補證第17組_非正史.md",
+        "sha": "3e7f5a0feceb361b965a0e76310d785810c27d3e",
+        "bytes": 12267,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/README.md",
+        "sha": "667f86a9d57c6f6cea5b55488be9fac47dddc1a0",
+        "bytes": 29271,
+        "mode": "100644",
+        "oldSha": "4decd5840fbed6ef034d5aba6c8a773cfbbd5dea"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第七輪_恐怖真敗戰鬥與異質史詩_非正史.md",
+        "sha": "42b24a3076f1884330715583fce5c355cef56173",
+        "bytes": 16590,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第九輪_長篇人物弧線多視角與文筆回修_非正史.md",
+        "sha": "a0780e066f0ed0d3639d6ebb79bc495cc54fd920",
+        "bytes": 16984,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第八輪_同級異種交鋒文明戰爭與長期敵對_非正史.md",
+        "sha": "504f12092a7b6615fc013a2928125da120416976",
+        "bytes": 17342,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第六輪_人物聲線制度分歧與有意布局_非正史.md",
+        "sha": "bd221ae6cb2c92cb187443c720386ea2e321b608",
+        "bytes": 16359,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十一輪_Z北岸再也不亮了_四章正文_非正史.md",
+        "sha": "c5cd895e9fc482bf01d8796c46b31ab3294a12a2",
+        "bytes": 19331,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十一輪_Z雙線戰爭_前置作者真相_非正史.md",
+        "sha": "dc3b6ed799c3aa96044264e9e4072ccc874c20ec",
+        "bytes": 6194,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十三輪_AC把風裝進口袋_四章正文_非正史.md",
+        "sha": "3448714d42ca2454b6b48e5f38ac08a2b03ae07c",
+        "bytes": 15867,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十三輪_AC旅行歡樂與成熟關係_前置作者真相_非正史.md",
+        "sha": "c8c689d49fa80bee7a1365f1c65642afbe0ac762",
+        "bytes": 3941,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十二輪_AA_AB_前置作者真相_非正史.md",
+        "sha": "f6634779309b41bcbd4fe34c03bdb95db3c65cc5",
+        "bytes": 4816,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十二輪_AA_AB_沉浸恐怖與絕對強者_五章正文_非正史.md",
+        "sha": "349ad63140e998044f8019c713ac6abc9297f4c7",
+        "bytes": 17592,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十四輪_AC續篇一_三年旅途_前置作者骨架_非正史.md",
+        "sha": "1f53e59a3345550eb466de4270b47a5225e5ca21",
+        "bytes": 2773,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十四輪_AC續篇一_三年旅途_第五至八章_非正史.md",
+        "sha": "6700db37c75a0ef5dc61994852ef809208653374",
+        "bytes": 13419,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十輪_Y萬盞燈升起的地方_四章正文_非正史.md",
+        "sha": "beda8b6d1d99f71591fbebfc83adfcddb05bc855",
+        "bytes": 20166,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十輪_Y長篇整合_前置作者真相_非正史.md",
+        "sha": "bfce06bef4e8109ac0f4462155b5f3083961360f",
+        "bytes": 6274,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I5_1830研究鍵統一實用導航_v0.1.tsv",
+        "sha": "ab55e7299262185f9ed83029be312776c46e87cc",
+        "bytes": 790363,
+        "mode": "100644",
+        "oldSha": "ec857c253aa7e45ecbde7c354f0993941a507b46"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I5_寫作檢索與研究使用指引_v0.1_非正史.md",
+        "sha": "296c8495254599d33f17f7b83dcb5a81b6d01a91",
+        "bytes": 22046,
+        "mode": "100644",
+        "oldSha": "7898870dbc25adc877ba10d0a00f4cf6338c2f9a"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_跨AI創作研究快速交接_單頁路由與實測_v0.1_非正史.md",
+        "sha": "ef54ee0525eca866ec75b0b5bcfef612ea877a76",
+        "bytes": 5700,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/README.md",
+        "sha": "0289bd47426da10d077ee2ddc06fe809327c9691",
+        "bytes": 20470,
+        "mode": "100644",
+        "oldSha": "9b4a939fb575dcc47026caea83ef0cd6c71cd5c1"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/README.md",
+        "sha": "1a2ab8e15f3cb97d9a9a25675c630babfc1afb28",
+        "bytes": 13908,
+        "mode": "100644",
+        "oldSha": "41bef26525c368c5c6d41c1e70494bf7d00913c8"
+      },
+      {
+        "path": "小說/末世開店玩家線/00_專案交接.md",
+        "sha": "694743d51a7eb12aad17298cbc2f1f91639598a3",
+        "bytes": 68150,
+        "mode": "100644",
+        "oldSha": "98624809ea22f195f22f7b3e464ab36afd840e36"
+      },
+      {
+        "path": "小說/末世開店玩家線/04_連續性與索引/07_未發生伏筆帳.md",
+        "sha": "8e165c0fccb52ec11675a4aa4f0e5012293054af",
+        "bytes": 12398,
+        "mode": "100644",
+        "oldSha": "3376e707dd05279f703d3a9e9ad6687e4150f4a9"
+      },
+      {
+        "path": "小說/末世開店玩家線/08_劇情規劃/27_20261125_遠期候選原文_隕石幕後意志_三回.md",
+        "sha": "de68de5a74304dd9ec47a62a12a4418f72809ca0",
+        "bytes": 31758,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/末世開店玩家線/08_劇情規劃/28_20261125_法月初訪_金黑交融眼_三回_原文候選.md",
+        "sha": "91e69d36d0e3282d3e5134a89c2e1442cff2c29a",
+        "bytes": 25873,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/末世開店玩家線/08_劇情規劃/29_20261125_法月初訪_深層金瞳_三回_原文候選.md",
+        "sha": "e7c075fd2858b381b5c5945db6b77493c8a81e08",
+        "bytes": 25690,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/末世開店玩家線/08_劇情規劃/30_20261125_法月初訪_完整黑瞳_三回_原文候選.md",
+        "sha": "9bc71c1d26843affd2740babdb4d663ae8f6076a",
+        "bytes": 26212,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/末世開店玩家線/08_劇情規劃/31_20261125_三版到訪與小曦反應_編輯核對.md",
+        "sha": "0c8b8ef40173ad7eba8cc4f1948fef92e65e592e",
+        "bytes": 8289,
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/末世開店玩家線/08_劇情規劃/32_20261125_小曦完整黑瞳恐懼仍想擁抱_獨立補強試寫.md",
+        "sha": "1ed788f43cd1ee34c016ee1b930a2d01b1fe4f94",
+        "bytes": 5851,
+        "mode": "100644",
+        "oldSha": null
+      }
+    ],
+    "matchedEntries": [
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/TODO.md",
+        "sha": "244fa9a0e737c598ff2ca28adb0a00c48f73a26d",
+        "sha256": "c516ae636b45a945cdca21c5a2c4369e18f5a0765bfb703176f7edac793f78b1",
+        "bytes": 28443,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": "6c4253a65e58f43ac8f1c1b5eef95325075aec73"
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第01批.json",
+        "sha": "b0a2e65605586270bdc9e28b5e8065ecd9066a3d",
+        "sha256": "adbdf72de188560fecc2ebcb54da16176e258fecbc27d6aa902d8690565e1e82",
+        "bytes": 50363,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第02批.json",
+        "sha": "b2248e497405e6755c2abb1179f34f8bd26fcaa6",
+        "sha256": "a7e5d52ae8cf5db28854a4ffc1bc0fcc8cb89ffdbb0811ae13e4453d9012f542",
+        "bytes": 77693,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第03批.json",
+        "sha": "a721fd23a5b6397a59121f12f82b3034858d8444",
+        "sha256": "a682455698c93f747689bcf76970e72f8a07a02de944e76cf98c7825c21631af",
+        "bytes": 135409,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第04批.json",
+        "sha": "d0d08535299b626b7ccc6a95a1808b9440b1892d",
+        "sha256": "65e740231f603821da268972735ac27d20186d06c4fead513a1c6aea226e2b36",
+        "bytes": 55785,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第05批.json",
+        "sha": "fa939e705baf6fc06a0291552ecde08e8b819ce8",
+        "sha256": "aea1d5a2f8113849325d74e7ba4b88ada6816a4e244fd8ee89e8045106a179cf",
+        "bytes": 56851,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第06批.json",
+        "sha": "30eaa37741b19a817e6b42e4038efd940bbe7cb8",
+        "sha256": "2d7f117282bec6371d4d25b8ab975625b7acf6787b57a45e182776183ca5b439",
+        "bytes": 59390,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第07批.json",
+        "sha": "190493776f05da5ae8b596aad03d09c185608a0e",
+        "sha256": "5e6c6638b981df3cdc553fd298f8dc58a53f76a17c497375a986a2c235da5837",
+        "bytes": 37097,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第08批.json",
+        "sha": "7ce6eb109144b55cf4f485342e5c570bf8f3fec6",
+        "sha256": "d7536429d8d5b0ebf64af8d57a95332ea2bf1ca2a4857a38e1cba4d6affba9b2",
+        "bytes": 44073,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第09批.json",
+        "sha": "44ed84dfdb3a8c5a362c67072bc42ce8adfaab8f",
+        "sha256": "8c184a1d9ce22b63d3f3c35cc48a38efe41fc1da893fb2d6165a9d5e9b17aa75",
+        "bytes": 28389,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第10批.json",
+        "sha": "a236c833cdb77c3d1ffe4712c4e4df08a3ee7c5a",
+        "sha256": "1498fcb3b92b7a72a18caf680c2abad0e1dfb940d02e1bab29e06c97abad451c",
+        "bytes": 34018,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第11批.json",
+        "sha": "c61c77b2792d1539b03cfb11a3d3d0bae16bc447",
+        "sha256": "61b964b51c55cf9fb5201a595a9af6ef2051a25b98c249401274df703856c4a3",
+        "bytes": 28174,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第12批.json",
+        "sha": "67a6c4e7bf9937d3a5a9f14caaa6646cb5e18922",
+        "sha256": "a1864d1c5a8942ec723afed0f89e5c2dd09509ce1873bdfc7166d86d32aac0ab",
+        "bytes": 45593,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第13批.json",
+        "sha": "bfa04d867e57211a7e45fdd2908fed8da962a04a",
+        "sha256": "b1617667c4b5663d99af377fd911b01ee75eb103ca006bf2656643c238ea3b55",
+        "bytes": 76526,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第14批.json",
+        "sha": "0788f8da1b55479e4f034e4b6906cd44d3955db7",
+        "sha256": "7a392c9e2beaf7de4cf57a67fef6a1bf5ba9044094bcbd2238e9a545b19b5313",
+        "bytes": 16484,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第15批.json",
+        "sha": "2711062cfb1cf4555e0bf2a52967478f3b3d8a62",
+        "sha256": "abe10411a90576307fa1b250eb26693126ea8e80d2ba09352d773e8bc7de1cd1",
+        "bytes": 20798,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第16批.json",
+        "sha": "f7b21b4340957800f0f8b110a211568afa822d86",
+        "sha256": "8db9648da19b40e0e27d74d4afd529ebb248f6dbbe8b09947888bb4568839c45",
+        "bytes": 10326,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第17批.json",
+        "sha": "b6743fc47469030f5423e1352dcda21fde5f2247",
+        "sha256": "0b6325156e2fc9d24fb2cdac60f261833869be9ab40580a1152c7efd0d24e77d",
+        "bytes": 7381,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第18批.json",
+        "sha": "1b2e86775a4f9a2246471ddc754ebfa902905b09",
+        "sha256": "24f8e853939d5b19807e1d515ffca56bdf430fa0fe55b124daa97956bc7edf4b",
+        "bytes": 7635,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第19批.json",
+        "sha": "55b932c17f72534df85c298313255204e93b1ab2",
+        "sha256": "4af30d71f414939f9e07c60bed7a6d7d7950d390ab539884a23145a5df9f1db3",
+        "bytes": 10879,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第20批.json",
+        "sha": "b28241c762526fcc6186bcb91b05931ed51f3828",
+        "sha256": "0424429125a3da20a640bb7a5cc585791840f541ee6d79a04353dba6e079e20d",
+        "bytes": 4285,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉第21批.json",
+        "sha": "fe4851746e8af4b673b442b6f4b6a01443c118ae",
+        "sha256": "c38b2c5d4d90f94fa41105accf44c12d1e1e8cb9a34376ccb000f6e925b7995c",
+        "bytes": 21157,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹列舉總驗收.json",
+        "sha": "0b4c2589af7b77eb14baefe10b8b53b99f1303fd",
+        "sha256": "0332bd1107a3ed93b7dc80d29e4ca29b4e425c3d2a488a9a74e5d57143617592",
+        "bytes": 14084,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹彙總A.json",
+        "sha": "2b4c0f34be7e65d489fbfe99e86a54b2cace6083",
+        "sha256": "1a630ff1b6fe2434a0dc03296632b41254389274c224bd836b6bb9012b0155be",
+        "bytes": 131756,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_Drive整樹彙總B.json",
+        "sha": "bc037ea0a4b40573ea7c4ecc253130546cb6b94d",
+        "sha256": "e5ab7b4bf38451062b62a48b069dbb12b04e4f6e38cb97d64cdfc4eca6551750",
+        "bytes": 64406,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_圖像雙庫現行清單.json",
+        "sha": "5510b7519c0165ce97ae6683a79d8d336ee982dd",
+        "sha256": "bf7fa2dd08450d0ff94b79e7e403602a852d4e0cc36902cc730fa2a655f01782",
+        "bytes": 262338,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_巨構8地圖原件核驗.json",
+        "sha": "6983c60241418239ccadfcbb3c72ca3107e2aaeb",
+        "sha256": "8fbe730184f4dae2e08ab7e9adee20138e254d5ce6eb69536d541324ca5fef3d",
+        "bytes": 4893,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_獨立原始基線目錄盤點.json",
+        "sha": "05adf277b33dd0a0ee988de5693d9037cdbfb4eb",
+        "sha256": "aa2c24eca7a3c2407076360b4f217a5e438d09effc7d0f81f7fcac90d0889742",
+        "bytes": 4485,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖001-020雜湊驗收.json",
+        "sha": "85c6dc7600077b0f94a5ee14f3537a9e79071a3d",
+        "sha256": "cd719ddd27477fb079ae28aa42e4d99116c5d074e4bd9477ba649ba83698615b",
+        "bytes": 9457,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291至694adcb_Git固定差異.json",
+        "sha": "62897bb4bb76807ed0f3278070443e146e613417",
+        "sha256": "b3f053a480f864ead4e122abcc49d4664b9a295c990f4890d8312d18f7675ecd",
+        "bytes": 4792,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/694adcb_README精確補件與空白封存修訂核驗.json",
+        "sha": "2dea71bcfd73edb260a1711075c77c2affd1476d",
+        "sha256": "23616a4fbba41829cfe75ac4cbc944e2b9732d2b28c389123a0ffa342330e93f",
+        "bytes": 3157,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/694adcb_巨構增量七份鏡像核驗.json",
+        "sha": "a88a6cda7e4dee9833f188323d47a181f9d208e0",
+        "sha256": "96decb8fde21e9fb9493c56203ef59dc58266cc3a24dc3e597124f6ba3fd9a1c",
+        "bytes": 4806,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_19份Drive索引外候選反向核驗.json",
+        "sha": "ea7bf686b849b7b765fca99cb4eeeb106944c1c8",
+        "sha256": "9afb4670030016e18f6a5aad9b4a289be743db26aab2fafba3eccce752b629d5",
+        "bytes": 16047,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_26索引外原件候選_01.json",
+        "sha": "81a390ecc7a2992d375b322f9d038bb7ee009573",
+        "sha256": "d0ea60f9ad2596b58e5cc230dc05493b722d962fb6581206cfc89e825c0e93e1",
+        "bytes": 13596,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_26索引外原件候選_02.json",
+        "sha": "09283c0aafc48c4cb538d7e16be13b4e3f5a8dc4",
+        "sha256": "ba43345a24886c238d809c356bf071010fa1e70677598a30a9a1d064f0fb071c",
+        "bytes": 8503,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_26索引外原件候選_03.json",
+        "sha": "10d804c542f8756843cd137a0f9df80b4b817c08",
+        "sha256": "426a7492a358cc219fa0e0b5902177679d338c5ecaeb8541f7c4caf2be64f4ef",
+        "bytes": 12855,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_26索引外原件實驗證_01.json",
+        "sha": "1883f1a198e39d9583cd3a08770c0c29fdfffa9e",
+        "sha256": "2183610518fcad3bef3de9955b3ec51650cf77d44dc89af9c4431a1ded9d2fe1",
+        "bytes": 3253,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_26索引外原件實驗證_02.json",
+        "sha": "81382e865b677851c71bed21521988ceacd5d52e",
+        "sha256": "14ffd2e55997c82986e94b6cfff4ec98f860492867c8787bb3d5cbf9d6f73360",
+        "bytes": 3217,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_26索引外原件實驗證_03.json",
+        "sha": "89a5741fe2dcfa517165a0c6737a2674f8926377",
+        "sha256": "8e42a6a82017d37e594fbd854edcf5652ef23488e31e6cf72a8bf118b9564adc",
+        "bytes": 2965,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_26索引外原件驗收總清冊.json",
+        "sha": "a0bfe00d441f8466f1a7f68b6ee34d95dcb1680d",
+        "sha256": "c4ae187e589b27995bb9011621a715e57a140896c07eba2cbd95a7436b184af0",
+        "bytes": 15705,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_8份獨立原件驗收清冊.json",
+        "sha": "cb253fb76dd2b9f395b03ece43a055c6a1cc8963",
+        "sha256": "afbcf03cb715f6ddf34cd5b4b95546b81974b7acb6fdfd0ccae57db97b75dc74",
+        "bytes": 4845,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第01批.json",
+        "sha": "e7f4d72b69e4204c5080bc4600e5f2c7923c801d",
+        "sha256": "fb6c99a0936b9285a30ee255081b5c1197d78b3086b37a0614c4e00f98797426",
+        "bytes": 9339,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第02批.json",
+        "sha": "7a982eb7a71d0472bc181a5be25310ac4517b269",
+        "sha256": "05d7bda5d560d83d155bd438966b818b50a45c5a832641a7af9fbce58efc5d85",
+        "bytes": 68945,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第03批.json",
+        "sha": "7896d962185ce39fc0f0e6ab6b7602bfa120ba4f",
+        "sha256": "897e29beda9ea70dcb036a7a3d077f0b3fe48bb1d5a8179024002f73327c24eb",
+        "bytes": 57057,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第04批.json",
+        "sha": "e5d2d98e0a59e63ab7678979b238b70dccdc4b02",
+        "sha256": "70463aecfd03f728c03c45a2ddd67cbf4745b0ef083b11e15736a1c70cbd7650",
+        "bytes": 29396,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第05批.json",
+        "sha": "48fb5d9c2956407cb50d44b0a4933453022fa8c3",
+        "sha256": "7ff7b7105bf38edb7ffd538c567da520db378f56255afb1d1c45b7b0c589157e",
+        "bytes": 27371,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第06批.json",
+        "sha": "18f50bdafe3da9d0d9424cb10e8d8cb8bf18b28e",
+        "sha256": "8b56273dc197389cfd693396de92249f7e17afa4870de1855674be0d8edc52f1",
+        "bytes": 66948,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第07批.json",
+        "sha": "adc208ce8484013bb9e7b81041b1bf674137bbae",
+        "sha256": "3095adcca4ce49744a62ef26a01a15ada9d50722483bdc50c1bc9cd8136ab5a0",
+        "bytes": 45532,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第08批.json",
+        "sha": "afcbb12e955849ba57debc3d1de46e19ff0ac197",
+        "sha256": "73da2bee0890d59a313d6acbaf019926ce5e70a71d309ad1873826c9eb79105e",
+        "bytes": 12446,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像列舉第09批.json",
+        "sha": "7bd8ac9596db3fea83f90bd5efb842cb85351aa8",
+        "sha256": "5b73b27fe77f453e2b8549b865fb2e779887ccddccbd8404c007d7bc07963e96",
+        "bytes": 44835,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_獨立鏡像整樹與狀態總驗收.json",
+        "sha": "eb0ef32375f3ace6647e93d653616e2bbdecd99e",
+        "sha256": "90cd149c18a839021824e689a61087cc1404df4091632863d51b21f7bc0533e1",
+        "bytes": 7991,
+        "zipId": "1qFwJMv6Q3MhyQu2c27lBmQ8Au5_6LolB",
+        "zipSha256": "92d15aa1251f8b35020d958a50fae69c05036eb7aaba235db66095ae9ff0dacc",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_鏡像同步狀態逐筆核對.json",
+        "sha": "6c79de2cc5a1c6b1a002517f9a18306222656358",
+        "sha256": "277c8462a0f2806fecdcc21667a35a29b6184333fa0254e3ba38b23a4c79289c",
+        "bytes": 706912,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/c6fbe2d_雙來源索引固定樹比對.json",
+        "sha": "71ec7e1a61b840e6788f2be85ff07f7707b07fab",
+        "sha256": "9a4a5baf33671414a418bb12713910f784d66d763b17ad5d321f20dbdfb054be",
+        "bytes": 35036,
+        "zipId": "1I_Eyqr1Jn8tuAL_nLP459tBc78j0a8Pk",
+        "zipSha256": "5ad1294d458aa3a9a8fc8a55510794ad64f8dcd8ed92067ef0338aebdda75b8c",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_7份獨立原件驗收清冊.json",
+        "sha": "25369fb2a396e057f7af0d32ab92f4b800358a19",
+        "sha256": "1500f0aa71318dcbfd10cf1948c3c425a2ad869e812cae75d1193ddcfde1a117",
+        "bytes": 4475,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_Docs現行核驗_01.json",
+        "sha": "70018868e820726c1001206d412b122cc8eb21bf",
+        "sha256": "c1cc507d34a1723bf51faebb4f8ee63380f873941951d809cd1ed573c042bf7c",
+        "bytes": 2542,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_Docs現行核驗_02.json",
+        "sha": "365529c4418c1062683c2bf0ed8abf25f2cb0783",
+        "sha256": "00e472c62f2bf79a4b30836c95385e39c9130f99730814abc8751184fb238447",
+        "bytes": 3117,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_Docs現行核驗_03.json",
+        "sha": "4e09435e56aba77a6d3356ccb5f5c180d95accd0",
+        "sha256": "5d27d6d57271ba40124d9e5d655ab8bf1c1ca005878dfcc7cbbb1cef6e1b4ce4",
+        "bytes": 3185,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_Docs現行核驗_04.json",
+        "sha": "8e9e5e80ba97021c900fd3a96a7a63cd8b331bf3",
+        "sha256": "e662e51ead3120310e2e3a0c5102a42505622f674c6110a788a266a74386a099",
+        "bytes": 3186,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_Docs現行核驗_總清冊.json",
+        "sha": "d8591e8330cd7e48b493f6f6763eb943852627e9",
+        "sha256": "36f891ab1c0b8078035cf6576a4d877fbbd89bb11b3df147da284262f8639d58",
+        "bytes": 12537,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第01輪.json",
+        "sha": "571fd718d6fb9ae1992f0012f12a871db6719b23",
+        "sha256": "c663e68c7bf0c4636f858c83105ba0dba031294ccf306d17c437b23b730743bd",
+        "bytes": 37988,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第02輪.json",
+        "sha": "07d7ab930c16f386cee979200fc2dceef7e36c4e",
+        "sha256": "5f633505ac14d6b095fe19b000888bfeb7b47ffc855d580d7f6e76d53b4be21b",
+        "bytes": 1695,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第03輪.json",
+        "sha": "3d5658a9860df59ec0e48056856a0c3c407704d8",
+        "sha256": "6209cfd041a1800f30c6071f3e4fda8500b43228ec47b49e30a955cd8aa9177b",
+        "bytes": 1150,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第04輪.json",
+        "sha": "15f35a0e33c25f4ce579f222eb2e4bce3d3194ad",
+        "sha256": "d8e1530557d4de9eb088c25af9449fbe4dd5631d45329439508d8b0797dd09b9",
+        "bytes": 33597,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第05輪.json",
+        "sha": "246de408416b711899f7e713a63e8d2b9f1c16a3",
+        "sha256": "1884ebe777e1c3f6bd7fbea8756be71e75d0b120f8dcc5050b6744dd1b45bc37",
+        "bytes": 4508,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第06輪.json",
+        "sha": "bc4285c0018ba6b39e93350198a1648b1ff0d3e3",
+        "sha256": "7311f7d258e8e98e1b28fe3bc0993574d5f04f23b0b829185af090750a688b1c",
+        "bytes": 1561,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第07輪.json",
+        "sha": "0d0f7d4e3553396fc383c517f43a46918ea770a6",
+        "sha256": "d1ad1545acb5329fc90725f1cdc84ca93aa36f13a0be40cea4e2e9828101412b",
+        "bytes": 2281,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第08輪.json",
+        "sha": "6171236cfe6110d777253a82025b76e2d04935f6",
+        "sha256": "e61f218a84e3865b0a16fd1f1644e7642be78f4cb25c1546b09cbfd72fdbe520",
+        "bytes": 1162,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/e6f3b21_跨批次恢復映射第09輪.json",
+        "sha": "d83a0dd2a2c2ef5d4052dbb008a8f0b49406cde1",
+        "sha256": "9c40af792c3390d37f909691c0acd72694443e1c9e2321e0d70170024d371cfa",
+        "bytes": 1765,
+        "zipId": "1vWafAfhVUrpwiH4MGd6HDdofaF_hpWVf",
+        "zipSha256": "b434eb97bdcb01a9f7000aa241dddf88e349fb31be4060465984889373ab7720",
+        "mode": "100644",
+        "oldSha": null
+      }
+    ]
+  },
+  "second": {
+    "count": 48,
+    "matched": 48,
+    "bytes": 816633,
+    "entries": [
+      {
+        "path": "tools/google_drive_mirror/source-index.json",
+        "sha": "0f7ee3432e678c0de53bb3df5d3971d1a3a282e0",
+        "sha256": "f1b95c3ceb752cc3faded9c42d051af7a39f51adee04214914ee479e53e6be5d",
+        "bytes": 256293,
+        "zipId": "1_bC-vHO4UGwlGjh0e7bwmmV_Gbe9yPZS",
+        "zipSha256": "d484eafaf362bda4e1dfebb3e14e959a2c6299eda1c92418229a024a791796bc",
+        "mode": "100644",
+        "oldSha": "0b9ba820bc39f603afb43d0cbad2c7f10cd58ab2"
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/TODO.md",
+        "sha": "5456ea5794708bd31379fc25b96c0241e019d6aa",
+        "sha256": "712823bb8d500bfcecfbedd40cba48c33dda922a0995f996a10da7ab58fd7d8a",
+        "bytes": 41306,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": "244fa9a0e737c598ff2ca28adb0a00c48f73a26d"
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/4e63f7e_維護增量第01包驗收.json",
+        "sha": "27ced554d06603e88d1fbae708f3855b599d1d0e",
+        "sha256": "db76187b7674e3613f6a91cec5fc4ee04da68f06ee0e2bc96d74980afb87f74b",
+        "bytes": 11479,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/4e63f7e_維護增量第02包及總驗收.json",
+        "sha": "3b6970da3008e529be54d0a4914ad5bb52b30983",
+        "sha256": "6e2bd62406c696a65575ca3328572d4ca02b8adbed33c9502aafe27eb25a4a92",
+        "bytes": 9704,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_261原圖雜湊總驗收.json",
+        "sha": "3c37a6a3c0134c578a1dbfd6c0071bd04f97c879",
+        "sha256": "574b1346d991d0471f38aca9f9d77564703b9825091555bed2f6b8dcc3a71f72",
+        "bytes": 2516,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_家庭56原圖雜湊總驗收.json",
+        "sha": "c44986c733e37c19d3056c23298fa3c5cc634c15",
+        "sha256": "8fce1627e59b8699508ed7f2a005a2c237493aa1ac964a5cb1fac95e1bce816a",
+        "bytes": 38618,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_家庭原圖F001-F015雜湊驗收.json",
+        "sha": "51a5115325f9856c0a6e14e829809721d1827acb",
+        "sha256": "1e524d05a141bf317bc2ad7212918bc9cbc17c178ffb69c30265503a11b4af59",
+        "bytes": 9517,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_家庭原圖F016-F033雜湊驗收.json",
+        "sha": "b2f8246de1700a397270ced26af10a0d67445868",
+        "sha256": "5db1e906003e63a82453b52735c1906078a09827b2b75e67b0cad9ac50e67de5",
+        "bytes": 12104,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_家庭原圖F034-F056雜湊驗收.json",
+        "sha": "46ef0ee0f827323f8f89fff5b56455afd3226635",
+        "sha256": "b0640bd0d48e815173f9b54e15c75baf51a54d98618f09f16bd19b290c847cd4",
+        "bytes": 15226,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖021-040雜湊驗收.json",
+        "sha": "66b6a78d2753e26493d1b481d1d0c99690f5d60f",
+        "sha256": "ad3c3305c8ec64fe7011ebb68ac212d7a78d0678c1a96ccd37ec556e4c30f2ea",
+        "bytes": 9511,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖041-060雜湊驗收.json",
+        "sha": "41c3d672c9b79ae2c10676175603be8b7506f247",
+        "sha256": "a5c770798adbc44f27f28c9beff354652aa1e89b9edd2a4fe8e01a19dad77f10",
+        "bytes": 9619,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖061-080雜湊驗收.json",
+        "sha": "58d60a073294fd300779c24d8dfb2928bca0b115",
+        "sha256": "fe3a3d253265b74e8fa54bfdbb4476d7ffb4b3791fd1da0b426371f5ce17195c",
+        "bytes": 9674,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖081-100雜湊驗收.json",
+        "sha": "5725c9f8375383329b3a92d32068827434c0532e",
+        "sha256": "124e6e102edee01eac67854d0e3785098a238d1280b8610b2086d947f280bfc3",
+        "bytes": 9762,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖101-120雜湊驗收.json",
+        "sha": "f179475eba23eba7d3a4768e8d9b3639ae3793b0",
+        "sha256": "00184a78b9175a05f0968b602e7d9b4ee754faa5d37af8adc5e7bb14e2046295",
+        "bytes": 9907,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖121-140雜湊驗收.json",
+        "sha": "ef4f932df2db3c1351324581d8b94ad13acdd8ba",
+        "sha256": "48939c5e10612ade766e5ea15c810d52c46b8b1e62487009aadf459eae10fc99",
+        "bytes": 9843,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖141-160雜湊驗收.json",
+        "sha": "65fc49a0c28593f64c8c7dc09debbe9ae5ac6dfd",
+        "sha256": "1ca548c977e4b66783c0f5961c91adae725efc1eb16a31e3c5d1e10c470b2a8f",
+        "bytes": 9685,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖161-180雜湊驗收.json",
+        "sha": "0b3d73b496342ca877e0fc20ce612b2dfef0111d",
+        "sha256": "02e326a8f297b9d1a4076ece03eb4234dd7544ea2c7b3060a59ca157bc97c54b",
+        "bytes": 9793,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/63af291_理惠原圖181-197雜湊驗收.json",
+        "sha": "74748d40ff19ea99d6e250f6a0f42a41e6af0352",
+        "sha256": "1ee92ee447e3c31b7c11134bb15101ff18c5f99f6e595f6adc8bb6cbbd054ced",
+        "bytes": 8417,
+        "zipId": "1xD11e3T3V-YAEeMb3HgST9lnPxzEfXlZ",
+        "zipSha256": "75b7adcc1f4a7ec2759d64d0804454f3e61c28adb391dc7303759e1c9073f51d",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/README.md",
+        "sha": "c3252b0d4aa22ccb6025d6c8e713e717a0a4ee18",
+        "sha256": "c4058b77b56ac34619e8ffde09fa17ef5ff365d85be95063e3fac23fc542f9e4",
+        "bytes": 21713,
+        "zipId": "1usby8vM3UK8u6387-b4bSpBwgu7FHEb7",
+        "zipSha256": "78d4df804cf6025293f4030b1964b4fdd9a7a4ba9e40a73c5e55f36bbec4b133",
+        "mode": "100644",
+        "oldSha": "b1cf25fd580b8c6b226fdab09ba8db984da00d94"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十一組_權力結果人物選擇與失敗後續_非正史.md",
+        "sha": "fc69322fb2757ecc6dafc4b110230cc41fd3baf8",
+        "sha256": "f505e45cab676f7a98f82175e5927c9d485cee34566f7f5be4e1b7a60778fdc3",
+        "bytes": 3080,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十三組_長時間恐懼不可逆損失與生活餘波_非正史.md",
+        "sha": "bdd6bd545bbbafb2ccf6579818055e0d57bb2834",
+        "sha256": "78fe5b4db2c6ca6f2c6a225b5c54b0f1e4a6221196a85de0e6450727cdbb066c",
+        "bytes": 2918,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十二組_恐怖感官異化空間與認知界線_非正史.md",
+        "sha": "ba184717983104eaeb14b17572a995481f2eda59",
+        "sha256": "3f4f213db41a72551056ce9e1f6012aabc2d2e08859e6a2cc8336149ef1122f0",
+        "bytes": 3291,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十四組_文明時間尺度異質生活與宏大景觀_非正史.md",
+        "sha": "29b3cae9193670df67aa7994531f79bd2ceeaa48",
+        "sha256": "7f4ef5ed56f61bcc695153cd42c577f055785b13df9cfd38bd92d76077dd0e3c",
+        "bytes": 3083,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第二十組_多方布局情報落差與敵方自主_非正史.md",
+        "sha": "d84582fda3a5ba05d227b6b1d98b480d51a721d0",
+        "sha256": "8dede564f7ae757ccdd838553690b273b052af2e9453a5a58fd1276c1f7437a0",
+        "bytes": 2978,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十七組_地方專業分歧與長期群像續接_非正史.md",
+        "sha": "9f3e6966eea6a42a18f62aed6416b4708b6eff7f",
+        "sha256": "94285507c7dc63a9e33b27f7394cd1a78925592060a12cf008293b0344db2234",
+        "bytes": 3380,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十九組_事故善後歷史證據與冒險收束_非正史.md",
+        "sha": "4cc84e41ba8eadc07db1effec2df08d49826afe3",
+        "sha256": "f78b4783ebbf1da3b5c8f1be36f5e09e7ecf48327556a51b914d415a9af71684",
+        "bytes": 3440,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_語義精審第十八組_遠征路線異常生態與探索節奏_非正史.md",
+        "sha": "bde8d6d2614f75d7ec550a5186d5212f1db3c5d0",
+        "sha256": "71ae8d5e4c8c77105ebd0858afd2b70e574656b1a72418c6b3a55d5783bd6540",
+        "bytes": 3205,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I3_雙庫逐筆核驗/README.md",
+        "sha": "ac2fe2583d85064a656030450f98578447365f91",
+        "sha256": "8de1fb4e7841c5eef1d551257eba390545c849afb8e357fd5153bb217c3b7a8c",
+        "bytes": 35264,
+        "zipId": "1usby8vM3UK8u6387-b4bSpBwgu7FHEb7",
+        "zipSha256": "78d4df804cf6025293f4030b1964b4fdd9a7a4ba9e40a73c5e55f36bbec4b133",
+        "mode": "100644",
+        "oldSha": "667f86a9d57c6f6cea5b55488be9fac47dddc1a0"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十一輪_AE第六夜以後_第六至十章_非正史.md",
+        "sha": "db5a792902a6f59f904d9d7d254ecb0596c40e68",
+        "sha256": "ce5e2797f20649897c9052cfa9dda6dd6a01c46fd4f3f3f4beb855f81b1b0834",
+        "bytes": 13318,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十輪_AE第六夜以後_十章前置作者真相_非正史.md",
+        "sha": "2926138dcd2cbb5473014bd75107234127ec03c5",
+        "sha256": "376d76f12225d122e9d01f53d2afd91de95649ef2b3cec9cff44a6c695c23b1b",
+        "bytes": 6993,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第二十輪_AE第六夜以後_第一至五章_非正史.md",
+        "sha": "0762da412ea46d781acc5f49faeb674ef630102b",
+        "sha256": "ab86a7788e1911a942220fd3b42723b44a010aec06de22d6b56dd8adc09d5fe5",
+        "bytes": 13229,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十七輪_AC續篇三_返潮廊下篇_第十八至二十三章_非正史.md",
+        "sha": "cbcba99d29c67d21e6e24f534c7b8890600916d0",
+        "sha256": "4358728e87c74f5975ac0234d4a735aadca5e3f20dc8fdf1fcd361c3b53c9a62",
+        "bytes": 17544,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十九輪_AD七座鐘的城_第五至八章_非正史.md",
+        "sha": "d1f0a9ec781b699e1a44530d20493491ff558f4e",
+        "sha256": "f816c43c0e2186ed8a844eba55715893e7679d2c555239acbdaea956b01dc4c3",
+        "bytes": 12418,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十五輪_AC續篇二_分行與歸路_前置作者骨架_非正史.md",
+        "sha": "281b392832731483936289841b5c5ee2d38e7884",
+        "sha256": "9dc41b3d506b4f2f80cc0685fb2630d72a351b0a7c0fe19ba09901b9157e91a7",
+        "bytes": 3618,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十五輪_AC續篇二_分行與歸路_第九至十二章_非正史.md",
+        "sha": "ec8ab7dbeee907b618158556ccd8560fa0370437",
+        "sha256": "5df052cddf3a1776f4b82e2a09b06c203508901527ebd854459053420b9ed50d",
+        "bytes": 15990,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十八輪_AD七座鐘的城_八章前置作者真相_非正史.md",
+        "sha": "7c10006beaf9c14ebff982ed74c0267d9aa77623",
+        "sha256": "11ddea977ab03ef004250e3d76d9344653dfb92d0cad4934d08300b9366c8395",
+        "bytes": 6702,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十八輪_AD七座鐘的城_第一至四章_非正史.md",
+        "sha": "5b48fbb7e938c74cc7d51d1d9ce853e608aaae54",
+        "sha256": "3ad8c1922e15628e7114cf010779876e39dee6ec967050f5401671ed4cb83b8a",
+        "bytes": 11159,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十六輪_AC續篇三_返潮廊上篇_第十三至十七章_非正史.md",
+        "sha": "a56170907b849637093f7724a1c0c9ff830fdedc",
+        "sha256": "b13a8c6c1fe2c65a1145bd127f3d3fe7c736bc06bc3351bb80d5baf3de75a621",
+        "bytes": 14579,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十六輪_AC續篇三_返潮廊十一章冒險_前置作者骨架_非正史.md",
+        "sha": "6399144dad490bbde8db20a17002e0d3d5aee39e",
+        "sha256": "e47d6af7ec04c289d6f68a18872cf07649dcee275f1382d343ba2c2deb5a8f8b",
+        "bytes": 6971,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I4_原創實作第十四輪_AC續篇一_三年旅途_第五至八章_非正史.md",
+        "sha": "87171f82f7356d4063178c5471290f50d8cae117",
+        "sha256": "8f4d124913707ff9a10d34cedbd8ed661f6b30e8ff96584d425a04f8b137e450",
+        "bytes": 13581,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": "6700db37c75a0ef5dc61994852ef809208653374"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I5_寫作檢索與研究使用指引_v0.1_非正史.md",
+        "sha": "4ea40273004fd967d380b17f2e530981f343937f",
+        "sha256": "f724a3fc70bae49b041ade5dd8b6e321199bfd15ea619ea39cf78efee1ff72b7",
+        "bytes": 31963,
+        "zipId": "1usby8vM3UK8u6387-b4bSpBwgu7FHEb7",
+        "zipSha256": "78d4df804cf6025293f4030b1964b4fdd9a7a4ba9e40a73c5e55f36bbec4b133",
+        "mode": "100644",
+        "oldSha": "296c8495254599d33f17f7b83dcb5a81b6d01a91"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AC二十三章返潮廊完整冒險_連續性與收束驗收_非正史.md",
+        "sha": "fae5f50045cfee34c525efe2b403d27d51505c04",
+        "sha256": "2dd5fe061d9ab952e9fb67e80b4f685ddcc16c0920d495a735f74220bf0de84c",
+        "bytes": 7570,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AC長篇連續性狀態卡_十二章七年驗收_非正史.md",
+        "sha": "7b63e0ab59758f04d68b13b8f14ab0d7c4fcc2ac",
+        "sha256": "0f0f323f61f545e4a1f5a2a077d6d6588df69f929c3b7529e9f99c821fa4e018",
+        "bytes": 7242,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AD七座鐘的城_八章多核心黑幕與敵方勝利驗收_非正史.md",
+        "sha": "693e751803055b9f51d3e68055a09711d7edb4ca",
+        "sha256": "dbe82ef058240cdce72f947b42cc784696f52a1b8cabd2e547f28a44e5b2a416",
+        "bytes": 6051,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_AE第六夜以後_十章沉浸恐怖與不可逆後果驗收_非正史.md",
+        "sha": "86b7327cb8134a218192ec126c15db702c5f9bec",
+        "sha256": "3742436576586d032c07d03e7701880499044b68c84da05cbb86c7306de54b40",
+        "bytes": 5613,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": null
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/I6_跨AI創作研究快速交接_單頁路由與實測_v0.1_非正史.md",
+        "sha": "1f41509229c8ba4cafa792d4499d925ff37ebb34",
+        "sha256": "a66b563f26a840b9491591db8fc00a897e295f0013d82be233509a8e0acc499c",
+        "bytes": 9413,
+        "zipId": "1JgB0D75ETSaegjMfg6XAi89Tl8NwqJ3P",
+        "zipSha256": "34eabd0e61fb0f8393ef3f00c648cf9d4de24377e6197d4c43859cfd34e47322",
+        "mode": "100644",
+        "oldSha": "ef54ee0525eca866ec75b0b5bcfef612ea877a76"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/全書整合_v0.1/README.md",
+        "sha": "148ce50a2a4ef4113f87a2e0938084f02313f91f",
+        "sha256": "52bfcbfe9c18ba0b6fc1aa5a72d9bbb2e85d886014b890ba7ee2f9bcf34c0913",
+        "bytes": 26379,
+        "zipId": "1usby8vM3UK8u6387-b4bSpBwgu7FHEb7",
+        "zipSha256": "78d4df804cf6025293f4030b1964b4fdd9a7a4ba9e40a73c5e55f36bbec4b133",
+        "mode": "100644",
+        "oldSha": "0289bd47426da10d077ee2ddc06fe809327c9691"
+      },
+      {
+        "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/README.md",
+        "sha": "3db437d5fb1d9e93a28cd7cc95c3fcaf88d81426",
+        "sha256": "9581eed1a0d79f1554e9bc29069ab79a73c13249913130214d11bbf6f7c90b21",
+        "bytes": 20974,
+        "zipId": "1usby8vM3UK8u6387-b4bSpBwgu7FHEb7",
+        "zipSha256": "78d4df804cf6025293f4030b1964b4fdd9a7a4ba9e40a73c5e55f36bbec4b133",
+        "mode": "100644",
+        "oldSha": "1a2ab8e15f3cb97d9a9a25675c630babfc1afb28"
+      }
+    ]
+  },
+  "note": "Seven existing ZIPs freshly read and all 117 archived original entries independently hashed against inner manifests. Exact fixed Git tree diff matching; no complete first-stage recovery claim."
+}
