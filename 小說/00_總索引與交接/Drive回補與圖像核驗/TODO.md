@@ -101,3 +101,6 @@
 
 ### 2026-11-25｜第19輪：理惠原圖021–040第二批雜湊驗收
 - I01 PARTIAL：固定63af291d3c16576774c7a183e832254952e57329，理惠021–040共20原始WEBP從Drive實際完整下載，獨立重算Git blob SHA1及SHA256，與固定Git tree SHA1及bytes逐件20/20吻合，3501614 bytes。[Git逐檔清冊](核驗清冊/63af291_理惠原圖021-040雜湊驗收.json)已讀回一致（14fa512356e7fc530402a6bab820c4e08b5b9822），[Drive原始雜湊資料](https://drive.google.com/file/d/1V3eQ4fz7JYNhRqh7SA_v_0bUXmEnICch/view)已回讀後比對。未另下載Git二進位重算獨立雙側SHA256；未新增視讀。理惠累計001–040共40/197，6646066 bytes，家庭4/56、巨構8/8；其餘209張待雜湊（理惠157+家庭52）。未改Canon、AUTO、未刪檔；下一步理惠041起及家庭未核原圖，缺件回收、其餘ZIP與全庫AUTO驗收仍待辦。
+
+### 2026-11-25｜第20輪：理惠原圖041–060第三批雜湊驗收
+- I01 PARTIAL：固定63af291d3c16576774c7a183e832254952e57329，理惠041–060原始WEBP 20張完整下載Drive，獨立重算Git blob SHA1及SHA256，與固定Git tree SHA1及bytes逐件20/20吻合，3620556 bytes。[Git逐檔清冊](核驗清冊/63af291_理惠原圖041-060雜湊驗收.json)已讀回一致（7a9408f1c9c470328526b61b4d6422886ae56689），[Drive原始雜湊資料](https://drive.google.com/file/d/1rquRbE7t2oRMQ8fMJJxsySmYzYJ4kOGS/view)已回讀後比對。未另下載Git二進位重算獨立雙側SHA256，未新增視讀。理惠累計60/197，10266622 bytes，家庭4/56、巨構8/8；剩189張（理惠137+家庭52）。未改Canon、AUTO、未刪檔。
