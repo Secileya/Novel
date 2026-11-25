@@ -1,0 +1,39 @@
+Secileya/Novel × Stingray Drive｜AI資料庫使用規則（2026-11-25）
+此文件是檢索、閱讀與續寫工作流程，不是任何小說世界的正式設定，不新增Canon。
+
+一、從哪裡開始
+統一入口：https://drive.google.com/file/d/1_WCnNn9rQ-n6krM3c2WakwQV1yU7R1RL/view
+全庫導航：https://drive.google.com/drive/folders/1MnlMGvy4W-5lfmFhUpt9P_R_U8qeZE8d
+完整增量根目錄：https://drive.google.com/drive/folders/1eppxXt86PrH4Xd5vNS4q3EIzc4hdBURK
+GitHub main 是來源：https://github.com/Secileya/Novel/tree/main
+舊巨構、家庭同步狀態：https://docs.google.com/document/d/18eYp79stmjF0vhTwWwRllwTQHyVGH09ELk8wpQl4j-0/edit
+不要從文件名稱或日期猜最新版本；先查來源清冊及已完成的增量鏈。舊同步 HEAD 是範圍索引組合，不等於整個 GitHub HEAD。
+
+二、閱讀順序（按實際任務選取，不要求每次讀遍全庫）
+1. 確認小說專案與世界線。先讀該專案導航、正式主檔、正式續寫交接及狀態。各專案的候選、歷史、廢棄版本分開。
+2. 查最新已完成的增量（從基礎快照至最新完整清冊），如果 GitHub 可讀則核對 main。對同一路徑，新版原件覆蓋閱讀優先級但不刪舊歷史。刪除記錄表示來源已移除，不等於物理刪除備份。
+3. 讀任務所需的原文，而不僅是搜尋摘要。若是續寫，讀最近正式正文、未收束事件、相關人物設定、關係、場景與時間線。若正文與新明示修訂不一致，按修訂適用範圍判定，不能機械認為最新日期的一切都覆蓋全世界線。
+4. 原著研究先查原著章節/卷號與研究筆記的對應證據。研究、對照、候選、PREWRITE HOLD、NON-CANON 不得升格為本小說正式正文。原著中的重複/缺號照原來源記錄，不能自行補造。
+5. 讀取量必須誠實：列出實際打開的文件、分卷與範圍；只讀索引不等於讀完整原文；未取得原圖不可宣稱看過圖。大型任務分批並記下已讀範圍和待讀範圍。
+
+三、家庭角色
+正式家庭主檔：https://drive.google.com/file/d/1xUF7VBAAWbI3VIGHg1IFWbXvcfIGLMFP/view
+18冊閱讀分卷：https://drive.google.com/drive/folders/19YNla512cJb3mWqWgXEIuLpHCoTmP8af
+十人DNA原文導航：https://drive.google.com/file/d/1ujtViMqKUa1Qnfbb7tjqdDdm27rvgxQY/view
+先查共用DNA，再查當前世界線修正與雙人/多人互動文件。不要把單個互動範例變成固定口頭禪、永久主導權、每次重複的姿勢或情緒模板。
+
+四、圖像讀取與作者限制
+完整原圖：https://drive.google.com/drive/folders/1nsDQvxujChGIuAMS4ZI7DdfZAi-rKPEf
+V3圖鑑：https://drive.google.com/drive/folders/14ZHbpyNqCfCU8RQMO1dS3QrtPqDMxpnG
+家庭V3作者確認索引：https://drive.google.com/file/d/1IaPtERINpw8DQdo_ReYYtFBfZn0xQ9-7/view
+理惠V3一般情境77張索引：https://drive.google.com/file/d/1KLXIaWn8vhaeiWB3uQQm3YkgsYlrg8Oc/view
+家庭未入庫圖像文字導航：https://drive.google.com/file/d/1wyw8YU1lyqIKlb9iDRt5r6eoE4eFZGGy/view
+巨構地圖集：https://drive.google.com/file/d/1YmqnbcmU6vlPzCbIWxP85PCLhMZmxKve/view
+家庭圖鑑旁的作者確認/禁止項目高於畫面偶發偏差；例如局部髮型或眼型參考不自動固定原圖顏色、服飾、飾品與世界線。沒有原圖的文字證據不得冒稱視覺核驗。圖像實際內容、解讀與正式DNA分層。理惠先查眼睛、眉、嘴型、紅暈、汗滴、姿勢和場景，再綜合情緒；檔名只定位。和好、求婚等圖片不代表事件已發生。Gemini 若只能讀PDF文字，必須標明，必要時手動附加原圖或PDF做視覺驗證。
+
+五、續寫前後核對（不是機械模板）
+續寫前：確認唯一正式游標；上一章起訖時間、地點、出場者與已知資訊；角色能力、衣物、傷勢、關係和情緒；事件的既有因果、真正未解問題；各組織和人物的資訊差；哪些設定只是候選。重大事件需要清楚因果，不為追求刺激追加不相關幕後。
+續寫後：檢查人物語氣、性格與行動一致性；世界規則、時間、地理與能力限制；是否不合理地讓所有人知道同一訊息；是否把候選/研究當正式；是否誤讀圖像與作者限制；是否讓既有伏筆不合理消失。列出必要疑點，未確定不編造。
+
+六、長期更新
+完整增量批次由base/head、_PLAN.json及_COMPLETE.json界定；已完成標記以前不可宣稱整批已同步。各檔核驗回執提供原始路徑、Git SHA1、SHA256、Drive ID。原始備份鏈保持不刪除。新版本的原始檔可獨立閱讀；832卷等衍生合冊、PDF圖鑑及角色導航不是自動重建，需獨立更新與驗證。遇到同步延遲或工具無法讀取，先明確說明，不自行補齊。

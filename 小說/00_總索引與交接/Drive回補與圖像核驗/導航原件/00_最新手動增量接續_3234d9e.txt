@@ -1,0 +1,25 @@
+Secileya/Novel → Google Drive｜手動全庫增量完成 2026-11-25
+
+本次固定 GitHub HEAD：3234d9eb8d7bf2c79ca5931515457f11bb36a373
+前一完整增量終點：5b223ad0820911b48a2eeb1e970198f204683740
+前一批 AUTO 記錄：16/16 原始檔，335851 bytes，本次已重新下載、重算 Git blob SHA1 / SHA256，全數相符。
+本次 GitHub 比對 75 commits ahead / 0 behind；29 新增、6 修改、0 刪除，35 原始檔合計 870041 bytes。全部逐檔核對 Git blob SHA1、SHA256；ZIP 上傳後原始 bytes 重驗 35/35。
+
+原始 ZIP（含完整 GitHub 相對路徑、逐檔清冊）：https://drive.google.com/file/d/1IvN6m4tpGdiGyKktwpoTsbwubKoEZSU0/view
+ZIP SHA256：1aec569a8f145f603353f272ee6865a0e4c2606afba2334c37b142d2653bae2d
+清冊：https://drive.google.com/file/d/1pW6Lo4GoQWeE2biSWzteUZ_7SIecxd4q/view
+前一 AUTO 完成批次：https://drive.google.com/drive/folders/1qRVCaAwVPAkyR3oNQ4YBFmmJTI5-mSqY
+閱讀分卷：https://drive.google.com/drive/folders/1_VIhgDKS6s0rfJoxOY5Cv26r-8o0xV9b
+
+5卷直接閱讀（上傳後下載重算SHA256均吻合）：
+VOL_0001 https://drive.google.com/file/d/1vJdUxvAH1HEuyyr7KvqT8nWZZjcx8jbB/view SHA256 b333d26baa9a0846d2c5e565bfba8a03eeb0f52e39ead49ec232cf4eb729d9c3
+VOL_0002 https://drive.google.com/file/d/1e6DUrv1sIl104CptsFmxh8SZOqQfWbyr/view SHA256 0940750e3bf2dceba2cc524dc5eb0282add3e3f73857ff7b90d157dfb27639ba
+VOL_0003 https://drive.google.com/file/d/1g8JHM0UBozkF5B20rMsXO-psI1OjStdg/view SHA256 860c3c2f6e607220209798b8fe771b4dc2e107709edc635e6e909b1766172cf2
+VOL_0004 https://drive.google.com/file/d/1GDt_A2aPKVuzSeLHhQ3qvS43fLnBPUZT/view SHA256 dce74834892c5d3f61180da4519d222097d3d40f37618a8d6b3aeeea63666ba3
+VOL_0005 https://drive.google.com/file/d/1ImeZqtsG6o6LJSOf1gnfRGY4GrQ6f4xj/view SHA256 44f3fb4563e367693d633c0c95b4f38e37848cd530fdc0b7e08b06ab8456cec3
+
+此批是獨立手動增量，沒有改動 Apps Script 的 AUTO 游標、觸發器或歷史備份。自動化後續可能產生同範圍增量，恢復時按清冊 base/head 及路徑去重，不重複套用。舊 832 卷閱讀快照不必重建，查詢新版本先看增量。不得宣稱此後的 GitHub 提交已備份，下一輪先重查 main。
+
+作者指定工作目的：Drive 擁有 GitHub 完整資料，不是逐章研究原著。根目錄 AGENTS.md、README.md、PROJECT_HANDOFF_MASTER_v0.1.md 已寫入並讀回；只在具體需要時進行適度小說品質研究。正文已保存不代表正確或使用者喜歡。
+GitHub AGENTS：https://github.com/Secileya/Novel/blob/main/AGENTS.md
+Drive 原檔：https://drive.google.com/file/d/1dm6U3C8ULAEQtWFGWa2p77_YcNf5UzhS/view

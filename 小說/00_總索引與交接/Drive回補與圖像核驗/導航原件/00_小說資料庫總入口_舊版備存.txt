@@ -1,0 +1,33 @@
+Secileya/Novel → Stingray Google Drive｜全庫總入口
+核對快照：c8af483edbb79fcb927111d1ad0017638fe27edb
+日期：2026-11-24（此文件為快照，不等於即時同步狀態）
+
+【閱讀入口】
+全庫閱讀根目錄：https://drive.google.com/drive/folders/1AwWosO_m36QNmSqsEgLMS6VHMi8jLt6_
+AI全域導航及22份入口：https://drive.google.com/drive/folders/1MnlMGvy4W-5lfmFhUpt9P_R_U8qeZE8d
+832卷全文基礎快照（14a38e1）：https://drive.google.com/drive/folders/1xXpdjQ04JaPfu58Hdzd1_v2Ns2dR1Vvu
+四部原著：異常大舞台70卷：https://drive.google.com/drive/folders/11oZqEzqwF38M9Xx9Qpctyoh8n7BMW2m5
+其餘三部137卷：https://drive.google.com/drive/folders/1oy83ujO724aewEpoIeXJ0O_9Ho43kidh
+261份原圖：https://drive.google.com/drive/folders/1nsDQvxujChGIuAMS4ZI7DdfZAi-rKPEf
+56卷正文連續閱讀（529份來源，含已標示的歷史及候選）：https://drive.google.com/drive/folders/1AHllZ91ne5vB_D3QOdbtiVCb-fRGbSPZ
+78份候選與歷史分流原件：https://drive.google.com/drive/folders/1OaRgCN6of7owklsTk4h77knMFoU4zl8g
+家庭18冊正式閱讀分卷：https://drive.google.com/drive/folders/19YNla512cJb3mWqWgXEIuLpHCoTmP8af
+家庭十人DNA原文導航：https://drive.google.com/file/d/1ujtViMqKUa1Qnfbb7tjqdDdm27rvgxQY/view
+
+【原始備份與恢復鏈】
+原始全庫快照 f02ec20：https://drive.google.com/drive/folders/1uUKmCnitOInp3CdUnhm2kKnw3jAHorZO
+依順序應用以下差異清冊；保留舊版本，刪除項僅以清冊表示，不直接刪舊資料。
+f02ec20 → 14a38e1（2份變更）：https://drive.google.com/drive/folders/1CNyF_olBn21l1muDb9h9kCbxT2k7kafL
+14a38e1 → b84d99a（10份）：https://drive.google.com/drive/folders/1get5tr1YS7hEpNqGn01w5ue9kZCs6PbM
+b84d99a → ac42f26（4份）：https://drive.google.com/drive/folders/1A77atKBFWVe6RL1t2aSwqxqsyhGWVP4t
+ac42f26 → b1ee6d2（4份）：https://drive.google.com/drive/folders/1ZnBLSkSJ8qaXw_xE1B4qYoyszu99ocrj
+b1ee6d2 → c8af483（3份）：https://drive.google.com/drive/folders/1Rkvzw2BdLr0cPY5we5Bo7ehywCQ6jRCS
+增量根目錄：https://drive.google.com/drive/folders/1eppxXt86PrH4Xd5vNS4q3EIzc4hdBURK
+23份變更紀錄（包含同一檔案不同版本，不等於23個不同檔案）。每批以 DELTA_MANIFEST.json 的完整 commit SHA、原始路徑、Git SHA 與 SHA256 為準。
+閱讀庫屬於衍生快照；後續變更需查增量清冊，不得把快照當最新全文。正式設定、候選、歷史分開。不得宣稱未讀文件已閱讀。
+
+【同步狀態及限制】
+舊巨構與家庭 Apps Script 最後已讀到的狀態：1024/1025，BOM 3 bytes 問題已重現；修復程式在 repair/stingray-byte-exact-20261124 分支通過測試，尚未部署到舊專案（瀏覽器403）。
+https://docs.google.com/document/d/18eYp79stmjF0vhTwWwRllwTQHyVGH09ELk8wpQl4j-0/edit
+測試：https://github.com/Secileya/Novel/actions/runs/45414030345
+新版本鏈獨立於舊鏡像，不能用新備份成功來冒稱舊鏡像已修復。自動更新是否成功須依其實際執行紀錄。原始 GitHub main 未改動。
