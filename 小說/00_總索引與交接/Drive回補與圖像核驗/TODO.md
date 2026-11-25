@@ -85,3 +85,10 @@
 
 ### 2026-11-25｜第14輪：19份獨立鏡像索引外Drive候選反向核驗
 - [x] D02-B：依第11輪固定c6fbe2d清冊逐一核對19個Drive ID的現行內容，起始Git參照4297b23dcf6f3eac876b6945f86e6abc7966822b。9份歷史封存均找到標頭所指固定Git版本與相同blob SHA，4份去標頭後全文完全一致、5份BOM／換行及首尾空白規範化後全文一致；另20261122 Gemini雲端交接與現有Git完整非正史提示詞規範化全文一致。5份空白封存現行可讀文字為空（未核歷史revision）。3份屬自動運作產物，實讀同步說明與變更交接及下載解析508192 bytes同步狀態JSON，鏡像報1136、pending=0，非全庫AUTO驗收。696條Sheet原生表格逐格比對固定TSV：697列含表頭×12欄8364格零差異；額外第13欄696筆均為同一正式主庫URL，既有README及HTML已有此URL；其餘網格無回傳值。未驗證原生格式／公式／歷史revision，未將規範化文本當原始bytes。19/19現行內容分類完成，未發現需另回補的獨有實質內容，保留全部Drive原件，不重傳。逐項來源與限制見[反向核驗清冊](核驗清冊/c6fbe2d_19份Drive索引外候選反向核驗.json)，Git讀回一致（983c83998d892bfc1c2e56d8dc5c214e59c982a3）。本輪未改Canon、AUTO或刪除資料；新清冊及TODO的Drive固定快照備份待處理。D01/D02整體仍PARTIAL，下一步優先處理694adcb README精確原件、維護固定快照補件、家庭及理惠圖像原始雜湊、空白封存歷史修訂可用性與全庫差分。全庫AUTO仍16/105（前輪證據，未重驗）。
+
+### 2026-11-25｜第15輪：694adcb精確README與空白封存修訂閉合
+- [x] D03-I：固定694adcb82b96f883abe32bbb4b408a44e0914c70上層研究README精確原件，8844 bytes，Git SHA1 93be78d7142908bb319814ab99d7b6e7de429c2c，SHA256 3a28b7c47355ffd5c3497567688c0ec078c547d561b4d44a6e747d8a2a6491ca。固定Git Base64經獨立中轉Docs還原，獨立計算雜湊、上傳Drive、移開本地原件後重新下載逐位元組一致。[Drive原件](https://drive.google.com/file/d/1h7sZz8mikoqx931s5qAeOS8nso7rVBWI/view)。原生舊Docs保留，中轉Docs保留不算原件。
+- [x] D02-C：第14輪5份空白封存實查全部可列修訂，各僅revision 1，無上一版；逐一實讀該修訂皆只有空白，沒有可回收文字。未證明過去從未有已不可用修訂；保留原件。[Git驗收清冊](核驗清冊/694adcb_README精確補件與空白封存修訂核驗.json)已讀回一致（0ba6ccf132e4efefa6911fe998afba2b42e19e99）。
+
+### 2026-11-25｜第16輪：理惠原圖001–020首批雜湊驗收
+- I01 PARTIAL：固定63af291d3c16576774c7a183e832254952e57329，理惠001–020共20原始WEBP從Drive實際完整下載，獨立重算Git blob SHA1及SHA256，與固定Git tree SHA1與bytes逐件20/20吻合，3144452 bytes。[Git逐檔清冊](核驗清冊/63af291_理惠原圖001-020雜湊驗收.json)已讀回一致（ec5caa589c5d7583596cde30c55a52195e9aa74d），[Drive原始雜湊資料](https://drive.google.com/file/d/1R-EoqCp4PHdFVeXtAS4BvwAioq0fyRil/view)。未另下載Git二進位計算獨立SHA256，未新增視讀、未改Canon、AUTO、未刪檔。累積理惠20/197、家庭4/56、巨構8/8；剩229張未雜湊（177理惠+52家庭）。下一步固定維護清冊備份、續批原圖及缺件；全庫AUTO仍16/105前輪證據。
