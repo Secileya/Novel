@@ -41,3 +41,9 @@
 - D03 PARTIAL：固定751ef9a相對Drive原始備份3234d9e：4134→4203 blobs，69新增、6修改、0移除，75個差異。62在本回補專區，另13含根AGENTS、source-index及巨構並行研究更新。這是固定快照清冊計數，未宣稱75份已備份。後續先將已存在Drive的回補源建立Git路徑與SHA映射，再補新增／修改的未對應檔；與同步完成標記核對。main並行變更，不能強推舊樹。
 - I01–I06、M01–M05及其他ZIP尚未全量驗收；沒有新增視讀分析，未回收缺件，未刪任何ZIP，未改故事Canon或部署自動同步。本輪工具曾達單次呼叫上限及GitHub update_ref暫時性錯誤，改用逐檔提交，最終23份導航全部核驗成功。
 - 下一個最短路徑：完成新差異的映射與反向剩餘導航/維護文稿、原始備份與讀用卷分類清冊；再批次細讀家庭和理惠一般情境，按I05回收缺圖。每次進度在此追加證據，必要時將子項標記BLOCKED，不假裝全部完成。
+
+### 2026-11-25｜第03輪實作驗收
+- [x] D03-C／M01-A：AUTO 5b223ad→e6f3b21 計畫105份。最新實查只有原件與000000–000015共16份導航，沒有完成標記。沿用前8份收據，本輪重下載第9–16份並核對 Git SHA-1、SHA-256、大小，合計16/105份、676264 bytes通過；其餘89份在此AUTO批次尚未驗證，並非證明其他Drive區域皆無。收據 [Git](核驗清冊/e6f3b21_AUTO前16份原檔核驗.json)／[Drive](https://drive.google.com/file/d/1o_923BvrBWX_vHv-Cxb8esvW-cDkpZZb/view)。未改AUTO游標、觸發器。
+- [x] D03-D／Z01-B／Z02-B：固定 e6f3b21cb2f666cc58ab23495fbb2ce95a63d8bd→9d6721e08609a14205b32250ead9eba469620165（4211 blobs），17次提交的16份變更（8新增、8修改、0刪除）全部擷取，1244427原始bytes，逐份核對Git SHA1；獨立原件16/16上傳Drive並重新下載核對SHA256、Git SHA1及大小。ZIP 400343 bytes、17項（16原件+清冊）CRC通過、SHA256 056b220f581aea6712878efbc2454b3e2c43a1eca7f0aee41648aba05af1cf04，Drive重新下載一致。原始檔使用可逆序號+basename+.txt，未轉Docs。 [獨立原件](https://drive.google.com/drive/folders/1fLs9sl_DWPtTp-Gy1wRwOJEQ32B2qvFj)／[ZIP](https://drive.google.com/file/d/1wgx5HT4gW6vZCdOfiec21QWly9zXNk4h/view)／[Drive清冊](https://drive.google.com/file/d/179HaStEJ1gN-kCmY-XQIjWx5SfZRGUVo/view)／[Git清冊](核驗清冊/9d6721e_獨立原件核驗清冊.json)。
+- D03仍PARTIAL：上批e6f3b21的105份AUTO未閉環，因此本次16份增量不能宣稱全庫恢復鏈至9d6721e已完整。最新Git差異另已包含5份Drive回補（維護操作指南、Code.gs歷史完整替換版、圖像總索引TXT、舊入口、3234d9e增量接續）；此次不重建或啟用它們，不修改巨構原文。前一輪回補59份，這5份屬已出現在本次起始Git的後續回補，不算本輪新作。
+- 下一輪優先把AUTO計畫剩餘89份以原Drive來源及3234d9e既有已驗證原件的blob SHA建立對應（有證據就沿用），真正缺失者補實體檔；保留各快照歷史，不盲目重傳。新增清冊與待辦本身另列維護增量。圖片、缺件、全樹差分及Gemini仍未完成。沒有刪除任何原始檔或ZIP，未新增小說研究。

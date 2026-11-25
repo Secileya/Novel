@@ -1,0 +1,173 @@
+{
+  "base": "5b223ad0820911b48a2eeb1e970198f204683740",
+  "head": "e6f3b21cb2f666cc58ab23495fbb2ce95a63d8bd",
+  "plan_count": 105,
+  "plan_sha256": "ad7d14068bab5a7b5982371116473ba39f57d73586207e7190a48b6861bf9797",
+  "verified_count": 16,
+  "verified_bytes": 676264,
+  "remaining_not_verified_in_auto_batch": 89,
+  "auto_complete_marker_observed": false,
+  "verified_entries": [
+    {
+      "index": 0,
+      "path": "AGENTS.md",
+      "gitBlobSha": "ba2c26b4ec8e327f1ffc42649654b89493576d76",
+      "mode": "100644",
+      "bytes": 6465,
+      "sha256": "ae043fb17f1f5a75bedd114bbda62f97a25e96a206afd9611b11e8ad56f3517e",
+      "driveId": "1E5HQ71UjSR5II-xNcPHSbm5OoAqfT1jR",
+      "url": "https://drive.google.com/file/d/1E5HQ71UjSR5II-xNcPHSbm5OoAqfT1jR/view?usp=drivesdk"
+    },
+    {
+      "index": 1,
+      "path": "README.md",
+      "gitBlobSha": "344cb8591be503c6f2b5fd6193ca2cc2f1d983b7",
+      "mode": "100644",
+      "bytes": 2922,
+      "sha256": "468785916b0651a664b5e096573e3a560f205a7028d2645d27f0ffaf2a18e583",
+      "driveId": "1Q5ftq4bZZ7RVZiZ-nKuT095TBfesMbMk",
+      "url": "https://drive.google.com/file/d/1Q5ftq4bZZ7RVZiZ-nKuT095TBfesMbMk/view?usp=drivesdk"
+    },
+    {
+      "index": 2,
+      "path": "tools/google_drive_mirror/source-index.json",
+      "gitBlobSha": "14830df101b5759be9804ba245261809cf4ec858",
+      "mode": "100644",
+      "bytes": 235060,
+      "sha256": "e844dfc78723c2c6f025b3a85a0b104dad59949cb552313dd39e4ec941638f07",
+      "driveId": "1ZVXBxoqslnES-OWCARaMTPQ-5hHdhoIH",
+      "url": "https://drive.google.com/file/d/1ZVXBxoqslnES-OWCARaMTPQ-5hHdhoIH/view?usp=drivesdk"
+    },
+    {
+      "index": 3,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/README.md",
+      "gitBlobSha": "a506431cdc0473fb3bf4b494619f53b79b813caa",
+      "mode": "100644",
+      "bytes": 5400,
+      "sha256": "864088987ce5decef01b80351f79e0823c5eba68e93948ce63f1279e385332bb",
+      "driveId": "1LdGUtLjFdqkjm29qsU7Ztbiz7SoE3jVh",
+      "url": "https://drive.google.com/file/d/1LdGUtLjFdqkjm29qsU7Ztbiz7SoE3jVh/view?usp=drivesdk"
+    },
+    {
+      "index": 4,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/TODO.md",
+      "gitBlobSha": "6c4253a65e58f43ac8f1c1b5eef95325075aec73",
+      "mode": "100644",
+      "bytes": 7906,
+      "sha256": "3f40e56f805b0214b61c15c6d3ed4f33e40e2c647b875e5ddc179cfaa2b5bfdb",
+      "driveId": "1P2QXuCVjc3Q9MTPKtS2zPXD9tUrS4gSC",
+      "url": "https://drive.google.com/file/d/1P2QXuCVjc3Q9MTPKtS2zPXD9tUrS4gSC/view?usp=drivesdk"
+    },
+    {
+      "index": 5,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/原著完整性總報告.txt",
+      "gitBlobSha": "6a501ecfb7fba750799c24e216b56479c56138e9",
+      "mode": "100644",
+      "bytes": 4620,
+      "sha256": "424c4497561349276c774257d1228a5d78712f52c820c561760fc82ef048bc1e",
+      "driveId": "1Pj54dVmFsGy4tFPnRjnKmrzoKMmUKrbQ",
+      "url": "https://drive.google.com/file/d/1Pj54dVmFsGy4tFPnRjnKmrzoKMmUKrbQ/view?usp=drivesdk"
+    },
+    {
+      "index": 6,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/同步維護原件/01_全庫增量同步_安裝與驗收.txt",
+      "gitBlobSha": "cf737774bdfce4d7f7a22377626982481cf883ee",
+      "mode": "100644",
+      "bytes": 3146,
+      "sha256": "0b9784ce42e2ce858138aa3bab2573854d52a9efb76ee8c82187b9dbf30311ca",
+      "driveId": "1GSIEo_io82mTAHkTZkGPmx6i_fZ3N-wL",
+      "url": "https://drive.google.com/file/d/1GSIEo_io82mTAHkTZkGPmx6i_fZ3N-wL/view?usp=drivesdk"
+    },
+    {
+      "index": 7,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/同步維護原件/Novel_Full_Delta_Addon.txt",
+      "gitBlobSha": "a87ace07e3983541e6c7243c49bd55207d68fb70",
+      "mode": "100644",
+      "bytes": 13468,
+      "sha256": "b5b3ea65829325bf601ecbd3745997c7f2a0871c116f4d5f1fd352e8ee9fd38b",
+      "driveId": "1dDj4ZNjT6rcXSsybB8hiypwXSPoQHVsL",
+      "url": "https://drive.google.com/file/d/1dDj4ZNjT6rcXSsybB8hiypwXSPoQHVsL/view?usp=drivesdk"
+    },
+    {
+      "index": 8,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/同步維護原件/Novel_Full_Delta_test_results.txt",
+      "gitBlobSha": "ea1f2f7bfd3dfa2a3b3c9dfea0921b09765b4caf",
+      "mode": "100644",
+      "bytes": 481,
+      "sha256": "cd937801a280091338eba54e1fededcb925f2bebae336fbde6c1975f0d2e124d",
+      "driveId": "1ve9Z0CvsjijmlHRj04l-FW-QWUNK0FhY",
+      "url": "https://drive.google.com/file/d/1ve9Z0CvsjijmlHRj04l-FW-QWUNK0FhY/view"
+    },
+    {
+      "index": 9,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/同步維護原件/test_novel_full_delta.js",
+      "gitBlobSha": "e4f62d370b1c76fd038e05a458c8b64dee7c6878",
+      "mode": "100644",
+      "bytes": 7280,
+      "sha256": "e7d7d0b4af86bad85e9d9327534f330f15f7055db514af03731e196616a628a8",
+      "driveId": "1LpqTvx2SNLv3St0hMbqUwGJTrrMD81sE",
+      "url": "https://drive.google.com/file/d/1LpqTvx2SNLv3St0hMbqUwGJTrrMD81sE/view"
+    },
+    {
+      "index": 10,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/圖像/圖像總索引.json",
+      "gitBlobSha": "e99a8d30e7b15af153627f143536e19aa687e2de",
+      "mode": "100644",
+      "bytes": 76998,
+      "sha256": "19334332c87525f215eeb9b2523066134974e65e77d77b3c56f115e537eb65df",
+      "driveId": "1tmgT5GyUMA7hTl1MsVDSwm5NIAWfLkJo",
+      "url": "https://drive.google.com/file/d/1tmgT5GyUMA7hTl1MsVDSwm5NIAWfLkJo/view"
+    },
+    {
+      "index": 11,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/圖像/圖鑑V3機器索引.json",
+      "gitBlobSha": "df0afd92df202386db678df9511a942d623a3f25",
+      "mode": "100644",
+      "bytes": 160671,
+      "sha256": "bcc09374d5ba2223ac7e3dc70b8c605bf677698f8f4826f45ec464ed416920cc",
+      "driveId": "1SSVLfSRygQOmBCSXsYDlQyGwthmpkxLd",
+      "url": "https://drive.google.com/file/d/1SSVLfSRygQOmBCSXsYDlQyGwthmpkxLd/view"
+    },
+    {
+      "index": 12,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/圖像/家庭圖像作者確認索引V3.txt",
+      "gitBlobSha": "bfb7cfe261508451986183dc825442f91be6eb07",
+      "mode": "100644",
+      "bytes": 71172,
+      "sha256": "0f68d225332cf228f729ac98cbe69db1ee62bfa535081b1a6dd94200084ea009",
+      "driveId": "1UgwV6talBq3323MAe7tbT9ECjZh49s_6",
+      "url": "https://drive.google.com/file/d/1UgwV6talBq3323MAe7tbT9ECjZh49s_6/view"
+    },
+    {
+      "index": 13,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/圖像/家庭未入庫圖像文字證據導航V3.txt",
+      "gitBlobSha": "ff4238bf156c118e7f1f4f75152eca42033025ef",
+      "mode": "100644",
+      "bytes": 4604,
+      "sha256": "d3ce77eed1dd333e4b290f90046e9d061fd45d4a0a137600794d8dd37245236c",
+      "driveId": "16kiD5ChCPBMkU6HSxlvllY0iV8MbqoCh",
+      "url": "https://drive.google.com/file/d/16kiD5ChCPBMkU6HSxlvllY0iV8MbqoCh/view"
+    },
+    {
+      "index": 14,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/圖像/理惠一般情境逐圖解讀V3.txt",
+      "gitBlobSha": "bb31306c1a117aaefa1f61cde860e2e3e2fe4eef",
+      "mode": "100644",
+      "bytes": 65208,
+      "sha256": "7b0ec84c2aa6fe9bceadc87ab4e178f2f0f59930ff73ad979645fbf0f9b7dd94",
+      "driveId": "1YgxtwvdlV6ZSKxLhTyNCMxoZNA5-goYX",
+      "url": "https://drive.google.com/file/d/1YgxtwvdlV6ZSKxLhTyNCMxoZNA5-goYX/view"
+    },
+    {
+      "index": 15,
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/圖像/理惠基本表情原圖細讀V2.txt",
+      "gitBlobSha": "4cf89d1e9141ad3cea36b444636636ae10f3305d",
+      "mode": "100644",
+      "bytes": 10863,
+      "sha256": "248618a4d2f46c7d2fe37b54689a56ee92c11896664dd1271e15a79f76aa2abb",
+      "driveId": "1BLhEb7mM2Hkxzy-3U6SlWT-9gOefJE0E",
+      "url": "https://drive.google.com/file/d/1BLhEb7mM2Hkxzy-3U6SlWT-9gOefJE0E/view"
+    }
+  ],
+  "note": "前8份沿用已核驗收據；本次重新下載第9至16份並重算Git SHA-1、SHA-256，全部與_PLAN吻合。未見完成標記；其餘89份不能判定已自動完成，且可能另有已驗證來源。未改AUTO游標。"
+}
