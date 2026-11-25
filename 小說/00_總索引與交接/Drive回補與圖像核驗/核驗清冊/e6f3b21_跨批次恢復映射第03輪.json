@@ -1,0 +1,26 @@
+{
+  "base": "5b223ad0820911b48a2eeb1e970198f204683740",
+  "head": "e6f3b21cb2f666cc58ab23495fbb2ce95a63d8bd",
+  "previousCoverage": 48,
+  "verified": [
+    {
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/圖像/逐圖視覺索引V1.txt",
+      "sha": "5dcc34460fc5d8bb0d946fc0de5b76430bb61e20",
+      "bytes": 42825,
+      "driveId": "1sfQX6-7nXcqSfVuxWo78xnG6j244yST8",
+      "driveURL": "https://drive.google.com/file/d/1sfQX6-7nXcqSfVuxWo78xnG6j244yST8/view",
+      "method": "current exact readable text, fixed Git SHA and listed Drive byte count"
+    },
+    {
+      "path": "小說/00_總索引與交接/Drive回補與圖像核驗/核驗清冊/3234d9e_獨立原件核驗清冊.json",
+      "sha": "7659904ce0c54f25fbc117388c593b6fdec808b2",
+      "bytes": 25395,
+      "driveId": "1Vvd9bDHO0FIS2TucVZGWSCFXt-v1Gjg3",
+      "driveURL": "https://drive.google.com/file/d/1Vvd9bDHO0FIS2TucVZGWSCFXt-v1Gjg3/view",
+      "method": "current exact readable text, fixed Git SHA and listed Drive byte count"
+    }
+  ],
+  "coverage": 50,
+  "remainingCount": 55,
+  "note": "Full readable text equality; no fresh raw-byte rehash."
+}
