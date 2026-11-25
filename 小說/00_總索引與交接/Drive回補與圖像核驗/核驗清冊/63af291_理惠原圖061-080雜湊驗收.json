@@ -1,0 +1,230 @@
+{
+  "round": 21,
+  "head": "63af291d3c16576774c7a183e832254952e57329",
+  "method": "下載Drive現行完整原始WEBP bytes至容器，獨立計算Git blob SHA1（含blob標頭）及SHA256，與固定Git tree SHA1、bytes逐一比較。未另下載Git二進位，不稱獨立雙側SHA256。",
+  "count": 20,
+  "bytes": 10638250,
+  "rawHashDriveId": "1Mw1Sx9X3FUoS7jnyURk2_oUYFnBu7z-r",
+  "files": [
+    {
+      "name": "061_藥局.webp",
+      "bytes": 205992,
+      "gitSha": "592a69a56cfa8949c4cb7e5836127267a70fadce",
+      "sha256": "c2bffdee8f5f46d086c46553dbf4849fdeb6b6f2072ff50bde75b70e7cfdd79a",
+      "path": "小說/理惠/圖庫/原圖/061_藥局.webp",
+      "driveId": "1VlDNfQjEmXQ6zr-oOthCak2GR3Dt3hyQ",
+      "expectedGitSha": "592a69a56cfa8949c4cb7e5836127267a70fadce",
+      "expectedBytes": 205992,
+      "verified": true
+    },
+    {
+      "name": "062_超市.webp",
+      "bytes": 246524,
+      "gitSha": "8ff16c50611b168f328fae6b87e6c694008584e6",
+      "sha256": "6dfaeaef3d321bbef347175a777caffc4af86d87ddd88245215e1d13ecc10526",
+      "path": "小說/理惠/圖庫/原圖/062_超市.webp",
+      "driveId": "1aEVrTxBj1Ui8lNY0NnisqET16cTQyn5O",
+      "expectedGitSha": "8ff16c50611b168f328fae6b87e6c694008584e6",
+      "expectedBytes": 246524,
+      "verified": true
+    },
+    {
+      "name": "063_校門口.webp",
+      "bytes": 188218,
+      "gitSha": "7d37cd95194a6afed5099c919c5bc5525a69e651",
+      "sha256": "2f0cb0dfa01cc1430585852cb4e9884aa91d5694253d7023bb92e27475335f89",
+      "path": "小說/理惠/圖庫/原圖/063_校門口.webp",
+      "driveId": "1y40h6OBPTTLTP-1OrEc8rSai7mVqe7hH",
+      "expectedGitSha": "7d37cd95194a6afed5099c919c5bc5525a69e651",
+      "expectedBytes": 188218,
+      "verified": true
+    },
+    {
+      "name": "064_遇見朋友.webp",
+      "bytes": 197820,
+      "gitSha": "938a7b9ff7232f77ac5867357ddc6e258264ccd1",
+      "sha256": "376e6ac86a3f7b64c46324a9503a29c42a2353744d76fc3cc972f7db9bbdeab5",
+      "path": "小說/理惠/圖庫/原圖/064_遇見朋友.webp",
+      "driveId": "17cUaKSnmLOsW0hKH8q4ohiSVePHAPDt3",
+      "expectedGitSha": "938a7b9ff7232f77ac5867357ddc6e258264ccd1",
+      "expectedBytes": 197820,
+      "verified": true
+    },
+    {
+      "name": "065_被發現社群貼文.webp",
+      "bytes": 186630,
+      "gitSha": "1033b4240cd524f70163e72aeb1e5095be48dbe6",
+      "sha256": "ccdb7644167906dd8914d70edd87b575591679eb5738eb2044d0044a6f2ce573",
+      "path": "小說/理惠/圖庫/原圖/065_被發現社群貼文.webp",
+      "driveId": "1X5MIJ2dSZsARBauOAd_yApvWIH5iJK2t",
+      "expectedGitSha": "1033b4240cd524f70163e72aeb1e5095be48dbe6",
+      "expectedBytes": 186630,
+      "verified": true
+    },
+    {
+      "name": "066_在外面打電話給父母.webp",
+      "bytes": 176648,
+      "gitSha": "c8cbebbf4da5c413d216bfa4ed383f0efaef1c87",
+      "sha256": "d63238265c50910588af25832960f385fadb521c19cc634a59497622337d5760",
+      "path": "小說/理惠/圖庫/原圖/066_在外面打電話給父母.webp",
+      "driveId": "1RElAQK_UP-aecx91gG6xBWdhWzxPAd_F",
+      "expectedGitSha": "c8cbebbf4da5c413d216bfa4ed383f0efaef1c87",
+      "expectedBytes": 176648,
+      "verified": true
+    },
+    {
+      "name": "067_街頭爭吵.webp",
+      "bytes": 205346,
+      "gitSha": "bdcd6ef0b4101baf9f2d57906ce7528ba16ed30e",
+      "sha256": "fa19411551d4c7595716de1c8300fd8f64a0b079aa0b382b2dc8c0817b1181f3",
+      "path": "小說/理惠/圖庫/原圖/067_街頭爭吵.webp",
+      "driveId": "1xcT9CTzHwJMhTmjPCmN79ypflXPZsX-_",
+      "expectedGitSha": "bdcd6ef0b4101baf9f2d57906ce7528ba16ed30e",
+      "expectedBytes": 205346,
+      "verified": true
+    },
+    {
+      "name": "068_彷彿逃跑般走路.webp",
+      "bytes": 201058,
+      "gitSha": "84b84d7f5e379a752a89237880e96c8361f13951",
+      "sha256": "314daef4fb5fe535774108e807ecc08a9deb2ad05e48ba4c40253e9487c4dd75",
+      "path": "小說/理惠/圖庫/原圖/068_彷彿逃跑般走路.webp",
+      "driveId": "1xCsBhmTaLCNUdmDIgN0gzIJVkv99KPhM",
+      "expectedGitSha": "84b84d7f5e379a752a89237880e96c8361f13951",
+      "expectedBytes": 201058,
+      "verified": true
+    },
+    {
+      "name": "069_回頭看.webp",
+      "bytes": 189520,
+      "gitSha": "b168f22d01fb7fc56e690e18b962113c6c5bd874",
+      "sha256": "a0f54dfd1ba1d8e8e21ff423fc1f18e11c2faafdb67ccbb43c8c56c6c1259cf0",
+      "path": "小說/理惠/圖庫/原圖/069_回頭看.webp",
+      "driveId": "1krpzlZlfqGsVBfug9NqLl-nZzXbB5vqV",
+      "expectedGitSha": "b168f22d01fb7fc56e690e18b962113c6c5bd874",
+      "expectedBytes": 189520,
+      "verified": true
+    },
+    {
+      "name": "070_等待.webp",
+      "bytes": 176142,
+      "gitSha": "5ae91e44219c9f7e0ed1b0437910fe9b8650b4c1",
+      "sha256": "65dacfbe81e17d1d6327de5eacb8421fe24eb84a6213e360d16323c136f0eb37",
+      "path": "小說/理惠/圖庫/原圖/070_等待.webp",
+      "driveId": "1cIpR1MJI1INiuiiJzX1Dcmde9Op-oUrE",
+      "expectedGitSha": "5ae91e44219c9f7e0ed1b0437910fe9b8650b4c1",
+      "expectedBytes": 176142,
+      "verified": true
+    },
+    {
+      "name": "071_跟著出來.webp",
+      "bytes": 186596,
+      "gitSha": "fe31d99d7bf3c264a7b6d5316e7e7603d3f8fad7",
+      "sha256": "d886fc8b18feafac214875e40a40fc783d8f0990db1bc5ab6ff4a4dd2e141ea7",
+      "path": "小說/理惠/圖庫/原圖/071_跟著出來.webp",
+      "driveId": "181xJ-qfip3ggDAcevhpiTqdfiGqAYSsr",
+      "expectedGitSha": "fe31d99d7bf3c264a7b6d5316e7e7603d3f8fad7",
+      "expectedBytes": 186596,
+      "verified": true
+    },
+    {
+      "name": "072_帶著點心過來.webp",
+      "bytes": 183290,
+      "gitSha": "53476772d9e7ed51299b9d160c0fa0d13c99b05b",
+      "sha256": "5263dd414cdaeea46e6fd0c5ee25595c607cfbcb00ea9446e83d3631156fde0d",
+      "path": "小說/理惠/圖庫/原圖/072_帶著點心過來.webp",
+      "driveId": "1eru5NoBNJlvSBOYp1iCtrxrCuCWWVGdB",
+      "expectedGitSha": "53476772d9e7ed51299b9d160c0fa0d13c99b05b",
+      "expectedBytes": 183290,
+      "verified": true
+    },
+    {
+      "name": "073_在家門前猶豫.webp",
+      "bytes": 188080,
+      "gitSha": "ef65125bbf70be01809f558cdd719c1946ca6c6d",
+      "sha256": "eeae53ac7a6e81e1ed3797419d6d018c14ab08d21cf6f37bd6409b54f6686fa7",
+      "path": "小說/理惠/圖庫/原圖/073_在家門前猶豫.webp",
+      "driveId": "18Ob6BnWfYWRbXjP28Ai322w_FVCNkOKN",
+      "expectedGitSha": "ef65125bbf70be01809f558cdd719c1946ca6c6d",
+      "expectedBytes": 188080,
+      "verified": true
+    },
+    {
+      "name": "074_回家和好前夕.webp",
+      "bytes": 178840,
+      "gitSha": "6b72881fd6a5532f91fd8a78bc5f8ca86e2fc17c",
+      "sha256": "6140246579366d4a4c20a8516becefec04015812a173b970e93b401dd87e25d5",
+      "path": "小說/理惠/圖庫/原圖/074_回家和好前夕.webp",
+      "driveId": "1gdPURC6ZAnoIEuf8KZoey5XjLA17z0kc",
+      "expectedGitSha": "6b72881fd6a5532f91fd8a78bc5f8ca86e2fc17c",
+      "expectedBytes": 178840,
+      "verified": true
+    },
+    {
+      "name": "075_求婚.webp",
+      "bytes": 1258606,
+      "gitSha": "32b9e3bae25eb3e0f15c8987bed9acd1ef7325eb",
+      "sha256": "c35d2fef467922dc3335a57fdc550bde5a4b0b4b4ecc6b401f04053f23e0e0ac",
+      "path": "小說/理惠/圖庫/原圖/075_求婚.webp",
+      "driveId": "1T0JNPfPid6ztvhMJdJDpTFIPST9_pMXW",
+      "expectedGitSha": "32b9e3bae25eb3e0f15c8987bed9acd1ef7325eb",
+      "expectedBytes": 1258606,
+      "verified": true
+    },
+    {
+      "name": "076_結婚.webp",
+      "bytes": 1510804,
+      "gitSha": "4bc189a47c48cfeab92ba4df09ad82cc7083c34a",
+      "sha256": "728f08cc49ee3ec5ce1c33fdc6ebbacc89a75a701cdaf3766af4e391d915d4ec",
+      "path": "小說/理惠/圖庫/原圖/076_結婚.webp",
+      "driveId": "1ZBYskRtwOKvO3sgfhut62sqeO9mUDPk7",
+      "expectedGitSha": "4bc189a47c48cfeab92ba4df09ad82cc7083c34a",
+      "expectedBytes": 1510804,
+      "verified": true
+    },
+    {
+      "name": "077_懷孕.webp",
+      "bytes": 1186110,
+      "gitSha": "614c339d4abc0c22c8c093c11c6a7427d8eacd93",
+      "sha256": "d120b84a557cfa1ab5cbf04f6ec7ddcdae4e4ef1a7f9c3b865cf1d9fa440bbea",
+      "path": "小說/理惠/圖庫/原圖/077_懷孕.webp",
+      "driveId": "1jO4odBSwiDfyT2SJpbmFvC587QXGqVmU",
+      "expectedGitSha": "614c339d4abc0c22c8c093c11c6a7427d8eacd93",
+      "expectedBytes": 1186110,
+      "verified": true
+    },
+    {
+      "name": "078_育兒.webp",
+      "bytes": 1291658,
+      "gitSha": "5d150d28322bafd3ab31c57bd9876c69dd6bec6a",
+      "sha256": "800cb0a18c9c8155183deec097b0ecd4005ca12607dd1243a693bcc2a6a4a88c",
+      "path": "小說/理惠/圖庫/原圖/078_育兒.webp",
+      "driveId": "1tu2fEmgJvw7prANn0NUEwMx_r7lPZ94q",
+      "expectedGitSha": "5d150d28322bafd3ab31c57bd9876c69dd6bec6a",
+      "expectedBytes": 1291658,
+      "verified": true
+    },
+    {
+      "name": "079_咖啡廳約會.webp",
+      "bytes": 1328692,
+      "gitSha": "cc23f54a054e3b515262142ef6931182c95b5b6f",
+      "sha256": "4cd11854ae31ee511a592e1d762c3fb258864b490e9b27efc1246300d946ed4e",
+      "path": "小說/理惠/圖庫/原圖/079_咖啡廳約會.webp",
+      "driveId": "1OXtN2u5u6C3QYCtjuh9k32-XcxWX6F24",
+      "expectedGitSha": "cc23f54a054e3b515262142ef6931182c95b5b6f",
+      "expectedBytes": 1328692,
+      "verified": true
+    },
+    {
+      "name": "080_電影院約會.webp",
+      "bytes": 1351676,
+      "gitSha": "d44c0eafc795604bd4764c11c8c8831a5888b23d",
+      "sha256": "6416a8b4f2d412424bdbae5694bb526ed99cc02ab8f19545218c9f56d26bccef",
+      "path": "小說/理惠/圖庫/原圖/080_電影院約會.webp",
+      "driveId": "14Fy2kvi034MRnjIpqBbpG1x9Cn371feD",
+      "expectedGitSha": "d44c0eafc795604bd4764c11c8c8831a5888b23d",
+      "expectedBytes": 1351676,
+      "verified": true
+    }
+  ]
+}
