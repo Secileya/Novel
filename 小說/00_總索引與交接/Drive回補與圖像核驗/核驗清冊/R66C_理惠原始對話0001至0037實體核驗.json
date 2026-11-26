@@ -1,0 +1,934 @@
+{
+  "round": "R66C",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "observedMain": "9483a2cc43a054c63b3e7a61740f954feee679ef",
+  "locatorBlob": "e83238f8b4061900b6d5a3fcc024061fb2f9a0d3",
+  "method": "Raw current Drive files individually downloaded by fixed R60B IDs, SHA256 and byte size compared with R60B and fixed MANIFEST. Reconstruct sources completed in this batch by source offsets, using locally retained previously verified pieces only when needed; no re-download or double counting. No ZIP revalidation.",
+  "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+  "range": [
+    1,
+    37
+  ],
+  "count": 37,
+  "bytes": 7710740,
+  "reconstructedCount": 78,
+  "reconstructedBytes": 7689816,
+  "rows": [
+    {
+      "path": "理惠/原始對話/VOL_0001.txt",
+      "id": "1DeQwhCVQkxCwVeajbuiAUyYFDsAtuZQt",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 203013,
+      "mime": "text/plain",
+      "expectedBytes": 203013,
+      "expectedSha256": "85db922a531eea22c2cb03cc16b06c1b9b1b8691822eca354c2c9451987fdbc4",
+      "actualBytes": 203013,
+      "actualSha256": "85db922a531eea22c2cb03cc16b06c1b9b1b8691822eca354c2c9451987fdbc4",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0002.txt",
+      "id": "19mSSBOZkBr4fbtrhbBRdZfV7y2ge2hSZ",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 213351,
+      "mime": "text/plain",
+      "expectedBytes": 213351,
+      "expectedSha256": "03572a1f83a9a5de8cc07859886ac1701739868208db4d0af7cd3888d61f6f34",
+      "actualBytes": 213351,
+      "actualSha256": "03572a1f83a9a5de8cc07859886ac1701739868208db4d0af7cd3888d61f6f34",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0003.txt",
+      "id": "1J9UYWT_36OvheRwF5YGC9kHnKOTiPfrO",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 222057,
+      "mime": "text/plain",
+      "expectedBytes": 222057,
+      "expectedSha256": "0a0a589551d25776996cb5a753a86ff8b03e20ea676db02aded02645c1e077b7",
+      "actualBytes": 222057,
+      "actualSha256": "0a0a589551d25776996cb5a753a86ff8b03e20ea676db02aded02645c1e077b7",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0004.txt",
+      "id": "1KcsHPvbWZaMddSEakw_fV_1LHgPOcq73",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 194869,
+      "mime": "text/plain",
+      "expectedBytes": 194869,
+      "expectedSha256": "457118532e39fcc8891271178dee93876671dcbea04a59e63d3470caca03e5ec",
+      "actualBytes": 194869,
+      "actualSha256": "457118532e39fcc8891271178dee93876671dcbea04a59e63d3470caca03e5ec",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0005.txt",
+      "id": "14eu04MpMAdxWkQFfty97_SWLL4nVbt84",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 197706,
+      "mime": "text/plain",
+      "expectedBytes": 197706,
+      "expectedSha256": "5bcee815a39f7229b60731bf97ef36629274523feec9c44f09e5fac15f253873",
+      "actualBytes": 197706,
+      "actualSha256": "5bcee815a39f7229b60731bf97ef36629274523feec9c44f09e5fac15f253873",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0006.txt",
+      "id": "1U9ysZnko3cy74xM4l0zi9Vp8J9nIIBMa",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 188946,
+      "mime": "text/plain",
+      "expectedBytes": 188946,
+      "expectedSha256": "f6c6b685d8b4b42781936cc32dd24620fee52505efe66848843ca53a1aebde53",
+      "actualBytes": 188946,
+      "actualSha256": "f6c6b685d8b4b42781936cc32dd24620fee52505efe66848843ca53a1aebde53",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0007.txt",
+      "id": "15auWg-fqLDdN7YU_veTA2lDow-UcI4XX",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 220875,
+      "mime": "text/plain",
+      "expectedBytes": 220875,
+      "expectedSha256": "aeb6be6f295768f435c8ce3666572f132f1d9478eb7a1e62c4e5d1199cb1820e",
+      "actualBytes": 220875,
+      "actualSha256": "aeb6be6f295768f435c8ce3666572f132f1d9478eb7a1e62c4e5d1199cb1820e",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0008.txt",
+      "id": "1Iw_Oj2I078ojwplpOAj26rHu__wRPfU_",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 199405,
+      "mime": "text/plain",
+      "expectedBytes": 199405,
+      "expectedSha256": "a5f7527819e0a9ee2a22deafb7732326ef5e45525bebfc4d58023be956c7a8db",
+      "actualBytes": 199405,
+      "actualSha256": "a5f7527819e0a9ee2a22deafb7732326ef5e45525bebfc4d58023be956c7a8db",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0009.txt",
+      "id": "1ZkDvYFSpNNZcvSIgzl0Fxi1alc3wBhm4",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 215909,
+      "mime": "text/plain",
+      "expectedBytes": 215909,
+      "expectedSha256": "a74030ac2c03b7d88d1916e936b406f5564665284d607290afc044bbe20a8226",
+      "actualBytes": 215909,
+      "actualSha256": "a74030ac2c03b7d88d1916e936b406f5564665284d607290afc044bbe20a8226",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0010.txt",
+      "id": "1AS3orSmE0LeStElC4zYH3LG5NPqz6DiQ",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 213426,
+      "mime": "text/plain",
+      "expectedBytes": 213426,
+      "expectedSha256": "6a1c30a3bbdbea1035c7c4ce53e609c2846a769d70987845411db213edc7cf52",
+      "actualBytes": 213426,
+      "actualSha256": "6a1c30a3bbdbea1035c7c4ce53e609c2846a769d70987845411db213edc7cf52",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0011.txt",
+      "id": "1HLGZEXP7bOppx_Ed3-eI7hrb9ZxQtMjN",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 237199,
+      "mime": "text/plain",
+      "expectedBytes": 237199,
+      "expectedSha256": "37297993938b2a457fe78b2087dd108e6f2377143e753031acb176ec38fdd1d9",
+      "actualBytes": 237199,
+      "actualSha256": "37297993938b2a457fe78b2087dd108e6f2377143e753031acb176ec38fdd1d9",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0012.txt",
+      "id": "1-iVzFch385-xC4ILxkNYhC9M7kaNoMTW",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 236963,
+      "mime": "text/plain",
+      "expectedBytes": 236963,
+      "expectedSha256": "d5d3cc97d9a761f9b61c2d796337daf2a11506a44083c76dbc0da8bf3c6acda5",
+      "actualBytes": 236963,
+      "actualSha256": "d5d3cc97d9a761f9b61c2d796337daf2a11506a44083c76dbc0da8bf3c6acda5",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0013.txt",
+      "id": "1dKbReoWWXxQtuk0AFuLeDDgu1q7xJHdc",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 237195,
+      "mime": "text/plain",
+      "expectedBytes": 237195,
+      "expectedSha256": "8c0d73b2ed86013089d934b3bf2bae1d9b01a74edfe467b13a82108f3c77fe87",
+      "actualBytes": 237195,
+      "actualSha256": "8c0d73b2ed86013089d934b3bf2bae1d9b01a74edfe467b13a82108f3c77fe87",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0014.txt",
+      "id": "1BAJ-QLgvWFNah3-7uhnUleazO5iy51x-",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 237162,
+      "mime": "text/plain",
+      "expectedBytes": 237162,
+      "expectedSha256": "c9b80572c1d72caae8d4a387f1c92f4154caf1ae61358e049f8ffbd701ccbeed",
+      "actualBytes": 237162,
+      "actualSha256": "c9b80572c1d72caae8d4a387f1c92f4154caf1ae61358e049f8ffbd701ccbeed",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0015.txt",
+      "id": "1k3Ofe-zdFy1-r0E_Pdn9d9_jAj46VlbJ",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 237205,
+      "mime": "text/plain",
+      "expectedBytes": 237205,
+      "expectedSha256": "f4a74af4248222339848d4ea62deade6e8f4af35b6d66f2fb970f339c96b3ce8",
+      "actualBytes": 237205,
+      "actualSha256": "f4a74af4248222339848d4ea62deade6e8f4af35b6d66f2fb970f339c96b3ce8",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0016.txt",
+      "id": "1voPGVJ9TrAMJjMqRul6J0PjveVdKIsK3",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 237110,
+      "mime": "text/plain",
+      "expectedBytes": 237110,
+      "expectedSha256": "ae6bad7b53698866c5890b09f9d858910a900ac473fb1c4428eb363bf3c660af",
+      "actualBytes": 237110,
+      "actualSha256": "ae6bad7b53698866c5890b09f9d858910a900ac473fb1c4428eb363bf3c660af",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0017.txt",
+      "id": "107lBCetNCVtlVAQ7Au6Uju5ZPESowDe3",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 237183,
+      "mime": "text/plain",
+      "expectedBytes": 237183,
+      "expectedSha256": "e62873b9b742abb2cee5652941b0880432494621c8753e52e117f00fba0bc8eb",
+      "actualBytes": 237183,
+      "actualSha256": "e62873b9b742abb2cee5652941b0880432494621c8753e52e117f00fba0bc8eb",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0018.txt",
+      "id": "1mn6zwrypMKFJ4Q2ms7Wzq7fDR3cEj4RD",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 59950,
+      "mime": "text/plain",
+      "expectedBytes": 59950,
+      "expectedSha256": "247263df447940f4445388bf1c40edcfa3f50e69f1faea68af37a0c105f8c670",
+      "actualBytes": 59950,
+      "actualSha256": "247263df447940f4445388bf1c40edcfa3f50e69f1faea68af37a0c105f8c670",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0019.txt",
+      "id": "10PY2ZpNhcrAppyFHZoQfn2gH-twdWQmS",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 236725,
+      "mime": "text/plain",
+      "expectedBytes": 236725,
+      "expectedSha256": "6fd355d2754b9da5b442fd41ab956d138533114f07e47d6945958a223b8c10f3",
+      "actualBytes": 236725,
+      "actualSha256": "6fd355d2754b9da5b442fd41ab956d138533114f07e47d6945958a223b8c10f3",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0020.txt",
+      "id": "1CvCdn_u4x00dRwJAksoXcUYXv0iz8ozj",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 235837,
+      "mime": "text/plain",
+      "expectedBytes": 235837,
+      "expectedSha256": "ab1ac00d0b6d9f28ea8a9269165d9a7f4d2616aa6e2d57a3664b1077df4d28c2",
+      "actualBytes": 235837,
+      "actualSha256": "ab1ac00d0b6d9f28ea8a9269165d9a7f4d2616aa6e2d57a3664b1077df4d28c2",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0021.txt",
+      "id": "1768MGEFWALRhquV_PzCKHCga9PDjsgQ_",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 233424,
+      "mime": "text/plain",
+      "expectedBytes": 233424,
+      "expectedSha256": "1571d734bcccc4682a159c2477c771bbe88a13fb5c1bfcbd949741e3a4fdb67d",
+      "actualBytes": 233424,
+      "actualSha256": "1571d734bcccc4682a159c2477c771bbe88a13fb5c1bfcbd949741e3a4fdb67d",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0022.txt",
+      "id": "1pNKKYUMkyk-_tw5OYO2l7zpWYPdOj-H6",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 236630,
+      "mime": "text/plain",
+      "expectedBytes": 236630,
+      "expectedSha256": "0b84f49ec38ff28ba698e5f86f05ded09fd87e77956b9b60a32e84bafd84b5dd",
+      "actualBytes": 236630,
+      "actualSha256": "0b84f49ec38ff28ba698e5f86f05ded09fd87e77956b9b60a32e84bafd84b5dd",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0023.txt",
+      "id": "1y42Uhtu2zrzQaHMq7wt6dJGMeGgeUaKC",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 237188,
+      "mime": "text/plain",
+      "expectedBytes": 237188,
+      "expectedSha256": "04a2d1224bf2ad9781b50ba454ada7045603a3fb8e40f46b557055e76e625663",
+      "actualBytes": 237188,
+      "actualSha256": "04a2d1224bf2ad9781b50ba454ada7045603a3fb8e40f46b557055e76e625663",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0024.txt",
+      "id": "1ZO0t3pjR5DIDFLMO3Jj9G1g2cSPpFdVo",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 235895,
+      "mime": "text/plain",
+      "expectedBytes": 235895,
+      "expectedSha256": "49a5d35ee910f8d9f1032d4886b2deb77c5f478bb2acea140de796e15bc68fec",
+      "actualBytes": 235895,
+      "actualSha256": "49a5d35ee910f8d9f1032d4886b2deb77c5f478bb2acea140de796e15bc68fec",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0025.txt",
+      "id": "1NyqtM9WNri0UaEipXhqcxdE0rFSDxlLT",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 230411,
+      "mime": "text/plain",
+      "expectedBytes": 230411,
+      "expectedSha256": "62cafb07bf61dd76fa70ef1f6a97bfbe325419bf0931d6a81150c845607c109d",
+      "actualBytes": 230411,
+      "actualSha256": "62cafb07bf61dd76fa70ef1f6a97bfbe325419bf0931d6a81150c845607c109d",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0026.txt",
+      "id": "1-Rf29HE-aHcl6aJ1P9pGtZdBDCcKD8Qz",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 230021,
+      "mime": "text/plain",
+      "expectedBytes": 230021,
+      "expectedSha256": "05c6f43d2a3b367451dc9bbc10d99bd421cd6ef3015ecd31f9e3e1f00f0056c9",
+      "actualBytes": 230021,
+      "actualSha256": "05c6f43d2a3b367451dc9bbc10d99bd421cd6ef3015ecd31f9e3e1f00f0056c9",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0027.txt",
+      "id": "1VD5D-qnAF7Q5qfiVoOyBzX6r_CGnOzN1",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 219513,
+      "mime": "text/plain",
+      "expectedBytes": 219513,
+      "expectedSha256": "ea20700637cbe2effb9da999c5b009184a9b05611e22ff63ed5588061b842e72",
+      "actualBytes": 219513,
+      "actualSha256": "ea20700637cbe2effb9da999c5b009184a9b05611e22ff63ed5588061b842e72",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0028.txt",
+      "id": "19wY8PIwxZ3PtLMb7cBo79tVs1n7Gbg6H",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 163945,
+      "mime": "text/plain",
+      "expectedBytes": 163945,
+      "expectedSha256": "44fdfcc8934a2b8ea02b16385e2687ede58dbf7dc3e6bbe0d0a8db17a96df61b",
+      "actualBytes": 163945,
+      "actualSha256": "44fdfcc8934a2b8ea02b16385e2687ede58dbf7dc3e6bbe0d0a8db17a96df61b",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0029.txt",
+      "id": "1KeupimsfzhXuNV4o6HICSbyEZfwwLPDU",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 136353,
+      "mime": "text/plain",
+      "expectedBytes": 136353,
+      "expectedSha256": "74810027fbb103acd6ce21db894745ff14b48681d5c0467c045cfd3027438668",
+      "actualBytes": 136353,
+      "actualSha256": "74810027fbb103acd6ce21db894745ff14b48681d5c0467c045cfd3027438668",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0030.txt",
+      "id": "15fg5laG0wqcHA3Y99HHXGTCxulq6kD9N",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 236760,
+      "mime": "text/plain",
+      "expectedBytes": 236760,
+      "expectedSha256": "e404228bec9d9678694821f0ef70d210484a5b77640c6c405a33f40125721787",
+      "actualBytes": 236760,
+      "actualSha256": "e404228bec9d9678694821f0ef70d210484a5b77640c6c405a33f40125721787",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0031.txt",
+      "id": "1M-2nWKOLd5yxjwl_IKRjVf3tfHU9iyHR",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 193472,
+      "mime": "text/plain",
+      "expectedBytes": 193472,
+      "expectedSha256": "d4cccd008927e829c81f35beb40980712768ca19894591b3ce5e1a049fb1b091",
+      "actualBytes": 193472,
+      "actualSha256": "d4cccd008927e829c81f35beb40980712768ca19894591b3ce5e1a049fb1b091",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0032.txt",
+      "id": "1lHh88yrQtzzvsiWXNOsCqf8aczNxzikw",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 192358,
+      "mime": "text/plain",
+      "expectedBytes": 192358,
+      "expectedSha256": "8d747625cf7086ae365dd5f90940a0f25bcb9cf5df9b294e5f321c2792195a85",
+      "actualBytes": 192358,
+      "actualSha256": "8d747625cf7086ae365dd5f90940a0f25bcb9cf5df9b294e5f321c2792195a85",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0033.txt",
+      "id": "1hu0cRSVFYjwa4szDPK_LBG_n5xkbFS-A",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 201798,
+      "mime": "text/plain",
+      "expectedBytes": 201798,
+      "expectedSha256": "5298f9ef61091470bd0971b676b46444ab92200024d74abc069221d82b6e1433",
+      "actualBytes": 201798,
+      "actualSha256": "5298f9ef61091470bd0971b676b46444ab92200024d74abc069221d82b6e1433",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0034.txt",
+      "id": "1cgpc6RClqIvSG9_Kgu6lviMnETiLzw63",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 167962,
+      "mime": "text/plain",
+      "expectedBytes": 167962,
+      "expectedSha256": "b7d15267db21bc1f6ab908b8ccded6e1085bae6bcd151184e414604b54e5b2a6",
+      "actualBytes": 167962,
+      "actualSha256": "b7d15267db21bc1f6ab908b8ccded6e1085bae6bcd151184e414604b54e5b2a6",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0035.txt",
+      "id": "1Z-S-pn03vw_HJCBpAZOm724hxZmsIOuY",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 158315,
+      "mime": "text/plain",
+      "expectedBytes": 158315,
+      "expectedSha256": "d9d81e4fd8b853f6a28ef84e9dfe6f4aafd825530a17cceb3c2a22fea2472849",
+      "actualBytes": 158315,
+      "actualSha256": "d9d81e4fd8b853f6a28ef84e9dfe6f4aafd825530a17cceb3c2a22fea2472849",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0036.txt",
+      "id": "1ZheTtlLTJkeah7WJHxafAnqpWUnfTSiS",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 218262,
+      "mime": "text/plain",
+      "expectedBytes": 218262,
+      "expectedSha256": "87fd895607d517f74126c839c164dc17357544d72680164b4065a71df47cb6f2",
+      "actualBytes": 218262,
+      "actualSha256": "87fd895607d517f74126c839c164dc17357544d72680164b4065a71df47cb6f2",
+      "status": "PASS"
+    },
+    {
+      "path": "理惠/原始對話/VOL_0037.txt",
+      "id": "1GqljrchtPgtrp1eYX0B5bd02RUjcyL0_",
+      "folderId": "1R4GKmqeDC6IYMnt3m_06rbHrOKrRtCXk",
+      "bytes": 156347,
+      "mime": "text/plain",
+      "expectedBytes": 156347,
+      "expectedSha256": "000e19bcb5dbd770d5fd8e956901d39e6c8d7908cdff85c89c66581518fca4e8",
+      "actualBytes": 156347,
+      "actualSha256": "000e19bcb5dbd770d5fd8e956901d39e6c8d7908cdff85c89c66581518fca4e8",
+      "status": "PASS"
+    }
+  ],
+  "reconstructed": [
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/分批原文/批次_0001.json",
+      "bytes": 23860,
+      "gitBlobSha1": "fe20ffbbad422c29210c8d8c35c0f4a6ab3f2393",
+      "sha256": "17e13c4ca20d9bd63f02080eb55ca8ab60975e78cf9bbf6937ec7f1480387a23"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0001.json",
+      "bytes": 21374,
+      "gitBlobSha1": "524da612bccc97c8aa214b99b4dd9a797ed18fbf",
+      "sha256": "46980b299aa1cd67dcfeef60ca0a43e59c7fd9f4ceea259726b9cfd3ac3b3d90"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0002.json",
+      "bytes": 21694,
+      "gitBlobSha1": "30e9192551e2da08e25bb34980bb5818edba4520",
+      "sha256": "a14832c124a5537640ec6ef834466461014fbcace48f929d1c508e5539d39e90"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0003.json",
+      "bytes": 42139,
+      "gitBlobSha1": "262b8bdf4325267c7ee12330f48ef3e347103044",
+      "sha256": "45f150de45455318294afb775be2c865fac4d15c7df789cf3823b8ae2babce2a"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0004.json",
+      "bytes": 6495,
+      "gitBlobSha1": "bb1d8e1fb17eedf0389f74894254c802123c5a79",
+      "sha256": "005e674f5cab1c4288a21ad985de02de91149167ac8635db92934ace196e93c5"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0005.json",
+      "bytes": 42258,
+      "gitBlobSha1": "b8e6892b64fb89a77a9a4ea8f35771a934ff5dad",
+      "sha256": "343c4a4fa7d473ac8ffbdff51eace39c45ea15b254840c67fe3df260709998d2"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0006.json",
+      "bytes": 43605,
+      "gitBlobSha1": "217bc6a77b45e09c0b7b1db31b425f112e874298",
+      "sha256": "8f7e9c6709103a193787ee2a2f0833f8dce65692dcfdaaa7b78243e063b32770"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0007.json",
+      "bytes": 42811,
+      "gitBlobSha1": "8042ffecb7c75d53d8c69642d2e8c948f4033e2a",
+      "sha256": "07a5396a9749c0a32adacc7a2c3e1b48760f3b00c6028780932ab6f78ce09905"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0008.json",
+      "bytes": 43914,
+      "gitBlobSha1": "524bd92cdc3d5a83605b64d42025b700f301985d",
+      "sha256": "c9f300f4aad0f48f256e5d4b2c2d70fe131c0f822b4192dc7a2465d55d2a1ae7"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0009.json",
+      "bytes": 40952,
+      "gitBlobSha1": "1b7ae4fd63906a2fceb85535cc36da413931f818",
+      "sha256": "d4ab81f787a25ad9fee61c73260491346ad342a6961b4b21571cf9b47e66cad1"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0010.json",
+      "bytes": 40694,
+      "gitBlobSha1": "fd7c97a0bad64f90bdb40d7ccdd264a70b6e7eaf",
+      "sha256": "b25abbfbe184cb95bbb78cacbaee036a62db92cb8b6cee1a395bd63ba5670977"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0011.json",
+      "bytes": 43840,
+      "gitBlobSha1": "f22a5c758c26735727d0dfc70545a14d33530ff5",
+      "sha256": "8c1a9c61ebc6fd1619124ed0f4aea3904b6e3519b9130e49f71b534e23a58021"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0012.json",
+      "bytes": 33788,
+      "gitBlobSha1": "f10b0964d52231d6303ab68d6da0da40708b34ed",
+      "sha256": "5e25a5cfd2d9d62d285b9ae367f860e3068213b8277c89d1566c3fd9f09cc1f2"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0013.json",
+      "bytes": 32878,
+      "gitBlobSha1": "5bddd4a123b641db6179b035466c3e86d7c4c6af",
+      "sha256": "f58d2261a233b52c6a2fb0bdf27f213a3825d81510c1d98ff4a577e1a58ccad8"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0014.json",
+      "bytes": 41859,
+      "gitBlobSha1": "03c80d716aed808c7ba7270dbc13166c5d4db9b1",
+      "sha256": "905fd2a9935b049ec686ee27840faa8a06b71665f1b931bde9a8f2908236c72d"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0015.json",
+      "bytes": 45116,
+      "gitBlobSha1": "f78358fd50b694f47b47afa8b952e4f2189e5f9d",
+      "sha256": "5a5131723557ca4e528bbf3b64f85dbd161990aa2798de16148faac4f9b0f29d"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0016.json",
+      "bytes": 67276,
+      "gitBlobSha1": "564478ce054de2ff8e9015103b2f7f46e05f6922",
+      "sha256": "b72cdb26610e2d3194fea6b25d2ec6459cbbaa7131d21589e22fe993faff7f2b"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0017.json",
+      "bytes": 64897,
+      "gitBlobSha1": "15814f59ad00d9363b1f61f7d53ef55f6928d562",
+      "sha256": "d46b79aadf214b2b22d110e946579690c256649863732e6d6950e41cec2f8173"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0018.json",
+      "bytes": 42463,
+      "gitBlobSha1": "340bc415e0a0e5a3e71b6937af32963dc15d6567",
+      "sha256": "21b76fb8bc7a5a8b2ebe589fca39f849b31039279520c75cb8cc59bdc4ab5864"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0019.json",
+      "bytes": 44039,
+      "gitBlobSha1": "149c4576d77136b0aac846c92a7be9be9d0d6182",
+      "sha256": "5c7e6e0d6e6068ccbf1abed16a7175e24a071f3d34087cc7092cade86273b6d6"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0020.json",
+      "bytes": 42558,
+      "gitBlobSha1": "623f3a7b4f8ceb4b278dc258512a60795eb41964",
+      "sha256": "90c4127ab6f70076429ac3753b348f483c6575cb2885922536e7dd0741a7c22f"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0021.json",
+      "bytes": 57883,
+      "gitBlobSha1": "238b979411b8f534af0ae70bf58be2115c7e31ee",
+      "sha256": "04d2073ce02b35ef65f8ae602427b0f3229bdd1e2a36e1725c0c24fb5cf228f7"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0022.json",
+      "bytes": 56068,
+      "gitBlobSha1": "34de4037db411ce99db95531df4ac75bf02853dc",
+      "sha256": "3430a6310250d9e7cf45b4db1d49b445bdcc9bfde93224d0a14646f7cc066ad9"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0023.json",
+      "bytes": 25939,
+      "gitBlobSha1": "49931df369602fe57c2d379d9b6fa1fd2d3fa89e",
+      "sha256": "b3f9b024ec99fc9cc89231a04df08d85f19bcf5f06d0786321fd2ce87ebac437"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0024.json",
+      "bytes": 56904,
+      "gitBlobSha1": "8064347d4a97672843c6ac78b1e3e3c25a438444",
+      "sha256": "f57c7f34a744d73f94d3b5d81a7ded0c1e745941a388665e5214641502b94e4e"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0025.json",
+      "bytes": 56289,
+      "gitBlobSha1": "94bba3fd327b9e8c64c60d95f4ad0c44ec7c0760",
+      "sha256": "1098b89cfd94cf4a2eeea8fdb843713c632f578598483dbb57f870e24f2f04d7"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0026.json",
+      "bytes": 11197,
+      "gitBlobSha1": "1592e8342e3840041e7605ad71e61807efbec2d0",
+      "sha256": "7d97e81eb7e766a6dbdfeef358fd62e7bae561fdaf619ce06c0c55885b5453f8"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0027.json",
+      "bytes": 51624,
+      "gitBlobSha1": "9275acb78c48f8c3ebe91a6bc42e3dfa18aabfba",
+      "sha256": "b3066a48994fffba3f5e84e67a2de19484de0f5e2e8f1dc951f6aa237062a831"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0028.json",
+      "bytes": 51830,
+      "gitBlobSha1": "43f9e3c931a3f7c58b3aa9f734f8d041d202d80c",
+      "sha256": "12ed329b3e84fc47ed87fe11a3fe0865dc6b9074b7681a665eb2c8ada625553c"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0029.json",
+      "bytes": 16866,
+      "gitBlobSha1": "40c874c1fec27b5491af374ae348fc9da3169b1b",
+      "sha256": "db75058d3c00f4421e2934081e700791270bd36bf6f73be29b8dd043644db6a9"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0030.json",
+      "bytes": 57763,
+      "gitBlobSha1": "f58eac3a2d67f3d51a6afff810b32d44ee6c658f",
+      "sha256": "f70d905ce16039d6c5dbadf7ec06b447db2375ba0339e8fb40846b603a5ab490"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0031.json",
+      "bytes": 63589,
+      "gitBlobSha1": "e0ef4f6d7be6061acdf613c7142e8ad1e727450c",
+      "sha256": "aa8771666d1ee00cb3f4de4726174d1e2d75f2fe139fed8fb14ba1c401a5cab9"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0032.json",
+      "bytes": 49742,
+      "gitBlobSha1": "8618333555c9605736680e51a41c3e1f0a847439",
+      "sha256": "843ce1cd97b8728cfd939d5ced4d66ef6149f3528aa1ec70cacb220861eedec4"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0033.json",
+      "bytes": 48869,
+      "gitBlobSha1": "49064a01460afb534d8c02d4a6c568f4037ddc4f",
+      "sha256": "d282c62a8bee0645959272b793251372cd1e142dae12dc4ed470010606b14394"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0034.json",
+      "bytes": 30351,
+      "gitBlobSha1": "3579f8a03ec01575ed40e7af5460d65658630737",
+      "sha256": "44760f7fc1a8d97a920deecaa9fa612925460bed02bda0d3dc60011a030edeb3"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0035.json",
+      "bytes": 49382,
+      "gitBlobSha1": "89dfba716fa3c713d6bd8405afdfc8883f3dc904",
+      "sha256": "673c9287ebdb843ffee772d81ee629dc7660d013b999a80b3d8922b6d81b4702"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0036.json",
+      "bytes": 52431,
+      "gitBlobSha1": "589f1b4107941e85819cf29f078af7bcac1eb3ca",
+      "sha256": "21fe1739fb51193d1c2c6e9ca7f32c54c1532e4ed8068a8cce96d9e0c2916738"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0037.json",
+      "bytes": 66329,
+      "gitBlobSha1": "879f5d7f6c124a285456f6005a5fa5ac4b5fbf3f",
+      "sha256": "f1ec61da31cb4e07f16ef11e113b993ecd899659455727ec8cb5ba814f444ecc"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0038.json",
+      "bytes": 58756,
+      "gitBlobSha1": "cb039e30a728693c35acd89036766ddd601b870a",
+      "sha256": "bb62abc2697eaf3cf7f2ed16610b3a6c79c21f417438e1ec4968af8474e6fb83"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0039.json",
+      "bytes": 65323,
+      "gitBlobSha1": "ddb93b6c83fa0217ffb68112896124caf1218f74",
+      "sha256": "afe391de7c9367e3ec404abfce2b14c19845898a0657e9ee1d3d7da1579c3874"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0040.json",
+      "bytes": 40467,
+      "gitBlobSha1": "e98c79d8ad500a4f5a8387889f9dba61c00adbd0",
+      "sha256": "bc3e11147a473215903d17c9942c1a1e518608155bb50e32de3ca7665c383c2c"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0041.json",
+      "bytes": 50451,
+      "gitBlobSha1": "0386a652982a9fd0c8afe788c915f45799894739",
+      "sha256": "0524b4b8bf78d84a6b2dd8420d237b4195b772ca22f714757fad6244c2519b06"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0042.json",
+      "bytes": 96041,
+      "gitBlobSha1": "d61dab8c45eba4ccdace47cc75dd95ca09fc129b",
+      "sha256": "7b92d51b6c763c54523c39187520ef0f88572bacafa57c27081c3d9f527d164b"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0043.json",
+      "bytes": 25839,
+      "gitBlobSha1": "7fce22f1c2bbdddba244c81c4de3890ff3ac5a2c",
+      "sha256": "a6c4a47be7629f03c1bb9d3c24419cf4de6cb800fddae10df4863447262c64dd"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0044.json",
+      "bytes": 60237,
+      "gitBlobSha1": "e454dbd940422ba2e0e20332eb4ed49357c6a9ae",
+      "sha256": "1fb62f54aa56ac1ec8954934fd1020288ba903976a14f66e28fd07f9902f4328"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0045.json",
+      "bytes": 26209,
+      "gitBlobSha1": "c9c6a66c0b49e0e86419cc940d7f01cc5ccf45a8",
+      "sha256": "81a8c4e808b3ace8cf38a098cb815ef6b022e79d89c65a9883d57fee293502aa"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整原文批次/批次_0046.json",
+      "bytes": 3962,
+      "gitBlobSha1": "da0bf28e628ea16ab3b794ba2b6d4ee3c349dd42",
+      "sha256": "d842cfb5f7c1c0869d6fbaa5631f0f5036f75247b6ace269e47391c88cc3d965"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/完整對話文字.md",
+      "bytes": 1684084,
+      "gitBlobSha1": "de211a72a4203c4e8b895d8d28aaccd4f738a780",
+      "sha256": "9687544dc0f2247c6ae7dfad80ff496a5ed47944db8df9529ff9732ca1c9cf1a"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/最近取得的對話文字.md",
+      "bytes": 6256,
+      "gitBlobSha1": "69730fe16a8c7f9ec5ce4c9517d934d812d4709f",
+      "sha256": "aa97179b0598e3a0f40f9bc973e15d000a07692595cc29dc1b52df55b503e29b"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/最近取得的對話資料.json",
+      "bytes": 27403,
+      "gitBlobSha1": "900376e6de24495452fbf902b9a704362a58f2e8",
+      "sha256": "6f2a8971c057256457383aa0afb7c0031f9da848522ab2463fc6087b351c19f4"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/逐則原始訊息.json",
+      "bytes": 2017509,
+      "gitBlobSha1": "01f7af92317c83302736b1b8befd45a6696e0355",
+      "sha256": "97208a0b4107f142d78716bce61f659a6dbde72d95b5cde49e32b86ff86f5ee4"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/000_024_原文.md",
+      "bytes": 40167,
+      "gitBlobSha1": "2fc0debe3da6e172183e000792c99438ae1a0c19",
+      "sha256": "9f2a417d0c21ef970263461a414f55da672d1368ae6bbf1fc0d85d503f8a8d44"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/025_049_原文.md",
+      "bytes": 35502,
+      "gitBlobSha1": "55b470b99c2c6ba483967756bed0e47af692eab5",
+      "sha256": "3240d08d91973d8e49bf9243ae6497aec4d45c18338940fe2d53de2ed278c20d"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/050_074_原文.md",
+      "bytes": 47401,
+      "gitBlobSha1": "1cdd1b0e358055ac41f0fe47290e22e321e25b63",
+      "sha256": "0c48613abff696b75e863914edfdb1d0df58ffec14ffedcc5358f9152ae5bbe6"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/075_099_原文.md",
+      "bytes": 60413,
+      "gitBlobSha1": "50519d0a72e2f132b3430c4bfe05ae3cd8715d9f",
+      "sha256": "ca51c1f6a28e7682a3d4f3403204188e0bd5c91a986532c043d1f2fa7c12e682"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/100_124_原文.md",
+      "bytes": 55462,
+      "gitBlobSha1": "e062662b8613a5a436844709264e35abceab1c66",
+      "sha256": "dec545a5cd122a750c626dcb75cd72092ba3fc18ba7745390b561da52fb0b7d3"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/125_149_原文.md",
+      "bytes": 136128,
+      "gitBlobSha1": "54d0d4e34087cf96a56dc3e37ce19655a8a8c5ca",
+      "sha256": "f46ce349e53f70f22ce03df7c1576329a29c8edc8716d4c55931846b07986a76"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/150_174_原文.md",
+      "bytes": 108136,
+      "gitBlobSha1": "8235655bfdcbceac27b58bc1b80a6f6e55787664",
+      "sha256": "8d28e27897de6cd0a5eb1ea4839bb09b8dcd3cb5ef2d4bbe679350916a552367"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/175_199_原文.md",
+      "bytes": 128174,
+      "gitBlobSha1": "714c1beda1610eae0a138e637dd0c4e85af3de6c",
+      "sha256": "5933e124f48ce2b705f0dcf031187dcb2079806a55a838b703723b1224cfe902"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/200_224_原文.md",
+      "bytes": 115084,
+      "gitBlobSha1": "f94bd0cde47d61592bc0dce421a78021ad671ffc",
+      "sha256": "269048cf4cbc7c6a8c9f844862c88951dc737795ed3aa93d3902b00ea630715a"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/225_249_原文.md",
+      "bytes": 77940,
+      "gitBlobSha1": "f6ebf9bfddaf162197c73024202382b62fd2de0f",
+      "sha256": "9d32de0a219ab6357b8d3245067d24bfe373b716125cf7627f8e3ef1aa6ebdcd"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/250_274_原文.md",
+      "bytes": 64848,
+      "gitBlobSha1": "f6fa0f1d7d5b7716df89a75ca126aacd037dc9fd",
+      "sha256": "dff98a8f1f85972720509302c0d7b51303f968d96381fdccc1ca7ed737811094"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/275_299_原文.md",
+      "bytes": 65840,
+      "gitBlobSha1": "c597cd1b75c47e5768dc572ec618369d854b9578",
+      "sha256": "245f692319648f5a044c6432aa4118b189245314c53e49cdab236cf4281b4a56"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/300_324_原文.md",
+      "bytes": 61001,
+      "gitBlobSha1": "5df7e523fa86ecc8a436b694b8288aa058ea1c37",
+      "sha256": "b3cfad6e915bd40a05e678402a4df76e00bed44230b813f41e9a625923d9ebc4"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/325_349_原文.md",
+      "bytes": 88513,
+      "gitBlobSha1": "4cfd201dfd132901c27f78944fd213b2cbf4591e",
+      "sha256": "460012af1c081fbf10d8ac1a13685542ab324de0f99ef8db53b395fd68a04edd"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/350_374_原文.md",
+      "bytes": 112837,
+      "gitBlobSha1": "92cc48a295187106fcd8863ceac452614198927b",
+      "sha256": "6cf59c5800f6479bc763e696b0169eb89d0837b98a7168673b8018642fa4b71b"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/375_399_原文.md",
+      "bytes": 91024,
+      "gitBlobSha1": "fb797bb37744bcd9980aca9d38ced312b5e78753",
+      "sha256": "4b5ad9037e390735bdd26bc42a7966328cd29a5cbbef5bf0ea02985d34a9253f"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/400_424_原文.md",
+      "bytes": 76492,
+      "gitBlobSha1": "886eac9fa1aae3d35f457767ec6df5530b99c033",
+      "sha256": "06af283a92529702e3374ea6ebbe7f24341b1b56b7d36a3e15b11cf3dc4d0dc5"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/425_449_原文.md",
+      "bytes": 76325,
+      "gitBlobSha1": "0ba86a969f21b0972aeb428f1c8fd44cc38a6975",
+      "sha256": "42b2367ee2feec18d17059666b627edce0c178c14cbd0f971230bafdbb531606"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/450_474_原文.md",
+      "bytes": 47266,
+      "gitBlobSha1": "baf29b5f8b7535946ea0332e76f68884def4d3dd",
+      "sha256": "ff0d1f65a3c6030b614bba49786b779121a4925d2dab9bc91ca5f10555dd40a3"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/475_499_原文.md",
+      "bytes": 26827,
+      "gitBlobSha1": "632ba7a296d72792049facf79679f1db06a73bcc",
+      "sha256": "8b0f5234b8d9c3e501110a73602a78637384ad51ad0cd0dd1ca12e08126bcdff"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/500_506_原文.md",
+      "bytes": 4826,
+      "gitBlobSha1": "516293b7b5146d6cdb3665e6b856529fa2e88c22",
+      "sha256": "8dde36f867d63bd4736cc2b1cbcd60d6063684f9baf39f1045c74996cc9a4e34"
+    },
+    {
+      "path": "小說/理惠/原始對話/ChatGPT對話/閱讀分段/閱讀指南.md",
+      "bytes": 1962,
+      "gitBlobSha1": "7e0e6df0722e7f92ff143a9cc0eaaa2ce15407a0",
+      "sha256": "56dd2a462b817f59aa6edba465aeb8c59e82eed7faaaef31d1202eb4466097bc"
+    },
+    {
+      "path": "小說/理惠/原始對話/Codex對話/完整對話文字.md",
+      "bytes": 104148,
+      "gitBlobSha1": "26a3c8affc2234f2b8ceedf68dc3917a5b6e6d28",
+      "sha256": "ff3d7d8b11f1d8fe74198c8d1a053cf01d153a62cbc70505bde68fa816ae6f8f"
+    },
+    {
+      "path": "小說/理惠/原始對話/Codex對話/逐則原始訊息.json",
+      "bytes": 113684,
+      "gitBlobSha1": "dc402e471cee625d50489d98a447d79503f40b88",
+      "sha256": "a434dfe4cfeec6468761dcde23a16b57e88d2a6f598d30e130e76434a67aba12"
+    },
+    {
+      "path": "小說/理惠/原始對話/LunarTalk對話/完整對話文字.md",
+      "bytes": 63661,
+      "gitBlobSha1": "5ab2eca76231ceab47a086621d66e7dba6926f55",
+      "sha256": "66af04d5950b224bca3d5defa07fe183504c171483c17f64fd7634c69791e3bd"
+    },
+    {
+      "path": "小說/理惠/原始對話/LunarTalk對話/逐則原始訊息.json",
+      "bytes": 90699,
+      "gitBlobSha1": "b233c501842470a30f97b729dbd37d174d90459a",
+      "sha256": "df19f05f4e3dafe7bfd3eb32488e8530f723549bc7c45fa61079b39eccc1223d"
+    },
+    {
+      "path": "小說/理惠/原始對話/對話擷取紀錄.json",
+      "bytes": 1353,
+      "gitBlobSha1": "138cbaa5dbd588f4dd1d3d4e34591df1ae8d93fa",
+      "sha256": "e742210290730df7539ff4e371d7d5e0f379e1bbbdff97004fec85065292db9e"
+    }
+  ],
+  "crossBatchClosed": [],
+  "partialSources": []
+}
