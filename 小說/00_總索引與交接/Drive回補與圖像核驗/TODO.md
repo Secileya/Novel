@@ -307,3 +307,8 @@
 - [Git逐件清冊](核驗清冊/R65G_巨構分類導航0217至0228實體核驗.json)（b587e0286f5e5e3895d4862aac4fa508fadbbe3c）／[Drive](https://drive.google.com/file/d/1McjzBk4wntzJLVhz-BjF5g7zt0OlqPdc/view?usp=drivesdk)，21656 bytes、SHA256 a3c762b58c7a2decfd6043d773d35c303bc886f173257787ada622560b6744a6，雙庫讀回一致。
 - R65A–G七份清冊集合與固定MANIFEST完整比對：228/228不同Drive ID、46,434,550 bytes，218/218不同來源檔完整重建、46,326,805 bytes，無缺卷、重計、未閉合來源。此為檔案實體完整性，非語義審查。
 - 現行一般閱讀卷累計355/832（73,586,619 bytes），剩477；巨構分類導航完成，下一輪轉方九×莉雅來源與校對70卷（R60B固定資料夾1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1），排除R64A-D、R65A-G。未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第66A輪：方九×莉雅來源與校對70卷現行實體驗收
+- 70/70逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，9,850,432 bytes；重建82個完整來源檔，9,828,245 bytes，Git blob SHA1及長度全部一致，無未閉合來源。
+- [Git逐件清冊](核驗清冊/R66A_方九莉雅來源與校對0001至0070實體核驗.json)（d7e8698f6a75d60d492c7c2d7598300cf8806ea0）／[Drive](https://drive.google.com/file/d/1DFfbljtTy5V6CXaqLuaAIBO-k1EPNH94/view?usp=drivesdk)，62583 bytes、SHA256 4635de6e9bcc62643ef55d0330e961dd228f5237bb55cfcbb7174039b3a10a56，雙庫讀回一致。
+- 現行一般閱讀卷累計425/832（83,437,051 bytes），剩407；下一步方九×莉雅專案根目錄等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
