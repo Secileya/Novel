@@ -271,3 +271,8 @@
 - 16/16現行閱讀卷逐件下載並核對SHA256及長度，3,622,180 bytes；重建5個完整來源檔，3,616,442 bytes，Git blob SHA1及長度全部一致。
 - 逐件證據：`核驗清冊/R64D_賣裝原著參考16閱讀卷實體核驗.json`，Git blob `0de7a394545ec209b754de62bd5df181e9431424`，Drive `1Ftq_DCv6LfRZyRe4FAjLkbqhdBBTGKEj`，10839 bytes，SHA256 `d352c7f83202bdc03b13d9d89f81061a349fb0bba426568bf66c7ba5a2985516`，雙庫讀回一致。
 - 三部原著參考分類95/95現行閱讀卷全數通過，重建104個完整來源檔；一般閱讀卷累計127/832（27,152,069 bytes），剩705。獨立原著章節分卷137/137（19,069,258 bytes）另計，不混淆。下輪從R60B未驗證ID選取其他分類，排除R64A-D已驗ID；圖像與207舊口徑等仍依前置待辦執行。
+
+### 第65A輪：巨構分類導航0001–0036現行閱讀卷實體驗收
+- 36/36逐件下載，SHA256及bytes與固定MANIFEST一致，7,138,256 bytes；重建55個完整來源檔，7,115,686 bytes，Git blob SHA1及長度全部一致。跨批未完成來源0。起始main a33776fa7a7a1b1a791d7f1da18906fe5ee994c6。
+- [Git逐件清冊](核驗清冊/R65A_巨構分類導航0001至0036實體核驗.json)（a9dab4c4968cab3e40ec58dccd64d5b60adf3dcd）／[Drive](https://drive.google.com/file/d/1OzHXwXO6rLcEpxI3KHIHDqlurhjRKuvE/view?usp=drivesdk)，37544 bytes、SHA256 12ae9ca79378a7474c782e8484780459e8c4d4fca7262f2b83a266e04673a8de，雙庫讀回一致。
+- 現行一般閱讀卷累計163/832（34,290,325 bytes），剩669。下一批巨構分類導航0037起，排除R64A-D與R65A已驗ID；不重驗ZIP、原著137卷。未改Canon、AUTO、游標、觸發器或刪檔。
