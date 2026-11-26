@@ -301,3 +301,9 @@
 - 36/36逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，7,772,403 bytes；重建56個完整來源檔，7,277,401 bytes，Git blob SHA1及長度全部一致。R65E跨批來源使用本地已驗0178–0180片段閉合；大型雙向證據橋尚缺0217–0224，未提前計通過。
 - [Git逐件清冊](核驗清冊/R65F_巨構分類導航0181至0216實體核驗.json)（8e8cbc510a461821152d461b69d6f19024bc45eb）／[Drive](https://drive.google.com/file/d/1Hfc2mn9EoYX91nYNJNYeubCit7kXGr0s/view?usp=drivesdk)，38040 bytes、SHA256 d9563166b3e96c9a2096ba9935ecb6a2b8cb95c6cb51c48dd7e5d55f4c365ce8，雙庫讀回一致。
 - 現行一般閱讀卷累計343/832（70,956,499 bytes），剩489；巨構分類導航216/228，下一批0217起。未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第65G輪：巨構分類導航0217–0228現行實體驗收／分類閉合
+- 12/12逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，2,630,120 bytes；重建45個完整來源檔，3,801,201 bytes，Git blob SHA1及長度全部一致。大型雙向證據橋使用本地已驗0212–0216片段閉合，無剩餘跨批來源。
+- [Git逐件清冊](核驗清冊/R65G_巨構分類導航0217至0228實體核驗.json)（b587e0286f5e5e3895d4862aac4fa508fadbbe3c）／[Drive](https://drive.google.com/file/d/1McjzBk4wntzJLVhz-BjF5g7zt0OlqPdc/view?usp=drivesdk)，21656 bytes、SHA256 a3c762b58c7a2decfd6043d773d35c303bc886f173257787ada622560b6744a6，雙庫讀回一致。
+- R65A–G七份清冊集合與固定MANIFEST完整比對：228/228不同Drive ID、46,434,550 bytes，218/218不同來源檔完整重建、46,326,805 bytes，無缺卷、重計、未閉合來源。此為檔案實體完整性，非語義審查。
+- 現行一般閱讀卷累計355/832（73,586,619 bytes），剩477；巨構分類導航完成，下一輪轉方九×莉雅來源與校對70卷（R60B固定資料夾1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1），排除R64A-D、R65A-G。未改Canon、AUTO、游標、觸發器或刪檔。
