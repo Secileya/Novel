@@ -347,3 +347,7 @@
 - 三分類分別10、8、7卷，25/25逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，5,219,322 bytes；重建179、236、36合計451個不同完整來源檔，5,100,716 bytes，Git blob SHA1及長度全部一致，無未閉合來源。分目錄下載後獨立核驗，再合併逐件證據，避免同名VOL錯配。
 - [Git逐件清冊](核驗清冊/R66H_末世莉月BUG及Backrooms三分類25卷實體核驗.json)（c6904b4b3a1e46574db59bca126d6f17113e3429）／[Drive](https://drive.google.com/file/d/11zFxoMHPWec_gatqWsstnGpa6IbI4j1C/view?usp=drivesdk)，154907 bytes、SHA256 6c70c4318f9b4eb8a11d20eaf7352734a323e136265287886b709c8b36f3a2ed，雙庫讀回一致。
 - 現行一般閱讀卷累計620/832（124,383,559 bytes），剩212；下一步末世開店玩家線章節、理惠圖庫文字等未驗分類。排除所有已驗ID；未改Canon、AUTO、游標、觸發器或刪檔。
+
+#### 第66H輪接續索引（僅彙整，不重計驗收）
+- 19份已驗清冊R64A–R66H依Git台帳記錄的blob逐份核對，620個唯一Drive ID及路徑與固定MANIFEST吻合；剩212個唯一ID、108個資料夾、30,586,324 bytes。兩集合完整覆蓋832卷，無重疊、缺漏。自65C至本停點新增385卷、75,932,970 bytes，重建1,279份來源檔。
+- [Git接續索引](核驗清冊/R66H_累計620卷與剩餘212卷接續索引.json)（6d4dcb6050dde82706803b498984647d490fa59c）／[Drive](https://drive.google.com/file/d/1Pv7WplOJ05nBnkSq3my8aj5p-aieqkOm/view?usp=drivesdk)，175273 bytes、SHA256 621d84d9672b3a203d2243aabecb352c0b10b038b56fdf2a0a21550bd203ffdb，雙庫讀回一致。下輪直接依pendingFolders逐分類處理；每卷須重新取得現行原始bytes計算SHA256，不得把索引的expected值當實驗結果。已驗620卷不重下載，原著137卷、圖像、反向差分及AUTO/Gemini實際驗收另按既有待辦執行。
