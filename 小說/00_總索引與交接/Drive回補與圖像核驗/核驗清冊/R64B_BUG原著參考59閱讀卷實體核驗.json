@@ -1,0 +1,1141 @@
+{
+  "round": "64B",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "method": "Individually download each current Drive expanded reading volume by R60B locator ID, independently compute raw SHA256 and byte size, reconstruct each source fully contained in this category using fixed manifest offsets. No ZIP revalidation.",
+  "count": 59,
+  "bytes": 13495310,
+  "reconstructedCount": 70,
+  "reconstructedBytes": 13460376,
+  "rows": [
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0001.txt",
+      "id": "1x4OMntbq1E-AJHHNyNdTyn6SEQR5X6kd",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 204770,
+      "mime": "text/plain",
+      "expectedBytes": 204770,
+      "expectedSha256": "e3e38950901683f79458dab5048acd7bf12dbb0a297bbb14f098cc66babde6a1",
+      "actualBytes": 204770,
+      "actualSha256": "e3e38950901683f79458dab5048acd7bf12dbb0a297bbb14f098cc66babde6a1",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0002.txt",
+      "id": "1S2Vrx2n5wq3dRUWSd6gB2ROSK2pFumZq",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 229088,
+      "mime": "text/plain",
+      "expectedBytes": 229088,
+      "expectedSha256": "dcb8f32a7d8c62355c182b8db66017b7711995bf738229288bc555335abd28df",
+      "actualBytes": 229088,
+      "actualSha256": "dcb8f32a7d8c62355c182b8db66017b7711995bf738229288bc555335abd28df",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0003.txt",
+      "id": "1oD8YtyYd94Y4FVQQqB7lpcziAKvQhixd",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 226016,
+      "mime": "text/plain",
+      "expectedBytes": 226016,
+      "expectedSha256": "ad05aa933d04bf0619001899b1e36f3013129bce8c93f11e7e67eb0f527282d8",
+      "actualBytes": 226016,
+      "actualSha256": "ad05aa933d04bf0619001899b1e36f3013129bce8c93f11e7e67eb0f527282d8",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0004.txt",
+      "id": "1WrIMlYWV0oq14skc1chcjgPpjorEzeAR",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 232080,
+      "mime": "text/plain",
+      "expectedBytes": 232080,
+      "expectedSha256": "ada17265497f8d5500bb5f4e7578ab576bdae4965473d1f395cbc38ac81c706d",
+      "actualBytes": 232080,
+      "actualSha256": "ada17265497f8d5500bb5f4e7578ab576bdae4965473d1f395cbc38ac81c706d",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0005.txt",
+      "id": "1cT6tx50qVK8nGspUXxuo4N7bRRT8V5yX",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 195158,
+      "mime": "text/plain",
+      "expectedBytes": 195158,
+      "expectedSha256": "75af753cb5fe70f5fc356322232fad7f5cc7c1d35d3dfb4160539dc6d4ac56bc",
+      "actualBytes": 195158,
+      "actualSha256": "75af753cb5fe70f5fc356322232fad7f5cc7c1d35d3dfb4160539dc6d4ac56bc",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0006.txt",
+      "id": "1vW0FLfgzpUj3DRzsSAvkcAdocnWqwBYB",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 197714,
+      "mime": "text/plain",
+      "expectedBytes": 197714,
+      "expectedSha256": "2b08580b0bcf83ee4f5e03c525ca46a5332c9e7ca20ef7ceecd97fbbef2a1930",
+      "actualBytes": 197714,
+      "actualSha256": "2b08580b0bcf83ee4f5e03c525ca46a5332c9e7ca20ef7ceecd97fbbef2a1930",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0007.txt",
+      "id": "1buNZCkCkGmaM7eZNd3UiC9vdPsaH2jKJ",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 75057,
+      "mime": "text/plain",
+      "expectedBytes": 75057,
+      "expectedSha256": "5147ed0d278f0c87bd091f4110ac08eae9b29cfcd7f58ae1448ddba8e2f58079",
+      "actualBytes": 75057,
+      "actualSha256": "5147ed0d278f0c87bd091f4110ac08eae9b29cfcd7f58ae1448ddba8e2f58079",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0008.txt",
+      "id": "1BwiMa2KFDjkvCVfS__QLaLvsrZ9-bCvn",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237206,
+      "mime": "text/plain",
+      "expectedBytes": 237206,
+      "expectedSha256": "e733ef3a99df918735ce1a2197074cdbcb8c926fc05e95487d362e36cea867fe",
+      "actualBytes": 237206,
+      "actualSha256": "e733ef3a99df918735ce1a2197074cdbcb8c926fc05e95487d362e36cea867fe",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0009.txt",
+      "id": "1qHVsYT5BRQV6LKWMsQvbEpIuapeDsXha",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237203,
+      "mime": "text/plain",
+      "expectedBytes": 237203,
+      "expectedSha256": "613b63e322a80a3be9960652b592eae53f1d98b5eee203c75647b55f0c0efcfb",
+      "actualBytes": 237203,
+      "actualSha256": "613b63e322a80a3be9960652b592eae53f1d98b5eee203c75647b55f0c0efcfb",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0010.txt",
+      "id": "1mK-5S1j-vg19n8zXaV1XXd5nJ0EQLF8p",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237264,
+      "mime": "text/plain",
+      "expectedBytes": 237264,
+      "expectedSha256": "3742bc1f5ef2c71ddc46e8c335658df34d6dd762e1e4ee488149388827ad1034",
+      "actualBytes": 237264,
+      "actualSha256": "3742bc1f5ef2c71ddc46e8c335658df34d6dd762e1e4ee488149388827ad1034",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0011.txt",
+      "id": "1iSBtnEj6fk_KH3mmL5jcEI0fedOVdXAZ",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237278,
+      "mime": "text/plain",
+      "expectedBytes": 237278,
+      "expectedSha256": "f3f775c42aa06d933b155f842c7c1ccb0140db509834b753f13a1c993a0e6ffe",
+      "actualBytes": 237278,
+      "actualSha256": "f3f775c42aa06d933b155f842c7c1ccb0140db509834b753f13a1c993a0e6ffe",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0012.txt",
+      "id": "1oz7fR9T39W7Veb4xJY0l0n8B7pEN-8t5",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237294,
+      "mime": "text/plain",
+      "expectedBytes": 237294,
+      "expectedSha256": "f95a19847bfea73045989ae4f559e3904a43d4c47e627251f181b2d083637629",
+      "actualBytes": 237294,
+      "actualSha256": "f95a19847bfea73045989ae4f559e3904a43d4c47e627251f181b2d083637629",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0013.txt",
+      "id": "1vwSVxTvh8wHRR2AikYtgLngJfsXXpT3f",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237267,
+      "mime": "text/plain",
+      "expectedBytes": 237267,
+      "expectedSha256": "8b829c68d3a63c0d8565f2950d20ba66aecab43c61b6aa8a5edf3080f29d125a",
+      "actualBytes": 237267,
+      "actualSha256": "8b829c68d3a63c0d8565f2950d20ba66aecab43c61b6aa8a5edf3080f29d125a",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0014.txt",
+      "id": "1Pbd0s8oAmDXlifFhhk8zFQAvOv_nE43i",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237284,
+      "mime": "text/plain",
+      "expectedBytes": 237284,
+      "expectedSha256": "46cec895cd76ce9bbe42f3b97ff1118b61ce2894ff0e319738f97958b98a6a89",
+      "actualBytes": 237284,
+      "actualSha256": "46cec895cd76ce9bbe42f3b97ff1118b61ce2894ff0e319738f97958b98a6a89",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0015.txt",
+      "id": "12S3TcSMnp7ZQtPMpjQtcYJ-R74N82Ci3",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237293,
+      "mime": "text/plain",
+      "expectedBytes": 237293,
+      "expectedSha256": "229df2c93ca50e3d74066ec0163c6281731f7af677703b12e9f4ef3fdacd2b1a",
+      "actualBytes": 237293,
+      "actualSha256": "229df2c93ca50e3d74066ec0163c6281731f7af677703b12e9f4ef3fdacd2b1a",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0016.txt",
+      "id": "1-gztCn-lCqjpNm7tBjXUGks2a_vTRuBU",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237245,
+      "mime": "text/plain",
+      "expectedBytes": 237245,
+      "expectedSha256": "a92ba2fd1a65f68520fd8e949f667e41a8fe06a4a0604ba7c9d58ee5ceb158b8",
+      "actualBytes": 237245,
+      "actualSha256": "a92ba2fd1a65f68520fd8e949f667e41a8fe06a4a0604ba7c9d58ee5ceb158b8",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0017.txt",
+      "id": "1haDvlz_vx0Dr-YjN8Fzh2aXL52f_iioh",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237253,
+      "mime": "text/plain",
+      "expectedBytes": 237253,
+      "expectedSha256": "a6bef00433fd756f94311907829556bfbbb7b55e78626c7b1bff573809b98b5d",
+      "actualBytes": 237253,
+      "actualSha256": "a6bef00433fd756f94311907829556bfbbb7b55e78626c7b1bff573809b98b5d",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0018.txt",
+      "id": "1gROgdI1_OIANgH77_bE8BwJ-9h2ZivtE",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237275,
+      "mime": "text/plain",
+      "expectedBytes": 237275,
+      "expectedSha256": "5349fc8fd3ea0748ead4d680901b587d1f23e57b3db95ed4bc9aef5d7f0fc74a",
+      "actualBytes": 237275,
+      "actualSha256": "5349fc8fd3ea0748ead4d680901b587d1f23e57b3db95ed4bc9aef5d7f0fc74a",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0019.txt",
+      "id": "1dDt5zTSE2lR2O6kzEgWiTPiqb_BXxB3Q",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237296,
+      "mime": "text/plain",
+      "expectedBytes": 237296,
+      "expectedSha256": "47eee7165f335e2671e012f8ca312692b606e0605696161517417d3103a070f6",
+      "actualBytes": 237296,
+      "actualSha256": "47eee7165f335e2671e012f8ca312692b606e0605696161517417d3103a070f6",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0020.txt",
+      "id": "1Id4BpIhdkQFCzeR7BuJMw1fCJXTu493v",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237288,
+      "mime": "text/plain",
+      "expectedBytes": 237288,
+      "expectedSha256": "6f056d272780fefb3ed0d786259de0255d1994225e56f0aad40550830b80961f",
+      "actualBytes": 237288,
+      "actualSha256": "6f056d272780fefb3ed0d786259de0255d1994225e56f0aad40550830b80961f",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0021.txt",
+      "id": "1Ts5D8LGaLvRnfrSUyCGIClNQhyKoaoUf",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237256,
+      "mime": "text/plain",
+      "expectedBytes": 237256,
+      "expectedSha256": "92e9fe4ab9dde897ee2034a7361884b983a8a2a10bc89fce6acb6cea3c41ccaf",
+      "actualBytes": 237256,
+      "actualSha256": "92e9fe4ab9dde897ee2034a7361884b983a8a2a10bc89fce6acb6cea3c41ccaf",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0022.txt",
+      "id": "1yHKFMIiiPD2fmz7NHArV96B9TrydjJ4F",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237275,
+      "mime": "text/plain",
+      "expectedBytes": 237275,
+      "expectedSha256": "10c3b8bf44394aad54115b771ca381b473534a17869c930fe966852ea507abbe",
+      "actualBytes": 237275,
+      "actualSha256": "10c3b8bf44394aad54115b771ca381b473534a17869c930fe966852ea507abbe",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0023.txt",
+      "id": "1UtwHz3cZGGAKcnZsh_0trQuiCKFEqpoc",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237271,
+      "mime": "text/plain",
+      "expectedBytes": 237271,
+      "expectedSha256": "ad73e56242cbf0109940557d8423ca4ab2a793ba580bfb23be204afa52c24255",
+      "actualBytes": 237271,
+      "actualSha256": "ad73e56242cbf0109940557d8423ca4ab2a793ba580bfb23be204afa52c24255",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0024.txt",
+      "id": "1VgmHhUz5lHXGkRhpdXn6OKW-8CE-WE-o",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237275,
+      "mime": "text/plain",
+      "expectedBytes": 237275,
+      "expectedSha256": "012b8473dc8bccdf063b470056e10055908e128995a74f46c0a0a59192a6648d",
+      "actualBytes": 237275,
+      "actualSha256": "012b8473dc8bccdf063b470056e10055908e128995a74f46c0a0a59192a6648d",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0025.txt",
+      "id": "1HXxar5x8jZs-dOM_XAQNUu1KZ6PUJh0u",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237245,
+      "mime": "text/plain",
+      "expectedBytes": 237245,
+      "expectedSha256": "1c0ca3eab0a8020ba7c55d3e419af371a967ec7866c68c583f21e586f0123e06",
+      "actualBytes": 237245,
+      "actualSha256": "1c0ca3eab0a8020ba7c55d3e419af371a967ec7866c68c583f21e586f0123e06",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0026.txt",
+      "id": "1gHHVpqRRWvcxcGhocl_IneqNZx7E525Y",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237147,
+      "mime": "text/plain",
+      "expectedBytes": 237147,
+      "expectedSha256": "8377a9c45edf49cd36de3ef3c135f81ac8390f1edce991fc04d0abf0b81444cb",
+      "actualBytes": 237147,
+      "actualSha256": "8377a9c45edf49cd36de3ef3c135f81ac8390f1edce991fc04d0abf0b81444cb",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0027.txt",
+      "id": "1aFozke9Agu-YX4hN07WXm3H480Cl5Bmm",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237251,
+      "mime": "text/plain",
+      "expectedBytes": 237251,
+      "expectedSha256": "da226c286545b6ee6fd39e475c1b3e14ae0ce940602b1ec57c27f7a6d77ae07d",
+      "actualBytes": 237251,
+      "actualSha256": "da226c286545b6ee6fd39e475c1b3e14ae0ce940602b1ec57c27f7a6d77ae07d",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0028.txt",
+      "id": "1EOHNAw_IN1MRZKgdIdpbf7tt-_m6FY1n",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237251,
+      "mime": "text/plain",
+      "expectedBytes": 237251,
+      "expectedSha256": "43dc9de82149e0ef72cfdcb8c81961595ccc46894fc70eb8dda1964f7155ada4",
+      "actualBytes": 237251,
+      "actualSha256": "43dc9de82149e0ef72cfdcb8c81961595ccc46894fc70eb8dda1964f7155ada4",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0029.txt",
+      "id": "1enwhn-lVJQLnOq6NbxIEQf-KFF2lTso0",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237252,
+      "mime": "text/plain",
+      "expectedBytes": 237252,
+      "expectedSha256": "fbedfdb8d79b1a44d364415a008656509149622c5bd7e2117e4ab7b7a659a93d",
+      "actualBytes": 237252,
+      "actualSha256": "fbedfdb8d79b1a44d364415a008656509149622c5bd7e2117e4ab7b7a659a93d",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0030.txt",
+      "id": "1GnAETmPQDqq-DMoIWBE2vlIQasmBGXBl",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237291,
+      "mime": "text/plain",
+      "expectedBytes": 237291,
+      "expectedSha256": "402b042bfc45804ccedfaa4de4213259ca4310d2b6ecb4b1e52830f328e45e57",
+      "actualBytes": 237291,
+      "actualSha256": "402b042bfc45804ccedfaa4de4213259ca4310d2b6ecb4b1e52830f328e45e57",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0031.txt",
+      "id": "1kTrQRqAZFPy_kp1_-vQ5a9TlGzsz-iDV",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237273,
+      "mime": "text/plain",
+      "expectedBytes": 237273,
+      "expectedSha256": "d9171c9174c62ec3fd40ce5b339f4ab51533912fbdb48a492aeb2cdda972f7e1",
+      "actualBytes": 237273,
+      "actualSha256": "d9171c9174c62ec3fd40ce5b339f4ab51533912fbdb48a492aeb2cdda972f7e1",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0032.txt",
+      "id": "1sOWAemJN7IvzHYNABE2NJIkz023_KX6d",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237281,
+      "mime": "text/plain",
+      "expectedBytes": 237281,
+      "expectedSha256": "972ba9e05a59f06f9711061fefc201c202de6be9c206cb0724affdabf0ac6bc9",
+      "actualBytes": 237281,
+      "actualSha256": "972ba9e05a59f06f9711061fefc201c202de6be9c206cb0724affdabf0ac6bc9",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0033.txt",
+      "id": "1_-esGoWahs6If423RBm82r1JdPF2xPqn",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237256,
+      "mime": "text/plain",
+      "expectedBytes": 237256,
+      "expectedSha256": "02af7a3854dc20f999acaba5f9a6a5c383ca23f6e395285c59af466346b7c429",
+      "actualBytes": 237256,
+      "actualSha256": "02af7a3854dc20f999acaba5f9a6a5c383ca23f6e395285c59af466346b7c429",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0034.txt",
+      "id": "1c2RCC3OMithtwW1v62Se1xTgg0opTCwW",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237275,
+      "mime": "text/plain",
+      "expectedBytes": 237275,
+      "expectedSha256": "e9d1bfd61670d9195e399159703b48990f8aa559f47c8f08e5e5980dc55b5cd1",
+      "actualBytes": 237275,
+      "actualSha256": "e9d1bfd61670d9195e399159703b48990f8aa559f47c8f08e5e5980dc55b5cd1",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0035.txt",
+      "id": "1ITsgojCI8yZ_TW7mgZOWuwIrH9H5lkgT",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237249,
+      "mime": "text/plain",
+      "expectedBytes": 237249,
+      "expectedSha256": "8cfd25f39f625e0cb569524cc907c457c50509a2b8461cced2c368dc99d8bf1a",
+      "actualBytes": 237249,
+      "actualSha256": "8cfd25f39f625e0cb569524cc907c457c50509a2b8461cced2c368dc99d8bf1a",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0036.txt",
+      "id": "1ISwTA3Ap0rqzuyeE8WyHrH9Uo7Tztjkw",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237235,
+      "mime": "text/plain",
+      "expectedBytes": 237235,
+      "expectedSha256": "4af60a24b3e9e53cef82b4035ddfdfc4cdd62f32f9908a7e7b14f4c3b34adf93",
+      "actualBytes": 237235,
+      "actualSha256": "4af60a24b3e9e53cef82b4035ddfdfc4cdd62f32f9908a7e7b14f4c3b34adf93",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0037.txt",
+      "id": "1Yby-mmTJ9G2GDNFivUDvjwTjIecXr1ne",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237284,
+      "mime": "text/plain",
+      "expectedBytes": 237284,
+      "expectedSha256": "5984b48cf84fb4579d6bc4129aa5cbcd350ba53a3c3e750fb18be44bf1b9b3da",
+      "actualBytes": 237284,
+      "actualSha256": "5984b48cf84fb4579d6bc4129aa5cbcd350ba53a3c3e750fb18be44bf1b9b3da",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0038.txt",
+      "id": "1KOZtZk0RMSxF16AvqZxhjcL8vWzm-8Q7",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237254,
+      "mime": "text/plain",
+      "expectedBytes": 237254,
+      "expectedSha256": "bd50e453ef0af1acc1ec9aea3e687ef6a8424cec7129579217aef5d219f4404d",
+      "actualBytes": 237254,
+      "actualSha256": "bd50e453ef0af1acc1ec9aea3e687ef6a8424cec7129579217aef5d219f4404d",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0039.txt",
+      "id": "1mhNvVWBcpDSECgneAuf3pFA6BIqgQAR9",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237282,
+      "mime": "text/plain",
+      "expectedBytes": 237282,
+      "expectedSha256": "0cbc07ab68f19febe8a6528cb1a02dc1327273ffe2262b262bfcdc5098172396",
+      "actualBytes": 237282,
+      "actualSha256": "0cbc07ab68f19febe8a6528cb1a02dc1327273ffe2262b262bfcdc5098172396",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0040.txt",
+      "id": "1fq4nBxShc4oPDYpS0pNmPw56mJe081WW",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237197,
+      "mime": "text/plain",
+      "expectedBytes": 237197,
+      "expectedSha256": "5565e91ab61e1f9cfc266ee4d917a687c085ad98e56394f0eb698a798c543a77",
+      "actualBytes": 237197,
+      "actualSha256": "5565e91ab61e1f9cfc266ee4d917a687c085ad98e56394f0eb698a798c543a77",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0041.txt",
+      "id": "1qUie1OylfB1-oyGHNntf1UZswzr2olYQ",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237296,
+      "mime": "text/plain",
+      "expectedBytes": 237296,
+      "expectedSha256": "3964be3a7f276845cb40bd4f6606a209cb4bbf74e84d942ec5e6f2f1758252d2",
+      "actualBytes": 237296,
+      "actualSha256": "3964be3a7f276845cb40bd4f6606a209cb4bbf74e84d942ec5e6f2f1758252d2",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0042.txt",
+      "id": "1ZICfM0F1J-cdVGbWWkKyAfPm8tpK8ABd",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237290,
+      "mime": "text/plain",
+      "expectedBytes": 237290,
+      "expectedSha256": "f7c6ec773a13845202086bfd0296ea547416a019e2cf236e644b237030877ee7",
+      "actualBytes": 237290,
+      "actualSha256": "f7c6ec773a13845202086bfd0296ea547416a019e2cf236e644b237030877ee7",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0043.txt",
+      "id": "1NZKgQpkxZ18uyg71GLtslLoYJcXBZZs2",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237266,
+      "mime": "text/plain",
+      "expectedBytes": 237266,
+      "expectedSha256": "ada094b8d956f86110de2aca3775d4b7e30c883ab523fddeee162f5b9b92fca7",
+      "actualBytes": 237266,
+      "actualSha256": "ada094b8d956f86110de2aca3775d4b7e30c883ab523fddeee162f5b9b92fca7",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0044.txt",
+      "id": "1tOx1eBQYZZDOiEwTAJxdd_kj83mmBDqD",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237271,
+      "mime": "text/plain",
+      "expectedBytes": 237271,
+      "expectedSha256": "4c3e0389cce8219fcfd707b31741e2a020b1109e76e2eb032c29d41e3b550b92",
+      "actualBytes": 237271,
+      "actualSha256": "4c3e0389cce8219fcfd707b31741e2a020b1109e76e2eb032c29d41e3b550b92",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0045.txt",
+      "id": "1aFGPTy4pmCzNVzopIS-YQFoQKUMBVDRH",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237269,
+      "mime": "text/plain",
+      "expectedBytes": 237269,
+      "expectedSha256": "0139e1e53b68ce81fc3594a32132670f6302bc0d6e0f3683bdffa166463ab01c",
+      "actualBytes": 237269,
+      "actualSha256": "0139e1e53b68ce81fc3594a32132670f6302bc0d6e0f3683bdffa166463ab01c",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0046.txt",
+      "id": "1nU0BwP8ViocsFUPp2Cpf5FHzNqo1dxQV",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237296,
+      "mime": "text/plain",
+      "expectedBytes": 237296,
+      "expectedSha256": "a6b26bf661decd487105320193fbc2be3c993e4dc2c54a17e9ca8aef387e91a4",
+      "actualBytes": 237296,
+      "actualSha256": "a6b26bf661decd487105320193fbc2be3c993e4dc2c54a17e9ca8aef387e91a4",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0047.txt",
+      "id": "1bzCO-09ezKMFDurxcoPrhszX8qGeFYJY",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237269,
+      "mime": "text/plain",
+      "expectedBytes": 237269,
+      "expectedSha256": "7e601d0805a3deb55596aef1686c7113aed1591d94ff38c47f61d3eada18d4ab",
+      "actualBytes": 237269,
+      "actualSha256": "7e601d0805a3deb55596aef1686c7113aed1591d94ff38c47f61d3eada18d4ab",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0048.txt",
+      "id": "17wLEuftgiw7NVx7_XjARBcWswjR8is-v",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237187,
+      "mime": "text/plain",
+      "expectedBytes": 237187,
+      "expectedSha256": "cd59689e904d0ca0ce24536193eabad32bde49f32b6aa1bb750c3c8bf56e7566",
+      "actualBytes": 237187,
+      "actualSha256": "cd59689e904d0ca0ce24536193eabad32bde49f32b6aa1bb750c3c8bf56e7566",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0049.txt",
+      "id": "17ebpuicmh8MYpmFO5ybjxpsqDAnRVuae",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237255,
+      "mime": "text/plain",
+      "expectedBytes": 237255,
+      "expectedSha256": "8c77b0dc4f0ba02e03888e1aabbb26a2be8f2cc34b325d03a5d32ae28780e87b",
+      "actualBytes": 237255,
+      "actualSha256": "8c77b0dc4f0ba02e03888e1aabbb26a2be8f2cc34b325d03a5d32ae28780e87b",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0050.txt",
+      "id": "1IhLAGFW96FBu9-Cimy6uz6nMAu8qKYQW",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237285,
+      "mime": "text/plain",
+      "expectedBytes": 237285,
+      "expectedSha256": "2f01542b80790275da944aa021b6e53b8ab5acef449e22e97bec5d6c514fd625",
+      "actualBytes": 237285,
+      "actualSha256": "2f01542b80790275da944aa021b6e53b8ab5acef449e22e97bec5d6c514fd625",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0051.txt",
+      "id": "1qZtnBJVBH7luHTPdvJlx9SwMMt9VKBqX",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237241,
+      "mime": "text/plain",
+      "expectedBytes": 237241,
+      "expectedSha256": "8f143667deebc95cd1b96e691fa05a06b4f6273edd2e78f0bde540992f326381",
+      "actualBytes": 237241,
+      "actualSha256": "8f143667deebc95cd1b96e691fa05a06b4f6273edd2e78f0bde540992f326381",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0052.txt",
+      "id": "1HHH5qkXPSb3eaJYvZ9OSGmZI_1CdjTk-",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237275,
+      "mime": "text/plain",
+      "expectedBytes": 237275,
+      "expectedSha256": "a7a831a76669ecc5aa336f97c0d6f9cdb3a6073c50ad999f91e4b57a7ea75c55",
+      "actualBytes": 237275,
+      "actualSha256": "a7a831a76669ecc5aa336f97c0d6f9cdb3a6073c50ad999f91e4b57a7ea75c55",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0053.txt",
+      "id": "19X8hggAmM0Am4oTVVKrOGj4shHnW-Vk5",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237263,
+      "mime": "text/plain",
+      "expectedBytes": 237263,
+      "expectedSha256": "ccbe299aee8f0d8d2a7c91273f39d119ec0bef3cb30aa53578f1991b18102d65",
+      "actualBytes": 237263,
+      "actualSha256": "ccbe299aee8f0d8d2a7c91273f39d119ec0bef3cb30aa53578f1991b18102d65",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0054.txt",
+      "id": "1UqoNR7acGbeToRhGvfnJZbC9HHJ5-KK6",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237218,
+      "mime": "text/plain",
+      "expectedBytes": 237218,
+      "expectedSha256": "546b4a2a5d308e82a9200af0c44e3dfbe99265e23f7a2fc105d68895cce8e796",
+      "actualBytes": 237218,
+      "actualSha256": "546b4a2a5d308e82a9200af0c44e3dfbe99265e23f7a2fc105d68895cce8e796",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0055.txt",
+      "id": "1OuiXgNXiJOliLDXRw5u1oIOgmJq2K0cV",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237237,
+      "mime": "text/plain",
+      "expectedBytes": 237237,
+      "expectedSha256": "4d46d59019310f04aeb90cf9fa8eca0948f7416418899b2aa01066be94f724ef",
+      "actualBytes": 237237,
+      "actualSha256": "4d46d59019310f04aeb90cf9fa8eca0948f7416418899b2aa01066be94f724ef",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0056.txt",
+      "id": "1bKyteP02vCTOKdNx1cu6XBliHi5WGCri",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237224,
+      "mime": "text/plain",
+      "expectedBytes": 237224,
+      "expectedSha256": "7758932cc94fac845b641b9e1738673aeff3c37964a139f2e527e3934dcb4bfc",
+      "actualBytes": 237224,
+      "actualSha256": "7758932cc94fac845b641b9e1738673aeff3c37964a139f2e527e3934dcb4bfc",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0057.txt",
+      "id": "1QO6TPiFoxyPHxPysrDcIkJg2KK9egpHV",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237294,
+      "mime": "text/plain",
+      "expectedBytes": 237294,
+      "expectedSha256": "34179fb283c5fac79f5ce12485fe987c45b8bd1698f6ace7be90ceaa786ebcd3",
+      "actualBytes": 237294,
+      "actualSha256": "34179fb283c5fac79f5ce12485fe987c45b8bd1698f6ace7be90ceaa786ebcd3",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0058.txt",
+      "id": "1Zymlp6hPS-dwTuWrlFV4nt61bDrvx4eP",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 237180,
+      "mime": "text/plain",
+      "expectedBytes": 237180,
+      "expectedSha256": "b565cd70b3a7c2d5ec1707b2a6cca56e400dcc26f1e48b206ba4f82024c43529",
+      "actualBytes": 237180,
+      "actualSha256": "b565cd70b3a7c2d5ec1707b2a6cca56e400dcc26f1e48b206ba4f82024c43529",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/VOL_0059.txt",
+      "id": "1U3EBorPiXPT9xIxqghlEeGgEherZ5ADh",
+      "folderId": "1CvYBsFM5TzBz58YODDk5rFJ5Cx9AGYJA",
+      "bytes": 35265,
+      "mime": "text/plain",
+      "expectedBytes": 35265,
+      "expectedSha256": "e32f1f825268866e68d3325ccea5a0c7aa5929e1d4b241372946d995f1162824",
+      "actualBytes": 35265,
+      "actualSha256": "e32f1f825268866e68d3325ccea5a0c7aa5929e1d4b241372946d995f1162824",
+      "status": "PASS"
+    }
+  ],
+  "sources": [
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/00A_原著事件捕捉與反向歸屬流程.md",
+      "bytes": 7018,
+      "gitSha1": "6efbe2945c4bf2c303ff40932c7f2846d17bfa00",
+      "sha256": "b1c926180db2311d1a77f83b7f79fef3c82cd5629f5271c5c3c751275e439512"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/00B_原著時間序稽核補充.md",
+      "bytes": 4094,
+      "gitSha1": "69b4244f62b0ffaf6aca102507a2c40d1f8612c7",
+      "sha256": "40470ce522b19a86643a399d19d914d10fae9e379c53480c392583622368b001"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/00C_原著SOURCE閱讀路由與新對話執行交接.md",
+      "bytes": 12163,
+      "gitSha1": "98599730ddb48ae46a5859cba49eb8f29418231a",
+      "sha256": "405a4ba06e267c63947d7122dd106a691c12407f0b3f2e097d3159f825b53511"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/00_原著索引與改編原則.md",
+      "bytes": 7902,
+      "gitSha1": "7ceac73ce3d93c3be89f70c31f45f727bcc99232",
+      "sha256": "6d8c496c402386d0dade58f3f673cd915549731c787493e66657cdc818ce18d3"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/01_原著TXT完整性稽核.md",
+      "bytes": 2529,
+      "gitSha1": "0e49352234bf14c1e6939cb5a267160bb03cce82",
+      "sha256": "47656873943a4f2df3f2f106d4bb3abc0c5b8da374599231f65a3d2d1fdb92c7"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/02_原著事件捕捉_001-030.md",
+      "bytes": 20298,
+      "gitSha1": "830d7bc92cf47889c185ba865fac0ff46d6d82ce",
+      "sha256": "29e0377e3df02a5440c07e54e26c3fbe4d12caf533775d515cefa713f6b3fc9c"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/03_原著事件捕捉_031-060.md",
+      "bytes": 19574,
+      "gitSha1": "9af92b4c3f711b3c9c6b3aeaa437ed1f5724cc98",
+      "sha256": "73408896b4b948e69b4d75e84dc78e39a2908abb12224330e0602c9c2bbe9130"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/04_原著事件捕捉_061-090.md",
+      "bytes": 36818,
+      "gitSha1": "3be88264c60eace84010b49e632976cc3021fab6",
+      "sha256": "288e1dababd03875f26e5cf89207024a187125909711fdb9f24d6ebd2d0443f4"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/05_原著事件捕捉_091-120.md",
+      "bytes": 55262,
+      "gitSha1": "5450528ae143a8335511e1cca6dd756ed346de6c",
+      "sha256": "c0454443b6631c0e74c287f7f9304cabec5acea75b30ac190d48fc99cbc691f9"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/06_原著事件捕捉_121-150.md",
+      "bytes": 36402,
+      "gitSha1": "052dd7b919e71b51af6887c2016cdfa2be339b36",
+      "sha256": "74e24e60cd196bcf9219d01b5139bfe29b986c3b4f78649df56ffaa0ab0beb0a"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/07_原著事件捕捉_151-180.md",
+      "bytes": 36296,
+      "gitSha1": "2b17a3bad97d85c6578e83d818f89910fbe97428",
+      "sha256": "9be3c41c397c5c05db2ea0fcba3bc8b42172de603e52b92d9ebd3b402c12d4c9"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/08A_原著事件捕捉二次反向歸屬掃描_151-180.md",
+      "bytes": 21003,
+      "gitSha1": "e76f92cbe42dda422f7058efa71d1037ed5141e8",
+      "sha256": "84db5c547e93afcbcb023f4bafe880ac6d3f89eaddbf82fcea46addd2ffc2087"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/08_原著事件捕捉_181-210.md",
+      "bytes": 48605,
+      "gitSha1": "4fdd3256d5e9b2670dd92be683a45a10126caa84",
+      "sha256": "872d3887739206db3429550b2225a38f4d1e21564db658ce43717f6f7790daa5"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/09A_原著事件捕捉二次反向歸屬掃描_121-150.md",
+      "bytes": 26347,
+      "gitSha1": "41d68649240b2c81e247042a6ac1990aeeed2275",
+      "sha256": "8de66ecbf8fd1a4581084822bcf07fe320bae6806bfda3af9ebb221e8046e2ae"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/09_原著事件捕捉反向稽核_121-210.md",
+      "bytes": 14850,
+      "gitSha1": "582af8722df64744bbb076e9aa41895bbc702aec",
+      "sha256": "0939402bfd0d090fbacefc6452ae55a20900ee00e4813f843681d2839422c2b7"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/10A_原著事件捕捉二次反向歸屬掃描_091-120.md",
+      "bytes": 18511,
+      "gitSha1": "3d2a4d7d2a3e22f0ad8f34e3374a5d03ed24e649",
+      "sha256": "29e022c2b7635b03d8184844d27595eb48cc844e74dc93f9058c0d67f2e05293"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/10_原著事件捕捉反向稽核_091-120.md",
+      "bytes": 10418,
+      "gitSha1": "39bbb33fe9f93ef4a438dd39ab6d49340526a530",
+      "sha256": "516593fb59e51a815f2752d28a6126bc650bfbc72f422819f393856ce321d7cf"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/11A_原著事件捕捉二次反向歸屬掃描_061-090.md",
+      "bytes": 19022,
+      "gitSha1": "a5a733f832f8a047d3ce4096682a81141cb0e026",
+      "sha256": "103493263828561b2842330634b0645b2c4dd087bcd3330817af1e1ad3ada5ff"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/11_原著事件捕捉反向稽核_061-090.md",
+      "bytes": 16237,
+      "gitSha1": "f4df7bb2d34b2ddf90ec82128878a87b6086fe04",
+      "sha256": "e0f1b36bfce4344294d2b22387b01cf5ad49cda673de4f11042df82bb24f4a78"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/12A_原著事件捕捉二次反向歸屬掃描_031-060.md",
+      "bytes": 14958,
+      "gitSha1": "bec0165ad6cf98a0b6ff0bb8db699a562575f1ce",
+      "sha256": "b3bb581c342b3de820989f717b0f94b0277a9aea13ef3575a92ec9916a218b9d"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/12_原著事件捕捉反向稽核_031-060.md",
+      "bytes": 11822,
+      "gitSha1": "0f65c8f182ddac57bb0e5830ab3b66d47d33b37e",
+      "sha256": "de7d7cb3cbcf53ecda95cadfb84a27a355f006ce742bbfbb7fc27162620d4382"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/13A_原著事件捕捉二次反向歸屬掃描_001-030.md",
+      "bytes": 18019,
+      "gitSha1": "ed3e919d5f06cc54dc7a2390e8a4c5b4c6b994ea",
+      "sha256": "2df95e97ebce65a8d617045df3911e6d6eed80edb4b06aef6692086cc349205e"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/13_原著事件捕捉反向稽核_001-030.md",
+      "bytes": 16376,
+      "gitSha1": "ffa7c76a905b33c60d17c4fa18e32747000c44ea",
+      "sha256": "b6f9bad3b3b7c0bb2eb11db81a157783121b76edaa1a490fc7bca54a197fb692"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/14_SOURCE_NODE回歸稽核_月神石與傳送珠.md",
+      "bytes": 13187,
+      "gitSha1": "03db86c3aa163c6ff7c5bdfabbd4f58eedcc16a8",
+      "sha256": "5db0f24265544008d2a1ab22e2845b53bff57e3ad1e971cb92d97e08a771462b"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/15_SOURCE_NODE_斯芬克斯契約與裝備強化.md",
+      "bytes": 5524,
+      "gitSha1": "11c4702af77ae5cd33a1faccb9eaa00b863264ea",
+      "sha256": "9c59f612561522ec6c384100cc66c7035951a4d39abe3c6182a0b8b2302eb9e4"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/16_SOURCE_NODE_星辰深淵來源與芬里爾煉化鏈.md",
+      "bytes": 10913,
+      "gitSha1": "9c6b5900ce2bdfe66ab99fb19d24037d4c624d55",
+      "sha256": "672c7f57d06d9beb1e7dda54b141d4cd69d06599e5404d1d8942440ae4129c63"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/17_SOURCE_NODE_主城回報與星辰果實物流起點.md",
+      "bytes": 7576,
+      "gitSha1": "831b13ce4854d205a7f4a76c8e3d08e7cd912d4a",
+      "sha256": "f9271a706dd20e68c6f3907eab2c37f929842ed2e680a06c888311470dd28368"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/18_SOURCE_NODE_世界第二第三順位與黑色暗流獎勵保管鏈.md",
+      "bytes": 7219,
+      "gitSha1": "f5a4cd630a37551369f44988a23ad86daa370943",
+      "sha256": "9292543f2a51c9cf2e5922c486fb5b5c249b6797f4fc5bbf5e9c42e034062f57"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/19_SOURCE_NODE_世界第四至前十順位與剩餘原物保管鏈.md",
+      "bytes": 7128,
+      "gitSha1": "59f27209081af400567d404ddc27cafffcac08bd",
+      "sha256": "7307f4a89e843d7826a00e7528e91db586477b3a56aaab362403c9da6e621737"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/19_原著事件捕捉_211-240.md",
+      "bytes": 61697,
+      "gitSha1": "2de1631d2014edb3c9afc0a9bb74f85b34aa05e5",
+      "sha256": "a2dacfae7bd52cf4f63e8b57d61801d21aac7ec4a0c83de5517a6dea5f542525"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/20_SOURCE_NODE_黑色暗流暗金資產來源稽核_INCOMPLETE.md",
+      "bytes": 3161,
+      "gitSha1": "79af98d2e9bccd910952a2f81617cbe77561f3f7",
+      "sha256": "45dad23f6b5d8ad9b5b3073b4e867230cf996711be3a43ba320420c48789ee4c"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/20_原著事件捕捉第三輪交叉稽核_080-240.md",
+      "bytes": 24710,
+      "gitSha1": "d7c37d7cf7f4551c7bb53d7ab334ca8ac126fc35",
+      "sha256": "8ad290ce264f625ae717d4b748fb6e5b9c6fc793d690ba9359b9171686c553b1"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/20_原著事件時間序第三輪稽核_080-120.md",
+      "bytes": 11614,
+      "gitSha1": "408a6b47f017e4e6a64c1903ab530aaa17f6972d",
+      "sha256": "8299288d79e3bd35a6eae455dd977fff23ededa661accef28e60884ece052846"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/21_原著事件時間序第三輪稽核_121-180.md",
+      "bytes": 11471,
+      "gitSha1": "7729af3afd27740302a3e0ce4dd85eb573f7e0e3",
+      "sha256": "5be43e5d3a66ba73411a401bb0da66720d9490ce04448a1087a32ea6b6648b27"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/22_原著事件時間序第三輪稽核_181-240.md",
+      "bytes": 11267,
+      "gitSha1": "d22d95ca7b45d136f216f5e816c86a5bc5e2ea62",
+      "sha256": "97b606fb96b345c7faee01851688ee51e8a7bd3d05aa509cdb197f712fcdfc10"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/23_原著世界內事件真實時間線_070-240.md",
+      "bytes": 19870,
+      "gitSha1": "df8576aa0b27b6b1b8124bfc04f06f8cad695d6c",
+      "sha256": "ab2d15c476c9a98ee93fa10bcd32dbf9a2f52fd0ca690319fd04f29e3ad7534b"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/24_SOURCE_NODE_千幻之心第二身份與Franiya法師線回修.md",
+      "bytes": 7449,
+      "gitSha1": "ecaf2f901b4f7012bc1c66c40c72827d05780ad1",
+      "sha256": "9ff42106a01a3f1f278fc8d7e947fd9bfd4a6277da6b149ce1b02fcbcf6fa1e2"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/25_SOURCE_NODE_第96至100章人物網與高價值資產轉移回修.md",
+      "bytes": 6275,
+      "gitSha1": "c715dfbabffc5a9375d8017d162eb85004915f04",
+      "sha256": "893c6e20ad0bb5159b02cf19c48e75c96024ba242e42dc8a96c1af90f4b69354"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/26_SOURCE_NODE_第68章源義清與國際異能線漏失回修.md",
+      "bytes": 6729,
+      "gitSha1": "8fb107e1272924b90ba3860ba0b4626c070e0aec",
+      "sha256": "4cc25fd01307b33070bc67ec39488717cce4ca4958fddd5565412eae6e5c2e80"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/27_SOURCE_NODE_第55至100章總漏失與資產截止稽核.md",
+      "bytes": 12952,
+      "gitSha1": "bd8d9b0d591a97ab8e7b25bda354dd25daaca09f",
+      "sha256": "5537af14ade7f8074358120fa589d2fcdf27f4e18968e4d0c8678f105f674351"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/28_SOURCE_CAPTURE_ACCEPTANCE_091-120.md",
+      "bytes": 44548,
+      "gitSha1": "57b7dc505502473890bbda75ddbdd8abfec4d5d8",
+      "sha256": "a8f8031dbcfe1c0416cf351ea3436f20315e699828ec80c1e379dca8cd3637a9"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/29_SOURCE_NODE_第101至106章主城權限與皇家寶庫窗口.md",
+      "bytes": 12530,
+      "gitSha1": "7910dbd6b9c171fc92591b27e3a22554546ef162",
+      "sha256": "3b62766335be57d0a17390f181698d90d8c6b7a382c53437ac2c321195fb7046"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/30_SOURCE_CAPTURE_DISPOSITION_OVERLAY_101-106_AFTER_CH56.md",
+      "bytes": 8990,
+      "gitSha1": "6156bc946412c855285f78d5ff6dc87268f28667",
+      "sha256": "e0afcacbf23e9caa4254ecf241b7d5b36ed1a2769a94d4c7dea9b6afe23e46d6"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/31_SOURCE_NODE_VOID功能殘留與第102_106章回修.md",
+      "bytes": 9301,
+      "gitSha1": "149d39a9fb39634c349fb0a9c26725cddf8842c3",
+      "sha256": "7c7476b0c4d24a0162d6c3b137303110ddf9221b47786341cc88638988737d78"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/32_VOID_FUNCTION_RESIDUE_RETRO_AUDIT_已處理來源窗.md",
+      "bytes": 10461,
+      "gitSha1": "55c44904d9fea0653704be064e4e10268d21a837",
+      "sha256": "ca6ccf9e9d40e1c498b9f71ea64056bb48cc4cd98122c0b438e59ced8408837c"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/33_SOURCE_NODE_第107至117章日光森林與彩虹鳥窗口.md",
+      "bytes": 16357,
+      "gitSha1": "b4f4e1195e6105a86c19164ee41202c92680b482",
+      "sha256": "6cc90fe512362b6fb574f9abb9e82ef42590a77bf3f778f697a3a3c377e358f2"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/34_SOURCE_DISPOSITION_CORRECTION_109D_112C_113B_115F.md",
+      "bytes": 7391,
+      "gitSha1": "de00976d9d18fef9e504743537b1d5e336988f07",
+      "sha256": "e80d66a26515ca40eab23ccd5ad5545ca6a98ce65252c1105be7cd7e09da71c3"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/35_SOURCE_FULL_CANON_TIMELINE_AUDIT_107-117.md",
+      "bytes": 19591,
+      "gitSha1": "93be45e19f9b09f86215bbadec2f5bbf40273e81",
+      "sha256": "54aba43cb2c11c76eb263a5de1c019ea952eca1619f44809c22dfcb580f38048"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/36_SOURCE_CORRECTION_111G3_112B_雅典娜第二身份入口.md",
+      "bytes": 4070,
+      "gitSha1": "676ace04b85c75d31b748502b5f193d982f08e40",
+      "sha256": "b3a96e6719b280343eb525c1b6ef6440c2eaf12f06f7a36f09a33d3c721d7c62"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/36_SOURCE_RETRO_REPAIR_079-080_107.md",
+      "bytes": 6974,
+      "gitSha1": "0ec82fb975fec6eef812077d901f8fb237203e61",
+      "sha256": "29825d76001b150ad0dfd61c0e8d9fc6010825ef054c067ed3e2042c19d73f76"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/37_SOURCE_LIVE_REBUILD_113-115_CH60.md",
+      "bytes": 9353,
+      "gitSha1": "fe74fe0a8745ddc3d21fdf48ebf1122886470abd",
+      "sha256": "2a2a3acc0401e09353597041bc531c7d628343fb3d330675412aa6e22817fbbc"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/37_SOURCE_TIMELINE_ANCHOR_115F_四翼黑龍.md",
+      "bytes": 2795,
+      "gitSha1": "cfb1e1c79ce5fcddf3293cc94a9ddf63effd3132",
+      "sha256": "1afbb4bc3ef5d53cc97b96a3fc9e09ebbd8f52c53b15f1efd65ae83aa0ecabcd"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/38_SOURCE_LIVE_REBUILD_116-118_CH61.md",
+      "bytes": 9302,
+      "gitSha1": "645c863c9bcd0ab919dfa5e7922e26bd5137fe77",
+      "sha256": "60385718fdb1d2360c355b03c273b23befed1610ee63520303fd3bb5161034d7"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/39_SOURCE_RETRO_117_俯空殺與BOSS掉落.md",
+      "bytes": 5015,
+      "gitSha1": "961d4ac752881e40feb5bb8a6dfd5ffddf3e6908",
+      "sha256": "1e07bfb080114f7beca3038b9664021fe99922a37dd839a1cc3dfeb4c90d01a7"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/40_SOURCE_LIVE_REBUILD_119-121_CH62.md",
+      "bytes": 6372,
+      "gitSha1": "d11a2422d9056b000dc7f48d47ba688eec501b34",
+      "sha256": "a1841b2ed90bde2d6f73495c70e569d16b3304994f150f43c195dbd381af8e21"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/41_SOURCE_CAPTURE_ACCEPTANCE_121-150.md",
+      "bytes": 19942,
+      "gitSha1": "89b0618fa1870127251fc44bf3edafed362338bf",
+      "sha256": "de3632497c2a6f03be3b3dec4aefb1ea6bc9f2fb6014f32740bca6467b66308b"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/42_SOURCE_LIVE_REBUILD_122-124_CH63.md",
+      "bytes": 8460,
+      "gitSha1": "d7c8b6438c10e393d0afb790fd162d8240feb4e2",
+      "sha256": "b90b3395f0462825c5a4f1113183dadc4038f18df20c405eb8c36014759197e8"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/43_SOURCE_RETRO_100-130正文結果漏項與延後責任.md",
+      "bytes": 5365,
+      "gitSha1": "1ffd08b9f74c71b8d6c7aebf6ce9c9685d638e6f",
+      "sha256": "bd7aa1e7b15696096b056007cdbbbe0711e6bb17bf00e9d223699bde91be90ae"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/44_SOURCE_RETRO_116_踢擊完成度與反向掃描完整性.md",
+      "bytes": 3954,
+      "gitSha1": "9363cddca2c63970ad1a753dc074e28275f51dae",
+      "sha256": "76e8b83d1d6c645ace30a7907250c2b30d2ba54254440b29594904dbc938cfaf"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/45_SOURCE_CHAPTER_EVENT_MASTER_SET_100-150.md",
+      "bytes": 82545,
+      "gitSha1": "cc6135f69c9496aac974913bd15cf0b582583051",
+      "sha256": "e2f0520ed3503c512a829633713ec74dd8629f1840136a1271025294a9737a70"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/46_SOURCE45_CH122_123已落地Disposition同步覆蓋.md",
+      "bytes": 2806,
+      "gitSha1": "94ee66b1706349eba2cc718248c90e0b924b682e",
+      "sha256": "d45112f9cfae1efbff91408e91d166b9ee54c264feac71155e8c1b1471ab77f1"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/46_SOURCE_CHAPTER_EVENT_MASTER_SET_150-200.md",
+      "bytes": 53720,
+      "gitSha1": "dfd6418c959dc767964df0eb30c3f7a093a94465",
+      "sha256": "dbeaf7848250d12da63f645042d3dba5a8953129a7dbde1808021d64e79e3e8f"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/47A_SOURCE_FIRST_HAND_CAPTURE_241-250.md",
+      "bytes": 16102,
+      "gitSha1": "dba62106015a832233e7ae2174f03966a454519c",
+      "sha256": "51fef9490e3f410a1054fd4fafaa83308d28fb2b87d9b06f429e17ef0638ebd2"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/47_SOURCE_CHAPTER_EVENT_MASTER_SET_200-250.md",
+      "bytes": 48455,
+      "gitSha1": "a84fa37074e7c22f708d76e4c58c30cf8c726d8c",
+      "sha256": "44aa0f1095bef098ebf839406a01c1f8fbf853056d7f2b4c0b6ad338bffda386"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/47_SOURCE_LIVE_CH125_129_CH64結果對帳.md",
+      "bytes": 8705,
+      "gitSha1": "ef14700902857b26284c01de70cabe6de744e349",
+      "sha256": "f59f6b98f11a6481555980c01421d3e22e0bbb9d568c0eb818ee0955d310d41a"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/48_SOURCE_CANON_MASTER_100-150.md",
+      "bytes": 53008,
+      "gitSha1": "3b195a56e1867967bd9beea6450a581701a48f58",
+      "sha256": "df5bc1b58bb43301548aecf7c1ac13ec52ea8d8ee044fdcc98e37f3fba5bf6af"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/49_SOURCE_CANON_MASTER_151-200.md",
+      "bytes": 51139,
+      "gitSha1": "a24862f5590325abb15023933cd6c02195bbcf18",
+      "sha256": "d7c9e3b8b6914a6acf412a162163dbf5fa279c12fa6a3414a31aa4b2a3426635"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/50_SOURCE_CANON_MASTER_201-250.md",
+      "bytes": 35041,
+      "gitSha1": "ea271d765e09ff75d127c83cb28f6ad1c3817f2f",
+      "sha256": "5490edaa0e38ad54a7a20be202e82178063c45477f2b2633b26e154d0a5741c5"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/51_SOURCE_CANON_MASTER_251-300.md",
+      "bytes": 74788,
+      "gitSha1": "29330545f7d5f6de84cc86d8a1b85bd57d7ec7bf",
+      "sha256": "f213cf1017f16516b89f2ec8ffe6cfc80617099100d1b12d1008f4c47f5a271d"
+    },
+    {
+      "path": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt",
+      "bytes": 12120030,
+      "gitSha1": "a35ea27850fe833c8d86b76c8bba44f4228f1f19",
+      "sha256": "28489d8f2777f8f8a0a5a83421f22659d6d092bb5aba01506db1d7327edd14e2"
+    }
+  ]
+}
