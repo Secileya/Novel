@@ -251,3 +251,7 @@
 ### 2026-11-26｜第63C輪：三部原著137份現行展開卷實體驗收閉合
 - [x] Z02-ORIGINAL-LIVE-137：承接63A/B已驗50卷，按61B逐件Drive ID直接下載BUG其餘87卷，12120030 bytes，87/87 SHA256及bytes匹配；卷序重組原著SHA256 28489d8f2777f8f8a0a5a83421f22659d6d092bb5aba01506db1d7327edd14e2、Git blob SHA1 a35ea27850fe833c8d86b76c8bba44f4228f1f19。三部累計137/137、19069258 bytes，逐卷獨立實體雜湊及三原著重建全部精確；不重驗已驗ZIP，不宣稱出版原著完整或語義研究完成。台帳207卷之70差額仍未找到可證明之來源範圍，另列待查，不計缺失、不強改舊紀錄。
 - [Git逐件清冊](核驗清冊/R63C_BUG原著87卷現行實體核驗.json)（f875c34a2f9ed08d0366b023b63f0301587638f5）／[Drive](https://drive.google.com/file/d/1SrHRr5PAYG91MeuMuZtOVaLH7rJI9MrB/view)，56127 bytes、SHA256 f910fc4cf6612fefc206a2ed34ae68cfad490b855173268d126f461ae6e7416b，雙庫讀回一致。未改Canon、AUTO、游標、觸發器或刪檔。下一步832卷現行展開實體雜湊、207口徑、其他合冊、圖像及雙向差分。
+
+### 2026-11-26｜第64A輪：現行閱讀庫首32卷實體驗收
+- Z02-READING-LIVE PARTIAL：承接60A定位清冊，五個專案、12類別32卷逐件按Drive ID下載原始bytes，按資料夾分批防止同名VOL_0001等覆蓋錯配，全部SHA256及bytes與14a38e1固定MANIFEST吻合，5748354 bytes，0差異/重複。累計現行832卷實體驗收32/832，餘800卷（60B定位清冊）待逐件內容核驗。未重驗已完成ZIP，不把32卷等同全文語義研究或最新main。
+- [Git逐件清冊](核驗清冊/R64A_現行閱讀庫首32卷實體核驗.json)（1d0ef2f5adb77511f0656ea1eb68f7849a6b3b6f）／[Drive](https://drive.google.com/file/d/1HowI0BxcsBhICoKc2RUcKV06SPR1Ubk7/view)，15411 bytes、SHA256 8b4b6528c3926fb9a66c353d75b4650d74dcf5c90a37759de8f24ec16ffc7132，雙庫讀回一致。第63A/B/C輪原著137/137實體已閉合不重做。207舊口徑仍無足夠證據；另查14a38e1 MANIFEST三原著原始TXT在通用閱讀庫占82個來源片段（52+15+15），與137獨立原著分卷屬不同分卷制度，不能直接相加或補70。未改Canon、AUTO、游標、觸發器或刪檔。下一輪從60B尚未驗收的800卷逐批實體核驗，另追查207口徑、其它合冊、現行原圖及雙向差分。
