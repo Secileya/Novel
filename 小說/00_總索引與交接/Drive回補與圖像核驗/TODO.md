@@ -317,3 +317,8 @@
 - 42/42逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，9,731,919 bytes；重建4個完整來源檔，9,721,039 bytes，Git blob SHA1及長度全部一致，無未閉合來源。
 - [Git逐件清冊](核驗清冊/R66B_方九莉雅專案根目錄0001至0042實體核驗.json)（d5e18cd8fbadfb15bfc13b80e3f6548c5a61e000）／[Drive](https://drive.google.com/file/d/1AStBUBHU0z792KjZHWxuUNi_RC8b8CR8/view?usp=drivesdk)，23355 bytes、SHA256 3bf22a05575a94c0e6ccbbf624b8c28d412e46dcf0bade1136abecbaab35e120，雙庫讀回一致。
 - 現行一般閱讀卷累計467/832（93,168,970 bytes），剩365；下一步理惠原始對話37卷等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第66C輪：理惠原始對話37卷現行實體驗收
+- 37/37逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，7,710,740 bytes；重建78個完整來源檔，7,689,816 bytes，Git blob SHA1及長度全部一致，無未閉合來源。不改寫原始對話，不作內容採納。
+- [Git逐件清冊](核驗清冊/R66C_理惠原始對話0001至0037實體核驗.json)（a6d7c36b645f9630a9a1f791b558b49cb447143b）／[Drive](https://drive.google.com/file/d/107OUAdW_CIraOHnJGQt7JhyTmqp5XkxX/view?usp=drivesdk)，40062 bytes、SHA256 9cbe7c9d4ac1108589e2048fdd80b603597c2e6b1caf0de32e737e70ae22d5b7，雙庫讀回一致。
+- 現行一般閱讀卷累計504/832（100,879,710 bytes），剩328；排除所有既驗ID，續未驗分類。未改Canon、AUTO、游標、觸發器或刪檔。
