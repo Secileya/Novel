@@ -1,0 +1,952 @@
+{
+  "round": "R66F",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "observedMain": "9483a2cc43a054c63b3e7a61740f954feee679ef",
+  "locatorBlob": "e83238f8b4061900b6d5a3fcc024061fb2f9a0d3",
+  "method": "Raw current Drive files individually downloaded by fixed R60B IDs, SHA256 and byte size compared with R60B and fixed MANIFEST. Reconstruct sources completed in this batch by source offsets, using locally retained previously verified pieces only when needed; no re-download or double counting. No ZIP revalidation.",
+  "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+  "range": [
+    1,
+    19
+  ],
+  "count": 19,
+  "bytes": 3911531,
+  "reconstructedCount": 117,
+  "reconstructedBytes": 3877211,
+  "rows": [
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0001.txt",
+      "id": "1fnttH-VY3a81STUbRoK245PLeXpQYJ9C",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 237016,
+      "mime": "text/plain",
+      "expectedBytes": 237016,
+      "expectedSha256": "618156258b50dcae814bbe172a665deb41e8064608f51c4ab015af09a661ae2a",
+      "actualBytes": 237016,
+      "actualSha256": "618156258b50dcae814bbe172a665deb41e8064608f51c4ab015af09a661ae2a",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0002.txt",
+      "id": "1OWsrQGKPdgC0TJ9trHJqaJZ6MomSIS_t",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 51229,
+      "mime": "text/plain",
+      "expectedBytes": 51229,
+      "expectedSha256": "ef002648e27128c5213fa507dc997112e0067cfc79eb7420a3ade96d12ec8743",
+      "actualBytes": 51229,
+      "actualSha256": "ef002648e27128c5213fa507dc997112e0067cfc79eb7420a3ade96d12ec8743",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0003.txt",
+      "id": "14ZetQwQeW4SN3zqHgaV6Lwa0On11ZJYo",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 237266,
+      "mime": "text/plain",
+      "expectedBytes": 237266,
+      "expectedSha256": "9dc7a7cab6d6215010686c70054692c38ea6db6fae3736b3af77fb425a6c3c0b",
+      "actualBytes": 237266,
+      "actualSha256": "9dc7a7cab6d6215010686c70054692c38ea6db6fae3736b3af77fb425a6c3c0b",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0004.txt",
+      "id": "1_ukE7a_tryFABVjYjd363fuaHmOMYMMm",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 236205,
+      "mime": "text/plain",
+      "expectedBytes": 236205,
+      "expectedSha256": "2c708a3ca5d92d2e1931a427ef2e97b16746adc370dbaa69ae8f1cee2dca6e2f",
+      "actualBytes": 236205,
+      "actualSha256": "2c708a3ca5d92d2e1931a427ef2e97b16746adc370dbaa69ae8f1cee2dca6e2f",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0005.txt",
+      "id": "1pJJs5a3DICNNHfrrVLuEh57-VWneO6rG",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 234281,
+      "mime": "text/plain",
+      "expectedBytes": 234281,
+      "expectedSha256": "37d04b5ae30e0a0191e7f2f76cca0618565e02da4247b6cf098aa718145e70d2",
+      "actualBytes": 234281,
+      "actualSha256": "37d04b5ae30e0a0191e7f2f76cca0618565e02da4247b6cf098aa718145e70d2",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0006.txt",
+      "id": "1o6R2xaYscnkFmVLWRNzcrkBkorV6vFCT",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 238911,
+      "mime": "text/plain",
+      "expectedBytes": 238911,
+      "expectedSha256": "70671266bb6455ad1e3cea4a410f12e29d677df22c61072d55bf9dab4a3527da",
+      "actualBytes": 238911,
+      "actualSha256": "70671266bb6455ad1e3cea4a410f12e29d677df22c61072d55bf9dab4a3527da",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0007.txt",
+      "id": "19KK7cgerVSNao6KSBpiuJdjFvQt9vYQD",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 205420,
+      "mime": "text/plain",
+      "expectedBytes": 205420,
+      "expectedSha256": "5fb55276e45e8755f951a9e03e0a58efd111d25ec116e96df815001abe07d5ad",
+      "actualBytes": 205420,
+      "actualSha256": "5fb55276e45e8755f951a9e03e0a58efd111d25ec116e96df815001abe07d5ad",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0008.txt",
+      "id": "1lV9jlagOzFpiNN_-WIKH0ZkctMxn0T6p",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 219083,
+      "mime": "text/plain",
+      "expectedBytes": 219083,
+      "expectedSha256": "36316e76eb8772d97b164b2554a2ced62281e6c724928613d0a14169c27bf30c",
+      "actualBytes": 219083,
+      "actualSha256": "36316e76eb8772d97b164b2554a2ced62281e6c724928613d0a14169c27bf30c",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0009.txt",
+      "id": "1UW6dFBa8THKiJPaNmoSTWGBOMvp8gUUN",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 209230,
+      "mime": "text/plain",
+      "expectedBytes": 209230,
+      "expectedSha256": "620ffc0ab93fc34f446fa54f9dd4f7b74853df3e98ede5fc128ab99c9eea5a2f",
+      "actualBytes": 209230,
+      "actualSha256": "620ffc0ab93fc34f446fa54f9dd4f7b74853df3e98ede5fc128ab99c9eea5a2f",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0010.txt",
+      "id": "1_0mfN2X4xusRYYvJSBDEATQzXCqENJ9Q",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 215281,
+      "mime": "text/plain",
+      "expectedBytes": 215281,
+      "expectedSha256": "20f015339ba18dd4dc1963cb0843c33ec1d1e9a58257c01ca90e70bc4a8d5d84",
+      "actualBytes": 215281,
+      "actualSha256": "20f015339ba18dd4dc1963cb0843c33ec1d1e9a58257c01ca90e70bc4a8d5d84",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0011.txt",
+      "id": "1rGcm9QwAGdFSjaQicB2UOGuaDYjiDldG",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 238409,
+      "mime": "text/plain",
+      "expectedBytes": 238409,
+      "expectedSha256": "201c8d62021e590750ab6d98cfdb3e59a37eb1f3e068c11e9272e218c86c4def",
+      "actualBytes": 238409,
+      "actualSha256": "201c8d62021e590750ab6d98cfdb3e59a37eb1f3e068c11e9272e218c86c4def",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0012.txt",
+      "id": "1s-sZdjTxNFUX-UBZJMvWoKtXUjPoqGUo",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 222772,
+      "mime": "text/plain",
+      "expectedBytes": 222772,
+      "expectedSha256": "fa429a380f5f2748b402d8038b624f12a2e514f1f54337c6ed242e6f75d5be61",
+      "actualBytes": 222772,
+      "actualSha256": "fa429a380f5f2748b402d8038b624f12a2e514f1f54337c6ed242e6f75d5be61",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0013.txt",
+      "id": "122wJSp57GqSS4xMQ2ii8DFllStO-KNAx",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 218735,
+      "mime": "text/plain",
+      "expectedBytes": 218735,
+      "expectedSha256": "251d377caa162cd17ef2621ab67fbd82f156ee2590920f3455dd0e0218c62e57",
+      "actualBytes": 218735,
+      "actualSha256": "251d377caa162cd17ef2621ab67fbd82f156ee2590920f3455dd0e0218c62e57",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0014.txt",
+      "id": "1qdh33q6Qmegn0BUUKbff2LaMsQd_xOeg",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 208286,
+      "mime": "text/plain",
+      "expectedBytes": 208286,
+      "expectedSha256": "2fde98813132441796631ec7afdd83c59d593fb180e8e1643617bf1573d39690",
+      "actualBytes": 208286,
+      "actualSha256": "2fde98813132441796631ec7afdd83c59d593fb180e8e1643617bf1573d39690",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0015.txt",
+      "id": "1endWslCrGKoFU4hnkbl1zda9Lq-lllah",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 232078,
+      "mime": "text/plain",
+      "expectedBytes": 232078,
+      "expectedSha256": "350c0202ee80b0c3b4ee127ac5856c06ab26d91c7e08e8b068190b0f5910a7ab",
+      "actualBytes": 232078,
+      "actualSha256": "350c0202ee80b0c3b4ee127ac5856c06ab26d91c7e08e8b068190b0f5910a7ab",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0016.txt",
+      "id": "17Nu5JhMIBy9a0-wcTUsOIZczBy1JLPNJ",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 224336,
+      "mime": "text/plain",
+      "expectedBytes": 224336,
+      "expectedSha256": "ad9cfd1e284fa934d2ebdc2af56d72eb30aa4b15e806341766f30804cca99362",
+      "actualBytes": 224336,
+      "actualSha256": "ad9cfd1e284fa934d2ebdc2af56d72eb30aa4b15e806341766f30804cca99362",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0017.txt",
+      "id": "1F9IBYh3D6JcygDvBIX9Y9j4iY1QvYUZu",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 234870,
+      "mime": "text/plain",
+      "expectedBytes": 234870,
+      "expectedSha256": "376b3e85461a1faedbfeb0124deb53e9bf0202d3627d8e8d84aa929c777242a1",
+      "actualBytes": 234870,
+      "actualSha256": "376b3e85461a1faedbfeb0124deb53e9bf0202d3627d8e8d84aa929c777242a1",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0018.txt",
+      "id": "1iqsapNIxrSBE4MxUgaPs9Jh4vK_3RqIs",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 237536,
+      "mime": "text/plain",
+      "expectedBytes": 237536,
+      "expectedSha256": "5789a572662d3abc045e9522adb35c706eb7fc69c96579e1543b38ab9c39a3d7",
+      "actualBytes": 237536,
+      "actualSha256": "5789a572662d3abc045e9522adb35c706eb7fc69c96579e1543b38ab9c39a3d7",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/待定正文/VOL_0019.txt",
+      "id": "1Y7XONhStIvItB068Aif0L_VvEOU5Hxsj",
+      "folderId": "16neLY3KfmDhBKXqgANblSCktcMGlLr9T",
+      "bytes": 10587,
+      "mime": "text/plain",
+      "expectedBytes": 10587,
+      "expectedSha256": "a63598bc26bf27489d04e85c09f8f5b6c91b01f84dffe6f3b7ce9dd76a580a6b",
+      "actualBytes": 10587,
+      "actualSha256": "a63598bc26bf27489d04e85c09f8f5b6c91b01f84dffe6f3b7ce9dd76a580a6b",
+      "status": "PASS"
+    }
+  ],
+  "reconstructed": [
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/00_第01至12章_最新補丁候選_完整順讀合輯.md",
+      "bytes": 287710,
+      "gitBlobSha1": "5280e1b1d4a09c514db70aafbb853fc9d5ad72ea",
+      "sha256": "53e142f5172d4d3a74b3ecbea64ef0eb0378a63d3d48a414be0a23f2206f931b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/00_第01至14章_最新已套補丁候選_完整順讀合輯.md",
+      "bytes": 367219,
+      "gitBlobSha1": "eb7ac478860c1a23bf539cb500fc352ada5bc73f",
+      "sha256": "13ea3094e53ebeb29e6fd2a077baa75869b5440a04fec39e0e80bb878161af26"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/01_版本差異_ChatGPT與Gemini開篇逐項比較.md",
+      "bytes": 15842,
+      "gitBlobSha1": "5de2f53cb105d8bddaecee61c9aa4c17c84de5d4",
+      "sha256": "70eb1fe2115922a884210b7c32614e807c294187da2b99eab8e7ab771f7ebfab"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/02_Gemini排版整理與原文完整性核對.md",
+      "bytes": 4422,
+      "gitBlobSha1": "c1ffab7d4222be0e73af0a3d6981b0bb8f83cd56",
+      "sha256": "71408d8b53987dc4133c3ff368c3ca7539b532a950e9519c999c2748c3887a2a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/ChatGPT原稿/A_第109_拆路之後仍有人走.md",
+      "bytes": 15043,
+      "gitBlobSha1": "b35bf25f5a6319f2281142072efff68b76ca2102",
+      "sha256": "9c851f4389a4dc8a96c692cf69f4bdec52a650c9a92f909f7a98594146e14a4d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/ChatGPT原稿/B2_出城增量_2026-10-23_非第152六章.md",
+      "bytes": 11854,
+      "gitBlobSha1": "74109577f7680717d17a8cf7c3530ec605d84899",
+      "sha256": "8af4e095b911804a88b55ee4da3545d28cf8b82184ddfb711692dd4d5d786d9b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/ChatGPT原稿/B2_第152_從上面下來的人_六章完整正文.md",
+      "bytes": 57239,
+      "gitBlobSha1": "a8f63bcb080f82ffec84da428b622b6dfc97f78c",
+      "sha256": "d7e39f1ba9b7de67ec14f6d9dcda7ef7cc6372aa1bb141d60cd3b65d22178ec6"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/ChatGPT原稿/B_第110_從上面下來的人.md",
+      "bytes": 18576,
+      "gitBlobSha1": "e38d43cd66ed934632613dbd7bbb4bb98e1d9161",
+      "sha256": "9af07804ca4481e5f420f45848b25d1877860b68da0e42c58457c41b66d22553"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/ChatGPT原稿/拆路P0_第091_第一章_那條路正在被拆走.md",
+      "bytes": 14349,
+      "gitBlobSha1": "a7276825ab0ebbdab8e1c71c124399facdfc1423",
+      "sha256": "e1fb3ec951f1b06efbc796eccf513d6f99d654ddd4fd48b1139db290429199a5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/ChatGPT原稿/拆路P0_第092_第二章_舊站仍有人來過.md",
+      "bytes": 12505,
+      "gitBlobSha1": "b10196e6dfc6eeb3c198fa3f57c461dee3948e99",
+      "sha256": "ee761e6f6b10c5e58317981cf30acde273045663a2de1a42206f1315f6799693"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/ChatGPT原稿/早期_熟人版_第066_尚未拆下的那一段.md",
+      "bytes": 16749,
+      "gitBlobSha1": "20af6e4fbe9a6c4094c13542c41c4028a4098888",
+      "sha256": "c78b34f9f50993c37c6e1d66f301de7e89b92ef01083795476b33b30638eaf34"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini原稿/G0_第162_懸艙開箱日_首輪提綱與短試寫_聊天轉錄.md",
+      "bytes": 18133,
+      "gitBlobSha1": "b498e79a77226d4dae14e2fa5210d9afb09f9689",
+      "sha256": "4e60880d0258d41bca2268b16aba04934ff6880fbde7bd5ce4ae92d5ec41e760"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini原稿/G1_第153_懸艙開箱日_完整初版_全文含設計.txt",
+      "bytes": 29583,
+      "gitBlobSha1": "410d2523495c857a76d53fd1a9bd6a70030c427e",
+      "sha256": "1a124a52fc9067047f35b55bb6e11f1e56ad1fa79e0bde97e6000773286a20f1"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini原稿/G2_第154_懸艙開箱日_精修版_全文含地圖.txt",
+      "bytes": 30739,
+      "gitBlobSha1": "fa5a20eec7fd06e7caf3cc161c84971b36bfa2dc",
+      "sha256": "eff07e7104bd2351d1168ad413d5cf3836ae6db743e86cc72d0586739d8f0ae4"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini原稿/G3_第155_十噸重的帳單_第二章初版_全文含地圖.txt",
+      "bytes": 31942,
+      "gitBlobSha1": "c341cfe25bab32e833654546ab4e883e0ca2f000",
+      "sha256": "b547cf14725976e705ee733a7a5a133260e7a9894a928f17dc0d7d396c474582"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini原稿/G4_第168_十題人物日常復歸群像_短篇試寫與提案.md",
+      "bytes": 28796,
+      "gitBlobSha1": "50ca7a0649af86322adc110a4edbab24c834b4fd",
+      "sha256": "588308ac4413be183063487e950c03a761afe325732c2dc04a4d4036cf60a1e1"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini排版全文/153_G1_懸艙開箱日_設定與第一章_完整排版.md",
+      "bytes": 30157,
+      "gitBlobSha1": "0edebc567df4413b4c179edea7f68fd2dadc41b1",
+      "sha256": "a75ac908c8d371123973d063651334182451ea435f2578fbd4be7eac7dca1c64"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini排版全文/154_G2_懸艙開箱日_世界層地圖與第一章_完整排版.md",
+      "bytes": 31367,
+      "gitBlobSha1": "e842d3894440aba806742d0cb339aad025045f52",
+      "sha256": "9e9adb87898290cf12b1419aec1213a369c59e2989cd2d7d1b83d63bc3f5db0a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/Gemini排版全文/155_G3_十噸重的帳單_地圖與第二章_完整排版.md",
+      "bytes": 32847,
+      "gitBlobSha1": "c52e5e9f959b1bad83fc9ac6462a4675eb0f9f7a",
+      "sha256": "2cd18968018c35ffcd3b66ee11c508ec57b55071602a37210bec07c08c19943f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/README.md",
+      "bytes": 32556,
+      "gitBlobSha1": "d104565c7e1af1d6da96bbcd9617d299f54d3775",
+      "sha256": "93e50c57de7f396549e45f555cfab28787704d621d6de9856c6700adc2056c87"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第019_女主兩場獨立能力場景.md",
+      "bytes": 18725,
+      "gitBlobSha1": "ef8f83365319f7a1793f2e711619f49585e31d7f",
+      "sha256": "a94d2b762a6272859ed45187cbe550510d3cd193a3c92989d87e9036e07eada9"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第064_還有兩張票_開場片段及地方事件.md",
+      "bytes": 22052,
+      "gitBlobSha1": "221b1ee5057ad6af0bec958274824b97fc1643a4",
+      "sha256": "f25e4ebf6d7da3f434f0da886dbc039f35a67ad4f994447afdc69364b8d338a3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第088_首次死亡與復歸短篇.md",
+      "bytes": 12746,
+      "gitBlobSha1": "07ce9451f87c6b0c5b63307ad6edd6002089eda1",
+      "sha256": "03b41acdd96731b4969932923cc19e8604cf3bad814dca3ee1c9a7ddb74182f0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第096_空心古根商旅與紫瞳少女.md",
+      "bytes": 24874,
+      "gitBlobSha1": "2116d4805bd0b59233aeb0a5a42ee9d532923e88",
+      "sha256": "1a4b2ad96c9aeff70f6befcacac5baff19dca5cb453772e34a0fb9ddeabb818b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第100_根橋與捕食者_巨龜城.md",
+      "bytes": 18628,
+      "gitBlobSha1": "7b06dd8975603d767788f684fcaaa355e0339f47",
+      "sha256": "d0bd680e34c61fb0f3a12e322c3a871bc5442f90ca04cdf8325aae958aeeab10"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第117_五組巨構荒野場景樣稿.md",
+      "bytes": 21844,
+      "gitBlobSha1": "7b0d82bb0cc2fb1034f32faaf25f11070c3601c0",
+      "sha256": "2b8c294a0eeac0b25d1dea6ab02a38a83014cf30af133f7ab2d92239284a73d8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第121_三段景觀與人物短場景.md",
+      "bytes": 20601,
+      "gitBlobSha1": "26db3f9680f22a4a45794f6245bcedaad2ef1d6d",
+      "sha256": "7d0504e5aba57fc5cfc346fff74ec13db39b2434d94aa62532101f85ed2b5d52"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第139_無名母女記憶_整合試寫.md",
+      "bytes": 19104,
+      "gitBlobSha1": "bf6748046787b1278fc6fdfdd1a92a6162c9e9c7",
+      "sha256": "513688afd78f5f11ceef756f54ce4129e24b0a49b71ab9cb286974b3381d3f3b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/ChatGPT_第150_走到這裡的人_靜謐迴廊.md",
+      "bytes": 38232,
+      "gitBlobSha1": "68a6947c7790799baf74fcf199f84156c18e346d",
+      "sha256": "509bba5e798140abd08dab044702b9ae29e6fc28539836dfcc7bff8ae13c8db4"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/Gemini_墜落深坑的剪刀石頭布_熟稔後獨立試寫.md",
+      "bytes": 6664,
+      "gitBlobSha1": "7ea52b7a47d62da94ecfbb02c116c8e470d1a394",
+      "sha256": "3400aca0bc36caa0183b67b3981a9db5a16045c94f916c19e2bff4f294d7bd82"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/其他場景/Gemini_靜謐迴廊白橋黑霧真死感_候選潤稿.md",
+      "bytes": 5406,
+      "gitBlobSha1": "131f488b42f386d88e6dc680b974b4e9027a05b6",
+      "sha256": "28a9e7318150b2b2634791f817740c2b9dd0e4e318ff984df172c72358aefd48"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/原始來源封存/20261107_第九章幕後因果與完整候選原文_使用者上傳封存.md",
+      "bytes": 28948,
+      "gitBlobSha1": "78adb6225d3ff3a71538a70e66cb176e1571f258",
+      "sha256": "410e751910ef9cf0a4c4f73ee2b0242a6828404065465a335287e8d4236e2f02"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/已選未發生/ChatGPT_第051_第三個座位_已選未正式發生.md",
+      "bytes": 12671,
+      "gitBlobSha1": "587b09553badce0e283d7fd2dcbf9e9d18ec2ed4",
+      "sha256": "50c590ecb467d06224e80f355bdb0474c3a967738f069d66c9493dd83d0c7cf4"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/提綱非正文/ChatGPT_C_B2_第134_完整篇章設計_非小說正文.md",
+      "bytes": 39420,
+      "gitBlobSha1": "791ce1c2e5f6decbc53728dca0bb96e418c88f92",
+      "sha256": "7f0214677348957084508ab6d91f680cfb054b169861fedb063e207b9d316a08"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/提綱非正文/ChatGPT_第034_倒行潮_舊首篇大綱非完整正文.md",
+      "bytes": 20599,
+      "gitBlobSha1": "cc238f2fbfe267beaf3ed104fae465f4d0fe2782",
+      "sha256": "bc45526f8aad3f976682e75a6f8e78db1438fce19f8e42fc79b066b347279f17"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/提綱非正文/ChatGPT_第078_從上面下來的人_早期因果實驗.md",
+      "bytes": 9065,
+      "gitBlobSha1": "4832fe6660384bc38eaf8378091fde368a7fb3d3",
+      "sha256": "42d81ff9f224f6aed66e633b5bb135375afe706fa769c346397fe9918db11435"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/提綱非正文/ChatGPT_第148_白髮與雙向危機_五版摘要非完整原文.md",
+      "bytes": 6345,
+      "gitBlobSha1": "5f05f87cd14c1812af2c683f9c0d4eb1b1a4c3da",
+      "sha256": "ca62c84885912a47754a13def02847bdf8f67b747433723bd54d0299e215c6f8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/權柄與高維規則試驗/20261118_倒回來的火與消失的橋_時間空間權柄對撞完整事件_R0_非正史.md",
+      "bytes": 15850,
+      "gitBlobSha1": "1eea3d868a8e6fc1f0519d3f738878313ba1a276",
+      "sha256": "9c890841608e76654b78c05d13bf177e1cecb76e41ce924119455ca66a43cbf8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/第七八章_G9D_G10R1_合併完整修訂候選_含作者層劇透與錯誤修正.md",
+      "bytes": 44017,
+      "gitBlobSha1": "9e79f126a6d7851f187b6219d2f0b2d7d3a9349b",
+      "sha256": "11d8c9b62eb1df948b9dd102185986add4737e99de81a1026cfd7f89b1c370d3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/第七八章_G9E_G10R3_Gemini跨輪精確補丁整合_衍生完整候選_20261106.md",
+      "bytes": 54669,
+      "gitBlobSha1": "18aac1b659144a8d44e4d33ee2ce00c9b8d017b4",
+      "sha256": "7c05a77ded4bb45cb1adbb54c706d02df212faddfc0eb8c1b91403a65ff56ffc"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/第七八章_G9E_G10R4_Gemini四處工程因果微補丁_完整衍生候選_20261106.md",
+      "bytes": 58088,
+      "gitBlobSha1": "e67c4afff89bad1869d430f8835bdcf53ba6b6f0",
+      "sha256": "5d840d544c7b87f4d9afa0c4a71600a91e60425a1449285d1b47a61ec1b7fb41"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/第七八章_G9E_G10R4_已套A_B_C_應急D待核_衍生完整候選_20261106.md",
+      "bytes": 55896,
+      "gitBlobSha1": "0874d8f4b4fb8f16e80c3f9bd454908816ebfb2e",
+      "sha256": "ee0ebd658eb22926705ef3e2034a2f86b712c95b7630267a1428f2e916448e7c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/第七章_底錨塔裡的無聲客_原文待回收登記_非小說正文.md",
+      "bytes": 4976,
+      "gitBlobSha1": "793c38f6ee0e618cfff0a8900ccc15bb6358e81b",
+      "sha256": "22904526122ccc007fd1468d2c80ff45eaf4bf3af3063159b0975ea0cb7fc212"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/第九章_兩千公尺的卸載燈與蜂窩襯套_結案收束整合候選_20261108.md",
+      "bytes": 34047,
+      "gitBlobSha1": "5a374361011b8b8aac217e588e0161ec26a9fda3",
+      "sha256": "c9b365b494d165384757c558ae24f26100634f651dcce64ed24c3a5178aa26e5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_ChatGPT/A_拆路之後仍有人走.md",
+      "bytes": 12673,
+      "gitBlobSha1": "b59598c4b08bfb75a87041b88e75e6f1358f61bb",
+      "sha256": "dde091d78ae5b56df7b3868a027842755e96704df546110fae3e14f8926f5416"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_ChatGPT/B2_從上面下來的人_六章全篇.md",
+      "bytes": 56861,
+      "gitBlobSha1": "8065a7c973db240c3527632c2b0948774c5074f1",
+      "sha256": "a3c19b2d0c040e3725b412cd391c2339e63a7917defceb0408df7e02e558f255"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_ChatGPT/B_從上面下來的人.md",
+      "bytes": 16033,
+      "gitBlobSha1": "bff50ea18dd8f398d1a3bece5f61d2d3935b94e3",
+      "sha256": "6757108650897ca7e16527fb6382af1ad0eba9ee18a1ba71db12bacb8f302e26"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_ChatGPT/拆路P0_第一章_那條路正在被拆走.md",
+      "bytes": 12646,
+      "gitBlobSha1": "f7b4a62c69eceb050de2fbf68fa570cd1196049d",
+      "sha256": "03febfa000f53c749175a858e70ee76401403915b8d26bef4e3bc963e5c36b9d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_ChatGPT/拆路P0_第二章_舊站仍有人來過.md",
+      "bytes": 10853,
+      "gitBlobSha1": "db1c2b23d42b01a16081b64ee52c8b8f7a62d011",
+      "sha256": "6d6d34546f4a47818e731c70d7307db0bb1351b77f93ad91c7a44ad62db2bea7"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_ChatGPT/早期熟人版_尚未拆下的那一段.md",
+      "bytes": 13316,
+      "gitBlobSha1": "826193863a404e314947af2f9355857244df39e4",
+      "sha256": "45f4e742249be8908ff5aeb6daba4b11842f915a6a41293ddc690fe25f35f02c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/00_請先開_最新補丁順讀_第01至12章.md",
+      "bytes": 2578,
+      "gitBlobSha1": "e67e76e8643847ce0455bd672aada146bb793675",
+      "sha256": "d334000bd27955126c95c738a8fbceaa3fb0780a9c66330ed0c06a3e6edc03be"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第一章_G0_懸艙開箱日_初稿短片段_非全章.md",
+      "bytes": 4897,
+      "gitBlobSha1": "b2f189c1198114cf4dde0bf29720acb4aaa40079",
+      "sha256": "e17366b2cab35e253ac06424ae5dd81522641321fe3e100c6f5c1af0673070d7"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第一章_G1_懸艙開箱日_完整初版.md",
+      "bytes": 23607,
+      "gitBlobSha1": "92846b0873352b6299c0f1c3a2c4551a206bf4fc",
+      "sha256": "412b8dca0f0cb99b7e68972a6d831cbff213dd72ca3d2a1a5c7d665b6d324d68"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第一章_G2_懸艙開箱日_距離與章節分拆精修版.md",
+      "bytes": 18757,
+      "gitBlobSha1": "8c6d98d72d8c7ae69c39707679fd9bf32ead0e77",
+      "sha256": "1074e5828fde020793964c8e08df92b45da3f55de211429677af1043651c46b3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第七八章_G9E_G10R4_ABC加極簡D_完整候選_20261108.md",
+      "bytes": 49347,
+      "gitBlobSha1": "25a6a5ba2fdaa273e5bc7affdeb1c3946f782205",
+      "sha256": "c6a5852ff741e264ffa586906fb83546fc1abdb0abebacba30677de1e161c9b8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第七八章_Gemini_2026-11-05_同步修訂_使用者上傳完整原文_候選.md",
+      "bytes": 53940,
+      "gitBlobSha1": "d6ced146a777cb82d9f1acb1f648c027e7814a07",
+      "sha256": "652d7a4edc467b28974cf2759c02e9b3239bfe88bae557766a9d18c6e74e1ba2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第七章_G9A_底錨塔裡的無聲客_精修版_使用者回貼候選.md",
+      "bytes": 21147,
+      "gitBlobSha1": "686660c8c83105ffaf986c10938f8bd9f12ef778",
+      "sha256": "811ff373c0dad39353e1415287393aba4ebd9cbd99f50435c835bd07f336f939"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第七章_G9B_底錨塔裡的無聲客_融合增修版_G9A加Gemini三處補丁_候選.md",
+      "bytes": 21405,
+      "gitBlobSha1": "22297bfef8df5ff101e2c21af66fb380894c060a",
+      "sha256": "3e474ab3523e1b859659b7ef69e275b51093986548f7ee2e3ed92ded0e3e4836"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第七章_G9C_底錨塔裡的無聲客_銜接動作與阻尼楔修訂候選.md",
+      "bytes": 20570,
+      "gitBlobSha1": "82e229d0684a6c6f7da70a84a475c3e813d0ae51",
+      "sha256": "30e2f7c6818aeb3987dba8e8293133232f23383504324dc3551e05bd5173e5ba"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第七章_G9_底錨塔裡的無聲客_第一版原稿_使用者回貼候選.md",
+      "bytes": 20910,
+      "gitBlobSha1": "6e652144680ac7917c25ecd75227e8646930bdf7",
+      "sha256": "fb0b15d53b3212931597bda6b4fb7ea5536f7f120e73ea2f98fc6d71be39e09e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第三章_G5R_過風鐘與多餘的凹槽_300銀券修訂候選.md",
+      "bytes": 25875,
+      "gitBlobSha1": "c90533e556b15e84915aa2985bf83eae6b7a9f31",
+      "sha256": "a7e49c7fbf9771f5631acb938ebaa651d466b37fde632fa6cbbffea1279175bd"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第三章_G5_過風鐘與多餘的凹槽_候選.md",
+      "bytes": 25868,
+      "gitBlobSha1": "713e3c6a76f9448c907a1726529b845602c7da8f",
+      "sha256": "0e3267c92bf9e9ec8abb53eeea2748e9b5a69a78fd63a05de60a8edf135ec982"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第九章_Gemini_兩千公尺的卸載燈與蜂窩襯套_結案收束合併全文_候選_20261108.md",
+      "bytes": 34087,
+      "gitBlobSha1": "79740ef7b0c93007a16b416cb9b892db86c937ab",
+      "sha256": "b85e299c827854299125e1e7b4323284fc9a5cffb3eafb8bc35eac791aa86ae1"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第二章_G3R_十噸重的帳單_物權與台詞修訂候選.md",
+      "bytes": 23690,
+      "gitBlobSha1": "98c1a545723cb7c39b23a1c5e6ffabbc835f38b5",
+      "sha256": "78d46c2046288df7cd492daf0ddd3772ef82cb81b0f985aa3e12ff20a07e5e39"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第二章_G3_十噸重的帳單_目前唯一完整稿.md",
+      "bytes": 23438,
+      "gitBlobSha1": "825f34766bb44784bb1ecb21f1d52155c1508ce5",
+      "sha256": "21d6cf54eb75650894fa142f9b19b9d014d639f999d4e1d24a6b49a24739c125"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第五章_G7R1_定位銷主觀誤判旁白微補丁_候選.md",
+      "bytes": 23223,
+      "gitBlobSha1": "8f58fb731d1e66b103cbac5ea32f675b475eafd4",
+      "sha256": "201ba50034641ec42916f5342e1c0db32218aec74e8c577f9d17607f1eb06622"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第五章_G7R1_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+      "bytes": 23435,
+      "gitBlobSha1": "632e3ccc579875c32a35778d3078d3e95390f9d8",
+      "sha256": "a950bf5456907adbdc1322c00248a74c658687a8a2841b93b4d574c06b14e710"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第五章_G7R_剖蟬放血與逃票的手搖車_認知與射程修訂候選.md",
+      "bytes": 22872,
+      "gitBlobSha1": "bc02ddf8b04d5a95d412b975a285d71d32841aeb",
+      "sha256": "f75947527151bb38cfea043d969a3db02661694c15b5b37ceb66174650f65c6d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第五章_G7_剖蟬放血與逃票的手搖車_候選.md",
+      "bytes": 22706,
+      "gitBlobSha1": "d39a1ac805eccbc7c8c28fa27acecec26b6c4d54",
+      "sha256": "8137c145ea11021f1f023b0e7f7584984add314edb4f3b840db7fc6cedc90b8a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第八章_G10_鉛盒裡的斷針與九百公尺的風_使用者貼入候選.md",
+      "bytes": 20544,
+      "gitBlobSha1": "0e3e2d023d904a1e6816083e64f5fb9a22d8971e",
+      "sha256": "00bdcf65decdb3dc1dee94fb88ba88f56609e65b20821ba20bc1dfd2ac10d562"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第六章_G8B_無聲巨腔實體按鈕與向下的深淵鎖_改線候選.md",
+      "bytes": 15620,
+      "gitBlobSha1": "9bca11875f2e60cd082bc857cf240c914642577c",
+      "sha256": "bdc36e8c78934fd5af22c376cf8b096a6b97c321ca2ab93c501a1aa19cb4b14d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第六章_G8C_假專家與無聲巨腔_接續及探索修訂候選.md",
+      "bytes": 22986,
+      "gitBlobSha1": "94e99351fce90323c2f1adba0ab6b2cbe1efb703",
+      "sha256": "cd52068d6ccb491d8b1745de4400f77da5d23b4403d039bbbefbe9a4fe793554"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第六章_G8D_無聲巨腔與沉水搖臂_最終QA續修候選.md",
+      "bytes": 24662,
+      "gitBlobSha1": "16c7c473218ce52f62ca111e278a9215eb959c61",
+      "sha256": "8394786fbc286959c95755344de9bfcedf6cb189002b0cc39ed5dbb020f9d4ec"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第六章_G8E_定位件認知旁白微補丁_候選.md",
+      "bytes": 24868,
+      "gitBlobSha1": "779c56b3936b80825796d7c74efafab51c27aa66",
+      "sha256": "691bfec85194b42326de4e62e41893247904b3366c68eb9c4745594c848a0ffd"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第六章_G8E_臨時定位銷主觀誤判_僅旁白微修訂候選_20261106.md",
+      "bytes": 25283,
+      "gitBlobSha1": "b2c44099fbd3174225103010684314bbeeb39f70",
+      "sha256": "f0c6e036de97c823b34d936c6102198dc790cd61197a70277b4673a1b422d405"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十一章_Gemini_撈風底的人_使用者貼入完整候選_20261108.md",
+      "bytes": 20624,
+      "gitBlobSha1": "4bf658c1dea599a336b7370a852314605dac7fa6",
+      "sha256": "12d596c264b3633ffa6c0514bc540636ceb191ac0f02b25bf09ee728cc1fe459"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十七章_餘熱石槽階谷纜廂與三號鍋爐房水溫表_R0_Gemini兩批接合初稿_20261112_非正史.md",
+      "bytes": 51644,
+      "gitBlobSha1": "9972375e85a777f3778194267acea862000f9e44",
+      "sha256": "e0fc4ec9f1146d0381eb493595e934d186043abd6de55523ddd62719350f9379"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十七章_餘熱石槽階谷纜廂與三號鍋爐房水溫表_R1_GPT醫館供應鏈知情微修候選_20261112_非正史.md",
+      "bytes": 50563,
+      "gitBlobSha1": "076f542b2fd66119e98b52ca874f293c292b0935",
+      "sha256": "785c7bfc0bf77329fcc0373fad1782838f25845d17f2fab24a406301889d40ed"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1_兩段接合重建_非正史.md",
+      "bytes": 37385,
+      "gitBlobSha1": "9fdaf9f4811e39c91256adb1b5b37a016e5c1e01",
+      "sha256": "90d63afccb437cbd42e184c504128e8195bedfa6ffb4d2d65138e766a5d14041"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1a_兩段接合候選_非正史.md",
+      "bytes": 38973,
+      "gitBlobSha1": "a869be5233f9b1bd570f7149ad488b876cc172bb",
+      "sha256": "8a9d56dab3537365712d5ffbce471d3762a6f8a771576097fb9a5a053c30f42d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_R1b_前夜指時微補丁候選_非正史.md",
+      "bytes": 39319,
+      "gitBlobSha1": "70210e387bbbfdf35375ac7c8e34ab5c0305f8ad",
+      "sha256": "ec3000c2294e38f703d51aa5652647c8a0d1cc61b2d0a9552edbd6dfd411daa2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十三章_風車搖柄狐毛內襯與除冰廳的白雨_兩段合併候選_20261111.md",
+      "bytes": 34100,
+      "gitBlobSha1": "54dfcbd08b05145cdbde8603fe5d57a5bf6bf7ab",
+      "sha256": "d7d10c3f829ed3d9010a572e0b303683fc6893f46104a50866bf6a76c0d19243"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十九章_續房木牌脆裂膜瓣與不准開工的晨間表_R0_Gemini兩批斷線去重接合_20261112_非正史.md",
+      "bytes": 67344,
+      "gitBlobSha1": "a5b544172d1a60b5491f5928aeed8f3743687f9a",
+      "sha256": "473b895f5b12a6da1dd93986a732018a891b9e807e872b2c1d9949c4ca512916"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十九章_續房木牌脆裂膜瓣與不准開工的晨間表_R1_GPT證據工程權限微修候選_20261112_非正史.md",
+      "bytes": 67572,
+      "gitBlobSha1": "643e1726f8cf2f5f13da2eeee927fafffe144455",
+      "sha256": "ae58066e5bf7749b77eec562edcde78249bef4fdaeb1da090142934a57c0b285"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十九章_續房木牌脆裂膜瓣與不准開工的晨間表_節奏重剪_R0_20261115_非正史.md",
+      "bytes": 25044,
+      "gitBlobSha1": "e7a2cd3ef453c50a80cb1988df4ca8a6ca517f34",
+      "sha256": "92f8640039b8db4bdbb89cf2c8a1f933d581a7474093773c7a39846a5f900a64"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十二章_Gemini_齒背後的二十二年盲盒_使用者貼入完整候選_20261108.md",
+      "bytes": 31290,
+      "gitBlobSha1": "1dc72acd727bd6bdadef053cbe7c06c2493a34fe",
+      "sha256": "69e1138c5eeba70e2c7488ca4b3332515f54fa961a4a43f4cc1c14f80514ec15"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R1_八項補丁合成候選_20261112_非正史.md",
+      "bytes": 41161,
+      "gitBlobSha1": "a12a68e66b126fc7cebf2356eb333a3eafc2317c",
+      "sha256": "55fe125706b0d4fe3adf61a5408239bd6b6a94514d63b39601c341823c03f670"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_R2_GPT工務知情微修候選_20261112_非正史.md",
+      "bytes": 41558,
+      "gitBlobSha1": "711144383da1ee29b499184b2dc8af77a6bf00a1",
+      "sha256": "5c9c1a026ec8be95a0ad9600ac88ebca9f4024406fd10800d1862be38bfc2c12"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_三批接合初版_20261111_非正史.md",
+      "bytes": 38564,
+      "gitBlobSha1": "b21479f30c2cf95e3eb1c40a3d72758dda9d2a53",
+      "sha256": "150bdc5600ad2113760b996572480ddb87138ebed22d368abd89946b5a397b88"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十五章_黑脊清晨貨運平車與深淵西側冷凝旁道_前兩批未完候選_20261111_非正史.md",
+      "bytes": 26269,
+      "gitBlobSha1": "a34be614bc10cbaccce227c75debecd452d6b000",
+      "sha256": "2fe67f2270afdd724641b05395c102f7b05c6319f54c18f179288af3e0167473"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十八章_暖磚晚膳北口地磅房與夜班保溫車的過磅底聯_R0_Gemini斷線兩批接合_20261112_非正史.md",
+      "bytes": 56657,
+      "gitBlobSha1": "2006f2f7dbb91d4cecec30ede660a2e1fbfbb5ec",
+      "sha256": "a78414745aa957bbc9c9b564610247ddd4d91705d19d042031f7ca3a2597121f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十八章_暖磚晚膳北口地磅房與夜班保溫車的過磅底聯_R1_GPT地磅證據與程序精修候選_20261112_非正史.md",
+      "bytes": 52368,
+      "gitBlobSha1": "01500204d035d3741ecce7f21d4a4c1c89bdd89b",
+      "sha256": "0cc19184bf63d8b364f4e7be16e9780d7f23d644abdb0c69c3af0c82f96ddd0c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十八章_暖磚晚膳北口地磅房與夜班保溫車過磅底聯_R0_Gemini斷線續接兩段合併_20261112_非正史.md",
+      "bytes": 56508,
+      "gitBlobSha1": "f08d40dd23ab7b06a56383af2d82a42c45c51630",
+      "sha256": "46671ab00d667f3da33c25d5804d428d21fcbf1b25d884ce85a9f63452f43f42"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十八章_暖磚晚膳北口地磅房與夜班保溫車過磅底聯_R0a_GPT斷線接縫去重候選_20261112_非正史.md",
+      "bytes": 56581,
+      "gitBlobSha1": "11e072e10e1b90fdbe5a9844f82c981a71bc4d43",
+      "sha256": "ce0662ec902c9ebeaccfc97e1de1f57c414f06fb132e337c7ac2cfb220c8f916"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十六章_斜拉鋼纜驗收鉛牌與零下七十八度氣密前室_R0_Gemini兩批接合初稿_20261112_非正史.md",
+      "bytes": 41582,
+      "gitBlobSha1": "edce7baaca2bd50d596c4a2585a9b46670a4cf36",
+      "sha256": "681b33d466e30b7739b6882b90269db209d6691b2faaaabe3434528b205022e8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十六章_斜拉鋼纜驗收鉛牌與零下七十八度氣密前室_R1_GPT工務因果知情精修候選_20261112_非正史.md",
+      "bytes": 41608,
+      "gitBlobSha1": "6ee8c3451d04ab1c35c891933484097b56dde31f",
+      "sha256": "5078e0f71b0c8591aafd612ff14bc6895441afc881e1f26c26d9a5540ca69edd"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1a_局部修訂候選_20261111_非正史.md",
+      "bytes": 41401,
+      "gitBlobSha1": "81b72a6f41f7778c8c3d075a462dca7ae1d72c2a",
+      "sha256": "fe980c697906d19befbc63f9f5a9862aea5ed6b3f41ab08ea90bc61f81134b6c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_R1b_六點工單微補丁候選_20261112_非正史.md",
+      "bytes": 41455,
+      "gitBlobSha1": "daea535ae98475fa025422d619828dc300572698",
+      "sha256": "17c4df493422d7f9c21922aae6be45599e9955acd347c1302663a2173127102b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十四章_懸柱荒林暖磚棧與零下風槽的沉銀錘_兩段接合候選_20261111_非正史.md",
+      "bytes": 36916,
+      "gitBlobSha1": "dadc63e5365273fbce3ce788ae003ef9ca671777",
+      "sha256": "df4b0ab43b375b51e0a237a15a324c1b8f79da86b50f46fee66db6777a3debdf"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十章_Gemini_風停以後_使用者貼入完整候選_20261108.md",
+      "bytes": 20311,
+      "gitBlobSha1": "1856f150ec2d759f1d113495f175b9a374225d79",
+      "sha256": "007a776a93f3a2cc7c9f214dc29512bb0f52bab4063e379efec8c20de6ab6c45"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第十章_風停以後_使用者貼入完整候選_20261108.md",
+      "bytes": 19930,
+      "gitBlobSha1": "da41b4c7df3d8c3f48b8906208ef04bac0619e68",
+      "sha256": "b62ae4df77fdf8e8d6960fd042adcac896d853c8590394ecab378bd09bca7742"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/純正文_Gemini/第四章_G6_舊軌上的買路錢_候選.md",
+      "bytes": 18396,
+      "gitBlobSha1": "16119e7f5a1e4dc858234698e7ef400d9946a81d",
+      "sha256": "c786e6bb3fac41ce69e981fee66e2637653d1811f058389f61514b4530daf75a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/01_懸艙開箱日.md",
+      "bytes": 18719,
+      "gitBlobSha1": "4d7037b17985cd8d6ddd741657c8fdca34fd4056",
+      "sha256": "db857c534548ecda6d8186fa031d80bf442be8870979066a20cc80953c41802e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/02_十噸重的帳單.md",
+      "bytes": 23808,
+      "gitBlobSha1": "cda72e376ebebd6db22807144989f94f00ae5994",
+      "sha256": "497d5bb500714680872507c7b028c803c655e0c8dc9e302f1229f1bf19774b3b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/03_過風鐘與多餘的凹槽.md",
+      "bytes": 27067,
+      "gitBlobSha1": "01fe2c9aa722c6df1b890c97db9c8bb7859c4d1a",
+      "sha256": "1e2915981f8f3f9f5387373faec43fc6daf945be94a5dced6e87875f902b5926"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/04_舊軌上的買路錢.md",
+      "bytes": 18475,
+      "gitBlobSha1": "b67b80c05adb50f75d0a07e0ff132463ba0df501",
+      "sha256": "33b27884320af5fc5b36e2245da85356a8e1c270ad5f9f2967388bbd62d51b40"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/05_剖蟬、放血與逃票的手搖車.md",
+      "bytes": 23494,
+      "gitBlobSha1": "d084895aee7c4bd2854ebe3bbecd6e0449d51d88",
+      "sha256": "31f4e847e16ba17c10b5732d7160ae4805f851d61b08e45853ada2f372fed684"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/06_無聲巨腔與沉水搖臂.md",
+      "bytes": 25013,
+      "gitBlobSha1": "456453818aecf56edddc3da44dab068a3d12aa9f",
+      "sha256": "b1a2bb077193f76e75aa18958da25d3dcb7712578cd3d0b1bcd3af09f944e512"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/07_底錨塔裡的無聲客.md",
+      "bytes": 21680,
+      "gitBlobSha1": "f9327d574ce65c330bb44414db88beebf08b28f8",
+      "sha256": "3db0e896ed8dc9a9a5807bd16b6d054cc838398e1ee02b3d8053c89af167b424"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/08_鉛盒裡的斷針與九百公尺的風.md",
+      "bytes": 28142,
+      "gitBlobSha1": "feeabfc42f3de405491c6b0b0d9005aa5b5981e7",
+      "sha256": "ff9760086474a95e128e1c4aff430253cdbb2aa677a955fac7eaf50277c53be3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/09_兩千公尺的卸載燈與蜂窩襯套.md",
+      "bytes": 34373,
+      "gitBlobSha1": "de6e5923dbc428d303ea1dfd033c0436d5a0a764",
+      "sha256": "6c4481846b4b02d6ffcc53799d8dd46d0ab84b00c813800fc3b2c687b17566e4"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/10_風停以後.md",
+      "bytes": 20502,
+      "gitBlobSha1": "c358c90f79f57906f566f5a48324c90debbe02fc",
+      "sha256": "143e3f80ff30e1bd5ab0525c05ebefcfe119c3de9d039bc2229d40bfb5408127"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/11_撈風底的人.md",
+      "bytes": 20744,
+      "gitBlobSha1": "83ee6f1a65bd1b49daf495900d1f7babb71b1cd3",
+      "sha256": "b46b054f59747dd57c739b1aa9187dfff610a9912550fa238bd2e26891d43090"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/12_齒背後的二十二年盲盒.md",
+      "bytes": 30919,
+      "gitBlobSha1": "8f47da61e7073ce59007bbcaba48bee39b12be30",
+      "sha256": "c012ce0df2c9d58a06347762e2d1137f0090446f4326de7b5b4c1c96ccba4594"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/13_風車搖柄、狐毛內襯與除冰廳的白雨.md",
+      "bytes": 38116,
+      "gitBlobSha1": "24a90e7937641d863926cd9a8b7993928b9ac34f",
+      "sha256": "cda2c4bb8c0cb278ce2dbdfe3e76c99865ab1749b94aa26919baa5c018a13399"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/14_懸柱荒林、暖磚棧與零下風槽的沉銀錘.md",
+      "bytes": 40898,
+      "gitBlobSha1": "0a16f9c5c4a4ca6bfb10e6ef3311fde32cca5666",
+      "sha256": "e729a46e424a1446de8b499c4133e1fc60b0138ac1459c37c0896037f6e99588"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/待定正文/順讀_最新補丁候選/README.md",
+      "bytes": 10346,
+      "gitBlobSha1": "aeca91a433a09616f2203581eda106286ac2038a",
+      "sha256": "f7d7fc46cf112965d06ba92cd65bcbe4ebe527afbbe8c61a6d6a80975f27e2d7"
+    }
+  ],
+  "crossBatchClosed": [],
+  "partialSources": []
+}
