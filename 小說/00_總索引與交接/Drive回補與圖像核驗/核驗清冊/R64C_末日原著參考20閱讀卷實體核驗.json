@@ -1,0 +1,427 @@
+{
+  "round": "64C",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "method": "Individually download each current Drive expanded reading volume by R60B locator ID, independently compute raw SHA256 and byte size, reconstruct each source fully contained in this category using fixed manifest offsets. No ZIP revalidation.",
+  "count": 20,
+  "bytes": 4286225,
+  "reconstructedCount": 29,
+  "reconstructedBytes": 4275339,
+  "rows": [
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0001.txt",
+      "id": "1yoZVVtj91w8LN_vN7beO0XCmbYRtzT6D",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 224783,
+      "mime": "text/plain",
+      "expectedBytes": 224783,
+      "expectedSha256": "0bd2248d55daaec1c5ef77c36da241b2fe1b9f3ae9f3d9cc2a72ba2177255789",
+      "actualBytes": 224783,
+      "actualSha256": "0bd2248d55daaec1c5ef77c36da241b2fe1b9f3ae9f3d9cc2a72ba2177255789",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0002.txt",
+      "id": "1RyT0d8z6wHjK6xrxrjdfXIxE3VpLyTNI",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 201652,
+      "mime": "text/plain",
+      "expectedBytes": 201652,
+      "expectedSha256": "4f28e7694ee71568dcc3369dafe2841d76364672ebc493825a4ec8722d5fb0a3",
+      "actualBytes": 201652,
+      "actualSha256": "4f28e7694ee71568dcc3369dafe2841d76364672ebc493825a4ec8722d5fb0a3",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0003.txt",
+      "id": "1JbAYwS6wEfw01uQuESM_bn-bDGuiEsvb",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 205578,
+      "mime": "text/plain",
+      "expectedBytes": 205578,
+      "expectedSha256": "a2d203bc262867713acf8ae27d00633f75a28b5737325e064400f0b47a7e1623",
+      "actualBytes": 205578,
+      "actualSha256": "a2d203bc262867713acf8ae27d00633f75a28b5737325e064400f0b47a7e1623",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0004.txt",
+      "id": "1SEgNiyeEiGMRLGerLAeKUYAL50qARtq2",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 187444,
+      "mime": "text/plain",
+      "expectedBytes": 187444,
+      "expectedSha256": "abcd1a5d47e52599fb14cfc576484ec80731a3d60b2ef3a5d5d7dfea9f7a8eac",
+      "actualBytes": 187444,
+      "actualSha256": "abcd1a5d47e52599fb14cfc576484ec80731a3d60b2ef3a5d5d7dfea9f7a8eac",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0005.txt",
+      "id": "1E-d8Y7_ZGfs-HfL5bxTyhmOsyx9xqfTG",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 62211,
+      "mime": "text/plain",
+      "expectedBytes": 62211,
+      "expectedSha256": "c7a5d34dcf7e896a24d845cde7eff5ac2a05a5e22d08cf1ac2ba88553dca9c95",
+      "actualBytes": 62211,
+      "actualSha256": "c7a5d34dcf7e896a24d845cde7eff5ac2a05a5e22d08cf1ac2ba88553dca9c95",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0006.txt",
+      "id": "1USfiqjX1hB6dL9OzQ2zeJOl5fN0l6fSC",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237235,
+      "mime": "text/plain",
+      "expectedBytes": 237235,
+      "expectedSha256": "da7b044f7d805c7a16ec36bdf6f54ed323d1a587454e5873123829116fbd0fcf",
+      "actualBytes": 237235,
+      "actualSha256": "da7b044f7d805c7a16ec36bdf6f54ed323d1a587454e5873123829116fbd0fcf",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0007.txt",
+      "id": "1v61jhtZXElA9vw7ev1SdjlfJAs7yOTyv",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237240,
+      "mime": "text/plain",
+      "expectedBytes": 237240,
+      "expectedSha256": "4f1a03128da3f8e24099882a73b3e131c198621cabf89e47290aef9bc9a12437",
+      "actualBytes": 237240,
+      "actualSha256": "4f1a03128da3f8e24099882a73b3e131c198621cabf89e47290aef9bc9a12437",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0008.txt",
+      "id": "19k7uWFzObn1P8cS6tA0nF-3zD25-nBgg",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237230,
+      "mime": "text/plain",
+      "expectedBytes": 237230,
+      "expectedSha256": "ca1e14adabf4977dff1a913096441658bcd9c0f42836578a98ac616e4cd040f9",
+      "actualBytes": 237230,
+      "actualSha256": "ca1e14adabf4977dff1a913096441658bcd9c0f42836578a98ac616e4cd040f9",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0009.txt",
+      "id": "1O8eOMVwos6CIIrjK4XXz0fDrddh6qQjo",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237252,
+      "mime": "text/plain",
+      "expectedBytes": 237252,
+      "expectedSha256": "5ff0ab9d576035161c3899d22c22b75775ae6e9715159d1b4a0a1788b0d44a36",
+      "actualBytes": 237252,
+      "actualSha256": "5ff0ab9d576035161c3899d22c22b75775ae6e9715159d1b4a0a1788b0d44a36",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0010.txt",
+      "id": "1FufsGbK0LZZaFpe8DuFuhgFRELjpusSi",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237202,
+      "mime": "text/plain",
+      "expectedBytes": 237202,
+      "expectedSha256": "2319549b002f1ffd8be6c8acdc7a47fb7a8e1bd74a28e73830ea3e51a4553b91",
+      "actualBytes": 237202,
+      "actualSha256": "2319549b002f1ffd8be6c8acdc7a47fb7a8e1bd74a28e73830ea3e51a4553b91",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0011.txt",
+      "id": "1J0ApqgTXNq1PD-dg9RLfRGZqBWCmEIBC",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237221,
+      "mime": "text/plain",
+      "expectedBytes": 237221,
+      "expectedSha256": "9ad0fcfc3d9da441768e3a571c38d38cbe620e5ac60b9e4343de5c0c967affd3",
+      "actualBytes": 237221,
+      "actualSha256": "9ad0fcfc3d9da441768e3a571c38d38cbe620e5ac60b9e4343de5c0c967affd3",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0012.txt",
+      "id": "1zrcYif4Yh6qAZe--xI6WvWm_9q7XG6wu",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237235,
+      "mime": "text/plain",
+      "expectedBytes": 237235,
+      "expectedSha256": "d6b9067a56e5a55e3d4ed43b2fac516925edc8fd9d513bd3bea437317d365e26",
+      "actualBytes": 237235,
+      "actualSha256": "d6b9067a56e5a55e3d4ed43b2fac516925edc8fd9d513bd3bea437317d365e26",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0013.txt",
+      "id": "19A6opziMBCaRyfhf3N8dj4N6RX5XVtxg",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237248,
+      "mime": "text/plain",
+      "expectedBytes": 237248,
+      "expectedSha256": "85e261c710015e4f9a0e17ff97c8027b1f1ec9f31f54ecd5cae5a8bce4ebb47e",
+      "actualBytes": 237248,
+      "actualSha256": "85e261c710015e4f9a0e17ff97c8027b1f1ec9f31f54ecd5cae5a8bce4ebb47e",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0014.txt",
+      "id": "1_8Ps1S7rn1BaHka9HE8UnlKKN1JiQAWp",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237231,
+      "mime": "text/plain",
+      "expectedBytes": 237231,
+      "expectedSha256": "bae84d3d25712c2370618bf7669b7ca47503e85baed45515535273f709e4b13c",
+      "actualBytes": 237231,
+      "actualSha256": "bae84d3d25712c2370618bf7669b7ca47503e85baed45515535273f709e4b13c",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0015.txt",
+      "id": "1SAkXWPdwyRpIUC7fe1xOAbLoImqIZksv",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237254,
+      "mime": "text/plain",
+      "expectedBytes": 237254,
+      "expectedSha256": "4c1571a92dacfeb3dbdd97f271d17a88df42824d06b54e323aca6095badd0801",
+      "actualBytes": 237254,
+      "actualSha256": "4c1571a92dacfeb3dbdd97f271d17a88df42824d06b54e323aca6095badd0801",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0016.txt",
+      "id": "155j4wFDNyx4YQONsMkE2jFezOlBYdWhg",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237254,
+      "mime": "text/plain",
+      "expectedBytes": 237254,
+      "expectedSha256": "1bf910edb5fd6a3e441e7d9f73d4d8100750f128fab296e080c489f6ed60203e",
+      "actualBytes": 237254,
+      "actualSha256": "1bf910edb5fd6a3e441e7d9f73d4d8100750f128fab296e080c489f6ed60203e",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0017.txt",
+      "id": "17tfqDYGF_57cdNwdbTxdvOMwkv1rt2PB",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237192,
+      "mime": "text/plain",
+      "expectedBytes": 237192,
+      "expectedSha256": "5306b46885a5b0860d5af166d761dd0c34cdc983a34e3bfb43793f75e113d05e",
+      "actualBytes": 237192,
+      "actualSha256": "5306b46885a5b0860d5af166d761dd0c34cdc983a34e3bfb43793f75e113d05e",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0018.txt",
+      "id": "1gJvmjDia2kViR6GsZImDHGEDXXh6ubah",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237212,
+      "mime": "text/plain",
+      "expectedBytes": 237212,
+      "expectedSha256": "2eab269d05fdfa735edf4c28be2a0377c6c497bc9cd012e069c082ba634aa1f2",
+      "actualBytes": 237212,
+      "actualSha256": "2eab269d05fdfa735edf4c28be2a0377c6c497bc9cd012e069c082ba634aa1f2",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0019.txt",
+      "id": "1WwBIXky4AqYiLZnMPjyEfDVVKQQkbvxM",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 237216,
+      "mime": "text/plain",
+      "expectedBytes": 237216,
+      "expectedSha256": "cdb1532927037ba8a9111bedd17d49919c89f1c9f97cfd10aa0f130108bc0cc0",
+      "actualBytes": 237216,
+      "actualSha256": "cdb1532927037ba8a9111bedd17d49919c89f1c9f97cfd10aa0f130108bc0cc0",
+      "status": "PASS"
+    },
+    {
+      "path": "末世開店玩家線/05_原著參考/VOL_0020.txt",
+      "id": "1mqQ1Lli7id0vJIispqtaLQMlxRxljKz9",
+      "folderId": "1w81YX5lT-Kl15NLvuAO-URbnV5ccBGJ9",
+      "bytes": 83335,
+      "mime": "text/plain",
+      "expectedBytes": 83335,
+      "expectedSha256": "ebae11ad605d84efe088f24936bf6702def47057347ddf8f4ba594cfbbc5d897",
+      "actualBytes": 83335,
+      "actualSha256": "ebae11ad605d84efe088f24936bf6702def47057347ddf8f4ba594cfbbc5d897",
+      "status": "PASS"
+    }
+  ],
+  "sources": [
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/00A_SOURCE事件驗收與雙向稽核.md",
+      "bytes": 8536,
+      "gitSha1": "d03f4c29a046c18c4b068e95a907d8d3fab9a580",
+      "sha256": "b1cd7b7cf7a87e611f530855f53b768c75cc0bd4cc09b22456969b632bc0f31c"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/00_SOURCE_MASTER_229-288_章節來源與逐E總索引_20261031.md",
+      "bytes": 7240,
+      "gitSha1": "0f6cd4f8b2c3312e140a57c719969e776ef4b15a",
+      "sha256": "49d5c013a59b65f6c8764a98de60c1342d1445a9bb1e2384200525e1778efea7"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/00_SOURCE_MASTER_INDEX_229-288_60章整合索引_20261031.md",
+      "bytes": 17141,
+      "gitSha1": "e75c4a3f2d0a3a2bd2baa23e5b9bee76149498a7",
+      "sha256": "a72554b3719bb6597585b5adf7384bfcf60750c5ebd49c836dfeb02d6967a8f4"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/00_SOURCE_MASTER_INDEX_229-293_65章整合索引_20261031.md",
+      "bytes": 26051,
+      "gitSha1": "fee74345d2f907fb5f5303906343348982a88088",
+      "sha256": "8e9e1139d9b410cf909cb2e17498492f5e455ad8b0a937058467947c974a1fe4"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/01_SOURCE_MASTER_262-274_逐章事件卡.md",
+      "bytes": 36853,
+      "gitSha1": "f521d6db8b7c1d11d9bb3116c2094eb17672971f",
+      "sha256": "1a5ece49006f5a3af39eff1cd3310093b4788480b31b2722d7bbbdc29e927fee"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/02_SOURCE_MASTER_275-286_逐章事件卡.md",
+      "bytes": 36126,
+      "gitSha1": "cfa52c15bd3e527fd8e5a2a704b40a354c0481cd",
+      "sha256": "626282ff12d6154ec187e5fe536a6ae2a099d5822b5831f7db98d7a2c0f359ce"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/03_CH116_SOURCE事件卡_基地研究與原著消耗.md",
+      "bytes": 13269,
+      "gitSha1": "dbd257e36a9a3e703290dc487a2748d60b85be71",
+      "sha256": "23b127a6c1f9eb7fedc6c5452bbfc22605c3e0e22abe00f69f22e0d8755e0b72"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/03_SOURCE_MASTER_229-238_逐章詳細事件卡_20261031.md",
+      "bytes": 19257,
+      "gitSha1": "64b6e5c0212b15806f33ed43340ba70c3537cf2b",
+      "sha256": "a1f50c53f13465728700fe5451b71e5713b48dda1a53836ba85f173661b470d9"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/04_SOURCE_MASTER_239-248_逐章詳細事件卡_20261031.md",
+      "bytes": 17865,
+      "gitSha1": "0a2dbab99d0f4ef8309108102b47327d6a1a595b",
+      "sha256": "48cc51e131c975d179500e61ed7a8f8f7b5ed170642898c20c8f5e6e520c5fde"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/04_交易與基地回改_逐事件證據與消耗對帳.md",
+      "bytes": 8316,
+      "gitSha1": "0d87e3c2147828eefdec1b2bc8b7519d7d8c1173",
+      "sha256": "4bbe379a97e99cdf4c7507c6274081d6b6bbcac2a2c58a0981b02a43c973608d"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/05A_SOURCE_MASTER_249-258_逐章詳細事件卡_20261031.md",
+      "bytes": 17154,
+      "gitSha1": "620a9dd5a45743ad43036282c2bd30a5d3e5835c",
+      "sha256": "af14610ae628e0704c6b07d4319daa826fc2a9753c438b87fb8f2717fc3d88fd"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/05B_SOURCE_MASTER_259-261_逐章詳細事件卡_20261031.md",
+      "bytes": 7086,
+      "gitSha1": "062868afa90afab729292f868bcdd077f95da5d7",
+      "sha256": "3aad82f53eb60c8239dd096255d0851cecf1f22ee76289c806e271c32d9e8e65"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/05C_SOURCE_MASTER_287-288_逐章詳細事件卡_20261031.md",
+      "bytes": 6621,
+      "gitSha1": "f69be350454a2520363b6d27208cf0104f9e1cfd",
+      "sha256": "ce3a7dddbdf88c57077290d246806c9fad7f7884d18d02439231b43921652d2b"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/05_SOURCE_CH262-286_逐E_POSTWRITE核銷_20261023.md",
+      "bytes": 40333,
+      "gitSha1": "4d0dbfe95cdb1544c464b9ff2d0e4534bed9a57d",
+      "sha256": "03dfb152e93b136b32b2e32f367bbe9625b454809e1a469dfdd4fa2cba44fe94"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/06_原著與晨曦_VOID和未發生事件逐項差異_20261024.md",
+      "bytes": 19912,
+      "gitSha1": "02110e8a320ba45ea26da255978d4e6e864b4c68",
+      "sha256": "f28a728cd2b52563b60901645d78ef87d8998b40fafd42d94f3789ef5f46122e"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/07_SOURCE_A_第118章任務結算與寒冬逐E證據卡_20261031.md",
+      "bytes": 14237,
+      "gitSha1": "551fea877d0b4d8bcd677effe416bbec533f38c1",
+      "sha256": "e8ad56d5cd06a2b90deee666b95efefc9996ae01ee2d0372e16f6d31d799b952"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/08_SOURCE_MASTER_229-240_逐章逐E事件卡_20261031.md",
+      "bytes": 43018,
+      "gitSha1": "4d305ad1064ba81ff86ee41c6902d1e97cf840df",
+      "sha256": "1e5c28bee167ba366205f9f2d9d73085f35739e498626d9adbd0ee02ffaf2445"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/09_SOURCE_MASTER_241-252_逐章逐E事件卡_20261031.md",
+      "bytes": 28762,
+      "gitSha1": "54a3c401480b26f92c9378d0660f1efdf195b2d4",
+      "sha256": "992f624adf55781be3fa479ab39ac61f5052d43cb7bcc0c82e4912869f840f54"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/10_SOURCE_MASTER_253-261_逐章逐E事件卡_20261031.md",
+      "bytes": 25334,
+      "gitSha1": "9f1728df2021ad713296be6a2e60603fd3e416b7",
+      "sha256": "42e7611017c8a2e1c82651e4317b53ffb9a306b0b2e1273eadb0837750e9c202"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/11_SOURCE_MASTER_287-288_逐章逐E事件卡_20261031.md",
+      "bytes": 10318,
+      "gitSha1": "a19b4a050b7da9f38e4da2e9aeeb8d7b9aacfe22",
+      "sha256": "c7f5066690044167eb85cc261900070e7b4fd7c77fd5fb4a510349245c7a0e00"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/12_SOURCE_MASTER_289-293_逐章逐E事件卡_20261031.md",
+      "bytes": 17698,
+      "gitSha1": "ca66c0327bb79ec7ec47015f96459132efcc7301",
+      "sha256": "b743aa3d4ede7191475bdb826a6c2088e375ad5aa9d0864b8fcd2e04b51627f0"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/13_SOURCE_TO_CANON_229-293_279E反向責任矩陣_20261031.md",
+      "bytes": 79434,
+      "gitSha1": "4e099cb69d43d2ca6aca2a4de5ce0d72d3c861e9",
+      "sha256": "0f51405a8e1459236223347348587eb34e55a660ad947fe91b96c0e59c412422"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/原著章節切片_229-288/229-238_原著連續原文.txt",
+      "bytes": 62559,
+      "gitSha1": "fef94e8434cae49daecdb4b0ea366bc76dd68560",
+      "sha256": "7440c7de4a26c9e441021978d2db25fc98ee65f93cc09158710dd0d64b7072c2"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/原著章節切片_229-288/239-248_原著連續原文.txt",
+      "bytes": 62819,
+      "gitSha1": "0e7df8ff1209bc41713af64d9db75a96d8555032",
+      "sha256": "4b81f4ef236db0990e8642d41f70632de4a4a1e7ea1d5e4471deda1d0b6efb08"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/原著章節切片_229-288/249-258_原著連續原文.txt",
+      "bytes": 62154,
+      "gitSha1": "8087aeef47aa3c9275420b12c5741d31bc7648a1",
+      "sha256": "236994e187a665eef439801dd0cde1fa4756c673a9df394d9becfdb1d855dda0"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/原著章節切片_229-288/259-268_原著連續原文.txt",
+      "bytes": 64910,
+      "gitSha1": "c2134027d7dcf62c9b9a456d02ad5dd2cc4c26e4",
+      "sha256": "64a26d13298ac5a9b1355ed481e6dbeb566ac3debeaf0584124390bc3761b655"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/原著章節切片_229-288/269-278_原著連續原文.txt",
+      "bytes": 59618,
+      "gitSha1": "8393e2769cc8e749ec17e52e6375b09b1808ffb6",
+      "sha256": "02fa0d3a93d750c1ed9df752d5b45934442d2c9fab14000820c71afd600c6886"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/原著章節切片_229-288/279-288_原著連續原文.txt",
+      "bytes": 61957,
+      "gitSha1": "9626c0ff05eebee96df14ccd575bcc951c91b8b3",
+      "sha256": "18ab895ac788637965b26f44c64bea9851309303fdcc64ce1c8116fc2c6d3a23"
+    },
+    {
+      "path": "小說/末世開店玩家線/05_原著參考/末日求生：我有一家商店 - 山rain.txt",
+      "bytes": 3400761,
+      "gitSha1": "30c6ad48fb18aac99b8e8b7d920ffc1f9b4cdb90",
+      "sha256": "19d7cfc05e7c9e56869a65817fcbbb7dac38f65f29c6381cebfe3b6d8107eafb"
+    }
+  ]
+}
