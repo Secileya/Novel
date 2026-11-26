@@ -286,3 +286,8 @@
 - 36/36逐件下載，SHA256及bytes與固定MANIFEST一致，7,392,634 bytes；重建16個完整來源檔，7,379,811 bytes（含使用既已通過雜湊之本地前批片段閉合的來源），Git blob SHA1及長度全部一致。1個跨批來源仍待後續分片齊全，未提前算通過。
 - [Git逐件清冊](核驗清冊/R65C_巨構分類導航0073至0108實體核驗.json)（43a6e5fa8895ca5062d637cc41dca44e4ce460b8）／[Drive](https://drive.google.com/file/d/1WDtecho_G_DO-HLnXSmCkgc8PRdx8Xyr/view?usp=drivesdk)，25155 bytes、SHA256 b908e22f408e361a87a87d85f92858bcf8c653bdea3776dd02794ce0f17e35f2，雙庫讀回一致。
 - 現行一般閱讀卷累計235/832（48,450,589 bytes），剩597。下一批巨構分類導航0109起，排除R64A-D與R65A-C已驗ID；未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第65D輪：巨構分類導航0109–0144現行閱讀卷實體驗收
+- 起始main 9483a2cc43a054c63b3e7a61740f954feee679ef。36/36逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，6,965,887 bytes；重建15個完整來源檔，6,953,091 bytes，Git blob SHA1及長度全部一致。R65C跨批來源利用本地已驗0106–0108片段閉合，不重下載、不重計卷。尚有1個跨批來源缺0145，未計重建通過。
+- [Git逐件清冊](核驗清冊/R65D_巨構分類導航0109至0144實體核驗.json)（85f3034d761b15f4f054c9ee93d3ce00fa261463）／[Drive](https://drive.google.com/file/d/1MUa-_a_6dDNUGUZ8Ie0PK0yLOa-_fwoy/view?usp=drivesdk)，25567 bytes、SHA256 49a0821f3212182dcfe7c7585790edbd5c6e558414ced9935beb91e42aad34ff，雙庫讀回一致。
+- 現行一般閱讀卷累計271/832（55,416,476 bytes），剩561；巨構分類導航144/228，下一批0145起。未改Canon、AUTO、游標、觸發器或刪檔。
