@@ -1,0 +1,235 @@
+{
+  "round": "64D",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "method": "Individually download each current Drive expanded reading volume by R60B locator ID, independently compute raw SHA256 and byte size, reconstruct each source fully contained in this category using fixed manifest offsets. No ZIP revalidation.",
+  "count": 16,
+  "bytes": 3622180,
+  "reconstructedCount": 5,
+  "reconstructedBytes": 3616442,
+  "rows": [
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0001.txt",
+      "id": "1TFr9YtSWxkg13Ei2dFv21MqRmTNYjPgY",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 69077,
+      "mime": "text/plain",
+      "expectedBytes": 69077,
+      "expectedSha256": "6a44e65bcc2bd05e9f461f7b86d2f3e6e28571a62385bfbf107356f2c97c1420",
+      "actualBytes": 69077,
+      "actualSha256": "6a44e65bcc2bd05e9f461f7b86d2f3e6e28571a62385bfbf107356f2c97c1420",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0002.txt",
+      "id": "1bJoPVRRqUUSxpFj-E39El0OmJJN9xgT2",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237244,
+      "mime": "text/plain",
+      "expectedBytes": 237244,
+      "expectedSha256": "c24253afb43ffc4a1ea6b777f410b3261f171fd156cc2f4923a92db103fb3fea",
+      "actualBytes": 237244,
+      "actualSha256": "c24253afb43ffc4a1ea6b777f410b3261f171fd156cc2f4923a92db103fb3fea",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0003.txt",
+      "id": "1emaJ30x2qFL4q7RJP3C7kKtXxKmDE3eh",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237308,
+      "mime": "text/plain",
+      "expectedBytes": 237308,
+      "expectedSha256": "13aea6d605a4ccea5e918bdcf841312cdd13c99da8b79394f1f650e67a250025",
+      "actualBytes": 237308,
+      "actualSha256": "13aea6d605a4ccea5e918bdcf841312cdd13c99da8b79394f1f650e67a250025",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0004.txt",
+      "id": "18M5n_4FEy-yLW1kLSvovbusVf72Cy0UW",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237221,
+      "mime": "text/plain",
+      "expectedBytes": 237221,
+      "expectedSha256": "b14cf50834057128cd4f0bf474575f6b7cc94b9e46419c4973b848e4f0992b9a",
+      "actualBytes": 237221,
+      "actualSha256": "b14cf50834057128cd4f0bf474575f6b7cc94b9e46419c4973b848e4f0992b9a",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0005.txt",
+      "id": "1XdXGtMhE1X6X8gKfYPeK6VWoJWyTprkz",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237174,
+      "mime": "text/plain",
+      "expectedBytes": 237174,
+      "expectedSha256": "88193fa32405faadd38b780ca0e595dc1d9b0bedb0b3f1cd0e75092b71c83f14",
+      "actualBytes": 237174,
+      "actualSha256": "88193fa32405faadd38b780ca0e595dc1d9b0bedb0b3f1cd0e75092b71c83f14",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0006.txt",
+      "id": "1zS2zuhAm4wFeS3hzHmUPdpif7JsaWSaM",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237297,
+      "mime": "text/plain",
+      "expectedBytes": 237297,
+      "expectedSha256": "83ad1a5502e774d409c1b021d3b28399505571dcc95192e8143058af091d8351",
+      "actualBytes": 237297,
+      "actualSha256": "83ad1a5502e774d409c1b021d3b28399505571dcc95192e8143058af091d8351",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0007.txt",
+      "id": "10Rj0YWy1dv8fGc1TRjkK7hCYPI4sqCNI",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237159,
+      "mime": "text/plain",
+      "expectedBytes": 237159,
+      "expectedSha256": "1d0efc5bd28daffe5d483406b87a56eb6b506872d3c7b68c768ceb07d4f0efca",
+      "actualBytes": 237159,
+      "actualSha256": "1d0efc5bd28daffe5d483406b87a56eb6b506872d3c7b68c768ceb07d4f0efca",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0008.txt",
+      "id": "1retX5bJWhpj3okkvbovPWRzaWu9bQXdG",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237292,
+      "mime": "text/plain",
+      "expectedBytes": 237292,
+      "expectedSha256": "48d0246e62ed438c025abc03046547be33bd98bf9827e98dada228c17fa8d1d4",
+      "actualBytes": 237292,
+      "actualSha256": "48d0246e62ed438c025abc03046547be33bd98bf9827e98dada228c17fa8d1d4",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0009.txt",
+      "id": "1JCzNUX5-EQOz5gVxl2L-B0nQXlP2idhd",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237182,
+      "mime": "text/plain",
+      "expectedBytes": 237182,
+      "expectedSha256": "5f9cb3785737a58c34a85dd10ab239ae4f678256624f55f0d5a1260f1b478e9d",
+      "actualBytes": 237182,
+      "actualSha256": "5f9cb3785737a58c34a85dd10ab239ae4f678256624f55f0d5a1260f1b478e9d",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0010.txt",
+      "id": "1gC-_FCZL-GzBIty38IHsYAwXl5LmYotX",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237272,
+      "mime": "text/plain",
+      "expectedBytes": 237272,
+      "expectedSha256": "3e6b146f3f465944664fb700ce9b3fcc495dfe0e14df7adfbc2fe497390bbb01",
+      "actualBytes": 237272,
+      "actualSha256": "3e6b146f3f465944664fb700ce9b3fcc495dfe0e14df7adfbc2fe497390bbb01",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0011.txt",
+      "id": "1QR6UOl1CXUklMvvFSKNoUvFlFvW0JTqy",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237238,
+      "mime": "text/plain",
+      "expectedBytes": 237238,
+      "expectedSha256": "b0274e68a1eb5ba07bb120bd9ee99b8c0237cae1ee0b913f67429fda80e69d74",
+      "actualBytes": 237238,
+      "actualSha256": "b0274e68a1eb5ba07bb120bd9ee99b8c0237cae1ee0b913f67429fda80e69d74",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0012.txt",
+      "id": "1FEiatbjeTAOiU1cxRYvp31h9MKeP_y2e",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237288,
+      "mime": "text/plain",
+      "expectedBytes": 237288,
+      "expectedSha256": "544b728af897ccac141dd81e27a8a23c0b233829bae0a3869f82b3d17bd398e5",
+      "actualBytes": 237288,
+      "actualSha256": "544b728af897ccac141dd81e27a8a23c0b233829bae0a3869f82b3d17bd398e5",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0013.txt",
+      "id": "1i4rQo5Km7z3kzWy5yoBWFoxwHnSr2Ak-",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237150,
+      "mime": "text/plain",
+      "expectedBytes": 237150,
+      "expectedSha256": "a3cb5ba9dbcd9f34fad8f311acb34c2aea47c79cf7349cff01b78d2bef125c48",
+      "actualBytes": 237150,
+      "actualSha256": "a3cb5ba9dbcd9f34fad8f311acb34c2aea47c79cf7349cff01b78d2bef125c48",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0014.txt",
+      "id": "165Y4SP-tE3Y6vXArv4HJFucGAQicnkWD",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237174,
+      "mime": "text/plain",
+      "expectedBytes": 237174,
+      "expectedSha256": "3d4eaa8dda6e1ea8ad476603680e6febb849b550cf813b44dbed2c9f26cae691",
+      "actualBytes": 237174,
+      "actualSha256": "3d4eaa8dda6e1ea8ad476603680e6febb849b550cf813b44dbed2c9f26cae691",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0015.txt",
+      "id": "16mo_Ey2bzkbtqXKeQCUVrgaRnaevhkfJ",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 237301,
+      "mime": "text/plain",
+      "expectedBytes": 237301,
+      "expectedSha256": "c27d7b1a4c760a00f1e762f7ebabb58642b09f0198aba2f94f6aae2cb619cead",
+      "actualBytes": 237301,
+      "actualSha256": "c27d7b1a4c760a00f1e762f7ebabb58642b09f0198aba2f94f6aae2cb619cead",
+      "status": "PASS"
+    },
+    {
+      "path": "網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/VOL_0016.txt",
+      "id": "1uk-1_p5R1RBtyo9DtYBuuASHAR9r5ks8",
+      "folderId": "1PkAoeHoTSQYXhYza65M7pbZSPj8SQZxN",
+      "bytes": 231803,
+      "mime": "text/plain",
+      "expectedBytes": 231803,
+      "expectedSha256": "862bba070c13d3357af7b94631eba571890beef260d1b43ac4808475e333fd21",
+      "actualBytes": 231803,
+      "actualSha256": "862bba070c13d3357af7b94631eba571890beef260d1b43ac4808475e333fd21",
+      "status": "PASS"
+    }
+  ],
+  "sources": [
+    {
+      "path": "小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/00_原著索引與改編原則.md",
+      "bytes": 3079,
+      "gitSha1": "332be7fdc0264b77da12f5debab487dec3dea93a",
+      "sha256": "bd143095efcd931959444b164d5860471644d468a80bbd891b8bbae2f6b80c41"
+    },
+    {
+      "path": "小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/02A_原著事件全文補強_018-030.md",
+      "bytes": 13039,
+      "gitSha1": "e726e226c6845c1da87afaf5b79f505ab413ead2",
+      "sha256": "404fcdbd83e0dd3ec2e6cc7aead2967c9a317f923f9446f78807b815dbca2ae1"
+    },
+    {
+      "path": "小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/02_原著事件捕捉_001-030.md",
+      "bytes": 29273,
+      "gitSha1": "80ad77cf2e126dfdb442a822c1b575c2ddf0c53d",
+      "sha256": "427049056436fac1950038b312fd92b77f6bdfc5b8c7cf4486e85681bf6ca814"
+    },
+    {
+      "path": "小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/03_原著事件捕捉_031-060.md",
+      "bytes": 22584,
+      "gitSha1": "399eedc5f634d1469c0f5003f56fb30a0ce9f7ab",
+      "sha256": "cf62c3e16ff9255ec4102dc4fa987b1a4769d816f612316ec1b6d0405a666fd6"
+    },
+    {
+      "path": "小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/网游：卖掉装备，我就无敌了 - 盐巴半两.txt",
+      "bytes": 3548467,
+      "gitSha1": "cb67f812372d445ee776723fc0fc7b8012e7870b",
+      "sha256": "3792524c5250d97f629cfc8c7070e4a83e9a5b3adb289786fa7d9e24a32f1b35"
+    }
+  ]
+}
