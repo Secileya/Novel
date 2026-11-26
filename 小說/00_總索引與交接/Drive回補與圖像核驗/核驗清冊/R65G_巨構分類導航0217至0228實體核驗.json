@@ -1,0 +1,447 @@
+{
+  "round": "R65G",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "observedMain": "9483a2cc43a054c63b3e7a61740f954feee679ef",
+  "locatorBlob": "e83238f8b4061900b6d5a3fcc024061fb2f9a0d3",
+  "method": "Raw current Drive files individually downloaded by fixed R60B IDs, SHA256 and byte size compared with R60B and fixed MANIFEST. Reconstruct sources completed in this batch by source offsets, using locally retained previously verified pieces only when needed; no re-download or double counting. No ZIP revalidation.",
+  "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+  "range": [
+    217,
+    228
+  ],
+  "count": 12,
+  "bytes": 2630120,
+  "reconstructedCount": 45,
+  "reconstructedBytes": 3801201,
+  "rows": [
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0217.txt",
+      "id": "1HQ0tOMzbSojyqB_YTC9jA7iku6IYgQoW",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237289,
+      "mime": "text/plain",
+      "expectedBytes": 237289,
+      "expectedSha256": "45925bf59edfc1290cfe118821bca29326d411785ba740cb157ad75406036617",
+      "actualBytes": 237289,
+      "actualSha256": "45925bf59edfc1290cfe118821bca29326d411785ba740cb157ad75406036617",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0218.txt",
+      "id": "118f3zdOzoFc_hXNUUoZIueN9AyIMKnQM",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237289,
+      "mime": "text/plain",
+      "expectedBytes": 237289,
+      "expectedSha256": "3fdad576a0162e04edf4bf18092f882803d7c82c4d2720b1410b0656360801a3",
+      "actualBytes": 237289,
+      "actualSha256": "3fdad576a0162e04edf4bf18092f882803d7c82c4d2720b1410b0656360801a3",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0219.txt",
+      "id": "1px2MK0JNaoIsf7wasTjxzKz1vrbVAMS-",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237289,
+      "mime": "text/plain",
+      "expectedBytes": 237289,
+      "expectedSha256": "4872d7373f8bedef791a920ce573da29d5ac150d008d2a38066cc3611893e85a",
+      "actualBytes": 237289,
+      "actualSha256": "4872d7373f8bedef791a920ce573da29d5ac150d008d2a38066cc3611893e85a",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0220.txt",
+      "id": "1M6GDGBU0FCZaZQpquk4jLpUcYU5qonBY",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237289,
+      "mime": "text/plain",
+      "expectedBytes": 237289,
+      "expectedSha256": "25afbf2a14a3d881a031dfaf13369c493e79da6d67688007fb2349b964ab2492",
+      "actualBytes": 237289,
+      "actualSha256": "25afbf2a14a3d881a031dfaf13369c493e79da6d67688007fb2349b964ab2492",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0221.txt",
+      "id": "1ioaXla37S2SdtV6fZNFinVSd2K6n2IBK",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237289,
+      "mime": "text/plain",
+      "expectedBytes": 237289,
+      "expectedSha256": "dfea28321fdda9f2287ccfe90f4a7140c09636efc454a093c2b304c10f1694c7",
+      "actualBytes": 237289,
+      "actualSha256": "dfea28321fdda9f2287ccfe90f4a7140c09636efc454a093c2b304c10f1694c7",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0222.txt",
+      "id": "1RJly4a3aIGf_4_uCoIrI0A1sCr8O0ZYq",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237289,
+      "mime": "text/plain",
+      "expectedBytes": 237289,
+      "expectedSha256": "3d22a44184dcf4dbe98180434bf43321412dee89e139a5815698e4674f2d8a42",
+      "actualBytes": 237289,
+      "actualSha256": "3d22a44184dcf4dbe98180434bf43321412dee89e139a5815698e4674f2d8a42",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0223.txt",
+      "id": "1QNEu6G672Iowfhv3GK-eIO10TJbJbWtv",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237289,
+      "mime": "text/plain",
+      "expectedBytes": 237289,
+      "expectedSha256": "379affbbfa90a2d101f79eae4162d1a0cbc567cdd8c906eaac1f48af1eadff12",
+      "actualBytes": 237289,
+      "actualSha256": "379affbbfa90a2d101f79eae4162d1a0cbc567cdd8c906eaac1f48af1eadff12",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0224.txt",
+      "id": "1kb2s2o82GiTwMLSiWjJXuvs_HSYcnksG",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 224955,
+      "mime": "text/plain",
+      "expectedBytes": 224955,
+      "expectedSha256": "b4383b6358d3b9a9bea293f90de046f07436ceaa40347f1ba199d78596ce59fa",
+      "actualBytes": 224955,
+      "actualSha256": "b4383b6358d3b9a9bea293f90de046f07436ceaa40347f1ba199d78596ce59fa",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0225.txt",
+      "id": "1YOqFLjt4oevHsDMhWOyHbgm_3yUAEVTe",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 172667,
+      "mime": "text/plain",
+      "expectedBytes": 172667,
+      "expectedSha256": "c1ec03bb86e32e71743ff253c4f4a7586b781277ce832a2c42b17553cf016796",
+      "actualBytes": 172667,
+      "actualSha256": "c1ec03bb86e32e71743ff253c4f4a7586b781277ce832a2c42b17553cf016796",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0226.txt",
+      "id": "1JHadxGJSeErb1qWOzW-Md-Z8QRUOxPWM",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 168024,
+      "mime": "text/plain",
+      "expectedBytes": 168024,
+      "expectedSha256": "94511bfafb66752632d64786e222368686aef85d2a56095b0784a051bb91e4c6",
+      "actualBytes": 168024,
+      "actualSha256": "94511bfafb66752632d64786e222368686aef85d2a56095b0784a051bb91e4c6",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0227.txt",
+      "id": "1IRDUqLbasUCrq4eJgiiUI4ZSztvUk0ON",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 237982,
+      "mime": "text/plain",
+      "expectedBytes": 237982,
+      "expectedSha256": "a2577fa8d73131e238eb062f5be0bb069a895765eb691d878c5bba02ff4842c6",
+      "actualBytes": 237982,
+      "actualSha256": "a2577fa8d73131e238eb062f5be0bb069a895765eb691d878c5bba02ff4842c6",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/00_分類導航/VOL_0228.txt",
+      "id": "1t_dL-HtphscjqRPPYktBiWDNwI9HT6sf",
+      "folderId": "1E92iHlEMG9JjgsQM86G9fNrrWxt5D0__",
+      "bytes": 165469,
+      "mime": "text/plain",
+      "expectedBytes": 165469,
+      "expectedSha256": "17ab2e95a2272832e3c60f9c72b7d92b45382187ee056949aa6876ed4a2c6e84",
+      "actualBytes": 165469,
+      "actualSha256": "17ab2e95a2272832e3c60f9c72b7d92b45382187ee056949aa6876ed4a2c6e84",
+      "status": "PASS"
+    }
+  ],
+  "reconstructed": [
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json",
+      "bytes": 2902708,
+      "gitBlobSha1": "642e0a9b9ff851f76704a6699e9db41c9284875c",
+      "sha256": "5af622c1c5bdda7844f2a47e38cac13cfde41b5000ab099d95eeb1944d752af9"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/批次_分片建檔.mjs",
+      "bytes": 8071,
+      "gitBlobSha1": "31c349e212647c01f5ba4a53cd55ce29146cd9aa",
+      "sha256": "83292bd4c435978f08bf566f908cad8969b1280750849b9c1d141e6164c4b574"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/批量審核_加速與完整性保障.md",
+      "bytes": 4251,
+      "gitBlobSha1": "90ae38dffb3aeb4d0d4b1f10bf4f0d1581013f1e",
+      "sha256": "7080a482d53361e3133646a85e50017c9a989c211c59059388bbb39776d83c0f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/批量審核_語義缺口與跨批影響.mjs",
+      "bytes": 8076,
+      "gitBlobSha1": "992b6d2c30dccc37c33e8d94d39b6dedaa8abe1c",
+      "sha256": "907dbcf1a66205349c82bb15ecc80a1010995f0b48646a59a2e4326b8eb42328"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/最新交接_請先讀.md",
+      "bytes": 11250,
+      "gitBlobSha1": "28a8cc0acdf73936bca5663277016d09d609c134",
+      "sha256": "faf3bbbf0277c0f7760cd84b0c1c6defda11a880c1bdf6b91b1a7164aa2ae713"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/查詢.mjs",
+      "bytes": 90074,
+      "gitBlobSha1": "12c7f5d2cf3c801ad65e212229cb2708cba7e405",
+      "sha256": "080fa61482757d474b5f0aae27fe5e71eedd054242953ea42e43c11b46d3a2a1"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/檢查候選正文語氣庫參考.mjs",
+      "bytes": 2670,
+      "gitBlobSha1": "b2f122e44da4c338addc2439fe8940225d03a26b",
+      "sha256": "67897fe8a4c82af7d8f472cba492568ec70a3afaeea660dd3a3a78b12ab3f752"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_01至14章_勘誤後獨立對帳_20261111.md",
+      "bytes": 4450,
+      "gitBlobSha1": "0def2882beb390aa1d72fe9b0838ccf39e1ccae8",
+      "sha256": "daeee71803b7ba2bd108f5fdcda5931726a64a2b38b64026f75a37b9a32de19a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_問題證據與補丁驗證.mjs",
+      "bytes": 7819,
+      "gitBlobSha1": "6afb8022c46ea4aeb0dcbdbeac05a23dc115cdb9",
+      "sha256": "6aee418199c51570341abc4929bab76b4a18bd51ce4d0c12936ba6023481fb60"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_接手必讀.md",
+      "bytes": 5089,
+      "gitBlobSha1": "018310b9af4bc462fc752b29d6925997c244cc74",
+      "sha256": "148a7c229c65d33ff262c26882e3c42d0a9da78b5a9dc0cac848d9fd83e42fdc"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_精確修訂補丁候選.json",
+      "bytes": 3802,
+      "gitBlobSha1": "9faf643c04c0e29788e4327781f64a1a65e3e883",
+      "sha256": "ed2d16d58d7bd4ea23f1d15f4851992d627857541716124b1a7977acd12cd35f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/正文待修_統一問題台帳.json",
+      "bytes": 17527,
+      "gitBlobSha1": "01427ec19ef36ca62b7e432ce68a5f3a757c07eb",
+      "sha256": "48e10f8284a09d7e8b8ae00deef013e38c74e2dbc1eded197337075edd0e7fab"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/歷史素材原子化回收_第三批_精讀.json",
+      "bytes": 48714,
+      "gitBlobSha1": "ad102f10fba2f92640de30be0b4a1d42a6296bbd",
+      "sha256": "71b52f9943d7612976c8794bcdb3464e46cae7f39ef0d22e04c51b9bf4364149"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/歷史素材原子化回收_第二批.json",
+      "bytes": 49173,
+      "gitBlobSha1": "875a68ccfcf8fe8fe040decd3737d6710f254f7b",
+      "sha256": "8693df87503afc62bc9630134c9a4781ad687110206f4e915c66504c52432582"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/歷史素材原子化回收_首批.json",
+      "bytes": 34344,
+      "gitBlobSha1": "137efa130d13b834334ed341690866281ac44657",
+      "sha256": "45430adc559821b6e8033811cfed606313e687267e45d57a12704ed77ab99c1a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/版本取代與相容決策鏈.json",
+      "bytes": 23207,
+      "gitBlobSha1": "7a87e3172fb98acbeff7d0446f39d7f645927651",
+      "sha256": "3351b3304ac8f1453cc95735db9482f007eeb3834fc4b520d4c04cd15dfa9839"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/生態產業與制度因果網.json",
+      "bytes": 15889,
+      "gitBlobSha1": "d8a625698ebbf0dfaf7b6dfa05cce0134589d916",
+      "sha256": "f1c07030ff8d05684edfa0761784fd3a9857e18e29de57b3f7b570507645e20e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_候選77份.json",
+      "bytes": 167744,
+      "gitBlobSha1": "0f97e369b6175872089b975c8671551df4f9d4a2",
+      "sha256": "a755e36df0943714ff35403461cfa8fba6e2551bef352508b7076ae2e8b34540"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/舊來源逐檔語義用途回收_非候選94份.json",
+      "bytes": 187658,
+      "gitBlobSha1": "5d55594fb4ea55e8f1404bdc3e6ad6e20dde89da",
+      "sha256": "91cdda28fc4a71977b75452c8f99034de73a07568443c0bd1b0d37c072fdc125"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/覆蓋與風險登記.md",
+      "bytes": 1256,
+      "gitBlobSha1": "8a1f994c5f3db969947979904172dd4ec071cc89",
+      "sha256": "1c6ca79cc4da7954cd9556061908dd97cfaa0a26f223bf06865e5ca4c093de34"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語氣語庫_寫作前後查閱與非強制QA.md",
+      "bytes": 3951,
+      "gitBlobSha1": "18df9b0d3834aac04f79576accbdf53893953958",
+      "sha256": "ecc4f8adf33a95bb8f1905eab2ee3c5a6b83492233299a0e6f57fafafaa5d7f0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋稽核.md",
+      "bytes": 10668,
+      "gitBlobSha1": "faa63ddaf5adcec55ebd0bb7898564e700048ceb",
+      "sha256": "3ed1456025432e1f3a8b53bdd38966f7fdf1e1cb4384cf3a8b7ce75c3fda5a9b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/語義覆蓋計數快照.json",
+      "bytes": 10361,
+      "gitBlobSha1": "b59965b5fbcf332a79a5ea527b80f569fa0fd8f7",
+      "sha256": "3623eec085253d828365b11534fe7770e55167d565dd29a186e980a0fb8910ac"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI原始討論來源與版本替代證據鏈.json",
+      "bytes": 22495,
+      "gitBlobSha1": "94781fa513f7b6eea0478e54bea93547b2fce2aa",
+      "sha256": "8ec6676601e872f277b8b78687588d2e714df8bda3098247bb571428c2b4c209"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨AI每輪來源刷新_Gemini回貼原文全量保存與寫作前置SOP.md",
+      "bytes": 26180,
+      "gitBlobSha1": "ed01917512d9775eaa380643d3dcf847794b8b57",
+      "sha256": "6833c46d3b3a9bc1af2bf78ad5c4bdb6449b701fb647958f1efc8c814a1dc91a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨世界層與厚界多版本拓撲.json",
+      "bytes": 22873,
+      "gitBlobSha1": "79ceeb629108fd22ba1fcb5472562e95b7bdc419",
+      "sha256": "8d8ee0038ac89011e850d341fac0da7adec205c42f9feb0bc5675a4465d0509a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨區交通去返與法權證據帳.json",
+      "bytes": 12907,
+      "gitBlobSha1": "6d38f17ea5e62a0198b430666431aae49021f719",
+      "sha256": "e5c078d16fc4728801ee11b53201843b608fc441d80cf1ffadda1b4bd63a8770"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/跨層文明生態依賴網.json",
+      "bytes": 18729,
+      "gitBlobSha1": "5b53ece223e3c7403c7be97d27b69b212e2147f9",
+      "sha256": "155716e7e9663c75c49b63dbf69d9c967f05a3cda7f0f97e916f56e4697e0341"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證Gemini語庫執行接線.mjs",
+      "bytes": 2250,
+      "gitBlobSha1": "d3773a24f3bb00df89b02c98566115f8e9c9aac9",
+      "sha256": "93f0d3220a6eceb78e997b4d78913b6194db051831ad3d62cfee979b37d82cd1"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證來源後修覆核.mjs",
+      "bytes": 4488,
+      "gitBlobSha1": "5676cfa8cc3624ca61c244673e3238ec965e2ff8",
+      "sha256": "143e143456f63e253d0476c0d7766aa7430024ed90dc57178de6e648cfbe9d5d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證審核至既有關係圖_證據橋.mjs",
+      "bytes": 5398,
+      "gitBlobSha1": "bb6fe02bd856280f80f9238ef4e14ec6a3b8b670",
+      "sha256": "644b5d5ae116f37565a7f530c13ce65c8d8d48d61ec5f85ddc5d42c6c067f9cc"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第七批原文錨點.mjs",
+      "bytes": 2661,
+      "gitBlobSha1": "552524081371ec6442ebdac84218346896f8f2de",
+      "sha256": "5638a916eb5b0f3cfe581937e045c9d7cd6496f06f6b3c8a618a85ac310275bb"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九批原文實讀錨點.mjs",
+      "bytes": 1631,
+      "gitBlobSha1": "6909aeba2a7f700341367905ff8059388ae3042a",
+      "sha256": "71970f7a9237b69fc56586266e80752874970791eff6cdd1f991a19ef397de9e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九批整檔來源錨點.mjs",
+      "bytes": 1971,
+      "gitBlobSha1": "74c3691d79851f37a789daada2f5644c31269c0e",
+      "sha256": "bab55d937669f2c4c30844781567fffb7d4a4b3b8be8583c094d6c81e37417ed"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第九章封存五檔遷移.mjs",
+      "bytes": 4412,
+      "gitBlobSha1": "0aa2e29d2a5af2e216991e682f0cbafa99319f66",
+      "sha256": "fff7d815a4867edea7a906c130a5ca87d51f4534d2752b16eeddbfe321255dd3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第五批原文錨點.mjs",
+      "bytes": 3611,
+      "gitBlobSha1": "c15b38b1698483c6003f7ebf60b431ac4eddb35f",
+      "sha256": "6c27b5db1250222d4a194669b4581b0fd67fcb27764dc914aae7e9d1d30a90a0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第八批原文錨點.mjs",
+      "bytes": 2666,
+      "gitBlobSha1": "d38849481caad2b1a83fcd4372674b99a905b273",
+      "sha256": "a29d3316a54dc21451b288b0ed638e3c22123a5eec96db556c36d1bf03b54369"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第六批原文錨點.mjs",
+      "bytes": 2568,
+      "gitBlobSha1": "ae2e300b0fb0e3f7fe868634856c6acbf2de828d",
+      "sha256": "7d25a0020e3d3698b35794924a527773946ad8026ce951dc23d09af51258f4f3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十一批原文錨點.mjs",
+      "bytes": 2286,
+      "gitBlobSha1": "f42812a762ceb3629a9d8c6603de997c878c0421",
+      "sha256": "816f40ae2701326ad7f6ea7598762dd60ad60f12b48d2774c8b8cfcc02f09b0d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十三批來源錨點.mjs",
+      "bytes": 2032,
+      "gitBlobSha1": "b6dc2fb1cb2720d90d00f45b665a31ec45e56148",
+      "sha256": "06ded16715da111b86e21c5e77ea0af0213f85de4b7c592148a8cf341d7b0c01"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十二批原文與匿名記憶.mjs",
+      "bytes": 2445,
+      "gitBlobSha1": "0dcaadbf8042e6a6a8f547489e744de1c36236fe",
+      "sha256": "78c1a0a048626ee5c7f2d0cdad56b2f3d898b704befea535636cd30f046d5d16"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第十批整檔來源錨點.mjs",
+      "bytes": 1947,
+      "gitBlobSha1": "bcec97f7f3169b0ee6ee934dc2075fe6f0250ca8",
+      "sha256": "a0678f709d2a0724ab1b93168a42a97ce775091fa685521c26dc0f7d86ed2e60"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/驗證第四批原文錨點.mjs",
+      "bytes": 3785,
+      "gitBlobSha1": "1845bcaac2623889358dba6cd8b09a36a19f0c15",
+      "sha256": "0ef8b0523c3316e57dc3289443a74a00ad77252f803dc647e0f2eeffb4d83186"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/高優先規則與關聯.json",
+      "bytes": 25013,
+      "gitBlobSha1": "a99ce20f274e934730adc1e7facea7cffc99166c",
+      "sha256": "677e77906067c0b545c2a6c29bb2892c18132f6261fe3c27a09a6862f6eea273"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/過時錯誤矛盾稽核_2026-11-04.md",
+      "bytes": 10101,
+      "gitBlobSha1": "c46a435ba2bf725235857fd6e0fc8b27ab70ec0b",
+      "sha256": "b329f4475f38cf57794596add42b5ec1534c7f9afbbde5f76a0192842eba0560"
+    }
+  ],
+  "crossBatchClosed": [
+    {
+      "path": "小說/巨構世界（法月懷造物）/00_分類導航/設定關聯引擎/審核命題至既有關係圖_雙向證據橋.json",
+      "priorVerifiedVolumes": [
+        "巨構世界（法月懷造物）/00_分類導航/VOL_0212.txt",
+        "巨構世界（法月懷造物）/00_分類導航/VOL_0213.txt",
+        "巨構世界（法月懷造物）/00_分類導航/VOL_0214.txt",
+        "巨構世界（法月懷造物）/00_分類導航/VOL_0215.txt",
+        "巨構世界（法月懷造物）/00_分類導航/VOL_0216.txt"
+      ]
+    }
+  ],
+  "partialSources": []
+}
