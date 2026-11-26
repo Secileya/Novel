@@ -322,3 +322,8 @@
 - 37/37逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，7,710,740 bytes；重建78個完整來源檔，7,689,816 bytes，Git blob SHA1及長度全部一致，無未閉合來源。不改寫原始對話，不作內容採納。
 - [Git逐件清冊](核驗清冊/R66C_理惠原始對話0001至0037實體核驗.json)（a6d7c36b645f9630a9a1f791b558b49cb447143b）／[Drive](https://drive.google.com/file/d/107OUAdW_CIraOHnJGQt7JhyTmqp5XkxX/view?usp=drivesdk)，40062 bytes、SHA256 9cbe7c9d4ac1108589e2048fdd80b603597c2e6b1caf0de32e737e70ae22d5b7，雙庫讀回一致。
 - 現行一般閱讀卷累計504/832（100,879,710 bytes），剩328；排除所有既驗ID，續未驗分類。未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第66D輪：Grave-Digger專案根目錄34卷現行實體驗收
+- 34/34逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，6,898,516 bytes；重建180個完整來源檔，6,847,621 bytes，Git blob SHA1及長度全部一致，無未閉合來源。
+- [Git逐件清冊](核驗清冊/R66D_Grave-Digger專案根目錄0001至0034實體核驗.json)（ebb221644b3cdeae98e2b70083d8936c4dadedf0）／[Drive](https://drive.google.com/file/d/1-P3qljyDDhS6TbXSNNXDINGL43ddkGd0/view?usp=drivesdk)，77098 bytes、SHA256 4f46d797805bc5ba241e2b492d9169214f38cad947710c3843259dc5b01103a4，雙庫讀回一致。
+- 現行一般閱讀卷累計538/832（107,778,226 bytes），剩294；下一步巨構敘事規劃與工作流27卷等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
