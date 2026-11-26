@@ -337,3 +337,8 @@
 - 19/19逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，3,911,531 bytes；重建117個完整來源檔，3,877,211 bytes，Git blob SHA1及長度全部一致，無未閉合來源。候選仍為候選，不構成正史採納。
 - [Git逐件清冊](核驗清冊/R66F_巨構待定正文0001至0019實體核驗.json)（f0846257930a54e206afea4c1b1c6c009bb81623）／[Drive](https://drive.google.com/file/d/1g6SHpDuHR4t6TF1e5XkPHBI3I2d54ZGj/view?usp=drivesdk)，50011 bytes、SHA256 988283aaa7b592ab346a89ed5d8713f813a634cd6e19dea8f67c066dd430556e，雙庫讀回一致。
 - 現行一般閱讀卷累計584/832（116,860,559 bytes），剩248；下一步巨構跨AI原始來源11卷等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第66G輪：巨構跨AI原始來源11卷現行實體驗收
+- 11/11逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，2,303,678 bytes；重建51個完整來源檔，2,287,323 bytes，Git blob SHA1及長度全部一致，無未閉合來源。
+- [Git逐件清冊](核驗清冊/R66G_巨構跨AI原始來源0001至0011實體核驗.json)（5bf9b86f937f0227a251f878825fd0007f65e80f）／[Drive](https://drive.google.com/file/d/1iNrKgjfL79Qdf8xK1H5d0epi13s9hpQk/view?usp=drivesdk)，24800 bytes、SHA256 d1bf4ff057f9665ed6423e34c803bdf2f6c9b16f588db70cfb40f0318a1153a6，雙庫讀回一致。
+- 現行一般閱讀卷累計595/832（119,164,237 bytes），剩237；下一步末世莉月正線10卷等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
