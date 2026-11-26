@@ -230,3 +230,7 @@
 - Z02 PARTIAL：重新下載14a38e1 MANIFEST，2419130 bytes、SHA256 45b5d94cb3af759fd4306760c24e1eb3c4914593fe4aab01af47dfa22b3e23f8與第59輪完全相符；第59輪逐件收據Drive現存、size相符，未重驗既有五ZIP。現行展開庫五個專案、12類別資料夾完整列舉，32/832卷路徑、Drive ID、size、text/plain全部匹配，5748354 bytes，餘800卷待查；本批為metadata，非逐卷內容雜湊。
 - Z01/Z02-ORIGINAL PARTIAL：原著專區三份外層ZIP及內層ZIP CRC全通過，137卷（BUG 87、賣裝26、末日24）逐件SHA256符合內附清冊，按卷序重組19069258 bytes、3份原著TXT的SHA256/Git blob SHA1/bytes同時符合獨立原著總報告及14a38e1固定MANIFEST。三個Drive展開目錄現有137卷，台帳207卷之差70待追查，不宣稱遺失，不以來源檔完整等同原著出版完整。直接展開卷未逐件雜湊。
 - [雙庫逐件驗收清冊](核驗清冊/14a38e1_R60A_R61A_核驗清冊.json)（blob ce4ecc98f26814a3fb7e2a7398cec57690444a73；[Drive](https://drive.google.com/file/d/1rOdyI3LFtNB4LoRZiqQDFl0Chph_IzQI/view)，44187 bytes，SHA256 423a9019c957706c4c8e609ff82c6c68857cc67a5925624d7dd437af63647737）兩側讀回一致。起始main 7ced159，不追逐本輪自身稽核提交。未改Canon、AUTO、游標、觸發器或刪檔。下一步餘800卷路徑/ID/size、原著展開層與70卷差異來源、其他正文合冊。
+
+### 2026-11-26｜第60B輪：現行展開閱讀庫832卷路徑定位驗收
+- [x] Z02-READING-LOCATOR：承接60A的32卷，不重做；15個剩餘專案、122類別完整分頁查詢，800/800卷完整路徑、Drive ID、bytes、text/plain與14a38e1固定MANIFEST一致，149221529 bytes，0缺卷/額外/重複路徑/大小差異。累計20專案、134類別、832/832卷、154969883 bytes全部定位相符。此為metadata驗收，非現行展開卷逐件內容hash。第59輪歷史ZIP內容核驗仍有效；現行展開卷實體內容驗收另計。
+- [Git逐件清冊](核驗清冊/14a38e1_R60B_展開閱讀卷路徑核驗.json)（blob e83238f8b4061900b6d5a3fcc024061fb2f9a0d3）與[Drive原始JSON](https://drive.google.com/file/d/1AIJTbbELBDmj7mF03SXaRYXXZ1eltuhv/view)311192 bytes、SHA256 2b47e82b8f41bcda44c6819c55cee4d24b85da90e9c68cb970ca3b3b68d7a721，實際讀回一致。中轉Doc 1OGEyEJrWOUBQaYcAW1AWU0Pg2MhXFR8rVisxzy7d_5w非原件，不計閱讀卷。未改Canon、AUTO或刪檔。下一步原著207卷口徑追查、137直接展開卷與其它合冊驗收、其餘圖像/反向差分。
