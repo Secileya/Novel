@@ -342,3 +342,8 @@
 - 11/11逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，2,303,678 bytes；重建51個完整來源檔，2,287,323 bytes，Git blob SHA1及長度全部一致，無未閉合來源。
 - [Git逐件清冊](核驗清冊/R66G_巨構跨AI原始來源0001至0011實體核驗.json)（5bf9b86f937f0227a251f878825fd0007f65e80f）／[Drive](https://drive.google.com/file/d/1iNrKgjfL79Qdf8xK1H5d0epi13s9hpQk/view?usp=drivesdk)，24800 bytes、SHA256 d1bf4ff057f9665ed6423e34c803bdf2f6c9b16f588db70cfb40f0318a1153a6，雙庫讀回一致。
 - 現行一般閱讀卷累計595/832（119,164,237 bytes），剩237；下一步末世莉月正線10卷等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第66H輪：末世莉月正線、BUG劇情規劃與Backrooms獨立設定總包25卷現行實體驗收
+- 三分類分別10、8、7卷，25/25逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，5,219,322 bytes；重建179、236、36合計451個不同完整來源檔，5,100,716 bytes，Git blob SHA1及長度全部一致，無未閉合來源。分目錄下載後獨立核驗，再合併逐件證據，避免同名VOL錯配。
+- [Git逐件清冊](核驗清冊/R66H_末世莉月BUG及Backrooms三分類25卷實體核驗.json)（c6904b4b3a1e46574db59bca126d6f17113e3429）／[Drive](https://drive.google.com/file/d/11zFxoMHPWec_gatqWsstnGpa6IbI4j1C/view?usp=drivesdk)，154907 bytes、SHA256 6c70c4318f9b4eb8a11d20eaf7352734a323e136265287886b709c8b36f3a2ed，雙庫讀回一致。
+- 現行一般閱讀卷累計620/832（124,383,559 bytes），剩212；下一步末世開店玩家線章節、理惠圖庫文字等未驗分類。排除所有已驗ID；未改Canon、AUTO、游標、觸發器或刪檔。
