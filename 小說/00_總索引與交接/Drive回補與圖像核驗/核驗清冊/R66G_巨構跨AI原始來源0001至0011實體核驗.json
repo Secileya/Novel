@@ -1,0 +1,460 @@
+{
+  "round": "R66G",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "observedMain": "9483a2cc43a054c63b3e7a61740f954feee679ef",
+  "locatorBlob": "e83238f8b4061900b6d5a3fcc024061fb2f9a0d3",
+  "method": "Raw current Drive files individually downloaded by fixed R60B IDs, SHA256 and byte size compared with R60B and fixed MANIFEST. Reconstruct sources completed in this batch by source offsets, using locally retained previously verified pieces only when needed; no re-download or double counting. No ZIP revalidation.",
+  "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+  "range": [
+    1,
+    11
+  ],
+  "count": 11,
+  "bytes": 2303678,
+  "reconstructedCount": 51,
+  "reconstructedBytes": 2287323,
+  "rows": [
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0001.txt",
+      "id": "1aRq4Gt2vtZbGnfMGbsAyJzaY8Lp0yfhA",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 237193,
+      "mime": "text/plain",
+      "expectedBytes": 237193,
+      "expectedSha256": "49d9908394705b75487b226b9f412eb7e2932b1f5ff127806b86ccb36748e883",
+      "actualBytes": 237193,
+      "actualSha256": "49d9908394705b75487b226b9f412eb7e2932b1f5ff127806b86ccb36748e883",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0002.txt",
+      "id": "1aNrx_yvWnmsvpYA-BVlryauN9GGdIOCw",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 170117,
+      "mime": "text/plain",
+      "expectedBytes": 170117,
+      "expectedSha256": "1ed2a5185c03e218e4b6d16124ccb3f427ee8f21791055cefae0b451587928aa",
+      "actualBytes": 170117,
+      "actualSha256": "1ed2a5185c03e218e4b6d16124ccb3f427ee8f21791055cefae0b451587928aa",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0003.txt",
+      "id": "1XUgE_tZ1SAFzm80wZdxxPbDhyVxdWMs3",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 187274,
+      "mime": "text/plain",
+      "expectedBytes": 187274,
+      "expectedSha256": "4a07ac1dfeb945638247128d1807261c4845d0e47cd979d870e836b59b35b48c",
+      "actualBytes": 187274,
+      "actualSha256": "4a07ac1dfeb945638247128d1807261c4845d0e47cd979d870e836b59b35b48c",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0004.txt",
+      "id": "1SMpvhTVWwg6lmtEVwhDjChcZNITIqhov",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 237277,
+      "mime": "text/plain",
+      "expectedBytes": 237277,
+      "expectedSha256": "a71927708f1b68d4e644d373c5207bfebaa5d5b96356823ab5ae310bc16e64da",
+      "actualBytes": 237277,
+      "actualSha256": "a71927708f1b68d4e644d373c5207bfebaa5d5b96356823ab5ae310bc16e64da",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0005.txt",
+      "id": "10HjajiiWWc-JITQykULgnjAL2rME7DgV",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 215824,
+      "mime": "text/plain",
+      "expectedBytes": 215824,
+      "expectedSha256": "8e40d397e510a34647d18a6b802cde8b196e8a847830e912f3464515b88e1031",
+      "actualBytes": 215824,
+      "actualSha256": "8e40d397e510a34647d18a6b802cde8b196e8a847830e912f3464515b88e1031",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0006.txt",
+      "id": "1KAoYqQRtpKa8AdjyRDpiYPCide_R2Qik",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 239077,
+      "mime": "text/plain",
+      "expectedBytes": 239077,
+      "expectedSha256": "dfb5db7f2c67c27e629b4861304d8ace1d2bb73aec1c8aa824fbdf517cb3b9d2",
+      "actualBytes": 239077,
+      "actualSha256": "dfb5db7f2c67c27e629b4861304d8ace1d2bb73aec1c8aa824fbdf517cb3b9d2",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0007.txt",
+      "id": "1GHTjPnyAASmahdd9st8o9GjJwghsCZT8",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 232173,
+      "mime": "text/plain",
+      "expectedBytes": 232173,
+      "expectedSha256": "7aab9d7d80c3864b5d5ccee2b280bd0cd631f4c1380817b31c1d89b6e0ff7e1b",
+      "actualBytes": 232173,
+      "actualSha256": "7aab9d7d80c3864b5d5ccee2b280bd0cd631f4c1380817b31c1d89b6e0ff7e1b",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0008.txt",
+      "id": "1zJG4FIvkYO6_ICVUUjyaDMiL6MGGPgkM",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 234287,
+      "mime": "text/plain",
+      "expectedBytes": 234287,
+      "expectedSha256": "878852912bb7be8c6e5ef3a692eff01ee50dc1b23ead17d5500a051584cf8eff",
+      "actualBytes": 234287,
+      "actualSha256": "878852912bb7be8c6e5ef3a692eff01ee50dc1b23ead17d5500a051584cf8eff",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0009.txt",
+      "id": "1S_LE0FAm5iovzvr8aj1S6d3skN6xl8E5",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 238702,
+      "mime": "text/plain",
+      "expectedBytes": 238702,
+      "expectedSha256": "bf7fd431500fc2693525488483242bafa044d8a01e9d68f6649e3ea1a7eb0eb4",
+      "actualBytes": 238702,
+      "actualSha256": "bf7fd431500fc2693525488483242bafa044d8a01e9d68f6649e3ea1a7eb0eb4",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0010.txt",
+      "id": "1WSR0Ftt06Z5bdcNgzlZicEynjPUwx2mf",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 231463,
+      "mime": "text/plain",
+      "expectedBytes": 231463,
+      "expectedSha256": "63ed130dd5a9e2fc79f793f48d00a190d296f075df8b87a7a4ba99913a44bccd",
+      "actualBytes": 231463,
+      "actualSha256": "63ed130dd5a9e2fc79f793f48d00a190d296f075df8b87a7a4ba99913a44bccd",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/09_跨AI原始來源/VOL_0011.txt",
+      "id": "1Wocaxzzti5qjUZOoFXdZn9Zv-ey4ubRs",
+      "folderId": "1FMP-nmxV3FVr6YfLIxy-57mph35iwYxV",
+      "bytes": 80291,
+      "mime": "text/plain",
+      "expectedBytes": 80291,
+      "expectedSha256": "f53e6c20462e0f97efc8121cbbf2deabfc81a42de41ad8a0739fe5576f0305ee",
+      "actualBytes": 80291,
+      "actualSha256": "f53e6c20462e0f97efc8121cbbf2deabfc81a42de41ad8a0739fe5576f0305ee",
+      "status": "PASS"
+    }
+  ],
+  "reconstructed": [
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/195_A_對話與核心決議_含031與189全文_2026-11-05.md",
+      "bytes": 245051,
+      "gitBlobSha1": "60a3d6461f7f90ea09262711142565ac101f2884",
+      "sha256": "76bcd8acc2cd7a89b8735dad2b75f9da8544e168b43a97d0bd57900086b32b17"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/195_B_Roblox情報與世界生命力_190至191全文_2026-11-05.md",
+      "bytes": 161420,
+      "gitBlobSha1": "f1580b8274f5404bf4a8b17bfa13a92434926d6f",
+      "sha256": "57829be45cef3a6a32b1dcffa35867498dffa3d4433611fe5b4da15854792626"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/195_C_BLAME旅行研究與Roblox續研_192至193全文_2026-11-05.md",
+      "bytes": 186990,
+      "gitBlobSha1": "fd01990cf9fbff57e60f8e7056f1fae3f047a182",
+      "sha256": "03045ab60e47f84001a5d2635cfaf92bd1c3892db6f775f673d901329fbd7417"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/195_D_第三至六章QA_第七章保全與PR核驗_2026-11-05.md",
+      "bytes": 382054,
+      "gitBlobSha1": "854c6bd0d8f4e4fb8659b57afd7183420eac7473",
+      "sha256": "d64236ec320a9064dc56deab53de2d96d91ded2b2484ca8add2c5ac2c2174ea5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261110_Gemini第一批_A_B_C08至18_完整回貼原文.md",
+      "bytes": 43100,
+      "gitBlobSha1": "eba2655a1705eb40191b165ec461804eb1ccc6d1",
+      "sha256": "208ad142ef50b5698cf2bdee85643237e504cddfef2803e1c4dca4a9eda19d57"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261110_Gemini第三批_雙輪合併驗收對齊_語氣庫接線_存檔狀態_完整回貼原文.md",
+      "bytes": 26795,
+      "gitBlobSha1": "2d8ee2712b00f04d2d790366c325d9db95293af8",
+      "sha256": "61d14d4284b4d0fd0ae904cef1b58a0d70b3e2ab493837b9b61714577d3e907c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261110_Gemini第二批_C19至32_D1至7_E清單_完整回貼原文.md",
+      "bytes": 45914,
+      "gitBlobSha1": "e71a36d8732650f9e250fbd277ebaaa752695837",
+      "sha256": "e8cc99851872279fcee5f7e6b67d2bf3ceed89159cdc886fba532420e3cb3d86"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第三批_移除HTML標籤重排_工作一至六_使用者回貼原文.md",
+      "bytes": 27960,
+      "gitBlobSha1": "17aa854d8c2ac59c9d57866390d4deb5aab27df5",
+      "sha256": "a279cb1bba1e0f865d4d55beaa1fbad3fcff7bc81e698b566488888369c2c817"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十三章R1_A作者專用劇透因果卡_使用者回貼可見內容_非正史.md",
+      "bytes": 8191,
+      "gitBlobSha1": "b0b1ae7bfd836ca706ee44386f77fab172c62ee9",
+      "sha256": "aa3ad34cb9dd73963285461f2727533d0c9487cef75417d383c6fbae25bddf80"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十三章R1a_A作者因果更新與十項修訂摘要_回貼轉錄_非正史.md",
+      "bytes": 7863,
+      "gitBlobSha1": "4370f4b810edc6dde78ee99ad5b88b703ecfbf1b",
+      "sha256": "e034bf8a6b6e071d18d3f3a0a5326997509d7f1611a61360e1d275db6fe70eaf"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十三章R1a_C修訂對照_候選台帳與語庫QA_回貼轉錄_非正史.md",
+      "bytes": 5653,
+      "gitBlobSha1": "2f79d47c2b4dfe3f6a2a01f1bf9aa171c23df0db",
+      "sha256": "b38807144304817eac14673e3dbd39a70de08e76abe8f0e446bf359918169c72"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十三章_A寫前_B正文_C寫後_兩段接續合併可見回貼_非位元原樣.md",
+      "bytes": 53821,
+      "gitBlobSha1": "e77ff5f4a50c083864132c3d5b49bb7d3125527d",
+      "sha256": "8c8e430387a4da0a7b8a79258721c1ec040dee1e9508e8680c1dfb00bcdde434"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十五章第一批_A與B前段_使用者回貼原文_非正史.md",
+      "bytes": 13484,
+      "gitBlobSha1": "7e6091b9a676122f1283b8b02332c9ece8bc3edb",
+      "sha256": "c1c5a7c733a828411f9ee17294dfc5b67d3e1e4567bccdc49b2879bd21b55f5b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十五章第三批_B結尾_C寫後QA_D回執_使用者回貼原文_非正史.md",
+      "bytes": 16166,
+      "gitBlobSha1": "1657f69ac0f2a7a2baa48312991393a1bbca7062",
+      "sha256": "7e6e0f8781ec67970646eda55ed91eb9f2be93a1f8d1e976e96dcb75e776f96b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十五章第二批_B五百公尺停點_使用者回貼原文_非正史.md",
+      "bytes": 16914,
+      "gitBlobSha1": "3e0d259655f537f731e8edb06248f4f46cb23ccc",
+      "sha256": "e1a870402649e714a400a5fb4166b4e67dae07c2524e1aca21ebecc168ba3a52"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十四章A雙軌核對作者層因果規劃_聊天轉錄非正史.md",
+      "bytes": 7896,
+      "gitBlobSha1": "cd5133cd8313e97f3f0de8ea59b2d594ca369ac2",
+      "sha256": "e3f726571361fd196714421185e7496bf7dd828438e68bce019acbc10a87b926"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十四章C寫後QA道具現金候選台帳_聊天轉錄非正史.md",
+      "bytes": 4941,
+      "gitBlobSha1": "811ca62a01aff32fe75bab06988513a97508d37c",
+      "sha256": "52925b97a2e2d604b2c249742ac41855755d4caea583ec74cf6fbe9878d5c540"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十四章R1a_A寫前雙軌補證與修訂決策_使用者完整回貼_非正史.md",
+      "bytes": 9885,
+      "gitBlobSha1": "ee5842b6126217ef02d4ed553f0b1239b05b7ebc",
+      "sha256": "af7f48cc3cacd3266e678a25a2a2b3cc9b091bcef138a7ac1813e7ba3bcb2192"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十四章R1a_C完整修訂對照現金道具與語氣QA_使用者完整回貼_非正史.md",
+      "bytes": 13413,
+      "gitBlobSha1": "42846c5ec5deac930379b74925ebb67d1e4ae5f0",
+      "sha256": "f6626446ec6a403448c4cc0605e4a5586073fd075e6438feb2157720bf92cf50"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_Gemini第十四章R1a_D實際保存能力與版本回執_使用者回貼歷史來源_非正史.md",
+      "bytes": 2689,
+      "gitBlobSha1": "5b19a86ee409cdb4e6616ae69f237e3261488f5c",
+      "sha256": "f89ed2ae71761c499048b73d7bd50c9ea69786026b6b827e5cd7420cd64cb075"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261111_第十五章完整寫作提示詞_作者回貼_非正史.md",
+      "bytes": 14632,
+      "gitBlobSha1": "3a1bf5a401c243265b1b600f79dde7f0b8561f11",
+      "sha256": "5ca3d001552d3c7a16076ba90ff9916fd0e3328fb3cfc9561fb3a0909003a1db"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini回貼_世界缺口探索A至E_琉璃林海白鹽乾海紡鋼風琴止步崖_可見完整原文_非正史.md",
+      "bytes": 18406,
+      "gitBlobSha1": "70a8bd50d3ba8c3be6b395efd1d3b2777d28cb4c",
+      "sha256": "0841e2ab33eef9ccfca9384f6bf58d03604376f5eac76a8422c0706aa34f0283"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第二輪全域創意A至E_雲海城邦浮空鯨時間典當逆流天瀑老莫爾鏡面霜雨_可見回貼全錄_非正史.md",
+      "bytes": 15015,
+      "gitBlobSha1": "ceba880218ff231fb72a3db34d193e14e3f93a51",
+      "sha256": "5ef42c267cc653189e22ccf35c743bd5da15b77894f8483387e3efcba9f86a8c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十七章第一批_A與B前半_使用者回貼重建_非正史.md",
+      "bytes": 31353,
+      "gitBlobSha1": "cb01a38a1832c9c2bf121600eb12f4afe337455d",
+      "sha256": "a0c8eca1dd1d79b54aab153b7fba715b7bab51d06abbdc69ab69fc4fc88aad66"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十七章第二批_B後半_C_D_使用者回貼重建_非正史.md",
+      "bytes": 30837,
+      "gitBlobSha1": "446b9a74cca6de4df69c92cd591a1e662cb639bd",
+      "sha256": "9e41af77e6aa8a4ecb030a17be1091cde958f978cec7a8f6100a740cf875d811"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十五章R1八處局部補丁_C台帳與兩批交付_使用者回貼原文_非正史.md",
+      "bytes": 22243,
+      "gitBlobSha1": "80b63a1f9f19479753700dcb12bc8c3f22efb986",
+      "sha256": "3132bac096ca431d533ada47a358b4b40d42c94ac0deb7bc85d966761049a564"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十八章第一批_A與B前半_使用者回貼重建_非正史.md",
+      "bytes": 29016,
+      "gitBlobSha1": "3ad130e23e337c59b1872a2c0fc8f1d3130d9d9c",
+      "sha256": "65a33549fc5a6d9e36d6ab4531828efa5593ef0134a17c7e3491b3e3b9b2c8ae"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十八章第一段_A與B前半_使用者回貼重建_非正史.md",
+      "bytes": 28917,
+      "gitBlobSha1": "f592b8fb5b27eec5b6157fbfa68295feace6212e",
+      "sha256": "1fa2ca580551776daa85d939f27260dc677e98e1bfdbd26e29fa6854fac00de5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十八章第二批_B後半_C_D_使用者回貼重建_非正史.md",
+      "bytes": 38977,
+      "gitBlobSha1": "d62b6810be93ab88365eae7a89e3c5c05393699e",
+      "sha256": "74a1e693bd02762ed86bbdf3463fc35721575e6174685eedfa4db711c123cf56"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十八章第二段_B後半_C_D_使用者回貼重建_非正史.md",
+      "bytes": 38850,
+      "gitBlobSha1": "36cf33a5572ec5fd05b3d1d9f693d20cbba69d76",
+      "sha256": "667e778506aecb45cc1d450ec08c4832c0667a9b9c74c9ef8873970a2af845c8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十六章第一批_A與B前半_使用者回貼重建_非正史.md",
+      "bytes": 23304,
+      "gitBlobSha1": "e435ab483dcf67e29817d1abd5e9a7b9a25b8f1b",
+      "sha256": "cb6f1ab827f2feb5cd51b4ae96b1a4d3954ab584ad24d7c1bad7202944f1a7cd"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261112_Gemini第十六章第二批_B後半_C_D_使用者回貼重建_非正史.md",
+      "bytes": 28042,
+      "gitBlobSha1": "5d5c69d29748058da300d53243a70f188683b510",
+      "sha256": "2b7bb25b78db06f1b363eee52a294d6d1c9cb1dc7b86cd4fcc2a3c9cfe070eea"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini獨立世界層與三大迴廊宏觀框架A至M_使用者可見回貼全錄_非正史.md",
+      "bytes": 37764,
+      "gitBlobSha1": "1fdb20305c0673aa999b1dcc01a20fd2b1f2e495",
+      "sha256": "8d2145f1e4983f5b4be1b9069034218ce9d7e2d30b1c2ae5725f893583569347"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini瑟莉思媞複合笑容復核與阿爾方索破頁者試寫_本對話可見回貼全錄_非正史.md",
+      "bytes": 9760,
+      "gitBlobSha1": "24c07822f16684e69ae6946d44cfb461e906110b",
+      "sha256": "9161a22f94dded6ad4ea4af23ac2035519195f3b6a080092308feacea2edc6f5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第七輪文明實力科技跨文明接觸與百年史A至N_使用者可見回貼全錄_非正史.md",
+      "bytes": 56548,
+      "gitBlobSha1": "a47e71744dada5359b24659c3c6918472f4ac4b4",
+      "sha256": "db8a47ce817bb7306c7a5a5face8efb98b24222844006bf2189f0fa088b33bce"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第三輪深度建構A至H_九印聯邦鯨歌者老莫爾信苔鏡湖三段情境_可見回貼全錄_非正史.md",
+      "bytes": 37812,
+      "gitBlobSha1": "008ec62a3feb47ab15028c3e0191d9d62fa3d8a0",
+      "sha256": "c47db3aaeb7f69a1e5024623e64b10e8a159406521278ade1e19dc692bf738f0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第九輪千絲懸庭外圍中轉港篇_因果修正與小說試演全錄_非正史.md",
+      "bytes": 29742,
+      "gitBlobSha1": "657c39048ab2bf9df6cdda5cc4664832549585ef",
+      "sha256": "4d47270d19342db115c3641d39b71b3565fe6d99bc5b503e31657e58eaf58362"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第五輪巨構地理網絡厚隔界旅行與時間線A至K_可見回貼全錄_非正史.md",
+      "bytes": 38391,
+      "gitBlobSha1": "058f3697e8cbd9193c61263b3c540bf4d6d381ae",
+      "sha256": "3e10743eb3480f7050a33e1bd01cd6164ef5af7ac478d8d6cbf560729cd588c5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第八輪雙主角旅程文明接線三迴廊白髮能力與瑟莉思媞神情A至J_使用者可見回貼全錄_非正史.md",
+      "bytes": 54757,
+      "gitBlobSha1": "1da8aefd7341384bea5615e67bca3316c2271808",
+      "sha256": "6fa22561045bf8f6e7f6e620f19d2d703332083c9fa0d42fd4cf68741daed324"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第六輪未知巨構遠征探索文明與陌生地貌A至M_可見回貼全錄_非正史.md",
+      "bytes": 41878,
+      "gitBlobSha1": "d14f810577321a0623f582c545261de72a7faafa",
+      "sha256": "4653b186c0643f849ccb3e50aca5a8ab7623a89ea5a54ba07adb02267ace5f48"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第十輪公開苦痛之路地理銜接雙主角高危探索與試演_使用者可見回貼全錄_非正史.md",
+      "bytes": 32439,
+      "gitBlobSha1": "e7ccbd2b50816d6dda9908ea17ba1be4033082e7",
+      "sha256": "4e8a9e5cdec61bef58e0d1e459e45f8c7246a2d4a21e683b4628d7b9d2ba38a1"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini第四輪巨構級地貌文明多樣性A至I_鹽晶乾海死氣帶懸海斷環_可見回貼全錄_非正史.md",
+      "bytes": 39509,
+      "gitBlobSha1": "78472b9ba4a18ee8bca11a689bcf923f778b6e27",
+      "sha256": "a10980172bf63729d5a7df12ab32ba0c8a10130ddfbf78de39594e836a174d0a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_Gemini靜謐迴廊白髮破頁者與微笑誤判_本對話可見回貼全錄_非正史.md",
+      "bytes": 14467,
+      "gitBlobSha1": "b1376e0fb7d457600349d24b142f67abf199f0ed",
+      "sha256": "e60956146826751e9f1051ff2c482979b075d36923ba7e3eabec11f1e1848da5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_向上登頂動機世界層終點與前文明跨域語言_使用者回貼對話全錄_非正史.md",
+      "bytes": 17790,
+      "gitBlobSha1": "7c6834e4ce616f06d07593f52a792e5b627277b4",
+      "sha256": "fe20633aa418b53728ff05b2e3eb96b933d0b905bb1bf5db74ccdc8ae265e9a4"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261113_韓默無形靜止第三個座位二次偶遇與公開高危地域_八輪黏接問答逐字全錄_非正史.md",
+      "bytes": 84836,
+      "gitBlobSha1": "cd01b87b9f1409b6277ed4218cfcb79197f618ea",
+      "sha256": "6d8f50328bda4d8907d10b73d99635d2ce22a8476063f7145689ceb2a7b982b2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261114_Gemini第十一輪長篇旅行活世界與雙主角故事深化_使用者可見回貼全錄_非正史.md",
+      "bytes": 33847,
+      "gitBlobSha1": "c7a952b91775f62611d78f5d00112eeff46e7b24",
+      "sha256": "632002fa8164934effc2eac6c4ce3a49416693cd8ab4a5f6a59b9d4595ecc696"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261114_Gemini第十二輪真正的冒險感強者世界雙主角成長與長篇事件創造_使用者可見回貼全錄_非正史.md",
+      "bytes": 42826,
+      "gitBlobSha1": "d1d9c94039360669e040f2b86fccd97003e81081",
+      "sha256": "cd4e8c7d971948ea91b94fcf293bb65d60dc209cf4e12965122bae7be69139e2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261115_Gemini第十三輪從世界觀發想到真正好看的故事_三段小說試演與編輯比較_使用者可見回貼全錄_非正史.md",
+      "bytes": 35698,
+      "gitBlobSha1": "24cd7e483fa01a524990d66f1451f82b0a632a76",
+      "sha256": "8015dbff5a652699f888736ba1e384aad381b67a4baae05e2fb25b5ccda314c5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261122_Gemini重構第01章不賣票的上升線_全回貼原文336行_非正史.md",
+      "bytes": 31298,
+      "gitBlobSha1": "d31a236e77a4a5621d0a12f746f7e35d79d2afaa",
+      "sha256": "59de5c6396129c64569f86d131315beb3ed60480b47b01a4810cfd77db7f324e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/20261123_Gemini第01章不賣票的上升線_R1_使用者完整回貼原文_非正史.md",
+      "bytes": 24081,
+      "gitBlobSha1": "f4f9a05c132aab3bae067a6e78f878fdf1da3100",
+      "sha256": "3cbb33e31ad3b128ff93b2e8e35a2b2925c7a8e15cff67c162451b52cefea594"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/09_跨AI原始來源/README.md",
+      "bytes": 24088,
+      "gitBlobSha1": "216dba7b38ff1a1ab0cea25d44bcbaf4aa738808",
+      "sha256": "af7b9302688987d40831a1e6f39b9d1be6e9a0ca64c3855164e0790dae3f469e"
+    }
+  ],
+  "crossBatchClosed": [],
+  "partialSources": []
+}
