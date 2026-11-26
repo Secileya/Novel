@@ -1,0 +1,1044 @@
+{
+  "date": "2026-11-26",
+  "rounds": "60A/61A",
+  "status": "PARTIAL",
+  "observedMain": "7ced15970ae7bf03df3a76a3afb4b0593fe5c5c8",
+  "fixedReadingCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "manifestId": "1KUe1Bj11FVX0sqBwH6Cr7s_YyWm9znsw",
+  "manifestSha256": "45b5d94cb3af759fd4306760c24e1eb3c4914593fe4aab01af47dfa22b3e23f8",
+  "r59ReceiptId": "1dasdOJvdCwg3S_FHot0hg359LDqcsJJi",
+  "r59ReceiptMetadataBytes": 1547306,
+  "r60": {
+    "rootId": "1xXpdjQ04JaPfu58Hdzd1_v2Ns2dR1Vvu",
+    "method": "Complete paginated listings for 5 selected project directories and all 12 immediate category folders; compare full path and bytes to fixed manifest; no per-volume content hashing in this batch.",
+    "expectedTotal": 832,
+    "checked": 32,
+    "checkedBytes": 5748354,
+    "unverified": 800,
+    "folders": {
+      "家庭總檔/家人生活": "1fHVu4D2pUZRM_Wtj9co200XMxB1K4MAO",
+      "家庭總檔/99_原文匯出": "1W2dys6VYW5Yp5wN9RA9-XoxzJMFnVGGE",
+      "家庭總檔/05_Gemini_最新版閱讀分卷": "19Bf5y2ouZci65Dt6o8MJ2Ja6EEMkmBHq",
+      "家庭總檔/04_Gemini_01總檔五冊_2026-11-07": "1GZ80Xuz7PJpXxVfN2Ysk1HUffQ-Badz6",
+      "家庭總檔/03_互動文案": "1aiosX78doAFTH-gutRn3utRBsyot79Jv",
+      "家庭總檔/02_圖像參考": "1Qsqhln6nQMaH_tsfcKyGdtntKkfiar_o",
+      "家庭總檔/00_專案根目錄": "1kJv2r6hYAOyzhFkvcjfJTx0XzqfneRv8",
+      "00_倉庫與共通索引/00_專案根目錄": "1YgLDEDJH-nvzW4C7LJH1iPCz5iXE5kKS",
+      "00_通用寫作規範/00_專案根目錄": "1S74HbOKH1PilhO2_u4E5rBZEOKFy7wB-",
+      "00_總索引與交接/00_專案根目錄": "1hZDixrvwdgEZ-i6KdXm-Mp2q7G8V-bfO",
+      "都市重生修仙/草稿_非正典": "1eclK_TQpXkTMk5MQ8d9hgSaM2cr5Y2J9",
+      "都市重生修仙/00_專案根目錄": "1bUc2N5hJn7walUh-4e1GwiAqHHAgTcsF"
+    },
+    "rows": [
+      {
+        "path": "00_倉庫與共通索引/00_專案根目錄/VOL_0001.txt",
+        "id": "1d17B8Mpr9eE_sYiDyDKhcECgvPJ95o_E",
+        "bytes": 165839,
+        "mime": "text/plain",
+        "folderId": "1YgLDEDJH-nvzW4C7LJH1iPCz5iXE5kKS",
+        "expectedSha256": "cc2377dbf7e1c923ed7555dd4a61c2078c6c9fe101b05c4db0d70b7b785d1cd0"
+      },
+      {
+        "path": "00_倉庫與共通索引/00_專案根目錄/VOL_0002.txt",
+        "id": "1-tKFtaSHceRX1DNb2AFQCX6vUlxiAaDv",
+        "bytes": 238462,
+        "mime": "text/plain",
+        "folderId": "1YgLDEDJH-nvzW4C7LJH1iPCz5iXE5kKS",
+        "expectedSha256": "bd86c8b0378d6405e7a8b90f1bdfc753147f58a5000369bb97baccc68e9186f3"
+      },
+      {
+        "path": "00_倉庫與共通索引/00_專案根目錄/VOL_0003.txt",
+        "id": "1xtVs43lb88OkQBzwno8Gv8GXtdPz1Z-A",
+        "bytes": 7814,
+        "mime": "text/plain",
+        "folderId": "1YgLDEDJH-nvzW4C7LJH1iPCz5iXE5kKS",
+        "expectedSha256": "1ceb6754588d8e123eeb29fba149f2c94a2aa130ea63f918b408b51e3ef83d27"
+      },
+      {
+        "path": "00_總索引與交接/00_專案根目錄/VOL_0001.txt",
+        "id": "1-VHiNs41Hbh3CL4lfdl90MVck48TuiLF",
+        "bytes": 109865,
+        "mime": "text/plain",
+        "folderId": "1hZDixrvwdgEZ-i6KdXm-Mp2q7G8V-bfO",
+        "expectedSha256": "98034d30d3b49b878017af7417cb054bde7956ac067779ef1187735c39895d43"
+      },
+      {
+        "path": "00_通用寫作規範/00_專案根目錄/VOL_0001.txt",
+        "id": "1uOJvJUEToVa3dA7Fljcy_zBcTNrBV8qe",
+        "bytes": 39550,
+        "mime": "text/plain",
+        "folderId": "1S74HbOKH1PilhO2_u4E5rBZEOKFy7wB-",
+        "expectedSha256": "42271cb89d1a9badb9a297efa952ef27c9e24c6dc3a6f244f66669c028454c14"
+      },
+      {
+        "path": "家庭總檔/00_專案根目錄/VOL_0001.txt",
+        "id": "1IJ1QYBZSZ-Ei45PMuGnHvOrZonUspfad",
+        "bytes": 142116,
+        "mime": "text/plain",
+        "folderId": "1kJv2r6hYAOyzhFkvcjfJTx0XzqfneRv8",
+        "expectedSha256": "c675e4e6cdc7cc83d730a6015a42df4e0d1241bd0da0144717bf00e3cfc71eab"
+      },
+      {
+        "path": "家庭總檔/00_專案根目錄/VOL_0002.txt",
+        "id": "10xFbHHKflzeNjVFierCPV6Q3gxPxyifo",
+        "bytes": 236557,
+        "mime": "text/plain",
+        "folderId": "1kJv2r6hYAOyzhFkvcjfJTx0XzqfneRv8",
+        "expectedSha256": "bf5910eef229b9cb1769c88614d8573b2b265f8f7cebb871ac80690126acbd8e"
+      },
+      {
+        "path": "家庭總檔/00_專案根目錄/VOL_0003.txt",
+        "id": "1iB-CML1gXOWszzn3EbmE2HE8pwTu0P9I",
+        "bytes": 237051,
+        "mime": "text/plain",
+        "folderId": "1kJv2r6hYAOyzhFkvcjfJTx0XzqfneRv8",
+        "expectedSha256": "6ac3b2bd46e9559eeb089334bdee803dc815342d2429b957266c864dce72ecc2"
+      },
+      {
+        "path": "家庭總檔/00_專案根目錄/VOL_0004.txt",
+        "id": "1YS_81ePC-6tNYY5MtU0W1VqwV6N1cdIm",
+        "bytes": 236827,
+        "mime": "text/plain",
+        "folderId": "1kJv2r6hYAOyzhFkvcjfJTx0XzqfneRv8",
+        "expectedSha256": "a209c418756f218ac88a2711d5e80081ef824c2eddd2c094d869256f9b56fc9f"
+      },
+      {
+        "path": "家庭總檔/00_專案根目錄/VOL_0005.txt",
+        "id": "1eFd1J0v9NDcqu9FrnI2oWdtEvD_eI8wW",
+        "bytes": 237176,
+        "mime": "text/plain",
+        "folderId": "1kJv2r6hYAOyzhFkvcjfJTx0XzqfneRv8",
+        "expectedSha256": "6846a4d9035eda7ba2f4001e0ed9203befc8ed6c8db05051425945376f2c1600"
+      },
+      {
+        "path": "家庭總檔/00_專案根目錄/VOL_0006.txt",
+        "id": "1GY4TjXEfVXT3iLu5uxDAEuB3-YbcR5LQ",
+        "bytes": 228439,
+        "mime": "text/plain",
+        "folderId": "1kJv2r6hYAOyzhFkvcjfJTx0XzqfneRv8",
+        "expectedSha256": "1074e064758db85464876c67b00c0af402430bcf92f5a7286284740ea805722d"
+      },
+      {
+        "path": "家庭總檔/02_圖像參考/VOL_0001.txt",
+        "id": "11XgKo4zO-_sMV4zDT-mtWA3esNbfJQix",
+        "bytes": 40721,
+        "mime": "text/plain",
+        "folderId": "1Qsqhln6nQMaH_tsfcKyGdtntKkfiar_o",
+        "expectedSha256": "05c0385cdcc14642b3c60eb8dc4e50782889b4c134b6515b4aa9b354f4a2a24b"
+      },
+      {
+        "path": "家庭總檔/03_互動文案/VOL_0001.txt",
+        "id": "1YlbUsAC5ZFGErTdaIY9QE4DsbSSSLjzN",
+        "bytes": 237878,
+        "mime": "text/plain",
+        "folderId": "1aiosX78doAFTH-gutRn3utRBsyot79Jv",
+        "expectedSha256": "c39799de1218e88583c628545fefac63bd227a48878df7118126d91b69777953"
+      },
+      {
+        "path": "家庭總檔/03_互動文案/VOL_0002.txt",
+        "id": "1xO5qYDgbhrTbOBANK3hrcV32HekC2BHV",
+        "bytes": 239672,
+        "mime": "text/plain",
+        "folderId": "1aiosX78doAFTH-gutRn3utRBsyot79Jv",
+        "expectedSha256": "00e389b4233a4c0dd1f6bf8dbf9b3d9589d0a6b96198c1cce2211015b54fc005"
+      },
+      {
+        "path": "家庭總檔/03_互動文案/VOL_0003.txt",
+        "id": "1pqSIOxbrlRWo6pSyUemlxJum6UeFiJFi",
+        "bytes": 232362,
+        "mime": "text/plain",
+        "folderId": "1aiosX78doAFTH-gutRn3utRBsyot79Jv",
+        "expectedSha256": "f8eec4de15dd1621a05f732a6d90c0d2a7d94408e4f797739d0766ef95bee93f"
+      },
+      {
+        "path": "家庭總檔/04_Gemini_01總檔五冊_2026-11-07/VOL_0001.txt",
+        "id": "1_CHFSbOyC57RdtmsWL5W3JFJUNzQj2tB",
+        "bytes": 219215,
+        "mime": "text/plain",
+        "folderId": "1GZ80Xuz7PJpXxVfN2Ysk1HUffQ-Badz6",
+        "expectedSha256": "292af649c0bc529520617974d73343c1190e51bc4621d49060815c4c1e94877b"
+      },
+      {
+        "path": "家庭總檔/04_Gemini_01總檔五冊_2026-11-07/VOL_0002.txt",
+        "id": "1eQmCO8JTUE7bJaFlKxaTtuLlwpAU_2NJ",
+        "bytes": 235600,
+        "mime": "text/plain",
+        "folderId": "1GZ80Xuz7PJpXxVfN2Ysk1HUffQ-Badz6",
+        "expectedSha256": "4b587f5825abc15c326bd38c1e0493dfdd1d72673584c49b4f9f97cd9527447a"
+      },
+      {
+        "path": "家庭總檔/04_Gemini_01總檔五冊_2026-11-07/VOL_0003.txt",
+        "id": "1J3fHApmftorYcyaJbDjpvPGj2Q5rN_1n",
+        "bytes": 234987,
+        "mime": "text/plain",
+        "folderId": "1GZ80Xuz7PJpXxVfN2Ysk1HUffQ-Badz6",
+        "expectedSha256": "adc92ab0d54ec79f0b467d50fcbff71402249d7cb7a340b7ec5681e61828f41c"
+      },
+      {
+        "path": "家庭總檔/04_Gemini_01總檔五冊_2026-11-07/VOL_0004.txt",
+        "id": "1pETMNmo5zjq--8wPhWnBPs870pDHNCA0",
+        "bytes": 154289,
+        "mime": "text/plain",
+        "folderId": "1GZ80Xuz7PJpXxVfN2Ysk1HUffQ-Badz6",
+        "expectedSha256": "690b9fe36427ea433e43bcfc62393d50b449617fcd126bd64d083434b177bf1f"
+      },
+      {
+        "path": "家庭總檔/04_Gemini_01總檔五冊_2026-11-07/VOL_0005.txt",
+        "id": "1qvKA8p6sYEfyDqxCTYy7R_LSV7s28uNs",
+        "bytes": 167340,
+        "mime": "text/plain",
+        "folderId": "1GZ80Xuz7PJpXxVfN2Ysk1HUffQ-Badz6",
+        "expectedSha256": "1012c6e954f1343fa0f2dd662c55508efdbffdade2db6f80fd8ff9d4ef4d91db"
+      },
+      {
+        "path": "家庭總檔/05_Gemini_最新版閱讀分卷/VOL_0001.txt",
+        "id": "1L1b-a4KwMvWahhc-Dmlrt52sEr_SAXsa",
+        "bytes": 231690,
+        "mime": "text/plain",
+        "folderId": "19Bf5y2ouZci65Dt6o8MJ2Ja6EEMkmBHq",
+        "expectedSha256": "83c79ede0a7adeb55d2da033934a95bbd891ad938ff7ceb9b90b34bf7c66f472"
+      },
+      {
+        "path": "家庭總檔/05_Gemini_最新版閱讀分卷/VOL_0002.txt",
+        "id": "1pii0kL3h-VpWnBCVkZadEUHDQUHI5b9G",
+        "bytes": 175571,
+        "mime": "text/plain",
+        "folderId": "19Bf5y2ouZci65Dt6o8MJ2Ja6EEMkmBHq",
+        "expectedSha256": "9672052a2b14ff5a3c9fe3c2f42172ff765a978067797a4df210bf7cb17eecac"
+      },
+      {
+        "path": "家庭總檔/05_Gemini_最新版閱讀分卷/VOL_0003.txt",
+        "id": "1FyZoOkPidSWwH6AN0gTdBnO11h28Ilp3",
+        "bytes": 188127,
+        "mime": "text/plain",
+        "folderId": "19Bf5y2ouZci65Dt6o8MJ2Ja6EEMkmBHq",
+        "expectedSha256": "8127c23a823c72709cc232e3e706baecd00ed6d6992f236f2bcdc4c52c1de3fb"
+      },
+      {
+        "path": "家庭總檔/05_Gemini_最新版閱讀分卷/VOL_0004.txt",
+        "id": "1mgdvE6PGarX5yL5yge7OfIIxYfdvTnLD",
+        "bytes": 238438,
+        "mime": "text/plain",
+        "folderId": "19Bf5y2ouZci65Dt6o8MJ2Ja6EEMkmBHq",
+        "expectedSha256": "f3abadbb9b8dec4d15b3f73b30fbf5cee216fa8be800bbf47303b68112c06a67"
+      },
+      {
+        "path": "家庭總檔/05_Gemini_最新版閱讀分卷/VOL_0005.txt",
+        "id": "1mGbPevjERI59FSBkVX2kthBoUjCFm1t8",
+        "bytes": 212527,
+        "mime": "text/plain",
+        "folderId": "19Bf5y2ouZci65Dt6o8MJ2Ja6EEMkmBHq",
+        "expectedSha256": "f794b58e3b5812cf05e93b81db2a617057b6855d4370374c5ed137a6ca099ce7"
+      },
+      {
+        "path": "家庭總檔/99_原文匯出/VOL_0001.txt",
+        "id": "15oQBFzZnaLlSKh72n1Kp9umCcfNenQQ4",
+        "bytes": 158917,
+        "mime": "text/plain",
+        "folderId": "1W2dys6VYW5Yp5wN9RA9-XoxzJMFnVGGE",
+        "expectedSha256": "1b913daad04bba13afef8b10cb427d28b0c04788854de05f65e79ffaf0bd152b"
+      },
+      {
+        "path": "家庭總檔/99_原文匯出/VOL_0002.txt",
+        "id": "1xDT2kocoyCBqTKDSpVtkG2_FfdH1_p_G",
+        "bytes": 112258,
+        "mime": "text/plain",
+        "folderId": "1W2dys6VYW5Yp5wN9RA9-XoxzJMFnVGGE",
+        "expectedSha256": "748602c88a565b21fd3662e3fe280ca3c6823c2725e212082aa9cc5813f6a3d1"
+      },
+      {
+        "path": "家庭總檔/家人生活/VOL_0001.txt",
+        "id": "1TJVvzx6Fc6wDIOFgfRFvp3hLDZEL5Tod",
+        "bytes": 236062,
+        "mime": "text/plain",
+        "folderId": "1fHVu4D2pUZRM_Wtj9co200XMxB1K4MAO",
+        "expectedSha256": "fd558800bffc9100a1e459931d86adec6707b451c4d75858b4b09a3bfff04368"
+      },
+      {
+        "path": "家庭總檔/家人生活/VOL_0002.txt",
+        "id": "1pxYPDmTIGjOzrfvHXkYArXJZCQ0V2k4X",
+        "bytes": 23868,
+        "mime": "text/plain",
+        "folderId": "1fHVu4D2pUZRM_Wtj9co200XMxB1K4MAO",
+        "expectedSha256": "38ca7343b4349c984af0dd3a5f80c790de197e6dd6cbaae2477645f436775edb"
+      },
+      {
+        "path": "都市重生修仙/00_專案根目錄/VOL_0001.txt",
+        "id": "1G3P7ipJftgdexSozeG0TNiuhuqNHdjxk",
+        "bytes": 229782,
+        "mime": "text/plain",
+        "folderId": "1bUc2N5hJn7walUh-4e1GwiAqHHAgTcsF",
+        "expectedSha256": "1b45247e6e08bdfde2750b0237c297dd4eae993692e7b1b2de971c8be33523c4"
+      },
+      {
+        "path": "都市重生修仙/00_專案根目錄/VOL_0002.txt",
+        "id": "1Utv4vszKMonL2bQh2JhALOk3ouRxcCSE",
+        "bytes": 179277,
+        "mime": "text/plain",
+        "folderId": "1bUc2N5hJn7walUh-4e1GwiAqHHAgTcsF",
+        "expectedSha256": "0d4318b68d045dd9b0af8a215e1908cf50d262b38bc43f7aa58036be53203d0e"
+      },
+      {
+        "path": "都市重生修仙/草稿_非正典/VOL_0001.txt",
+        "id": "1Iajuz9kshNaXetoiwAjtvqup3CKdENtO",
+        "bytes": 120077,
+        "mime": "text/plain",
+        "folderId": "1eclK_TQpXkTMk5MQ8d9hgSaM2cr5Y2J9",
+        "expectedSha256": "85e75acaa9561d7327c7865e953d099103e2f5c735ecaee3c960c736ba1e20ad"
+      }
+    ]
+  },
+  "r61": {
+    "rootId": "1oy83ujO724aewEpoIeXJ0O_9Ho43kidh",
+    "reportId": "1W-m-7SaWh3C_Lad7LUpoSTmzCT9DrUS_",
+    "method": "Download 3 outer ZIPs; verify outer/inner CRC and each inner volume SHA256 against bundled manifest; concatenate volumes byte-for-byte, verify source SHA256/Git blob SHA1/bytes against independent original report and fixed R59 manifest. Direct Drive volume files not yet independently hashed; catalog has 137 expanded volumes (87+26+24), not 207. 70 discrepancy remains unresolved; not declared lost.",
+    "zipIds": [
+      "1BpfAY9pKYsGh5D1h1RDRX3PoxF3_6HBM",
+      "1F4aurgNth2Tz1OQBnIucnnKGUR6x06_i",
+      "1JESgcf-WATvwx8M6Nggal0au_g7HHw82"
+    ],
+    "packs": [
+      {
+        "zip": "末日求生我有一家商店_原著分卷.zip",
+        "zipBytes": 1468123,
+        "zipSha256": "614c60a0f3f0d034c758cb46b085ba93c88815cdcfff20f535dbdd53bba7cb23",
+        "innerZip": "SHOP_原著專業分卷.zip",
+        "innerBytes": 1467955,
+        "innerSha256": "d18b597ea1dc4fbe860d2c6e6a4b0dcbf14834b9419a11cfc8c1b7ced6accbc7",
+        "crc": "PASS",
+        "entryCount": 30,
+        "source": "小說/末世開店玩家線/05_原著參考/末日求生：我有一家商店 - 山rain.txt",
+        "sourceBytes": 3400761,
+        "sourceSha256": "19d7cfc05e7c9e56869a65817fcbbb7dac38f65f29c6381cebfe3b6d8107eafb",
+        "gitBlobSha1": "30c6ad48fb18aac99b8e8b7d920ffc1f9b4cdb90",
+        "volumes": [
+          {
+            "name": "VOL_001_SEQ0001-0019_CH0001-0019.txt",
+            "bytes": 142896,
+            "sha256": "043d0d8d383cfb25cb143881cf0e0914e96c09d0a54c541de1edc6a9e348c7db"
+          },
+          {
+            "name": "VOL_002_SEQ0020-0042_CH0020-0042.txt",
+            "bytes": 144200,
+            "sha256": "dd6f2986939956b9084ccc73d638041417503541aac3c284464527cb8a289002"
+          },
+          {
+            "name": "VOL_003_SEQ0043-0064_CH0043-0064.txt",
+            "bytes": 139194,
+            "sha256": "2d070fffa910e14f780a77b228795b4cff0a00d9ab2a62d1f196380c78253c5d"
+          },
+          {
+            "name": "VOL_004_SEQ0065-0086_CH0065-0086.txt",
+            "bytes": 140076,
+            "sha256": "b2602c1e2fa511cdd6bad1146a2e9f3919467e4e5c0ac533abfe9ff86564cb49"
+          },
+          {
+            "name": "VOL_005_SEQ0087-0109_CH0087-0109.txt",
+            "bytes": 144982,
+            "sha256": "c9cac133a4360610e07ee7d7d3341b58b7208f9ea5e4d1e33b888a37816e5682"
+          },
+          {
+            "name": "VOL_006_SEQ0110-0132_CH0110-0132.txt",
+            "bytes": 144389,
+            "sha256": "6ca4e9c2a2f7fa9265cc17ef09a8bb572160e3cee4ea5b1fb23eda65cbed5a0b"
+          },
+          {
+            "name": "VOL_007_SEQ0133-0155_CH0133-0155.txt",
+            "bytes": 144651,
+            "sha256": "78eabdd5d43a1059d0722f48d2c6551edecbc9faafa019f4a26cf33eee96c6a7"
+          },
+          {
+            "name": "VOL_008_SEQ0156-0177_CH0156-0177.txt",
+            "bytes": 143575,
+            "sha256": "edf914f63b504adacaa387e780796f6ae86292fbaf93d36c2b7516124ce09ebe"
+          },
+          {
+            "name": "VOL_009_SEQ0178-0199_CH0178-0199.txt",
+            "bytes": 139350,
+            "sha256": "5d44a3611f422ba5aa0ea43f178ee467e375afc1d0bbb90ac4ed977a415d2fa7"
+          },
+          {
+            "name": "VOL_010_SEQ0200-0222_CH0200-0222.txt",
+            "bytes": 144735,
+            "sha256": "0c5e7350a1a2535147412ba69edf7467a75ae5f50cf3ceb583f0c3fbac24daa3"
+          },
+          {
+            "name": "VOL_011_SEQ0223-0245_CH0223-0245.txt",
+            "bytes": 143440,
+            "sha256": "7d26ec593b7faeb706292cc23b3a55763820b53e10fd306add3d79b3e3c2f79c"
+          },
+          {
+            "name": "VOL_012_SEQ0246-0267_CH0246-0267.txt",
+            "bytes": 137218,
+            "sha256": "8b9d2d37d724133bc86b524b3c30018307b3ed5251f40ea54ae13a554daf33c1"
+          },
+          {
+            "name": "VOL_013_SEQ0268-0290_CH0268-0290.txt",
+            "bytes": 143124,
+            "sha256": "cf682ef8ac851e4f6bca752dd86db50c7d00ec68af0a58b8966fc6f044e2c5eb"
+          },
+          {
+            "name": "VOL_014_SEQ0291-0313_CH0291-0313.txt",
+            "bytes": 141996,
+            "sha256": "d0b394c4db9936504bce2a7c3c5ffac5230de9e73f3aca0738cc37be4e453207"
+          },
+          {
+            "name": "VOL_015_SEQ0314-0336_CH0314-0336.txt",
+            "bytes": 143970,
+            "sha256": "4fea9dc02143bb10b880d20d45f2417d2fedd38792695eb2c86a55444986650b"
+          },
+          {
+            "name": "VOL_016_SEQ0337-0359_CH0337-0359.txt",
+            "bytes": 142592,
+            "sha256": "7fe2eafa938947909fc1708a28dc1667d83fb893222e978dfc923175f3381fab"
+          },
+          {
+            "name": "VOL_017_SEQ0360-0382_CH0360-0382.txt",
+            "bytes": 143849,
+            "sha256": "b81cfba7c728881d758ba58ea110e3ad4959150d6c93670a2a425a4bbf71c46a"
+          },
+          {
+            "name": "VOL_018_SEQ0383-0405_CH0383-0405.txt",
+            "bytes": 142540,
+            "sha256": "a39d8bb1958aba86f5c84a863cff6d4a2aacd59e97fdd616a2e6cc0adfb169b4"
+          },
+          {
+            "name": "VOL_019_SEQ0406-0428_CH0406-0428.txt",
+            "bytes": 143807,
+            "sha256": "db883f55d768922b74d5aacf5721603bb9355e04ead3684192e509cf25a6dc60"
+          },
+          {
+            "name": "VOL_020_SEQ0429-0451_CH0429-0451.txt",
+            "bytes": 143355,
+            "sha256": "ce63089b4971e520a8b68e0be832c34aac427a27f6cc8a0b8e45fadee5ca97b2"
+          },
+          {
+            "name": "VOL_021_SEQ0452-0474_CH0452-0474.txt",
+            "bytes": 144039,
+            "sha256": "330d0443305e94f238dcb85e0888c601e2da9e1032da1be110ff7d952b06fd41"
+          },
+          {
+            "name": "VOL_022_SEQ0475-0497_CH0475-0497.txt",
+            "bytes": 142975,
+            "sha256": "e941937899a403aab944b764133addb5604e04c1305ebc008182f75b516057c9"
+          },
+          {
+            "name": "VOL_023_SEQ0498-0520_CH0498-0520.txt",
+            "bytes": 143484,
+            "sha256": "2d133a3fb12769daba45c941257fa4b6540d3b41b1051c2602085bff70e88472"
+          },
+          {
+            "name": "VOL_024_SEQ0521-0538_CH0521-0538.txt",
+            "bytes": 116324,
+            "sha256": "14d67f538cd5c3c9d4f28b7d628d17fec843b89d494a676e1cce162cc3feaa06"
+          }
+        ],
+        "sourceCompleteness": "not proven; preserve source as supplied"
+      },
+      {
+        "zip": "賣掉裝備我就無敵了_原著分卷.zip",
+        "zipBytes": 1387949,
+        "zipSha256": "9c9d2682330a92b3ec49469df10f1f542ea785ccb1b0030ccb82ac2dfdce0eba",
+        "innerZip": "EQUIPMENT_原著專業分卷.zip",
+        "innerBytes": 1387771,
+        "innerSha256": "868a303ad05084132f166d53a757e763b75d80b63defb83ec70733c467e43ec6",
+        "crc": "PASS",
+        "entryCount": 32,
+        "source": "小說/網遊：賣掉裝備，我就無敵了（芙蘭妮雅改寫版）/05_原著參考/网游：卖掉装备，我就无敌了 - 盐巴半两.txt",
+        "sourceBytes": 3548467,
+        "sourceSha256": "3792524c5250d97f629cfc8c7070e4a83e9a5b3adb289786fa7d9e24a32f1b35",
+        "gitBlobSha1": "cb67f812372d445ee776723fc0fc7b8012e7870b",
+        "volumes": [
+          {
+            "name": "VOL_001_SEQ0001-0018_CH0001-0018.txt",
+            "bytes": 140683,
+            "sha256": "f5bcfff5515a6df5d0b3178b4981b11c1522e642850c617085bc2d8a7f4f57f7"
+          },
+          {
+            "name": "VOL_002_SEQ0019-0035_CH0019-0035.txt",
+            "bytes": 141290,
+            "sha256": "d9d0dd989dd09538119a182f05ff156b9ffa760a6218c0a49e204479c01294dd"
+          },
+          {
+            "name": "VOL_003_SEQ0036-0053_CH0036-0053.txt",
+            "bytes": 144979,
+            "sha256": "0529177e05998af3d2c9b08165c1b13c41493e8d893cd5789e64cffeec87b7bb"
+          },
+          {
+            "name": "VOL_004_SEQ0054-0072_CH0054-0072.txt",
+            "bytes": 143738,
+            "sha256": "c179c390cf70b5dc477889759f5d3ed23c91f9c453ed187cf9c275337c4f5f76"
+          },
+          {
+            "name": "VOL_005_SEQ0073-0092_CH0073-0092.txt",
+            "bytes": 140949,
+            "sha256": "b5bc4e48a68104802e1eb5df69e436bd3430e4838e9a9bc1bc40354301dd28ed"
+          },
+          {
+            "name": "VOL_006_SEQ0093-0112_CH0093-0112.txt",
+            "bytes": 140250,
+            "sha256": "54801b40aa93bf315046653c1c09efd2a51e4d34dfe03d3079b70377ba33f04a"
+          },
+          {
+            "name": "VOL_007_SEQ0113-0133_CH0113-0133.txt",
+            "bytes": 142821,
+            "sha256": "21ddc2d01f432cce832e4d6cb6796089aeb73bb9e6d691db2dd7348fbeff2ca3"
+          },
+          {
+            "name": "VOL_008_SEQ0134-0154_CH0134-0154.txt",
+            "bytes": 141161,
+            "sha256": "b36944c2faafdb2ebc40fda85dd19c11d301d0447241150da6c1fd5c88ce2e07"
+          },
+          {
+            "name": "VOL_009_SEQ0155-0175_CH0155-0175.txt",
+            "bytes": 143169,
+            "sha256": "b8d6a21d2eb07c7256529b0d4c7810992b2c7beb24aebf54e33846659c82e31a"
+          },
+          {
+            "name": "VOL_010_SEQ0176-0196_CH0176-0196.txt",
+            "bytes": 142862,
+            "sha256": "c28b084f7dd7d5e6dc33bbcf48164dec496e8fd968df3fa08453951f8f466615"
+          },
+          {
+            "name": "VOL_011_SEQ0197-0217_CH0197-0217.txt",
+            "bytes": 142718,
+            "sha256": "9ab093aef1062d3820dcfa6bfed9f5b70634d1ad50d807c2ec86df2cfdfcb30d"
+          },
+          {
+            "name": "VOL_012_SEQ0218-0238_CH0218-0238.txt",
+            "bytes": 138633,
+            "sha256": "a9c422bab53b9092633a79e143d7d00227c6f1804f1cc11c9ad1de2a5348a351"
+          },
+          {
+            "name": "VOL_013_SEQ0239-0259_CH0239-0259.txt",
+            "bytes": 139413,
+            "sha256": "8798b32ca43dadf97c1752e94150bb808d3b3c27c1291267565b71bdf4c95a88"
+          },
+          {
+            "name": "VOL_014_SEQ0260-0281_CH0260-0281.txt",
+            "bytes": 143115,
+            "sha256": "03dae493f7995316ae6a45bc49f7c09273eac251fe60c84a6f51e7df5f1c9258"
+          },
+          {
+            "name": "VOL_015_SEQ0282-0302_CH0282-0302.txt",
+            "bytes": 139042,
+            "sha256": "fc002fea54db6de037eba1b53db3583d0ed0134fa1681b31477b405842164ecf"
+          },
+          {
+            "name": "VOL_016_SEQ0303-0323_CH0303-0323.txt",
+            "bytes": 141417,
+            "sha256": "09adf2a1decb2b7a63f83010a248eb5dc0f5964341ac0bb6b92858d10ed76f47"
+          },
+          {
+            "name": "VOL_017_SEQ0324-0344_CH0324-0344.txt",
+            "bytes": 140786,
+            "sha256": "f27d701a9de6fc84f273e38703a18b64a843ad9fc90f4c4466fe6775c58b036a"
+          },
+          {
+            "name": "VOL_018_SEQ0345-0365_CH0345-0365.txt",
+            "bytes": 143680,
+            "sha256": "61c2a1856c209bed97d4a052ea891310b92068425804c8ad40e5834f4b89480b"
+          },
+          {
+            "name": "VOL_019_SEQ0366-0386_CH0366-0386.txt",
+            "bytes": 142389,
+            "sha256": "9b37fe139c92f969ec0485298596180d11827422c593bbaffb1ff69d0556461c"
+          },
+          {
+            "name": "VOL_020_SEQ0387-0407_CH0387-0407.txt",
+            "bytes": 140242,
+            "sha256": "f825bef87bd9e8cb7ab56e4764f7ef4f0c9ee9490150eba058d53b9042de7e83"
+          },
+          {
+            "name": "VOL_021_SEQ0408-0428_CH0408-0428.txt",
+            "bytes": 140104,
+            "sha256": "d37cb3d6129196aba980ad35e80f84ffd379b1b47ec55ebcbc16e7f906dc5fe1"
+          },
+          {
+            "name": "VOL_022_SEQ0429-0449_CH0429-0449.txt",
+            "bytes": 143563,
+            "sha256": "b55880f2774cb6f5410cab2cd920fc25ccda263f4a52d8b992b68fc6717f18e1"
+          },
+          {
+            "name": "VOL_023_SEQ0450-0470_CH0450-0470.txt",
+            "bytes": 139450,
+            "sha256": "dab7e0fc6e9638e539e0d3e6916c63258c1eab97670c2cd8ab4c08d0dbf41589"
+          },
+          {
+            "name": "VOL_024_SEQ0471-0492_CH0471-0492.txt",
+            "bytes": 143039,
+            "sha256": "56ac74486ce9f2e8cd32847a388f4435be106d28ff4b4168741f514ef944bab0"
+          },
+          {
+            "name": "VOL_025_SEQ0493-0513_CH0493-0513.txt",
+            "bytes": 139373,
+            "sha256": "8abb4131c48052029e38ee061f83729c3c4a9455380a36a05e8ddeb94cc6ad5a"
+          },
+          {
+            "name": "VOL_026_SEQ0514-0514_CH0514-0514.txt",
+            "bytes": 9601,
+            "sha256": "eb91830678176c34e87f7812e764e05c318df5e10fa12aff34179a776d18f232"
+          }
+        ],
+        "sourceCompleteness": "chapter-number coverage matches expected count; source edition not independently verified"
+      },
+      {
+        "zip": "重生就是最大的BUG_原著分卷.zip",
+        "zipBytes": 5125870,
+        "zipSha256": "65a689cb0322db366122082bed6fd92d5b0348c620f8edd0b40a2df97c666816",
+        "innerZip": "BUG_原著專業分卷.zip",
+        "innerBytes": 5125704,
+        "innerSha256": "62106ab238e13703171126cffb886c2f1cbbfba7c852c9e3e21131cdbfdeb57a",
+        "crc": "PASS",
+        "entryCount": 93,
+        "source": "小說/網遊：重生就是最大的BUG（芙蘭妮雅改寫版）/05_原著參考/网游：重生就是最大的BUG - 刘巴库.txt",
+        "sourceBytes": 12120030,
+        "sourceSha256": "28489d8f2777f8f8a0a5a83421f22659d6d092bb5aba01506db1d7327edd14e2",
+        "gitBlobSha1": "a35ea27850fe833c8d86b76c8bba44f4228f1f19",
+        "volumes": [
+          {
+            "name": "VOL_001_SEQ0001-0018_CH0001-0018.txt",
+            "bytes": 140769,
+            "sha256": "c909fd3ad3f62a4e5580062aa11ee33a637bea28d84d33409c06f81386b88639"
+          },
+          {
+            "name": "VOL_002_SEQ0019-0036_CH0019-0036.txt",
+            "bytes": 137952,
+            "sha256": "c466eb6591a10569a76e92de5cfa25ed9ee39d52e5b6c7232d4ef26c24d2e5cf"
+          },
+          {
+            "name": "VOL_003_SEQ0037-0056_CH0037-0056.txt",
+            "bytes": 140955,
+            "sha256": "f7b98a6ced4a84a47e824cc2ce7b6b3ccc8f45d1ac34ce18e02d39588441ea68"
+          },
+          {
+            "name": "VOL_004_SEQ0057-0076_CH0057-0076.txt",
+            "bytes": 140168,
+            "sha256": "fd9b0849d3e657f672f9ddc349e985cce8fc85c870bfd46aa17b64ffb600b813"
+          },
+          {
+            "name": "VOL_005_SEQ0077-0097_CH0077-0097.txt",
+            "bytes": 138090,
+            "sha256": "a672985cfe029524f73ed7c29cc1a2542c3ba02c427b17cf982064421426f3a2"
+          },
+          {
+            "name": "VOL_006_SEQ0098-0120_CH0098-0120.txt",
+            "bytes": 142560,
+            "sha256": "814aa0f2ab8e424f01064538467f810c3ad7a2f43a7a553a39b9dcfc0bc60c39"
+          },
+          {
+            "name": "VOL_007_SEQ0121-0142_CH0121-0142.txt",
+            "bytes": 138728,
+            "sha256": "f7942e2ef5f6aedab26fff570a174ca6ba6d4293bdcdd78e8c388c3b203d2442"
+          },
+          {
+            "name": "VOL_008_SEQ0143-0164_CH0143-0164.txt",
+            "bytes": 143700,
+            "sha256": "cec4902a1826c921e47153f5208ab0e929a0a671cde7261514d09b1ad8ca1b94"
+          },
+          {
+            "name": "VOL_009_SEQ0165-0184_CH0165-0184.txt",
+            "bytes": 141705,
+            "sha256": "5c76edd18a24e12d919a9ce90cbeb8b589773fd6fda4baab2fd31b10062bc7f0"
+          },
+          {
+            "name": "VOL_010_SEQ0185-0205_CH0185-0205.txt",
+            "bytes": 137750,
+            "sha256": "85afbd11c931b19028a825a2080a4aeb3d00e41b50443f1d67a7c42539a42a51"
+          },
+          {
+            "name": "VOL_011_SEQ0206-0227_CH0206-0227.txt",
+            "bytes": 144703,
+            "sha256": "9c31d99a821b92cecc8da0b4603db0f29fb3927dcc57857fbb19006f0cdc5f6a"
+          },
+          {
+            "name": "VOL_012_SEQ0228-0249_CH0228-0249.txt",
+            "bytes": 143018,
+            "sha256": "02e4a5cfbae574007725d4e08dcaedb0e592dbf1177eaf9318318f66a4163275"
+          },
+          {
+            "name": "VOL_013_SEQ0250-0270_CH0250-0270.txt",
+            "bytes": 142044,
+            "sha256": "1137ea04185f826b8a89a35b648dcfcb8763db63019f4f0227f67102cfb52c83"
+          },
+          {
+            "name": "VOL_014_SEQ0271-0290_CH0271-0290.txt",
+            "bytes": 142568,
+            "sha256": "daff9a70b080467a8acc47caa0b204601a5c22623622312b0e2502e8cbaf2ada"
+          },
+          {
+            "name": "VOL_015_SEQ0291-0312_CH0291-0312.txt",
+            "bytes": 143375,
+            "sha256": "767fbda26b6f1fe67ab449f19d00b166dcf7a17ee7d5ef8b7de589024a2f86ea"
+          },
+          {
+            "name": "VOL_016_SEQ0313-0334_CH0313-0334.txt",
+            "bytes": 141693,
+            "sha256": "f7ce5b8befd5cc5997e0210a70f24f82f50abbb9796e43eab55ff5e7be739892"
+          },
+          {
+            "name": "VOL_017_SEQ0335-0356_CH0335-0356.txt",
+            "bytes": 143385,
+            "sha256": "c72f9763f3bc9bb1dc5a63b2a199e2df8a29443c65336ebf4eab56b46ebe3ef9"
+          },
+          {
+            "name": "VOL_018_SEQ0357-0378_CH0357-0378.txt",
+            "bytes": 142961,
+            "sha256": "036a1bd8ca85865521dcd01b6e3481ab6f37d67ce135f171741f2dcfc145e74b"
+          },
+          {
+            "name": "VOL_019_SEQ0379-0400_CH0379-0400.txt",
+            "bytes": 141608,
+            "sha256": "18a676263643f1bd53ca4724e29c6e26b324a74d7afc318aaa2665a867d569d3"
+          },
+          {
+            "name": "VOL_020_SEQ0401-0422_CH0401-0422.txt",
+            "bytes": 140596,
+            "sha256": "02e2b7182c668c0961aab2afe56f79ceb76ba92b6ac90cda8be8a5b99ba75a93"
+          },
+          {
+            "name": "VOL_021_SEQ0423-0444_CH0423-0444.txt",
+            "bytes": 140881,
+            "sha256": "72b2f7c7bd2b2d164d98dacd780ff746074878f26f604d8a651c99c89756f55d"
+          },
+          {
+            "name": "VOL_022_SEQ0445-0468_CH0445-0468.txt",
+            "bytes": 142483,
+            "sha256": "22e86a44cc0d7084a25867dcfd209f38ff42fd3f67f9b8137755ff5b60671aa3"
+          },
+          {
+            "name": "VOL_023_SEQ0469-0491_CH0469-0491.txt",
+            "bytes": 142610,
+            "sha256": "dd0112ee936108a47888b596199c69a2b9025a6ec1dede7aacb216c06aa44016"
+          },
+          {
+            "name": "VOL_024_SEQ0492-0511_CH0492-0511.txt",
+            "bytes": 140985,
+            "sha256": "b4e1e3369ed8014dce810a5064a7fc35b2872f447bb08f3ed4213ad76a126c35"
+          },
+          {
+            "name": "VOL_025_SEQ0512-0532_CH0512-0532.txt",
+            "bytes": 136862,
+            "sha256": "de26b3240eb0805338b2d8566070a8640e913cd747753319d420b2aa9bd61ede"
+          },
+          {
+            "name": "VOL_026_SEQ0533-0553_CH0533-0553.txt",
+            "bytes": 138335,
+            "sha256": "ac8919a31ef813e3776791a6ffa0884d33dea81935e16d9e19b6c52a7b24b9ad"
+          },
+          {
+            "name": "VOL_027_SEQ0554-0572_CH0554-0572.txt",
+            "bytes": 144705,
+            "sha256": "90044ed01c2445fd797443fadcf725e4cb3d2ffd16fb440c4193b2f76f6f26c9"
+          },
+          {
+            "name": "VOL_028_SEQ0573-0593_CH0573-0593.txt",
+            "bytes": 141404,
+            "sha256": "d58352e539a397070f9d2efbcac8123ac269caf075a82b24b48dc2bff844fde8"
+          },
+          {
+            "name": "VOL_029_SEQ0594-0613_CH0594-0613.txt",
+            "bytes": 139536,
+            "sha256": "85696bdfd38e8520ff349b4d245b8f81e5fc5683754cbf245acb33237e75eaf4"
+          },
+          {
+            "name": "VOL_030_SEQ0614-0631_CH0614-0631.txt",
+            "bytes": 143144,
+            "sha256": "244b9b917904cad6e7945e58082a1daafe3457bbc10f9b84e198c0bc9efb5aa1"
+          },
+          {
+            "name": "VOL_031_SEQ0632-0651_CH0632-0651.txt",
+            "bytes": 141581,
+            "sha256": "e5d676af4763068a848c3bcba995d26d12bb353d8e95ca1fa0c2d12a3d423feb"
+          },
+          {
+            "name": "VOL_032_SEQ0652-0669_CH0652-0669.txt",
+            "bytes": 138687,
+            "sha256": "8af7559cec93144cef136c73d8fc11722b0c0dda50b553c06d486db02036fdd8"
+          },
+          {
+            "name": "VOL_033_SEQ0670-0691_CH0670-0691.txt",
+            "bytes": 138300,
+            "sha256": "4a37dc9435868b3c173834e3d17cddf39fa17c0124355c15cbff7defc77c0d63"
+          },
+          {
+            "name": "VOL_034_SEQ0692-0713_CH0692-0713.txt",
+            "bytes": 139331,
+            "sha256": "16c2090efe87a34c6655cab2816acebfe631f181e0f04cbc4ed022a997a2a3b2"
+          },
+          {
+            "name": "VOL_035_SEQ0714-0735_CH0714-0735.txt",
+            "bytes": 140979,
+            "sha256": "2f7d5d624eb218ab2d9bb2f501736fc025ef4d6d665b8b49688833cefd1ac4a4"
+          },
+          {
+            "name": "VOL_036_SEQ0736-0758_CH0736-0758.txt",
+            "bytes": 138157,
+            "sha256": "1db9176c2481f505a8f1208f478e6c9599d51fc6daf1468d2d01f6ff54b4e11e"
+          },
+          {
+            "name": "VOL_037_SEQ0759-0779_CH0759-0780.txt",
+            "bytes": 138403,
+            "sha256": "45fead68396f61aeac67a6354d78e9379d2246997ae443ed0350c25971cc6663"
+          },
+          {
+            "name": "VOL_038_SEQ0780-0802_CH0781-0802.txt",
+            "bytes": 138757,
+            "sha256": "0ab457e16c9686ad5df8fbee599a4b434d658a6639dedf6dd52f0efd7ba513b4"
+          },
+          {
+            "name": "VOL_039_SEQ0803-0824_CH0803-0824.txt",
+            "bytes": 143463,
+            "sha256": "1389a86107c8efbd77410ee1a8b080c0588449033681b36c83d3d500ddcd3fc0"
+          },
+          {
+            "name": "VOL_040_SEQ0825-0848_CH0825-0847.txt",
+            "bytes": 141550,
+            "sha256": "9b0e2e061dbdb09c5c47973ce839dfa599cd6670b1e8f29d3368d3d444eaff3d"
+          },
+          {
+            "name": "VOL_041_SEQ0849-0877_CH0848-0876.txt",
+            "bytes": 141159,
+            "sha256": "c98487d0a267ac8bcd10e6f03cde988718fd2af1e37cec2bf07fd4806b47c3e2"
+          },
+          {
+            "name": "VOL_042_SEQ0878-0898_CH0877-0897.txt",
+            "bytes": 144783,
+            "sha256": "a3ff5569362ac70cf9cec0a1e91df94ec37e1df3d3d6549777533e2ec07b50a1"
+          },
+          {
+            "name": "VOL_043_SEQ0899-0918_CH0899-0918.txt",
+            "bytes": 139881,
+            "sha256": "0dbe9c153038d5956f02ee7012f051a15cbc90703b1d91ec5c263ebbf57ac199"
+          },
+          {
+            "name": "VOL_044_SEQ0919-0939_CH0919-0939.txt",
+            "bytes": 138592,
+            "sha256": "08c08234cad4e8f2478b27a573556aa313ed012f5ab61c772b42625ec3251323"
+          },
+          {
+            "name": "VOL_045_SEQ0940-0962_CH0940-0962.txt",
+            "bytes": 144104,
+            "sha256": "af9e2ccdaadfbe722abfdf7eba1ed399f6d4778e039c5b2bb8c03ce51db811fc"
+          },
+          {
+            "name": "VOL_046_SEQ0963-0984_CH0963-0984.txt",
+            "bytes": 138509,
+            "sha256": "ca33f970ddae6ad18e2e0c8317e2fde763682e6a2499f2ca1574b4ab71eeccdc"
+          },
+          {
+            "name": "VOL_047_SEQ0985-1006_CH0985-1006.txt",
+            "bytes": 143914,
+            "sha256": "81e46d2641a4eea85fc4bc046951eb9990a5110af24dc5714b3db07518be0d9c"
+          },
+          {
+            "name": "VOL_048_SEQ1007-1028_CH1007-1027.txt",
+            "bytes": 138681,
+            "sha256": "e80938a7dbba1f0017c3fe5f3b105a2b87a3ce3d2984818391d26abf1d779e06"
+          },
+          {
+            "name": "VOL_049_SEQ1029-1051_CH1028-1049.txt",
+            "bytes": 144540,
+            "sha256": "559aea13b04e44a74de5c016500fa3ae6feafe2654ab3aec2d24e0520dc11f3d"
+          },
+          {
+            "name": "VOL_050_SEQ1052-1075_CH1050-1072.txt",
+            "bytes": 143673,
+            "sha256": "dbae788e378f6eed4677591f9e3224997e17dd4023bd08808d3d16a587c03595"
+          },
+          {
+            "name": "VOL_051_SEQ1076-1097_CH1073-1094.txt",
+            "bytes": 138567,
+            "sha256": "2610fb1d0791204bf9ff594393c4b0f2e4baeea1d0443f6469690663e3e92473"
+          },
+          {
+            "name": "VOL_052_SEQ1098-1119_CH1095-1116.txt",
+            "bytes": 138416,
+            "sha256": "8a3572f7c3120082e079b35f8364ff6d332a88d7979b9bc6c86c7a9865d77859"
+          },
+          {
+            "name": "VOL_053_SEQ1120-1142_CH1117-1139.txt",
+            "bytes": 142564,
+            "sha256": "b53b28187de8fa8136809135ed6fe7424bcd1caf3a4ef88f2cffb60c1f60246f"
+          },
+          {
+            "name": "VOL_054_SEQ1143-1165_CH1140-1162.txt",
+            "bytes": 144783,
+            "sha256": "67169e62a5e7befb44af2f4e41f3c2b958e9023306c08176dfcdc21cc983b6a1"
+          },
+          {
+            "name": "VOL_055_SEQ1166-1186_CH1163-1183.txt",
+            "bytes": 138698,
+            "sha256": "a052b8b9c76bfe6b2af46f292f2b224b55c0f32622cfc125cdccf58bc68b1a64"
+          },
+          {
+            "name": "VOL_056_SEQ1187-1209_CH1184-1206.txt",
+            "bytes": 137697,
+            "sha256": "63ea32d1a4002c3bc0affcbe74258b8e122377dc507f877a0a4f265c47efab55"
+          },
+          {
+            "name": "VOL_057_SEQ1210-1235_CH1207-1232.txt",
+            "bytes": 140959,
+            "sha256": "b4f5d65a214f474dc029c9e5c186c69a7d9504967a8b99061d31d9be67650f8b"
+          },
+          {
+            "name": "VOL_058_SEQ1236-1257_CH1233-1254.txt",
+            "bytes": 138721,
+            "sha256": "c9eeed51a3358c46178893ab42a38cc91e69970e67f8b3385fdda2c291964b23"
+          },
+          {
+            "name": "VOL_059_SEQ1258-1277_CH1255-1274.txt",
+            "bytes": 139084,
+            "sha256": "c9bef79d75e4d252d38c44be5a18d309ae9b7b8e487a6ca570313750d0b14be9"
+          },
+          {
+            "name": "VOL_060_SEQ1278-1300_CH1275-1296.txt",
+            "bytes": 144949,
+            "sha256": "f119fd100b59d16c11bdd4c5cbe699151a464cb3941f4de87386e11877383264"
+          },
+          {
+            "name": "VOL_061_SEQ1301-1320_CH1297-1316.txt",
+            "bytes": 144084,
+            "sha256": "98014534851563440dc4c43d9deeac4666ffd9c4a6e2738299ba84b00696e6ac"
+          },
+          {
+            "name": "VOL_062_SEQ1321-1339_CH1317-1335.txt",
+            "bytes": 138895,
+            "sha256": "1edc69215a301df3d2ea881690ebeef51e2ffef5d7a60020c51acf7701c2cb80"
+          },
+          {
+            "name": "VOL_063_SEQ1340-1354_CH1336-1350.txt",
+            "bytes": 138321,
+            "sha256": "56e2e489d5bc637b05e32daea072c8656a12eeb858c13be2671146c59dc1ed89"
+          },
+          {
+            "name": "VOL_064_SEQ1355-1372_CH1351-1368.txt",
+            "bytes": 142571,
+            "sha256": "42ceed65833beda9ec12f2c2daf495de68c86ae04eb922c18b6e4a0f1ec6be14"
+          },
+          {
+            "name": "VOL_065_SEQ1373-1392_CH1369-1388.txt",
+            "bytes": 133287,
+            "sha256": "c919542de3c570b9edb34014d1a01c1630cbe59f216a79c2a1f9ab20043b1495"
+          },
+          {
+            "name": "VOL_066_SEQ1393-1410_CH1389-1406.txt",
+            "bytes": 144057,
+            "sha256": "ba339190c882747982ad14201fbc2561012f76a9ebcc6fe247ac8668bfa1683a"
+          },
+          {
+            "name": "VOL_067_SEQ1411-1434_CH1407-1430.txt",
+            "bytes": 142824,
+            "sha256": "8fae41221692324d1eadb1118458bcedd8a4976dce5ab918d7417f14bd8fb68e"
+          },
+          {
+            "name": "VOL_068_SEQ1435-1460_CH1431-1456.txt",
+            "bytes": 144019,
+            "sha256": "c8bba76a487feca5bef1c3e06c572068328c955afa88dcf5899a5c057eaacdfa"
+          },
+          {
+            "name": "VOL_069_SEQ1461-1482_CH1457-1478.txt",
+            "bytes": 139147,
+            "sha256": "862307677313fbc0216f04fd5c76dfdbbb48ae43377350c05b2be871714a9621"
+          },
+          {
+            "name": "VOL_070_SEQ1483-1504_CH1479-1500.txt",
+            "bytes": 142417,
+            "sha256": "58269e2367e8a066a23c7c60b0288540dab25b86f785937d64e7d080fc7a986a"
+          },
+          {
+            "name": "VOL_071_SEQ1505-1527_CH1501-1523.txt",
+            "bytes": 143281,
+            "sha256": "31bf07cffeaa7fbe50f0b045febb3f8617e813909867db2bb28813a79c8c58cf"
+          },
+          {
+            "name": "VOL_072_SEQ1528-1544_CH1524-1540.txt",
+            "bytes": 133697,
+            "sha256": "a64d059e2d6f3ea82631762298016fd7a690d8c1395c92bd14803502a571219e"
+          },
+          {
+            "name": "VOL_073_SEQ1545-1561_CH1541-1557.txt",
+            "bytes": 138358,
+            "sha256": "7e529d87677bb025df3642b4594ade38d23533a9e6e38f6abf6cbfb776669135"
+          },
+          {
+            "name": "VOL_074_SEQ1562-1579_CH1558-1575.txt",
+            "bytes": 137566,
+            "sha256": "b6a23c9a57d7b08222e89a960a09793e009108d3af20bf952121e5700eb6dae8"
+          },
+          {
+            "name": "VOL_075_SEQ1580-1598_CH1576-1594.txt",
+            "bytes": 140604,
+            "sha256": "3d982b37c262bcd4fd646789979999cb48c8d49955ad92ac260562fbe6f0e5ee"
+          },
+          {
+            "name": "VOL_076_SEQ1599-1620_CH1595-1615.txt",
+            "bytes": 144244,
+            "sha256": "747ceab28face82223b3d95a13084bfbd60320bd915bf1e5b00438c4eb5ed35d"
+          },
+          {
+            "name": "VOL_077_SEQ1621-1639_CH1616-1634.txt",
+            "bytes": 141122,
+            "sha256": "3ca30895b0a937885e1e9c5020b54ddb1739d31f7286bc45dbec3b3ae5d3b581"
+          },
+          {
+            "name": "VOL_078_SEQ1640-1658_CH1635-1640.txt",
+            "bytes": 140336,
+            "sha256": "b3975d1aee15acdc8da1177d59a7219179210d02f548b57fad62971343b129f9"
+          },
+          {
+            "name": "VOL_079_SEQ1659-1675_CH1641-1657.txt",
+            "bytes": 140096,
+            "sha256": "bc54ff6145d91dcfc5e0ec2a4e5f403760e3ffb9f6d662576007a0c6f583c331"
+          },
+          {
+            "name": "VOL_080_SEQ1676-1695_CH1658-1676.txt",
+            "bytes": 140182,
+            "sha256": "82d4eccc7cbf5d24862d0c3a699decbcc79103295775f1b9b15a1b9def92934e"
+          },
+          {
+            "name": "VOL_081_SEQ1696-1715_CH1677-1696.txt",
+            "bytes": 140669,
+            "sha256": "50a471abd978e0d0ab94bf60271753d5d430b67291e654175130073f56fe0264"
+          },
+          {
+            "name": "VOL_082_SEQ1716-1739_CH1697-1722.txt",
+            "bytes": 142176,
+            "sha256": "327cb54379c216e438e5a23aeaff3dc41f7c5e92e0ab8c8bfe57eb724350a31c"
+          },
+          {
+            "name": "VOL_083_SEQ1740-1759_CH1723-1741.txt",
+            "bytes": 141762,
+            "sha256": "eed1c28eb91c2d04de42fa8390fcfda716e9f302641c233e96fdb1cdc99abcef"
+          },
+          {
+            "name": "VOL_084_SEQ1760-1781_CH1742-1763.txt",
+            "bytes": 139013,
+            "sha256": "be9d190c53709ee2310678021c909ac22be333c5f10cd59a5fef843822f9623d"
+          },
+          {
+            "name": "VOL_085_SEQ1782-1801_CH1764-1783.txt",
+            "bytes": 141364,
+            "sha256": "f1c9f287d9db5f6fb8ec7139a547390628e313bfcdaa6be6e5f1df7aacfafb8f"
+          },
+          {
+            "name": "VOL_086_SEQ1802-1821_CH1784-1803.txt",
+            "bytes": 140529,
+            "sha256": "237397e609f9d194630e5d3780b233b0f0623200169e5aad4bb544537a2b96fd"
+          },
+          {
+            "name": "VOL_087_SEQ1822-1822_CH1804-1804.txt",
+            "bytes": 4654,
+            "sha256": "4413a40930807d3c14b6fe45b992a023896e0425c41b4d945fb85df67d5f6d26"
+          }
+        ],
+        "sourceCompleteness": "not proven; preserve source as supplied"
+      }
+    ]
+  },
+  "limitations": [
+    "R59 receipt metadata checked, no re-download of all prior ZIPs",
+    "No semantic reading or latest-main backup completion claim",
+    "No Canon, sync code, cursor, trigger or data deletions"
+  ]
+}
