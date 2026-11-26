@@ -312,3 +312,8 @@
 - 70/70逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，9,850,432 bytes；重建82個完整來源檔，9,828,245 bytes，Git blob SHA1及長度全部一致，無未閉合來源。
 - [Git逐件清冊](核驗清冊/R66A_方九莉雅來源與校對0001至0070實體核驗.json)（d7e8698f6a75d60d492c7c2d7598300cf8806ea0）／[Drive](https://drive.google.com/file/d/1DFfbljtTy5V6CXaqLuaAIBO-k1EPNH94/view?usp=drivesdk)，62583 bytes、SHA256 4635de6e9bcc62643ef55d0330e961dd228f5237bb55cfcbb7174039b3a10a56，雙庫讀回一致。
 - 現行一般閱讀卷累計425/832（83,437,051 bytes），剩407；下一步方九×莉雅專案根目錄等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
+
+### 第66B輪：方九×莉雅專案根目錄42卷現行實體驗收
+- 42/42逐件下載，SHA256及bytes與R60B及固定MANIFEST一致，9,731,919 bytes；重建4個完整來源檔，9,721,039 bytes，Git blob SHA1及長度全部一致，無未閉合來源。
+- [Git逐件清冊](核驗清冊/R66B_方九莉雅專案根目錄0001至0042實體核驗.json)（d5e18cd8fbadfb15bfc13b80e3f6548c5a61e000）／[Drive](https://drive.google.com/file/d/1AStBUBHU0z792KjZHWxuUNi_RC8b8CR8/view?usp=drivesdk)，23355 bytes、SHA256 3bf22a05575a94c0e6ccbbf624b8c28d412e46dcf0bade1136abecbaab35e120，雙庫讀回一致。
+- 現行一般閱讀卷累計467/832（93,168,970 bytes），剩365；下一步理惠原始對話37卷等未驗分類，排除所有既驗ID。未改Canon、AUTO、游標、觸發器或刪檔。
