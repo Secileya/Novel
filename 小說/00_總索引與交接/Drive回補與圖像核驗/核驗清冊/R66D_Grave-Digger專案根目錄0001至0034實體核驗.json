@@ -1,0 +1,1510 @@
+{
+  "round": "R66D",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "observedMain": "9483a2cc43a054c63b3e7a61740f954feee679ef",
+  "locatorBlob": "e83238f8b4061900b6d5a3fcc024061fb2f9a0d3",
+  "method": "Raw current Drive files individually downloaded by fixed R60B IDs, SHA256 and byte size compared with R60B and fixed MANIFEST. Reconstruct sources completed in this batch by source offsets, using locally retained previously verified pieces only when needed; no re-download or double counting. No ZIP revalidation.",
+  "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+  "range": [
+    1,
+    34
+  ],
+  "count": 34,
+  "bytes": 6898516,
+  "reconstructedCount": 180,
+  "reconstructedBytes": 6847621,
+  "rows": [
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0001.txt",
+      "id": "1b-CLfyeDrazi62FWYPz5-J1A6Fc-zXdL",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 230460,
+      "mime": "text/plain",
+      "expectedBytes": 230460,
+      "expectedSha256": "64c0e03c228b9e27237b8e56699a83a471c5d28e5740d39cf6501417ced135cd",
+      "actualBytes": 230460,
+      "actualSha256": "64c0e03c228b9e27237b8e56699a83a471c5d28e5740d39cf6501417ced135cd",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0002.txt",
+      "id": "1GFy6sqFSk2_xAuvG6LSAKnyz0p9OFQ5e",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 232755,
+      "mime": "text/plain",
+      "expectedBytes": 232755,
+      "expectedSha256": "cc875c1bdcbdfbd1c9638a4d0decf3af8602ce2cee898ca69cb51f3a6d799619",
+      "actualBytes": 232755,
+      "actualSha256": "cc875c1bdcbdfbd1c9638a4d0decf3af8602ce2cee898ca69cb51f3a6d799619",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0003.txt",
+      "id": "1SxgiGIartgObcVfzwfFuzqlKqq50vbDV",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 217026,
+      "mime": "text/plain",
+      "expectedBytes": 217026,
+      "expectedSha256": "5f9062329bae8120b823ffb8b2e04c8d3a269e83ad5facd68b0a3b00599fe395",
+      "actualBytes": 217026,
+      "actualSha256": "5f9062329bae8120b823ffb8b2e04c8d3a269e83ad5facd68b0a3b00599fe395",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0004.txt",
+      "id": "1z9J38MXV0jwDw_mdSNJK6k3ILK4a018z",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 212787,
+      "mime": "text/plain",
+      "expectedBytes": 212787,
+      "expectedSha256": "be367750367bdf887732f86999eab244c61b7f53cf6b8cacf7cbe0421a4d0829",
+      "actualBytes": 212787,
+      "actualSha256": "be367750367bdf887732f86999eab244c61b7f53cf6b8cacf7cbe0421a4d0829",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0005.txt",
+      "id": "1PJLOkOs-zOi7crh5dJFtfcJT4B8qrnLk",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 233552,
+      "mime": "text/plain",
+      "expectedBytes": 233552,
+      "expectedSha256": "76682f6345db7819d7cb431ecbff38323673391a7e5d8b49953bd65d65971afe",
+      "actualBytes": 233552,
+      "actualSha256": "76682f6345db7819d7cb431ecbff38323673391a7e5d8b49953bd65d65971afe",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0006.txt",
+      "id": "1dpayWCrdmQWUW58B0E0ZDU1XiUXym114",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 223656,
+      "mime": "text/plain",
+      "expectedBytes": 223656,
+      "expectedSha256": "713783f129ea018eb2aa1b23e9c7c7eaae201d851da7431ed0f7a998e0052a16",
+      "actualBytes": 223656,
+      "actualSha256": "713783f129ea018eb2aa1b23e9c7c7eaae201d851da7431ed0f7a998e0052a16",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0007.txt",
+      "id": "1YO58IAGplRpJG-5szQnBw0SrICFgGCOX",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 106362,
+      "mime": "text/plain",
+      "expectedBytes": 106362,
+      "expectedSha256": "0a6c89c6a33083d8edba30c00ae97ed55c0039efa45260e953630b22a4833d61",
+      "actualBytes": 106362,
+      "actualSha256": "0a6c89c6a33083d8edba30c00ae97ed55c0039efa45260e953630b22a4833d61",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0008.txt",
+      "id": "1AvMYF5kP19c89aVphwVB4FgSCEN5-1nC",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 168204,
+      "mime": "text/plain",
+      "expectedBytes": 168204,
+      "expectedSha256": "83a56631a608b4d02662114f0bfd62d553cdcce2af01e6ad1f7e27758cce1a1b",
+      "actualBytes": 168204,
+      "actualSha256": "83a56631a608b4d02662114f0bfd62d553cdcce2af01e6ad1f7e27758cce1a1b",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0009.txt",
+      "id": "15PklhsPSeGCVtXq7_9MWEjdn7upQfOf3",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 194072,
+      "mime": "text/plain",
+      "expectedBytes": 194072,
+      "expectedSha256": "227e8564609d3110df4efd6e6dc9c49bd1de4548270e685a632b9966379feeb4",
+      "actualBytes": 194072,
+      "actualSha256": "227e8564609d3110df4efd6e6dc9c49bd1de4548270e685a632b9966379feeb4",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0010.txt",
+      "id": "1A6VXpvP0BY17NYJBDyysnoOU_xR9mO6y",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 201639,
+      "mime": "text/plain",
+      "expectedBytes": 201639,
+      "expectedSha256": "997108190f7cfa694ccf7318ad140bec3bacb5fdd070e2300e8d815af36e7bce",
+      "actualBytes": 201639,
+      "actualSha256": "997108190f7cfa694ccf7318ad140bec3bacb5fdd070e2300e8d815af36e7bce",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0011.txt",
+      "id": "1vKWzMVB0YEnzWefQ2bRzNFyry5L7tMsD",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 226426,
+      "mime": "text/plain",
+      "expectedBytes": 226426,
+      "expectedSha256": "35a205db4c0bb6e85ffddba81629dd09f79780e4ed423721c57c3fb9f867c015",
+      "actualBytes": 226426,
+      "actualSha256": "35a205db4c0bb6e85ffddba81629dd09f79780e4ed423721c57c3fb9f867c015",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0012.txt",
+      "id": "1Dd991ScBvJALfba5t4B8dQC8q4sU8uOC",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 237231,
+      "mime": "text/plain",
+      "expectedBytes": 237231,
+      "expectedSha256": "7941ffc686f82ae320f2f6dff46480b568168b0ef42e2574d8bedfff8698bfa7",
+      "actualBytes": 237231,
+      "actualSha256": "7941ffc686f82ae320f2f6dff46480b568168b0ef42e2574d8bedfff8698bfa7",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0013.txt",
+      "id": "1CiWSgsaut2xiCul-pLiWqKZsxjz4JnDA",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 216295,
+      "mime": "text/plain",
+      "expectedBytes": 216295,
+      "expectedSha256": "06d6d1da93733c7dba0bcffb6444bd1c66f7dd0ee32c314135f7e829c2953b74",
+      "actualBytes": 216295,
+      "actualSha256": "06d6d1da93733c7dba0bcffb6444bd1c66f7dd0ee32c314135f7e829c2953b74",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0014.txt",
+      "id": "1s8w33Vj-LCYUKbuzROgbyqs42VXBu2ye",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 236882,
+      "mime": "text/plain",
+      "expectedBytes": 236882,
+      "expectedSha256": "73d7cd2bac15fe4fe39c9c392b4cd7b5f5b341c929868fce33107da43d007161",
+      "actualBytes": 236882,
+      "actualSha256": "73d7cd2bac15fe4fe39c9c392b4cd7b5f5b341c929868fce33107da43d007161",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0015.txt",
+      "id": "1Ip6H5uo2KLL_ta4lwTWUHyjAP5hY1F6m",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 218769,
+      "mime": "text/plain",
+      "expectedBytes": 218769,
+      "expectedSha256": "247d411ef23f377877f4895ec7fd10f9370e2719afad246089ee3b0df1b339b5",
+      "actualBytes": 218769,
+      "actualSha256": "247d411ef23f377877f4895ec7fd10f9370e2719afad246089ee3b0df1b339b5",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0016.txt",
+      "id": "11kh5KV20U5giR7BpjT3DRiM-YqYCyXCZ",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 120968,
+      "mime": "text/plain",
+      "expectedBytes": 120968,
+      "expectedSha256": "e35d6ec2454a3b481be88933bdc23965f9c72b9718aab6c9b0f077084269049b",
+      "actualBytes": 120968,
+      "actualSha256": "e35d6ec2454a3b481be88933bdc23965f9c72b9718aab6c9b0f077084269049b",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0017.txt",
+      "id": "1OhQu-MVBFtiAYi4zQ-LP-LIVREjcyKgK",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 172420,
+      "mime": "text/plain",
+      "expectedBytes": 172420,
+      "expectedSha256": "513c448808a48461c740f0899743cd4b15ebfb253c324da11171c113dd5f4c60",
+      "actualBytes": 172420,
+      "actualSha256": "513c448808a48461c740f0899743cd4b15ebfb253c324da11171c113dd5f4c60",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0018.txt",
+      "id": "1AuDpWjMqbxibMY81x5xRI7wWb1N5ZI5l",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 122279,
+      "mime": "text/plain",
+      "expectedBytes": 122279,
+      "expectedSha256": "fbfb0bbc8b776cecc13d24082db23c493a959eed44d9334232a64bed4ba7e0ef",
+      "actualBytes": 122279,
+      "actualSha256": "fbfb0bbc8b776cecc13d24082db23c493a959eed44d9334232a64bed4ba7e0ef",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0019.txt",
+      "id": "1PBNEXG0-fC2f_GROs0w_C5k9Kbp_9UTN",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 118653,
+      "mime": "text/plain",
+      "expectedBytes": 118653,
+      "expectedSha256": "848addfccafd9a75864d0a702694d04ca6bd5eb02832f3cc8674dc87e2954940",
+      "actualBytes": 118653,
+      "actualSha256": "848addfccafd9a75864d0a702694d04ca6bd5eb02832f3cc8674dc87e2954940",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0020.txt",
+      "id": "16ajIPtPOqZ23rhaDsiU7TeTxTtNeqc86",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 217719,
+      "mime": "text/plain",
+      "expectedBytes": 217719,
+      "expectedSha256": "5aff1860e5c7f1c0946bb36087e6feab10ca7237ab0c7fe37f47ced749880ed5",
+      "actualBytes": 217719,
+      "actualSha256": "5aff1860e5c7f1c0946bb36087e6feab10ca7237ab0c7fe37f47ced749880ed5",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0021.txt",
+      "id": "1MSU4v3ciMg4NZAdDjJTFXvQkGEq-PPeD",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 237191,
+      "mime": "text/plain",
+      "expectedBytes": 237191,
+      "expectedSha256": "973fb305ae73479f81de81b64468ccc12b32ea1c588b37d685a0854881b4bb2f",
+      "actualBytes": 237191,
+      "actualSha256": "973fb305ae73479f81de81b64468ccc12b32ea1c588b37d685a0854881b4bb2f",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0022.txt",
+      "id": "1nlyzvzsL4xU3ycLN2VtTU_NojAe4myOt",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 236855,
+      "mime": "text/plain",
+      "expectedBytes": 236855,
+      "expectedSha256": "5582114ef38a776cecc4d258e6b25e8d26c725857b6e3359b2d80927c29c4ba8",
+      "actualBytes": 236855,
+      "actualSha256": "5582114ef38a776cecc4d258e6b25e8d26c725857b6e3359b2d80927c29c4ba8",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0023.txt",
+      "id": "1oLZNDHhchPKFAzedot_R4qHrD0DVan1V",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 184855,
+      "mime": "text/plain",
+      "expectedBytes": 184855,
+      "expectedSha256": "39d9b770a11fa500b6521f425b870f7a06fafd502a21a631dda38eaef242acd5",
+      "actualBytes": 184855,
+      "actualSha256": "39d9b770a11fa500b6521f425b870f7a06fafd502a21a631dda38eaef242acd5",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0024.txt",
+      "id": "1dfztLO6HJWW0-nOFZVh1zyeIf3VieIXN",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 236076,
+      "mime": "text/plain",
+      "expectedBytes": 236076,
+      "expectedSha256": "2970c390a6b117107bb9706e4412d222b9dfa15c2c8663b7b94844a8356e278e",
+      "actualBytes": 236076,
+      "actualSha256": "2970c390a6b117107bb9706e4412d222b9dfa15c2c8663b7b94844a8356e278e",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0025.txt",
+      "id": "1QyoD1s2ATKx3ArMbSCFJWuP8sdgNQob7",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 228173,
+      "mime": "text/plain",
+      "expectedBytes": 228173,
+      "expectedSha256": "378d571e1d3c4fa17e77611ddb934306793c4d69eb169404ce712fce0c4c7592",
+      "actualBytes": 228173,
+      "actualSha256": "378d571e1d3c4fa17e77611ddb934306793c4d69eb169404ce712fce0c4c7592",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0026.txt",
+      "id": "1JRyC3EUgMEYVw75KBDga3a5EyaK6JsqL",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 236395,
+      "mime": "text/plain",
+      "expectedBytes": 236395,
+      "expectedSha256": "c3c8bf5a881249df9524761b0f80b3037f0fd2e06b9e05ee62f0d0d11f390217",
+      "actualBytes": 236395,
+      "actualSha256": "c3c8bf5a881249df9524761b0f80b3037f0fd2e06b9e05ee62f0d0d11f390217",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0027.txt",
+      "id": "1Rd4aypz6YDBVOod6qjWfkt5zXUPPrUSY",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 234424,
+      "mime": "text/plain",
+      "expectedBytes": 234424,
+      "expectedSha256": "18b5bc09b3583bb8947febd4b0ea6a79ee404dc42599246687e17d176313dc76",
+      "actualBytes": 234424,
+      "actualSha256": "18b5bc09b3583bb8947febd4b0ea6a79ee404dc42599246687e17d176313dc76",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0028.txt",
+      "id": "1_ERea-eN-GJZQDgVLge5VGzxy4BhmWFC",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 169061,
+      "mime": "text/plain",
+      "expectedBytes": 169061,
+      "expectedSha256": "bffc26a698f09ca875b1c622fe04805bf5c1c81d892f8b986afe65da7c110581",
+      "actualBytes": 169061,
+      "actualSha256": "bffc26a698f09ca875b1c622fe04805bf5c1c81d892f8b986afe65da7c110581",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0029.txt",
+      "id": "1udKRhlR48b0QNykUKgiWcn5P6XfLkuL5",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 236275,
+      "mime": "text/plain",
+      "expectedBytes": 236275,
+      "expectedSha256": "b6f90cf847c384adce9263772c889d4d1abf9dfdd8d59662bc7d704b3d33bfca",
+      "actualBytes": 236275,
+      "actualSha256": "b6f90cf847c384adce9263772c889d4d1abf9dfdd8d59662bc7d704b3d33bfca",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0030.txt",
+      "id": "1V_LAyMExIQj8JwiyX9MygXf7ZV85dR9n",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 235106,
+      "mime": "text/plain",
+      "expectedBytes": 235106,
+      "expectedSha256": "c54bd465444ea5de13a67a73b714757214a5bbb2cadc99246eb6eecfb56d03ba",
+      "actualBytes": 235106,
+      "actualSha256": "c54bd465444ea5de13a67a73b714757214a5bbb2cadc99246eb6eecfb56d03ba",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0031.txt",
+      "id": "1x40DLzhP1XcArCyXdevCt0j2KMGy9eNf",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 235722,
+      "mime": "text/plain",
+      "expectedBytes": 235722,
+      "expectedSha256": "336f9d3f641446b81399c9776f61689d7cd6b1d58958bdae43edeb2b3cc9b298",
+      "actualBytes": 235722,
+      "actualSha256": "336f9d3f641446b81399c9776f61689d7cd6b1d58958bdae43edeb2b3cc9b298",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0032.txt",
+      "id": "15mzYhLqlia7fscHjvgL8dvMta7KYnvXf",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 207285,
+      "mime": "text/plain",
+      "expectedBytes": 207285,
+      "expectedSha256": "680512b96e49da178e79d5b47186b894fb09ff6019972f3293eb2feae7791f6d",
+      "actualBytes": 207285,
+      "actualSha256": "680512b96e49da178e79d5b47186b894fb09ff6019972f3293eb2feae7791f6d",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0033.txt",
+      "id": "1XKj_D3pDjFOPEWx2oTXBOlscX6CmfDJ4",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 235798,
+      "mime": "text/plain",
+      "expectedBytes": 235798,
+      "expectedSha256": "e318434c95568346c9d1d63206227c0b97cea64405f94abe276dbdf343de2d2c",
+      "actualBytes": 235798,
+      "actualSha256": "e318434c95568346c9d1d63206227c0b97cea64405f94abe276dbdf343de2d2c",
+      "status": "PASS"
+    },
+    {
+      "path": "Grave-Digger（地下戰爭同人世界線）/00_專案根目錄/VOL_0034.txt",
+      "id": "1mqJNbFjnDvomTqQ7vl_tHVnKSzCNzcRJ",
+      "folderId": "1V7eEZWqi-Xale5L_zWJZu03tBEsHQo25",
+      "bytes": 77145,
+      "mime": "text/plain",
+      "expectedBytes": 77145,
+      "expectedSha256": "82406581c63a01e73871a74e5acd46be23be2c71c535f693e9e03ef1996baa13",
+      "actualBytes": 77145,
+      "actualSha256": "82406581c63a01e73871a74e5acd46be23be2c71c535f693e9e03ef1996baa13",
+      "status": "PASS"
+    }
+  ],
+  "reconstructed": [
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/000_專案交接與索引.md",
+      "bytes": 146841,
+      "gitBlobSha1": "5061eb41f82f69f43f0e520bf37f53633ccc8971",
+      "sha256": "dfad538f8ca91d757c22a1e586992e584b9871b8f0d8283c2bd2ec5ff665c77c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/001_世界與軍銜指揮權.md",
+      "bytes": 17642,
+      "gitBlobSha1": "c8e1afc70919472a7714c4d03351abc33c7a6d07",
+      "sha256": "fa0e3587e15937a2a02d1f9f2130d8cac2211712a1b70d4507a33e9eb2815238"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/002_普通兵種_Perks_個體能力.md",
+      "bytes": 31848,
+      "gitBlobSha1": "b0cc7c82578501d0521b680667f61138e31cacd6",
+      "sha256": "d5d4e375e24c0abcdcf17f0da7de4669e11b2dea063a3c06dfbd8e7584ae4f21"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/003_Shock_Dread_稀有武裝與授權.md",
+      "bytes": 33170,
+      "gitBlobSha1": "bbd22e9b68b79a2ab7b1e21b70276a2dc1fd2503",
+      "sha256": "4865ea1e7d586f8199078260ddd35db736f22b12cef5ee2728f007b26a799e78"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/004_挖掘_頭盔_戰爭規模.md",
+      "bytes": 25073,
+      "gitBlobSha1": "ee2fecaaf6850864665edf87f673d064987c1661",
+      "sha256": "1b7a1cc261d867d150eea2c9b9c136e6ddb77494997b81f3b0cc6b75d2ab8350"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/005_來源_勘誤_待查.md",
+      "bytes": 55503,
+      "gitBlobSha1": "4fb188b7f0e838118b0384bad4d0c5f952399ebd",
+      "sha256": "89b8ac6a823c2792b3bcc61ef96a3afa22178e668db89acab5f20183ee814731"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/006_全武器及Mod改裝圖鑑.md",
+      "bytes": 45735,
+      "gitBlobSha1": "9458b4b908fb74d78f0ce3412ac44d4d3413b24b",
+      "sha256": "27b7f3931a583b10b6c5ff6973aae43fdcfde9180f9607ebe0f0d646b4417e2a"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/007_軍階社會重量_敬畏信任與士氣.md",
+      "bytes": 19030,
+      "gitBlobSha1": "0060803637bb2ed41de7807bb31f77880a688f2c",
+      "sha256": "bd273838104f7099683cc48672c719c148c70716c1269c5ea3b73fa5609ce6de"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/008_歷史_政治_第九級軍銜與戰略制度.md",
+      "bytes": 11057,
+      "gitBlobSha1": "440c3497688a68cf075939c33dd0a525c1d8998d",
+      "sha256": "4673fb76e12896d41cabc212a298f5a2284886f8a7d6c4f0fd6d13ad995d4c34"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/009_地下生活_飲食_平民_經濟與醫療.md",
+      "bytes": 17036,
+      "gitBlobSha1": "21d6f8d0b1ea40f7ffae78050724e4fd768b9d56",
+      "sha256": "f8c681cd5915af8f6784b384e3ce8bad6ada3494e7242ab36e05ad90d21c97d2"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/010_軍團氛圍_上下級_戰友情誼與停火文化.md",
+      "bytes": 19610,
+      "gitBlobSha1": "2b5ded401d121a9296ebe4df5183f2623be132f2",
+      "sha256": "ac43f6830798e78aa488abbc088a9c2e178edb008839497fc51129593637b75a"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/011_同人動畫_影片_小說與可吸收構想索引.md",
+      "bytes": 13751,
+      "gitBlobSha1": "060b8340e5a35f1f1b74079be7fa9a98b3248063",
+      "sha256": "732e9fc779015cc22293c257ec76b0c5650f51ffb80d3e45874553c09b4a1a54"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/012_遊戲全面小說化_戰役系統與轉換規則.md",
+      "bytes": 23704,
+      "gitBlobSha1": "3f01785eac6b4604d7f9c8426554689d2a021dad",
+      "sha256": "8016e1356f5c2225c224c72c6e0627e8aebbb0bd5c4093cdad4ff4b4cd215dd1"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/013_官方Trello地圖卡_附圖與版本稽核.md",
+      "bytes": 16272,
+      "gitBlobSha1": "982ef945222f45565fac3c630d26a92759ee75be",
+      "sha256": "1a48132355dcf8067804b1852948942a299fec2a87deda1bb9249431cd59aa93"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/014_地下據點_交通網_生活與戰役設計.md",
+      "bytes": 12966,
+      "gitBlobSha1": "97b6f46560871e112de3e8af123cae5647911e46",
+      "sha256": "680a4fe19dabc68cbb2e9fc73cc7d8319c6a30c06b09a18f16e333cab5fe07f1"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/015_官方Trello核心歷史與四陣營原文核對.md",
+      "bytes": 9877,
+      "gitBlobSha1": "88add9df0646415a0afec2b3287e06f7474e05b0",
+      "sha256": "eedbf54d89d59ce948eff886a5791a3e27f217f66d38e1b9244efd46a6300e75"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/016_近戰擊殺解鎖_砍刀與Dan-Janiel.md",
+      "bytes": 5423,
+      "gitBlobSha1": "b97ca47b77202a87b5f2b7a346538a9018b31b81",
+      "sha256": "5cc5efd7ef55daf6f71c7f6e1d98f568809dece3af9628562a6e3425f47725fc"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/017_人物素材庫_社群線索與原創候選.md",
+      "bytes": 13973,
+      "gitBlobSha1": "f5ddaa1f493234b3f824206f28f97f6148d6bb2c",
+      "sha256": "d98b38bc8895110d67bea1e4cf72760a23a294919a180b4ed7829ed1aaeb664e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/018_地下餐廳_被遮住軍階的HighLord_場景草稿.md",
+      "bytes": 10141,
+      "gitBlobSha1": "ca8a2fdf279550a35611642716a7c3c1fa06dcd0",
+      "sha256": "0da0be9bdd6abd6258d024763123b03c208da687de3db00e10bf515e5da404b2"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/019_Perk全系人物化_機制_多種表現與限制.md",
+      "bytes": 21531,
+      "gitBlobSha1": "ee9dd235562a732211b7b60dd46f08354fd06d46",
+      "sha256": "828a65c74094c6d7af4dff907e3924530fd0c1d87a2b1c91189e483df99312db"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/020_女LordMarshal_正式人物卡.md",
+      "bytes": 54295,
+      "gitBlobSha1": "f2f93158bdc5fc442dc03b42c62d7b72014d9c05",
+      "sha256": "b90ca645c0229e47a0fbd87a2f1eab21a82e1104432d6a79807f3664e21b1338"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/021_第一章_明亮地下餐廳_DanJaniel_正式開頭.md",
+      "bytes": 29132,
+      "gitBlobSha1": "2c7324bbf75af1199cf888596f8bd157aaaccab9",
+      "sha256": "e0b6bdf18a5b16524e35d8ddaae2754b1f5722bf5d210f9eb835d95528929c3b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/022_Lord_Marshal_第九級軍制_名額_權限與晉升.md",
+      "bytes": 17508,
+      "gitBlobSha1": "42e5be158808dff341ab9f7555cc25d62c35fa20",
+      "sha256": "ffca5ce642450df72f794a437ec522528dbe1dc0dcc12fd08b30094570f54379"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/023_徵兵_新兵訓練_軍營作息_勤務與前線輪值.md",
+      "bytes": 23078,
+      "gitBlobSha1": "92983e6d3314bb1e103da68217e6f56278c16f85",
+      "sha256": "3048795ca2f55de73c312d1b16854779335101a371765bb51186bfbf61521c2c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/024_給Gemini的完整世界觀與創作交接包.md",
+      "bytes": 57084,
+      "gitBlobSha1": "2401c0423897150362e803edf899e1878be37a29",
+      "sha256": "2862627de189f2ec1b3b2d00b854dd4423118c3fb1c69d120ab2bb608250a0c1"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/025A_Gemini_原文全量_00至07.md",
+      "bytes": 155204,
+      "gitBlobSha1": "c27ac7732689942ea838612d81f4a09d5690d0d8",
+      "sha256": "625c60903fa17ecd97f7f2c6c4dcd323ff08ddb8777229e549fb0bc55c433379"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/025B_Gemini_原文全量_08至15.md",
+      "bytes": 101968,
+      "gitBlobSha1": "a0e99dfe23be8b65e26cfec447a3661ba85ed766",
+      "sha256": "bfb590969a536044ebc29dc49deec8bd344a31bd4f35abc722f2caba8dfa1922"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/025C_Gemini_原文全量_16至23.md",
+      "bytes": 120123,
+      "gitBlobSha1": "82a356ab5642bcdb2fb4f775924777eef0662afe",
+      "sha256": "9e1c244a12d4fa5dec887ab6657440ae09a43c9fe98240d1f7047b9aee61c363"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/026_Gemini_三冊原文_完整度稽核與閱讀順序.md",
+      "bytes": 10715,
+      "gitBlobSha1": "2857d96794342c9fb0ebf19c05030610c3105bf8",
+      "sha256": "f1a16c306f9f25fe4394a77002a2c0140d163d1536c92d14122dc39ec5759907"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/027_平民如何看待軍人將軍_中國對照_社會禮節與地方因果.md",
+      "bytes": 16769,
+      "gitBlobSha1": "de07196fcfd052d5efde5a059d60130082f2af0d",
+      "sha256": "aa3b4d006d7f060732a343951e57c5dc29a181225bbf5b584445cc6016b6c091"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/028_武器操作難易度_Judgement_Kingslayer_破盾與調角度.md",
+      "bytes": 28942,
+      "gitBlobSha1": "fafa168d042cc2533fc91c96f11c321e56e1bc16",
+      "sha256": "84933ba90b33732d83c5947570eef85369cd711762fe483feb12f3a4a1c72983"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/029_Gemini雙篇重寫_敘事吸收與連續性修正.md",
+      "bytes": 17692,
+      "gitBlobSha1": "e7717ae573a2c9449088fb0ee8551014e3feaa6b",
+      "sha256": "fbe7ac40b6a22675103114f1dad1f86c217f96f38ddf581bd9f0e62e540f135c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/030_瑟薇媞雅_人格道德_戰時指揮與敵軍傷員.md",
+      "bytes": 28196,
+      "gitBlobSha1": "1d2e33f94b280e9f32df83d04f4655cd09c7c70c",
+      "sha256": "2672196c70ee09d2121d828962ba0b9717c9b35ff687bc8ff9b9a11efec0eb40"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/031_瑟薇媞雅_帝國之刃_Shock獵手_萬人戰績_Dread生還.md",
+      "bytes": 46334,
+      "gitBlobSha1": "1837fdc33eace0a242ab2bb46b2fba848e81d814",
+      "sha256": "f1fea64658a91e85d7762818b455f1221e668413fb86e5f15b11f6b557c77890"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/032_Gemini早期原稿_人物生態_尤里烏斯軍械庫_全量保留.md",
+      "bytes": 37815,
+      "gitBlobSha1": "651903c65a45d72965a09e07c49eef26489fae1a",
+      "sha256": "6943807956ba3c2bdd8de706ca2bb52f0dc91dc0e3aec5d2872aaebc4fc9450e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/033_Gemini後續原稿_武器難度_餐廳重製_三號支道_全量保留.md",
+      "bytes": 45992,
+      "gitBlobSha1": "118abff27778a7ae9c98071238e23d13dfa95737",
+      "sha256": "7cac7f1fa855aa878d1b500d4d61312be23e1e1b8185bfc65776faf13a929f1e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/034_尤里烏斯_軍械庫階級風暴_完整試寫與保留指引.md",
+      "bytes": 16922,
+      "gitBlobSha1": "b707f6513019be08bd1e7289030d329893147c57",
+      "sha256": "9ac7c8d379c3b875de2e09021a4b58b4385b0aa349b2ff3e6462f092ee9348f8"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/035_軍營戲劇引擎_軍階衝突_EliteReinforcements_女皇私交_停戰志向.md",
+      "bytes": 25221,
+      "gitBlobSha1": "75cf9c48c114eae4708e701c4b4b2b7c7ce91a40",
+      "sha256": "a3f9e8d034dc99d86d8e46548e39afc456b01c3b330ec53cf2feca26ee14f072"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/036_Gemini首輪起_回補完整度對照_原文與正式設定版本表.md",
+      "bytes": 9937,
+      "gitBlobSha1": "625dd8f1f975df479181b37b4bcfbdc4b035072c",
+      "sha256": "0e5aef6cec7dd5f74ef9c9ee41d9d5b015e1d1925053fc8e2e7c9e7ca7eabd71"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/037_早期第一章_地底沒有日出_Gemini試寫轉存版.md",
+      "bytes": 11545,
+      "gitBlobSha1": "2d44fcb56e9bf243c5ba2a147dd1ca417e0d8b2f",
+      "sha256": "6372922c40d4531d71c7eb06d9eeb97a25502b98d982fdf6c0d6922c39567343"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/038_燈亮著的地方_軍民百態Gemini精修版_對話轉存.md",
+      "bytes": 22731,
+      "gitBlobSha1": "da2204d96f74cfddb5ae95545466ae951a29689f",
+      "sha256": "dcfff0e259d9bebc46e614f131f0ee8574fdaf9d578d95b49800f401a9443514"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/039_Dread疼痛_女皇與友人的反對_Hippo戰地醫療_AT實績.md",
+      "bytes": 18351,
+      "gitBlobSha1": "2959d7118abf64abf0e617706d7b4f96e532453d",
+      "sha256": "d26dfcb4034088046aebfdd09111ff37e7120d95406fe135964920643249bb2e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/040A_Gemini增量全量_人物戰力道德與Dread.md",
+      "bytes": 167944,
+      "gitBlobSha1": "f04c1bdf88843c6e1e06b3543c629d0298d9320e",
+      "sha256": "781932d9fa04cf6e608b72bcace2ab64e7d882384c2b9f2b751822a336e7cd6d"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/040B_Gemini增量全量_兵種Perk軍營武器制度.md",
+      "bytes": 193810,
+      "gitBlobSha1": "5365ec91cbe12e992c4eff81b22415d651b624d3",
+      "sha256": "460edc11ad066a88450ac4fd4a27116d424a727fba5608f6999f593b661a5ed0"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/040C_Gemini增量全量_小說試寫與Gemini原文.md",
+      "bytes": 201378,
+      "gitBlobSha1": "56452d34798663725abd53d62debef54a3800086",
+      "sha256": "d13dafa4cd8789713c1cb42c703b29aed3732e998e13853b01890d5abbdcac3c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/040D_Gemini增量全量_來源稽核與交接目錄.md",
+      "bytes": 226165,
+      "gitBlobSha1": "2db581af169c795180a7919fd03db3503f9c3b56",
+      "sha256": "2ee192d85c480a01551c5658070d3919a11304540d0ea5fef39b32665eb0a169"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/040E_Gemini_最近一次Gemini回覆後_增量交接全量合冊.md",
+      "bytes": 803954,
+      "gitBlobSha1": "d76d5dc9be3fc8b0848469ce904310c08ac42008",
+      "sha256": "73df94b2ad4be16756c00df441ccd93890c617d27d83e88c52ef863fc34c0da4"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/040_交給Gemini_最後Gemini回覆後_完整增量交接總覽.md",
+      "bytes": 30659,
+      "gitBlobSha1": "ac5ebff37a0c89e114fd2a093a7cc7ed4aa32f8c",
+      "sha256": "2d88e45ebe715089f33c4ec3d70834dd41910d82a69f6436afe60b177375d4cf"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/041_GPT對Gemini回覆_可核實原話_編輯意見與缺漏稽核.md",
+      "bytes": 16585,
+      "gitBlobSha1": "0d18de13f45767a4b317ceb918cf05c5d040bd5d",
+      "sha256": "82a59ec7c9b0454189aff74052ce7883017d589ba70e1da9842be0105a84991b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/042_Sevithia_隨身佩槍_極限實彈操槍_震動射擊_頭盔重擊_校準.md",
+      "bytes": 18356,
+      "gitBlobSha1": "7d6449d0a7790cd6054c0b2ca5c0ad86178612a3",
+      "sha256": "4ab3a6f21ae392a88489f21e6f32dde371b748664349d42cc03d15415b438a34"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/043_Lord與Marshal簡稱_SevithiaFlick追擊_文風對照與修正.md",
+      "bytes": 19561,
+      "gitBlobSha1": "c7563416814c63112c7c27c1fdc0b383ccf0cf22",
+      "sha256": "d3399454bb8b3cb566c5ded4a03ef1919041a0b06016147b39eb1adba2eb49bd"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/044_Gemini與GPT_絕對掌控的十幾秒_逐段逐句完整對照.md",
+      "bytes": 17573,
+      "gitBlobSha1": "22d647e4dcaa4cd1f1c2bd24ef20f1494aec937e",
+      "sha256": "5a10e373c91177c9dcbe1e276540d4b3adec0c87c2b0f24f65adf6f18ea25510"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/045_Gemini小說吸引力_多篇原稿深讀_正向學習與試寫.md",
+      "bytes": 28046,
+      "gitBlobSha1": "38307908f8fa17ced0ec7e893bfeafe85dd6853b",
+      "sha256": "7cbae969730886f3cf7e6f5709c05ab33f1513d55d12ebbbdff93753963b5dcf"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/046_Gemini逐篇逐句對照_字數密度_排版與匿名盲測驗收.md",
+      "bytes": 26721,
+      "gitBlobSha1": "254dac14aefc70958184dfaaab8c846442569ead",
+      "sha256": "632bc29001b80336af925f4de70694886d26b9adda4c71f1074fdde2ede97d70"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/047_Gemini小說聲音語庫_擬聲詞_嘆詞_標點_語氣與創新.md",
+      "bytes": 26732,
+      "gitBlobSha1": "5733730d3136d86bfc2ba0fe090eb70eded22f3f",
+      "sha256": "d961e023d4fd3ff73c8fb4c3199b000f69415b3644215b9d9e814e69025175c3"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/048_Sevithia雙Kingslayer_自由攜槍_Officer標記_Q花式射擊_遊戲模式小說化.md",
+      "bytes": 38346,
+      "gitBlobSha1": "11b54ee88232b64c6d8e443930579cb7be299064",
+      "sha256": "f56f9298204204d010e2dbe4d651fafbb4eb3f3013e142f6829a5c7c7d848991"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/049A_交給Gemini_41後全量_新增42至48全文.md",
+      "bytes": 172161,
+      "gitBlobSha1": "c228709df418143a61aae57474eccf38bd77a041",
+      "sha256": "e86dcdc3d9b77a8e6ca1ed255e4e1829904789b6684c1bb513827b18658b9826"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/049B_交給Gemini_41後全量_舊主檔00至06全文.md",
+      "bytes": 122017,
+      "gitBlobSha1": "3da4978aeac46f99a6286651194ab9d5bc73b447",
+      "sha256": "d7fe829c7669943b5dab90ac10519f0d374370179f56bc2ee2cd0af73c7a9639"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/049C_交給Gemini_41後全量_舊主檔12至24全文.md",
+      "bytes": 118391,
+      "gitBlobSha1": "c03765b028b02807467b42032c3a4d52dcff6288",
+      "sha256": "cb13be302dedf4c9d9c92365614eacb12bf96af266ba7ddebe9452ea7f3d91e7"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/049D_交給Gemini_41後全量_舊主檔28至35全文.md",
+      "bytes": 121713,
+      "gitBlobSha1": "eab89a6c583312c143bb75eb3752f124d39da971",
+      "sha256": "ab9d551b068dfa30b94bf368b83461e423aaa698a3b6ebb4ab37c27e8fd99e2e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/049E_交給Gemini_41後全量_40至41差異與總核驗.md",
+      "bytes": 95481,
+      "gitBlobSha1": "d39b81db6c4a39707a9ed429a80b4e5f71833578",
+      "sha256": "bf6d0e6986a754bb4877001432ffd006b14bb30c2e2221fc5ebf3e18d3d8cf8b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/049_交給Gemini_41後新增設定_原文全量合冊與舊檔差異.md",
+      "bytes": 620117,
+      "gitBlobSha1": "96ceef6e9c6d864f14b739a382a40de3396d1920",
+      "sha256": "c0d46f63077233904299d8807ad0f8fd732394c1aecc0f52f1eeffb41989c8da"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/050A_Gemini第一章_地底沒有日出_純正文校讀版.md",
+      "bytes": 30495,
+      "gitBlobSha1": "10130f2767db1852bb2875c54d6d9edf812190c8",
+      "sha256": "f95a3383cf986d6f50f77e9c05f41e64db6dbf832d43138e05c6401655f7e489"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/050R_GPT首次核讀回覆_原回覆存檔.md",
+      "bytes": 6931,
+      "gitBlobSha1": "707d71ba9c9704bf83011dc6e886324cabe9a60c",
+      "sha256": "81af4ff47be64957b7ddfd1cb74bd962ae6ce4800bf7e4bb54cd7deebeb32aac"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/050_Gemini對話原文_最後一批_完整封存.txt",
+      "bytes": 136128,
+      "gitBlobSha1": "19111a499abd9b0b668df4fa342799d24fea5eed",
+      "sha256": "df66b58fd4aac4ecad9e1bcd89a48ba55466553cb91549c17e82266032d3ef82"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/051_Gemini長篇文筆_第一章精讀_聲線節拍_模仿方法與校讀回覆.md",
+      "bytes": 41008,
+      "gitBlobSha1": "cb785188916beb9896875e7d7acd64b0d43848a0",
+      "sha256": "be1bbb4502f36dac41ab93d4c00a9e6d31cd3a9d6eb03e46074dceb2783df984"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/052A_Gemini第一章逐字逐句_晨起與軍營_P001至P055.md",
+      "bytes": 28814,
+      "gitBlobSha1": "616873e0fb1737da4a6eeb738afae1175ca9fb71",
+      "sha256": "7973036ff8fb8ffeb42cd21ae27375ef79637f5e9258ffcde30f4b0eb044fab6"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/052B_Gemini第一章逐字逐句_食堂與傳說_P056至P105.md",
+      "bytes": 29044,
+      "gitBlobSha1": "6b2a9d5fee0d0255ed8546410e6098417084961b",
+      "sha256": "0328d2f953b49d0ca3663dfe252f6ea11867642db7398a0c5d5dbe73c3ca5343"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/052C_Gemini第一章逐字逐句_支道與合格_P106至P164.md",
+      "bytes": 27396,
+      "gitBlobSha1": "8b011d3c9a407124a008db43f85d0c58dec47d16",
+      "sha256": "36a25ee41801751b43baf842955d6199ca02b44f1575df65395f713f92bc414c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/052D_Gemini對話逐字_檢討雙場景與九章案_L001至L398.md",
+      "bytes": 57259,
+      "gitBlobSha1": "46bffc1471c7b6f7d2f9bad57113031e7f2dc08a",
+      "sha256": "774fb596495436477a8a2f964359b7da4f9e13a929dbab69708f6f2e7ac0fa7b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/052E_Gemini對話逐字_設定糾正六准將與群像_L399至L816.md",
+      "bytes": 68185,
+      "gitBlobSha1": "00afc31d19834ca0d1510ce9f3939d71ed5cd906",
+      "sha256": "5613e7e874f26dfc0f46396c9c74571823e1af6ba8c1f0e8acd65496d211a7e4"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/052F_Gemini對話逐字_最終修正十章案與後記_L817至L1007.md",
+      "bytes": 31117,
+      "gitBlobSha1": "e9ac0c3b17dc5b29742e562493e2c665d473e3cc",
+      "sha256": "187fa8ff3ba8d987a8e15d324cc749c38f12b2ba27cbc22c2ff606f6a9f363b0"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/052_逐字逐段完整校勘_驗收總索引與寫作轉化.md",
+      "bytes": 13552,
+      "gitBlobSha1": "ebca95fbe545fa58f0b1d4055d1f2b12f14cb0b8",
+      "sha256": "7327df2b2d18a8259d72fa6023e695046a3fb948daea6883f2fef85b4909abc3"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/053A_五席元帥高階傳奇候選與宿敵反應_設定隔離.md",
+      "bytes": 17317,
+      "gitBlobSha1": "79e9c89e0e484e3f57609b8ce78a3f79372ac67a",
+      "sha256": "b2d854bd1aadc9aebc466f26fc5a10780410ab8b8ed76dee2d4e8b083511e98e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/053B_傳奇交戰與女元帥參戰_雙方反應_原創練筆.md",
+      "bytes": 11452,
+      "gitBlobSha1": "62459710e5403a72c900cdff6051cf3bd2eb0996",
+      "sha256": "7dded3087d45493f42a15bda0e8c668145eda41c53520bb83468ddbd6ad5599a"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/053_Gemini批評白漆還沒乾_五大病灶與筆法修正.md",
+      "bytes": 13625,
+      "gitBlobSha1": "4cce46b74701903dc33078bab69c94621f33540d",
+      "sha256": "47c5dcd2f3b90388fe5eab3e918348e146c928ffeee07a3039d61eaa31594a03"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/054_Gemini原創保留_GPT延伸並存_多面人格與戰場反應.md",
+      "bytes": 13156,
+      "gitBlobSha1": "b0f1472f34dbb7b00a82b90f8ee088ca9df8596b",
+      "sha256": "deca5bbcfeb11ee2529adc25e5729e40b1230a3840fba3b63fcf0d7812177f68"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/055_瑟薇媞雅多年戰史_六准將僅其中之一_去年時間候選與聲望差異.md",
+      "bytes": 14002,
+      "gitBlobSha1": "1356d5f33daa35f1b48305e6332a70b92755098e",
+      "sha256": "9f0b5f2f5ff050321c9173856ea7ed2e3662794b1344ff49e829ca7e531498b3"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/056R_第九號水閘的壞脾氣_通順性完整修訂_非正史.md",
+      "bytes": 15988,
+      "gitBlobSha1": "015668564f33b1847a8cd5c61dc86ee0e83459f7",
+      "sha256": "bfc26ce073c0dee4d991eeeff4f4f7aa372ee953a571c337f33beda658449ed9"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/056_GPT原創文筆實測_第九號水閘的壞脾氣_非正史.md",
+      "bytes": 19768,
+      "gitBlobSha1": "3fbdd167d50790a82c28592eb177902366c4f241",
+      "sha256": "18e1ecec8048cab87d90fe3891c21e8edab4ebb1fadd555b5ce6178907c5494a"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/057_金色帝國與王國聯邦九階_中英文統一軍銜表.md",
+      "bytes": 3917,
+      "gitBlobSha1": "e78136882d3be0d145e4c805c95a20f8dc7477e6",
+      "sha256": "c0341e0add6a6eb9ac98efeea910522e1867e2d6885f20927d21c7aa700d0e6e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/058A_GPT水閘故事_易讀性修訂V2_非正史試讀.md",
+      "bytes": 20123,
+      "gitBlobSha1": "6e98cb5e5abae233237376e967fa19b9fd9abb0f",
+      "sha256": "6829bc229a12f15ebd3a25bd0939205656d0116d3c9696bc47112c164eb0c600"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/058_GPT水閘試稿_易讀性校讀與修訂紀錄.md",
+      "bytes": 7262,
+      "gitBlobSha1": "ba62b432d850b79ebe15af670132d860a369d580",
+      "sha256": "f4a83f72fe1962bf7a24f1c0ca32ce5813ef90ffce8ade1ba331236f0c5f59d6"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/059A_Gemini第二章_純正文P001至P194_定位版.md",
+      "bytes": 39020,
+      "gitBlobSha1": "73bc45a58f5098d08c26089de1de25a616218692",
+      "sha256": "68d50d5b2f221e7816411989d54c1ab8f895d44641ad74b474a7d1a129577f0c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/059B_Gemini第二章_逐段逐句校讀_P001至P100.md",
+      "bytes": 32078,
+      "gitBlobSha1": "9d662a1567547699306d86d8f92c200ad591a439",
+      "sha256": "e931895870bb965dff152a7f167c2783861a726cde198e85fcae41929bd99030"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/059C_Gemini第二章_逐段逐句校讀_P101至P194.md",
+      "bytes": 36360,
+      "gitBlobSha1": "e19e0e4a01d9e6ffe8b6957715fdfd00f3dc88b9",
+      "sha256": "5a2d6c40b12cfc08e95c5145dc7c2a889a7808e52a141c2c45d7264c7393ac0f"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/059D_Gemini第二章_完整校勘總索引_筆法吸收與連續性衝突.md",
+      "bytes": 17873,
+      "gitBlobSha1": "82e67b1612b43d455bcde87ec8373315d822dc59",
+      "sha256": "bb07174f26460815cb2d41940371f753701c99bd3f6753cfce582179c6234be9"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/059_Gemini本輪點評GPT與第二章_上傳原文完整逐字封存.txt",
+      "bytes": 42569,
+      "gitBlobSha1": "52b9b8a613554fc074d8b2319eae79323c907549",
+      "sha256": "1ac83389408da405b40c2ffaafbb3c0bf64861b72518ab2f1f7f65d7981e56ea"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/060_Gemini上輪56R去說明書化_聊天回覆轉錄與示範封存.md",
+      "bytes": 11236,
+      "gitBlobSha1": "c73c8605aeebbef9705df78917543b2d70e3681c",
+      "sha256": "c021fb08fd94cdf199d7a5399d6dcf7b62d0a3303b9cc88733ab327618d2dd63"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/061_Jaeger_HunterKit六陷阱_絆線_RadioTrooper標記完整機制與小說化.md",
+      "bytes": 21676,
+      "gitBlobSha1": "66b72e366b0dfdbb6409639fca1b6d91dbb63502",
+      "sha256": "495d4b713fe93350531fd8c89dc28c74158ad5c30ca89b301b9f8df7dc447516"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/062A_Gemini第二章_修訂候選正文.md",
+      "bytes": 38697,
+      "gitBlobSha1": "412f96958a9d158b21f0d1d6bbb1a4ee721da966",
+      "sha256": "af38a6bb6cdf9377acfc7b04073432a17b22010cc39e865fc06bd7bbeadb111c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/062B_Gemini第三章_修訂候選正文.md",
+      "bytes": 27283,
+      "gitBlobSha1": "10d273818716652b9c34f1d25afb83fbe312244c",
+      "sha256": "bc4027339cd4efb995470ae2ec5ff6702f44cba9df5d1d77b4b6cb57131e4a62"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/062C_Gemini修訂第二三章_版本狀態與接點.md",
+      "bytes": 7651,
+      "gitBlobSha1": "c23447e2de74a54094beee0f7daf4563d76bbd30",
+      "sha256": "19de75c07856e6cf8fe61f08b56695cbb91836d784b54855765e8b1a446e0123"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/062_Gemini第二三章修訂_完整貼文原文封存.md",
+      "bytes": 73087,
+      "gitBlobSha1": "8e42c9869563e46c39a43fbf23ed65439c473bce",
+      "sha256": "a6306cd473e7ce7c79a8c7dd13601df050f3f946d4e828b2d00032c662029fd8"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/063_E鍵五種快捷呼叫_不限五種不固定台詞_軍營對話與戰場傳令.md",
+      "bytes": 10083,
+      "gitBlobSha1": "d39d535a6d857121ce22b2b4673e0dd9007e28a1",
+      "sha256": "67feeabdd5d98cb16e92f254b3619276b0a9ef6bbb497f786156a2b10aba0aca"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/064_Officer專屬E戰術呼叫_哨音三號令_自由戰場指揮.md",
+      "bytes": 9530,
+      "gitBlobSha1": "fd687f64188c32db0501aece177fedab9f1ae72e",
+      "sha256": "bc57440e91f6a14ea6c6c430b1f69bb95b1857aea244e4113c0b1257f102a4c4"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/065_Kingslayer多重弱點_瑟薇媞雅三倍裝填與雙槍_瞄準Shift例外.md",
+      "bytes": 14018,
+      "gitBlobSha1": "ad42914be472777fefdb3bbca2eda7d3b0e41e50",
+      "sha256": "ef62da1acc873c1d351d8cb967c8ed4d5002d996b09a6e085aa86c2147968e08"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/066_Trench刺刀_Shock跨兵種Synergy_Officer刀戰文化_帝國之刃刀術_兩部動畫來源.md",
+      "bytes": 18094,
+      "gitBlobSha1": "f161cd3a200085938260df4e1e2de116b052a6f4",
+      "sha256": "7bd60f87c2b869db3221183471f879039af5484c88a45401eeef640e3be8d4f6"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/067_Tickets耗盡FOB撤離四分鐘門後友軍_戰役FinalStand五分鐘列車_動畫內容導入流程.md",
+      "bytes": 14778,
+      "gitBlobSha1": "e6627a442fd6ed0978b5908e92a86c6df69f03f7",
+      "sha256": "ea6250bac1cc7ab5289f0a757ca9589ac543f5cea34eec8d97d5ae230156bdb1"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/068_Deathmatch雙零Tickets_防守反耗數百_Sevithia逆轉實績.md",
+      "bytes": 6695,
+      "gitBlobSha1": "3d8db08f8e66555adf354e8b93e2d01e10dac342",
+      "sha256": "0a2340535ca92a22179ba7bf330272378eb55990d2c3659c86e0da19dd499b02"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/069_Sevithia徒手格鬥_拳腳破盾_Dread限制與原版差異.md",
+      "bytes": 5263,
+      "gitBlobSha1": "84fe06169a031a51db484a3b64550123c8616d98",
+      "sha256": "61c261db850b34899e40651ae47cb7c2a29a75e86081f8a946e940b79abf2019"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/070_首批八支MP4實際影格與時間軸_SouljaBoy社群梗.md",
+      "bytes": 10795,
+      "gitBlobSha1": "ba3bbe4137b1345d8d610af717b07d8865fbb193",
+      "sha256": "3e756189760e43e811ead8c6d52d7e900cf751cd1594ced7d9605005d1d21b75"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/071_社群戰術爭論_版本歷史梗_來源與小說採納邊界.md",
+      "bytes": 7034,
+      "gitBlobSha1": "e281cfb4bedc536eeeb0710cd4bc282ca94d8838",
+      "sha256": "51eb35e8a027984e3d7b1095c6bbeacbc0e48438ab82cd8287604f6e7c998e95"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/072A_交給Gemini_62後五冊1_最後Gemini貼文與GPT版本判斷原件.md",
+      "bytes": 80315,
+      "gitBlobSha1": "c8950350028290841f466204d0ccae65f3d6fccb",
+      "sha256": "10576c7f9ce434a95b15dfc6068a7e37b89673d2f7530ac724766a231a872e57"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/072B_交給Gemini_62後五冊2_醫療武器Shock指令與模式完整原文.md",
+      "bytes": 75907,
+      "gitBlobSha1": "52e3df1d2f58c78a4302e1a2b08e8e9537c54ab3",
+      "sha256": "8ada78db286ca26fb633c57c600c4c89ea9c3e27deeaaed392b33352fdaed773"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/072C_交給Gemini_62後五冊3_Sevithia戰績徒手身法及最新招式.md",
+      "bytes": 25730,
+      "gitBlobSha1": "eccc1f0811278b328981d431a4fe0b0a122e93ea",
+      "sha256": "93e4fb0775bce61fcac6ad856ecfe1e467bf521043aded694a4752cf45c162ec"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/072D_交給Gemini_62後五冊4_八部MP4實際影格與社群研究全文.md",
+      "bytes": 21612,
+      "gitBlobSha1": "e0a2ba8065582befdf7c8e43aea9757558148c1a",
+      "sha256": "8acdc6b244ace4f61429ce2ca9ce297ca5970ab2fede1509db2cca328e3541b4"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/072E_交給Gemini_62後五冊5_GPT回覆決策版本稽核與總導航.md",
+      "bytes": 19449,
+      "gitBlobSha1": "b5df2c80b8da905aae8077c0432c0dbfae75b101",
+      "sha256": "268fa36faf4a775575058ff6a92e93b5de8ec863b90c2c929e7d107a3f7eef17"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/073_高階人物完整人格_Sevithia真實喜怒_戰爭責任_不必燃燒也能取暖.md",
+      "bytes": 15799,
+      "gitBlobSha1": "b0262280eb53c33fdfbe7fb16cc0c611ab906b8e",
+      "sha256": "a08aef70b36a81d9c71fa05d8992ad457cd72a159d3881609660388550dddea5"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/074_GPT完整新版_Sevithia以自身為薪的火_能承受亦值得被愛.md",
+      "bytes": 13668,
+      "gitBlobSha1": "e2ca76cdc193bd6aa2951311f66322ad72054b49",
+      "sha256": "8441daf3e3af717c0c6d54ba1e9b44ea610da3d335dc1891b857225d69914221"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/075_Lancer與Trench重盔_頭擊非即殺_ATRemover穿盔例外.md",
+      "bytes": 8094,
+      "gitBlobSha1": "923433a581e3c3eeecd3a8bf59e4ca7d6a3fb168",
+      "sha256": "d863ba26c11e1c5d4dcbd5098370a04b23349a4b6d485ad9bf2f236a026787eb"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/076_LargeCommunityFun地圖_帝國大型城市與設施_軍隊人口反推_給Gemini補充.md",
+      "bytes": 19012,
+      "gitBlobSha1": "a72e171de1e86062dfba7156c1036ea2c15a3825",
+      "sha256": "b74d0ec84d471109f15619150547e70707fb83db52886b667936c7962d73a5df"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/077_Gemini_軍制人口流動_六准將與第四章_本輪原文封存.md",
+      "bytes": 14890,
+      "gitBlobSha1": "2148cd07dbf58d0756533a70ff8d6cbe04876fea",
+      "sha256": "a01241ac8c3ef2551d4bb89b4f337b5643033fffdffaba900fb2e7cc2759b9b0"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/078_Gemini軍制三表_數學與設定連續性獨立審核.md",
+      "bytes": 14489,
+      "gitBlobSha1": "03612dfc467ebf3c488f6630dde5d6fac3c19b49",
+      "sha256": "138564f434a4f267fedfeb679ac7d9986d9388bced2e2499896beb7bcc76a934"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/079_人物善惡差異_多面不等於人人灰色_尤里烏斯候選.md",
+      "bytes": 4539,
+      "gitBlobSha1": "44c7dd44788ff6a6de2b61792ee6700f3961d74e",
+      "sha256": "09a9e568a5db61ddf644e48c8459ad6a388b3ae617f10bc377098fcf19091a18"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/080_Gemini補完醫療將官與以自身為薪的火_原文封存.md",
+      "bytes": 12827,
+      "gitBlobSha1": "5a36e841bb55c5ea83078f9caeba56e95cd35b96",
+      "sha256": "3eaabd7e6d631ad3c4308f575f252edb3823e89035e7bc37e6490c26b2627f44"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/081_Gemini醫療將官與火焰人物誌_精簡審核.md",
+      "bytes": 4364,
+      "gitBlobSha1": "db4b67dedbd3c7a102fa8ac849db3fa049fe9c36",
+      "sha256": "41dd41515909063d228e543aa81d7c2dd39e1da2247d909ce28ab1a2d31a4757"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/082_原創台詞_人物來源與接手防錯核對簿.md",
+      "bytes": 9542,
+      "gitBlobSha1": "db1db0560d20ae93079a4f6f883dc0e6406a2909",
+      "sha256": "1a30f12e5ed4a5d2ca82d2b1bfbe9fabadbf7c47ec78e9cfa2e47885901bfa77"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/083_跨檔錯誤_矛盾_過時資料稽核_2026-11-02.md",
+      "bytes": 14904,
+      "gitBlobSha1": "0812377057f98c9bc72185a8542396cafa6f55ce",
+      "sha256": "76441f350314d3c58920b3617d512c132c86570ba0d7b8b42ca4472219692f97"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/084_Jaeger伏擊與斷後_戰友情殘酷與玩鬧_研究.md",
+      "bytes": 9304,
+      "gitBlobSha1": "b654204c8e41b2310413dfe621a341dc55fa2929",
+      "sha256": "9aa6a966c9d21d488f107cc3b4de4a8f035d60adcfd7f4692905cc474e9131af"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/085_GraveDigger玩家文化擴展_外掛迷因_停火醫護_職業階級_藝術角色扮演.md",
+      "bytes": 18370,
+      "gitBlobSha1": "67a6a53214fc46915b4b7b93bb0695c73ea8bb60",
+      "sha256": "072c42036fdbe776a2fa6b6ed34e7e424b31401658b589762db1beb5359acab9"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/086R1_深淵裡的白晝與最鋒利的刀_末段揭名局部修訂閱讀版.md",
+      "bytes": 9228,
+      "gitBlobSha1": "9ca962f61ff64a8eaffb0f7f4a8a60380d90838c",
+      "sha256": "1431b032cf35c8817ef353140933f1147e95310b5daa18c4d4c04c40a1109e7c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/086R2_致深淵盡頭的白晝_戰後少女視角末段揭名局部修訂閱讀版.md",
+      "bytes": 8372,
+      "gitBlobSha1": "d13dc625cb2a5ce3a91d003c2d47166ab17735dd",
+      "sha256": "505cc187aa22e04cf1d396a2fdc1b6a43fbb6f3812a86e92de8d2e2b275a0019"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/086_Gemini深淵白晝與刀鋒_雙尾韻及戰後少女視角_來源原稿.md",
+      "bytes": 24240,
+      "gitBlobSha1": "eb33cbc6c1418a96dad4fae2c660ca93c5eca173",
+      "sha256": "c17901b0854df396e1f28d54953fdb29981876f1ccc7a6770f65e4ea2765cf11"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/087_Gemini白晝與刀鋒人物誌_雙尾韻_戰後視角_設定及統計稽核.md",
+      "bytes": 11700,
+      "gitBlobSha1": "8ed7b49c056db2d08e678a44decc032e3186690e",
+      "sha256": "99a4cb010fa7ee9623c300b03fd793c348680f0ff81d91dda7ed6b0b1fa70a14"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/088_槍枝鄙視鏈_Slopgun_Crutch_武器與Perk奇葩配裝_玩家文化研究.md",
+      "bytes": 16086,
+      "gitBlobSha1": "fc0f835dd09b5c12bce50da37d22d09f46884f3a",
+      "sha256": "aebb1c905df7f7cbeb65cbf2a46c3384828a7b5351be303e74b2ed80510f6cc5"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/089_Appa_Equine_雙管驚嚇_KS_Judgement高手敬佩_榮譽與文化_續查.md",
+      "bytes": 15832,
+      "gitBlobSha1": "75d1c7672a2026126100d2393eb9dadd3f8d98d2",
+      "sha256": "46ae4d45efb85981bb1ff8f931746d289ba1c9042e4a93a244d1ed2245abe937"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/090_Shock社群態度_出動時機_BaseKitGeist爭議_高低階與自信文化.md",
+      "bytes": 16911,
+      "gitBlobSha1": "fb55e63aea290df596545263f5f9252d89249548",
+      "sha256": "cdbca80107f9fb0017d9ffd586e2653581a6675219e5c6e65ebb87ef5c1ff681"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/091_玩家最喜歡與最討厭的兵種_性格_行為_社群印象研究.md",
+      "bytes": 17302,
+      "gitBlobSha1": "4a5a3d709b3a07355eb66f6f9e0b1986cb828262",
+      "sha256": "6d03518f8d45bdea5484e92305fe30eeea47777ddb440c2065e75ca3eaa2fb61"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/091_玩家最喜歡與最討厭的隊友_兵種人格印象_自我認識與改觀文化.md",
+      "bytes": 16265,
+      "gitBlobSha1": "b0a7a61e50504351f790533a495c9c3c1578f74c",
+      "sha256": "fe377896149b3666d72236d0ee96f155e1adbfab732d98b3cb1435a6cfa68607"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/092_七系Shock複合Perk與Synergy_Geist版本爭議_逐項來源核對.md",
+      "bytes": 11195,
+      "gitBlobSha1": "626a89f6349ebba49a06b53d04072e59480a19ba",
+      "sha256": "fc519a013f68b2a60735e7e7724184343e6649edb5ba87b9d43f266caa87c34a"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/093_社群亂逛_鋼琴口琴_兵種主題曲_擬人Perk_異裝Shock_自製測驗與非官方點子.md",
+      "bytes": 13890,
+      "gitBlobSha1": "91534572a8e1ee7cb48d07dced37b22486fb6dbe",
+      "sha256": "df5cb097e68f6e25bfcde1e022ead0e55fe7b62d538a14062523f49b521c5531"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/094_Geist狩獵台詞_玩家恐懼_陷阱聲響_動畫文化與Sevithia反伏擊.md",
+      "bytes": 25360,
+      "gitBlobSha1": "82d40057e85ad34917d66c45d4ee66e203a91cb1",
+      "sha256": "e13f4fdcaae24c1421b3235d2bddfd70a7a831e1e3bc15038da72cfc556f81a6"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/095_Geist_Hunt單輪廓資訊盲區_誤判集群伏擊_小說轉譯研究.md",
+      "bytes": 7999,
+      "gitBlobSha1": "3b5f221a1c136fe609551588651909e33e925f5a",
+      "sha256": "91026ae613c1b1a2b5f811e8cd16908d1b21e7222f64f106d82c9b6c20a88e7b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/096_Gemini斷線雙版本第四章與三小劇場_來源保存及設定稽核_2026-11-02.md",
+      "bytes": 14700,
+      "gitBlobSha1": "89a907a5d15b94378ac5a62626c0975a49cc8b63",
+      "sha256": "40772fcc99b3a89deff5b551a29591bbbb80ba9c0614c8433f581de61d6326ea"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/097_私服公服活動_停火擂台_特殊模式_RP政治_社群儀式_2026-11-02.md",
+      "bytes": 18738,
+      "gitBlobSha1": "cd2c75cfdfb1fab529cba269b14b9ee2df809feb",
+      "sha256": "c5c0d78c24325b16f5ffab4e63568637fc1e7ee196d288b4f02c38929c4462d3"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/097_私服活動_自訂模式_社群自發文化與小說轉譯_2026-11-02.md",
+      "bytes": 16246,
+      "gitBlobSha1": "092f2487b506000e5ef43bc68b44268108b9d424",
+      "sha256": "5e87ad87acc9cf7d4e0ddfd5ca07a255ea64033588d9d31bfeea2f330ca2cf33"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/098_嚴肅戰爭文化_最後防線_投降醫護_戰場見證_戰爭創傷與二創_2026-11-02.md",
+      "bytes": 15583,
+      "gitBlobSha1": "eb37c3d3496d7e2388da9e819cfe8ab7af6e6a0c",
+      "sha256": "fecb947c9ecf463803d93ae8f5684e865356a3954106c27fd21dc069a2d74868"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/099_女Storm與Officer被俘動畫追查_同人動畫電影_戰爭休閒人文_2026-11-02.md",
+      "bytes": 11743,
+      "gitBlobSha1": "dae346211cde11e2fddb47d2e6ac0e0a40e156be",
+      "sha256": "4400bd020d99c864a0c27689d012fa7a929334e69c881c5f5fe0aa56f4d6dd74"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/100_同人動畫逐片劇情核查_實際觀看限制_角色事件證據_休閒戰爭人文_2026-11-02.md",
+      "bytes": 9390,
+      "gitBlobSha1": "ac66157626a59e11c0ea896c412a2adcadb41820",
+      "sha256": "c6f3858124fd66f1a6fd5593150d8b57fd5181b5604bb71e37336978154d53f2"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/101_帝國五席領主元帥_正式名冊_能力輪廓與待補事項.md",
+      "bytes": 13726,
+      "gitBlobSha1": "6fc5a8d5a8e2c3c89d48de1b930405880cc6e32d",
+      "sha256": "d2236c4deeec47ccf7ab1d622a414b4c7fd4efb0bbb9ab982690c255ebbe02c9"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/102_軍中休閒娛樂_GraveDigger社群_一戰史料_地下軍營生活設計_2026-11-02.md",
+      "bytes": 20800,
+      "gitBlobSha1": "108cafa9dc1a560a79bc23247113d870e7993cba",
+      "sha256": "7f40e70655ccd3b47943b4fb3976620bcd3b4ee8645df47e69292783a2f10994"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/103_Gemini五席Lancer_九階指揮鏈_大型地圖_軍中舞會惡作劇_提案核對_2026-11-02.md",
+      "bytes": 14740,
+      "gitBlobSha1": "47e96a05943aa1009ecb0ac128a796364b596d5a",
+      "sha256": "161def089e5d1794df398ff5b73d8228a66b2f64fc921d368c6e6c3208d70f45"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/104_Gemini三段新場景_高階朋友圈_毒劑辨識_宿舍與舞會_敘事評估_2026-11-02.md",
+      "bytes": 13045,
+      "gitBlobSha1": "4f027004c4cc1ea9760bcbac87ab37e39ddf8aad",
+      "sha256": "48be67a18804c669515ac5a57019c0a0ba8189b7420f39834ad561241deb9095"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/105_Gemini高階朋友圈與三幕實景_作者貼文原文封存_2026-11-02.txt",
+      "bytes": 25374,
+      "gitBlobSha1": "0a757342b6d7d58894d6660b23dcafd68f3b5e31",
+      "sha256": "13e95ea72dbf093123870023314edf2cf112b5a9ffd52faf89a79fb3be626800"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/106_Gemini牆後的水聲_王國聯邦獨立POV_第一卷重構_作者轉貼原文_2026-11-03.txt",
+      "bytes": 13562,
+      "gitBlobSha1": "a88624f5391b1e50e3a0e30041e6044778e86b54",
+      "sha256": "4d30b5e50713cdc187720a537ddbe46ab09b97f42f0b50882951c1a54250f612"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/107_Gemini聯邦POV_牆後水聲_第一卷節奏_完整核對與續發想交接_2026-11-03.md",
+      "bytes": 10309,
+      "gitBlobSha1": "02e0f264b77b94da6fc10d4b5ca8444f871a4787",
+      "sha256": "e3473b6ea331f579571385352a128b046269dc5dcb696eeabcb376ffcf443382"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/108_Gemini聯邦上將規避鐵則_三卷長篇規劃_作者貼文完整原文_2026-11-03.txt",
+      "bytes": 24078,
+      "gitBlobSha1": "bf241f255f476d4ce63358f3587c45ed6d30f6f2",
+      "sha256": "d291bb2c123831ea89f145bb87e4272da0579a0fc4127ab6483e1c75c808c97d"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/109_Gemini跨軍階警告_聯邦獨立人生_三層長篇架構_單獨評估_2026-11-03.md",
+      "bytes": 5821,
+      "gitBlobSha1": "2ad73fa643891c66192b37d926aefbece8591058",
+      "sha256": "1f07e6c41ed8fc457fcff7ed8eae8c35a192d76f87f01c98d41a772092b82770"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/110_Gemini聯邦具名新兵跨階警告_將領獨立人生_三層架構_作者貼文完整原文_2026-11-03.txt",
+      "bytes": 15771,
+      "gitBlobSha1": "52f54dd741b757382681c8339a69946b679b8a51",
+      "sha256": "3eaff392cff83136c336125f4d86426eb6594aab0e306209fe1364b317d5a0ca"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/111_Gemini聯邦戰前與遭遇反應_第五章軍械庫的解剖師_作者轉貼全文原文_2026-11-03.txt",
+      "bytes": 36963,
+      "gitBlobSha1": "eedda4b6683e364f02f8e5d9ac85d53664596bb7",
+      "sha256": "d682563ab6e0fd4f228347681efb4268f25674fad2fe90e4048f5bd2750ef592"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/112_Gemini第五章候選_聯邦遭遇試演_敘事與歷史連續性評估_2026-11-03.md",
+      "bytes": 6815,
+      "gitBlobSha1": "18b5a74ea4222c3290202a5481afb779a51ebaab",
+      "sha256": "2b5f71df53dab85e2bd2e0212f7488e620fae15c6147bc9332b34d516cfa8a4d"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/113_Gemini鐵棺開鎖獨立預演_第五章5B修訂後半段_作者貼文完整原文_2026-11-03.txt",
+      "bytes": 27701,
+      "gitBlobSha1": "e56643d8d98cbb7299857a8c97757081a0c5b6d1",
+      "sha256": "aba08ef40185c7ccb95387f967c990d353182e2a20a515bb22575112c46ccc68"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/114_Gemini鐵棺開鎖預演與第五章5B_敘事軍制歷史連續性評估_2026-11-03.md",
+      "bytes": 9715,
+      "gitBlobSha1": "d38cb1a98512ee7bee7349678eb6158882e582b4",
+      "sha256": "e51365236ab90a6667b3220e2c7c5f56b3860c57444529c6dab91f297682e7e8"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/115_任何實寫故事都須獨立存檔_正文預演小劇場與版本歸檔規則_2026-11-03.md",
+      "bytes": 5132,
+      "gitBlobSha1": "1b92b24cb08d2529ca38969820fca1d590f75275",
+      "sha256": "389907c51fba9c5e52a273848ce97578332b213f78b99bbec7da98173861b4bc"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/116_獨立正文歸檔紀錄_2026-11-03.md",
+      "bytes": 5677,
+      "gitBlobSha1": "035bff2261eb826320ec68994f421605cd774a9e",
+      "sha256": "8a6190b2f2f31f54c989c46429ded85fc4e84ddf60c37631f0d73d24866f3c5a"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/117_跨專案Gemini鐵棺血色生還預演與第五章5C_說明與全文重組封存_2026-11-03.md",
+      "bytes": 43396,
+      "gitBlobSha1": "fa3e77f37c6c04a55a32f72cd6b9c082f8cfbb36",
+      "sha256": "9bdd0a8f81cc6604387fc4e94c8bc1285156ecd8404cd742161a6915894465f3"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/118_跨專案Gemini鐵棺稀有化與四十分鐘駕馭_原話說明加全文重組封存_2026-11-03.md",
+      "bytes": 12312,
+      "gitBlobSha1": "93451630fe69a8b6d7763c58d5fa0dd65eac71a3",
+      "sha256": "0809dcd0125c1d1ddcaa7545a2d242e707dc9e5ceb9d8c6a687ed7cf6343b3b8"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/119_Sevithia單長刀雙長刀長短刀雙短刀_跨專案討論保存與未定偏好_2026-11-03.md",
+      "bytes": 5955,
+      "gitBlobSha1": "918cadc1a1d25d87e46d7f1706cec18d21cb375e",
+      "sha256": "f94a19e999c014491103e85e035d2048ee9a53c434814824a5a97c16cef00cd3"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/120_第二章Rook採礦爆彈與Jaeger陷阱_工兵炸藥包勘誤_2026-11-03.md",
+      "bytes": 4095,
+      "gitBlobSha1": "0d413edbd79ceb5d124af930eb5e51358d7df377",
+      "sha256": "312794201049b42036aab673260752051eee42d29d5f22cbf5157ddde7e93649"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/121_本對話Gemini原文01_鐵棺血色生還與第五章5C_全文原文資料版_2026-11-03.txt",
+      "bytes": 42904,
+      "gitBlobSha1": "5c0875919ed0d03aaec76937f010b39b3c206159",
+      "sha256": "fc0b567fd3693a21f3d110b70c7442f53a7daa5d33224871fdb2e95e7e8e101b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/122_本對話Gemini原文02_鐵棺罕見兵器四十分鐘精確駕馭_全文原文資料版_2026-11-03.txt",
+      "bytes": 12012,
+      "gitBlobSha1": "bdbf3b62d8e29056ed41672ba5a9debac282d0b1",
+      "sha256": "fe4450bcfc34414c2a91e9282338d6d18e7615e44b5ff9a10c60629a6d5bacbf"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/123_本對話GPT回覆全文01_鐵棺兩次審讀_2026-11-03.md",
+      "bytes": 14802,
+      "gitBlobSha1": "bac015bdf44ad8561e1aef58aa694472c659046d",
+      "sha256": "83aa29610a6a215d6e41a17df8139c7656f62ddfa166a8b60bbf735e1f2f0f3e"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/124_本對話GPT回覆全文02_建檔刀術下載與兵種修正_2026-11-03.md",
+      "bytes": 9764,
+      "gitBlobSha1": "fc5ecbb6636e222f8c02f4e125c0cb9530cd2d17",
+      "sha256": "d587459655ed841cea5bffe1afcf5396d2f5e3b6fcda91bb5a9ffa5a9ac5b459"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/125_本對話GPT回覆全文03_馬庫斯知情誤判糾正與自動建檔判別_2026-11-03.md",
+      "bytes": 8388,
+      "gitBlobSha1": "375ecacb04ae89761e0ddc30db21e67e35686921",
+      "sha256": "de0535f897edecfc53c2be45520a2e91cf16e83df7ff03224eeea46fad7986be"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/126_跨專案對話_作者逐則原句與Gemini_GPT回應順序索引_2026-11-03.md",
+      "bytes": 8161,
+      "gitBlobSha1": "86699170ca8b22f32a6b25e4a898412756b01c0e",
+      "sha256": "ae5ac969182782ca0409de26c96078fdcca93574848835e8966c1393ff1f072b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/127_本次跨專案Gemini_GPT全部對話_版本總整理與原件對照_2026-11-03.md",
+      "bytes": 9969,
+      "gitBlobSha1": "2435cf75f3e1bd7f54a7eb27939d7a76feee713e",
+      "sha256": "7f8c99ebfeced51ac3e3eac6fb5af3ae3a27639d4245ee6a8711ad818919e3cc"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/128_本輪新增Gemini三號要塞鐵棺_休養_重返防線_附件完整原文_2026-11-04.md",
+      "bytes": 34132,
+      "gitBlobSha1": "ea77d7cfe6bd23db497e00f5d1e4aa6d63bb75c0",
+      "sha256": "549339a8b35fefa32e67fa9c94106750e51f43821b2f2b9c92989ad5097a0863"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/129_三號要塞戰役背景與兵力_本輪Gemini原文抽錄_2026-11-04.md",
+      "bytes": 2859,
+      "gitBlobSha1": "8895db116917368b4b0660dd0bfd393baafec9ea",
+      "sha256": "d544912b6da5567a24ae1c3cc31f781830794963105667d9af95365022ec87dd"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/130_本輪Gemini鐵棺休養重返防線_來源與版本索引_2026-11-04.md",
+      "bytes": 4002,
+      "gitBlobSha1": "1960456e02570587e5fb95703b1b7113c6f980a1",
+      "sha256": "c1afca38669fcbe6014ed5f2b2a624368f447f84358084ed6223ee3033a0a8e4"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/131_作者貼入四篇小劇場_原始可讀文字_2026-11-04.txt",
+      "bytes": 35216,
+      "gitBlobSha1": "1ef3ab765fe78cf2f4bd669d423fe06627fa58c8",
+      "sha256": "9ddabd04bea524a0ac98527968dd6c03517ec2204cf952337206c4d2fb12e438"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/132_四篇來稿與兩篇GPT新篇_版本稽核及延伸方向_2026-11-04.md",
+      "bytes": 6737,
+      "gitBlobSha1": "130c4c07d13da9f284b267f4e4e6d0e3b254a37f",
+      "sha256": "c75f1551f3a429ad5f278c53ec3dc8b490e2374a5b5aff0cd58c433b6d4e714d"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/133_Gemini八篇獨立互動文_全文逐段精讀_聲線動作情感與文風_2026-11-04.md",
+      "bytes": 27502,
+      "gitBlobSha1": "6c69e75ad0c077f893b596a6089bb52a4aa811ef",
+      "sha256": "1ca0316470d0330cbf16672ad91f101a6d85666e1c3496131d05d10c9539906b"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/134_瑟薇媞雅女皇五席與朋友圈_長期關係錨點及彈性往事_2026-11-04.md",
+      "bytes": 15321,
+      "gitBlobSha1": "38a317faef815dd35bb9a4de70c5a47342aef4d8",
+      "sha256": "99ed7402eb27ed2b9f05677c97eb37cda8c635bab64b6ff599d32f25e228f591"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/135_暮色露台與普通女孩_情緒文筆與人物一致性審讀_2026-11-04.md",
+      "bytes": 10264,
+      "gitBlobSha1": "3f37d566af1802ce00bbfb245cbebd10e25cc266",
+      "sha256": "576fce83147654038b9c97e702d36b0b681b6c1545960e292de3603df05dd8cd"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/136_本輪兩篇小劇場創作說明與原始全文_2026-11-04.md",
+      "bytes": 47873,
+      "gitBlobSha1": "c2a1953c4127866ab32bd44918fe80f8d601f83e",
+      "sha256": "ea30e5fed77b7bae5ec962e05351b4652d818ea8d7aaa9d8969651045a301a62"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/137_待定正文47份排版校對與來源完整性紀錄_2026-11-04.md",
+      "bytes": 3614,
+      "gitBlobSha1": "8da5e6f9533f2fe0e9fbab8c3d27cbe8d7635482",
+      "sha256": "7dcc55f2b8cddc8364ba7190a49a4e1522b74d8df8cb33a5364a6a759be8bfce"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/138_枕邊的桂花香_阿爾德里克失態的喜劇節奏與關係界線_2026-11-05.md",
+      "bytes": 6267,
+      "gitBlobSha1": "09cec1b3f6941286ab8d2b6ae67f6446053f52b2",
+      "sha256": "e11eb933e1aba6f53cc6525074ed0651f89579cc14a88717ad5c385619ac119f"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/139_感情線保留彈性_同輩年齡與雙版本校準_2026-11-05.md",
+      "bytes": 3266,
+      "gitBlobSha1": "92927e3bdfc3f51afc5cd04ceee8fd6f32d5e5cb",
+      "sha256": "93865a13b91b27453c0f3db4b8b051dbf66752247a0417967c1066ab8319649c"
+    },
+    {
+      "path": "小說/Grave-Digger（地下戰爭同人世界線）/140_她在風中堅守餘光卻飄往遠方_人物意象與短場景_2026-11-09.md",
+      "bytes": 4180,
+      "gitBlobSha1": "5f86079905db64a747e89a8f8402cd7539b0bd92",
+      "sha256": "6401d5e6679267517bc3aa950d5db0e794ea67f7a7244e85e7032fb81cd41f88"
+    }
+  ],
+  "crossBatchClosed": [],
+  "partialSources": []
+}
