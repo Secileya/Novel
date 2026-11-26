@@ -1,0 +1,1450 @@
+{
+  "round": "R66E",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "observedMain": "9483a2cc43a054c63b3e7a61740f954feee679ef",
+  "locatorBlob": "e83238f8b4061900b6d5a3fcc024061fb2f9a0d3",
+  "method": "Raw current Drive files individually downloaded by fixed R60B IDs, SHA256 and byte size compared with R60B and fixed MANIFEST. Reconstruct sources completed in this batch by source offsets, using locally retained previously verified pieces only when needed; no re-download or double counting. No ZIP revalidation.",
+  "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+  "range": [
+    1,
+    27
+  ],
+  "count": 27,
+  "bytes": 5170802,
+  "reconstructedCount": 184,
+  "reconstructedBytes": 5108616,
+  "rows": [
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0001.txt",
+      "id": "1K9CDgdt6l6fAO91ns-Fb2S8HFnZPi4Km",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 195759,
+      "mime": "text/plain",
+      "expectedBytes": 195759,
+      "expectedSha256": "8a4bb3dad6340653229b3b900cda70783746761e372509cd3105f499f8f396bb",
+      "actualBytes": 195759,
+      "actualSha256": "8a4bb3dad6340653229b3b900cda70783746761e372509cd3105f499f8f396bb",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0002.txt",
+      "id": "1y_23fOMyff5neS78ysLm9A629JZ-I6Xa",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 226038,
+      "mime": "text/plain",
+      "expectedBytes": 226038,
+      "expectedSha256": "f1241e37c1b3f9115843890c7e1256ef9231210118b91ad6ab86fb61448b284b",
+      "actualBytes": 226038,
+      "actualSha256": "f1241e37c1b3f9115843890c7e1256ef9231210118b91ad6ab86fb61448b284b",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0003.txt",
+      "id": "19IyMaeHd800-18tF8NIrMRlY2lz9Z0st",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 218422,
+      "mime": "text/plain",
+      "expectedBytes": 218422,
+      "expectedSha256": "3b9c9af5837cfb30418c9730d1443e752ace69bf972dd955e3e377eeba8ef54a",
+      "actualBytes": 218422,
+      "actualSha256": "3b9c9af5837cfb30418c9730d1443e752ace69bf972dd955e3e377eeba8ef54a",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0004.txt",
+      "id": "1O2vBmTGCaKP6LUxVqcvRjZn4do0MxvM5",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 170326,
+      "mime": "text/plain",
+      "expectedBytes": 170326,
+      "expectedSha256": "fdfb0c24fd02ae2de8ab3fc486dd94205c42baddc0fb7a0ae7c88e0b0c6af7d5",
+      "actualBytes": 170326,
+      "actualSha256": "fdfb0c24fd02ae2de8ab3fc486dd94205c42baddc0fb7a0ae7c88e0b0c6af7d5",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0005.txt",
+      "id": "116miuV4SUpoaFdpsPklqK9daOWu4bPxl",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 211744,
+      "mime": "text/plain",
+      "expectedBytes": 211744,
+      "expectedSha256": "14c099adaea04c1d5a72c7950854fe00a001fb1c91e8c8ae672475f23dfea17b",
+      "actualBytes": 211744,
+      "actualSha256": "14c099adaea04c1d5a72c7950854fe00a001fb1c91e8c8ae672475f23dfea17b",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0006.txt",
+      "id": "1Z2Y6OVGBtXGvPbHlg2qwt0aY4kznNHgV",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 235850,
+      "mime": "text/plain",
+      "expectedBytes": 235850,
+      "expectedSha256": "bda812022b57c35b880c20f6f7fa9abaf20bf89e3826a692dd9735cf36186762",
+      "actualBytes": 235850,
+      "actualSha256": "bda812022b57c35b880c20f6f7fa9abaf20bf89e3826a692dd9735cf36186762",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0007.txt",
+      "id": "1j1vdcrVVgW3TmZhetPm1AcbALkWnsLsr",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 218640,
+      "mime": "text/plain",
+      "expectedBytes": 218640,
+      "expectedSha256": "3b4a2bcde5b5451e55ab5b91b3de43ae4bda1f1faa636b53f46b6e27f3683c31",
+      "actualBytes": 218640,
+      "actualSha256": "3b4a2bcde5b5451e55ab5b91b3de43ae4bda1f1faa636b53f46b6e27f3683c31",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0008.txt",
+      "id": "18iJJ-ddbi6JQqTUqWXvURGgT8eL3pt3c",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 228242,
+      "mime": "text/plain",
+      "expectedBytes": 228242,
+      "expectedSha256": "fb1459b339bc665218ba620fc1d5feb4cc9b79fadea6058326fa899fc2253615",
+      "actualBytes": 228242,
+      "actualSha256": "fb1459b339bc665218ba620fc1d5feb4cc9b79fadea6058326fa899fc2253615",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0009.txt",
+      "id": "1aBjjoHNgxAnh2VAemf5twXf10gnHI_zZ",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 227260,
+      "mime": "text/plain",
+      "expectedBytes": 227260,
+      "expectedSha256": "651c272af95b2a3f357de0a0038bebdf4d20c5d9e20261ef8cb2c1bc824318d8",
+      "actualBytes": 227260,
+      "actualSha256": "651c272af95b2a3f357de0a0038bebdf4d20c5d9e20261ef8cb2c1bc824318d8",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0010.txt",
+      "id": "1fdEIAlRiYYWgk9H_yt_JNZcT0YHXadBw",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 237042,
+      "mime": "text/plain",
+      "expectedBytes": 237042,
+      "expectedSha256": "006271b1a5185ac8a45d652a241c71451047236e634f3133bf93e396058087c8",
+      "actualBytes": 237042,
+      "actualSha256": "006271b1a5185ac8a45d652a241c71451047236e634f3133bf93e396058087c8",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0011.txt",
+      "id": "1jt8S77k27Paqg0UBhimm8P7Kj_geY1Z2",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 233995,
+      "mime": "text/plain",
+      "expectedBytes": 233995,
+      "expectedSha256": "134011668c5562cbcf2b4a94efab20a4a16af14e8ec26194e8290a339a37683c",
+      "actualBytes": 233995,
+      "actualSha256": "134011668c5562cbcf2b4a94efab20a4a16af14e8ec26194e8290a339a37683c",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0012.txt",
+      "id": "1up6644qCFnTRnK2mQ2bIj4H2VBBeIvLj",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 233901,
+      "mime": "text/plain",
+      "expectedBytes": 233901,
+      "expectedSha256": "a9a14e6913c1157fd3dffc7f8c8a0110f078d44a526a8b38de1dee85b08c446f",
+      "actualBytes": 233901,
+      "actualSha256": "a9a14e6913c1157fd3dffc7f8c8a0110f078d44a526a8b38de1dee85b08c446f",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0013.txt",
+      "id": "1UWGCO8Rw5wSGJpeFd0KJmb9RCHC3TqAD",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 235121,
+      "mime": "text/plain",
+      "expectedBytes": 235121,
+      "expectedSha256": "b7b0208826ad656dd0d12d7fa1efd4fbeee23dbe7ed6877ab20fca2c5509a54f",
+      "actualBytes": 235121,
+      "actualSha256": "b7b0208826ad656dd0d12d7fa1efd4fbeee23dbe7ed6877ab20fca2c5509a54f",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0014.txt",
+      "id": "166FfVTPRQCWTmGbFWab-F-XiD5eULAOe",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 86127,
+      "mime": "text/plain",
+      "expectedBytes": 86127,
+      "expectedSha256": "b5304bd6b0a0c3ccf0c105cf697ec235e09e7f2892da3538bcabe985c05f7da5",
+      "actualBytes": 86127,
+      "actualSha256": "b5304bd6b0a0c3ccf0c105cf697ec235e09e7f2892da3538bcabe985c05f7da5",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0015.txt",
+      "id": "1iNsjiYytAluo905kCdaVa-EFdoYeOFfk",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 176838,
+      "mime": "text/plain",
+      "expectedBytes": 176838,
+      "expectedSha256": "77cc11685a8323ee1a2499c7ae3b8ddc70935938509c06c1455dc2f1077fce0e",
+      "actualBytes": 176838,
+      "actualSha256": "77cc11685a8323ee1a2499c7ae3b8ddc70935938509c06c1455dc2f1077fce0e",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0016.txt",
+      "id": "1KAWLy71ED6RXa70CYbabNnevd_Oo5OHl",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 179774,
+      "mime": "text/plain",
+      "expectedBytes": 179774,
+      "expectedSha256": "52c5f880dc1f41cdbb322385e6c966f777b78dbdaa173368776302de4aed0829",
+      "actualBytes": 179774,
+      "actualSha256": "52c5f880dc1f41cdbb322385e6c966f777b78dbdaa173368776302de4aed0829",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0017.txt",
+      "id": "1XLgv4F_Fwx1l10mhlk5Ak_PjMWEfnE0-",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 182623,
+      "mime": "text/plain",
+      "expectedBytes": 182623,
+      "expectedSha256": "ff11172783c66fd72ba72f4c4e14dc4b42dd73f3afa957808751f3927de6b7f4",
+      "actualBytes": 182623,
+      "actualSha256": "ff11172783c66fd72ba72f4c4e14dc4b42dd73f3afa957808751f3927de6b7f4",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0018.txt",
+      "id": "1XImNBPTQyLO8paOdl4olg38NvckPYSYr",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 181565,
+      "mime": "text/plain",
+      "expectedBytes": 181565,
+      "expectedSha256": "a996da26b3662ae9002a1ac1414a719c61aeec7258576b848a4b578f81d108ca",
+      "actualBytes": 181565,
+      "actualSha256": "a996da26b3662ae9002a1ac1414a719c61aeec7258576b848a4b578f81d108ca",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0019.txt",
+      "id": "1yicsPFJxYcc2DoZycon1LgOAn_Zyn8Wd",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 182445,
+      "mime": "text/plain",
+      "expectedBytes": 182445,
+      "expectedSha256": "bdaacbf4ddedf0972e9af84d6d2b28007f50c433e99b6b64cb41eebbf5906d80",
+      "actualBytes": 182445,
+      "actualSha256": "bdaacbf4ddedf0972e9af84d6d2b28007f50c433e99b6b64cb41eebbf5906d80",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0020.txt",
+      "id": "19tAtWxui1Aq-nRswzg1LIrwCVFfdmc3X",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 183363,
+      "mime": "text/plain",
+      "expectedBytes": 183363,
+      "expectedSha256": "edec38ae2cc1218756dcd4e78f9aefc6a85b22461cb85888ae2e17516a013dd7",
+      "actualBytes": 183363,
+      "actualSha256": "edec38ae2cc1218756dcd4e78f9aefc6a85b22461cb85888ae2e17516a013dd7",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0021.txt",
+      "id": "1-KbMhjzpdnQfTLy1B2BLSBMArSo2lK7X",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 182656,
+      "mime": "text/plain",
+      "expectedBytes": 182656,
+      "expectedSha256": "f58ee9333eaab1e6664e1358a48c018f7d44dc311377deddb1a36540de94cc56",
+      "actualBytes": 182656,
+      "actualSha256": "f58ee9333eaab1e6664e1358a48c018f7d44dc311377deddb1a36540de94cc56",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0022.txt",
+      "id": "1wMyvpYIaad_hseQQjkhN9RmMaAtcydaE",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 183587,
+      "mime": "text/plain",
+      "expectedBytes": 183587,
+      "expectedSha256": "c28858ab9c8e1d656dc39f7092afadb8f2033cd59864fc179e411ee1a054f90b",
+      "actualBytes": 183587,
+      "actualSha256": "c28858ab9c8e1d656dc39f7092afadb8f2033cd59864fc179e411ee1a054f90b",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0023.txt",
+      "id": "11H84Upe44Rhru5fCnqsHmw4uHih1X2mz",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 179962,
+      "mime": "text/plain",
+      "expectedBytes": 179962,
+      "expectedSha256": "f18914b40360df7a7f473018dc945008f3a41276d5540b74d017518fd946b1ca",
+      "actualBytes": 179962,
+      "actualSha256": "f18914b40360df7a7f473018dc945008f3a41276d5540b74d017518fd946b1ca",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0024.txt",
+      "id": "1gi_tdOuCZBbvxMcIHANzmocfB2IeGntw",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 236900,
+      "mime": "text/plain",
+      "expectedBytes": 236900,
+      "expectedSha256": "e21c8394ae23355be29f54c5d5d9a2b1b93b5645860448b4c9a73736a4f379bc",
+      "actualBytes": 236900,
+      "actualSha256": "e21c8394ae23355be29f54c5d5d9a2b1b93b5645860448b4c9a73736a4f379bc",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0025.txt",
+      "id": "1dJg38WLCTTkzvQ6gW5stisDE8puNAwHa",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 22750,
+      "mime": "text/plain",
+      "expectedBytes": 22750,
+      "expectedSha256": "02e57bff810859ef2f688ba6f72a063321a142902b49489cf9e2172c5fd6178d",
+      "actualBytes": 22750,
+      "actualSha256": "02e57bff810859ef2f688ba6f72a063321a142902b49489cf9e2172c5fd6178d",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0026.txt",
+      "id": "1hzcCSL6xsnReMRepOWbVkLY1iQuvmWWF",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 237294,
+      "mime": "text/plain",
+      "expectedBytes": 237294,
+      "expectedSha256": "c83d646f0d9937a5cc522c590d1b711ca64a512e7b7f302dce4351272616b430",
+      "actualBytes": 237294,
+      "actualSha256": "c83d646f0d9937a5cc522c590d1b711ca64a512e7b7f302dce4351272616b430",
+      "status": "PASS"
+    },
+    {
+      "path": "巨構世界（法月懷造物）/06_敘事規劃與工作流/VOL_0027.txt",
+      "id": "1iH1YeV7DsB3u4SFSlpkSCdAHLOGSlZqn",
+      "folderId": "1Sma2Khl8ulRIfguZw1Q0O9ZQNTaxDK7N",
+      "bytes": 82578,
+      "mime": "text/plain",
+      "expectedBytes": 82578,
+      "expectedSha256": "8a5466cf6bca724970eec0226c296e7e98f1d0825b1a78c3008271454c12d135",
+      "actualBytes": 82578,
+      "actualSha256": "8a5466cf6bca724970eec0226c296e7e98f1d0825b1a78c3008271454c12d135",
+      "status": "PASS"
+    }
+  ],
+  "reconstructed": [
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/031_討論續錄_事件骨架_長期伏筆與作者層收束規劃.md",
+      "bytes": 17177,
+      "gitBlobSha1": "f657defe58fd65a7a0a9fdd1932107b2ad7f8b34",
+      "sha256": "a27e546277bbddd96d1b3c6f94e01cffd3f73b99f703fa7e06c401d9f1a765a5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/032_討論續錄_正式長篇寫作流程_設定核對與章節稽查.md",
+      "bytes": 14139,
+      "gitBlobSha1": "e778d55dc012a16d2c4c03f41635aa433ec9267c",
+      "sha256": "d63fd45a30a3c0ca2ebe48e25e6c3c99f8d3b58e9b82a0af41369da1d9192c7b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/065_開篇比較_三方案敘事吸引力與上行路優先試寫.md",
+      "bytes": 10247,
+      "gitBlobSha1": "733e1b83bcd9fbc8a665f69c9a5d27d62dc86cf5",
+      "sha256": "1586ad7196e7af5f1fe399a687a17527bd384a471eeda9ad1b8874da107157c9"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/069_長篇主幹候選_遷巒遠征_人物競逐_第一大高潮到登頂.md",
+      "bytes": 21824,
+      "gitBlobSha1": "d3b56b2e001ede09900ab9b4823a0e5b2f424a15",
+      "sha256": "abf8e807d589bc32a30337d400cffb4dfc4a432e53a972fc67f9cabf08caed34"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/077_創作研究_劇情魅力節奏_異常大舞台對照_人物與發現四線.md",
+      "bytes": 13316,
+      "gitBlobSha1": "7a3ae06de26eda51c4fef3cad6114fa7713a4072",
+      "sha256": "3b9585f945d54abcd1b52873a813635d79801169112c5c1bd31c034644317bce"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/081_原文補錄_助手首篇長評析_異常大舞台與巨構世界創作.md",
+      "bytes": 13375,
+      "gitBlobSha1": "94857cedb07e169cb1fc8747fe90178685042a79",
+      "sha256": "ca3e5c04a3fc6b7b9c2b7e26011e8634ce7ba54b356dc40792f6cd906e630616"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/082_原文補錄_助手次篇長評析_劇情引擎與九問實測.md",
+      "bytes": 14288,
+      "gitBlobSha1": "c1952d40405d04c510e056cfde9e8f6935e91068",
+      "sha256": "a33f60a451e7cd2238ff35b6ef19069f7fbe31efaebdd96c8d44ee703927af63"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/084_完整回應存證_方九莉雅能力互識_諾亞艾莉維亞初遇與劇情.md",
+      "bytes": 24757,
+      "gitBlobSha1": "36dfa471d0c11f8db7b579b57ca9f3bd5d4e1c31",
+      "sha256": "a3bb6fe9aeb7ea833db49d53e4e616a383373cd68afcf52908e649bf6016a470"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/085_完整回應存證_諾亞復歸_艾莉維亞反應_瑟莉絲媞初遇伏筆.md",
+      "bytes": 24595,
+      "gitBlobSha1": "9359d7e77b817863d9e81ae869d6b110ad934da5",
+      "sha256": "5c1fb9dfb04fdd79f51e547e684326711c272557ae2d2d31f284820e31da7368"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/086_完整回應存證_異常大舞台第一二章_諾亞艾莉維亞開篇節奏研究.md",
+      "bytes": 15694,
+      "gitBlobSha1": "5c4a141c986df63a1373308ebefd90312cde5533",
+      "sha256": "020654ec8a1e5010b7814973f3456e8f69e401c8c713c9cb0c803b5d118c6036"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/089_第一章前置稽核_01至88全庫覆蓋_現行設定風險與准寫邊界.md",
+      "bytes": 13057,
+      "gitBlobSha1": "e78ee3503bfd3e24441c8e27b7e1c448bb064c38",
+      "sha256": "cc1bf91bec8958df05d1dd97c12eb257236ff9a840f4df950ed12e783cdf4638"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/090_開篇候選P0工作卡_被拆走的上行路_真初遇與第二章因果.md",
+      "bytes": 9708,
+      "gitBlobSha1": "c6cf85d13a0566dc31c359dc8419333e22c4d77b",
+      "sha256": "dfa07c2f9d1a07f8e76443fbb15160e2f4a27ee2a9a20f692e0a98f5502ed747"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/108_第一章PREWRITE_P0候選_拆路真初遇_因果稽核與准寫門檻.md",
+      "bytes": 64076,
+      "gitBlobSha1": "8e9bd4e341947111f1894d7124efcb844c644cb3",
+      "sha256": "c435be33f2ccfc20e101823d9ea4f59b311e836a1d677322cabf1e60868a5194"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/111_雙開篇連續試演對照QA_拆路探索與歸來者因果_未定案.md",
+      "bytes": 12507,
+      "gitBlobSha1": "badd48ef892f9221d9b5048e9b90c2c9bc97b532",
+      "sha256": "d41766a5136bbbec096d19c8f3ccb25de24f605a14400767dc0ceb9e93a102fe"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/112_長篇敘事節點系統_B案初讀回饋_旅程武器復歸與雙主角路線.md",
+      "bytes": 36670,
+      "gitBlobSha1": "ae2cd50b4e8085bdf69b81a817477d85d48c62b1",
+      "sha256": "c46abbc0089cc57c396e55f972e35b64d414b4f331e592b8f11edbac31dcabab"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/113_B案開篇後續P1候選_方井城至雨檐埠路線_舊圖真相責任與收束.md",
+      "bytes": 43207,
+      "gitBlobSha1": "6479bb95a610f1496cde6d81dc88b6008c539778",
+      "sha256": "ffd802e7838785f2f3a49b90971abfdb91d9ffaa8d9dcd1e61607b9e77817368"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/133_整本小說的記憶網絡_篇章級目標名場面與可重剪輯畫面庫.md",
+      "bytes": 28341,
+      "gitBlobSha1": "a859cc73aeaeef21ebfaa9e70f6f34cd1e0c7db8",
+      "sha256": "25eeadeb0a5aca863ebc6493e662f5b432ca7f5d482b7f3312359ae1c3be6b1d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/134_實作_長篇篇章方向_首篇三案_歸來者的另一條路與完整高潮.md",
+      "bytes": 39417,
+      "gitBlobSha1": "9e277db8149c95714859a3a7648f3dd524180027",
+      "sha256": "2ae1b4ccc977f772d034abdf0cbcebdbc4b92deb87395e0d70fa1335e5932c8c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/151_靜謐迴廊第150份權威稽核_長篇推進與首篇ABC交接.md",
+      "bytes": 16495,
+      "gitBlobSha1": "a4d1f50fb3f2d689e505ab463bb1f578db5ea9cd",
+      "sha256": "10a45dc000b28ec23f7fe6af10dae7e91aee3b34d3bc52aa7b39fbe4bc67a69d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/159_Gemini下一階段八十題與創作優先級_研究任務清單.md",
+      "bytes": 9555,
+      "gitBlobSha1": "49f86420ef581388fa9c5128e00a5ccd5089404f",
+      "sha256": "912ec5c526ba2b6b77a3e9b5eee8d7af7f26432b3f1f5c3d9aa24ef9caaa906f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/169_Gemini十題深度設計_故事價值與硬因果獨立評審_修正建議.md",
+      "bytes": 12765,
+      "gitBlobSha1": "44c5305bc8f7e64e46053a55f03f7277eb818656",
+      "sha256": "14c2379b8fde4aed611b70a1ce229b9852e4c8a2727cc591a3ffd66b2fbffb16"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/182_作者決策前工作底圖_萬公里宏觀與雙主角升級_非線性道具鎖.md",
+      "bytes": 12665,
+      "gitBlobSha1": "82cdd97f91474e271ea09e50f516e9c6be02875f",
+      "sha256": "08e517e2ab88565b75aa96e4a773264489342e79d0873a9a65d28ec9179e8286"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/183_人物誤判有限理性與前六章修稿規則_作者後出確認.md",
+      "bytes": 7740,
+      "gitBlobSha1": "ffa23f7ec2c22fbf829c6ab74ed0f6b9515272fd",
+      "sha256": "b0cfce581d23dcefb1c476d55ffca79d2dea22f8b44788230aaf588970f159a5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/189_白瓷面具人作者層因果骨架與防白鳥式無限延伸_續寫門檻.md",
+      "bytes": 16841,
+      "gitBlobSha1": "da270022e6028ad798973bceb6834954aaef78ab",
+      "sha256": "4ce414fd82b52c417596a3c6d3ca53a0cd7d1707820b831d02719a5a964a84a2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/190_跨遊戲研究_NPC自然情報觸發_多入口線索與活世界系統_非正史.md",
+      "bytes": 13414,
+      "gitBlobSha1": "53a162bd2c4753f8d66956e3d73732769f1761ea",
+      "sha256": "b4f762dfd1f650800f0953c352b87c7afa6bae30607f00d25fa4192c5bdf84bc"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/191_跨遊戲世界生命力深度研究_建造經濟文化宗教戰鬥喜劇環境與偶遇_非正史.md",
+      "bytes": 22484,
+      "gitBlobSha1": "1fdfb9af521cbf70f70d94910b239c7014190924",
+      "sha256": "a9253f12271ae7c9876541c55b7fca9c55ebe743e12bf6a6a9b55a9e75a7414f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/192_跨媒介敘事研究_BLAME奇諾魔女之旅_巨構異質風格情緒交疊_非正史.md",
+      "bytes": 48086,
+      "gitBlobSha1": "8ab1b789463bd08c242605123845d17d97d110ca",
+      "sha256": "4e3c95d87284b22e9ddf1df7acf1723e3e95616a8d67c744388dc12fcd462a48"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/193_Roblox與跨媒介續研_DeepwokenArchivedMountfall_世界生活戰鬥與意外遭遇_非正史.md",
+      "bytes": 17401,
+      "gitBlobSha1": "4b4cfc5fa1345015ea2f24d371011018db352647",
+      "sha256": "a63fd322c97bd00e029a07b62544fe661268c746dbae2139d8a32ff62081c206"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261108_Gemini80題_題目與回覆逐題來源核對.md",
+      "bytes": 15571,
+      "gitBlobSha1": "96606c60638a64616cc1782af91a9874c0e44720",
+      "sha256": "f8c115d599cafd4352e0a2906ceb71b21fd751f28ac3342607b78f123ee55401"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261108_Gemini八十題_逐題來源覆蓋與原文保存等級核對.md",
+      "bytes": 21772,
+      "gitBlobSha1": "aa17f765c570db2d098611bc0429508430270b9e",
+      "sha256": "b8cee8e029ce69c6f6e94cb91e492329707a0b6c7c72b1c9d3cbe72571c6a37c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261108_全庫舊設定回收_血腥生態遷徙Gemini創意與深層異常訊號.md",
+      "bytes": 22208,
+      "gitBlobSha1": "6ad10c6d2971e75db4aaac776044ab816fe7abc6",
+      "sha256": "f9fa674ecfaf25971ffc236e9e1b2e0ff1d58be58ac315a68f3bcc7e3ec15207"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261108_前十二章後旅行路線_W01至跨層_首次死亡復歸_世界地圖完整度盤點_非正史.md",
+      "bytes": 16746,
+      "gitBlobSha1": "3de0af8600eb6c923d23de3aeecbd31f43671725",
+      "sha256": "e20bc64501e1db7d2a977b909cc4b02031099a1663275fa93aa218ee219d33ca"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261108_十二區Gemini細節回收_跨層帝國政經生態網與ProjectMoon都市借鑑_下一步非正史.md",
+      "bytes": 21826,
+      "gitBlobSha1": "7bbf1e028dc9cb7159b9c2a4bc9bf0fe7b21057f",
+      "sha256": "7c131c2250443ad19017a620dd218e615c3ef897d0c439d31ff3aeeb56003a7b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261111_作者確認_世界層不必全區走遍_巨構空曠結構密布與人口分離_正式規則.md",
+      "bytes": 9386,
+      "gitBlobSha1": "717510ca6a16ea3a9c9cdbfdfdfa63e5f1f7a390",
+      "sha256": "1c0e056ae744790fd99d6b4f7986983a394eb5c2b2129a561c83c0cf15d5c327"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261111_第十三章寫前與候選正文_三指令完整整合_跨域九區冰脈線蟲_非正史.md",
+      "bytes": 23677,
+      "gitBlobSha1": "9428d541fdabd0d2c80c01f7c2ac6ffbcc1b2e7c",
+      "sha256": "e30150ea31c348a1f162bb48a95a2ce9a758bd8ef1307f45098f8d755c8d5537"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_Gemini世界缺口擴充第一輪_四域候選與Q129至Q138_來源待核_非正史.md",
+      "bytes": 11869,
+      "gitBlobSha1": "f62e5a0f82e5be454308f8c849b39d51a93e34b1",
+      "sha256": "f0890e9c990e5fd8fae91a972cfe558d352a89a7e6f47ca8752bb2e317530699"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_世界缺口探索_首輪跨域創意問答池與舊版復用_非正史.md",
+      "bytes": 8638,
+      "gitBlobSha1": "3ee3ac32a19aefb156399ebc5f3895ca1b906230",
+      "sha256": "3888e38317db6a04ece0ffb902415e4ba346d1b3510d4eead5740202fa7de3e2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_世界缺口探索與跨域創意再生_第一輪成果_琉璃林海鹽原帆船紡鋼風琴與止步崖_非正史.md",
+      "bytes": 11240,
+      "gitBlobSha1": "ae82cf63b8266d6154b783073225b893f5efeaeb",
+      "sha256": "4f65e81e5497c15d8c1cc3b2d19e26a79391c33b7bb04498905c6429fe2baed0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_世界缺口探索與跨域創意再生_第二輪成果_雲海城邦鯨歌者時間典當逆流天瀑與獨立故事種子_非正史.md",
+      "bytes": 4633,
+      "gitBlobSha1": "5f501ea53fa67d794cda3a91dc999413c38e381d",
+      "sha256": "ff260d9864c7eab31609ada468abdb6592b5bd1ec0e24a2cbd0041050eac46a8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_全域世界設計128題_宏觀宇宙文明生態人物故事與歷史候選再生_V1_非正史.md",
+      "bytes": 36831,
+      "gitBlobSha1": "b92e81cc51649316f66c66b6e16f1d328bda41a4",
+      "sha256": "9806b8a53315b9ad3cf7dc23a491d2123910ceda095bfecbad77e78f26d809ab"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_全域世界設計128題_機讀索引_非正史.json",
+      "bytes": 87500,
+      "gitBlobSha1": "6c2bbc6b71e2b6e6e6b0f842a938126aaa79a733",
+      "sha256": "a64e6822d43b9a454bba5e39d465c2b50161237339698d55b5db73fccf5a45bd"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261112_全域開放創意候選召回_不綁地區與自然落位_跨AI寫作前置規則.md",
+      "bytes": 8406,
+      "gitBlobSha1": "37451f86c3cb68b5e4456c839aedd3efa7c27a15",
+      "sha256": "a5b162b3381bfe64a4056190cd5d91e6559a09f4f98bb051a08a1a9d4a4634fe"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_世界缺口探索與跨域創意再生_第七輪文明實力科技發展跨文明接觸與百年歷史_非正史.md",
+      "bytes": 9201,
+      "gitBlobSha1": "a72e05a7a35ae232cf4741a874d38ed58569d714",
+      "sha256": "8f45b33e488de9872615752c65360c1ce1d59d119c3c3a77cd4658ab4ff4f1fa"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_世界缺口探索與跨域創意再生_第三輪深度建構_九印典當聯邦浮空鯨歌者老莫爾與自由創意_非正史.md",
+      "bytes": 6862,
+      "gitBlobSha1": "aa162e30d7b026dfae0d40d2fd59cc35a49e3bc0",
+      "sha256": "cda7042fc874d697b42fe0e15449c71e34963da3848006ffb8e74c2bec6abe1d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_世界缺口探索與跨域創意再生_第五輪巨構地理網絡厚隔界跨地貌旅行與歷史時間線_非正史.md",
+      "bytes": 8054,
+      "gitBlobSha1": "b1984d9eecd6bd8823a6021f50db4d8ca457ec13",
+      "sha256": "fdae275e001c1c1818c94a9c7cc0eead9fad9bcef5d654d21bd6ebabd79fb2ae"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_世界缺口探索與跨域創意再生_第六輪未知巨構世界級遠征探索文明與陌生地貌_非正史.md",
+      "bytes": 8469,
+      "gitBlobSha1": "e1ed9ba9e96655add94988548b72dddc50c34a28",
+      "sha256": "d185c7578106bf69442bc3b17fa0cd8df9eb4aa25fe809bc558ff095249e3090"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_世界缺口探索與跨域創意再生_第四輪巨構級地貌與文明多樣性_鹽海死氣帶懸海斷環與新文明_非正史.md",
+      "bytes": 8571,
+      "gitBlobSha1": "b5b2d09f64d21d61d078f891849fd01c30b47d40",
+      "sha256": "d2931d93f0f8e751d33c39efebded49bce4ffa542805b7402d8bd56487bf2162"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_公開高危地域三方案與無聲鐵林探索介面整理_非正史.md",
+      "bytes": 7663,
+      "gitBlobSha1": "043d27af2fa47f6332a0074df2aff20687c7c71e",
+      "sha256": "430d90f7f8b5029e9206ccbf8f0f4405e5cf7afa68428974e195df60f5caddf7"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_獨立專項_世界層三大迴廊與整體世界框架自由重構_非正史.md",
+      "bytes": 7378,
+      "gitBlobSha1": "a5ee61105f7787148a053f38b188733c3c2f98dd",
+      "sha256": "9488b44e1ebccbdab4a557cb8a6290b826881fa02f471a1888feb49a85d96565"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_登頂方向學_地方宇宙觀_跨層可達性與語言互通_研究候選.md",
+      "bytes": 12510,
+      "gitBlobSha1": "c028b4e7b4aa3bb3298814994a35f7d86d450b02",
+      "sha256": "752f84bd3fddeedc3664b6d27452144485b9d02ab1dacc044c8f933ca9b3e0af"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_第八輪Gemini研究提示詞_雙主角主視角推進_世界接線三迴廊能力與章節引擎_非正史.md",
+      "bytes": 8690,
+      "gitBlobSha1": "72318663c003c16f29257c440167746bea254e79",
+      "sha256": "eed8f0c20d96b2339059e2493ad35b71c83d71114e8b41ad9e2ecd39dcb3c819"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_第八輪雙主角旅程故事引擎_文明接觸三迴廊白髮與神情_非正史研究整理.md",
+      "bytes": 9510,
+      "gitBlobSha1": "1683be1d644bcc3f0434b3cd987e83885fb90bce",
+      "sha256": "48c3fe43e415a35142ca47be96b591851a0fd54c0407109484615c0f6b351844"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261113_第十輪Gemini提示詞_公開高危地域真接線_兩次偶遇後的自然聯想與高危實戰_非正史.md",
+      "bytes": 7356,
+      "gitBlobSha1": "a52a4a6b656fbf2a012a1bf530f0ef2b66b4690e",
+      "sha256": "0ab49426f8956aae2ca1aa805aac55973b3a2e13a45dffe23aaf6dca87a1a968"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261114_第十一輪長篇旅行接口三路徑與長期回收整理_非正史.md",
+      "bytes": 8257,
+      "gitBlobSha1": "39ee1073677a78819b18fac04a44d28ae59ca6b5",
+      "sha256": "047a28b0c384dbe3a617b027d1a7f3165b967a17e82236e976ae7d5afc22d109"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261114_第十二輪六種冒險模式強者光譜與三規模事件整理_非正史.md",
+      "bytes": 8432,
+      "gitBlobSha1": "734d4a6083fe7176dd12f77125cb150b22d8442e",
+      "sha256": "4d8b34efa45ffca3a9407081dd2c541c572a3637504d9d46a3d7076c3618f26b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261115_異常大舞台1030章_七色事件全鏈_情感細節_群像與結局回收_原文核對研究_非正史.md",
+      "bytes": 36679,
+      "gitBlobSha1": "1fca76873d6862d3ece81c60a468aacbd04221eb",
+      "sha256": "eb67ac2f16f52ac2f3d077ada7226400f1786bfe07af91869f8395a1a7e8995e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261115_第13至19章跨章冷讀_節奏失速與取消舊第19章的重排建議_非正史.md",
+      "bytes": 9947,
+      "gitBlobSha1": "251d63c1f2c5a69e29809fab2d0e4fb26d573b4d",
+      "sha256": "ca4aa27f8e79e8d095e4716f6cd76daaca3a59006ba59ce9692f3b3f70fe8274"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261115_第19章節奏重剪_原版對照與保留清單_非正史.md",
+      "bytes": 6745,
+      "gitBlobSha1": "a2da25710a3065f3423f13bd8753b831a4a225b0",
+      "sha256": "4f7b9aa5a05ba6f8213d439eab8a23cf038e041379d5666b9c6cd95daf4951a8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261117_異常大舞台權柄原文對撞_原槍色彩本質三案_第05至06章句序勘誤_非正史.md",
+      "bytes": 8462,
+      "gitBlobSha1": "00ff1d96d524ebf2c5cfdb164858ce34b0b4e14a",
+      "sha256": "f452fdf8f6082a5971f5c1d89f477dbeb00a37d2489a47cf0e34294f65433453"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261117_第01至07章_閱讀入口_原槍稀有名詞解釋與異常大舞台原文對照_非正史.md",
+      "bytes": 15381,
+      "gitBlobSha1": "cb56353a2374670382bf0214c3c258be34fe478e",
+      "sha256": "32f5a3f3f9cd28982dcdc41ecf8eefb10a8603651347c43d39ca45f9430e2a3d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261122_Gemini第01至07章重構回修_諾亞性格與原槍後出決策_完整交接提示_非正史.md",
+      "bytes": 12827,
+      "gitBlobSha1": "6c07e5690bb7dfba051a7cb0422ac780a2381b0c",
+      "sha256": "59633e41942373aed248227293171c705604f9ecca73774ddd5089a2e7c5ec1c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261123_新第01章R1後首篇接線與長篇魅力_候選故事設計V01_非正史.md",
+      "bytes": 14809,
+      "gitBlobSha1": "dd3bcab62e149dee5115ea3967447046df068180",
+      "sha256": "98f98e703984919e3a96e25f3fd59546ef73d919ab670534553dbaa5b86fd5c5"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/20261123_異常大舞台全1030章70分卷_原著深讀工作法與校驗_非正史.md",
+      "bytes": 7711,
+      "gitBlobSha1": "1f8962304726ddabef47614ecd18a1b05ffc9540",
+      "sha256": "ed3350a915d7f3330cf58aee90202a6ecfcd394130362e96f986e9548b3bdd74"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/README.md",
+      "bytes": 17215,
+      "gitBlobSha1": "f725c097eb4fff0ee12fbdd99c286e70eb88f92a",
+      "sha256": "c835cc1c5a2c3331bc7a55fee817914d7891d8907b5626d9209118152d63ad4e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_來源與版本清冊.json",
+      "bytes": 34591,
+      "gitBlobSha1": "bcc1023bff88877496981ea9ec03d546db4b0bc6",
+      "sha256": "ddef08b4b037e72917c88a5599d46ff4a53835d9168cb97b6a615b08a5451297"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_章節分卷結構/1030章完整對照索引.csv",
+      "bytes": 68065,
+      "gitBlobSha1": "8842b58b804ace77ee134bae9734ae2872d18c2c",
+      "sha256": "9f3b069e455e651488eead074c5c9314d9e262bd58321c7e3466b140b8eed743"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_章節分卷結構/70分卷完整結構.csv",
+      "bytes": 12770,
+      "gitBlobSha1": "500caa6880a8aeb07f02f6cbfe84ab54f925b61d",
+      "sha256": "bad1afdc6502a8160482cc588a60788247f18add8b1d7e0129c3abcd40fea0f9"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_章節分卷結構/70卷分割完整性原件.json",
+      "bytes": 39736,
+      "gitBlobSha1": "ed2f0cd75743ecf84cc56a2f43ac3dff273dc0a4",
+      "sha256": "dfbade78b5536a6be0957b3892f5b4a86f85259c68b2b8dcd020bc12f4184945"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/00_章節分卷結構/依SHA256無損拆分70卷.py",
+      "bytes": 4689,
+      "gitBlobSha1": "595c8b5754f80bdd735cdf6b8bbb62e910d3bd1c",
+      "sha256": "c27662ce1bdaab90da30174ed9a28a16fb0d62c779c223c9f8a7f84cf8935a3b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_001_CH0001-0013_深度研究台帳.md",
+      "bytes": 14793,
+      "gitBlobSha1": "d18a8fe411d7d7eae49e09ac741ec956342d07cc",
+      "sha256": "391512d1dd2b9b5ecae1ef12d875b800de5616a667298e373e3553cf46b8758e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_002_CH0014-0027_深度研究台帳.md",
+      "bytes": 25589,
+      "gitBlobSha1": "0a12fce088c13f64d2182eaa3bde759fe63f2409",
+      "sha256": "d3809f3e0880c37fb763c485bd769e565363f2e3ada8e5f3a4de6b4770cc86d2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_003_CH0028-0040_深度研究台帳.md",
+      "bytes": 28441,
+      "gitBlobSha1": "2798339589d5be3167a936b13e1560be9369dee0",
+      "sha256": "81e6f53da1e9357329f5e341c593541bba50541ecc28fdcb60019cf2a75ff68c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_004_CH0041-0053_深度研究台帳.md",
+      "bytes": 27005,
+      "gitBlobSha1": "a00038a4e140a3bf39b67300a7795e08e38704f3",
+      "sha256": "a6ea140e35a63794353033319718b56a6f80ac2da5ddae0e1181d0754f39c0fe"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_005_CH0054-0066_深度研究台帳.md",
+      "bytes": 23536,
+      "gitBlobSha1": "c8fb92d83e2020e293c29120ac1964c575687d6c",
+      "sha256": "be4a416b978b35aed20184e92b38fa117e23e22e21a180fffbcc92a78c82d55e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_006_CH0067-0080_深度研究台帳.md",
+      "bytes": 20095,
+      "gitBlobSha1": "adb3e98132001ba1d1c7c86ecbf929b7d183e941",
+      "sha256": "2b70c03aae371710cb9e0adffec1df16e11c0271e6ae9aff2712b040d9d6ee94"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_007_CH0081-0094_深度研究台帳.md",
+      "bytes": 18549,
+      "gitBlobSha1": "1655a566d326057ca27e2cf2a62a235d318a622d",
+      "sha256": "6fa368c0b4d53324420be5fab34a13b64ce47c1eacfbe329abdb16a0b0912c2e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_008_CH0095-0108_深度研究台帳.md",
+      "bytes": 22373,
+      "gitBlobSha1": "1ef3bc738488c53df951c78b29c4c4b479d70dac",
+      "sha256": "4d98e9b4cc381614055615d13c3a1f026959370222bee9af53ee83bcf9641cca"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_009_CH0109-0123_深度研究台帳.md",
+      "bytes": 16813,
+      "gitBlobSha1": "d221b7fc913678357baaba6a0224e498650bf9cd",
+      "sha256": "2f0ca2a209ea674dabd0ae11ec27b57447dc7ae841e7afe0df26ce58df33c4a8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_010_CH0124-0138_深度研究台帳.md",
+      "bytes": 20045,
+      "gitBlobSha1": "24a9e65a60ea972eb3ad2b338fb6ca9d67e68fa7",
+      "sha256": "709dc4924194f35331c0688fcb8149b78790ca19aef4df75768e090213e13ca4"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_011_CH0139-0153_深度研究台帳.md",
+      "bytes": 16524,
+      "gitBlobSha1": "c8dadddf200c5f880dad18b7e1f669649dcfe183",
+      "sha256": "3d4863efed218146cac866b411b0cc3fae297d707cf50d26e26408cc6e47237b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_012_CH0154-0168_深度研究台帳.md",
+      "bytes": 15827,
+      "gitBlobSha1": "ab2c9c90d754a629e308ea52345c78c8c39bf8da",
+      "sha256": "209e285ba0f6a1210d9d0e1fb4ea42067d4ca4ee8d99d0f8c68905b62d50d8c6"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_013_CH0169-0182_深度研究台帳.md",
+      "bytes": 14886,
+      "gitBlobSha1": "ebb0458094f8ff9c89d2ebbcc6631b84d9100f75",
+      "sha256": "6742492cee8225c75db56059f80e1bdc4f0288909adeda6b3da391e35bf8711c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_014_CH0183-0197_深度研究台帳.md",
+      "bytes": 12553,
+      "gitBlobSha1": "1fe6d4fdc60154c3caa04f50706d4cf9823e39c1",
+      "sha256": "a44787da738cb83decf7c675fdc324d38c4e91333975cf9655b7219259e2b18d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_015_CH0198-0213_深度研究台帳.md",
+      "bytes": 16112,
+      "gitBlobSha1": "d56009b0e6509fa28cbb1ce6d5668591cd2afd8c",
+      "sha256": "53ee9e737fe68e4aeb366b0b37c634711177b22828205fc9f32f88520266f949"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_016_CH0214-0229_深度研究台帳.md",
+      "bytes": 14845,
+      "gitBlobSha1": "0f385c54ac0bade85bea72c5912e5f723fdfff7a",
+      "sha256": "5b587a1ab37c015f1e2a78ad443979d0d7fcd437a891d55a97575b06a71da498"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_017_CH0230-0244_深度研究台帳.md",
+      "bytes": 13649,
+      "gitBlobSha1": "4e21f4b6b764b3aef0beffbc89c8067a6f2acd5b",
+      "sha256": "24d0eb0d8c072b88e0580beec9cdeb0e22328cc53664374ea11c68ef6a3caaf6"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_018_CH0245-0259_深度研究台帳.md",
+      "bytes": 14962,
+      "gitBlobSha1": "f5ae7cfb8b16ae50de2d7b2407940d85c9781a06",
+      "sha256": "67d9370a53b657f21f7622251ae2281e5fdb93511836244ab4e0d47488e1015a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_019_CH0260-0275_深度研究台帳.md",
+      "bytes": 14584,
+      "gitBlobSha1": "1a03eca5e1263033141cdf3698efd65b8295c506",
+      "sha256": "c0a5b12ef3717be391ecb2fd84c8aa88302a86f7f9dfb87624f2b2a6dea16965"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_020_CH0276-0290_深度研究台帳.md",
+      "bytes": 15793,
+      "gitBlobSha1": "2048574f62829dccf9593422c7dd057aa31822d4",
+      "sha256": "c8c064413e80e1fc41c1b5e17006fa9ed457ad1f960796e15522e304bec74f93"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_021_CH0291-0306_深度研究台帳.md",
+      "bytes": 14432,
+      "gitBlobSha1": "ccf43f77a5e99446a3bac5863d0d6c309f06452e",
+      "sha256": "7942d911dcaebdd838521ae0e5d0778d4d333d7017487d451c276a3167e7ddb3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_022_CH0307-0320_深度研究台帳.md",
+      "bytes": 12508,
+      "gitBlobSha1": "75e144d1b5479baa29d4f1fb598186155d504671",
+      "sha256": "1f88bfd0f451d5d57e60baee5db723da27911b052c790deb28b616b47ef5a493"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_023_CH0321-0334_深度研究台帳.md",
+      "bytes": 11611,
+      "gitBlobSha1": "94adce230961ccd6adefa1f923d236cc39ff4ad7",
+      "sha256": "a9db24d0db88e7d100ff38793da1aeb0a263e340095bfcacec5a60a1f202142a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_024_CH0335-0349_深度研究台帳.md",
+      "bytes": 12693,
+      "gitBlobSha1": "b4a76d21aff1312bfe94805084cccbf558bb135b",
+      "sha256": "20d1edcb64cbec1cc44e1f0166ad4ebc3686296001a43eba34195e97303feca9"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_025_CH0350-0363_深度研究台帳.md",
+      "bytes": 13883,
+      "gitBlobSha1": "59ad68eee81452d04ea8b9953d5495ac08cc7309",
+      "sha256": "f0eb8ae11f4cc4e6dc5214a7fc7306a1bfe1d322605a102907e3434e44c1d68c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_026_CH0364-0377_深度研究台帳.md",
+      "bytes": 13019,
+      "gitBlobSha1": "ec774b3fcc2ebbd32e8ccbe8455b7eb811e1051a",
+      "sha256": "87a2d3e691ceabcf92cae051c71768fb1ffa2dda073241ab12e71cb40b19ea7c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_027_CH0378-0390_深度研究台帳.md",
+      "bytes": 12299,
+      "gitBlobSha1": "84171f2a05631fe16ce1f684efcaa503eee58b56",
+      "sha256": "9147d8bf26338ba15323b3f887f32138cf9b3800739e286337475c2778696b6a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_028_CH0391-0402_深度研究台帳.md",
+      "bytes": 13283,
+      "gitBlobSha1": "61e69960964f20ff8807af878b543aef0de2a799",
+      "sha256": "c2f8433d1812b7d3fb2cd98e23be69b1af4b968cf4c9bd206e95a296805cf740"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_029_CH0403-0417_深度研究台帳.md",
+      "bytes": 12418,
+      "gitBlobSha1": "80648dcfe75db93967ed2cce1c08dc6f3ee74dc8",
+      "sha256": "971f11bef0bf763eb164f8978dd5619484f25ab6772545f282ff0da9b968ef76"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_030_CH0418-0432_深度研究台帳.md",
+      "bytes": 13986,
+      "gitBlobSha1": "21ac1bae12bc34d3c1be9d1c3892f9269db24fa4",
+      "sha256": "78bc4ab221f0411cb4662a84a0cd8f691ba3bde727a2f9cd1309bea7df0f252b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_031_CH0433-0448_深度研究台帳.md",
+      "bytes": 13189,
+      "gitBlobSha1": "fe412ad638af69e60194a38b5c43ebecb7da3abd",
+      "sha256": "920c327221b3c57ce5c6e69451d902a2b8c0c3b2cb5763fba08e5117a3dba8fb"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_032_CH0449-0463_深度研究台帳.md",
+      "bytes": 13314,
+      "gitBlobSha1": "c1446d89eacb35f51697d3328822af3cd4db6c45",
+      "sha256": "a113a0771801e9dfeac9d331470dd123bcab89eb9450591aeac5355726b2cb01"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_033_CH0464-0478_深度研究台帳.md",
+      "bytes": 13369,
+      "gitBlobSha1": "4f6c7593255e039aef65ff6b1f64f2b3a344b8e3",
+      "sha256": "13fb1214bd6fb18082dd85d6a64c12a12d62b5296e40545f7e57ab54836abb3f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_034_CH0479-0493_深度研究台帳.md",
+      "bytes": 12294,
+      "gitBlobSha1": "038cad72656286ec2d7b120a985db8976c2acc6f",
+      "sha256": "794471e5b300a7107764d11b4262a88ebb4e292d27214ea63058ad1f71437e3f"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_035_CH0494-0509_深度研究台帳.md",
+      "bytes": 14103,
+      "gitBlobSha1": "ff6a3257405fcc976f98dba3b762f89bc2d2a748",
+      "sha256": "1ca69fefd244823d656da4153bec713cb46d58ceb5adc0b94b59a62c65a64f12"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_036_CH0510-0525_深度研究台帳.md",
+      "bytes": 13858,
+      "gitBlobSha1": "c3868401429acba2cee3f88b05a3945e1b5d5490",
+      "sha256": "45eb2f579997bc3b889e66174342734c72a4b05d02105421a9f69ccdd9d07261"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_037_CH0526-0542_深度研究台帳.md",
+      "bytes": 13585,
+      "gitBlobSha1": "6246451e5fcd529becac1d150536dc522901be07",
+      "sha256": "d3aba9b0af49b7bfb2d5dc26c664ef03ada27a49f79a6214451be5155732b065"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_038_CH0543-0556_深度研究台帳.md",
+      "bytes": 11966,
+      "gitBlobSha1": "c69519df24cb2fad634e806b3f32de0c563c1952",
+      "sha256": "1e11fbb72b9ba62bd32de13d3687283a1be4847090c10cde4a564aa38b44c442"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_039_CH0557-0570_深度研究台帳.md",
+      "bytes": 12625,
+      "gitBlobSha1": "3c0fd1150cb9bf3ea17fcd658edf8ab2bef19d93",
+      "sha256": "f14220062311520ad717aeb2bb4ae50b3ffade8713cbcfacc4628e21f8b0cd4b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_040_CH0571-0586_深度研究台帳.md",
+      "bytes": 14006,
+      "gitBlobSha1": "926ddfabf60d73e8892559a4a41cf21aace1d88e",
+      "sha256": "b1560ab399e260b33574134db6d3eec43c9e3151dd42a28dea057fc18504f12a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_041_CH0587-0601_深度研究台帳.md",
+      "bytes": 13158,
+      "gitBlobSha1": "93093d0930ff3ba40fbd6e6d3e16cfdc8218590f",
+      "sha256": "c6da24280271809911d6228ee2bb70ab6695c190405bfa791e32aef99d45eda0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_042_CH0602-0616_深度研究台帳.md",
+      "bytes": 14072,
+      "gitBlobSha1": "50894ebe0a74212fa6abc631469bb4aa2f5e8a5e",
+      "sha256": "c4b1b1f077099f749d57cb80798fe92f6809b72a9cc6d9bd68061c67d51fb4f0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_043_CH0617-0632_深度研究台帳.md",
+      "bytes": 13799,
+      "gitBlobSha1": "6ee243c928c28935b667b02f143ff6abaf1f2c89",
+      "sha256": "4389b100f62117378d7810240c78ac37230df8106cb82c673ca8609736bef5fc"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_044_CH0633-0646_深度研究台帳.md",
+      "bytes": 12029,
+      "gitBlobSha1": "906764afc73d7d2328e85f5b873e916fe6f347e9",
+      "sha256": "019792faadb942b8e610976ac47be0724e8fc64738dfbf33caab50bd5b0a900a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_045_CH0647-0661_深度研究台帳.md",
+      "bytes": 14510,
+      "gitBlobSha1": "354fe9a13cbcdf5409c560214aa85d1cc3d41ddc",
+      "sha256": "4cf4b85111909b06141c37b71be8b354201674c9e38e3b820cacdfe03ebc75d3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_046_CH0662-0676_深度研究台帳.md",
+      "bytes": 11861,
+      "gitBlobSha1": "faad1d04286f58004494f3f2985a430b86174b1a",
+      "sha256": "4689edcd4a3cc994c23a4b654b61f6c01c1e99d5bdba700e07556e75a124addb"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_047_CH0677-0693_深度研究台帳.md",
+      "bytes": 13956,
+      "gitBlobSha1": "804dcc0efb09a05d81516fcfb70a9010ac51d25f",
+      "sha256": "c8dc2e15bcbaec3ad6df6cf06299d7aa4aa90725de21c9aff1ea508295dd7068"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_048_CH0694-0710_深度研究台帳.md",
+      "bytes": 14360,
+      "gitBlobSha1": "fddbdab9103e51fa57c10f517650350ef617e281",
+      "sha256": "1f40d2f564fff3204839e001a60c931eae55e61cdc216243d74c53c838d3dd85"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_049_CH0711-0726_深度研究台帳.md",
+      "bytes": 12867,
+      "gitBlobSha1": "a8681ee3aafbbe1c62b543bb7162f111c5db0549",
+      "sha256": "f6cd6a9698c837a12234fa2d593d078488e64cfb9df57d1c3cca5d426cbb01a6"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_050_CH0727-0743_深度研究台帳.md",
+      "bytes": 14514,
+      "gitBlobSha1": "5a19df2fdc26aef29154fd363e692686d64679c1",
+      "sha256": "ffb2a9ed2e0135911214462c1e977dbbd0f8c4cef97f07d06e7435941794d7e0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_051_CH0744-0760_深度研究台帳.md",
+      "bytes": 13008,
+      "gitBlobSha1": "afa7506e9879deed1ad2a2337a50b970629f3588",
+      "sha256": "100b077a8a2684f09de47816f31510c6bb94b30c7c8aa4ce85291ed9256cafae"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_052_CH0761-0778_深度研究台帳.md",
+      "bytes": 14279,
+      "gitBlobSha1": "5b9b76ffb4b095c03e4050bf27e0168349900cc5",
+      "sha256": "e5acb711c61753b7500749df0e9c938571d589a81b15046e905255e9ab50318c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_053_CH0779-0794_深度研究台帳.md",
+      "bytes": 13351,
+      "gitBlobSha1": "1c969e53f1bc54605515c51d81360a6e34895057",
+      "sha256": "950d11546e28d325777bec778a4401457974d7301353b4ef099f162de826bae8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_054_CH0795-0811_深度研究台帳.md",
+      "bytes": 14969,
+      "gitBlobSha1": "61df2acba56a56d7b1fb527a0765f8fdd2d68ba8",
+      "sha256": "94cea7182147f46427fc23fedbab66f650db0f3d6dd9421eab8b001c131d0756"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_055_CH0812-0826_深度研究台帳.md",
+      "bytes": 13796,
+      "gitBlobSha1": "c11cff2ea7e309880f5e49f2409ee06a24d97172",
+      "sha256": "9e124b870520b9eb8096523c27f22ae4e97d67a5d545ff014d593dd7b1168bb4"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_056_CH0827-0842_深度研究台帳.md",
+      "bytes": 17798,
+      "gitBlobSha1": "68db0d28b7e5bda2e48484d5cb03ab7463191f92",
+      "sha256": "199fbcc570d5030c7b073c063acf444686ebf9ccc0dd8d85566f3bb9440e123d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_057_CH0843-0860_深度研究台帳.md",
+      "bytes": 19017,
+      "gitBlobSha1": "e5690f357fe70433a7d082e56d8b50762cfdf633",
+      "sha256": "7ac5604898ee1da906b827b4158cbf3b8a13afef918446e1daa5ea7d71d941fd"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_058_CH0861-0877_深度研究台帳.md",
+      "bytes": 17975,
+      "gitBlobSha1": "b16efb5544510bfe52470e4fd5b020813aa540c1",
+      "sha256": "459666137c59a82bcce9afa29fb7dce4c2e0bee2438f5a74a9c3269de03103ab"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_059_CH0878-0893_深度研究台帳.md",
+      "bytes": 18272,
+      "gitBlobSha1": "babf4fe6e9407def8b6bb37061cdf8479546d136",
+      "sha256": "6611db15a8129d3eb694debab046d8cf8f5ed328e2b79896dce0607c30c9b773"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_060_CH0894-0910_深度研究台帳.md",
+      "bytes": 18356,
+      "gitBlobSha1": "a29a93b9c9ad22be46fefe7b81b5685273a5534c",
+      "sha256": "a64cf1467092adcef6a07101f9a2fa8633eb0a5ee340a9c401f63b098441a430"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_061_CH0911-0926_深度研究台帳.md",
+      "bytes": 19016,
+      "gitBlobSha1": "51aecc4aabaa93231dd7dc30ddc3296e614cd4b1",
+      "sha256": "0c3fef13b8803d22d69d5dcfc6627efdaeb97668ad0ad263b55b462265492305"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_062_CH0927-0938_深度研究台帳.md",
+      "bytes": 15007,
+      "gitBlobSha1": "8248d94bbf0586c072651e755f33c42b169be7f5",
+      "sha256": "e8d0ee5f40412ef9f4dcb20a7cd2e66e93c5c4d0448907920645aa8fdfc6aa6b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_063_CH0939-0950_深度研究台帳.md",
+      "bytes": 15060,
+      "gitBlobSha1": "f7586aef7271556e5bb11f5e4aaf1aa7f2ab4a12",
+      "sha256": "7db35d04b85bf1853f6cc631c97b1084f822013d7c951b5154d75be6da432b2a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_064_CH0951-0963_深度研究台帳.md",
+      "bytes": 15591,
+      "gitBlobSha1": "eb12172a8747689eca9e711caef194cb56c4bbe1",
+      "sha256": "e4cf9f74f09c158e921dd673e00a579f0b76308d2d1cf0d121e417da5323812c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_065_CH0964-0976_深度研究台帳.md",
+      "bytes": 16611,
+      "gitBlobSha1": "d90d8488e661637c6302718a6c430844864a0874",
+      "sha256": "fe6fffef7f12f5dc5e59a056d9b49e4085ee1b39d179af2154d200e58c640c26"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_066_CH0977-0990_深度研究台帳.md",
+      "bytes": 19087,
+      "gitBlobSha1": "b218ec417e92601f8ce7a71ad6e73228190f09a6",
+      "sha256": "ee63204ba2378774c1dc464307448bab3e63671cbd70e4dcd99757f071be2d34"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_067_CH0991-1001_深度研究台帳.md",
+      "bytes": 18783,
+      "gitBlobSha1": "5bb174eef922f8083a90cfe5d9db40fdfcd30589",
+      "sha256": "d9d5c2be1813add1987e77de9d61fb800a736fa2cf9e0d30468d440d1d823ea3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_068_CH1002-1011_深度研究台帳.md",
+      "bytes": 18924,
+      "gitBlobSha1": "93c3de041c834dc9d08336fe99e26b0948d73756",
+      "sha256": "38943b6f816556201f6c379dc14fb3c7dcb5e82ca01aadb59a3e11f1b108184c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_069_CH1012-1021_深度研究台帳.md",
+      "bytes": 18623,
+      "gitBlobSha1": "3a99f44efd7f5bf5ecb68289a7456894d9e42c55",
+      "sha256": "5b452b98da21f391096a8555053cf99269141d67b9dae9f760e62c3a0c7708d8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/01_逐卷研究/VOL_070_CH1022-1030_深度研究台帳.md",
+      "bytes": 20498,
+      "gitBlobSha1": "0747a58065c6c796b2a9e9f57168fa794e155d3c",
+      "sha256": "8e088f9380be0444f87c8462fea4cfc0cf051e29af6da679a57188d62cf0e8d2"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL001至VOL005_CH0001-0066.md",
+      "bytes": 15631,
+      "gitBlobSha1": "63c5c5cf31213dbb781eab5ff2e425eab46c2cfb",
+      "sha256": "dae525e77f8c3dbf510a9b5313c772cd6178cca4ee2b81c171d1a6a34f77cf90"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL006至VOL010_CH0067-0138.md",
+      "bytes": 10418,
+      "gitBlobSha1": "b7cead008ab150cedee12f2a9a94ddf1153d5bf8",
+      "sha256": "45268452f0a1d4257f6a9450f891120953edc79e0693ca187b8b94a3230ece50"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL011至VOL015_CH0139-0213.md",
+      "bytes": 17198,
+      "gitBlobSha1": "9f80d4e30963c7e44806741c29886b061a950499",
+      "sha256": "2cd2c984884e84012e8a14159dcff5fa8dd80a0cfd5c59effb4d46c1ead351ea"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL016至VOL020_CH0214-0290.md",
+      "bytes": 11750,
+      "gitBlobSha1": "de0f5f58084992a04c08385eb0caeef7505aa65b",
+      "sha256": "ab98a9d549c1dbc6e1c7c52e5745a6e2e3260393b6b8757db90b5172ced3c588"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL021至VOL025_CH0291-0363.md",
+      "bytes": 16914,
+      "gitBlobSha1": "c9b6904bb380554a3fd51685ea075ed55b9ccb51",
+      "sha256": "9a1917d2e558327be547a284d2623741423bd72bc028b6387523dc69f7cfed26"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL026至VOL030_CH0364-0432.md",
+      "bytes": 10543,
+      "gitBlobSha1": "9a1a870b8ce09fc5608585875a7a782f38b3d5ba",
+      "sha256": "24958180635316993b2136eafbb1cc198e8693e922103c5c5e3061fe73124a10"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL031至VOL035_CH0433-0509.md",
+      "bytes": 16307,
+      "gitBlobSha1": "2c70e3b47dca46ac6924e06b533536b2d9e08a94",
+      "sha256": "142f79b0ecc6dbf566e4b5eec8bee067c6a75ae6b3108fe993694ae9ae65ca25"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL036至VOL040_CH0510-0586.md",
+      "bytes": 11612,
+      "gitBlobSha1": "432df987e2911934bb248217db71c402ac6839d6",
+      "sha256": "02294e233363def767b84c190c7ff09ee2b4a61a35818f351daae48124c2130a"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL041至VOL045_CH0587-0661.md",
+      "bytes": 13413,
+      "gitBlobSha1": "f98964038a81a1df72945348fe6d4b5b81f7332d",
+      "sha256": "8b734d36f153baace585bad55379d806d4a574efaf5089451afd3b0213630300"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL046至VOL050_CH0662-0743.md",
+      "bytes": 12498,
+      "gitBlobSha1": "12a62cc8128dee0b16e626cee3a0ddaca80596c7",
+      "sha256": "e74f627e29f6bf6373df5f53ca354f71bead4b4f66fb2dbf781075b5cf1be0c8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL051至VOL055_CH0744-0826.md",
+      "bytes": 12423,
+      "gitBlobSha1": "38744f90a1a05cac9308fb6d69b50f6f22528f14",
+      "sha256": "bd2d679c27d2d2b87567f8d1971bcfc0bd5a4b623e5719ad5651725115610216"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL056至VOL060_CH0827-0910.md",
+      "bytes": 11411,
+      "gitBlobSha1": "c042ca1d6a4f61f6a7df71e7c18efe3bff5c6886",
+      "sha256": "187d51615670eba1910bb889d8750f76a7077413a3fef1dd314a7e8f9225d97e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL061至VOL065_CH0911-0976.md",
+      "bytes": 14760,
+      "gitBlobSha1": "b4d0c1e626807554c39cfee301a947313163ff04",
+      "sha256": "1330797a5c536b9fd21b2ae7a121c4366308a9c2166df12df1e24986057bdf50"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/02_五卷整合/跨卷整合研究_VOL066至VOL070_CH0977-1030.md",
+      "bytes": 14254,
+      "gitBlobSha1": "988121662471896dc19a50b86e493c1270248880",
+      "sha256": "ee8342071262b4e5b8dc261c0eeaf35e528ee36f01d5d0c135f02b7a0dd467ce"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/03_十卷總研究/十卷階段總研究報告_VOL001至VOL010_CH0001-0138.md",
+      "bytes": 18361,
+      "gitBlobSha1": "9e5260283c16fd025af47aea65d4263ceae7a622",
+      "sha256": "4e9ead1ab8abaea3a83616abcf1aaf0f72aaac03d661953a319b82f8d83a807e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/03_十卷總研究/十卷階段總研究報告_VOL011至VOL020_CH0139-0290.md",
+      "bytes": 16001,
+      "gitBlobSha1": "0f9e74d2e9ecbbb9bda59e2563a311959a052501",
+      "sha256": "00057baebec61d595fd2474be60b975b2ed3f4a663cc18db1c5628f39b95b992"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/03_十卷總研究/十卷階段總研究報告_VOL021至VOL030_CH0291-0432.md",
+      "bytes": 10760,
+      "gitBlobSha1": "cbb1270e96aa6174659599d700c1e11511ef3f79",
+      "sha256": "bf783bfd5365ff9720488f3efe804b0e8064cd08ae92d2c9158fd516d2f79aba"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/03_十卷總研究/十卷階段總研究報告_VOL031至VOL040_CH0433-0586.md",
+      "bytes": 11305,
+      "gitBlobSha1": "371bdf9f366b6ed9eecb0ce7c82df5feadc34e30",
+      "sha256": "c920dae36daafe2390be4d2f90c6d21d63e236fc885e4016b5c71df5d37fa616"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/03_十卷總研究/十卷階段總研究報告_VOL041至VOL050_CH0587-0743.md",
+      "bytes": 11129,
+      "gitBlobSha1": "ccd079e3f90b265d71b987068b51ac56f0e6be54",
+      "sha256": "fa2462503408ba5446976562689519b74d5559046eee8d102a3a1bf7b9259b6b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/03_十卷總研究/十卷階段總研究報告_VOL051至VOL060_CH0744-0910.md",
+      "bytes": 12971,
+      "gitBlobSha1": "d3d5d31ea0f311cc6678a6689fb21a9f215cd61b",
+      "sha256": "d617ebd145f2747eb610c5a3850524abf2626d20c092cc6e8f03997e1daf85e0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/03_十卷總研究/十卷階段總研究報告_VOL061至VOL070_CH0911-1030.md",
+      "bytes": 12233,
+      "gitBlobSha1": "d8044d7e7d8786eaa7dfe2aa65094a0cdf7d8898",
+      "sha256": "19a60c1f4be2fc3ecbeb2fbef1e3d46cccaf55bf95d0f5ca87c7837a8013e275"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/04_全書總論/候選寫作技法_T43至T46_未升格.md",
+      "bytes": 13045,
+      "gitBlobSha1": "7d7fe2a01c3b5bf54a15cbb0a93783f6d8f7df29",
+      "sha256": "2ced81b08196d979bf104dc86d007ed7dc94630703d95d2a18d1fcb845cad7b3"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/04_全書總論/全70卷1030章_十二部分寫作技術總研究.md",
+      "bytes": 80584,
+      "gitBlobSha1": "6df2b1d6cbf3889214e2f18e50af1c7794c9bfa3",
+      "sha256": "98f34c5012f8c913c449e993ea782804c6b4d0fef63a83c25a3faa200973aa19"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/04_全書總論/全書主台帳_70卷1030章_v0.15.md",
+      "bytes": 22462,
+      "gitBlobSha1": "63537e770f8d41cdf50d316d5cbdd702c70eff39",
+      "sha256": "c909a54cd4a14d31968ef19b62e4c91321802c075ebeb226fff1a9c6d217d9e8"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/04_全書總論/最終閱讀進度表_v0.15.md",
+      "bytes": 22328,
+      "gitBlobSha1": "677661f8b8fd0c024879f47bb4a8d0458f757362",
+      "sha256": "80a5f7f79f464d1aeab29d7f7df28954c9f7a129d7c7023e625b1ffb0b48af40"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/04_全書總論/正式寫作技法_T01至T42.md",
+      "bytes": 57805,
+      "gitBlobSha1": "6c941d07c89bc17e95aaa514c855f5c07505fa33",
+      "sha256": "93e08933844eb11f74abe2a193bf3a89986efb4f26526f1f913a421fce8368e0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/04_全書總論/總導航與正式版本交接.md",
+      "bytes": 27648,
+      "gitBlobSha1": "990dbdcac1cdd07f7cc55abc32566e214c73b91c",
+      "sha256": "08e184714da82c552ec94061338195d22516e4de3ed8b7b550398ab0dbb95a1b"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_01of09.txt",
+      "bytes": 176463,
+      "gitBlobSha1": "d354d31e2929243834d2f71092759fd4d3b2de23",
+      "sha256": "e25dae80b48b2eecd241ea2ea0e5dc3f5cb8aaec606907e948a7e977f8c632e6"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_02of09.txt",
+      "bytes": 179399,
+      "gitBlobSha1": "06bd4da58aec285a78f6059452f7c49f46a5ef7c",
+      "sha256": "ab60420503fe35a0f5d18a159639b9a7c3d7239943813c6b840a25fb9c44d332"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_03of09.txt",
+      "bytes": 182248,
+      "gitBlobSha1": "900ab8b9117d540757cdff4862091cb2e6f382ea",
+      "sha256": "842203b54ae52d6a6e4a526b8aa31741655e75ece98a2df127a11aec02261321"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_04of09.txt",
+      "bytes": 181190,
+      "gitBlobSha1": "69b46399e4ce082d03a3b5a38a364c910f123a2f",
+      "sha256": "cfd993a786e9377420259638fd6a32813cac0e3a2bf6d0724e2ec84efd0ba439"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_05of09.txt",
+      "bytes": 182070,
+      "gitBlobSha1": "5d531a33a78c646dafa8e30c2d130bbe830bd7c3",
+      "sha256": "3eb52b3d32f5bff58737e16d30e6b9485fef9f8aa36ee6949b8525fa09bfe72c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_06of09.txt",
+      "bytes": 182988,
+      "gitBlobSha1": "e45fd376e1042eb61fdc9c2ab35e9e94e1c21a99",
+      "sha256": "016586a8113557de741e24330556c4b7f3e2d11f3eb23a696261b756f04d2f6c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_07of09.txt",
+      "bytes": 182281,
+      "gitBlobSha1": "bc73b999c90a5caae9c35c2f27b1cd9115fa5d06",
+      "sha256": "194c305cdcf4fec6161e04c84f62da1b7c2c79977b04d3c9f69a393c259ea2fb"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_08of09.txt",
+      "bytes": 183212,
+      "gitBlobSha1": "879edd484cfd9549bd39e7740d1cbc7dc7eb490a",
+      "sha256": "1586481b1897e2d30afc59a10848c025b158c9f658ea3e76fe83bc272c24e5f0"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/05_寫作素材總庫完整備份/正式QJ素材總庫_v0.15_原件片段_09of09.txt",
+      "bytes": 107097,
+      "gitBlobSha1": "072b99f8dac157c7135607eadfc2fe992ed89f04",
+      "sha256": "94a034b1bc47817c3aecacedd98e622bcc6ae45729b98a22c8f055ce729073ed"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/README.md",
+      "bytes": 27433,
+      "gitBlobSha1": "dac68c025f5ebe7733e42440e966138f51766844",
+      "sha256": "4661d1f28563643bd9438b30eb7cee7201958ca9ed71e6de4b6b275eb9af9f6d"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/70卷完整研究文庫/完整鏡像_驗收記錄_20261124.md",
+      "bytes": 4391,
+      "gitBlobSha1": "28c252c7a13e5b163d26cd0ad94b756846f1dac9",
+      "sha256": "83e384768d7d0aa6e7e3a6557c2b4671cbfa275f7764b874482928ae85eb7487"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/001_VOL001_人物活性幽默冒險動機與資訊差_非正史.md",
+      "bytes": 8046,
+      "gitBlobSha1": "c8970fdf6db9fb9365e56e3338fad6644213e332",
+      "sha256": "24edaf42c4efb07befd9f7be518a68bedaf60f75ee3ac4d3db492a9ae0b5e987"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/GPT獨立原文對照/第01輪_VOL001至005_CH0001-0066_跨卷獨立研究_非正史.md",
+      "bytes": 14202,
+      "gitBlobSha1": "7af35f8cb431992b0691e02574027bd6b30cfaba",
+      "sha256": "10034e812620047765639e03b43965ca2d0f5ff0eef23bce5540d31c89040743"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/README.md",
+      "bytes": 6547,
+      "gitBlobSha1": "5b7ce0dd9d64d93f08c41d390955e68ef7cf1d8d",
+      "sha256": "a07aa1ab4fe4c1fbb6ad748b889eb6eb6f6f8a5104087f410ffc475eeba426ab"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/八項候選技法_結構初審_非正史.md",
+      "bytes": 4571,
+      "gitBlobSha1": "3f8f832ea2d0395a11ffa4646d5faeb368aee8c2",
+      "sha256": "62c8d7dd31210c5c719cd91a0ebdd17b4bd027b650242738bab09d8251da009e"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/研讀與素材回補_雙線結案QA_非正史.md",
+      "bytes": 5084,
+      "gitBlobSha1": "c42629b26e68321e6afebb223a6fde0ced6f7246",
+      "sha256": "98d028b34e5c08afd22bb0717bf30ecb937fd979d201284a302028c72cbb3f4c"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/素材檢索_696條.tsv",
+      "bytes": 259065,
+      "gitBlobSha1": "86d05571e7af0808be248d61b85615d6e7b9170d",
+      "sha256": "f47288f564d5143b599348095dd2d9dd5d8bfec1f6090ce529fe6df4d50e92b7"
+    },
+    {
+      "path": "小說/巨構世界（法月懷造物）/06_敘事規劃與工作流/異常大舞台_全書研究交接_20261124/素材檢索_離線版.html",
+      "bytes": 319279,
+      "gitBlobSha1": "b5bf9cf9841978f5bc49031750b0883318131afb",
+      "sha256": "d87e1ef98f63c5cae8aa2d1b9153cfcf474e2bd7aa785771c6dcc390debead0d"
+    }
+  ],
+  "crossBatchClosed": [],
+  "partialSources": []
+}
