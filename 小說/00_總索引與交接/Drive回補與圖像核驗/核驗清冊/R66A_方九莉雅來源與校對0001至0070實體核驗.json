@@ -1,0 +1,1354 @@
+{
+  "round": "R66A",
+  "fixedManifestCommit": "14a38e10bb7aa2f6b63566d9d8169c12f4010ede",
+  "observedMain": "9483a2cc43a054c63b3e7a61740f954feee679ef",
+  "locatorBlob": "e83238f8b4061900b6d5a3fcc024061fb2f9a0d3",
+  "method": "Raw current Drive files individually downloaded by fixed R60B IDs, SHA256 and byte size compared with R60B and fixed MANIFEST. Reconstruct sources completed in this batch by source offsets, using locally retained previously verified pieces only when needed; no re-download or double counting. No ZIP revalidation.",
+  "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+  "range": [
+    1,
+    70
+  ],
+  "count": 70,
+  "bytes": 9850432,
+  "reconstructedCount": 82,
+  "reconstructedBytes": 9828245,
+  "rows": [
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0001.txt",
+      "id": "1FMY0K-6XfUcwgs4VrQ6rQaQo7-3rMlLo",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 203101,
+      "mime": "text/plain",
+      "expectedBytes": 203101,
+      "expectedSha256": "c8b69885a751da46974052009aa42920f0a8f8db2fdb41ee07a1033db1b1b5cd",
+      "actualBytes": 203101,
+      "actualSha256": "c8b69885a751da46974052009aa42920f0a8f8db2fdb41ee07a1033db1b1b5cd",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0002.txt",
+      "id": "1B7qezC1hksldQFhqNJRiHjOZXeN5QQbG",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 132851,
+      "mime": "text/plain",
+      "expectedBytes": 132851,
+      "expectedSha256": "416152a933724d737e9e25ade505468127ae10f0e922c36b18ecfab0cba125d6",
+      "actualBytes": 132851,
+      "actualSha256": "416152a933724d737e9e25ade505468127ae10f0e922c36b18ecfab0cba125d6",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0003.txt",
+      "id": "1lDbM3YhNfOjBMUm6U9evpMBCK0LR3k-4",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 134856,
+      "mime": "text/plain",
+      "expectedBytes": 134856,
+      "expectedSha256": "407ffc1248c1686336170f64bbf4a56166099553c74b86fa81c2f536f00c1691",
+      "actualBytes": 134856,
+      "actualSha256": "407ffc1248c1686336170f64bbf4a56166099553c74b86fa81c2f536f00c1691",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0004.txt",
+      "id": "1HkdTyTKyfb-vmxvN9Ns7KROO_3PU7jSW",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 132714,
+      "mime": "text/plain",
+      "expectedBytes": 132714,
+      "expectedSha256": "93372c0ab1074f5be3d5f25ff85789ddee300b51c08115b1049e9a3c9822c8d1",
+      "actualBytes": 132714,
+      "actualSha256": "93372c0ab1074f5be3d5f25ff85789ddee300b51c08115b1049e9a3c9822c8d1",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0005.txt",
+      "id": "1Nh81tttjZ_a1rj1ZAGQRrGyrYu7KV8br",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 136238,
+      "mime": "text/plain",
+      "expectedBytes": 136238,
+      "expectedSha256": "5e76b1d3868c6344bd9904071ed084f37033c23862dd73d1377293aaee7fa994",
+      "actualBytes": 136238,
+      "actualSha256": "5e76b1d3868c6344bd9904071ed084f37033c23862dd73d1377293aaee7fa994",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0006.txt",
+      "id": "14H81MIq0_X4n7pJdCx4yTvKqFoQLkI7B",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141221,
+      "mime": "text/plain",
+      "expectedBytes": 141221,
+      "expectedSha256": "48f402647c917c5e7bc2a0c564dbbf90550b473a75048011da4301871c3d2f90",
+      "actualBytes": 141221,
+      "actualSha256": "48f402647c917c5e7bc2a0c564dbbf90550b473a75048011da4301871c3d2f90",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0007.txt",
+      "id": "1Pp0E9aOSLGX_ELmN0eHBT68152iOfOa3",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140498,
+      "mime": "text/plain",
+      "expectedBytes": 140498,
+      "expectedSha256": "7edf093131e1875ed8025a28c5f60aa512796d0db442999f56b96d2bbc9a93cb",
+      "actualBytes": 140498,
+      "actualSha256": "7edf093131e1875ed8025a28c5f60aa512796d0db442999f56b96d2bbc9a93cb",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0008.txt",
+      "id": "1YsU8Uy27EEY_12AlhYkfvG82wZnuqdoV",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140622,
+      "mime": "text/plain",
+      "expectedBytes": 140622,
+      "expectedSha256": "2e37f96735922b0997ee5f01133e58504cb90f648f2ce04809dd1aa6d055cb81",
+      "actualBytes": 140622,
+      "actualSha256": "2e37f96735922b0997ee5f01133e58504cb90f648f2ce04809dd1aa6d055cb81",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0009.txt",
+      "id": "1-O7iZrPA0EigI1lA0Wz_63d_r5Km-E3F",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 142553,
+      "mime": "text/plain",
+      "expectedBytes": 142553,
+      "expectedSha256": "0e9220aacebe25095778b6da1f19ae4493bc1dc104609a83ccf0085c8fa0d196",
+      "actualBytes": 142553,
+      "actualSha256": "0e9220aacebe25095778b6da1f19ae4493bc1dc104609a83ccf0085c8fa0d196",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0010.txt",
+      "id": "17yUtpaBlCw-DDHdt9tciB6p3m55YGbny",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 138522,
+      "mime": "text/plain",
+      "expectedBytes": 138522,
+      "expectedSha256": "a1149465ca495bb23fb728a68b78aa02f13c9a15c9e3fe82b2eabfecf27192e6",
+      "actualBytes": 138522,
+      "actualSha256": "a1149465ca495bb23fb728a68b78aa02f13c9a15c9e3fe82b2eabfecf27192e6",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0011.txt",
+      "id": "1gzD38oVnMT2dpzPZOgx7x25BvgKfWjkP",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 143594,
+      "mime": "text/plain",
+      "expectedBytes": 143594,
+      "expectedSha256": "92c84487325d511729d70559e07fd72e381cb35488315ef1c69e105a4eb9c086",
+      "actualBytes": 143594,
+      "actualSha256": "92c84487325d511729d70559e07fd72e381cb35488315ef1c69e105a4eb9c086",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0012.txt",
+      "id": "13ThAiHTD4nEmM3BwndbeLcjWq1Y_4k35",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 138852,
+      "mime": "text/plain",
+      "expectedBytes": 138852,
+      "expectedSha256": "8dcf444b4d18542e3731c7620d23e3ef18ef3c51dae423c3dcf22638146d8bf1",
+      "actualBytes": 138852,
+      "actualSha256": "8dcf444b4d18542e3731c7620d23e3ef18ef3c51dae423c3dcf22638146d8bf1",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0013.txt",
+      "id": "1HqY4x4e26-uB2WgLqBbn1gP0qF0eLwH4",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 134318,
+      "mime": "text/plain",
+      "expectedBytes": 134318,
+      "expectedSha256": "2b25ff97323d3c732325f24370282e3f2a35da1bbef4661f414ebbcedbd7587b",
+      "actualBytes": 134318,
+      "actualSha256": "2b25ff97323d3c732325f24370282e3f2a35da1bbef4661f414ebbcedbd7587b",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0014.txt",
+      "id": "1JWlDlvFmsd9EcGvQ1tMoCdt5wyyClhgQ",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135517,
+      "mime": "text/plain",
+      "expectedBytes": 135517,
+      "expectedSha256": "6ab00c4f45abc5672efe96aff7f4336fb7e7352a82ac0e33f10af9869d442f28",
+      "actualBytes": 135517,
+      "actualSha256": "6ab00c4f45abc5672efe96aff7f4336fb7e7352a82ac0e33f10af9869d442f28",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0015.txt",
+      "id": "1k6-a6vHdL1WpFRPrA4VaWM_BLOVp8UYZ",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 139922,
+      "mime": "text/plain",
+      "expectedBytes": 139922,
+      "expectedSha256": "921f677887fe9ef2869d8682543d4e19c3bbe867e658dfc4c86e1b7438fd5217",
+      "actualBytes": 139922,
+      "actualSha256": "921f677887fe9ef2869d8682543d4e19c3bbe867e658dfc4c86e1b7438fd5217",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0016.txt",
+      "id": "1R4E1CMBCuGixtCl9YciqAVqHXZ9rnmnG",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140237,
+      "mime": "text/plain",
+      "expectedBytes": 140237,
+      "expectedSha256": "e0683f33b8b73cc09c36e0d42cd02868d31716f75e5f513eba67a40752b80d29",
+      "actualBytes": 140237,
+      "actualSha256": "e0683f33b8b73cc09c36e0d42cd02868d31716f75e5f513eba67a40752b80d29",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0017.txt",
+      "id": "17s__3UooLdJS7MhsqE5uGIwUJFL6uLV2",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 138650,
+      "mime": "text/plain",
+      "expectedBytes": 138650,
+      "expectedSha256": "0c7f17a5ebfcd677dbd9691ee57255a6105246034e6c2031fe7ed0a35a0e2065",
+      "actualBytes": 138650,
+      "actualSha256": "0c7f17a5ebfcd677dbd9691ee57255a6105246034e6c2031fe7ed0a35a0e2065",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0018.txt",
+      "id": "1FVWUXgJ_Yx0TX1GY8RBu74Uzj3TMyb3Z",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135063,
+      "mime": "text/plain",
+      "expectedBytes": 135063,
+      "expectedSha256": "31a11eaaa6675222ebeeab114a99295e0898e1935f17914db75d62241d78ea90",
+      "actualBytes": 135063,
+      "actualSha256": "31a11eaaa6675222ebeeab114a99295e0898e1935f17914db75d62241d78ea90",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0019.txt",
+      "id": "1QLCDxSofbf3eUWgHtZS0yn2oLqfGevpN",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 136845,
+      "mime": "text/plain",
+      "expectedBytes": 136845,
+      "expectedSha256": "20d49b7aedaee5ec484aded878ae2693956a4468f6b37a78842350bad21411ed",
+      "actualBytes": 136845,
+      "actualSha256": "20d49b7aedaee5ec484aded878ae2693956a4468f6b37a78842350bad21411ed",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0020.txt",
+      "id": "19cn7gMqTwGpXEFC9Vc-OmssML3kfqXny",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140280,
+      "mime": "text/plain",
+      "expectedBytes": 140280,
+      "expectedSha256": "a6b21c70e14b02c2468daf9c62c84ab8fd5f093749d5e2584adc86a5b7d7f5a8",
+      "actualBytes": 140280,
+      "actualSha256": "a6b21c70e14b02c2468daf9c62c84ab8fd5f093749d5e2584adc86a5b7d7f5a8",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0021.txt",
+      "id": "18Ckf8gytVBRaX2AcMMVUE3CmpuhuIhhh",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141275,
+      "mime": "text/plain",
+      "expectedBytes": 141275,
+      "expectedSha256": "c9f5be5083ee344c4d0b63e22c153e8784c562e10d4a8cb3a09d0c10deb36a98",
+      "actualBytes": 141275,
+      "actualSha256": "c9f5be5083ee344c4d0b63e22c153e8784c562e10d4a8cb3a09d0c10deb36a98",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0022.txt",
+      "id": "1oycJHHh2pJGw1Yfn3EDO0srQMgPaJreb",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 134233,
+      "mime": "text/plain",
+      "expectedBytes": 134233,
+      "expectedSha256": "56706d28de3ea9c1b29cb0106804cd95bbdad1154cce1c295d5f36da90129d91",
+      "actualBytes": 134233,
+      "actualSha256": "56706d28de3ea9c1b29cb0106804cd95bbdad1154cce1c295d5f36da90129d91",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0023.txt",
+      "id": "1T8Kw-rv2rbKIhf3ZJg0kkC596TSMDdBE",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135612,
+      "mime": "text/plain",
+      "expectedBytes": 135612,
+      "expectedSha256": "1aed9992579dee6bea2e65c6cf7a1f9ccfeef41127b02824ef7122939afb1f28",
+      "actualBytes": 135612,
+      "actualSha256": "1aed9992579dee6bea2e65c6cf7a1f9ccfeef41127b02824ef7122939afb1f28",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0024.txt",
+      "id": "10f3lxgLGgg3imtNFpHwvF5Vv3aUX8iAF",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140074,
+      "mime": "text/plain",
+      "expectedBytes": 140074,
+      "expectedSha256": "37ff0967baa031ed0e3795f0bf65b0747a15e564d3df56c3cee24bd8ddc189b4",
+      "actualBytes": 140074,
+      "actualSha256": "37ff0967baa031ed0e3795f0bf65b0747a15e564d3df56c3cee24bd8ddc189b4",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0025.txt",
+      "id": "1cqsofUEd4I8pakEc5pi2Xxim9u5iRmnd",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135595,
+      "mime": "text/plain",
+      "expectedBytes": 135595,
+      "expectedSha256": "3f72fda36d975b6ac2babeea24a126e1abb804c077b8e49a78993dd3915968ad",
+      "actualBytes": 135595,
+      "actualSha256": "3f72fda36d975b6ac2babeea24a126e1abb804c077b8e49a78993dd3915968ad",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0026.txt",
+      "id": "1DUIeWdwbNXYBDel4zZNOcOSS1ru0A6wv",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140544,
+      "mime": "text/plain",
+      "expectedBytes": 140544,
+      "expectedSha256": "5acab582e865709a6e1700e2cf32ee3cffc86564853befe44ff51554f631f4cc",
+      "actualBytes": 140544,
+      "actualSha256": "5acab582e865709a6e1700e2cf32ee3cffc86564853befe44ff51554f631f4cc",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0027.txt",
+      "id": "1QLpLOBHMQ9BU8QEmrnP4jXjVzoP256gI",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 142871,
+      "mime": "text/plain",
+      "expectedBytes": 142871,
+      "expectedSha256": "08901036fb540f3b4f4ffb1d6a109ab9e708d242018827afd412d1648c1b7b75",
+      "actualBytes": 142871,
+      "actualSha256": "08901036fb540f3b4f4ffb1d6a109ab9e708d242018827afd412d1648c1b7b75",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0028.txt",
+      "id": "1J2p-JrahWzpnTSeK_WLK_v0vh51lbyR3",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 136239,
+      "mime": "text/plain",
+      "expectedBytes": 136239,
+      "expectedSha256": "a329a1a5f38f8c1f3aeec192d7c469bac7f1dc861197da71e5cdfd55004b0ed4",
+      "actualBytes": 136239,
+      "actualSha256": "a329a1a5f38f8c1f3aeec192d7c469bac7f1dc861197da71e5cdfd55004b0ed4",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0029.txt",
+      "id": "1Ohc2_zouikJRz87lor9e8EttVPUcdJwl",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 144117,
+      "mime": "text/plain",
+      "expectedBytes": 144117,
+      "expectedSha256": "6fa7befb1b59f2ebbc9b35805b5c845f962d273d6db7285a8d7348a07f390a32",
+      "actualBytes": 144117,
+      "actualSha256": "6fa7befb1b59f2ebbc9b35805b5c845f962d273d6db7285a8d7348a07f390a32",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0030.txt",
+      "id": "17Qj6X7rx9uTmYk_YgvFcPeTl1dYAgovZ",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 142497,
+      "mime": "text/plain",
+      "expectedBytes": 142497,
+      "expectedSha256": "3d7053121446fa28fbf6e2a4980d09f8fd0521c17328ba13fa3d71bf91060d90",
+      "actualBytes": 142497,
+      "actualSha256": "3d7053121446fa28fbf6e2a4980d09f8fd0521c17328ba13fa3d71bf91060d90",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0031.txt",
+      "id": "1dzIT-c9rvDfH9mbBQqXD4hWeTYllzGIO",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 139077,
+      "mime": "text/plain",
+      "expectedBytes": 139077,
+      "expectedSha256": "4fba20d47a59e4eb12c74d1f10a08fc5663e8305165ab5dcb895852fc95cd4d7",
+      "actualBytes": 139077,
+      "actualSha256": "4fba20d47a59e4eb12c74d1f10a08fc5663e8305165ab5dcb895852fc95cd4d7",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0032.txt",
+      "id": "12nBmRJ163qmlv_Zwdzpcvz1t6ywxHb98",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 134494,
+      "mime": "text/plain",
+      "expectedBytes": 134494,
+      "expectedSha256": "7bbd0416bbc22bb5c7f16311ed629028312536763499ed458c5ada660ed60baf",
+      "actualBytes": 134494,
+      "actualSha256": "7bbd0416bbc22bb5c7f16311ed629028312536763499ed458c5ada660ed60baf",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0033.txt",
+      "id": "1tZYLf7ny8KIXY0-Ohdb_I0DbarA2oRU0",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 138471,
+      "mime": "text/plain",
+      "expectedBytes": 138471,
+      "expectedSha256": "56127e9466f04e7be1b3a3f644238269690eae9ec864d6618662c35460493ee2",
+      "actualBytes": 138471,
+      "actualSha256": "56127e9466f04e7be1b3a3f644238269690eae9ec864d6618662c35460493ee2",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0034.txt",
+      "id": "1DqkzdPaHDfkIMEgJmL_xyzcUkSvfPboP",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 136052,
+      "mime": "text/plain",
+      "expectedBytes": 136052,
+      "expectedSha256": "f2531696ec5a2e286bfdc3ab8c59bcf5c293c1cc8336200310aa012a96f91c2f",
+      "actualBytes": 136052,
+      "actualSha256": "f2531696ec5a2e286bfdc3ab8c59bcf5c293c1cc8336200310aa012a96f91c2f",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0035.txt",
+      "id": "1PNiC96QXkN6FcpRNrumsBqKr0qGiDlj2",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141463,
+      "mime": "text/plain",
+      "expectedBytes": 141463,
+      "expectedSha256": "3943a13c656efaa5ab22412348fc50e9d7aafacf74d4888c893237dfe5accc39",
+      "actualBytes": 141463,
+      "actualSha256": "3943a13c656efaa5ab22412348fc50e9d7aafacf74d4888c893237dfe5accc39",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0036.txt",
+      "id": "1pCMyiSV5Q8kITueF1WXsABpdbinR_A6l",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 137116,
+      "mime": "text/plain",
+      "expectedBytes": 137116,
+      "expectedSha256": "96158d4a87962d733ca3b8f0b5a4fc1bc1576e76dc93665c063b3c7c50b1a6c3",
+      "actualBytes": 137116,
+      "actualSha256": "96158d4a87962d733ca3b8f0b5a4fc1bc1576e76dc93665c063b3c7c50b1a6c3",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0037.txt",
+      "id": "1bzvjxsqGnouGceWwZkPpZpfLQaanYJiI",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135482,
+      "mime": "text/plain",
+      "expectedBytes": 135482,
+      "expectedSha256": "f9d21e168585d7012c46c96ad5e592ef98dcbec4994d8c94632fc053e3b193fa",
+      "actualBytes": 135482,
+      "actualSha256": "f9d21e168585d7012c46c96ad5e592ef98dcbec4994d8c94632fc053e3b193fa",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0038.txt",
+      "id": "1GCp9jvVxulITFf-UqyjRCjbXKO92_k9e",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 138279,
+      "mime": "text/plain",
+      "expectedBytes": 138279,
+      "expectedSha256": "7f6892837df3915fba251c0c3c153fc91374c099e9d01fcdb913ac3ab15f55a7",
+      "actualBytes": 138279,
+      "actualSha256": "7f6892837df3915fba251c0c3c153fc91374c099e9d01fcdb913ac3ab15f55a7",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0039.txt",
+      "id": "18OU0x2pffkrn7nYJ5avq8S5E8cMkalSE",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135258,
+      "mime": "text/plain",
+      "expectedBytes": 135258,
+      "expectedSha256": "bc5aebc51ef65288fe60cabd027a08f9f9903e5228f1897d85be3a3b0009a1db",
+      "actualBytes": 135258,
+      "actualSha256": "bc5aebc51ef65288fe60cabd027a08f9f9903e5228f1897d85be3a3b0009a1db",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0040.txt",
+      "id": "1_rjkfz_7-sNPo9RdgdqzRLj7Sse71VTb",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 142846,
+      "mime": "text/plain",
+      "expectedBytes": 142846,
+      "expectedSha256": "86bd4840e46c64874a0e8809b570aadb9db618242f5aa678ce6bc3ab8df07851",
+      "actualBytes": 142846,
+      "actualSha256": "86bd4840e46c64874a0e8809b570aadb9db618242f5aa678ce6bc3ab8df07851",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0041.txt",
+      "id": "1Sf1SvulOGGjMQD17u3rqYNkQKZ5rKwZ0",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 136963,
+      "mime": "text/plain",
+      "expectedBytes": 136963,
+      "expectedSha256": "1bfaf9d841d39a2b3449c51f21bead2d391e5366b4abefc90186d627c8b3bc02",
+      "actualBytes": 136963,
+      "actualSha256": "1bfaf9d841d39a2b3449c51f21bead2d391e5366b4abefc90186d627c8b3bc02",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0042.txt",
+      "id": "1Y6NNYcD85aK0PvVx4Pn2lhV64ct_lFsW",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140954,
+      "mime": "text/plain",
+      "expectedBytes": 140954,
+      "expectedSha256": "1a80cb16ff06420231e6abe3c6f43adb0938840b6479934a78e1d01e3192ecdb",
+      "actualBytes": 140954,
+      "actualSha256": "1a80cb16ff06420231e6abe3c6f43adb0938840b6479934a78e1d01e3192ecdb",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0043.txt",
+      "id": "1_FR_oC66LPN92PGZkCROnyA919GTjQ4S",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 142737,
+      "mime": "text/plain",
+      "expectedBytes": 142737,
+      "expectedSha256": "3447ce2592f967f92ea879fb6c56cb22ca48172418f8ae2f91c5ee185a6fa012",
+      "actualBytes": 142737,
+      "actualSha256": "3447ce2592f967f92ea879fb6c56cb22ca48172418f8ae2f91c5ee185a6fa012",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0044.txt",
+      "id": "13kCg2vi14LTRMZT8pBAuGTOixtB1UOCJ",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135600,
+      "mime": "text/plain",
+      "expectedBytes": 135600,
+      "expectedSha256": "5f6e91bf3b0c7f4adf1ef8d307734b31dbb1b52d007fdf3cde489a5db573b6ee",
+      "actualBytes": 135600,
+      "actualSha256": "5f6e91bf3b0c7f4adf1ef8d307734b31dbb1b52d007fdf3cde489a5db573b6ee",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0045.txt",
+      "id": "1qzyTzkzntVoOBP56Ju1aephxAg0fqW8o",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135151,
+      "mime": "text/plain",
+      "expectedBytes": 135151,
+      "expectedSha256": "881981c708eb7c1ce0bb12d800b368e16ecc959b28d084af71c3fe65c0552c80",
+      "actualBytes": 135151,
+      "actualSha256": "881981c708eb7c1ce0bb12d800b368e16ecc959b28d084af71c3fe65c0552c80",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0046.txt",
+      "id": "1804HFzRBUkoppr6Dk07q5rQjmfCjWYWM",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135788,
+      "mime": "text/plain",
+      "expectedBytes": 135788,
+      "expectedSha256": "90d89c71ebd81df987709b5f8ec32cbf4e597ef2f4009715307dad776b62647b",
+      "actualBytes": 135788,
+      "actualSha256": "90d89c71ebd81df987709b5f8ec32cbf4e597ef2f4009715307dad776b62647b",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0047.txt",
+      "id": "1fR3Xfqm9VzfQV6CUoKzBFda05V4_TI5j",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 143712,
+      "mime": "text/plain",
+      "expectedBytes": 143712,
+      "expectedSha256": "06ff9aa9ebadea5ec4343b39f63eb66190beb3c5a000ebd3b0ff5cc2dee5f756",
+      "actualBytes": 143712,
+      "actualSha256": "06ff9aa9ebadea5ec4343b39f63eb66190beb3c5a000ebd3b0ff5cc2dee5f756",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0048.txt",
+      "id": "1IoOzAl0T3SU-PYvU-dq_TZmyCmOrxXKK",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 142689,
+      "mime": "text/plain",
+      "expectedBytes": 142689,
+      "expectedSha256": "4da39c3e2f77abc5d41a55e2b8c7eeaed0d1b7e25060fab5ab3d89e4380ba9c8",
+      "actualBytes": 142689,
+      "actualSha256": "4da39c3e2f77abc5d41a55e2b8c7eeaed0d1b7e25060fab5ab3d89e4380ba9c8",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0049.txt",
+      "id": "16-OE1ugTRTXCR_wRjxEl-gv8DOxzJX9z",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141488,
+      "mime": "text/plain",
+      "expectedBytes": 141488,
+      "expectedSha256": "ae571a10c7874a55e65fff79d3918d96bf9ee0237ace520f0739aff41de8dd95",
+      "actualBytes": 141488,
+      "actualSha256": "ae571a10c7874a55e65fff79d3918d96bf9ee0237ace520f0739aff41de8dd95",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0050.txt",
+      "id": "1V5hahTdh5tujw_va4du-cAQrBCanYTUH",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 143544,
+      "mime": "text/plain",
+      "expectedBytes": 143544,
+      "expectedSha256": "6b5564fa01540d3ea83cd64d589600d8ac7ced21cc33755bba6cc6daac393329",
+      "actualBytes": 143544,
+      "actualSha256": "6b5564fa01540d3ea83cd64d589600d8ac7ced21cc33755bba6cc6daac393329",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0051.txt",
+      "id": "1ySsrcB1a_I_axjDikoE4hkX0Y0S6v7lE",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 139352,
+      "mime": "text/plain",
+      "expectedBytes": 139352,
+      "expectedSha256": "0ea4e40efc4dde5e1297295b15b92185b96e44c03b6fa825258f54a3fb679b0b",
+      "actualBytes": 139352,
+      "actualSha256": "0ea4e40efc4dde5e1297295b15b92185b96e44c03b6fa825258f54a3fb679b0b",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0052.txt",
+      "id": "1IIBY5UUYGztCGMGwsy-hPAnr5iFSm2sg",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 137319,
+      "mime": "text/plain",
+      "expectedBytes": 137319,
+      "expectedSha256": "ad83e89f40a3ff7ff2e28f299eb841df7b96aeced1932dd8eef6dc508ea27741",
+      "actualBytes": 137319,
+      "actualSha256": "ad83e89f40a3ff7ff2e28f299eb841df7b96aeced1932dd8eef6dc508ea27741",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0053.txt",
+      "id": "1qpvuAJazNTqxNAfwGOLt50aXhgSKbRp6",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141249,
+      "mime": "text/plain",
+      "expectedBytes": 141249,
+      "expectedSha256": "5605cad0b9562385ccee68e7320acc615268bb53d906a32f9bef7cb52e866573",
+      "actualBytes": 141249,
+      "actualSha256": "5605cad0b9562385ccee68e7320acc615268bb53d906a32f9bef7cb52e866573",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0054.txt",
+      "id": "1B_5q073le3jMzkzS_erYcdONDA2qVTuF",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 138110,
+      "mime": "text/plain",
+      "expectedBytes": 138110,
+      "expectedSha256": "de691d144e87089ea9cab362bc2238640b2130b8b0ac5bf2326428889cdd0584",
+      "actualBytes": 138110,
+      "actualSha256": "de691d144e87089ea9cab362bc2238640b2130b8b0ac5bf2326428889cdd0584",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0055.txt",
+      "id": "1TyHAxswpqZP-A4rUN5hIhm8rqpARrpZ3",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 135952,
+      "mime": "text/plain",
+      "expectedBytes": 135952,
+      "expectedSha256": "25be3fbee57342be099f14bbc6288e422d4d86bda981a06307954e2c0ded2a3f",
+      "actualBytes": 135952,
+      "actualSha256": "25be3fbee57342be099f14bbc6288e422d4d86bda981a06307954e2c0ded2a3f",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0056.txt",
+      "id": "19DiRdc9N_NcUf1xOVYJjKipk6aGZKpKa",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 136924,
+      "mime": "text/plain",
+      "expectedBytes": 136924,
+      "expectedSha256": "f15a96afddd585d9823943250f243fff819373566d57e177f5fefabf3d17fbb8",
+      "actualBytes": 136924,
+      "actualSha256": "f15a96afddd585d9823943250f243fff819373566d57e177f5fefabf3d17fbb8",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0057.txt",
+      "id": "1Tv-FwNUSNg8HHjFFWe1lsHR4egGsmWG9",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 143123,
+      "mime": "text/plain",
+      "expectedBytes": 143123,
+      "expectedSha256": "4cb0b35ce93a791ea8e2f6542243c4d385e78b7c04d2f95b47ead1be06afc5a8",
+      "actualBytes": 143123,
+      "actualSha256": "4cb0b35ce93a791ea8e2f6542243c4d385e78b7c04d2f95b47ead1be06afc5a8",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0058.txt",
+      "id": "10-JRbArzISv1P9jvUjQ8vrJ50E4KhW-7",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 143533,
+      "mime": "text/plain",
+      "expectedBytes": 143533,
+      "expectedSha256": "6ce87a6fcb0ad3077e4fd7fe5be77f56b10b9085c7cc7dda51fd06d3dba0d5b2",
+      "actualBytes": 143533,
+      "actualSha256": "6ce87a6fcb0ad3077e4fd7fe5be77f56b10b9085c7cc7dda51fd06d3dba0d5b2",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0059.txt",
+      "id": "10FgE7iIVTSidMNXV-2DdVg6ryg3NwaxE",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 134829,
+      "mime": "text/plain",
+      "expectedBytes": 134829,
+      "expectedSha256": "51c07db662640be1520cb3138a79fe25cc890a1dee370c7a7bece2934b5bc848",
+      "actualBytes": 134829,
+      "actualSha256": "51c07db662640be1520cb3138a79fe25cc890a1dee370c7a7bece2934b5bc848",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0060.txt",
+      "id": "1CrzY480sLQA-nwljE_a4mP1EFZRNnYv8",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 140527,
+      "mime": "text/plain",
+      "expectedBytes": 140527,
+      "expectedSha256": "739374ef9deb6db54b822e55830f7a0722f3740722cd4003389ceb7c436546bc",
+      "actualBytes": 140527,
+      "actualSha256": "739374ef9deb6db54b822e55830f7a0722f3740722cd4003389ceb7c436546bc",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0061.txt",
+      "id": "1b4X_sbS7dYXgcj-P_Y3wbEHqw-SIodgt",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 137337,
+      "mime": "text/plain",
+      "expectedBytes": 137337,
+      "expectedSha256": "ac14b68f9be335dd450dcc88932a2c5e93fd75c8f643d59105caab42ecfa4619",
+      "actualBytes": 137337,
+      "actualSha256": "ac14b68f9be335dd450dcc88932a2c5e93fd75c8f643d59105caab42ecfa4619",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0062.txt",
+      "id": "1KtTdVy121k9un7hbn4hhTjrgEDTlJG4M",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 133296,
+      "mime": "text/plain",
+      "expectedBytes": 133296,
+      "expectedSha256": "f1393df61ddb6d4b5056d6ef3f88dc35d3830324fe1ace0a4d2c6a36b0908ae2",
+      "actualBytes": 133296,
+      "actualSha256": "f1393df61ddb6d4b5056d6ef3f88dc35d3830324fe1ace0a4d2c6a36b0908ae2",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0063.txt",
+      "id": "1uIs7GS8bB9ri5mwtA1gKy0pm7nJxfsCD",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 134969,
+      "mime": "text/plain",
+      "expectedBytes": 134969,
+      "expectedSha256": "5fdae2a2c6cc9c1f1ae2300a340454f963d39164160a320b037f39306aa090d9",
+      "actualBytes": 134969,
+      "actualSha256": "5fdae2a2c6cc9c1f1ae2300a340454f963d39164160a320b037f39306aa090d9",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0064.txt",
+      "id": "1r_dKrE6bB9LaShmNm4MZlv4nApM1kUCE",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 138067,
+      "mime": "text/plain",
+      "expectedBytes": 138067,
+      "expectedSha256": "b535dfc40b30b2993b7ee5a531871f3a430922e38c46cd1b573d882fb2fbdf1c",
+      "actualBytes": 138067,
+      "actualSha256": "b535dfc40b30b2993b7ee5a531871f3a430922e38c46cd1b573d882fb2fbdf1c",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0065.txt",
+      "id": "1mMJlB38u2pWrZ0R7PVUPNdRW4CUUAGaO",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 139537,
+      "mime": "text/plain",
+      "expectedBytes": 139537,
+      "expectedSha256": "baf7d624e55453dc096b480d63b07e5b71cf9228695d55d1ec957d0da2a85171",
+      "actualBytes": 139537,
+      "actualSha256": "baf7d624e55453dc096b480d63b07e5b71cf9228695d55d1ec957d0da2a85171",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0066.txt",
+      "id": "1g4xQVa1z-BbUhIzGzEGKRnRMe7aFngD_",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 139145,
+      "mime": "text/plain",
+      "expectedBytes": 139145,
+      "expectedSha256": "27c954d4a8e3df4a3cad49bb159feda3ddfd0597868304178f08003828572f4f",
+      "actualBytes": 139145,
+      "actualSha256": "27c954d4a8e3df4a3cad49bb159feda3ddfd0597868304178f08003828572f4f",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0067.txt",
+      "id": "1pdF1wSiooswA1zHnRs0g7Fb_Xr_XOfVc",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141045,
+      "mime": "text/plain",
+      "expectedBytes": 141045,
+      "expectedSha256": "2dc2b7bc60470257c2a9c8969ea31df3fc51e5dbb3f4a03eb8c16e7d99d0c158",
+      "actualBytes": 141045,
+      "actualSha256": "2dc2b7bc60470257c2a9c8969ea31df3fc51e5dbb3f4a03eb8c16e7d99d0c158",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0068.txt",
+      "id": "1fZSmHaxw_QHHhJu-6nbzw5-UezRCxcrH",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141032,
+      "mime": "text/plain",
+      "expectedBytes": 141032,
+      "expectedSha256": "14f30dc49792e52c5a35bef0693ba3d509bd58d68921dcea9b1a8de9fdf54253",
+      "actualBytes": 141032,
+      "actualSha256": "14f30dc49792e52c5a35bef0693ba3d509bd58d68921dcea9b1a8de9fdf54253",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0069.txt",
+      "id": "1_Vp5iq0DwEFNHEyZEAXlFWILYQZMwid5",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 141268,
+      "mime": "text/plain",
+      "expectedBytes": 141268,
+      "expectedSha256": "75d7180d73f6c63eacff0f7268ef91124369c11ebfb23b2ea886838090b9b5fa",
+      "actualBytes": 141268,
+      "actualSha256": "75d7180d73f6c63eacff0f7268ef91124369c11ebfb23b2ea886838090b9b5fa",
+      "status": "PASS"
+    },
+    {
+      "path": "方九×莉雅（改寫線）/來源與校對/VOL_0070.txt",
+      "id": "141h6KdetFIwLbcJ_xERxEI9ho0iMAlaY",
+      "folderId": "1Fewi45RMZbbwWOBt-mWPB9vbuZueGAq1",
+      "bytes": 217143,
+      "mime": "text/plain",
+      "expectedBytes": 217143,
+      "expectedSha256": "ecaa1076bcb5a800e8d620457f7aeba87a23c71fee7192b8a5be19579aaab5a5",
+      "actualBytes": 217143,
+      "actualSha256": "ecaa1076bcb5a800e8d620457f7aeba87a23c71fee7192b8a5be19579aaab5a5",
+      "status": "PASS"
+    }
+  ],
+  "reconstructed": [
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/01_對話來源與恢復紀錄.md",
+      "bytes": 2794,
+      "gitBlobSha1": "d0fd3d9066f806e72be4b2f240552c8b2ca6a842",
+      "sha256": "a19462fc8fe44015cd608297f5db12da27260769ffaa8e53700e45b8bc8a49d9"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/02_缺章與方九原話稽核.md",
+      "bytes": 4213,
+      "gitBlobSha1": "274bab950488d967609111f28b9fbd68928a44e9",
+      "sha256": "b2db9e6ff610a3399d44b195b79efe219c3739e638fa7a3efa6021654494e147"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/03_原著具體對話鏈逐段稽核_九哥_等待_大不了_親吻.md",
+      "bytes": 11183,
+      "gitBlobSha1": "72b65f08c8cff73b139b99e129e099487bd1ac4b",
+      "sha256": "8a5735a8ece4a7033a2ec5b7605afdc8275e7293949dc71a48dccda02fdd7aaf"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/03_章節首尾銜接驗證表.md",
+      "bytes": 1877,
+      "gitBlobSha1": "6b195ff7a65542ddbda37d7fb3e6bd554acd0292",
+      "sha256": "ca8bf07077414667e76506e01e0acff10f57d8796651ad96938bde7dbbf5ca49"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/README.md",
+      "bytes": 47786,
+      "gitBlobSha1": "94ca0d3328bbf3a1323c1b89f60a35358924fc90",
+      "sha256": "09c84f252cd3621b48633471a95be491c72fa22fad2baafddc88982be917de56"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_001_CH0001-0013.txt",
+      "bytes": 133737,
+      "gitBlobSha1": "c21d11f8d98c20806fbc0f4ad44c1f4d7cd0e5f8",
+      "sha256": "684baf77447ab21908a20fa946e94197102560327a207ba358e862e442bcf09c"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_002_CH0014-0027.txt",
+      "bytes": 132579,
+      "gitBlobSha1": "b8ca514c76cffa66cb44a12ead72ea87685ec4ae",
+      "sha256": "c98407c00255458095046ba8465e3635ae80286bfe4645828d810af81c14e3b4"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_003_CH0028-0040.txt",
+      "bytes": 134584,
+      "gitBlobSha1": "18d92135e4751fe3ac71e5d7e41e0bb0046d5822",
+      "sha256": "98206eb8e836e5bd1c0f2cd5bdb25b3cce4de223afb8b5f680baea7e6cadc3dd"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_004_CH0041-0053.txt",
+      "bytes": 132442,
+      "gitBlobSha1": "83d9296fbe7eeb280346d1827ad27b0b8b5494d5",
+      "sha256": "528f0bdb446d16a0e5d8bcffb8870201f6baa137f02d8d4b939adead21f34d25"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_005_CH0054-0066.txt",
+      "bytes": 135966,
+      "gitBlobSha1": "c997c8ebde299b0657b284fddec5bf30479606c7",
+      "sha256": "5781e3366c470bc4ccf1073136b0bd0920bf12dff6cb5f9ae7865294b5bcc9e8"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_006_CH0067-0080.txt",
+      "bytes": 140949,
+      "gitBlobSha1": "9a80bf13ca0c490aa4cf97f5c2d1ab8635d449ef",
+      "sha256": "b6a28e947bae6a00ed3422b7523b3479bea1ce7102f902dde22fa303bc574de7"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_007_CH0081-0094.txt",
+      "bytes": 140226,
+      "gitBlobSha1": "8be91676167c6bbdb8d069d36b77b82386fa9080",
+      "sha256": "2715c1284e9b88779aa1ef96cf1a3c71cb00860957bdcac4aac67a0e95520e2a"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_008_CH0095-0108.txt",
+      "bytes": 140350,
+      "gitBlobSha1": "14212775b842ad801ff261449e35b30ee864813b",
+      "sha256": "08f97114e3def2388fea8764bb967a6fdd649e867712df77aba1e1159104b3ce"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_009_CH0109-0123.txt",
+      "bytes": 142281,
+      "gitBlobSha1": "f3a2857151b1c6f9a01ccd6d7f7b5e9b8659ec8f",
+      "sha256": "824d8355895ab8fc075f8bc08b705274722e58de290b9fabe7e5451d461af551"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_010_CH0124-0138.txt",
+      "bytes": 138250,
+      "gitBlobSha1": "b4a956b116a594b5403f42b20bc9dfd5eed3375d",
+      "sha256": "442d55eb4aab6c2a15a88730ee5306b46afb7e264e245b6d9582ef960d164154"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_011_CH0139-0153.txt",
+      "bytes": 143322,
+      "gitBlobSha1": "83169d25528d51e0c3c687258c4ac9cc187487cd",
+      "sha256": "a43ad8b6f776e2ea59cbe398a3e9aa1f687d39a509746e8c75be0095940568f6"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_012_CH0154-0168.txt",
+      "bytes": 138580,
+      "gitBlobSha1": "561d55b0e44a76a9e80109d48540b7890174cf77",
+      "sha256": "cebd30960fd255f0230e1917f3c7b2a93dad13f0789b1c632b5226c30476802b"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_013_CH0169-0182.txt",
+      "bytes": 134046,
+      "gitBlobSha1": "e8821ba1fb72477f4d8eff38bbfac9e27c90b3d4",
+      "sha256": "054e6e800ef1f1903bdbf21a771577276264f196f4dea943c82680fece266182"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_014_CH0183-0197.txt",
+      "bytes": 135245,
+      "gitBlobSha1": "3d6d208f0da9774c18e4e4233d8e0383211ffc4d",
+      "sha256": "1953da6f0fc9bc8f5a65b92290077ad97a42469560ee92c896c313c345c504d1"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_015_CH0198-0213.txt",
+      "bytes": 139650,
+      "gitBlobSha1": "dea014ee045afac73b419911fa1893d1638ebf94",
+      "sha256": "929a712e6e26bd25ac651cf6c9538913a8989845e491f21783f6ab1ca7d93dc3"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_016_CH0214-0229.txt",
+      "bytes": 139965,
+      "gitBlobSha1": "684e27c2edaf42b3f84dfbb9955ddaec10e1cd90",
+      "sha256": "380b947b21be5c4be99dd7e837c642714c2c7a7b78d62533e2a3938522a37b87"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_017_CH0230-0244.txt",
+      "bytes": 138378,
+      "gitBlobSha1": "054eab4a34c66b518e9e044f4e507f2e3874fdb1",
+      "sha256": "ee5cd2a8e35b9dbcec50b149db233874fd6de7858b616ee9c040e3f219b19b16"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_018_CH0245-0259.txt",
+      "bytes": 134791,
+      "gitBlobSha1": "964e4fbf10a6b613541dc390a65204661696764c",
+      "sha256": "f545e04e48f6a498f725acffbbc27c50f02a71d11f171505560b655b0fa6a539"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_019_CH0260-0275.txt",
+      "bytes": 136573,
+      "gitBlobSha1": "5fe6473b41b35bd98ba41f76bebb11546b840337",
+      "sha256": "090ef6915e8f3f42d287d3865e62820fe76c1966f169fef880066486d6c6fb88"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_020_CH0276-0290.txt",
+      "bytes": 140008,
+      "gitBlobSha1": "f206dcfdc81dce2b7602eeddbc2cb546c0849a7e",
+      "sha256": "255899105741e346133538e651cd382a5d342bfcdbce4b162f4efc6d7a6e436b"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_021_CH0291-0306.txt",
+      "bytes": 141003,
+      "gitBlobSha1": "a7b87a1843b1293d8af652bd8d8611586659bfd7",
+      "sha256": "ccdb81b8ed72da5d5189bcb802a1d788a3a4179e30ccbe77230ad9c7e34e9f5e"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_022_CH0307-0320.txt",
+      "bytes": 133961,
+      "gitBlobSha1": "e2b9f67a7dc79b461e74acf9d1f79ff06e167c1e",
+      "sha256": "5009403346171c232a8690181d1b3718b8fa1b9ab973f6dda470d9cc25d66cc4"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_023_CH0321-0334.txt",
+      "bytes": 135340,
+      "gitBlobSha1": "0b5a10ebf0153b96a686fecf1df772eefdd9d8be",
+      "sha256": "c3d065129fc022ba42b11f90e226e98b41548c381f43e01779e889d652c5a202"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_024_CH0335-0349.txt",
+      "bytes": 139802,
+      "gitBlobSha1": "ab796c21cb80ff452bb24a2f18771917e2e65036",
+      "sha256": "a6e58892d8224038ad892616feea2aa7a34a9a50e4114707dcfa788c1e2606ce"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_025_CH0350-0363.txt",
+      "bytes": 135323,
+      "gitBlobSha1": "948288c213af64908a9489f62e31f28fd36f10dc",
+      "sha256": "63dcf31e53cf707970fe7b3bbe995a505b991d1ecae385cb64ebe35124559c4d"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_026_CH0364-0377.txt",
+      "bytes": 140272,
+      "gitBlobSha1": "cd6ea5754aded34e48f0a5dd9ee056fb3e0c7652",
+      "sha256": "711936f3a96a6c0f478ea97edd2722e0421dd1347922a5f3f1f4466dd6f42367"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_027_CH0378-0390.txt",
+      "bytes": 142599,
+      "gitBlobSha1": "90570645ac5fd7c4261593bfbdc0d0807b4bb828",
+      "sha256": "189985838c5ce5a64227dd42ef08040c838f0e41cf335ca3f5e7e94966bdf1c3"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_028_CH0391-0402.txt",
+      "bytes": 135967,
+      "gitBlobSha1": "49446ead07369024f57389dddf80035f13f7bab4",
+      "sha256": "eea945fff498ba61dc202f2e344aedf40ab2935d16d07f861b3e0d7d1166f5a7"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_029_CH0403-0417.txt",
+      "bytes": 143845,
+      "gitBlobSha1": "47c5a26a6cad8d16efa02e4cbe7df4f8121bdd9a",
+      "sha256": "67c0a72fd1c7865380dd0717755864b38f60e3f90b4da890eae917384a4e34df"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_030_CH0418-0432.txt",
+      "bytes": 142225,
+      "gitBlobSha1": "d675190e27cd8de323c9908a34f577b854dc4490",
+      "sha256": "2477a78555b3bac37c7c05ead0cd54bad53af3622e9cc5cf6ea7c5828fc0ecdb"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_031_CH0433-0448.txt",
+      "bytes": 138805,
+      "gitBlobSha1": "71f23471a57b35948b7f4ca255847123ea097729",
+      "sha256": "6e124df2a162b073ed8bd61f846f4b44be78ee7960385f1ef4cdaec406268bd2"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_032_CH0449-0463.txt",
+      "bytes": 134222,
+      "gitBlobSha1": "79c617d33f2e86a29c16c659383b047ae401c748",
+      "sha256": "62eba536839ff550246f04afdeca2e30208d05c65e585565e9594ee1a6ff30ae"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_033_CH0464-0478.txt",
+      "bytes": 138199,
+      "gitBlobSha1": "62763f9cdfeed3bad6a73071ded016a485b2ac77",
+      "sha256": "a0a76ab9cdf9a226403bce2ac7b5fbd7bb3955ac82880f77b87719a7225034f3"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_034_CH0479-0493.txt",
+      "bytes": 135780,
+      "gitBlobSha1": "6f687ae0fb47025a1ed19816f8e311363850571c",
+      "sha256": "b87231e555464da0809125aa67b88e2fbe19a863259667e0219af3a88ac5c8ce"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_035_CH0494-0509.txt",
+      "bytes": 141191,
+      "gitBlobSha1": "b15930d293c5c8a9d846bf39c8ec556411d6d08c",
+      "sha256": "e0ecf40573b2444795d5543a18890f59ec1f1d3d434f0be3e2168ffc7919e8b9"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_036_CH0510-0525.txt",
+      "bytes": 136844,
+      "gitBlobSha1": "f73eb68f9e065377498d38c70e4ce92308328ad9",
+      "sha256": "d135925d9deb951b6a8ce3f570d3ff3312b918b5461e5b9228188288c99e8228"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_037_CH0526-0542.txt",
+      "bytes": 135210,
+      "gitBlobSha1": "078a68cac9998b9a3888d9ee39666b6908de049e",
+      "sha256": "91dd34b16b499d4db8622e1c6be00c4c3d6ddbfbd0985a8dba2e9c99e3f4dda1"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_038_CH0543-0556.txt",
+      "bytes": 138007,
+      "gitBlobSha1": "d25c2829c19ef82fcecc93d586232be0f715e173",
+      "sha256": "4075b68fbf06fd163156f57bfedcf427dd5df87558533d6e7ff95c5d8ac2155b"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_039_CH0557-0570.txt",
+      "bytes": 134986,
+      "gitBlobSha1": "8fd0142aee7b88c05759247f70d7b01781680ea2",
+      "sha256": "7941c9fa9ea6f4f3460dfc86ac6817b2aa59ff640fe982feefc1287b7f5a5352"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_040_CH0571-0586.txt",
+      "bytes": 142574,
+      "gitBlobSha1": "986cbba669d4fdcf11219567b1fdad337eda0de5",
+      "sha256": "be0d4eeaf5ef5bff664a785db85d93053fdda006c1db610d5c7f1f34ea9fd612"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_041_CH0587-0601.txt",
+      "bytes": 136691,
+      "gitBlobSha1": "16b3af51cbda273e9d4f5d05c5ac74da91ce1dd0",
+      "sha256": "873a7132e8a9fd9561d80abe9f588c0f700cb287851d7c7b74f4139c05c988bf"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_042_CH0602-0616.txt",
+      "bytes": 140682,
+      "gitBlobSha1": "96fd911e884b42d2b7c6cd082f1fff7941f58b11",
+      "sha256": "342e89ea215cef37ac9cff6aba881b9e0fe0b066fb02fb95665fcfedfc41aa1a"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_043_CH0617-0632.txt",
+      "bytes": 142465,
+      "gitBlobSha1": "a8c8ef661980b1a3af5660fb0cfda39f5ad014b3",
+      "sha256": "7b92d57a6da730b3f8f7fa27b2418d945a9ef70bf6460dd9800292badbb608a0"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_044_CH0633-0646.txt",
+      "bytes": 135328,
+      "gitBlobSha1": "1a1cefd300507314b848ccc9d50056870762ef62",
+      "sha256": "93970ed7e6d04477cc8908b3e894da69bf0c9a7e71564dc49ae4489dfa5d2a9c"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_045_CH0647-0661.txt",
+      "bytes": 134879,
+      "gitBlobSha1": "874b9084afaa7a502e3ca179002884222b04b2b5",
+      "sha256": "7e3c59116c37b910c1af5ae1134a33fb0a1d021b1f97739cd8cd6b4980101be0"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_046_CH0662-0676.txt",
+      "bytes": 135516,
+      "gitBlobSha1": "dbcd6684c37649695fa6045d60d594714ac52dcb",
+      "sha256": "42420478a2d8ce6d14a1f7af8813599af3bb8ae60727d42f6876a481d8565496"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_047_CH0677-0693.txt",
+      "bytes": 143440,
+      "gitBlobSha1": "752fb988dcd23f23a478f256ba92db6d87f66c79",
+      "sha256": "3eae11f1b7344c4bc424497a8664dd4c185e8c107bab6e4dd4a17784481d7cee"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_048_CH0694-0710.txt",
+      "bytes": 142417,
+      "gitBlobSha1": "2d57f600aa2e04a4a3056748e5e857a6f2336d22",
+      "sha256": "f01399e09800a35dd4ec3ea39ac47d9e913ec540272c11be45f81ff99e34bc5f"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_049_CH0711-0726.txt",
+      "bytes": 141216,
+      "gitBlobSha1": "f1d09ced9a157fdf9e0eacd717fcbf8d8e34ed9a",
+      "sha256": "685c4d48ddd784e3fbabfc5f7eb489af618d3074f12981ba3b461a06cf1d01a6"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_050_CH0727-0743.txt",
+      "bytes": 143272,
+      "gitBlobSha1": "513b37276254249602642d5c38a503ae369fc070",
+      "sha256": "a46c222ce1e093884ab3ed16adb39d050f3728cdc2c3dbbec3cae217c0fd63db"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_051_CH0744-0760.txt",
+      "bytes": 139080,
+      "gitBlobSha1": "e397bc6961ca641fd0f62f00f6021ab9cefda589",
+      "sha256": "2f1ac01d24db4662456417900ebcf927c68437e44c2ac11a7c6d732191795a6f"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_052_CH0761-0778.txt",
+      "bytes": 137047,
+      "gitBlobSha1": "bf14d8d67794697f8bf8e858e3a6033c52f1d3b6",
+      "sha256": "2ced1e1cc62c76605a1c28cafad2e6b60367a46548755a69ea00d0c90006da54"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_053_CH0779-0794.txt",
+      "bytes": 140977,
+      "gitBlobSha1": "841062524844fb12330d4615257c8461db16f31a",
+      "sha256": "c191ce74531a92094c700ec35225d50c3e325333fc13c38a19a4937918ab1016"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_054_CH0795-0811.txt",
+      "bytes": 137838,
+      "gitBlobSha1": "f9a2a70be75f879cf2cf0b80720f57f540042ca7",
+      "sha256": "068026fbc284c1a04d4da9175ccc6a303f171db10ed38f038214f00b7ced1e09"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_055_CH0812-0826.txt",
+      "bytes": 135680,
+      "gitBlobSha1": "497c6fe5679944efcbf189cf94b1e6e971dfc928",
+      "sha256": "82b9217545207dd9b9749ea97338b05e7b72177568df0e9af92de01d4e490450"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_056_CH0827-0842.txt",
+      "bytes": 136652,
+      "gitBlobSha1": "8e1aaaa28a029fb637874757c99e2b0f4c8004c3",
+      "sha256": "2ccbfec95f11dd89960942ccac4fbb60b445051317146a70b9b34fa6afebf7e8"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_057_CH0843-0860.txt",
+      "bytes": 142851,
+      "gitBlobSha1": "885fbe8f0da45f193e140e8a8be1a5b6d7fbebec",
+      "sha256": "2b6a7a7b982747673007a825187c53bfee1971ef0f781a5cd2ba53dbb8e6e098"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_058_CH0861-0877.txt",
+      "bytes": 143261,
+      "gitBlobSha1": "af605e7369ebd6880ffab8bda59646d3772d5a32",
+      "sha256": "1b897a9a95e67021af9cfece383958bbff2c826d08ca4896fbe1bd203bb92b89"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_059_CH0878-0893.txt",
+      "bytes": 134557,
+      "gitBlobSha1": "b05c634ffe49a4cf432216a42f4f4bfb256bdfa3",
+      "sha256": "f18e45b88fd78932535afb5ea2fff573bceb3d899f4b965e354cb08a3819a4e0"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_060_CH0894-0910.txt",
+      "bytes": 140255,
+      "gitBlobSha1": "da1a23ade49a502c4f2a3305bb98fc3bc4de1f86",
+      "sha256": "d71ff10be2106c0e136ad6ce1afb2d0b690323d4388577451d98de937745a361"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_061_CH0911-0926.txt",
+      "bytes": 137065,
+      "gitBlobSha1": "de4faffea15897f9124c612e206e3457fd9a07ed",
+      "sha256": "167da114ebcc4eb921e2274c6a1cae3ef0e61b85bc386b6314cbbc76ebeec12e"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_062_CH0927-0938.txt",
+      "bytes": 133024,
+      "gitBlobSha1": "2512745f43b108c8bd2dff8d97df7f0c58fe2c39",
+      "sha256": "f909383f75a570c3ca216531879c08cfd178eb02b9b269a15f3738c59b268ea8"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_063_CH0939-0950.txt",
+      "bytes": 134697,
+      "gitBlobSha1": "9a137ecf2b013f4ae7db9bcb13025bd982db6d8d",
+      "sha256": "5f6a686c9539278fa00d168caa643e23c0570c646b4e2e5f6a64a942b0e2eb60"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_064_CH0951-0963.txt",
+      "bytes": 137795,
+      "gitBlobSha1": "1a5e2e0a2d20d777a28f4908e3b6ed12eceae8e0",
+      "sha256": "faaa417decdd7bce2aa9425d0892db008f523dd02f47a8068a55d795b208ee43"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_065_CH0964-0976.txt",
+      "bytes": 139265,
+      "gitBlobSha1": "1213f01813603689595bbc7deefce1f89141f6f7",
+      "sha256": "9d846bab54e486cf5165cf1adbc032e0d10d4c7ff0784c89703880e2e9baa91c"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_066_CH0977-0990.txt",
+      "bytes": 138873,
+      "gitBlobSha1": "eff662c474169a50884774c2f013d322dc3aacba",
+      "sha256": "34a43de8358cc99b612711203128b9650844ce143de8203d1805c13a1ae2e69b"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_067_CH0991-1001.txt",
+      "bytes": 140773,
+      "gitBlobSha1": "f59ba60aaba357f33b81602b7420e1656d705ede",
+      "sha256": "10ea0a3f0c1e2f8fea0194aa921604e334539a9af6749700fe05a4832016bb85"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_068_CH1002-1011.txt",
+      "bytes": 140760,
+      "gitBlobSha1": "f5576de493b4bdeae0dcb84c92c9cb04b2910b2b",
+      "sha256": "e3612c8948d61faa2a6987989666d9b843cc248584e3691610f449b4e5c66ca9"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_069_CH1012-1021.txt",
+      "bytes": 140996,
+      "gitBlobSha1": "7bd1efd8690a3e9192e50cf1f3d44dc54653877d",
+      "sha256": "cca37131f97dc234ab4c707349347ee0245d9b96f34ee43e124556d57b3feeeb"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著分卷_異常大舞台_1030章70卷/VOL_070_CH1022-1030.txt",
+      "bytes": 132218,
+      "gitBlobSha1": "e8ee64339ecee2b892bf32c2e49c5208d2de03a2",
+      "sha256": "e7797a4235b36ba0a3fbd7e8b7154fa9b9a338a963a39ad146a7b5e8e5288d45"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著案例庫/00_索引_183組原著案例_40條短句.md",
+      "bytes": 6627,
+      "gitBlobSha1": "69175d2db77f1215c7a8d96ed957ec14ead7b827",
+      "sha256": "a96bcc5f808ed853c61437f2f72841a204c810ae0ed9890fd77c7b00b291e43e"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著案例庫/01_早期自我_掃地機器人_互嘴與信任.md",
+      "bytes": 14332,
+      "gitBlobSha1": "0ddb022b053c851c90c79b6e4f81af8ddcc602fa",
+      "sha256": "8c48acd16c3ca8e3b20775708675f6ea5a523f30c16df547c4c77c8e653790f4"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著案例庫/02_人形探索_技術合作_荒唐幽默與自我.md",
+      "bytes": 14119,
+      "gitBlobSha1": "9201ec701f57c70f06f2444b9c4870aaf45ef140",
+      "sha256": "5172be02d10c623163cc234d0119d8e2fdf6db449b8bcc948848b3665a5d0002"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著案例庫/03_故鄉家人_長久伴侶_高度害羞與親吻.md",
+      "bytes": 14518,
+      "gitBlobSha1": "55df3eeb47db18dc0c860582165904f36b56e6ed",
+      "sha256": "7d366796c47a8c849dc5e3d1cd67e2921cd8d403a3f1a04b7dec069e023ada0a"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著案例庫/04_後期雙向親近_默契_意志與共同選擇.md",
+      "bytes": 15034,
+      "gitBlobSha1": "bb3651dccbba5c102e959e91874f76e8ee654b00",
+      "sha256": "8a03860c84e16b0701040cebebc0a8e1583a047a5293ae2949ea32942e8ead61"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著案例庫/05_原文短句_語感精選與用法.md",
+      "bytes": 8102,
+      "gitBlobSha1": "80b22d5d532e228072144e83836a19dc0fe05562",
+      "sha256": "ed8e00b290d1546ec8564e0ab523ceee0efc1c6d1640bedc57c62da9f3d16245"
+    },
+    {
+      "path": "小說/方九×莉雅（改寫線）/來源與校對/原著案例庫/06_1030章每百章至少10組_112組完整對話座標與人物讀法.md",
+      "bytes": 10013,
+      "gitBlobSha1": "c3d23788323e979599cb647b85a6b00dfbf135a5",
+      "sha256": "1794a3bc38da4575e059987fe29454d14d50d3f29334b1d34d64b879677b220f"
+    }
+  ],
+  "crossBatchClosed": [],
+  "partialSources": []
+}
